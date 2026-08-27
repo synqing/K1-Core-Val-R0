@@ -1,0 +1,70 @@
+project:
+  name: K1-CORE-VAL-R0
+  purpose: hardware_validation_platform
+  production_board: false
+  gate: VAL-G0
+  updated: 2026-08-27
+
+eda:
+  authority: easyeda_pro
+  project_created: false
+  schematic_documents_allowed: 1
+  hierarchical_sheets_allowed: false
+  pcb_created: false
+  single_sheet_qualification_run: false
+
+mechanical:
+  thickness_mm: 1.6
+  copper_layers: 6
+  east_west_length_mm: OPEN
+  compactness_priority: subordinate_to_correctness
+
+stackup:
+  candidate: JLC06161H-3313
+  status: PREFERRED_CANDIDATE_NOT_ORDER_FROZEN
+  outer_copper_oz: 1.0
+  inner_copper_oz: 0.5
+
+architecture:
+  q0a_dual_mcu: REAFFIRMED
+  monolithic_s3: LEGACY_ORACLE
+  q0b_compute_location: OPEN_B_VS_C
+
+ownership:
+  audio_capture: RT1062
+  audio_processing: RT1062
+  gdft_spectral: RT1062
+  tempo_onset_saliency: RT1062
+  vp: RT1062
+  render: RT1062
+  pixel_buffers: RT1062
+  fastled_adaptation: RT1062
+  led_output: RT1062
+  audio_clock_master: RT1062
+  mic_power_enable: RT1062
+  accelerometer: RT1062
+  radio: ESP32_S3
+  wireless_control: ESP32_S3
+  nfc_host: ESP32_S3
+  service_usb: ESP32_S3
+  usb_audio: EXPERIMENT_ONLY
+  nfc_frontend: K1_CARRIER
+
+audio:
+  adc_evaluation_part: TLV320ADC6120
+  adc_custom_pcb: HOLD_UNTIL_L0_L1_L2
+  rt1062_native_pdm_decimator: false
+  audio_clock_external_override: REQUIRED
+
+bridge:
+  name: K1BR
+  transport_class: COMMAND_STATE_TELEMETRY
+
+terminology:
+  AP: AUDIO_PROCESSING_ONLY
+  wifi_access_point: WIFI_AP_OR_SOFTAP_OR_ACCESS_POINT
+
+wireless:
+  ble_midi: CURRENT
+  wifi_rest_websocket: PARKED
+  s3_rf_zone: MANDATORY

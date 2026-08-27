@@ -1,0 +1,31 @@
+Non-vacuity proof for the VAL-G0 harnesses.
+Each case corrupts a disposable copy and requires the check to FAIL.
+Run: 2026-08-27
+
+N1 ESP32_S3 assigned audio_capture
+  RESULT: correctly FAILED
+    FAIL: ESP32_S3 assigned real-time function reserved to RT1062: audio_capture
+    FAIL: project.yaml and ownership matrix disagree on audio_capture: RT1062 vs ESP32_S3
+N2 ownership matrix emptied
+  RESULT: correctly FAILED
+    FAIL: ownership matrix parsed zero rows
+    FAIL: required ownership function absent: accelerometer
+N3 required contract deleted
+  RESULT: correctly FAILED
+    FAIL: required authority file missing: contracts/nfc-interface.md
+N4 K1BR permits RAW_PCM
+  RESULT: correctly FAILED
+    FAIL: K1BR does not forbid required payload class: RAW_PCM
+N5 affirmative RT1062 hardware-PDM claim
+  RESULT: correctly FAILED
+    FAIL: architecture/CLOCK-ARCHITECTURE.md:26 affirmative RT1062 hardware-PDM claim: RT1062 provides native PDM hardware decimation via MICFIL.
+N6 bare AP in a Wi-Fi context
+  RESULT: correctly FAILED
+    FAIL: architecture/CLOCK-ARCHITECTURE.md:26 bare 'AP' in a Wi-Fi context: The S3 runs in AP mode over Wi-Fi for service access.
+N7 WebSocket marked current
+  RESULT: correctly FAILED
+    FAIL: project.yaml:72 Wi-Fi/REST/WebSocket marked current: websocket_control: CURRENT
+
+Baseline restored:
+AUTHORITY_CONSISTENCY=PASS
+TERMINOLOGY=PASS

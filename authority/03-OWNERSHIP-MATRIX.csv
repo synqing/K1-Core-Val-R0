@@ -1,0 +1,19 @@
+function,owner,status,source,notes
+audio_capture,RT1062,RATIFIED,2026-08-24 dual-MCU ruling,master-plan v3 section 2
+audio_processing,RT1062,RATIFIED,2026-08-24 dual-MCU ruling,AP means Audio Processing
+gdft_spectral,RT1062,RATIFIED,2026-08-24 dual-MCU ruling,
+tempo_onset_saliency,RT1062,RATIFIED,2026-08-24 dual-MCU ruling,
+vp,RT1062,RATIFIED,2026-08-24 dual-MCU ruling,
+render,RT1062,RATIFIED,2026-08-24 dual-MCU ruling,
+pixel_buffers,RT1062,RATIFIED,master-plan v3,
+fastled_adaptation,RT1062,RATIFIED,master-plan v3,
+led_output,RT1062,RATIFIED,master-plan v3,J2/J3 belong electrically to RT1062
+audio_clock_master,RT1062,DEFAULT,2026-08-27 Q0-C addition,external override required for validation
+mic_power_enable,RT1062,DEFAULT,2026-08-27 Q0-C addition,3V3_MIC switching belongs with capture owner
+accelerometer,RT1062,DEFAULT,2026-08-27 Q0 authority,fit 0R/DNP ownership matrix; never both masters
+radio,ESP32_S3,RATIFIED,2026-08-24 dual-MCU ruling,guard enforces radio-only
+wireless_control,ESP32_S3,RATIFIED,2026-08-06 BLE-MIDI ratification,BLE-MIDI current
+nfc_host,ESP32_S3,DEFAULT,2026-08-27 Q0 authority,tag events converted to semantic commands before K1BR
+service_usb,ESP32_S3,DEFAULT,2026-08-27 Q0 authority,programming diagnostics configuration recovery
+usb_audio,EXPERIMENT_ONLY,EXPERIMENT,2026-08-27 Q0 authority,terminate on RT1062 or named K1BR exception
+nfc_frontend,K1_CARRIER,RATIFIED,2026-08-27 Q0 authority,13.56 MHz path never crosses SSCM-1

@@ -1,0 +1,26 @@
+group,signal,direction,adjacent_ground_required,isolation_required,status,notes
+led,LED_DATA_L,module_to_carrier,yes,no,REQUIRED,fast edge
+led,LED_DATA_R,module_to_carrier,yes,no,REQUIRED,fast edge
+pdm,PDM_CLK,module_to_carrier,yes,no,REQUIRED,3.072 MHz target
+pdm,PDM_DATA,carrier_to_module,yes,no,REQUIRED,
+audio,AUDIO_MCLK,TBD,yes,yes,OPEN,direction depends on clock-source ruling
+audio,AUDIO_BCLK,TBD,yes,yes,OPEN,direction depends on clock-source ruling
+audio,AUDIO_FSYNC,TBD,yes,yes,OPEN,direction depends on clock-source ruling
+audio,AUDIO_SDOUT,carrier_to_module,yes,no,REQUIRED,
+audio,AUDIO_SDIN,module_to_carrier,yes,no,OPTIONAL,
+audio,AUDIO_CLK_SELECT,TBD,no,no,OPEN,source selection mechanism undefined
+audio,EXT_AUDIO_CLK_PRESENT,carrier_to_module,no,no,OPEN,required only if selection is automatic
+control,I2C_SDA,bidirectional,no,no,REQUIRED,shared peripheral bus
+control,I2C_SCL,module_to_carrier,no,no,REQUIRED,
+nfc,NFC_IRQ,carrier_to_module,no,no,REQUIRED,RF path never crosses
+motion,ACCEL_IRQ,carrier_to_module,no,no,REQUIRED,
+usb,USB_DP,bidirectional,yes,no,OPEN,only if processor-side USB retained
+usb,USB_DM,bidirectional,yes,no,OPEN,only if processor-side USB retained
+service,DEBUG_TX,module_to_carrier,no,no,REQUIRED,console ownership undefined
+service,DEBUG_RX,carrier_to_module,no,no,REQUIRED,
+service,RESET,carrier_to_module,no,no,REQUIRED,per-part where both MCUs module-side
+service,BOOT,carrier_to_module,no,no,REQUIRED,per-part where both MCUs module-side
+identity,MODULE_EN,carrier_to_module,no,no,REQUIRED,
+identity,MODULE_PRESENT,module_to_carrier,no,no,REQUIRED,
+identity,MODULE_ID,module_to_carrier,no,no,REQUIRED,
+spare,SPARE,unassigned,no,no,REQUIRED,real contingency; count is a v2 output not an input
