@@ -5,7 +5,7 @@ Updated: 2026-08-27
 | Lane | State |
 | --- | --- |
 | VAL-G0 bootstrap | COMPLETE |
-| VAL-G1 Option B vs C | OPEN |
+| VAL-G1 Option B vs C | **CLOSED 2026-08-27 — Option C selected, Option B deferred** |
 | VAL-G2 single-sheet schematic | NOT STARTED |
 | VAL-G3 envelope and floorplan | NOT STARTED |
 | VAL-G4 placement and locks | NOT STARTED |
@@ -20,10 +20,18 @@ Updated: 2026-08-27
 | Audio L2 RT1062 raw SAI | NOT STARTED |
 | Current-S3 baseline | NOT STARTED |
 
-## Blocked on VAL-G1
+## Blocked on the RT1062 package ruling
 
-Native schematic capture, board outline, GPIO map, audio host connector pinout,
-and the final domain-interaction matrix.
+Native schematic capture. The package must be frozen first (D-027).
+
+## Now unblocked by VAL-G1 closure
+
+The domain-interaction matrix can be instantiated for Option C.
+Board outline and floorplan follow once the package is frozen.
+
+## Carried forward as OPEN
+
+Option C BGA escape and six-layer routability. Not proven. VAL-G3 gate item.
 
 ## Not blocked
 

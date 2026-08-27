@@ -25,4 +25,8 @@
 | D-021 | 2026-08-27 | Independent remote RT power switching stays out of baseline R0. Remote reset and remote recovery are required. | RATIFIED | Captain ruling |
 | D-022 | 2026-08-27 | Layer count: 6 baseline, 8 evidence-triggered escalation, 10 rejected. Escalation triggers and PDN remedy order recorded in pcb/STACKUP-STATUS.md. | RATIFIED | Captain ruling |
 | D-023 | 2026-08-27 | Six-layer PDN-prioritised alternative (L4 = GND) recorded as an available option, not a proposed change. Current L4-as-routing is a deliberate capacity trade. | RATIFIED | Captain ruling |
+| D-024 | 2026-08-27 | VAL-G1 CLOSED. Option C (RT1062 + ESP32_S3 on Core) selected for R0 on programme grounds: fewest simultaneous new structural variables. | RATIFIED | Captain ruling |
+| D-025 | 2026-08-27 | Option B DEFERRED, not rejected. Interface budget PASSES (B2 robust 59/67, 8 spare, 11.94%). Mechanical NOT PROVEN. Thermal OPEN RISK. Modularity value VALID. | RATIFIED | Captain ruling |
+| D-026 | 2026-08-27 | Option C six-layer BGA escape is OPEN. The ring-capacity argument is rejected as a proof: signals cannot be assigned to balls; NXP fixes the ball map. VAL-G3 gains a fixed-ball-map escape gate. | RATIFIED | Captain ruling |
+| D-027 | 2026-08-27 | RT1062 package must be frozen before VAL-G2. Only 196-ball MAPBGA exists: DVL 10x10/0.65mm, DVJ 12x12/0.8mm. No reduced-ball RT1062. Recommended DVJ6B for escape headroom; not yet frozen. | RATIFIED | NXP IMXRT1060CEC + IMXRT1060IEC |
 
