@@ -1,6 +1,6 @@
 # STATUS
 
-Updated: 2026-08-27
+Updated: 2026-08-28
 
 | Lane | State |
 | --- | --- |
@@ -15,11 +15,23 @@ Updated: 2026-08-27
 | VAL-G6 route and DRC | NOT STARTED |
 | VAL-G7 fabrication-output proof | NOT STARTED |
 | VAL-G8 bring-up | NOT STARTED |
-| SSCM-1 recovery pass | NOT RUN |
+| SSCM-1 recovery pass | **COMPLETE_NOT_FOUND** |
 | Audio L0 software SRC | NOT STARTED |
 | Audio L1 ADC6120EVM | NOT STARTED |
 | Audio L2 RT1062 raw SAI | NOT STARTED |
 | Current-S3 baseline | NOT STARTED |
+
+## SSCM-1 recovery state
+
+```text
+SSCM1_RECOVERY_STATE = COMPLETE_NOT_FOUND
+SSCM1_V1_AUTHORITY = UNRECOVERED_UNFROZEN
+SSCM1_V2 = REQUIREMENTS_DRIVEN_REPLACEMENT
+```
+
+The bounded recovery pass is complete. Historical module fragments exist, but the frozen SSCM-1
+v1 specification was not recovered and is not authority. Option B remains deferred and its
+interface feasibility is unproven.
 
 ## Ready to start — qualification first
 

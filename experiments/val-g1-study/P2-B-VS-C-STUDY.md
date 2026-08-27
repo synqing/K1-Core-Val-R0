@@ -1,3 +1,13 @@
+> [!CAUTION]
+> **HISTORICAL PROJECTED ANALYSIS — REJECTED AS ENGINEERING PROOF.**
+>
+> This document contains known errors in arithmetic, processor and domain crossing ownership,
+> connector power-boundary modelling, return-path assumptions, RF keep-out attribution, thermal
+> modelling and BGA escape methodology. It must not be cited to establish Option B feasibility or
+> infeasibility, Option C six-layer routability, required layer count, RT1062 package orientation,
+> BGA fanout, M.2 thermal feasibility or antenna-placement feasibility. Individual facts may be
+> reused only after independent re-derivation from current authority and primary sources.
+
 # Package 2 — Option B versus Option C Escape-Pressure Study (Revised)
 
 **Project:** K1-CORE-VAL-R0  

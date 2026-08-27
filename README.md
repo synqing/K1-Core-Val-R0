@@ -29,3 +29,8 @@ improves RF, SI, PI, EMI, thermal behaviour, routing, measurement access or expe
 
 Both fail closed on missing or empty input. A check that cannot report non-zero input counts
 does not print PASS.
+
+The two harnesses have a disposable negative suite, including the three SSCM-1 recovery-state
+mismatches. This is a test of the existing checkers, not a third checker:
+
+    python3 harness/test_negative_suite.py

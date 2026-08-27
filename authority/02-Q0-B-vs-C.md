@@ -12,6 +12,16 @@ ESP32_S3 is the radio bridge; monolithic ESP32-S3 is the legacy parity oracle on
 | **Option C** — RT1062 and ESP32_S3 on the Core | **SELECTED for K1-CORE-VAL-R0** |
 | **Option B** — carrier plus SSCM-1 compute module | **DEFERRED. Not rejected, not disproven.** |
 
+```text
+OPTION_C = SELECTED
+OPTION_B = DEFERRED
+OPTION_B_INTERFACE_FEASIBILITY = UNPROVEN
+MIMXRT1062DVJ6B = FROZEN
+OPTION_C_BGA_ESCAPE = OPEN
+OPTION_C_6_LAYER_ROUTABILITY = OPEN
+8_LAYER = CONDITIONAL
+```
+
 ### Basis — a programme decision, not a technical defeat
 
 Option C is the shortest path to proving the thing that actually needs proving. It puts the
@@ -32,15 +42,29 @@ instead of debugging the compute architecture and the modular architecture simul
 
 ## Option B — actual status at closure
 
-Option B is **not** recorded as failed. Its measured position:
+Option B is **not** recorded as failed. Its current authority position:
 
 | Aspect | State |
 | --- | --- |
-| Interface budget | **PASS at current estimate.** Sub-option B2 robust = 59 of 67 contacts, 8 spare, 11.94 % contingency |
+| Interface feasibility | **UNPROVEN — prior 59/67 PASS withdrawn** |
 | Mechanical | **NOT PROVEN** — neither viable nor unviable |
 | Thermal | **OPEN RISK** — no quantified model exists |
 | Modularity value | **VALID** — the upgrade path remains genuinely attractive |
 | Reason not selected | Introduces a second custom board and interface architecture before the dual-MCU baseline is proven |
+
+### Why the interface PASS was withdrawn
+
+The VAL-G1 projected study cannot establish either B1 failure or B2 success. It states 26–28 B2
+signal crossings but uses 29 in its lead calculation; crosses service USB and NFC IRQ in B1 even
+though their ESP32_S3 owner remains carrier-side; and allocates return/shield grounds without a
+physical pin assignment or return-path proof.
+
+It also incorrectly treats the complete 2.35 A K1 carrier-source envelope as SSCM-1 connector
+current. Carrier-side LED-power demand does not automatically belong on a compute-module
+connector. If Option B is revived, connector power is re-derived from actual module-local rails
+and loads, including margin, derating and current-sharing requirements. No replacement connector
+current is asserted here, and the carried-forward 0.95 A LED-branch input remains subject to
+board-level re-derivation.
 
 ### Two arguments withdrawn
 
@@ -56,10 +80,9 @@ Option B is **not** recorded as failed. Its measured position:
 ### Note for whoever revisits this
 
 The D13.1 crossing set in `contracts/sscm1-v2/` was written assuming **B1** — ESP32_S3 on the
-carrier, RT1062 on the module. B2 is the stronger pin-budget case because K1BR stays local. If
-Option B is revived, the crossing set must be re-derived for whichever sub-option is chosen.
-The study's own signal count also carries an unresolved contradiction: prose states 26–28
-signals while the lead calculation uses 29. Resolve that before reusing the figures.
+carrier, RT1062 on the module. If Option B is revived, the complete crossing set, rail partition,
+return allocation and contingency must be re-derived for the then-current sub-option. None of the
+P2 contact totals is an input to that future work.
 
 ---
 
@@ -91,8 +114,9 @@ Consequently pinmux, package orientation and BGA escape must be **co-optimised**
 resolved in sequence. That preserves the standing doctrine: placement and physics first, pin
 assignment afterward.
 
-The rejected argument also invoked VIPPO while concluding no HDI was required, which is
-internally inconsistent.
+The rejected argument invoked unspecified dog-bone/VIPPO fanout without defining via geometry,
+annular structure, layer connectivity or compatibility with the selected six-layer process.
+Therefore no HDI or non-HDI conclusion follows from it.
 
 ---
 
@@ -142,6 +166,18 @@ which is not a PCB land. And even on that assumption, two 90 um traces with 90 u
 intertrace clearances consume exactly 450 um: zero surplus before tolerance, registration or
 mask rules. A 330 um land leaves 20 um total. Neither supports "comfortable", "roughly doubles
 capacity", or any PASS.
+
+### JLC capability is not the DVJ6B design rule
+
+JLCPCB's current general capability table lists 0.20 mm minimum BGA pads, 0.09 mm local
+pad-to-trace clearance on multilayer boards, and filled/plated-over via-in-pad with compatible
+holes down to 0.15 mm. Its dedicated BGA guidance uses 0.25 mm BGA pads and recommends an outer
+via-in-pad land of at least 0.35 mm around a filled plated through-hole of at least 0.15 mm.
+
+Those are different capability and guidance contexts. **Headline minimum fabrication
+capabilities are not K1 DVJ6B design rules.** No DVJ6B pad, via or traces-between-balls geometry is
+frozen until the NXP land recommendation, assembly requirement, selected JLC BGA process and the
+actual VAL-G3 pinmux/fanout are reconciled.
 
 ---
 

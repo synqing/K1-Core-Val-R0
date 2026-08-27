@@ -3,7 +3,7 @@ project:
   purpose: hardware_validation_platform
   production_board: false
   gate: VAL-G2-READY
-  updated: 2026-08-27
+  updated: 2026-08-28
 
 eda:
   authority: easyeda_pro
@@ -32,6 +32,7 @@ architecture:
   monolithic_s3: LEGACY_ORACLE
   q0b_compute_location: OPTION_C_SELECTED
   option_b: DEFERRED_NOT_REJECTED
+  option_b_interface_feasibility: UNPROVEN
   rt1062_package: MIMXRT1062DVJ6B
   rt1062_package_status: FROZEN
   rt1062_package_balls: 196

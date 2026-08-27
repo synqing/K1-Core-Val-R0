@@ -13,7 +13,13 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 FAILURES = []
-COUNTS = {"authority_files": 0, "ownership_rows": 0, "contracts": 0, "text_files_scanned": 0}
+COUNTS = {
+    "authority_files": 0,
+    "ownership_rows": 0,
+    "contracts": 0,
+    "text_files_scanned": 0,
+    "recovery_state_records": 0,
+}
 
 try:
     import yaml
@@ -36,6 +42,20 @@ REQUIRED_FILES = [
     "contracts/nfc-interface.md",
     "contracts/motion-interface.md",
 ]
+
+EXPECTED_RECOVERY_STATE = "COMPLETE_NOT_FOUND"
+RECOVERY_STATE_FILES = [
+    "STATUS.md",
+    "contracts/sscm1-v2/STATUS.md",
+    "sources/SOURCE-REGISTER.md",
+]
+RECOVERY_STATE_RE = re.compile(
+    r"^SSCM1_RECOVERY_STATE\s*=\s*([A-Z][A-Z0-9_]*)\s*$", re.MULTILINE
+)
+STALE_RECOVERY_RE = re.compile(
+    r"(?i)(?:SSCM-1\s+recovery\s+pass|recovery\s+pass)[^\n]*"
+    r"(?:\bNOT[ _-]?RUN\b|\bOUTSTANDING\b)"
+)
 
 # Every function below must appear in BOTH project.yaml and the ownership matrix, with the
 # exact owner and status recorded here. The invariant lives in this checker; project.yaml and
@@ -120,6 +140,29 @@ if COUNTS["authority_files"] != len(REQUIRED_FILES):
         print("FAIL: %s" % f)
     print("AUTHORITY_CONSISTENCY=FAIL")
     sys.exit(1)
+
+# ---------------------------------------------------------------- SSCM-1 recovery state
+for rel in RECOVERY_STATE_FILES:
+    path = ROOT / rel
+    if not path.is_file():
+        fail("required SSCM-1 recovery-state file missing: %s" % rel)
+        continue
+
+    text = path.read_text(encoding="utf-8")
+    states = RECOVERY_STATE_RE.findall(text)
+    if len(states) != 1:
+        fail("%s must contain exactly one SSCM1_RECOVERY_STATE record, found %d"
+             % (rel, len(states)))
+    else:
+        COUNTS["recovery_state_records"] += 1
+        if states[0] != EXPECTED_RECOVERY_STATE:
+            fail("%s SSCM1_RECOVERY_STATE must be %s, found %s"
+                 % (rel, EXPECTED_RECOVERY_STATE, states[0]))
+
+    stale = STALE_RECOVERY_RE.search(text)
+    if stale:
+        fail("%s contains stale SSCM-1 recovery state: %s"
+             % (rel, stale.group(0).strip()))
 
 # ---------------------------------------------------------------- project.yaml
 project = yaml.safe_load((ROOT / "project.yaml").read_text(encoding="utf-8")) or {}
@@ -257,6 +300,10 @@ print("REQUIRED_FUNCTIONS_PRESENT=%d/%d"
       % (len(REQUIRED_FUNCTIONS) - len(missing_fn), len(REQUIRED_FUNCTIONS)))
 print("CONTRACTS_PARSED=%d" % COUNTS["contracts"])
 print("DOCUMENTS_SCANNED=%d" % COUNTS["text_files_scanned"])
+print("SSCM1_RECOVERY_RECORDS_PARSED=%d/%d"
+      % (COUNTS["recovery_state_records"], len(RECOVERY_STATE_FILES)))
+if COUNTS["recovery_state_records"] == len(RECOVERY_STATE_FILES):
+    print("SSCM1_RECOVERY_STATE=%s" % EXPECTED_RECOVERY_STATE)
 print("CONTRADICTIONS=%d" % len(FAILURES))
 
 if FAILURES:

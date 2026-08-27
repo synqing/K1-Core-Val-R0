@@ -1,0 +1,45 @@
+K1-CORE-VAL-R0 authority cleanup validation
+Run: 2026-08-28
+
+COMMAND: PYTHONDONTWRITEBYTECODE=1 python3 harness/check_authority_consistency.py
+AUTHORITY_FILES_PARSED=7
+OWNERSHIP_ROWS_PARSED=21
+REQUIRED_FUNCTIONS_PRESENT=21/21
+CONTRACTS_PARSED=9
+DOCUMENTS_SCANNED=28
+SSCM1_RECOVERY_RECORDS_PARSED=3/3
+SSCM1_RECOVERY_STATE=COMPLETE_NOT_FOUND
+CONTRADICTIONS=0
+AUTHORITY_CONSISTENCY=PASS
+
+COMMAND: PYTHONDONTWRITEBYTECODE=1 python3 harness/check_terminology.py
+QUOTED_EXEMPTIONS_HONOURED=4
+TERMINOLOGY_FILES_SCANNED=31
+TERMINOLOGY_LINES_SCANNED=1740
+VIOLATIONS=0
+TERMINOLOGY=PASS
+
+COMMAND: PYTHONDONTWRITEBYTECODE=1 python3 harness/test_negative_suite.py
+BASELINES=PASS authority=1 terminology=1
+N1 RESULT=CORRECTLY_FAILED description=ESP32_S3 assigned audio_capture
+N2 RESULT=CORRECTLY_FAILED description=ownership matrix emptied
+N3 RESULT=CORRECTLY_FAILED description=required contract deleted
+N4 RESULT=CORRECTLY_FAILED description=K1BR permits RAW_PCM
+N5 RESULT=CORRECTLY_FAILED description=affirmative RT1062 hardware-PDM claim
+N6 RESULT=CORRECTLY_FAILED description=bare AP in a Wi-Fi context
+N7 RESULT=CORRECTLY_FAILED description=WebSocket marked current
+N8 RESULT=CORRECTLY_FAILED description=audio_capture owner changed to UNRESOLVED
+N9 RESULT=CORRECTLY_FAILED description=audio_processing status changed to OPEN
+N10 RESULT=CORRECTLY_FAILED description=nfc_frontend owner changed to ESP32_S3
+N11 RESULT=CORRECTLY_FAILED description=render reassigned to K1_CARRIER
+N12 RESULT=CORRECTLY_FAILED description=led_output reassigned to EXPERIMENT_ONLY
+N13 RESULT=CORRECTLY_FAILED description=required ownership key removed from project.yaml
+N14 RESULT=CORRECTLY_FAILED description=supersession exemption used outside permitted documents
+N15 RESULT=CORRECTLY_FAILED description=STATUS recovery mismatch
+N16 RESULT=CORRECTLY_FAILED description=contract recovery mismatch
+N17 RESULT=CORRECTLY_FAILED description=source-register recovery mismatch
+NEGATIVE_CASES=17/17
+NEGATIVE_SUITE=PASS
+
+COMMAND: git diff --check
+RESULT=PASS
