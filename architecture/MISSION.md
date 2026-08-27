@@ -15,4 +15,6 @@ flexibility, the board grows.
 
 - Not the production cost-optimised K1 mainboard.
 - Not a continuation of the legacy `k1_core` geometry. No legacy copper is imported.
-- Not a place to prove firmware. Firmware parity lives in the DualMCU repository.
+- Not the authority for product-firmware parity. Product parity remains in the DualMCU
+  repository; hardware-specific bring-up and measurement firmware may be used where required
+  to validate this platform.

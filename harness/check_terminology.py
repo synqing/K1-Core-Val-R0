@@ -13,26 +13,28 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 FAILURES = []
+EXEMPTIONS = []
 FILES_SCANNED = 0
 LINES_SCANNED = 0
-EXEMPTIONS = 0
 
 SCAN_DIRS = ["authority", "contracts", "architecture", "schematic", "pcb"]
 SCAN_ROOTS = ["README.md", "AGENTS.md", "STATUS.md", "project.yaml"]
 EXCLUDED = {"archive", "sources", "evidence", "experiments"}
 
-# A bare AP token, not part of WIFI_AP / SOFTAP / ACCESS_POINT / AP_ / _AP.
+# The quoting exemption exists so the terminology rule and the supersession log can name the
+# language they ban and record. It is deliberately restricted to those two documents. Widening
+# it is a code change, which is the point: an exemption must never be convenient.
+QUOTED_OK = re.compile(r"\[quoted-superseded\]")
+QUOTED_ALLOWED_FILES = {
+    "authority/04-TERMINOLOGY.md",
+    "authority/05-SUPERSESSIONS.md",
+}
+
 BARE_AP = re.compile(r"(?<![A-Za-z0-9_])AP(?![A-Za-z0-9_])")
-# Wi-Fi context on the same line makes a bare AP ambiguous.
 WIFI_CTX = re.compile(
     r"(wi-?fi|access\s+point|softap|station\s+mode|ssid|802\.11|websocket|\brest\b)", re.I)
-# An explicit definition of AP as Audio Processing clears the line.
 AP_DEFINED = re.compile(
     r"AP[\s`'\"*:]*(=|means|is)?[\s`'\"*:]*Audio[\s_]+Processing|Audio\s+Processing\s*\(\s*AP\s*\)", re.I)
-
-# A line that deliberately quotes superseded or banned language must say so. The count of
-# honoured exemptions is reported, so an exemption can never hide a violation silently.
-QUOTED_OK = re.compile(r"\[quoted-superseded\]")
 
 FORBIDDEN_PHRASES = [
     (re.compile(r"AP-only\s+(Wi-?Fi|radio)", re.I), "forbidden phrase 'AP-only Wi-Fi/radio'"),
@@ -40,8 +42,6 @@ FORBIDDEN_PHRASES = [
     (re.compile(r"\bthe\s+MCU\b", re.I), "ambiguous ownership language 'the MCU'"),
 ]
 
-# Authority-state contradictions. These require an explicit status assignment, not prose
-# proximity, so that "Wi-Fi is not current" does not read as "Wi-Fi is current".
 ASSIGN = r"(=|:|\bis\b|\bmarked\b|\bstatus\b)"
 WIFI_CURRENT = re.compile(
     r"(wi-?fi|websocket|\brest\b)[^\n]{0,40}" + ASSIGN + r"[\s`*]*(CURRENT|AUTHORITATIVE)\b", re.I)
@@ -64,13 +64,17 @@ for d in SCAN_DIRS:
 
 for path in targets:
     FILES_SCANNED += 1
-
     rel = path.relative_to(ROOT).as_posix()
     for n, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
         LINES_SCANNED += 1
         snippet = line.strip()[:90]
         if QUOTED_OK.search(line):
-            EXEMPTIONS += 1
+            if rel in QUOTED_ALLOWED_FILES:
+                EXEMPTIONS.append("%s:%d" % (rel, n))
+                continue
+            FAILURES.append(
+                "%s:%d [quoted-superseded] is not permitted outside %s: %s"
+                % (rel, n, " or ".join(sorted(QUOTED_ALLOWED_FILES)), snippet))
             continue
         if BARE_AP.search(line) and WIFI_CTX.search(line) and not AP_DEFINED.search(line):
             FAILURES.append("%s:%d bare 'AP' in a Wi-Fi context: %s" % (rel, n, snippet))
@@ -82,9 +86,11 @@ for path in targets:
         if BLE_PARKED.search(line):
             FAILURES.append("%s:%d BLE-MIDI marked parked or superseded: %s" % (rel, n, snippet))
 
+for e in EXEMPTIONS:
+    print("QUOTED_EXEMPTION=%s" % e)
 print("TERMINOLOGY_FILES_SCANNED=%d" % FILES_SCANNED)
 print("TERMINOLOGY_LINES_SCANNED=%d" % LINES_SCANNED)
-print("QUOTED_EXEMPTIONS_HONOURED=%d" % EXEMPTIONS)
+print("QUOTED_EXEMPTIONS_HONOURED=%d" % len(EXEMPTIONS))
 print("VIOLATIONS=%d" % len(FAILURES))
 
 if FILES_SCANNED == 0 or LINES_SCANNED == 0:

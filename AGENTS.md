@@ -28,6 +28,32 @@ schematic wiring live on that one sheet, separated visually by domain of concern
 - Do not silently consume reserved signals.
 - The board may grow east-west whenever more area produces a materially more robust design.
 
+## CopperPilot role
+
+CopperPilot is a geometry and architecture reasoning agent. It is not a PCB execution agent.
+
+**Authorised:** read-only board inspection; component-zone, orientation, pin-facing,
+escape-density and routing-corridor analysis; outline synthesis; comparing and ranking
+alternative placements; identifying congestion before routing; via-pressure reasoning;
+conflicting domain adjacency; downstream-consequence analysis; proposing coordinates and
+rotations; critiquing another agent's placement.
+
+**Not authorised:** authoring the canonical schematic; mutating the canonical PCB; final
+placement writes; routing canonical copper; altering rule expectations; running and certifying
+its own acceptance gate; reporting DRC, routing or identity success as authoritative; claiming
+fabrication readiness; acting as both builder and verifier.
+
+Its coordinates, measurements and PASS claims are **proposals** until independently reproduced
+through the normal project evidence path. Exploratory geometry may run against a disposable
+clone, but the resulting geometry is imported conceptually and recreated independently — the
+canonical board is never "CopperPilot says PASS".
+
+Builder and verifier roles stay separate for CopperPilot-originated work.
+
+Historical CopperPilot PCB lanes are evidence only unless explicitly reactivated. The
+`SpectraSynq-K1-CORE-Final` lane is dead: historical design evidence, not a PCB source, not a
+work target.
+
 ## Harness doctrine
 
 > Create a check when the artefact it checks first exists.

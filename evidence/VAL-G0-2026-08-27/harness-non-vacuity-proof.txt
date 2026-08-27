@@ -1,10 +1,10 @@
-Non-vacuity proof for the VAL-G0 harnesses.
+Non-vacuity proof for the VAL-G0 harnesses (expanded at G0.1).
 Each case corrupts a disposable copy and requires the check to FAIL.
 Run: 2026-08-27
 
 N1 ESP32_S3 assigned audio_capture
   RESULT: correctly FAILED
-    FAIL: ESP32_S3 assigned real-time function reserved to RT1062: audio_capture
+    FAIL: ownership matrix: audio_capture must be owned by RT1062, found ESP32_S3
     FAIL: project.yaml and ownership matrix disagree on audio_capture: RT1062 vs ESP32_S3
 N2 ownership matrix emptied
   RESULT: correctly FAILED
@@ -25,6 +25,31 @@ N6 bare AP in a Wi-Fi context
 N7 WebSocket marked current
   RESULT: correctly FAILED
     FAIL: project.yaml:72 Wi-Fi/REST/WebSocket marked current: websocket_control: CURRENT
+N8 audio_capture owner changed to UNRESOLVED
+  RESULT: correctly FAILED
+    FAIL: ownership matrix: audio_capture must be owned by RT1062, found UNRESOLVED
+    FAIL: project.yaml and ownership matrix disagree on audio_capture: RT1062 vs UNRESOLVED
+N9 audio_processing status changed to OPEN
+  RESULT: correctly FAILED
+    FAIL: ownership matrix: audio_processing status must be RATIFIED, found OPEN
+N10 nfc_frontend owner changed to ESP32_S3
+  RESULT: correctly FAILED
+    FAIL: ownership matrix: nfc_frontend must be owned by K1_CARRIER, found ESP32_S3
+    FAIL: project.yaml and ownership matrix disagree on nfc_frontend: K1_CARRIER vs ESP32_S3
+N11 render reassigned to K1_CARRIER
+  RESULT: correctly FAILED
+    FAIL: ownership matrix: render must be owned by RT1062, found K1_CARRIER
+    FAIL: project.yaml and ownership matrix disagree on render: RT1062 vs K1_CARRIER
+N12 led_output reassigned to EXPERIMENT_ONLY
+  RESULT: correctly FAILED
+    FAIL: ownership matrix: led_output must be owned by RT1062, found EXPERIMENT_ONLY
+    FAIL: project.yaml and ownership matrix disagree on led_output: RT1062 vs EXPERIMENT_ONLY
+N13 required ownership key removed from project.yaml
+  RESULT: correctly FAILED
+    FAIL: project.yaml ownership block is missing required function: mic_power_enable
+N14 [quoted-superseded] used outside the two permitted documents
+  RESULT: correctly FAILED
+    FAIL: contracts/audio-interface.md:42 [quoted-superseded] is not permitted outside authority/04-TERMINOLOGY.md or authority/05-SUPERSESSIONS.md: Some text with a bogus AP-only Wi-Fi claim [quoted-superseded]
 
 Baseline restored:
 AUTHORITY_CONSISTENCY=PASS

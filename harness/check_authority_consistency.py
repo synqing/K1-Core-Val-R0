@@ -37,21 +37,61 @@ REQUIRED_FILES = [
     "contracts/motion-interface.md",
 ]
 
-REQUIRED_FUNCTIONS = {
-    "audio_capture", "audio_processing", "gdft_spectral", "tempo_onset_saliency",
-    "vp", "render", "pixel_buffers", "fastled_adaptation", "led_output",
-    "audio_clock_master", "mic_power_enable", "accelerometer", "radio",
-    "wireless_control", "nfc_host", "service_usb", "usb_audio", "nfc_frontend",
+# Every function below must appear in BOTH project.yaml and the ownership matrix, with the
+# exact owner and status recorded here. The invariant lives in this checker; project.yaml and
+# the CSV are the data being checked. That is not duplication to be tidied away later -- remove
+# the invariant and the check stops being able to falsify anything.
+EXPECTED_OWNER = {
+    "audio_capture": "RT1062",
+    "audio_processing": "RT1062",
+    "gdft_spectral": "RT1062",
+    "tempo_onset_saliency": "RT1062",
+    "vp": "RT1062",
+    "render": "RT1062",
+    "pixel_buffers": "RT1062",
+    "fastled_adaptation": "RT1062",
+    "led_output": "RT1062",
+    "audio_clock_master": "RT1062",
+    "mic_power_enable": "RT1062",
+    "radio": "ESP32_S3",
+    "wireless_control": "ESP32_S3",
+    "nfc_host": "ESP32_S3",
+    "service_usb": "ESP32_S3",
+    "nfc_frontend": "K1_CARRIER",
+    "usb_audio": "EXPERIMENT_ONLY",
 }
+
+# Deliberately not pinned: the accelerometer carries a 0R/DNP ownership matrix and may be
+# assigned to either MCU during validation. It may never be assigned anywhere else.
+UNPINNED_OWNER = {
+    "accelerometer": {"RT1062", "ESP32_S3"},
+}
+
+EXPECTED_STATUS = {
+    "audio_capture": "RATIFIED",
+    "audio_processing": "RATIFIED",
+    "gdft_spectral": "RATIFIED",
+    "tempo_onset_saliency": "RATIFIED",
+    "vp": "RATIFIED",
+    "render": "RATIFIED",
+    "pixel_buffers": "RATIFIED",
+    "fastled_adaptation": "RATIFIED",
+    "led_output": "RATIFIED",
+    "radio": "RATIFIED",
+    "wireless_control": "RATIFIED",
+    "nfc_frontend": "RATIFIED",
+    "audio_clock_master": "DEFAULT",
+    "mic_power_enable": "DEFAULT",
+    "accelerometer": "DEFAULT",
+    "nfc_host": "DEFAULT",
+    "service_usb": "DEFAULT",
+    "usb_audio": "EXPERIMENT",
+}
+
+REQUIRED_FUNCTIONS = set(EXPECTED_OWNER) | set(UNPINNED_OWNER)
 
 VALID_OWNERS = {"RT1062", "ESP32_S3", "K1_CARRIER", "EXPERIMENT_ONLY", "UNRESOLVED"}
 VALID_STATUSES = {"RATIFIED", "DEFAULT", "OPEN", "EXPERIMENT"}
-
-# ESP32_S3 may never own any of these.
-S3_FORBIDDEN = {
-    "audio_capture", "audio_processing", "gdft_spectral", "tempo_onset_saliency",
-    "vp", "render", "pixel_buffers", "fastled_adaptation", "led_output",
-}
 
 K1BR_REQUIRED_FORBIDDEN = {
     "RAW_PCM", "RAW_PDM", "AUDIO_FEATURES", "RENDER_BUFFER", "PIXEL_BUFFER", "CRGB",
@@ -102,8 +142,15 @@ with (ROOT / "authority/03-OWNERSHIP-MATRIX.csv").open(encoding="utf-8") as fh:
             fail("unknown owner '%s' for %s" % (owner, fn))
         if status not in VALID_STATUSES:
             fail("unknown status '%s' for %s" % (status, fn))
-        if owner == "ESP32_S3" and fn in S3_FORBIDDEN:
-            fail("ESP32_S3 assigned real-time function reserved to RT1062: %s" % fn)
+        if fn in EXPECTED_OWNER and owner != EXPECTED_OWNER[fn]:
+            fail("ownership matrix: %s must be owned by %s, found %s"
+                 % (fn, EXPECTED_OWNER[fn], owner))
+        if fn in UNPINNED_OWNER and owner not in UNPINNED_OWNER[fn]:
+            fail("ownership matrix: %s owner must be one of %s, found %s"
+                 % (fn, sorted(UNPINNED_OWNER[fn]), owner))
+        if fn in EXPECTED_STATUS and status != EXPECTED_STATUS[fn]:
+            fail("ownership matrix: %s status must be %s, found %s"
+                 % (fn, EXPECTED_STATUS[fn], status))
 
 if COUNTS["ownership_rows"] == 0:
     fail("ownership matrix parsed zero rows")
@@ -112,10 +159,19 @@ missing_fn = sorted(REQUIRED_FUNCTIONS - set(seen))
 for fn in missing_fn:
     fail("required ownership function absent: %s" % fn)
 
-for fn, owner in seen.items():
-    if fn in py_own and py_own[fn] != owner:
+for fn in sorted(REQUIRED_FUNCTIONS):
+    if fn not in py_own:
+        fail("project.yaml ownership block is missing required function: %s" % fn)
+        continue
+    if fn in EXPECTED_OWNER and py_own[fn] != EXPECTED_OWNER[fn]:
+        fail("project.yaml: %s must be owned by %s, found %s"
+             % (fn, EXPECTED_OWNER[fn], py_own[fn]))
+    if fn in UNPINNED_OWNER and py_own[fn] not in UNPINNED_OWNER[fn]:
+        fail("project.yaml: %s owner must be one of %s, found %s"
+             % (fn, sorted(UNPINNED_OWNER[fn]), py_own[fn]))
+    if fn in seen and py_own[fn] != seen[fn]:
         fail("project.yaml and ownership matrix disagree on %s: %s vs %s"
-             % (fn, py_own[fn], owner))
+             % (fn, py_own[fn], seen[fn]))
 
 # ---------------------------------------------------------------- contract front matter
 def front_matter(path):

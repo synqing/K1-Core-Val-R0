@@ -11,7 +11,13 @@ differential_impedance_ohm: 90
 
 ## Service USB
 
-Flashing, configuration, serial and debug, and recovery. ESP32_S3 owns it. No architectural cost.
+Flashing, configuration, serial and debug, and recovery.
+
+ESP32_S3 owns service USB. It creates no K1BR audio-payload obligation, but it retains normal
+connector, ESD, signal-integrity, RF-separation, pin-ownership and Option-B interconnect costs:
+fixed native-USB pin ownership, connector and ESD placement, differential routing with a
+continuous return path, separation from the 2.4 GHz zone, possible SSCM-1 crossing implications
+under Option B, and interrupt and service-firmware cost.
 
 ## USB audio
 
