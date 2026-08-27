@@ -17,6 +17,13 @@ eda:
   val_g2_0_eda_execution: BLOCKED_ON_FIXTURE_DEFINITION
   val_g2_0_single_sheet_qualification: WAITS_ON_FIXTURE_DEFINITION_PASS
   val_g2_1_canonical_schematic_capture: WAITS_ON_VAL_G2_0_PASS
+  rejected_fixture_project_uuid: 09e9c541fd3d404082d4b92e55ae5336
+  rejected_fixture_content_state: DELETED
+  qualification_project_uuid: 09e9c541fd3d404082d4b92e55ae5336
+  qualification_project_state: BLANK_SINGLE_PAGE_BLOCKED_ON_FIXTURE_DEFINITION
+  qualification_schematic_uuid: e76808fa778140bfa1975a73f10d17d6
+  qualification_page_uuid: 1991698f35bf4c09b8de4bcf78bd2b7b
+  screenshot_after_every_mutation: REQUIRED
 
 mechanical:
   thickness_mm: 1.6

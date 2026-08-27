@@ -87,10 +87,13 @@ USB; NFC; accelerometer; connectors; option links.
 
 ## Rejected attempt — 2026-08-28
 
-Project UUID `09e9c541fd3d404082d4b92e55ae5336` is
-`ABANDONED_INVALID_FIXTURE`. It hard-coded the numeric floor, attached 120 unique one-endpoint
-names to passive pins and produced passive-only high-fanout rails. It is evidence of a failed
-method, not a qualification result, and receives no further mutation.
+Project UUID `09e9c541fd3d404082d4b92e55ae5336` contained the rejected fixture. Its electrical
+content was deleted on 2026-08-28. EasyEDA refused a second project with the exact contract name
+while that shell existed, so the same electrically empty container now holds one blank replacement
+schematic/page. A second role-count placement attempt was stopped and removed after its first
+screenshot showed repeated library-symbol grids and bad page composition. Current screenshot and
+source read-back show 0 components, 0 texts, 0 rectangles, 0 wires and 0 nets. The project is not a
+qualification result and no further content may be written until VAL-G2.0A passes.
 
 See `evidence/VAL-G2-2026-08-28/INVALID-FIXTURE-RCA.md`.
 
@@ -113,6 +116,8 @@ a repeatable stall.
 ## Integrity gate
 
 - The machine-checked fixture plan matches the EasyEDA component and endpoint-level net inventory.
+- After every mutation or visually atomic batch, capture and granularly inspect a settled screenshot
+  before the next mutation. Preserve every screenshot and its intended-delta verdict.
 - No components or nets disappear.
 - Save and reopen is stable and repeatable.
 - ERC completes.

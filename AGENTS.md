@@ -24,6 +24,11 @@ schematic wiring live on that one sheet, separated visually by domain of concern
 - NFC RF circuitry stays carrier-side.
 - DeepPCB is routing-only, never placement.
 - Snapshot EasyEDA before every write.
+- **Screenshot and inspect every EasyEDA mutation.** After each one-off API/MCP write or each
+  visually atomic `mcp_batch` transaction, wait for the canvas to settle, capture the affected
+  sheet/PCB at a scale that exposes the requested delta, and inspect it granularly before the next
+  mutation. Preserve the screenshot under the active evidence directory. A batch may not conceal
+  multiple visual stages that need separate inspection.
 - API success is not evidence of board correctness.
 - Do not weaken DRC rules to make errors disappear.
 - Do not silently consume reserved signals.
@@ -79,3 +84,7 @@ inspects structured authority records instead.
 
 Evidence directories are created when evidence exists, named `evidence/VAL-Gn-<YYYY-MM-DD>/`.
 No empty future gate directories.
+
+For every EasyEDA mutation, evidence includes both semantic read-back and the immediately
+following screenshot with a recorded visual verdict. If either disagrees with the intended delta,
+stop, quarantine the execution, and repair or roll back before any further write.

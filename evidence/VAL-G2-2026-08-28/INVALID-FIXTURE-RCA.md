@@ -4,10 +4,27 @@ Status: **REJECTED BEFORE QUALIFICATION**
 
 ```text
 PROJECT_UUID = 09e9c541fd3d404082d4b92e55ae5336
-PROJECT_STATE = ABANDONED_INVALID_FIXTURE
+PROJECT_STATE = BLANK_SINGLE_PAGE_BLOCKED_ON_FIXTURE_DEFINITION
 VAL_G2_0_RESULT = NOT_RUN
-MUTATION_AFTER_REJECTION = NONE
+MUTATION_AFTER_REJECTION = DESTRUCTIVE_RESET_PLUS_REJECTED_REBUILD_ATTEMPT_FULLY_REMOVED
 ```
+
+On 2026-08-28, the EasyEDA API deleted standalone schematic
+`35aabaaf05364d4693d6fd4fb35eb765`, linked schematic
+`ad2bbec597804b06bebf5eaa5eb302cb`, PCB `3507389e1cc44d399ce814509f271cc8`
+and board `Board1`. The final `list_project_objects` read-back returned zero boards, PCBs,
+schematics, schematic pages and panels. The project shell itself remains because the documented
+project API provides no delete operation. The Git evidence below is deliberately preserved; no
+deleted EDA primitive, topology, generator or layout may seed the replacement fixture.
+
+The supported API then refused a second project carrying the contract's exact friendly name while
+the empty shell existed. One blank schematic/page was created in the electrically empty container.
+A subsequent automatic role-count placement was stopped at 81 components when its first mandated
+screenshot showed the same root failure in a different form: repeated library-symbol grids,
+bottom-loaded composition and no real circuit topology. All 81 components, 12 texts and 11
+rectangles were removed. Screenshot and persisted source read-back now agree on 0 components,
+0 texts, 0 rectangles, 0 wires and 0 nets. This second failure invalidates automatic conversion of
+role quantities into placement; future work requires circuit-level source topology, not role counts.
 
 ## Problem statement
 
@@ -108,6 +125,8 @@ This is a control-system defect, not an EasyEDA capability defect and not adequa
 4. Fail one-endpoint named nets, passive-only high-fanout nets, unpowered major ICs, synthetic
    count-padding roles and stub-only wiring plans.
 5. Require a whole-sheet visual checkpoint before responsiveness measurements.
+6. Require a settled screenshot and granular visual verdict after every mutation or visually atomic
+   batch, before the next write. A source/count PASS cannot override a failed screenshot.
 
 ## Evidence files
 
@@ -115,3 +134,6 @@ This is a control-system defect, not an EasyEDA capability defect and not adequa
 - `invalid-fixture-generator.mjs`
 - `invalid-net-generator.mjs`
 - `invalid-net-manifest.json`
+- `screenshots/failed-repeated-placement-stopped.png`
+- `screenshots/after-repeated-placement-cleanup.png`
+- `screenshots/after-scaffold-cleanup-attempt.png`

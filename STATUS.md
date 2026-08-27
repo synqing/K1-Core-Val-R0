@@ -39,9 +39,13 @@ VAL_G2_0_EDA_EXECUTION = BLOCKED_ON_FIXTURE_DEFINITION
 ```
 
 The first generated fixture was rejected before qualification because it optimised primitive
-counts instead of modelling a source-derived Option-C topology. Its project UUID
-`09e9c541fd3d404082d4b92e55ae5336` is `ABANDONED_INVALID_FIXTURE` and receives no further
-mutation. VAL-G2 remains ready to progress through fixture definition; EasyEDA execution is not
+counts instead of modelling a source-derived Option-C topology. Captain ordered a destructive
+reset. EasyEDA then refused a second project with the contract's exact friendly name while the
+empty shell existed, and the supported API exposes no project delete or rename. Project UUID
+`09e9c541fd3d404082d4b92e55ae5336` therefore now contains exactly one blank replacement
+schematic and one page. A second automatic role-count placement repeated the same failure class;
+it was stopped and fully removed. Settled screenshot plus source read-back now prove 0 components,
+0 texts, 0 rectangles, 0 wires and 0 nets. VAL-G2.0 remains `NOT_RUN`; no further EasyEDA write is
 authorised until the semantic fixture-plan checker passes.
 
 The bounded recovery pass is complete. Historical module fragments exist, but the frozen SSCM-1
