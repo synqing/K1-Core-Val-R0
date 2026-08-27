@@ -23,4 +23,6 @@
 | D-019 | 2026-08-27 | No third MCU. Existing ESP32_S3 is the Debug Fabric service endpoint. K1BR payload semantics unchanged. | RATIFIED | Captain ruling |
 | D-020 | 2026-08-27 | RT1062 pin facts verified against NXP IMXRT1060CEC: LPUART1 TX GPIO_AD_B0_12, RX GPIO_AD_B0_13; BOOT_MODE0 GPIO_AD_B0_04, BOOT_MODE1 GPIO_AD_B0_05; 100 kohm internal pull-downs; 01 Serial Downloader, 10 Internal Boot. | RATIFIED | NXP IMXRT1060CEC; MIMXRT1060-EVKB manual |
 | D-021 | 2026-08-27 | Independent remote RT power switching stays out of baseline R0. Remote reset and remote recovery are required. | RATIFIED | Captain ruling |
+| D-022 | 2026-08-27 | Layer count: 6 baseline, 8 evidence-triggered escalation, 10 rejected. Escalation triggers and PDN remedy order recorded in pcb/STACKUP-STATUS.md. | RATIFIED | Captain ruling |
+| D-023 | 2026-08-27 | Six-layer PDN-prioritised alternative (L4 = GND) recorded as an available option, not a proposed change. Current L4-as-routing is a deliberate capacity trade. | RATIFIED | Captain ruling |
 
