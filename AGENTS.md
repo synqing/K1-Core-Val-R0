@@ -12,7 +12,8 @@ schematic wiring live on that one sheet, separated visually by domain of concern
 ## Hard rules
 
 - Do not import legacy K1 copper.
-- Do not create PCB geometry before VAL-G1 closes.
+- Do not create canonical PCB geometry, place, floorplan, fan out or route before VAL-G2 closes.
+  The disposable PCB import required by VAL-G2.0 qualification is the only exception.
 - Do not assign GPIO before ownership and physical requirements are understood.
 - The RT1062 does not contain a dedicated MICFIL or hardware PDM decimation peripheral.
   Direct PDM is an SAI + DMA + software-decimation experiment.

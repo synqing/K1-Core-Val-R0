@@ -5,7 +5,7 @@
 | D-001 | 2026-08-24 | RT1062 owns audio capture, Audio Processing, VP, effects, render, pixels and LED output. ESP32-S3 is the radio bridge. | RATIFIED | dual-MCU ruling; master-plan v3 |
 | D-002 | 2026-08-24 | Inter-MCU link is SPI. K1BR v1 framing frozen. | RATIFIED | K1-DM-010 |
 | D-003 | 2026-08-27 | Q0-A reaffirmed. Monolithic ESP32-S3 is the legacy parity oracle, not a new-hardware candidate. | RATIFIED | Captain ruling |
-| D-004 | 2026-08-27 | Live fork is Option B (carrier plus SSCM-1) versus Option C (RT1062 and ESP32-S3 on Core). | OPEN | Captain ruling |
+| D-004 | 2026-08-27 | Live fork is Option B (carrier plus SSCM-1) versus Option C (RT1062 and ESP32-S3 on Core). | CLOSED_BY_D-024 | Captain ruling |
 | D-005 | 2026-08-27 | SSCM-1 v1.0 is no longer described as frozen. One bounded recovery pass, then author v2 from present requirements. | RATIFIED | Captain ruling |
 | D-006 | 2026-08-27 | `AP` means Audio Processing only. | RATIFIED | Captain ruling |
 | D-007 | 2026-08-06 | BLE-MIDI is the sole wireless control plane. Wi-Fi, REST and WebSocket are parked. | RATIFIED | 6-Aug ratification |
@@ -27,9 +27,10 @@
 | D-023 | 2026-08-27 | Six-layer PDN-prioritised alternative (L4 = GND) recorded as an available option, not a proposed change. Current L4-as-routing is a deliberate capacity trade. | RATIFIED | Captain ruling |
 | D-024 | 2026-08-27 | VAL-G1 CLOSED. Option C (RT1062 + ESP32_S3 on Core) selected for R0 on programme grounds: fewest simultaneous new structural variables. | RATIFIED | Captain ruling |
 | D-025 | 2026-08-27 | Option B DEFERRED, not rejected. Interface budget PASSES (B2 robust 59/67, 8 spare, 11.94%). Mechanical NOT PROVEN. Thermal OPEN RISK. Modularity value VALID. | RATIFIED | Captain ruling |
-| D-026 | 2026-08-27 | Option C six-layer BGA escape is OPEN. The ring-capacity argument is rejected as a proof: signals cannot be assigned to balls; NXP fixes the ball map. VAL-G3 gains a fixed-ball-map escape gate. | RATIFIED | Captain ruling |
-| D-027 | 2026-08-27 | RT1062 package must be frozen before VAL-G2. Only 196-ball MAPBGA exists: DVL 10x10/0.65mm, DVJ 12x12/0.8mm. No reduced-ball RT1062. Recommended DVJ6B for escape headroom; not yet frozen. | RATIFIED | NXP IMXRT1060CEC + IMXRT1060IEC |
+| D-026 | 2026-08-27 | Option C six-layer BGA escape is OPEN. The ring-capacity argument is rejected as a proof: signals cannot be assigned to balls; NXP fixes the ball map. VAL-G3 gains a fixed-ball-map escape gate. | AMENDED_BY_D-031 | Captain ruling |
+| D-027 | 2026-08-27 | RT1062 package must be frozen before VAL-G2. Only 196-ball MAPBGA exists: DVL 10x10/0.65mm, DVJ 12x12/0.8mm. No reduced-ball RT1062. Recommended DVJ6B for escape headroom; not yet frozen. | SUPERSEDED_BY_D-028 | NXP IMXRT1060CEC + IMXRT1060IEC |
 | D-028 | 2026-08-27 | RT1062 package FROZEN: MIMXRT1062DVJ6B, 196-ball MAPBGA, 12x12 mm, 0.8 mm pitch, 600 MHz, NXP status ACTIVE. The A revision is Not Recommended for New Designs. Supersedes D-027's open state. | RATIFIED | NXP package/quality status |
 | D-029 | 2026-08-27 | 0.8 mm pitch is a geometric advantage, not a routability proof. No traces-between-balls capacity is accepted until land diameter, clearance, via geometry, mask expansion and fab rules are sourced and the pinmux is known. | RATIFIED | Captain ruling |
-| D-030 | 2026-08-27 | VAL-G2 is unblocked. Next design work is the complete single-sheet schematic around DVJ6B. No BGA escape analysis and no CopperPilot run before that schematic exists. | RATIFIED | Captain ruling |
-
+| D-030 | 2026-08-27 | VAL-G2 is unblocked. Next design work is the complete single-sheet schematic around DVJ6B. No BGA escape analysis and no CopperPilot run before that schematic exists. | AMENDED_BY_D-032 | Captain ruling |
+| D-031 | 2026-08-27 | Option C six-layer BGA escape remains OPEN. NXP fixes physical pad positions and their legal alternate functions. K1 may choose among legal IOMUX alternatives; flexible pinmux, package orientation and BGA escape are co-optimised at VAL-G3 against the completed schematic. | RATIFIED | Captain ruling; correction to D-026 |
+| D-032 | 2026-08-27 | VAL-G2 is READY to start. VAL-G2.0 single-sheet qualification is REQUIRED FIRST. VAL-G2.1 canonical single-sheet capture waits on VAL-G2.0 PASS. No BGA escape analysis and no CopperPilot run before VAL-G2.1 completes. | RATIFIED | Captain ruling; D-011 sequencing |

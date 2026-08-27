@@ -1,9 +1,9 @@
 # Single-sheet qualification — test plan
 
-Status: **PLANNED, NOT RUN**
+Status: **VAL-G2.0 — REQUIRED FIRST, NOT RUN**
 
 Purpose: prove that EasyEDA Pro can carry the complete K1-CORE-VAL board on one schematic sheet
-before the one-sheet doctrine becomes irreversible project authority.
+before canonical one-sheet capture creates irreversible implementation reliance.
 
 EasyEDA Pro documents no schematic area limit, but separately recommends fewer than 100
 components per page and warns of editor lag beyond that. Those statements are not contradictory:

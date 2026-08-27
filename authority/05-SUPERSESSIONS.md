@@ -21,9 +21,10 @@ never supersedes an explicit earlier ruling on that topic without an entry here.
 | 2026-08-27 | "Option B fails at the requirements stage on connector contingency" | Option B interface budget PASSES: B2 robust 59/67, 8 spare, 11.94% | The failing figure was sub-option B1 only; B2 was computed and then excluded from the headline |
 | 2026-08-27 | M.2 antenna keep-out clash as an objection to Option B | Withdrawn as a general objection; applies only to sub-option B2 | Under B1 the ESP32_S3 and its radio stay on the carrier, so an RT-only module has no antenna at its retention end |
 | 2026-08-27 | Module thermal concentration as grounds to reject Option B | Downgraded to OPEN RISK | No quantified thermal model exists; a single theta-JA applied to three separate devices on one card is not a proof |
-| 2026-08-27 | "Option C escapes cleanly on six layers" | OPTION_C_BGA_ESCAPE = OPEN | Ring capacity assumes signals can be assigned to balls; NXP fixes the ball map, and the same argument invoked VIPPO while claiming no HDI |
-| 2026-08-27 | RT1062 package = MUST CLOSE BEFORE VAL-G2 (D-027) | FROZEN: MIMXRT1062DVJ6B | Resolved from primary sources; no CopperPilot pass required |
+| 2026-08-27 | D-004 open Option B/C fork | D-024: Option C selected; Option B deferred | VAL-G1 is closed |
+| 2026-08-27 | "Option C escapes cleanly on six layers" | OPTION_C_BGA_ESCAPE = OPEN | Ring capacity ignored fixed package pad positions, legal IOMUX alternatives and orientation, and invoked VIPPO while claiming no HDI |
+| 2026-08-27 | RT1062 package = MUST CLOSE BEFORE VAL-G2 (D-027) | D-028: FROZEN as MIMXRT1062DVJ6B | Resolved from primary sources; no CopperPilot pass required |
 | 2026-08-27 | Any recommendation of MIMXRT1062DVJ6A | MIMXRT1062DVJ6B | NXP marks the A revision Not Recommended for New Designs |
 | 2026-08-27 | The 800-350=450 um channel calculation and "roughly doubles channel capacity" | Withdrawn | The 350 um PCB land was invented from a solder-ball specification, and 450 um is exact-fit with zero surplus |
-| 2026-08-27 | "Signals cannot be assigned to balls — NXP fixes the ball map" | NXP fixes pad positions and legal alternate functions; many K1 functions are IOMUX-selectable across several pads | Too absolute; pinmux, orientation and escape must be co-optimised at VAL-G3 |
-
+| 2026-08-27 | "Signals cannot be assigned to balls — NXP fixes the ball map" (D-026) | D-031: NXP fixes pad positions and legal alternate functions; K1 may choose among legal IOMUX alternatives | Too absolute; flexible pinmux, orientation and escape must be co-optimised at VAL-G3 |
+| 2026-08-27 | D-030 unqualified instruction to begin the complete canonical schematic next | D-032: VAL-G2.0 qualification is required before VAL-G2.1 canonical capture | D-011 requires measured EasyEDA qualification before irreversible reliance on the one-sheet architecture |

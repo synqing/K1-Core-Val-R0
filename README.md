@@ -8,16 +8,19 @@ improves RF, SI, PI, EMI, thermal behaviour, routing, measurement access or expe
 
 ## State
 
-- Gate: **VAL-G0 — bootstrap complete**
-- Open gate: **VAL-G1 — Option B versus Option C** (compute location)
+- VAL-G1: **CLOSED — Option C selected, Option B deferred**
+- VAL-G2: **READY**
+- VAL-G2.0: **single-sheet qualification required first**
+- VAL-G2.1: **canonical capture waits on VAL-G2.0 PASS**
 - No EDA project, schematic, PCB, Gerber, BOM, CPL or manufacturing artefact exists.
 
 ## Reading order
 
 1. `AGENTS.md` — operating doctrine for anyone working here
 2. `authority/00-AUTHORITY-PRECEDENCE.md` — which document wins
-3. `authority/02-Q0-B-vs-C.md` — the open architecture gate
+3. `authority/02-Q0-B-vs-C.md` — the closed architecture ruling
 4. `schematic/SINGLE-SHEET-CONTRACT.md` — the schematic rule
+5. `schematic/single-sheet-qualification/TEST-PLAN.md` — required first operation in VAL-G2
 
 ## Harnesses
 
