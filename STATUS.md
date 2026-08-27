@@ -6,7 +6,7 @@ Updated: 2026-08-27
 | --- | --- |
 | VAL-G0 bootstrap | COMPLETE |
 | VAL-G1 Option B vs C | **CLOSED 2026-08-27 — Option C selected, Option B deferred** |
-| VAL-G2 single-sheet schematic | NOT STARTED |
+| VAL-G2 single-sheet schematic | **UNBLOCKED — next design work** |
 | VAL-G3 envelope and floorplan | NOT STARTED |
 | VAL-G4 placement and locks | NOT STARTED |
 | VAL-G5 stack, rules, planes | NOT STARTED |
@@ -20,9 +20,10 @@ Updated: 2026-08-27
 | Audio L2 RT1062 raw SAI | NOT STARTED |
 | Current-S3 baseline | NOT STARTED |
 
-## Blocked on the RT1062 package ruling
+## Nothing is blocked
 
-Native schematic capture. The package must be frozen first (D-027).
+RT1062 package is FROZEN: `MIMXRT1062DVJ6B`, 196-ball, 12 x 12 mm, 0.8 mm pitch (D-028).
+Next design work is VAL-G2: the complete single-sheet native schematic built around it.
 
 ## Now unblocked by VAL-G1 closure
 
@@ -31,7 +32,9 @@ Board outline and floorplan follow once the package is frozen.
 
 ## Carried forward as OPEN
 
-Option C BGA escape and six-layer routability. Not proven. VAL-G3 gate item.
+Option C BGA escape, six-layer routability, and any HDI/VIPPO requirement. Not proven.
+VAL-G3 gate item, and only once the real schematic exists. **No BGA escape analysis and no
+CopperPilot run before VAL-G2 completes** — there is no circuit for it to route.
 
 ## Not blocked
 

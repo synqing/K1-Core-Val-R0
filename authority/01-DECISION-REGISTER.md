@@ -29,4 +29,7 @@
 | D-025 | 2026-08-27 | Option B DEFERRED, not rejected. Interface budget PASSES (B2 robust 59/67, 8 spare, 11.94%). Mechanical NOT PROVEN. Thermal OPEN RISK. Modularity value VALID. | RATIFIED | Captain ruling |
 | D-026 | 2026-08-27 | Option C six-layer BGA escape is OPEN. The ring-capacity argument is rejected as a proof: signals cannot be assigned to balls; NXP fixes the ball map. VAL-G3 gains a fixed-ball-map escape gate. | RATIFIED | Captain ruling |
 | D-027 | 2026-08-27 | RT1062 package must be frozen before VAL-G2. Only 196-ball MAPBGA exists: DVL 10x10/0.65mm, DVJ 12x12/0.8mm. No reduced-ball RT1062. Recommended DVJ6B for escape headroom; not yet frozen. | RATIFIED | NXP IMXRT1060CEC + IMXRT1060IEC |
+| D-028 | 2026-08-27 | RT1062 package FROZEN: MIMXRT1062DVJ6B, 196-ball MAPBGA, 12x12 mm, 0.8 mm pitch, 600 MHz, NXP status ACTIVE. The A revision is Not Recommended for New Designs. Supersedes D-027's open state. | RATIFIED | NXP package/quality status |
+| D-029 | 2026-08-27 | 0.8 mm pitch is a geometric advantage, not a routability proof. No traces-between-balls capacity is accepted until land diameter, clearance, via geometry, mask expansion and fab rules are sourced and the pinmux is known. | RATIFIED | Captain ruling |
+| D-030 | 2026-08-27 | VAL-G2 is unblocked. Next design work is the complete single-sheet schematic around DVJ6B. No BGA escape analysis and no CopperPilot run before that schematic exists. | RATIFIED | Captain ruling |
 

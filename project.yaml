@@ -2,7 +2,7 @@ project:
   name: K1-CORE-VAL-R0
   purpose: hardware_validation_platform
   production_board: false
-  gate: VAL-G1-CLOSED
+  gate: VAL-G2-UNBLOCKED
   updated: 2026-08-27
 
 eda:
@@ -30,8 +30,11 @@ architecture:
   monolithic_s3: LEGACY_ORACLE
   q0b_compute_location: OPTION_C_SELECTED
   option_b: DEFERRED_NOT_REJECTED
-  rt1062_package: MUST_FREEZE_BEFORE_VAL_G2
-  rt1062_package_candidate: MIMXRT1062DVJ6B
+  rt1062_package: MIMXRT1062DVJ6B
+  rt1062_package_status: FROZEN
+  rt1062_package_balls: 196
+  rt1062_package_body_mm: 12x12
+  rt1062_package_pitch_mm: 0.8
   option_c_bga_escape: OPEN
   option_c_6_layer_routability: OPEN
 

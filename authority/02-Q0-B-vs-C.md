@@ -73,14 +73,26 @@ been shown.
 | `OPTION_C_BGA_ESCAPE` | **OPEN** |
 | `OPTION_C_6_LAYER_ROUTABILITY` | **OPEN** |
 | `HDI / VIPPO requirement` | **OPEN** |
-| `RT1062 package` | **MUST CLOSE BEFORE VAL-G2** |
+| `RT1062 package` | **FROZEN — MIMXRT1062DVJ6B** |
 | `8-layer escalation` | **CONDITIONAL ONLY**, per `pcb/STACKUP-STATUS.md` |
 
 The ring-capacity argument advanced in the VAL-G1 study is rejected as a proof. Comparing 40
-required signals against 96 outer-ring slots assumes signals can be assigned to balls. They
-cannot — NXP fixes the ball map. A required function sitting on ring 5 must escape from ring 5
-regardless of how many outer slots are free. The same argument also invoked VIPPO while
-concluding no HDI was required, which is internally inconsistent.
+required signals against 96 outer-ring slots assumes functions can be placed on convenient balls.
+
+The accurate statement is narrower than "signals cannot be assigned to balls":
+
+> **NXP fixes the physical ball positions and the set of alternate functions each pad may
+> provide. Many K1 peripheral functions are IOMUX-selectable across several pads, so there is
+> real choice. Others are genuinely fixed — the BootROM UART recovery path on `GPIO_AD_B0_12`
+> and `GPIO_AD_B0_13` among them. K1 may therefore choose among legal IOMUX alternatives, but
+> may not map a function to whichever ball is convenient.**
+
+Consequently pinmux, package orientation and BGA escape must be **co-optimised** at VAL-G3, not
+resolved in sequence. That preserves the standing doctrine: placement and physics first, pin
+assignment afterward.
+
+The rejected argument also invoked VIPPO while concluding no HDI was required, which is
+internally inconsistent.
 
 ---
 
@@ -98,19 +110,50 @@ RT1062.** The `AG` 144-pin LQFP code exists in the i.MX RT family nomenclature b
 RT1061/RT1062 ordering option in either datasheet. Ball count is therefore not a design lever;
 pitch is.
 
-**Recommended, not yet frozen: `MIMXRT1062DVJ6B`** — 196-ball, 12 x 12 mm, 0.8 mm pitch. The
-wider pitch gives materially more escape room, and Teensy 4.1 uses that package, making it a
-routed precedent worth studying. Teensy 4.0 uses the 10 x 10 mm `DVL6B`.
+### FROZEN: `MIMXRT1062DVJ6B`
 
-K1-CORE-VAL does not minimise board area, so the extra 2 mm per axis is not a cost worth
-weighing against escape headroom. Study the Teensy fanout as reference. Do not copy its layout.
+| | |
+| --- | --- |
+| Part | `MIMXRT1062DVJ6B` |
+| Balls | 196 MAPBGA |
+| Body | 12 x 12 mm |
+| Pitch | 0.80 mm |
+| Core | 600 MHz Cortex-M7 |
+| NXP status | **ACTIVE** |
+
+The **B revision is mandatory for a new design.** NXP marks `MIMXRT1062DVJ6A` and
+`MIMXRT1062DVL6A` **Not Recommended for New Designs**; the `6B` parts are active. Any earlier
+suggestion of `DVJ6A` is withdrawn.
+
+Chosen over `DVL6B` because 0.8 mm pitch gives materially more geometric escape headroom than
+0.65 mm, and K1-CORE-VAL does not minimise board area, so 2 mm per axis is not a cost worth
+weighing against it. Teensy 4.1 uses the DVJ package and Teensy 4.0 the DVL, giving real routed
+references for both. Study the fanout. Do not copy the layout.
+
+### 0.8 mm is an advantage, not a routability proof
+
+**No traces-between-balls capacity is accepted** until the PCB land diameter, clearance rules,
+via geometry, mask expansion and fabrication limits are sourced from the NXP land-pattern
+recommendation and the fabricator's rules, and until the actual pinmux is known.
+
+An earlier channel calculation in this project derived a 450 um channel from an assumed 350 um
+PCB land. That land was not sourced — the package drawing specifies **solder-ball** geometry,
+which is not a PCB land. And even on that assumption, two 90 um traces with 90 um pad and
+intertrace clearances consume exactly 450 um: zero surplus before tolerance, registration or
+mask rules. A 330 um land leaves 20 um total. Neither supports "comfortable", "roughly doubles
+capacity", or any PASS.
 
 ---
 
 ## VAL-G3 gains a real BGA escape gate
 
-Ring arithmetic does not satisfy it. The gate takes the **actual NXP ball map for the selected
-package** and the **actual K1 net assignment**, and produces: required ball-to-signal table;
+Ring arithmetic does not satisfy it. The gate takes the **actual NXP ball map for
+`MIMXRT1062DVJ6B`** and the **completed single-sheet schematic**, then **derives** the best legal
+pinmux jointly with orientation and floorplan — it does not consume a net-to-ball assignment
+handed to it as immutable. It produces: complete physical ball map; fixed power and ground map;
+fixed and recovery pin reservations; every K1 functional signal; all legal IOMUX alternatives per
+flexible function; orientation candidates; peripheral-zone positions; candidate pinmux scored by
+escape pressure; ball-ring classification after the pinmux choice; required ball-to-signal table;
 ball-ring classification; escape direction per ball; power and ground ball map; via locations;
 channel widths; conflicts; routing layers used; count of signals requiring inner-ring escape;
 whether through-vias suffice; whether dog-bone escape suffices; any blind, buried or via-in-pad
