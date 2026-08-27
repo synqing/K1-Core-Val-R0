@@ -683,7 +683,7 @@ placed the lane in `FROZEN_INCIDENT`. Captain confirmed that agent was the autho
 operator, so I released the freeze immediately. The episode remains in the ledger as evidence of my
 ownership-classification error.
 
-This continuation adds three final systems lessons: atomic replacement does not serialise competing
+This continuation adds four final systems lessons: atomic replacement does not serialise competing
 processes; static status text cannot own a live transaction phase; every mutation must extend a
 continuous source-hash chain; and concurrency alone does not establish unauthorised ownership.
 OS-level file locking and runtime replay remain valid controls, while incident freeze is reserved
