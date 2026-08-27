@@ -49,6 +49,9 @@ ownership:
   service_usb: ESP32_S3
   usb_audio: EXPERIMENT_ONLY
   nfc_frontend: K1_CARRIER
+  debug_fabric_endpoint: ESP32_S3
+  rt_reset_request: ESP32_S3
+  rt_recovery_request: ESP32_S3
 
 audio:
   adc_evaluation_part: TLV320ADC6120
@@ -63,6 +66,14 @@ bridge:
 terminology:
   AP: AUDIO_PROCESSING_ONLY
   wifi_access_point: WIFI_AP_OR_SOFTAP_OR_ACCESS_POINT
+
+debug_fabric:
+  domain: D13.1
+  status: REQUIREMENTS_ONLY
+  scope: VAL_ONLY
+  third_mcu: false
+  remote_rt_power_switch: NOT_BASELINE
+  wifi_tcp_transport: PERMITTED_VAL_INSTRUMENTATION_ONLY
 
 wireless:
   ble_midi: CURRENT

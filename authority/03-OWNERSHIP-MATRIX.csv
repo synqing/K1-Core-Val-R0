@@ -17,3 +17,6 @@ nfc_host,ESP32_S3,DEFAULT,2026-08-27 Q0 authority,tag events converted to semant
 service_usb,ESP32_S3,DEFAULT,2026-08-27 Q0 authority,programming diagnostics configuration recovery
 usb_audio,EXPERIMENT_ONLY,EXPERIMENT,2026-08-27 Q0 authority,terminate on RT1062 or named K1BR exception
 nfc_frontend,K1_CARRIER,RATIFIED,2026-08-27 Q0 authority,13.56 MHz path never crosses SSCM-1
+debug_fabric_endpoint,ESP32_S3,DEFAULT,2026-08-27 D13.1,VAL-only scoped exception; product role unchanged
+rt_reset_request,ESP32_S3,DEFAULT,2026-08-27 D13.1,open drain; may assert low or release high-Z; never drives high
+rt_recovery_request,ESP32_S3,DEFAULT,2026-08-27 D13.1,logical request; decoded target-side into both boot-mode bits

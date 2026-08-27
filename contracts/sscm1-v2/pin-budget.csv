@@ -23,4 +23,9 @@ service,BOOT,carrier_to_module,no,no,REQUIRED,per-part where both MCUs module-si
 identity,MODULE_EN,carrier_to_module,no,no,REQUIRED,
 identity,MODULE_PRESENT,module_to_carrier,no,no,REQUIRED,
 identity,MODULE_ID,module_to_carrier,no,no,REQUIRED,
+debug,VAL_RT_UART_S3_TO_RT,carrier_to_module,yes,no,REQUIRED,D13.1 service to target
+debug,VAL_RT_UART_RT_TO_S3,module_to_carrier,yes,no,REQUIRED,D13.1 target to service
+debug,RT_RECOVERY_REQ,carrier_to_module,no,no,REQUIRED,logical request; decoded module-side into both boot-mode bits
+debug,RT_RESET_REQ_N,carrier_to_module,no,yes,REQUIRED,open drain into module-side wired-OR; never driven high
+debug,RT_POWER_GOOD,module_to_carrier,no,no,REQUIRED,from module-side supervisor
 spare,SPARE,unassigned,no,no,REQUIRED,real contingency; count is a v2 output not an input

@@ -19,3 +19,8 @@
 | D-015 | 2026-08-27 | Create a check when the artefact it checks first exists. No speculative stub harnesses. | RATIFIED | Captain ruling |
 | D-016 | 2026-08-27 | One floorplan contraction study, not three parallel envelope documents. | RATIFIED | Captain ruling |
 | D-017 | 2026-08-27 | RT1062 has no MICFIL or hardware PDM decimation peripheral. Direct PDM is SAI plus software decimation. | RATIFIED | NXP IMXRT1060CEC |
+| D-018 | 2026-08-27 | D13.1 Debug and Recovery Fabric ratified as a VAL requirement. Requirements only; no circuit, no MPNs, no final GPIO. | RATIFIED | Captain ruling |
+| D-019 | 2026-08-27 | No third MCU. Existing ESP32_S3 is the Debug Fabric service endpoint. K1BR payload semantics unchanged. | RATIFIED | Captain ruling |
+| D-020 | 2026-08-27 | RT1062 pin facts verified against NXP IMXRT1060CEC: LPUART1 TX GPIO_AD_B0_12, RX GPIO_AD_B0_13; BOOT_MODE0 GPIO_AD_B0_04, BOOT_MODE1 GPIO_AD_B0_05; 100 kohm internal pull-downs; 01 Serial Downloader, 10 Internal Boot. | RATIFIED | NXP IMXRT1060CEC; MIMXRT1060-EVKB manual |
+| D-021 | 2026-08-27 | Independent remote RT power switching stays out of baseline R0. Remote reset and remote recovery are required. | RATIFIED | Captain ruling |
+

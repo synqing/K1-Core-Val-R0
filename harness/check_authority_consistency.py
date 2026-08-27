@@ -59,6 +59,9 @@ EXPECTED_OWNER = {
     "service_usb": "ESP32_S3",
     "nfc_frontend": "K1_CARRIER",
     "usb_audio": "EXPERIMENT_ONLY",
+    "debug_fabric_endpoint": "ESP32_S3",
+    "rt_reset_request": "ESP32_S3",
+    "rt_recovery_request": "ESP32_S3",
 }
 
 # Deliberately not pinned: the accelerometer carries a 0R/DNP ownership matrix and may be
@@ -86,6 +89,9 @@ EXPECTED_STATUS = {
     "nfc_host": "DEFAULT",
     "service_usb": "DEFAULT",
     "usb_audio": "EXPERIMENT",
+    "debug_fabric_endpoint": "DEFAULT",
+    "rt_reset_request": "DEFAULT",
+    "rt_recovery_request": "DEFAULT",
 }
 
 REQUIRED_FUNCTIONS = set(EXPECTED_OWNER) | set(UNPINNED_OWNER)

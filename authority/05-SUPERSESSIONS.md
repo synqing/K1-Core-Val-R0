@@ -14,3 +14,6 @@ never supersedes an explicit earlier ruling on that topic without an entry here.
 | 2026-08-27 | Hierarchical or per-domain schematic sheets | Exactly one schematic sheet, domains separated visually | The board exists to reason about domain interactions, which hierarchy conceals |
 | 2026-08-27 | Three parallel board-envelope studies (105 / 115 / 125 mm) | One contraction study in `pcb/floorplan/FLOORPLAN-STUDY.md` | Three lanes produce one answer three times |
 | 2026-08-27 | 21-script bootstrap harness plan | Two non-vacuous checks at VAL-G0 | Checks written before their artefacts exist become stubs, and stubs pass |
+| 2026-08-27 | ESP32_S3 as radio-only on this board | Product role unchanged (radio and control); K1-CORE-VAL additionally grants a validation-only debug and service role | D13.1 needs a service endpoint. Scoped exception, not a product architecture change: no RT1062 real-time function moves |
+| 2026-08-27 | Wi-Fi transport wholly unavailable on this board | Raw Wi-Fi and TCP permitted for VAL Debug Fabric instrumentation only | The product control plane is unchanged and stays parked; only an engineering transport is unlocked, and its interference is itself a measurement |
+

@@ -26,6 +26,11 @@ Requirements first. Pin assignment last.
 | Module identity | `MODULE_EN`, `MODULE_PRESENT`, `MODULE_ID`. A carrier must know what it holds. |
 | Power | Rails, current and sequencing. Carriers own the power domain. |
 | Dual-MCU seam | Crosses only where the two MCUs are not colocated. Keeping them colocated is the strongest argument for Option B. |
+| Debug Fabric UART, service to target | `VAL_RT_UART_S3_TO_RT` — one contact, ground adjacent. |
+| Debug Fabric UART, target to service | `VAL_RT_UART_RT_TO_S3` — one contact, ground adjacent. |
+| Recovery request | `RT_RECOVERY_REQ` — one contact. Legal as a single crossing **only** because target-local hardware decodes it into both boot-mode bits. |
+| Reset request | `RT_RESET_REQ_N` — one contact, open drain into the target-local wired-OR. |
+| Target power valid | `RT_POWER_GOOD` — one contact, from the target-local supervisor. |
 | Spare | Real contingency. "All pins used" is how a module standard dies at its second product. |
 
 ## Audio clock override — must be answered, not counted
@@ -48,6 +53,16 @@ inactive-driver isolation, sensible connector grouping and test access.
 Roughly 20 to 24 signals before contingency, once MCLK and the microphone enable have owners.
 Plausible against a 30-signal budget; not roomy. That budget was set on 2026-08-14, ten days
 before the dual-MCU ruling existed.
+
+## Stays module-local — does not consume crossings
+
+SWD and JTAG, the raw `BOOT_MODE0`/`BOOT_MODE1` bits, the reset supervisor, the recovery decoder,
+the passive boot straps, the UART arbitration and every manual override live **on the module with
+the RT1062**. Exporting raw debug and boot pins across the connector is what this partitioning
+exists to avoid. It also means an SSCM-1 module can be brought up and recovered on a bench
+without a carrier, which materially increases the value of Option B.
+
+Debug Fabric therefore adds approximately **five logical crossings**, not a dozen.
 
 ## Failure condition
 
