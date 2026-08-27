@@ -79,6 +79,20 @@ Report: total crossings by class, ground adjacency demand, which groups must not
 where contingency lands, and whether the budget survives. If it does not, say Option B fails at
 the requirements stage and why. That is a legitimate and useful result.
 
+### Layer budget — read this before Option C
+
+The board is six layers, `SIG / GND / PWR / SLOW-SIG / GND / SIG`. L4 sits 0.1088 mm from L3
+(split power) and 0.55 mm from L5 (ground), so **L4 is restricted to slow and control traffic**.
+
+For escape and corridor analysis this means the count of routing surfaces available to
+**fast** signals is **two — L1 and L6** — not three. Do not compute escape capacity as though
+L4 were available to clocks, USB, PDM/TDM or LED edges.
+
+If your analysis shows six layers cannot complete the escape without putting fast nets over
+split power, say so explicitly and state which nets. That is one of the recorded escalation
+triggers in `pcb/STACKUP-STATUS.md`. Report it; do not resolve it. Layer count is not yours to
+change, and neither is the L3/L4 assignment.
+
 ### Option C — the package edges are the question
 
 Which RT1062 package edges carry the most escape pressure from west-side LED outputs, the audio
