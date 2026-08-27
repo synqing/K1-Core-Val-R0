@@ -1,6 +1,12 @@
 # Single-sheet qualification — test plan
 
-Status: **VAL-G2.0 — REQUIRED FIRST, NOT RUN**
+Status: **VAL-G2.0A FIXTURE DEFINITION REQUIRED; VAL-G2.0B EDA EXECUTION BLOCKED**
+
+```text
+OPTION_C_SYMBOL_ESTIMATE = UNRESOLVED
+VAL_G2_0_FIXTURE_DEFINITION = REQUIRED_NOT_COMPLETE
+VAL_G2_0_EDA_EXECUTION = BLOCKED_ON_FIXTURE_DEFINITION
+```
 
 Purpose: prove that EasyEDA Pro can carry the complete K1-CORE-VAL board on one schematic sheet
 before canonical one-sheet capture creates irreversible implementation reliance.
@@ -9,6 +15,31 @@ EasyEDA Pro documents no schematic area limit, but separately recommends fewer t
 components per page and warns of editor lag beyond that. Those statements are not contradictory:
 no hard limit, and a practical performance warning. K1-CORE-VAL will exceed 100 components, so
 the test is mandatory.
+
+## VAL-G2.0A — fixture-definition gate
+
+This gate is required **before project creation or any EasyEDA write**. The numeric floor is not
+a substitute for the selected architecture.
+
+1. Resolve `N_estimated_symbols_option_C` from the current Option-C architecture, active
+   contracts and primary support requirements.
+2. Create `FIXTURE-PLAN.json` with every planned component role, quantity basis, domain, named
+   net and component-pin endpoint.
+3. Run:
+
+       python3 harness/check_single_sheet_qualification_plan.py
+
+4. Continue to EasyEDA only when it prints:
+
+       SINGLE_SHEET_QUALIFICATION_PLAN=PASS
+
+The checker fails closed when the plan is missing or parses zero components/nets. An unresolved
+Option-C estimate is a hard stop; **never substitute the 200-symbol floor for an unknown
+estimate**.
+
+The fixture plan must also survive a whole-plan visual review before placement. That review asks
+whether the topology resembles a real one-sheet circuit at normal reading scale, not whether a
+list of counters reaches its thresholds.
 
 ## Fixture
 
@@ -35,6 +66,34 @@ Mock but electrically coherent domains for: RT1062 and support; ESP32_S3 and sup
 interface; power entry and protection; buck and rails; LED power and data; audio, TDM and PDM;
 USB; NFC; accelerometer; connectors; option links.
 
+### Falsifiable semantic requirements
+
+- Every baseline symbol represents a source-derived Option-C role. Any fixture-only stress symbol
+  is identified explicitly, records its stress basis and may not duplicate a processor, major IC,
+  support IC, power IC or clock merely to increase the count.
+- Every named net has at least two distinct component-pin endpoints. A one-pin label or wire stub
+  is a dangling name, not a net.
+- Every high-fanout net has at least four endpoints, including an active/source IC and a real
+  load, protection, connector or passive endpoint. Passive-only fanout does not qualify.
+- The RT1062, ESP32_S3, audio front end, NFC front end and accelerometer each have planned
+  power/ground and functional-interface endpoints.
+- At least 20 nets use explicit visible wiring, every required domain contains explicit wiring,
+  and the power-tree nets are explicitly wired. Net labels remain valid for long-distance
+  cross-domain connections but may not be the only wiring technique.
+- Names containing `QUAL`, `DUMMY`, `PLACEHOLDER`, `PADDING` or `REPLICA` may not be used to
+  manufacture connectivity or component roles.
+- The `create-schematic` plan-complete gate remains mandatory for disposable fixtures. “Mock”
+  permits non-canonical values; it does not permit floating major devices or invented topology.
+
+## Rejected attempt — 2026-08-28
+
+Project UUID `09e9c541fd3d404082d4b92e55ae5336` is
+`ABANDONED_INVALID_FIXTURE`. It hard-coded the numeric floor, attached 120 unique one-endpoint
+names to passive pins and produced passive-only high-fanout rails. It is evidence of a failed
+method, not a qualification result, and receives no further mutation.
+
+See `evidence/VAL-G2-2026-08-28/INVALID-FIXTURE-RCA.md`.
+
 ## Objective responsiveness gate
 
 Measure with screen recording or monotonic timestamps. Not prose impressions. Run each operation
@@ -53,6 +112,7 @@ a repeatable stall.
 
 ## Integrity gate
 
+- The machine-checked fixture plan matches the EasyEDA component and endpoint-level net inventory.
 - No components or nets disappear.
 - Save and reopen is stable and repeatable.
 - ERC completes.

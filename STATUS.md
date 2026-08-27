@@ -7,7 +7,8 @@ Updated: 2026-08-28
 | VAL-G0 bootstrap | COMPLETE |
 | VAL-G1 Option B vs C | **CLOSED 2026-08-27 — Option C selected, Option B deferred** |
 | VAL-G2 | **READY** |
-| VAL-G2.0 single-sheet qualification | **REQUIRED FIRST — NOT RUN** |
+| VAL-G2.0A fixture definition | **REQUIRED FIRST — NOT COMPLETE** |
+| VAL-G2.0B EasyEDA qualification execution | **BLOCKED ON VAL-G2.0A PASS** |
 | VAL-G2.1 canonical single-sheet schematic capture | **WAITS ON VAL-G2.0 PASS** |
 | VAL-G3 envelope and floorplan | NOT STARTED |
 | VAL-G4 placement and locks | NOT STARTED |
@@ -29,6 +30,20 @@ SSCM1_V1_AUTHORITY = UNRECOVERED_UNFROZEN
 SSCM1_V2 = REQUIREMENTS_DRIVEN_REPLACEMENT
 ```
 
+## VAL-G2.0 fixture state
+
+```text
+OPTION_C_SYMBOL_ESTIMATE = UNRESOLVED
+VAL_G2_0_FIXTURE_DEFINITION = REQUIRED_NOT_COMPLETE
+VAL_G2_0_EDA_EXECUTION = BLOCKED_ON_FIXTURE_DEFINITION
+```
+
+The first generated fixture was rejected before qualification because it optimised primitive
+counts instead of modelling a source-derived Option-C topology. Its project UUID
+`09e9c541fd3d404082d4b92e55ae5336` is `ABANDONED_INVALID_FIXTURE` and receives no further
+mutation. VAL-G2 remains ready to progress through fixture definition; EasyEDA execution is not
+authorised until the semantic fixture-plan checker passes.
+
 The bounded recovery pass is complete. Historical module fragments exist, but the frozen SSCM-1
 v1 specification was not recovered and is not authority. Option B remains deferred and its
 interface feasibility is unproven.
@@ -36,8 +51,10 @@ interface feasibility is unproven.
 ## Ready to start — qualification first
 
 RT1062 package is FROZEN: `MIMXRT1062DVJ6B`, 196-ball, 12 x 12 mm, 0.8 mm pitch (D-028).
-VAL-G2 is ready to start, but its first operation is the disposable VAL-G2.0 EasyEDA
-single-sheet qualification. Canonical capture at VAL-G2.1 waits on a measured VAL-G2.0 PASS.
+VAL-G2 is ready to progress, but its first operation is VAL-G2.0A fixture definition: resolve the
+Option-C symbol estimate and pass the endpoint-level fixture-plan checker. Disposable EasyEDA
+execution at VAL-G2.0B waits on that PASS. Canonical capture at VAL-G2.1 waits on a measured
+VAL-G2.0B PASS.
 
 ## Now unblocked by VAL-G1 closure
 

@@ -30,7 +30,15 @@ SSCM1_V2 = REQUIREMENTS_DRIVEN_REPLACEMENT
 
 ## Unresolved
 
-- Estimated Option C symbol count, required to size the single-sheet qualification fixture.
+```text
+OPTION_C_SYMBOL_ESTIMATE = UNRESOLVED
+VAL_G2_0_FIXTURE_DEFINITION = REQUIRED_NOT_COMPLETE
+VAL_G2_0_EDA_EXECUTION = BLOCKED_ON_FIXTURE_DEFINITION
+```
+
+The Option-C estimate is a hard input to VAL-G2.0A fixture definition. The 200-symbol floor may
+not be substituted for an unknown estimate.
+
 - Current shipping ESP32-S3 headroom. Never measured post int64-GDFT promotion.
 
 ## Closed absence

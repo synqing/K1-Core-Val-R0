@@ -19,6 +19,7 @@ COUNTS = {
     "contracts": 0,
     "text_files_scanned": 0,
     "recovery_state_records": 0,
+    "qualification_state_records": 0,
 }
 
 try:
@@ -55,6 +56,22 @@ RECOVERY_STATE_RE = re.compile(
 STALE_RECOVERY_RE = re.compile(
     r"(?i)(?:SSCM-1\s+recovery\s+pass|recovery\s+pass)[^\n]*"
     r"(?:\bNOT[ _-]?RUN\b|\bOUTSTANDING\b)"
+)
+
+EXPECTED_QUALIFICATION_STATE = {
+    "OPTION_C_SYMBOL_ESTIMATE": "UNRESOLVED",
+    "VAL_G2_0_FIXTURE_DEFINITION": "REQUIRED_NOT_COMPLETE",
+    "VAL_G2_0_EDA_EXECUTION": "BLOCKED_ON_FIXTURE_DEFINITION",
+}
+QUALIFICATION_STATE_FILES = [
+    "STATUS.md",
+    "schematic/single-sheet-qualification/TEST-PLAN.md",
+    "sources/SOURCE-REGISTER.md",
+]
+QUALIFICATION_STATE_RE = re.compile(
+    r"^(OPTION_C_SYMBOL_ESTIMATE|VAL_G2_0_FIXTURE_DEFINITION|"
+    r"VAL_G2_0_EDA_EXECUTION)\s*=\s*([A-Z][A-Z0-9_]*)\s*$",
+    re.MULTILINE,
 )
 
 # Every function below must appear in BOTH project.yaml and the ownership matrix, with the
@@ -164,6 +181,33 @@ for rel in RECOVERY_STATE_FILES:
         fail("%s contains stale SSCM-1 recovery state: %s"
              % (rel, stale.group(0).strip()))
 
+# -------------------------------------------------- VAL-G2.0 qualification state
+for rel in QUALIFICATION_STATE_FILES:
+    path = ROOT / rel
+    if not path.is_file():
+        fail("required VAL-G2.0 qualification-state file missing: %s" % rel)
+        continue
+
+    records = QUALIFICATION_STATE_RE.findall(path.read_text(encoding="utf-8"))
+    parsed = {}
+    for key, value in records:
+        if key in parsed:
+            fail("%s contains duplicate %s records" % (rel, key))
+        parsed[key] = value
+
+    complete = True
+    for key, expected in EXPECTED_QUALIFICATION_STATE.items():
+        actual = parsed.get(key)
+        if actual is None:
+            fail("%s is missing %s" % (rel, key))
+            complete = False
+        elif actual != expected:
+            fail("%s %s must be %s, found %s"
+                 % (rel, key, expected, actual))
+            complete = False
+    if complete:
+        COUNTS["qualification_state_records"] += 1
+
 # ---------------------------------------------------------------- project.yaml
 project = yaml.safe_load((ROOT / "project.yaml").read_text(encoding="utf-8")) or {}
 py_own = (project.get("ownership") or {})
@@ -173,6 +217,17 @@ if not py_own:
 audio_block = project.get("audio") or {}
 if audio_block.get("rt1062_native_pdm_decimator") is not False:
     fail("project.yaml must declare audio.rt1062_native_pdm_decimator: false")
+
+eda_block = project.get("eda") or {}
+EXPECTED_PROJECT_QUALIFICATION_STATE = {
+    "option_c_estimated_symbols": "UNRESOLVED",
+    "val_g2_0_fixture_definition": "REQUIRED_NOT_COMPLETE",
+    "val_g2_0_eda_execution": "BLOCKED_ON_FIXTURE_DEFINITION",
+}
+for key, expected in EXPECTED_PROJECT_QUALIFICATION_STATE.items():
+    actual = eda_block.get(key)
+    if actual != expected:
+        fail("project.yaml eda.%s must be %s, found %s" % (key, expected, actual))
 
 # ---------------------------------------------------------------- ownership CSV
 seen = {}
@@ -304,6 +359,11 @@ print("SSCM1_RECOVERY_RECORDS_PARSED=%d/%d"
       % (COUNTS["recovery_state_records"], len(RECOVERY_STATE_FILES)))
 if COUNTS["recovery_state_records"] == len(RECOVERY_STATE_FILES):
     print("SSCM1_RECOVERY_STATE=%s" % EXPECTED_RECOVERY_STATE)
+print("VAL_G2_0_STATE_RECORDS_PARSED=%d/%d"
+      % (COUNTS["qualification_state_records"], len(QUALIFICATION_STATE_FILES)))
+if COUNTS["qualification_state_records"] == len(QUALIFICATION_STATE_FILES):
+    for key, expected in EXPECTED_QUALIFICATION_STATE.items():
+        print("%s=%s" % (key, expected))
 print("CONTRADICTIONS=%d" % len(FAILURES))
 
 if FAILURES:

@@ -1,0 +1,76 @@
+K1-CORE-VAL-R0 invalid-fixture source-plug validation
+Run: 2026-08-28
+
+COMMAND: PYTHONDONTWRITEBYTECODE=1 python3 harness/check_authority_consistency.py
+AUTHORITY_FILES_PARSED=7
+OWNERSHIP_ROWS_PARSED=21
+REQUIRED_FUNCTIONS_PRESENT=21/21
+CONTRACTS_PARSED=9
+DOCUMENTS_SCANNED=28
+SSCM1_RECOVERY_RECORDS_PARSED=3/3
+SSCM1_RECOVERY_STATE=COMPLETE_NOT_FOUND
+VAL_G2_0_STATE_RECORDS_PARSED=3/3
+OPTION_C_SYMBOL_ESTIMATE=UNRESOLVED
+VAL_G2_0_FIXTURE_DEFINITION=REQUIRED_NOT_COMPLETE
+VAL_G2_0_EDA_EXECUTION=BLOCKED_ON_FIXTURE_DEFINITION
+CONTRADICTIONS=0
+AUTHORITY_CONSISTENCY=PASS
+
+COMMAND: PYTHONDONTWRITEBYTECODE=1 python3 harness/check_terminology.py
+TERMINOLOGY_FILES_SCANNED=31
+TERMINOLOGY_LINES_SCANNED=1822
+QUOTED_EXEMPTIONS_HONOURED=4
+VIOLATIONS=0
+TERMINOLOGY=PASS
+
+COMMAND: PYTHONDONTWRITEBYTECODE=1 python3 harness/test_single_sheet_qualification_plan.py
+TESTS_RUN=12
+TESTS_PASSED=12
+RESULT=OK
+
+Negative cases proven:
+- unresolved Option-C estimate
+- planned count below N_test formula
+- synthetic placeholder/count-padding role
+- fixture-only functional IC duplication
+- one-endpoint named net
+- passive-only high-fanout net
+- unpowered major component
+- stub-only wiring
+- no explicit wiring
+- missing required domain
+- zero component and net records
+- valid source-derived positive control remains green
+
+COMMAND: temporary checker mutation run against the same 12-test suite
+M1_ONE_ENDPOINT EXIT=1 TARGETED_FAILURES=1 HARNESS_ERRORS=0
+M2_PASSIVE_FANOUT EXIT=1 TARGETED_FAILURES=1 HARNESS_ERRORS=0
+M3_FORMULA EXIT=1 TARGETED_FAILURES=1 HARNESS_ERRORS=0
+MUTATION_TESTS=3/3_CORRECTLY_RED
+
+Each mutation disabled one production guard. In each case exactly the corresponding negative
+test failed while the positive control and the other tests remained green.
+
+COMMAND: PYTHONDONTWRITEBYTECODE=1 python3 harness/check_single_sheet_qualification_plan.py
+FIXTURE_PLAN_COMPONENTS=0
+FIXTURE_PLAN_NETS=0
+FAIL: fixture plan missing: schematic/single-sheet-qualification/FIXTURE-PLAN.json
+SINGLE_SHEET_QUALIFICATION_PLAN=FAIL
+RESULT=EXPECTED_FAIL_CLOSED
+
+COMMAND: PYTHONDONTWRITEBYTECODE=1 python3 harness/test_negative_suite.py
+BASELINES=PASS authority=1 terminology=1
+NEGATIVE_CASES=21/21
+NEGATIVE_SUITE=PASS
+
+New authority-state contradictions proven:
+- STATUS prematurely permits EDA execution
+- TEST-PLAN substitutes numeric 200 for unresolved estimate
+- SOURCE-REGISTER prematurely closes fixture definition
+- project.yaml prematurely permits EDA execution
+
+EASYEDA_PROJECT_UUID=09e9c541fd3d404082d4b92e55ae5336
+EASYEDA_PROJECT_STATE=ABANDONED_INVALID_FIXTURE
+VAL_G2_0_RESULT=NOT_RUN
+MUTATION_AFTER_REJECTION=NONE
+CUA_SESSION=k1-val-g2-api ENDED

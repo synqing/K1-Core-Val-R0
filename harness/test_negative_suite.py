@@ -111,6 +111,33 @@ CASES = [
         "SSCM1_RECOVERY_STATE = COMPLETE_NOT_FOUND", "SSCM1_RECOVERY_STATE = FOUND",
         "sources/SOURCE-REGISTER.md SSCM1_RECOVERY_STATE must be COMPLETE_NOT_FOUND, found FOUND",
     ),
+    (
+        "N18", "STATUS prematurely permits EDA execution", AUTHORITY_CHECKER, "replace",
+        "STATUS.md",
+        "VAL_G2_0_EDA_EXECUTION = BLOCKED_ON_FIXTURE_DEFINITION",
+        "VAL_G2_0_EDA_EXECUTION = READY",
+        "STATUS.md VAL_G2_0_EDA_EXECUTION must be BLOCKED_ON_FIXTURE_DEFINITION, found READY",
+    ),
+    (
+        "N19", "test plan substitutes a numeric floor for unresolved estimate",
+        AUTHORITY_CHECKER, "replace", "schematic/single-sheet-qualification/TEST-PLAN.md",
+        "OPTION_C_SYMBOL_ESTIMATE = UNRESOLVED", "OPTION_C_SYMBOL_ESTIMATE = 200",
+        "schematic/single-sheet-qualification/TEST-PLAN.md is missing OPTION_C_SYMBOL_ESTIMATE",
+    ),
+    (
+        "N20", "source register prematurely closes fixture definition",
+        AUTHORITY_CHECKER, "replace", "sources/SOURCE-REGISTER.md",
+        "VAL_G2_0_FIXTURE_DEFINITION = REQUIRED_NOT_COMPLETE",
+        "VAL_G2_0_FIXTURE_DEFINITION = COMPLETE",
+        "sources/SOURCE-REGISTER.md VAL_G2_0_FIXTURE_DEFINITION must be REQUIRED_NOT_COMPLETE, found COMPLETE",
+    ),
+    (
+        "N21", "project manifest prematurely permits EDA execution",
+        AUTHORITY_CHECKER, "replace", "project.yaml",
+        "  val_g2_0_eda_execution: BLOCKED_ON_FIXTURE_DEFINITION",
+        "  val_g2_0_eda_execution: READY",
+        "project.yaml eda.val_g2_0_eda_execution must be BLOCKED_ON_FIXTURE_DEFINITION, found READY",
+    ),
 ]
 
 

@@ -1,0 +1,27 @@
+{
+  "connectedComponents": 120,
+  "uniqueNamedNets": 120,
+  "fanoutNets": [
+    "+5V_IN",
+    "+5V_SYS",
+    "+3V3",
+    "+1V8",
+    "+3V3_A",
+    "+3V3_S3",
+    "+3V3_NFC",
+    "+5V_LED",
+    "DGND",
+    "AGND"
+  ],
+  "expectedNamedNetTotal": 130,
+  "domainUniqueNetCounts": {
+    "K1BR": 18,
+    "NFC": 14,
+    "LED": 10,
+    "USB": 4,
+    "RT": 28,
+    "ESP": 20,
+    "AUDIO": 13,
+    "PWR": 13
+  }
+}

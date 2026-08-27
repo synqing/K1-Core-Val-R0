@@ -12,7 +12,10 @@ eda:
   hierarchical_sheets_allowed: false
   pcb_created: false
   single_sheet_qualification_run: false
-  val_g2_0_single_sheet_qualification: REQUIRED_FIRST
+  option_c_estimated_symbols: UNRESOLVED
+  val_g2_0_fixture_definition: REQUIRED_NOT_COMPLETE
+  val_g2_0_eda_execution: BLOCKED_ON_FIXTURE_DEFINITION
+  val_g2_0_single_sheet_qualification: WAITS_ON_FIXTURE_DEFINITION_PASS
   val_g2_1_canonical_schematic_capture: WAITS_ON_VAL_G2_0_PASS
 
 mechanical:
