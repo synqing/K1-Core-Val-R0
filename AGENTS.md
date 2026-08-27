@@ -5,6 +5,9 @@ electrical correctness and future flexibility outrank PCB compactness and BOM co
 
 EasyEDA Pro is the final EDA authority.
 
+Before any EasyEDA work, read `docs/agent/EASYEDA-EXECUTION-CANON.md`. It is the durable execution
+and evidence contract for this repository.
+
 **There shall be exactly one electrical schematic sheet. Separate or hierarchical schematic
 sheets are forbidden.** All electrical components, nets, power paths, option circuits and real
 schematic wiring live on that one sheet, separated visually by domain of concern.
@@ -29,6 +32,23 @@ schematic wiring live on that one sheet, separated visually by domain of concern
   sheet/PCB at a scale that exposes the requested delta, and inspect it granularly before the next
   mutation. Preserve the screenshot under the active evidence directory. A batch may not conceal
   multiple visual stages that need separate inspection.
+- **The EasyEDA mutation gate is mandatory.** Every EasyEDA write in this repository must begin,
+  record semantic read-back and close visual evidence through
+  `harness/easyeda_mutation_gate.py`. Missing/stale state or any state other than `READY` forbids a
+  normal write. Direct mutation calls that bypass the gate are forbidden.
+- Run `python3 harness/easyeda_mutation_gate.py validate` before actuation. The state file and
+  append-only ledger own the live transaction phase; static status prose does not.
+- All state transitions must use the gate so its OS-level file lock serialises competing agents.
+- `FROZEN_INCIDENT` is an absolute stop with no automatic release path. Do not reinterpret it as a
+  request to reconcile. Use it only after live-session ownership is genuinely unresolved; another
+  active agent is not sufficient evidence. Never obstruct a Captain-authorised operator.
+- Placement, designation and wiring are separate visual transactions. The fixture executor may
+  perform exactly one stage for one complete source-derived circuit block per invocation. A
+  multi-stage convenience mode is forbidden.
+- A missing, empty, distant, cropped, unreadable or failed screenshot is missing evidence. Semantic
+  read-back cannot substitute for it. Stop before another write.
+- Decorative frames, role-count grids, generic symbol fallbacks and arbitrary count tranches are
+  forbidden. Circuit topology defines composition.
 - API success is not evidence of board correctness.
 - Do not weaken DRC rules to make errors disappear.
 - Do not silently consume reserved signals.
