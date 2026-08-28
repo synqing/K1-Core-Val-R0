@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-container-5-j6-repair-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Replace erroneous 1x40 J6 with intended PREC004SAAN-RC 1x4 UART header, retain -ESP identity, reconnect 3V3 TX RX GND, and remove old detached stubs",
+  "observed_delta": "J6 is a compact four-pin header labelled J6-ESP with 3V3, UART TX, EN and GND; the old 1x40 symbol and four detached stubs are absent.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/container-5-repaired-clean.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name":"connector identity","result":"OK","detail":"J6 visibly has four pins and is labelled J6-ESP / 1x4."},
+    {"name":"connectivity","result":"OK","detail":"3V3, ESP_UART0_TX, ESP_EN and GND are visible at J6."},
+    {"name":"orphan cleanup","result":"OK","detail":"The four detached stubs from the deleted 1x40 symbol are absent."},
+    {"name":"domain readability","result":"OK","detail":"ESP32-S3, service USB and K1BR sections are spatially separated inside box 5."},
+    {"name":"mutation boundary","result":"OK","detail":"The rectangle and adjacent domains remain fixed; PCB was not changed."}
+  ]
+}

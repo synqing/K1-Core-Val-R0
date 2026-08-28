@@ -1,0 +1,186 @@
+[
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C35",
+    "args": {
+      "componentPrimitiveId": "e10355",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "XTALI"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C36",
+    "args": {
+      "componentPrimitiveId": "e10391",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "XTALO_Y"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C37",
+    "args": {
+      "componentPrimitiveId": "e10427",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C38",
+    "args": {
+      "componentPrimitiveId": "e10463",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R13",
+    "args": {
+      "componentPrimitiveId": "e10499",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "XTALO"
+        },
+        {
+          "pinNumber": "2",
+          "net": "XTALO_Y"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R14",
+    "args": {
+      "componentPrimitiveId": "e10538",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "2",
+          "net": "FLASH_WP"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U8",
+    "args": {
+      "componentPrimitiveId": "e10577",
+      "connections": [
+        {
+          "pinNumber": "4",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "8",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "6",
+          "net": "FLEXSPI_SCLK"
+        },
+        {
+          "pinNumber": "1",
+          "net": "FLEXSPI_SS0"
+        },
+        {
+          "pinNumber": "5",
+          "net": "FLEXSPI_D0"
+        },
+        {
+          "pinNumber": "2",
+          "net": "FLEXSPI_D1"
+        },
+        {
+          "pinNumber": "3",
+          "net": "FLASH_WP"
+        },
+        {
+          "pinNumber": "7",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "Y1",
+    "args": {
+      "componentPrimitiveId": "e10639",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "XTALI"
+        },
+        {
+          "pinNumber": "3",
+          "net": "XTALO_Y"
+        },
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "4",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

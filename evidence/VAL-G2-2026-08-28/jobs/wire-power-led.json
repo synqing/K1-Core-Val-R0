@@ -1,0 +1,204 @@
+[
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C11",
+    "args": {
+      "componentPrimitiveId": "e5481",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "5V_LED_COMMON"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C12",
+    "args": {
+      "componentPrimitiveId": "e5556",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "+5V_LED_L"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C13",
+    "args": {
+      "componentPrimitiveId": "e5592",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "+5V_LED_R"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "CS06",
+    "args": {
+      "componentPrimitiveId": "e5628",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "+5V_LED_R"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "CS17",
+    "args": {
+      "componentPrimitiveId": "e5664",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "+5V_LED_R"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "CS28",
+    "args": {
+      "componentPrimitiveId": "e5700",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "+5V_LED_R"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "FB1",
+    "args": {
+      "componentPrimitiveId": "e5405",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "5V_LED_COMMON"
+        },
+        {
+          "pinNumber": "2",
+          "net": "+5V_LED_L"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "FB2",
+    "args": {
+      "componentPrimitiveId": "e5443",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "5V_LED_COMMON"
+        },
+        {
+          "pinNumber": "2",
+          "net": "+5V_LED_R"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R8",
+    "args": {
+      "componentPrimitiveId": "e5517",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "LED_EFUSE_ILIM"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U4",
+    "args": {
+      "componentPrimitiveId": "e5347",
+      "connections": [
+        {
+          "pinNumber": "8",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "5",
+          "net": "5V_SYS"
+        },
+        {
+          "pinNumber": "6",
+          "net": "5V_LED_COMMON"
+        },
+        {
+          "pinNumber": "9",
+          "net": "LED_EFUSE_ILIM"
+        },
+        {
+          "pinNumber": "1",
+          "net": "5V_SYS"
+        }
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

@@ -1,0 +1,149 @@
+[
+ {
+  "tag": "delete-j2",
+  "ok": true,
+  "result": {
+   "primitiveId": "e14406",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "delete-j3",
+  "ok": true,
+  "result": {
+   "primitiveId": "e14438",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "add-j2",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "8c5598a15d984c6aa64044e69046baa2",
+     "uuid": "8c5598a15d984c6aa64044e69046baa2"
+    },
+    "x": 3335,
+    "y": 2812,
+    "subPartName": "B3B-XH-A-3PZZ.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e14825",
+    "symbol": {
+     "uuid": "7bfe2acdb1ae4d5c8dc38fc63fb4cb6f",
+     "libraryUuid": "8c5598a15d984c6aa64044e69046baa2"
+    },
+    "footprint": {
+     "uuid": "c6c86025c90c41a0a75a430f1a104119",
+     "libraryUuid": "8c5598a15d984c6aa64044e69046baa2"
+    },
+    "designator": "CN?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "BXCONN(宝讯)",
+    "manufacturerId": "B3B-XH-A-3PZZ",
+    "supplier": "LCSC",
+    "supplierId": "C54444768",
+    "otherProperty": {
+     "LCSC Part Name": "1x3P 间距:2.54mm 直插 系列:XH",
+     "Supplier Footprint": "插件,P=2.54mm",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/B3B-XH-A-3PZZ/57781635.html",
+     "Pins Structure": "1x3P",
+     "Pitch": "2.54mm",
+     "Mounting Type": "Through Hole",
+     "Reference Series": "XH",
+     "Number of Pins": "3P",
+     "Number of Rows": "1",
+     "Number of PINs Per Row": "3",
+     "Row Spacing": "-",
+     "Current Rating": "2A",
+     "Contact Material": "Brass",
+     "Contact Plating": "Tin",
+     "Operating Temperature": "-25℃~+85℃",
+     "Voltage Rating": "250V",
+     "Plastic Material": "PA66",
+     "Flame Retardant Rating": "UL94V-0",
+     "Color": "White",
+     "Z-Height of the Board": "7mm",
+     "X-Length of Bottom Edge on Board (Spacing Line)": "10mm",
+     "Y-Width of Bottom Edge on Board": "5.9mm",
+     "Description": "Pins Structure:1x3P Pitch:2.54mm Mounting Type:Through Hole Reference Series:XH Number of Pins:3P Number of Rows:1 Number of PINs Per Row:3 Row Spacing:- Current Rating:2A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25℃~+85℃ Operatin"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "add-j3",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "8c5598a15d984c6aa64044e69046baa2",
+     "uuid": "8c5598a15d984c6aa64044e69046baa2"
+    },
+    "x": 3575,
+    "y": 2812,
+    "subPartName": "B3B-XH-A-3PZZ.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e14876",
+    "symbol": {
+     "uuid": "7bfe2acdb1ae4d5c8dc38fc63fb4cb6f",
+     "libraryUuid": "8c5598a15d984c6aa64044e69046baa2"
+    },
+    "footprint": {
+     "uuid": "c6c86025c90c41a0a75a430f1a104119",
+     "libraryUuid": "8c5598a15d984c6aa64044e69046baa2"
+    },
+    "designator": "CN?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "BXCONN(宝讯)",
+    "manufacturerId": "B3B-XH-A-3PZZ",
+    "supplier": "LCSC",
+    "supplierId": "C54444768",
+    "otherProperty": {
+     "LCSC Part Name": "1x3P 间距:2.54mm 直插 系列:XH",
+     "Supplier Footprint": "插件,P=2.54mm",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/B3B-XH-A-3PZZ/57781635.html",
+     "Pins Structure": "1x3P",
+     "Pitch": "2.54mm",
+     "Mounting Type": "Through Hole",
+     "Reference Series": "XH",
+     "Number of Pins": "3P",
+     "Number of Rows": "1",
+     "Number of PINs Per Row": "3",
+     "Row Spacing": "-",
+     "Current Rating": "2A",
+     "Contact Material": "Brass",
+     "Contact Plating": "Tin",
+     "Operating Temperature": "-25℃~+85℃",
+     "Voltage Rating": "250V",
+     "Plastic Material": "PA66",
+     "Flame Retardant Rating": "UL94V-0",
+     "Color": "White",
+     "Z-Height of the Board": "7mm",
+     "X-Length of Bottom Edge on Board (Spacing Line)": "10mm",
+     "Y-Width of Bottom Edge on Board": "5.9mm",
+     "Description": "Pins Structure:1x3P Pitch:2.54mm Mounting Type:Through Hole Reference Series:XH Number of Pins:3P Number of Rows:1 Number of PINs Per Row:3 Row Spacing:- Current Rating:2A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25℃~+85℃ Operatin"
+    }
+   },
+   "recoveredFromError": false,
+   "saved": true
+  }
+ }
+]

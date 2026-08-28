@@ -1,0 +1,82 @@
+[
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C62",
+    "args": {
+      "componentPrimitiveId": "e13842",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C63",
+    "args": {
+      "componentPrimitiveId": "e13878",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R44",
+    "args": {
+      "componentPrimitiveId": "e13914",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R45",
+    "args": {
+      "componentPrimitiveId": "e13953",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R46",
+    "args": {
+      "componentPrimitiveId": "e13992",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R47",
+    "args": {
+      "componentPrimitiveId": "e14031",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R48",
+    "args": {
+      "componentPrimitiveId": "e14070",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R49",
+    "args": {
+      "componentPrimitiveId": "e14109",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R50",
+    "args": {
+      "componentPrimitiveId": "e14148",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U13",
+    "args": {
+      "componentPrimitiveId": "e14187",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

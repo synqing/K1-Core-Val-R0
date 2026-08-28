@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-led-efuse-note-anchor-repair-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Repair the clipped box-2 LED eFuse settings note by centring it at x=1435 y=3645",
+  "observed_delta": "After the transient EasyEDA information banner cleared, the settled focused image shows the complete U4 settings note centred along the clear lower strip of box 2. It is fully bounded, readable and clear of components. Semantic read-back confirms the exact anchor and unchanged component and endpoint-net counts.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-led-efuse-note-anchor-repair-settled.png",
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "complete note visible",
+      "result": "OK",
+      "detail": "The line begins with U4 SET and ends with PG/PGTH/ITIMER NC; neither end crosses a box boundary."
+    },
+    {
+      "name": "note clear of circuitry",
+      "result": "OK",
+      "detail": "The note occupies the unused bottom strip of box 2 without covering a symbol, net stub or domain title."
+    },
+    {
+      "name": "electrical records unchanged",
+      "result": "OK",
+      "detail": "The semantic comparison preserves all 190 components and the complete endpoint-net census."
+    },
+    {
+      "name": "whole-canvas integrity",
+      "result": "OK",
+      "detail": "The whole-sheet image is modal-free and shows no movement outside the settings note."
+    }
+  ]
+}

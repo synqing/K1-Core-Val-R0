@@ -1,0 +1,69 @@
+[
+  {"tool": "connect_schematic_pins_to_nets", "tag": "U3", "args": {"componentPrimitiveId": "e4601", "connections": [
+    {"pinNumber": "1", "net": "BUCK_EN"},
+    {"pinNumber": "2", "net": "BUCK_SW"},
+    {"pinNumber": "3", "net": "3V3"},
+    {"pinNumber": "4", "net": "GND"},
+    {"pinNumber": "6", "net": "5V_SYS"},
+    {"pinNumber": "7", "net": "5V_SYS"},
+    {"pinNumber": "8", "net": "BUCK_SS"},
+    {"pinNumber": "9", "net": "BUCK_FB"},
+    {"pinNumber": "10", "net": "GND"}
+  ], "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "connect_schematic_pins_to_nets", "tag": "L1", "args": {"componentPrimitiveId": "e4672", "connections": [
+    {"pinNumber": "1", "net": "BUCK_SW"},
+    {"pinNumber": "2", "net": "3V3"}
+  ], "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "connect_schematic_pins_to_nets", "tag": "C5", "args": {"componentPrimitiveId": "e4704", "connections": [
+    {"pinNumber": "1", "net": "5V_SYS"},
+    {"pinNumber": "2", "net": "GND"}
+  ], "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "connect_schematic_pins_to_nets", "tag": "C6", "args": {"componentPrimitiveId": "e4741", "connections": [
+    {"pinNumber": "1", "net": "3V3"},
+    {"pinNumber": "2", "net": "GND"}
+  ], "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "connect_schematic_pins_to_nets", "tag": "C7", "args": {"componentPrimitiveId": "e4777", "connections": [
+    {"pinNumber": "1", "net": "3V3"},
+    {"pinNumber": "2", "net": "GND"}
+  ], "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "connect_schematic_pins_to_nets", "tag": "C8", "args": {"componentPrimitiveId": "e4813", "connections": [
+    {"pinNumber": "1", "net": "3V3"},
+    {"pinNumber": "2", "net": "GND"}
+  ], "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "connect_schematic_pins_to_nets", "tag": "R5", "args": {"componentPrimitiveId": "e4849", "connections": [
+    {"pinNumber": "1", "net": "3V3"},
+    {"pinNumber": "2", "net": "BUCK_FB"}
+  ], "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "connect_schematic_pins_to_nets", "tag": "R6", "args": {"componentPrimitiveId": "e4888", "connections": [
+    {"pinNumber": "1", "net": "BUCK_FB"},
+    {"pinNumber": "2", "net": "GND"}
+  ], "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "connect_schematic_pins_to_nets", "tag": "C9", "args": {"componentPrimitiveId": "e4930", "connections": [
+    {"pinNumber": "1", "net": "3V3"},
+    {"pinNumber": "2", "net": "BUCK_FB"}
+  ], "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "connect_schematic_pins_to_nets", "tag": "R7", "args": {"componentPrimitiveId": "e4966", "connections": [
+    {"pinNumber": "1", "net": "5V_SYS"},
+    {"pinNumber": "2", "net": "BUCK_EN"}
+  ], "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "connect_schematic_pins_to_nets", "tag": "C10", "args": {"componentPrimitiveId": "e5007", "connections": [
+    {"pinNumber": "1", "net": "BUCK_SS"},
+    {"pinNumber": "2", "net": "GND"}
+  ], "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "connect_schematic_pins_to_nets", "tag": "CS01", "args": {"componentPrimitiveId": "e5043", "connections": [
+    {"pinNumber": "1", "net": "3V3"},
+    {"pinNumber": "2", "net": "GND"}
+  ], "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "connect_schematic_pins_to_nets", "tag": "CS12", "args": {"componentPrimitiveId": "e5079", "connections": [
+    {"pinNumber": "1", "net": "3V3"},
+    {"pinNumber": "2", "net": "GND"}
+  ], "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "connect_schematic_pins_to_nets", "tag": "CS23", "args": {"componentPrimitiveId": "e5115", "connections": [
+    {"pinNumber": "1", "net": "3V3"},
+    {"pinNumber": "2", "net": "GND"}
+  ], "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "connect_schematic_pins_to_nets", "tag": "CS34", "args": {"componentPrimitiveId": "e5151", "connections": [
+    {"pinNumber": "1", "net": "3V3"},
+    {"pinNumber": "2", "net": "GND"}
+  ], "saveAfter": true, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}}
+]

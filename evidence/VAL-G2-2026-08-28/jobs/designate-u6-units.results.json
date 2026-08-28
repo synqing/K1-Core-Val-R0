@@ -1,0 +1,268 @@
+[
+ {
+  "tag": "U6u2",
+  "ok": true,
+  "result": {
+   "primitiveId": "e7066",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "651981a878554bb4991259c95bf683ec"
+    },
+    "x": 1600,
+    "y": 2200,
+    "subPartName": "MIMXRT1062DVJ6B.2",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": false,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I7066",
+    "symbol": {
+     "uuid": "f054ecc71c3e42b3b281c1df5591f93e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "footprint": {
+     "uuid": "004fd7c4c78e495caba73f302774dd7e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "designator": "U6",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "NXP(恩智浦)",
+    "manufacturerId": "MIMXRT1062DVJ6B",
+    "supplier": "LCSC",
+    "supplierId": "MIMXRT1062DVJ6B.2",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "CPU Core": "",
+     "CPU Maximum Speed": "",
+     "Number of I/O": "",
+     "ADC (Bit)": "",
+     "Voltage - Supply": "",
+     "Description": "",
+     "Multi-Part Group": "",
+     "Relevance": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "U6u3",
+  "ok": true,
+  "result": {
+   "primitiveId": "e7390",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "651981a878554bb4991259c95bf683ec"
+    },
+    "x": 2400,
+    "y": 2200,
+    "subPartName": "MIMXRT1062DVJ6B.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": false,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I7390",
+    "symbol": {
+     "uuid": "f054ecc71c3e42b3b281c1df5591f93e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "footprint": {
+     "uuid": "004fd7c4c78e495caba73f302774dd7e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "designator": "U6",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "NXP(恩智浦)",
+    "manufacturerId": "MIMXRT1062DVJ6B",
+    "supplier": "LCSC",
+    "supplierId": "MIMXRT1062DVJ6B.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "CPU Core": "",
+     "CPU Maximum Speed": "",
+     "Number of I/O": "",
+     "ADC (Bit)": "",
+     "Voltage - Supply": "",
+     "Description": "",
+     "Multi-Part Group": "",
+     "Relevance": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "U6u4",
+  "ok": true,
+  "result": {
+   "primitiveId": "e7714",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "651981a878554bb4991259c95bf683ec"
+    },
+    "x": 3200,
+    "y": 2200,
+    "subPartName": "MIMXRT1062DVJ6B.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": false,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I7714",
+    "symbol": {
+     "uuid": "f054ecc71c3e42b3b281c1df5591f93e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "footprint": {
+     "uuid": "004fd7c4c78e495caba73f302774dd7e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "designator": "U6",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "NXP(恩智浦)",
+    "manufacturerId": "MIMXRT1062DVJ6B",
+    "supplier": "LCSC",
+    "supplierId": "MIMXRT1062DVJ6B.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "CPU Core": "",
+     "CPU Maximum Speed": "",
+     "Number of I/O": "",
+     "ADC (Bit)": "",
+     "Voltage - Supply": "",
+     "Description": "",
+     "Multi-Part Group": "",
+     "Relevance": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "U6u5",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8038",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "651981a878554bb4991259c95bf683ec"
+    },
+    "x": 4000,
+    "y": 2200,
+    "subPartName": "MIMXRT1062DVJ6B.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": false,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I8038",
+    "symbol": {
+     "uuid": "f054ecc71c3e42b3b281c1df5591f93e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "footprint": {
+     "uuid": "004fd7c4c78e495caba73f302774dd7e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "designator": "U6",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "NXP(恩智浦)",
+    "manufacturerId": "MIMXRT1062DVJ6B",
+    "supplier": "LCSC",
+    "supplierId": "MIMXRT1062DVJ6B.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "CPU Core": "",
+     "CPU Maximum Speed": "",
+     "Number of I/O": "",
+     "ADC (Bit)": "",
+     "Voltage - Supply": "",
+     "Description": "",
+     "Multi-Part Group": "",
+     "Relevance": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "U6u6",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8362",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "651981a878554bb4991259c95bf683ec"
+    },
+    "x": 4800,
+    "y": 2200,
+    "subPartName": "MIMXRT1062DVJ6B.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": false,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I8362",
+    "symbol": {
+     "uuid": "f054ecc71c3e42b3b281c1df5591f93e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "footprint": {
+     "uuid": "004fd7c4c78e495caba73f302774dd7e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "designator": "U6",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "NXP(恩智浦)",
+    "manufacturerId": "MIMXRT1062DVJ6B",
+    "supplier": "LCSC",
+    "supplierId": "MIMXRT1062DVJ6B.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "CPU Core": "",
+     "CPU Maximum Speed": "",
+     "Number of I/O": "",
+     "ADC (Bit)": "",
+     "Voltage - Supply": "",
+     "Description": "",
+     "Multi-Part Group": "",
+     "Relevance": ""
+    }
+   },
+   "saved": true
+  }
+ }
+]

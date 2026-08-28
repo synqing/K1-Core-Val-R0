@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-rt-boot-clock-layout-repair2-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Move the manual reset switch onto its own row, shift U7 right for request-net clearance, and pull R11 inward so every box-4 label remains fully visible",
+  "observed_delta": "R11 is now fully inside box 4 and the supervisor row has adequate border clearance. The manual switch is nevertheless too close to R17, while independent RT_RESET_REQ_N stubs still force a long label across U7 pin text.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-rt-boot-clock-layout-repair2-box4.png",
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [
+    "SW1-RTC crowds the R17-RTDBG row",
+    "The long RT_RESET_REQ_N stub label still crosses U7 pin text"
+  ],
+  "verdict": "REJECTED",
+  "checks": [
+    {"name": "right box clearance", "result": "OK", "detail": "R11-RTC and 3V3 are fully visible."},
+    {"name": "settings note clearance", "result": "OK", "detail": "The note occupies a clean horizontal band."},
+    {"name": "manual reset clearance", "result": "DEFECT", "detail": "The switch and LPUART1_TX_H text occupy the same visual area."},
+    {"name": "supervisor request readability", "result": "DEFECT", "detail": "RT_RESET_REQ_N remains superimposed on U7 internals."},
+    {"name": "electrical topology unchanged", "result": "OK", "detail": "The semantic endpoint map and component count are unchanged."},
+    {"name": "whole-sheet modal check", "result": "OK", "detail": "The whole canvas is modal-free with no unrelated movement."}
+  ]
+}

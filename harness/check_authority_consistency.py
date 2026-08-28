@@ -59,9 +59,9 @@ STALE_RECOVERY_RE = re.compile(
 )
 
 EXPECTED_QUALIFICATION_STATE = {
-    "OPTION_C_SYMBOL_ESTIMATE": "UNRESOLVED",
-    "VAL_G2_0_FIXTURE_DEFINITION": "REQUIRED_NOT_COMPLETE",
-    "VAL_G2_0_EDA_EXECUTION": "BLOCKED_ON_FIXTURE_DEFINITION",
+    "OPTION_C_SYMBOL_ESTIMATE": "RESOLVED",
+    "VAL_G2_0_FIXTURE_DEFINITION": "RETIRED_BY_D_042",
+    "VAL_G2_0_EDA_EXECUTION": "TERMINATED_BY_D_042",
 }
 QUALIFICATION_STATE_FILES = [
     "STATUS.md",
@@ -220,9 +220,9 @@ if audio_block.get("rt1062_native_pdm_decimator") is not False:
 
 eda_block = project.get("eda") or {}
 EXPECTED_PROJECT_QUALIFICATION_STATE = {
-    "option_c_estimated_symbols": "UNRESOLVED",
-    "val_g2_0_fixture_definition": "REQUIRED_NOT_COMPLETE",
-    "val_g2_0_eda_execution": "BLOCKED_ON_FIXTURE_DEFINITION",
+    "option_c_estimated_symbols": "RESOLVED",
+    "val_g2_0_fixture_definition": "RETIRED_BY_D_042",
+    "val_g2_0_eda_execution": "TERMINATED_BY_D_042",
 }
 for key, expected in EXPECTED_PROJECT_QUALIFICATION_STATE.items():
     actual = eda_block.get(key)

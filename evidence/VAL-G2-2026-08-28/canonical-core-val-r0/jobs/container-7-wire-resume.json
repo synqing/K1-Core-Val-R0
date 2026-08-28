@@ -1,0 +1,367 @@
+[
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C54",
+    "args": {
+      "componentPrimitiveId": "e13042",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "NFC_XTI"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C55",
+    "args": {
+      "componentPrimitiveId": "e13078",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "NFC_XTO"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C56",
+    "args": {
+      "componentPrimitiveId": "e13114",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C57",
+    "args": {
+      "componentPrimitiveId": "e13150",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "NFC_5V"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C58",
+    "args": {
+      "componentPrimitiveId": "e13186",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "NFC_5V"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C59",
+    "args": {
+      "componentPrimitiveId": "e13222",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "NFC_EMI"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C60",
+    "args": {
+      "componentPrimitiveId": "e13258",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "NFC_MATCH_IN"
+        },
+        {
+          "pinNumber": "2",
+          "net": "NFC_MATCH_L"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C61",
+    "args": {
+      "componentPrimitiveId": "e13294",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "NFC_ANT"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "J10",
+    "args": {
+      "componentPrimitiveId": "e13330",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "NFC_ANT"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "L2",
+    "args": {
+      "componentPrimitiveId": "e13362",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "NFC_RFO1"
+        },
+        {
+          "pinNumber": "2",
+          "net": "NFC_EMI"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "L3",
+    "args": {
+      "componentPrimitiveId": "e13399",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "NFC_MATCH_L"
+        },
+        {
+          "pinNumber": "2",
+          "net": "NFC_ANT"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R42",
+    "args": {
+      "componentPrimitiveId": "e13438",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "NFC_EMI"
+        },
+        {
+          "pinNumber": "2",
+          "net": "NFC_MATCH_IN"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R43",
+    "args": {
+      "componentPrimitiveId": "e13477",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "2",
+          "net": "NFC_IRQ"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U12",
+    "args": {
+      "componentPrimitiveId": "e13516",
+      "connections": [
+        {
+          "pinNumber": "21",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "8",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "10",
+          "net": "NFC_5V"
+        },
+        {
+          "pinNumber": "32",
+          "net": "I2C_SDA"
+        },
+        {
+          "pinNumber": "30",
+          "net": "I2C_SCL"
+        },
+        {
+          "pinNumber": "5",
+          "net": "NFC_XTI"
+        },
+        {
+          "pinNumber": "4",
+          "net": "NFC_XTO"
+        },
+        {
+          "pinNumber": "27",
+          "net": "NFC_IRQ"
+        },
+        {
+          "pinNumber": "13",
+          "net": "NFC_RFO1"
+        },
+        {
+          "pinNumber": "22",
+          "net": "NFC_ANT"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "6",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "12",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "16",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "26",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "33",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "3",
+          "net": "NFC_VDD_D"
+        },
+        {
+          "pinNumber": "7",
+          "net": "NFC_VDD_A"
+        },
+        {
+          "pinNumber": "9",
+          "net": "NFC_VDD_RF"
+        },
+        {
+          "pinNumber": "11",
+          "net": "NFC_VDD_AM"
+        },
+        {
+          "pinNumber": "14",
+          "net": "NFC_VDD_DR"
+        },
+        {
+          "pinNumber": "24",
+          "net": "NFC_AGDC"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "Y2",
+    "args": {
+      "componentPrimitiveId": "e13647",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "NFC_XTI"
+        },
+        {
+          "pinNumber": "2",
+          "net": "NFC_XTO"
+        }
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

@@ -1,0 +1,8 @@
+[
+  {"tag":"vin-minus-wrong","tool":"get_schematic_primitive","args":{"primitiveId":"e14555","expectedDocumentUuid":"1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tag":"vbus","tool":"get_schematic_primitive","args":{"primitiveId":"e14561","expectedDocumentUuid":"1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tag":"dogleg","tool":"get_schematic_primitive","args":{"primitiveId":"e14597","expectedDocumentUuid":"1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tag":"wrong-label","tool":"get_schematic_primitive","args":{"primitiveId":"e14556","expectedDocumentUuid":"1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tag":"vbus-label","tool":"get_schematic_primitive","args":{"primitiveId":"e14562","expectedDocumentUuid":"1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tag":"dogleg-label","tool":"get_schematic_primitive","args":{"primitiveId":"e14598","expectedDocumentUuid":"1991698f35bf4c09b8de4bcf78bd2b7b"}}
+]

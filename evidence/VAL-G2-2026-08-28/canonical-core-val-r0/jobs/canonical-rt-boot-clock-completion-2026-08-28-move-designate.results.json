@@ -1,0 +1,478 @@
+[
+ {
+  "tag": "move-U7-RTC",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3619",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "a67e9512bc294cea8a6520da33fa60e5"
+    },
+    "x": 3070,
+    "y": 4310,
+    "subPartName": "TPS3808G33DBVR.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "move-C18-RTC",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3055",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "a9cf2f91492b44b0ab588d27628e3ff6"
+    },
+    "x": 3230,
+    "y": 4310,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "move-R12-RTC",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3205",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "e1b1f220e40a4edea589adfa05a5d8c7"
+    },
+    "x": 3370,
+    "y": 4310,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "move-SW1-RTC",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3244",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "03c1499ffd4c4da586c4ec4ba1cdc06e"
+    },
+    "x": 3515,
+    "y": 4310,
+    "subPartName": "PTS645SM43SMTR92LFS.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "designate-R10",
+  "ok": true,
+  "result": {
+   "primitiveId": "e47826",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "e1b1f220e40a4edea589adfa05a5d8c7"
+    },
+    "x": 3700,
+    "y": 4310,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I47826",
+    "symbol": {
+     "uuid": "27e1c105ea1844858f8ef4c155fa3cd7",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "footprint": {
+     "uuid": "3a9991e4aef9455bb546fda6b87e03b9",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "designator": "R10-RTC",
+    "name": "10k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0710KL",
+    "supplier": "LCSC",
+    "supplierId": "C60490",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "designate-R11",
+  "ok": true,
+  "result": {
+   "primitiveId": "e47865",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "e1b1f220e40a4edea589adfa05a5d8c7"
+    },
+    "x": 3880,
+    "y": 4310,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I47865",
+    "symbol": {
+     "uuid": "27e1c105ea1844858f8ef4c155fa3cd7",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "footprint": {
+     "uuid": "3a9991e4aef9455bb546fda6b87e03b9",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "designator": "R11-RTC",
+    "name": "10k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0710KL",
+    "supplier": "LCSC",
+    "supplierId": "C60490",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "designate-C35",
+  "ok": true,
+  "result": {
+   "primitiveId": "e47904",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "d328410f6a9949c294debc10dc172fa2"
+    },
+    "x": 3095,
+    "y": 4200,
+    "subPartName": "GRM1555C1H8R2CA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I47904",
+    "symbol": {
+     "uuid": "f7edead210e54357acda200f7f429853",
+     "libraryUuid": "e0d07da0770348cfae7a47f2b8f74050"
+    },
+    "footprint": {
+     "uuid": "d474ec6594cf4851bae514d479acb17c",
+     "libraryUuid": "e0d07da0770348cfae7a47f2b8f74050"
+    },
+    "designator": "C35-RTDBG",
+    "name": "8.2pF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM1555C1H8R2CA01D",
+    "supplier": "LCSC",
+    "supplierId": "C76984",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "designate-C36",
+  "ok": true,
+  "result": {
+   "primitiveId": "e47939",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "d328410f6a9949c294debc10dc172fa2"
+    },
+    "x": 3335,
+    "y": 4200,
+    "subPartName": "GRM1555C1H8R2CA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I47939",
+    "symbol": {
+     "uuid": "f7edead210e54357acda200f7f429853",
+     "libraryUuid": "e0d07da0770348cfae7a47f2b8f74050"
+    },
+    "footprint": {
+     "uuid": "d474ec6594cf4851bae514d479acb17c",
+     "libraryUuid": "e0d07da0770348cfae7a47f2b8f74050"
+    },
+    "designator": "C36-RTDBG",
+    "name": "8.2pF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM1555C1H8R2CA01D",
+    "supplier": "LCSC",
+    "supplierId": "C76984",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "designate-U8",
+  "ok": true,
+  "result": {
+   "primitiveId": "e47974",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "4457af79677e4deaa616e1e4ac679c1c"
+    },
+    "x": 3575,
+    "y": 4515,
+    "subPartName": "IS25LP064A-JBLE.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I47974",
+    "symbol": {
+     "uuid": "7a78dc9addb84c6aaf35403211220a30",
+     "libraryUuid": "e3b39f39139e446ead7a11dd4da2f61f"
+    },
+    "footprint": {
+     "uuid": "25cbc179d8b34bb09c754b434ea26d63",
+     "libraryUuid": "e3b39f39139e446ead7a11dd4da2f61f"
+    },
+    "designator": "U8-RTDBG",
+    "name": "64Mbit / 3V",
+    "uniqueId": "",
+    "manufacturer": "ISSI(美国芯成)",
+    "manufacturerId": "IS25LP064A-JBLE",
+    "supplier": "LCSC",
+    "supplierId": "C412831",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Interface Type": "",
+     "Memory Size": "",
+     "Clock Frequency (fc)": "",
+     "Supply Voltage": "",
+     "Page Programming Time (Tpp)": "",
+     "Block Erase Time (tBE)": "",
+     "Data Retention - TDR (Year)": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "designate-R68",
+  "ok": true,
+  "result": {
+   "primitiveId": "e48032",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "7a99bde7acad4be1b12694167e48a232"
+    },
+    "x": 3095,
+    "y": 4415,
+    "subPartName": "RC0402FR-072M2L.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I48032",
+    "symbol": {
+     "uuid": "7f0aee6439234dc08155a4f764a9f064",
+     "libraryUuid": "59cbc61ba08043769ad3f7c9a6f84ca6"
+    },
+    "footprint": {
+     "uuid": "460d2533a26a495b8f9dae77401ce6d9",
+     "libraryUuid": "59cbc61ba08043769ad3f7c9a6f84ca6"
+    },
+    "designator": "R68-RTDBG",
+    "name": "2.2M",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-072M2L",
+    "supplier": "LCSC",
+    "supplierId": "C138015",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "designate-R69",
+  "ok": true,
+  "result": {
+   "primitiveId": "e48071",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "e1b1f220e40a4edea589adfa05a5d8c7"
+    },
+    "x": 3335,
+    "y": 4415,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I48071",
+    "symbol": {
+     "uuid": "27e1c105ea1844858f8ef4c155fa3cd7",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "footprint": {
+     "uuid": "3a9991e4aef9455bb546fda6b87e03b9",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "designator": "R69-RTDBG",
+    "name": "10k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0710KL",
+    "supplier": "LCSC",
+    "supplierId": "C60490",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "note",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Text",
+    "x": 3500,
+    "y": -4050,
+    "content": "RT BOOT: 10 INTERNAL / 01 SERIAL DOWNLOADER | U7 3.07V supervisor | CT OPEN = 20ms",
+    "rotation": 0,
+    "textColor": "#1F5AA6",
+    "fontSize": 10,
+    "bold": true,
+    "alignMode": 2,
+    "primitiveId": "e48110"
+   },
+   "saved": true
+  }
+ }
+]

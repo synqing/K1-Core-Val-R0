@@ -1,0 +1,90 @@
+[
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C1",
+    "args": {
+      "componentPrimitiveId": "e13260",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C2",
+    "args": {
+      "componentPrimitiveId": "e13296",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "CS11",
+    "args": {
+      "componentPrimitiveId": "e13332",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "CS22",
+    "args": {
+      "componentPrimitiveId": "e13368",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "CS33",
+    "args": {
+      "componentPrimitiveId": "e13404",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "D1",
+    "args": {
+      "componentPrimitiveId": "e13440",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "F1",
+    "args": {
+      "componentPrimitiveId": "e13489",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "J1",
+    "args": {
+      "componentPrimitiveId": "e13527",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R1",
+    "args": {
+      "componentPrimitiveId": "e13614",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R2",
+    "args": {
+      "componentPrimitiveId": "e13653",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U1",
+    "args": {
+      "componentPrimitiveId": "e13692",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

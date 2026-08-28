@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-container-2-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Populate canonical domain box 2 (POWER_BUCK, POWER_LED, POWER_BRANCH) with source-derived components, domain suffix -PWR2, functional net endpoints and one readable title",
+  "observed_delta": "The settled box crop contains the buck, LED power and secondary branch circuits inside domain box 2, with PWR2 designators and functional named-net wiring; adjacent boxes and the PCB remain untouched.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/container-2-after.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name":"domain contents","result":"OK","detail":"Buck, LED eFuse and secondary regulator branches are all present inside box 2."},
+    {"name":"domain designators","result":"OK","detail":"Every visible electrical designator carries the -PWR2 suffix."},
+    {"name":"functional connectivity","result":"OK","detail":"Power, feedback, enable, soft-start and branch endpoints render as named connected nets."},
+    {"name":"layout integrity","result":"OK","detail":"No component symbols overlap and no repeated qualification-padding parts are present."},
+    {"name":"mutation boundary","result":"OK","detail":"The Captain-authored rectangle is preserved; adjacent domains and the PCB were not changed."}
+  ]
+}

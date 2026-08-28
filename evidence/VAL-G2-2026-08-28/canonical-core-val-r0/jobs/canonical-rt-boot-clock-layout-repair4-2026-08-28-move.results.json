@@ -1,0 +1,26 @@
+[
+ {
+  "tag": "SW1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3244",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "03c1499ffd4c4da586c4ec4ba1cdc06e"
+    },
+    "x": 3040,
+    "y": 4285,
+    "subPartName": "PTS645SM43SMTR92LFS.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   },
+   "saved": true
+  }
+ }
+]

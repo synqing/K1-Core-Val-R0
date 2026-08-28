@@ -1,0 +1,79 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C82",
+    "args": {
+      "primitiveId": "e76899",
+      "x": 2030,
+      "y": 3720,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C83",
+    "args": {
+      "primitiveId": "e76935",
+      "x": 2165,
+      "y": 3720,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C84",
+    "args": {
+      "primitiveId": "e76971",
+      "x": 2300,
+      "y": 3720,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C85",
+    "args": {
+      "primitiveId": "e77007",
+      "x": 2435,
+      "y": 3720,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C86",
+    "args": {
+      "primitiveId": "e77043",
+      "x": 2570,
+      "y": 3720,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C87",
+    "args": {
+      "primitiveId": "e77079",
+      "x": 2705,
+      "y": 3720,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C88",
+    "args": {
+      "primitiveId": "e77115",
+      "x": 2840,
+      "y": 3720,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

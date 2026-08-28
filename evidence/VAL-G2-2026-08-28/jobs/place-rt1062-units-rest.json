@@ -1,0 +1,62 @@
+[
+  {
+    "tool": "add_schematic_component",
+    "tag": "U6u3",
+    "args": {
+      "deviceUuid": "1f60af53654b4c089403430f1a6f9058",
+      "subPartName": "MIMXRT1062DVJ6B.3",
+      "x": 2400,
+      "y": 2200,
+      "rotation": 0,
+      "addIntoBom": false,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "U6u4",
+    "args": {
+      "deviceUuid": "1f60af53654b4c089403430f1a6f9058",
+      "subPartName": "MIMXRT1062DVJ6B.4",
+      "x": 3200,
+      "y": 2200,
+      "rotation": 0,
+      "addIntoBom": false,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "U6u5",
+    "args": {
+      "deviceUuid": "1f60af53654b4c089403430f1a6f9058",
+      "subPartName": "MIMXRT1062DVJ6B.5",
+      "x": 4000,
+      "y": 2200,
+      "rotation": 0,
+      "addIntoBom": false,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "U6u6",
+    "args": {
+      "deviceUuid": "1f60af53654b4c089403430f1a6f9058",
+      "subPartName": "MIMXRT1062DVJ6B.6",
+      "x": 4800,
+      "y": 2200,
+      "rotation": 0,
+      "addIntoBom": false,
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

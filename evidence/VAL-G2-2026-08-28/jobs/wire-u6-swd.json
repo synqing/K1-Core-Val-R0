@@ -1,0 +1,9 @@
+{
+  "componentPrimitiveId": "e6680",
+  "connections": [
+    {"pinNumber": "F12", "net": "SWD_SWCLK"},
+    {"pinNumber": "E14", "net": "SWD_SWDIO"}
+  ],
+  "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "saveAfter": true
+}

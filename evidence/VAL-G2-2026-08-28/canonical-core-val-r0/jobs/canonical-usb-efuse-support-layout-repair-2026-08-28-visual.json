@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-usb-efuse-support-layout-repair-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Repair rejected PWR1 support placement by moving the complete threshold, PG and dVdt network into the empty lower area of box 1 within x=0..910",
+  "observed_delta": "The wide settled screenshot shows R63, R2, R64, R65, R66, R67 and C67 arranged as two readable rows entirely inside box 1; the semantic read-back reports the exact requested coordinates and no component-count change.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-usb-efuse-support-layout-repair.png",
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "all support parts contained",
+      "result": "OK",
+      "detail": "Every PWR1 support part is visibly left of the x=910 box-1 boundary and above the y=3605 lower boundary."
+    },
+    {
+      "name": "two-row composition readable",
+      "result": "OK",
+      "detail": "The five threshold/PG resistors form a spaced upper row and R67/C67 form a spaced lower row with readable designators and values."
+    },
+    {
+      "name": "no overlaps or border collisions",
+      "result": "OK",
+      "detail": "No moved component overlaps another component, label, title or heavy domain border."
+    },
+    {
+      "name": "unrelated domains preserved",
+      "result": "OK",
+      "detail": "The wide screenshot shows box 2 and the visible part of box 3 unchanged; semantic component count is unchanged from the rejected placement."
+    }
+  ]
+}

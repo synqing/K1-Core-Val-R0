@@ -1,0 +1,215 @@
+[
+ {
+  "tag": "U6u3",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058",
+     "uuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "x": 2400,
+    "y": 2200,
+    "subPartName": "MIMXRT1062DVJ6B.3",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": false,
+    "addIntoPcb": true,
+    "primitiveId": "e7390",
+    "symbol": {
+     "uuid": "f054ecc71c3e42b3b281c1df5591f93e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "footprint": {
+     "uuid": "004fd7c4c78e495caba73f302774dd7e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "designator": "U?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "NXP(恩智浦)",
+    "manufacturerId": "MIMXRT1062DVJ6B",
+    "supplier": "LCSC",
+    "supplierId": "C3216699",
+    "otherProperty": {
+     "LCSC Part Name": "MIMXRT1062DVJ6B",
+     "Supplier Footprint": "LFBGA-196",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "",
+     "CPU Core": "ARM Cortex-M7",
+     "CPU Maximum Speed": "600MHz",
+     "Number of I/O": "127",
+     "ADC (Bit)": "12bit",
+     "Voltage - Supply": "3V~3.6V",
+     "Description": "CPU Core:ARM Cortex-M7 CPU Maximum Speed:600MHz Number of I/O:127 ADC (Bit):12bit Voltage - Supply:3V~3.6V Voltage - Supply:3V~3.6V",
+     "Multi-Part Group": "",
+     "Relevance": "[]"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "U6u4",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058",
+     "uuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "x": 3200,
+    "y": 2200,
+    "subPartName": "MIMXRT1062DVJ6B.4",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": false,
+    "addIntoPcb": true,
+    "primitiveId": "e7714",
+    "symbol": {
+     "uuid": "f054ecc71c3e42b3b281c1df5591f93e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "footprint": {
+     "uuid": "004fd7c4c78e495caba73f302774dd7e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "designator": "U?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "NXP(恩智浦)",
+    "manufacturerId": "MIMXRT1062DVJ6B",
+    "supplier": "LCSC",
+    "supplierId": "C3216699",
+    "otherProperty": {
+     "LCSC Part Name": "MIMXRT1062DVJ6B",
+     "Supplier Footprint": "LFBGA-196",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "",
+     "CPU Core": "ARM Cortex-M7",
+     "CPU Maximum Speed": "600MHz",
+     "Number of I/O": "127",
+     "ADC (Bit)": "12bit",
+     "Voltage - Supply": "3V~3.6V",
+     "Description": "CPU Core:ARM Cortex-M7 CPU Maximum Speed:600MHz Number of I/O:127 ADC (Bit):12bit Voltage - Supply:3V~3.6V Voltage - Supply:3V~3.6V",
+     "Multi-Part Group": "",
+     "Relevance": "[]"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "U6u5",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058",
+     "uuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "x": 4000,
+    "y": 2200,
+    "subPartName": "MIMXRT1062DVJ6B.5",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": false,
+    "addIntoPcb": true,
+    "primitiveId": "e8038",
+    "symbol": {
+     "uuid": "f054ecc71c3e42b3b281c1df5591f93e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "footprint": {
+     "uuid": "004fd7c4c78e495caba73f302774dd7e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "designator": "U?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "NXP(恩智浦)",
+    "manufacturerId": "MIMXRT1062DVJ6B",
+    "supplier": "LCSC",
+    "supplierId": "C3216699",
+    "otherProperty": {
+     "LCSC Part Name": "MIMXRT1062DVJ6B",
+     "Supplier Footprint": "LFBGA-196",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "",
+     "CPU Core": "ARM Cortex-M7",
+     "CPU Maximum Speed": "600MHz",
+     "Number of I/O": "127",
+     "ADC (Bit)": "12bit",
+     "Voltage - Supply": "3V~3.6V",
+     "Description": "CPU Core:ARM Cortex-M7 CPU Maximum Speed:600MHz Number of I/O:127 ADC (Bit):12bit Voltage - Supply:3V~3.6V Voltage - Supply:3V~3.6V",
+     "Multi-Part Group": "",
+     "Relevance": "[]"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "U6u6",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058",
+     "uuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "x": 4800,
+    "y": 2200,
+    "subPartName": "MIMXRT1062DVJ6B.6",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": false,
+    "addIntoPcb": true,
+    "primitiveId": "e8362",
+    "symbol": {
+     "uuid": "f054ecc71c3e42b3b281c1df5591f93e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "footprint": {
+     "uuid": "004fd7c4c78e495caba73f302774dd7e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "designator": "U?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "NXP(恩智浦)",
+    "manufacturerId": "MIMXRT1062DVJ6B",
+    "supplier": "LCSC",
+    "supplierId": "C3216699",
+    "otherProperty": {
+     "LCSC Part Name": "MIMXRT1062DVJ6B",
+     "Supplier Footprint": "LFBGA-196",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "",
+     "CPU Core": "ARM Cortex-M7",
+     "CPU Maximum Speed": "600MHz",
+     "Number of I/O": "127",
+     "ADC (Bit)": "12bit",
+     "Voltage - Supply": "3V~3.6V",
+     "Description": "CPU Core:ARM Cortex-M7 CPU Maximum Speed:600MHz Number of I/O:127 ADC (Bit):12bit Voltage - Supply:3V~3.6V Voltage - Supply:3V~3.6V",
+     "Multi-Part Group": "",
+     "Relevance": "[]"
+    }
+   },
+   "recoveredFromError": false,
+   "saved": true
+  }
+ }
+]

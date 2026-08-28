@@ -1,0 +1,132 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C62",
+    "args": {
+      "primitiveId": "e13842",
+      "designator": "C62-MOT",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C63",
+    "args": {
+      "primitiveId": "e13878",
+      "designator": "C63-MOT",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R44",
+    "args": {
+      "primitiveId": "e13914",
+      "designator": "R44-MOT",
+      "name": "0R",
+      "manufacturerId": "RC0402FR-070RL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R45",
+    "args": {
+      "primitiveId": "e13953",
+      "designator": "R45-MOT",
+      "name": "DNP",
+      "manufacturerId": "RC0402FR-07DNP",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R46",
+    "args": {
+      "primitiveId": "e13992",
+      "designator": "R46-MOT",
+      "name": "0R",
+      "manufacturerId": "RC0402FR-070RL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R47",
+    "args": {
+      "primitiveId": "e14031",
+      "designator": "R47-MOT",
+      "name": "DNP",
+      "manufacturerId": "RC0402FR-07DNP",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R48",
+    "args": {
+      "primitiveId": "e14070",
+      "designator": "R48-MOT",
+      "name": "0R",
+      "manufacturerId": "RC0402FR-070RL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R49",
+    "args": {
+      "primitiveId": "e14109",
+      "designator": "R49-MOT",
+      "name": "DNP",
+      "manufacturerId": "RC0402FR-07DNP",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R50",
+    "args": {
+      "primitiveId": "e14148",
+      "designator": "R50-MOT",
+      "name": "4.7k",
+      "manufacturerId": "RC0402FR-074K7L",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U13",
+    "args": {
+      "primitiveId": "e14187",
+      "designator": "U13-MOT",
+      "name": "FITTED",
+      "manufacturerId": "LIS2DH12TR",
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

@@ -1,0 +1,191 @@
+[
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C43",
+    "args": {
+      "componentPrimitiveId": "e12071",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "USB_CC1"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C44",
+    "args": {
+      "componentPrimitiveId": "e12107",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "USB_CC2"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "FB4",
+    "args": {
+      "componentPrimitiveId": "e12143",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "S3_VBUS"
+        },
+        {
+          "pinNumber": "2",
+          "net": "S3_VBUS_F"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "J7",
+    "args": {
+      "componentPrimitiveId": "e12181",
+      "connections": [
+        {
+          "pinNumber": "B1",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "A6",
+          "net": "USB_DP"
+        },
+        {
+          "pinNumber": "A7",
+          "net": "USB_DM"
+        },
+        {
+          "pinNumber": "B4",
+          "net": "S3_VBUS"
+        },
+        {
+          "pinNumber": "A5",
+          "net": "USB_CC1"
+        },
+        {
+          "pinNumber": "B5",
+          "net": "USB_CC2"
+        },
+        {
+          "pinNumber": "A12",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "B12",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "A9",
+          "net": "S3_VBUS"
+        },
+        {
+          "pinNumber": "B9",
+          "net": "S3_VBUS"
+        },
+        {
+          "pinNumber": "B6",
+          "net": "USB_DP"
+        },
+        {
+          "pinNumber": "B7",
+          "net": "USB_DM"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R21",
+    "args": {
+      "componentPrimitiveId": "e12268",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "USB_CC1"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R22",
+    "args": {
+      "componentPrimitiveId": "e12307",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "USB_CC2"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U10",
+    "args": {
+      "componentPrimitiveId": "e12346",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "USB_DP"
+        },
+        {
+          "pinNumber": "3",
+          "net": "USB_DM"
+        },
+        {
+          "pinNumber": "6",
+          "net": "USB_DP_S3"
+        },
+        {
+          "pinNumber": "4",
+          "net": "USB_DM_S3"
+        },
+        {
+          "pinNumber": "5",
+          "net": "S3_VBUS"
+        }
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

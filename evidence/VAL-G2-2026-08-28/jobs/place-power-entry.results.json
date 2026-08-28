@@ -1,0 +1,590 @@
+[
+ {
+  "tag": "C1",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "5af6063781eb4c9592427be410601b94",
+     "uuid": "5af6063781eb4c9592427be410601b94"
+    },
+    "x": 210,
+    "y": 465,
+    "subPartName": "GRM21BR61E226ME44L.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e13260",
+    "symbol": {
+     "uuid": "e2f4778443e844a289fd5ba1fdf48094",
+     "libraryUuid": "5af6063781eb4c9592427be410601b94"
+    },
+    "footprint": {
+     "uuid": "a542f360d9c6448395e702e434bebb65",
+     "libraryUuid": "5af6063781eb4c9592427be410601b94"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM21BR61E226ME44L",
+    "supplier": "LCSC",
+    "supplierId": "C86816",
+    "otherProperty": {
+     "LCSC Part Name": "22uF ±20% 25V",
+     "Supplier Footprint": "0805",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM21BR61E226ME44L/87993.html",
+     "Value": "22uF",
+     "Tolerance": "±20%",
+     "Voltage Rating": "25V",
+     "Temperature Coefficient": "X5R",
+     "Description": "Capacitance:22uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Temperature Coefficient:X5R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "C2",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "5af6063781eb4c9592427be410601b94",
+     "uuid": "5af6063781eb4c9592427be410601b94"
+    },
+    "x": 350,
+    "y": 465,
+    "subPartName": "GRM21BR61E226ME44L.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e13296",
+    "symbol": {
+     "uuid": "e2f4778443e844a289fd5ba1fdf48094",
+     "libraryUuid": "5af6063781eb4c9592427be410601b94"
+    },
+    "footprint": {
+     "uuid": "a542f360d9c6448395e702e434bebb65",
+     "libraryUuid": "5af6063781eb4c9592427be410601b94"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM21BR61E226ME44L",
+    "supplier": "LCSC",
+    "supplierId": "C86816",
+    "otherProperty": {
+     "LCSC Part Name": "22uF ±20% 25V",
+     "Supplier Footprint": "0805",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM21BR61E226ME44L/87993.html",
+     "Value": "22uF",
+     "Tolerance": "±20%",
+     "Voltage Rating": "25V",
+     "Temperature Coefficient": "X5R",
+     "Description": "Capacitance:22uF Tolerance:±20% Tolerance:±20% Voltage Rating:25V Temperature Coefficient:X5R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "CS11",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+     "uuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "x": 250,
+    "y": 590,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e13332",
+    "symbol": {
+     "uuid": "365891f2e96747049db199240392f1c4",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "footprint": {
+     "uuid": "3a1f3767bcb3402e8ad5f6b1f14a30a2",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R71C104KA88D",
+    "supplier": "LCSC",
+    "supplierId": "C71629",
+    "otherProperty": {
+     "LCSC Part Name": "100nF ±10% 16V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R71C104KA88D/72737.html",
+     "Value": "100nF",
+     "Tolerance": "±10%",
+     "Voltage Rating": "16V",
+     "Temperature Coefficient": "X7R",
+     "Description": "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "CS22",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+     "uuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "x": 430,
+    "y": 590,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e13368",
+    "symbol": {
+     "uuid": "365891f2e96747049db199240392f1c4",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "footprint": {
+     "uuid": "3a1f3767bcb3402e8ad5f6b1f14a30a2",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R71C104KA88D",
+    "supplier": "LCSC",
+    "supplierId": "C71629",
+    "otherProperty": {
+     "LCSC Part Name": "100nF ±10% 16V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R71C104KA88D/72737.html",
+     "Value": "100nF",
+     "Tolerance": "±10%",
+     "Voltage Rating": "16V",
+     "Temperature Coefficient": "X7R",
+     "Description": "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "CS33",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+     "uuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "x": 610,
+    "y": 590,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e13404",
+    "symbol": {
+     "uuid": "365891f2e96747049db199240392f1c4",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "footprint": {
+     "uuid": "3a1f3767bcb3402e8ad5f6b1f14a30a2",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R71C104KA88D",
+    "supplier": "LCSC",
+    "supplierId": "C71629",
+    "otherProperty": {
+     "LCSC Part Name": "100nF ±10% 16V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R71C104KA88D/72737.html",
+     "Value": "100nF",
+     "Tolerance": "±10%",
+     "Voltage Rating": "16V",
+     "Temperature Coefficient": "X7R",
+     "Description": "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "D1",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "e931d537a1bc4fb7b633b601571c876a",
+     "uuid": "e931d537a1bc4fb7b633b601571c876a"
+    },
+    "x": 500,
+    "y": 310,
+    "subPartName": "USBLC6-2SC6_C323793.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e13440",
+    "symbol": {
+     "uuid": "2abbed18f37c4c8d9822d0447c386c8a",
+     "libraryUuid": "e931d537a1bc4fb7b633b601571c876a"
+    },
+    "footprint": {
+     "uuid": "77fadc9b6f5b4076a690c20e73e9b320",
+     "libraryUuid": "e931d537a1bc4fb7b633b601571c876a"
+    },
+    "designator": "D?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "",
+    "manufacturerId": "USBLC6-2SC6",
+    "supplier": "LCSC",
+    "supplierId": "C323793",
+    "otherProperty": {
+     "LCSC Part Name": "ESD二极管 USBLC6-2SC6",
+     "Supplier Footprint": "SOT-23-6",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20181029/C323793_48F7908330A3F84485333C8DC43F9E49.pdf",
+     "Reverse Stand-Off Voltage (Vrwm)": "5V",
+     "Maximum Clamping Voltage": "20V",
+     "Peak Pulse Current (Ipp)@10/1000us": "5A",
+     "Breakdown Voltage": "6V",
+     "Type": "ESD",
+     "Description": "Reverse Stand-Off Voltage (Vrwm):5V Maximum Clamping Voltage:20V Peak Pulse Current (Ipp)@10/1000us:5A Breakdown Voltage:6V Type:ESD"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "F1",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "311ff67eca764c27a1d140044ae8bc93",
+     "uuid": "311ff67eca764c27a1d140044ae8bc93"
+    },
+    "x": 350,
+    "y": 310,
+    "subPartName": "BLM21PG221SN1D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e13489",
+    "symbol": {
+     "uuid": "cab1a5f0ff884b72833fc1168ecc8c12",
+     "libraryUuid": "311ff67eca764c27a1d140044ae8bc93"
+    },
+    "footprint": {
+     "uuid": "e5bd294ae79a45368d8ce299cb088294",
+     "libraryUuid": "311ff67eca764c27a1d140044ae8bc93"
+    },
+    "designator": "L?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "BLM21PG221SN1D",
+    "supplier": "LCSC",
+    "supplierId": "C85840",
+    "otherProperty": {
+     "LCSC Part Name": "单路 0805磁珠 阻抗220Ω@100MHz",
+     "Supplier Footprint": "0805",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/BLM21PG221SN1D/87016.html",
+     "Impedance @ Frequency": "220Ω@100MHz",
+     "Tolerance": "±25%",
+     "DC Resistance(DCR)": "45mΩ",
+     "Current Rating": "2A",
+     "Number of Circuits": "1",
+     "Operating Temperature": "-55℃~+125℃",
+     "Description": "Impedance @ Frequency:220Ω@100MHz Tolerance:±25% Tolerance:±25% DC Resistance(DCR):45mΩ Current Rating:2A Number of Circuits:1 Operating Temperature:-55℃~+125℃ Operating Temperature:-55℃~+125℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "J1",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "ea8fe62438f94521b482dce770be0817",
+     "uuid": "ea8fe62438f94521b482dce770be0817"
+    },
+    "x": 190,
+    "y": 310,
+    "subPartName": "USB4105-GF-A.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e13527",
+    "symbol": {
+     "uuid": "dc771612c6684726981d5af2c2a9c642",
+     "libraryUuid": "ea8fe62438f94521b482dce770be0817"
+    },
+    "footprint": {
+     "uuid": "99d72d128e10453ca6fef01e4cacaa72",
+     "libraryUuid": "ea8fe62438f94521b482dce770be0817"
+    },
+    "designator": "USB?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "GCT",
+    "manufacturerId": "USB4105-GF-A",
+    "supplier": "LCSC",
+    "supplierId": "C3020560",
+    "otherProperty": {
+     "LCSC Part Name": "Type-C 母 卧贴",
+     "Supplier Footprint": "SMD",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/USB4105-GF-A/3542626.html",
+     "Connector Type": "Type-C",
+     "Protocol Standard": "USB 2.0",
+     "Gender": "Female",
+     "Mounting Type": "Surface Mount, Right Angle",
+     "Number of Contacts": "12P",
+     "Number of Ports": "1",
+     "Current Rating-Power": "5A",
+     "Voltage Rating": "48V",
+     "Detection color": "Black",
+     "Operating Temperature": "-40℃~+85℃",
+     "Description": "Connector Type:Type-C Protocol Standard:USB 2.0 Gender:Female Mounting Type:Surface Mount, Right Angle Number of Contacts:12P Number of Ports:1 Current Rating-Power:5A Voltage Rating:48V Detection color:Black Operating Temperature:-40℃~+85℃ Operating Temp"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R1",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753",
+     "uuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "x": 490,
+    "y": 465,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e13614",
+    "symbol": {
+     "uuid": "6fa7a1901b644bd082f8fe0fc48544af",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "footprint": {
+     "uuid": "f9ed3c975d9c48e88ed96dc10de66926",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0710KL",
+    "supplier": "LCSC",
+    "supplierId": "C60490",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 10kΩ ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-0710KL/61542.html",
+     "Type": "Thick Film Resistor",
+     "Value": "10kΩ",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R2",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2",
+     "uuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2"
+    },
+    "x": 630,
+    "y": 465,
+    "subPartName": "RC0402FR-07100KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e13653",
+    "symbol": {
+     "uuid": "71dbf1411c8944afa283c183d7e70ba0",
+     "libraryUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2"
+    },
+    "footprint": {
+     "uuid": "1a6876a669d44b66b27916c86f002504",
+     "libraryUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-07100KL",
+    "supplier": "LCSC",
+    "supplierId": "C60491",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 100kΩ ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-07100KL/61543.html",
+     "Type": "Thick Film Resistor",
+     "Value": "100kΩ",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "U1",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "cfa846371b5648468174e5875cad39aa",
+     "uuid": "cfa846371b5648468174e5875cad39aa"
+    },
+    "x": 690,
+    "y": 310,
+    "subPartName": "TPS259474LRPWR.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e13692",
+    "symbol": {
+     "uuid": "c5a3e924ade840b0b210cb01225e5d71",
+     "libraryUuid": "cfa846371b5648468174e5875cad39aa"
+    },
+    "footprint": {
+     "uuid": "d17c6fb564464e9eb8b121c44a898ecc",
+     "libraryUuid": "cfa846371b5648468174e5875cad39aa"
+    },
+    "designator": "U?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "TI(德州仪器)",
+    "manufacturerId": "TPS259474LRPWR",
+    "supplier": "LCSC",
+    "supplierId": "C2864845",
+    "otherProperty": {
+     "LCSC Part Name": "TPS259474LRPWR",
+     "Supplier Footprint": "VQFN-10-HR(2x2)",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://www.ti.com/cn/lit/gpn/tps25947",
+     "Voltage Rating": "2.7V~23V",
+     "Operating temperature": "-40℃~+125℃",
+     "Description": "Voltage Rating:2.7V~23V Voltage Rating:2.7V~23V Operating temperature:-40℃~+125℃ Operating temperature:-40℃~+125℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "box-power-entry",
+  "ok": false,
+  "error": "This EasyEDA runtime does not expose sch_PrimitiveRectangle. add_schematic_rectangle are unavailable on this host build. Supported alternatives on this host: add_schematic_text."
+ },
+ {
+  "tag": "title-power-entry",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Text",
+    "x": 135,
+    "y": -165,
+    "content": "1. POWER ENTRY + PROTECTION",
+    "rotation": 0,
+    "textColor": "#B00020",
+    "fontSize": 18,
+    "bold": true,
+    "alignMode": 2,
+    "primitiveId": "e13750"
+   },
+   "saved": true
+  }
+ }
+]

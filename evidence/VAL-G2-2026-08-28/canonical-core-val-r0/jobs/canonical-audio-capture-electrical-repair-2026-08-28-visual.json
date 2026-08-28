@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-audio-capture-electrical-repair-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Ground every TLV320ADC6120 VSS and exposed-pad endpoint; install the required AREG/DREG 10 uF plus 100 nF pairs and the required 1 uF VREF capacitor; mark the MCLK shunt capacitor DNP; remap the microphone flex with ground between PDM clock and data; and add BCLK/FSYNC test access without changing flexible RT pinmux",
+  "observed_delta": "The post-connect settled audio screenshot shows the audio domain with the added AUD-labelled capacitors and test points. Independent live pin/net read-back confirms all ADC6120 supply and exposed-pad grounds, AREG/DREG/VREF capacitors, J9 power/ground/clock/ground/data/ground mapping, deliberate open pins and BCLK/FSYNC test points.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/audio-connect-immediate.png",
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name": "ADC6120 ground and support", "result": "OK", "detail": "U11 pins 5, 10, 15, 20 and exposed pad 21 read back on GND; AREG, DREG and VREF support endpoints are present."},
+    {"name": "microphone flex mapping", "result": "OK", "detail": "J9 pins 1-6 read back as power, GND, PDM clock, GND, PDM data, GND; pins 7-12 remain open."},
+    {"name": "clock test access", "result": "OK", "detail": "TP7-AUD reads AUDIO_BCLK and TP8-AUD reads AUDIO_FSYNC."},
+    {"name": "deliberate open inputs", "result": "OK", "detail": "U11 IN1P, IN1M and IN2M remain open for the digital-PDM configuration."},
+    {"name": "visual and collateral check", "result": "OK", "detail": "The settled screenshot is modal-free and the audio-domain delta is visible without unrelated domain mutation."}
+  ]
+}

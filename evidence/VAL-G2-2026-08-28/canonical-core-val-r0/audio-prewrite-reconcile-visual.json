@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "reconcile-canonical-audio-prewrite-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Reconcile and cancel a lingering EasyEDA move state before the bounded audio repair without changing the intended canonical topology",
+  "observed_delta": "Escape cancelled the active move state that shifted U6 and its attached wires by one grid step per source read. Two consecutive full-source reads are now byte-identical; no audio schematic write occurred.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/post-reconnect-audio-detail.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "canonical identity",
+      "result": "OK",
+      "detail": "Project and page UUIDs were read back from the live EasyEDA bridge."
+    },
+    {
+      "name": "single sheet and boxes",
+      "result": "OK",
+      "detail": "The live census remains one page with ten domain rectangles."
+    },
+    {
+      "name": "audio baseline",
+      "result": "OK",
+      "detail": "Escape cancelled the lingering U6 move state; two consecutive full-source reads are byte-identical and the screenshot shows U6 settled without an active selection."
+    },
+    {
+      "name": "PCB boundary",
+      "result": "OK",
+      "detail": "No PCB document was opened or mutated."
+    }
+  ]
+}

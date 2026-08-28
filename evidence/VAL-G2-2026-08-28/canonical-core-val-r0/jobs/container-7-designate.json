@@ -1,0 +1,197 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C54",
+    "args": {
+      "primitiveId": "e13042",
+      "designator": "C54-NFC",
+      "name": "10pF",
+      "manufacturerId": "GRM1555C1H100JA01D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C55",
+    "args": {
+      "primitiveId": "e13078",
+      "designator": "C55-NFC",
+      "name": "10pF",
+      "manufacturerId": "GRM1555C1H100JA01D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C56",
+    "args": {
+      "primitiveId": "e13114",
+      "designator": "C56-NFC",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C57",
+    "args": {
+      "primitiveId": "e13150",
+      "designator": "C57-NFC",
+      "name": "10uF",
+      "manufacturerId": "GRM155R60J106ME44D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C58",
+    "args": {
+      "primitiveId": "e13186",
+      "designator": "C58-NFC",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C59",
+    "args": {
+      "primitiveId": "e13222",
+      "designator": "C59-NFC",
+      "name": "22pF",
+      "manufacturerId": "GRM1555C1H220JA01D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C60",
+    "args": {
+      "primitiveId": "e13258",
+      "designator": "C60-NFC",
+      "name": "33pF",
+      "manufacturerId": "GRM1555C1H330JA01D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C61",
+    "args": {
+      "primitiveId": "e13294",
+      "designator": "C61-NFC",
+      "name": "47pF",
+      "manufacturerId": "GRM1555C1H470JA01D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "J10",
+    "args": {
+      "primitiveId": "e13330",
+      "designator": "J10-NFC",
+      "name": "U.FL",
+      "manufacturerId": "U.FL-R-SMT-1",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "L2",
+    "args": {
+      "primitiveId": "e13362",
+      "designator": "L2-NFC",
+      "name": "5.6nH",
+      "manufacturerId": "LQW15AN5N6C10D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "L3",
+    "args": {
+      "primitiveId": "e13399",
+      "designator": "L3-NFC",
+      "name": "33nH",
+      "manufacturerId": "LQW15AN33NG00D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R42",
+    "args": {
+      "primitiveId": "e13438",
+      "designator": "R42-NFC",
+      "name": "2.2R",
+      "manufacturerId": "RC0402FR-072R2L",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R43",
+    "args": {
+      "primitiveId": "e13477",
+      "designator": "R43-NFC",
+      "name": "4.7k",
+      "manufacturerId": "RC0402FR-074K7L",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U12",
+    "args": {
+      "primitiveId": "e13516",
+      "designator": "U12-NFC",
+      "name": "FITTED",
+      "manufacturerId": "ST25R3916B-AQWT",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "Y2",
+    "args": {
+      "primitiveId": "e13647",
+      "designator": "Y2-NFC",
+      "name": "27.12MHz",
+      "manufacturerId": "ABM12-117-27.120MHZ-T3",
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

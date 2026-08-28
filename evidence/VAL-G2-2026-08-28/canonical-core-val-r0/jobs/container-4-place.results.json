@@ -1,0 +1,765 @@
+[
+ {
+  "tag": "C35",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "fd398699f5cb4ae882fb1d6eec9d07bd",
+     "uuid": "fd398699f5cb4ae882fb1d6eec9d07bd"
+    },
+    "x": 3095,
+    "y": 4200,
+    "subPartName": "GRM1555C1H180JA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e4805",
+    "symbol": {
+     "uuid": "edbef78f5be04032bbdd362217fbeca3",
+     "libraryUuid": "fd398699f5cb4ae882fb1d6eec9d07bd"
+    },
+    "footprint": {
+     "uuid": "0b924c5e16eb48e3bc42f6d9d3c49cba",
+     "libraryUuid": "fd398699f5cb4ae882fb1d6eec9d07bd"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM1555C1H180JA01D",
+    "supplier": "LCSC",
+    "supplierId": "C33149",
+    "otherProperty": {
+     "LCSC Part Name": "18pF ±5% 50V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20161108/1478586362936.pdf",
+     "Value": "18pF",
+     "Tolerance": "±5%",
+     "Voltage Rated": "",
+     "Temperature Coefficient": "",
+     "Description": "Capacitance: Tolerance:±5% Tolerance:±5% Voltage Rated: Temperature Coefficient:"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "C36",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "fd398699f5cb4ae882fb1d6eec9d07bd",
+     "uuid": "fd398699f5cb4ae882fb1d6eec9d07bd"
+    },
+    "x": 3335,
+    "y": 4200,
+    "subPartName": "GRM1555C1H180JA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e4841",
+    "symbol": {
+     "uuid": "edbef78f5be04032bbdd362217fbeca3",
+     "libraryUuid": "fd398699f5cb4ae882fb1d6eec9d07bd"
+    },
+    "footprint": {
+     "uuid": "0b924c5e16eb48e3bc42f6d9d3c49cba",
+     "libraryUuid": "fd398699f5cb4ae882fb1d6eec9d07bd"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM1555C1H180JA01D",
+    "supplier": "LCSC",
+    "supplierId": "C33149",
+    "otherProperty": {
+     "LCSC Part Name": "18pF ±5% 50V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20161108/1478586362936.pdf",
+     "Value": "18pF",
+     "Tolerance": "±5%",
+     "Voltage Rated": "",
+     "Temperature Coefficient": "",
+     "Description": "Capacitance: Tolerance:±5% Tolerance:±5% Voltage Rated: Temperature Coefficient:"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "C37",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+     "uuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "x": 3575,
+    "y": 4200,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e4877",
+    "symbol": {
+     "uuid": "5bfd8c522b764c0db639c0ad7cfad3f5",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "footprint": {
+     "uuid": "ecc988f162c44eec829a596c8864e6d6",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R71C104KA88D",
+    "supplier": "LCSC",
+    "supplierId": "C71629",
+    "otherProperty": {
+     "LCSC Part Name": "100nF ±10% 16V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R71C104KA88D/72737.html",
+     "Value": "100nF",
+     "Tolerance": "±10%",
+     "Voltage Rating": "16V",
+     "Temperature Coefficient": "X7R",
+     "Description": "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "C38",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68",
+     "uuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "x": 3815,
+    "y": 4200,
+    "subPartName": "GRM155R60J106ME44D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e4913",
+    "symbol": {
+     "uuid": "2996f505f7574baa9a8ae57435928188",
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "footprint": {
+     "uuid": "c33326b9eb52426a92302d852ba3fb73",
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J106ME44D",
+    "supplier": "LCSC",
+    "supplierId": "C76991",
+    "otherProperty": {
+     "LCSC Part Name": "10uF ±20% 6.3V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R60J106ME44D/78118.html",
+     "Value": "10uF",
+     "Tolerance": "±20%",
+     "Voltage Rating": "6.3V",
+     "Temperature Coefficient": "X5R",
+     "Description": "Capacitance:10uF Tolerance:±20% Tolerance:±20% Voltage Rating:6.3V Temperature Coefficient:X5R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R13",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "675d948cd33a4a13b599b851b5bb0e95",
+     "uuid": "675d948cd33a4a13b599b851b5bb0e95"
+    },
+    "x": 3095,
+    "y": 4515,
+    "subPartName": "RC0402FR-070RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e4949",
+    "symbol": {
+     "uuid": "d541978697354aa8ab85e2b8de9c593d",
+     "libraryUuid": "675d948cd33a4a13b599b851b5bb0e95"
+    },
+    "footprint": {
+     "uuid": "2c1238b1a6cf459896ea7bc5b68cd97d",
+     "libraryUuid": "675d948cd33a4a13b599b851b5bb0e95"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-070RL",
+    "supplier": "LCSC",
+    "supplierId": "C106231",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 0Ω ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-070RL/107446.html",
+     "Type": "Thick Film Resistor",
+     "Value": "0Ω",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "-",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:0Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:- Temperature Coefficient:- Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R14",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753",
+     "uuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "x": 3335,
+    "y": 4515,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e4988",
+    "symbol": {
+     "uuid": "27e1c105ea1844858f8ef4c155fa3cd7",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "footprint": {
+     "uuid": "3a9991e4aef9455bb546fda6b87e03b9",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0710KL",
+    "supplier": "LCSC",
+    "supplierId": "C60490",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 10kΩ ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-0710KL/61542.html",
+     "Type": "Thick Film Resistor",
+     "Value": "10kΩ",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "U8",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "b25a2a454a4c4a4bb9739927daf4c2f4",
+     "uuid": "b25a2a454a4c4a4bb9739927daf4c2f4"
+    },
+    "x": 3575,
+    "y": 4515,
+    "subPartName": "IS25WP064A-JBLE.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e5027",
+    "symbol": {
+     "uuid": "b84941988b8d437faabad78f8f1d2cf1",
+     "libraryUuid": "b25a2a454a4c4a4bb9739927daf4c2f4"
+    },
+    "footprint": {
+     "uuid": "3e4cf93f73144e928614935ba0e4f05b",
+     "libraryUuid": "b25a2a454a4c4a4bb9739927daf4c2f4"
+    },
+    "designator": "U?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "ISSI(北京矽成)",
+    "manufacturerId": "IS25WP064A-JBLE",
+    "supplier": "LCSC",
+    "supplierId": "C190624",
+    "otherProperty": {
+     "LCSC Part Name": "64Mb 1.8V 串行闪存存储器，具备 133MHz 多 I/O SPI 与 Quad I/O QPI DTR 接口",
+     "Supplier Footprint": "SOIC-8-208mil",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/IS25WP064A-JBLE/211267.html",
+     "Interface": "SPI",
+     "Memory Size": "64Mbit",
+     "Clock Frequency": "133MHz",
+     "Voltage - Supply": "1.65V~1.95V",
+     "Standby Supply Current": "8uA",
+     "Program / Erase Cycles": "100,000 cycles",
+     "Write Cycle Time (tWC)": "-",
+     "Page Programming Time (Tpp)": "200us",
+     "Block Erase Time(tBE)": "-",
+     "Data Retention - TDR (Year)": "20 Years",
+     "Operating Temperature": "-",
+     "Features": "Hardware write protection；Write enable latch；Software write protection；Power lock protection",
+     "Description": "Interface:SPI Memory Size:64Mbit Clock Frequency:133MHz Voltage - Supply:1.65V~1.95V Voltage - Supply:1.65V~1.95V Standby Supply Current:8uA Program / Erase Cycles:100,000 cycles Write Cycle Time (tWC):- Page Programming Time (Tpp):200us Block Erase Time("
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "Y1",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "605be9fc46954fe8b1a53f3c76dbdd72",
+     "uuid": "605be9fc46954fe8b1a53f3c76dbdd72"
+    },
+    "x": 3815,
+    "y": 4515,
+    "subPartName": "XRCGB24M000F3A00R0.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e5089",
+    "symbol": {
+     "uuid": "2bd40a7f23f140fb93f1dc0e1d097aaf",
+     "libraryUuid": "605be9fc46954fe8b1a53f3c76dbdd72"
+    },
+    "footprint": {
+     "uuid": "2a97c34dabb84448be9f3bec3d01f0b1",
+     "libraryUuid": "605be9fc46954fe8b1a53f3c76dbdd72"
+    },
+    "designator": "X?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "XRCGB24M000F3A00R0",
+    "supplier": "LCSC",
+    "supplierId": "C194420",
+    "otherProperty": {
+     "LCSC Part Name": "24MHz ±30ppm 6pF",
+     "Supplier Footprint": "SMD2016-4P",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/XRCGB24M000F3A00R0/235729.html",
+     "Type": "-",
+     "Value": "24MHz",
+     "Normal temperature Frequency Tolerance": "±30ppm",
+     "Load Capacitance": "6pF",
+     "Frequency Stability": "±35ppm",
+     "Equivalent Series Resistance(ESR)": "120Ω",
+     "Operating Temperature": "-40℃~+125℃",
+     "Description": "Type:- Frequency:24MHz Normal temperature Frequency Tolerance:±30ppm Normal temperature Frequency Tolerance:±30ppm Load Capacitance:6pF Frequency Stability:±35ppm Frequency Stability:±35ppm Equivalent Series Resistance(ESR):120Ω Operating Temperature:-40℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "J4",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "5ebeaa17053143a7af0a1a31767a8ca4",
+     "uuid": "5ebeaa17053143a7af0a1a31767a8ca4"
+    },
+    "x": 3095,
+    "y": 3720,
+    "subPartName": "FTSH-105-01-L-DV-K.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e5134",
+    "symbol": {
+     "uuid": "1335d4020c5646abb6d08a919eb0755c",
+     "libraryUuid": "5ebeaa17053143a7af0a1a31767a8ca4"
+    },
+    "footprint": {
+     "uuid": "e47b64ed6839466a9beba0dc05b6cf36",
+     "libraryUuid": "5ebeaa17053143a7af0a1a31767a8ca4"
+    },
+    "designator": "H?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "SAMTEC",
+    "manufacturerId": "FTSH-105-01-L-DV-K",
+    "supplier": "LCSC",
+    "supplierId": "C5155080",
+    "otherProperty": {
+     "LCSC Part Name": "2x5P 间距:1.27mm 方针 立贴",
+     "Supplier Footprint": "SMD,P=1.27mm",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/FTSH-105-01-L-DV-K/5783631.html",
+     "Pin Structure": "2x5P",
+     "Pitch": "1.27mm",
+     "Circluar Pins/Square Pins": "Pin Header",
+     "Mounting Type": "Surface Mount,Vertical",
+     "Number of Rows": "2",
+     "Number of Pins": "10P",
+     "Current Rating": "3.4A",
+     "Length of Mating Pin": "3.05mm",
+     "Length of End Connection Pin": "-",
+     "Contact Material": "Phosphor bronze",
+     "Contact Plating": "Gold",
+     "Operating Temperature": "-55℃~+125℃",
+     "Color": "Black",
+     "Description": "Pin Structure:2x5P Pitch:1.27mm Circluar Pins/Square Pins:Pin Header Mounting Type:Surface Mount,Vertical Number of Rows:2 Number of Pins:10P Current Rating:3.4A Length of Mating Pin:3.05mm Length of End Connection Pin:- Contact Material:Phosphor bronze C"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "J5",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "3b23b19f753644e49a737e630ce61fce",
+     "uuid": "3b23b19f753644e49a737e630ce61fce"
+    },
+    "x": 3335,
+    "y": 3720,
+    "subPartName": "PREC040SAAN-RC.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e5203",
+    "symbol": {
+     "uuid": "268eaa1e3de54d7ca0ae053eaab6e433",
+     "libraryUuid": "3b23b19f753644e49a737e630ce61fce"
+    },
+    "footprint": {
+     "uuid": "de2222571e844ee2ba7ce1e40e055660",
+     "libraryUuid": "3b23b19f753644e49a737e630ce61fce"
+    },
+    "designator": "U?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "Sullins",
+    "manufacturerId": "PREC040SAAN-RC",
+    "supplier": "LCSC",
+    "supplierId": "C4355043",
+    "otherProperty": {
+     "LCSC Part Name": "间距:2.54mm 直插",
+     "Supplier Footprint": "插件,P=2.54mm",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20230606/EC6CD7CACE8A14BE34D959B54C589026.pdf",
+     "Pitch": "2.54mm",
+     "Mounting Type": "Straight",
+     "Number of Rows": "Single Row",
+     "Number of Pins": "40P",
+     "Current Rating": "3A",
+     "Contact Material": "Brass",
+     "Contact Plating": "Tin",
+     "Operating Temperature": "-40℃~+105℃",
+     "Color": "Black",
+     "Description": "Pitch:2.54mm Mounting Type:Straight Number of Rows:Single Row Number of Pins:40P Current Rating:3A Contact Material:Brass Contact Plating:Tin Operating Temperature:-40℃~+105℃ Operating Temperature:-40℃~+105℃ Color:Black"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R15",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5",
+     "uuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "x": 3575,
+    "y": 3720,
+    "subPartName": "RC0402FR-0722RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e5358",
+    "symbol": {
+     "uuid": "e78b958e57fc47739f76bcd7d6717fc2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "footprint": {
+     "uuid": "7911c27983c546dfb50bf2cabd5562d2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0722RL",
+    "supplier": "LCSC",
+    "supplierId": "C114765",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 22Ω ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-0722RL/116009.html",
+     "Type": "Thick Film Resistor",
+     "Value": "22Ω",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:22Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R16",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5",
+     "uuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "x": 3815,
+    "y": 3720,
+    "subPartName": "RC0402FR-0722RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e5397",
+    "symbol": {
+     "uuid": "e78b958e57fc47739f76bcd7d6717fc2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "footprint": {
+     "uuid": "7911c27983c546dfb50bf2cabd5562d2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0722RL",
+    "supplier": "LCSC",
+    "supplierId": "C114765",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 22Ω ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-0722RL/116009.html",
+     "Type": "Thick Film Resistor",
+     "Value": "22Ω",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:22Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R17",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5",
+     "uuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "x": 3095,
+    "y": 4030,
+    "subPartName": "RC0402FR-0722RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e5436",
+    "symbol": {
+     "uuid": "e78b958e57fc47739f76bcd7d6717fc2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "footprint": {
+     "uuid": "7911c27983c546dfb50bf2cabd5562d2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0722RL",
+    "supplier": "LCSC",
+    "supplierId": "C114765",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 22Ω ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-0722RL/116009.html",
+     "Type": "Thick Film Resistor",
+     "Value": "22Ω",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:22Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R18",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5",
+     "uuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "x": 3335,
+    "y": 4030,
+    "subPartName": "RC0402FR-0722RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e5475",
+    "symbol": {
+     "uuid": "e78b958e57fc47739f76bcd7d6717fc2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "footprint": {
+     "uuid": "7911c27983c546dfb50bf2cabd5562d2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0722RL",
+    "supplier": "LCSC",
+    "supplierId": "C114765",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 22Ω ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-0722RL/116009.html",
+     "Type": "Thick Film Resistor",
+     "Value": "22Ω",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:22Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "title-container-4",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Text",
+    "x": 3005,
+    "y": -4685,
+    "content": "4. RT1062 BOOT + CLOCK + DEBUG",
+    "rotation": 0,
+    "textColor": "#B00020",
+    "fontSize": 18,
+    "bold": true,
+    "alignMode": 2,
+    "primitiveId": "e5514"
+   },
+   "saved": true
+  }
+ }
+]

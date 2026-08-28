@@ -1,0 +1,68 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U7-RTC",
+    "args": {
+      "primitiveId": "e3619",
+      "x": 3150,
+      "y": 4310,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C18-RTC",
+    "args": {
+      "primitiveId": "e3055",
+      "x": 3340,
+      "y": 4310,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R12-RTC",
+    "args": {
+      "primitiveId": "e3205",
+      "x": 3490,
+      "y": 4310,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R10-RTC",
+    "args": {
+      "primitiveId": "e47826",
+      "x": 3690,
+      "y": 4310,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R11-RTC",
+    "args": {
+      "primitiveId": "e47865",
+      "x": 3850,
+      "y": 4310,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "SW1-RTC",
+    "args": {
+      "primitiveId": "e3244",
+      "x": 3150,
+      "y": 4050,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-container-6-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Populate canonical domain box 6 (AUDIO_ADC, AUDIO_CLOCK, AUDIO_MIC) with source-derived components, domain suffix -AUD, functional net endpoints and one readable title",
+  "observed_delta": "Box 6 contains the ADC, clock isolation/header, microphone flex and XOR option paths with AUD designators and named functional endpoints; the invalid address strap is absent.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/container-6-after.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name":"domain contents","result":"OK","detail":"ADC, clocks, PDM/direct-RT options and microphone flex are separated inside box 6."},
+    {"name":"domain designators","result":"OK","detail":"Visible electrical designators carry -AUD."},
+    {"name":"source corrections","result":"OK","detail":"No R30 address strap remains; C51 is VREF and multifunction MCLK/PDM pins are visibly connected."},
+    {"name":"testpoint identity","result":"OK","detail":"TP3, TP4 and TP5 each use their real single pin without fictional ground pins."},
+    {"name":"layout containment","result":"OK","detail":"All symbols fit inside the rectangle with no component collision; PCB was not changed."}
+  ]
+}

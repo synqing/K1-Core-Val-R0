@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "transaction_id": "reconcile-layout-baseline-2026-08-28",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "source_hash": "271930:1ff4a081",
+  "census": {
+    "components": 137,
+    "wires": 405,
+    "texts": 11,
+    "rectangles": 0,
+    "layout_state": "REJECTED_OVERSCALED_UNBOXED_BASELINE"
+  }
+}

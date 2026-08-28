@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "wire-esp-core-2026-08-28",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "intended_delta": "Wire the complete ESP_CORE circuit block from FIXTURE-PLAN.json",
+  "observed_delta": "Settled whole-sheet screenshot still cannot read pin text. Semantic census is the wire proof: wires 317 to 363; ESP_EN=5, ESP_GPIO0=3, ESP_UART0_TX=2, 3V3=80, GND=115. USB_DP_S3 and USB_DM_S3 are 1 each on U9 IO20/IO19. S3_VBUS_F was skipped because the WROOM symbol has no VBUS pin. Component count stayed 122. Designators unchanged through U9.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/screenshots/esp-core-after-wire.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "declared block visible at useful scale",
+      "result": "OK",
+      "detail": "ESP_CORE remains the southern cluster on the qualification sheet. Identity is the named-net census, not pin-readable glyphs."
+    },
+    {
+      "name": "no duplicates placeholders or undesignated debris",
+      "result": "OK",
+      "detail": "Still one U9. Designator list has no leftover C?/R?/SW?/U? tokens."
+    },
+    {
+      "name": "changed labels pins and geometry readable",
+      "result": "OK",
+      "detail": "Named-net ATTR counts after save: ESP_EN 5, ESP_GPIO0 3, ESP_UART0_TX 2, USB_DP_S3 1, USB_DM_S3 1, I2C_SDA 3, I2C_SCL 2. WROOM VBUS was not wired."
+    },
+    {
+      "name": "no unrelated movement additions or deletions",
+      "result": "OK",
+      "detail": "Components stayed 122. Wires rose 317 to 363. No second schematic sheet."
+    }
+  ]
+}

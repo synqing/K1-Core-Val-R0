@@ -1,0 +1,1628 @@
+[
+ {
+  "tag": "DMG2305UX",
+  "ok": true,
+  "result": {
+   "query": "DMG2305UX",
+   "count": 5,
+   "devices": [
+    {
+     "uuid": "b04f35e503454057be40035ce8badbf7",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "DMG2305UX",
+     "symbolName": "DMG2305UX",
+     "symbolUuid": "d049f3d4b5a14be09db570bfddeefcbe",
+     "footprintName": "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1",
+     "footprintUuid": "1dc22053f4f645f2a00a4d9bba2038a1",
+     "model3DName": "SOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1",
+     "model3DUuid": "e987d98effe349b8aec603cd187bc606",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20251013/2A644AAC62FA00B3C3C6C471A0B18E10.jpg",
+     "description": "Drain to Source Voltage:20V Current - Continuous Drain(Id):4.1A RDS(on):52mΩ@4.5V Pd - Power Dissipation:1.7W Gate Threshold Voltage (Vgs(th)):1V@250uA Gate Charge(Qg):7.8nC Input Capacitance(Ciss):740pF@4V Reverse Transfer Capacitance (Crss@Vds):190pF Op",
+     "manufacturer": "TECH PUBLIC(台舟)",
+     "manufacturerId": "DMG2305UX",
+     "supplier": "LCSC",
+     "supplierId": "C2940629"
+    },
+    {
+     "uuid": "01359a4987c040aa8d1c4d3ee71dc7f9",
+     "libraryUuid": "",
+     "ordinal": 1,
+     "name": "DMG2305UX-TP",
+     "symbolName": "DMG2305UX-TP",
+     "symbolUuid": "d5885b83801a4fa59aadce5a40bd9319",
+     "footprintName": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+     "footprintUuid": "18f92042a8ba46109ed61a02a6753de7",
+     "model3DName": "SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95",
+     "model3DUuid": "62a57c6760504a01965db6419a6d07df",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20260413/B2BC57421D553D0D55AE1EDDACFB9DC6.jpg",
+     "description": "Number:1 P-Channel Drain to Source Voltage:20V Current - Continuous Drain(Id):- RDS(on):25mΩ@4.5V Pd - Power Dissipation:1.8W Gate Threshold Voltage (Vgs(th)):650mV Gate Charge(Qg):11.5nC Input Capacitance(Ciss):1.1nF Reverse Transfer Capacitance (Crss@Vd",
+     "manufacturer": "TECH PUBLIC(台舟)",
+     "manufacturerId": "DMG2305UX-TP",
+     "supplier": "LCSC",
+     "supplierId": "C53100470"
+    },
+    {
+     "uuid": "a3c9cfa3521a454eb2e4ad7c55c55df3",
+     "libraryUuid": "",
+     "ordinal": 2,
+     "name": "DMG2305UXQ",
+     "symbolName": "DMG2305UXQ",
+     "symbolUuid": "92071fdb60f840218a0f79a3a4d13cf2",
+     "footprintName": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+     "footprintUuid": "18f92042a8ba46109ed61a02a6753de7",
+     "model3DName": "SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95",
+     "model3DUuid": "62a57c6760504a01965db6419a6d07df",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230106/CDF766FCEF8E9A7960580783D35D92E4.jpg",
+     "description": "Number:1 P-Channel Drain to Source Voltage:20V Current - Continuous Drain(Id):4.9A RDS(on):88mΩ@4.5V Pd - Power Dissipation:1.31W Gate Threshold Voltage (Vgs(th)):1V@250uA Gate Charge(Qg):14.3nC@4.5V Input Capacitance(Ciss):1.2nF@15V Reverse Transfer Capa",
+     "manufacturer": "Leiditech(雷卯电子)",
+     "manufacturerId": "DMG2305UXQ",
+     "supplier": "LCSC",
+     "supplierId": "C3647045"
+    },
+    {
+     "uuid": "a21689ac9481464e878da63de4865c13",
+     "libraryUuid": "",
+     "ordinal": 3,
+     "name": "DMG2305UX-7-VB",
+     "symbolName": "DMG2305UX-7-VB",
+     "symbolUuid": "07c95f6e39544009a2e2ea8b1a5a00ec",
+     "footprintName": "SOT-23-3_L3.0-W1.7-P0.95-LS2.9-BR",
+     "footprintUuid": "f070a958e950402fa629dce10a0a0ead",
+     "model3DName": "SOT-23-3L_L2.9-W1.6-H1.1-LS2.8-P0.95",
+     "model3DUuid": "4eed685bb9f4439b846746bc2193f3c0",
+     "description": "",
+     "manufacturer": "VBsemi(微碧半导体)",
+     "manufacturerId": "DMG2305UX-7-VB",
+     "supplier": "LCSC",
+     "supplierId": "C55251730"
+    },
+    {
+     "uuid": "6b51888b86814ce181a8285600247682",
+     "libraryUuid": "",
+     "ordinal": 4,
+     "name": "DMG2305UX-VB",
+     "symbolName": "DMG2305UX-VB",
+     "symbolUuid": "815d2698300140c9940cfb0eb23201e2",
+     "footprintName": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+     "footprintUuid": "18f92042a8ba46109ed61a02a6753de7",
+     "model3DName": "SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95",
+     "model3DUuid": "62a57c6760504a01965db6419a6d07df",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20231016/17A6DF87EBC1641036B685871E16BA72.jpg",
+     "description": "Number:1 P-Channel Drain to Source Voltage:30V Current - Continuous Drain(Id):5.6A RDS(on):46mΩ@10V；54mΩ@4.5V；49mΩ@6V Pd - Power Dissipation:1.25W Gate Threshold Voltage (Vgs(th)):2V@250uA Gate Charge(Qg):11.4nC@4.5V Input Capacitance(Ciss):1.295nF Revers",
+     "manufacturer": "VBsemi(微碧半导体)",
+     "manufacturerId": "DMG2305UX-VB",
+     "supplier": "LCSC",
+     "supplierId": "C18212434"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "RC0402FR-0722RL",
+  "ok": true,
+  "result": {
+   "query": "RC0402FR-0722RL",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "8bef1d5fc0144eac931ff4a7b9204fb5",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "RC0402FR-0722RL",
+     "symbolName": "RC0402FR-0722RL",
+     "symbolUuid": "a18eb52525954a8ca359c6a7043e2b7f",
+     "footprintName": "R0402",
+     "footprintUuid": "b43f879bdccf4af3bada432fe602c7c6",
+     "model3DName": "R0402_L1.0-W0.5-H0.4",
+     "model3DUuid": "efdecb7dae4442949d28eecaf748420f",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20251016/4B83156E2B9A51DE69B1CCD88BA11519.jpg",
+     "description": "Type:Thick Film Resistor Resistance:22Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃ ",
+     "manufacturer": "YAGEO(国巨)",
+     "manufacturerId": "RC0402FR-0722RL",
+     "supplier": "LCSC",
+     "supplierId": "C114765"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "RC0402FR-070RL",
+  "ok": true,
+  "result": {
+   "query": "RC0402FR-070RL",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "675d948cd33a4a13b599b851b5bb0e95",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "RC0402FR-070RL",
+     "symbolName": "RC0402FR-070RL",
+     "symbolUuid": "f89baa2f39a942d5ba23f41033fe5ac7",
+     "footprintName": "R0402",
+     "footprintUuid": "b43f879bdccf4af3bada432fe602c7c6",
+     "model3DName": "R0402_L1.0-W0.5-H0.4",
+     "model3DUuid": "efdecb7dae4442949d28eecaf748420f",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20251025/28F80957F534459927BA6152D213C032.jpg",
+     "description": "Type:Thick Film Resistor Resistance:0Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:- Temperature Coefficient:- Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃ ",
+     "manufacturer": "YAGEO(国巨)",
+     "manufacturerId": "RC0402FR-070RL",
+     "supplier": "LCSC",
+     "supplierId": "C106231"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "RC0402FR-07DNP",
+  "ok": true,
+  "result": {
+   "query": "RC0402FR-07DNP",
+   "count": 0,
+   "devices": []
+  }
+ },
+ {
+  "tag": "5001",
+  "ok": true,
+  "result": {
+   "query": "5001 test point",
+   "count": 8,
+   "devices": [
+    {
+     "uuid": "736194494faf4738adfbc9ae11340269",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "TP-黄色测试点",
+     "symbolName": "TP-黄色测试点",
+     "symbolUuid": "8de28c809a0f4c1baa344b1f859d95ad",
+     "footprintName": "TESTPOINT-TH_BD3.2",
+     "footprintUuid": "4cc65e260ba048028172d7746e48db7c",
+     "model3DName": "TESTPOINT-TH_BD3.2",
+     "model3DUuid": "ebbe5445cc25473eb63a7514d72687af",
+     "description": "",
+     "manufacturer": "",
+     "manufacturerId": "TP-黄色测试点",
+     "supplier": "LCSC",
+     "supplierId": "C9900007422"
+    },
+    {
+     "uuid": "ae70c0d4ec694ee287888371bdb70a73",
+     "libraryUuid": "",
+     "ordinal": 1,
+     "name": "TP-橘色测试点",
+     "symbolName": "TP",
+     "symbolUuid": "4e6f4aadaed7491d9a295355db672ced",
+     "footprintName": "TESTPOINT-TH_BD3.2",
+     "footprintUuid": "4cc65e260ba048028172d7746e48db7c",
+     "model3DName": "TESTPOINT-TH_BD3.2",
+     "model3DUuid": "ebbe5445cc25473eb63a7514d72687af",
+     "description": "",
+     "manufacturer": "",
+     "manufacturerId": "TP-橘色测试点",
+     "supplier": "LCSC",
+     "supplierId": "C9900007421"
+    },
+    {
+     "uuid": "ac178688d8b24276992c1786a2eaf5b5",
+     "libraryUuid": "",
+     "ordinal": 2,
+     "name": "5017",
+     "symbolName": "5017_C9900015874",
+     "symbolUuid": "80e3a71dd7994473aea2f094d14ae37d",
+     "footprintName": "CONN-SMD_5017",
+     "footprintUuid": "51e06fc94dae49329690cbb4f406f31a",
+     "model3DName": "CONN-SMD_5017",
+     "model3DUuid": "284acfa528814557b050d6ef3ec24c83",
+     "description": "",
+     "manufacturer": "",
+     "manufacturerId": "5017",
+     "supplier": "LCSC",
+     "supplierId": "C9900015874"
+    },
+    {
+     "uuid": "5129e2d2841148aca367c99434f8dc0f",
+     "libraryUuid": "",
+     "ordinal": 3,
+     "name": "TP-黑色测试点",
+     "symbolName": "TP-黑色测试点",
+     "symbolUuid": "42c44029ab7c4516a8e45ed14008b286",
+     "footprintName": "TESTPOINT-TH_BD3.2",
+     "footprintUuid": "4cc65e260ba048028172d7746e48db7c",
+     "model3DName": "TESTPOINT-TH_BD3.2",
+     "model3DUuid": "ebbe5445cc25473eb63a7514d72687af",
+     "description": "",
+     "manufacturer": "",
+     "manufacturerId": "TP-黑色测试点",
+     "supplier": "LCSC",
+     "supplierId": "C9900007426"
+    },
+    {
+     "uuid": "9637c5ac7a364fe9a8450b54e66fa287",
+     "libraryUuid": "",
+     "ordinal": 4,
+     "name": "TP-红色测试点",
+     "symbolName": "TP-红色测试点",
+     "symbolUuid": "5ac7ffcffe844775aa72e3586209409b",
+     "footprintName": "TESTPOINT-TH_BD3.2",
+     "footprintUuid": "4cc65e260ba048028172d7746e48db7c",
+     "model3DName": "TESTPOINT-TH_BD3.2",
+     "model3DUuid": "ebbe5445cc25473eb63a7514d72687af",
+     "description": "",
+     "manufacturer": "",
+     "manufacturerId": "TP-红色测试点",
+     "supplier": "LCSC",
+     "supplierId": "C9900007423"
+    },
+    {
+     "uuid": "5f4151735f494b75b57618c378c7d29b",
+     "libraryUuid": "",
+     "ordinal": 5,
+     "name": "YZF0045-21070-02050-01",
+     "symbolName": "YZF0045-21070-02050-01",
+     "symbolUuid": "544042077625474eb0bddd1059e59a63",
+     "footprintName": "TESTPOINT-SMD_3P-P2.50_YZF0045-21070-02050-01",
+     "footprintUuid": "77d5a6ae871a4ea0b2bbe97180525551",
+     "model3DName": "TESTPOINT-SMD_3P-P2.50_YZF0045-21070-02050-01",
+     "model3DUuid": "95155121224e48a7b04d68076091825d",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230105/C65BBB002D2F00D133FA8ABA36555B58.jpg",
+     "description": "Type:Pogo Pin Number of Pins:2P Pitch:5mm Overall Length/Height:7mm Operational Height:5.8mm Contact Resistance:50mΩ Elastic Life:10,000 Cycles Current Rating:5A Voltage Rating:12V Contact Material:Brass Contact Plating:Gold Operating Temperature:-20℃~+70",
+     "manufacturer": "Xinyangze(鑫扬泽)",
+     "manufacturerId": "YZF0045-21070-02050-01",
+     "supplier": "LCSC",
+     "supplierId": "C5296816"
+    },
+    {
+     "uuid": "4c566e95fe4c457d97ae6f2319ccee1e",
+     "libraryUuid": "",
+     "ordinal": 6,
+     "name": "PAI_TEST_3D_POINT_YELLOW",
+     "symbolName": "PAI_TEST_3D_POINT_YELLOW",
+     "symbolUuid": "64ce420f24704060adbae15fdb20986d",
+     "footprintName": "TEST-TH_BD2.5-PAI_TEST_3D_POINT_YELLOW",
+     "footprintUuid": "657a5d6664c0455fbdb167ea8f1aeec9",
+     "model3DName": "TEST-TH_BD2.5-PAI_TEST_3D_POINT_YELLOW",
+     "model3DUuid": "ad3e4722891547c6886ce7eb0d6b8e55",
+     "description": "",
+     "manufacturer": "",
+     "manufacturerId": "PAI_TEST_3D_POINT_YELLOW",
+     "supplier": "LCSC",
+     "supplierId": "C2890033"
+    },
+    {
+     "uuid": "5420462ae53b4732a78da03a5e060fcc",
+     "libraryUuid": "",
+     "ordinal": 7,
+     "name": "TESTPOINT_23",
+     "symbolName": "TESTPOINT_23",
+     "symbolUuid": "7a1ac933336e4dd991e47fc53d37eb2a",
+     "footprintName": "SW-SMD_4P-L5.1-W5.1-P3.00_C9900079866",
+     "footprintUuid": "8b48c97c46a64880bcaafd71f2a228f5",
+     "model3DName": "SW-SMD_4P-L5.1-W5.1-P3.00_C9900079866",
+     "model3DUuid": "fb2c15461163462988fdbea10ae765ae",
+     "description": "",
+     "manufacturer": "",
+     "manufacturerId": "TESTPOINT_23",
+     "supplier": "LCSC",
+     "supplierId": "C9900079866"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "PTS645SM43SMTR92LFS",
+  "ok": true,
+  "result": {
+   "query": "PTS645SM43SMTR92LFS",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "191fc2a99a5a47878f9b62602970494a",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "PTS645SM43SMTR92LFS",
+     "symbolName": "PTS645SM43SMTR92LFS",
+     "symbolUuid": "40d9d20d57704791b446bef133962d56",
+     "footprintName": "KEY-SMD_4P-L6.0-W6.0-P4.50-LS9.0",
+     "footprintUuid": "cbab379a44bd4455ab3cf18b65fe7205",
+     "model3DName": "KEY-SMD_4P-L6.0-W6.0-H5.0-LS10.0-P4.50",
+     "model3DUuid": "6ea74a97f6274f24bd49b36d54f1829d",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230103/D3DF67E2D63E49ACF53242FA7C2DA704.jpg",
+     "description": "Circuit:SPST Actuator Style:Round Button Operating Force:1.6N Mounting Type:Surface Mount,Vertical Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:12V With Lamp:- Termination Style:Gull Wing Life:- Operating Temperature:-20℃~+",
+     "manufacturer": "C&K",
+     "manufacturerId": "PTS645SM43SMTR92LFS",
+     "supplier": "LCSC",
+     "supplierId": "C221880"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "GRM155R60J475ME47D",
+  "ok": true,
+  "result": {
+   "query": "GRM155R60J475ME47D",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "a84d6511c0ea457182ddb38644c3647b",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "GRM155R60J475ME47D",
+     "symbolName": "GRM155R60J475ME47D",
+     "symbolUuid": "7db1056c22e34259a96e6fb45e462946",
+     "footprintName": "C0402",
+     "footprintUuid": "6fbbb009724a4aee93b46abcd7ad26b6",
+     "model3DName": "C0402_L1.0-W0.5-H0.5",
+     "model3DUuid": "b7d13df3e9464d7a99d0651d1a5b4d57",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20251009/536892674D08F25CC6EE45D709F680E2.jpg",
+     "description": "Capacitance:4.7uF Tolerance:±20% Tolerance:±20% Voltage Rating:6.3V Temperature Coefficient:X5R ",
+     "manufacturer": "muRata(村田)",
+     "manufacturerId": "GRM155R60J475ME47D",
+     "supplier": "LCSC",
+     "supplierId": "C82453"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "PREC040SAAN-RC",
+  "ok": true,
+  "result": {
+   "query": "PREC040SAAN-RC",
+   "count": 5,
+   "devices": [
+    {
+     "uuid": "3b23b19f753644e49a737e630ce61fce",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "PREC040SAAN-RC",
+     "symbolName": "PREC040SAAN-RC",
+     "symbolUuid": "58e03ea6910048e0bf77e47a65566557",
+     "footprintName": "HDR-TH_40P-P2.54-V-M-1",
+     "footprintUuid": "4b098fc0598d4b3fbbfa35c797182672",
+     "model3DName": "HDR-M-2.54_1x40",
+     "model3DUuid": "2c7ac77e0ca14a2aafe5e1bc4f1653c4",
+     "description": "Pitch:2.54mm Mounting Type:Straight Number of Rows:Single Row Number of Pins:40P Current Rating:3A Contact Material:Brass Contact Plating:Tin Operating Temperature:-40℃~+105℃ Operating Temperature:-40℃~+105℃ Color:Black ",
+     "manufacturer": "Sullins",
+     "manufacturerId": "PREC040SAAN-RC",
+     "supplier": "LCSC",
+     "supplierId": "C4355043"
+    },
+    {
+     "uuid": "112bd2bd6b9744eb88b20180746a08a2",
+     "libraryUuid": "",
+     "ordinal": 1,
+     "name": "ACF451832-470-TLD01",
+     "symbolName": "ACF451832-470-TLD01",
+     "symbolUuid": "53591a28352440fbbc6d51d47ccd4b71",
+     "footprintName": "FILTER-SMD_3P-L4.5-W1.8_ACF451832",
+     "footprintUuid": "3ccbcd245371452d8dc3a812be5d8a78",
+     "model3DName": "FILTER-SMD_3P-L4.5-W1.8_ACF451832",
+     "model3DUuid": "789325939eea4fe4b2e7d2773fc16786",
+     "description": "",
+     "manufacturer": "TDK",
+     "manufacturerId": "ACF451832-470-TLD01",
+     "supplier": "LCSC",
+     "supplierId": "C5937466"
+    },
+    {
+     "uuid": "48bd22bba1a84159a74e131f99c70150",
+     "libraryUuid": "",
+     "ordinal": 2,
+     "name": "ACF451832-222-TLD01",
+     "symbolName": "ACF451832-222-TLD01",
+     "symbolUuid": "9200bdc872a2452b8480b6500859ec47",
+     "footprintName": "FILTER-SMD_3P-L4.5-W1.8_ACF451832",
+     "footprintUuid": "3ccbcd245371452d8dc3a812be5d8a78",
+     "model3DName": "FILTER-SMD_3P-L4.5-W1.8_ACF451832",
+     "model3DUuid": "789325939eea4fe4b2e7d2773fc16786",
+     "description": "",
+     "manufacturer": "TDK",
+     "manufacturerId": "ACF451832-222-TLD01",
+     "supplier": "LCSC",
+     "supplierId": "C6458421"
+    },
+    {
+     "uuid": "7243a9fa950449e4860833696c7885ed",
+     "libraryUuid": "",
+     "ordinal": 3,
+     "name": "ACH32C-103-TL001",
+     "symbolName": "ACH32C-103-TL001",
+     "symbolUuid": "c5d4a75c860b4f8c8207b30e513f7c89",
+     "footprintName": "FILTER-SMD_3P-L3.2-W1.6_ACH32C",
+     "footprintUuid": "74e770c29b654d2db63f82da24c3ef1e",
+     "model3DName": "FILTER-SMD_3P-L3.2-W1.6-H2.1_ACH32C",
+     "model3DUuid": "089edfcc38a74db696947c89ba3c1cc6",
+     "description": "",
+     "manufacturer": "TDK",
+     "manufacturerId": "ACH32C-103-TL001",
+     "supplier": "LCSC",
+     "supplierId": "C19362125"
+    },
+    {
+     "uuid": "f859d1fea28a4959ab62e78536f89f96",
+     "libraryUuid": "",
+     "ordinal": 4,
+     "name": "VFS6VD81E221U31A",
+     "symbolName": "VFS6VD81E221U31A",
+     "symbolUuid": "264a5578a3b64cb2a71e84c0ba46e4c9",
+     "footprintName": "FILTER-TH_VFS6VD81E221U31A",
+     "footprintUuid": "a19bfcbd88c5439e8f27d4603a6f73cc",
+     "model3DName": "FILTER-TH_VFS6VD81E221U31A",
+     "model3DUuid": "3b95a095554d4c2dae3de5709e59c0b2",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230108/A386219A6D1EF82706234A255F2A9B25.jpg",
+     "description": "DC Rated Voltage:25V Filter Order:3 Capacitance:220pF ESD Protection:None Number of Channels:1 OperatingTemperature:-40℃~+105℃ OperatingTemperature:-40℃~+105℃ ",
+     "manufacturer": "muRata(村田)",
+     "manufacturerId": "VFS6VD81E221U31A",
+     "supplier": "LCSC",
+     "supplierId": "C184806"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "GRM1555C1H180JA01D",
+  "ok": true,
+  "result": {
+   "query": "GRM1555C1H180JA01D",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "fd398699f5cb4ae882fb1d6eec9d07bd",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "GRM1555C1H180JA01D",
+     "symbolName": "GRM1555C1H180JA01D",
+     "symbolUuid": "8b4f8a7e038f48d5b0e424b2f6c5f251",
+     "footprintName": "C0402",
+     "footprintUuid": "6fbbb009724a4aee93b46abcd7ad26b6",
+     "model3DName": "C0402_L1.0-W0.5-H0.5",
+     "model3DUuid": "b7d13df3e9464d7a99d0651d1a5b4d57",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20221229/F5BD604C6279DC41DC4EC96B652CDE54.jpg",
+     "description": "Capacitance: Tolerance:±5% Tolerance:±5% Voltage Rated: Temperature Coefficient: ",
+     "manufacturer": "muRata(村田)",
+     "manufacturerId": "GRM1555C1H180JA01D",
+     "supplier": "LCSC",
+     "supplierId": "C33149"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "RC0402FR-075K1L",
+  "ok": true,
+  "result": {
+   "query": "RC0402FR-075K1L",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "10a7836f15ff4f9d926b2ce2878a22a7",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "RC0402FR-075K1L",
+     "symbolName": "RC0402FR-075K1L",
+     "symbolUuid": "14e7c87315d34abb965362cbece7c128",
+     "footprintName": "R0402",
+     "footprintUuid": "b43f879bdccf4af3bada432fe602c7c6",
+     "model3DName": "R0402_L1.0-W0.5-H0.4",
+     "model3DUuid": "efdecb7dae4442949d28eecaf748420f",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230101/81E99F9A57E589D3D90C046F4B0062EC.jpg",
+     "description": "Type:Thick Film Resistor Resistance:5.1kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃ ",
+     "manufacturer": "YAGEO(国巨)",
+     "manufacturerId": "RC0402FR-075K1L",
+     "supplier": "LCSC",
+     "supplierId": "C105872"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "GRM1555C1H100JA01D",
+  "ok": true,
+  "result": {
+   "query": "GRM1555C1H100JA01D",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "4e7690a2adb44294acc6419a68b56e5e",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "GRM1555C1H100JA01D",
+     "symbolName": "GRM1555C1H100JA01D",
+     "symbolUuid": "88b7426ab020440ba40ee222bd0078b7",
+     "footprintName": "C0402",
+     "footprintUuid": "6fbbb009724a4aee93b46abcd7ad26b6",
+     "model3DName": "C0402_L1.0-W0.5-H0.5",
+     "model3DUuid": "b7d13df3e9464d7a99d0651d1a5b4d57",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20221231/6C7F2DA3E577D35B5D801714641541AC.jpg",
+     "description": "Capacitance:10pF Tolerance:±5% Tolerance:±5% Voltage Rating:50V Temperature Coefficient:C0G ",
+     "manufacturer": "muRata(村田)",
+     "manufacturerId": "GRM1555C1H100JA01D",
+     "supplier": "LCSC",
+     "supplierId": "C76946"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "SN74AHCT1G125DBVR",
+  "ok": true,
+  "result": {
+   "query": "SN74AHCT1G125DBVR",
+   "count": 3,
+   "devices": [
+    {
+     "uuid": "95f54609b19b4ca5bc76959e010e2458",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "SN74AHCT1G125DBVR",
+     "symbolName": "SN74AHCT1G125DBVR",
+     "symbolUuid": "39ea83eda30d4b5e8c45c67831a7a930",
+     "footprintName": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+     "footprintUuid": "3962fa5424e54dde8cfd30751ab1c7e4",
+     "model3DName": "SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95",
+     "model3DUuid": "3168b22659ce4998ae232d44bb704e0a",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20221228/1E349AD615EB3B7D8DF796D2DD0450D4.jpg",
+     "description": "Input type:- output type:Tri-State Voltage - Supply:4.5V~5.5V Voltage - Supply:4.5V~5.5V Number of Elements:1 Number of Bits per Element:1 Channel Type:Unidirectional Current - Output Low(IOL):8mA Current - Output High(IOH):8mA Logic Family:74AHCT Operati",
+     "manufacturer": "TI(德州仪器)",
+     "manufacturerId": "SN74AHCT1G125DBVR",
+     "supplier": "LCSC",
+     "supplierId": "C7484"
+    },
+    {
+     "uuid": "947f7a80a0ff48bbbeb07528901e6d38",
+     "libraryUuid": "",
+     "ordinal": 1,
+     "name": "SN74AHCT1G125DBVR-TP",
+     "symbolName": "SN74AHCT1G125DBVR-TP",
+     "symbolUuid": "84f51d4304e241ef93329510d8c9a595",
+     "footprintName": "SOT-23-5_L3.0-W1.5-P0.95-LS2.8-BL",
+     "footprintUuid": "f03c886b8cd04dbaa2929bdcd25884f9",
+     "model3DName": "SOT-23-5_L3.0-W1.5-P0.95-LS2.8-BL",
+     "model3DUuid": "cebaa11776a44c29af77b00c76af25b8",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20250224/2DE1564325B70EB6AC745EC2C3D76B4E.jpg",
+     "description": "Type:- Voltage Supply Source:Single Supply Voltage - Supply:4.5V~5.5V Voltage - Supply:4.5V~5.5V Number of lines:- Number of lines:- Current - Output Low(IOL):8mA Current - Output High(IOH):8mA Operating temperature:+40℃~+125℃ Operating temperature:+40℃~+",
+     "manufacturer": "TECH PUBLIC(台舟)",
+     "manufacturerId": "SN74AHCT1G125DBVR-TP",
+     "supplier": "LCSC",
+     "supplierId": "C42460251"
+    },
+    {
+     "uuid": "36cd390c321146a292e31b5b2a325033",
+     "libraryUuid": "",
+     "ordinal": 2,
+     "name": "SN74AHCT1G125DBVR(UMW)",
+     "symbolName": "SN74AHCT1G125DBVR(UMW)",
+     "symbolUuid": "ebde075aecb74c16a17d105b4bb59982",
+     "footprintName": "SOT-23-5_L3.0-W1.5-P0.95-LS2.8-BL",
+     "footprintUuid": "f03c886b8cd04dbaa2929bdcd25884f9",
+     "model3DName": "SOT-23-5_L3.0-W1.5-P0.95-LS2.8-BL",
+     "model3DUuid": "cebaa11776a44c29af77b00c76af25b8",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20240429/9E76FC1C5780F141826C9F48922EC2C7.jpg",
+     "description": "Logic Type:- Number of Channels:1 Voltage - Supply:4.5V~5.5V Voltage - Supply:4.5V~5.5V Quiescent Current:10uA Current - Output Low(IOL):8mA Current - Output High(IOH):8mA Input Logic Level - High:2V Input Logic Level - High:2V Input Logic Level - Low:800",
+     "manufacturer": "UMW(友台半导体)",
+     "manufacturerId": "SN74AHCT1G125DBVR(UMW)",
+     "supplier": "LCSC",
+     "supplierId": "C20617903"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "B2B-XH-A",
+  "ok": true,
+  "result": {
+   "query": "B2B-XH-A",
+   "count": 5,
+   "devices": [
+    {
+     "uuid": "e7021793e1cf4b0bb9aa0a7daaef6e91",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "B2B-XH-A",
+     "symbolName": "B2B-XH-A",
+     "symbolUuid": "8f870f2b86d5406abe0afd3ac925896e",
+     "footprintName": "CONN-TH_XH-2A",
+     "footprintUuid": "4f85ac2a77134c95a222b83ee36299a1",
+     "model3DName": "XH2.5-2A",
+     "model3DUuid": "417e395cbf3443fdb9642576696e80a3",
+     "description": "",
+     "manufacturer": "",
+     "manufacturerId": "B2B-XH-A",
+     "supplier": "LCSC",
+     "supplierId": "C19272845"
+    },
+    {
+     "uuid": "426d583858904b9d9c50b5789b1d2410",
+     "libraryUuid": "",
+     "ordinal": 1,
+     "name": "B2B-XH-A-Y(LF)(SN)",
+     "symbolName": "B2B-XH-A-Y(LF)(SN)",
+     "symbolUuid": "b5b01dd75bc446f08523bec9bf96159b",
+     "footprintName": "CONN-TH_B2B-XH-A-Y-LF-SN",
+     "footprintUuid": "5f8bd9148e2444539a43dcfb2f4d2385",
+     "model3DName": "CONN-TH_B2B-XH-A-Y(LF)(SN)",
+     "model3DUuid": "81846a30b2974ce39fbea474dac2c7c8",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230107/73C08C3984E072C2286384D4D1C9B28A.jpg",
+     "description": "Pins Structure:1x2P Pitch:2.5mm Mounting Type:Through Hole Reference Series:XH Number of Pins:2P Number of Rows:1 Number of PINs Per Row:2 Row Spacing:- Current Rating:3A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25℃~+85℃ Operating",
+     "manufacturer": "JST",
+     "manufacturerId": "B2B-XH-A-Y(LF)(SN)",
+     "supplier": "LCSC",
+     "supplierId": "C495547"
+    },
+    {
+     "uuid": "3b9af90046a04769ada1b68e95fdf6de",
+     "libraryUuid": "",
+     "ordinal": 2,
+     "name": "B2B-XH-A-BK(LF)(SN)",
+     "symbolName": "B2B-XH-A-BK(LF)(SN)",
+     "symbolUuid": "73970a7938ec46b182a0fc5c5c3dca98",
+     "footprintName": "CONN-TH_2P-P2.50_JST_B2B-XH-A-M",
+     "footprintUuid": "895381e76f464cb7b511e267c5b704b7",
+     "model3DName": "CONN-TH_2P-P2.50_JST_B2B-XH-A-M",
+     "model3DUuid": "6d818fca2ac44a3bb39561a66382f020",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230107/7E9A3CA85C8A292EEAD403B639974DE0.jpg",
+     "description": "Pins Structure:1x2P Pitch:2.5mm Mounting Style:Direct Insert Reference Series:XH Number of Pins:2P Number of Rows:1 Number of PINs Per Row:2 Row Spacing:- Current Rating (Max):3A Contact Material:Brass Contact Plating:Tin Operating Temperature Range:-25℃~",
+     "manufacturer": "JST",
+     "manufacturerId": "B2B-XH-A-BK(LF)(SN)",
+     "supplier": "LCSC",
+     "supplierId": "C378939"
+    },
+    {
+     "uuid": "5fec3a9b13d64528b7a6f44ccadad59a",
+     "libraryUuid": "",
+     "ordinal": 3,
+     "name": "XY-B2B-XH-A",
+     "symbolName": "XY-B2B-XH-A",
+     "symbolUuid": "4b7c9d42cb264fb38cc99489c5909193",
+     "footprintName": "CONN-TH_2P-P2.50_XY-B2B-XH-A",
+     "footprintUuid": "7d5eb5d74a524a28b857e793b643b8f6",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20251004/E4FA0FC2B8010E29CF00F06135CCD40C.jpg",
+     "description": "Pins Structure:1x2P Pitch:2.54mm Mounting Type:Through Hole Number of Pins:2P Number of Rows:1 Number of PINs Per Row:2 Current Rating:2A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25℃~+85℃ Operating Temperature:-25℃~+85℃ Voltage Ra",
+     "manufacturer": "XYECONN(辛译)",
+     "manufacturerId": "XY-B2B-XH-A",
+     "supplier": "LCSC",
+     "supplierId": "C51940134"
+    },
+    {
+     "uuid": "d53f5c7f39de489aad2c3592e723641c",
+     "libraryUuid": "",
+     "ordinal": 4,
+     "name": "B2B-XH-AM(LF)(SN)",
+     "symbolName": "B2B-XH-AM (LF)(SN)",
+     "symbolUuid": "70b890bb05d64be5beba9ed31bcd3f54",
+     "footprintName": "CONN-TH_B2B-XH-AM-LF-SN",
+     "footprintUuid": "45934920da9149f0af52807104cb656d",
+     "model3DName": "CONN-TH_B2B-XH-AM-LF-SN",
+     "model3DUuid": "c59e2dd340854ea4b022c1c06f681e89",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230110/D2D79DFB11C8E6A63803E6512AF9F5AC.jpg",
+     "description": "Pins Structure:1x2P Pitch:2.5mm Mounting Type:Through Hole Reference Series:XH Number of Pins:2P Number of Rows:1 Number of PINs Per Row:2 Row Spacing:- Current Rating:3A Contact Material:Brass Contact Plating:Tin Operating Temperature:-25℃~+85℃ Operating",
+     "manufacturer": "JST",
+     "manufacturerId": "B2B-XH-AM(LF)(SN)",
+     "supplier": "LCSC",
+     "supplierId": "C161869"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "RC0402FR-0733RL",
+  "ok": true,
+  "result": {
+   "query": "RC0402FR-0733RL",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "5167ada280d846078b7bb7b340933d0b",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "RC0402FR-0733RL",
+     "symbolName": "RC0402FR-0733RL",
+     "symbolUuid": "a5e572909e474b038e8e0a0253c1ac79",
+     "footprintName": "R0402",
+     "footprintUuid": "b43f879bdccf4af3bada432fe602c7c6",
+     "model3DName": "R0402_L1.0-W0.5-H0.4",
+     "model3DUuid": "efdecb7dae4442949d28eecaf748420f",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230110/38CD16619A00E8D41DCFD303FB385A73.jpg",
+     "description": "Type:Thick Film Resistor Resistance:33Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃ ",
+     "manufacturer": "YAGEO(国巨)",
+     "manufacturerId": "RC0402FR-0733RL",
+     "supplier": "LCSC",
+     "supplierId": "C138002"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "NCP15XH103F03RC",
+  "ok": true,
+  "result": {
+   "query": "NCP15XH103F03RC",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "d2beae28d8894494aa24697a5823ee37",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "NCP15XH103F03RC",
+     "symbolName": "NCP15XH103F03RC",
+     "symbolUuid": "6a045fc5666d46228849a7cd6b3ecf26",
+     "footprintName": "R0402",
+     "footprintUuid": "b43f879bdccf4af3bada432fe602c7c6",
+     "model3DName": "R0402_L1.0-W0.5-H0.4",
+     "model3DUuid": "efdecb7dae4442949d28eecaf748420f",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20251020/6A475E2936D4B38D378D47A76C2E7237.jpg",
+     "description": "Resistance @ 25℃:10kΩ B Constant (25℃/50℃):3380K Resistance Tolerance:±1% Resistance Tolerance:±1% B Constant (25℃/75℃):- B Constant (25℃/85℃):3434K B Constant (25℃/100℃):3455K Power(Watts):100mW B Constant Tolerance:±1% Steady State Current (Max):310uA O",
+     "manufacturer": "muRata(村田)",
+     "manufacturerId": "NCP15XH103F03RC",
+     "supplier": "LCSC",
+     "supplierId": "C77131"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "RC0402FR-07100RL",
+  "ok": true,
+  "result": {
+   "query": "RC0402FR-07100RL",
+   "count": 2,
+   "devices": [
+    {
+     "uuid": "a16bd89475d141ea861d56c7137cb978",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "RC0402FR-07100RL",
+     "symbolName": "RC0402FR-07100RL",
+     "symbolUuid": "5ec361bdca2d4ba4a7bde3bafa33aa2d",
+     "footprintName": "R0402",
+     "footprintUuid": "b43f879bdccf4af3bada432fe602c7c6",
+     "model3DName": "R0402_L1.0-W0.5-H0.4",
+     "model3DUuid": "efdecb7dae4442949d28eecaf748420f",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20250911/D8CDAF9F9D62D67442BFD835EBAD71BD.jpg",
+     "description": "Type:Thick Film Resistor Resistance:100Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃ ",
+     "manufacturer": "YAGEO(国巨)",
+     "manufacturerId": "RC0402FR-07100RL",
+     "supplier": "LCSC",
+     "supplierId": "C106232"
+    },
+    {
+     "uuid": "9d7f13c7738c4f39acb83eaea4591d9c",
+     "libraryUuid": "",
+     "ordinal": 1,
+     "name": "RC0402FR-07100RL_C2935235",
+     "symbolName": "RC0402FR-07100RL_C2935235",
+     "symbolUuid": "687d1656bc974dde91a343b30846954b",
+     "footprintName": "R0402",
+     "footprintUuid": "b43f879bdccf4af3bada432fe602c7c6",
+     "model3DName": "R0402_L1.0-W0.5-H0.4",
+     "model3DUuid": "efdecb7dae4442949d28eecaf748420f",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230107/D0FC96E88C76D19D862FCFAED9298858.jpg",
+     "description": "Type:Thick Film Resistor Resistance:100Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃ ",
+     "manufacturer": "YAGEO(国巨)",
+     "manufacturerId": "RC0402FR-07100RL",
+     "supplier": "LCSC",
+     "supplierId": "C2935235"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "MIMXRT1062DVJ6B",
+  "ok": true,
+  "result": {
+   "query": "MIMXRT1062DVJ6B",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "1f60af53654b4c089403430f1a6f9058",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "MIMXRT1062DVJ6B",
+     "symbolName": "MIMXRT1062DVJ6B",
+     "symbolUuid": "48197c2c0f07481fa68190c079587bfd",
+     "footprintName": "LFBGA-196_L12.0-W12.0-R14-C14-P0.80-BL",
+     "footprintUuid": "3cdb092c2a414e18a41188cfdf9b1685",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20251211/D4B555CC769A80C8E2C15BD08FA72F95.jpg",
+     "description": "CPU Core:ARM Cortex-M7 CPU Maximum Speed:600MHz Number of I/O:127 ADC (Bit):12bit Voltage - Supply:3V~3.6V Voltage - Supply:3V~3.6V ",
+     "manufacturer": "NXP(恩智浦)",
+     "manufacturerId": "MIMXRT1062DVJ6B",
+     "supplier": "LCSC",
+     "supplierId": "C3216699"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "XRCGB24M000F3A00R0",
+  "ok": true,
+  "result": {
+   "query": "XRCGB24M000F3A00R0",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "605be9fc46954fe8b1a53f3c76dbdd72",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "XRCGB24M000F3A00R0",
+     "symbolName": "XRCGB24M000F3A00R0",
+     "symbolUuid": "070d89e5ddf84927b44b90abd1d81cba",
+     "footprintName": "CRYSTAL-SMD_4P-L2.0-W1.6-BL-B",
+     "footprintUuid": "85bb29c55cdd4d348ac2357f0c9fe39a",
+     "model3DName": "CRYSTAL-SMD_4P-L2.0-W1.6-BL-B",
+     "model3DUuid": "5de808a48c6e4dc7933aafd5de6f241f",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230108/3572212C6C436F8EA30210FE5C7172D2.jpg",
+     "description": "Type:- Frequency:24MHz Normal temperature Frequency Tolerance:±30ppm Normal temperature Frequency Tolerance:±30ppm Load Capacitance:6pF Frequency Stability:±35ppm Frequency Stability:±35ppm Equivalent Series Resistance(ESR):120Ω Operating Temperature:-40℃",
+     "manufacturer": "muRata(村田)",
+     "manufacturerId": "XRCGB24M000F3A00R0",
+     "supplier": "LCSC",
+     "supplierId": "C194420"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "IS25WP064A-JBLE",
+  "ok": true,
+  "result": {
+   "query": "IS25WP064A-JBLE",
+   "count": 2,
+   "devices": [
+    {
+     "uuid": "b25a2a454a4c4a4bb9739927daf4c2f4",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "IS25WP064A-JBLE",
+     "symbolName": "IS25WP064A-JBLE",
+     "symbolUuid": "03d6ccb0fc034f4aa14bfe80f02e4871",
+     "footprintName": "SOIC-8_L5.3-W5.3-P1.27-LS7.9-BL",
+     "footprintUuid": "3cc662ce1ce843e2926021e48f870241",
+     "model3DName": "SOIC-8_L5.3-W5.3-P1.27-LS7.9-BL",
+     "model3DUuid": "15b9b546d7484425830d34b9890f9cc7",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230108/015A613A4C391A3D81CD323959958D04.jpg",
+     "description": "Interface:SPI Memory Size:64Mbit Clock Frequency:133MHz Voltage - Supply:1.65V~1.95V Voltage - Supply:1.65V~1.95V Standby Supply Current:8uA Program / Erase Cycles:100,000 cycles Write Cycle Time (tWC):- Page Programming Time (Tpp):200us Block Erase Time(",
+     "manufacturer": "ISSI(北京矽成)",
+     "manufacturerId": "IS25WP064A-JBLE",
+     "supplier": "LCSC",
+     "supplierId": "C190624"
+    },
+    {
+     "uuid": "7be1c879cc3c4df59b85417018cf2336",
+     "libraryUuid": "",
+     "ordinal": 1,
+     "name": "IS25WP064A-JBLE-TR",
+     "symbolName": "IS25WP064A-JBLE-TR",
+     "symbolUuid": "0a233e6807b944388a93b94eeff46c27",
+     "footprintName": "SOIC-8_L5.3-W5.3-P1.27-LS8.0-BL",
+     "footprintUuid": "72583753d3274002a417cc5a35a8cf6f",
+     "model3DName": "SOIC-8_L5.3-W5.3-H1.9-LS7.9-P1.27",
+     "model3DUuid": "7b3104f4a302484e875593c5ba7bd3db",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20240222/8197CF855447181F054DE6927EFEFAC0.jpg",
+     "description": "Interface:SPI Memory Size:64Mbit Clock Frequency:133MHz Voltage - Supply:1.65V~1.95V Voltage - Supply:1.65V~1.95V Standby Supply Current:5uA Program / Erase Cycles:100,000 cycles Write Cycle Time (tWC):- Page Programming Time (Tpp):800us Block Erase Time(",
+     "manufacturer": "ISSI(北京矽成)",
+     "manufacturerId": "IS25WP064A-JBLE-TR",
+     "supplier": "LCSC",
+     "supplierId": "C2062826"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "FTSH-105-01-L-DV-K",
+  "ok": true,
+  "result": {
+   "query": "FTSH-105-01-L-DV-K",
+   "count": 5,
+   "devices": [
+    {
+     "uuid": "5ebeaa17053143a7af0a1a31767a8ca4",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "FTSH-105-01-L-DV-K",
+     "symbolName": "FTSH-105-01-L-DV-K",
+     "symbolUuid": "b184bee316af4c8cb78296c4abb046f9",
+     "footprintName": "HDR-SMD_10P-P1.27-V-R2-C5-S5.8",
+     "footprintUuid": "91a1c8cfb141466d952b7045e473911d",
+     "model3DName": "HDR-SMD_10P-P1.27-V-R2-C5-S5.8",
+     "model3DUuid": "93c9c2f522ea47f7a954f3858cd520b1",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20231229/43BC90E286A8198850480E8B6C9C52D1.jpg",
+     "description": "Pin Structure:2x5P Pitch:1.27mm Circluar Pins/Square Pins:Pin Header Mounting Type:Surface Mount,Vertical Number of Rows:2 Number of Pins:10P Current Rating:3.4A Length of Mating Pin:3.05mm Length of End Connection Pin:- Contact Material:Phosphor bronze C",
+     "manufacturer": "SAMTEC",
+     "manufacturerId": "FTSH-105-01-L-DV-K",
+     "supplier": "LCSC",
+     "supplierId": "C5155080"
+    },
+    {
+     "uuid": "c1aead86ce6d4d4e8f8419688f0a3677",
+     "libraryUuid": "",
+     "ordinal": 1,
+     "name": "FTSH-105-01-F-DV-TR",
+     "symbolName": "FTSH-105-01-F-DV-TR",
+     "symbolUuid": "149e5d2509da4026a6b4c43da40fd77a",
+     "footprintName": "CONN-SMD_10P-P1.27-FTSH-105-01-L-DV-K-P-TR",
+     "footprintUuid": "b9c1fac448d345f181bb24823c8ed82b",
+     "model3DName": "CONN-SMD_10P-P1.27-FTSH-105-01-L-DV-K-P-TR",
+     "model3DUuid": "f2c7565cd1d940e795b4046fb60a9e1d",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20260721/CBEE791DEF07F881F4475CFF99DD0727.jpg",
+     "description": "Pitch:1.27mm Row Spacing:1.27mm Mounting Type:Surface Mount,Vertical Number of Rows:2 Number of Pins:10P Current Rating:3.4A Contact Material:Phosphor bronze Contact Plating:Tin Operating Temperature:-55℃~+125℃ Operating Temperature:-55℃~+125℃ Color:Black",
+     "manufacturer": "SAMTEC",
+     "manufacturerId": "FTSH-105-01-F-DV-TR",
+     "supplier": "LCSC",
+     "supplierId": "C7194371"
+    },
+    {
+     "uuid": "adb763edbb2246bf831bea4ea58194fb",
+     "libraryUuid": "",
+     "ordinal": 2,
+     "name": "FTSH-105-01-L-DV-K-P-TR",
+     "symbolName": "FTSH-105-01-L-DV-K-P-TR",
+     "symbolUuid": "a63197dcbff442d7a4bf87e191adf0a4",
+     "footprintName": "CONN-SMD_10P-P1.27-FTSH-105-01-L-DV-K-P-TR",
+     "footprintUuid": "b9c1fac448d345f181bb24823c8ed82b",
+     "model3DName": "CONN-SMD_10P-P1.27-FTSH-105-01-L-DV-K-P-TR",
+     "model3DUuid": "f2c7565cd1d940e795b4046fb60a9e1d",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20231212/A249EDFC71105A3C76491F1DA62022E1.jpg",
+     "description": "Pin Structure:2x5P Pitch:1.27mm Row Spacing:1.27mm Circluar Pins/Square Pins:Pin Header Mounting Type:Surface Mount,Vertical Number of Rows:2 Number of Pins:10P Length of Mating Pin:3.05mm Length of End Connection Pin:- Contact Material:Phosphor bronze Co",
+     "manufacturer": "SAMTEC",
+     "manufacturerId": "FTSH-105-01-L-DV-K-P-TR",
+     "supplier": "LCSC",
+     "supplierId": "C2932107"
+    },
+    {
+     "uuid": "36bde6fbe1c84c659919725afed5c0c5",
+     "libraryUuid": "",
+     "ordinal": 3,
+     "name": "FTSH-105-01-L-DV-K-P-FR",
+     "symbolName": "FTSH-105-01-L-DV-K-P-FR",
+     "symbolUuid": "4faf1be7af4f4de39953dd624d53e51b",
+     "footprintName": "HDR-SMD_FTSH-105-03-LM-DV",
+     "footprintUuid": "12099a6a4121410aba4051cc739e05ed",
+     "model3DName": "HDR-SMD_FTSH-105-03-LM-DV",
+     "model3DUuid": "174f176de6754e83b2e1e6522e60e36d",
+     "description": "",
+     "manufacturer": "SAMTEC",
+     "manufacturerId": "FTSH-105-01-L-DV-K-P-FR",
+     "supplier": "LCSC",
+     "supplierId": "C24121764"
+    },
+    {
+     "uuid": "60a8e6dd2614409a8f3271f70fc4c799",
+     "libraryUuid": "",
+     "ordinal": 4,
+     "name": "FTSH-105-01-L-DV-K-TR",
+     "symbolName": "FTSH-105-01-L-DV-K-TR",
+     "symbolUuid": "2e29b43563d645a8b38809b315c86e53",
+     "footprintName": "CONN-SMD_FTSH-105-01-L-DV-K-TR",
+     "footprintUuid": "e98f61e53b344e21b7797f87c3fcad36",
+     "model3DName": "CONN-SMD_FTSH-105-01-L-DV-K-TR",
+     "model3DUuid": "5aa835e8d6984b4ba08ee1fce7d35cfd",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230108/35862D82859F225C7E80B5C250589608.jpg",
+     "description": "Number of Pins:10P Pitch:1.27mm Mounting Type:Surface Mount,Vertical Number of Rows:2 Current Rating:3.4A Contact Material:Phosphor bronze Operating Temperature:-55℃~+125℃ Operating Temperature:-55℃~+125℃ ",
+     "manufacturer": "SAMTEC",
+     "manufacturerId": "FTSH-105-01-L-DV-K-TR",
+     "supplier": "LCSC",
+     "supplierId": "C448647"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "ESP32-S3-WROOM-1-N16R8",
+  "ok": true,
+  "result": {
+   "query": "ESP32-S3-WROOM-1-N16R8",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "d65778533f464ec4bc3c3732bd686263",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "ESP32-S3-WROOM-1-N16R8",
+     "symbolName": "ESP32-S3-WROOM-1(N16R8)",
+     "symbolUuid": "d219b3e194dd4186820eec0b92627f5c",
+     "footprintName": "WIRELM-SMD_ESP32-S3-WROOM-1",
+     "footprintUuid": "dce0099a18df49d3b27bb46b31b62ebf",
+     "model3DName": "WIRELM-SMD_ESP32-S3-WROOM-1",
+     "model3DUuid": "dbf21c799c1c42a38df84fd714a1a1c8",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20251022/10D7CD9217EB4ABE475D79839FA3CFFB.jpg",
+     "description": "Utilized IC / Part:ESP32-S3R8 Interface Type:I2C；GPIO；UART；SPI；USB；I2S Frequency:2.4GHz Antenna Type:On-board PCB Antenna Output Power:20.5dBm Output Power:20.5dBm Voltage - Supply:3V~3.6V Voltage - Supply:3V~3.6V Receive  Current:95mA Send  Current:355mA",
+     "manufacturer": "ESPRESSIF(乐鑫)",
+     "manufacturerId": "ESP32-S3-WROOM-1-N16R8",
+     "supplier": "LCSC",
+     "supplierId": "C2913202"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "TLV320ADC6120IRTER",
+  "ok": true,
+  "result": {
+   "query": "TLV320ADC6120IRTER",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "a91c0d74a9404d5880ac6dceed53c450",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "TLV320ADC6120IRTER",
+     "symbolName": "TLV320ADC6120IRTER",
+     "symbolUuid": "8fe6242115b34e29a26df278b1055619",
+     "footprintName": "WQFN-20_L3.0-W3.0-P0.50-TL-EP1.4",
+     "footprintUuid": "bea3028aad244c9bb0467721d229425c",
+     "model3DName": "WQFN-20_L3.0-W3.0-P0.50-TL-EP1.4",
+     "model3DUuid": "eac5b293a2d74f879bd9a6e9f1627de5",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20240306/4658F49C73072DC5E14DF4F04AE82366.jpg",
+     "description": "Number of Channels:2 Voltage - Supply:1.8V~3.3V Voltage - Supply:1.8V~3.3V Interface Type:I2C The Chip Type:Audio Analog-to-Digital Converter Operating Temperature:-40℃~+125℃ Operating Temperature:-40℃~+125℃ Sampling Rate:768kHz Quiescent Current (Iq):5uA",
+     "manufacturer": "TI(德州仪器)",
+     "manufacturerId": "TLV320ADC6120IRTER",
+     "supplier": "LCSC",
+     "supplierId": "C2874822"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "FH12-10S-0.5SH",
+  "ok": true,
+  "result": {
+   "query": "FH12-10S-0.5SH",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "da9a0d9c590c4d05992f9c745d78e17c",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "FH12-10S-0.5SH(55)",
+     "symbolName": "FH12-10S-0.5SH(55)",
+     "symbolUuid": "b1623b289f524b45a833af65cde51f48",
+     "footprintName": "FPC-SMD_FH12-10S-0.5SH-55",
+     "footprintUuid": "7499c53046d9456a81c67ce74eab82fe",
+     "model3DName": "FPC-SMD_FH12-10S-0.5SH-55",
+     "model3DUuid": "27e3d773b76545c8af178b860163a7c3",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230107/C04566C1CA874B3BDA4D60598C56C2D3.jpg",
+     "description": "Locking Feature:Hinged Lid Contact Type:Bottom Contact Number of Contacts:10P Pitch:0.5mm Mounting Type:Surface Mount, Right Angle FFC, FCB Thickness:0.3mm FFC, FCB Thickness:0.3mm Height Above Board:2mm Contact Material:Phosphor bronze Contact Plating:Go",
+     "manufacturer": "HRS(广濑)",
+     "manufacturerId": "FH12-10S-0.5SH(55)",
+     "supplier": "LCSC",
+     "supplierId": "C506791"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "BLM15AG221SN1D",
+  "ok": true,
+  "result": {
+   "query": "BLM15AG221SN1D",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "8708f31eda9a4b8fba8dbe5b0a07b332",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "BLM15AG221SN1D",
+     "symbolName": "BLM15AG221SN1D",
+     "symbolUuid": "9cd8db70420140bebded5ceb57119c7f",
+     "footprintName": "L0402",
+     "footprintUuid": "f0e169c94a474b3f804df2bf2370c60f",
+     "model3DName": "L0402_L1.0-W0.5-H0.5_BEAD",
+     "model3DUuid": "aef00b1603224fd68a96e37121ccc916",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20221231/B5633E094F65D45D88CD61B846E92306.jpg",
+     "description": "Impedance @ Frequency:220Ω@100MHz Tolerance:±25% Tolerance:±25% DC Resistance(DCR):290mΩ Current Rating:450mA Number of Circuits:1 Operating Temperature:-55℃~+125℃ Operating Temperature:-55℃~+125℃ ",
+     "manufacturer": "muRata(村田)",
+     "manufacturerId": "BLM15AG221SN1D",
+     "supplier": "LCSC",
+     "supplierId": "C85813"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "ST25R3916B-AQWT",
+  "ok": true,
+  "result": {
+   "query": "ST25R3916B-AQWT",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "77d19b5e1eb0489391c8c21a4e45d5ca",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "ST25R3916B-AQWT",
+     "symbolName": "ST25R3916B-AQWT",
+     "symbolUuid": "8607bb389a35423298c406854a4a7a2c",
+     "footprintName": "VFQFPN-32_L5.0-W5.0-P0.50-TL-EP3.5",
+     "footprintUuid": "bb84f04014b244b2bdec3822387fb3f5",
+     "model3DName": "VFQFPN-32_L5.0-W5.0-P0.50-TL-EP3.5",
+     "model3DUuid": "aa3209b0cc65446da375377f1d83c473",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230711/ED2F561F2FC0AF57A2B16ACB3A2AFE92.jpg",
+     "description": "agreement:FeliCa,ISO 14443A,ISO 14443B,ISO 15693,NFC Interface:I2C,SPI transmission rate:53Kbit/s；848Kbit/s；424Kbit/s Frequency:13.56MHz Frequency:13.56MHz Voltage - Supply:2.6V~5.5V Voltage - Supply:2.6V~5.5V Features:Built-in antenna driver；Low power wa",
+     "manufacturer": "ST(意法半导体)",
+     "manufacturerId": "ST25R3916B-AQWT",
+     "supplier": "LCSC",
+     "supplierId": "C5267436"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "NX2012SA-27.12M-STD-CSW-4",
+  "ok": true,
+  "result": {
+   "query": "NX2012SA-27.12M",
+   "count": 0,
+   "devices": []
+  }
+ },
+ {
+  "tag": "LQW15AN5N6C10D",
+  "ok": true,
+  "result": {
+   "query": "LQW15AN5N6C10D",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "26e4bf5f50534df2aaf71acfb5998847",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "LQW15AN5N6C10D",
+     "symbolName": "LQW15AN5N6C10D",
+     "symbolUuid": "abe724821a564f46849fb05a53728ab6",
+     "footprintName": "IND-SMD_L1.0-W0.5-2",
+     "footprintUuid": "204d221659454d7a85868705cb7f61b8",
+     "model3DName": "IND-SMD_L1.0-W0.5-2",
+     "model3DUuid": "8e9897b098ec43bf8ce18f07f94c83b4",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20221231/2DCE4672C36E7E9A0852140A66B8288E.jpg",
+     "description": "Inductance: Rated Current: Saturation Current (Isat):- DC Resistance (DCR): Ratings:- ",
+     "manufacturer": "muRata(村田)",
+     "manufacturerId": "LQW15AN5N6C10D",
+     "supplier": "LCSC",
+     "supplierId": "C91626"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "GRM1555C1H220JA01D",
+  "ok": true,
+  "result": {
+   "query": "GRM1555C1H220JA01D",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "2318d8c6c4b2460ab497e55975762ae8",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "GRM1555C1H220JA01D",
+     "symbolName": "GRM1555C1H220JA01D",
+     "symbolUuid": "9b0b91a8dbfe4dea9384061a6f233dee",
+     "footprintName": "C0402",
+     "footprintUuid": "6fbbb009724a4aee93b46abcd7ad26b6",
+     "model3DName": "C0402_L1.0-W0.5-H0.5",
+     "model3DUuid": "b7d13df3e9464d7a99d0651d1a5b4d57",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20221231/6140A8F3C0FED07DB41B01F5DC884292.jpg",
+     "description": "Capacitance:22pF Tolerance:±5% Tolerance:±5% Voltage Rating:50V Temperature Coefficient:C0G ",
+     "manufacturer": "muRata(村田)",
+     "manufacturerId": "GRM1555C1H220JA01D",
+     "supplier": "LCSC",
+     "supplierId": "C76960"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "GRM1555C1H330JA01D",
+  "ok": true,
+  "result": {
+   "query": "GRM1555C1H330JA01D",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "f0fc879af01d4b10bdf175c71236354f",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "GRM1555C1H330JA01D",
+     "symbolName": "GRM1555C1H330JA01D",
+     "symbolUuid": "05a6b918490f4a73b42d73d9c30adeaa",
+     "footprintName": "C0402",
+     "footprintUuid": "6fbbb009724a4aee93b46abcd7ad26b6",
+     "model3DName": "C0402_L1.0-W0.5-H0.5",
+     "model3DUuid": "b7d13df3e9464d7a99d0651d1a5b4d57",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230218/A3AF6E355DD3FFF6AB92E20269808C94.jpg",
+     "description": "Capacitance:33pF Tolerance:±5% Tolerance:±5% Voltage Rating:50V Temperature Coefficient:C0G ",
+     "manufacturer": "muRata(村田)",
+     "manufacturerId": "GRM1555C1H330JA01D",
+     "supplier": "LCSC",
+     "supplierId": "C76964"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "GRM1555C1H470JA01D",
+  "ok": true,
+  "result": {
+   "query": "GRM1555C1H470JA01D",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "bedff529a972445e904433706b3c1ac9",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "GRM1555C1H470JA01D",
+     "symbolName": "GRM1555C1H470JA01D",
+     "symbolUuid": "234e83976f01412cbaf8d0aa473d251d",
+     "footprintName": "C0402",
+     "footprintUuid": "6fbbb009724a4aee93b46abcd7ad26b6",
+     "model3DName": "C0402_L1.0-W0.5-H0.5",
+     "model3DUuid": "b7d13df3e9464d7a99d0651d1a5b4d57",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20250911/C1DC55890D89852ECF4EB8B5BD98A98C.jpg",
+     "description": "Capacitance:47pF Tolerance:±5% Tolerance:±5% Voltage Rating:50V Temperature Coefficient:C0G ",
+     "manufacturer": "muRata(村田)",
+     "manufacturerId": "GRM1555C1H470JA01D",
+     "supplier": "LCSC",
+     "supplierId": "C76970"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "LQW15AN33NG00D",
+  "ok": true,
+  "result": {
+   "query": "LQW15AN33NG00D",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "83e49710d9494d5abd23171ded6f8fd8",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "LQW15AN33NG00D",
+     "symbolName": "LQW15AN33NG00D",
+     "symbolUuid": "fa343bb3a9134129a57bf3c10f5447b8",
+     "footprintName": "L0402",
+     "footprintUuid": "f0e169c94a474b3f804df2bf2370c60f",
+     "model3DName": "L0402_L1.0-W0.5-H0.5_BEAD",
+     "model3DUuid": "aef00b1603224fd68a96e37121ccc916",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20250901/BDDADE393DD80D1B63799A4B8643EAC3.jpg",
+     "description": "Inductance:33nH Tolerance:±2% Tolerance:±2% Current Rating:260mA Current - Saturation(Isat):- DC Resistance(DCR):630mΩ Type:Unshielded Inductor Ratings:- ",
+     "manufacturer": "muRata(村田)",
+     "manufacturerId": "LQW15AN33NG00D",
+     "supplier": "LCSC",
+     "supplierId": "C113114"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "RC0402FR-072R2L",
+  "ok": true,
+  "result": {
+   "query": "RC0402FR-072R2L",
+   "count": 0,
+   "devices": []
+  }
+ },
+ {
+  "tag": "U.FL-R-SMT-1",
+  "ok": true,
+  "result": {
+   "query": "U.FL-R-SMT-1",
+   "count": 5,
+   "devices": [
+    {
+     "uuid": "fe594ebbde9849c3a8e6a115d000ba45",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "U.FL-R-SMT-1(80)",
+     "symbolName": "U.FL-R-SMT-1(80)_C9900020048",
+     "symbolUuid": "06ca75fd01d642c6aa64a312f52bf655",
+     "footprintName": "IPEX-SMD_4P-L2.6-W2.6-LS3.0-1",
+     "footprintUuid": "f804eca6ab9e4b59af2767c1a33c22ff",
+     "model3DName": "IPEX-SMD_4P-L2.6-W2.6-LS3.0-1",
+     "model3DUuid": "0eb80d550cba466e8098aca25da74f69",
+     "description": "",
+     "manufacturer": "",
+     "manufacturerId": "U.FL-R-SMT-1(80)",
+     "supplier": "LCSC",
+     "supplierId": "C9900020048"
+    },
+    {
+     "uuid": "4aec3f3dd8054402887b6d8da7076325",
+     "libraryUuid": "",
+     "ordinal": 1,
+     "name": "U.FL-R-SMT-1_HRS",
+     "symbolName": "U.FL-R-SMT-1_HRS",
+     "symbolUuid": "5640c613fa894229a5ba9217dbfa5c7f",
+     "footprintName": "IPEX-SMD_BWIPX-1-001E",
+     "footprintUuid": "a4ba9c67da814a5f99a74dd21208a61f",
+     "model3DName": "IPEX-SMD_BWIPX-1-001E",
+     "model3DUuid": "8e60e65c2bc944748dc252132ec0ef76",
+     "description": "",
+     "manufacturer": "",
+     "manufacturerId": "U.FL-R-SMT-1_HRS",
+     "supplier": "LCSC",
+     "supplierId": "C9900096664"
+    },
+    {
+     "uuid": "7470fcee36e14a0e9785c12280c07f2f",
+     "libraryUuid": "",
+     "ordinal": 2,
+     "name": "U.FL-R-SMT-1(01)",
+     "symbolName": "U.FL-R-SMT-1(01)",
+     "symbolUuid": "9708416f461d4c8988c02daac8deeb83",
+     "footprintName": "RF-SMD_U.FL-R-SMT-1-80",
+     "footprintUuid": "a1c712c6f04d47b881cc9049ea8c44c0",
+     "model3DName": "RF-SMD_U.FL-R-SMT-1-80",
+     "model3DUuid": "8d57bc1818f744e8816ead7767ac7155",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230104/02EA1D50E999F631D23A1CE52FD309F5.jpg",
+     "description": "Connector Type:Board Side Interface:Inner pin Number of Ports:1 Interface Diameter:2mm Interface Length/Height:1.25mm Frequency:6GHz RF Series:IPEX Impedance:50Ω Style:- Operating Temperature Range:-40℃~+90℃ Operating Temperature Range:-40℃~+90℃ ",
+     "manufacturer": "HRS(广濑)",
+     "manufacturerId": "U.FL-R-SMT-1(01)",
+     "supplier": "LCSC",
+     "supplierId": "C598199"
+    },
+    {
+     "uuid": "75fde42e32bd4ba2a729c14fde9aa431",
+     "libraryUuid": "",
+     "ordinal": 3,
+     "name": "U.FL-R-SMT(10)",
+     "symbolName": "U.FL-R-SMT(10)",
+     "symbolUuid": "b34db5595f0043b38c0536cf1ba56ccd",
+     "footprintName": "ANT-SMD_U.FL-R-SMT10",
+     "footprintUuid": "92ef11f69d46427eb2957339d4d607c1",
+     "model3DName": "ANT-SMD_U.FL-R-SMT10",
+     "model3DUuid": "9dcfda4d02a1426ab46283a2fd94e166",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230108/D2EC57F77B5CCBD287210E70D5696604.jpg",
+     "description": "Connector Type:Board Side Interface:Inner pin Number of Ports:1 Interface Diameter:2mm Interface Length/Height:1.25mm Frequency:6GHz RF Series:IPEX Impedance:50Ω Style:- Operating Temperature Range:-40℃~+90℃ Operating Temperature Range:-40℃~+90℃ ",
+     "manufacturer": "HRS(广濑)",
+     "manufacturerId": "U.FL-R-SMT(10)",
+     "supplier": "LCSC",
+     "supplierId": "C434808"
+    },
+    {
+     "uuid": "51a2a4fea40647b0b4450e3d9f5607ee",
+     "libraryUuid": "",
+     "ordinal": 4,
+     "name": "U.FL-R-SMT-1(10)",
+     "symbolName": "U.FL-R-SMT-1(10)",
+     "symbolUuid": "7af45c4f605d4073bfe91850227ce20e",
+     "footprintName": "ANT-SMD_UFL-R-SMT-1-10",
+     "footprintUuid": "705148fdb0cc49ac88857e69bfbc8039",
+     "model3DName": "ANT-SMD_UFL-R-SMT-1-10",
+     "model3DUuid": "34ed2ad9df15415ab046d8594970c11a",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20221231/0612F3DBCBB43CA72A21761BA74DE002.jpg",
+     "description": "Connector Type:Board Side Interface:Male Pin Number of Ports:1 Interface Diameter:2mm Interface Length/Height:1.25mm Frequency:6GHz RF Series:IPEX Impedance:50Ω Style:- Operating Temperature Range:-40℃~+90℃ Operating Temperature Range:-40℃~+90℃ ",
+     "manufacturer": "HRS(广濑)",
+     "manufacturerId": "U.FL-R-SMT-1(10)",
+     "supplier": "LCSC",
+     "supplierId": "C88373"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "LIS2DH12TR",
+  "ok": true,
+  "result": {
+   "query": "LIS2DH12TR",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "408366b1bc4a4fa799bf978a38296acf",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "LIS2DH12TR",
+     "symbolName": "LIS2DH12TR",
+     "symbolUuid": "ab78c388ef454936ab406cebc9313990",
+     "footprintName": "LGA-12_L2.0-W2.0-P0.50-BL",
+     "footprintUuid": "07ded5f3f050434e99f4c9b3688702d4",
+     "model3DName": "LGA-12_L2.0-W2.0-H1.0-P0.50",
+     "model3DUuid": "08d0e00f89c34818888f739e33f11413",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230101/D4274B44C085733C44DE556227A063CB.jpg",
+     "description": "Accelerometer Sensing Axis:X,Y,Z Acceleration Measurement Range (MAX):±16g Acceleration Measurement Range (MAX):±16g Gyroscope Sensing Axis:- Gyroscope Measurement Range (MAX):- Gyroscope Measurement Range (MAX):- Sensor Type:Accelerometer Output Bits:8bi",
+     "manufacturer": "ST(意法半导体)",
+     "manufacturerId": "LIS2DH12TR",
+     "supplier": "LCSC",
+     "supplierId": "C110926"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "PREC006SAAN-RC",
+  "ok": true,
+  "result": {
+   "query": "PREC006SAAN-RC",
+   "count": 5,
+   "devices": [
+    {
+     "uuid": "112bd2bd6b9744eb88b20180746a08a2",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "ACF451832-470-TLD01",
+     "symbolName": "ACF451832-470-TLD01",
+     "symbolUuid": "53591a28352440fbbc6d51d47ccd4b71",
+     "footprintName": "FILTER-SMD_3P-L4.5-W1.8_ACF451832",
+     "footprintUuid": "3ccbcd245371452d8dc3a812be5d8a78",
+     "model3DName": "FILTER-SMD_3P-L4.5-W1.8_ACF451832",
+     "model3DUuid": "789325939eea4fe4b2e7d2773fc16786",
+     "description": "",
+     "manufacturer": "TDK",
+     "manufacturerId": "ACF451832-470-TLD01",
+     "supplier": "LCSC",
+     "supplierId": "C5937466"
+    },
+    {
+     "uuid": "48bd22bba1a84159a74e131f99c70150",
+     "libraryUuid": "",
+     "ordinal": 1,
+     "name": "ACF451832-222-TLD01",
+     "symbolName": "ACF451832-222-TLD01",
+     "symbolUuid": "9200bdc872a2452b8480b6500859ec47",
+     "footprintName": "FILTER-SMD_3P-L4.5-W1.8_ACF451832",
+     "footprintUuid": "3ccbcd245371452d8dc3a812be5d8a78",
+     "model3DName": "FILTER-SMD_3P-L4.5-W1.8_ACF451832",
+     "model3DUuid": "789325939eea4fe4b2e7d2773fc16786",
+     "description": "",
+     "manufacturer": "TDK",
+     "manufacturerId": "ACF451832-222-TLD01",
+     "supplier": "LCSC",
+     "supplierId": "C6458421"
+    },
+    {
+     "uuid": "7243a9fa950449e4860833696c7885ed",
+     "libraryUuid": "",
+     "ordinal": 2,
+     "name": "ACH32C-103-TL001",
+     "symbolName": "ACH32C-103-TL001",
+     "symbolUuid": "c5d4a75c860b4f8c8207b30e513f7c89",
+     "footprintName": "FILTER-SMD_3P-L3.2-W1.6_ACH32C",
+     "footprintUuid": "74e770c29b654d2db63f82da24c3ef1e",
+     "model3DName": "FILTER-SMD_3P-L3.2-W1.6-H2.1_ACH32C",
+     "model3DUuid": "089edfcc38a74db696947c89ba3c1cc6",
+     "description": "",
+     "manufacturer": "TDK",
+     "manufacturerId": "ACH32C-103-TL001",
+     "supplier": "LCSC",
+     "supplierId": "C19362125"
+    },
+    {
+     "uuid": "f859d1fea28a4959ab62e78536f89f96",
+     "libraryUuid": "",
+     "ordinal": 3,
+     "name": "VFS6VD81E221U31A",
+     "symbolName": "VFS6VD81E221U31A",
+     "symbolUuid": "264a5578a3b64cb2a71e84c0ba46e4c9",
+     "footprintName": "FILTER-TH_VFS6VD81E221U31A",
+     "footprintUuid": "a19bfcbd88c5439e8f27d4603a6f73cc",
+     "model3DName": "FILTER-TH_VFS6VD81E221U31A",
+     "model3DUuid": "3b95a095554d4c2dae3de5709e59c0b2",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230108/A386219A6D1EF82706234A255F2A9B25.jpg",
+     "description": "DC Rated Voltage:25V Filter Order:3 Capacitance:220pF ESD Protection:None Number of Channels:1 OperatingTemperature:-40℃~+105℃ OperatingTemperature:-40℃~+105℃ ",
+     "manufacturer": "muRata(村田)",
+     "manufacturerId": "VFS6VD81E221U31A",
+     "supplier": "LCSC",
+     "supplierId": "C184806"
+    },
+    {
+     "uuid": "0c4b66187c944759af03fa64db0a17c3",
+     "libraryUuid": "",
+     "ordinal": 4,
+     "name": "MEA1608LE220TA0G",
+     "symbolName": "MEA1608LE220TA0G",
+     "symbolUuid": "04900839ee654f1eafef61d92e8e9642",
+     "footprintName": "DFN-10_L1.6-W0.8-P0.40",
+     "footprintUuid": "7823af1ac4c14f7a97543ce6154568b4",
+     "model3DName": "DFN-10_L1.6-W0.8-H0.5-ICVEXXX",
+     "model3DUuid": "099bf3c1e5f04bc6a858c6a7b00f507a",
+     "description": "",
+     "manufacturer": "TDK",
+     "manufacturerId": "MEA1608LE220TA0G",
+     "supplier": "LCSC",
+     "supplierId": "C6300462"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "2N7002",
+  "ok": true,
+  "result": {
+   "query": "2N7002",
+   "count": 5,
+   "devices": [
+    {
+     "uuid": "959ea626302c4db3824cd499dc3d451b",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "2N7002_C8545",
+     "symbolName": "2N7002",
+     "symbolUuid": "c54b0f2cd010479498e297a2985316f0",
+     "footprintName": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+     "footprintUuid": "18f92042a8ba46109ed61a02a6753de7",
+     "model3DName": "SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95",
+     "model3DUuid": "62a57c6760504a01965db6419a6d07df",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20221228/ED9A716B7172B7F77E9EC872678CA3FC.jpg",
+     "description": "Number:1 N-channel Drain to Source Voltage:60V Current - Continuous Drain(Id):115mA RDS(on):5Ω@10V Pd - Power Dissipation:225mW Gate Threshold Voltage (Vgs(th)):2.5V Input Capacitance(Ciss):50pF Reverse Transfer Capacitance (Crss@Vds):5pF Operating Temper",
+     "manufacturer": "CJ(江苏长电/长晶)",
+     "manufacturerId": "2N7002",
+     "supplier": "LCSC",
+     "supplierId": "C8545"
+    },
+    {
+     "uuid": "afa3f16ae04341aaafaed9ca2782fbc0",
+     "libraryUuid": "",
+     "ordinal": 1,
+     "name": "2N7002",
+     "symbolName": "2N7002_C414014",
+     "symbolUuid": "5b18dbc6d14947d18777e3e98e5f1776",
+     "footprintName": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+     "footprintUuid": "18f92042a8ba46109ed61a02a6753de7",
+     "model3DName": "SOT-23-3P_L2.9-W1.3-H1.0-LS2.4-P0.95",
+     "model3DUuid": "62a57c6760504a01965db6419a6d07df",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230109/5442A145DAD7F62BB5E6CFE48BF65368.jpg",
+     "description": "Type: Drain Source Voltage (Vdss):- Continuous Drain Current (Id):- Power Dissipation (Pd):- Drain Source On Resistance (RDS(on)@Vgs,Id):- Gate Threshold Voltage (Vgs(th)@Id):- Total Gate Charge (Qg@Vgs):- Input Capacitance (Ciss@Vds):- Reverse Transfer C",
+     "manufacturer": "",
+     "manufacturerId": "2N7002",
+     "supplier": "LCSC",
+     "supplierId": "C414014"
+    },
+    {
+     "uuid": "7c93f3e35a2942ee8d0cb02a918d12d4",
+     "libraryUuid": "",
+     "ordinal": 2,
+     "name": "2N7002_3",
+     "symbolName": "2N7002_C23599986",
+     "symbolUuid": "aface5b12e2f40568f7947461bd114e9",
+     "footprintName": "SOT-23-3_L2.9-W1.4-P1.91-LS2.6-BR",
+     "footprintUuid": "b90640165b1d41cb854ff208ea6302f9",
+     "model3DName": "SOT-23-3_L2.9-W1.4-P1.91-LS2.6-BR",
+     "model3DUuid": "6dcfcd7d20514f34ae2b96a641bdcd38",
+     "description": "",
+     "manufacturer": "NXP(恩智浦)",
+     "manufacturerId": "2N7002",
+     "supplier": "LCSC",
+     "supplierId": "C23599986"
+    },
+    {
+     "uuid": "4d8c974c53a34a21a602df5d4993727d",
+     "libraryUuid": "",
+     "ordinal": 3,
+     "name": "2N7002AKM-QYL",
+     "symbolName": "2N7002AKM-QYL",
+     "symbolUuid": "cb2b11a5867b49858b98eead113c3c2b",
+     "footprintName": "DFN1006-3L_L1.0-W0.6-LS1.0-BR",
+     "footprintUuid": "fd77000eb9b844518e262c17ca114f24",
+     "model3DName": "DFN1006-3L_L1.0-W0.6-H0.4-LS1.0-BR",
+     "model3DUuid": "99968604f22a4e34b5e4547fa5484b28",
+     "description": "",
+     "manufacturer": "Nexperia(安世)",
+     "manufacturerId": "2N7002AKM-QYL",
+     "supplier": "LCSC",
+     "supplierId": "C35138218"
+    },
+    {
+     "uuid": "8beed219f5584e14b52581782e917706",
+     "libraryUuid": "",
+     "ordinal": 4,
+     "name": "2N7002A_C9900151779",
+     "symbolName": "2N7002A_C9900151779",
+     "symbolUuid": "bf1a2b72fbb348ea98f0c4a1be4ee5c7",
+     "footprintName": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BL-1",
+     "footprintUuid": "5986c74dddb643bc94cc0fc6e1d2f3a3",
+     "model3DName": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4",
+     "model3DUuid": "2b5e0bb6381843289fcf9a198bd1677a",
+     "description": "",
+     "manufacturer": "",
+     "manufacturerId": "2N7002A",
+     "supplier": "LCSC",
+     "supplierId": "C9900151779"
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,1868 @@
+[
+ {
+  "tag": "C54",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e13042",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e13042e9",
+      "x": 1085,
+      "y": -2535,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1105,
+        -2535,
+        1085,
+        -2535
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13693"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13042e5",
+      "x": 1055,
+      "y": -2535,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "NFC_XTI",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1035,
+        -2535,
+        1055,
+        -2535
+       ]
+      ],
+      "net": "NFC_XTI",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13696"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C55",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e13078",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e13078e9",
+      "x": 1265,
+      "y": -2535,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1285,
+        -2535,
+        1265,
+        -2535
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13699"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13078e5",
+      "x": 1235,
+      "y": -2535,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "NFC_XTO",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1215,
+        -2535,
+        1235,
+        -2535
+       ]
+      ],
+      "net": "NFC_XTO",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13702"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C56",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e13114",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e13114e10",
+      "x": 1450,
+      "y": -2535,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1470,
+        -2535,
+        1450,
+        -2535
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13705"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13114e4",
+      "x": 1410,
+      "y": -2535,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "3V3",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1390,
+        -2535,
+        1410,
+        -2535
+       ]
+      ],
+      "net": "3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13708"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C57",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e13150",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e13150e9",
+      "x": 1625,
+      "y": -2535,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1645,
+        -2535,
+        1625,
+        -2535
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13711"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13150e5",
+      "x": 1595,
+      "y": -2535,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "NFC_5V",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1575,
+        -2535,
+        1595,
+        -2535
+       ]
+      ],
+      "net": "NFC_5V",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13714"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C58",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e13186",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e13186e10",
+      "x": 1810,
+      "y": -2535,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1830,
+        -2535,
+        1810,
+        -2535
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13717"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13186e4",
+      "x": 1770,
+      "y": -2535,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "NFC_5V",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1750,
+        -2535,
+        1770,
+        -2535
+       ]
+      ],
+      "net": "NFC_5V",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13720"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C59",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e13222",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e13222e10",
+      "x": 1090,
+      "y": -2822,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1110,
+        -2822,
+        1090,
+        -2822
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13723"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13222e4",
+      "x": 1050,
+      "y": -2822,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "NFC_EMI",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1030,
+        -2822,
+        1050,
+        -2822
+       ]
+      ],
+      "net": "NFC_EMI",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13726"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C60",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e13258",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e13258e5",
+      "x": 1235,
+      "y": -2822,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "NFC_MATCH_IN",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1215,
+        -2822,
+        1235,
+        -2822
+       ]
+      ],
+      "net": "NFC_MATCH_IN",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13729"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13258e9",
+      "x": 1265,
+      "y": -2822,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "NFC_MATCH_L",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1285,
+        -2822,
+        1265,
+        -2822
+       ]
+      ],
+      "net": "NFC_MATCH_L",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13732"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C61",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e13294",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e13294e9",
+      "x": 1445,
+      "y": -2822,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1465,
+        -2822,
+        1445,
+        -2822
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13735"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13294e5",
+      "x": 1415,
+      "y": -2822,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "NFC_ANT",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1395,
+        -2822,
+        1415,
+        -2822
+       ]
+      ],
+      "net": "NFC_ANT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13738"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "J10",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e13330",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e13330e5",
+      "x": 1440,
+      "y": -3118,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 90,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1440,
+        -3138,
+        1440,
+        -3118
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13741"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13330e9",
+      "x": 1410,
+      "y": -3098,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 20,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "NFC_ANT",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1390,
+        -3098,
+        1410,
+        -3098
+       ]
+      ],
+      "net": "NFC_ANT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13744"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "L2",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e13362",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e13362e7",
+      "x": 1590,
+      "y": -3108,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 3,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "NFC_RFO1",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1570,
+        -3108,
+        1590,
+        -3108
+       ]
+      ],
+      "net": "NFC_RFO1",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13747"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13362e3",
+      "x": 1630,
+      "y": -3108,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 3,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "NFC_EMI",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1650,
+        -3108,
+        1630,
+        -3108
+       ]
+      ],
+      "net": "NFC_EMI",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13750"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "L3",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e13399",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e13399e7",
+      "x": 1770,
+      "y": -3108,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 3,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "NFC_MATCH_L",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1750,
+        -3108,
+        1770,
+        -3108
+       ]
+      ],
+      "net": "NFC_MATCH_L",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13753"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13399e3",
+      "x": 1810,
+      "y": -3108,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 3,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "NFC_ANT",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1830,
+        -3108,
+        1810,
+        -3108
+       ]
+      ],
+      "net": "NFC_ANT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13756"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R42",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e13438",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e13438e8",
+      "x": 1050,
+      "y": -3395,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "NFC_EMI",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1030,
+        -3395,
+        1050,
+        -3395
+       ]
+      ],
+      "net": "NFC_EMI",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13759"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13438e4",
+      "x": 1090,
+      "y": -3395,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "NFC_MATCH_IN",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1110,
+        -3395,
+        1090,
+        -3395
+       ]
+      ],
+      "net": "NFC_MATCH_IN",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13762"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R43",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e13477",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e13477e7",
+      "x": 1230,
+      "y": -3395,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "3V3",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1210,
+        -3395,
+        1230,
+        -3395
+       ]
+      ],
+      "net": "3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13765"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13477e3",
+      "x": 1270,
+      "y": -3395,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "NFC_IRQ",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1290,
+        -3395,
+        1270,
+        -3395
+       ]
+      ],
+      "net": "NFC_IRQ",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13768"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "U12",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e13516",
+   "attempted": 22,
+   "attached": 22,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e13516e85",
+      "x": 1495,
+      "y": -3355,
+      "pinNumber": "21",
+      "pinName": "VSS",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1515,
+        -3355,
+        1495,
+        -3355
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13771"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e33",
+      "x": 1365,
+      "y": -3395,
+      "pinNumber": "8",
+      "pinName": "VDD",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "3V3",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1345,
+        -3395,
+        1365,
+        -3395
+       ]
+      ],
+      "net": "3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13774"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e41",
+      "x": 1365,
+      "y": -3375,
+      "pinNumber": "10",
+      "pinName": "VDD_TX",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "NFC_5V",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1345,
+        -3375,
+        1365,
+        -3375
+       ]
+      ],
+      "net": "NFC_5V",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13777"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e129",
+      "x": 1495,
+      "y": -3465,
+      "pinNumber": "32",
+      "pinName": "MISO/SDA",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "I2C_SDA",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1515,
+        -3465,
+        1495,
+        -3465
+       ]
+      ],
+      "net": "I2C_SDA",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13780"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e121",
+      "x": 1495,
+      "y": -3445,
+      "pinNumber": "30",
+      "pinName": "SCLK/SCL",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "I2C_SCL",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1515,
+        -3445,
+        1495,
+        -3445
+       ]
+      ],
+      "net": "I2C_SCL",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13783"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e21",
+      "x": 1365,
+      "y": -3425,
+      "pinNumber": "5",
+      "pinName": "XTI",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "NFC_XTI",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1345,
+        -3425,
+        1365,
+        -3425
+       ]
+      ],
+      "net": "NFC_XTI",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13786"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e17",
+      "x": 1365,
+      "y": -3435,
+      "pinNumber": "4",
+      "pinName": "XTO",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "NFC_XTO",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1345,
+        -3435,
+        1365,
+        -3435
+       ]
+      ],
+      "net": "NFC_XTO",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13789"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e109",
+      "x": 1495,
+      "y": -3415,
+      "pinNumber": "27",
+      "pinName": "IRQ",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "NFC_IRQ",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1515,
+        -3415,
+        1495,
+        -3415
+       ]
+      ],
+      "net": "NFC_IRQ",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13792"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e53",
+      "x": 1365,
+      "y": -3345,
+      "pinNumber": "13",
+      "pinName": "RFO1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "NFC_RFO1",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1345,
+        -3345,
+        1365,
+        -3345
+       ]
+      ],
+      "net": "NFC_RFO1",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13795"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e89",
+      "x": 1495,
+      "y": -3365,
+      "pinNumber": "22",
+      "pinName": "RFI1",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "NFC_ANT",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1515,
+        -3365,
+        1495,
+        -3365
+       ]
+      ],
+      "net": "NFC_ANT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13798"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e5",
+      "x": 1365,
+      "y": -3465,
+      "pinNumber": "1",
+      "pinName": "VDD_IO",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "3V3",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1345,
+        -3465,
+        1365,
+        -3465
+       ]
+      ],
+      "net": "3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13801"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e25",
+      "x": 1365,
+      "y": -3415,
+      "pinNumber": "6",
+      "pinName": "GND_D",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1345,
+        -3415,
+        1365,
+        -3415
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13804"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e49",
+      "x": 1365,
+      "y": -3355,
+      "pinNumber": "12",
+      "pinName": "GND_DR1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1345,
+        -3355,
+        1365,
+        -3355
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13807"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e65",
+      "x": 1365,
+      "y": -3315,
+      "pinNumber": "16",
+      "pinName": "GND_DR2",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1345,
+        -3315,
+        1365,
+        -3315
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13810"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e105",
+      "x": 1495,
+      "y": -3405,
+      "pinNumber": "26",
+      "pinName": "GND_A",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1515,
+        -3405,
+        1495,
+        -3405
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13813"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e133",
+      "x": 1495,
+      "y": -3475,
+      "pinNumber": "33",
+      "pinName": "EP",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1515,
+        -3475,
+        1495,
+        -3475
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13816"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e13",
+      "x": 1365,
+      "y": -3445,
+      "pinNumber": "3",
+      "pinName": "VDD_D",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "NFC_VDD_D",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1345,
+        -3445,
+        1365,
+        -3445
+       ]
+      ],
+      "net": "NFC_VDD_D",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13819"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e29",
+      "x": 1365,
+      "y": -3405,
+      "pinNumber": "7",
+      "pinName": "VDD_A",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "NFC_VDD_A",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1345,
+        -3405,
+        1365,
+        -3405
+       ]
+      ],
+      "net": "NFC_VDD_A",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13822"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e37",
+      "x": 1365,
+      "y": -3385,
+      "pinNumber": "9",
+      "pinName": "VDD_RF",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "NFC_VDD_RF",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1345,
+        -3385,
+        1365,
+        -3385
+       ]
+      ],
+      "net": "NFC_VDD_RF",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13825"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e45",
+      "x": 1365,
+      "y": -3365,
+      "pinNumber": "11",
+      "pinName": "VDD_AM",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "NFC_VDD_AM",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1345,
+        -3365,
+        1365,
+        -3365
+       ]
+      ],
+      "net": "NFC_VDD_AM",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13828"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e57",
+      "x": 1365,
+      "y": -3335,
+      "pinNumber": "14",
+      "pinName": "VDD_DR",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "NFC_VDD_DR",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1345,
+        -3335,
+        1365,
+        -3335
+       ]
+      ],
+      "net": "NFC_VDD_DR",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13831"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13516e97",
+      "x": 1495,
+      "y": -3385,
+      "pinNumber": "24",
+      "pinName": "AGDC",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "NFC_AGDC",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1515,
+        -3385,
+        1495,
+        -3385
+       ]
+      ],
+      "net": "NFC_AGDC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13834"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "Y2",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e13647",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e13647e22",
+      "x": 1580,
+      "y": -3385,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "NFC_XTI",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1560,
+        -3385,
+        1580,
+        -3385
+       ]
+      ],
+      "net": "NFC_XTI",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13837"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e13647e10",
+      "x": 1640,
+      "y": -3385,
+      "pinNumber": "2",
+      "pinName": "GND",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "NFC_XTO",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1660,
+        -3385,
+        1640,
+        -3385
+       ]
+      ],
+      "net": "NFC_XTO",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13840"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ],
+   "saved": true
+  }
+ }
+]

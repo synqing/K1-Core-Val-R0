@@ -1,0 +1,76 @@
+[
+ {
+  "tag": "C68",
+  "ok": true,
+  "result": {
+   "primitiveId": "e38545",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "60afd69ff8704030ab59e635298b9afa"
+    },
+    "x": 1615,
+    "y": 3900,
+    "subPartName": "GRM155R71H222KA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I38545",
+    "symbol": {
+     "uuid": "06d725f08e9349d389e35a67e5f79ca2",
+     "libraryUuid": "d035f356c56945668c9534741df47111"
+    },
+    "footprint": {
+     "uuid": "9cb5e047bfb847b1ab48b167ac2d0cb2",
+     "libraryUuid": "d035f356c56945668c9534741df47111"
+    },
+    "designator": "C68-PWR2",
+    "name": "2.2nF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R71H222KA01D",
+    "supplier": "LCSC",
+    "supplierId": "C77022",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R8",
+  "ok": true,
+  "result": {
+   "primitiveId": "e2452",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "e1b1f220e40a4edea589adfa05a5d8c7"
+    },
+    "x": 1615,
+    "y": 4140,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   },
+   "saved": true
+  }
+ }
+]

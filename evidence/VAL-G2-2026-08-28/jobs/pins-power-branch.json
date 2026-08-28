@@ -1,0 +1,98 @@
+[
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C14",
+    "args": {
+      "componentPrimitiveId": "e5864",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C15",
+    "args": {
+      "componentPrimitiveId": "e5900",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C16",
+    "args": {
+      "componentPrimitiveId": "e5936",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C17",
+    "args": {
+      "componentPrimitiveId": "e5972",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "CS03",
+    "args": {
+      "componentPrimitiveId": "e6008",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "CS14",
+    "args": {
+      "componentPrimitiveId": "e6044",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "CS25",
+    "args": {
+      "componentPrimitiveId": "e6080",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "CS36",
+    "args": {
+      "componentPrimitiveId": "e6116",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "FB3",
+    "args": {
+      "componentPrimitiveId": "e6152",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "Q1",
+    "args": {
+      "componentPrimitiveId": "e6190",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R9",
+    "args": {
+      "componentPrimitiveId": "e6235",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U5",
+    "args": {
+      "componentPrimitiveId": "e6274",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

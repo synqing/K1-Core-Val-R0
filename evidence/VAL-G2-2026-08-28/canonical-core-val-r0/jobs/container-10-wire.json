@@ -1,0 +1,292 @@
+[
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "J11",
+    "args": {
+      "componentPrimitiveId": "e15023",
+      "connections": [
+        {
+          "pinNumber": "6",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "5",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "1",
+          "net": "OPT_BOOT_REC"
+        },
+        {
+          "pinNumber": "2",
+          "net": "OPT_USB_AUD"
+        },
+        {
+          "pinNumber": "3",
+          "net": "OPT_MCLK"
+        },
+        {
+          "pinNumber": "4",
+          "net": "OPT_S3_LOG"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R55",
+    "args": {
+      "componentPrimitiveId": "e15067",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "OPT_BOOT_REC"
+        },
+        {
+          "pinNumber": "2",
+          "net": "OPT_BOOT_REC_RT"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R56",
+    "args": {
+      "componentPrimitiveId": "e15106",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "OPT_USB_AUD"
+        },
+        {
+          "pinNumber": "2",
+          "net": "OPT_USB_AUD_RT"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R57",
+    "args": {
+      "componentPrimitiveId": "e15145",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "AUDIO_MCLK"
+        },
+        {
+          "pinNumber": "1",
+          "net": "OPT_MCLK"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R58",
+    "args": {
+      "componentPrimitiveId": "e15184",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "ESP_UART0_TX"
+        },
+        {
+          "pinNumber": "1",
+          "net": "OPT_S3_LOG"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "TP6",
+    "args": {
+      "componentPrimitiveId": "e15223",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C66",
+    "args": {
+      "componentPrimitiveId": "e15252",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "Q2",
+    "args": {
+      "componentPrimitiveId": "e15288",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "S3_POR_GATE"
+        },
+        {
+          "pinNumber": "3",
+          "net": "S3_POR_OD"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R59",
+    "args": {
+      "componentPrimitiveId": "e15332",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "POR_B"
+        },
+        {
+          "pinNumber": "1",
+          "net": "S3_POR_OD"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R60",
+    "args": {
+      "componentPrimitiveId": "e15371",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "S3_POR_REQ"
+        },
+        {
+          "pinNumber": "2",
+          "net": "S3_POR_GATE"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R61",
+    "args": {
+      "componentPrimitiveId": "e15410",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "BOOT_MODE0"
+        },
+        {
+          "pinNumber": "1",
+          "net": "SDL_SW"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R62",
+    "args": {
+      "componentPrimitiveId": "e15449",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "2",
+          "net": "RT_PWR_VALID"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "SW4",
+    "args": {
+      "componentPrimitiveId": "e15488",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "SDL_SW"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U16",
+    "args": {
+      "componentPrimitiveId": "e15539",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "6",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "1",
+          "net": "RT_PWR_VALID"
+        }
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

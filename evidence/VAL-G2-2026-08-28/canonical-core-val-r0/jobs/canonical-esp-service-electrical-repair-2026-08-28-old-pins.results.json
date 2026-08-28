@@ -1,0 +1,128 @@
+[
+ {
+  "tag": "FB4-ESP",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e8296",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e8296e3",
+     "x": 4490,
+     "y": -3980,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 3,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e8296e7",
+     "x": 4450,
+     "y": -3980,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 3,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "J6-ESP",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e9084",
+   "count": 4,
+   "pins": [
+    {
+     "primitiveId": "e9084e5",
+     "x": 4805,
+     "y": -4360,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e9084e9",
+     "x": 4805,
+     "y": -4350,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e9084e13",
+     "x": 4805,
+     "y": -4340,
+     "pinNumber": "3",
+     "pinName": "3",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e9084e17",
+     "x": 4805,
+     "y": -4330,
+     "pinNumber": "4",
+     "pinName": "4",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C42-ESP",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e7694",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e7694e4",
+     "x": 4345,
+     "y": -4362,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e7694e10",
+     "x": 4385,
+     "y": -4362,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ }
+]

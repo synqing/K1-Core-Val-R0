@@ -1,0 +1,142 @@
+[
+  {
+    "tool": "add_schematic_component",
+    "tag": "C3",
+    "args": {
+      "deviceUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+      "x": 50,
+      "y": 780,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "C4",
+    "args": {
+      "deviceUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+      "x": 215,
+      "y": 780,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "CS02",
+    "args": {
+      "deviceUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+      "x": 380,
+      "y": 780,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "CS13",
+    "args": {
+      "deviceUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+      "x": 545,
+      "y": 780,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "CS24",
+    "args": {
+      "deviceUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+      "x": 710,
+      "y": 780,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "CS35",
+    "args": {
+      "deviceUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+      "x": 50,
+      "y": 1075,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R3",
+    "args": {
+      "deviceUuid": "6593321c1e554b2f9070c57621ba8753",
+      "x": 215,
+      "y": 1075,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R4",
+    "args": {
+      "deviceUuid": "f723232a581d4a8b9b283a6e7b916d0d",
+      "x": 380,
+      "y": 1075,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "RSH1",
+    "args": {
+      "deviceUuid": "af0eb88644df4d85bff2d3134584f7a7",
+      "x": 545,
+      "y": 1075,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "U2",
+    "args": {
+      "deviceUuid": "de48eb5d6ca2420085bb2cd6f9f979d2",
+      "x": 710,
+      "y": 1075,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

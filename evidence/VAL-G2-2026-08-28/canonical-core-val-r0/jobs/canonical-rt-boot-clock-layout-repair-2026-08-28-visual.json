@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-rt-boot-clock-layout-repair-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Redistribute the box-4 reset row for border and label clearance and move the RT boot settings note into the empty band between the crystal-load and UART rows",
+  "observed_delta": "The note now clears the UART resistor row and the reset row has more space, but the settled screenshot still clips R11-RTC at the right edge and RT_RESET_REQ_N remains superimposed on U7 pin text.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-rt-boot-clock-layout-repair-box4.png",
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [
+    "R11-RTC is clipped at the right edge of the focused box-4 evidence",
+    "RT_RESET_REQ_N still collides with U7 internal pin text"
+  ],
+  "verdict": "REJECTED",
+  "checks": [
+    {
+      "name": "settings note clearance",
+      "result": "OK",
+      "detail": "The note no longer crosses R17 or R18."
+    },
+    {
+      "name": "reset row spacing",
+      "result": "DEFECT",
+      "detail": "The supervisor request-net label is still printed across U7 pin text."
+    },
+    {
+      "name": "right box clearance",
+      "result": "DEFECT",
+      "detail": "R11-RTC and its labels extend beyond the useful focused evidence boundary."
+    },
+    {
+      "name": "electrical topology unchanged",
+      "result": "OK",
+      "detail": "Semantic read-back confirms the same endpoint nets and component count."
+    },
+    {
+      "name": "whole-sheet modal check",
+      "result": "OK",
+      "detail": "The whole-sheet screenshot remains modal-free with no unrelated domain movement."
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+[
+  {"tool":"delete_schematic_component","tag":"delete-j2","args":{"primitiveId":"e14406","saveAfter":false,"skipConfirmation":true,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool":"delete_schematic_component","tag":"delete-j3","args":{"primitiveId":"e14438","saveAfter":false,"skipConfirmation":true,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool":"add_schematic_component","tag":"add-j2","args":{"deviceUuid":"8c5598a15d984c6aa64044e69046baa2","x":3335,"y":2812,"rotation":0,"addIntoBom":true,"addIntoPcb":true,"saveAfter":false,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool":"add_schematic_component","tag":"add-j3","args":{"deviceUuid":"8c5598a15d984c6aa64044e69046baa2","x":3575,"y":2812,"rotation":0,"addIntoBom":true,"addIntoPcb":true,"saveAfter":true,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}}
+]

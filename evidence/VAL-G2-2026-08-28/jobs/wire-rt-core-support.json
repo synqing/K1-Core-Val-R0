@@ -1,0 +1,96 @@
+[
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C18",
+    "args": {
+      "componentPrimitiveId": "e6440",
+      "connections": [
+        {"pinNumber": "1", "net": "POR_B"},
+        {"pinNumber": "2", "net": "GND"}
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C19",
+    "args": {
+      "componentPrimitiveId": "e6476",
+      "connections": [
+        {"pinNumber": "1", "net": "3V3"},
+        {"pinNumber": "2", "net": "GND"}
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R10",
+    "args": {
+      "componentPrimitiveId": "e6512",
+      "connections": [
+        {"pinNumber": "1", "net": "BOOT_MODE0"},
+        {"pinNumber": "2", "net": "GND"}
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R11",
+    "args": {
+      "componentPrimitiveId": "e6551",
+      "connections": [
+        {"pinNumber": "1", "net": "BOOT_MODE1"},
+        {"pinNumber": "2", "net": "GND"}
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R12",
+    "args": {
+      "componentPrimitiveId": "e6590",
+      "connections": [
+        {"pinNumber": "1", "net": "3V3"},
+        {"pinNumber": "2", "net": "POR_B"}
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "SW1",
+    "args": {
+      "componentPrimitiveId": "e6629",
+      "connections": [
+        {"pinNumber": "1", "net": "POR_B"},
+        {"pinNumber": "2", "net": "GND"}
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U7",
+    "args": {
+      "componentPrimitiveId": "e7006",
+      "connections": [
+        {"pinNumber": "1", "net": "POR_B"},
+        {"pinNumber": "2", "net": "GND"},
+        {"pinNumber": "3", "net": "3V3"},
+        {"pinNumber": "5", "net": "3V3"},
+        {"pinNumber": "6", "net": "3V3"}
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

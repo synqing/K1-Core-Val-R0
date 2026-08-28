@@ -1,0 +1,3234 @@
+[
+ {
+  "tag": "TEXT:e4083",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4083",
+   "deleted": true,
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "TEXT:e4495",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4495",
+   "deleted": true,
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "TEXT:e5187",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5187",
+   "deleted": true,
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "TEXT:e5736",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5736",
+   "deleted": true,
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "TEXT:e7060",
+  "ok": true,
+  "result": {
+   "primitiveId": "e7060",
+   "deleted": true,
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "TEXT:e10240",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10240",
+   "deleted": true,
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "TEXT:e10684",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10684",
+   "deleted": true,
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "TEXT:e11137",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11137",
+   "deleted": true,
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "TEXT:e11932",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11932",
+   "deleted": true,
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "TEXT:e12395",
+  "ok": true,
+  "result": {
+   "primitiveId": "e12395",
+   "deleted": true,
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "TEXT:e12769",
+  "ok": true,
+  "result": {
+   "primitiveId": "e12769",
+   "deleted": true,
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "WIRE:e3953",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e3953 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e3959",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e3959 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e3962",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e3962 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e3971",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "WIRE:e3980",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e3980 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e3983",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e3983 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e3986",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e3986 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e3989",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e3989 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e3992",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e3992 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e3995",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "WIRE:e3998",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e3998 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4001",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "WIRE:e4004",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4004 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4007",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4007 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4013",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4013 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4016",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4016 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4019",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4019 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4022",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4022 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4025",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4025 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4028",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4028 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4031",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4031 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4034",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4034 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4037",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4037 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4040",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4040 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4043",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4043 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4497",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4497 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4500",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4500 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4503",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4503 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4506",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4506 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4509",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4509 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4512",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4512 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4515",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "WIRE:e4518",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4518 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4521",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4521 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4524",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4524 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4530",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "WIRE:e4533",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4533 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4536",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4536 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4539",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4539 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4542",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4542 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4545",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4545 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4548",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4548 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4551",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4551 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4554",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4554 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4557",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4557 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4560",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4560 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4563",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4563 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4566",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4566 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4569",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4569 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4572",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4572 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4575",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4575 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4578",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4578 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e4929",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e4929 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5190",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5190 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5206",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5206 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5209",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5209 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5212",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5212 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5215",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "WIRE:e5218",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5218 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5221",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5221 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5224",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5224 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5227",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5227 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5230",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "WIRE:e5233",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5233 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5236",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5236 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5239",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5239 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5242",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5242 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5245",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5245 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5248",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5248 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5251",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5251 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5254",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5254 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5257",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5257 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5260",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5260 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5263",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5263 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5266",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5266 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5269",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5269 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5272",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5272 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5275",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5275 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5278",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5278 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5281",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5281 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5284",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5284 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5287",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5287 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5290",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5290 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5293",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5293 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5296",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5296 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5299",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5299 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5302",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5302 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5305",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5305 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5308",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5308 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5311",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5311 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5314",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5314 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5738",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5738 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5741",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5741 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5744",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5744 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5747",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5747 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5750",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5750 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5753",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5753 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5756",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5756 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5759",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5759 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5762",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5762 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5765",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5765 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5768",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5768 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5771",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5771 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5774",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5774 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5777",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5777 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5780",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5780 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5783",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5783 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5786",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5786 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5789",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5789 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5792",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "WIRE:e5795",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5795 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5798",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5798 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5801",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5801 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5804",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5804 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5828",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5828 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e5833",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e5833 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6328",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6328 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6331",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6331 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6334",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6334 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6337",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6337 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6340",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6340 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6343",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6343 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6346",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6346 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6349",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6349 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6352",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6352 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6355",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6355 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6358",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6358 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6361",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6361 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6364",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6364 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6367",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6367 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6370",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6370 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6373",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6373 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6376",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6376 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6379",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6379 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6382",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6382 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6385",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6385 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6388",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6388 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6391",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6391 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6394",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6394 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6397",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "WIRE:e6400",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6400 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6403",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6403 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e6406",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e6406 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e8903",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "WIRE:e9243",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9243 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9246",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9246 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9249",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9249 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9252",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9252 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9255",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9255 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9258",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9258 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9261",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9261 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9264",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9264 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9267",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9267 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9270",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9270 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9273",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9273 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9276",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9276 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9279",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9279 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9282",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9282 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9285",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9285 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9288",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9288 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9291",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9291 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9294",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9294 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9297",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9297 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9300",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9300 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9303",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9303 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9306",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9306 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9309",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9309 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9312",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9312 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9315",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9315 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9318",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9318 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9321",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9321 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9324",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9324 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9327",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9327 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9330",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9330 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9333",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9333 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9336",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9336 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9339",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9339 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9342",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9342 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9345",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9345 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9348",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9348 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9351",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9351 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9354",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9354 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9357",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9357 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9360",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9360 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9363",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9363 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9366",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9366 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9369",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9369 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9372",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9372 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9375",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9375 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9378",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9378 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9381",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9381 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9384",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9384 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9387",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9387 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9390",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9390 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9393",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9393 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9396",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9396 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9399",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9399 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9402",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9402 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9405",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9405 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9408",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9408 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9411",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9411 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9414",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9414 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9417",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9417 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9420",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9420 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9423",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9423 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9426",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9426 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9429",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9429 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9432",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9432 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9435",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9435 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9438",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9438 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9441",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9441 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9444",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9444 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9447",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9447 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9450",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9450 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9453",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9453 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9456",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9456 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9459",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9459 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9462",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9462 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9465",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9465 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9468",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9468 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9471",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9471 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9474",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9474 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9477",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9477 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9498",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9498 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9501",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9501 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9504",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9504 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9507",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9507 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9510",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9510 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9513",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9513 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9516",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9516 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9519",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9519 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9522",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9522 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9525",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9525 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9528",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9528 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9531",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9531 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9536",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9536 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9546",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9546 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9549",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9549 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e9552",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e9552 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10242",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10242 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10245",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10245 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10248",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10248 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10251",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10251 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10254",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10254 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10257",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10257 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10260",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10260 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10263",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10263 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10266",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10266 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10269",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10269 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10272",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10272 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10275",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10275 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10278",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10278 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10281",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10281 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10284",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10284 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10287",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10287 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10290",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10290 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10293",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10293 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10296",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10296 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10299",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10299 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10302",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10302 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10305",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10305 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10308",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10308 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10311",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10311 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10314",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10314 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10317",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10317 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10320",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10320 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10323",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10323 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10326",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10326 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10329",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10329 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10332",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10332 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10335",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10335 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10338",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10338 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10341",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10341 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10344",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10344 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10347",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10347 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10350",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10350 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10353",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10353 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10686",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10686 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10689",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10689 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10692",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10692 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10695",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10695 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10698",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10698 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10701",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10701 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10704",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10704 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10707",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10707 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10710",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10710 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10713",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10713 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10716",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10716 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10719",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10719 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10722",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10722 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10725",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10725 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10728",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10728 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10731",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10731 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10734",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10734 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10737",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10737 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10740",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10740 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10743",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10743 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10746",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10746 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10749",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10749 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10752",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10752 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e10755",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e10755 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11139",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11139 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11142",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11142 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11145",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11145 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11148",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11148 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11151",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11151 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11154",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11154 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11157",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11157 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11160",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11160 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11163",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11163 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11166",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11166 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11169",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11169 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11172",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11172 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11175",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11175 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11178",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11178 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11181",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11181 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11184",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11184 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11934",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11934 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11937",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11937 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11940",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11940 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11943",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11943 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11946",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11946 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11949",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11949 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11952",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11952 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11955",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11955 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11958",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11958 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11961",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11961 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11964",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11964 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11967",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11967 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11970",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11970 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11973",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11973 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11976",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11976 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11979",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11979 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11982",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11982 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11985",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11985 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11988",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11988 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11991",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11991 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11994",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11994 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e11997",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e11997 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12000",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12000 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12003",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12003 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12006",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12006 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12009",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12009 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12012",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12012 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12015",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12015 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12018",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12018 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12021",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12021 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12024",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12024 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12027",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12027 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12030",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12030 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12033",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12033 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12036",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12036 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12039",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12039 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12042",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12042 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12045",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12045 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12048",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12048 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12051",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12051 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12054",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12054 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12057",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12057 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12060",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12060 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12063",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12063 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12066",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12066 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12069",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12069 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12397",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12397 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12400",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12400 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12403",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12403 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12406",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12406 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12409",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12409 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12412",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12412 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12415",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12415 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12418",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12418 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12421",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12421 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12424",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12424 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12427",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12427 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12430",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12430 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12433",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12433 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12436",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12436 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12439",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12439 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12442",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12442 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12445",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12445 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12448",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12448 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12451",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12451 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12454",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12454 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12457",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12457 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12460",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12460 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12463",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12463 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12466",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12466 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12469",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12469 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12472",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12472 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12475",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12475 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12478",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12478 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12771",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12771 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12774",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12774 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12777",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12777 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12780",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12780 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12783",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12783 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12786",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12786 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12789",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12789 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12792",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12792 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12795",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12795 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12798",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12798 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12801",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12801 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12804",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12804 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12807",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12807 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "WIRE:e12810",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e12810 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "COMPONENT:e3462",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3462",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e3549",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3549",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e3587",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3587",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e3645",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3645",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e3694",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3694",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e3730",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3730",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e3766",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3766",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e3805",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3805",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e3844",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3844",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e3880",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3880",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e3916",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3916",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4089",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4089",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4127",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4127",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4201",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4201",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4237",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4237",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4273",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4273",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4312",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4312",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4351",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4351",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4387",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4387",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4423",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4423",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4459",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4459",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4601",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4601",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4672",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4672",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4704",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4704",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4741",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4741",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4777",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4777",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4813",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4813",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4849",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4849",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4888",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4888",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4930",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4930",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e4966",
+  "ok": true,
+  "result": {
+   "primitiveId": "e4966",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5007",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5007",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5043",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5043",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5079",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5079",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5115",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5115",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5151",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5151",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5336",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5336",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5347",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5347",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5405",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5405",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5443",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5443",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5481",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5481",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5517",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5517",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5556",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5556",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5592",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5592",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5628",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5628",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5664",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5664",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5700",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5700",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5838",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5838",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5864",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5864",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5900",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5900",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5936",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5936",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e5972",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5972",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e6008",
+  "ok": true,
+  "result": {
+   "primitiveId": "e6008",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e6044",
+  "ok": true,
+  "result": {
+   "primitiveId": "e6044",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e6080",
+  "ok": true,
+  "result": {
+   "primitiveId": "e6080",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e6116",
+  "ok": true,
+  "result": {
+   "primitiveId": "e6116",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e6152",
+  "ok": true,
+  "result": {
+   "primitiveId": "e6152",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e6190",
+  "ok": true,
+  "result": {
+   "primitiveId": "e6190",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e6235",
+  "ok": true,
+  "result": {
+   "primitiveId": "e6235",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e6274",
+  "ok": true,
+  "result": {
+   "primitiveId": "e6274",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e6440",
+  "ok": true,
+  "result": {
+   "primitiveId": "e6440",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e6476",
+  "ok": true,
+  "result": {
+   "primitiveId": "e6476",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e6512",
+  "ok": true,
+  "result": {
+   "primitiveId": "e6512",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e6551",
+  "ok": true,
+  "result": {
+   "primitiveId": "e6551",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e6590",
+  "ok": true,
+  "result": {
+   "primitiveId": "e6590",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e6629",
+  "ok": true,
+  "result": {
+   "primitiveId": "e6629",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e6680",
+  "ok": true,
+  "result": {
+   "primitiveId": "e6680",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e7006",
+  "ok": true,
+  "result": {
+   "primitiveId": "e7006",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e8693",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8693",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e8715",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8715",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e8727",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8727",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e8751",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8751",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e8764",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8764",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e8832",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8832",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e8887",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8887",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e8906",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8906",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e8918",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8918",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e9592",
+  "ok": true,
+  "result": {
+   "primitiveId": "e9592",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e9628",
+  "ok": true,
+  "result": {
+   "primitiveId": "e9628",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e9664",
+  "ok": true,
+  "result": {
+   "primitiveId": "e9664",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e9700",
+  "ok": true,
+  "result": {
+   "primitiveId": "e9700",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e9736",
+  "ok": true,
+  "result": {
+   "primitiveId": "e9736",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e9772",
+  "ok": true,
+  "result": {
+   "primitiveId": "e9772",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e9808",
+  "ok": true,
+  "result": {
+   "primitiveId": "e9808",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e9844",
+  "ok": true,
+  "result": {
+   "primitiveId": "e9844",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e9880",
+  "ok": true,
+  "result": {
+   "primitiveId": "e9880",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e9916",
+  "ok": true,
+  "result": {
+   "primitiveId": "e9916",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e9952",
+  "ok": true,
+  "result": {
+   "primitiveId": "e9952",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e9988",
+  "ok": true,
+  "result": {
+   "primitiveId": "e9988",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e10024",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10024",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e10060",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10060",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e10096",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10096",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e10132",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10132",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e10168",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10168",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e10204",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10204",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e10355",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10355",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e10391",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10391",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e10427",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10427",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e10463",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10463",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e10499",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10499",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e10538",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10538",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e10577",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10577",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e10639",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10639",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e10757",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10757",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e10826",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10826",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e10981",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10981",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e11020",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11020",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e11059",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11059",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e11098",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11098",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e11186",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11186",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e11222",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11222",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e11258",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11258",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e11294",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11294",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e11330",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11330",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e11366",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11366",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e11402",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11402",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e11438",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11438",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e11593",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11593",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e11632",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11632",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e11671",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11671",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e11722",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11722",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e11773",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11773",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e12071",
+  "ok": true,
+  "result": {
+   "primitiveId": "e12071",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e12107",
+  "ok": true,
+  "result": {
+   "primitiveId": "e12107",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e12143",
+  "ok": true,
+  "result": {
+   "primitiveId": "e12143",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e12181",
+  "ok": true,
+  "result": {
+   "primitiveId": "e12181",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e12268",
+  "ok": true,
+  "result": {
+   "primitiveId": "e12268",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e12307",
+  "ok": true,
+  "result": {
+   "primitiveId": "e12307",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e12346",
+  "ok": true,
+  "result": {
+   "primitiveId": "e12346",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e12480",
+  "ok": true,
+  "result": {
+   "primitiveId": "e12480",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e12516",
+  "ok": true,
+  "result": {
+   "primitiveId": "e12516",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e12555",
+  "ok": true,
+  "result": {
+   "primitiveId": "e12555",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e12594",
+  "ok": true,
+  "result": {
+   "primitiveId": "e12594",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e12633",
+  "ok": true,
+  "result": {
+   "primitiveId": "e12633",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e12672",
+  "ok": true,
+  "result": {
+   "primitiveId": "e12672",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e12711",
+  "ok": true,
+  "result": {
+   "primitiveId": "e12711",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "COMPONENT:e12740",
+  "ok": true,
+  "result": {
+   "primitiveId": "e12740",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "save",
+  "ok": true,
+  "result": {
+   "currentDocument": {
+    "documentType": 1,
+    "uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+    "parentProjectUuid": "09e9c541fd3d404082d4b92e55ae5336"
+   },
+   "saved": true
+  }
+ }
+]

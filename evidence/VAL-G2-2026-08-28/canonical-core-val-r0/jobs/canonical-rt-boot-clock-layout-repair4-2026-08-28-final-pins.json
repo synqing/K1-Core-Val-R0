@@ -1,0 +1,18 @@
+[
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U7-RTC",
+    "args": {
+      "componentPrimitiveId": "e3619",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "SW1-RTC",
+    "args": {
+      "componentPrimitiveId": "e3244",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

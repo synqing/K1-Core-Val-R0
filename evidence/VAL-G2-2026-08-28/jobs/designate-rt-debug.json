@@ -1,0 +1,80 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "J4",
+    "args": {
+      "primitiveId": "e10757",
+      "designator": "J4",
+      "name": "10PIN-1.27",
+      "manufacturerId": "FTSH-105-01-L-DV-K",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "J5",
+    "args": {
+      "primitiveId": "e10826",
+      "designator": "J5",
+      "name": "1x4",
+      "manufacturerId": "PREC040SAAN-RC",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R15",
+    "args": {
+      "primitiveId": "e10981",
+      "designator": "R15",
+      "name": "22R",
+      "manufacturerId": "RC0402FR-0722RL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R16",
+    "args": {
+      "primitiveId": "e11020",
+      "designator": "R16",
+      "name": "22R",
+      "manufacturerId": "RC0402FR-0722RL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R17",
+    "args": {
+      "primitiveId": "e11059",
+      "designator": "R17",
+      "name": "22R",
+      "manufacturerId": "RC0402FR-0722RL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R18",
+    "args": {
+      "primitiveId": "e11098",
+      "designator": "R18",
+      "name": "22R",
+      "manufacturerId": "RC0402FR-0722RL",
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

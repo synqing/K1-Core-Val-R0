@@ -1,0 +1,141 @@
+[
+ {
+  "tag": "U7-RTC",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3619",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "a67e9512bc294cea8a6520da33fa60e5"
+    },
+    "x": 3150,
+    "y": 4310,
+    "subPartName": "TPS3808G33DBVR.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "C18-RTC",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3055",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "a9cf2f91492b44b0ab588d27628e3ff6"
+    },
+    "x": 3340,
+    "y": 4310,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "R12-RTC",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3205",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "e1b1f220e40a4edea589adfa05a5d8c7"
+    },
+    "x": 3490,
+    "y": 4310,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "R10-RTC",
+  "ok": true,
+  "result": {
+   "primitiveId": "e47826",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "e1b1f220e40a4edea589adfa05a5d8c7"
+    },
+    "x": 3690,
+    "y": 4310,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "R11-RTC",
+  "ok": true,
+  "result": {
+   "primitiveId": "e47865",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "e1b1f220e40a4edea589adfa05a5d8c7"
+    },
+    "x": 3850,
+    "y": 4310,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "SW1-RTC",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3244",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "03c1499ffd4c4da586c4ec4ba1cdc06e"
+    },
+    "x": 3150,
+    "y": 4050,
+    "subPartName": "PTS645SM43SMTR92LFS.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   },
+   "saved": true
+  }
+ }
+]

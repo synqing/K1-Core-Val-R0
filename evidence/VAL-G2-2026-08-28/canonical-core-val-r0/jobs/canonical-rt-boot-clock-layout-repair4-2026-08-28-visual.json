@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-rt-boot-clock-layout-repair4-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Place SW1 immediately beside U7 and replace the oversized recovery loop with one short horizontal RT_RESET_REQ_N connection; retain a compact GND stub on the other switch contact",
+  "observed_delta": "The settled box-4 screenshot shows SW1 immediately left of U7 with a single short connection into MR#, a compact GND stub, no long request label through the supervisor, and no collision with the UART row. The whole sheet is modal-free and unchanged outside box 4.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-rt-boot-clock-layout-repair4-box4.png",
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name": "manual reset placement", "result": "OK", "detail": "SW1 is fully inside box 4 and clear of R17, R18 and the note."},
+    {"name": "request connection geometry", "result": "OK", "detail": "One short horizontal line joins SW1 pin 2 to U7 MR#; there is no oversized loop."},
+    {"name": "supervisor readability", "result": "OK", "detail": "U7 designator, pin names, POR_B, GND, 3V3 and CT are legible without the previous long-label collision."},
+    {"name": "boot and clock support identity", "result": "OK", "detail": "The 3 V flash, D0-D3, 8.2 pF load capacitors, 2.2 M bias and 10 k straps remain visible exactly once."},
+    {"name": "whole-sheet modal and collateral check", "result": "OK", "detail": "The whole-sheet screenshot is modal-free and all ten domain boxes remain in their prior positions."}
+  ]
+}

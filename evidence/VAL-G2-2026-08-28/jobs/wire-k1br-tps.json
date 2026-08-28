@@ -1,0 +1,22 @@
+[
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "TP1",
+    "args": {
+      "componentPrimitiveId": "e12711",
+      "connections": [{"pinNumber": "1", "net": "K1BR_SCK"}],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "TP2",
+    "args": {
+      "componentPrimitiveId": "e12740",
+      "connections": [{"pinNumber": "1", "net": "K1BR_CS"}],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

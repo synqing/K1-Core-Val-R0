@@ -1,0 +1,57 @@
+[
+  {
+    "tool": "delete_schematic_rectangle",
+    "tag": "delete:e13751",
+    "args": {"primitiveId": "e13751", "skipConfirmation": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}
+  },
+  {
+    "tool": "delete_schematic_rectangle",
+    "tag": "delete:e13753",
+    "args": {"primitiveId": "e13753", "skipConfirmation": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}
+  },
+  {
+    "tool": "delete_schematic_rectangle",
+    "tag": "delete:e13756",
+    "args": {"primitiveId": "e13756", "skipConfirmation": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}
+  },
+  {
+    "tool": "delete_schematic_rectangle",
+    "tag": "delete:e13757",
+    "args": {"primitiveId": "e13757", "skipConfirmation": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}
+  },
+  {
+    "tool": "delete_schematic_rectangle",
+    "tag": "delete:e13758",
+    "args": {"primitiveId": "e13758", "skipConfirmation": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}
+  },
+  {
+    "tool": "delete_schematic_rectangle",
+    "tag": "delete:e13759",
+    "args": {"primitiveId": "e13759", "skipConfirmation": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}
+  },
+  {
+    "tool": "delete_schematic_rectangle",
+    "tag": "delete:e13760",
+    "args": {"primitiveId": "e13760", "skipConfirmation": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}
+  },
+  {
+    "tool": "delete_schematic_rectangle",
+    "tag": "delete:e13761",
+    "args": {"primitiveId": "e13761", "skipConfirmation": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}
+  },
+  {
+    "tool": "delete_schematic_rectangle",
+    "tag": "delete:e13762",
+    "args": {"primitiveId": "e13762", "skipConfirmation": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}
+  },
+  {
+    "tool": "delete_schematic_rectangle",
+    "tag": "delete:e13763",
+    "args": {"primitiveId": "e13763", "skipConfirmation": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}
+  },
+  {
+    "tool": "save_active_document",
+    "tag": "save",
+    "args": {"expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}
+  }
+]

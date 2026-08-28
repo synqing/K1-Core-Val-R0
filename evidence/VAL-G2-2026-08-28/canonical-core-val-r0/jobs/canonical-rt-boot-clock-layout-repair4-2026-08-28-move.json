@@ -1,0 +1,13 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "SW1",
+    "args": {
+      "primitiveId": "e3244",
+      "x": 3040,
+      "y": 4285,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

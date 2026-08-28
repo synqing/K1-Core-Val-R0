@@ -1,0 +1,58 @@
+[
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U11-AUD",
+    "args": {
+      "componentPrimitiveId": "e11985",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C51-AUD",
+    "args": {
+      "componentPrimitiveId": "e129790",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C90-AUD",
+    "args": {
+      "componentPrimitiveId": "e129826",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C91-AUD",
+    "args": {
+      "componentPrimitiveId": "e129862",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "J9-AUD",
+    "args": {
+      "componentPrimitiveId": "e12548",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "TP7-AUD",
+    "args": {
+      "componentPrimitiveId": "e129898",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "TP8-AUD",
+    "args": {
+      "componentPrimitiveId": "e129927",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

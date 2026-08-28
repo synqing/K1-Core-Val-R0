@@ -1,0 +1,48 @@
+[
+ {
+  "tag": "TP6",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e15223",
+   "attempted": 1,
+   "attached": 1,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e15223e4",
+      "x": 4330,
+      "y": -3390,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "3V3",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        4310,
+        -3390,
+        4330,
+        -3390
+       ]
+      ],
+      "net": "3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e15691"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ],
+   "saved": true
+  }
+ }
+]

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "transaction_id": "reconcile-canonical-core-val-r0-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash": "44674:734d9dd7",
+  "census": {
+    "electrical_components": 21,
+    "component_records_including_sheet_root": 22,
+    "wires": 50,
+    "net_attributes": 50,
+    "rectangles": 10,
+    "texts": 1,
+    "designator_suffix": "PWR1"
+  }
+}

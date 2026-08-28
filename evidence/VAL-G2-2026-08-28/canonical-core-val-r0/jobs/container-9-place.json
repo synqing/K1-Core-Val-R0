@@ -1,0 +1,184 @@
+[
+  {
+    "tool": "add_schematic_component",
+    "tag": "C64",
+    "args": {
+      "deviceUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+      "x": 3095,
+      "y": 2525,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "C65",
+    "args": {
+      "deviceUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+      "x": 3335,
+      "y": 2525,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "J2",
+    "args": {
+      "deviceUuid": "e7021793e1cf4b0bb9aa0a7daaef6e91",
+      "x": 3335,
+      "y": 2812,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "J3",
+    "args": {
+      "deviceUuid": "e7021793e1cf4b0bb9aa0a7daaef6e91",
+      "x": 3575,
+      "y": 2812,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R51",
+    "args": {
+      "deviceUuid": "5167ada280d846078b7bb7b340933d0b",
+      "x": 3815,
+      "y": 2812,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R52",
+    "args": {
+      "deviceUuid": "5167ada280d846078b7bb7b340933d0b",
+      "x": 3095,
+      "y": 3098,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R53",
+    "args": {
+      "deviceUuid": "6593321c1e554b2f9070c57621ba8753",
+      "x": 3335,
+      "y": 3098,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R54",
+    "args": {
+      "deviceUuid": "6593321c1e554b2f9070c57621ba8753",
+      "x": 3575,
+      "y": 3098,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "RT1",
+    "args": {
+      "deviceUuid": "d2beae28d8894494aa24697a5823ee37",
+      "x": 3815,
+      "y": 3098,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "RT2",
+    "args": {
+      "deviceUuid": "d2beae28d8894494aa24697a5823ee37",
+      "x": 3095,
+      "y": 3385,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "U14",
+    "args": {
+      "deviceUuid": "95f54609b19b4ca5bc76959e010e2458",
+      "x": 3335,
+      "y": 3385,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "U15",
+    "args": {
+      "deviceUuid": "95f54609b19b4ca5bc76959e010e2458",
+      "x": 3575,
+      "y": 3385,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_text",
+    "tag": "title-container-9",
+    "args": {
+      "x": 3005,
+      "y": 3490,
+      "content": "9. LED DATA + TEMPERATURE",
+      "fontSize": 18,
+      "bold": true,
+      "textColor": "#B00020",
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

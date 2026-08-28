@@ -1,0 +1,16 @@
+[
+  {
+    "tool": "save_active_document",
+    "args": {
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    },
+    "tag": "save"
+  },
+  {
+    "tool": "get_document_source",
+    "args": {
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    },
+    "tag": "readback"
+  }
+]

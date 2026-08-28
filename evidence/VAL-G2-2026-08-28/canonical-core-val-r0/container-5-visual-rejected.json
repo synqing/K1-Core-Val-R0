@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-container-5-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Populate canonical domain box 5 (ESP_CORE, ESP_USB, K1BR) with source-derived components, domain suffix -ESP, functional net endpoints and one readable title",
+  "observed_delta": "ESP32-S3, USB and K1BR circuits are contained, but J6 rendered as a 1x40 header because the same wrong PREC040SAAN-RC MPN was used for the intended 1x4 UART header.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/container-5-after.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": ["J6 is a 40-pin symbol instead of a four-pin UART header"],
+  "verdict": "REJECTED",
+  "checks": [
+    {"name":"domain contents","result":"OK","detail":"ESP32-S3, service USB and K1BR circuits are present."},
+    {"name":"domain designators","result":"OK","detail":"Visible designators carry -ESP."},
+    {"name":"connector identity","result":"DEFECT","detail":"J6 is PREC040SAAN-RC/1x40, not the intended 1x4 UART header."},
+    {"name":"layout readability","result":"DEFECT","detail":"The unnecessarily tall J6 symbol wastes the right side of the domain."},
+    {"name":"mutation boundary","result":"OK","detail":"PCB was not opened or changed."}
+  ]
+}

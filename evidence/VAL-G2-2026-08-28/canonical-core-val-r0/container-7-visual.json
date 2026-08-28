@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-container-7b-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Populate canonical domain box 7 (NFC) with source-derived components, domain suffix -NFC, functional net endpoints and one readable title",
+  "observed_delta": "Box 7 contains the ST25R3916B front end, 27.12 MHz clock, matching network and U.FL antenna interface with NFC designators and named supply/control/RF endpoints.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/container-7-after.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name":"domain contents","result":"OK","detail":"NFC IC, crystal, RF matching and antenna connector are spatially separated inside box 7."},
+    {"name":"domain designators","result":"OK","detail":"Visible designators carry -NFC."},
+    {"name":"clock identity","result":"OK","detail":"Y2 is visibly a 27.12 MHz part with XTI/XTO endpoints."},
+    {"name":"pin accounting","result":"OK","detail":"Visible ST25R3916B supplies, grounds, I2C, IRQ, regulator outputs and RF endpoints are named."},
+    {"name":"layout containment","result":"OK","detail":"All symbols fit inside the rectangle with no component collision; PCB was not changed."}
+  ]
+}

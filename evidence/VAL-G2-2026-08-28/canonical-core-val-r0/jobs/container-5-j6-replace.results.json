@@ -1,0 +1,73 @@
+[
+ {
+  "tag": "delete-old-j6",
+  "ok": true,
+  "result": {
+   "primitiveId": "e7730",
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "add-new-j6",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "e9b61321d93943079df32833dad67c3d",
+     "uuid": "e9b61321d93943079df32833dad67c3d"
+    },
+    "x": 4825,
+    "y": 4345,
+    "subPartName": "PREC004SAAN-RC.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e9084",
+    "symbol": {
+     "uuid": "64449525af1f42d39f2024b79cc12422",
+     "libraryUuid": "e9b61321d93943079df32833dad67c3d"
+    },
+    "footprint": {
+     "uuid": "35744e8e0f9f4e1b87ccd90be3930567",
+     "libraryUuid": "e9b61321d93943079df32833dad67c3d"
+    },
+    "designator": "H?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "Sullins",
+    "manufacturerId": "PREC004SAAN-RC",
+    "supplier": "LCSC",
+    "supplierId": "C3327812",
+    "otherProperty": {
+     "LCSC Part Name": "1x4P 间距:2.54mm 方针 直插",
+     "Supplier Footprint": "插件,P=2.54mm",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/PREC004SAAN-RC/3892409.html",
+     "Pin Structure": "1x4P",
+     "Pitch": "2.54mm",
+     "Row Spacing": "-",
+     "Circluar Pins/Square Pins": "Pin Header",
+     "Mounting Type": "Through Hole",
+     "Number of Rows": "1",
+     "Number of Pins": "4P",
+     "Current Rating": "3A",
+     "Voltage Rating (Max)": "-",
+     "Length of Mating Pin": "5.84mm",
+     "Insulation Height": "2.5mm",
+     "Length of End Connection Pin": "3.05mm",
+     "Contact Material": "Brass",
+     "Contact Plating": "Tin",
+     "Operating Temperature": "-40℃~+105℃",
+     "Color": "Black",
+     "Description": "Pin Structure:1x4P Pitch:2.54mm Row Spacing:- Circluar Pins/Square Pins:Pin Header Mounting Type:Through Hole Number of Rows:1 Number of Pins:4P Current Rating:3A Voltage Rating (Max):- Length of Mating Pin:5.84mm Insulation Height:2.5mm Length of End Con"
+    }
+   },
+   "recoveredFromError": false,
+   "saved": true
+  }
+ }
+]

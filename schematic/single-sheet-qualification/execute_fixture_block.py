@@ -24,6 +24,7 @@ from easyeda_mutation_gate import (  # noqa: E402 - repo path is established abo
 )
 
 PLAN = REPO / "schematic/single-sheet-qualification/FIXTURE-PLAN.json"
+LAYOUT = REPO / "schematic/single-sheet-qualification/LAYOUT-PLAN.json"
 BIND = REPO / "evidence/VAL-G2-2026-08-28/jobs/library-bind-map.json"
 JOBS = REPO / "evidence/VAL-G2-2026-08-28/jobs"
 SNAPSHOTS = REPO / "evidence/VAL-G2-2026-08-28/snapshots"
@@ -47,8 +48,9 @@ EXPECTED_VISUAL_CHECKS = [
 PIN_ALIASES = {
     "ILIM": ["ILIM", "ILM"],
     "ILM": ["ILIM", "ILM"],
-    "EN": ["EN", "EN/UVLO", "EN_UVLO", "ENABLE"],
+    "EN": ["EN", "EN/SYNC", "EN_SYNC", "EN/UVLO", "EN_UVLO", "ENABLE"],
     "EN/UVLO": ["EN", "EN/UVLO", "EN_UVLO"],
+    "SS": ["SS", "NR/SS", "NR_SS", "SOFTSTART", "SOFT_START"],
     "IN": ["IN", "VIN", "IN+"],
     "OUT": ["OUT", "VOUT", "VO", "OUT+"],
     "GND": ["GND", "PGND", "AGND", "VSS", "GND1"],
@@ -60,6 +62,9 @@ PIN_ALIASES = {
     "WP": ["WP", "WP#", "WP#(IO2)"],
     "WP#": ["WP", "WP#", "WP#(IO2)"],
     "SCK": ["SCK", "CLK"],
+    "SCL": ["SCL", "SCLK/SCL", "SCL/SPC"],
+    "SDA": ["SDA", "MISO/SDA", "SDA/SDI/SDO"],
+    "VSP_A": ["VSP_A", "VDD_TX"],
     "VTref": ["VTREF", "VTref", "VCC", "3V3", "1"],
     "SWCLK": ["SWCLK", "SWDCLK", "TCK", "4"],
     "SWDIO": ["SWDIO", "TMS", "2"],
@@ -79,6 +84,16 @@ PIN_ALIASES = {
 
 # Datasheet-mandatory extras that the 2-terminal plan abstracted. Never QUAL nets.
 BLOCK_EXTRAS = {
+    "NFC": {
+        "U12": [
+            ("1", "3V3"), ("6", "GND"), ("10", "NFC_5V"),
+            ("12", "GND"), ("16", "GND"), ("21", "GND"),
+            ("26", "GND"), ("33", "GND"),
+            ("3", "NFC_VDD_D"), ("7", "NFC_VDD_A"),
+            ("9", "NFC_VDD_RF"), ("11", "NFC_VDD_AM"),
+            ("14", "NFC_VDD_DR"), ("24", "NFC_AGDC"),
+        ],
+    },
     "POWER_LED": {
         "U4": [("1", "5V_SYS")],  # EN/UVLO always-on from VIN rail
     },
@@ -201,6 +216,8 @@ def source_snapshot() -> dict:
         "census": {
             "components": src.count('["COMPONENT"'),
             "wires": src.count('["WIRE"'),
+            "texts": src.count('["TEXT"'),
+            "rectangles": src.count('["RECT"'),
             "designators": placed,
             "net_counts": dict(Counter(nets)),
         },
@@ -219,7 +236,11 @@ def extract_pids(results: list) -> dict[str, str]:
 
 
 def norm(name: str) -> str:
-    return re.sub(r"[^A-Z0-9]+", "", (name or "").upper())
+    # Preserve electrical polarity before punctuation stripping. The old normaliser
+    # collapsed VIN+ and VIN- (and D+ and D-) to the same token, so first-match
+    # library ordering could silently wire a positive endpoint onto the negative pin.
+    value = (name or "").upper().replace("+", "PLUS").replace("-", "MINUS")
+    return re.sub(r"[^A-Z0-9]+", "", value)
 
 
 def map_pin(live_pins: list, wanted: str) -> str | None:
@@ -228,7 +249,12 @@ def map_pin(live_pins: list, wanted: str) -> str | None:
     for p in live_pins:
         n = p.get("pinName") or p.get("name") or ""
         num = str(p.get("pinNumber") or p.get("number") or "")
-        if norm(n) in wanted_n or num == wanted:
+        live_norm = norm(n)
+        # NXP documentation often abbreviates mux pads as SD_B1_07/AD_B0_00,
+        # while the EasyEDA DVJ6B symbol carries the full GPIO_SD_B1_07 form.
+        # Match only the exact GPIO-prefixed spelling; do not select a different
+        # legal mux candidate from a peripheral function name.
+        if live_norm in wanted_n or (live_norm.startswith("GPIO") and live_norm[4:] in wanted_n) or num == wanted:
             return num
     # 2-pin passives often expose only numbers
     if wanted in {"1", "2"}:
@@ -287,11 +313,20 @@ def main() -> int:
     assert_identity()
     assert_fixture_plan()
 
-    coords_path = JOBS / "block-coords.json"
-    coords = json.loads(coords_path.read_text()) if coords_path.exists() else {}
-    block_coords = coords.get(args.block)
+    if not LAYOUT.is_file():
+        raise SystemExit(f"missing canonical layout plan {LAYOUT}")
+    layout = json.loads(LAYOUT.read_text())
+    if layout.get("coordinate_unit") != "0.01_inch":
+        raise SystemExit(f"unexpected layout coordinate unit: {layout.get('coordinate_unit')}")
+    block_coords = (layout.get("domains") or {}).get(args.block)
     if not block_coords:
-        raise SystemExit(f"no coords for {args.block} in {coords_path}")
+        raise SystemExit(f"no canonical layout for {args.block} in {LAYOUT}")
+    domain_suffix = str(block_coords.get("suffix") or "")
+    if not re.fullmatch(r"[A-Z0-9]{3,5}", domain_suffix):
+        raise SystemExit(
+            f"invalid or missing 3-5 character domain suffix for {args.block}: {domain_suffix!r}"
+        )
+    live_designators = {ref: f"{ref}-{domain_suffix}" for ref in refs}
 
     slug = args.block.lower().replace("_", "-")
 
@@ -356,6 +391,32 @@ def main() -> int:
                     },
                 }
             )
+        for unit in block_coords.get("additional_units") or []:
+            ref = unit["ref"]
+            c = comps[ref]
+            mpn = c.get("manufacturer_part_number")
+            bind = binds.get(mpn)
+            if not bind:
+                raise SystemExit(f"unbound MPN {mpn} for {unit['tag']}")
+            jobs.append(
+                {
+                    "tool": "add_schematic_component",
+                    "tag": unit["tag"],
+                    "args": {
+                        "deviceUuid": bind["deviceUuid"],
+                        "subPartName": unit["sub_part_name"],
+                        "x": unit["x"],
+                        "y": unit["y"],
+                        "rotation": 0,
+                        "addIntoBom": False,
+                        "addIntoPcb": True,
+                        "saveAfter": False,
+                        "expectedDocumentUuid": PAGE,
+                    },
+                }
+            )
+        # Captain supplied the ten canonical domain boxes directly in EasyEDA.
+        # Never create, resize or duplicate rectangles from this executor.
         title = block_coords.get("title")
         if title:
             jobs.append(
@@ -374,12 +435,17 @@ def main() -> int:
                     },
                 }
             )
-        else:
+        elif jobs:
             jobs[-1]["args"]["saveAfter"] = True
         results = run_batch(jobs, f"place-{slug}")
         pids = extract_pids(results)
         print("PLACED", pids)
         missing = [r for r in refs if r not in pids]
+        missing.extend(
+            unit["tag"]
+            for unit in block_coords.get("additional_units") or []
+            if unit["tag"] not in pids
+        )
         if missing:
             raise SystemExit(f"place missing primitiveIds: {missing}")
         (JOBS / f"pids-{slug}.json").write_text(json.dumps(pids, indent=2) + "\n")
@@ -396,7 +462,7 @@ def main() -> int:
                     "tag": ref,
                     "args": {
                         "primitiveId": pids[ref],
-                        "designator": ref,
+                        "designator": live_designators[ref],
                         "name": c.get("value") or c.get("manufacturer_part_number"),
                         "manufacturerId": c.get("manufacturer_part_number"),
                         "addIntoPcb": True,
@@ -405,10 +471,33 @@ def main() -> int:
                     },
                 }
             )
+        for unit in block_coords.get("additional_units") or []:
+            ref = unit["ref"]
+            c = comps[ref]
+            jobs.append(
+                {
+                    "tool": "modify_schematic_component",
+                    "tag": unit["tag"],
+                    "args": {
+                        "primitiveId": pids[unit["tag"]],
+                        "designator": live_designators[ref],
+                        "name": c.get("value") or c.get("manufacturer_part_number"),
+                        "manufacturerId": c.get("manufacturer_part_number"),
+                        "addIntoBom": False,
+                        "addIntoPcb": True,
+                        "saveAfter": False,
+                        "expectedDocumentUuid": PAGE,
+                    },
+                }
+            )
+        for job in jobs:
+            job["args"]["saveAfter"] = False
+        jobs[-1]["args"]["saveAfter"] = True
         run_batch(jobs, f"designate-{slug}")
         print("DESIGNATED", refs)
 
     if args.stage == "pins":
+        pin_tags = refs + [unit["tag"] for unit in block_coords.get("additional_units") or []]
         jobs = [
             {
                 "tool": "list_schematic_component_pins",
@@ -418,7 +507,7 @@ def main() -> int:
                     "expectedDocumentUuid": PAGE,
                 },
             }
-            for ref in refs
+            for ref in pin_tags
         ]
         pin_results = run_batch(jobs, f"pins-{slug}")
         live = parse_live_pins(pin_results)
@@ -433,7 +522,12 @@ def main() -> int:
     if args.stage == "wire":
         pin_results = json.loads((JOBS / f"pins-{slug}.results.json").read_text())
         live = parse_live_pins(pin_results)
-        connections: dict[str, list[dict]] = {ref: [] for ref in refs}
+        unit_tags: dict[str, list[str]] = {ref: [ref] for ref in refs}
+        for unit in block_coords.get("additional_units") or []:
+            unit_tags[unit["ref"]].append(unit["tag"])
+        connections: dict[str, list[dict]] = {
+            tag: [] for tags in unit_tags.values() for tag in tags
+        }
         seen: set[tuple[str, str, str]] = set()
         for net in plan["nets"]:
             for ep in net["endpoints"]:
@@ -445,30 +539,43 @@ def main() -> int:
                 if skip_key in SKIP_PINS.get(args.block, set()):
                     print(f"SKIP {ref} {wanted} — not on live symbol")
                     continue
+                chosen_tag = None
+                num = None
                 remap = PIN_REMAP.get(args.block, {}).get((ref, str(ep.get("pin") or wanted)))
-                if remap:
-                    num = remap
-                else:
-                    num = map_pin(live.get(ref) or [], wanted)
-                    if not num and ep.get("pin") and str(ep.get("pin")) != str(wanted):
-                        num = map_pin(live.get(ref) or [], str(ep.get("pin")))
-                if not num:
-                    print(f"UNMAPPED {ref} {wanted} live={live.get(ref)}")
+                for tag in unit_tags[ref]:
+                    if remap:
+                        candidate = map_pin(live.get(tag) or [], remap)
+                    else:
+                        candidate = map_pin(live.get(tag) or [], wanted)
+                        if not candidate and ep.get("pin") and str(ep.get("pin")) != str(wanted):
+                            candidate = map_pin(live.get(tag) or [], str(ep.get("pin")))
+                    if candidate:
+                        chosen_tag = tag
+                        num = candidate
+                        break
+                if not num or not chosen_tag:
+                    print(f"UNMAPPED {ref} {wanted} units={[(tag, live.get(tag)) for tag in unit_tags[ref]]}")
                     raise SystemExit(f"cannot map {ref}.{wanted} to live pin")
-                key = (ref, num, net["name"])
+                key = (chosen_tag, num, net["name"])
                 if key in seen:
                     continue
                 seen.add(key)
-                connections[ref].append({"pinNumber": str(num), "net": net["name"]})
+                connections[chosen_tag].append({"pinNumber": str(num), "net": net["name"]})
         for ref, extras in BLOCK_EXTRAS.get(args.block, {}).items():
             for num, net in extras:
-                key = (ref, str(num), net)
+                chosen_tag = next(
+                    (tag for tag in unit_tags[ref] if map_pin(live.get(tag) or [], str(num))),
+                    None,
+                )
+                if not chosen_tag:
+                    raise SystemExit(f"cannot map required extra {ref}.{num} to a live symbol unit")
+                key = (chosen_tag, str(num), net)
                 if key in seen:
                     continue
                 seen.add(key)
-                connections[ref].append({"pinNumber": str(num), "net": net})
+                connections[chosen_tag].append({"pinNumber": str(num), "net": net})
         jobs = []
-        wired_refs = [r for r in refs if connections[r]]
+        wired_refs = [tag for tags in unit_tags.values() for tag in tags if connections[tag]]
         for i, ref in enumerate(wired_refs):
             jobs.append(
                 {
@@ -513,7 +620,9 @@ def main() -> int:
     print("NETS", json.dumps(census["net_counts"], indent=2, sort_keys=True))
     # Place leaves EasyEDA designators as C?/R?/U?. Naming is the designate stage.
     if args.stage != "place":
-        missing_refs = [r for r in refs if r not in census["designators"]]
+        missing_refs = [
+            live_designators[r] for r in refs if live_designators[r] not in census["designators"]
+        ]
         if missing_refs:
             raise SystemExit(f"designators missing after block: {missing_refs}")
 
@@ -535,7 +644,7 @@ def main() -> int:
             "pre_source_hash": pre_snapshot["source_hash"],
             "post_source_hash": post_snapshot["source_hash"],
             "saved": saved,
-            "affected": refs,
+            "affected": [live_designators[r] for r in refs],
             "census": census,
             "netlist": netlist,
         }

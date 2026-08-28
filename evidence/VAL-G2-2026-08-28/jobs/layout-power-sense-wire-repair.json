@@ -1,0 +1,27 @@
+[
+  {
+    "tool": "add_schematic_wire",
+    "tag": "U2:VBUS-to-VIN-",
+    "args": {
+      "line": [760, -1075, 760, -1085],
+      "net": "5V_SYS",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U2:remaining",
+    "args": {
+      "componentPrimitiveId": "e14426",
+      "connections": [
+        {"pinNumber": "6", "net": "3V3", "labelOffsetX": 60, "labelOffsetY": 30},
+        {"pinNumber": "4", "net": "I2C_SDA", "labelOffsetX": -60, "labelOffsetY": 0},
+        {"pinNumber": "5", "net": "I2C_SCL", "labelOffsetX": -60, "labelOffsetY": 30},
+        {"pinNumber": "3", "net": "INA_ALERT", "labelOffsetX": -60, "labelOffsetY": -30}
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

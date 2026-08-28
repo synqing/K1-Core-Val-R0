@@ -1,0 +1,18 @@
+[
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "e3295",
+    "args": {
+      "componentPrimitiveId": "e3295",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "e3673",
+    "args": {
+      "componentPrimitiveId": "e3673",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

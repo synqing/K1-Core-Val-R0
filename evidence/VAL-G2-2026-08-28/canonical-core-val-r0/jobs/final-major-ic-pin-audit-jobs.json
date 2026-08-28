@@ -1,0 +1,19 @@
+[
+  {"tag":"U1-PWR1","tool":"list_schematic_component_pins","args":{"componentPrimitiveId":"e504"}},
+  {"tag":"U2-PWR1","tool":"list_schematic_component_pins","args":{"componentPrimitiveId":"e894"}},
+  {"tag":"U3-PWR2","tool":"list_schematic_component_pins","args":{"componentPrimitiveId":"e2199"}},
+  {"tag":"U4-PWR2","tool":"list_schematic_component_pins","args":{"componentPrimitiveId":"e2491"}},
+  {"tag":"U5-PWR2","tool":"list_schematic_component_pins","args":{"componentPrimitiveId":"e2815"}},
+  {"tag":"U6-RTC.1","tool":"list_schematic_component_pins","args":{"componentPrimitiveId":"e3295"}},
+  {"tag":"U7-RTC","tool":"list_schematic_component_pins","args":{"componentPrimitiveId":"e3619"}},
+  {"tag":"U6-RTC.2","tool":"list_schematic_component_pins","args":{"componentPrimitiveId":"e3673"}},
+  {"tag":"U8-RTDBG","tool":"list_schematic_component_pins","args":{"componentPrimitiveId":"e5027"}},
+  {"tag":"U9-ESP","tool":"list_schematic_component_pins","args":{"componentPrimitiveId":"e8065"}},
+  {"tag":"U10-ESP","tool":"list_schematic_component_pins","args":{"componentPrimitiveId":"e8499"}},
+  {"tag":"U11-AUD","tool":"list_schematic_component_pins","args":{"componentPrimitiveId":"e11985"}},
+  {"tag":"U12-NFC","tool":"list_schematic_component_pins","args":{"componentPrimitiveId":"e13516"}},
+  {"tag":"U13-MOT","tool":"list_schematic_component_pins","args":{"componentPrimitiveId":"e14187"}},
+  {"tag":"U14-LED","tool":"list_schematic_component_pins","args":{"componentPrimitiveId":"e14716"}},
+  {"tag":"U15-LED","tool":"list_schematic_component_pins","args":{"componentPrimitiveId":"e14770"}},
+  {"tag":"U16-VAL","tool":"list_schematic_component_pins","args":{"componentPrimitiveId":"e15539"}}
+]

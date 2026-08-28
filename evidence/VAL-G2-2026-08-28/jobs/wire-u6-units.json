@@ -1,0 +1,340 @@
+[
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U6u1",
+    "args": {
+      "componentPrimitiveId": "e6680",
+      "connections": [
+        {
+          "pinNumber": "G8",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "G9",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "F10",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "F5",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "F11",
+          "net": "BOOT_MODE0"
+        },
+        {
+          "pinNumber": "G14",
+          "net": "BOOT_MODE1"
+        },
+        {
+          "pinNumber": "G12",
+          "net": "AUDIO_BCLK_RT"
+        },
+        {
+          "pinNumber": "D7",
+          "net": "LED_D0_3V3"
+        },
+        {
+          "pinNumber": "E7",
+          "net": "LED_D1_3V3"
+        },
+        {
+          "pinNumber": "G7",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "G6",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "F9",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "F8",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "F7",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "F6",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "E13",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "E9",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "E6",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "E2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "B10",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "B5",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "A14",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "A1",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U6u2",
+    "args": {
+      "componentPrimitiveId": "e8918",
+      "connections": [
+        {
+          "pinNumber": "L2",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "P12",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "M9",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "K8",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "N14",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "P10",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "J6",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "J11",
+          "net": "MIC_PWR_EN"
+        },
+        {
+          "pinNumber": "M7",
+          "net": "POR_B"
+        },
+        {
+          "pinNumber": "M2",
+          "net": "1V15_CORE"
+        },
+        {
+          "pinNumber": "P11",
+          "net": "XTALI"
+        },
+        {
+          "pinNumber": "N11",
+          "net": "XTALO"
+        },
+        {
+          "pinNumber": "L4",
+          "net": "FLEXSPI_SCLK"
+        },
+        {
+          "pinNumber": "L3",
+          "net": "FLEXSPI_SS0"
+        },
+        {
+          "pinNumber": "P3",
+          "net": "FLEXSPI_D0"
+        },
+        {
+          "pinNumber": "N4",
+          "net": "FLEXSPI_D1"
+        },
+        {
+          "pinNumber": "K14",
+          "net": "LPUART1_TX"
+        },
+        {
+          "pinNumber": "L14",
+          "net": "LPUART1_RX"
+        },
+        {
+          "pinNumber": "J4",
+          "net": "K1BR_SCK_RT"
+        },
+        {
+          "pinNumber": "J1",
+          "net": "K1BR_MOSI_RT"
+        },
+        {
+          "pinNumber": "K1",
+          "net": "K1BR_MISO"
+        },
+        {
+          "pinNumber": "J3",
+          "net": "K1BR_CS_RT"
+        },
+        {
+          "pinNumber": "K11",
+          "net": "K1BR_IRQ"
+        },
+        {
+          "pinNumber": "J14",
+          "net": "AUDIO_MCLK_RT"
+        },
+        {
+          "pinNumber": "H11",
+          "net": "AUDIO_FSYNC_RT"
+        },
+        {
+          "pinNumber": "H12",
+          "net": "AUDIO_DOUT"
+        },
+        {
+          "pinNumber": "J13",
+          "net": "PDM_CLK_RT"
+        },
+        {
+          "pinNumber": "L13",
+          "net": "PDM_DAT_RT"
+        },
+        {
+          "pinNumber": "L11",
+          "net": "MOTION_INT_RT"
+        },
+        {
+          "pinNumber": "L12",
+          "net": "LED_THERM_L"
+        },
+        {
+          "pinNumber": "K12",
+          "net": "LED_THERM_R"
+        },
+        {
+          "pinNumber": "M12",
+          "net": "OPT_BOOT_REC_RT"
+        },
+        {
+          "pinNumber": "M8",
+          "net": "OPT_USB_AUD_RT"
+        },
+        {
+          "pinNumber": "P14",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "P1",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "N8",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "N5",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "N2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "N1",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "M1",
+          "net": "1V15_CORE"
+        },
+        {
+          "pinNumber": "L9",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "L1",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "K13",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "K5",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "K4",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "K3",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "K2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "J10",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "J9",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "J8",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "J7",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "J5",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "H9",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "H8",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "H7",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "H6",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

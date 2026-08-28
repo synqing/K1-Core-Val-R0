@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "transaction_id": "reset-rejected-layout-2026-08-28",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "scope": "WHOLE_SHEET_REJECTED_LAYOUT",
+  "stage": "delete",
+  "intended_delta": "Clear every primitive from the rejected oversized disposable fixture before compact boxed reconstruction",
+  "pre_source_hash": "271930:1ff4a081",
+  "post_source_hash": "86:92aa800d",
+  "saved": true,
+  "affected": [
+    "deleted_component=137",
+    "deleted_wire=405",
+    "deleted_text=11",
+    "deleted_rect=0"
+  ],
+  "census": {
+    "COMPONENT": 0,
+    "WIRE": 0,
+    "TEXT": 0,
+    "RECT": 0
+  },
+  "intermediate_tool_failures": 405,
+  "final_source_is_authority": true,
+  "note": "Wire-delete read-back rejected each primitive while it remained present; subsequent parent-component deletion removed every wire. Final saved source contains only DOCTYPE and HEAD."
+}

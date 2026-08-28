@@ -1,0 +1,552 @@
+<title>EasyEDA V3 One-Way Door</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+
+<style>
+  :root {
+    --ground: #F1F4F7;
+    --surface: #FFFFFF;
+    --surface-2: #E9EEF3;
+    --ink: #14202A;
+    --ink-soft: #556675;
+    --ink-faint: #7C8B98;
+    --rule: #D3DCE4;
+    --rule-strong: #B4C2CE;
+    --schematic: #1E5B87;
+    --copper: #A8471A;
+    --copper-wash: #F6E7DE;
+    --verdigris: #256F5E;
+    --verdigris-wash: #DFEDE9;
+    --amber: #8E6412;
+    --amber-wash: #F5EBD7;
+    --shadow: 0 1px 2px rgba(20, 32, 42, .06), 0 8px 24px rgba(20, 32, 42, .05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #0D1418;
+      --surface: #141D23;
+      --surface-2: #1B262E;
+      --ink: #E4ECF2;
+      --ink-soft: #93A5B2;
+      --ink-faint: #6F818E;
+      --rule: #24313A;
+      --rule-strong: #34454F;
+      --schematic: #78ADD9;
+      --copper: #E08B51;
+      --copper-wash: #2C1B12;
+      --verdigris: #5CB9A1;
+      --verdigris-wash: #12241F;
+      --amber: #D7A845;
+      --amber-wash: #2A2113;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 10px 28px rgba(0, 0, 0, .35);
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #0D1418;
+    --surface: #141D23;
+    --surface-2: #1B262E;
+    --ink: #E4ECF2;
+    --ink-soft: #93A5B2;
+    --ink-faint: #6F818E;
+    --rule: #24313A;
+    --rule-strong: #34454F;
+    --schematic: #78ADD9;
+    --copper: #E08B51;
+    --copper-wash: #2C1B12;
+    --verdigris: #5CB9A1;
+    --verdigris-wash: #12241F;
+    --amber: #D7A845;
+    --amber-wash: #2A2113;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 10px 28px rgba(0, 0, 0, .35);
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    background: var(--ground);
+    color: var(--ink);
+    font-family: "IBM Plex Sans", ui-sans-serif, system-ui, -apple-system, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 24px 96px; }
+  .col { max-width: 68ch; }
+
+  h1, h2, h3, .display {
+    font-family: "IBM Plex Sans Condensed", "IBM Plex Sans", ui-sans-serif, sans-serif;
+    text-wrap: balance;
+    margin: 0;
+  }
+  code, .mono, td.num, .chip-v {
+    font-family: "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* ---------- masthead ---------- */
+  header.mast {
+    border-bottom: 1px solid var(--rule);
+    background: var(--surface);
+    padding: 56px 0 32px;
+    margin-bottom: 48px;
+  }
+  .eyebrow {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 12px;
+    letter-spacing: .12em;
+    text-transform: uppercase;
+    color: var(--ink-faint);
+    display: flex;
+    gap: 14px;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  h1 { font-size: clamp(38px, 6vw, 62px); font-weight: 700; line-height: 1.02; letter-spacing: -.02em; margin: 18px 0 0; }
+  .standfirst { font-size: clamp(17px, 2.2vw, 20px); color: var(--ink-soft); margin: 18px 0 0; max-width: 62ch; }
+
+  .verdict {
+    margin-top: 28px;
+    border-left: 3px solid var(--copper);
+    background: var(--copper-wash);
+    padding: 16px 20px;
+    max-width: 68ch;
+  }
+  .verdict strong { color: var(--copper); }
+
+  /* ---------- section ---------- */
+  section { margin: 0 0 64px; }
+  h2 {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--schematic);
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 24px;
+  }
+  h3 { font-size: 21px; font-weight: 600; margin: 0 0 8px; letter-spacing: -.01em; }
+  p { margin: 0 0 16px; }
+  p:last-child { margin-bottom: 0; }
+
+  /* ---------- version landscape ---------- */
+  .landscape { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+  .lcard { background: var(--surface); padding: 22px; }
+  .lcard .role { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-faint); }
+  .lcard .ver { font-family: "IBM Plex Sans Condensed", sans-serif; font-size: 34px; font-weight: 700; letter-spacing: -.02em; margin: 6px 0 4px; }
+  .lcard .meta { font-size: 14px; color: var(--ink-soft); }
+  .lcard.ours { box-shadow: inset 3px 0 0 var(--copper); }
+  .lcard.ours .ver { color: var(--copper); }
+  .lcard.live .ver { color: var(--schematic); }
+
+  /* ---------- figure ---------- */
+  figure { margin: 0; }
+  figure svg { display: block; width: 100%; max-width: 100%; height: auto; }
+  figcaption { font-size: 14px; color: var(--ink-soft); margin-top: 14px; max-width: 66ch; }
+  .figframe { background: var(--surface); border: 1px solid var(--rule); padding: 26px 22px 20px; overflow-x: auto; }
+
+  /* ---------- quote ---------- */
+  blockquote {
+    margin: 0 0 20px;
+    padding: 18px 22px;
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--ink-faint);
+    font-size: 17px;
+  }
+  blockquote cite { display: block; margin-top: 10px; font-size: 13px; font-style: normal; color: var(--ink-faint); font-family: "IBM Plex Mono", monospace; }
+
+  /* ---------- phase ladder ---------- */
+  .phase { display: grid; grid-template-columns: 64px 1fr; gap: 0 20px; border-top: 1px solid var(--rule); padding: 24px 0; }
+  .phase:last-of-type { border-bottom: 1px solid var(--rule); }
+  .pnum { font-family: "IBM Plex Mono", monospace; font-size: 13px; color: var(--ink-faint); padding-top: 4px; letter-spacing: .06em; }
+  .pbody h3 { margin-bottom: 6px; }
+  .pmeta { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 0; }
+  .tag { font-family: "IBM Plex Mono", monospace; font-size: 11px; padding: 3px 9px; border: 1px solid var(--rule-strong); color: var(--ink-soft); white-space: nowrap; }
+  .tag.gate { border-color: var(--schematic); color: var(--schematic); }
+  .tag.safe { border-color: var(--verdigris); color: var(--verdigris); background: var(--verdigris-wash); }
+  .tag.danger { border-color: var(--copper); color: var(--copper); background: var(--copper-wash); }
+
+  /* ---------- point of no return ---------- */
+  .ponr {
+    background: var(--copper);
+    color: #FFF;
+    padding: 26px 28px;
+    display: flex;
+    gap: 22px;
+    align-items: baseline;
+    flex-wrap: wrap;
+  }
+  .ponr .label { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .14em; text-transform: uppercase; opacity: .82; }
+  .ponr .line { font-family: "IBM Plex Sans Condensed", sans-serif; font-size: clamp(21px, 3vw, 29px); font-weight: 600; line-height: 1.2; }
+
+  /* ---------- tables ---------- */
+  .tblwrap { overflow-x: auto; border: 1px solid var(--rule); background: var(--surface); }
+  table { border-collapse: collapse; width: 100%; min-width: 640px; font-size: 15px; }
+  th, td { text-align: left; padding: 13px 16px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  thead th {
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 11px; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--ink-faint); font-weight: 500;
+    background: var(--surface-2);
+    border-bottom: 1px solid var(--rule-strong);
+  }
+  tbody tr:last-child td { border-bottom: none; }
+  td.rung { font-family: "IBM Plex Mono", monospace; color: var(--ink-faint); white-space: nowrap; }
+  .sev { font-family: "IBM Plex Mono", monospace; font-size: 11px; padding: 2px 8px; white-space: nowrap; }
+  .sev.crit { background: var(--copper-wash); color: var(--copper); }
+  .sev.high { background: var(--amber-wash); color: var(--amber); }
+  .sev.med { background: var(--surface-2); color: var(--ink-soft); }
+  .nores { color: var(--copper); }
+
+  /* ---------- decision ---------- */
+  .options { display: grid; gap: 1px; background: var(--rule); border: 1px solid var(--rule); }
+  .opt { background: var(--surface); padding: 22px 24px; display: grid; grid-template-columns: 34px 1fr; gap: 0 16px; }
+  .opt .key { font-family: "IBM Plex Mono", monospace; font-size: 18px; color: var(--ink-faint); }
+  .opt.rec { box-shadow: inset 3px 0 0 var(--verdigris); }
+  .opt.rec .key { color: var(--verdigris); }
+  .opt h3 { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .rec-flag { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--verdigris); border: 1px solid var(--verdigris); padding: 2px 8px; }
+  .opt p { font-size: 15px; color: var(--ink-soft); margin: 6px 0 0; }
+
+  .default-band { margin-top: 22px; border: 1px dashed var(--rule-strong); padding: 16px 20px; font-size: 15px; color: var(--ink-soft); }
+  .default-band strong { color: var(--ink); }
+
+  .status-note { font-size: 14px; color: var(--ink-faint); margin-top: 12px; }
+  .status-note code { font-size: 13px; }
+  a { color: var(--schematic); }
+</style>
+
+<header class="mast">
+  <div class="wrap">
+    <div class="eyebrow">
+      <span>K1-CORE-VAL-R0</span>
+      <span>·</span>
+      <span>Migration assessment</span>
+      <span>·</span>
+      <span>28 Aug 2026</span>
+    </div>
+    <h1>The V3 one-way door</h1>
+    <p class="standfirst">EasyEDA V3 rewrites a project's file format the first time it saves, and a V2.2 client can never open it again. This is what that costs, what it buys, and the order of operations that keeps every rollback available.</p>
+    <div class="verdict">
+      <strong>Verdict:</strong> the upgrade is real and available, but it is not the decision to make first. Two things must happen regardless of whether we ever upgrade — and one of them is already exposed today.
+    </div>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section>
+    <h2>Where the versions actually stand</h2>
+    <div class="landscape">
+      <div class="lcard ours">
+        <div class="role">What we run</div>
+        <div class="ver mono">2.2.40.8</div>
+        <div class="meta">Desktop client and editor core. Built <strong>15 Jul 2025</strong> — about 13 months old. <strong>Not offered anywhere by the vendor</strong>; the archive jumps to 2.2.47.7.</div>
+      </div>
+      <div class="lcard live">
+        <div class="role">What is current</div>
+        <div class="ver mono">3.2.149</div>
+        <div class="meta">Desktop, including macOS Apple-silicon. V3.2 shipped 1 Jun 2026. The web editor at pro.easyeda.com already serves V3.2.148.</div>
+      </div>
+      <div class="lcard">
+        <div class="role">What the ecosystem targets</div>
+        <div class="ver mono">~3.2</div>
+        <div class="meta">easyeda-agent's connector and the marketplace build against the 3.2 extension API. Our bridge was validated against 2.2.40.8 behaviour.</div>
+      </div>
+    </div>
+    <p class="status-note">Our 2.2.40.8 bundle has now been archived to <code>SpectraSynq-EDA/_archive/easyeda-clients/</code> — before this it existed in exactly one place on earth, <code>/Applications</code>, with no way to obtain it again.</p>
+  </section>
+
+  <section>
+    <h2>The mechanism that makes this irreversible</h2>
+    <blockquote>
+      "V3 features a completely new file format. After you open and save legacy projects in V3, project files will be upgraded automatically. These upgraded files cannot be opened with V2.2, since the two versions use incompatible file structures."
+      <cite>EasyEDA Team — V3.2 release notice, 1 Jun 2026</cite>
+    </blockquote>
+
+    <div class="figframe">
+      <figure>
+        <svg viewBox="0 0 860 300" role="img" aria-label="A V2.2 project opened and saved in V3 becomes an epro2 file that V2.2 can never reopen; the only return path is an epro export taken before the upgrade, which reimports as a new project with new UUIDs.">
+          <defs>
+            <marker id="ar" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <polygon points="0,0 10,5 0,10" fill="currentColor"></polygon>
+            </marker>
+            <marker id="ar-c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+              <polygon points="0,0 10,5 0,10" fill="#A8471A"></polygon>
+            </marker>
+          </defs>
+
+          <!-- live project -->
+          <rect x="14" y="40" width="196" height="76" fill="none" stroke="currentColor" stroke-width="1.5"></rect>
+          <text x="112" y="70" text-anchor="middle" font-family="IBM Plex Sans Condensed, sans-serif" font-size="16" font-weight="600" fill="currentColor">K1-Core-Val-R0</text>
+          <text x="112" y="92" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="currentColor" opacity=".72">V2 cloud project</text>
+          <text x="112" y="108" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="currentColor" opacity=".55">.epro / .eprj</text>
+
+          <!-- arrow to v3 -->
+          <line x1="216" y1="78" x2="352" y2="78" stroke="#A8471A" stroke-width="2" marker-end="url(#ar-c)"></line>
+          <text x="284" y="66" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11.5" fill="#A8471A">open + save</text>
+          <text x="284" y="96" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11.5" fill="#A8471A">in V3</text>
+
+          <!-- migrated -->
+          <rect x="358" y="40" width="196" height="76" fill="none" stroke="#A8471A" stroke-width="2"></rect>
+          <text x="456" y="70" text-anchor="middle" font-family="IBM Plex Sans Condensed, sans-serif" font-size="16" font-weight="600" fill="#A8471A">Upgraded in place</text>
+          <text x="456" y="92" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="12" fill="#A8471A" opacity=".85">V3 project</text>
+          <text x="456" y="108" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#A8471A" opacity=".7">.epro2</text>
+
+          <!-- blocked return -->
+          <line x1="358" y1="140" x2="216" y2="140" stroke="#A8471A" stroke-width="1.5" stroke-dasharray="5 5"></line>
+          <line x1="279" y1="128" x2="295" y2="152" stroke="#A8471A" stroke-width="2"></line>
+          <line x1="295" y1="128" x2="279" y2="152" stroke="#A8471A" stroke-width="2"></line>
+          <text x="287" y="172" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11.5" fill="#A8471A">V2.2 can never reopen it</text>
+
+          <!-- backup path -->
+          <line x1="112" y1="122" x2="112" y2="212" stroke="currentColor" stroke-width="1.5" marker-end="url(#ar)"></line>
+          <text x="126" y="170" font-family="IBM Plex Mono, monospace" font-size="11.5" fill="currentColor">export BEFORE</text>
+
+          <rect x="14" y="218" width="196" height="62" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="4 4"></rect>
+          <text x="112" y="243" text-anchor="middle" font-family="IBM Plex Sans Condensed, sans-serif" font-size="15" font-weight="600" fill="currentColor">Local .epro backup</text>
+          <text x="112" y="263" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="currentColor" opacity=".6">the only return ticket</text>
+
+          <!-- restore path -->
+          <line x1="216" y1="249" x2="612" y2="249" stroke="currentColor" stroke-width="1.5" marker-end="url(#ar)"></line>
+          <text x="414" y="238" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11.5" fill="currentColor">reimport into V2.2</text>
+
+          <rect x="618" y="218" width="228" height="62" fill="none" stroke="currentColor" stroke-width="1.5"></rect>
+          <text x="732" y="243" text-anchor="middle" font-family="IBM Plex Sans Condensed, sans-serif" font-size="15" font-weight="600" fill="currentColor">Restored — as a NEW project</text>
+          <text x="732" y="263" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11" fill="#A8471A">new UUIDs · provenance breaks</text>
+
+          <!-- v3 forward -->
+          <line x1="560" y1="78" x2="612" y2="78" stroke="currentColor" stroke-width="1.5" marker-end="url(#ar)"></line>
+          <rect x="618" y="40" width="228" height="76" fill="none" stroke="currentColor" stroke-width="1.5"></rect>
+          <text x="732" y="70" text-anchor="middle" font-family="IBM Plex Sans Condensed, sans-serif" font-size="16" font-weight="600" fill="currentColor">V3.2 tooling</text>
+          <text x="732" y="92" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11.5" fill="currentColor" opacity=".72">native version control,</text>
+          <text x="732" y="107" text-anchor="middle" font-family="IBM Plex Mono, monospace" font-size="11.5" fill="currentColor" opacity=".72">new extension APIs</text>
+        </svg>
+        <figcaption>The door swings one way. Rolling back the <em>application</em> does not roll back the <em>project</em> — the cloud copy is migrated in place, so the only return is a local <code>.epro</code> export taken beforehand, and reimporting it mints new UUIDs that our mutation state, ledger and evidence manifests are all keyed to.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>Two things that are true right now</h2>
+    <div class="col">
+      <h3>1. The hazard is already live, with nothing installed</h3>
+      <p>The web editor at pro.easyeda.com serves V3.2 today, and it reaches the same cloud projects as the desktop client. Opening K1 there and letting it save migrates the project — no download, no install, no warning from us. Autosave means "open" and "save" are effectively the same act.</p>
+      <p><strong>Until backups exist, production projects should be opened only in the 2.2.40.8 desktop client.</strong></p>
+
+      <h3>2. Our measuring instrument is broken</h3>
+      <p>The bridge's own <code>get_capabilities</code> currently reports 87 of 90 methods unsupported and the <code>dmt_*</code>, <code>sch_*</code> and <code>pcb_*</code> mounts missing. Minutes later <code>list_project_objects</code> — which that report calls unsupported for want of <code>dmt_Board</code> — returned the complete, correct project tree.</p>
+      <p>The probe emits false negatives. That matters far beyond tidiness: it is precisely the instrument we would use to answer "does V3 still expose what we need?" A migration cannot be validated with an oracle that cannot pass a positive control.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Correction to the 28 Aug trial finding</h2>
+    <div class="col">
+      <p>Yesterday's conclusion — that the easyeda-agent connector is inert because a 3.2-era bundle is refused by a 2.2 loader — <strong>does not survive checking</strong>. The working Run API Gateway declares the same <code>engines.eda ~3.2.0</code> and the same <code>@jlceda/pro-api-types ^0.2.21</code> as the dead connector, on this same host, and the packaged <code>.eext</code> contains a well-formed <code>dist/index.js</code>.</p>
+      <p>The surviving hypothesis is narrower and cheaper: the connector's <code>activate()</code> reaches for <code>eda.sys_Storage</code>, <code>sys_I18n</code> and <code>sys_Log</code> before it ever dials, and an unguarded call to a mount this build lacks throws silently — menus registered, module dead. That is the documented F96 failure class, and if it holds, a guard patch fixes the connector on 2.2.40.8 <em>with no upgrade at all</em>.</p>
+      <p>The capability probe in Phase 1 answers this as a by-product. The upgrade decision should not be made on yesterday's reasoning.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Order of operations</h2>
+
+    <div class="phase">
+      <div class="pnum">P0</div>
+      <div class="pbody">
+        <h3>Fence and freeze</h3>
+        <p>Export every project — cloud and offline — to local <code>.epro</code> / <code>.elibz</code>, checksum them, and <em>prove each one restores</em> by reimporting into a scratch project on the current client. An unverified backup is not a backup. Record the project and document UUIDs so provenance can be remapped later. Archive the client bundle and its user-data directory with the app closed. Disarm every auto-connecting daemon for the window.</p>
+        <div class="pmeta">
+          <span class="tag safe">no install</span>
+          <span class="tag safe">fully reversible</span>
+          <span class="tag gate">GATE: every export reimports clean</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="phase">
+      <div class="pnum">P1</div>
+      <div class="pbody">
+        <h3>Repair the instrument</h3>
+        <p>Build a read-only capability probe that enumerates the live <code>eda.*</code> surface and emits a capability manifest. It ships only once it is fault-evident: a known-present mount must read present, a fabricated mount name must read absent, and its verdict must match observed tool behaviour across a sample of methods. Then fix or replace <code>get_capabilities</code> so the bridge stops lying. By-product: the exact list of mounts 2.2.40.8 lacks, which settles the connector question.</p>
+        <div class="pmeta">
+          <span class="tag safe">read-only</span>
+          <span class="tag gate">GATE: probe goes red on an injected fault</span>
+          <span class="tag">answers the connector question</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="phase">
+      <div class="pnum">P2</div>
+      <div class="pbody">
+        <h3>Characterise V3 in isolation</h3>
+        <p>Install 3.2.149 beside the current client — different bundle path, separate user-data directory — and point it only at throwaway projects. Run the same probe to produce a V2↔V3 capability delta. Establish empirically whether opening alone migrates or only saving does, using a disposable subject. Expect our CDP automation to break here: V3 moves the extension manager to Advanced and adds a script manager.</p>
+        <div class="pmeta">
+          <span class="tag danger">scratch projects only</span>
+          <span class="tag gate">GATE: delta matrix published before any rework</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="phase">
+      <div class="pnum">P3</div>
+      <div class="pbody">
+        <h3>Re-architect for version portability</h3>
+        <p>Every tool declares the mounts it needs; dispatch resolves them against the live probe manifest at handshake and fails closed, by name, when one is absent — never silently degrading. Add a differential harness that runs the same operation on both hosts and compares the <em>emitted artefacts</em> — netlist, document source, Gerber — not the return flags. 2.2.40.8 stays the reference implementation until that harness is green.</p>
+        <div class="pmeta">
+          <span class="tag safe">2.2.40.8 stays primary</span>
+          <span class="tag gate">GATE: differential harness green on both hosts</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="phase">
+      <div class="pnum">P4</div>
+      <div class="pbody">
+        <h3>Rehearse the rollback, then decide</h3>
+        <p>Clone a real project, migrate the clone, run the full pipeline on V3, then execute the documented rollback end to end and verify the restored copy against its checksums. A rollback that has never been performed does not exist. Only after a clean rehearsal does cutover become a decision rather than a gamble.</p>
+        <div class="pmeta">
+          <span class="tag danger">first migration of real data</span>
+          <span class="tag gate">GATE: rehearsed restore verified against checksum</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>The point of no return</h2>
+    <div class="ponr">
+      <div class="label">One line, one moment</div>
+      <div class="line">The first save of a production project under V3.<br>Everything before it is reversible. Nothing after it is, except from the backups taken in P0.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Rollback ladder</h2>
+    <div class="tblwrap">
+      <table>
+        <thead>
+          <tr><th>Rung</th><th>Trigger</th><th>Action</th><th>Cost</th><th>Does NOT restore</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="rung">1</td>
+            <td>Bridge or tooling regression only</td>
+            <td>Reimport the previous <code>.eext</code> (UUID is stable), restart the client</td>
+            <td>Minutes</td>
+            <td class="nores">Any document already changed</td>
+          </tr>
+          <tr>
+            <td class="rung">2</td>
+            <td>Client-level breakage</td>
+            <td>Relaunch the archived <code>2.2.40.8</code> bundle and restore its user-data directory</td>
+            <td>Minutes</td>
+            <td class="nores">Cloud projects already migrated to .epro2</td>
+          </tr>
+          <tr>
+            <td class="rung">3</td>
+            <td>A production project has been migrated</td>
+            <td>Reimport its <code>.epro</code> backup into the 2.2.40.8 client</td>
+            <td>Hours + remap</td>
+            <td class="nores">Original UUIDs — provenance must be remapped</td>
+          </tr>
+          <tr>
+            <td class="rung">4</td>
+            <td>Account or team-wide corruption</td>
+            <td>Fresh team, bulk import of all P0 backups, re-point tooling</td>
+            <td>A day</td>
+            <td class="nores">Cloud history, comments, sharing links</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>What the red team found</h2>
+    <div class="tblwrap">
+      <table>
+        <thead>
+          <tr><th>Severity</th><th>Failure mode</th><th>Why the obvious plan misses it</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="sev crit">CRITICAL</span></td>
+            <td>Binary rollback mistaken for data rollback</td>
+            <td>The project lives in JLC's cloud, not in the app. Reinstalling 2.2.40.8 restores the tool and not the file it can no longer open.</td>
+          </tr>
+          <tr>
+            <td><span class="sev crit">CRITICAL</span></td>
+            <td>Autosave performs the migration for you</td>
+            <td>"Just open it and look" is not read-only. The editor autosaves, and our own agent daemon shipped with a 3-second autosave debounce.</td>
+          </tr>
+          <tr>
+            <td><span class="sev crit">CRITICAL</span></td>
+            <td>Validating with a broken oracle</td>
+            <td><code>get_capabilities</code> already reports working mounts as missing. Used as the migration gate, it would condemn a healthy host — or bless a broken one.</td>
+          </tr>
+          <tr>
+            <td><span class="sev high">HIGH</span></td>
+            <td>Restore breaks the evidence chain</td>
+            <td>Reimport mints new UUIDs, but <code>EASYEDA-MUTATION-STATE.json</code>, the mutation ledger and evidence manifests are keyed to the old ones.</td>
+          </tr>
+          <tr>
+            <td><span class="sev high">HIGH</span></td>
+            <td>Source-hash gating assumes the V2 format</td>
+            <td>Transaction gating rests on <code>get_document_source</code> and <code>expectedSourceHash</code>. A new on-disk representation changes what those hash.</td>
+          </tr>
+          <tr>
+            <td><span class="sev high">HIGH</span></td>
+            <td>Our exact build is unobtainable</td>
+            <td>The vendor archive offers 2.2.47.7 and 2.1.64 — not 2.2.40.8. Losing the bundle loses the only host our bridge was validated against. <em>Now archived.</em></td>
+          </tr>
+          <tr>
+            <td><span class="sev med">MEDIUM</span></td>
+            <td>Mixed-fleet drift</td>
+            <td>One account, one cloud. Running both clients means any project opened under V3 converts silently while the other half of the work still expects V2.</td>
+          </tr>
+          <tr>
+            <td><span class="sev med">MEDIUM</span></td>
+            <td>Staying put is not free</td>
+            <td>13 months stale and widening. Every third-party extension will keep failing the way the connector did, and each diagnosis costs a session.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section>
+    <h2>The decision</h2>
+    <div class="options">
+      <div class="opt rec">
+        <div class="key">A</div>
+        <div>
+          <h3>Hold on 2.2.40.8 — run P0 and P1 now <span class="rec-flag">Recommended</span></h3>
+          <p>Backups, archived client, working capability probe. Costs no upgrade risk, removes the live hazard, and very likely fixes the connector on the current host as a by-product. Everything after stays optional.</p>
+        </div>
+      </div>
+      <div class="opt">
+        <div class="key">B</div>
+        <div>
+          <h3>Commit to the full migration, P0 through P4</h3>
+          <p>Buys the 3.2 ecosystem, native version control with branch switching, and native APIs that replace hand-rolled bridge methods. Costs real engineering on the bridge and a rehearsed cutover. Reasonable — but only after P1, since the delta cannot be measured until the probe works.</p>
+        </div>
+      </div>
+      <div class="opt">
+        <div class="key">C</div>
+        <div>
+          <h3>Defer the upgrade question entirely</h3>
+          <p>Legitimate. P0 is still mandatory: the web editor is already V3 and reaches the same projects, so the exposure exists whether or not we ever install anything.</p>
+        </div>
+      </div>
+    </div>
+    <div class="default-band">
+      <strong>Default if nothing is said:</strong> P0 and P1 proceed, nothing is installed, no production project is opened outside the 2.2.40.8 client, and the upgrade decision waits for the capability delta.
+    </div>
+  </section>
+
+</div>

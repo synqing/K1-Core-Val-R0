@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-rt-boot-clock-completion-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Move reset and boot support into box 4; complete the TPS3808G33 reset circuit; set passive internal-boot straps to 10; replace the 1.8 V flash with a 3 V part; correct the 6 pF crystal load network and add the NXP XTALI bias resistor",
+  "observed_delta": "The settled box-4 screenshot shows the corrected 3 V flash, complete quad data bus, 8.2 pF crystal load parts, 2.2 M bias, 10 k boot straps and completed reset supervisor. The electrical delta is present exactly once, but the long settings note overlaps the R17/R18 UART resistor row and the reset cluster is unnecessarily compressed against the left side.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-rt-boot-clock-completion-box4.png",
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [
+    "The RT settings note overlaps the R17/R18 row",
+    "The U7 reset cluster needs more left clearance and horizontal spacing"
+  ],
+  "verdict": "REJECTED",
+  "checks": [
+    {
+      "name": "electrical replacement identity",
+      "result": "OK",
+      "detail": "U8 reads 64Mbit / 3V, C35/C36 read 8.2pF, R68 reads 2.2M, and R10/R11 read 10k with no visible duplicates."
+    },
+    {
+      "name": "flash and boot endpoint labels",
+      "result": "OK",
+      "detail": "FLEXSPI_D0 through D3, SCLK, SS0, BOOT_MODE0 low strap and BOOT_MODE1 high strap are visible."
+    },
+    {
+      "name": "settings note clearance",
+      "result": "DEFECT",
+      "detail": "The blue settings note crosses the R17/R18 designator and net-label row."
+    },
+    {
+      "name": "reset cluster spacing",
+      "result": "DEFECT",
+      "detail": "U7 and its long left-side net labels are crowded near the box border; the row should be redistributed."
+    },
+    {
+      "name": "whole-sheet modal check",
+      "result": "OK",
+      "detail": "The whole-sheet screenshot is modal-free and shows no unrelated domain movement."
+    }
+  ]
+}

@@ -1,0 +1,3194 @@
+[
+ {
+  "tag": "C18",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e3055",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e3055e4",
+     "x": 2645,
+     "y": -4130,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3055e10",
+     "x": 2685,
+     "y": -4130,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C19",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e3091",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e3091e5",
+     "x": 2810,
+     "y": -3975,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e3091e9",
+     "x": 2840,
+     "y": -3975,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R10",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e3127",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e3127e4",
+     "x": 2685,
+     "y": -4290,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e3127e8",
+     "x": 2645,
+     "y": -4290,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R11",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e3166",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e3166e4",
+     "x": 2845,
+     "y": -4290,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e3166e8",
+     "x": 2805,
+     "y": -4290,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R12",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e3205",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e3205e3",
+     "x": 2845,
+     "y": -4130,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e3205e7",
+     "x": 2805,
+     "y": -4130,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "SW1",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e3244",
+   "count": 4,
+   "pins": [
+    {
+     "primitiveId": "e3244e3",
+     "x": 2635,
+     "y": -3990,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e3244e7",
+     "x": 2695,
+     "y": -3990,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e3244e11",
+     "x": 2635,
+     "y": -3950,
+     "pinNumber": "3",
+     "pinName": "3",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e3244e15",
+     "x": 2695,
+     "y": -3950,
+     "pinNumber": "4",
+     "pinName": "4",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "U6",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e3295",
+   "count": 98,
+   "pins": [
+    {
+     "primitiveId": "e3295e3",
+     "x": 2205,
+     "y": -4510,
+     "pinNumber": "G14",
+     "pinName": "GPIO_AD_B0_05",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e7",
+     "x": 2205,
+     "y": -4500,
+     "pinNumber": "G13",
+     "pinName": "GPIO_AD_B0_10",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e11",
+     "x": 2205,
+     "y": -4490,
+     "pinNumber": "G12",
+     "pinName": "GPIO_AD_B1_14",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e15",
+     "x": 2205,
+     "y": -4480,
+     "pinNumber": "G11",
+     "pinName": "GPIO_AD_B0_03",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e19",
+     "x": 2205,
+     "y": -4470,
+     "pinNumber": "G10",
+     "pinName": "GPIO_AD_B0_11",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e23",
+     "x": 2205,
+     "y": -4460,
+     "pinNumber": "G9",
+     "pinName": "VDD_SOC_IN",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e27",
+     "x": 2205,
+     "y": -4450,
+     "pinNumber": "G8",
+     "pinName": "VSS",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e31",
+     "x": 2205,
+     "y": -4440,
+     "pinNumber": "G7",
+     "pinName": "VSS",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e35",
+     "x": 2205,
+     "y": -4430,
+     "pinNumber": "G6",
+     "pinName": "VDD_SOC_IN",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e39",
+     "x": 2205,
+     "y": -4420,
+     "pinNumber": "G5",
+     "pinName": "GPIO_EMC_05",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e43",
+     "x": 2205,
+     "y": -4410,
+     "pinNumber": "G4",
+     "pinName": "GPIO_EMC_03",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e47",
+     "x": 2205,
+     "y": -4400,
+     "pinNumber": "G3",
+     "pinName": "GPIO_EMC_11",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e51",
+     "x": 2205,
+     "y": -4390,
+     "pinNumber": "G2",
+     "pinName": "GPIO_EMC_23",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e55",
+     "x": 2205,
+     "y": -4380,
+     "pinNumber": "G1",
+     "pinName": "GPIO_EMC_10",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e59",
+     "x": 2205,
+     "y": -4370,
+     "pinNumber": "F14",
+     "pinName": "GPIO_AD_B0_09",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e63",
+     "x": 2205,
+     "y": -4360,
+     "pinNumber": "F13",
+     "pinName": "GPIO_AD_B0_08",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e67",
+     "x": 2205,
+     "y": -4350,
+     "pinNumber": "F12",
+     "pinName": "GPIO_AD_B0_07",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e71",
+     "x": 2205,
+     "y": -4340,
+     "pinNumber": "F11",
+     "pinName": "GPIO_AD_B0_04",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e75",
+     "x": 2205,
+     "y": -4330,
+     "pinNumber": "F10",
+     "pinName": "NVCC_GPIO",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e79",
+     "x": 2205,
+     "y": -4320,
+     "pinNumber": "F9",
+     "pinName": "VDD_SOC_IN",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e83",
+     "x": 2205,
+     "y": -4310,
+     "pinNumber": "F8",
+     "pinName": "VDD_SOC_IN",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e87",
+     "x": 2205,
+     "y": -4300,
+     "pinNumber": "F7",
+     "pinName": "VDD_SOC_IN",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e91",
+     "x": 2205,
+     "y": -4290,
+     "pinNumber": "F6",
+     "pinName": "VDD_SOC_IN",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e95",
+     "x": 2205,
+     "y": -4280,
+     "pinNumber": "F5",
+     "pinName": "NVCC_EMC",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e99",
+     "x": 2205,
+     "y": -4270,
+     "pinNumber": "F4",
+     "pinName": "GPIO_EMC_02",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e103",
+     "x": 2205,
+     "y": -4260,
+     "pinNumber": "F3",
+     "pinName": "GPIO_EMC_01",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e107",
+     "x": 2205,
+     "y": -4250,
+     "pinNumber": "F2",
+     "pinName": "GPIO_EMC_04",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e111",
+     "x": 2205,
+     "y": -4240,
+     "pinNumber": "F1",
+     "pinName": "GPIO_EMC_22",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e115",
+     "x": 2205,
+     "y": -4230,
+     "pinNumber": "E14",
+     "pinName": "GPIO_AD_B0_06",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e119",
+     "x": 2205,
+     "y": -4220,
+     "pinNumber": "E13",
+     "pinName": "VSS",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e123",
+     "x": 2205,
+     "y": -4210,
+     "pinNumber": "E12",
+     "pinName": "GPIO_B1_04",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e127",
+     "x": 2205,
+     "y": -4200,
+     "pinNumber": "E11",
+     "pinName": "GPIO_B0_15",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e131",
+     "x": 2205,
+     "y": -4190,
+     "pinNumber": "E10",
+     "pinName": "GPIO_B0_14",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e135",
+     "x": 2205,
+     "y": -4180,
+     "pinNumber": "E9",
+     "pinName": "NVCC_GPIO",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e139",
+     "x": 2205,
+     "y": -4170,
+     "pinNumber": "E8",
+     "pinName": "GPIO_B0_02",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e143",
+     "x": 2205,
+     "y": -4160,
+     "pinNumber": "E7",
+     "pinName": "GPIO_B0_01",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e147",
+     "x": 2205,
+     "y": -4150,
+     "pinNumber": "E6",
+     "pinName": "NVCC_EMC",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e151",
+     "x": 2205,
+     "y": -4140,
+     "pinNumber": "E5",
+     "pinName": "GPIO_EMC_35",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e155",
+     "x": 2205,
+     "y": -4130,
+     "pinNumber": "E4",
+     "pinName": "GPIO_EMC_37",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e159",
+     "x": 2205,
+     "y": -4120,
+     "pinNumber": "E3",
+     "pinName": "GPIO_EMC_00",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e163",
+     "x": 2205,
+     "y": -4110,
+     "pinNumber": "E2",
+     "pinName": "VSS",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e167",
+     "x": 2205,
+     "y": -4100,
+     "pinNumber": "E1",
+     "pinName": "GPIO_EMC_29",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e171",
+     "x": 2205,
+     "y": -4090,
+     "pinNumber": "D14",
+     "pinName": "GPIO_B1_13",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e175",
+     "x": 2205,
+     "y": -4080,
+     "pinNumber": "D13",
+     "pinName": "GPIO_B1_12",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e179",
+     "x": 2205,
+     "y": -4070,
+     "pinNumber": "D12",
+     "pinName": "GPIO_B1_05",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e183",
+     "x": 2205,
+     "y": -4060,
+     "pinNumber": "D11",
+     "pinName": "GPIO_B1_03",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e187",
+     "x": 2205,
+     "y": -4050,
+     "pinNumber": "D10",
+     "pinName": "GPIO_B0_13",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e191",
+     "x": 2205,
+     "y": -4040,
+     "pinNumber": "D9",
+     "pinName": "GPIO_B0_10",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e195",
+     "x": 2205,
+     "y": -4030,
+     "pinNumber": "D8",
+     "pinName": "GPIO_B0_03",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e199",
+     "x": 2005,
+     "y": -4030,
+     "pinNumber": "D7",
+     "pinName": "GPIO_B0_00",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e203",
+     "x": 2005,
+     "y": -4040,
+     "pinNumber": "D6",
+     "pinName": "GPIO_EMC_38",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e207",
+     "x": 2005,
+     "y": -4050,
+     "pinNumber": "D5",
+     "pinName": "GPIO_EMC_32",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e211",
+     "x": 2005,
+     "y": -4060,
+     "pinNumber": "D4",
+     "pinName": "GPIO_EMC_34",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e215",
+     "x": 2005,
+     "y": -4070,
+     "pinNumber": "D3",
+     "pinName": "GPIO_EMC_24",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e219",
+     "x": 2005,
+     "y": -4080,
+     "pinNumber": "D2",
+     "pinName": "GPIO_EMC_25",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e223",
+     "x": 2005,
+     "y": -4090,
+     "pinNumber": "D1",
+     "pinName": "GPIO_EMC_28",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e227",
+     "x": 2005,
+     "y": -4100,
+     "pinNumber": "C14",
+     "pinName": "GPIO_B1_14",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e231",
+     "x": 2005,
+     "y": -4110,
+     "pinNumber": "C13",
+     "pinName": "GPIO_B1_11",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e235",
+     "x": 2005,
+     "y": -4120,
+     "pinNumber": "C12",
+     "pinName": "GPIO_B1_06",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e239",
+     "x": 2005,
+     "y": -4130,
+     "pinNumber": "C11",
+     "pinName": "GPIO_B1_02",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e243",
+     "x": 2005,
+     "y": -4140,
+     "pinNumber": "C10",
+     "pinName": "GPIO_B0_12",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e247",
+     "x": 2005,
+     "y": -4150,
+     "pinNumber": "C9",
+     "pinName": "GPIO_B0_09",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e251",
+     "x": 2005,
+     "y": -4160,
+     "pinNumber": "C8",
+     "pinName": "GPIO_B0_04",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e255",
+     "x": 2005,
+     "y": -4170,
+     "pinNumber": "C7",
+     "pinName": "GPIO_EMC_41",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e259",
+     "x": 2005,
+     "y": -4180,
+     "pinNumber": "C6",
+     "pinName": "GPIO_EMC_30",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e263",
+     "x": 2005,
+     "y": -4190,
+     "pinNumber": "C5",
+     "pinName": "GPIO_EMC_31",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e267",
+     "x": 2005,
+     "y": -4200,
+     "pinNumber": "C4",
+     "pinName": "GPIO_EMC_33",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e271",
+     "x": 2005,
+     "y": -4210,
+     "pinNumber": "C3",
+     "pinName": "GPIO_EMC_36",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e275",
+     "x": 2005,
+     "y": -4220,
+     "pinNumber": "C2",
+     "pinName": "GPIO_EMC_09",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e279",
+     "x": 2005,
+     "y": -4230,
+     "pinNumber": "C1",
+     "pinName": "GPIO_EMC_21",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e283",
+     "x": 2005,
+     "y": -4240,
+     "pinNumber": "B14",
+     "pinName": "GPIO_B1_15",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e287",
+     "x": 2005,
+     "y": -4250,
+     "pinNumber": "B13",
+     "pinName": "GPIO_B1_10",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e291",
+     "x": 2005,
+     "y": -4260,
+     "pinNumber": "B12",
+     "pinName": "GPIO_B1_07",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e295",
+     "x": 2005,
+     "y": -4270,
+     "pinNumber": "B11",
+     "pinName": "GPIO_B1_01",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e299",
+     "x": 2005,
+     "y": -4280,
+     "pinNumber": "B10",
+     "pinName": "VSS",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e303",
+     "x": 2005,
+     "y": -4290,
+     "pinNumber": "B9",
+     "pinName": "GPIO_B0_08",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e307",
+     "x": 2005,
+     "y": -4300,
+     "pinNumber": "B8",
+     "pinName": "GPIO_B0_05",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e311",
+     "x": 2005,
+     "y": -4310,
+     "pinNumber": "B7",
+     "pinName": "GPIO_EMC_39",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e315",
+     "x": 2005,
+     "y": -4320,
+     "pinNumber": "B6",
+     "pinName": "GPIO_EMC_14",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e319",
+     "x": 2005,
+     "y": -4330,
+     "pinNumber": "B5",
+     "pinName": "VSS",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e323",
+     "x": 2005,
+     "y": -4340,
+     "pinNumber": "B4",
+     "pinName": "GPIO_EMC_19",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e327",
+     "x": 2005,
+     "y": -4350,
+     "pinNumber": "B3",
+     "pinName": "GPIO_EMC_26",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e331",
+     "x": 2005,
+     "y": -4360,
+     "pinNumber": "B2",
+     "pinName": "GPIO_EMC_18",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e335",
+     "x": 2005,
+     "y": -4370,
+     "pinNumber": "B1",
+     "pinName": "GPIO_EMC_15",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e339",
+     "x": 2005,
+     "y": -4380,
+     "pinNumber": "A14",
+     "pinName": "VSS",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e343",
+     "x": 2005,
+     "y": -4390,
+     "pinNumber": "A13",
+     "pinName": "GPIO_B1_09",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e347",
+     "x": 2005,
+     "y": -4400,
+     "pinNumber": "A12",
+     "pinName": "GPIO_B1_08",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e351",
+     "x": 2005,
+     "y": -4410,
+     "pinNumber": "A11",
+     "pinName": "GPIO_B1_00",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e355",
+     "x": 2005,
+     "y": -4420,
+     "pinNumber": "A10",
+     "pinName": "GPIO_B0_11",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e359",
+     "x": 2005,
+     "y": -4430,
+     "pinNumber": "A9",
+     "pinName": "GPIO_B0_07",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e363",
+     "x": 2005,
+     "y": -4440,
+     "pinNumber": "A8",
+     "pinName": "GPIO_B0_06",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e367",
+     "x": 2005,
+     "y": -4450,
+     "pinNumber": "A7",
+     "pinName": "GPIO_EMC_40",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e371",
+     "x": 2005,
+     "y": -4460,
+     "pinNumber": "A6",
+     "pinName": "GPIO_EMC_13",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e375",
+     "x": 2005,
+     "y": -4470,
+     "pinNumber": "A5",
+     "pinName": "GPIO_EMC_16",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e379",
+     "x": 2005,
+     "y": -4480,
+     "pinNumber": "A4",
+     "pinName": "GPIO_EMC_17",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e383",
+     "x": 2005,
+     "y": -4490,
+     "pinNumber": "A3",
+     "pinName": "GPIO_EMC_20",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e387",
+     "x": 2005,
+     "y": -4500,
+     "pinNumber": "A2",
+     "pinName": "GPIO_EMC_27",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3295e391",
+     "x": 2005,
+     "y": -4510,
+     "pinNumber": "A1",
+     "pinName": "VSS",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "U7",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e3619",
+   "count": 6,
+   "pins": [
+    {
+     "primitiveId": "e3619e5",
+     "x": 2690,
+     "y": -4480,
+     "pinNumber": "1",
+     "pinName": "RESET#",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3619e9",
+     "x": 2690,
+     "y": -4470,
+     "pinNumber": "2",
+     "pinName": "GND",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3619e13",
+     "x": 2690,
+     "y": -4460,
+     "pinNumber": "3",
+     "pinName": "MR#",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3619e17",
+     "x": 2800,
+     "y": -4460,
+     "pinNumber": "4",
+     "pinName": "CT",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3619e21",
+     "x": 2800,
+     "y": -4470,
+     "pinNumber": "5",
+     "pinName": "SENSE",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3619e25",
+     "x": 2800,
+     "y": -4480,
+     "pinNumber": "6",
+     "pinName": "VDD",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C20",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e3997",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e3997e4",
+     "x": 2065,
+     "y": -3720,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3997e10",
+     "x": 2105,
+     "y": -3720,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C21",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e4033",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e4033e5",
+     "x": 2214,
+     "y": -3720,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e4033e9",
+     "x": 2244,
+     "y": -3720,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C22",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e4069",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e4069e4",
+     "x": 2353,
+     "y": -3720,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e4069e10",
+     "x": 2393,
+     "y": -3720,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C23",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e4105",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e4105e5",
+     "x": 2502,
+     "y": -3720,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e4105e9",
+     "x": 2532,
+     "y": -3720,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C24",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e4141",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e4141e4",
+     "x": 2641,
+     "y": -3720,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e4141e10",
+     "x": 2681,
+     "y": -3720,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C25",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e4177",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e4177e4",
+     "x": 2785,
+     "y": -3720,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e4177e10",
+     "x": 2825,
+     "y": -3720,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C26",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e4213",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e4213e5",
+     "x": 2070,
+     "y": -3802,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e4213e9",
+     "x": 2100,
+     "y": -3802,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C27",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e4249",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e4249e4",
+     "x": 2209,
+     "y": -3802,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e4249e10",
+     "x": 2249,
+     "y": -3802,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C28",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e4285",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e4285e4",
+     "x": 2353,
+     "y": -3802,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e4285e10",
+     "x": 2393,
+     "y": -3802,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C29",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e4321",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e4321e4",
+     "x": 2497,
+     "y": -3802,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e4321e10",
+     "x": 2537,
+     "y": -3802,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C30",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e4357",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e4357e4",
+     "x": 2641,
+     "y": -3802,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e4357e10",
+     "x": 2681,
+     "y": -3802,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C31",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e4393",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e4393e5",
+     "x": 2790,
+     "y": -3802,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e4393e9",
+     "x": 2820,
+     "y": -3802,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C32",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e4429",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e4429e4",
+     "x": 2065,
+     "y": -3885,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e4429e10",
+     "x": 2105,
+     "y": -3885,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C33",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e4465",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e4465e4",
+     "x": 2209,
+     "y": -3885,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e4465e10",
+     "x": 2249,
+     "y": -3885,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C34",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e4501",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e4501e4",
+     "x": 2353,
+     "y": -3885,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e4501e10",
+     "x": 2393,
+     "y": -3885,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "U6u2",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e3673",
+   "count": 98,
+   "pins": [
+    {
+     "primitiveId": "e3673e399",
+     "x": 2505,
+     "y": -4510,
+     "pinNumber": "P14",
+     "pinName": "VSS",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e403",
+     "x": 2505,
+     "y": -4500,
+     "pinNumber": "P13",
+     "pinName": "CCM_CLK1_N",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e407",
+     "x": 2505,
+     "y": -4490,
+     "pinNumber": "P12",
+     "pinName": "VDD_HIGH_IN",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e411",
+     "x": 2505,
+     "y": -4480,
+     "pinNumber": "P11",
+     "pinName": "XTALI",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e415",
+     "x": 2505,
+     "y": -4470,
+     "pinNumber": "P10",
+     "pinName": "NVCC_PLL",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e419",
+     "x": 2505,
+     "y": -4460,
+     "pinNumber": "P9",
+     "pinName": "RTC_XTALO",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e423",
+     "x": 2505,
+     "y": -4450,
+     "pinNumber": "P8",
+     "pinName": "VDD_HIGH_CAP",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e427",
+     "x": 2505,
+     "y": -4440,
+     "pinNumber": "P7",
+     "pinName": "USB_OTG2_DP",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e431",
+     "x": 2505,
+     "y": -4430,
+     "pinNumber": "P6",
+     "pinName": "USB_OTG2_VBUS",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e435",
+     "x": 2505,
+     "y": -4420,
+     "pinNumber": "P5",
+     "pinName": "GPIO_SD_B1_11",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e439",
+     "x": 2505,
+     "y": -4410,
+     "pinNumber": "P4",
+     "pinName": "GPIO_SD_B1_10",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e443",
+     "x": 2505,
+     "y": -4400,
+     "pinNumber": "P3",
+     "pinName": "GPIO_SD_B1_08",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e447",
+     "x": 2505,
+     "y": -4390,
+     "pinNumber": "P2",
+     "pinName": "GPIO_SD_B1_04",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e451",
+     "x": 2505,
+     "y": -4380,
+     "pinNumber": "P1",
+     "pinName": "VSS",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e455",
+     "x": 2505,
+     "y": -4370,
+     "pinNumber": "N14",
+     "pinName": "VDDA_ADC_3P3",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e459",
+     "x": 2505,
+     "y": -4360,
+     "pinNumber": "N13",
+     "pinName": "CCM_CLK1_P",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e463",
+     "x": 2505,
+     "y": -4350,
+     "pinNumber": "N12",
+     "pinName": "USB_OTG1_CHD_B",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e467",
+     "x": 2505,
+     "y": -4340,
+     "pinNumber": "N11",
+     "pinName": "XTALO",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e471",
+     "x": 2505,
+     "y": -4330,
+     "pinNumber": "N10",
+     "pinName": "GPANAIO",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e475",
+     "x": 2505,
+     "y": -4320,
+     "pinNumber": "N9",
+     "pinName": "RTC_XTALI",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e479",
+     "x": 2505,
+     "y": -4310,
+     "pinNumber": "N8",
+     "pinName": "VSS",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e483",
+     "x": 2505,
+     "y": -4300,
+     "pinNumber": "N7",
+     "pinName": "USB_OTG2_DN",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e487",
+     "x": 2505,
+     "y": -4290,
+     "pinNumber": "N6",
+     "pinName": "USB_OTG1_VBUS",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e491",
+     "x": 2505,
+     "y": -4280,
+     "pinNumber": "N5",
+     "pinName": "VSS",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e495",
+     "x": 2505,
+     "y": -4270,
+     "pinNumber": "N4",
+     "pinName": "GPIO_SD_B1_09",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e499",
+     "x": 2505,
+     "y": -4260,
+     "pinNumber": "N3",
+     "pinName": "GPIO_SD_B1_05",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e503",
+     "x": 2505,
+     "y": -4250,
+     "pinNumber": "N2",
+     "pinName": "DCDC_GND",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e507",
+     "x": 2505,
+     "y": -4240,
+     "pinNumber": "N1",
+     "pinName": "DCDC_GND",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e511",
+     "x": 2505,
+     "y": -4230,
+     "pinNumber": "M14",
+     "pinName": "GPIO_AD_B0_00",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e515",
+     "x": 2505,
+     "y": -4220,
+     "pinNumber": "M13",
+     "pinName": "GPIO_AD_B1_09",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e519",
+     "x": 2505,
+     "y": -4210,
+     "pinNumber": "M12",
+     "pinName": "GPIO_AD_B1_03",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e523",
+     "x": 2505,
+     "y": -4200,
+     "pinNumber": "M11",
+     "pinName": "GPIO_AD_B0_02",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e527",
+     "x": 2505,
+     "y": -4190,
+     "pinNumber": "M10",
+     "pinName": "VDD_SNVS_CAP",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e531",
+     "x": 2505,
+     "y": -4180,
+     "pinNumber": "M9",
+     "pinName": "VDD_SNVS_IN",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e535",
+     "x": 2505,
+     "y": -4170,
+     "pinNumber": "M8",
+     "pinName": "USB_OTG1_DN",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e539",
+     "x": 2505,
+     "y": -4160,
+     "pinNumber": "M7",
+     "pinName": "POR_B",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e543",
+     "x": 2505,
+     "y": -4150,
+     "pinNumber": "M6",
+     "pinName": "ONOFF",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e547",
+     "x": 2505,
+     "y": -4140,
+     "pinNumber": "M5",
+     "pinName": "GPIO_SD_B1_01",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e551",
+     "x": 2505,
+     "y": -4130,
+     "pinNumber": "M4",
+     "pinName": "GPIO_SD_B1_03",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e555",
+     "x": 2505,
+     "y": -4120,
+     "pinNumber": "M3",
+     "pinName": "GPIO_SD_B1_02",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e559",
+     "x": 2505,
+     "y": -4110,
+     "pinNumber": "M2",
+     "pinName": "DCDC_LP",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e563",
+     "x": 2505,
+     "y": -4100,
+     "pinNumber": "M1",
+     "pinName": "DCDC_LP",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e567",
+     "x": 2505,
+     "y": -4090,
+     "pinNumber": "L14",
+     "pinName": "GPIO_AD_B0_13",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e571",
+     "x": 2505,
+     "y": -4080,
+     "pinNumber": "L13",
+     "pinName": "GPIO_AD_B1_10",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e575",
+     "x": 2505,
+     "y": -4070,
+     "pinNumber": "L12",
+     "pinName": "GPIO_AD_B1_04",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e579",
+     "x": 2505,
+     "y": -4060,
+     "pinNumber": "L11",
+     "pinName": "GPIO_AD_B1_02",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e583",
+     "x": 2505,
+     "y": -4050,
+     "pinNumber": "L10",
+     "pinName": "GPIO_AD_B0_15",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e587",
+     "x": 2505,
+     "y": -4040,
+     "pinNumber": "L9",
+     "pinName": "VSS",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e591",
+     "x": 2505,
+     "y": -4030,
+     "pinNumber": "L8",
+     "pinName": "USB_OTG1_DP",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e595",
+     "x": 2285,
+     "y": -4030,
+     "pinNumber": "L7",
+     "pinName": "PMIC_STBY_REQ",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e599",
+     "x": 2285,
+     "y": -4040,
+     "pinNumber": "L6",
+     "pinName": "WAKEUP",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e603",
+     "x": 2285,
+     "y": -4050,
+     "pinNumber": "L5",
+     "pinName": "GPIO_SD_B1_00",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e607",
+     "x": 2285,
+     "y": -4060,
+     "pinNumber": "L4",
+     "pinName": "GPIO_SD_B1_07",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e611",
+     "x": 2285,
+     "y": -4070,
+     "pinNumber": "L3",
+     "pinName": "GPIO_SD_B1_06",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e615",
+     "x": 2285,
+     "y": -4080,
+     "pinNumber": "L2",
+     "pinName": "DCDC_IN",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e619",
+     "x": 2285,
+     "y": -4090,
+     "pinNumber": "L1",
+     "pinName": "DCDC_IN",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e623",
+     "x": 2285,
+     "y": -4100,
+     "pinNumber": "K14",
+     "pinName": "GPIO_AD_B0_12",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e627",
+     "x": 2285,
+     "y": -4110,
+     "pinNumber": "K13",
+     "pinName": "VSS",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e631",
+     "x": 2285,
+     "y": -4120,
+     "pinNumber": "K12",
+     "pinName": "GPIO_AD_B1_05",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e635",
+     "x": 2285,
+     "y": -4130,
+     "pinNumber": "K11",
+     "pinName": "GPIO_AD_B1_01",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e639",
+     "x": 2285,
+     "y": -4140,
+     "pinNumber": "K10",
+     "pinName": "GPIO_AD_B1_07",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e643",
+     "x": 2285,
+     "y": -4150,
+     "pinNumber": "K9",
+     "pinName": "NGND_KEL0",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e647",
+     "x": 2285,
+     "y": -4160,
+     "pinNumber": "K8",
+     "pinName": "VDD_USB_CAP",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e651",
+     "x": 2285,
+     "y": -4170,
+     "pinNumber": "K7",
+     "pinName": "PMIC_ON_REQ",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e655",
+     "x": 2285,
+     "y": -4180,
+     "pinNumber": "K6",
+     "pinName": "TEST_MODE",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e659",
+     "x": 2285,
+     "y": -4190,
+     "pinNumber": "K5",
+     "pinName": "NVCC_SD1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e663",
+     "x": 2285,
+     "y": -4200,
+     "pinNumber": "K4",
+     "pinName": "DCDC__IN_Q",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e667",
+     "x": 2285,
+     "y": -4210,
+     "pinNumber": "K3",
+     "pinName": "DCDC_PSWITCH",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e671",
+     "x": 2285,
+     "y": -4220,
+     "pinNumber": "K2",
+     "pinName": "VSS",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e675",
+     "x": 2285,
+     "y": -4230,
+     "pinNumber": "K1",
+     "pinName": "GPIO_SD_B0_03",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e679",
+     "x": 2285,
+     "y": -4240,
+     "pinNumber": "J14",
+     "pinName": "GPIO_AD_B1_15",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e683",
+     "x": 2285,
+     "y": -4250,
+     "pinNumber": "J13",
+     "pinName": "GPIO_AD_B1_11",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e687",
+     "x": 2285,
+     "y": -4260,
+     "pinNumber": "J12",
+     "pinName": "GPIO_AD_B1_06",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e691",
+     "x": 2285,
+     "y": -4270,
+     "pinNumber": "J11",
+     "pinName": "GPIO_AD_B1_00",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e695",
+     "x": 2285,
+     "y": -4280,
+     "pinNumber": "J10",
+     "pinName": "NVCC_GPIO",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e699",
+     "x": 2285,
+     "y": -4290,
+     "pinNumber": "J9",
+     "pinName": "VDD_SOC_IN",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e703",
+     "x": 2285,
+     "y": -4300,
+     "pinNumber": "J8",
+     "pinName": "VSS",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e707",
+     "x": 2285,
+     "y": -4310,
+     "pinNumber": "J7",
+     "pinName": "VSS",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e711",
+     "x": 2285,
+     "y": -4320,
+     "pinNumber": "J6",
+     "pinName": "NVCC_SD0",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e715",
+     "x": 2285,
+     "y": -4330,
+     "pinNumber": "J5",
+     "pinName": "DCDC_SENSE",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e719",
+     "x": 2285,
+     "y": -4340,
+     "pinNumber": "J4",
+     "pinName": "GPIO_SD_B0_00",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e723",
+     "x": 2285,
+     "y": -4350,
+     "pinNumber": "J3",
+     "pinName": "GPIO_SD_B0_01",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e727",
+     "x": 2285,
+     "y": -4360,
+     "pinNumber": "J2",
+     "pinName": "GPIO_SD_B0_05",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e731",
+     "x": 2285,
+     "y": -4370,
+     "pinNumber": "J1",
+     "pinName": "GPIO_SD_B0_02",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e735",
+     "x": 2285,
+     "y": -4380,
+     "pinNumber": "H14",
+     "pinName": "GPIO_AD_B0_14",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e739",
+     "x": 2285,
+     "y": -4390,
+     "pinNumber": "H13",
+     "pinName": "GPIO_AD_B1_08",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e743",
+     "x": 2285,
+     "y": -4400,
+     "pinNumber": "H12",
+     "pinName": "GPIO_AD_B1_12",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e747",
+     "x": 2285,
+     "y": -4410,
+     "pinNumber": "H11",
+     "pinName": "GPIO_AD_B1_13",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e751",
+     "x": 2285,
+     "y": -4420,
+     "pinNumber": "H10",
+     "pinName": "GPIO_AD_B0_01",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e755",
+     "x": 2285,
+     "y": -4430,
+     "pinNumber": "H9",
+     "pinName": "VDD_SOC_IN",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e759",
+     "x": 2285,
+     "y": -4440,
+     "pinNumber": "H8",
+     "pinName": "VSS",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e763",
+     "x": 2285,
+     "y": -4450,
+     "pinNumber": "H7",
+     "pinName": "VSS",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e767",
+     "x": 2285,
+     "y": -4460,
+     "pinNumber": "H6",
+     "pinName": "VDD_SOC_IN",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e771",
+     "x": 2285,
+     "y": -4470,
+     "pinNumber": "H5",
+     "pinName": "GPIO_EMC_06",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e775",
+     "x": 2285,
+     "y": -4480,
+     "pinNumber": "H4",
+     "pinName": "GPIO_EMC_07",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e779",
+     "x": 2285,
+     "y": -4490,
+     "pinNumber": "H3",
+     "pinName": "GPIO_EMC_08",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e783",
+     "x": 2285,
+     "y": -4500,
+     "pinNumber": "H2",
+     "pinName": "GPIO_SD_B0_04",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e3673e787",
+     "x": 2285,
+     "y": -4510,
+     "pinNumber": "H1",
+     "pinName": "GPIO_EMC_12",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ }
+]

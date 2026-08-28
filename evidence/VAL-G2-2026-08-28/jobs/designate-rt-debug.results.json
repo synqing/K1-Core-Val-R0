@@ -1,0 +1,329 @@
+[
+ {
+  "tag": "J4",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10757",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "885f3796ad094704b96929ca46dd61df"
+    },
+    "x": 900,
+    "y": 4800,
+    "subPartName": "FTSH-105-01-L-DV-K.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I10757",
+    "symbol": {
+     "uuid": "ee7b85a7ccca4a778f5a7305f0de44b3",
+     "libraryUuid": "5ebeaa17053143a7af0a1a31767a8ca4"
+    },
+    "footprint": {
+     "uuid": "53c6313a3f734fa180d25488277f8cb7",
+     "libraryUuid": "5ebeaa17053143a7af0a1a31767a8ca4"
+    },
+    "designator": "J4",
+    "name": "10PIN-1.27",
+    "uniqueId": "",
+    "manufacturer": "SAMTEC",
+    "manufacturerId": "FTSH-105-01-L-DV-K",
+    "supplier": "LCSC",
+    "supplierId": "FTSH-105-01-L-DV-K.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Pin Structure": "",
+     "Pitch": "",
+     "Circluar Pins/Square Pins": "",
+     "Mounting Type": "",
+     "Number of Rows": "",
+     "Number of Pins": "",
+     "Current Rating": "",
+     "Length of Mating Pin": "",
+     "Length of End Connection Pin": "",
+     "Contact Material": "",
+     "Contact Plating": "",
+     "Operating Temperature": "",
+     "Color": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "J5",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10826",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "d9c4602eb7f84d1a9fbad2a6c67b5851"
+    },
+    "x": 2400,
+    "y": 4800,
+    "subPartName": "PREC040SAAN-RC.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I10826",
+    "symbol": {
+     "uuid": "e628e60654464e15b3788becfa98c088",
+     "libraryUuid": "3b23b19f753644e49a737e630ce61fce"
+    },
+    "footprint": {
+     "uuid": "70ffd433caf4432c950ad4459d7df27b",
+     "libraryUuid": "3b23b19f753644e49a737e630ce61fce"
+    },
+    "designator": "J5",
+    "name": "1x4",
+    "uniqueId": "",
+    "manufacturer": "Sullins",
+    "manufacturerId": "PREC040SAAN-RC",
+    "supplier": "LCSC",
+    "supplierId": "PREC040SAAN-RC.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Pitch": "",
+     "Mounting Type": "",
+     "Number of Rows": "",
+     "Number of Pins": "",
+     "Current Rating": "",
+     "Contact Material": "",
+     "Contact Plating": "",
+     "Operating Temperature": "",
+     "Color": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R15",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10981",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "2d76f407d9ef4c7b972c1a01df1032c0"
+    },
+    "x": 1500,
+    "y": 4800,
+    "subPartName": "RC0402FR-0722RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I10981",
+    "symbol": {
+     "uuid": "0c5c60c505b54f2aa7ff0542af2accba",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "footprint": {
+     "uuid": "fada7ccb474b42ccaddeb0bb3db6d49f",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "designator": "R15",
+    "name": "22R",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0722RL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-0722RL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R16",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11020",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "2d76f407d9ef4c7b972c1a01df1032c0"
+    },
+    "x": 1800,
+    "y": 4800,
+    "subPartName": "RC0402FR-0722RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I11020",
+    "symbol": {
+     "uuid": "0c5c60c505b54f2aa7ff0542af2accba",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "footprint": {
+     "uuid": "fada7ccb474b42ccaddeb0bb3db6d49f",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "designator": "R16",
+    "name": "22R",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0722RL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-0722RL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R17",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11059",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "2d76f407d9ef4c7b972c1a01df1032c0"
+    },
+    "x": 3000,
+    "y": 4800,
+    "subPartName": "RC0402FR-0722RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I11059",
+    "symbol": {
+     "uuid": "0c5c60c505b54f2aa7ff0542af2accba",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "footprint": {
+     "uuid": "fada7ccb474b42ccaddeb0bb3db6d49f",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "designator": "R17",
+    "name": "22R",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0722RL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-0722RL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R18",
+  "ok": true,
+  "result": {
+   "primitiveId": "e11098",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "2d76f407d9ef4c7b972c1a01df1032c0"
+    },
+    "x": 3300,
+    "y": 4800,
+    "subPartName": "RC0402FR-0722RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I11098",
+    "symbol": {
+     "uuid": "0c5c60c505b54f2aa7ff0542af2accba",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "footprint": {
+     "uuid": "fada7ccb474b42ccaddeb0bb3db6d49f",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "designator": "R18",
+    "name": "22R",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0722RL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-0722RL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   },
+   "saved": true
+  }
+ }
+]

@@ -1,0 +1,327 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C39",
+    "args": {
+      "primitiveId": "e7586",
+      "designator": "C39-ESP",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C40",
+    "args": {
+      "primitiveId": "e7622",
+      "designator": "C40-ESP",
+      "name": "10uF",
+      "manufacturerId": "GRM155R60J106ME44D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C41",
+    "args": {
+      "primitiveId": "e7658",
+      "designator": "C41-ESP",
+      "name": "47uF",
+      "manufacturerId": "GRM21BR61A476ME15L",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C42",
+    "args": {
+      "primitiveId": "e7694",
+      "designator": "C42-ESP",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "J6",
+    "args": {
+      "primitiveId": "e7730",
+      "designator": "J6-ESP",
+      "name": "1x4",
+      "manufacturerId": "PREC040SAAN-RC",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R19",
+    "args": {
+      "primitiveId": "e7885",
+      "designator": "R19-ESP",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R20",
+    "args": {
+      "primitiveId": "e7924",
+      "designator": "R20-ESP",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "SW2",
+    "args": {
+      "primitiveId": "e7963",
+      "designator": "SW2-ESP",
+      "name": "BOOT",
+      "manufacturerId": "PTS645SM43SMTR92LFS",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "SW3",
+    "args": {
+      "primitiveId": "e8014",
+      "designator": "SW3-ESP",
+      "name": "EN",
+      "manufacturerId": "PTS645SM43SMTR92LFS",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U9",
+    "args": {
+      "primitiveId": "e8065",
+      "designator": "U9-ESP",
+      "name": "FITTED",
+      "manufacturerId": "ESP32-S3-WROOM-1-N16R8",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C43",
+    "args": {
+      "primitiveId": "e8224",
+      "designator": "C43-ESP",
+      "name": "100pF",
+      "manufacturerId": "GRM1555C1H101JA01D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C44",
+    "args": {
+      "primitiveId": "e8260",
+      "designator": "C44-ESP",
+      "name": "100pF",
+      "manufacturerId": "GRM1555C1H101JA01D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "FB4",
+    "args": {
+      "primitiveId": "e8296",
+      "designator": "FB4-ESP",
+      "name": "220ohm@100MHz",
+      "manufacturerId": "BLM21PG221SN1D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "J7",
+    "args": {
+      "primitiveId": "e8334",
+      "designator": "J7-ESP",
+      "name": "USB-C-S3",
+      "manufacturerId": "USB4105-GF-A",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R21",
+    "args": {
+      "primitiveId": "e8421",
+      "designator": "R21-ESP",
+      "name": "5.1k",
+      "manufacturerId": "RC0402FR-075K1L",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R22",
+    "args": {
+      "primitiveId": "e8460",
+      "designator": "R22-ESP",
+      "name": "5.1k",
+      "manufacturerId": "RC0402FR-075K1L",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U10",
+    "args": {
+      "primitiveId": "e8499",
+      "designator": "U10-ESP",
+      "name": "TVS",
+      "manufacturerId": "USBLC6-2SC6",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C45",
+    "args": {
+      "primitiveId": "e8548",
+      "designator": "C45-ESP",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R23",
+    "args": {
+      "primitiveId": "e8584",
+      "designator": "R23-ESP",
+      "name": "22R",
+      "manufacturerId": "RC0402FR-0722RL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R24",
+    "args": {
+      "primitiveId": "e8623",
+      "designator": "R24-ESP",
+      "name": "22R",
+      "manufacturerId": "RC0402FR-0722RL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R25",
+    "args": {
+      "primitiveId": "e8662",
+      "designator": "R25-ESP",
+      "name": "22R",
+      "manufacturerId": "RC0402FR-0722RL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R26",
+    "args": {
+      "primitiveId": "e8701",
+      "designator": "R26-ESP",
+      "name": "22R",
+      "manufacturerId": "RC0402FR-0722RL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R27",
+    "args": {
+      "primitiveId": "e8740",
+      "designator": "R27-ESP",
+      "name": "22R",
+      "manufacturerId": "RC0402FR-0722RL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "TP1",
+    "args": {
+      "primitiveId": "e8779",
+      "designator": "TP1-ESP",
+      "name": "TP",
+      "manufacturerId": "5001",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "TP2",
+    "args": {
+      "primitiveId": "e8808",
+      "designator": "TP2-ESP",
+      "name": "TP",
+      "manufacturerId": "5001",
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "transaction_id": "reconcile-persisted-revert-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash": "35311:d51936b0",
+  "census": {
+    "electrical_components": 15,
+    "component_records_including_sheet_root": 16,
+    "wires": 50,
+    "net_attributes": 50,
+    "rectangles": 10,
+    "texts": 1,
+    "remaining_fixture_only_designator": "CS35-PWR1"
+  }
+}

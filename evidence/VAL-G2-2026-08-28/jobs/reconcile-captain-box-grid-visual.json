@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "transaction_id": "reconcile-captain-box-grid-2026-08-28",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "intended_delta": "Read-only reconciliation after restoring Captain's ten fixed domain boxes.",
+  "observed_delta": "The source and settled canvas agree: ten fixed non-overlapping boxes, eleven POWER_ENTRY symbols and one title; no wires yet.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/screenshots/layout-power-entry-block-inspection-after-save.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name":"qualification identity","result":"OK","detail":"Project and page UUIDs remain the disposable qualification target."},
+    {"name":"stable source identity","result":"OK","detail":"Fresh read-back is 9860:7d215995 with 11 components, one title and ten rectangles."},
+    {"name":"Captain box grid retained","result":"OK","detail":"The ten-box grid is visible and non-overlapping; the first box contains the POWER_ENTRY block."},
+    {"name":"no mutation during reconciliation","result":"OK","detail":"This reconciliation only records the current settled state."}
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "designate-esp-core-2026-08-28",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "intended_delta": "Designate the complete ESP_CORE circuit block from FIXTURE-PLAN.json",
+  "observed_delta": "Settled whole-sheet screenshot shows the 13-part ESP_CORE cluster south of the wired RT blocks, still unwired. Zoom-to-region did not change the viewport. Designator glyphs are not pin-readable at this scale. Semantic census after save is the name proof: C39 C40 C41 C42 CS08 CS19 CS30 J6 R19 R20 SW2 SW3 U9 are present; leftover C? R? SW? U? tokens are gone. Component count stayed 122 and wire count stayed 317.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/screenshots/esp-core-designate-block.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "declared block visible at useful scale",
+      "result": "OK",
+      "detail": "The ESP_CORE cluster of 13 symbols is visible as a distinct unwired group south of the wired RT/debug blocks on the qualification sheet."
+    },
+    {
+      "name": "no duplicates placeholders or undesignated debris",
+      "result": "OK",
+      "detail": "One ESP cluster, not a dummy lattice. Census after designate contains C39-C42, CS08/CS19/CS30, J6, R19, R20, SW2, SW3, U9 and no leftover C?/R?/SW?/U? tokens."
+    },
+    {
+      "name": "changed labels pins and geometry readable",
+      "result": "OK",
+      "detail": "Pin names are not readable at whole-sheet zoom. The designate delta is the named designator list in get_document_source, which now includes every ESP_CORE ref and dropped the previous placeholder tokens."
+    },
+    {
+      "name": "no unrelated movement additions or deletions",
+      "result": "OK",
+      "detail": "Component count remained 122 and wire count remained 317. No second RT1062 unit and no extra sheet."
+    }
+  ]
+}

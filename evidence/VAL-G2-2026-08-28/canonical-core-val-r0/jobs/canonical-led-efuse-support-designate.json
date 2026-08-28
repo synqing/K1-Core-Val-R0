@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C68",
+    "args": {
+      "primitiveId": "e38545",
+      "designator": "C68-PWR2",
+      "name": "2.2nF",
+      "manufacturerId": "GRM155R71H222KA01D",
+      "supplier": "LCSC",
+      "supplierId": "C77022",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R8",
+    "args": {
+      "primitiveId": "e2452",
+      "designator": "R8-PWR2",
+      "name": "3.48k",
+      "manufacturerId": "RC0402FR-073K48L",
+      "supplier": "LCSC",
+      "supplierId": "C185418",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

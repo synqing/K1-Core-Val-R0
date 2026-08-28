@@ -1,0 +1,4 @@
+[
+  {"tool":"delete_schematic_component","tag":"delete-old-j6","args":{"primitiveId":"e7730","saveAfter":false,"skipConfirmation":true,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool":"add_schematic_component","tag":"add-new-j6","args":{"deviceUuid":"e9b61321d93943079df32833dad67c3d","x":4825,"y":4345,"rotation":0,"addIntoBom":true,"addIntoPcb":true,"saveAfter":true,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}}
+]

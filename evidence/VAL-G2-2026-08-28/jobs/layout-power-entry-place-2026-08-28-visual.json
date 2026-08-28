@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "layout-power-entry-place-2026-08-28",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "intended_delta": "Place the compact POWER_ENTRY domain inside its labelled non-overlapping box",
+  "observed_delta": "The first Captain-provided box contains one POWER ENTRY + PROTECTION title and the eleven planned POWER_ENTRY symbols. The other nine Captain-provided boxes remain empty and unchanged for subsequent domains.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/screenshots/layout-power-entry-block-inspection-after-save.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "declared block visible at useful scale",
+      "result": "OK",
+      "detail": "The first box, its title and all eleven symbols are visible together at a useful inspection scale."
+    },
+    {
+      "name": "no duplicates placeholders or undesignated debris",
+      "result": "OK",
+      "detail": "Exactly eleven planned placement-stage symbols are visible in the first box. Their question-mark designators are expected until the bounded designate transaction."
+    },
+    {
+      "name": "changed labels pins and geometry readable",
+      "result": "OK",
+      "detail": "The red domain title, symbol outlines and box boundary are legible; no symbol overlaps another symbol or the boundary."
+    },
+    {
+      "name": "no unrelated movement additions or deletions",
+      "result": "OK",
+      "detail": "The nine remaining Captain-provided boxes are empty and retained. Source read-back contains 11 components, one title and exactly ten rectangles."
+    }
+  ]
+}

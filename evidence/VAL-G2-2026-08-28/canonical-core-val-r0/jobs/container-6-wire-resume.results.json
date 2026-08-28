@@ -1,0 +1,2536 @@
+[
+ {
+  "tag": "C46",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e11652",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e11652e10",
+      "x": 90,
+      "y": -3200,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        110,
+        -3200,
+        90,
+        -3200
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12836"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11652e4",
+      "x": 50,
+      "y": -3200,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "3V3",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        30,
+        -3200,
+        50,
+        -3200
+       ]
+      ],
+      "net": "3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12839"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C47",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e11688",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e11688e10",
+      "x": 270,
+      "y": -3200,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        290,
+        -3200,
+        270,
+        -3200
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12842"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11688e4",
+      "x": 230,
+      "y": -3200,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "3V3",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        210,
+        -3200,
+        230,
+        -3200
+       ]
+      ],
+      "net": "3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12845"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C48",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e11724",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e11724e10",
+      "x": 450,
+      "y": -3200,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        470,
+        -3200,
+        450,
+        -3200
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12848"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11724e4",
+      "x": 410,
+      "y": -3200,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "ADC_AREG",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        390,
+        -3200,
+        410,
+        -3200
+       ]
+      ],
+      "net": "ADC_AREG",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12851"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C49",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e11760",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e11760e10",
+      "x": 630,
+      "y": -3200,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        650,
+        -3200,
+        630,
+        -3200
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12854"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11760e4",
+      "x": 590,
+      "y": -3200,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "ADC_DREG",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        570,
+        -3200,
+        590,
+        -3200
+       ]
+      ],
+      "net": "ADC_DREG",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12857"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C50",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e11796",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e11796e9",
+      "x": 805,
+      "y": -3200,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        825,
+        -3200,
+        805,
+        -3200
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12860"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11796e5",
+      "x": 775,
+      "y": -3200,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "3V3",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        755,
+        -3200,
+        775,
+        -3200
+       ]
+      ],
+      "net": "3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12863"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C51",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e11832",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e11832e10",
+      "x": 90,
+      "y": -3300,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        110,
+        -3300,
+        90,
+        -3300
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12866"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11832e4",
+      "x": 50,
+      "y": -3300,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "ADC_VREF",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        30,
+        -3300,
+        50,
+        -3300
+       ]
+      ],
+      "net": "ADC_VREF",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12869"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R28",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e11868",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e11868e7",
+      "x": 770,
+      "y": -3300,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "3V3",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        750,
+        -3300,
+        770,
+        -3300
+       ]
+      ],
+      "net": "3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12872"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11868e3",
+      "x": 810,
+      "y": -3300,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "I2C_SDA",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        830,
+        -3300,
+        810,
+        -3300
+       ]
+      ],
+      "net": "I2C_SDA",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12875"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R29",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e11907",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e11907e7",
+      "x": 50,
+      "y": -3400,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "3V3",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        30,
+        -3400,
+        50,
+        -3400
+       ]
+      ],
+      "net": "3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12878"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11907e3",
+      "x": 90,
+      "y": -3400,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "I2C_SCL",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        110,
+        -3400,
+        90,
+        -3400
+       ]
+      ],
+      "net": "I2C_SCL",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12881"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "U11",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e11985",
+   "attempted": 14,
+   "attached": 14,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e11985e21",
+      "x": 340,
+      "y": -3405,
+      "pinNumber": "5",
+      "pinName": "VSS",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        320,
+        -3405,
+        340,
+        -3405
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12884"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11985e65",
+      "x": 520,
+      "y": -3405,
+      "pinNumber": "16",
+      "pinName": "AVDD",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "3V3",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        540,
+        -3405,
+        520,
+        -3405
+       ]
+      ],
+      "net": "3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12887"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11985e37",
+      "x": 340,
+      "y": -3365,
+      "pinNumber": "9",
+      "pinName": "IOVDD",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "3V3",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        320,
+        -3365,
+        340,
+        -3365
+       ]
+      ],
+      "net": "3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12890"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11985e69",
+      "x": 520,
+      "y": -3415,
+      "pinNumber": "17",
+      "pinName": "AREG",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "ADC_AREG",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        540,
+        -3415,
+        520,
+        -3415
+       ]
+      ],
+      "net": "ADC_AREG",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12893"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11985e57",
+      "x": 520,
+      "y": -3385,
+      "pinNumber": "14",
+      "pinName": "DREG",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "ADC_DREG",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        540,
+        -3385,
+        520,
+        -3385
+       ]
+      ],
+      "net": "ADC_DREG",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12896"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11985e49",
+      "x": 520,
+      "y": -3365,
+      "pinNumber": "12",
+      "pinName": "SDA",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "I2C_SDA",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        540,
+        -3365,
+        520,
+        -3365
+       ]
+      ],
+      "net": "I2C_SDA",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12899"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11985e53",
+      "x": 520,
+      "y": -3375,
+      "pinNumber": "13",
+      "pinName": "SCL",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "I2C_SCL",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        540,
+        -3375,
+        520,
+        -3375
+       ]
+      ],
+      "net": "I2C_SCL",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12902"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11985e73",
+      "x": 520,
+      "y": -3425,
+      "pinNumber": "18",
+      "pinName": "VREF",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "ADC_VREF",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        540,
+        -3425,
+        520,
+        -3425
+       ]
+      ],
+      "net": "ADC_VREF",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12905"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11985e77",
+      "x": 520,
+      "y": -3435,
+      "pinNumber": "19",
+      "pinName": "MICBIAS_GPI2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "AUDIO_MCLK",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        540,
+        -3435,
+        520,
+        -3435
+       ]
+      ],
+      "net": "AUDIO_MCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12908"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11985e29",
+      "x": 340,
+      "y": -3385,
+      "pinNumber": "7",
+      "pinName": "BCLK",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "AUDIO_BCLK",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        320,
+        -3385,
+        340,
+        -3385
+       ]
+      ],
+      "net": "AUDIO_BCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12911"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11985e33",
+      "x": 340,
+      "y": -3375,
+      "pinNumber": "8",
+      "pinName": "FSYNC",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "AUDIO_FSYNC",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        320,
+        -3375,
+        340,
+        -3375
+       ]
+      ],
+      "net": "AUDIO_FSYNC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12914"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11985e25",
+      "x": 340,
+      "y": -3395,
+      "pinNumber": "6",
+      "pinName": "SDOUT",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "AUDIO_DOUT_ADC",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        320,
+        -3395,
+        340,
+        -3395
+       ]
+      ],
+      "net": "AUDIO_DOUT_ADC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12917"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11985e45",
+      "x": 520,
+      "y": -3355,
+      "pinNumber": "11",
+      "pinName": "GPIO1",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "PDM_CLK_ADC",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        540,
+        -3355,
+        520,
+        -3355
+       ]
+      ],
+      "net": "PDM_CLK_ADC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12920"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e11985e13",
+      "x": 340,
+      "y": -3425,
+      "pinNumber": "3",
+      "pinName": "IN2P_GPI1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "PDM_DAT_ADC",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        320,
+        -3425,
+        340,
+        -3425
+       ]
+      ],
+      "net": "PDM_DAT_ADC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12923"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C52",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12082",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12082e9",
+      "x": 85,
+      "y": -2875,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        105,
+        -2875,
+        85,
+        -2875
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12926"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12082e5",
+      "x": 55,
+      "y": -2875,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "AUDIO_MCLK",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        35,
+        -2875,
+        55,
+        -2875
+       ]
+      ],
+      "net": "AUDIO_MCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12929"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "J8",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12118",
+   "attempted": 4,
+   "attached": 4,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12118e17",
+      "x": 230,
+      "y": -2860,
+      "pinNumber": "4",
+      "pinName": "4",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        210,
+        -2860,
+        230,
+        -2860
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12932"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12118e5",
+      "x": 230,
+      "y": -2890,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "AUDIO_MCLK",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        210,
+        -2890,
+        230,
+        -2890
+       ]
+      ],
+      "net": "AUDIO_MCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12935"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12118e9",
+      "x": 230,
+      "y": -2880,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "AUDIO_BCLK",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        210,
+        -2880,
+        230,
+        -2880
+       ]
+      ],
+      "net": "AUDIO_BCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12938"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12118e13",
+      "x": 230,
+      "y": -2870,
+      "pinNumber": "3",
+      "pinName": "3",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "AUDIO_FSYNC",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        210,
+        -2870,
+        230,
+        -2870
+       ]
+      ],
+      "net": "AUDIO_FSYNC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12941"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R31",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12172",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12172e7",
+      "x": 410,
+      "y": -2875,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "AUDIO_MCLK_RT",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        390,
+        -2875,
+        410,
+        -2875
+       ]
+      ],
+      "net": "AUDIO_MCLK_RT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12944"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12172e3",
+      "x": 450,
+      "y": -2875,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "AUDIO_MCLK_ISO",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        470,
+        -2875,
+        450,
+        -2875
+       ]
+      ],
+      "net": "AUDIO_MCLK_ISO",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12947"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R32",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12211",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12211e7",
+      "x": 590,
+      "y": -2875,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "AUDIO_BCLK_RT",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        570,
+        -2875,
+        590,
+        -2875
+       ]
+      ],
+      "net": "AUDIO_BCLK_RT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12950"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12211e3",
+      "x": 630,
+      "y": -2875,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "AUDIO_BCLK_ISO",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        650,
+        -2875,
+        630,
+        -2875
+       ]
+      ],
+      "net": "AUDIO_BCLK_ISO",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12953"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R33",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12250",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12250e7",
+      "x": 770,
+      "y": -2875,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "AUDIO_FSYNC_RT",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        750,
+        -2875,
+        770,
+        -2875
+       ]
+      ],
+      "net": "AUDIO_FSYNC_RT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12956"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12250e3",
+      "x": 810,
+      "y": -2875,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "AUDIO_FSYNC_ISO",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        830,
+        -2875,
+        810,
+        -2875
+       ]
+      ],
+      "net": "AUDIO_FSYNC_ISO",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12959"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R34",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12289",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12289e7",
+      "x": 50,
+      "y": -3040,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "AUDIO_MCLK_ISO",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        30,
+        -3040,
+        50,
+        -3040
+       ]
+      ],
+      "net": "AUDIO_MCLK_ISO",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12962"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12289e3",
+      "x": 90,
+      "y": -3040,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "AUDIO_MCLK",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        110,
+        -3040,
+        90,
+        -3040
+       ]
+      ],
+      "net": "AUDIO_MCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12965"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R35",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12328",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12328e7",
+      "x": 230,
+      "y": -3040,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "AUDIO_BCLK_ISO",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        210,
+        -3040,
+        230,
+        -3040
+       ]
+      ],
+      "net": "AUDIO_BCLK_ISO",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12968"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12328e3",
+      "x": 270,
+      "y": -3040,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "AUDIO_BCLK",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        290,
+        -3040,
+        270,
+        -3040
+       ]
+      ],
+      "net": "AUDIO_BCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12971"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R36",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12367",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12367e7",
+      "x": 410,
+      "y": -3040,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "AUDIO_FSYNC_ISO",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        390,
+        -3040,
+        410,
+        -3040
+       ]
+      ],
+      "net": "AUDIO_FSYNC_ISO",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12974"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12367e3",
+      "x": 450,
+      "y": -3040,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "AUDIO_FSYNC",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        470,
+        -3040,
+        450,
+        -3040
+       ]
+      ],
+      "net": "AUDIO_FSYNC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12977"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R37",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12406",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12406e7",
+      "x": 590,
+      "y": -3040,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "AUDIO_DOUT_ADC",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        570,
+        -3040,
+        590,
+        -3040
+       ]
+      ],
+      "net": "AUDIO_DOUT_ADC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12980"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12406e3",
+      "x": 630,
+      "y": -3040,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "AUDIO_DOUT",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        650,
+        -3040,
+        630,
+        -3040
+       ]
+      ],
+      "net": "AUDIO_DOUT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12983"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "TP3",
+  "ok": false,
+  "error": "connect_schematic_pins_to_nets: FAILED at item 1 of 2 (pin 2 -> GND). 0 attachment(s) were ALREADY COMMITTED to the document before this failure: (none). DO NOT re-run this call unchanged — that would double-apply the committed items. Verify with get_document_source, then resume from item 1. Cause: Unable to find schematic pin 2 on component e12445"
+ },
+ {
+  "tag": "C53",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12474",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12474e10",
+      "x": 90,
+      "y": -2535,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        110,
+        -2535,
+        90,
+        -2535
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12986"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12474e4",
+      "x": 50,
+      "y": -2535,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "3V3_MIC_FLEX",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        30,
+        -2535,
+        50,
+        -2535
+       ]
+      ],
+      "net": "3V3_MIC_FLEX",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12989"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "FB5",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12510",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12510e7",
+      "x": 230,
+      "y": -2535,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 3,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "3V3_MIC",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        210,
+        -2535,
+        230,
+        -2535
+       ]
+      ],
+      "net": "3V3_MIC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12992"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12510e3",
+      "x": 270,
+      "y": -2535,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 3,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "3V3_MIC_FLEX",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        290,
+        -2535,
+        270,
+        -2535
+       ]
+      ],
+      "net": "3V3_MIC_FLEX",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12995"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "J9",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12548",
+   "attempted": 4,
+   "attached": 4,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12548e9",
+      "x": 410,
+      "y": -2570,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        390,
+        -2570,
+        410,
+        -2570
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12998"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12548e5",
+      "x": 410,
+      "y": -2580,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "3V3_MIC_FLEX",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        390,
+        -2580,
+        410,
+        -2580
+       ]
+      ],
+      "net": "3V3_MIC_FLEX",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13001"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12548e13",
+      "x": 410,
+      "y": -2560,
+      "pinNumber": "3",
+      "pinName": "3",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "PDM_CLK",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        390,
+        -2560,
+        410,
+        -2560
+       ]
+      ],
+      "net": "PDM_CLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13004"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12548e17",
+      "x": 410,
+      "y": -2550,
+      "pinNumber": "4",
+      "pinName": "4",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "PDM_DAT",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        390,
+        -2550,
+        410,
+        -2550
+       ]
+      ],
+      "net": "PDM_DAT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13007"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R38",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12620",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12620e7",
+      "x": 590,
+      "y": -2535,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "PDM_CLK",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        570,
+        -2535,
+        590,
+        -2535
+       ]
+      ],
+      "net": "PDM_CLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13010"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12620e3",
+      "x": 630,
+      "y": -2535,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "PDM_CLK_ADC",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        650,
+        -2535,
+        630,
+        -2535
+       ]
+      ],
+      "net": "PDM_CLK_ADC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13013"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R39",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12659",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12659e7",
+      "x": 770,
+      "y": -2535,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "PDM_DAT",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        750,
+        -2535,
+        770,
+        -2535
+       ]
+      ],
+      "net": "PDM_DAT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13016"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12659e3",
+      "x": 810,
+      "y": -2535,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "PDM_DAT_ADC",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        830,
+        -2535,
+        810,
+        -2535
+       ]
+      ],
+      "net": "PDM_DAT_ADC",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13019"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R40",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12698",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12698e7",
+      "x": 50,
+      "y": -2715,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "PDM_CLK",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        30,
+        -2715,
+        50,
+        -2715
+       ]
+      ],
+      "net": "PDM_CLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13022"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12698e3",
+      "x": 90,
+      "y": -2715,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "PDM_CLK_RT",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        110,
+        -2715,
+        90,
+        -2715
+       ]
+      ],
+      "net": "PDM_CLK_RT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13025"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R41",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12737",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12737e7",
+      "x": 230,
+      "y": -2715,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "PDM_DAT",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        210,
+        -2715,
+        230,
+        -2715
+       ]
+      ],
+      "net": "PDM_DAT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13028"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12737e3",
+      "x": 270,
+      "y": -2715,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "PDM_DAT_RT",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        290,
+        -2715,
+        270,
+        -2715
+       ]
+      ],
+      "net": "PDM_DAT_RT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13031"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "TP4",
+  "ok": false,
+  "error": "connect_schematic_pins_to_nets: FAILED at item 1 of 2 (pin 2 -> GND). 0 attachment(s) were ALREADY COMMITTED to the document before this failure: (none). DO NOT re-run this call unchanged — that would double-apply the committed items. Verify with get_document_source, then resume from item 1. Cause: Unable to find schematic pin 2 on component e12776"
+ },
+ {
+  "tag": "TP5",
+  "ok": false,
+  "error": "connect_schematic_pins_to_nets: FAILED at item 1 of 2 (pin 2 -> GND). 0 attachment(s) were ALREADY COMMITTED to the document before this failure: (none). DO NOT re-run this call unchanged — that would double-apply the committed items. Verify with get_document_source, then resume from item 1. Cause: Unable to find schematic pin 2 on component e12805"
+ }
+]

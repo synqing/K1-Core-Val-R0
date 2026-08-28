@@ -1,15 +1,45 @@
 # Single-sheet qualification — test plan
 
-Status: **VAL-G2.0A FIXTURE DEFINITION REQUIRED; VAL-G2.0B EDA EXECUTION BLOCKED**
+Status: **VAL-G2.0A RETIRED_BY_D-042; VAL-G2.0B TERMINATED_BY_D-042**
 
 ```text
-OPTION_C_SYMBOL_ESTIMATE = UNRESOLVED
-VAL_G2_0_FIXTURE_DEFINITION = REQUIRED_NOT_COMPLETE
-VAL_G2_0_EDA_EXECUTION = BLOCKED_ON_FIXTURE_DEFINITION
+OPTION_C_SYMBOL_ESTIMATE = RESOLVED
+VAL_G2_0_FIXTURE_DEFINITION = RETIRED_BY_D_042
+VAL_G2_0_EDA_EXECUTION = TERMINATED_BY_D_042
 ```
+
+> **HISTORICAL TEST PLAN — LIVE EXECUTION TERMINATED BY D-042.** Captain directly authorised
+> canonical capture in `K1-Core-Val-R0` and prohibited further qualification-project mutation.
+> The retained plan and measurements are evidence only; nothing below authorises another live
+> write to the qualification UUID.
+
+Corrected 2026-08-28 historical inventory: `N_estimated_symbols_option_C = 181`, retained stress
+plan `N_test = 218`, named nets `119`. Removal of the non-existent ADC strap reduced the plan below
+the old 120-net threshold. The plan is therefore retained evidence, not an accepted qualification
+input and not permission to write to the retired project.
 
 Purpose: prove that EasyEDA Pro can carry the complete K1-CORE-VAL board on one schematic sheet
 before canonical one-sheet capture creates irreversible implementation reliance.
+
+## Historical live-write control
+
+VAL-G2.0B has no remaining authorised writes. The controls below record the policy that governed
+the lane before D-042 terminated it. Canonical VAL-G2.1 writes use the separate canonical mutation
+state and ledger named in `project.yaml`.
+
+- If the state requires reconciliation, reconcile the live sheet read-only before a guarded write.
+- Execute one circuit block and one visual stage per transaction.
+- Placement, designation and wiring are separate transactions; no combined mode is permitted.
+- Snapshot before begin, persist semantic read-back after the write, then capture and inspect a
+  settled useful-scale screenshot.
+- The next write remains blocked until structured visual evidence closes the current transaction.
+- Screenshot capture/zoom failure, unreadable scale, unexpected content or semantic disagreement
+  rejects the transaction. Only a declared repair/rollback transaction may follow.
+- The only current runtime lock state is recorded in
+  `evidence/VAL-G2-2026-08-28/EASYEDA-MUTATION-STATE.json`; the append-only event history is
+  `EASYEDA-MUTATION-LEDGER.jsonl` in the same directory.
+- Run `python3 harness/easyeda_mutation_gate.py validate` before actuation. Static documentation
+  describes policy and results; it never overrides the machine state.
 
 EasyEDA Pro documents no schematic area limit, but separately recommends fewer than 100
 components per page and warns of editor lag beyond that. Those statements are not contradictory:

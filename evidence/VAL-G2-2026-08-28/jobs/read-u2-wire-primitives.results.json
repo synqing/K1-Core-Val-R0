@@ -1,0 +1,32 @@
+[
+ {
+  "tag": "vin-minus-wrong",
+  "ok": false,
+  "error": "get_schematic_primitive: EasyEDA returned no data for schematic primitive e14555 — the host did NOT resolve it (not found on the active document, or the read was rejected). This is a failure, not an empty result: do not treat it as \"absent from the document\". Verify with list_schematic_primitive_ids (to confirm the id exists on this page) or get_document_source."
+ },
+ {
+  "tag": "vbus",
+  "ok": false,
+  "error": "get_schematic_primitive: EasyEDA returned no data for schematic primitive e14561 — the host did NOT resolve it (not found on the active document, or the read was rejected). This is a failure, not an empty result: do not treat it as \"absent from the document\". Verify with list_schematic_primitive_ids (to confirm the id exists on this page) or get_document_source."
+ },
+ {
+  "tag": "dogleg",
+  "ok": false,
+  "error": "get_schematic_primitive: EasyEDA returned no data for schematic primitive e14597 — the host did NOT resolve it (not found on the active document, or the read was rejected). This is a failure, not an empty result: do not treat it as \"absent from the document\". Verify with list_schematic_primitive_ids (to confirm the id exists on this page) or get_document_source."
+ },
+ {
+  "tag": "wrong-label",
+  "ok": false,
+  "error": "get_schematic_primitive: EasyEDA returned no data for schematic primitive e14556 — the host did NOT resolve it (not found on the active document, or the read was rejected). This is a failure, not an empty result: do not treat it as \"absent from the document\". Verify with list_schematic_primitive_ids (to confirm the id exists on this page) or get_document_source."
+ },
+ {
+  "tag": "vbus-label",
+  "ok": false,
+  "error": "get_schematic_primitive: EasyEDA returned no data for schematic primitive e14562 — the host did NOT resolve it (not found on the active document, or the read was rejected). This is a failure, not an empty result: do not treat it as \"absent from the document\". Verify with list_schematic_primitive_ids (to confirm the id exists on this page) or get_document_source."
+ },
+ {
+  "tag": "dogleg-label",
+  "ok": false,
+  "error": "get_schematic_primitive: EasyEDA returned no data for schematic primitive e14598 — the host did NOT resolve it (not found on the active document, or the read was rejected). This is a failure, not an empty result: do not treat it as \"absent from the document\". Verify with list_schematic_primitive_ids (to confirm the id exists on this page) or get_document_source."
+ }
+]

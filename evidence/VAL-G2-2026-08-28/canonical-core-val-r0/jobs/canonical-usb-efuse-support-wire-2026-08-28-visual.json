@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-usb-efuse-support-wire-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Wire the USB/input TPS259474L support network in box 1, including UVLO/OVLO, PGTH, PG pull-up and dVdt, and visibly record the ITIMER no-connect intent",
+  "observed_delta": "Semantic read-back confirms the complete endpoint topology and the screenshot shows all U1/support nets, but the settings note is anchored at x=50 and its beginning is clipped beyond the left side of the visible box. The visual stage is rejected until the complete note is readable.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-usb-efuse-support-wire.png",
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [
+    "The beginning of the eFuse settings note is clipped outside the visible box-1 content area"
+  ],
+  "verdict": "REJECTED",
+  "checks": [
+    {
+      "name": "U1 fixed support nets present",
+      "result": "OK",
+      "detail": "EN, OVLO, PG, PGTH and DVDT show the intended named net stubs and source endpoint records match."
+    },
+    {
+      "name": "support endpoints complete",
+      "result": "OK",
+      "detail": "Each support resistor and capacitor has two distinct named endpoint wires in the semantic source record."
+    },
+    {
+      "name": "settings note fully readable",
+      "result": "DEFECT",
+      "detail": "The note begins to the left of the captured box content and the UVLO label is truncated."
+    },
+    {
+      "name": "no modal or unrelated movement",
+      "result": "OK",
+      "detail": "The whole-sheet screenshot is modal-free and shows no unrelated component or domain movement."
+    }
+  ]
+}

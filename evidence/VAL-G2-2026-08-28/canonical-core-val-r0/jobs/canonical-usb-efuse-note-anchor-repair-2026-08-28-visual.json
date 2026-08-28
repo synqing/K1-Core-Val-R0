@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-usb-efuse-note-anchor-repair-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Repair the rejected box-1 eFuse settings note by centring the complete note at x=450 y=3950",
+  "observed_delta": "The full settings note is now centred in the open area of box 1, wholly visible and separated from U1 and the two support rows. Semantic read-back reports the exact text anchor x=450 y=3950 with no electrical or component-count change.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-usb-efuse-note-anchor-repair.png",
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "complete note visible",
+      "result": "OK",
+      "detail": "The note begins with U1 SET and ends with ITIMER NC; neither end is clipped by a box or screenshot boundary."
+    },
+    {
+      "name": "note clear of circuit",
+      "result": "OK",
+      "detail": "The note is centred in blank space between U1 and the lower support network without overlapping a symbol or net."
+    },
+    {
+      "name": "settings readable",
+      "result": "OK",
+      "detail": "UVLO 4.17 V, OVLO 5.46 V, PG 4.49 V, ILIM 2.51 A and ITIMER NC are all present."
+    },
+    {
+      "name": "electrical records unchanged",
+      "result": "OK",
+      "detail": "Semantic source read-back differs only in the note anchor and preserves all 189 components and eFuse endpoint topology."
+    }
+  ]
+}

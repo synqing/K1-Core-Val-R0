@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-led-efuse-support-place-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Place C68-PWR2 2.2nF for LED eFuse dVdt and correct R8-PWR2 ILM tuning to 3.48k (~0.96 A)",
+  "observed_delta": "The box-2 screenshot shows R8-PWR2 reading 3.48k and one C68-PWR2 reading 2.2nF in open space below U4; semantic read-back confirms unique designators and a saved source hash of 403500:f50ea2ee. The whole-canvas image is modal-free.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-led-efuse-support-place.png",
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "C68 unique and contained",
+      "result": "OK",
+      "detail": "C68-PWR2 appears once, inside box 2, with no duplicate or boundary crossing."
+    },
+    {
+      "name": "source-derived values readable",
+      "result": "OK",
+      "detail": "R8-PWR2 visibly reads 3.48k and C68-PWR2 visibly reads 2.2nF."
+    },
+    {
+      "name": "no component overlap",
+      "result": "OK",
+      "detail": "C68 occupies an open gap between the LED-eFuse and lower branch components without overlapping another symbol or label."
+    },
+    {
+      "name": "unrelated sheet state preserved",
+      "result": "OK",
+      "detail": "The box and whole-canvas screenshots show no unrelated movement, modal or domain change."
+    }
+  ]
+}

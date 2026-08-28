@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "reset-rejected-layout-2026-08-28",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "intended_delta": "Clear every primitive from the rejected oversized disposable fixture before compact boxed reconstruction",
+  "observed_delta": "The settled canvas is blank. Fresh saved source contains only DOCTYPE and HEAD; component, wire, text and rectangle counts are all zero.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/screenshots/reset-rejected-layout-blank.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "sheet is visibly empty",
+      "result": "OK",
+      "detail": "Granular inspection of the whole canvas shows no residual symbols, stubs, labels or boxes."
+    },
+    {
+      "name": "component wire text and rectangle census is zero",
+      "result": "OK",
+      "detail": "Source hash 86:92aa800d contains COMPONENT=0, WIRE=0, TEXT=0 and RECT=0."
+    },
+    {
+      "name": "project and page identity are unchanged",
+      "result": "OK",
+      "detail": "The project tree still identifies K1-CORE-VAL-SINGLE-SHEET-QUAL and the same single schematic page."
+    },
+    {
+      "name": "no PCB or second schematic sheet was created",
+      "result": "OK",
+      "detail": "The project tree remains one schematic with one page and no PCB document."
+    }
+  ]
+}

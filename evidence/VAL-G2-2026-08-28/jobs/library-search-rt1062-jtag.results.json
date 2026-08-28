@@ -1,0 +1,22 @@
+{
+  "query": "MIMXRT1062DVJ6B",
+  "count": 1,
+  "devices": [
+    {
+      "uuid": "1f60af53654b4c089403430f1a6f9058",
+      "libraryUuid": "",
+      "ordinal": 0,
+      "name": "MIMXRT1062DVJ6B",
+      "symbolName": "MIMXRT1062DVJ6B",
+      "symbolUuid": "48197c2c0f07481fa68190c079587bfd",
+      "footprintName": "LFBGA-196_L12.0-W12.0-R14-C14-P0.80-BL",
+      "footprintUuid": "3cdb092c2a414e18a41188cfdf9b1685",
+      "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20251211/D4B555CC769A80C8E2C15BD08FA72F95.jpg",
+      "description": "CPU Core:ARM Cortex-M7 CPU Maximum Speed:600MHz Number of I/O:127 ADC (Bit):12bit Voltage - Supply:3V~3.6V Voltage - Supply:3V~3.6V ",
+      "manufacturer": "NXP(恩智浦)",
+      "manufacturerId": "MIMXRT1062DVJ6B",
+      "supplier": "LCSC",
+      "supplierId": "C3216699"
+    }
+  ]
+}

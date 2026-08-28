@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "reconcile-canonical-cleanup-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Reconcile the canonical power-entry cleanup after the original fixture census was found to be low by one capacitor.",
+  "observed_delta": "Granular inspection confirms all seven qualification-only stress capacitors and their fourteen stubs are absent; the fourteen architecture-derived PWR1 components, their functional wiring, and all ten Captain-authored domain rectangles remain.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/cleanup-final-box1.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "fixture-only parts removed",
+      "result": "OK",
+      "detail": "No CS-prefixed stress capacitor remains in box 1."
+    },
+    {
+      "name": "functional C3 wiring retained",
+      "result": "OK",
+      "detail": "C3-PWR1 is visibly connected between 3V3 and GND after the source-ID correction."
+    },
+    {
+      "name": "orphan stubs absent",
+      "result": "OK",
+      "detail": "The removed CS35-PWR1 position and the six earlier stress positions contain no leftover named wire stubs."
+    },
+    {
+      "name": "domain composition preserved",
+      "result": "OK",
+      "detail": "The power-entry/protection box remains readable and the neighbouring domain rectangles did not move."
+    },
+    {
+      "name": "canonical identity and PCB boundary",
+      "result": "OK",
+      "detail": "The inspected page is canonical page 1435cb46f39e48c8a8aadbb84ca81603; the PCB was not opened or changed."
+    }
+  ]
+}

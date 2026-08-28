@@ -1,0 +1,1032 @@
+[
+ {
+  "tag": "C43",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12071",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12071e9",
+      "x": 2715,
+      "y": -6800,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        2735,
+        -6800,
+        2715,
+        -6800
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12397"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12071e5",
+      "x": 2685,
+      "y": -6800,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "USB_CC1",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        2665,
+        -6800,
+        2685,
+        -6800
+       ]
+      ],
+      "net": "USB_CC1",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12400"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C44",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12107",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12107e9",
+      "x": 3115,
+      "y": -6800,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        3135,
+        -6800,
+        3115,
+        -6800
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12403"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12107e5",
+      "x": 3085,
+      "y": -6800,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "USB_CC2",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        3065,
+        -6800,
+        3085,
+        -6800
+       ]
+      ],
+      "net": "USB_CC2",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12406"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "FB4",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12143",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12143e7",
+      "x": 2280,
+      "y": -6800,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 3,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "S3_VBUS",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        2260,
+        -6800,
+        2280,
+        -6800
+       ]
+      ],
+      "net": "S3_VBUS",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12409"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12143e3",
+      "x": 2320,
+      "y": -6800,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 3,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "S3_VBUS_F",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        2340,
+        -6800,
+        2320,
+        -6800
+       ]
+      ],
+      "net": "S3_VBUS_F",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12412"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "J7",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12181",
+   "attempted": 12,
+   "attached": 12,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12181e5",
+      "x": 750,
+      "y": -6870,
+      "pinNumber": "B1",
+      "pinName": "GND",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        730,
+        -6870,
+        750,
+        -6870
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12415"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12181e53",
+      "x": 840,
+      "y": -6810,
+      "pinNumber": "A6",
+      "pinName": "DP1",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "USB_DP",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        860,
+        -6810,
+        840,
+        -6810
+       ]
+      ],
+      "net": "USB_DP",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12418"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12181e57",
+      "x": 840,
+      "y": -6820,
+      "pinNumber": "A7",
+      "pinName": "DN1",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "USB_DM",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        860,
+        -6820,
+        840,
+        -6820
+       ]
+      ],
+      "net": "USB_DM",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12421"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12181e9",
+      "x": 750,
+      "y": -6840,
+      "pinNumber": "B4",
+      "pinName": "VBUS",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "S3_VBUS",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        730,
+        -6840,
+        750,
+        -6840
+       ]
+      ],
+      "net": "S3_VBUS",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12424"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12181e49",
+      "x": 840,
+      "y": -6800,
+      "pinNumber": "A5",
+      "pinName": "CC1",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "USB_CC1",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        860,
+        -6800,
+        840,
+        -6800
+       ]
+      ],
+      "net": "USB_CC1",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12427"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12181e13",
+      "x": 750,
+      "y": -6830,
+      "pinNumber": "B5",
+      "pinName": "CC2",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "USB_CC2",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        730,
+        -6830,
+        750,
+        -6830
+       ]
+      ],
+      "net": "USB_CC2",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12430"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12181e69",
+      "x": 840,
+      "y": -6870,
+      "pinNumber": "A12",
+      "pinName": "GND",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        860,
+        -6870,
+        840,
+        -6870
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12433"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12181e33",
+      "x": 750,
+      "y": -6760,
+      "pinNumber": "B12",
+      "pinName": "GND",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        730,
+        -6760,
+        750,
+        -6760
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12436"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12181e65",
+      "x": 840,
+      "y": -6840,
+      "pinNumber": "A9",
+      "pinName": "VBUS",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "S3_VBUS",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        860,
+        -6840,
+        840,
+        -6840
+       ]
+      ],
+      "net": "S3_VBUS",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12439"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12181e29",
+      "x": 750,
+      "y": -6790,
+      "pinNumber": "B9",
+      "pinName": "VBUS",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "S3_VBUS",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        730,
+        -6790,
+        750,
+        -6790
+       ]
+      ],
+      "net": "S3_VBUS",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12442"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12181e17",
+      "x": 750,
+      "y": -6820,
+      "pinNumber": "B6",
+      "pinName": "DP2",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "USB_DP",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        730,
+        -6820,
+        750,
+        -6820
+       ]
+      ],
+      "net": "USB_DP",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12445"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12181e21",
+      "x": 750,
+      "y": -6810,
+      "pinNumber": "B7",
+      "pinName": "DN2",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "USB_DM",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        730,
+        -6810,
+        750,
+        -6810
+       ]
+      ],
+      "net": "USB_DM",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12448"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R21",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12268",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12268e3",
+      "x": 3520,
+      "y": -6800,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        3540,
+        -6800,
+        3520,
+        -6800
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12451"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12268e7",
+      "x": 3480,
+      "y": -6800,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "USB_CC1",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        3460,
+        -6800,
+        3480,
+        -6800
+       ]
+      ],
+      "net": "USB_CC1",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12454"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R22",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12307",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12307e3",
+      "x": 3920,
+      "y": -6800,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        3940,
+        -6800,
+        3920,
+        -6800
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12457"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12307e7",
+      "x": 3880,
+      "y": -6800,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "USB_CC2",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        3860,
+        -6800,
+        3880,
+        -6800
+       ]
+      ],
+      "net": "USB_CC2",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12460"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "U10",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12346",
+   "attempted": 6,
+   "attached": 6,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12346e8",
+      "x": 1600,
+      "y": -6740,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 270,
+      "pinLength": 20,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1600,
+        -6720,
+        1600,
+        -6740
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12463"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12346e4",
+      "x": 1570,
+      "y": -6740,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 270,
+      "pinLength": 20,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "USB_DP",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1570,
+        -6720,
+        1570,
+        -6740
+       ]
+      ],
+      "net": "USB_DP",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12466"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12346e12",
+      "x": 1630,
+      "y": -6740,
+      "pinNumber": "3",
+      "pinName": "3",
+      "rotation": 270,
+      "pinLength": 20,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "USB_DM",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1630,
+        -6720,
+        1630,
+        -6740
+       ]
+      ],
+      "net": "USB_DM",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12469"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12346e26",
+      "x": 1570,
+      "y": -6860,
+      "pinNumber": "6",
+      "pinName": "6",
+      "rotation": 90,
+      "pinLength": 20,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "USB_DP_S3",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1570,
+        -6880,
+        1570,
+        -6860
+       ]
+      ],
+      "net": "USB_DP_S3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12472"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12346e16",
+      "x": 1630,
+      "y": -6860,
+      "pinNumber": "4",
+      "pinName": "4",
+      "rotation": 90,
+      "pinLength": 20,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "USB_DM_S3",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1630,
+        -6880,
+        1630,
+        -6860
+       ]
+      ],
+      "net": "USB_DM_S3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12475"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12346e20",
+      "x": 1600,
+      "y": -6860,
+      "pinNumber": "5",
+      "pinName": "5",
+      "rotation": 90,
+      "pinLength": 20,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "S3_VBUS",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1600,
+        -6880,
+        1600,
+        -6860
+       ]
+      ],
+      "net": "S3_VBUS",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12478"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ],
+   "saved": true
+  }
+ }
+]

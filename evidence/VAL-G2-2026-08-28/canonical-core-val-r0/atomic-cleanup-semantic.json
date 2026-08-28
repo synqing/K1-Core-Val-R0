@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-atomic-fixture-cleanup-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "scope": "POWER_ENTRY_SENSE",
+  "stage": "repair",
+  "pre_source_hash": "35311:d51936b0",
+  "post_source_hash": "32221:3c9f62a2",
+  "saved": true,
+  "affected": [
+    "CS35-PWR1",
+    "e976", "e978", "e980", "e982", "e984", "e986",
+    "e1026", "e1028", "e1030", "e1032", "e1034", "e1036", "e1038", "e1040"
+  ],
+  "census": {
+    "electrical_components": 14,
+    "component_records_including_sheet_root": 15,
+    "wires": 36,
+    "net_attributes": 36,
+    "rectangles": 10,
+    "texts": 1,
+    "fixture_only_designators": 0
+  }
+}

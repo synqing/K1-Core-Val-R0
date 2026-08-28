@@ -1,0 +1,420 @@
+[
+ {
+  "tag": "C35",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10355",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "f697ffe27e3b48708c1e41bc9ec8dacc"
+    },
+    "x": 1300,
+    "y": 4200,
+    "subPartName": "GRM1555C1H180JA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I10355",
+    "symbol": {
+     "uuid": "8712dadb2f614550b377a995dab03c6f",
+     "libraryUuid": "fd398699f5cb4ae882fb1d6eec9d07bd"
+    },
+    "footprint": {
+     "uuid": "7355e8ee79fb478a8ff60a56216e9bcc",
+     "libraryUuid": "fd398699f5cb4ae882fb1d6eec9d07bd"
+    },
+    "designator": "C35",
+    "name": "18pF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM1555C1H180JA01D",
+    "supplier": "LCSC",
+    "supplierId": "GRM1555C1H180JA01D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rated": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C36",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10391",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "f697ffe27e3b48708c1e41bc9ec8dacc"
+    },
+    "x": 1600,
+    "y": 4200,
+    "subPartName": "GRM1555C1H180JA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I10391",
+    "symbol": {
+     "uuid": "8712dadb2f614550b377a995dab03c6f",
+     "libraryUuid": "fd398699f5cb4ae882fb1d6eec9d07bd"
+    },
+    "footprint": {
+     "uuid": "7355e8ee79fb478a8ff60a56216e9bcc",
+     "libraryUuid": "fd398699f5cb4ae882fb1d6eec9d07bd"
+    },
+    "designator": "C36",
+    "name": "18pF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM1555C1H180JA01D",
+    "supplier": "LCSC",
+    "supplierId": "GRM1555C1H180JA01D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rated": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C37",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10427",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "c3ed589605d74eb0b175858ac76f1cb2"
+    },
+    "x": 3200,
+    "y": 4200,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I10427",
+    "symbol": {
+     "uuid": "365891f2e96747049db199240392f1c4",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "footprint": {
+     "uuid": "3a1f3767bcb3402e8ad5f6b1f14a30a2",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "designator": "C37",
+    "name": "100nF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R71C104KA88D",
+    "supplier": "LCSC",
+    "supplierId": "GRM155R71C104KA88D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C38",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10463",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "b99bda69f59a4c34954f7131bb93197e"
+    },
+    "x": 3500,
+    "y": 4200,
+    "subPartName": "GRM155R60J106ME44D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I10463",
+    "symbol": {
+     "uuid": "c109439ffb9e4ea4a0cd0c51b5279fdc",
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "footprint": {
+     "uuid": "52ec88cbe8a84bce9e4ba59c780166d6",
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "designator": "C38",
+    "name": "10uF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J106ME44D",
+    "supplier": "LCSC",
+    "supplierId": "GRM155R60J106ME44D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R13",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10499",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "e3746e51cb364f7a9bbe715147ecd5a0"
+    },
+    "x": 1900,
+    "y": 4200,
+    "subPartName": "RC0402FR-070RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I10499",
+    "symbol": {
+     "uuid": "d552c7a678d04368a2a22a25165a5da4",
+     "libraryUuid": "675d948cd33a4a13b599b851b5bb0e95"
+    },
+    "footprint": {
+     "uuid": "1167b0401ae7426bbbccf771724ef7a5",
+     "libraryUuid": "675d948cd33a4a13b599b851b5bb0e95"
+    },
+    "designator": "R13",
+    "name": "0R",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-070RL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-070RL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R14",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10538",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "f0a94664be384bca9adc49994205cf28"
+    },
+    "x": 3800,
+    "y": 4200,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I10538",
+    "symbol": {
+     "uuid": "6fa7a1901b644bd082f8fe0fc48544af",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "footprint": {
+     "uuid": "f9ed3c975d9c48e88ed96dc10de66926",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "designator": "R14",
+    "name": "10k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0710KL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-0710KL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "U8",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10577",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "c2b31596ccca4f4188664b3a5e773c6c"
+    },
+    "x": 2500,
+    "y": 4200,
+    "subPartName": "IS25WP064A-JBLE.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I10577",
+    "symbol": {
+     "uuid": "c584fc2ad5524f048b3f4c67378cce92",
+     "libraryUuid": "b25a2a454a4c4a4bb9739927daf4c2f4"
+    },
+    "footprint": {
+     "uuid": "85a8c602c56646da9242b5d442cf443a",
+     "libraryUuid": "b25a2a454a4c4a4bb9739927daf4c2f4"
+    },
+    "designator": "U8",
+    "name": "64Mbit",
+    "uniqueId": "",
+    "manufacturer": "ISSI(北京矽成)",
+    "manufacturerId": "IS25WP064A-JBLE",
+    "supplier": "LCSC",
+    "supplierId": "IS25WP064A-JBLE.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Interface": "",
+     "Memory Size": "",
+     "Clock Frequency": "",
+     "Voltage - Supply": "",
+     "Standby Supply Current": "",
+     "Program / Erase Cycles": "",
+     "Write Cycle Time (tWC)": "",
+     "Page Programming Time (Tpp)": "",
+     "Block Erase Time(tBE)": "",
+     "Data Retention - TDR (Year)": "",
+     "Operating Temperature": "",
+     "Features": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "Y1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e10639",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "ae25527a140144b1a3f3e648bd82ac18"
+    },
+    "x": 800,
+    "y": 4200,
+    "subPartName": "XRCGB24M000F3A00R0.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I10639",
+    "symbol": {
+     "uuid": "538148b1602f44c7889b1b5ac47d8a8a",
+     "libraryUuid": "605be9fc46954fe8b1a53f3c76dbdd72"
+    },
+    "footprint": {
+     "uuid": "92907a784cd84d1d98a3d0e2d30fae01",
+     "libraryUuid": "605be9fc46954fe8b1a53f3c76dbdd72"
+    },
+    "designator": "Y1",
+    "name": "24MHz",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "XRCGB24M000F3A00R0",
+    "supplier": "LCSC",
+    "supplierId": "XRCGB24M000F3A00R0.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Normal temperature Frequency Tolerance": "",
+     "Load Capacitance": "",
+     "Frequency Stability": "",
+     "Equivalent Series Resistance(ESR)": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   },
+   "saved": true
+  }
+ }
+]

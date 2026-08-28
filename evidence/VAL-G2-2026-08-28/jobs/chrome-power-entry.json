@@ -1,0 +1,9 @@
+[
+  {"tool": "add_schematic_wire", "tag": "trunk-5V_USB", "args": {"line": [560, -440, 560, -500, 1060, -500], "net": "5V_USB", "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "add_schematic_wire", "tag": "trunk-5V_USB_FILTERED", "args": {"line": [1140, -500, 1795, -520], "net": "5V_USB_FILTERED", "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "add_schematic_wire", "tag": "trunk-5V_PROTECTED", "args": {"line": [2010, -520, 2010, -900, 2165, -900], "net": "5V_PROTECTED", "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "add_schematic_net_flag", "tag": "flag-5V_USB", "args": {"identification": "Power", "net": "5V_USB", "x": 700, "y": -430, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "add_schematic_net_flag", "tag": "flag-5V_PROTECTED", "args": {"identification": "Power", "net": "5V_PROTECTED", "x": 2080, "y": -510, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "add_schematic_net_flag", "tag": "flag-GND", "args": {"identification": "Ground", "net": "GND", "x": 620, "y": -400, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "add_schematic_text", "tag": "title", "args": {"x": 400, "y": -280, "content": "1  POWER ENTRY", "fontSize": 18, "bold": true, "textColor": "#B00020", "saveAfter": true, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}}
+]

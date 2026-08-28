@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "transaction_id": "layout-power-sense-u2-pinfix-2026-08-28",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "intended_delta": "Correct U2-PWR VIN polarity: 5V_PROTECTED to VIN+, VIN- and VBUS joined on 5V_SYS, remove stranded negative-Y wire, preserve Captain placement",
+  "observed_delta": "U2-PWR now shows 5V_PROTECTED on pin 10 VIN+ and one green 5V_SYS dog-leg joining pins 9 VIN- and 8 VBUS; the surrounding placement is unchanged.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/screenshots/layout-power-sense-u2-pinfix-saved.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name":"5V_PROTECTED visibly lands on VIN+ pin 10","result":"OK","detail":"The upper right red stub aligns with U2-PWR pin 10 VIN+ and is labelled 5V_PROTECTED."},
+    {"name":"VIN- pin 9 and VBUS pin 8 visibly share one 5V_SYS dog-leg","result":"OK","detail":"The green U-shaped wire visibly joins the two adjacent right-side pins and carries a single 5V_SYS label."},
+    {"name":"no stranded negative-Y 5V_SYS wire remains","result":"OK","detail":"Semantic read-back contains neither e14597 nor e14598; visible box 1 contains no duplicate dog-leg."},
+    {"name":"all 21 -PWR designators and all ten Captain boxes are unchanged","result":"OK","detail":"Read-back retains 21 components, every designator ends in -PWR, and exactly ten rectangles remain."}
+  ]
+}

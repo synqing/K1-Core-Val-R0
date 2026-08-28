@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "transaction_id": "layout-power-sense-u2-cursor-tail-cleanup-2026-08-28",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "scope": "POWER_SENSE_U2",
+  "stage": "repair",
+  "intended_delta": "Remove only the two EasyEDA cursor-tail branches from U2-PWR while preserving the corrected VIN mapping and Captain placement",
+  "pre_source_hash": "44488:6f3a4e8d",
+  "post_source_hash": "44408:332ad2fb",
+  "saved": true,
+  "affected": ["U2-PWR", "e14555", "e14561"],
+  "census": {
+    "components": 21,
+    "rectangles": 10,
+    "all_designators_have_pwr_suffix": true
+  },
+  "readback": {
+    "vin_plus": {"pin": "10", "net": "5V_PROTECTED", "wire": [[690,1080,775,1080]]},
+    "vin_minus_vbus": {"pins": ["9", "8"], "net": "5V_SYS", "wire": [[690,1060,775,1060],[775,1060,775,1070],[775,1070,690,1070]]},
+    "cursor_tail_present": false
+  }
+}

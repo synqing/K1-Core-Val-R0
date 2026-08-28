@@ -1,0 +1,70 @@
+{
+  "affected": [
+    "C3-PWR",
+    "C4-PWR",
+    "CS02-PWR",
+    "CS13-PWR",
+    "CS24-PWR",
+    "CS35-PWR",
+    "R3-PWR",
+    "R4-PWR",
+    "RSH1-PWR",
+    "U2-PWR"
+  ],
+  "census": {
+    "components": 21,
+    "designators": [
+      "C1-PWR",
+      "C2-PWR",
+      "C3-PWR",
+      "C4-PWR",
+      "CS02-PWR",
+      "CS11-PWR",
+      "CS13-PWR",
+      "CS22-PWR",
+      "CS24-PWR",
+      "CS33-PWR",
+      "CS35-PWR",
+      "D1-PWR",
+      "F1-PWR",
+      "J1-PWR",
+      "R1-PWR",
+      "R2-PWR",
+      "R3-PWR",
+      "R4-PWR",
+      "RSH1-PWR",
+      "U1-PWR",
+      "U2-PWR"
+    ],
+    "net_counts": {
+      "3V3": 5,
+      "5V_PROTECTED": 8,
+      "5V_SYS": 7,
+      "5V_USB": 2,
+      "5V_USB_FILTERED": 3,
+      "GND": 17,
+      "I2C_SCL": 1,
+      "I2C_SDA": 2,
+      "INA_ALERT": 2,
+      "USB_EFUSE_EN": 2,
+      "USB_EFUSE_ILIM": 2
+    },
+    "rectangles": 10,
+    "texts": 1,
+    "wires": 51
+  },
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "intended_delta": "Wire the corrected INA226 POWER_SENSE topology while preserving the fixed box and placement",
+  "netlist": {
+    "available": false,
+    "error": "The live host does not expose sch_ManufactureData; source NET attributes are retained as semantic evidence."
+  },
+  "post_source_hash": "44169:cba96336",
+  "pre_source_hash": "41128:748c3547",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "saved": true,
+  "schema_version": 1,
+  "scope": "POWER_SENSE",
+  "stage": "wire",
+  "transaction_id": "layout-power-sense-wire-2026-08-28b"
+}

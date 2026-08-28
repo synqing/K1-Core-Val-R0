@@ -1,0 +1,12 @@
+[
+  {
+    "tool": "get_current_context",
+    "tag": "context",
+    "args": {}
+  },
+  {
+    "tool": "get_document_source",
+    "tag": "source",
+    "args": {}
+  }
+]

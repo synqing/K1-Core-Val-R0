@@ -1,0 +1,48 @@
+[
+  {
+    "tool": "delete_schematic_component",
+    "tag": "delete-old-l1",
+    "args": {
+      "primitiveId": "e2050",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "delete_schematic_component",
+    "tag": "delete-old-c10",
+    "args": {
+      "primitiveId": "e1834",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "L1",
+    "args": {
+      "deviceUuid": "18344e62735d41d9b5d16655a0354a82",
+      "x": 1075.0,
+      "y": 4520.0,
+      "rotation": 0.0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "C10",
+    "args": {
+      "deviceUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+      "x": 1075.0,
+      "y": 4300.0,
+      "rotation": 0.0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

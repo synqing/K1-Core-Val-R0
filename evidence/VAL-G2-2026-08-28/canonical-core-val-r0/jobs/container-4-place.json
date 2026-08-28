@@ -1,0 +1,212 @@
+[
+  {
+    "tool": "add_schematic_component",
+    "tag": "C35",
+    "args": {
+      "deviceUuid": "fd398699f5cb4ae882fb1d6eec9d07bd",
+      "x": 3095,
+      "y": 4200,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "C36",
+    "args": {
+      "deviceUuid": "fd398699f5cb4ae882fb1d6eec9d07bd",
+      "x": 3335,
+      "y": 4200,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "C37",
+    "args": {
+      "deviceUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+      "x": 3575,
+      "y": 4200,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "C38",
+    "args": {
+      "deviceUuid": "64ae6bee56d84f5992761781da437e68",
+      "x": 3815,
+      "y": 4200,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R13",
+    "args": {
+      "deviceUuid": "675d948cd33a4a13b599b851b5bb0e95",
+      "x": 3095,
+      "y": 4515,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R14",
+    "args": {
+      "deviceUuid": "6593321c1e554b2f9070c57621ba8753",
+      "x": 3335,
+      "y": 4515,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "U8",
+    "args": {
+      "deviceUuid": "b25a2a454a4c4a4bb9739927daf4c2f4",
+      "x": 3575,
+      "y": 4515,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "Y1",
+    "args": {
+      "deviceUuid": "605be9fc46954fe8b1a53f3c76dbdd72",
+      "x": 3815,
+      "y": 4515,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "J4",
+    "args": {
+      "deviceUuid": "5ebeaa17053143a7af0a1a31767a8ca4",
+      "x": 3095,
+      "y": 3720,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "J5",
+    "args": {
+      "deviceUuid": "3b23b19f753644e49a737e630ce61fce",
+      "x": 3335,
+      "y": 3720,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R15",
+    "args": {
+      "deviceUuid": "8bef1d5fc0144eac931ff4a7b9204fb5",
+      "x": 3575,
+      "y": 3720,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R16",
+    "args": {
+      "deviceUuid": "8bef1d5fc0144eac931ff4a7b9204fb5",
+      "x": 3815,
+      "y": 3720,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R17",
+    "args": {
+      "deviceUuid": "8bef1d5fc0144eac931ff4a7b9204fb5",
+      "x": 3095,
+      "y": 4030,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R18",
+    "args": {
+      "deviceUuid": "8bef1d5fc0144eac931ff4a7b9204fb5",
+      "x": 3335,
+      "y": 4030,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_text",
+    "tag": "title-container-4",
+    "args": {
+      "x": 3005,
+      "y": 4685,
+      "content": "4. RT1062 BOOT + CLOCK + DEBUG",
+      "fontSize": 18,
+      "bold": true,
+      "textColor": "#B00020",
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

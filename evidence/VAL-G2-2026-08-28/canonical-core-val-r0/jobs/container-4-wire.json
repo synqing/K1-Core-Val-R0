@@ -1,0 +1,316 @@
+[
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C35",
+    "args": {
+      "componentPrimitiveId": "e4805",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "XTALI"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C36",
+    "args": {
+      "componentPrimitiveId": "e4841",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "XTALO_Y"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C37",
+    "args": {
+      "componentPrimitiveId": "e4877",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C38",
+    "args": {
+      "componentPrimitiveId": "e4913",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R13",
+    "args": {
+      "componentPrimitiveId": "e4949",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "XTALO"
+        },
+        {
+          "pinNumber": "2",
+          "net": "XTALO_Y"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R14",
+    "args": {
+      "componentPrimitiveId": "e4988",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "2",
+          "net": "FLASH_WP"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U8",
+    "args": {
+      "componentPrimitiveId": "e5027",
+      "connections": [
+        {
+          "pinNumber": "4",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "8",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "6",
+          "net": "FLEXSPI_SCLK"
+        },
+        {
+          "pinNumber": "1",
+          "net": "FLEXSPI_SS0"
+        },
+        {
+          "pinNumber": "5",
+          "net": "FLEXSPI_D0"
+        },
+        {
+          "pinNumber": "2",
+          "net": "FLEXSPI_D1"
+        },
+        {
+          "pinNumber": "3",
+          "net": "FLASH_WP"
+        },
+        {
+          "pinNumber": "7",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "Y1",
+    "args": {
+      "componentPrimitiveId": "e5089",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "XTALI"
+        },
+        {
+          "pinNumber": "3",
+          "net": "XTALO_Y"
+        },
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "4",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "J4",
+    "args": {
+      "componentPrimitiveId": "e5134",
+      "connections": [
+        {
+          "pinNumber": "3",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "10",
+          "net": "POR_B"
+        },
+        {
+          "pinNumber": "4",
+          "net": "SWD_SWCLK_H"
+        },
+        {
+          "pinNumber": "2",
+          "net": "SWD_SWDIO_H"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "J5",
+    "args": {
+      "componentPrimitiveId": "e5203",
+      "connections": [
+        {
+          "pinNumber": "4",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "LPUART1_TX_H"
+        },
+        {
+          "pinNumber": "2",
+          "net": "LPUART1_RX_H"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R15",
+    "args": {
+      "componentPrimitiveId": "e5358",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "SWD_SWCLK"
+        },
+        {
+          "pinNumber": "2",
+          "net": "SWD_SWCLK_H"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R16",
+    "args": {
+      "componentPrimitiveId": "e5397",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "SWD_SWDIO"
+        },
+        {
+          "pinNumber": "2",
+          "net": "SWD_SWDIO_H"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R17",
+    "args": {
+      "componentPrimitiveId": "e5436",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "LPUART1_TX"
+        },
+        {
+          "pinNumber": "2",
+          "net": "LPUART1_TX_H"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R18",
+    "args": {
+      "componentPrimitiveId": "e5475",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "LPUART1_RX"
+        },
+        {
+          "pinNumber": "2",
+          "net": "LPUART1_RX_H"
+        }
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

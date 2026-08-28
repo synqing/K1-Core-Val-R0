@@ -1,0 +1,302 @@
+[
+ {
+  "tag": "U10-ESP",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e8499",
+   "count": 6,
+   "pins": [
+    {
+     "primitiveId": "e8499e4",
+     "x": 4260,
+     "y": -4035,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 270,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e8499e8",
+     "x": 4290,
+     "y": -4035,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 270,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e8499e12",
+     "x": 4320,
+     "y": -4035,
+     "pinNumber": "3",
+     "pinName": "3",
+     "rotation": 270,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e8499e16",
+     "x": 4320,
+     "y": -4155,
+     "pinNumber": "4",
+     "pinName": "4",
+     "rotation": 90,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e8499e20",
+     "x": 4290,
+     "y": -4155,
+     "pinNumber": "5",
+     "pinName": "5",
+     "rotation": 90,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e8499e26",
+     "x": 4260,
+     "y": -4155,
+     "pinNumber": "6",
+     "pinName": "6",
+     "rotation": 90,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "J6-ESP",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e98163",
+   "count": 6,
+   "pins": [
+    {
+     "primitiveId": "e98163e5",
+     "x": 4730,
+     "y": -4310,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e98163e9",
+     "x": 4730,
+     "y": -4300,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e98163e13",
+     "x": 4730,
+     "y": -4290,
+     "pinNumber": "3",
+     "pinName": "3",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e98163e17",
+     "x": 4770,
+     "y": -4290,
+     "pinNumber": "4",
+     "pinName": "4",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e98163e21",
+     "x": 4770,
+     "y": -4300,
+     "pinNumber": "5",
+     "pinName": "5",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e98163e25",
+     "x": 4770,
+     "y": -4310,
+     "pinNumber": "6",
+     "pinName": "6",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R71-ESP",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e98207",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e98207e4",
+     "x": 4470,
+     "y": -3890,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e98207e8",
+     "x": 4430,
+     "y": -3890,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R72-ESP",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e98246",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e98246e4",
+     "x": 4600,
+     "y": -3890,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e98246e8",
+     "x": 4560,
+     "y": -3890,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R73-ESP",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e98285",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e98285e3",
+     "x": 4140,
+     "y": -4140,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e98285e7",
+     "x": 4100,
+     "y": -4140,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R74-ESP",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e98324",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e98324e3",
+     "x": 4140,
+     "y": -4080,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e98324e7",
+     "x": 4100,
+     "y": -4080,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ }
+]

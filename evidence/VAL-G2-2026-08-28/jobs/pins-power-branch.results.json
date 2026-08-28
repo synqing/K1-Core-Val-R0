@@ -1,0 +1,458 @@
+[
+ {
+  "tag": "C14",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e5864",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e5864e4",
+     "x": 8780,
+     "y": -950,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e5864e10",
+     "x": 8820,
+     "y": -950,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C15",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e5900",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e5900e5",
+     "x": 9385,
+     "y": -950,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e5900e9",
+     "x": 9415,
+     "y": -950,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C16",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e5936",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e5936e5",
+     "x": 9985,
+     "y": -950,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e5936e9",
+     "x": 10015,
+     "y": -950,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C17",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e5972",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e5972e4",
+     "x": 10330,
+     "y": -950,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e5972e10",
+     "x": 10370,
+     "y": -950,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "CS03",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e6008",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e6008e4",
+     "x": 8780,
+     "y": -1200,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e6008e10",
+     "x": 8820,
+     "y": -1200,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "CS14",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e6044",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e6044e4",
+     "x": 9080,
+     "y": -1200,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e6044e10",
+     "x": 9120,
+     "y": -1200,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "CS25",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e6080",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e6080e4",
+     "x": 9380,
+     "y": -1200,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e6080e10",
+     "x": 9420,
+     "y": -1200,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "CS36",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e6116",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e6116e4",
+     "x": 9680,
+     "y": -1200,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e6116e10",
+     "x": 9720,
+     "y": -1200,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "FB3",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e6152",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e6152e3",
+     "x": 10020,
+     "y": -500,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 3,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e6152e7",
+     "x": 9980,
+     "y": -500,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 3,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "Q1",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e6190",
+   "count": 3,
+   "pins": [
+    {
+     "primitiveId": "e6190e6",
+     "x": 9400,
+     "y": -480,
+     "pinNumber": "2",
+     "pinName": "S",
+     "rotation": 270,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e6190e10",
+     "x": 9380,
+     "y": -500,
+     "pinNumber": "1",
+     "pinName": "G",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e6190e14",
+     "x": 9400,
+     "y": -520,
+     "pinNumber": "3",
+     "pinName": "D",
+     "rotation": 90,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R9",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e6235",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e6235e4",
+     "x": 9170,
+     "y": -950,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e6235e8",
+     "x": 9130,
+     "y": -950,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "U5",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e6274",
+   "count": 5,
+   "pins": [
+    {
+     "primitiveId": "e6274e5",
+     "x": 8765,
+     "y": -510,
+     "pinNumber": "1",
+     "pinName": "IN",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e6274e9",
+     "x": 8765,
+     "y": -500,
+     "pinNumber": "2",
+     "pinName": "GND",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e6274e13",
+     "x": 8765,
+     "y": -490,
+     "pinNumber": "3",
+     "pinName": "EN",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e6274e17",
+     "x": 8835,
+     "y": -490,
+     "pinNumber": "4",
+     "pinName": "NC",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e6274e21",
+     "x": 8835,
+     "y": -510,
+     "pinNumber": "5",
+     "pinName": "OUT",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ }
+]

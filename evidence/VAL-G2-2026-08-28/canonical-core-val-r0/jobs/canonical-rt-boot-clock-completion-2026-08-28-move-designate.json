@@ -1,0 +1,172 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "move-U7-RTC",
+    "args": {
+      "primitiveId": "e3619",
+      "x": 3070,
+      "y": 4310,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "move-C18-RTC",
+    "args": {
+      "primitiveId": "e3055",
+      "x": 3230,
+      "y": 4310,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "move-R12-RTC",
+    "args": {
+      "primitiveId": "e3205",
+      "x": 3370,
+      "y": 4310,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "move-SW1-RTC",
+    "args": {
+      "primitiveId": "e3244",
+      "x": 3515,
+      "y": 4310,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "designate-R10",
+    "args": {
+      "primitiveId": "e47826",
+      "designator": "R10-RTC",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "supplier": "LCSC",
+      "supplierId": "C60490",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "designate-R11",
+    "args": {
+      "primitiveId": "e47865",
+      "designator": "R11-RTC",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "supplier": "LCSC",
+      "supplierId": "C60490",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "designate-C35",
+    "args": {
+      "primitiveId": "e47904",
+      "designator": "C35-RTDBG",
+      "name": "8.2pF",
+      "manufacturerId": "GRM1555C1H8R2CA01D",
+      "supplier": "LCSC",
+      "supplierId": "C76984",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "designate-C36",
+    "args": {
+      "primitiveId": "e47939",
+      "designator": "C36-RTDBG",
+      "name": "8.2pF",
+      "manufacturerId": "GRM1555C1H8R2CA01D",
+      "supplier": "LCSC",
+      "supplierId": "C76984",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "designate-U8",
+    "args": {
+      "primitiveId": "e47974",
+      "designator": "U8-RTDBG",
+      "name": "64Mbit / 3V",
+      "manufacturerId": "IS25LP064A-JBLE",
+      "supplier": "LCSC",
+      "supplierId": "C412831",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "designate-R68",
+    "args": {
+      "primitiveId": "e48032",
+      "designator": "R68-RTDBG",
+      "name": "2.2M",
+      "manufacturerId": "RC0402FR-072M2L",
+      "supplier": "LCSC",
+      "supplierId": "C138015",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "designate-R69",
+    "args": {
+      "primitiveId": "e48071",
+      "designator": "R69-RTDBG",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "supplier": "LCSC",
+      "supplierId": "C60490",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_text",
+    "tag": "note",
+    "args": {
+      "x": 3500,
+      "y": 4050,
+      "content": "RT BOOT: 10 INTERNAL / 01 SERIAL DOWNLOADER | U7 3.07V supervisor | CT OPEN = 20ms",
+      "fontSize": 10,
+      "bold": true,
+      "textColor": "#1F5AA6",
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

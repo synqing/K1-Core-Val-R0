@@ -1,0 +1,226 @@
+[
+  {
+    "tool": "add_schematic_component",
+    "tag": "C54",
+    "args": {
+      "deviceUuid": "4e7690a2adb44294acc6419a68b56e5e",
+      "x": 1070,
+      "y": 2535,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "C55",
+    "args": {
+      "deviceUuid": "4e7690a2adb44294acc6419a68b56e5e",
+      "x": 1250,
+      "y": 2535,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "C56",
+    "args": {
+      "deviceUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+      "x": 1430,
+      "y": 2535,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "C57",
+    "args": {
+      "deviceUuid": "64ae6bee56d84f5992761781da437e68",
+      "x": 1610,
+      "y": 2535,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "C58",
+    "args": {
+      "deviceUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+      "x": 1790,
+      "y": 2535,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "C59",
+    "args": {
+      "deviceUuid": "2318d8c6c4b2460ab497e55975762ae8",
+      "x": 1070,
+      "y": 2822,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "C60",
+    "args": {
+      "deviceUuid": "f0fc879af01d4b10bdf175c71236354f",
+      "x": 1250,
+      "y": 2822,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "C61",
+    "args": {
+      "deviceUuid": "bedff529a972445e904433706b3c1ac9",
+      "x": 1430,
+      "y": 2822,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "J10",
+    "args": {
+      "deviceUuid": "fe594ebbde9849c3a8e6a115d000ba45",
+      "x": 1430,
+      "y": 3108,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "L2",
+    "args": {
+      "deviceUuid": "26e4bf5f50534df2aaf71acfb5998847",
+      "x": 1610,
+      "y": 3108,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "L3",
+    "args": {
+      "deviceUuid": "83e49710d9494d5abd23171ded6f8fd8",
+      "x": 1790,
+      "y": 3108,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R42",
+    "args": {
+      "deviceUuid": "5c45a20a8a3a40f991a8387af4f0f98b",
+      "x": 1070,
+      "y": 3395,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R43",
+    "args": {
+      "deviceUuid": "f723232a581d4a8b9b283a6e7b916d0d",
+      "x": 1250,
+      "y": 3395,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "U12",
+    "args": {
+      "deviceUuid": "77d19b5e1eb0489391c8c21a4e45d5ca",
+      "x": 1430,
+      "y": 3395,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "Y2",
+    "args": {
+      "deviceUuid": "fac1a0376a604f2f90638a7e8c2aebd7",
+      "x": 1610,
+      "y": 3395,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_text",
+    "tag": "title-container-7",
+    "args": {
+      "x": 980,
+      "y": 3500,
+      "content": "7. NFC FRONT END + ANTENNA",
+      "fontSize": 18,
+      "bold": true,
+      "textColor": "#B00020",
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

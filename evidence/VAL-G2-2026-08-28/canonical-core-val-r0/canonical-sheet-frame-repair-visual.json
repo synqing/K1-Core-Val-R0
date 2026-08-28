@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-sheet-frame-repair-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Expand the native schematic sheet frame to contain all ten Captain-authored domain boxes without moving electrical content",
+  "observed_delta": "The native custom sheet border now encloses all ten domain boxes and the title block remains anchored at the lower-right. Electrical content retained its prior coordinates.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-sheet-frame-repair-after.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name":"sheet containment","result":"OK","detail":"All ten black domain rectangles are visibly inside the native sheet border."},
+    {"name":"title block","result":"OK","detail":"The native title block is visible at the lower-right edge of the expanded sheet."},
+    {"name":"domain geometry","result":"OK","detail":"The five-by-two domain grid retains its positions and spacing."},
+    {"name":"source boundary","result":"OK","detail":"Read-back found no added or removed source records and no electrical-coordinate change."},
+    {"name":"PCB boundary","result":"OK","detail":"No PCB document was opened or mutated."}
+  ]
+}

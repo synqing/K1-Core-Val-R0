@@ -1,0 +1,114 @@
+[
+ {
+  "tag": "delete-old-l1",
+  "ok": false,
+  "error": "EasyEDA bridge timed out waiting for delete_schematic_component after 30000ms. The EasyEDA host did not answer — check the editor is responsive and the document is open, then retry; raise EASYEDA_MCP_BRIDGE_TIMEOUT_MS (or EASYEDA_MCP_DELETE_SCHEMATIC_COMPONENT_TIMEOUT_MS) if the operation is legitimately slow."
+ },
+ {
+  "tag": "delete-old-c10",
+  "ok": false,
+  "error": "EasyEDA bridge timed out waiting for delete_schematic_component after 30000ms. The EasyEDA host did not answer — check the editor is responsive and the document is open, then retry; raise EASYEDA_MCP_BRIDGE_TIMEOUT_MS (or EASYEDA_MCP_DELETE_SCHEMATIC_COMPONENT_TIMEOUT_MS) if the operation is legitimately slow."
+ },
+ {
+  "tag": "L1",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "18344e62735d41d9b5d16655a0354a82",
+     "uuid": "18344e62735d41d9b5d16655a0354a82"
+    },
+    "x": 1075,
+    "y": 4520,
+    "subPartName": "XGL4030-222MEC.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e24569",
+    "symbol": {
+     "uuid": "6749505d29ca4a869bdba01c407df839",
+     "libraryUuid": "18344e62735d41d9b5d16655a0354a82"
+    },
+    "footprint": {
+     "uuid": "5b556db3307b48f986405c31b8158681",
+     "libraryUuid": "18344e62735d41d9b5d16655a0354a82"
+    },
+    "designator": "L?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "Coilcraft(线艺)",
+    "manufacturerId": "XGL4030-222MEC",
+    "supplier": "LCSC",
+    "supplierId": "C6616463",
+    "otherProperty": {
+     "LCSC Part Name": "2.2uH ±20% 7A",
+     "Supplier Footprint": "SMD,4x4mm",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://www.coilcraft.com/getmedia/032d9c73-4222-482f-b6bc-7808590e27c9/xgl4030.pdf",
+     "Value": "2.2uH",
+     "Tolerance": "±20%",
+     "Current - Saturation(Isat)": "7A",
+     "DC Resistance(DCR)": "15mΩ",
+     "Type": "Magnetic Shielded Inductor",
+     "Ratings": "AEC-Q200",
+     "Description": "Inductance:2.2uH Tolerance:±20% Tolerance:±20% Current - Saturation(Isat):7A DC Resistance(DCR):15mΩ Type:Magnetic Shielded Inductor Ratings:AEC-Q200"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "C10",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+     "uuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "x": 1075,
+    "y": 4300,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e24607",
+    "symbol": {
+     "uuid": "5bfd8c522b764c0db639c0ad7cfad3f5",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "footprint": {
+     "uuid": "ecc988f162c44eec829a596c8864e6d6",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R71C104KA88D",
+    "supplier": "LCSC",
+    "supplierId": "C71629",
+    "otherProperty": {
+     "LCSC Part Name": "100nF ±10% 16V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R71C104KA88D/72737.html",
+     "Value": "100nF",
+     "Tolerance": "±10%",
+     "Voltage Rating": "16V",
+     "Temperature Coefficient": "X7R",
+     "Description": "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ }
+]

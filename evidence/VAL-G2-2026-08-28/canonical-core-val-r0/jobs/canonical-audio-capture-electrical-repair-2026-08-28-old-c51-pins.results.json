@@ -1,0 +1,36 @@
+[
+ {
+  "tag": "C51-AUD",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e11832",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e11832e4",
+     "x": 65,
+     "y": -3300,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e11832e10",
+     "x": 105,
+     "y": -3300,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ }
+]

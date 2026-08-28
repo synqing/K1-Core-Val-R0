@@ -1,0 +1,171 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C39",
+    "args": {
+      "primitiveId": "e11186",
+      "designator": "C39",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C40",
+    "args": {
+      "primitiveId": "e11222",
+      "designator": "C40",
+      "name": "10uF",
+      "manufacturerId": "GRM155R60J106ME44D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C41",
+    "args": {
+      "primitiveId": "e11258",
+      "designator": "C41",
+      "name": "47uF",
+      "manufacturerId": "GRM21BR61A476ME15L",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C42",
+    "args": {
+      "primitiveId": "e11294",
+      "designator": "C42",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "CS08",
+    "args": {
+      "primitiveId": "e11330",
+      "designator": "CS08",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "CS19",
+    "args": {
+      "primitiveId": "e11366",
+      "designator": "CS19",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "CS30",
+    "args": {
+      "primitiveId": "e11402",
+      "designator": "CS30",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "J6",
+    "args": {
+      "primitiveId": "e11438",
+      "designator": "J6",
+      "name": "1x4",
+      "manufacturerId": "PREC040SAAN-RC",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R19",
+    "args": {
+      "primitiveId": "e11593",
+      "designator": "R19",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R20",
+    "args": {
+      "primitiveId": "e11632",
+      "designator": "R20",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "SW2",
+    "args": {
+      "primitiveId": "e11671",
+      "designator": "SW2",
+      "name": "BOOT",
+      "manufacturerId": "PTS645SM43SMTR92LFS",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "SW3",
+    "args": {
+      "primitiveId": "e11722",
+      "designator": "SW3",
+      "name": "EN",
+      "manufacturerId": "PTS645SM43SMTR92LFS",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U9",
+    "args": {
+      "primitiveId": "e11773",
+      "designator": "U9",
+      "name": "FITTED",
+      "manufacturerId": "ESP32-S3-WROOM-1-N16R8",
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

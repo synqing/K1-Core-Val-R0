@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "transaction_id": "wire-k1br-2026-08-28",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "scope": "K1BR",
+  "stage": "wire",
+  "intended_delta": "Wire the complete K1BR circuit block from FIXTURE-PLAN.json",
+  "pre_source_hash": "270262:30f66ee4",
+  "post_source_hash": "271914:705538af",
+  "saved": true,
+  "affected": ["C45", "R23", "R24", "R25", "R26", "R27", "TP1", "TP2"],
+  "census": {
+    "components": 137,
+    "wires": 405,
+    "designators": ["C1","C10","C11","C12","C13","C14","C15","C16","C17","C18","C19","C2","C20","C21","C22","C23","C24","C25","C26","C27","C28","C29","C3","C30","C31","C32","C33","C34","C35","C36","C37","C38","C39","C4","C40","C41","C42","C43","C44","C45","C5","C6","C7","C8","C9","CS01","CS02","CS03","CS06","CS07","CS08","CS11","CS12","CS13","CS14","CS17","CS18","CS19","CS22","CS23","CS24","CS25","CS28","CS29","CS30","CS33","CS34","CS35","CS36","D1","F1","FB1","FB2","FB3","FB4","J1","J4","J5","J6","J7","L1","Q1","R1","R10","R11","R12","R13","R14","R15","R16","R17","R18","R19","R2","R20","R21","R22","R23","R24","R25","R26","R27","R3","R4","R5","R6","R7","R8","R9","RSH1","SW1","SW2","SW3","TP1","TP2","U1","U10","U2","U3","U4","U5","U6","U7","U8","U9","Y1"],
+    "net_counts": {
+      "K1BR_SCK": 3,
+      "K1BR_SCK_RT": 2,
+      "K1BR_MOSI": 2,
+      "K1BR_MOSI_RT": 2,
+      "K1BR_MISO": 2,
+      "K1BR_MISO_S3": 2,
+      "K1BR_CS": 3,
+      "K1BR_CS_RT": 2,
+      "K1BR_IRQ": 2,
+      "K1BR_IRQ_S3": 2,
+      "GND": 124,
+      "3V3": 81
+    }
+  },
+  "netlist": {"available": false, "error": "get_schematic_netlist unavailable on this host"}
+}

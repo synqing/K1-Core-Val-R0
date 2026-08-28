@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "transaction_id": "layout-power-entry-place-2026-08-28",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "scope": "POWER_ENTRY",
+  "stage": "place",
+  "intended_delta": "Place the compact POWER_ENTRY domain inside its labelled non-overlapping box",
+  "pre_source_hash": "86:92aa800d",
+  "post_source_hash": "9862:1b68014a",
+  "saved": true,
+  "affected": [
+    "C1",
+    "C2",
+    "CS11",
+    "CS22",
+    "CS33",
+    "D1",
+    "F1",
+    "J1",
+    "R1",
+    "R2",
+    "U1",
+    "title:1. POWER ENTRY + PROTECTION",
+    "captain_provided_domain_boxes:10"
+  ],
+  "census": {
+    "components": 11,
+    "wires": 0,
+    "texts": 1,
+    "rectangles": 10,
+    "designators": [],
+    "net_counts": {}
+  },
+  "recovery_note": "The ten Captain-provided domain boxes were mistakenly removed, then restored byte-for-byte from the pre-removal source snapshot before this semantic record was closed. Component rows and the title row are unchanged across that restoration."
+}

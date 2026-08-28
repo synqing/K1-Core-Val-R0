@@ -1,0 +1,341 @@
+[
+ {
+  "tag": "R63-PWR1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e29093",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "bbb9cd146c744fa9ac1a5b7ee7005baa"
+    },
+    "x": 150,
+    "y": 3800,
+    "subPartName": "RC0402FR-071M05L.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I29093",
+    "symbol": {
+     "uuid": "64ff17a9b23d4ecfa5475075506f1048",
+     "libraryUuid": "a5926b750ba841648b265e220285a203"
+    },
+    "footprint": {
+     "uuid": "8dbd55d6b40c413b874d8126d5681888",
+     "libraryUuid": "a5926b750ba841648b265e220285a203"
+    },
+    "designator": "R63-PWR1",
+    "name": "1.05M",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-071M05L",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-071M05L.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Overload Voltage (Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature Range": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R2-PWR1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e465",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "a013647b98b14e3fb9a78c6e8fd474c2"
+    },
+    "x": 300,
+    "y": 3800,
+    "subPartName": "RC0402FR-07100KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "R64-PWR1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e29132",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "02e22426d58640d3bfd874e3b3a6c223"
+    },
+    "x": 450,
+    "y": 3800,
+    "subPartName": "RC0402FR-07324KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I29132",
+    "symbol": {
+     "uuid": "1f85386ecd2748f0a0922055795c37a1",
+     "libraryUuid": "b70eff1cd1c44161bba95073d4971133"
+    },
+    "footprint": {
+     "uuid": "cbc06ddbe89d44fe81924d28c763b7ba",
+     "libraryUuid": "b70eff1cd1c44161bba95073d4971133"
+    },
+    "designator": "R64-PWR1",
+    "name": "324k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-07324KL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-07324KL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R65-PWR1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e29171",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "3a6da6491500495583f4ef364d7ce7ec"
+    },
+    "x": 600,
+    "y": 3800,
+    "subPartName": "RC0402FR-07274KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I29171",
+    "symbol": {
+     "uuid": "7f5ac7fce4c847a4b7ec49ff98ce979f",
+     "libraryUuid": "c9201f77db114454a552303c9321dd4e"
+    },
+    "footprint": {
+     "uuid": "b615d09876004d0691457b48f44fdb07",
+     "libraryUuid": "c9201f77db114454a552303c9321dd4e"
+    },
+    "designator": "R65-PWR1",
+    "name": "274k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-07274KL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-07274KL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Overload Voltage (Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature Range": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R66-PWR1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e29210",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "a013647b98b14e3fb9a78c6e8fd474c2"
+    },
+    "x": 750,
+    "y": 3800,
+    "subPartName": "RC0402FR-07100KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I29210",
+    "symbol": {
+     "uuid": "5be345ec6a6e42609257d62cef8a09b8",
+     "libraryUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2"
+    },
+    "footprint": {
+     "uuid": "96a690140ad14eb7990f4dd7a4e8ebc9",
+     "libraryUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2"
+    },
+    "designator": "R66-PWR1",
+    "name": "100k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-07100KL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-07100KL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R67-PWR1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e29249",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "e1b1f220e40a4edea589adfa05a5d8c7"
+    },
+    "x": 600,
+    "y": 3700,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I29249",
+    "symbol": {
+     "uuid": "27e1c105ea1844858f8ef4c155fa3cd7",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "footprint": {
+     "uuid": "3a9991e4aef9455bb546fda6b87e03b9",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "designator": "R67-PWR1",
+    "name": "10k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0710KL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-0710KL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C67-PWR1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e29288",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "60afd69ff8704030ab59e635298b9afa"
+    },
+    "x": 750,
+    "y": 3700,
+    "subPartName": "GRM155R71H222KA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I29288",
+    "symbol": {
+     "uuid": "06d725f08e9349d389e35a67e5f79ca2",
+     "libraryUuid": "d035f356c56945668c9534741df47111"
+    },
+    "footprint": {
+     "uuid": "9cb5e047bfb847b1ab48b167ac2d0cb2",
+     "libraryUuid": "d035f356c56945668c9534741df47111"
+    },
+    "designator": "C67-PWR1",
+    "name": "2.2nF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R71H222KA01D",
+    "supplier": "LCSC",
+    "supplierId": "GRM155R71H222KA01D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   },
+   "saved": true
+  }
+ }
+]

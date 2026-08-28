@@ -1,0 +1,131 @@
+[
+ {
+  "tag": "GRM21BR61A476ME15L",
+  "ok": true,
+  "result": {
+   "query": "GRM21BR61A476ME15L",
+   "count": 2,
+   "devices": [
+    {
+     "uuid": "357737b504374558a5ee16c9701b47ad",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "GRM21BR61A476ME15L",
+     "symbolName": "GRM21BR61A476ME15L",
+     "symbolUuid": "3777c1646c8149f0b92e464c1aa4e5d8",
+     "footprintName": "C0805",
+     "footprintUuid": "9376364c15854e01b3fabcf032810a22",
+     "model3DName": "C0805_L2.0-W1.3-H1.3",
+     "model3DUuid": "8c88e81f49c6409b980720ec8953afb6",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230101/C7526F2FE4F3F5D41D651B8E9FD18EC9.jpg",
+     "description": "Capacitance:47uF Tolerance:±20% Tolerance:±20% Voltage Rating:10V Temperature Coefficient:X5R ",
+     "manufacturer": "muRata(村田)",
+     "manufacturerId": "GRM21BR61A476ME15L",
+     "supplier": "LCSC",
+     "supplierId": "C124129"
+    },
+    {
+     "uuid": "b165f484ed11409db18d93845d4605d3",
+     "libraryUuid": "",
+     "ordinal": 1,
+     "name": "GRM21BR61A476ME15L.",
+     "symbolName": "GRM21BR61A476ME15L.",
+     "symbolUuid": "565cdcdd74ed44c286b3333627d58a4e",
+     "footprintName": "C0805",
+     "footprintUuid": "9376364c15854e01b3fabcf032810a22",
+     "model3DName": "C0805_L2.0-W1.3-H1.3",
+     "model3DUuid": "8c88e81f49c6409b980720ec8953afb6",
+     "description": "",
+     "manufacturer": "muRata(村田)",
+     "manufacturerId": "GRM21BR61A476ME15L.",
+     "supplier": "LCSC",
+     "supplierId": "C25968549"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "RC0402FR-0732K4L",
+  "ok": true,
+  "result": {
+   "query": "RC0402FR-0732K4L",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "06948870fe41475da0ec4fe5b61d63e7",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "RC0402FR-0732K4L",
+     "symbolName": "RC0402FR-0732K4L",
+     "symbolUuid": "5c9f0abc83764fb7b43681f970fbdf35",
+     "footprintName": "R0402",
+     "footprintUuid": "b43f879bdccf4af3bada432fe602c7c6",
+     "model3DName": "R0402_L1.0-W0.5-H0.4",
+     "model3DUuid": "efdecb7dae4442949d28eecaf748420f",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230108/826B3F7E3C45E8A43CC48C745CF5C8BA.jpg",
+     "description": "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃ ",
+     "manufacturer": "YAGEO(国巨)",
+     "manufacturerId": "RC0402FR-0732K4L",
+     "supplier": "LCSC",
+     "supplierId": "C185425"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "GRM1555C1H101JA01D",
+  "ok": true,
+  "result": {
+   "query": "GRM1555C1H101JA01D",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "7fa16b1f5f9c47fea6e96d1eea47bb57",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "GRM1555C1H101JA01D",
+     "symbolName": "GRM1555C1H101JA01D",
+     "symbolUuid": "86eb1552a68247db8b252ad12c53d4da",
+     "footprintName": "C0402",
+     "footprintUuid": "6fbbb009724a4aee93b46abcd7ad26b6",
+     "model3DName": "C0402_L1.0-W0.5-H0.5",
+     "model3DUuid": "b7d13df3e9464d7a99d0651d1a5b4d57",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20250927/1541ADF7266AC356FBBC32FB87F16314.jpg",
+     "description": "Capacitance:100pF Tolerance:±5% Tolerance:±5% Voltage Rating:50V Temperature Coefficient:C0G ",
+     "manufacturer": "muRata(村田)",
+     "manufacturerId": "GRM1555C1H101JA01D",
+     "supplier": "LCSC",
+     "supplierId": "C77177"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "GRM155R60J106ME44D",
+  "ok": true,
+  "result": {
+   "query": "GRM155R60J106ME44D",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "64ae6bee56d84f5992761781da437e68",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "GRM155R60J106ME44D",
+     "symbolName": "GRM155R60J106ME44D",
+     "symbolUuid": "f7d7050620d745d3941d949e0c47f04a",
+     "footprintName": "C0402",
+     "footprintUuid": "6fbbb009724a4aee93b46abcd7ad26b6",
+     "model3DName": "C0402_L1.0-W0.5-H0.5",
+     "model3DUuid": "b7d13df3e9464d7a99d0651d1a5b4d57",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20251009/8B7BB1D40F0755D49187BEA0DD99612B.jpg",
+     "description": "Capacitance:10uF Tolerance:±20% Tolerance:±20% Voltage Rating:6.3V Temperature Coefficient:X5R ",
+     "manufacturer": "muRata(村田)",
+     "manufacturerId": "GRM155R60J106ME44D",
+     "supplier": "LCSC",
+     "supplierId": "C76991"
+    }
+   ]
+  }
+ }
+]

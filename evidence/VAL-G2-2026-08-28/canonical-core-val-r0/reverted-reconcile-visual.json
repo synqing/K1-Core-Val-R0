@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "reconcile-persisted-revert-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Reconcile the actual persisted canonical sheet after durable reopen disproved the prior unsaved source-level cleanup.",
+  "observed_delta": "The six host-API component deletions persisted, but CS35-PWR1 and fourteen stress-capacitor wire stubs remain in the durable source; no other domain box was populated.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/reverted-live-box1.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name":"durable source identity","result":"OK","detail":"Reopened page source is 35311:d51936b0 on the canonical UUID."},
+    {"name":"persisted component deletions","result":"OK","detail":"Six earlier fixture-only capacitor symbols remain absent."},
+    {"name":"remaining fixture defect recorded","result":"OK","detail":"CS35-PWR1 and the orphan stress stubs are visibly present and explicitly recorded for repair."},
+    {"name":"functional power block preserved","result":"OK","detail":"The fourteen intended PWR1 components and C3 functional wiring remain present."},
+    {"name":"domain and PCB boundary","result":"OK","detail":"All ten rectangles remain and the PCB was not opened or changed."}
+  ]
+}

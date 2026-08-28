@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-container-8-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Populate canonical domain box 8 (MOTION) with source-derived components, domain suffix -MOT, functional net endpoints and one readable title",
+  "observed_delta": "Box 8 contains the accelerometer, decoupling, I2C ownership options, interrupt options and pull-up with MOT designators and functional named endpoints.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/container-8-after.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name":"domain contents","result":"OK","detail":"Accelerometer, option links, pull-up and decoupling are present inside box 8."},
+    {"name":"domain designators","result":"OK","detail":"Visible designators carry -MOT."},
+    {"name":"functional connectivity","result":"OK","detail":"SDA, SCL, INT1, rails and DNP/0R ownership options are visibly named."},
+    {"name":"layout readability","result":"OK","detail":"Parts are spaced in clear rows without component collision."},
+    {"name":"mutation boundary","result":"OK","detail":"The rectangle and adjacent domain remain fixed; PCB was not changed."}
+  ]
+}

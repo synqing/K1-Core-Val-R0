@@ -1,0 +1,52 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U6u2",
+    "args": {
+      "primitiveId": "e7066",
+      "designator": "U6",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U6u3",
+    "args": {
+      "primitiveId": "e7390",
+      "designator": "U6",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U6u4",
+    "args": {
+      "primitiveId": "e7714",
+      "designator": "U6",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U6u5",
+    "args": {
+      "primitiveId": "e8038",
+      "designator": "U6",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U6u6",
+    "args": {
+      "primitiveId": "e8362",
+      "designator": "U6",
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

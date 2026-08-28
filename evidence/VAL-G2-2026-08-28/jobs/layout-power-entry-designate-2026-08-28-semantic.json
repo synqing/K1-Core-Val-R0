@@ -1,0 +1,49 @@
+{
+  "affected": [
+    "C1",
+    "C2",
+    "CS11",
+    "CS22",
+    "CS33",
+    "D1",
+    "F1",
+    "J1",
+    "R1",
+    "R2",
+    "U1"
+  ],
+  "census": {
+    "components": 11,
+    "designators": [
+      "C1",
+      "C2",
+      "CS11",
+      "CS22",
+      "CS33",
+      "D1",
+      "F1",
+      "J1",
+      "R1",
+      "R2",
+      "U1"
+    ],
+    "net_counts": {},
+    "rectangles": 10,
+    "texts": 1,
+    "wires": 0
+  },
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "intended_delta": "Apply final POWER_ENTRY reference designators and values without moving Captain box geometry",
+  "netlist": {
+    "available": false,
+    "error": "get_schematic_netlist no json: This EasyEDA runtime does not expose sch_ManufactureData. get_schematic_netlist are unavailable on this host build. Supported alternatives on this host: get_document_source."
+  },
+  "post_source_hash": "20060:4ea99dec",
+  "pre_source_hash": "9860:7d215995",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "saved": true,
+  "schema_version": 1,
+  "scope": "POWER_ENTRY",
+  "stage": "designate",
+  "transaction_id": "layout-power-entry-designate-2026-08-28"
+}

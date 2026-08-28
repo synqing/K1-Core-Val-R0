@@ -1,0 +1,7 @@
+[
+  {"tag":"context","tool":"get_current_context","args":{}},
+  {"tag":"project_objects","tool":"list_project_objects","args":{}},
+  {"tag":"source","tool":"get_document_source","args":{"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tag":"netlist","tool":"get_schematic_netlist","args":{"netlistType":"EasyEDA"}},
+  {"tag":"drc","tool":"run_schematic_drc","args":{"strict":false,"userInterface":false,"includeVerboseError":true}}
+]

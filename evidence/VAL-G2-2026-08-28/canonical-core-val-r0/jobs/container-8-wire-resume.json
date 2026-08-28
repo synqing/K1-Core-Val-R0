@@ -1,0 +1,208 @@
+[
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C62",
+    "args": {
+      "componentPrimitiveId": "e13842",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C63",
+    "args": {
+      "componentPrimitiveId": "e13878",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R44",
+    "args": {
+      "componentPrimitiveId": "e13914",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "I2C_SDA"
+        },
+        {
+          "pinNumber": "1",
+          "net": "MOTION_SDA"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R45",
+    "args": {
+      "componentPrimitiveId": "e13953",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "I2C_SDA"
+        },
+        {
+          "pinNumber": "1",
+          "net": "MOTION_SDA"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R46",
+    "args": {
+      "componentPrimitiveId": "e13992",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "I2C_SCL"
+        },
+        {
+          "pinNumber": "1",
+          "net": "MOTION_SCL"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R47",
+    "args": {
+      "componentPrimitiveId": "e14031",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "I2C_SCL"
+        },
+        {
+          "pinNumber": "1",
+          "net": "MOTION_SCL"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R48",
+    "args": {
+      "componentPrimitiveId": "e14070",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "MOTION_INT1"
+        },
+        {
+          "pinNumber": "2",
+          "net": "MOTION_INT_RT"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R49",
+    "args": {
+      "componentPrimitiveId": "e14109",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "MOTION_INT1"
+        },
+        {
+          "pinNumber": "2",
+          "net": "MOTION_INT_S3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R50",
+    "args": {
+      "componentPrimitiveId": "e14148",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "2",
+          "net": "MOTION_SDA"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U13",
+    "args": {
+      "componentPrimitiveId": "e14187",
+      "connections": [
+        {
+          "pinNumber": "6",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "9",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "10",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "4",
+          "net": "MOTION_SDA"
+        },
+        {
+          "pinNumber": "1",
+          "net": "MOTION_SCL"
+        },
+        {
+          "pinNumber": "12",
+          "net": "MOTION_INT1"
+        }
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

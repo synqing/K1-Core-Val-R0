@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "transaction_id": "layout-power-sense-u2-pinfix-2026-08-28",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "scope": "POWER_SENSE_U2",
+  "stage": "repair",
+  "intended_delta": "Correct U2-PWR VIN polarity: 5V_PROTECTED to VIN+, VIN- and VBUS joined on 5V_SYS, remove stranded negative-Y wire, preserve Captain placement",
+  "pre_source_hash": "44392:9a3870c1",
+  "post_source_hash": "44272:e1ac85a2",
+  "saved": true,
+  "affected": ["U2-PWR", "e14555", "e14556", "e14561", "e14562", "e14597", "e14598"],
+  "census": {"components": 21, "wires": 50, "rectangles": 10, "all_designators_have_pwr_suffix": true},
+  "readback": {
+    "vin_plus": {"pin": "10", "net": "5V_PROTECTED", "wire": [[690,1080,775,1080]]},
+    "vin_minus_vbus": {"pins": ["9","8"], "net": "5V_SYS", "wire": [[690,1060,775,1060],[775,1060,775,1070],[775,1070,690,1070]]},
+    "removed_ids": ["e14597", "e14598"]
+  }
+}

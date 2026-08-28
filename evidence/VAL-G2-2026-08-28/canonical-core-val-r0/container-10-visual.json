@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-container-10-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Populate canonical domain box 10 (OPTIONS, DEBUG_FABRIC) with source-derived components, domain suffix -VAL, functional net endpoints and one readable title",
+  "observed_delta": "Box 10 contains the debug/recovery connector, validation option links, boot and power-valid straps, supervisor, P-channel gate circuit, local decoupling and a real single-pin 3V3 test point, all with VAL designators.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/container-10-after.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name":"domain contents","result":"OK","detail":"Debug/recovery, option links, straps, supervisor and validation access are present inside box 10."},
+    {"name":"test-point topology","result":"OK","detail":"TP6-VAL visibly uses its single real pin on 3V3 and has no fictional second-pin ground connection."},
+    {"name":"domain designators","result":"OK","detail":"Visible electrical designators carry -VAL."},
+    {"name":"layout readability","result":"OK","detail":"Symbols are distributed within the rectangle without component-body collisions."},
+    {"name":"mutation boundary","result":"OK","detail":"The rectangle and adjacent domain remain fixed; PCB was not changed."}
+  ]
+}

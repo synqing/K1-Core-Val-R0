@@ -1,0 +1,317 @@
+[
+ {
+  "tag": "R63",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "a5926b750ba841648b265e220285a203",
+     "uuid": "a5926b750ba841648b265e220285a203"
+    },
+    "x": 800,
+    "y": 4420,
+    "subPartName": "RC0402FR-071M05L.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e29093",
+    "symbol": {
+     "uuid": "64ff17a9b23d4ecfa5475075506f1048",
+     "libraryUuid": "a5926b750ba841648b265e220285a203"
+    },
+    "footprint": {
+     "uuid": "8dbd55d6b40c413b874d8126d5681888",
+     "libraryUuid": "a5926b750ba841648b265e220285a203"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-071M05L",
+    "supplier": "LCSC",
+    "supplierId": "C477184",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 1.05MΩ ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20200715/C477184_5FE9413986FB71752D547438B3B15053.pdf",
+     "Type": "Thick Film Resistors",
+     "Value": "1.05MΩ",
+     "Tolerance": "±1%",
+     "Power(Watts)": "",
+     "Overload Voltage (Max)": "",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature Range": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R64",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "b70eff1cd1c44161bba95073d4971133",
+     "uuid": "b70eff1cd1c44161bba95073d4971133"
+    },
+    "x": 1100,
+    "y": 4420,
+    "subPartName": "RC0402FR-07324KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e29132",
+    "symbol": {
+     "uuid": "1f85386ecd2748f0a0922055795c37a1",
+     "libraryUuid": "b70eff1cd1c44161bba95073d4971133"
+    },
+    "footprint": {
+     "uuid": "cbc06ddbe89d44fe81924d28c763b7ba",
+     "libraryUuid": "b70eff1cd1c44161bba95073d4971133"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-07324KL",
+    "supplier": "LCSC",
+    "supplierId": "C185426",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 324kΩ ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-07324KL/196831.html",
+     "Type": "Thick Film Resistor",
+     "Value": "324kΩ",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:324kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R65",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "c9201f77db114454a552303c9321dd4e",
+     "uuid": "c9201f77db114454a552303c9321dd4e"
+    },
+    "x": 800,
+    "y": 4320,
+    "subPartName": "RC0402FR-07274KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e29171",
+    "symbol": {
+     "uuid": "7f5ac7fce4c847a4b7ec49ff98ce979f",
+     "libraryUuid": "c9201f77db114454a552303c9321dd4e"
+    },
+    "footprint": {
+     "uuid": "b615d09876004d0691457b48f44fdb07",
+     "libraryUuid": "c9201f77db114454a552303c9321dd4e"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-07274KL",
+    "supplier": "LCSC",
+    "supplierId": "C185435",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 274kΩ ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20180904/C276339_014E484F1DBA106FB92D45EABD5A1AC1.pdf",
+     "Type": "Thick Film Resistors",
+     "Value": "274kΩ",
+     "Tolerance": "±1%",
+     "Power(Watts)": "",
+     "Overload Voltage (Max)": "",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature Range": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistors Resistance: Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R66",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2",
+     "uuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2"
+    },
+    "x": 950,
+    "y": 4320,
+    "subPartName": "RC0402FR-07100KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e29210",
+    "symbol": {
+     "uuid": "5be345ec6a6e42609257d62cef8a09b8",
+     "libraryUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2"
+    },
+    "footprint": {
+     "uuid": "96a690140ad14eb7990f4dd7a4e8ebc9",
+     "libraryUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-07100KL",
+    "supplier": "LCSC",
+    "supplierId": "C60491",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 100kΩ ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-07100KL/61543.html",
+     "Type": "Thick Film Resistor",
+     "Value": "100kΩ",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R67",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753",
+     "uuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "x": 1100,
+    "y": 4320,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e29249",
+    "symbol": {
+     "uuid": "27e1c105ea1844858f8ef4c155fa3cd7",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "footprint": {
+     "uuid": "3a9991e4aef9455bb546fda6b87e03b9",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0710KL",
+    "supplier": "LCSC",
+    "supplierId": "C60490",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 10kΩ ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-0710KL/61542.html",
+     "Type": "Thick Film Resistor",
+     "Value": "10kΩ",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "C67",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "d035f356c56945668c9534741df47111",
+     "uuid": "d035f356c56945668c9534741df47111"
+    },
+    "x": 1100,
+    "y": 4220,
+    "subPartName": "GRM155R71H222KA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e29288",
+    "symbol": {
+     "uuid": "06d725f08e9349d389e35a67e5f79ca2",
+     "libraryUuid": "d035f356c56945668c9534741df47111"
+    },
+    "footprint": {
+     "uuid": "9cb5e047bfb847b1ab48b167ac2d0cb2",
+     "libraryUuid": "d035f356c56945668c9534741df47111"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R71H222KA01D",
+    "supplier": "LCSC",
+    "supplierId": "C77022",
+    "otherProperty": {
+     "LCSC Part Name": "2.2nF ±10% 50V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R71H222KA01D/78149.html",
+     "Value": "2.2nF",
+     "Tolerance": "±10%",
+     "Voltage Rating": "50V",
+     "Temperature Coefficient": "X7R",
+     "Description": "Capacitance:2.2nF Tolerance:±10% Tolerance:±10% Voltage Rating:50V Temperature Coefficient:X7R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ }
+]

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>VAL-G2.0A fixture plan — topology review</title>
+<style>
+  :root { --ink:#111; --muted:#555; --line:#222; --paper:#f6f3ea; --block:#fff; }
+  html,body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.4 "Iowan Old Style",Georgia,serif; }
+  main { max-width:1100px; margin:0 auto; padding:28px 32px 64px; }
+  h1 { font-size:28px; margin:0 0 8px; }
+  .lede { font-size:18px; max-width:42em; }
+  .stamp { display:flex; gap:16px; flex-wrap:wrap; margin:20px 0 28px; }
+  .stamp div { background:#fff; border:1px solid #111; padding:10px 14px; min-width:9em; }
+  .stamp b { display:block; font-size:22px; }
+  svg { width:100%; height:auto; background:#fff; border:1px solid #111; }
+  .note { color:var(--muted); font-size:14px; margin-top:8px; }
+  table { width:100%; border-collapse:collapse; margin-top:28px; background:#fff; }
+  th,td { border:1px solid #111; padding:6px 8px; text-align:left; }
+  th { background:#ece7d8; }
+  .warn { border-left:4px solid #111; padding:8px 12px; margin:24px 0; background:#fff; }
+</style>
+</head>
+<body>
+<main>
+<h1>This is a circuit, not a parts dump</h1>
+<p class="lede">
+  The last sheet failed because it chased 200 symbols. This plan is the Option-C
+  validation board on one page: USB power in at the left, compute and radio in the
+  middle, audio / NFC / motion / LED out to the right.
+</p>
+<div class="stamp">
+  <div><span>Baseline symbols</span><b>182</b></div>
+  <div><span>On-sheet total</span><b>219</b></div>
+  <div><span>Named nets</span><b>120</b></div>
+  <div><span>Circuit blocks</span><b>20</b></div>
+  <div><span>Checker</span><b>PASS</b></div>
+</div>
+<p class="note">Scale: schematic flow, not millimetres. Boxes are domains, not copper.</p>
+<svg viewBox="0 0 1100 420" role="img" aria-label="Option C power and domain flow">
+  <g fill="none" stroke="#111" stroke-width="2">
+    <rect x="20" y="160" width="150" height="90"/>
+    <rect x="200" y="160" width="130" height="90"/>
+    <rect x="360" y="40" width="150" height="70"/>
+    <rect x="360" y="160" width="150" height="90"/>
+    <rect x="360" y="300" width="150" height="70"/>
+    <rect x="550" y="30" width="170" height="110"/>
+    <rect x="550" y="160" width="170" height="90"/>
+    <rect x="550" y="280" width="170" height="110"/>
+    <rect x="760" y="20" width="150" height="80"/>
+    <rect x="760" y="120" width="150" height="80"/>
+    <rect x="760" y="220" width="150" height="80"/>
+    <rect x="760" y="320" width="150" height="80"/>
+    <path d="M170 205 H200"/>
+    <path d="M330 205 H360"/>
+    <path d="M435 130 V160"/>
+    <path d="M435 250 V300"/>
+    <path d="M510 75 H550"/>
+    <path d="M510 205 H550"/>
+    <path d="M510 335 H550"/>
+    <path d="M720 85 H760"/>
+    <path d="M720 205 H760"/>
+    <path d="M720 335 H760"/>
+  </g>
+  <g font-family="Georgia,serif" font-size="13" fill="#111">
+    <text x="95" y="198" text-anchor="middle">USB entry</text>
+    <text x="95" y="216" text-anchor="middle">eFuse</text>
+    <text x="265" y="198" text-anchor="middle">5V_SYS</text>
+    <text x="265" y="216" text-anchor="middle">INA226</text>
+    <text x="435" y="72" text-anchor="middle">LED eFuse</text>
+    <text x="435" y="88" text-anchor="middle">+5V_LED L/R</text>
+    <text x="435" y="198" text-anchor="middle">TPS62913</text>
+    <text x="435" y="216" text-anchor="middle">3V3</text>
+    <text x="435" y="332" text-anchor="middle">3V3_MIC</text>
+    <text x="435" y="348" text-anchor="middle">NFC_5V</text>
+    <text x="635" y="72" text-anchor="middle">RT1062</text>
+    <text x="635" y="90" text-anchor="middle">reset · boot · flash</text>
+    <text x="635" y="198" text-anchor="middle">ESP32-S3</text>
+    <text x="635" y="216" text-anchor="middle">service USB</text>
+    <text x="635" y="322" text-anchor="middle">K1BR SPI</text>
+    <text x="635" y="340" text-anchor="middle">debug fabric</text>
+    <text x="835" y="54" text-anchor="middle">TLV320 + mic</text>
+    <text x="835" y="154" text-anchor="middle">ST25R3916B</text>
+    <text x="835" y="254" text-anchor="middle">LIS2DH12 XOR</text>
+    <text x="835" y="354" text-anchor="middle">J2 / J3 LED</text>
+  </g>
+</svg>
+<div class="warn">
+  EasyEDA device UUIDs in the JSON are stable MPN bind keys. The first VAL-G2.0B
+  act is <code>search_library_devices</code> for each unique MPN, then place
+  <strong>POWER_ENTRY</strong> on the existing blank project
+  <code>09e9c541fd3d404082d4b92e55ae5336</code>. Do not create a second project.
+  Do not drop a resistor grid.
+</div>
+<table>
+  <thead>
+    <tr><th>Block</th><th>Domain</th><th>Parts</th><th>Nets touching the block</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>POWER_ENTRY</td><td>POWER</td><td>11</td><td>6</td></tr>
+    <tr><td>POWER_SENSE</td><td>POWER</td><td>10</td><td>7</td></tr>
+    <tr><td>POWER_BUCK</td><td>POWER</td><td>15</td><td>7</td></tr>
+    <tr><td>POWER_LED</td><td>LED</td><td>10</td><td>6</td></tr>
+    <tr><td>POWER_BRANCH</td><td>POWER</td><td>12</td><td>6</td></tr>
+    <tr><td>RT_CORE</td><td>RT1062_SUPPORT</td><td>8</td><td>35</td></tr>
+    <tr><td>RT_DECOUPLE</td><td>RT1062_SUPPORT</td><td>18</td><td>3</td></tr>
+    <tr><td>RT_CLOCK_MEM</td><td>RT1062_SUPPORT</td><td>8</td><td>10</td></tr>
+    <tr><td>RT_DEBUG</td><td>DEBUG</td><td>6</td><td>11</td></tr>
+    <tr><td>ESP_CORE</td><td>ESP32_S3_SUPPORT</td><td>13</td><td>19</td></tr>
+    <tr><td>ESP_USB</td><td>USB</td><td>7</td><td>9</td></tr>
+    <tr><td>K1BR</td><td>K1BR</td><td>8</td><td>12</td></tr>
+    <tr><td>AUDIO_ADC</td><td>AUDIO</td><td>13</td><td>14</td></tr>
+    <tr><td>AUDIO_CLOCK</td><td>AUDIO</td><td>10</td><td>12</td></tr>
+    <tr><td>AUDIO_MIC</td><td>AUDIO</td><td>9</td><td>9</td></tr>
+    <tr><td>NFC</td><td>NFC</td><td>19</td><td>13</td></tr>
+    <tr><td>MOTION</td><td>MOTION</td><td>13</td><td>9</td></tr>
+    <tr><td>LED_DATA</td><td>LED</td><td>15</td><td>13</td></tr>
+    <tr><td>OPTIONS</td><td>OPTIONS</td><td>6</td><td>10</td></tr>
+    <tr><td>DEBUG_FABRIC</td><td>DEBUG</td><td>8</td><td>9</td></tr>
+  </tbody>
+</table>
+<p class="note">37 extra 100&nbsp;nF parts are fixture-only stress on real rails. They are not a second MCU, ADC, NFC, or regulator.</p>
+</main>
+</body>
+</html>

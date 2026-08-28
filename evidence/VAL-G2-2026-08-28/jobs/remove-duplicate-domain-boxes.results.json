@@ -1,0 +1,64 @@
+[
+ {
+  "tag": "delete:e13751",
+  "ok": false,
+  "error": "MCP error -32602: Tool delete_schematic_rectangle not found"
+ },
+ {
+  "tag": "delete:e13753",
+  "ok": false,
+  "error": "MCP error -32602: Tool delete_schematic_rectangle not found"
+ },
+ {
+  "tag": "delete:e13756",
+  "ok": false,
+  "error": "MCP error -32602: Tool delete_schematic_rectangle not found"
+ },
+ {
+  "tag": "delete:e13757",
+  "ok": false,
+  "error": "MCP error -32602: Tool delete_schematic_rectangle not found"
+ },
+ {
+  "tag": "delete:e13758",
+  "ok": false,
+  "error": "MCP error -32602: Tool delete_schematic_rectangle not found"
+ },
+ {
+  "tag": "delete:e13759",
+  "ok": false,
+  "error": "MCP error -32602: Tool delete_schematic_rectangle not found"
+ },
+ {
+  "tag": "delete:e13760",
+  "ok": false,
+  "error": "MCP error -32602: Tool delete_schematic_rectangle not found"
+ },
+ {
+  "tag": "delete:e13761",
+  "ok": false,
+  "error": "MCP error -32602: Tool delete_schematic_rectangle not found"
+ },
+ {
+  "tag": "delete:e13762",
+  "ok": false,
+  "error": "MCP error -32602: Tool delete_schematic_rectangle not found"
+ },
+ {
+  "tag": "delete:e13763",
+  "ok": false,
+  "error": "MCP error -32602: Tool delete_schematic_rectangle not found"
+ },
+ {
+  "tag": "save",
+  "ok": true,
+  "result": {
+   "currentDocument": {
+    "documentType": 1,
+    "uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+    "parentProjectUuid": "09e9c541fd3d404082d4b92e55ae5336"
+   },
+   "saved": true
+  }
+ }
+]

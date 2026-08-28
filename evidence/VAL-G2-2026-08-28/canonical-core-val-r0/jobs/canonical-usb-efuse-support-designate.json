@@ -1,0 +1,129 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R63",
+    "args": {
+      "primitiveId": "e29093",
+      "designator": "R63-PWR1",
+      "name": "1.05M",
+      "manufacturerId": "RC0402FR-071M05L",
+      "supplier": "LCSC",
+      "supplierId": "C477184",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R64",
+    "args": {
+      "primitiveId": "e29132",
+      "designator": "R64-PWR1",
+      "name": "324k",
+      "manufacturerId": "RC0402FR-07324KL",
+      "supplier": "LCSC",
+      "supplierId": "C185426",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R65",
+    "args": {
+      "primitiveId": "e29171",
+      "designator": "R65-PWR1",
+      "name": "274k",
+      "manufacturerId": "RC0402FR-07274KL",
+      "supplier": "LCSC",
+      "supplierId": "C185435",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R66",
+    "args": {
+      "primitiveId": "e29210",
+      "designator": "R66-PWR1",
+      "name": "100k",
+      "manufacturerId": "RC0402FR-07100KL",
+      "supplier": "LCSC",
+      "supplierId": "",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R67",
+    "args": {
+      "primitiveId": "e29249",
+      "designator": "R67-PWR1",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "supplier": "LCSC",
+      "supplierId": "C60490",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C67",
+    "args": {
+      "primitiveId": "e29288",
+      "designator": "C67-PWR1",
+      "name": "2.2nF",
+      "manufacturerId": "GRM155R71H222KA01D",
+      "supplier": "LCSC",
+      "supplierId": "C77022",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R1",
+    "args": {
+      "primitiveId": "e426",
+      "designator": "R1-PWR1",
+      "name": "1.33k",
+      "manufacturerId": "RC0402FR-071K33L",
+      "supplier": "LCSC",
+      "supplierId": "C276261",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R2",
+    "args": {
+      "primitiveId": "e465",
+      "x": 950,
+      "y": 4420,
+      "designator": "R2-PWR1",
+      "name": "100k",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

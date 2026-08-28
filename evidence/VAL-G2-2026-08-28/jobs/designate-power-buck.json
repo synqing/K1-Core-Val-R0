@@ -1,0 +1,17 @@
+[
+  {"tool": "modify_schematic_component", "tag": "U3", "args": {"primitiveId": "e4601", "designator": "U3", "name": "TPS62913RPUR", "manufacturerId": "TPS62913RPUR", "addIntoPcb": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "modify_schematic_component", "tag": "L1", "args": {"primitiveId": "e4672", "designator": "L1", "name": "4.7uH", "manufacturerId": "XAL4030-472ME", "addIntoPcb": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "modify_schematic_component", "tag": "C5", "args": {"primitiveId": "e4704", "designator": "C5", "name": "22uF", "addIntoPcb": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "modify_schematic_component", "tag": "C6", "args": {"primitiveId": "e4741", "designator": "C6", "name": "47uF", "addIntoPcb": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "modify_schematic_component", "tag": "C7", "args": {"primitiveId": "e4777", "designator": "C7", "name": "47uF", "addIntoPcb": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "modify_schematic_component", "tag": "C8", "args": {"primitiveId": "e4813", "designator": "C8", "name": "100nF", "addIntoPcb": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "modify_schematic_component", "tag": "R5", "args": {"primitiveId": "e4849", "designator": "R5", "name": "100k", "addIntoPcb": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "modify_schematic_component", "tag": "R6", "args": {"primitiveId": "e4888", "designator": "R6", "name": "32.4k", "addIntoPcb": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "modify_schematic_component", "tag": "C9", "args": {"primitiveId": "e4930", "designator": "C9", "name": "100pF", "addIntoPcb": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "modify_schematic_component", "tag": "R7", "args": {"primitiveId": "e4966", "designator": "R7", "name": "100k", "addIntoPcb": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "modify_schematic_component", "tag": "C10", "args": {"primitiveId": "e5007", "designator": "C10", "name": "10uF", "addIntoPcb": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "modify_schematic_component", "tag": "CS01", "args": {"primitiveId": "e5043", "designator": "CS01", "name": "100nF", "addIntoPcb": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "modify_schematic_component", "tag": "CS12", "args": {"primitiveId": "e5079", "designator": "CS12", "name": "100nF", "addIntoPcb": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "modify_schematic_component", "tag": "CS23", "args": {"primitiveId": "e5115", "designator": "CS23", "name": "100nF", "addIntoPcb": true, "saveAfter": false, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}},
+  {"tool": "modify_schematic_component", "tag": "CS34", "args": {"primitiveId": "e5151", "designator": "CS34", "name": "100nF", "addIntoPcb": true, "saveAfter": true, "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"}}
+]

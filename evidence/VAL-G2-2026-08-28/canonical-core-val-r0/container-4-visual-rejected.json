@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-container-4-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Populate canonical domain box 4 (RT_CLOCK_MEM, RT_DEBUG) with source-derived components, domain suffix -RTDBG, functional net endpoints and one readable title",
+  "observed_delta": "Clock, boot memory and SWD circuitry are contained, but J5 rendered as a 1x40 header and crosses the lower domain boundary because the source plan used the wrong PREC040SAAN-RC MPN for a four-pin UART header.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/container-4-after.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": ["J5 is a 40-pin symbol and extends outside box 4"],
+  "verdict": "REJECTED",
+  "checks": [
+    {"name":"domain contents","result":"OK","detail":"Clock, flash and SWD support are present."},
+    {"name":"domain designators","result":"OK","detail":"Visible designators carry -RTDBG."},
+    {"name":"connector identity","result":"DEFECT","detail":"J5 is PREC040SAAN-RC/1x40, not the intended 1x4 UART header."},
+    {"name":"layout containment","result":"DEFECT","detail":"J5 crosses the bottom rectangle boundary."},
+    {"name":"mutation boundary","result":"OK","detail":"PCB document was not opened or changed."}
+  ]
+}

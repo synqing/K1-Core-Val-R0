@@ -1,0 +1,86 @@
+[
+  {
+    "tool": "add_schematic_component",
+    "tag": "C42",
+    "args": {
+      "deviceUuid": "d7cfbc3b990d4f4892dd720a635a2d32",
+      "x": 4365,
+      "y": 4362,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "J6",
+    "args": {
+      "deviceUuid": "5f08146151b14d08af630cc4cd9d0168",
+      "x": 4750,
+      "y": 4300,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R71",
+    "args": {
+      "deviceUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2",
+      "x": 4450,
+      "y": 3890,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R72",
+    "args": {
+      "deviceUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2",
+      "x": 4580,
+      "y": 3890,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R73",
+    "args": {
+      "deviceUuid": "8bef1d5fc0144eac931ff4a7b9204fb5",
+      "x": 4120,
+      "y": 4140,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R74",
+    "args": {
+      "deviceUuid": "8bef1d5fc0144eac931ff4a7b9204fb5",
+      "x": 4120,
+      "y": 4080,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

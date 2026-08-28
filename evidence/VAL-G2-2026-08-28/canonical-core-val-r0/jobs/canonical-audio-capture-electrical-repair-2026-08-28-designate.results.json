@@ -1,0 +1,325 @@
+[
+ {
+  "tag": "C51",
+  "ok": true,
+  "result": {
+   "primitiveId": "e129790",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "f14d17c1e9a5432390e635576da7237b"
+    },
+    "x": 70,
+    "y": 3300,
+    "subPartName": "GRM155R61A105KE15D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I129790",
+    "symbol": {
+     "uuid": "100695d7bb6f45b09cf7bb5346fe98c5",
+     "libraryUuid": "d7cfbc3b990d4f4892dd720a635a2d32"
+    },
+    "footprint": {
+     "uuid": "79ede26e208f4976b0d55d8d5b5951c5",
+     "libraryUuid": "d7cfbc3b990d4f4892dd720a635a2d32"
+    },
+    "designator": "C51-AUD",
+    "name": "1uF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R61A105KE15D",
+    "supplier": "LCSC",
+    "supplierId": "C76999",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C90",
+  "ok": true,
+  "result": {
+   "primitiveId": "e129826",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "86f035d41f4d4fc3a8ba7bf486279e8f"
+    },
+    "x": 250,
+    "y": 3300,
+    "subPartName": "GRM155R60J106ME44D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I129826",
+    "symbol": {
+     "uuid": "2996f505f7574baa9a8ae57435928188",
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "footprint": {
+     "uuid": "c33326b9eb52426a92302d852ba3fb73",
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "designator": "C90-AUD",
+    "name": "10uF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J106ME44D",
+    "supplier": "LCSC",
+    "supplierId": "GRM155R60J106ME44D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C91",
+  "ok": true,
+  "result": {
+   "primitiveId": "e129862",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "86f035d41f4d4fc3a8ba7bf486279e8f"
+    },
+    "x": 790,
+    "y": 3400,
+    "subPartName": "GRM155R60J106ME44D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I129862",
+    "symbol": {
+     "uuid": "2996f505f7574baa9a8ae57435928188",
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "footprint": {
+     "uuid": "c33326b9eb52426a92302d852ba3fb73",
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "designator": "C91-AUD",
+    "name": "10uF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J106ME44D",
+    "supplier": "LCSC",
+    "supplierId": "GRM155R60J106ME44D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "TP7",
+  "ok": true,
+  "result": {
+   "primitiveId": "e129898",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "c20d1a7ed32e4e7f9b1b87c50982e2ef"
+    },
+    "x": 610,
+    "y": 2795,
+    "subPartName": "TP-黄色测试点.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I129898",
+    "symbol": {
+     "uuid": "a0e2f0880ccc4a5db178e2c8c37fdfe0",
+     "libraryUuid": "42b09b6db2ab43cb994fad497f236935"
+    },
+    "footprint": {
+     "uuid": "965d61cbb2554caaafd27187aa2243b5",
+     "libraryUuid": "42b09b6db2ab43cb994fad497f236935"
+    },
+    "designator": "TP7-AUD",
+    "name": "BCLK TP",
+    "uniqueId": "",
+    "manufacturer": "",
+    "manufacturerId": "5001",
+    "supplier": "LCSC",
+    "supplierId": "TP-黄色测试点.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "TP8",
+  "ok": true,
+  "result": {
+   "primitiveId": "e129927",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "c20d1a7ed32e4e7f9b1b87c50982e2ef"
+    },
+    "x": 790,
+    "y": 2795,
+    "subPartName": "TP-黄色测试点.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I129927",
+    "symbol": {
+     "uuid": "a0e2f0880ccc4a5db178e2c8c37fdfe0",
+     "libraryUuid": "42b09b6db2ab43cb994fad497f236935"
+    },
+    "footprint": {
+     "uuid": "965d61cbb2554caaafd27187aa2243b5",
+     "libraryUuid": "42b09b6db2ab43cb994fad497f236935"
+    },
+    "designator": "TP8-AUD",
+    "name": "FSYNC TP",
+    "uniqueId": "",
+    "manufacturer": "",
+    "manufacturerId": "5001",
+    "supplier": "LCSC",
+    "supplierId": "TP-黄色测试点.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C52-AUD",
+  "ok": true,
+  "result": {
+   "primitiveId": "e12082",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "8924a2eec41640fa9651dea26e133656"
+    },
+    "x": 100,
+    "y": 2855,
+    "subPartName": "GRM1555C1H101JA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": false,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "note-0",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Text",
+    "x": 520,
+    "y": -3470,
+    "content": "RT CLOCK MASTER | REMOVE R31-R33 BEFORE EXTERNAL J8 DRIVE",
+    "rotation": 0,
+    "textColor": "#1F5AA6",
+    "fontSize": 8,
+    "bold": true,
+    "alignMode": 2,
+    "primitiveId": "e129956"
+   }
+  }
+ },
+ {
+  "tag": "note-1",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Text",
+    "x": 45,
+    "y": -2435,
+    "content": "J9: 1 PWR | 2 GND | 3 CLK | 4 GND | 5 DATA | 6 GND | 7-10 NC",
+    "rotation": 0,
+    "textColor": "#1F5AA6",
+    "fontSize": 8,
+    "bold": true,
+    "alignMode": 2,
+    "primitiveId": "e129957"
+   }
+  }
+ },
+ {
+  "tag": "note-2",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Text",
+    "x": 520,
+    "y": -2435,
+    "content": "PDM DEFAULT R38/R39 | DIRECT RT R40/R41 = DNP EXPERIMENT",
+    "rotation": 0,
+    "textColor": "#1F5AA6",
+    "fontSize": 8,
+    "bold": true,
+    "alignMode": 2,
+    "primitiveId": "e129958"
+   },
+   "saved": true
+  }
+ }
+]

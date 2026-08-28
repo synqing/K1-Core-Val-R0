@@ -1,0 +1,58 @@
+{
+  "affected": [
+    "C3",
+    "C4",
+    "CS02",
+    "CS13",
+    "CS24",
+    "CS35",
+    "R3",
+    "R4",
+    "RSH1",
+    "U2"
+  ],
+  "census": {
+    "components": 21,
+    "designators": [
+      "C1",
+      "C2",
+      "C?",
+      "CS11",
+      "CS22",
+      "CS33",
+      "D1",
+      "F1",
+      "J1",
+      "R1",
+      "R2",
+      "R?",
+      "U1",
+      "U?"
+    ],
+    "net_counts": {
+      "5V_PROTECTED": 6,
+      "5V_USB": 2,
+      "5V_USB_FILTERED": 3,
+      "GND": 10,
+      "USB_EFUSE_EN": 2,
+      "USB_EFUSE_ILIM": 2
+    },
+    "rectangles": 10,
+    "texts": 1,
+    "wires": 25
+  },
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "intended_delta": "Place total-current sensing support in the reserved upper portion of Captain box 1 without changing the box geometry",
+  "netlist": {
+    "available": false,
+    "error": "get_schematic_netlist no json: This EasyEDA runtime does not expose sch_ManufactureData. get_schematic_netlist are unavailable on this host build. Supported alternatives on this host: get_document_source."
+  },
+  "post_source_hash": "31101:fa8961a3",
+  "pre_source_hash": "22931:c94e192d",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "saved": true,
+  "schema_version": 1,
+  "scope": "POWER_SENSE",
+  "stage": "place",
+  "transaction_id": "layout-power-sense-place-2026-08-28"
+}

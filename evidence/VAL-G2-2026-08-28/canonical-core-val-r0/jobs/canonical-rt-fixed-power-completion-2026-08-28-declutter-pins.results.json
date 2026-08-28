@@ -1,0 +1,1328 @@
+[
+ {
+  "tag": "C19-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e75855",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e75855e5",
+     "x": 2620,
+     "y": -3890,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e75855e9",
+     "x": 2650,
+     "y": -3890,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C20-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e75891",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e75891e5",
+     "x": 2620,
+     "y": -3970,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e75891e9",
+     "x": 2650,
+     "y": -3970,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C21-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e75927",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e75927e5",
+     "x": 2620,
+     "y": -4050,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e75927e9",
+     "x": 2650,
+     "y": -4050,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C22-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e75963",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e75963e5",
+     "x": 2620,
+     "y": -4130,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e75963e9",
+     "x": 2650,
+     "y": -4130,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C23-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e75999",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e75999e5",
+     "x": 2620,
+     "y": -4210,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e75999e9",
+     "x": 2650,
+     "y": -4210,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C24-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76035",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76035e5",
+     "x": 2620,
+     "y": -4290,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76035e9",
+     "x": 2650,
+     "y": -4290,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C25-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76071",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76071e4",
+     "x": 2615,
+     "y": -4370,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76071e10",
+     "x": 2655,
+     "y": -4370,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C26-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76107",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76107e5",
+     "x": 2750,
+     "y": -3890,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76107e9",
+     "x": 2780,
+     "y": -3890,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C27-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76143",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76143e5",
+     "x": 2750,
+     "y": -3970,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76143e9",
+     "x": 2780,
+     "y": -3970,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C28-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76179",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76179e5",
+     "x": 2750,
+     "y": -4050,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76179e9",
+     "x": 2780,
+     "y": -4050,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C29-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76215",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76215e5",
+     "x": 2750,
+     "y": -4130,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76215e9",
+     "x": 2780,
+     "y": -4130,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C30-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76251",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76251e4",
+     "x": 2745,
+     "y": -4210,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76251e10",
+     "x": 2785,
+     "y": -4210,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C31-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76287",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76287e5",
+     "x": 2750,
+     "y": -4290,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76287e9",
+     "x": 2780,
+     "y": -4290,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C32-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76323",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76323e5",
+     "x": 2750,
+     "y": -4370,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76323e9",
+     "x": 2780,
+     "y": -4370,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C33-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76359",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76359e5",
+     "x": 2870,
+     "y": -3890,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76359e9",
+     "x": 2900,
+     "y": -3890,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C34-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76395",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76395e5",
+     "x": 2870,
+     "y": -3970,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76395e9",
+     "x": 2900,
+     "y": -3970,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C69-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76431",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76431e5",
+     "x": 2870,
+     "y": -4050,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76431e9",
+     "x": 2900,
+     "y": -4050,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C70-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76467",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76467e5",
+     "x": 2870,
+     "y": -4130,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76467e9",
+     "x": 2900,
+     "y": -4130,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C71-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76503",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76503e5",
+     "x": 2870,
+     "y": -4210,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76503e9",
+     "x": 2900,
+     "y": -4210,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C72-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76539",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76539e5",
+     "x": 2870,
+     "y": -4290,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76539e9",
+     "x": 2900,
+     "y": -4290,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C73-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76575",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76575e5",
+     "x": 2870,
+     "y": -4370,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76575e9",
+     "x": 2900,
+     "y": -4370,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C74-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76611",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76611e4",
+     "x": 1995,
+     "y": -3805,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e76611e10",
+     "x": 2035,
+     "y": -3805,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C75-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76647",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76647e5",
+     "x": 2110,
+     "y": -3805,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76647e9",
+     "x": 2140,
+     "y": -3805,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C76-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76683",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76683e5",
+     "x": 2220,
+     "y": -3805,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76683e9",
+     "x": 2250,
+     "y": -3805,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C77-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76719",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76719e4",
+     "x": 2325,
+     "y": -3805,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e76719e10",
+     "x": 2365,
+     "y": -3805,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C78-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76755",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76755e4",
+     "x": 2435,
+     "y": -3805,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e76755e10",
+     "x": 2475,
+     "y": -3805,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C79-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76791",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76791e5",
+     "x": 2550,
+     "y": -3805,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76791e9",
+     "x": 2580,
+     "y": -3805,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C80-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76827",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76827e4",
+     "x": 2655,
+     "y": -3805,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e76827e10",
+     "x": 2695,
+     "y": -3805,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C81-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76863",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76863e5",
+     "x": 2770,
+     "y": -3805,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76863e9",
+     "x": 2800,
+     "y": -3805,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C82-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76899",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76899e4",
+     "x": 2010,
+     "y": -3720,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e76899e10",
+     "x": 2050,
+     "y": -3720,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C83-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76935",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76935e4",
+     "x": 2145,
+     "y": -3720,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e76935e10",
+     "x": 2185,
+     "y": -3720,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C84-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e76971",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e76971e5",
+     "x": 2285,
+     "y": -3720,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e76971e9",
+     "x": 2315,
+     "y": -3720,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C85-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e77007",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e77007e4",
+     "x": 2415,
+     "y": -3720,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e77007e10",
+     "x": 2455,
+     "y": -3720,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C86-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e77043",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e77043e4",
+     "x": 2550,
+     "y": -3720,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e77043e10",
+     "x": 2590,
+     "y": -3720,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C87-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e77079",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e77079e4",
+     "x": 2685,
+     "y": -3720,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e77079e10",
+     "x": 2725,
+     "y": -3720,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C88-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e77115",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e77115e5",
+     "x": 2825,
+     "y": -3720,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e77115e9",
+     "x": 2855,
+     "y": -3720,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "L4-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e77151",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e77151e3",
+     "x": 2655,
+     "y": -4470,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 4,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e77151e7",
+     "x": 2615,
+     "y": -4470,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 4,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R70-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e77190",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e77190e4",
+     "x": 2785,
+     "y": -4470,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e77190e8",
+     "x": 2745,
+     "y": -4470,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C89-RTC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e77229",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e77229e4",
+     "x": 2865,
+     "y": -4470,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e77229e10",
+     "x": 2905,
+     "y": -4470,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ }
+]

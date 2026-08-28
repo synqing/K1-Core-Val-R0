@@ -1,0 +1,37 @@
+{
+  "captured_after_settle": true,
+  "checks": [
+    {
+      "detail": "All ten POWER_SENSE parts are visible inside Captain's first fixed domain box at a readable block scale.",
+      "name": "declared block visible at useful scale",
+      "result": "OK"
+    },
+    {
+      "detail": "The screenshot and semantic inventory show one instance of each planned POWER_SENSE reference; all current references carry the Captain-authored -PWR suffix.",
+      "name": "no duplicates placeholders or undesignated debris",
+      "result": "OK"
+    },
+    {
+      "detail": "U2-PWR's I2C_SCL, I2C_SDA, INA_ALERT, 3V3, GND, 5V_SYS and 5V_PROTECTED labels collide with one another and with the symbol pin text. The right-side 5V_SYS pin-pair repair is not visually trustworthy at this scale.",
+      "name": "changed labels pins and geometry readable",
+      "result": "DEFECT"
+    },
+    {
+      "detail": "The ten Captain-authored rectangles remain present and the surrounding POWER_ENTRY placement is unchanged; the concurrent -PWR designator edits are preserved.",
+      "name": "no unrelated movement additions or deletions",
+      "result": "OK"
+    }
+  ],
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "intended_delta": "Wire the corrected INA226 POWER_SENSE topology while preserving the fixed box and placement",
+  "observed_delta": "POWER_SENSE wiring persisted, but the INA226 label fan-out is unreadable and the 5V_SYS pin-pair connection is not visually auditable.",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "scale": "block",
+  "schema_version": 1,
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/screenshots/layout-power-sense-wire-rejected-current-useful-scale-clean.png",
+  "transaction_id": "layout-power-sense-wire-2026-08-28b",
+  "unexpected_changes": [
+    "U2-PWR net labels overlap the symbol and one another, making the electrical intent unreadable."
+  ],
+  "verdict": "REJECTED"
+}

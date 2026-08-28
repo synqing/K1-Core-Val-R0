@@ -1,0 +1,93 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C43",
+    "args": {
+      "primitiveId": "e12071",
+      "designator": "C43",
+      "name": "100pF",
+      "manufacturerId": "GRM1555C1H101JA01D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C44",
+    "args": {
+      "primitiveId": "e12107",
+      "designator": "C44",
+      "name": "100pF",
+      "manufacturerId": "GRM1555C1H101JA01D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "FB4",
+    "args": {
+      "primitiveId": "e12143",
+      "designator": "FB4",
+      "name": "220ohm@100MHz",
+      "manufacturerId": "BLM21PG221SN1D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "J7",
+    "args": {
+      "primitiveId": "e12181",
+      "designator": "J7",
+      "name": "USB-C-S3",
+      "manufacturerId": "USB4105-GF-A",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R21",
+    "args": {
+      "primitiveId": "e12268",
+      "designator": "R21",
+      "name": "5.1k",
+      "manufacturerId": "RC0402FR-075K1L",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R22",
+    "args": {
+      "primitiveId": "e12307",
+      "designator": "R22",
+      "name": "5.1k",
+      "manufacturerId": "RC0402FR-075K1L",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U10",
+    "args": {
+      "primitiveId": "e12346",
+      "designator": "U10",
+      "name": "TVS",
+      "manufacturerId": "USBLC6-2SC6",
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

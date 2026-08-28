@@ -1,0 +1,348 @@
+[
+ {
+  "tag": "J4",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "5ebeaa17053143a7af0a1a31767a8ca4",
+     "uuid": "5ebeaa17053143a7af0a1a31767a8ca4"
+    },
+    "x": 900,
+    "y": 4800,
+    "subPartName": "FTSH-105-01-L-DV-K.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e10757",
+    "symbol": {
+     "uuid": "ee7b85a7ccca4a778f5a7305f0de44b3",
+     "libraryUuid": "5ebeaa17053143a7af0a1a31767a8ca4"
+    },
+    "footprint": {
+     "uuid": "53c6313a3f734fa180d25488277f8cb7",
+     "libraryUuid": "5ebeaa17053143a7af0a1a31767a8ca4"
+    },
+    "designator": "H?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "SAMTEC",
+    "manufacturerId": "FTSH-105-01-L-DV-K",
+    "supplier": "LCSC",
+    "supplierId": "C5155080",
+    "otherProperty": {
+     "LCSC Part Name": "2x5P 间距:1.27mm 方针 立贴",
+     "Supplier Footprint": "SMD,P=1.27mm",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/FTSH-105-01-L-DV-K/5783631.html",
+     "Pin Structure": "2x5P",
+     "Pitch": "1.27mm",
+     "Circluar Pins/Square Pins": "Pin Header",
+     "Mounting Type": "Surface Mount,Vertical",
+     "Number of Rows": "2",
+     "Number of Pins": "10P",
+     "Current Rating": "3.4A",
+     "Length of Mating Pin": "3.05mm",
+     "Length of End Connection Pin": "-",
+     "Contact Material": "Phosphor bronze",
+     "Contact Plating": "Gold",
+     "Operating Temperature": "-55℃~+125℃",
+     "Color": "Black",
+     "Description": "Pin Structure:2x5P Pitch:1.27mm Circluar Pins/Square Pins:Pin Header Mounting Type:Surface Mount,Vertical Number of Rows:2 Number of Pins:10P Current Rating:3.4A Length of Mating Pin:3.05mm Length of End Connection Pin:- Contact Material:Phosphor bronze C"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "J5",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "3b23b19f753644e49a737e630ce61fce",
+     "uuid": "3b23b19f753644e49a737e630ce61fce"
+    },
+    "x": 2400,
+    "y": 4800,
+    "subPartName": "PREC040SAAN-RC.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e10826",
+    "symbol": {
+     "uuid": "e628e60654464e15b3788becfa98c088",
+     "libraryUuid": "3b23b19f753644e49a737e630ce61fce"
+    },
+    "footprint": {
+     "uuid": "70ffd433caf4432c950ad4459d7df27b",
+     "libraryUuid": "3b23b19f753644e49a737e630ce61fce"
+    },
+    "designator": "U?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "Sullins",
+    "manufacturerId": "PREC040SAAN-RC",
+    "supplier": "LCSC",
+    "supplierId": "C4355043",
+    "otherProperty": {
+     "LCSC Part Name": "间距:2.54mm 直插",
+     "Supplier Footprint": "插件,P=2.54mm",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20230606/EC6CD7CACE8A14BE34D959B54C589026.pdf",
+     "Pitch": "2.54mm",
+     "Mounting Type": "Straight",
+     "Number of Rows": "Single Row",
+     "Number of Pins": "40P",
+     "Current Rating": "3A",
+     "Contact Material": "Brass",
+     "Contact Plating": "Tin",
+     "Operating Temperature": "-40℃~+105℃",
+     "Color": "Black",
+     "Description": "Pitch:2.54mm Mounting Type:Straight Number of Rows:Single Row Number of Pins:40P Current Rating:3A Contact Material:Brass Contact Plating:Tin Operating Temperature:-40℃~+105℃ Operating Temperature:-40℃~+105℃ Color:Black"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R15",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5",
+     "uuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "x": 1500,
+    "y": 4800,
+    "subPartName": "RC0402FR-0722RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e10981",
+    "symbol": {
+     "uuid": "0c5c60c505b54f2aa7ff0542af2accba",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "footprint": {
+     "uuid": "fada7ccb474b42ccaddeb0bb3db6d49f",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0722RL",
+    "supplier": "LCSC",
+    "supplierId": "C114765",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 22Ω ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-0722RL/116009.html",
+     "Type": "Thick Film Resistor",
+     "Value": "22Ω",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:22Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R16",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5",
+     "uuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "x": 1800,
+    "y": 4800,
+    "subPartName": "RC0402FR-0722RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e11020",
+    "symbol": {
+     "uuid": "0c5c60c505b54f2aa7ff0542af2accba",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "footprint": {
+     "uuid": "fada7ccb474b42ccaddeb0bb3db6d49f",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0722RL",
+    "supplier": "LCSC",
+    "supplierId": "C114765",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 22Ω ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-0722RL/116009.html",
+     "Type": "Thick Film Resistor",
+     "Value": "22Ω",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:22Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R17",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5",
+     "uuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "x": 3000,
+    "y": 4800,
+    "subPartName": "RC0402FR-0722RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e11059",
+    "symbol": {
+     "uuid": "0c5c60c505b54f2aa7ff0542af2accba",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "footprint": {
+     "uuid": "fada7ccb474b42ccaddeb0bb3db6d49f",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0722RL",
+    "supplier": "LCSC",
+    "supplierId": "C114765",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 22Ω ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-0722RL/116009.html",
+     "Type": "Thick Film Resistor",
+     "Value": "22Ω",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:22Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R18",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5",
+     "uuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "x": 3300,
+    "y": 4800,
+    "subPartName": "RC0402FR-0722RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e11098",
+    "symbol": {
+     "uuid": "0c5c60c505b54f2aa7ff0542af2accba",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "footprint": {
+     "uuid": "fada7ccb474b42ccaddeb0bb3db6d49f",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0722RL",
+    "supplier": "LCSC",
+    "supplierId": "C114765",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 22Ω ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-0722RL/116009.html",
+     "Type": "Thick Film Resistor",
+     "Value": "22Ω",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:22Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "title-rt-debug",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Text",
+    "x": 400,
+    "y": 4600,
+    "content": "9  RT DEBUG",
+    "rotation": 0,
+    "textColor": "#B00020",
+    "fontSize": 18,
+    "bold": true,
+    "alignMode": 2,
+    "primitiveId": "e11137"
+   },
+   "saved": true
+  }
+ }
+]

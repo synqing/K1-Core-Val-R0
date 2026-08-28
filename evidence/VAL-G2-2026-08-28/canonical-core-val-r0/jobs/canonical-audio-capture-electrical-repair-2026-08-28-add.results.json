@@ -1,0 +1,245 @@
+[
+ {
+  "tag": "C51",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "d7cfbc3b990d4f4892dd720a635a2d32",
+     "uuid": "d7cfbc3b990d4f4892dd720a635a2d32"
+    },
+    "x": 70,
+    "y": 3300,
+    "subPartName": "GRM155R61A105KE15D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e129790",
+    "symbol": {
+     "uuid": "100695d7bb6f45b09cf7bb5346fe98c5",
+     "libraryUuid": "d7cfbc3b990d4f4892dd720a635a2d32"
+    },
+    "footprint": {
+     "uuid": "79ede26e208f4976b0d55d8d5b5951c5",
+     "libraryUuid": "d7cfbc3b990d4f4892dd720a635a2d32"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R61A105KE15D",
+    "supplier": "LCSC",
+    "supplierId": "C76999",
+    "otherProperty": {
+     "LCSC Part Name": "1uF ±10% 10V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R61A105KE15D/78126.html",
+     "Value": "1uF",
+     "Tolerance": "±10%",
+     "Voltage Rating": "10V",
+     "Temperature Coefficient": "X5R",
+     "Description": "Capacitance:1uF Tolerance:±10% Tolerance:±10% Voltage Rating:10V Temperature Coefficient:X5R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "C90",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68",
+     "uuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "x": 250,
+    "y": 3300,
+    "subPartName": "GRM155R60J106ME44D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e129826",
+    "symbol": {
+     "uuid": "2996f505f7574baa9a8ae57435928188",
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "footprint": {
+     "uuid": "c33326b9eb52426a92302d852ba3fb73",
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J106ME44D",
+    "supplier": "LCSC",
+    "supplierId": "C76991",
+    "otherProperty": {
+     "LCSC Part Name": "10uF ±20% 6.3V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R60J106ME44D/78118.html",
+     "Value": "10uF",
+     "Tolerance": "±20%",
+     "Voltage Rating": "6.3V",
+     "Temperature Coefficient": "X5R",
+     "Description": "Capacitance:10uF Tolerance:±20% Tolerance:±20% Voltage Rating:6.3V Temperature Coefficient:X5R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "C91",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68",
+     "uuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "x": 790,
+    "y": 3400,
+    "subPartName": "GRM155R60J106ME44D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e129862",
+    "symbol": {
+     "uuid": "2996f505f7574baa9a8ae57435928188",
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "footprint": {
+     "uuid": "c33326b9eb52426a92302d852ba3fb73",
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J106ME44D",
+    "supplier": "LCSC",
+    "supplierId": "C76991",
+    "otherProperty": {
+     "LCSC Part Name": "10uF ±20% 6.3V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R60J106ME44D/78118.html",
+     "Value": "10uF",
+     "Tolerance": "±20%",
+     "Voltage Rating": "6.3V",
+     "Temperature Coefficient": "X5R",
+     "Description": "Capacitance:10uF Tolerance:±20% Tolerance:±20% Voltage Rating:6.3V Temperature Coefficient:X5R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "TP7",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "42b09b6db2ab43cb994fad497f236935",
+     "uuid": "42b09b6db2ab43cb994fad497f236935"
+    },
+    "x": 610,
+    "y": 2795,
+    "subPartName": "TP-黄色测试点.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e129898",
+    "symbol": {
+     "uuid": "a0e2f0880ccc4a5db178e2c8c37fdfe0",
+     "libraryUuid": "42b09b6db2ab43cb994fad497f236935"
+    },
+    "footprint": {
+     "uuid": "965d61cbb2554caaafd27187aa2243b5",
+     "libraryUuid": "42b09b6db2ab43cb994fad497f236935"
+    },
+    "designator": "U?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "",
+    "manufacturerId": "TP-黄色测试点",
+    "supplier": "LCSC",
+    "supplierId": "C9900007422",
+    "otherProperty": {
+     "LCSC Part Name": "TP-黄色测试点",
+     "Supplier Footprint": "TESTPOINT-TH_BD-2P-P2.00",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "",
+     "Description": ""
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "TP8",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "42b09b6db2ab43cb994fad497f236935",
+     "uuid": "42b09b6db2ab43cb994fad497f236935"
+    },
+    "x": 790,
+    "y": 2795,
+    "subPartName": "TP-黄色测试点.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e129927",
+    "symbol": {
+     "uuid": "a0e2f0880ccc4a5db178e2c8c37fdfe0",
+     "libraryUuid": "42b09b6db2ab43cb994fad497f236935"
+    },
+    "footprint": {
+     "uuid": "965d61cbb2554caaafd27187aa2243b5",
+     "libraryUuid": "42b09b6db2ab43cb994fad497f236935"
+    },
+    "designator": "U?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "",
+    "manufacturerId": "TP-黄色测试点",
+    "supplier": "LCSC",
+    "supplierId": "C9900007422",
+    "otherProperty": {
+     "LCSC Part Name": "TP-黄色测试点",
+     "Supplier Footprint": "TESTPOINT-TH_BD-2P-P2.00",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "",
+     "Description": ""
+    }
+   },
+   "recoveredFromError": false,
+   "saved": true
+  }
+ }
+]

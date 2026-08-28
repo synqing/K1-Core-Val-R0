@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-container-3-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Populate canonical domain box 3 (RT_CORE, RT_DECOUPLE) with source-derived components, domain suffix -RTC, functional net endpoints and one readable title",
+  "observed_delta": "The settled crop shows both RT1062 symbol units, reset/POR support and rail decoupling inside box 3 with RTC designators and functional named endpoints.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/container-3-after.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name":"domain contents","result":"OK","detail":"RT1062 units, POR/reset and core-rail support are visibly contained in box 3."},
+    {"name":"domain designators","result":"OK","detail":"Visible component designators carry the -RTC suffix."},
+    {"name":"functional connectivity","result":"OK","detail":"Core rails, fixed recovery/debug pads and required boot-memory endpoints are visibly named at pins."},
+    {"name":"layout integrity","result":"OK","detail":"No separate component symbols collide; the dense grey field is the native multi-unit DVJ6B symbol pin matrix."},
+    {"name":"mutation boundary","result":"OK","detail":"The domain rectangle is preserved and no PCB document was opened or changed."}
+  ]
+}

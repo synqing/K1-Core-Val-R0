@@ -2,28 +2,37 @@ project:
   name: K1-CORE-VAL-R0
   purpose: hardware_validation_platform
   production_board: false
-  gate: VAL-G2-READY
+  gate: VAL-G2.1-IN-PROGRESS
   updated: 2026-08-28
 
 eda:
   authority: easyeda_pro
-  project_created: false
+  project_created: true
   schematic_documents_allowed: 1
   hierarchical_sheets_allowed: false
   pcb_created: false
   single_sheet_qualification_run: false
-  option_c_estimated_symbols: UNRESOLVED
-  val_g2_0_fixture_definition: REQUIRED_NOT_COMPLETE
-  val_g2_0_eda_execution: BLOCKED_ON_FIXTURE_DEFINITION
-  val_g2_0_single_sheet_qualification: WAITS_ON_FIXTURE_DEFINITION_PASS
-  val_g2_1_canonical_schematic_capture: WAITS_ON_VAL_G2_0_PASS
+  option_c_estimated_symbols: RESOLVED
+  option_c_estimated_symbols_count: 181
+  val_g2_0_fixture_definition: RETIRED_BY_D_042
+  val_g2_0_eda_execution: TERMINATED_BY_D_042
+  val_g2_0_single_sheet_qualification: NOT_RUN
+  val_g2_1_canonical_schematic_capture: IN_PROGRESS
   rejected_fixture_project_uuid: 09e9c541fd3d404082d4b92e55ae5336
   rejected_fixture_content_state: DELETED
   qualification_project_uuid: 09e9c541fd3d404082d4b92e55ae5336
-  qualification_project_state: BLANK_SINGLE_PAGE_BLOCKED_ON_FIXTURE_DEFINITION
+  qualification_project_state: SEE_MUTATION_STATE_FILE
   qualification_schematic_uuid: e76808fa778140bfa1975a73f10d17d6
   qualification_page_uuid: 1991698f35bf4c09b8de4bcf78bd2b7b
   screenshot_after_every_mutation: REQUIRED
+  mutation_gate_state_file: evidence/VAL-G2-2026-08-28/EASYEDA-MUTATION-STATE.json
+  mutation_gate_ledger: evidence/VAL-G2-2026-08-28/EASYEDA-MUTATION-LEDGER.jsonl
+  canonical_project_uuid: 64325d0e55e0435abd018defb0089a9b
+  canonical_schematic_uuid: cffcdb562c1b48d1a5214cfc263b6c90
+  canonical_page_uuid: 1435cb46f39e48c8a8aadbb84ca81603
+  canonical_mutation_gate_state_file: evidence/VAL-G2-2026-08-28/canonical-core-val-r0/MUTATION-STATE.json
+  canonical_mutation_gate_ledger: evidence/VAL-G2-2026-08-28/canonical-core-val-r0/MUTATION-LEDGER.jsonl
+  execution_canon: docs/agent/EASYEDA-EXECUTION-CANON.md
 
 mechanical:
   thickness_mm: 1.6

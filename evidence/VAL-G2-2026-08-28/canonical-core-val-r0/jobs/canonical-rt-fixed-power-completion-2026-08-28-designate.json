@@ -1,0 +1,707 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C19",
+    "args": {
+      "primitiveId": "e75855",
+      "designator": "C19-RTC",
+      "name": "220nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R61A224KE19D",
+      "supplier": "LCSC",
+      "supplierId": "C77001",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C20",
+    "args": {
+      "primitiveId": "e75891",
+      "designator": "C20-RTC",
+      "name": "220nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R61A224KE19D",
+      "supplier": "LCSC",
+      "supplierId": "C77001",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C21",
+    "args": {
+      "primitiveId": "e75927",
+      "designator": "C21-RTC",
+      "name": "220nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R61A224KE19D",
+      "supplier": "LCSC",
+      "supplierId": "C77001",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C22",
+    "args": {
+      "primitiveId": "e75963",
+      "designator": "C22-RTC",
+      "name": "220nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R61A224KE19D",
+      "supplier": "LCSC",
+      "supplierId": "C77001",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C23",
+    "args": {
+      "primitiveId": "e75999",
+      "designator": "C23-RTC",
+      "name": "220nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R61A224KE19D",
+      "supplier": "LCSC",
+      "supplierId": "C77001",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C24",
+    "args": {
+      "primitiveId": "e76035",
+      "designator": "C24-RTC",
+      "name": "4.7uF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R60J475ME47D",
+      "supplier": "LCSC",
+      "supplierId": "C82453",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C25",
+    "args": {
+      "primitiveId": "e76071",
+      "designator": "C25-RTC",
+      "name": "22uF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM188R60J226MEA0D",
+      "supplier": "LCSC",
+      "supplierId": "C77042",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C26",
+    "args": {
+      "primitiveId": "e76107",
+      "designator": "C26-RTC",
+      "name": "220nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R61A224KE19D",
+      "supplier": "LCSC",
+      "supplierId": "C77001",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C27",
+    "args": {
+      "primitiveId": "e76143",
+      "designator": "C27-RTC",
+      "name": "220nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R61A224KE19D",
+      "supplier": "LCSC",
+      "supplierId": "C77001",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C28",
+    "args": {
+      "primitiveId": "e76179",
+      "designator": "C28-RTC",
+      "name": "220nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R61A224KE19D",
+      "supplier": "LCSC",
+      "supplierId": "C77001",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C29",
+    "args": {
+      "primitiveId": "e76215",
+      "designator": "C29-RTC",
+      "name": "4.7uF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R60J475ME47D",
+      "supplier": "LCSC",
+      "supplierId": "C82453",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C30",
+    "args": {
+      "primitiveId": "e76251",
+      "designator": "C30-RTC",
+      "name": "22uF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM188R60J226MEA0D",
+      "supplier": "LCSC",
+      "supplierId": "C77042",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C31",
+    "args": {
+      "primitiveId": "e76287",
+      "designator": "C31-RTC",
+      "name": "220nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R61A224KE19D",
+      "supplier": "LCSC",
+      "supplierId": "C77001",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C32",
+    "args": {
+      "primitiveId": "e76323",
+      "designator": "C32-RTC",
+      "name": "4.7uF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R60J475ME47D",
+      "supplier": "LCSC",
+      "supplierId": "C82453",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C33",
+    "args": {
+      "primitiveId": "e76359",
+      "designator": "C33-RTC",
+      "name": "220nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R61A224KE19D",
+      "supplier": "LCSC",
+      "supplierId": "C77001",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C34",
+    "args": {
+      "primitiveId": "e76395",
+      "designator": "C34-RTC",
+      "name": "4.7uF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R60J475ME47D",
+      "supplier": "LCSC",
+      "supplierId": "C82453",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C69",
+    "args": {
+      "primitiveId": "e76431",
+      "designator": "C69-RTC",
+      "name": "220nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R61A224KE19D",
+      "supplier": "LCSC",
+      "supplierId": "C77001",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C70",
+    "args": {
+      "primitiveId": "e76467",
+      "designator": "C70-RTC",
+      "name": "220nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R61A224KE19D",
+      "supplier": "LCSC",
+      "supplierId": "C77001",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C71",
+    "args": {
+      "primitiveId": "e76503",
+      "designator": "C71-RTC",
+      "name": "4.7uF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R60J475ME47D",
+      "supplier": "LCSC",
+      "supplierId": "C82453",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C72",
+    "args": {
+      "primitiveId": "e76539",
+      "designator": "C72-RTC",
+      "name": "220nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R61A224KE19D",
+      "supplier": "LCSC",
+      "supplierId": "C77001",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C73",
+    "args": {
+      "primitiveId": "e76575",
+      "designator": "C73-RTC",
+      "name": "4.7uF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R60J475ME47D",
+      "supplier": "LCSC",
+      "supplierId": "C82453",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C74",
+    "args": {
+      "primitiveId": "e76611",
+      "designator": "C74-RTC",
+      "name": "100nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "supplier": "LCSC",
+      "supplierId": "",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C75",
+    "args": {
+      "primitiveId": "e76647",
+      "designator": "C75-RTC",
+      "name": "10uF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R60J106ME44D",
+      "supplier": "LCSC",
+      "supplierId": "",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C76",
+    "args": {
+      "primitiveId": "e76683",
+      "designator": "C76-RTC",
+      "name": "220nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R61A224KE19D",
+      "supplier": "LCSC",
+      "supplierId": "C77001",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C77",
+    "args": {
+      "primitiveId": "e76719",
+      "designator": "C77-RTC",
+      "name": "1uF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R61A105KE15D",
+      "supplier": "LCSC",
+      "supplierId": "C76999",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C78",
+    "args": {
+      "primitiveId": "e76755",
+      "designator": "C78-RTC",
+      "name": "100nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "supplier": "LCSC",
+      "supplierId": "",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C79",
+    "args": {
+      "primitiveId": "e76791",
+      "designator": "C79-RTC",
+      "name": "4.7uF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R60J475ME47D",
+      "supplier": "LCSC",
+      "supplierId": "C82453",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C80",
+    "args": {
+      "primitiveId": "e76827",
+      "designator": "C80-RTC",
+      "name": "100nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "supplier": "LCSC",
+      "supplierId": "",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C81",
+    "args": {
+      "primitiveId": "e76863",
+      "designator": "C81-RTC",
+      "name": "4.7uF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R60J475ME47D",
+      "supplier": "LCSC",
+      "supplierId": "C82453",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C82",
+    "args": {
+      "primitiveId": "e76899",
+      "designator": "C82-RTC",
+      "name": "100nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "supplier": "LCSC",
+      "supplierId": "",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C83",
+    "args": {
+      "primitiveId": "e76935",
+      "designator": "C83-RTC",
+      "name": "100nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "supplier": "LCSC",
+      "supplierId": "",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C84",
+    "args": {
+      "primitiveId": "e76971",
+      "designator": "C84-RTC",
+      "name": "4.7uF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R60J475ME47D",
+      "supplier": "LCSC",
+      "supplierId": "C82453",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C85",
+    "args": {
+      "primitiveId": "e77007",
+      "designator": "C85-RTC",
+      "name": "100nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "supplier": "LCSC",
+      "supplierId": "",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C86",
+    "args": {
+      "primitiveId": "e77043",
+      "designator": "C86-RTC",
+      "name": "100nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "supplier": "LCSC",
+      "supplierId": "",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C87",
+    "args": {
+      "primitiveId": "e77079",
+      "designator": "C87-RTC",
+      "name": "100nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "supplier": "LCSC",
+      "supplierId": "",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C88",
+    "args": {
+      "primitiveId": "e77115",
+      "designator": "C88-RTC",
+      "name": "4.7uF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R60J475ME47D",
+      "supplier": "LCSC",
+      "supplierId": "C82453",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C89",
+    "args": {
+      "primitiveId": "e77229",
+      "designator": "C89-RTC",
+      "name": "100nF",
+      "manufacturer": "Murata",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "supplier": "LCSC",
+      "supplierId": "",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "L4",
+    "args": {
+      "primitiveId": "e77151",
+      "designator": "L4-RTC",
+      "name": "4.7uH",
+      "manufacturer": "",
+      "manufacturerId": "XGL4030-472MEC",
+      "supplier": "LCSC",
+      "supplierId": "C7159276",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R70",
+    "args": {
+      "primitiveId": "e77190",
+      "designator": "R70-RTC",
+      "name": "100k",
+      "manufacturer": "",
+      "manufacturerId": "RC0402FR-07100KL",
+      "supplier": "LCSC",
+      "supplierId": "C60491",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_text",
+    "tag": "note-0",
+    "args": {
+      "x": 2535,
+      "y": 4535,
+      "content": "RT1062 DCDC: 3V3 IN/Q -> SW -> L4 4.7uH -> 1V15_CORE",
+      "fontSize": 8,
+      "bold": true,
+      "textColor": "#1F5AA6",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_text",
+    "tag": "note-1",
+    "args": {
+      "x": 2700,
+      "y": 4415,
+      "content": "PSWITCH RC = 100k / 100nF (10ms)",
+      "fontSize": 8,
+      "bold": true,
+      "textColor": "#1F5AA6",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_text",
+    "tag": "note-2",
+    "args": {
+      "x": 2070,
+      "y": 3850,
+      "content": "NXP RAIL DECOUPLING: USB CAP | ADC | SD0/1 | EMC | GPIO",
+      "fontSize": 8,
+      "bold": true,
+      "textColor": "#1F5AA6",
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

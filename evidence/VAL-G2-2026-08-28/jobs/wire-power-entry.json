@@ -1,0 +1,223 @@
+[
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C1",
+    "args": {
+      "componentPrimitiveId": "e13260",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "5V_USB_FILTERED"
+        },
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C2",
+    "args": {
+      "componentPrimitiveId": "e13296",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "5V_PROTECTED"
+        },
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "CS11",
+    "args": {
+      "componentPrimitiveId": "e13332",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "5V_PROTECTED"
+        },
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "CS22",
+    "args": {
+      "componentPrimitiveId": "e13368",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "5V_PROTECTED"
+        },
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "CS33",
+    "args": {
+      "componentPrimitiveId": "e13404",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "5V_PROTECTED"
+        },
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "D1",
+    "args": {
+      "componentPrimitiveId": "e13440",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "5V_PROTECTED"
+        },
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "F1",
+    "args": {
+      "componentPrimitiveId": "e13489",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "5V_USB"
+        },
+        {
+          "pinNumber": "2",
+          "net": "5V_USB_FILTERED"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "J1",
+    "args": {
+      "componentPrimitiveId": "e13527",
+      "connections": [
+        {
+          "pinNumber": "B4",
+          "net": "5V_USB"
+        },
+        {
+          "pinNumber": "B1",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R1",
+    "args": {
+      "componentPrimitiveId": "e13614",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "USB_EFUSE_ILIM"
+        },
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R2",
+    "args": {
+      "componentPrimitiveId": "e13653",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "USB_EFUSE_EN"
+        },
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U1",
+    "args": {
+      "componentPrimitiveId": "e13692",
+      "connections": [
+        {
+          "pinNumber": "5",
+          "net": "5V_USB_FILTERED"
+        },
+        {
+          "pinNumber": "6",
+          "net": "5V_PROTECTED"
+        },
+        {
+          "pinNumber": "9",
+          "net": "USB_EFUSE_ILIM"
+        },
+        {
+          "pinNumber": "1",
+          "net": "USB_EFUSE_EN"
+        },
+        {
+          "pinNumber": "8",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

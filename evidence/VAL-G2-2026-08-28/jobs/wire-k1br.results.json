@@ -1,0 +1,486 @@
+[
+ {
+  "tag": "C45",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12480",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12480e10",
+      "x": 2820,
+      "y": -7500,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "GND",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        2840,
+        -7500,
+        2820,
+        -7500
+       ]
+      ],
+      "net": "GND",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12771"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12480e4",
+      "x": 2780,
+      "y": -7500,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "3V3",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        2760,
+        -7500,
+        2780,
+        -7500
+       ]
+      ],
+      "net": "3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12774"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R23",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12516",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12516e7",
+      "x": 780,
+      "y": -7500,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "K1BR_SCK_RT",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        760,
+        -7500,
+        780,
+        -7500
+       ]
+      ],
+      "net": "K1BR_SCK_RT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12777"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12516e3",
+      "x": 820,
+      "y": -7500,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "K1BR_SCK",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        840,
+        -7500,
+        820,
+        -7500
+       ]
+      ],
+      "net": "K1BR_SCK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12780"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R24",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12555",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12555e7",
+      "x": 1180,
+      "y": -7500,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "K1BR_MOSI_RT",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1160,
+        -7500,
+        1180,
+        -7500
+       ]
+      ],
+      "net": "K1BR_MOSI_RT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12783"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12555e3",
+      "x": 1220,
+      "y": -7500,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "K1BR_MOSI",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1240,
+        -7500,
+        1220,
+        -7500
+       ]
+      ],
+      "net": "K1BR_MOSI",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12786"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R25",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12594",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12594e7",
+      "x": 1580,
+      "y": -7500,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "K1BR_MISO_S3",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1560,
+        -7500,
+        1580,
+        -7500
+       ]
+      ],
+      "net": "K1BR_MISO_S3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12789"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12594e3",
+      "x": 1620,
+      "y": -7500,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "K1BR_MISO",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1640,
+        -7500,
+        1620,
+        -7500
+       ]
+      ],
+      "net": "K1BR_MISO",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12792"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R26",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12633",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12633e7",
+      "x": 1980,
+      "y": -7500,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "K1BR_CS_RT",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1960,
+        -7500,
+        1980,
+        -7500
+       ]
+      ],
+      "net": "K1BR_CS_RT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12795"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12633e3",
+      "x": 2020,
+      "y": -7500,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "K1BR_CS",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        2040,
+        -7500,
+        2020,
+        -7500
+       ]
+      ],
+      "net": "K1BR_CS",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12798"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R27",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12672",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12672e7",
+      "x": 2380,
+      "y": -7500,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "K1BR_IRQ_S3",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        2360,
+        -7500,
+        2380,
+        -7500
+       ]
+      ],
+      "net": "K1BR_IRQ_S3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12801"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e12672e3",
+      "x": 2420,
+      "y": -7500,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "K1BR_IRQ",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        2440,
+        -7500,
+        2420,
+        -7500
+       ]
+      ],
+      "net": "K1BR_IRQ",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e12804"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "TP1",
+  "ok": false,
+  "error": "connect_schematic_pins_to_nets: FAILED at item 1 of 2 (pin 2 -> GND). 0 attachment(s) were ALREADY COMMITTED to the document before this failure: (none). DO NOT re-run this call unchanged — that would double-apply the committed items. Verify with get_document_source, then resume from item 1. Cause: Unable to find schematic pin 2 on component e12711"
+ },
+ {
+  "tag": "TP2",
+  "ok": false,
+  "error": "connect_schematic_pins_to_nets: FAILED at item 1 of 2 (pin 2 -> GND). 0 attachment(s) were ALREADY COMMITTED to the document before this failure: (none). DO NOT re-run this call unchanged — that would double-apply the committed items. Verify with get_document_source, then resume from item 1. Cause: Unable to find schematic pin 2 on component e12740"
+ }
+]

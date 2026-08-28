@@ -114,29 +114,29 @@ CASES = [
     (
         "N18", "STATUS prematurely permits EDA execution", AUTHORITY_CHECKER, "replace",
         "STATUS.md",
-        "VAL_G2_0_EDA_EXECUTION = BLOCKED_ON_FIXTURE_DEFINITION",
+        "VAL_G2_0_EDA_EXECUTION = TERMINATED_BY_D_042",
         "VAL_G2_0_EDA_EXECUTION = READY",
-        "STATUS.md VAL_G2_0_EDA_EXECUTION must be BLOCKED_ON_FIXTURE_DEFINITION, found READY",
+        "STATUS.md VAL_G2_0_EDA_EXECUTION must be TERMINATED_BY_D_042, found READY",
     ),
     (
         "N19", "test plan substitutes a numeric floor for unresolved estimate",
         AUTHORITY_CHECKER, "replace", "schematic/single-sheet-qualification/TEST-PLAN.md",
-        "OPTION_C_SYMBOL_ESTIMATE = UNRESOLVED", "OPTION_C_SYMBOL_ESTIMATE = 200",
+        "OPTION_C_SYMBOL_ESTIMATE = RESOLVED", "OPTION_C_SYMBOL_ESTIMATE = 200",
         "schematic/single-sheet-qualification/TEST-PLAN.md is missing OPTION_C_SYMBOL_ESTIMATE",
     ),
     (
         "N20", "source register prematurely closes fixture definition",
         AUTHORITY_CHECKER, "replace", "sources/SOURCE-REGISTER.md",
-        "VAL_G2_0_FIXTURE_DEFINITION = REQUIRED_NOT_COMPLETE",
+        "VAL_G2_0_FIXTURE_DEFINITION = RETIRED_BY_D_042",
         "VAL_G2_0_FIXTURE_DEFINITION = COMPLETE",
-        "sources/SOURCE-REGISTER.md VAL_G2_0_FIXTURE_DEFINITION must be REQUIRED_NOT_COMPLETE, found COMPLETE",
+        "sources/SOURCE-REGISTER.md VAL_G2_0_FIXTURE_DEFINITION must be RETIRED_BY_D_042, found COMPLETE",
     ),
     (
         "N21", "project manifest prematurely permits EDA execution",
         AUTHORITY_CHECKER, "replace", "project.yaml",
-        "  val_g2_0_eda_execution: BLOCKED_ON_FIXTURE_DEFINITION",
+        "  val_g2_0_eda_execution: TERMINATED_BY_D_042",
         "  val_g2_0_eda_execution: READY",
-        "project.yaml eda.val_g2_0_eda_execution must be BLOCKED_ON_FIXTURE_DEFINITION, found READY",
+        "project.yaml eda.val_g2_0_eda_execution must be TERMINATED_BY_D_042, found READY",
     ),
 ]
 

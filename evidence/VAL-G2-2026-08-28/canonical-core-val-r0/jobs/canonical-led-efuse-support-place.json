@@ -1,0 +1,16 @@
+[
+  {
+    "tool": "add_schematic_component",
+    "tag": "C68",
+    "args": {
+      "deviceUuid": "d035f356c56945668c9534741df47111",
+      "x": 1615,
+      "y": 3900,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

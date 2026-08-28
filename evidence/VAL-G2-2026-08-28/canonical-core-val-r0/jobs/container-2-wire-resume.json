@@ -1,0 +1,536 @@
+[
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C10",
+    "args": {
+      "componentPrimitiveId": "e1834",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "BUCK_SS"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C5",
+    "args": {
+      "componentPrimitiveId": "e1870",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "5V_SYS"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C6",
+    "args": {
+      "componentPrimitiveId": "e1906",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C7",
+    "args": {
+      "componentPrimitiveId": "e1942",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C8",
+    "args": {
+      "componentPrimitiveId": "e1978",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C9",
+    "args": {
+      "componentPrimitiveId": "e2014",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "2",
+          "net": "BUCK_FB"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "L1",
+    "args": {
+      "componentPrimitiveId": "e2050",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "1",
+          "net": "BUCK_SW"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R5",
+    "args": {
+      "componentPrimitiveId": "e2082",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "2",
+          "net": "BUCK_FB"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R6",
+    "args": {
+      "componentPrimitiveId": "e2121",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "BUCK_FB"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R7",
+    "args": {
+      "componentPrimitiveId": "e2160",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "5V_SYS"
+        },
+        {
+          "pinNumber": "2",
+          "net": "BUCK_EN"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U3",
+    "args": {
+      "componentPrimitiveId": "e2199",
+      "connections": [
+        {
+          "pinNumber": "4",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "6",
+          "net": "5V_SYS"
+        },
+        {
+          "pinNumber": "2",
+          "net": "BUCK_SW"
+        },
+        {
+          "pinNumber": "9",
+          "net": "BUCK_FB"
+        },
+        {
+          "pinNumber": "1",
+          "net": "BUCK_EN"
+        },
+        {
+          "pinNumber": "8",
+          "net": "BUCK_SS"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C11",
+    "args": {
+      "componentPrimitiveId": "e2268",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "5V_LED_COMMON"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C12",
+    "args": {
+      "componentPrimitiveId": "e2304",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "+5V_LED_L"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C13",
+    "args": {
+      "componentPrimitiveId": "e2340",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "+5V_LED_R"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "FB1",
+    "args": {
+      "componentPrimitiveId": "e2376",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "5V_LED_COMMON"
+        },
+        {
+          "pinNumber": "2",
+          "net": "+5V_LED_L"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "FB2",
+    "args": {
+      "componentPrimitiveId": "e2414",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "5V_LED_COMMON"
+        },
+        {
+          "pinNumber": "2",
+          "net": "+5V_LED_R"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R8",
+    "args": {
+      "componentPrimitiveId": "e2452",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "LED_EFUSE_ILIM"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U4",
+    "args": {
+      "componentPrimitiveId": "e2491",
+      "connections": [
+        {
+          "pinNumber": "8",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "5",
+          "net": "5V_SYS"
+        },
+        {
+          "pinNumber": "6",
+          "net": "5V_LED_COMMON"
+        },
+        {
+          "pinNumber": "9",
+          "net": "LED_EFUSE_ILIM"
+        },
+        {
+          "pinNumber": "1",
+          "net": "5V_SYS"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C14",
+    "args": {
+      "componentPrimitiveId": "e2549",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "5V_SYS"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C15",
+    "args": {
+      "componentPrimitiveId": "e2585",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3_MIC"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C16",
+    "args": {
+      "componentPrimitiveId": "e2621",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "NFC_5V"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C17",
+    "args": {
+      "componentPrimitiveId": "e2657",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "NFC_5V"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "FB3",
+    "args": {
+      "componentPrimitiveId": "e2693",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "5V_SYS"
+        },
+        {
+          "pinNumber": "2",
+          "net": "NFC_5V"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "Q1",
+    "args": {
+      "componentPrimitiveId": "e2731",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "3V3_MIC_REG"
+        },
+        {
+          "pinNumber": "3",
+          "net": "3V3_MIC"
+        },
+        {
+          "pinNumber": "1",
+          "net": "MIC_PWR_EN"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R9",
+    "args": {
+      "componentPrimitiveId": "e2776",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "MIC_PWR_EN"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U5",
+    "args": {
+      "componentPrimitiveId": "e2815",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "5V_SYS"
+        },
+        {
+          "pinNumber": "5",
+          "net": "3V3_MIC_REG"
+        },
+        {
+          "pinNumber": "3",
+          "net": "5V_SYS"
+        }
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

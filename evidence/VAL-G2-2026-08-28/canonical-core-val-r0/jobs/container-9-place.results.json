@@ -1,0 +1,662 @@
+[
+ {
+  "tag": "C64",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+     "uuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "x": 3095,
+    "y": 2525,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e14334",
+    "symbol": {
+     "uuid": "5bfd8c522b764c0db639c0ad7cfad3f5",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "footprint": {
+     "uuid": "ecc988f162c44eec829a596c8864e6d6",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R71C104KA88D",
+    "supplier": "LCSC",
+    "supplierId": "C71629",
+    "otherProperty": {
+     "LCSC Part Name": "100nF ±10% 16V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R71C104KA88D/72737.html",
+     "Value": "100nF",
+     "Tolerance": "±10%",
+     "Voltage Rating": "16V",
+     "Temperature Coefficient": "X7R",
+     "Description": "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "C65",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+     "uuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "x": 3335,
+    "y": 2525,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e14370",
+    "symbol": {
+     "uuid": "5bfd8c522b764c0db639c0ad7cfad3f5",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "footprint": {
+     "uuid": "ecc988f162c44eec829a596c8864e6d6",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R71C104KA88D",
+    "supplier": "LCSC",
+    "supplierId": "C71629",
+    "otherProperty": {
+     "LCSC Part Name": "100nF ±10% 16V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R71C104KA88D/72737.html",
+     "Value": "100nF",
+     "Tolerance": "±10%",
+     "Voltage Rating": "16V",
+     "Temperature Coefficient": "X7R",
+     "Description": "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "J2",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "e7021793e1cf4b0bb9aa0a7daaef6e91",
+     "uuid": "e7021793e1cf4b0bb9aa0a7daaef6e91"
+    },
+    "x": 3335,
+    "y": 2812,
+    "subPartName": "B2B-XH-A.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e14406",
+    "symbol": {
+     "uuid": "76a584c91e2041cc9e8b2bc9bc6eddc7",
+     "libraryUuid": "e7021793e1cf4b0bb9aa0a7daaef6e91"
+    },
+    "footprint": {
+     "uuid": "6ca811c52a9148e4a11be24b0d914ce8",
+     "libraryUuid": "e7021793e1cf4b0bb9aa0a7daaef6e91"
+    },
+    "designator": "U?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "",
+    "manufacturerId": "B2B-XH-A",
+    "supplier": "LCSC",
+    "supplierId": "C19272845",
+    "otherProperty": {
+     "LCSC Part Name": "B2B-XH-A",
+     "Supplier Footprint": "Plugin,P=2.5mm",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20210915/55C2150F8D01CCBD7F61D7DC07E45ED6.pdf",
+     "Description": ""
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "J3",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "e7021793e1cf4b0bb9aa0a7daaef6e91",
+     "uuid": "e7021793e1cf4b0bb9aa0a7daaef6e91"
+    },
+    "x": 3575,
+    "y": 2812,
+    "subPartName": "B2B-XH-A.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e14438",
+    "symbol": {
+     "uuid": "76a584c91e2041cc9e8b2bc9bc6eddc7",
+     "libraryUuid": "e7021793e1cf4b0bb9aa0a7daaef6e91"
+    },
+    "footprint": {
+     "uuid": "6ca811c52a9148e4a11be24b0d914ce8",
+     "libraryUuid": "e7021793e1cf4b0bb9aa0a7daaef6e91"
+    },
+    "designator": "U?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "",
+    "manufacturerId": "B2B-XH-A",
+    "supplier": "LCSC",
+    "supplierId": "C19272845",
+    "otherProperty": {
+     "LCSC Part Name": "B2B-XH-A",
+     "Supplier Footprint": "Plugin,P=2.5mm",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20210915/55C2150F8D01CCBD7F61D7DC07E45ED6.pdf",
+     "Description": ""
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R51",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "5167ada280d846078b7bb7b340933d0b",
+     "uuid": "5167ada280d846078b7bb7b340933d0b"
+    },
+    "x": 3815,
+    "y": 2812,
+    "subPartName": "RC0402FR-0733RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e14470",
+    "symbol": {
+     "uuid": "2ab9388dcb4443ddacffc526bffe7c1d",
+     "libraryUuid": "5167ada280d846078b7bb7b340933d0b"
+    },
+    "footprint": {
+     "uuid": "a2a32923b4214aa4a7b2f3217b85fa42",
+     "libraryUuid": "5167ada280d846078b7bb7b340933d0b"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0733RL",
+    "supplier": "LCSC",
+    "supplierId": "C138002",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 33Ω ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-0733RL/149318.html",
+     "Type": "Thick Film Resistor",
+     "Value": "33Ω",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:33Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R52",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "5167ada280d846078b7bb7b340933d0b",
+     "uuid": "5167ada280d846078b7bb7b340933d0b"
+    },
+    "x": 3095,
+    "y": 3098,
+    "subPartName": "RC0402FR-0733RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e14509",
+    "symbol": {
+     "uuid": "2ab9388dcb4443ddacffc526bffe7c1d",
+     "libraryUuid": "5167ada280d846078b7bb7b340933d0b"
+    },
+    "footprint": {
+     "uuid": "a2a32923b4214aa4a7b2f3217b85fa42",
+     "libraryUuid": "5167ada280d846078b7bb7b340933d0b"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0733RL",
+    "supplier": "LCSC",
+    "supplierId": "C138002",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 33Ω ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-0733RL/149318.html",
+     "Type": "Thick Film Resistor",
+     "Value": "33Ω",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:33Ω Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R53",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753",
+     "uuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "x": 3335,
+    "y": 3098,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e14548",
+    "symbol": {
+     "uuid": "27e1c105ea1844858f8ef4c155fa3cd7",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "footprint": {
+     "uuid": "3a9991e4aef9455bb546fda6b87e03b9",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0710KL",
+    "supplier": "LCSC",
+    "supplierId": "C60490",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 10kΩ ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-0710KL/61542.html",
+     "Type": "Thick Film Resistor",
+     "Value": "10kΩ",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R54",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753",
+     "uuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "x": 3575,
+    "y": 3098,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e14587",
+    "symbol": {
+     "uuid": "27e1c105ea1844858f8ef4c155fa3cd7",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "footprint": {
+     "uuid": "3a9991e4aef9455bb546fda6b87e03b9",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0710KL",
+    "supplier": "LCSC",
+    "supplierId": "C60490",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 10kΩ ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-0710KL/61542.html",
+     "Type": "Thick Film Resistor",
+     "Value": "10kΩ",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "RT1",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "d2beae28d8894494aa24697a5823ee37",
+     "uuid": "d2beae28d8894494aa24697a5823ee37"
+    },
+    "x": 3815,
+    "y": 3098,
+    "subPartName": "NCP15XH103F03RC.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e14626",
+    "symbol": {
+     "uuid": "e40b9cc62a6d48e99898e8cd0d3ca29f",
+     "libraryUuid": "d2beae28d8894494aa24697a5823ee37"
+    },
+    "footprint": {
+     "uuid": "a905d381b134460abf4c8ff4344e1c81",
+     "libraryUuid": "d2beae28d8894494aa24697a5823ee37"
+    },
+    "designator": "R?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "NCP15XH103F03RC",
+    "supplier": "LCSC",
+    "supplierId": "C77131",
+    "otherProperty": {
+     "LCSC Part Name": "10kΩ 3380K 100mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/NCP15XH103F03RC/78258.html",
+     "Resistance @ 25℃": "10kΩ",
+     "B Constant (25℃/50℃)": "3380K",
+     "Resistance Tolerance": "±1%",
+     "B Constant (25℃/75℃)": "-",
+     "B Constant (25℃/85℃)": "3434K",
+     "B Constant (25℃/100℃)": "3455K",
+     "Power(Watts)": "100mW",
+     "B Constant Tolerance": "±1%",
+     "Steady State Current (Max)": "310uA",
+     "Operating Temperature": "-40℃~+125℃",
+     "Dissipation Factor": "1mW/℃",
+     "Length": "1mm",
+     "Width": "0.5mm",
+     "Description": "Resistance @ 25℃:10kΩ B Constant (25℃/50℃):3380K Resistance Tolerance:±1% Resistance Tolerance:±1% B Constant (25℃/75℃):- B Constant (25℃/85℃):3434K B Constant (25℃/100℃):3455K Power(Watts):100mW B Constant Tolerance:±1% Steady State Current (Max):310uA O"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "RT2",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "d2beae28d8894494aa24697a5823ee37",
+     "uuid": "d2beae28d8894494aa24697a5823ee37"
+    },
+    "x": 3095,
+    "y": 3385,
+    "subPartName": "NCP15XH103F03RC.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e14671",
+    "symbol": {
+     "uuid": "e40b9cc62a6d48e99898e8cd0d3ca29f",
+     "libraryUuid": "d2beae28d8894494aa24697a5823ee37"
+    },
+    "footprint": {
+     "uuid": "a905d381b134460abf4c8ff4344e1c81",
+     "libraryUuid": "d2beae28d8894494aa24697a5823ee37"
+    },
+    "designator": "R?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "NCP15XH103F03RC",
+    "supplier": "LCSC",
+    "supplierId": "C77131",
+    "otherProperty": {
+     "LCSC Part Name": "10kΩ 3380K 100mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/NCP15XH103F03RC/78258.html",
+     "Resistance @ 25℃": "10kΩ",
+     "B Constant (25℃/50℃)": "3380K",
+     "Resistance Tolerance": "±1%",
+     "B Constant (25℃/75℃)": "-",
+     "B Constant (25℃/85℃)": "3434K",
+     "B Constant (25℃/100℃)": "3455K",
+     "Power(Watts)": "100mW",
+     "B Constant Tolerance": "±1%",
+     "Steady State Current (Max)": "310uA",
+     "Operating Temperature": "-40℃~+125℃",
+     "Dissipation Factor": "1mW/℃",
+     "Length": "1mm",
+     "Width": "0.5mm",
+     "Description": "Resistance @ 25℃:10kΩ B Constant (25℃/50℃):3380K Resistance Tolerance:±1% Resistance Tolerance:±1% B Constant (25℃/75℃):- B Constant (25℃/85℃):3434K B Constant (25℃/100℃):3455K Power(Watts):100mW B Constant Tolerance:±1% Steady State Current (Max):310uA O"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "U14",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "95f54609b19b4ca5bc76959e010e2458",
+     "uuid": "95f54609b19b4ca5bc76959e010e2458"
+    },
+    "x": 3335,
+    "y": 3385,
+    "subPartName": "SN74AHCT1G125DBVR.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e14716",
+    "symbol": {
+     "uuid": "addb01e2c01648ff8606e14c69d6b1c5",
+     "libraryUuid": "95f54609b19b4ca5bc76959e010e2458"
+    },
+    "footprint": {
+     "uuid": "f8e3f40337774bfe92ec5200c7c6ed5b",
+     "libraryUuid": "95f54609b19b4ca5bc76959e010e2458"
+    },
+    "designator": "U?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "TI(德州仪器)",
+    "manufacturerId": "SN74AHCT1G125DBVR",
+    "supplier": "LCSC",
+    "supplierId": "C7484",
+    "otherProperty": {
+     "LCSC Part Name": "三态输出，单路总线缓冲门",
+     "Supplier Footprint": "SOT-23-5",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://www.ti.com/cn/lit/ds/symlink/sn74ahct1g125.pdf",
+     "Input type": "-",
+     "output type": "Tri-State",
+     "Voltage - Supply": "4.5V~5.5V",
+     "Number of Elements": "1",
+     "Number of Bits per Element": "1",
+     "Channel Type": "Unidirectional",
+     "Current - Output Low(IOL)": "8mA",
+     "Current - Output High(IOH)": "8mA",
+     "Logic Family": "74AHCT",
+     "Operating Temperature": "-40℃~+125℃",
+     "Quiescent Current": "10uA",
+     "Propagation Delay": "6.5ns@5V,15pF",
+     "Features": "Output enable",
+     "Description": "Input type:- output type:Tri-State Voltage - Supply:4.5V~5.5V Voltage - Supply:4.5V~5.5V Number of Elements:1 Number of Bits per Element:1 Channel Type:Unidirectional Current - Output Low(IOL):8mA Current - Output High(IOH):8mA Logic Family:74AHCT Operati"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "U15",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "95f54609b19b4ca5bc76959e010e2458",
+     "uuid": "95f54609b19b4ca5bc76959e010e2458"
+    },
+    "x": 3575,
+    "y": 3385,
+    "subPartName": "SN74AHCT1G125DBVR.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e14770",
+    "symbol": {
+     "uuid": "addb01e2c01648ff8606e14c69d6b1c5",
+     "libraryUuid": "95f54609b19b4ca5bc76959e010e2458"
+    },
+    "footprint": {
+     "uuid": "f8e3f40337774bfe92ec5200c7c6ed5b",
+     "libraryUuid": "95f54609b19b4ca5bc76959e010e2458"
+    },
+    "designator": "U?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "TI(德州仪器)",
+    "manufacturerId": "SN74AHCT1G125DBVR",
+    "supplier": "LCSC",
+    "supplierId": "C7484",
+    "otherProperty": {
+     "LCSC Part Name": "三态输出，单路总线缓冲门",
+     "Supplier Footprint": "SOT-23-5",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://www.ti.com/cn/lit/ds/symlink/sn74ahct1g125.pdf",
+     "Input type": "-",
+     "output type": "Tri-State",
+     "Voltage - Supply": "4.5V~5.5V",
+     "Number of Elements": "1",
+     "Number of Bits per Element": "1",
+     "Channel Type": "Unidirectional",
+     "Current - Output Low(IOL)": "8mA",
+     "Current - Output High(IOH)": "8mA",
+     "Logic Family": "74AHCT",
+     "Operating Temperature": "-40℃~+125℃",
+     "Quiescent Current": "10uA",
+     "Propagation Delay": "6.5ns@5V,15pF",
+     "Features": "Output enable",
+     "Description": "Input type:- output type:Tri-State Voltage - Supply:4.5V~5.5V Voltage - Supply:4.5V~5.5V Number of Elements:1 Number of Bits per Element:1 Channel Type:Unidirectional Current - Output Low(IOL):8mA Current - Output High(IOH):8mA Logic Family:74AHCT Operati"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "title-container-9",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Text",
+    "x": 3005,
+    "y": -3490,
+    "content": "9. LED DATA + TEMPERATURE",
+    "rotation": 0,
+    "textColor": "#B00020",
+    "fontSize": 18,
+    "bold": true,
+    "alignMode": 2,
+    "primitiveId": "e14824"
+   },
+   "saved": true
+  }
+ }
+]

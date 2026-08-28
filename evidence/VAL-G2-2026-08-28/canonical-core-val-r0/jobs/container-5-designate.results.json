@@ -1,0 +1,1310 @@
+[
+ {
+  "tag": "C39",
+  "ok": true,
+  "result": {
+   "primitiveId": "e7586",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "a9cf2f91492b44b0ab588d27628e3ff6"
+    },
+    "x": 4365,
+    "y": 4290,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I7586",
+    "symbol": {
+     "uuid": "5bfd8c522b764c0db639c0ad7cfad3f5",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "footprint": {
+     "uuid": "ecc988f162c44eec829a596c8864e6d6",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "designator": "C39-ESP",
+    "name": "100nF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R71C104KA88D",
+    "supplier": "LCSC",
+    "supplierId": "GRM155R71C104KA88D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C40",
+  "ok": true,
+  "result": {
+   "primitiveId": "e7622",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "86f035d41f4d4fc3a8ba7bf486279e8f"
+    },
+    "x": 4505,
+    "y": 4290,
+    "subPartName": "GRM155R60J106ME44D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I7622",
+    "symbol": {
+     "uuid": "2996f505f7574baa9a8ae57435928188",
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "footprint": {
+     "uuid": "c33326b9eb52426a92302d852ba3fb73",
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "designator": "C40-ESP",
+    "name": "10uF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J106ME44D",
+    "supplier": "LCSC",
+    "supplierId": "GRM155R60J106ME44D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C41",
+  "ok": true,
+  "result": {
+   "primitiveId": "e7658",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "d791b631b1c94070b07702286fa2c993"
+    },
+    "x": 4645,
+    "y": 4290,
+    "subPartName": "GRM21BR61A476ME15L.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I7658",
+    "symbol": {
+     "uuid": "ece644c7f71240bd87b49090242e2cb9",
+     "libraryUuid": "357737b504374558a5ee16c9701b47ad"
+    },
+    "footprint": {
+     "uuid": "a38a0896fef04e8184f99e5d6c04c14b",
+     "libraryUuid": "357737b504374558a5ee16c9701b47ad"
+    },
+    "designator": "C41-ESP",
+    "name": "47uF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM21BR61A476ME15L",
+    "supplier": "LCSC",
+    "supplierId": "GRM21BR61A476ME15L.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C42",
+  "ok": true,
+  "result": {
+   "primitiveId": "e7694",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "a9cf2f91492b44b0ab588d27628e3ff6"
+    },
+    "x": 4365,
+    "y": 4362,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I7694",
+    "symbol": {
+     "uuid": "5bfd8c522b764c0db639c0ad7cfad3f5",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "footprint": {
+     "uuid": "ecc988f162c44eec829a596c8864e6d6",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "designator": "C42-ESP",
+    "name": "100nF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R71C104KA88D",
+    "supplier": "LCSC",
+    "supplierId": "GRM155R71C104KA88D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "J6",
+  "ok": true,
+  "result": {
+   "primitiveId": "e7730",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "28ae160c5ece4f8fad2fe3c88cf2b6c2"
+    },
+    "x": 4825,
+    "y": 4345,
+    "subPartName": "PREC040SAAN-RC.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I7730",
+    "symbol": {
+     "uuid": "268eaa1e3de54d7ca0ae053eaab6e433",
+     "libraryUuid": "3b23b19f753644e49a737e630ce61fce"
+    },
+    "footprint": {
+     "uuid": "de2222571e844ee2ba7ce1e40e055660",
+     "libraryUuid": "3b23b19f753644e49a737e630ce61fce"
+    },
+    "designator": "J6-ESP",
+    "name": "1x4",
+    "uniqueId": "",
+    "manufacturer": "Sullins",
+    "manufacturerId": "PREC040SAAN-RC",
+    "supplier": "LCSC",
+    "supplierId": "PREC040SAAN-RC.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Pitch": "",
+     "Mounting Type": "",
+     "Number of Rows": "",
+     "Number of Pins": "",
+     "Current Rating": "",
+     "Contact Material": "",
+     "Contact Plating": "",
+     "Operating Temperature": "",
+     "Color": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R19",
+  "ok": true,
+  "result": {
+   "primitiveId": "e7885",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "e1b1f220e40a4edea589adfa05a5d8c7"
+    },
+    "x": 4505,
+    "y": 4433,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I7885",
+    "symbol": {
+     "uuid": "27e1c105ea1844858f8ef4c155fa3cd7",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "footprint": {
+     "uuid": "3a9991e4aef9455bb546fda6b87e03b9",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "designator": "R19-ESP",
+    "name": "10k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0710KL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-0710KL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R20",
+  "ok": true,
+  "result": {
+   "primitiveId": "e7924",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "e1b1f220e40a4edea589adfa05a5d8c7"
+    },
+    "x": 4645,
+    "y": 4433,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I7924",
+    "symbol": {
+     "uuid": "27e1c105ea1844858f8ef4c155fa3cd7",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "footprint": {
+     "uuid": "3a9991e4aef9455bb546fda6b87e03b9",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "designator": "R20-ESP",
+    "name": "10k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0710KL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-0710KL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "SW2",
+  "ok": true,
+  "result": {
+   "primitiveId": "e7963",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "03c1499ffd4c4da586c4ec4ba1cdc06e"
+    },
+    "x": 4365,
+    "y": 4505,
+    "subPartName": "PTS645SM43SMTR92LFS.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I7963",
+    "symbol": {
+     "uuid": "11db7a156db14cf7947144c4428c50d4",
+     "libraryUuid": "191fc2a99a5a47878f9b62602970494a"
+    },
+    "footprint": {
+     "uuid": "3cf2708c5d4347128c5dba2c5cca108b",
+     "libraryUuid": "191fc2a99a5a47878f9b62602970494a"
+    },
+    "designator": "SW2-ESP",
+    "name": "BOOT",
+    "uniqueId": "",
+    "manufacturer": "C&K",
+    "manufacturerId": "PTS645SM43SMTR92LFS",
+    "supplier": "LCSC",
+    "supplierId": "PTS645SM43SMTR92LFS.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Circuit": "",
+     "Actuator Style": "",
+     "Operating Force": "",
+     "Mounting Type": "",
+     "Length": "",
+     "Width": "",
+     "Switch Height": "",
+     "Contact Current": "",
+     "Voltage Rating": "",
+     "With Lamp": "",
+     "Termination Style": "",
+     "Life": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "SW3",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8014",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "03c1499ffd4c4da586c4ec4ba1cdc06e"
+    },
+    "x": 4505,
+    "y": 4505,
+    "subPartName": "PTS645SM43SMTR92LFS.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I8014",
+    "symbol": {
+     "uuid": "11db7a156db14cf7947144c4428c50d4",
+     "libraryUuid": "191fc2a99a5a47878f9b62602970494a"
+    },
+    "footprint": {
+     "uuid": "3cf2708c5d4347128c5dba2c5cca108b",
+     "libraryUuid": "191fc2a99a5a47878f9b62602970494a"
+    },
+    "designator": "SW3-ESP",
+    "name": "EN",
+    "uniqueId": "",
+    "manufacturer": "C&K",
+    "manufacturerId": "PTS645SM43SMTR92LFS",
+    "supplier": "LCSC",
+    "supplierId": "PTS645SM43SMTR92LFS.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Circuit": "",
+     "Actuator Style": "",
+     "Operating Force": "",
+     "Mounting Type": "",
+     "Length": "",
+     "Width": "",
+     "Switch Height": "",
+     "Contact Current": "",
+     "Voltage Rating": "",
+     "With Lamp": "",
+     "Termination Style": "",
+     "Life": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "U9",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8065",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "a2fca768aa0c45aa9c0a4ebd5dbfa935"
+    },
+    "x": 4125,
+    "y": 4345,
+    "subPartName": "ESP32-S3-WROOM-1(N16R8).1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I8065",
+    "symbol": {
+     "uuid": "febf5a20402f4f94976edfdce99466de",
+     "libraryUuid": "d65778533f464ec4bc3c3732bd686263"
+    },
+    "footprint": {
+     "uuid": "c95d99a9a0da4fe5b070d89982c80881",
+     "libraryUuid": "d65778533f464ec4bc3c3732bd686263"
+    },
+    "designator": "U9-ESP",
+    "name": "FITTED",
+    "uniqueId": "",
+    "manufacturer": "ESPRESSIF(乐鑫)",
+    "manufacturerId": "ESP32-S3-WROOM-1-N16R8",
+    "supplier": "LCSC",
+    "supplierId": "ESP32-S3-WROOM-1(N16R8).1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Utilized IC / Part": "",
+     "Interface Type": "",
+     "Value": "",
+     "Antenna Type": "",
+     "Output Power": "",
+     "Voltage - Supply": "",
+     "Receive  Current": "",
+     "Send  Current": "",
+     "Sensitivity": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C43",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8224",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "8924a2eec41640fa9651dea26e133656"
+    },
+    "x": 4110,
+    "y": 3980,
+    "subPartName": "GRM1555C1H101JA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I8224",
+    "symbol": {
+     "uuid": "ba41450fd2c14ca9b419f831bdfd03a0",
+     "libraryUuid": "7fa16b1f5f9c47fea6e96d1eea47bb57"
+    },
+    "footprint": {
+     "uuid": "6cd9a4cd1c35437e96c8fdb27fa13154",
+     "libraryUuid": "7fa16b1f5f9c47fea6e96d1eea47bb57"
+    },
+    "designator": "C43-ESP",
+    "name": "100pF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM1555C1H101JA01D",
+    "supplier": "LCSC",
+    "supplierId": "GRM1555C1H101JA01D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C44",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8260",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "8924a2eec41640fa9651dea26e133656"
+    },
+    "x": 4290,
+    "y": 3980,
+    "subPartName": "GRM1555C1H101JA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I8260",
+    "symbol": {
+     "uuid": "ba41450fd2c14ca9b419f831bdfd03a0",
+     "libraryUuid": "7fa16b1f5f9c47fea6e96d1eea47bb57"
+    },
+    "footprint": {
+     "uuid": "6cd9a4cd1c35437e96c8fdb27fa13154",
+     "libraryUuid": "7fa16b1f5f9c47fea6e96d1eea47bb57"
+    },
+    "designator": "C44-ESP",
+    "name": "100pF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM1555C1H101JA01D",
+    "supplier": "LCSC",
+    "supplierId": "GRM1555C1H101JA01D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "FB4",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8296",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "d36e22975be14233becac081b11e1a80"
+    },
+    "x": 4470,
+    "y": 3980,
+    "subPartName": "BLM21PG221SN1D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I8296",
+    "symbol": {
+     "uuid": "4c8bad34d9614d21a04784206b9787b6",
+     "libraryUuid": "311ff67eca764c27a1d140044ae8bc93"
+    },
+    "footprint": {
+     "uuid": "a46aa64a8c5d4a9f8947f709d9729870",
+     "libraryUuid": "311ff67eca764c27a1d140044ae8bc93"
+    },
+    "designator": "FB4-ESP",
+    "name": "220ohm@100MHz",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "BLM21PG221SN1D",
+    "supplier": "LCSC",
+    "supplierId": "BLM21PG221SN1D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Impedance @ Frequency": "",
+     "Tolerance": "",
+     "DC Resistance(DCR)": "",
+     "Current Rating": "",
+     "Number of Circuits": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "J7",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8334",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "f3e20d985fa741f1b49e7a779e4d9df4"
+    },
+    "x": 4650,
+    "y": 3980,
+    "subPartName": "USB4105-GF-A.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I8334",
+    "symbol": {
+     "uuid": "33584adb3fae446b8267f72ffc2554b8",
+     "libraryUuid": "ea8fe62438f94521b482dce770be0817"
+    },
+    "footprint": {
+     "uuid": "e784d9e0a6074a5ca0e3cad58c168a84",
+     "libraryUuid": "ea8fe62438f94521b482dce770be0817"
+    },
+    "designator": "J7-ESP",
+    "name": "USB-C-S3",
+    "uniqueId": "",
+    "manufacturer": "GCT",
+    "manufacturerId": "USB4105-GF-A",
+    "supplier": "LCSC",
+    "supplierId": "USB4105-GF-A.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Connector Type": "",
+     "Protocol Standard": "",
+     "Gender": "",
+     "Mounting Type": "",
+     "Number of Contacts": "",
+     "Number of Ports": "",
+     "Current Rating-Power": "",
+     "Voltage Rating": "",
+     "Detection color": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R21",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8421",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "ed9693b4f812441a8cc1d00e28d7db63"
+    },
+    "x": 4830,
+    "y": 3980,
+    "subPartName": "RC0402FR-075K1L.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I8421",
+    "symbol": {
+     "uuid": "6450f67f9d384f54a3eb02f049fae2d1",
+     "libraryUuid": "10a7836f15ff4f9d926b2ce2878a22a7"
+    },
+    "footprint": {
+     "uuid": "2874f8b71e9a4ed39cc1abe350a328f1",
+     "libraryUuid": "10a7836f15ff4f9d926b2ce2878a22a7"
+    },
+    "designator": "R21-ESP",
+    "name": "5.1k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-075K1L",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-075K1L.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R22",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8460",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "ed9693b4f812441a8cc1d00e28d7db63"
+    },
+    "x": 4110,
+    "y": 4095,
+    "subPartName": "RC0402FR-075K1L.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I8460",
+    "symbol": {
+     "uuid": "6450f67f9d384f54a3eb02f049fae2d1",
+     "libraryUuid": "10a7836f15ff4f9d926b2ce2878a22a7"
+    },
+    "footprint": {
+     "uuid": "2874f8b71e9a4ed39cc1abe350a328f1",
+     "libraryUuid": "10a7836f15ff4f9d926b2ce2878a22a7"
+    },
+    "designator": "R22-ESP",
+    "name": "5.1k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-075K1L",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-075K1L.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "U10",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8499",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "6beee6bbc33549dcb9267fc646db4c64"
+    },
+    "x": 4290,
+    "y": 4095,
+    "subPartName": "USBLC6-2SC6_C323793.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I8499",
+    "symbol": {
+     "uuid": "1e81121c0cf3410ea4863080bcae5ea1",
+     "libraryUuid": "e931d537a1bc4fb7b633b601571c876a"
+    },
+    "footprint": {
+     "uuid": "e9d6b0b29be549c891877ed07d352cb7",
+     "libraryUuid": "e931d537a1bc4fb7b633b601571c876a"
+    },
+    "designator": "U10-ESP",
+    "name": "TVS",
+    "uniqueId": "",
+    "manufacturer": "",
+    "manufacturerId": "USBLC6-2SC6",
+    "supplier": "LCSC",
+    "supplierId": "USBLC6-2SC6_C323793.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Reverse Stand-Off Voltage (Vrwm)": "",
+     "Maximum Clamping Voltage": "",
+     "Peak Pulse Current (Ipp)@10/1000us": "",
+     "Breakdown Voltage": "",
+     "Type": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C45",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8548",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "a9cf2f91492b44b0ab588d27628e3ff6"
+    },
+    "x": 4110,
+    "y": 3720,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I8548",
+    "symbol": {
+     "uuid": "5bfd8c522b764c0db639c0ad7cfad3f5",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "footprint": {
+     "uuid": "ecc988f162c44eec829a596c8864e6d6",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "designator": "C45-ESP",
+    "name": "100nF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R71C104KA88D",
+    "supplier": "LCSC",
+    "supplierId": "GRM155R71C104KA88D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R23",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8584",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "1e5677ef155d46db88b603ac68e38004"
+    },
+    "x": 4290,
+    "y": 3720,
+    "subPartName": "RC0402FR-0722RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I8584",
+    "symbol": {
+     "uuid": "e78b958e57fc47739f76bcd7d6717fc2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "footprint": {
+     "uuid": "7911c27983c546dfb50bf2cabd5562d2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "designator": "R23-ESP",
+    "name": "22R",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0722RL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-0722RL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R24",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8623",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "1e5677ef155d46db88b603ac68e38004"
+    },
+    "x": 4470,
+    "y": 3720,
+    "subPartName": "RC0402FR-0722RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I8623",
+    "symbol": {
+     "uuid": "e78b958e57fc47739f76bcd7d6717fc2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "footprint": {
+     "uuid": "7911c27983c546dfb50bf2cabd5562d2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "designator": "R24-ESP",
+    "name": "22R",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0722RL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-0722RL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R25",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8662",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "1e5677ef155d46db88b603ac68e38004"
+    },
+    "x": 4650,
+    "y": 3720,
+    "subPartName": "RC0402FR-0722RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I8662",
+    "symbol": {
+     "uuid": "e78b958e57fc47739f76bcd7d6717fc2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "footprint": {
+     "uuid": "7911c27983c546dfb50bf2cabd5562d2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "designator": "R25-ESP",
+    "name": "22R",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0722RL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-0722RL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R26",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8701",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "1e5677ef155d46db88b603ac68e38004"
+    },
+    "x": 4830,
+    "y": 3720,
+    "subPartName": "RC0402FR-0722RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I8701",
+    "symbol": {
+     "uuid": "e78b958e57fc47739f76bcd7d6717fc2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "footprint": {
+     "uuid": "7911c27983c546dfb50bf2cabd5562d2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "designator": "R26-ESP",
+    "name": "22R",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0722RL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-0722RL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R27",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8740",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "1e5677ef155d46db88b603ac68e38004"
+    },
+    "x": 4110,
+    "y": 3820,
+    "subPartName": "RC0402FR-0722RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I8740",
+    "symbol": {
+     "uuid": "e78b958e57fc47739f76bcd7d6717fc2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "footprint": {
+     "uuid": "7911c27983c546dfb50bf2cabd5562d2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "designator": "R27-ESP",
+    "name": "22R",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0722RL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-0722RL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "TP1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8779",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "42b09b6db2ab43cb994fad497f236935"
+    },
+    "x": 4290,
+    "y": 3820,
+    "subPartName": "TP-黄色测试点.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I8779",
+    "symbol": {
+     "uuid": "c3c7b21dcf1a4438bb044b4a663ed2d4",
+     "libraryUuid": "736194494faf4738adfbc9ae11340269"
+    },
+    "footprint": {
+     "uuid": "6947055710024015842d8f38e2aab7c8",
+     "libraryUuid": "736194494faf4738adfbc9ae11340269"
+    },
+    "designator": "TP1-ESP",
+    "name": "TP",
+    "uniqueId": "",
+    "manufacturer": "",
+    "manufacturerId": "5001",
+    "supplier": "LCSC",
+    "supplierId": "TP-黄色测试点.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "TP2",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8808",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "42b09b6db2ab43cb994fad497f236935"
+    },
+    "x": 4470,
+    "y": 3820,
+    "subPartName": "TP-黄色测试点.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I8808",
+    "symbol": {
+     "uuid": "c3c7b21dcf1a4438bb044b4a663ed2d4",
+     "libraryUuid": "736194494faf4738adfbc9ae11340269"
+    },
+    "footprint": {
+     "uuid": "6947055710024015842d8f38e2aab7c8",
+     "libraryUuid": "736194494faf4738adfbc9ae11340269"
+    },
+    "designator": "TP2-ESP",
+    "name": "TP",
+    "uniqueId": "",
+    "manufacturer": "",
+    "manufacturerId": "5001",
+    "supplier": "LCSC",
+    "supplierId": "TP-黄色测试点.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Description": ""
+    }
+   },
+   "saved": true
+  }
+ }
+]

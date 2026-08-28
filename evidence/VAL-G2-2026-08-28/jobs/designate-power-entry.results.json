@@ -1,0 +1,256 @@
+[
+ {
+  "tag": "C1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13260",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "ef80a2e8d3d1450fab882696bb8d8e7e"
+    },
+    "x": 130,
+    "y": 910,
+    "subPartName": "GRM21BR61E226ME44L.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "C2",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13296",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "ef80a2e8d3d1450fab882696bb8d8e7e"
+    },
+    "x": 270,
+    "y": 910,
+    "subPartName": "GRM21BR61E226ME44L.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "CS11",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13332",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "c3ed589605d74eb0b175858ac76f1cb2"
+    },
+    "x": 170,
+    "y": 1035,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "CS22",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13368",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "c3ed589605d74eb0b175858ac76f1cb2"
+    },
+    "x": 350,
+    "y": 1035,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "CS33",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13404",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "c3ed589605d74eb0b175858ac76f1cb2"
+    },
+    "x": 530,
+    "y": 1035,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "D1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13440",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "2042f8b92755466e951cc4bd4c78724b"
+    },
+    "x": 420,
+    "y": 755,
+    "subPartName": "USBLC6-2SC6_C323793.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "F1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13489",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "0835a53699c34143abd986f25fc66b74"
+    },
+    "x": 270,
+    "y": 755,
+    "subPartName": "BLM21PG221SN1D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "J1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13527",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "3cd77523c1e6498aa5e46190381539f9"
+    },
+    "x": 110,
+    "y": 755,
+    "subPartName": "USB4105-GF-A.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "R1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13614",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "f0a94664be384bca9adc49994205cf28"
+    },
+    "x": 410,
+    "y": 910,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "R2",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13653",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "e41a27a834554310a14c245c43345ea5"
+    },
+    "x": 550,
+    "y": 910,
+    "subPartName": "RC0402FR-07100KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "U1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13692",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "9629a00947054cf093fbbf731ad1bb64"
+    },
+    "x": 610,
+    "y": 755,
+    "subPartName": "TPS259474LRPWR.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": ""
+   },
+   "saved": true
+  }
+ }
+]

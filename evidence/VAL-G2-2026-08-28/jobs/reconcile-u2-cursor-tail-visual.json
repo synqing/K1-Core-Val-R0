@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "reconcile-u2-cursor-tail-2026-08-28",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "intended_delta": "Reconcile the exact saved sheet after cancelling EasyEDA wire mode and before removing two cursor-tail branches",
+  "observed_delta": "The intended U2 VIN mapping remains, but 5V_PROTECTED and 5V_SYS each have one vertical cursor-tail branch; all component placement and ten boxes are otherwise stable.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/screenshots/u2-after-cancel-wire-mode.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "current box 1 visible",
+      "result": "OK",
+      "detail": "The whole first domain box and U2 wire endpoints are visible."
+    },
+    {
+      "name": "wire mode cancelled",
+      "result": "OK",
+      "detail": "The temporary unDeterminateLine object is absent from the current source."
+    },
+    {
+      "name": "cursor tails bounded",
+      "result": "OK",
+      "detail": "Exactly two persisted extra vertical branches are identified on e14555 and e14561."
+    },
+    {
+      "name": "placement and identity preserved",
+      "result": "OK",
+      "detail": "There are 21 -PWR components and ten domain rectangles; no component move is included in the next repair."
+    }
+  ]
+}

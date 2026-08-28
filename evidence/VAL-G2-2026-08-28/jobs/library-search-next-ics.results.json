@@ -1,0 +1,348 @@
+[
+ {
+  "tag": "INA226AIDGSR",
+  "ok": true,
+  "result": {
+   "query": "INA226AIDGSR",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "de48eb5d6ca2420085bb2cd6f9f979d2",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "INA226AIDGSR",
+     "symbolName": "INA226AIDGSR",
+     "symbolUuid": "ec12c6ca7bf647488c1beae44e6b0a33",
+     "footprintName": "MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL",
+     "footprintUuid": "bf471488bcf94b1aa820390f51c4193d",
+     "model3DName": "MSOP-10_L3.0-W3.0-H1.1-LS5.0-P0.50",
+     "model3DUuid": "875cf331c88d40d1aea94374997f39b1",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20221230/FD119C20D8C34B0A8C907C7506243CD8.jpg",
+     "description": "Number of Channels:- Vcm - Common Mode Voltage:0V~36V Vcm - Common Mode Voltage:0V~36V Gain:- Bandwidth:- Ib - Input Bias Current:100pA Vos - Input Offset Voltage:2.5uV Operating Temperature:-40℃~+125℃ Operating Temperature:-40℃~+125℃ Differential Voltage",
+     "manufacturer": "TI(德州仪器)",
+     "manufacturerId": "INA226AIDGSR",
+     "supplier": "LCSC",
+     "supplierId": "C49851"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "WSHP2818R0100FEA",
+  "ok": true,
+  "result": {
+   "query": "WSHP2818R0100FEA",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "af0eb88644df4d85bff2d3134584f7a7",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "WSHP2818R0100FEA",
+     "symbolName": "WSHP2818R0100FEA",
+     "symbolUuid": "892ceeea39e64dd3ad5ad09b583600ae",
+     "footprintName": "R2818",
+     "footprintUuid": "4d6e897ffa8547f48880efdd98f5bd7d",
+     "model3DName": "R2818",
+     "model3DUuid": "497e3746e8274404b7aab8ed05205700",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230204/872F65C1B071FF693B79E4587A9017C9.jpg",
+     "description": "Type:- Resistance:10mΩ Tolerance:±1% Tolerance:±1% Power(Watts):10W Temperature Coefficient:±75ppm/℃ Temperature Coefficient:±75ppm/℃ Operating Temperature:-65℃~+170℃ Operating Temperature:-65℃~+170℃ ",
+     "manufacturer": "VISHAY(威世)",
+     "manufacturerId": "WSHP2818R0100FEA",
+     "supplier": "LCSC",
+     "supplierId": "C4274345"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "TPS62913RPUR",
+  "ok": true,
+  "result": {
+   "query": "TPS62913RPUR",
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "bfff3b3f69b84fc08a217efc39a3b5fb",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "TPS62913RPUR",
+     "symbolName": "TPS62913RPUR",
+     "symbolUuid": "b42d062de0ab4faa83a386b8286fffb4",
+     "footprintName": "QFN-10_L2.0-W2.0-P0.50_TPS62912RPUR",
+     "footprintUuid": "b760c2f814674a7a8c48d32ace55c26d",
+     "model3DName": "QFN-10_L2.0-W2.0-P0.50_TPS62912RPUR",
+     "model3DUuid": "7284306de8a54c0b9cc109ce07aa942f",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230224/76E76A30A9CEB79540C5FD6DFC335F8B.jpg",
+     "description": "Function:Step-down type Voltage - Supply:3V~17V Voltage - Supply:3V~17V Output Voltage:800mV~5.5V Output Voltage:800mV~5.5V Output Current:3A Frequency - Switching:1MHz；2.2MHz Frequency - Switching:1MHz；2.2MHz Operating Temperature:-40℃~+150℃@(TJ) Operati",
+     "manufacturer": "TI(德州仪器)",
+     "manufacturerId": "TPS62913RPUR",
+     "supplier": "LCSC",
+     "supplierId": "C5189914"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "XAL4030-472ME",
+  "ok": true,
+  "result": {
+   "query": "XAL4030-472ME",
+   "count": 2,
+   "devices": [
+    {
+     "uuid": "8fcb5e704c3b412cb9533d7bebd765de",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "XAL4030-472MEC",
+     "symbolName": "XAL4030-472MEC",
+     "symbolUuid": "037ee173af8046d99278ee4f061cfc98",
+     "footprintName": "IND-SMD_L4.0-W4.0_XAL4030-682MEC",
+     "footprintUuid": "47765ce889714e0981d832ddb867ea54",
+     "model3DName": "IND-SMD_L4.0-W4.0_XAL4030-682MEC",
+     "model3DUuid": "13887e172abb414795cc8602704bb707",
+     "description": "",
+     "manufacturer": "",
+     "manufacturerId": "XAL4030-472MEC",
+     "supplier": "LCSC",
+     "supplierId": "C9900010811"
+    },
+    {
+     "uuid": "3cefeb60dacd4effad0eab496f7241f0",
+     "libraryUuid": "",
+     "ordinal": 1,
+     "name": "XAL4030-472MEC_C19191688",
+     "symbolName": "XAL4030-472MEC_C19191688",
+     "symbolUuid": "aaa999a07be84bdc9a90f9503d2daacf",
+     "footprintName": "IND-SMD_L4.0-W4.0_XFL4020-102MEB",
+     "footprintUuid": "7afd4e95cc9d421a82c3a3668426b079",
+     "model3DName": "IND-SMD_L4.0-W4.0_XFL4020-102MEB",
+     "model3DUuid": "a0ad4a9775604a00936e3d9140c96e41",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20240221/EE7A95326D5E55987C42A3BECA09E9F3.jpg",
+     "description": "Inductance:4.7uH Tolerance:±20% Tolerance:±20% Current Rating:5.1A Current - Saturation(Isat):4.6A DC Resistance(DCR):40.1mΩ ",
+     "manufacturer": "Coilcraft(线艺)",
+     "manufacturerId": "XAL4030-472MEC",
+     "supplier": "LCSC",
+     "supplierId": "C19191688"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "TLV75533PDBVR",
+  "ok": true,
+  "result": {
+   "query": "TLV75533PDBVR",
+   "count": 4,
+   "devices": [
+    {
+     "uuid": "d082ce6261444851b1bfff105e4e4ae5",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "TLV75533PDBVR",
+     "symbolName": "TLV75533PDBVR",
+     "symbolUuid": "ca6a5b01f0364de4bcd477786457f264",
+     "footprintName": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+     "footprintUuid": "3962fa5424e54dde8cfd30751ab1c7e4",
+     "model3DName": "SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95",
+     "model3DUuid": "3168b22659ce4998ae232d44bb704e0a",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230109/50C843B5EA4C4488BBA5D79AF7F2F72A.jpg",
+     "description": "Output Configuration:Positive Voltage - Supply:5.5V Output Voltage:3.3V Output Voltage:3.3V Output Current:500mA Power Supply Rejection Ratio (PSRR):46dB@(100kHz) Voltage Dropout:238mV@(500mA) standby current:25uA Noise:71.5uVrms Features:Enable control；O",
+     "manufacturer": "TI(德州仪器)",
+     "manufacturerId": "TLV75533PDBVR",
+     "supplier": "LCSC",
+     "supplierId": "C404027"
+    },
+    {
+     "uuid": "9e01b3c9e6c04f13aa90f1e3fde22e62",
+     "libraryUuid": "",
+     "ordinal": 1,
+     "name": "TPTLV75533PDBVR",
+     "symbolName": "TPTLV75533PDBVR",
+     "symbolUuid": "a05999ce03e645ef91d11146acbaf97e",
+     "footprintName": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+     "footprintUuid": "3962fa5424e54dde8cfd30751ab1c7e4",
+     "model3DName": "SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95",
+     "model3DUuid": "3168b22659ce4998ae232d44bb704e0a",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20251214/BDF2139D3DAB713EE57865418E4C82DC.jpg",
+     "description": "Output Configuration:Positive Voltage - Supply:5.5V Output Voltage:3.3V Output Voltage:3.3V Output Current:500mA Power Supply Rejection Ratio (PSRR):- Voltage Dropout:320mV@(600mA) standby current:5uA Noise:- Features:Enable control；Over Current Protectio",
+     "manufacturer": "TECH PUBLIC(台舟)",
+     "manufacturerId": "TPTLV75533PDBVR",
+     "supplier": "LCSC",
+     "supplierId": "C2937042"
+    },
+    {
+     "uuid": "bdfc2e3ba33144f99aecb844e220cfdf",
+     "libraryUuid": "",
+     "ordinal": 2,
+     "name": "TLV75533PDBVR-HXY",
+     "symbolName": "TLV75533PDBVR-HXY",
+     "symbolUuid": "cbe0de3eea1c4e81b79e16525965ed90",
+     "footprintName": "SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL",
+     "footprintUuid": "ce19cf3a9e0f444ab83ae99d7368c50c",
+     "model3DName": "SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BL",
+     "model3DUuid": "181cd81bc0eb45c3a4928013d5e38870",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20241223/9B11F6439B725C67BAFB74C89530BC95.jpg",
+     "description": "Output Configuration:Positive Voltage - Supply:6V Output Voltage:3.3V Output Voltage:3.3V Output Current:500mA Power Supply Rejection Ratio (PSRR):- Voltage Dropout:120mV@(100mA) standby current:- Noise:- Features:Enable control Operating Temperature:-40℃",
+     "manufacturer": "HXY MOSFET(华轩阳电子)",
+     "manufacturerId": "TLV75533PDBVR-HXY",
+     "supplier": "LCSC",
+     "supplierId": "C42411799"
+    },
+    {
+     "uuid": "3f60092caf6c488ba7488c3e70a34afb",
+     "libraryUuid": "",
+     "ordinal": 3,
+     "name": "TLV75533PDBVR-MS",
+     "symbolName": "TLV75533PDBVR-MS",
+     "symbolUuid": "26798d3007134a3d908cdda3b2400924",
+     "footprintName": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+     "footprintUuid": "3962fa5424e54dde8cfd30751ab1c7e4",
+     "model3DName": "SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95",
+     "model3DUuid": "3168b22659ce4998ae232d44bb704e0a",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20240802/B2613AE065D9BDB416E3A3289422D3A1.jpg",
+     "description": "Output Configuration:Positive Voltage - Supply:6V Output Voltage:3.3V Output Voltage:3.3V Output Current:600mA Power Supply Rejection Ratio (PSRR):80dB Voltage Dropout:320mV@(600mA) standby current:2uA Noise:- Features:Enable control；Over Current Protecti",
+     "manufacturer": "MSKSEMI(美森科)",
+     "manufacturerId": "TLV75533PDBVR-MS",
+     "supplier": "LCSC",
+     "supplierId": "C30197532"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "TPS3808G33DBVR",
+  "ok": true,
+  "result": {
+   "query": "TPS3808G33DBVR",
+   "count": 3,
+   "devices": [
+    {
+     "uuid": "acec53869d2643d19adf64ad7e69d95f",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "TPS3808G33DBVR",
+     "symbolName": "TPS3808G33DBVR",
+     "symbolUuid": "740eef8b35604fa2acd433ef7579ed66",
+     "footprintName": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR",
+     "footprintUuid": "ebc5370dc87d4461ad5320a48450ab14",
+     "model3DName": "SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95",
+     "model3DUuid": "1370be37a17e44418ae52e2b4cc1f5e5",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20221229/2468063F44C2F88F40C0A1A51462F98B.jpg",
+     "description": "ChipType:Voltage monitor Output Type:Open-drain Voltage - Supply:1.7V~6.5V Voltage - Supply:1.7V~6.5V Reset Active Level:Active Low Threshold Voltage:3.07V Number of Voltages Monitored:1 Reset Timeout:20ms Operating Temperature:-40℃~+125℃ Operating Temper",
+     "manufacturer": "TI(德州仪器)",
+     "manufacturerId": "TPS3808G33DBVR",
+     "supplier": "LCSC",
+     "supplierId": "C43698"
+    },
+    {
+     "uuid": "287d89ab95c04506acfe8b84cd91419f",
+     "libraryUuid": "",
+     "ordinal": 1,
+     "name": "TPS3808G33DBVR-TP",
+     "symbolName": "TPS3808G33DBVR-TP",
+     "symbolUuid": "3605bd9e3b3a45bca2bd8fd08a0e447e",
+     "footprintName": "TSOT-23-6_L2.9-W1.6-P0.95-LS2.8-BL",
+     "footprintUuid": "888ce383dca84b91b342810d7deb08c7",
+     "model3DName": "TSOT-23-6_L2.9-W1.6-H1.1-LS2.8-P0.95",
+     "model3DUuid": "b82f856f33de448a91344795012188a2",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20260411/30F10A8AC357B80DF790F2B3DB3784CB.jpg",
+     "description": "ChipType:Voltage monitor Output Type:Open-drain Voltage - Supply:1.7V~6.5V Voltage - Supply:1.7V~6.5V Reset Active Level:Active Low Threshold Voltage:3.07V Number of Voltages Monitored:1 Reset Timeout:- Operating Temperature:-40℃~+125℃ Operating Temperatu",
+     "manufacturer": "TECH PUBLIC(台舟)",
+     "manufacturerId": "TPS3808G33DBVR-TP",
+     "supplier": "LCSC",
+     "supplierId": "C51886189"
+    },
+    {
+     "uuid": "eba0846fe0ce4108a69e1b47af3b1e8f",
+     "libraryUuid": "",
+     "ordinal": 2,
+     "name": "TPS3808G33DBVRG4",
+     "symbolName": "TPS3808G33DBVRG4",
+     "symbolUuid": "6f11e735b6964b2d8415385682e9c34d",
+     "footprintName": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-BR",
+     "footprintUuid": "ebc5370dc87d4461ad5320a48450ab14",
+     "model3DName": "SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95",
+     "model3DUuid": "1370be37a17e44418ae52e2b4cc1f5e5",
+     "description": "ChipType:Simple reset/Power-on reset Output Type:Leakage Reset Active Level:Active Low Threshold Voltage:3.07V Number of Voltages Monitored:1 Reset Timeout:- Operating Temperature:-40℃~+125℃@(TJ) Operating Temperature:-40℃~+125℃@(TJ) ",
+     "manufacturer": "TI(德州仪器)",
+     "manufacturerId": "TPS3808G33DBVRG4",
+     "supplier": "LCSC",
+     "supplierId": "C2067099"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "shunt-10m",
+  "ok": true,
+  "result": {
+   "query": "10mOhm shunt 2818",
+   "count": 0,
+   "devices": []
+  }
+ },
+ {
+  "tag": "ina226",
+  "ok": true,
+  "result": {
+   "query": "INA226",
+   "count": 3,
+   "devices": [
+    {
+     "uuid": "de48eb5d6ca2420085bb2cd6f9f979d2",
+     "libraryUuid": "",
+     "ordinal": 0,
+     "name": "INA226AIDGSR",
+     "symbolName": "INA226AIDGSR",
+     "symbolUuid": "ec12c6ca7bf647488c1beae44e6b0a33",
+     "footprintName": "MSOP-10_L3.0-W3.0-P0.50-LS5.0-BL",
+     "footprintUuid": "bf471488bcf94b1aa820390f51c4193d",
+     "model3DName": "MSOP-10_L3.0-W3.0-H1.1-LS5.0-P0.50",
+     "model3DUuid": "875cf331c88d40d1aea94374997f39b1",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20221230/FD119C20D8C34B0A8C907C7506243CD8.jpg",
+     "description": "Number of Channels:- Vcm - Common Mode Voltage:0V~36V Vcm - Common Mode Voltage:0V~36V Gain:- Bandwidth:- Ib - Input Bias Current:100pA Vos - Input Offset Voltage:2.5uV Operating Temperature:-40℃~+125℃ Operating Temperature:-40℃~+125℃ Differential Voltage",
+     "manufacturer": "TI(德州仪器)",
+     "manufacturerId": "INA226AIDGSR",
+     "supplier": "LCSC",
+     "supplierId": "C49851"
+    },
+    {
+     "uuid": "6d9ef23e2dc94b9883b77d3f484fcecd",
+     "libraryUuid": "",
+     "ordinal": 1,
+     "name": "INA226AIDGST",
+     "symbolName": "INA226AIDGST",
+     "symbolUuid": "e4ff876943b140e897a7e2e47718e0f2",
+     "footprintName": "VSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL",
+     "footprintUuid": "b7a4dec7fad6447e9a166a8f5483c35d",
+     "model3DName": "VSSOP-10_L3.0-W3.0-H1.1-LS4.9-P0.50",
+     "model3DUuid": "3e31ed6b36ca484795e6a68c51b575dc",
+     "description": "Number of Channels:- Vcm - Common Mode Voltage:36V Vcm - Common Mode Voltage:36V Gain:- Bandwidth:500kHz Ib - Input Bias Current:10uA Vos - Input Offset Voltage:2.5uV Operating Temperature:-40℃~+125℃ Operating Temperature:-40℃~+125℃ Differential Voltage:±",
+     "manufacturer": "TI(德州仪器)",
+     "manufacturerId": "INA226AIDGST",
+     "supplier": "LCSC",
+     "supplierId": "C2653870"
+    },
+    {
+     "uuid": "e24cde0536ef47738a82e890595fd022",
+     "libraryUuid": "",
+     "ordinal": 2,
+     "name": "INA226AQDGSRQ1",
+     "symbolName": "INA226AQDGSRQ1",
+     "symbolUuid": "b3b5c7c0d3ba40128dd24812ed01ae34",
+     "footprintName": "VSSOP-10_L3.0-W3.0-P0.50-LS4.9-BL",
+     "footprintUuid": "b7a4dec7fad6447e9a166a8f5483c35d",
+     "model3DName": "VSSOP-10_L3.0-W3.0-H1.1-LS4.9-P0.50",
+     "model3DUuid": "3e31ed6b36ca484795e6a68c51b575dc",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230207/846CD443F2BEE282C56567DED17D5442.jpg",
+     "description": "Number of Channels:- Vcm - Common Mode Voltage:0V~36V Vcm - Common Mode Voltage:0V~36V Gain:- Bandwidth:- Ib - Input Bias Current:10nA Vos - Input Offset Voltage:2.5uV Operating Temperature:-40℃~+125℃ Operating Temperature:-40℃~+125℃ Differential Voltage:",
+     "manufacturer": "TI(德州仪器)",
+     "manufacturerId": "INA226AQDGSRQ1",
+     "supplier": "LCSC",
+     "supplierId": "C2653835"
+    }
+   ]
+  }
+ }
+]

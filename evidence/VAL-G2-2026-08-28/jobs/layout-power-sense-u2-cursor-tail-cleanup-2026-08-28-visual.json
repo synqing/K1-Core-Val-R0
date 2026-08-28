@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "transaction_id": "layout-power-sense-u2-cursor-tail-cleanup-2026-08-28",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "intended_delta": "Remove only the two EasyEDA cursor-tail branches from U2-PWR while preserving the corrected VIN mapping and Captain placement",
+  "observed_delta": "The persisted full-sheet render retains Captain's box-1 layout and the compact U2-PWR connections without any cursor-tail branches; the other nine boxes remain untouched.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/screenshots/u2-cursor-tail-cleanup-saved.png",
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name": "no cursor-tail branches remain", "result": "OK", "detail": "The saved render and source read-back show only the intended horizontal VIN+ stub and compact VIN-/VBUS U-join."},
+    {"name": "Captain placement remains fixed", "result": "OK", "detail": "All 21 components remain in box 1; all ten Captain rectangles remain."},
+    {"name": "other boxes remain untouched", "result": "OK", "detail": "Boxes 2 through 10 remain empty and structurally unchanged."},
+    {"name": "designator suffixes remain intact", "result": "OK", "detail": "Semantic read-back retains 21 component designators ending in -PWR."}
+  ]
+}

@@ -1,0 +1,643 @@
+[
+ {
+  "tag": "C64",
+  "ok": true,
+  "result": {
+   "primitiveId": "e14334",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "a9cf2f91492b44b0ab588d27628e3ff6"
+    },
+    "x": 3095,
+    "y": 2525,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I14334",
+    "symbol": {
+     "uuid": "5bfd8c522b764c0db639c0ad7cfad3f5",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "footprint": {
+     "uuid": "ecc988f162c44eec829a596c8864e6d6",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "designator": "C64-LED",
+    "name": "100nF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R71C104KA88D",
+    "supplier": "LCSC",
+    "supplierId": "GRM155R71C104KA88D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C65",
+  "ok": true,
+  "result": {
+   "primitiveId": "e14370",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "a9cf2f91492b44b0ab588d27628e3ff6"
+    },
+    "x": 3335,
+    "y": 2525,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I14370",
+    "symbol": {
+     "uuid": "5bfd8c522b764c0db639c0ad7cfad3f5",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "footprint": {
+     "uuid": "ecc988f162c44eec829a596c8864e6d6",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "designator": "C65-LED",
+    "name": "100nF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R71C104KA88D",
+    "supplier": "LCSC",
+    "supplierId": "GRM155R71C104KA88D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "J2",
+  "ok": true,
+  "result": {
+   "primitiveId": "e14406",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "5211bfb3e76d4ebcbae4acd9004e6dc0"
+    },
+    "x": 3335,
+    "y": 2812,
+    "subPartName": "B2B-XH-A.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I14406",
+    "symbol": {
+     "uuid": "76a584c91e2041cc9e8b2bc9bc6eddc7",
+     "libraryUuid": "e7021793e1cf4b0bb9aa0a7daaef6e91"
+    },
+    "footprint": {
+     "uuid": "6ca811c52a9148e4a11be24b0d914ce8",
+     "libraryUuid": "e7021793e1cf4b0bb9aa0a7daaef6e91"
+    },
+    "designator": "J2-LED",
+    "name": "XH-3",
+    "uniqueId": "",
+    "manufacturer": "",
+    "manufacturerId": "B2B-XH-A",
+    "supplier": "LCSC",
+    "supplierId": "B2B-XH-A.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "J3",
+  "ok": true,
+  "result": {
+   "primitiveId": "e14438",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "5211bfb3e76d4ebcbae4acd9004e6dc0"
+    },
+    "x": 3575,
+    "y": 2812,
+    "subPartName": "B2B-XH-A.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I14438",
+    "symbol": {
+     "uuid": "76a584c91e2041cc9e8b2bc9bc6eddc7",
+     "libraryUuid": "e7021793e1cf4b0bb9aa0a7daaef6e91"
+    },
+    "footprint": {
+     "uuid": "6ca811c52a9148e4a11be24b0d914ce8",
+     "libraryUuid": "e7021793e1cf4b0bb9aa0a7daaef6e91"
+    },
+    "designator": "J3-LED",
+    "name": "XH-3",
+    "uniqueId": "",
+    "manufacturer": "",
+    "manufacturerId": "B2B-XH-A",
+    "supplier": "LCSC",
+    "supplierId": "B2B-XH-A.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R51",
+  "ok": true,
+  "result": {
+   "primitiveId": "e14470",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "abe863d4244141ef97b3fd0ba218d523"
+    },
+    "x": 3815,
+    "y": 2812,
+    "subPartName": "RC0402FR-0733RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I14470",
+    "symbol": {
+     "uuid": "2ab9388dcb4443ddacffc526bffe7c1d",
+     "libraryUuid": "5167ada280d846078b7bb7b340933d0b"
+    },
+    "footprint": {
+     "uuid": "a2a32923b4214aa4a7b2f3217b85fa42",
+     "libraryUuid": "5167ada280d846078b7bb7b340933d0b"
+    },
+    "designator": "R51-LED",
+    "name": "33R",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0733RL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-0733RL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R52",
+  "ok": true,
+  "result": {
+   "primitiveId": "e14509",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "abe863d4244141ef97b3fd0ba218d523"
+    },
+    "x": 3095,
+    "y": 3098,
+    "subPartName": "RC0402FR-0733RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I14509",
+    "symbol": {
+     "uuid": "2ab9388dcb4443ddacffc526bffe7c1d",
+     "libraryUuid": "5167ada280d846078b7bb7b340933d0b"
+    },
+    "footprint": {
+     "uuid": "a2a32923b4214aa4a7b2f3217b85fa42",
+     "libraryUuid": "5167ada280d846078b7bb7b340933d0b"
+    },
+    "designator": "R52-LED",
+    "name": "33R",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0733RL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-0733RL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R53",
+  "ok": true,
+  "result": {
+   "primitiveId": "e14548",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "e1b1f220e40a4edea589adfa05a5d8c7"
+    },
+    "x": 3335,
+    "y": 3098,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I14548",
+    "symbol": {
+     "uuid": "27e1c105ea1844858f8ef4c155fa3cd7",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "footprint": {
+     "uuid": "3a9991e4aef9455bb546fda6b87e03b9",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "designator": "R53-LED",
+    "name": "10k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0710KL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-0710KL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R54",
+  "ok": true,
+  "result": {
+   "primitiveId": "e14587",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "e1b1f220e40a4edea589adfa05a5d8c7"
+    },
+    "x": 3575,
+    "y": 3098,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I14587",
+    "symbol": {
+     "uuid": "27e1c105ea1844858f8ef4c155fa3cd7",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "footprint": {
+     "uuid": "3a9991e4aef9455bb546fda6b87e03b9",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "designator": "R54-LED",
+    "name": "10k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0710KL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-0710KL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "RT1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e14626",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "ffcf36f9dcc04913a230d43808bc9ca1"
+    },
+    "x": 3815,
+    "y": 3098,
+    "subPartName": "NCP15XH103F03RC.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I14626",
+    "symbol": {
+     "uuid": "e40b9cc62a6d48e99898e8cd0d3ca29f",
+     "libraryUuid": "d2beae28d8894494aa24697a5823ee37"
+    },
+    "footprint": {
+     "uuid": "a905d381b134460abf4c8ff4344e1c81",
+     "libraryUuid": "d2beae28d8894494aa24697a5823ee37"
+    },
+    "designator": "RT1-LED",
+    "name": "10k-NTC",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "NCP15XH103F03RC",
+    "supplier": "LCSC",
+    "supplierId": "NCP15XH103F03RC.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Resistance @ 25℃": "",
+     "B Constant (25℃/50℃)": "",
+     "Resistance Tolerance": "",
+     "B Constant (25℃/75℃)": "",
+     "B Constant (25℃/85℃)": "",
+     "B Constant (25℃/100℃)": "",
+     "Power(Watts)": "",
+     "B Constant Tolerance": "",
+     "Steady State Current (Max)": "",
+     "Operating Temperature": "",
+     "Dissipation Factor": "",
+     "Length": "",
+     "Width": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "RT2",
+  "ok": true,
+  "result": {
+   "primitiveId": "e14671",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "ffcf36f9dcc04913a230d43808bc9ca1"
+    },
+    "x": 3095,
+    "y": 3385,
+    "subPartName": "NCP15XH103F03RC.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I14671",
+    "symbol": {
+     "uuid": "e40b9cc62a6d48e99898e8cd0d3ca29f",
+     "libraryUuid": "d2beae28d8894494aa24697a5823ee37"
+    },
+    "footprint": {
+     "uuid": "a905d381b134460abf4c8ff4344e1c81",
+     "libraryUuid": "d2beae28d8894494aa24697a5823ee37"
+    },
+    "designator": "RT2-LED",
+    "name": "10k-NTC",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "NCP15XH103F03RC",
+    "supplier": "LCSC",
+    "supplierId": "NCP15XH103F03RC.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Resistance @ 25℃": "",
+     "B Constant (25℃/50℃)": "",
+     "Resistance Tolerance": "",
+     "B Constant (25℃/75℃)": "",
+     "B Constant (25℃/85℃)": "",
+     "B Constant (25℃/100℃)": "",
+     "Power(Watts)": "",
+     "B Constant Tolerance": "",
+     "Steady State Current (Max)": "",
+     "Operating Temperature": "",
+     "Dissipation Factor": "",
+     "Length": "",
+     "Width": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "U14",
+  "ok": true,
+  "result": {
+   "primitiveId": "e14716",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "84c8e0a885c548e1881a3f4c25b3ef1d"
+    },
+    "x": 3335,
+    "y": 3385,
+    "subPartName": "SN74AHCT1G125DBVR.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I14716",
+    "symbol": {
+     "uuid": "addb01e2c01648ff8606e14c69d6b1c5",
+     "libraryUuid": "95f54609b19b4ca5bc76959e010e2458"
+    },
+    "footprint": {
+     "uuid": "f8e3f40337774bfe92ec5200c7c6ed5b",
+     "libraryUuid": "95f54609b19b4ca5bc76959e010e2458"
+    },
+    "designator": "U14-LED",
+    "name": "FITTED",
+    "uniqueId": "",
+    "manufacturer": "TI(德州仪器)",
+    "manufacturerId": "SN74AHCT1G125DBVR",
+    "supplier": "LCSC",
+    "supplierId": "SN74AHCT1G125DBVR.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Input type": "",
+     "output type": "",
+     "Voltage - Supply": "",
+     "Number of Elements": "",
+     "Number of Bits per Element": "",
+     "Channel Type": "",
+     "Current - Output Low(IOL)": "",
+     "Current - Output High(IOH)": "",
+     "Logic Family": "",
+     "Operating Temperature": "",
+     "Quiescent Current": "",
+     "Propagation Delay": "",
+     "Features": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "U15",
+  "ok": true,
+  "result": {
+   "primitiveId": "e14770",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "84c8e0a885c548e1881a3f4c25b3ef1d"
+    },
+    "x": 3575,
+    "y": 3385,
+    "subPartName": "SN74AHCT1G125DBVR.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I14770",
+    "symbol": {
+     "uuid": "addb01e2c01648ff8606e14c69d6b1c5",
+     "libraryUuid": "95f54609b19b4ca5bc76959e010e2458"
+    },
+    "footprint": {
+     "uuid": "f8e3f40337774bfe92ec5200c7c6ed5b",
+     "libraryUuid": "95f54609b19b4ca5bc76959e010e2458"
+    },
+    "designator": "U15-LED",
+    "name": "FITTED",
+    "uniqueId": "",
+    "manufacturer": "TI(德州仪器)",
+    "manufacturerId": "SN74AHCT1G125DBVR",
+    "supplier": "LCSC",
+    "supplierId": "SN74AHCT1G125DBVR.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Input type": "",
+     "output type": "",
+     "Voltage - Supply": "",
+     "Number of Elements": "",
+     "Number of Bits per Element": "",
+     "Channel Type": "",
+     "Current - Output Low(IOL)": "",
+     "Current - Output High(IOH)": "",
+     "Logic Family": "",
+     "Operating Temperature": "",
+     "Quiescent Current": "",
+     "Propagation Delay": "",
+     "Features": "",
+     "Description": ""
+    }
+   },
+   "saved": true
+  }
+ }
+]

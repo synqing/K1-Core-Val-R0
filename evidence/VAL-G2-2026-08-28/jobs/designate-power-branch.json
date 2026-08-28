@@ -1,0 +1,158 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C14",
+    "args": {
+      "primitiveId": "e5864",
+      "designator": "C14",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C15",
+    "args": {
+      "primitiveId": "e5900",
+      "designator": "C15",
+      "name": "10uF",
+      "manufacturerId": "GRM155R60J106ME44D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C16",
+    "args": {
+      "primitiveId": "e5936",
+      "designator": "C16",
+      "name": "22uF",
+      "manufacturerId": "GRM21BR61E226ME44L",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C17",
+    "args": {
+      "primitiveId": "e5972",
+      "designator": "C17",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "CS03",
+    "args": {
+      "primitiveId": "e6008",
+      "designator": "CS03",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "CS14",
+    "args": {
+      "primitiveId": "e6044",
+      "designator": "CS14",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "CS25",
+    "args": {
+      "primitiveId": "e6080",
+      "designator": "CS25",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "CS36",
+    "args": {
+      "primitiveId": "e6116",
+      "designator": "CS36",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "FB3",
+    "args": {
+      "primitiveId": "e6152",
+      "designator": "FB3",
+      "name": "220ohm@100MHz",
+      "manufacturerId": "BLM21PG221SN1D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "Q1",
+    "args": {
+      "primitiveId": "e6190",
+      "designator": "Q1",
+      "name": "P-FET",
+      "manufacturerId": "DMG2305UX",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R9",
+    "args": {
+      "primitiveId": "e6235",
+      "designator": "R9",
+      "name": "100k",
+      "manufacturerId": "RC0402FR-07100KL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U5",
+    "args": {
+      "primitiveId": "e6274",
+      "designator": "U5",
+      "name": "3V3-LDO",
+      "manufacturerId": "TLV75533PDBVR",
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-container-9-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Populate canonical domain box 9 (LED_DATA) with source-derived components, domain suffix -LED, functional net endpoints and one readable title",
+  "observed_delta": "Box 9 contains two LED data level shifters, corrected three-pin left/right output connectors, series/direction/thermal parts and local decoupling with LED designators.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/container-9-after.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name":"domain contents","result":"OK","detail":"Both level-shifter lanes, connectors, thermistors and decoupling are present inside box 9."},
+    {"name":"connector identity","result":"OK","detail":"J2-LED and J3-LED visibly have three pins for +5V, data and ground."},
+    {"name":"domain designators","result":"OK","detail":"Visible electrical designators carry -LED."},
+    {"name":"layout readability","result":"OK","detail":"Left/right lanes are separated and symbols do not collide."},
+    {"name":"mutation boundary","result":"OK","detail":"The rectangle and adjacent domain remain fixed; PCB was not changed."}
+  ]
+}

@@ -1,0 +1,4 @@
+[
+  {"tool":"modify_schematic_component","tag":"J2","args":{"primitiveId":"e14825","designator":"J2-LED","name":"XH-3","manufacturerId":"B3B-XH-A-3PZZ","addIntoBom":true,"addIntoPcb":true,"saveAfter":false,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool":"modify_schematic_component","tag":"J3","args":{"primitiveId":"e14876","designator":"J3-LED","name":"XH-3","manufacturerId":"B3B-XH-A-3PZZ","addIntoBom":true,"addIntoPcb":true,"saveAfter":true,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}}
+]

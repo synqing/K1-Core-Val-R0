@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "transaction_id": "reconcile-captain-current-box1-2026-08-28",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "source_hash": "44392:9a3870c1",
+  "census": {
+    "components": 21,
+    "wires": 51,
+    "texts": 1,
+    "rectangles": 10,
+    "designators": ["C1-PWR", "C2-PWR", "C3-PWR", "C4-PWR", "CS02-PWR", "CS11-PWR", "CS13-PWR", "CS22-PWR", "CS24-PWR", "CS33-PWR", "CS35-PWR", "D1-PWR", "F1-PWR", "J1-PWR", "R1-PWR", "R2-PWR", "R3-PWR", "R4-PWR", "RSH1-PWR", "U1-PWR", "U2-PWR"]
+  }
+}

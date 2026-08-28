@@ -1,0 +1,26 @@
+[
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U4-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2491",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R8-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2452",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C68-PWR2",
+    "args": {
+      "componentPrimitiveId": "e38545",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

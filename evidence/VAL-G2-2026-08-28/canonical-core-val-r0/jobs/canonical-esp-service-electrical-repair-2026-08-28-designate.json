@@ -1,0 +1,150 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C42",
+    "args": {
+      "primitiveId": "e98127",
+      "designator": "C42-ESP",
+      "name": "1uF",
+      "manufacturerId": "GRM155R61A105KE15D",
+      "supplier": "LCSC",
+      "supplierId": "C76999",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "J6",
+    "args": {
+      "primitiveId": "e98163",
+      "designator": "J6-ESP",
+      "name": "RECOVERY 1x6",
+      "manufacturerId": "PREC006SAAN-RC",
+      "supplier": "LCSC",
+      "supplierId": "",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R71",
+    "args": {
+      "primitiveId": "e98207",
+      "designator": "R71-ESP",
+      "name": "100k",
+      "manufacturerId": "RC0402FR-07100KL",
+      "supplier": "LCSC",
+      "supplierId": "C60491",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R72",
+    "args": {
+      "primitiveId": "e98246",
+      "designator": "R72-ESP",
+      "name": "100k",
+      "manufacturerId": "RC0402FR-07100KL",
+      "supplier": "LCSC",
+      "supplierId": "C60491",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R73",
+    "args": {
+      "primitiveId": "e98285",
+      "designator": "R73-ESP",
+      "name": "22R",
+      "manufacturerId": "RC0402FR-0722RL",
+      "supplier": "LCSC",
+      "supplierId": "",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R74",
+    "args": {
+      "primitiveId": "e98324",
+      "designator": "R74-ESP",
+      "name": "22R",
+      "manufacturerId": "RC0402FR-0722RL",
+      "supplier": "LCSC",
+      "supplierId": "",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C43-ESP",
+    "args": {
+      "primitiveId": "e8224",
+      "name": "DNP / 100pF USB D+ TUNE",
+      "addIntoBom": false,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C44-ESP",
+    "args": {
+      "primitiveId": "e8260",
+      "name": "DNP / 100pF USB D- TUNE",
+      "addIntoBom": false,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_text",
+    "tag": "note-0",
+    "args": {
+      "x": 4240,
+      "y": 3845,
+      "content": "SERVICE USB: SELF-POWERED | VBUS SENSE 100k/100k -> GPIO15 | NO BACK-POWER",
+      "fontSize": 8,
+      "bold": true,
+      "textColor": "#1F5AA6",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_text",
+    "tag": "note-1",
+    "args": {
+      "x": 4590,
+      "y": 4410,
+      "content": "RECOVERY: GND | 3V3 | TX | RX | EN | BOOT",
+      "fontSize": 8,
+      "bold": true,
+      "textColor": "#1F5AA6",
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

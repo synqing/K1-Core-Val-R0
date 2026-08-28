@@ -1,0 +1,132 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C11",
+    "args": {
+      "primitiveId": "e5481",
+      "designator": "C11",
+      "name": "22uF",
+      "manufacturerId": "GRM21BR61E226ME44L",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C12",
+    "args": {
+      "primitiveId": "e5556",
+      "designator": "C12",
+      "name": "22uF",
+      "manufacturerId": "GRM21BR61E226ME44L",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C13",
+    "args": {
+      "primitiveId": "e5592",
+      "designator": "C13",
+      "name": "22uF",
+      "manufacturerId": "GRM21BR61E226ME44L",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "CS06",
+    "args": {
+      "primitiveId": "e5628",
+      "designator": "CS06",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "CS17",
+    "args": {
+      "primitiveId": "e5664",
+      "designator": "CS17",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "CS28",
+    "args": {
+      "primitiveId": "e5700",
+      "designator": "CS28",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "FB1",
+    "args": {
+      "primitiveId": "e5405",
+      "designator": "FB1",
+      "name": "220ohm@100MHz",
+      "manufacturerId": "BLM21PG221SN1D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "FB2",
+    "args": {
+      "primitiveId": "e5443",
+      "designator": "FB2",
+      "name": "220ohm@100MHz",
+      "manufacturerId": "BLM21PG221SN1D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R8",
+    "args": {
+      "primitiveId": "e5517",
+      "designator": "R8",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U4",
+    "args": {
+      "primitiveId": "e5347",
+      "designator": "U4",
+      "name": "eFuse",
+      "manufacturerId": "TPS259474L",
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

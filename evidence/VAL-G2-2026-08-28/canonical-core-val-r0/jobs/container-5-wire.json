@@ -1,0 +1,605 @@
+[
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C39",
+    "args": {
+      "componentPrimitiveId": "e7586",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C40",
+    "args": {
+      "componentPrimitiveId": "e7622",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C41",
+    "args": {
+      "componentPrimitiveId": "e7658",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C42",
+    "args": {
+      "componentPrimitiveId": "e7694",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "ESP_EN"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "J6",
+    "args": {
+      "componentPrimitiveId": "e7730",
+      "connections": [
+        {
+          "pinNumber": "4",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "3",
+          "net": "ESP_EN"
+        },
+        {
+          "pinNumber": "2",
+          "net": "ESP_UART0_TX"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R19",
+    "args": {
+      "componentPrimitiveId": "e7885",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "2",
+          "net": "ESP_EN"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R20",
+    "args": {
+      "componentPrimitiveId": "e7924",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "2",
+          "net": "ESP_GPIO0"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "SW2",
+    "args": {
+      "componentPrimitiveId": "e7963",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "ESP_GPIO0"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "SW3",
+    "args": {
+      "componentPrimitiveId": "e8014",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "ESP_EN"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U9",
+    "args": {
+      "componentPrimitiveId": "e8065",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "2",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "3",
+          "net": "ESP_EN"
+        },
+        {
+          "pinNumber": "27",
+          "net": "ESP_GPIO0"
+        },
+        {
+          "pinNumber": "37",
+          "net": "ESP_UART0_TX"
+        },
+        {
+          "pinNumber": "14",
+          "net": "USB_DP_S3"
+        },
+        {
+          "pinNumber": "13",
+          "net": "USB_DM_S3"
+        },
+        {
+          "pinNumber": "20",
+          "net": "K1BR_SCK"
+        },
+        {
+          "pinNumber": "19",
+          "net": "K1BR_MOSI"
+        },
+        {
+          "pinNumber": "21",
+          "net": "K1BR_MISO_S3"
+        },
+        {
+          "pinNumber": "18",
+          "net": "K1BR_CS"
+        },
+        {
+          "pinNumber": "22",
+          "net": "K1BR_IRQ_S3"
+        },
+        {
+          "pinNumber": "39",
+          "net": "I2C_SDA"
+        },
+        {
+          "pinNumber": "38",
+          "net": "I2C_SCL"
+        },
+        {
+          "pinNumber": "4",
+          "net": "NFC_IRQ"
+        },
+        {
+          "pinNumber": "5",
+          "net": "MOTION_INT_S3"
+        },
+        {
+          "pinNumber": "6",
+          "net": "S3_POR_REQ"
+        },
+        {
+          "pinNumber": "7",
+          "net": "RT_PWR_VALID"
+        },
+        {
+          "pinNumber": "40",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "41",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C43",
+    "args": {
+      "componentPrimitiveId": "e8224",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "USB_CC1"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C44",
+    "args": {
+      "componentPrimitiveId": "e8260",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "USB_CC2"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "FB4",
+    "args": {
+      "componentPrimitiveId": "e8296",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "S3_VBUS"
+        },
+        {
+          "pinNumber": "2",
+          "net": "S3_VBUS_F"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "J7",
+    "args": {
+      "componentPrimitiveId": "e8334",
+      "connections": [
+        {
+          "pinNumber": "B1",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "A6",
+          "net": "USB_DP"
+        },
+        {
+          "pinNumber": "A7",
+          "net": "USB_DM"
+        },
+        {
+          "pinNumber": "B4",
+          "net": "S3_VBUS"
+        },
+        {
+          "pinNumber": "A5",
+          "net": "USB_CC1"
+        },
+        {
+          "pinNumber": "B5",
+          "net": "USB_CC2"
+        },
+        {
+          "pinNumber": "A12",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "B12",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "A9",
+          "net": "S3_VBUS"
+        },
+        {
+          "pinNumber": "B9",
+          "net": "S3_VBUS"
+        },
+        {
+          "pinNumber": "B6",
+          "net": "USB_DP"
+        },
+        {
+          "pinNumber": "B7",
+          "net": "USB_DM"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R21",
+    "args": {
+      "componentPrimitiveId": "e8421",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "USB_CC1"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R22",
+    "args": {
+      "componentPrimitiveId": "e8460",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "USB_CC2"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U10",
+    "args": {
+      "componentPrimitiveId": "e8499",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "USB_DP"
+        },
+        {
+          "pinNumber": "3",
+          "net": "USB_DM"
+        },
+        {
+          "pinNumber": "6",
+          "net": "USB_DP_S3"
+        },
+        {
+          "pinNumber": "4",
+          "net": "USB_DM_S3"
+        },
+        {
+          "pinNumber": "5",
+          "net": "S3_VBUS"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C45",
+    "args": {
+      "componentPrimitiveId": "e8548",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R23",
+    "args": {
+      "componentPrimitiveId": "e8584",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "K1BR_SCK_RT"
+        },
+        {
+          "pinNumber": "2",
+          "net": "K1BR_SCK"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R24",
+    "args": {
+      "componentPrimitiveId": "e8623",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "K1BR_MOSI_RT"
+        },
+        {
+          "pinNumber": "2",
+          "net": "K1BR_MOSI"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R25",
+    "args": {
+      "componentPrimitiveId": "e8662",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "K1BR_MISO_S3"
+        },
+        {
+          "pinNumber": "2",
+          "net": "K1BR_MISO"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R26",
+    "args": {
+      "componentPrimitiveId": "e8701",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "K1BR_CS_RT"
+        },
+        {
+          "pinNumber": "2",
+          "net": "K1BR_CS"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R27",
+    "args": {
+      "componentPrimitiveId": "e8740",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "K1BR_IRQ_S3"
+        },
+        {
+          "pinNumber": "2",
+          "net": "K1BR_IRQ"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "TP1",
+    "args": {
+      "componentPrimitiveId": "e8779",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "K1BR_SCK"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "TP2",
+    "args": {
+      "componentPrimitiveId": "e8808",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "K1BR_CS"
+        }
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

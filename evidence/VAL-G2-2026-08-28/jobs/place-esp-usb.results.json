@@ -1,0 +1,387 @@
+[
+ {
+  "tag": "C43",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "7fa16b1f5f9c47fea6e96d1eea47bb57",
+     "uuid": "7fa16b1f5f9c47fea6e96d1eea47bb57"
+    },
+    "x": 2700,
+    "y": 6800,
+    "subPartName": "GRM1555C1H101JA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e12071",
+    "symbol": {
+     "uuid": "64a83f47607d46f593db3f6635de4686",
+     "libraryUuid": "7fa16b1f5f9c47fea6e96d1eea47bb57"
+    },
+    "footprint": {
+     "uuid": "66445ff3a73649e1805fb11dde836310",
+     "libraryUuid": "7fa16b1f5f9c47fea6e96d1eea47bb57"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM1555C1H101JA01D",
+    "supplier": "LCSC",
+    "supplierId": "C77177",
+    "otherProperty": {
+     "LCSC Part Name": "100pF ±5% 50V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM1555C1H101JA01D/78305.html",
+     "Value": "100pF",
+     "Tolerance": "±5%",
+     "Voltage Rating": "50V",
+     "Temperature Coefficient": "C0G",
+     "Description": "Capacitance:100pF Tolerance:±5% Tolerance:±5% Voltage Rating:50V Temperature Coefficient:C0G"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "C44",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "7fa16b1f5f9c47fea6e96d1eea47bb57",
+     "uuid": "7fa16b1f5f9c47fea6e96d1eea47bb57"
+    },
+    "x": 3100,
+    "y": 6800,
+    "subPartName": "GRM1555C1H101JA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e12107",
+    "symbol": {
+     "uuid": "64a83f47607d46f593db3f6635de4686",
+     "libraryUuid": "7fa16b1f5f9c47fea6e96d1eea47bb57"
+    },
+    "footprint": {
+     "uuid": "66445ff3a73649e1805fb11dde836310",
+     "libraryUuid": "7fa16b1f5f9c47fea6e96d1eea47bb57"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM1555C1H101JA01D",
+    "supplier": "LCSC",
+    "supplierId": "C77177",
+    "otherProperty": {
+     "LCSC Part Name": "100pF ±5% 50V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM1555C1H101JA01D/78305.html",
+     "Value": "100pF",
+     "Tolerance": "±5%",
+     "Voltage Rating": "50V",
+     "Temperature Coefficient": "C0G",
+     "Description": "Capacitance:100pF Tolerance:±5% Tolerance:±5% Voltage Rating:50V Temperature Coefficient:C0G"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "FB4",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "311ff67eca764c27a1d140044ae8bc93",
+     "uuid": "311ff67eca764c27a1d140044ae8bc93"
+    },
+    "x": 2300,
+    "y": 6800,
+    "subPartName": "BLM21PG221SN1D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e12143",
+    "symbol": {
+     "uuid": "cab1a5f0ff884b72833fc1168ecc8c12",
+     "libraryUuid": "311ff67eca764c27a1d140044ae8bc93"
+    },
+    "footprint": {
+     "uuid": "e5bd294ae79a45368d8ce299cb088294",
+     "libraryUuid": "311ff67eca764c27a1d140044ae8bc93"
+    },
+    "designator": "L?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "BLM21PG221SN1D",
+    "supplier": "LCSC",
+    "supplierId": "C85840",
+    "otherProperty": {
+     "LCSC Part Name": "单路 0805磁珠 阻抗220Ω@100MHz",
+     "Supplier Footprint": "0805",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/BLM21PG221SN1D/87016.html",
+     "Impedance @ Frequency": "220Ω@100MHz",
+     "Tolerance": "±25%",
+     "DC Resistance(DCR)": "45mΩ",
+     "Current Rating": "2A",
+     "Number of Circuits": "1",
+     "Operating Temperature": "-55℃~+125℃",
+     "Description": "Impedance @ Frequency:220Ω@100MHz Tolerance:±25% Tolerance:±25% DC Resistance(DCR):45mΩ Current Rating:2A Number of Circuits:1 Operating Temperature:-55℃~+125℃ Operating Temperature:-55℃~+125℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "J7",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "ea8fe62438f94521b482dce770be0817",
+     "uuid": "ea8fe62438f94521b482dce770be0817"
+    },
+    "x": 800,
+    "y": 6800,
+    "subPartName": "USB4105-GF-A.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e12181",
+    "symbol": {
+     "uuid": "dc771612c6684726981d5af2c2a9c642",
+     "libraryUuid": "ea8fe62438f94521b482dce770be0817"
+    },
+    "footprint": {
+     "uuid": "99d72d128e10453ca6fef01e4cacaa72",
+     "libraryUuid": "ea8fe62438f94521b482dce770be0817"
+    },
+    "designator": "USB?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "GCT",
+    "manufacturerId": "USB4105-GF-A",
+    "supplier": "LCSC",
+    "supplierId": "C3020560",
+    "otherProperty": {
+     "LCSC Part Name": "Type-C 母 卧贴",
+     "Supplier Footprint": "SMD",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/USB4105-GF-A/3542626.html",
+     "Connector Type": "Type-C",
+     "Protocol Standard": "USB 2.0",
+     "Gender": "Female",
+     "Mounting Type": "Surface Mount, Right Angle",
+     "Number of Contacts": "12P",
+     "Number of Ports": "1",
+     "Current Rating-Power": "5A",
+     "Voltage Rating": "48V",
+     "Detection color": "Black",
+     "Operating Temperature": "-40℃~+85℃",
+     "Description": "Connector Type:Type-C Protocol Standard:USB 2.0 Gender:Female Mounting Type:Surface Mount, Right Angle Number of Contacts:12P Number of Ports:1 Current Rating-Power:5A Voltage Rating:48V Detection color:Black Operating Temperature:-40℃~+85℃ Operating Temp"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R21",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "10a7836f15ff4f9d926b2ce2878a22a7",
+     "uuid": "10a7836f15ff4f9d926b2ce2878a22a7"
+    },
+    "x": 3500,
+    "y": 6800,
+    "subPartName": "RC0402FR-075K1L.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e12268",
+    "symbol": {
+     "uuid": "1078e0160d984586ab32119ea4a4a2cd",
+     "libraryUuid": "10a7836f15ff4f9d926b2ce2878a22a7"
+    },
+    "footprint": {
+     "uuid": "db95bd3ed4034485ab35c10dec7c0784",
+     "libraryUuid": "10a7836f15ff4f9d926b2ce2878a22a7"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-075K1L",
+    "supplier": "LCSC",
+    "supplierId": "C105872",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 5.1kΩ ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-075K1L/107087.html",
+     "Type": "Thick Film Resistor",
+     "Value": "5.1kΩ",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:5.1kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R22",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "10a7836f15ff4f9d926b2ce2878a22a7",
+     "uuid": "10a7836f15ff4f9d926b2ce2878a22a7"
+    },
+    "x": 3900,
+    "y": 6800,
+    "subPartName": "RC0402FR-075K1L.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e12307",
+    "symbol": {
+     "uuid": "1078e0160d984586ab32119ea4a4a2cd",
+     "libraryUuid": "10a7836f15ff4f9d926b2ce2878a22a7"
+    },
+    "footprint": {
+     "uuid": "db95bd3ed4034485ab35c10dec7c0784",
+     "libraryUuid": "10a7836f15ff4f9d926b2ce2878a22a7"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-075K1L",
+    "supplier": "LCSC",
+    "supplierId": "C105872",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 5.1kΩ ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-075K1L/107087.html",
+     "Type": "Thick Film Resistor",
+     "Value": "5.1kΩ",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:5.1kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "U10",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "e931d537a1bc4fb7b633b601571c876a",
+     "uuid": "e931d537a1bc4fb7b633b601571c876a"
+    },
+    "x": 1600,
+    "y": 6800,
+    "subPartName": "USBLC6-2SC6_C323793.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e12346",
+    "symbol": {
+     "uuid": "2abbed18f37c4c8d9822d0447c386c8a",
+     "libraryUuid": "e931d537a1bc4fb7b633b601571c876a"
+    },
+    "footprint": {
+     "uuid": "77fadc9b6f5b4076a690c20e73e9b320",
+     "libraryUuid": "e931d537a1bc4fb7b633b601571c876a"
+    },
+    "designator": "D?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "",
+    "manufacturerId": "USBLC6-2SC6",
+    "supplier": "LCSC",
+    "supplierId": "C323793",
+    "otherProperty": {
+     "LCSC Part Name": "ESD二极管 USBLC6-2SC6",
+     "Supplier Footprint": "SOT-23-6",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://atta.szlcsc.com/upload/public/pdf/source/20181029/C323793_48F7908330A3F84485333C8DC43F9E49.pdf",
+     "Reverse Stand-Off Voltage (Vrwm)": "5V",
+     "Maximum Clamping Voltage": "20V",
+     "Peak Pulse Current (Ipp)@10/1000us": "5A",
+     "Breakdown Voltage": "6V",
+     "Type": "ESD",
+     "Description": "Reverse Stand-Off Voltage (Vrwm):5V Maximum Clamping Voltage:20V Peak Pulse Current (Ipp)@10/1000us:5A Breakdown Voltage:6V Type:ESD"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "title-esp-usb",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Text",
+    "x": 400,
+    "y": 6600,
+    "content": "11  ESP USB",
+    "rotation": 0,
+    "textColor": "#B00020",
+    "fontSize": 18,
+    "bold": true,
+    "alignMode": 2,
+    "primitiveId": "e12395"
+   },
+   "saved": true
+  }
+ }
+]

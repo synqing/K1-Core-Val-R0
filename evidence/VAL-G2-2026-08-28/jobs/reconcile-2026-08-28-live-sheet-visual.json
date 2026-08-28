@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "reconcile-2026-08-28-live-sheet",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "intended_delta": "Reconcile the live EasyEDA sheet after the visual-process violation: bind source hash 222135:c6b343ed to the settled canvas of document 1991698f35bf4c09b8de4bcf78bd2b7b before any further write.",
+  "observed_delta": "Settled CDP screenshot of K1-CORE-VAL-SINGLE-SHEET-QUAL, sheet 1 K1-CORE-VAL OPTION-C SINGLE SHEET. Canvas is populated with mixed IC and discrete clusters, not blank and not a 200-symbol dummy lattice. Whole-sheet scale cannot read pin names. Semantic census at this hash: 122 components, 317 wires; named designators through Y1, U8, J4, J5; ESP_CORE still undesignated as C?, R?, SW?, U?.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/screenshots/reconcile-live-sheet.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "qualification identity",
+      "result": "OK",
+      "detail": "Chrome and project tree show K1-CORE-VAL-SINGLE-SHEET-QUAL and the Option-C single sheet, not the abandoned K1-Core-Val-R0 project."
+    },
+    {
+      "name": "canvas populated not blank",
+      "result": "OK",
+      "detail": "The sheet is occupied by real symbol clusters in the mid and lower canvas. This is not the blank-page-after-save failure."
+    },
+    {
+      "name": "not a repeated dummy lattice",
+      "result": "OK",
+      "detail": "Visible parts are mixed large IC units and discrete clusters, not a grid of identical placeholder symbols."
+    },
+    {
+      "name": "single electrical sheet",
+      "result": "OK",
+      "detail": "Project tree shows one electrical schematic sheet under the Option-C schematic. No second sheet was opened."
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+[
+ {
+  "tag": "TP3",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12445",
+   "attempted": 1,
+   "attached": 1,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12445e4",
+      "x": 770,
+      "y": -3040,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "AUDIO_MCLK",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        750,
+        -3040,
+        770,
+        -3040
+       ]
+      ],
+      "net": "AUDIO_MCLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13034"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "TP4",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12776",
+   "attempted": 1,
+   "attached": 1,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12776e4",
+      "x": 410,
+      "y": -2715,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "PDM_CLK",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        390,
+        -2715,
+        410,
+        -2715
+       ]
+      ],
+      "net": "PDM_CLK",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13037"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "TP5",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12805",
+   "attempted": 1,
+   "attached": 1,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e12805e4",
+      "x": 590,
+      "y": -2715,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "PDM_DAT",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        570,
+        -2715,
+        590,
+        -2715
+       ]
+      ],
+      "net": "PDM_DAT",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e13040"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ],
+   "saved": true
+  }
+ }
+]

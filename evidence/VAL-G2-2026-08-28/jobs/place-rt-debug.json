@@ -1,0 +1,100 @@
+[
+  {
+    "tool": "add_schematic_component",
+    "tag": "J4",
+    "args": {
+      "deviceUuid": "5ebeaa17053143a7af0a1a31767a8ca4",
+      "x": 900,
+      "y": 4800,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "J5",
+    "args": {
+      "deviceUuid": "3b23b19f753644e49a737e630ce61fce",
+      "x": 2400,
+      "y": 4800,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R15",
+    "args": {
+      "deviceUuid": "8bef1d5fc0144eac931ff4a7b9204fb5",
+      "x": 1500,
+      "y": 4800,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R16",
+    "args": {
+      "deviceUuid": "8bef1d5fc0144eac931ff4a7b9204fb5",
+      "x": 1800,
+      "y": 4800,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R17",
+    "args": {
+      "deviceUuid": "8bef1d5fc0144eac931ff4a7b9204fb5",
+      "x": 3000,
+      "y": 4800,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "R18",
+    "args": {
+      "deviceUuid": "8bef1d5fc0144eac931ff4a7b9204fb5",
+      "x": 3300,
+      "y": 4800,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "add_schematic_text",
+    "tag": "title-rt-debug",
+    "args": {
+      "x": 400,
+      "y": -4600,
+      "content": "9  RT DEBUG",
+      "fontSize": 18,
+      "bold": true,
+      "textColor": "#B00020",
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-usb-efuse-support-place-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Place and identify the complete USB/input eFuse support network in box 1: 2.5 A ILM tuning, UVLO/OVLO ladder, PGTH divider, PG pull-up and dVdt capacitor",
+  "observed_delta": "The support parts and corrected values were created, but the wide settled screenshot and rectangle-coordinate read-back show R2-PWR1, R64-PWR1, R66-PWR1, R67-PWR1 and C67-PWR1 at or beyond x=950, outside the box-1 boundary x=0..910. Placement is rejected until all PWR1 support parts are moved into box 1.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-usb-efuse-support-place-wide-clean.png",
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [
+    "Five PWR1 support components crossed the Captain-authored box-1 boundary into box 2"
+  ],
+  "verdict": "REJECTED",
+  "checks": [
+    {
+      "name": "six support parts created",
+      "result": "OK",
+      "detail": "Semantic read-back contains the six new suffixed support designators exactly once."
+    },
+    {
+      "name": "corrected values readable",
+      "result": "OK",
+      "detail": "R1-PWR1 reads 1.33k and the new support values are readable in the wide screenshot."
+    },
+    {
+      "name": "all PWR1 parts contained in box 1",
+      "result": "DEFECT",
+      "detail": "Box 1 is x=0..910; R2, R64, R66, R67 and C67 are at x>=950 and visibly spill into box 2."
+    },
+    {
+      "name": "no unrelated movement",
+      "result": "OK",
+      "detail": "The original domain boxes, titles and unrelated components remain in place; the defect is confined to the new support placement."
+    }
+  ]
+}

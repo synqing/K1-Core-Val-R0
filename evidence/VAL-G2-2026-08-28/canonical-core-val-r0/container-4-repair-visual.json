@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-container-4-j5-repair-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Replace erroneous 1x40 J5 with the intended PREC004SAAN-RC 1x4 UART header, retain -RTDBG identity, reconnect TX RX GND, and keep the symbol inside box 4",
+  "observed_delta": "J5 is now a compact four-pin UART header labelled J5-RTDBG, contained within box 4 and connected to TX, RX and GND; the old 1x40 symbol and its three detached net stubs are absent.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/container-4-repaired-clean.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name":"connector identity","result":"OK","detail":"J5 visibly has four pins and is labelled J5-RTDBG / 1x4."},
+    {"name":"layout containment","result":"OK","detail":"J5 is fully inside box 4 with clear space to the lower boundary."},
+    {"name":"connectivity","result":"OK","detail":"LPUART1_TX_H, LPUART1_RX_H and GND are visible on J5."},
+    {"name":"orphan cleanup","result":"OK","detail":"Detached TX, RX and GND stubs left by the deleted 1x40 symbol are absent."},
+    {"name":"mutation boundary","result":"OK","detail":"Other box-4 components and the rectangle remain fixed; PCB was not changed."}
+  ]
+}

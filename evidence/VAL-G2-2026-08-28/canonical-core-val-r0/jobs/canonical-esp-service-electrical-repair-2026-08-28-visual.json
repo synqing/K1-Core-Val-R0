@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-esp-service-electrical-repair-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "captured_after_settle": true,
+  "scale": "block",
+  "intended_delta": "Replace the invalid service-USB VBUS-to-nonexistent-module-pin path with a self-powered 100 k/100 k VBUS sense divider to ESP GPIO15; add 22 ohm D+/D- series resistors and DNP tuning capacitors; connect every USB-C VBUS, ground and shield contact; correct EN timing to 10 k/1 uF; and replace the incomplete four-pin UART header with direct GND, 3V3, TX, RX, EN and BOOT access",
+  "observed_delta": "The ESP32-S3 box now shows the six-pin recovery header, 1 uF EN timing capacitor, separate D+/D- 22 ohm series components, DNP tuning capacitors, TVS, USB-C connector, and a 100 k/100 k self-powered VBUS sense divider. Redundant endpoint labels are hidden; the concise service caption is positioned between the DNP pair and divider without overlapping the test-point row. Intermediate clipped, cluttered and unmoved-caption screenshots are preserved as rejected evidence.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/esp-service-18-label-moved-block-scale.png",
+  "unexpected_changes": [],
+  "checks": [
+    {
+      "name": "domain containment",
+      "result": "OK",
+      "detail": "All replacement components and captions remain inside ESP domain box 5; the adjacent RT debug and validation boxes retain their boundaries."
+    },
+    {
+      "name": "component identity",
+      "result": "OK",
+      "detail": "C42-ESP, J6-ESP, R71-ESP, R72-ESP, R73-ESP and R74-ESP each appear once with readable designator and value."
+    },
+    {
+      "name": "service and recovery composition",
+      "result": "OK",
+      "detail": "U9, the EN/BOOT controls, recovery header, TVS, 22 ohm pair, DNP pair, USB-C connector and VBUS divider form distinct readable clusters without component-body overlap."
+    },
+    {
+      "name": "caption placement",
+      "result": "OK",
+      "detail": "The self-powered USB caption is inside the box and no longer overlaps TP1-ESP or TP2-ESP; the recovery pin-order caption remains above J6-ESP."
+    },
+    {
+      "name": "label discipline",
+      "result": "OK",
+      "detail": "The cluttered connected intermediate is not accepted. Redundant U10, J6, divider and series-resistor endpoint labels are hidden while designators, values and block captions remain readable."
+    },
+    {
+      "name": "modal and cursor state",
+      "result": "OK",
+      "detail": "No confirmation modal, selected component, drag ghost, cursor wire tail or incomplete placement is visible."
+    }
+  ],
+  "verdict": "ACCEPTED"
+}

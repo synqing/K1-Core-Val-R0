@@ -1,0 +1,763 @@
+[
+ {
+  "tag": "C54",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13042",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "7a8d61742a574042a08232e536c0e509"
+    },
+    "x": 1070,
+    "y": 2535,
+    "subPartName": "GRM1555C1H100JA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I13042",
+    "symbol": {
+     "uuid": "50b498f97cc349f9955e5323b60d64ee",
+     "libraryUuid": "4e7690a2adb44294acc6419a68b56e5e"
+    },
+    "footprint": {
+     "uuid": "7f5ac2f8494f4a36b50946fedb767f7b",
+     "libraryUuid": "4e7690a2adb44294acc6419a68b56e5e"
+    },
+    "designator": "C54-NFC",
+    "name": "10pF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM1555C1H100JA01D",
+    "supplier": "LCSC",
+    "supplierId": "GRM1555C1H100JA01D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C55",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13078",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "7a8d61742a574042a08232e536c0e509"
+    },
+    "x": 1250,
+    "y": 2535,
+    "subPartName": "GRM1555C1H100JA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I13078",
+    "symbol": {
+     "uuid": "50b498f97cc349f9955e5323b60d64ee",
+     "libraryUuid": "4e7690a2adb44294acc6419a68b56e5e"
+    },
+    "footprint": {
+     "uuid": "7f5ac2f8494f4a36b50946fedb767f7b",
+     "libraryUuid": "4e7690a2adb44294acc6419a68b56e5e"
+    },
+    "designator": "C55-NFC",
+    "name": "10pF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM1555C1H100JA01D",
+    "supplier": "LCSC",
+    "supplierId": "GRM1555C1H100JA01D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C56",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13114",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "a9cf2f91492b44b0ab588d27628e3ff6"
+    },
+    "x": 1430,
+    "y": 2535,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I13114",
+    "symbol": {
+     "uuid": "5bfd8c522b764c0db639c0ad7cfad3f5",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "footprint": {
+     "uuid": "ecc988f162c44eec829a596c8864e6d6",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "designator": "C56-NFC",
+    "name": "100nF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R71C104KA88D",
+    "supplier": "LCSC",
+    "supplierId": "GRM155R71C104KA88D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C57",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13150",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "86f035d41f4d4fc3a8ba7bf486279e8f"
+    },
+    "x": 1610,
+    "y": 2535,
+    "subPartName": "GRM155R60J106ME44D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I13150",
+    "symbol": {
+     "uuid": "2996f505f7574baa9a8ae57435928188",
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "footprint": {
+     "uuid": "c33326b9eb52426a92302d852ba3fb73",
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "designator": "C57-NFC",
+    "name": "10uF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J106ME44D",
+    "supplier": "LCSC",
+    "supplierId": "GRM155R60J106ME44D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C58",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13186",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "a9cf2f91492b44b0ab588d27628e3ff6"
+    },
+    "x": 1790,
+    "y": 2535,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I13186",
+    "symbol": {
+     "uuid": "5bfd8c522b764c0db639c0ad7cfad3f5",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "footprint": {
+     "uuid": "ecc988f162c44eec829a596c8864e6d6",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "designator": "C58-NFC",
+    "name": "100nF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R71C104KA88D",
+    "supplier": "LCSC",
+    "supplierId": "GRM155R71C104KA88D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C59",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13222",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "6f63fd56a27e4ba9bd7ebe559b5708dd"
+    },
+    "x": 1070,
+    "y": 2822,
+    "subPartName": "GRM1555C1H220JA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I13222",
+    "symbol": {
+     "uuid": "70d0440622944ad389eccb025c733e06",
+     "libraryUuid": "2318d8c6c4b2460ab497e55975762ae8"
+    },
+    "footprint": {
+     "uuid": "a08d828681144baf96d05ba493cac1f0",
+     "libraryUuid": "2318d8c6c4b2460ab497e55975762ae8"
+    },
+    "designator": "C59-NFC",
+    "name": "22pF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM1555C1H220JA01D",
+    "supplier": "LCSC",
+    "supplierId": "GRM1555C1H220JA01D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C60",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13258",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "4feba019d15c461f805137fca2454bef"
+    },
+    "x": 1250,
+    "y": 2822,
+    "subPartName": "GRM1555C1H330JA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I13258",
+    "symbol": {
+     "uuid": "e2c3d4978a1d4710a28e05ac0d42a7ca",
+     "libraryUuid": "f0fc879af01d4b10bdf175c71236354f"
+    },
+    "footprint": {
+     "uuid": "27236d73441447cc8b3a5bbe1e63358b",
+     "libraryUuid": "f0fc879af01d4b10bdf175c71236354f"
+    },
+    "designator": "C60-NFC",
+    "name": "33pF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM1555C1H330JA01D",
+    "supplier": "LCSC",
+    "supplierId": "GRM1555C1H330JA01D.1",
+    "otherProperty": {
+     "Value": "",
+     "JLCPCB Part Class": "",
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "Datasheet": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C61",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13294",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "9ab7eb5a59784b2f9500c51f5d207f34"
+    },
+    "x": 1430,
+    "y": 2822,
+    "subPartName": "GRM1555C1H470JA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I13294",
+    "symbol": {
+     "uuid": "42564803ff5a4a1791f84f932c3d807e",
+     "libraryUuid": "bedff529a972445e904433706b3c1ac9"
+    },
+    "footprint": {
+     "uuid": "6c2e0e47611847a98776d7746ad5c4a9",
+     "libraryUuid": "bedff529a972445e904433706b3c1ac9"
+    },
+    "designator": "C61-NFC",
+    "name": "47pF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM1555C1H470JA01D",
+    "supplier": "LCSC",
+    "supplierId": "GRM1555C1H470JA01D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "J10",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13330",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "b2b9b2a66d1b4a22a915f3030a7f9f29"
+    },
+    "x": 1430,
+    "y": 3108,
+    "subPartName": "U.FL-R-SMT-1(80)_C9900020048.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I13330",
+    "symbol": {
+     "uuid": "e93e864e277841f9b9ef0744f48536b2",
+     "libraryUuid": "fe594ebbde9849c3a8e6a115d000ba45"
+    },
+    "footprint": {
+     "uuid": "90c010cb399549eaaf57d0448c28e1a3",
+     "libraryUuid": "fe594ebbde9849c3a8e6a115d000ba45"
+    },
+    "designator": "J10-NFC",
+    "name": "U.FL",
+    "uniqueId": "",
+    "manufacturer": "",
+    "manufacturerId": "U.FL-R-SMT-1",
+    "supplier": "LCSC",
+    "supplierId": "U.FL-R-SMT-1(80)_C9900020048.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "L2",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13362",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "ae80981db87b4decadfe71c18dcf87e1"
+    },
+    "x": 1610,
+    "y": 3108,
+    "subPartName": "LQW15AN5N6C10D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I13362",
+    "symbol": {
+     "uuid": "f939d5f12fc34d9da01e9b295576ee26",
+     "libraryUuid": "26e4bf5f50534df2aaf71acfb5998847"
+    },
+    "footprint": {
+     "uuid": "cd107387724c46e08a6e837f20747cae",
+     "libraryUuid": "26e4bf5f50534df2aaf71acfb5998847"
+    },
+    "designator": "L2-NFC",
+    "name": "5.6nH",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "LQW15AN5N6C10D",
+    "supplier": "LCSC",
+    "supplierId": "LQW15AN5N6C10D.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Rated Current": "",
+     "Saturation Current (Isat)": "",
+     "DC Resistance (DCR)": "",
+     "Ratings": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "L3",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13399",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "ec9018b7007746bea4aa1bcfbf6ce40e"
+    },
+    "x": 1790,
+    "y": 3108,
+    "subPartName": "LQW15AN33NG00D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I13399",
+    "symbol": {
+     "uuid": "e5203633f94b472ebe534bf6d859cc86",
+     "libraryUuid": "83e49710d9494d5abd23171ded6f8fd8"
+    },
+    "footprint": {
+     "uuid": "fa6e1a5c6fc24559b5ee7f50206cbb52",
+     "libraryUuid": "83e49710d9494d5abd23171ded6f8fd8"
+    },
+    "designator": "L3-NFC",
+    "name": "33nH",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "LQW15AN33NG00D",
+    "supplier": "LCSC",
+    "supplierId": "LQW15AN33NG00D.1",
+    "otherProperty": {
+     "Value": "",
+     "JLCPCB Part Class": "",
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "Datasheet": "",
+     "Tolerance": "",
+     "Current Rating": "",
+     "Current - Saturation(Isat)": "",
+     "DC Resistance(DCR)": "",
+     "Type": "",
+     "Ratings": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R42",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13438",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "d43d4561e33942a0afd9506f7a9ab7ca"
+    },
+    "x": 1070,
+    "y": 3395,
+    "subPartName": "RC0402JR-072R2L.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I13438",
+    "symbol": {
+     "uuid": "409b33af55224f21a16b6d37dee3d5fc",
+     "libraryUuid": "5c45a20a8a3a40f991a8387af4f0f98b"
+    },
+    "footprint": {
+     "uuid": "087436250b54438c86248ef7c7b0b009",
+     "libraryUuid": "5c45a20a8a3a40f991a8387af4f0f98b"
+    },
+    "designator": "R42-NFC",
+    "name": "2.2R",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-072R2L",
+    "supplier": "LCSC",
+    "supplierId": "RC0402JR-072R2L.1",
+    "otherProperty": {
+     "Value": "",
+     "JLCPCB Part Class": "",
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "Datasheet": "",
+     "Type": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Overload Voltage (Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature Range": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R43",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13477",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "191a00ffdb0d4b8db39aa6fa67c3fbf7"
+    },
+    "x": 1250,
+    "y": 3395,
+    "subPartName": "RC0402FR-074K7L.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I13477",
+    "symbol": {
+     "uuid": "65909d6d9fee4067bea9e9bd6b278b5e",
+     "libraryUuid": "f723232a581d4a8b9b283a6e7b916d0d"
+    },
+    "footprint": {
+     "uuid": "a1d66db24f0f431b811b76a3026bc8de",
+     "libraryUuid": "f723232a581d4a8b9b283a6e7b916d0d"
+    },
+    "designator": "R43-NFC",
+    "name": "4.7k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-074K7L",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-074K7L.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "U12",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13516",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "c45a3d361d3941f6b5c66756cf65537b"
+    },
+    "x": 1430,
+    "y": 3395,
+    "subPartName": "ST25R3916B-AQWT.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I13516",
+    "symbol": {
+     "uuid": "bd22fe873b2d43eca73a8e23e234f0ac",
+     "libraryUuid": "77d19b5e1eb0489391c8c21a4e45d5ca"
+    },
+    "footprint": {
+     "uuid": "982f1daf8bca485289d7bc47df91846b",
+     "libraryUuid": "77d19b5e1eb0489391c8c21a4e45d5ca"
+    },
+    "designator": "U12-NFC",
+    "name": "FITTED",
+    "uniqueId": "",
+    "manufacturer": "ST(意法半导体)",
+    "manufacturerId": "ST25R3916B-AQWT",
+    "supplier": "LCSC",
+    "supplierId": "ST25R3916B-AQWT.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "agreement": "",
+     "Interface": "",
+     "transmission rate": "",
+     "Value": "",
+     "Voltage - Supply": "",
+     "Features": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "Y2",
+  "ok": true,
+  "result": {
+   "primitiveId": "e13647",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "4ecb363934ae48b9907b590e0499e958"
+    },
+    "x": 1610,
+    "y": 3395,
+    "subPartName": "ABM12-117-27.120MHZ-T3.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I13647",
+    "symbol": {
+     "uuid": "ae6c2872e5714067a89c8b124edaffa3",
+     "libraryUuid": "fac1a0376a604f2f90638a7e8c2aebd7"
+    },
+    "footprint": {
+     "uuid": "ab33e8432e00471ab5f9e5f797c2ca0e",
+     "libraryUuid": "fac1a0376a604f2f90638a7e8c2aebd7"
+    },
+    "designator": "Y2-NFC",
+    "name": "27.12MHz",
+    "uniqueId": "",
+    "manufacturer": "ABRACON",
+    "manufacturerId": "ABM12-117-27.120MHZ-T3",
+    "supplier": "LCSC",
+    "supplierId": "ABM12-117-27.120MHZ-T3.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Normal temperature Frequency Tolerance": "",
+     "Load Capacitance": "",
+     "Frequency Stability": "",
+     "Equivalent Series Resistance(ESR)": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   },
+   "saved": true
+  }
+ }
+]

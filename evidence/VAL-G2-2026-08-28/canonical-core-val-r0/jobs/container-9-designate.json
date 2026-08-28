@@ -1,0 +1,158 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C64",
+    "args": {
+      "primitiveId": "e14334",
+      "designator": "C64-LED",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C65",
+    "args": {
+      "primitiveId": "e14370",
+      "designator": "C65-LED",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "J2",
+    "args": {
+      "primitiveId": "e14406",
+      "designator": "J2-LED",
+      "name": "XH-3",
+      "manufacturerId": "B2B-XH-A",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "J3",
+    "args": {
+      "primitiveId": "e14438",
+      "designator": "J3-LED",
+      "name": "XH-3",
+      "manufacturerId": "B2B-XH-A",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R51",
+    "args": {
+      "primitiveId": "e14470",
+      "designator": "R51-LED",
+      "name": "33R",
+      "manufacturerId": "RC0402FR-0733RL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R52",
+    "args": {
+      "primitiveId": "e14509",
+      "designator": "R52-LED",
+      "name": "33R",
+      "manufacturerId": "RC0402FR-0733RL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R53",
+    "args": {
+      "primitiveId": "e14548",
+      "designator": "R53-LED",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R54",
+    "args": {
+      "primitiveId": "e14587",
+      "designator": "R54-LED",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "RT1",
+    "args": {
+      "primitiveId": "e14626",
+      "designator": "RT1-LED",
+      "name": "10k-NTC",
+      "manufacturerId": "NCP15XH103F03RC",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "RT2",
+    "args": {
+      "primitiveId": "e14671",
+      "designator": "RT2-LED",
+      "name": "10k-NTC",
+      "manufacturerId": "NCP15XH103F03RC",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U14",
+    "args": {
+      "primitiveId": "e14716",
+      "designator": "U14-LED",
+      "name": "FITTED",
+      "manufacturerId": "SN74AHCT1G125DBVR",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U15",
+    "args": {
+      "primitiveId": "e14770",
+      "designator": "U15-LED",
+      "name": "FITTED",
+      "manufacturerId": "SN74AHCT1G125DBVR",
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

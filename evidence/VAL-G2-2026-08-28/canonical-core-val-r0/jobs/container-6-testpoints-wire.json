@@ -1,0 +1,5 @@
+[
+  {"tool":"connect_schematic_pins_to_nets","tag":"TP3","args":{"componentPrimitiveId":"e12445","connections":[{"pinNumber":"1","net":"AUDIO_MCLK"}],"saveAfter":false,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool":"connect_schematic_pins_to_nets","tag":"TP4","args":{"componentPrimitiveId":"e12776","connections":[{"pinNumber":"1","net":"PDM_CLK"}],"saveAfter":false,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool":"connect_schematic_pins_to_nets","tag":"TP5","args":{"componentPrimitiveId":"e12805","connections":[{"pinNumber":"1","net":"PDM_DAT"}],"saveAfter":true,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}}
+]

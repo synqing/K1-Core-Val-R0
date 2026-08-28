@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "designate-j5",
+    "args": {
+      "primitiveId": "e5635",
+      "designator": "J5-RTDBG",
+      "name": "1x4",
+      "manufacturerId": "PREC004SAAN-RC",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "wire-j5",
+    "args": {
+      "componentPrimitiveId": "e5635",
+      "connections": [
+        {"pinNumber": "1", "net": "LPUART1_TX_H"},
+        {"pinNumber": "2", "net": "LPUART1_RX_H"},
+        {"pinNumber": "4", "net": "GND"}
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

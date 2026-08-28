@@ -1,0 +1,118 @@
+[
+ {
+  "tag": "trunk-5V_USB",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      560,
+      -500,
+      1080,
+      -500
+     ],
+     [
+      560,
+      -440,
+      560,
+      -500
+     ],
+     [
+      545,
+      -440,
+      560,
+      -440
+     ],
+     [
+      565,
+      -440,
+      560,
+      -440
+     ]
+    ],
+    "net": "5V_USB",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "e3953"
+   }
+  }
+ },
+ {
+  "tag": "trunk-5V_USB_FILTERED",
+  "ok": false,
+  "error": "create failed!"
+ },
+ {
+  "tag": "trunk-5V_PROTECTED",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      2010,
+      -900,
+      2185,
+      -900
+     ],
+     [
+      2010,
+      -520,
+      2010,
+      -900
+     ],
+     [
+      1990,
+      -520,
+      2010,
+      -520
+     ]
+    ],
+    "net": "5V_PROTECTED",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "e3986"
+   }
+  }
+ },
+ {
+  "tag": "flag-5V_USB",
+  "ok": false,
+  "error": "EasyEDA bridge timed out waiting for add_schematic_net_flag after 30000ms. The EasyEDA host did not answer — check the editor is responsive and the document is open, then retry; raise EASYEDA_MCP_BRIDGE_TIMEOUT_MS (or EASYEDA_MCP_ADD_SCHEMATIC_NET_FLAG_TIMEOUT_MS) if the operation is legitimately slow."
+ },
+ {
+  "tag": "flag-5V_PROTECTED",
+  "ok": false,
+  "error": "EasyEDA bridge timed out waiting for add_schematic_net_flag after 30000ms. The EasyEDA host did not answer — check the editor is responsive and the document is open, then retry; raise EASYEDA_MCP_BRIDGE_TIMEOUT_MS (or EASYEDA_MCP_ADD_SCHEMATIC_NET_FLAG_TIMEOUT_MS) if the operation is legitimately slow."
+ },
+ {
+  "tag": "flag-GND",
+  "ok": false,
+  "error": "EasyEDA bridge timed out waiting for add_schematic_net_flag after 30000ms. The EasyEDA host did not answer — check the editor is responsive and the document is open, then retry; raise EASYEDA_MCP_BRIDGE_TIMEOUT_MS (or EASYEDA_MCP_ADD_SCHEMATIC_NET_FLAG_TIMEOUT_MS) if the operation is legitimately slow."
+ },
+ {
+  "tag": "title",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Text",
+    "x": 400,
+    "y": 280,
+    "content": "1  POWER ENTRY",
+    "rotation": 0,
+    "textColor": "#B00020",
+    "fontSize": 18,
+    "bold": true,
+    "alignMode": 2,
+    "primitiveId": "e4083"
+   },
+   "saved": true
+  }
+ }
+]

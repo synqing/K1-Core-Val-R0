@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-atomic-fixture-cleanup-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Atomically remove CS35-PWR1 plus all fourteen orphan stress-capacitor wire stubs, save in the same EasyEDA API promise, and preserve fourteen functional PWR1 components and ten domain rectangles",
+  "observed_delta": "The settled block crop shows only the fourteen source-derived PWR1 components; CS35 and every orphan stress stub are absent, C3 retains its 3V3/GND wiring, and the domain rectangles are unchanged.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/atomic-cleanup-after.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name":"qualification padding absent","result":"OK","detail":"No CS-prefixed component or detached stress-net pair is visible."},
+    {"name":"functional decoupling retained","result":"OK","detail":"C3-PWR1 and C4-PWR1 remain visibly connected to their intended rails."},
+    {"name":"functional inventory retained","result":"OK","detail":"Fourteen PWR1 components remain with readable designators and values."},
+    {"name":"geometry readable","result":"OK","detail":"Symbols and labels remain separated with no overlap or debris."},
+    {"name":"domain boundary preserved","result":"OK","detail":"The box title and Captain-authored rectangles remain fixed; no PCB view was opened."}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-rt-boot-clock-layout-repair3-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Move SW1 clear of the UART row and replace the two long RT_RESET_REQ_N endpoint stubs with one named local wire from the switch to U7 MR#",
+  "observed_delta": "The long net labels no longer cross U7 and SW1 clears the UART row, but the routed local wire forms a large green loop around the reset cluster and dominates the visual hierarchy.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-rt-boot-clock-layout-repair3-box4.png",
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": ["The RT_RESET_REQ_N local route is much larger than the circuit requires"],
+  "verdict": "REJECTED",
+  "checks": [
+    {"name": "request label collision", "result": "OK", "detail": "No request-net text crosses the U7 symbol."},
+    {"name": "manual reset clearance", "result": "OK", "detail": "SW1 no longer overlaps the UART labels."},
+    {"name": "local wire geometry", "result": "DEFECT", "detail": "The three-segment route creates an oversized rectangular loop."},
+    {"name": "electrical continuity", "result": "OK", "detail": "U7 MR# and SW1 share RT_RESET_REQ_N; SW1 other contact is GND."},
+    {"name": "whole-sheet modal check", "result": "OK", "detail": "The whole canvas is modal-free with no unrelated movement."}
+  ]
+}

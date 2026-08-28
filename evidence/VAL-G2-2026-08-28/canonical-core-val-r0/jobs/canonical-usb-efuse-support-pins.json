@@ -1,0 +1,66 @@
+[
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U1-PWR1",
+    "args": {
+      "componentPrimitiveId": "e504",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R63-PWR1",
+    "args": {
+      "componentPrimitiveId": "e29093",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R2-PWR1",
+    "args": {
+      "componentPrimitiveId": "e465",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R64-PWR1",
+    "args": {
+      "componentPrimitiveId": "e29132",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R65-PWR1",
+    "args": {
+      "componentPrimitiveId": "e29171",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R66-PWR1",
+    "args": {
+      "componentPrimitiveId": "e29210",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R67-PWR1",
+    "args": {
+      "componentPrimitiveId": "e29249",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C67-PWR1",
+    "args": {
+      "componentPrimitiveId": "e29288",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

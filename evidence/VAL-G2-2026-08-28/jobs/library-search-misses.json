@@ -1,0 +1,10 @@
+[
+  {"tool": "search_library_devices", "tag": "DNP0402", "args": {"query": "DNP 0402", "itemsPerPage": 8, "allowMultiMatch": true}},
+  {"tool": "search_library_devices", "tag": "RC0402FR-07DNP", "args": {"query": "RC0402FR-07", "itemsPerPage": 8, "allowMultiMatch": true}},
+  {"tool": "search_library_devices", "tag": "NX2012SA", "args": {"query": "NX2012SA 27.12", "itemsPerPage": 8, "allowMultiMatch": true}},
+  {"tool": "search_library_devices", "tag": "27M12", "args": {"query": "27.12MHz crystal", "itemsPerPage": 8, "allowMultiMatch": true}},
+  {"tool": "search_library_devices", "tag": "RC0402FR-072R2L", "args": {"query": "RC0402 2.2ohm", "itemsPerPage": 8, "allowMultiMatch": true}},
+  {"tool": "search_library_devices", "tag": "2R2", "args": {"query": "RC0402FR-072R2", "itemsPerPage": 8, "allowMultiMatch": true}},
+  {"tool": "search_library_devices", "tag": "PREC006", "args": {"query": "PREC006SAAN", "itemsPerPage": 8, "allowMultiMatch": true}},
+  {"tool": "search_library_devices", "tag": "HDR6", "args": {"query": "6 pin header 2.54", "itemsPerPage": 8, "allowMultiMatch": true}}
+]

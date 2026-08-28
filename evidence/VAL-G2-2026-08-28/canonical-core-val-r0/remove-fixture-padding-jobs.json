@@ -1,0 +1,8 @@
+[
+  {"tool":"delete_schematic_component","tag":"CS11-PWR1","args":{"primitiveId":"e144","skipConfirmation":true,"saveAfter":false,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool":"delete_schematic_component","tag":"CS22-PWR1","args":{"primitiveId":"e180","skipConfirmation":true,"saveAfter":false,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool":"delete_schematic_component","tag":"CS33-PWR1","args":{"primitiveId":"e216","skipConfirmation":true,"saveAfter":false,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool":"delete_schematic_component","tag":"CS02-PWR1","args":{"primitiveId":"e634","skipConfirmation":true,"saveAfter":false,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool":"delete_schematic_component","tag":"CS13-PWR1","args":{"primitiveId":"e670","skipConfirmation":true,"saveAfter":false,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool":"delete_schematic_component","tag":"CS24-PWR1","args":{"primitiveId":"e706","skipConfirmation":true,"saveAfter":true,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}}
+]

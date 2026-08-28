@@ -1,0 +1,50 @@
+[
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U10-ESP",
+    "args": {
+      "componentPrimitiveId": "e8499",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "J6-ESP",
+    "args": {
+      "componentPrimitiveId": "e98163",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R71-ESP",
+    "args": {
+      "componentPrimitiveId": "e98207",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R72-ESP",
+    "args": {
+      "componentPrimitiveId": "e98246",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R73-ESP",
+    "args": {
+      "componentPrimitiveId": "e98285",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R74-ESP",
+    "args": {
+      "componentPrimitiveId": "e98324",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

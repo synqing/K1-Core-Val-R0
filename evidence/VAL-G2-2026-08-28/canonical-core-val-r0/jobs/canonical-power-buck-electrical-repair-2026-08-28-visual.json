@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-power-buck-electrical-repair-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Correct the TPS62913 5 V to 3.3 V circuit in domain box 2: replace L1 with a 2.2 uH XGL4030-222MEC, replace C10 with 100 nF, and connect VO to 3V3, PSNS to GND and S-CONF to 5V_SYS",
+  "observed_delta": "Box-2 screenshot shows one L1-PWR2 labelled 2.2uH, one C10-PWR2 labelled 100nF, and U3-PWR2 with visible 3V3 on VO, GND on PSNS and 5V_SYS on S-CONF. The timed-out overlay duplicates were removed; the semantic read-back reports 183 total components and a saved source hash of 389175:80f83384.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-power-buck-electrical-repair.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "replacement parts unique",
+      "result": "OK",
+      "detail": "The settled box-2 screenshot contains one visible L1-PWR2 and one visible C10-PWR2; no overlaid duplicate glyphs or unassigned L?/C? labels remain."
+    },
+    {
+      "name": "replacement values readable",
+      "result": "OK",
+      "detail": "L1-PWR2 visibly reads 2.2uH and C10-PWR2 visibly reads 100nF at the captured block scale."
+    },
+    {
+      "name": "required buck pins connected",
+      "result": "OK",
+      "detail": "U3-PWR2 visibly carries 3V3 at VO, GND at PSNS and 5V_SYS at S-CONF; exact wire endpoint coordinates and net attributes were independently read back from the source."
+    },
+    {
+      "name": "domain composition preserved",
+      "result": "OK",
+      "detail": "The box border, title, other box-2 components and their positions remain visible without unrelated movement or deletion; semantic component count returned to 183 after removing the two timed-out overlays."
+    }
+  ]
+}

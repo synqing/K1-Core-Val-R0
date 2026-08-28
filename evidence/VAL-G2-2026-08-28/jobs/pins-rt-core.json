@@ -1,0 +1,66 @@
+[
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C18",
+    "args": {
+      "componentPrimitiveId": "e6440",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C19",
+    "args": {
+      "componentPrimitiveId": "e6476",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R10",
+    "args": {
+      "componentPrimitiveId": "e6512",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R11",
+    "args": {
+      "componentPrimitiveId": "e6551",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R12",
+    "args": {
+      "componentPrimitiveId": "e6590",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "SW1",
+    "args": {
+      "componentPrimitiveId": "e6629",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U6",
+    "args": {
+      "componentPrimitiveId": "e6680",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U7",
+    "args": {
+      "componentPrimitiveId": "e7006",
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

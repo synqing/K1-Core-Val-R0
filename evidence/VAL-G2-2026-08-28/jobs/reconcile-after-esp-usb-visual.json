@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "reconcile-after-esp-usb-designate",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "intended_delta": "Reconcile the live sheet after a hash-chain quarantine: bind source hash 253715:3f77687d (ESP_USB designated, not yet wired) to the settled canvas before wiring ESP_USB.",
+  "observed_delta": "Settled screenshot of K1-CORE-VAL-SINGLE-SHEET-QUAL Option-C sheet. Semantic census 129 components, 363 wires, hash 253715:3f77687d. Named designators include C43 C44 FB4 J7 R21 R22 U10 and U9. No leftover C?/U? tokens.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/screenshots/reconcile-after-esp-usb.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "qualification identity",
+      "result": "OK",
+      "detail": "Project tree still shows K1-CORE-VAL-SINGLE-SHEET-QUAL and the Option-C single sheet."
+    },
+    {
+      "name": "canvas populated not blank",
+      "result": "OK",
+      "detail": "Sheet remains populated with RT and ESP clusters; not the blank-page failure."
+    },
+    {
+      "name": "esp usb named in source",
+      "result": "OK",
+      "detail": "Census lists C43 C44 FB4 J7 R21 R22 U10 with zero placeholder tokens."
+    },
+    {
+      "name": "single electrical sheet",
+      "result": "OK",
+      "detail": "One electrical schematic sheet. Source hash 253715:3f77687d, 129 components, 363 wires."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-box6-title-anchor-repair-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Move only the Box 6 domain title anchor from x=-20 to x=5 so the full title is inside the native sheet",
+  "observed_delta": "The Box 6 AUDIO CAPTURE + CLOCK + MIC FLEX title now begins inside the native left sheet border. Its text and every electrical object remain unchanged.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-box6-title-anchor-repair-whole.png",
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name":"left containment","result":"OK","detail":"The Box 6 title begins to the right of the native sheet border."},
+    {"name":"title identity","result":"OK","detail":"The full title text is unchanged."},
+    {"name":"electrical boundary","result":"OK","detail":"Source comparison found no component, wire, rectangle or electrical attribute change."},
+    {"name":"adjacent domain","result":"OK","detail":"Box 7 and its title remain fixed."},
+    {"name":"PCB boundary","result":"OK","detail":"No PCB document was opened or mutated."}
+  ]
+}

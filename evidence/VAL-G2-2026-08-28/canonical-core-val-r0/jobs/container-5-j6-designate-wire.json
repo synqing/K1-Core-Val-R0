@@ -1,0 +1,4 @@
+[
+  {"tool":"modify_schematic_component","tag":"designate-j6","args":{"primitiveId":"e9084","designator":"J6-ESP","name":"1x4","manufacturerId":"PREC004SAAN-RC","addIntoBom":true,"addIntoPcb":true,"saveAfter":false,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool":"connect_schematic_pins_to_nets","tag":"wire-j6","args":{"componentPrimitiveId":"e9084","connections":[{"pinNumber":"1","net":"3V3"},{"pinNumber":"2","net":"ESP_UART0_TX"},{"pinNumber":"3","net":"ESP_EN"},{"pinNumber":"4","net":"GND"}],"saveAfter":true,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}}
+]

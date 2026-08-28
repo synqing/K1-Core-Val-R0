@@ -31,13 +31,19 @@ SSCM1_V2 = REQUIREMENTS_DRIVEN_REPLACEMENT
 ## Unresolved
 
 ```text
-OPTION_C_SYMBOL_ESTIMATE = UNRESOLVED
-VAL_G2_0_FIXTURE_DEFINITION = REQUIRED_NOT_COMPLETE
-VAL_G2_0_EDA_EXECUTION = BLOCKED_ON_FIXTURE_DEFINITION
+OPTION_C_SYMBOL_ESTIMATE = RESOLVED
+VAL_G2_0_FIXTURE_DEFINITION = RETIRED_BY_D_042
+VAL_G2_0_EDA_EXECUTION = TERMINATED_BY_D_042
 ```
 
-The Option-C estimate is a hard input to VAL-G2.0A fixture definition. The 200-symbol floor may
-not be substituted for an unknown estimate.
+Corrected 2026-08-28: `N_estimated_symbols_option_C = 181` baseline symbols counted from
+the Option-C power tree, frozen RT1062 package, ESP32-S3 module support, ratified contracts and
+the vendor support circuits they require. The retained stress plan contains 218 symbols and 119
+named nets after the non-existent ADC strap was removed; it does not meet the historical 120-net
+threshold. See `schematic/single-sheet-qualification/FIXTURE-PLAN.json`.
+D-042 terminated live qualification-project actuation. Canonical actuation is controlled by its
+separate mutation state file and append-only ledger. Static source-register prose is not a runtime
+write permit.
 
 - Current shipping ESP32-S3 headroom. Never measured post int64-GDFT promotion.
 

@@ -1,0 +1,449 @@
+[
+ {
+  "tag": "C18",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab",
+     "uuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "x": 1500,
+    "y": 2800,
+    "subPartName": "GRM155R71C104KA88D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e6440",
+    "symbol": {
+     "uuid": "365891f2e96747049db199240392f1c4",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "footprint": {
+     "uuid": "3a1f3767bcb3402e8ad5f6b1f14a30a2",
+     "libraryUuid": "5ad32f6891c644b1a27268ae1b8659ab"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R71C104KA88D",
+    "supplier": "LCSC",
+    "supplierId": "C71629",
+    "otherProperty": {
+     "LCSC Part Name": "100nF ±10% 16V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R71C104KA88D/72737.html",
+     "Value": "100nF",
+     "Tolerance": "±10%",
+     "Voltage Rating": "16V",
+     "Temperature Coefficient": "X7R",
+     "Description": "Capacitance:100nF Tolerance:±10% Tolerance:±10% Voltage Rating:16V Temperature Coefficient:X7R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "C19",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68",
+     "uuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "x": 2200,
+    "y": 2800,
+    "subPartName": "GRM155R60J106ME44D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e6476",
+    "symbol": {
+     "uuid": "c109439ffb9e4ea4a0cd0c51b5279fdc",
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "footprint": {
+     "uuid": "52ec88cbe8a84bce9e4ba59c780166d6",
+     "libraryUuid": "64ae6bee56d84f5992761781da437e68"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J106ME44D",
+    "supplier": "LCSC",
+    "supplierId": "C76991",
+    "otherProperty": {
+     "LCSC Part Name": "10uF ±20% 6.3V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R60J106ME44D/78118.html",
+     "Value": "10uF",
+     "Tolerance": "±20%",
+     "Voltage Rating": "6.3V",
+     "Temperature Coefficient": "X5R",
+     "Description": "Capacitance:10uF Tolerance:±20% Tolerance:±20% Voltage Rating:6.3V Temperature Coefficient:X5R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R10",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2",
+     "uuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2"
+    },
+    "x": 800,
+    "y": 2800,
+    "subPartName": "RC0402FR-07100KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e6512",
+    "symbol": {
+     "uuid": "71dbf1411c8944afa283c183d7e70ba0",
+     "libraryUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2"
+    },
+    "footprint": {
+     "uuid": "1a6876a669d44b66b27916c86f002504",
+     "libraryUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-07100KL",
+    "supplier": "LCSC",
+    "supplierId": "C60491",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 100kΩ ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-07100KL/61543.html",
+     "Type": "Thick Film Resistor",
+     "Value": "100kΩ",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R11",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2",
+     "uuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2"
+    },
+    "x": 1150,
+    "y": 2800,
+    "subPartName": "RC0402FR-07100KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e6551",
+    "symbol": {
+     "uuid": "71dbf1411c8944afa283c183d7e70ba0",
+     "libraryUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2"
+    },
+    "footprint": {
+     "uuid": "1a6876a669d44b66b27916c86f002504",
+     "libraryUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-07100KL",
+    "supplier": "LCSC",
+    "supplierId": "C60491",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 100kΩ ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-07100KL/61543.html",
+     "Type": "Thick Film Resistor",
+     "Value": "100kΩ",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:100kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "R12",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753",
+     "uuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "x": 1850,
+    "y": 2800,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e6590",
+    "symbol": {
+     "uuid": "6fa7a1901b644bd082f8fe0fc48544af",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "footprint": {
+     "uuid": "f9ed3c975d9c48e88ed96dc10de66926",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0710KL",
+    "supplier": "LCSC",
+    "supplierId": "C60490",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 10kΩ ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-0710KL/61542.html",
+     "Type": "Thick Film Resistor",
+     "Value": "10kΩ",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "SW1",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "191fc2a99a5a47878f9b62602970494a",
+     "uuid": "191fc2a99a5a47878f9b62602970494a"
+    },
+    "x": 2700,
+    "y": 2200,
+    "subPartName": "PTS645SM43SMTR92LFS.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e6629",
+    "symbol": {
+     "uuid": "012427da06fb4bacb01538342f4b5369",
+     "libraryUuid": "191fc2a99a5a47878f9b62602970494a"
+    },
+    "footprint": {
+     "uuid": "40bbf2f2683e4ab1bf4ddf309affa6ef",
+     "libraryUuid": "191fc2a99a5a47878f9b62602970494a"
+    },
+    "designator": "SW?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "C&K",
+    "manufacturerId": "PTS645SM43SMTR92LFS",
+    "supplier": "LCSC",
+    "supplierId": "C221880",
+    "otherProperty": {
+     "LCSC Part Name": "轻触开关6mm*6mm，160gf",
+     "Supplier Footprint": "SMD-4P,6x6mm",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/PTS645SM43SMTR92LFS/222310.html",
+     "Circuit": "SPST",
+     "Actuator Style": "Round Button",
+     "Operating Force": "1.6N",
+     "Mounting Type": "Surface Mount,Vertical",
+     "Length": "6mm",
+     "Width": "6mm",
+     "Switch Height": "4.3mm",
+     "Contact Current": "50mA",
+     "Voltage Rating": "12V",
+     "With Lamp": "-",
+     "Termination Style": "Gull Wing",
+     "Life": "-",
+     "Operating Temperature": "-20℃~+85℃",
+     "Description": "Circuit:SPST Actuator Style:Round Button Operating Force:1.6N Mounting Type:Surface Mount,Vertical Length:6mm Width:6mm Switch Height:4.3mm Contact Current:50mA Voltage Rating:12V With Lamp:- Termination Style:Gull Wing Life:- Operating Temperature:-20℃~+"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "U6",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058",
+     "uuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "x": 800,
+    "y": 2200,
+    "subPartName": "MIMXRT1062DVJ6B.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e6680",
+    "symbol": {
+     "uuid": "f054ecc71c3e42b3b281c1df5591f93e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "footprint": {
+     "uuid": "004fd7c4c78e495caba73f302774dd7e",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058"
+    },
+    "designator": "U?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "NXP(恩智浦)",
+    "manufacturerId": "MIMXRT1062DVJ6B",
+    "supplier": "LCSC",
+    "supplierId": "C3216699",
+    "otherProperty": {
+     "LCSC Part Name": "MIMXRT1062DVJ6B",
+     "Supplier Footprint": "LFBGA-196",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "",
+     "CPU Core": "ARM Cortex-M7",
+     "CPU Maximum Speed": "600MHz",
+     "Number of I/O": "127",
+     "ADC (Bit)": "12bit",
+     "Voltage - Supply": "3V~3.6V",
+     "Description": "CPU Core:ARM Cortex-M7 CPU Maximum Speed:600MHz Number of I/O:127 ADC (Bit):12bit Voltage - Supply:3V~3.6V Voltage - Supply:3V~3.6V",
+     "Multi-Part Group": "",
+     "Relevance": "[]"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "U7",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "acec53869d2643d19adf64ad7e69d95f",
+     "uuid": "acec53869d2643d19adf64ad7e69d95f"
+    },
+    "x": 2200,
+    "y": 2200,
+    "subPartName": "TPS3808G33DBVR.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e7006",
+    "symbol": {
+     "uuid": "4c47fee2a8544211a44086be791ae105",
+     "libraryUuid": "acec53869d2643d19adf64ad7e69d95f"
+    },
+    "footprint": {
+     "uuid": "05e7ba388ab34cc090867b89eb9f3775",
+     "libraryUuid": "acec53869d2643d19adf64ad7e69d95f"
+    },
+    "designator": "U?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "TI(德州仪器)",
+    "manufacturerId": "TPS3808G33DBVR",
+    "supplier": "LCSC",
+    "supplierId": "C43698",
+    "otherProperty": {
+     "LCSC Part Name": "低静态电流、可编程延迟监控电路",
+     "Supplier Footprint": "SOT-23-6",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://www.ti.com/cn/lit/ds/symlink/tps3808.pdf",
+     "ChipType": "Voltage monitor",
+     "Output Type": "Open-drain",
+     "Voltage - Supply": "1.7V~6.5V",
+     "Reset Active Level": "Active Low",
+     "Threshold Voltage": "3.07V",
+     "Number of Voltages Monitored": "1",
+     "Reset Timeout": "20ms",
+     "Operating Temperature": "-40℃~+125℃",
+     "Function": "Manual reset input",
+     "Quiescent Current": "2.4uA",
+     "Description": "ChipType:Voltage monitor Output Type:Open-drain Voltage - Supply:1.7V~6.5V Voltage - Supply:1.7V~6.5V Reset Active Level:Active Low Threshold Voltage:3.07V Number of Voltages Monitored:1 Reset Timeout:20ms Operating Temperature:-40℃~+125℃ Operating Temper"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "title-rt-core",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Text",
+    "x": 400,
+    "y": 2000,
+    "content": "6  RT CORE",
+    "rotation": 0,
+    "textColor": "#B00020",
+    "fontSize": 18,
+    "bold": true,
+    "alignMode": 2,
+    "primitiveId": "e7060"
+   },
+   "saved": true
+  }
+ }
+]

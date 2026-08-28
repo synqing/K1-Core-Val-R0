@@ -1,0 +1,136 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C51",
+    "args": {
+      "primitiveId": "e129790",
+      "designator": "C51-AUD",
+      "name": "1uF",
+      "manufacturerId": "GRM155R61A105KE15D",
+      "supplier": "LCSC",
+      "supplierId": "C76999",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C90",
+    "args": {
+      "primitiveId": "e129826",
+      "designator": "C90-AUD",
+      "name": "10uF",
+      "manufacturerId": "GRM155R60J106ME44D",
+      "supplier": "LCSC",
+      "supplierId": "",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C91",
+    "args": {
+      "primitiveId": "e129862",
+      "designator": "C91-AUD",
+      "name": "10uF",
+      "manufacturerId": "GRM155R60J106ME44D",
+      "supplier": "LCSC",
+      "supplierId": "",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "TP7",
+    "args": {
+      "primitiveId": "e129898",
+      "designator": "TP7-AUD",
+      "name": "BCLK TP",
+      "manufacturerId": "5001",
+      "supplier": "LCSC",
+      "supplierId": "",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "TP8",
+    "args": {
+      "primitiveId": "e129927",
+      "designator": "TP8-AUD",
+      "name": "FSYNC TP",
+      "manufacturerId": "5001",
+      "supplier": "LCSC",
+      "supplierId": "",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C52-AUD",
+    "args": {
+      "primitiveId": "e12082",
+      "name": "DNP / 100pF MCLK TUNE",
+      "addIntoBom": false,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_text",
+    "tag": "note-0",
+    "args": {
+      "x": 520,
+      "y": 3470,
+      "content": "RT CLOCK MASTER | REMOVE R31-R33 BEFORE EXTERNAL J8 DRIVE",
+      "fontSize": 8,
+      "bold": true,
+      "textColor": "#1F5AA6",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_text",
+    "tag": "note-1",
+    "args": {
+      "x": 45,
+      "y": 2435,
+      "content": "J9: 1 PWR | 2 GND | 3 CLK | 4 GND | 5 DATA | 6 GND | 7-10 NC",
+      "fontSize": 8,
+      "bold": true,
+      "textColor": "#1F5AA6",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_text",
+    "tag": "note-2",
+    "args": {
+      "x": 520,
+      "y": 2435,
+      "content": "PDM DEFAULT R38/R39 | DIRECT RT R40/R41 = DNP EXPERIMENT",
+      "fontSize": 8,
+      "bold": true,
+      "textColor": "#1F5AA6",
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

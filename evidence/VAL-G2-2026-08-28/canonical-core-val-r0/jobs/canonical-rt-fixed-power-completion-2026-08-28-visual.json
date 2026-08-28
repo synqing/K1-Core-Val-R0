@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-rt-fixed-power-completion-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "captured_after_settle": true,
+  "scale": "block",
+  "intended_delta": "Replace the placeholder RT decoupling bank with the NXP-required fixed-rail network; correct every RT1062 fixed supply, DCDC, internal-LDO and unused-RTC endpoint; add the 4.7 uH DCDC inductor and 10 ms PSWITCH RC; leave all flexible GPIO assignments unchanged",
+  "observed_delta": "Box 3 now contains the RT1062 fixed-rail implementation, a separate three-part DCDC/PSWITCH row, three aligned core/internal-LDO capacitor columns, and two aligned I/O-rail capacitor rows. Repeated endpoint labels were hidden only after the named-net topology was read back. The earlier misplacement and crowded-label screenshots are preserved as rejected intermediate evidence.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/rt-power-08-decluttered-box3.png",
+  "unexpected_changes": [],
+  "checks": [
+    {
+      "name": "domain containment",
+      "result": "OK",
+      "detail": "All 39 replacement/support parts remain inside RT domain box 3; neither adjacent box boundary is crossed."
+    },
+    {
+      "name": "component spacing",
+      "result": "OK",
+      "detail": "The DCDC row, three capacitor columns and two lower capacitor rows have distinct symbols, designators and values with no visible component overlap."
+    },
+    {
+      "name": "electrical labels",
+      "result": "OK",
+      "detail": "Unique fixed U6 rails remain visible at U6; redundant capacitor endpoint labels are hidden and replaced by concise DCDC, PSWITCH, core/LDO and I/O-bank captions."
+    },
+    {
+      "name": "fixed rail correction",
+      "result": "OK",
+      "detail": "The visible U6 labels separate 1V15_CORE, VDD_HIGH_CAP, VDD_SNVS_CAP, NVCC_PLL_1V1, VDD_USB_CAP, DCDC_SW, DCDC_PSWITCH, 3V3 and GND rather than conflating internal LDO outputs with 3V3."
+    },
+    {
+      "name": "neighbour integrity",
+      "result": "OK",
+      "detail": "The RT boot/clock/debug box and the motion/LED boxes visible at the crop edges retain their prior boundaries and component positions."
+    },
+    {
+      "name": "modal and cursor state",
+      "result": "OK",
+      "detail": "No confirmation modal, selected component, drag ghost, cursor wire tail or incomplete placement is visible."
+    }
+  ],
+  "verdict": "ACCEPTED"
+}

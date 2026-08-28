@@ -1,0 +1,106 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C35",
+    "args": {
+      "primitiveId": "e10355",
+      "designator": "C35",
+      "name": "18pF",
+      "manufacturerId": "GRM1555C1H180JA01D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C36",
+    "args": {
+      "primitiveId": "e10391",
+      "designator": "C36",
+      "name": "18pF",
+      "manufacturerId": "GRM1555C1H180JA01D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C37",
+    "args": {
+      "primitiveId": "e10427",
+      "designator": "C37",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C38",
+    "args": {
+      "primitiveId": "e10463",
+      "designator": "C38",
+      "name": "10uF",
+      "manufacturerId": "GRM155R60J106ME44D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R13",
+    "args": {
+      "primitiveId": "e10499",
+      "designator": "R13",
+      "name": "0R",
+      "manufacturerId": "RC0402FR-070RL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R14",
+    "args": {
+      "primitiveId": "e10538",
+      "designator": "R14",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U8",
+    "args": {
+      "primitiveId": "e10577",
+      "designator": "U8",
+      "name": "64Mbit",
+      "manufacturerId": "IS25WP064A-JBLE",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "Y1",
+    "args": {
+      "primitiveId": "e10639",
+      "designator": "Y1",
+      "name": "24MHz",
+      "manufacturerId": "XRCGB24M000F3A00R0",
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

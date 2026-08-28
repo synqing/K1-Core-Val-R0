@@ -7,9 +7,9 @@ Updated: 2026-08-28
 | VAL-G0 bootstrap | COMPLETE |
 | VAL-G1 Option B vs C | **CLOSED 2026-08-27 — Option C selected, Option B deferred** |
 | VAL-G2 | **READY** |
-| VAL-G2.0A fixture definition | **REQUIRED FIRST — NOT COMPLETE** |
-| VAL-G2.0B EasyEDA qualification execution | **BLOCKED ON VAL-G2.0A PASS** |
-| VAL-G2.1 canonical single-sheet schematic capture | **WAITS ON VAL-G2.0 PASS** |
+| VAL-G2.0A fixture definition | **RETIRED_BY_D-042 — corrected historical inventory 181, planned 218; old 120-net threshold not met** |
+| VAL-G2.0B EasyEDA qualification execution | **TERMINATED_BY_D-042 — qualification project frozen** |
+| VAL-G2.1 canonical single-sheet schematic capture | **IN PROGRESS — project 64325d0e55e0435abd018defb0089a9b** |
 | VAL-G3 envelope and floorplan | NOT STARTED |
 | VAL-G4 placement and locks | NOT STARTED |
 | VAL-G5 stack, rules, planes | NOT STARTED |
@@ -33,32 +33,32 @@ SSCM1_V2 = REQUIREMENTS_DRIVEN_REPLACEMENT
 ## VAL-G2.0 fixture state
 
 ```text
-OPTION_C_SYMBOL_ESTIMATE = UNRESOLVED
-VAL_G2_0_FIXTURE_DEFINITION = REQUIRED_NOT_COMPLETE
-VAL_G2_0_EDA_EXECUTION = BLOCKED_ON_FIXTURE_DEFINITION
+OPTION_C_SYMBOL_ESTIMATE = RESOLVED
+VAL_G2_0_FIXTURE_DEFINITION = RETIRED_BY_D_042
+VAL_G2_0_EDA_EXECUTION = TERMINATED_BY_D_042
 ```
 
-The first generated fixture was rejected before qualification because it optimised primitive
-counts instead of modelling a source-derived Option-C topology. Captain ordered a destructive
-reset. EasyEDA then refused a second project with the contract's exact friendly name while the
-empty shell existed, and the supported API exposes no project delete or rename. Project UUID
-`09e9c541fd3d404082d4b92e55ae5336` therefore now contains exactly one blank replacement
-schematic and one page. A second automatic role-count placement repeated the same failure class;
-it was stopped and fully removed. Settled screenshot plus source read-back now prove 0 components,
-0 texts, 0 rectangles, 0 wires and 0 nets. VAL-G2.0 remains `NOT_RUN`; no further EasyEDA write is
-authorised until the semantic fixture-plan checker passes.
+`N_estimated_symbols_option_C = 181`. That is the corrected baseline inventory after removal of the
+non-existent ADC strap; the retained historical stress plan contains 218 symbols and 119 named
+nets. It does not meet the old 120-net qualification threshold and is not an accepted execution
+plan. D-042 retired the lane before another qualification write.
+
+The first generated fixture was rejected because it optimised primitive counts. D-042 terminated
+further mutation of qualification project `09e9c541fd3d404082d4b92e55ae5336`. The active canonical
+project is `64325d0e55e0435abd018defb0089a9b`; its runtime mutation authority lives in
+`evidence/VAL-G2-2026-08-28/canonical-core-val-r0/MUTATION-STATE.json` and the paired append-only
+ledger. Static status prose must not be used to infer that another write is allowed.
 
 The bounded recovery pass is complete. Historical module fragments exist, but the frozen SSCM-1
 v1 specification was not recovered and is not authority. Option B remains deferred and its
 interface feasibility is unproven.
 
-## Ready to start — qualification first
+## Current execution — canonical capture authorised by D-042
 
 RT1062 package is FROZEN: `MIMXRT1062DVJ6B`, 196-ball, 12 x 12 mm, 0.8 mm pitch (D-028).
-VAL-G2 is ready to progress, but its first operation is VAL-G2.0A fixture definition: resolve the
-Option-C symbol estimate and pass the endpoint-level fixture-plan checker. Disposable EasyEDA
-execution at VAL-G2.0B waits on that PASS. Canonical capture at VAL-G2.1 waits on a measured
-VAL-G2.0B PASS.
+VAL-G2.0A retains a corrected but retired historical plan. VAL-G2.0B is terminated. VAL-G2.1
+canonical capture proceeds only through one closed mutation transaction at a time on the single
+canonical page; the qualification project receives no further mutation.
 
 ## Now unblocked by VAL-G1 closure
 

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-led-efuse-support-wire-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Wire the LED TPS259474L EN, OVLO, GND, ILM and dVdt support in box 2 and visibly record the deliberately unused PG, PGTH and ITIMER pins",
+  "observed_delta": "The live source and focused screenshot show the intended U4, R8 and C68 endpoint nets. The full-canvas screenshot is modal-free and shows no unrelated movement. The settings note is rejected because its centred anchor at x=980 pushes the beginning outside the left side of box 2.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-led-efuse-support-wire-unverified.png",
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [
+    "The beginning of the LED eFuse settings note is clipped beyond the left boundary of box 2"
+  ],
+  "verdict": "REJECTED",
+  "checks": [
+    {
+      "name": "U4 support endpoints",
+      "result": "OK",
+      "detail": "EN is 5V_SYS, OVLO and GND are GND, ILM is LED_EFUSE_ILIM and DVDT is LED_EFUSE_DVDT."
+    },
+    {
+      "name": "R8 and C68 endpoints",
+      "result": "OK",
+      "detail": "R8 closes LED_EFUSE_ILIM to GND and C68 closes LED_EFUSE_DVDT to GND."
+    },
+    {
+      "name": "settings note fully readable",
+      "result": "DEFECT",
+      "detail": "Only the trailing part of the note is visible inside the left edge of the focused box-2 image."
+    },
+    {
+      "name": "no modal or unrelated movement",
+      "result": "OK",
+      "detail": "The whole-sheet image is modal-free and preserves all ten domain boxes and unrelated components."
+    }
+  ]
+}

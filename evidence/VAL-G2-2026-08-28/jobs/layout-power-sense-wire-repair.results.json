@@ -1,0 +1,12 @@
+[
+ {
+  "tag": "U2:VBUS-to-VIN-",
+  "ok": false,
+  "error": "create failed!"
+ },
+ {
+  "tag": "U2:remaining",
+  "ok": false,
+  "error": "connect_schematic_pins_to_nets: FAILED at item 1 of 4 (pin 6 -> 3V3). 0 attachment(s) were ALREADY COMMITTED to the document before this failure: (none). DO NOT re-run this call unchanged — that would double-apply the committed items. Verify with get_document_source, then resume from item 1. Cause: create failed!"
+ }
+]

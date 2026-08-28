@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "reconcile-layout-baseline-2026-08-28",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "intended_delta": "Read-only reconciliation of the stable live sheet before the Captain-authorised layout rebuild.",
+  "observed_delta": "The settled whole-sheet screenshot and semantic read-back agree: 137 component records and 405 wire records occupy an oversized, sparse, unboxed layout. This accepts only the accuracy of the baseline record; the layout itself is rejected.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/screenshots/reconcile-layout-baseline.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "qualification identity",
+      "result": "OK",
+      "detail": "The project and page UUIDs match the disposable K1-CORE-VAL-SINGLE-SHEET-QUAL fixture."
+    },
+    {
+      "name": "stable source identity",
+      "result": "OK",
+      "detail": "Fresh read-back reports source hash 271930:1ff4a081 with no unsaved document state."
+    },
+    {
+      "name": "visual defect captured",
+      "result": "OK",
+      "detail": "The screenshot visibly records the sparse vertical sprawl, absent boxes and unreadable domain composition that the rebuild must remove."
+    },
+    {
+      "name": "no mutation during reconciliation",
+      "result": "OK",
+      "detail": "Only context/source reads and viewport framing were performed; the document source hash did not change."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "reconcile-canonical-core-val-r0-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Reconcile the existing K1-Core-Val-R0 single-sheet canvas as the canonical capture baseline without changing it",
+  "observed_delta": "Read-only reconciliation confirms the single existing page, ten Captain-authored domain boxes, the populated power-entry block in box 1, and nine empty boxes awaiting canonical circuits.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/reconcile-whole-sheet.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name": "canonical project identity", "result": "OK", "detail": "Canvas is project 64325d0e55e0435abd018defb0089a9b, page 1435cb46f39e48c8a8aadbb84ca81603."},
+    {"name": "single-sheet topology", "result": "OK", "detail": "Project inventory contains exactly one schematic and one page."},
+    {"name": "Captain domain boxes", "result": "OK", "detail": "Exactly ten black domain rectangles are visible and retained."},
+    {"name": "existing circuit composition", "result": "OK", "detail": "Only box 1 contains the existing 21-part PWR1 circuit; boxes 2 through 10 remain empty."},
+    {"name": "PCB boundary", "result": "OK", "detail": "The auto-provisioned PCB exists in the tree but was not opened or mutated."}
+  ]
+}

@@ -1,0 +1,315 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C18",
+    "args": {
+      "primitiveId": "e3055",
+      "designator": "C18-RTC",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C19",
+    "args": {
+      "primitiveId": "e3091",
+      "designator": "C19-RTC",
+      "name": "10uF",
+      "manufacturerId": "GRM155R60J106ME44D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R10",
+    "args": {
+      "primitiveId": "e3127",
+      "designator": "R10-RTC",
+      "name": "100k",
+      "manufacturerId": "RC0402FR-07100KL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R11",
+    "args": {
+      "primitiveId": "e3166",
+      "designator": "R11-RTC",
+      "name": "100k",
+      "manufacturerId": "RC0402FR-07100KL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R12",
+    "args": {
+      "primitiveId": "e3205",
+      "designator": "R12-RTC",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "SW1",
+    "args": {
+      "primitiveId": "e3244",
+      "designator": "SW1-RTC",
+      "name": "RESET",
+      "manufacturerId": "PTS645SM43SMTR92LFS",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U6",
+    "args": {
+      "primitiveId": "e3295",
+      "designator": "U6-RTC",
+      "name": "FITTED",
+      "manufacturerId": "MIMXRT1062DVJ6B",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U7",
+    "args": {
+      "primitiveId": "e3619",
+      "designator": "U7-RTC",
+      "name": "RESET",
+      "manufacturerId": "TPS3808G33DBVR",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C20",
+    "args": {
+      "primitiveId": "e3997",
+      "designator": "C20-RTC",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C21",
+    "args": {
+      "primitiveId": "e4033",
+      "designator": "C21-RTC",
+      "name": "4.7uF",
+      "manufacturerId": "GRM155R60J475ME47D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C22",
+    "args": {
+      "primitiveId": "e4069",
+      "designator": "C22-RTC",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C23",
+    "args": {
+      "primitiveId": "e4105",
+      "designator": "C23-RTC",
+      "name": "10uF",
+      "manufacturerId": "GRM155R60J106ME44D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C24",
+    "args": {
+      "primitiveId": "e4141",
+      "designator": "C24-RTC",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C25",
+    "args": {
+      "primitiveId": "e4177",
+      "designator": "C25-RTC",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C26",
+    "args": {
+      "primitiveId": "e4213",
+      "designator": "C26-RTC",
+      "name": "4.7uF",
+      "manufacturerId": "GRM155R60J475ME47D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C27",
+    "args": {
+      "primitiveId": "e4249",
+      "designator": "C27-RTC",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C28",
+    "args": {
+      "primitiveId": "e4285",
+      "designator": "C28-RTC",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C29",
+    "args": {
+      "primitiveId": "e4321",
+      "designator": "C29-RTC",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C30",
+    "args": {
+      "primitiveId": "e4357",
+      "designator": "C30-RTC",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C31",
+    "args": {
+      "primitiveId": "e4393",
+      "designator": "C31-RTC",
+      "name": "4.7uF",
+      "manufacturerId": "GRM155R60J475ME47D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C32",
+    "args": {
+      "primitiveId": "e4429",
+      "designator": "C32-RTC",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C33",
+    "args": {
+      "primitiveId": "e4465",
+      "designator": "C33-RTC",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C34",
+    "args": {
+      "primitiveId": "e4501",
+      "designator": "C34-RTC",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U6u2",
+    "args": {
+      "primitiveId": "e3673",
+      "designator": "U6-RTC",
+      "name": "FITTED",
+      "manufacturerId": "MIMXRT1062DVJ6B",
+      "addIntoBom": false,
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

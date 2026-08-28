@@ -1,0 +1,21 @@
+{
+  "C51-AUD.1": "ADC_VREF",
+  "C51-AUD.2": "GND",
+  "C90-AUD.1": "ADC_AREG",
+  "C90-AUD.2": "GND",
+  "C91-AUD.1": "ADC_DREG",
+  "C91-AUD.2": "GND",
+  "J9-AUD.1": "3V3_MIC_FLEX",
+  "J9-AUD.2": "GND",
+  "J9-AUD.3": "PDM_CLK",
+  "J9-AUD.4": "GND",
+  "J9-AUD.5": "PDM_DAT",
+  "J9-AUD.6": "GND",
+  "TP7-AUD.1": "AUDIO_BCLK",
+  "TP8-AUD.1": "AUDIO_FSYNC",
+  "U11-AUD.10": "GND",
+  "U11-AUD.15": "GND",
+  "U11-AUD.20": "GND",
+  "U11-AUD.21": "GND",
+  "U11-AUD.5": "GND"
+}

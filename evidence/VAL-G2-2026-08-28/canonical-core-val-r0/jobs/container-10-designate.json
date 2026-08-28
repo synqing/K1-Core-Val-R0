@@ -1,0 +1,184 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "J11",
+    "args": {
+      "primitiveId": "e15023",
+      "designator": "J11-VAL",
+      "name": "1x6",
+      "manufacturerId": "PREC006SAAN-RC",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R55",
+    "args": {
+      "primitiveId": "e15067",
+      "designator": "R55-VAL",
+      "name": "0R",
+      "manufacturerId": "RC0402FR-070RL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R56",
+    "args": {
+      "primitiveId": "e15106",
+      "designator": "R56-VAL",
+      "name": "DNP",
+      "manufacturerId": "RC0402FR-07DNP",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R57",
+    "args": {
+      "primitiveId": "e15145",
+      "designator": "R57-VAL",
+      "name": "DNP",
+      "manufacturerId": "RC0402FR-07DNP",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R58",
+    "args": {
+      "primitiveId": "e15184",
+      "designator": "R58-VAL",
+      "name": "0R",
+      "manufacturerId": "RC0402FR-070RL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "TP6",
+    "args": {
+      "primitiveId": "e15223",
+      "designator": "TP6-VAL",
+      "name": "TP",
+      "manufacturerId": "5001",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C66",
+    "args": {
+      "primitiveId": "e15252",
+      "designator": "C66-VAL",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "Q2",
+    "args": {
+      "primitiveId": "e15288",
+      "designator": "Q2-VAL",
+      "name": "N-FET",
+      "manufacturerId": "2N7002",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R59",
+    "args": {
+      "primitiveId": "e15332",
+      "designator": "R59-VAL",
+      "name": "100R",
+      "manufacturerId": "RC0402FR-07100RL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R60",
+    "args": {
+      "primitiveId": "e15371",
+      "designator": "R60-VAL",
+      "name": "100R",
+      "manufacturerId": "RC0402FR-07100RL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R61",
+    "args": {
+      "primitiveId": "e15410",
+      "designator": "R61-VAL",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R62",
+    "args": {
+      "primitiveId": "e15449",
+      "designator": "R62-VAL",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "SW4",
+    "args": {
+      "primitiveId": "e15488",
+      "designator": "SW4-VAL",
+      "name": "SDL",
+      "manufacturerId": "PTS645SM43SMTR92LFS",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U16",
+    "args": {
+      "primitiveId": "e15539",
+      "designator": "U16-VAL",
+      "name": "PGOOD",
+      "manufacturerId": "TPS3808G33DBVR",
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

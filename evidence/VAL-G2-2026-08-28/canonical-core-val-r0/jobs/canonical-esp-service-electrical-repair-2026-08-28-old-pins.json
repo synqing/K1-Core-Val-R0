@@ -1,0 +1,26 @@
+[
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "FB4-ESP",
+    "args": {
+      "componentPrimitiveId": "e8296",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "J6-ESP",
+    "args": {
+      "componentPrimitiveId": "e9084",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C42-ESP",
+    "args": {
+      "componentPrimitiveId": "e7694",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

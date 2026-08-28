@@ -1,0 +1,395 @@
+[
+ {
+  "tag": "C42",
+  "ok": true,
+  "result": {
+   "primitiveId": "e98127",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "f14d17c1e9a5432390e635576da7237b"
+    },
+    "x": 4365,
+    "y": 4362,
+    "subPartName": "GRM155R61A105KE15D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I98127",
+    "symbol": {
+     "uuid": "100695d7bb6f45b09cf7bb5346fe98c5",
+     "libraryUuid": "d7cfbc3b990d4f4892dd720a635a2d32"
+    },
+    "footprint": {
+     "uuid": "79ede26e208f4976b0d55d8d5b5951c5",
+     "libraryUuid": "d7cfbc3b990d4f4892dd720a635a2d32"
+    },
+    "designator": "C42-ESP",
+    "name": "1uF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R61A105KE15D",
+    "supplier": "LCSC",
+    "supplierId": "C76999",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "J6",
+  "ok": true,
+  "result": {
+   "primitiveId": "e98163",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "faec77292c264f8788c0faaf21105368"
+    },
+    "x": 4750,
+    "y": 4300,
+    "subPartName": "HEADER_MALE-XH_1X6P_2.54MM.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I98163",
+    "symbol": {
+     "uuid": "72df84dc2f1940528e9c3d55f2949591",
+     "libraryUuid": "5f08146151b14d08af630cc4cd9d0168"
+    },
+    "footprint": {
+     "uuid": "faccd6cf49f7479eb65535d2b02c23be",
+     "libraryUuid": "5f08146151b14d08af630cc4cd9d0168"
+    },
+    "designator": "J6-ESP",
+    "name": "RECOVERY 1x6",
+    "uniqueId": "",
+    "manufacturer": "",
+    "manufacturerId": "PREC006SAAN-RC",
+    "supplier": "LCSC",
+    "supplierId": "HEADER_MALE-XH_1X6P_2.54MM.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R71",
+  "ok": true,
+  "result": {
+   "primitiveId": "e98207",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "a013647b98b14e3fb9a78c6e8fd474c2"
+    },
+    "x": 4450,
+    "y": 3890,
+    "subPartName": "RC0402FR-07100KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I98207",
+    "symbol": {
+     "uuid": "5be345ec6a6e42609257d62cef8a09b8",
+     "libraryUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2"
+    },
+    "footprint": {
+     "uuid": "96a690140ad14eb7990f4dd7a4e8ebc9",
+     "libraryUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2"
+    },
+    "designator": "R71-ESP",
+    "name": "100k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-07100KL",
+    "supplier": "LCSC",
+    "supplierId": "C60491",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R72",
+  "ok": true,
+  "result": {
+   "primitiveId": "e98246",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "a013647b98b14e3fb9a78c6e8fd474c2"
+    },
+    "x": 4580,
+    "y": 3890,
+    "subPartName": "RC0402FR-07100KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I98246",
+    "symbol": {
+     "uuid": "5be345ec6a6e42609257d62cef8a09b8",
+     "libraryUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2"
+    },
+    "footprint": {
+     "uuid": "96a690140ad14eb7990f4dd7a4e8ebc9",
+     "libraryUuid": "0cc9cee0c09e4a1c8b41e9d1feefa5b2"
+    },
+    "designator": "R72-ESP",
+    "name": "100k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-07100KL",
+    "supplier": "LCSC",
+    "supplierId": "C60491",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R73",
+  "ok": true,
+  "result": {
+   "primitiveId": "e98285",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "1e5677ef155d46db88b603ac68e38004"
+    },
+    "x": 4120,
+    "y": 4140,
+    "subPartName": "RC0402FR-0722RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I98285",
+    "symbol": {
+     "uuid": "e78b958e57fc47739f76bcd7d6717fc2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "footprint": {
+     "uuid": "7911c27983c546dfb50bf2cabd5562d2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "designator": "R73-ESP",
+    "name": "22R",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0722RL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-0722RL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "R74",
+  "ok": true,
+  "result": {
+   "primitiveId": "e98324",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "1e5677ef155d46db88b603ac68e38004"
+    },
+    "x": 4120,
+    "y": 4080,
+    "subPartName": "RC0402FR-0722RL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I98324",
+    "symbol": {
+     "uuid": "e78b958e57fc47739f76bcd7d6717fc2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "footprint": {
+     "uuid": "7911c27983c546dfb50bf2cabd5562d2",
+     "libraryUuid": "8bef1d5fc0144eac931ff4a7b9204fb5"
+    },
+    "designator": "R74-ESP",
+    "name": "22R",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0722RL",
+    "supplier": "LCSC",
+    "supplierId": "RC0402FR-0722RL.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C43-ESP",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8224",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "8924a2eec41640fa9651dea26e133656"
+    },
+    "x": 4110,
+    "y": 3980,
+    "subPartName": "GRM1555C1H101JA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": false,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "C44-ESP",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8260",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "8924a2eec41640fa9651dea26e133656"
+    },
+    "x": 4290,
+    "y": 3980,
+    "subPartName": "GRM1555C1H101JA01D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": false,
+    "addIntoPcb": true,
+    "net": ""
+   }
+  }
+ },
+ {
+  "tag": "note-0",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Text",
+    "x": 4240,
+    "y": -3845,
+    "content": "SERVICE USB: SELF-POWERED | VBUS SENSE 100k/100k -> GPIO15 | NO BACK-POWER",
+    "rotation": 0,
+    "textColor": "#1F5AA6",
+    "fontSize": 8,
+    "bold": true,
+    "alignMode": 2,
+    "primitiveId": "e98363"
+   }
+  }
+ },
+ {
+  "tag": "note-1",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Text",
+    "x": 4590,
+    "y": -4410,
+    "content": "RECOVERY: GND | 3V3 | TX | RX | EN | BOOT",
+    "rotation": 0,
+    "textColor": "#1F5AA6",
+    "fontSize": 8,
+    "bold": true,
+    "alignMode": 2,
+    "primitiveId": "e98364"
+   },
+   "saved": true
+  }
+ }
+]

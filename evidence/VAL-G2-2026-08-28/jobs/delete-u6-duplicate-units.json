@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "delete_schematic_component",
+    "tag": "U6u3",
+    "args": {
+      "primitiveId": "e7390",
+      "skipConfirmation": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "delete_schematic_component",
+    "tag": "U6u4",
+    "args": {
+      "primitiveId": "e7714",
+      "skipConfirmation": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "delete_schematic_component",
+    "tag": "U6u5",
+    "args": {
+      "primitiveId": "e8038",
+      "skipConfirmation": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "delete_schematic_component",
+    "tag": "U6u6",
+    "args": {
+      "primitiveId": "e8362",
+      "skipConfirmation": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

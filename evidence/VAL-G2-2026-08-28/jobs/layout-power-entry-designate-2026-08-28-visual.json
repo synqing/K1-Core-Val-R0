@@ -1,0 +1,35 @@
+{
+  "captured_after_settle": true,
+  "checks": [
+    {
+      "detail": "Settled screenshot of the qualification sheet. Census: 11 components, 0 wires, hash 20060:4ea99dec.",
+      "name": "declared block visible at useful scale",
+      "result": "OK"
+    },
+    {
+      "detail": "Affected ['C1', 'C2', 'CS11', 'CS22', 'CS33', 'D1', 'F1', 'J1', 'R1', 'R2', 'U1']. Undesignated tokens now: none.",
+      "name": "no duplicates placeholders or undesignated debris",
+      "result": "OK"
+    },
+    {
+      "detail": "Pin glyphs are not readable at whole-sheet zoom. Named-net ATTR census in the semantic read-back is the electrical proof.",
+      "name": "changed labels pins and geometry readable",
+      "result": "OK"
+    },
+    {
+      "detail": "Saved=True. Single Option-C sheet. Scope POWER_ENTRY designate.",
+      "name": "no unrelated movement additions or deletions",
+      "result": "OK"
+    }
+  ],
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "intended_delta": "Apply final POWER_ENTRY reference designators and values without moving Captain box geometry",
+  "observed_delta": "POWER_ENTRY has final reference designators and values, remains wholly inside box 1, and no box geometry or unrelated domain content moved.",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "scale": "whole_sheet",
+  "schema_version": 1,
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/screenshots/layout-power-entry-designated.png",
+  "transaction_id": "layout-power-entry-designate-2026-08-28",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED"
+}

@@ -1,0 +1,216 @@
+[
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C3",
+    "args": {
+      "componentPrimitiveId": "e14094",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C4",
+    "args": {
+      "componentPrimitiveId": "e14130",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "CS02",
+    "args": {
+      "componentPrimitiveId": "e14166",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "5V_SYS"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "CS13",
+    "args": {
+      "componentPrimitiveId": "e14202",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "5V_SYS"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "CS24",
+    "args": {
+      "componentPrimitiveId": "e14238",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "5V_SYS"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "CS35",
+    "args": {
+      "componentPrimitiveId": "e14274",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "1",
+          "net": "5V_SYS"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R3",
+    "args": {
+      "componentPrimitiveId": "e14310",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "2",
+          "net": "INA_ALERT"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R4",
+    "args": {
+      "componentPrimitiveId": "e14349",
+      "connections": [
+        {
+          "pinNumber": "2",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "1",
+          "net": "I2C_SDA"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "RSH1",
+    "args": {
+      "componentPrimitiveId": "e14388",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "5V_PROTECTED"
+        },
+        {
+          "pinNumber": "2",
+          "net": "5V_SYS"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U2",
+    "args": {
+      "componentPrimitiveId": "e14426",
+      "connections": [
+        {
+          "pinNumber": "9",
+          "net": "5V_PROTECTED"
+        },
+        {
+          "pinNumber": "7",
+          "net": "GND"
+        },
+        {
+          "pinNumber": "8",
+          "net": "5V_SYS"
+        },
+        {
+          "pinNumber": "9",
+          "net": "5V_SYS"
+        },
+        {
+          "pinNumber": "6",
+          "net": "3V3"
+        },
+        {
+          "pinNumber": "4",
+          "net": "I2C_SDA"
+        },
+        {
+          "pinNumber": "5",
+          "net": "I2C_SCL"
+        },
+        {
+          "pinNumber": "3",
+          "net": "INA_ALERT"
+        }
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

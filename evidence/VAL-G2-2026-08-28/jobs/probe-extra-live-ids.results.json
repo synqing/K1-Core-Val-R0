@@ -1,0 +1,202 @@
+[
+ {
+  "tag": "e8693",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8693",
+   "primitive": [
+    {
+     "async": true,
+     "primitiveType": "Component",
+     "componentType": "netflag",
+     "component": {
+      "uuid": "639edadf58744cb9b4e138e70b42603e"
+     },
+     "x": 5035,
+     "y": 560,
+     "subPartName": "",
+     "rotation": 0,
+     "mirror": false,
+     "addIntoBom": true,
+     "addIntoPcb": true,
+     "net": "GND"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "e8715",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8715",
+   "primitive": [
+    {
+     "async": true,
+     "primitiveType": "Component",
+     "componentType": "netflag",
+     "component": {
+      "uuid": "639edadf58744cb9b4e138e70b42603e"
+     },
+     "x": 4915,
+     "y": 455,
+     "subPartName": "",
+     "rotation": 0,
+     "mirror": false,
+     "addIntoBom": true,
+     "addIntoPcb": true,
+     "net": "GND"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "e8727",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8727",
+   "primitive": [
+    {
+     "async": true,
+     "primitiveType": "Component",
+     "componentType": "netflag",
+     "component": {
+      "uuid": "639edadf58744cb9b4e138e70b42603e"
+     },
+     "x": 3840,
+     "y": 460,
+     "subPartName": "",
+     "rotation": 0,
+     "mirror": false,
+     "addIntoBom": true,
+     "addIntoPcb": true,
+     "net": "GND"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "e8751",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8751",
+   "primitive": [
+    {
+     "async": true,
+     "primitiveType": "Component",
+     "componentType": "netflag",
+     "component": {
+      "uuid": "639edadf58744cb9b4e138e70b42603e"
+     },
+     "x": 3975,
+     "y": 445,
+     "subPartName": "",
+     "rotation": 0,
+     "mirror": false,
+     "addIntoBom": true,
+     "addIntoPcb": true,
+     "net": "GND"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "e8764",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8764",
+   "primitive": [
+    {
+     "async": true,
+     "primitiveType": "Component",
+     "componentType": "netflag",
+     "component": {
+      "uuid": "639edadf58744cb9b4e138e70b42603e"
+     },
+     "x": 2610,
+     "y": 385,
+     "subPartName": "",
+     "rotation": 0,
+     "mirror": false,
+     "addIntoBom": true,
+     "addIntoPcb": true,
+     "net": "GND"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "e8832",
+  "ok": true,
+  "result": {
+   "primitiveId": "e8832",
+   "primitive": [
+    {
+     "async": true,
+     "primitiveType": "Component",
+     "componentType": "netflag",
+     "component": {
+      "uuid": "639edadf58744cb9b4e138e70b42603e"
+     },
+     "x": 490,
+     "y": 345,
+     "subPartName": "",
+     "rotation": 0,
+     "mirror": false,
+     "addIntoBom": true,
+     "addIntoPcb": true,
+     "net": "GND"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "e5336",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5336",
+   "primitive": [
+    {
+     "async": true,
+     "primitiveType": "Component",
+     "componentType": "netflag",
+     "component": {
+      "uuid": "639edadf58744cb9b4e138e70b42603e"
+     },
+     "x": 1910,
+     "y": 425,
+     "subPartName": "",
+     "rotation": 0,
+     "mirror": false,
+     "addIntoBom": true,
+     "addIntoPcb": true,
+     "net": "GND"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "e5838",
+  "ok": true,
+  "result": {
+   "primitiveId": "e5838",
+   "primitive": [
+    {
+     "async": true,
+     "primitiveType": "Component",
+     "componentType": "netflag",
+     "component": {
+      "uuid": "639edadf58744cb9b4e138e70b42603e"
+     },
+     "x": 6530,
+     "y": 420,
+     "subPartName": "",
+     "rotation": 0,
+     "mirror": false,
+     "addIntoBom": true,
+     "addIntoPcb": true,
+     "net": "GND"
+    }
+   ]
+  }
+ }
+]

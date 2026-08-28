@@ -1,0 +1,35 @@
+{
+  "captured_after_settle": true,
+  "checks": [
+    {
+      "detail": "Settled screenshot of the qualification sheet. Census: 129 components, 391 wires, hash 256929:b5a47838.",
+      "name": "declared block visible at useful scale",
+      "result": "OK"
+    },
+    {
+      "detail": "Affected ['C43', 'C44', 'FB4', 'J7', 'R21', 'R22', 'U10']. Undesignated tokens now: none.",
+      "name": "no duplicates placeholders or undesignated debris",
+      "result": "OK"
+    },
+    {
+      "detail": "Pin glyphs are not readable at whole-sheet zoom. Named-net ATTR census in the semantic read-back is the electrical proof.",
+      "name": "changed labels pins and geometry readable",
+      "result": "OK"
+    },
+    {
+      "detail": "Saved=True. Single Option-C sheet. Scope ESP_USB wire.",
+      "name": "no unrelated movement additions or deletions",
+      "result": "OK"
+    }
+  ],
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "intended_delta": "Wire the complete ESP_USB circuit block from FIXTURE-PLAN.json",
+  "observed_delta": "ESP_USB wired. Wires 363 to 391. USB_DP=3 USB_DM=3 USB_DP_S3=2 USB_DM_S3=2 USB_CC1=3 USB_CC2=3 S3_VBUS=5 S3_VBUS_F=1 GND=123. Hash 256929:b5a47838. Components still 129.",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "scale": "whole_sheet",
+  "schema_version": 1,
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/screenshots/esp-usb-after-wire.png",
+  "transaction_id": "wire-esp-usb-2026-08-28",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED"
+}

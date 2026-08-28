@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "transaction_id": "reconcile-canonical-audio-prewrite-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash": "462729:32624035",
+  "census": {
+    "components": 218,
+    "wires": 645,
+    "texts": 19,
+    "rectangles": 10,
+    "designators": 218,
+    "named_nets": 133
+  }
+}

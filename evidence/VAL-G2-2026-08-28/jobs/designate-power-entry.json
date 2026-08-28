@@ -1,0 +1,145 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C1",
+    "args": {
+      "primitiveId": "e13260",
+      "designator": "C1",
+      "name": "22uF",
+      "manufacturerId": "GRM21BR61E226ME44L",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C2",
+    "args": {
+      "primitiveId": "e13296",
+      "designator": "C2",
+      "name": "22uF",
+      "manufacturerId": "GRM21BR61E226ME44L",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "CS11",
+    "args": {
+      "primitiveId": "e13332",
+      "designator": "CS11",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "CS22",
+    "args": {
+      "primitiveId": "e13368",
+      "designator": "CS22",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "CS33",
+    "args": {
+      "primitiveId": "e13404",
+      "designator": "CS33",
+      "name": "100nF",
+      "manufacturerId": "GRM155R71C104KA88D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "D1",
+    "args": {
+      "primitiveId": "e13440",
+      "designator": "D1",
+      "name": "TVS",
+      "manufacturerId": "USBLC6-2SC6",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "F1",
+    "args": {
+      "primitiveId": "e13489",
+      "designator": "F1",
+      "name": "220ohm@100MHz",
+      "manufacturerId": "BLM21PG221SN1D",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "J1",
+    "args": {
+      "primitiveId": "e13527",
+      "designator": "J1",
+      "name": "USB-C-PWR",
+      "manufacturerId": "USB4105-GF-A",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R1",
+    "args": {
+      "primitiveId": "e13614",
+      "designator": "R1",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R2",
+    "args": {
+      "primitiveId": "e13653",
+      "designator": "R2",
+      "name": "100k",
+      "manufacturerId": "RC0402FR-07100KL",
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U1",
+    "args": {
+      "primitiveId": "e13692",
+      "designator": "U1",
+      "name": "eFuse",
+      "manufacturerId": "TPS259474L",
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1991698f35bf4c09b8de4bcf78bd2b7b"
+    }
+  }
+]

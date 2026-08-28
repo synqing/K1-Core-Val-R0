@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "transaction_id": "reconcile-captain-current-box1-2026-08-28",
+  "project_uuid": "09e9c541fd3d404082d4b92e55ae5336",
+  "document_uuid": "1991698f35bf4c09b8de4bcf78bd2b7b",
+  "intended_delta": "Reconcile the Captain-authorised current box-1 placement after the stale repair compare-and-swap was refused",
+  "observed_delta": "The current saved sheet contains 21 -PWR components in box 1, ten preserved domain rectangles, empty remaining boxes, and a known INA226 VIN pin defect queued for the next repair.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/screenshots/reconcile-captain-current-box1-clean.png",
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name":"current placement is visible","result":"OK","detail":"Box 1 is visible at a scale that exposes all 21 components and their group placement."},
+    {"name":"Captain boxes are preserved","result":"OK","detail":"Semantic read-back contains exactly ten rectangles; the visible first-row and second-row frames remain aligned."},
+    {"name":"domain designators are preserved","result":"OK","detail":"All 21 current references end in -PWR; no bare or placeholder designator remains in box 1."},
+    {"name":"known defect is bounded","result":"OK","detail":"The INA226 VIN mapping and stranded negative-Y 5V_SYS wire are explicitly identified as the sole next repair; no stale source candidate was applied."}
+  ]
+}

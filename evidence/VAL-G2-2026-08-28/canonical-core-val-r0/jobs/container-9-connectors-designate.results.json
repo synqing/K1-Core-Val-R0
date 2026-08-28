@@ -1,0 +1,133 @@
+[
+ {
+  "tag": "J2",
+  "ok": true,
+  "result": {
+   "primitiveId": "e14825",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "31729533454f45639fdf055b42e10b37"
+    },
+    "x": 3335,
+    "y": 2812,
+    "subPartName": "B3B-XH-A-3PZZ.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I14825",
+    "symbol": {
+     "uuid": "7bfe2acdb1ae4d5c8dc38fc63fb4cb6f",
+     "libraryUuid": "8c5598a15d984c6aa64044e69046baa2"
+    },
+    "footprint": {
+     "uuid": "c6c86025c90c41a0a75a430f1a104119",
+     "libraryUuid": "8c5598a15d984c6aa64044e69046baa2"
+    },
+    "designator": "J2-LED",
+    "name": "XH-3",
+    "uniqueId": "",
+    "manufacturer": "BXCONN(宝讯)",
+    "manufacturerId": "B3B-XH-A-3PZZ",
+    "supplier": "LCSC",
+    "supplierId": "B3B-XH-A-3PZZ.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Pins Structure": "",
+     "Pitch": "",
+     "Mounting Type": "",
+     "Reference Series": "",
+     "Number of Pins": "",
+     "Number of Rows": "",
+     "Number of PINs Per Row": "",
+     "Row Spacing": "",
+     "Current Rating": "",
+     "Contact Material": "",
+     "Contact Plating": "",
+     "Operating Temperature": "",
+     "Voltage Rating": "",
+     "Plastic Material": "",
+     "Flame Retardant Rating": "",
+     "Color": "",
+     "Z-Height of the Board": "",
+     "X-Length of Bottom Edge on Board (Spacing Line)": "",
+     "Y-Width of Bottom Edge on Board": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "J3",
+  "ok": true,
+  "result": {
+   "primitiveId": "e14876",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "31729533454f45639fdf055b42e10b37"
+    },
+    "x": 3575,
+    "y": 2812,
+    "subPartName": "B3B-XH-A-3PZZ.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I14876",
+    "symbol": {
+     "uuid": "7bfe2acdb1ae4d5c8dc38fc63fb4cb6f",
+     "libraryUuid": "8c5598a15d984c6aa64044e69046baa2"
+    },
+    "footprint": {
+     "uuid": "c6c86025c90c41a0a75a430f1a104119",
+     "libraryUuid": "8c5598a15d984c6aa64044e69046baa2"
+    },
+    "designator": "J3-LED",
+    "name": "XH-3",
+    "uniqueId": "",
+    "manufacturer": "BXCONN(宝讯)",
+    "manufacturerId": "B3B-XH-A-3PZZ",
+    "supplier": "LCSC",
+    "supplierId": "B3B-XH-A-3PZZ.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Pins Structure": "",
+     "Pitch": "",
+     "Mounting Type": "",
+     "Reference Series": "",
+     "Number of Pins": "",
+     "Number of Rows": "",
+     "Number of PINs Per Row": "",
+     "Row Spacing": "",
+     "Current Rating": "",
+     "Contact Material": "",
+     "Contact Plating": "",
+     "Operating Temperature": "",
+     "Voltage Rating": "",
+     "Plastic Material": "",
+     "Flame Retardant Rating": "",
+     "Color": "",
+     "Z-Height of the Board": "",
+     "X-Length of Bottom Edge on Board (Spacing Line)": "",
+     "Y-Width of Bottom Edge on Board": "",
+     "Description": ""
+    }
+   },
+   "saved": true
+  }
+ }
+]
