@@ -6,6 +6,11 @@ import argparse
 import json
 from pathlib import Path
 
+import sys as _sys, pathlib as _pathlib
+_sys.path.insert(0, str(_pathlib.Path(__file__).resolve().parent))
+from easyeda_source_format import require_v2  # V2/V3 serialisation guard
+
+
 
 CANONICAL_PAGE = "1435cb46f39e48c8a8aadbb84ca81603"
 
@@ -26,6 +31,8 @@ def main() -> int:
     source_hash = snapshot.get("sourceHash") or snapshot.get("source_hash")
     if not source_hash:
         raise SystemExit("snapshot is missing sourceHash")
+
+    require_v2(snapshot["source"], tool="easyeda_remove_source_records")
 
     rows = [json.loads(line) for line in snapshot["source"].splitlines() if line.strip()]
     if args.records:

@@ -1,5 +1,16 @@
 #!/usr/bin/env python3
-"""Place one Option-C fixture block from FIXTURE-PLAN.json onto the live EasyEDA sheet.
+"""QUARANTINED 2026-08-28 — DO NOT RUN. Superseded by D-042 and D-045.
+
+This script targets the TERMINATED qualification project (09e9c541…) via the RETIRED
+mutation lane, and its `ABANDONED` constant names the LIVE canonical board
+(64325d0e…) — the polarity is inverted relative to current authority. It also predates
+the EasyEDA 3.2.149 migration: its plan inputs are RETIRED_BY_D_042 and the V2 source
+grammar it assumes no longer exists.
+
+Kept as evidence of the VAL-G2.0B lane. Any canonical work uses the canonical gate named
+in project.yaml. Delete this guard only with explicit Captain authority.
+
+Place one Option-C fixture block from FIXTURE-PLAN.json onto the live EasyEDA sheet.
 
 One visually atomic block per invocation. Never invent QUAL/CIRCUIT_PATH nets.
 Plan device_uuid values are md5 keys — use library-bind-map.json live UUIDs.
@@ -12,6 +23,12 @@ import re
 import subprocess
 import sys
 from pathlib import Path
+
+raise SystemExit(
+    "execute_fixture_block.py is QUARANTINED (D-042/D-045): it writes to the terminated "
+    "qualification project via the retired mutation lane, and predates the EasyEDA 3.2.149 "
+    "source-format change. Use the canonical gate named in project.yaml."
+)
 
 REPO = Path("/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0")
 sys.path.insert(0, str(REPO / "harness"))

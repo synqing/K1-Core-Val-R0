@@ -172,6 +172,14 @@ import pathlib
 import sys
 from collections import Counter, defaultdict
 
+import sys as _sys, pathlib as _pathlib
+_sys.path.insert(0, str(_pathlib.Path(__file__).resolve().parent))
+from easyeda_source_format import (  # V2/V3 serialisation, format-agnostic
+    SourceFormatError,
+    parse_records_any_format,
+)
+
+
 SCHEMA_VERSION = 2
 
 # Pin read-backs report y in screen space, negated relative to the source records.
@@ -257,18 +265,35 @@ def min_pin_pitch(pin_points: list[tuple[int, int]]) -> int:
 # --------------------------------------------------------------------------
 
 def parse_records(text: str) -> list[list]:
-    records: list[list] = []
-    for line in text.split("\n"):
-        line = line.strip()
-        if not line.startswith("["):
-            continue
-        try:
-            row = json.loads(line)
-        except json.JSONDecodeError:
-            continue
-        if isinstance(row, list) and row:
-            records.append(row)
-    return records
+    """Parse a document source into V2-shaped rows, whichever grammar (V2 tagged
+    arrays or V3 typed header||payload records) the snapshot is actually in.
+
+    ONE internal representation. The V3 named-field grammar is normalised into
+    the V2 positional rows at this boundary — including the y-axis negation, see
+    `easyeda_source_format` — so nothing below this line forks per host version.
+
+    Any refusal from the parse layer (unrecognised serialisation, record-shape
+    drift, a truncated record) is converted to FailClosed here, so the oracle's
+    contract holds: it either measures the property or it declines. It never
+    reports a verdict over a document it could not fully read.
+    """
+    try:
+        return parse_records_any_format(text, tool="check_schematic_connectivity.parse_records")
+    except SourceFormatError as exc:
+        raise FailClosed(
+            f"parsed zero source records — the snapshot could not be read at all: {exc}"
+        ) from exc
+    except (TypeError, ValueError) as exc:
+        # Backstop. The shape gate in easyeda_source_format is the real guard and
+        # it is proven by mutation (neuter it and four battery cases go RED). This
+        # catches an unforeseen drift the gate does not enumerate, so the CLI still
+        # exits FAIL-CLOSED(2) instead of dying with a traceback — a crash is not a
+        # verdict, but it is also not a refusal a caller can act on.
+        raise FailClosed(
+            f"parsed zero source records — the snapshot could not be read at all: "
+            f"unhandled {exc.__class__.__name__} while normalising records ({exc}). "
+            f"Suspect UNENUMERATED RECORD-SHAPE DRIFT in the host serialisation."
+        ) from exc
 
 
 def extract_topology(records: list[list]) -> dict:
@@ -928,6 +953,29 @@ BATTERY = [
      "OFF-SHEET: a wire with a negative coordinate — the one class with no tolerance "
      "or registration caveat", None,
      {"off_sheet_wires": 1}),
+    # ---- V3 grammar (EasyEDA Pro 3.2.149) ---------------------------------
+    # Same sheet, other grammar. The V3 fixture is the byte-for-byte semantic
+    # twin of `joined-net`: two parts, two labelled stubs meeting at (120,100),
+    # written as typed header||payload records with y NEGATED and the wire
+    # geometry moved out into LINE records. It must reach the SAME verdict, and
+    # `run_self_test` additionally asserts the two reports are IDENTICAL — that
+    # equality is what proves the analysis did not fork per host version.
+    ("v3-joined-net", "GREEN",
+     "V3 GRAMMAR CONTROL: the V2 `joined-net` sheet re-serialised as 3.2.149 typed records — "
+     "goes RED if the y-negation or the LINE->WIRE fold is wrong", None,
+     {"net_labels_meeting_fewer_than_two_pins": 0, "wires_not_meeting_any_pin": 0,
+      "pin_landing_rate_pct": 100, "pins_loaded": 2}),
+    ("v3-shape-drift", "FAIL-CLOSED",
+     "RECORD-SHAPE DRIFT: V3 COMPONENT payload renamed x -> posX. A parser that shrugs "
+     "reports a smaller sheet, not a broken one",
+     "RECORD-SHAPE DRIFT", None),
+    ("v3-truncated-record", "FAIL-CLOSED",
+     "TRUNCATED V3 RECORD: last payload cut mid-object — must refuse the file, not skip "
+     "the line and measure the remainder",
+     "TRUNCATED RECORD", None),
+    ("v3-no-wires", "FAIL-CLOSED",
+     "V3 components present, zero WIRE records — the fail-closed path survives the new "
+     "grammar", "zero WIRE records", None),
     ("empty-source", "FAIL-CLOSED", "zero parseable records", "zero source records", None),
     ("no-wires", "FAIL-CLOSED", "components present, zero WIRE records", "zero WIRE records", None),
     ("no-pin-data", "FAIL-CLOSED",
@@ -1019,6 +1067,41 @@ def run_self_test(verbose: bool = True) -> int:
         if verbose:
             print("  [BAD] tolerance guard fixture missing")
 
+    # ---- CROSS-GRAMMAR EQUALITY -------------------------------------------
+    # The two fixtures are the SAME sheet in the two serialisations. Matching
+    # verdicts is not enough — two different sheets can both be GREEN. The whole
+    # report must be identical, or the analysis forked on the grammar somewhere.
+    grammar_failures = 0
+    pair = (FIXTURE_DIR / "joined-net", FIXTURE_DIR / "v3-joined-net")
+    if all((p / "source.txt").is_file() for p in pair):
+        try:
+            reports = [
+                analyse((p / "source.txt").read_text(), [p / "pins.json"]) for p in pair
+            ]
+            differing = sorted(
+                key for key in set(reports[0]) | set(reports[1])
+                if reports[0].get(key) != reports[1].get(key)
+            )
+            ok = not differing
+            grammar_failures += 0 if ok else 1
+            if verbose:
+                print("  CROSS-GRAMMAR EQUALITY (joined-net V2 vs v3-joined-net V3, same sheet):")
+                print(f"  [{'ok ' if ok else 'BAD'}] every report section identical"
+                      + ("" if ok else f" — DIFFERING SECTIONS: {differing}"))
+                if not ok:
+                    for key in differing:
+                        print(f"          {key}: V2={reports[0].get(key)!r}")
+                        print(f"          {key}: V3={reports[1].get(key)!r}")
+        except FailClosed as exc:
+            grammar_failures += 1
+            if verbose:
+                print(f"  [BAD] cross-grammar equality could not run: {exc}")
+    else:
+        grammar_failures += 1
+        if verbose:
+            print("  [BAD] cross-grammar equality fixtures missing "
+                  "(joined-net and/or v3-joined-net)")
+
     red_seen = sum(1 for r in results if r[2] == "RED")
     closed_seen = sum(1 for r in results if r[2] == "FAIL-CLOSED")
     if verbose:
@@ -1029,12 +1112,12 @@ def run_self_test(verbose: bool = True) -> int:
     if red_seen == 0 or closed_seen == 0:
         print("SELF_TEST=FAIL-CLOSED battery produced no RED or no FAIL-CLOSED case", file=sys.stderr)
         return 2
-    if failures or guard_failures:
-        print(f"SELF_TEST=FAIL {len(failures) + guard_failures} case(s) did not match expectation",
-              file=sys.stderr)
+    if failures or guard_failures or grammar_failures:
+        print(f"SELF_TEST=FAIL {len(failures) + guard_failures + grammar_failures} case(s) did "
+              f"not match expectation", file=sys.stderr)
         return 1
-    print("SELF_TEST=OK every battery case matched, including the RED, abstention and "
-          "tolerance-guard controls")
+    print("SELF_TEST=OK every battery case matched, including the RED, abstention, "
+          "tolerance-guard, V3-grammar and cross-grammar-equality controls")
     return 0
 
 

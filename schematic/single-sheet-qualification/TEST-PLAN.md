@@ -35,9 +35,10 @@ state and ledger named in `project.yaml`.
 - The next write remains blocked until structured visual evidence closes the current transaction.
 - Screenshot capture/zoom failure, unreadable scale, unexpected content or semantic disagreement
   rejects the transaction. Only a declared repair/rollback transaction may follow.
-- The only current runtime lock state is recorded in
-  `evidence/VAL-G2-2026-08-28/EASYEDA-MUTATION-STATE.json`; the append-only event history is
-  `EASYEDA-MUTATION-LEDGER.jsonl` in the same directory.
+- HISTORICAL (this lane is TERMINATED by D-042): the lock state that governed *this retired lane*
+  was `evidence/VAL-G2-2026-08-28/EASYEDA-MUTATION-STATE.json` with `EASYEDA-MUTATION-LEDGER.jsonl`
+  beside it. That lane now carries a `LANE-RETIRED` marker and must not be written.
+  The **current** runtime lock state is the canonical gate named under `canonical_*` in `project.yaml`.
 - Run `python3 harness/easyeda_mutation_gate.py validate` before actuation. Static documentation
   describes policy and results; it never overrides the machine state.
 

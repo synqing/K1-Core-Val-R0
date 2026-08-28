@@ -6,11 +6,17 @@ import argparse
 import json
 from pathlib import Path
 
+import sys as _sys, pathlib as _pathlib
+_sys.path.insert(0, str(_pathlib.Path(__file__).resolve().parent))
+from easyeda_source_format import require_v2  # V2/V3 serialisation guard
+
+
 
 PAGE = "1435cb46f39e48c8a8aadbb84ca81603"
 
 
 def rows_for(snapshot: dict) -> list[list[object]]:
+    require_v2(snapshot["source"], tool="easyeda_repair_source_swap")
     return [json.loads(line) for line in snapshot["source"].splitlines() if line.strip()]
 
 

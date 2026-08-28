@@ -182,6 +182,7 @@ design. The approach optimised a proxy after severing it from the thing it was m
 | K1E-062 | Static prose drifts from live transaction state | Runtime phase belongs only to the validated state file and append-only ledger |
 | K1E-063 | A timing-dependent test can report a false contradiction | Test durable invariants; query mutable runtime state separately |
 | K1E-064 | Every committed mutation must extend one continuous source-hash chain | An unexplained pre-hash change means an unrecorded write and forces quarantine |
+| K1E-064A | A host upgrade re-serialises every page, so the hash chain breaks ONCE at that boundary without any unrecorded write | Before invoking K1E-064/F-20/D-040, check the source FORMAT: if the pre-hash is V2 (`easyeda_source_format.detect_format` -> `V2_TAGGED_ARRAY`) and live is `V3_TYPED_RECORD`, the discontinuity is the 2026-08-28 EasyEDA 2.2.40.8 -> 3.2.149 migration. Resolve it with `easyeda_mutation_gate.py reconcile`, NEVER with `FROZEN_INCIDENT` |
 | K1E-065 | One live EasyEDA canvas requires one explicit operator | Competing agents must not share actuation ownership even when the gate serialises calls |
 | K1E-066 | Quarantine is a new trust boundary, not historical erasure | Preserve the bad ledger epoch, close actuation and reconcile the live territory afresh |
 | K1E-067 | Reconciliation-capable quarantine cannot stop a genuinely unowned continuation loop | Use `FROZEN_INCIDENT` only after ownership is actually unresolved, never merely because another authorised agent is active |
@@ -211,6 +212,7 @@ design. The approach optimised a proxy after severing it from the thing it was m
 | F-18 | Static status still named the installation phase after runtime advanced | State file plus ledger own the live phase; prose owns policy only |
 | F-19 | Independent agent processes could race on an atomically replaced JSON file | OS-level file locking serialises every transition |
 | F-20 | Reconciliation hash `222135:c6b343ed` was followed by begin hash `222137:a9bf996e` | Full ledger replay enforces hash continuity and quarantines unexplained changes |
+| F-20B | The canonical gate hash `497055:82c17c12` is a V2 charcount; the live V3 page is ~2154721 chars. Read through K1E-064 alone this looks like a 4.3x unexplained write and invites an unreleasable freeze | A hash discontinuity must be classified by FORMAT before ownership: host migration first, rogue operator second |
 | F-20A | I inferred that the continuing operator was unowned and froze it; Captain confirmed it was authorised and productive | Release the freeze immediately; operator identity must be established before containment |
 | F-21 | Future/checker scaffolding risked becoming vacuous green theatre | Create checks only when their artefacts exist; zero parsed records is always rejected |
 | F-22 | A fluent report or self-issued verdict displaced external evidence | Builder output remains a proposal until independent read-back, render and contract evidence agree |

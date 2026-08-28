@@ -1,0 +1,11 @@
+{"type":"DOCHEAD"}||{"docType":"SCH_PAGE","editVersion":"3.2.149.88089769"}|
+{"type":"COMPONENT","ticket":1,"id":"c1"}||{"partId":"","posX":100,"y":-100,"rotation":0,"attrs":{}}|
+{"type":"ATTR","ticket":2,"id":"a1"}||{"key":"Designator","value":"R1","parentId":"c1","x":100,"y":-110}|
+{"type":"COMPONENT","ticket":3,"id":"c2"}||{"partId":"","posX":140,"y":-100,"rotation":0,"attrs":{}}|
+{"type":"ATTR","ticket":4,"id":"a2"}||{"key":"Designator","value":"R2","parentId":"c2","x":140,"y":-110}|
+{"type":"WIRE","ticket":5,"id":"w1"}||{"zIndex":5,"locked":false}|
+{"type":"LINE","ticket":6,"id":"l1"}||{"startX":100,"startY":-100,"endX":120,"endY":-100,"lineGroup":"w1"}|
+{"type":"ATTR","ticket":7,"id":"a3"}||{"key":"NET","value":"NETA","parentId":"w1","x":110,"y":-100}|
+{"type":"WIRE","ticket":8,"id":"w2"}||{"zIndex":7,"locked":false}|
+{"type":"LINE","ticket":9,"id":"l2"}||{"startX":120,"startY":-100,"endX":140,"endY":-100,"lineGroup":"w2"}|
+{"type":"ATTR","ticket":10,"id":"a4"}||{"key":"NET","value":"NETA","parentId":"w2","x":130,"y":-100}|

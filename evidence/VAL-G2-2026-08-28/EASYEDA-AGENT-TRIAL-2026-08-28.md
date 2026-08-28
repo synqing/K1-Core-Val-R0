@@ -2,6 +2,14 @@
 abstract: "Trial verdict on integrating zhoushoujianwork/easyeda-agent v1.2.10: CLI + daemon + 37-block circuit library build and work on this Mac, but its connector extension NEVER executes inside EasyEDA Pro 2.2.40.8. ROOT CAUSE CORRECTED 2026-08-28 (see banner): the original loader-rejection explanation is DISPROVEN; leading cause is now an F96-class unguarded eda.sys_* call in activate(). Live block-apply is blocked pending an EasyEDA host upgrade decision. Approved route: harvest block-library JSON (parts/nets/ports + verification provenance) and execute through our own EasyEDA-MCP bridge. Includes full evidence chain and rollback state."
 ---
 
+> **✅ RESOLVED — 2026-08-28, later the same day: the host was upgraded to EasyEDA Pro 3.2.149
+> and the connector WORKS.** It registers a windowId, reports live project context, and executes
+> typed actions (`easyeda sch check` returns 12 itemised findings on the real K1 board). The cause
+> was the host API generation, exactly as the F96-class hypothesis below predicted — not packaging.
+> Full record: `easyeda-v3-migration-plan.html` · memory `easyeda-v3-migration`.
+> The block-harvest workaround in §Decision item 2 is **no longer required**; `sch block-apply`
+> can run natively, while our own bridge stays the gated path for production boards.
+>
 > **⚠ ROOT CAUSE SUPERSEDED — 2026-08-28 (same day, later session).**
 > The conclusion below that "the 2.2.40.8 extension loader silently declines the connector bundle
 > (3.2-era eext format/entry)" **did not survive verification and must not be repeated.**
@@ -108,4 +116,5 @@ which is the execution path this repo already trusts and gates.
 | Date | Author | Change |
 |------|--------|--------|
 | 2026-08-28 | agent:claude (Fable 5) | Created — trial execution record, connector root-cause evidence, verdict and decision options |
+| 2026-08-28 | agent:claude (Opus 5) | RESOLVED — host upgraded to 3.2.149; connector works, typed actions verified on the live board |
 | 2026-08-28 | agent:claude (Opus 5) | Root cause SUPERSEDED — loader-rejection inference disproven (working gateway shares identical engines/types pin); F96 unguarded-mount now the leading hypothesis. Upgrade decision rescoped against verified version landscape (3.2.149 current, 2.2.40.8 unobtainable, .epro2 one-way). Client bundle archived. Added pointer to easyeda-v3-migration-plan.html |

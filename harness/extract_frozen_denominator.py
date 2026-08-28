@@ -20,6 +20,11 @@ import pathlib
 import sys
 from collections import Counter, defaultdict
 
+import sys as _sys, pathlib as _pathlib
+_sys.path.insert(0, str(_pathlib.Path(__file__).resolve().parent))
+from easyeda_source_format import parse_records_any_format  # V2/V3 serialisation, format-agnostic
+
+
 SCHEMA_VERSION = 1
 
 
@@ -28,15 +33,7 @@ def load_records(snapshot: pathlib.Path) -> tuple[dict, list]:
     for key in ("source", "source_hash", "project_uuid", "document_uuid"):
         if key not in payload:
             raise SystemExit(f"snapshot missing required key {key!r}: {snapshot}")
-    records = []
-    for line in payload["source"].split("\n"):
-        line = line.strip()
-        if not line.startswith("["):
-            continue
-        try:
-            records.append(json.loads(line))
-        except json.JSONDecodeError:
-            continue
+    records = parse_records_any_format(payload["source"], tool="extract_frozen_denominator")
     if not records:
         raise SystemExit(f"parsed zero records from {snapshot} — refusing to emit a denominator")
     return payload, records

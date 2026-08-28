@@ -21,18 +21,31 @@ eda:
   rejected_fixture_project_uuid: 09e9c541fd3d404082d4b92e55ae5336
   rejected_fixture_content_state: DELETED
   qualification_project_uuid: 09e9c541fd3d404082d4b92e55ae5336
-  qualification_project_state: SEE_MUTATION_STATE_FILE
+  qualification_project_state: TERMINATED_BY_D_042  # do not write; lane carries a LANE-RETIRED marker
   qualification_schematic_uuid: e76808fa778140bfa1975a73f10d17d6
   qualification_page_uuid: 1991698f35bf4c09b8de4bcf78bd2b7b
   screenshot_after_every_mutation: REQUIRED
-  mutation_gate_state_file: evidence/VAL-G2-2026-08-28/EASYEDA-MUTATION-STATE.json
-  mutation_gate_ledger: evidence/VAL-G2-2026-08-28/EASYEDA-MUTATION-LEDGER.jsonl
+  # RENAMED 2026-08-28 (D-042/D-045): these unqualified keys pointed at the RETIRED
+  # qualification lane and read as "the" mutation gate. The active gate is canonical_* below.
+  retired_qualification_mutation_gate_state_file: evidence/VAL-G2-2026-08-28/EASYEDA-MUTATION-STATE.json
+  retired_qualification_mutation_gate_ledger: evidence/VAL-G2-2026-08-28/EASYEDA-MUTATION-LEDGER.jsonl
   canonical_project_uuid: 64325d0e55e0435abd018defb0089a9b
   canonical_schematic_uuid: cffcdb562c1b48d1a5214cfc263b6c90
   canonical_page_uuid: 1435cb46f39e48c8a8aadbb84ca81603
   canonical_mutation_gate_state_file: evidence/VAL-G2-2026-08-28/canonical-core-val-r0/MUTATION-STATE.json
   canonical_mutation_gate_ledger: evidence/VAL-G2-2026-08-28/canonical-core-val-r0/MUTATION-LEDGER.jsonl
+  canonical_project_slug: spectrasynq/K1-Core-Val-R0   # was spectrasynq/project_apevgyqq before the 3.2.149 migration
   execution_canon: docs/agent/EASYEDA-EXECUTION-CANON.md
+
+  # Host identity — recorded 2026-08-28 (D-045). Absent before, so nothing in authority
+  # pinned which client or source grammar the harness was written against.
+  easyeda_client_version: 3.2.149
+  easyeda_client_bundle: /Applications/EasyEDA-Pro.app
+  easyeda_previous_client_version: 2.2.40.8
+  easyeda_previous_client_bundle: /Applications/EasyEDA-Pro-2.2.40.8.app  # opens pre-migration .epro backups ONLY
+  easyeda_project_format: epro2
+  easyeda_source_grammar: V3_TYPED_RECORD  # harness/easyeda_source_format.py detects and guards this
+  positional_source_parsers_status: OUT_OF_SERVICE_PENDING_V3_REWRITE
 
 mechanical:
   thickness_mm: 1.6

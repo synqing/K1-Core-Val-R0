@@ -113,6 +113,15 @@
     max-width: 68ch;
   }
   .verdict strong { color: var(--copper); }
+  .verdict.done { border-left-color: var(--verdigris); background: var(--verdigris-wash); }
+  .verdict.done strong { color: var(--verdigris); }
+  .outcome { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 1px; background: var(--rule); border: 1px solid var(--rule); margin-top: 20px; }
+  .ocard { background: var(--surface); padding: 16px 18px; }
+  .ocard.ok { box-shadow: inset 3px 0 0 var(--verdigris); }
+  .olab { font-family: "IBM Plex Mono", monospace; font-size: 10.5px; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-faint); }
+  .oval { font-family: "IBM Plex Sans Condensed", sans-serif; font-size: 26px; font-weight: 700; letter-spacing: -.01em; margin: 4px 0 2px; }
+  .ocard.ok .oval { color: var(--verdigris); }
+  .ometa { font-size: 13px; color: var(--ink-soft); line-height: 1.45; }
 
   /* ---------- section ---------- */
   section { margin: 0 0 64px; }
@@ -207,6 +216,9 @@
   .opt.rec { box-shadow: inset 3px 0 0 var(--verdigris); }
   .opt.rec .key { color: var(--verdigris); }
   .opt h3 { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .superseded { color: var(--ink-soft); }
+  .superseded s { color: var(--ink-faint); }
+  .rec-flag.super { color: var(--ink-faint); border-color: var(--rule-strong); }
   .rec-flag { font-family: "IBM Plex Mono", monospace; font-size: 11px; letter-spacing: .1em; text-transform: uppercase; color: var(--verdigris); border: 1px solid var(--verdigris); padding: 2px 8px; }
   .opt p { font-size: 15px; color: var(--ink-soft); margin: 6px 0 0; }
 
@@ -229,8 +241,15 @@
     </div>
     <h1>The V3 one-way door</h1>
     <p class="standfirst">EasyEDA V3 rewrites a project's file format the first time it saves, and a V2.2 client can never open it again. This is what that costs, what it buys, and the order of operations that keeps every rollback available.</p>
-    <div class="verdict">
-      <strong>Verdict:</strong> the upgrade is real and available, but it is not the decision to make first. Two things must happen regardless of whether we ever upgrade — and one of them is already exposed today.
+    <div class="verdict done">
+      <strong>Executed 28 Aug 2026.</strong> The upgrade was authorised and completed. K1-Core-Val-R0 now runs on <strong>3.2.149</strong>; every designator and part id survived; both the MCP bridge and the easyeda-agent connector are live on the new host. The plan below is kept as the record of how it was done and how to reverse it.
+    </div>
+
+    <div class="outcome">
+      <div class="ocard ok"><div class="olab">Design integrity</div><div class="oval">228 / 228</div><div class="ometa">designators survived · 21/21 LCSC part ids · 0 lost</div></div>
+      <div class="ocard ok"><div class="olab">MCP bridge</div><div class="oval">90 / 90</div><div class="ometa">methods live on V3, preflight clean, both gates enabled — no code changes</div></div>
+      <div class="ocard ok"><div class="olab">easyeda-agent</div><div class="oval">Connected</div><div class="ometa">first successful typed action; <code>sch check</code> returns 12 itemised findings</div></div>
+      <div class="ocard"><div class="olab">Rollback</div><div class="oval">Intact</div><div class="ometa">2.2.40.8 app + config + .epro + source snapshots all archived</div></div>
     </div>
   </div>
 </header>
@@ -334,7 +353,7 @@
     <div class="col">
       <h3>1. The hazard is already live, with nothing installed</h3>
       <p>The web editor at pro.easyeda.com serves V3.2 today, and it reaches the same cloud projects as the desktop client. Opening K1 there and letting it save migrates the project — no download, no install, no warning from us. Autosave means "open" and "save" are effectively the same act.</p>
-      <p><strong>Until backups exist, production projects should be opened only in the 2.2.40.8 desktop client.</strong></p>
+      <p class="superseded"><s>Until backups exist, production projects should be opened only in the 2.2.40.8 desktop client.</s> — <strong>SUPERSEDED 28 Aug.</strong> The migration is done. <strong>Never open K1-Core-Val-R0 in the archived 2.2.40.8 client</strong> — the project is now <code>.epro2</code> and V2.2 cannot read it. The archived client exists only to open the pre-migration <code>.epro</code> backup.</p>
 
       <h3>2. Our measuring instrument is broken</h3>
       <p>The bridge's own <code>get_capabilities</code> currently reports 87 of 90 methods unsupported and the <code>dmt_*</code>, <code>sch_*</code> and <code>pcb_*</code> mounts missing. Minutes later <code>list_project_objects</code> — which that report calls unsupported for want of <code>dmt_Board</code> — returned the complete, correct project tree.</p>
@@ -398,7 +417,7 @@
         <h3>Re-architect for version portability</h3>
         <p>Every tool declares the mounts it needs; dispatch resolves them against the live probe manifest at handshake and fails closed, by name, when one is absent — never silently degrading. Add a differential harness that runs the same operation on both hosts and compares the <em>emitted artefacts</em> — netlist, document source, Gerber — not the return flags. 2.2.40.8 stays the reference implementation until that harness is green.</p>
         <div class="pmeta">
-          <span class="tag safe">2.2.40.8 stays primary</span>
+          <span class="tag">historical — V3 is now primary</span>
           <span class="tag gate">GATE: differential harness green on both hosts</span>
         </div>
       </div>
@@ -443,7 +462,7 @@
           <tr>
             <td class="rung">2</td>
             <td>Client-level breakage</td>
-            <td>Relaunch the archived <code>2.2.40.8</code> bundle and restore its user-data directory</td>
+            <td>Relaunch the archived <code>2.2.40.8</code> bundle and restore its user-data directory — <strong>only together with rung 3</strong>, since it cannot open the migrated project</td>
             <td>Minutes</td>
             <td class="nores">Cloud projects already migrated to .epro2</td>
           </tr>
@@ -520,19 +539,29 @@
   </section>
 
   <section>
+    <h2>What actually happened</h2>
+    <div class="col">
+      <p><strong>The door was walked through, and it held.</strong> 3.2.149 was installed beside the archived 2.2.40.8 rather than over it, the project opened and converted, and a differential check against a pre-upgrade source snapshot found <strong>228 of 228 designators and 21 of 21 LCSC part ids intact</strong> — nothing lost.</p>
+      <p><strong>The feared breakage did not occur.</strong> The MCP bridge came up on V3 with all 90 methods and a clean preflight, unmodified. The capability-delta rework budgeted in P3 was not needed.</p>
+      <p><strong>The original goal landed.</strong> easyeda-agent — inert on 2.2.40.8 through an entire session — registers, reports live project context, and executes typed actions on V3. That confirms the failure was the host version, not packaging, and closes the question the trial left open.</p>
+      <p><strong>Two real snags, both understood.</strong> V3 rewrites the extension registry on first run and moves extension menus from the top bar into <em>Advanced</em>, so the bridge and connector appear to vanish until the client is restarted cleanly — the fix is a restart, not a reinstall. And the 2.2-era launchd watchdog is now counterproductive against a V3 client; it is currently unloaded and should be reworked before being re-enabled.</p>
+    </div>
+  </section>
+
+  <section>
     <h2>The decision</h2>
     <div class="options">
-      <div class="opt rec">
+      <div class="opt">
         <div class="key">A</div>
         <div>
-          <h3>Hold on 2.2.40.8 — run P0 and P1 now <span class="rec-flag">Recommended</span></h3>
+          <h3>Hold on 2.2.40.8 — run P0 and P1 now <span class="rec-flag super">Not taken</span></h3>
           <p>Backups, archived client, working capability probe. Costs no upgrade risk, removes the live hazard, and very likely fixes the connector on the current host as a by-product. Everything after stays optional.</p>
         </div>
       </div>
-      <div class="opt">
+      <div class="opt rec">
         <div class="key">B</div>
         <div>
-          <h3>Commit to the full migration, P0 through P4</h3>
+          <h3>Commit to the full migration, P0 through P4 <span class="rec-flag">Taken 28 Aug</span></h3>
           <p>Buys the 3.2 ecosystem, native version control with branch switching, and native APIs that replace hand-rolled bridge methods. Costs real engineering on the bridge and a rehearsed cutover. Reasonable — but only after P1, since the delta cannot be measured until the probe works.</p>
         </div>
       </div>
@@ -545,7 +574,7 @@
       </div>
     </div>
     <div class="default-band">
-      <strong>Default if nothing is said:</strong> P0 and P1 proceed, nothing is installed, no production project is opened outside the 2.2.40.8 client, and the upgrade decision waits for the capability delta.
+      <strong>Resolved 28 Aug 2026:</strong> option B was taken and executed. Remaining follow-ups: rework the launchd watchdog for a V3 host before re-enabling it, and fix <code>get_capabilities</code>, which still reports working mounts as missing on both hosts.
     </div>
   </section>
 
