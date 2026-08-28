@@ -1,0 +1,50 @@
+[
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C92-NFC",
+    "args": {
+      "componentPrimitiveId": "e146025",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C93-NFC",
+    "args": {
+      "componentPrimitiveId": "e146061",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C94-NFC",
+    "args": {
+      "componentPrimitiveId": "e146097",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C95-NFC",
+    "args": {
+      "componentPrimitiveId": "e146133",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C96-NFC",
+    "args": {
+      "componentPrimitiveId": "e146169",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C97-NFC",
+    "args": {
+      "componentPrimitiveId": "e146205",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

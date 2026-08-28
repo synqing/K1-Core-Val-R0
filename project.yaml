@@ -93,6 +93,29 @@ bridge:
   name: K1BR
   transport_class: COMMAND_STATE_TELEMETRY
 
+usb:
+  authority: D-044
+  receptacle_count: 2
+  third_receptacle: FORBIDDEN
+  primary_power_inlet: J1-PWR1
+  rt_direct_usb_connector: J1-PWR1
+  rt_direct_usb_owner: RT1062
+  rt_direct_usb_controller: USB_OTG1
+  j1_type_c_role: SINK
+  service_usb_connector: J7-ESP
+  j7_back_power: FORBIDDEN
+  usb_audio_termination: J1_RT1062_DIRECT
+  k1br_raw_pcm: FORBIDDEN
+  differential_impedance_ohm: 90
+
+floorplan:
+  g3_doctrine: architecture/G3-FLOORPLAN-DOCTRINE.md
+  g3_doctrine_status: RECORDED_NOT_EXECUTED
+  g3_doctrine_binding: false
+  antenna_keepout_rectangle: TOMBSTONED_NEVER_VALID
+  mounting_default: THREE_POINT_TRIANGLE_STUDY
+  usb_edge: LONG_EDGE_HYPOTHESIS_NOT_RATIFIED
+
 terminology:
   AP: AUDIO_PROCESSING_ONLY
   wifi_access_point: WIFI_AP_OR_SOFTAP_OR_ACCESS_POINT

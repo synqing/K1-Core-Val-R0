@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "transaction_id": "esp-label-drift-reconcile-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash": "474399:c735a3f7",
+  "census": {"components": 222, "wires": 657, "texts": 22, "rectangles": 10},
+  "observed": "Live source hash drifted while component and wire census remained unchanged; visual inspection identifies hidden endpoint labels as the pending repair target."
+}

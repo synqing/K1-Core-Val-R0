@@ -1,0 +1,108 @@
+{
+  "affected": [
+    "U12-NFC.2",
+    "U12-NFC.17",
+    "U12-NFC.18",
+    "U12-NFC.19",
+    "U12-NFC.25",
+    "U12-NFC.28",
+    "U12-NFC.29",
+    "U12-NFC.31"
+  ],
+  "applied": [
+    {
+      "action": "set",
+      "attrId": "e151881",
+      "componentPrimitiveId": "e13516",
+      "designator": "U12-NFC",
+      "noConnect": true,
+      "pinId": "e13516e9",
+      "pinNumber": "2"
+    },
+    {
+      "action": "set",
+      "attrId": "e151882",
+      "componentPrimitiveId": "e13516",
+      "designator": "U12-NFC",
+      "noConnect": true,
+      "pinId": "e13516e69",
+      "pinNumber": "17"
+    },
+    {
+      "action": "set",
+      "attrId": "e151883",
+      "componentPrimitiveId": "e13516",
+      "designator": "U12-NFC",
+      "noConnect": true,
+      "pinId": "e13516e73",
+      "pinNumber": "18"
+    },
+    {
+      "action": "set",
+      "attrId": "e151884",
+      "componentPrimitiveId": "e13516",
+      "designator": "U12-NFC",
+      "noConnect": true,
+      "pinId": "e13516e77",
+      "pinNumber": "19"
+    },
+    {
+      "action": "set",
+      "attrId": "e151885",
+      "componentPrimitiveId": "e13516",
+      "designator": "U12-NFC",
+      "noConnect": true,
+      "pinId": "e13516e101",
+      "pinNumber": "25"
+    },
+    {
+      "action": "set",
+      "attrId": "e151886",
+      "componentPrimitiveId": "e13516",
+      "designator": "U12-NFC",
+      "noConnect": true,
+      "pinId": "e13516e113",
+      "pinNumber": "28"
+    },
+    {
+      "action": "set",
+      "attrId": "e151887",
+      "componentPrimitiveId": "e13516",
+      "designator": "U12-NFC",
+      "noConnect": true,
+      "pinId": "e13516e117",
+      "pinNumber": "29"
+    },
+    {
+      "action": "set",
+      "attrId": "e151888",
+      "componentPrimitiveId": "e13516",
+      "designator": "U12-NFC",
+      "noConnect": true,
+      "pinId": "e13516e125",
+      "pinNumber": "31"
+    }
+  ],
+  "census": {
+    "components": 230,
+    "rectangles": 10,
+    "texts": 22,
+    "wires": 675
+  },
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Mark unused ST25R3916B pins with the No Connect cross in box 7: TAD2, EXT_LM, AAT_A, AAT_B, TAD1, MCU_CLK, BSS and MOSI. Do not mark RFO2, RFI2 or I2C_EN.",
+  "post_source_hash": "490331:ca12d078",
+  "pre_source_hash": "489736:464c27d4",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "saved": true,
+  "schema_version": 1,
+  "scope": "NFC",
+  "skipped": [],
+  "source_basis": [
+    "ST25R3916B I2C mode leaves MOSI, BSS, MCU_CLK, TAD and AAT unused",
+    "EasyEDA No Connect is the pin NO_CONNECT attr / green cross",
+    "Captain unused-pin hygiene item 3"
+  ],
+  "stage": "repair",
+  "transaction_id": "canonical-nfc-unused-nc-2026-08-28"
+}

@@ -1,0 +1,6 @@
+[
+  {"tag": "U1", "ok": true, "result": {"componentPrimitiveId": "c1", "count": 1,
+    "pins": [{"primitiveId": "c1p1", "x": 1050, "y": -940, "pinNumber": "1", "rotation": 90}]}},
+  {"tag": "U2", "ok": true, "result": {"componentPrimitiveId": "c2", "count": 1,
+    "pins": [{"primitiveId": "c2p1", "x": 1170, "y": -940, "pinNumber": "1", "rotation": 270}]}}
+]

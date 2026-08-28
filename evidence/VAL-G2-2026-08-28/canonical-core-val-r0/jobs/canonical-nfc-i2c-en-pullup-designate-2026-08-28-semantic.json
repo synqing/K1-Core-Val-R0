@@ -1,0 +1,26 @@
+{
+  "affected": [
+    "R76-NFC"
+  ],
+  "census": {
+    "components": 230,
+    "rectangles": 10,
+    "texts": 22,
+    "wires": 672
+  },
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Designate R76-NFC as 10k RC0402FR-0710KL / C60490. Do not move or wire.",
+  "post_source_hash": "489440:16b6c94a",
+  "pre_source_hash": "488462:cbe81db1",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "saved": true,
+  "schema_version": 1,
+  "scope": "NFC",
+  "source_basis": [
+    "ST25R3916B: I2C_EN high selects I2C; floating is not a valid strap",
+    "FIXTURE-PLAN uses I2C_SDA/SCL, so I2C_EN must be held high",
+    "Captain schDrcLog 2026-08-28 listed U12-NFC.20 as floating"
+  ],
+  "stage": "designate",
+  "transaction_id": "canonical-nfc-i2c-en-pullup-designate-2026-08-28"
+}

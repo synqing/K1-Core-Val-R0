@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-nfc-i2c-en-pullup-designate-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Designate R76-NFC as 10k RC0402FR-0710KL / C60490. Do not move or wire.",
+  "observed_delta": "The new resistor now reads R76-NFC 10k, still under U12 pin 20 I2C_EN and left of Y2, still unwired. Census stays 230/672.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-nfc-i2c-en-pullup-designate-box7.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "R76-NFC exists exactly once",
+      "result": "OK",
+      "detail": "Settled box-7 view shows one R76-NFC under U12 I2C_EN."
+    },
+    {
+      "name": "it reads 10k",
+      "result": "OK",
+      "detail": "The value under R76-NFC is 10k."
+    },
+    {
+      "name": "no extra designator appears",
+      "result": "OK",
+      "detail": "No leftover R? remains. Component census stays 230."
+    },
+    {
+      "name": "position stays at the placed coordinate",
+      "result": "OK",
+      "detail": "R76-NFC remains in the same open space between U12 and Y2, above L2/L3."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-power-buck-pg-pullup-designate-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Designate R75-PWR2 as 10k RC0402FR-0710KL / C60490. Do not move or wire.",
+  "observed_delta": "The new resistor now reads R75-PWR2 10k, still left of U3-PWR2 and still unwired. U3 pin 5 still shows its old NC flag. Census stays 229/669.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-power-buck-pg-pullup-designate-box2.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "R75-PWR2 exists exactly once",
+      "result": "OK",
+      "detail": "Settled box-2 view shows one R75-PWR2 to the left of U3-PWR2."
+    },
+    {
+      "name": "it reads 10k",
+      "result": "OK",
+      "detail": "The value under R75-PWR2 is 10k."
+    },
+    {
+      "name": "no extra designator appears",
+      "result": "OK",
+      "detail": "No leftover R? remains. Component census stays 229."
+    },
+    {
+      "name": "position stays at the placed coordinate",
+      "result": "OK",
+      "detail": "R75-PWR2 remains in the same open space left of U3, still inside box 2."
+    }
+  ]
+}

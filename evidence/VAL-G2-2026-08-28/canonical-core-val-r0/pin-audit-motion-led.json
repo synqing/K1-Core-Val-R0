@@ -1,0 +1,1358 @@
+{
+  "artefact": "pin-audit-motion-led",
+  "lane": "A6-MOTION-LED",
+  "date": "2026-08-28",
+  "status": "PROPOSAL - findings are proposals; a single writer must reconfirm against live before any edit",
+  "denominator": {
+    "path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/frozen-denominator-489736",
+    "source_hash": "489736:464c27d4",
+    "designators": 228,
+    "named_nets": 143,
+    "wires": 675,
+    "wire_segments": 684,
+    "pins_parsed_board_wide": 880,
+    "component_parts_with_pin_readback": 230,
+    "designators_with_pin_readback": 228
+  },
+  "method": {
+    "pin_geometry": "jobs/full-pin-harvest.results.json - 230 of 230 source component PARTS, 880 pins, ok=true. NOTE: jobs/all-pins-nc-audit.results.json covers only 228 parts and silently omits RT1062 part e3295 (98 pins, including both LED data balls). An audit run on that file reports the LED data path as absent. Use full-pin-harvest.",
+    "connectivity_oracle": "union-find over wire segments with T-junction detection; pin attaches on endpoint coincidence or on-segment incidence; net labels read from ATTR NET on the owning wire",
+    "oracle_selftest": "3 positive controls green, 5 injected faults red (pin displaced perpendicular off its wire, 3V3-to-GND bridge, dangling-net detector). The battery earned its keep: it went red when the pin denominator was widened, which is how the incomplete-denominator error above was caught.",
+    "measured_result": "675 wires resolve to 675 electrically isolated islands - no wire touches any other wire. Connectivity on this sheet is established ENTIRELY by net labels on single stubs, not by wire geometry.",
+    "cross_check_2": "harness/check_schematic_connectivity.py run against the same frozen source with the same full-pin-harvest file: 229/229 parts, 0 abstentions, wrong_pin_bindings=0, and its net_labels_meeting_fewer_than_two_pins list contains MOTION_INT_S3 but NOT LED_D0_3V3 or LED_D1_3V3 - independent agreement with this audit. None of its 23 no-pin stubs are in the MOT or LED blocks.",
+    "cross_check": "anchors/schDrcLog_2026-08-28.txt independently lists U13-MOT.2,.3,.5,.7,.8,.11 as floating - exactly the six pins this oracle found. That DRC log PREDATES the frozen source (its 7 single-pin-net warnings, BUCK_SS and NFC_VDD_*, are all resolved in the frozen source, and BUCK_PG which the frozen source shows as a one-endpoint net is absent from it), so it is a partial corroborator only.",
+    "datasheets": [
+      "ST LIS2DH12 (LCSC C110926) Table 2 pin description and section 6 interface selection",
+      "TI SN74AHCT1G125DBVR (LCSC C7484) DBV pinout, function table, recommended operating conditions note 3",
+      "TI TPS2594 family (LCSC C3662807) ILIM/DVDT/ITIMER equations and open-pin behaviour"
+    ]
+  },
+  "coverage": {
+    "in_scope_components": 22,
+    "in_scope_pins": 62,
+    "pins_classified": 62,
+    "pins_unclassified": 0,
+    "motion_pins": 30,
+    "led_pins": 32,
+    "floating_pins_in_scope_at_frozen_hash": 6,
+    "floating_pins_in_scope_at_drc_1458": 5,
+    "nc_flags_in_scope_at_frozen_hash": 0
+  },
+  "motion": {
+    "U13-MOT": {
+      "primitive_id": "e14187",
+      "value": "FITTED",
+      "supplier_part": "LIS2DH12TR.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "SCL/SPC",
+          "nets": [
+            "MOTION_SCL"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14187e5",
+            "x": 2145,
+            "y": 3300
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "I2C SCL to MOTION_SCL"
+        },
+        {
+          "pin": "2",
+          "name": "CS",
+          "nets": [],
+          "locator": {
+            "pin_primitive_id": "e14187e9",
+            "x": 2145,
+            "y": 3290
+          },
+          "nc_flag": false,
+          "status": "FLOATING_DEFECT",
+          "reason": "CS. Datasheet: 'To select/exploit the I2C interface, the CS line must be tied high (i.e. connected to Vdd_IO).' Default state is input high impedance - NO internal pull-up. Floating CS may select SPI mode and disable I2C."
+        },
+        {
+          "pin": "3",
+          "name": "SDO/SA0",
+          "nets": [],
+          "locator": {
+            "pin_primitive_id": "e14187e13",
+            "x": 2145,
+            "y": 3280
+          },
+          "nc_flag": false,
+          "status": "FLOATING_DEFECT",
+          "reason": "SDO/SA0 - I2C address LSB. Default is input with internal pull-up, so the address defaults to the SA0=1 variant, but the strap is undeclared and noise-exposed. Must be strapped to VDD_IO or GND and the resulting 7-bit address recorded in the firmware contract."
+        },
+        {
+          "pin": "4",
+          "name": "SDA/SDI/SDO",
+          "nets": [
+            "MOTION_SDA"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14187e17",
+            "x": 2145,
+            "y": 3270
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "I2C SDA to MOTION_SDA"
+        },
+        {
+          "pin": "5",
+          "name": "RES",
+          "nets": [],
+          "locator": {
+            "pin_primitive_id": "e14187e21",
+            "x": 2145,
+            "y": 3260
+          },
+          "nc_flag": false,
+          "status": "FLOATING_DEFECT",
+          "reason": "RES. Datasheet function column is literally 'Connect to GND'. Currently unconnected."
+        },
+        {
+          "pin": "6",
+          "name": "GND",
+          "nets": [
+            "GND"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14187e25",
+            "x": 2145,
+            "y": 3250
+          },
+          "nc_flag": false,
+          "status": "GND",
+          "reason": "0 V supply - connected"
+        },
+        {
+          "pin": "7",
+          "name": "GND",
+          "nets": [],
+          "locator": {
+            "pin_primitive_id": "e14187e29",
+            "x": 2345,
+            "y": 3250
+          },
+          "nc_flag": false,
+          "status": "FLOATING_DEFECT",
+          "reason": "GND (0 V supply) unconnected. Datasheet: all voltage and ground supplies must be present together for proper IC behaviour."
+        },
+        {
+          "pin": "8",
+          "name": "GND",
+          "nets": [],
+          "locator": {
+            "pin_primitive_id": "e14187e33",
+            "x": 2345,
+            "y": 3260
+          },
+          "nc_flag": false,
+          "status": "FLOATING_DEFECT",
+          "reason": "GND (0 V supply) unconnected. Same requirement as pin 7."
+        },
+        {
+          "pin": "9",
+          "name": "VDD",
+          "nets": [
+            "3V3"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14187e37",
+            "x": 2345,
+            "y": 3270
+          },
+          "nc_flag": false,
+          "status": "POWER",
+          "reason": "VDD on 3V3. Datasheet application hints ask for 100 nF ceramic AND 10 uF near the pin; only 100 nF (C62-MOT) is local."
+        },
+        {
+          "pin": "10",
+          "name": "VDD_IO",
+          "nets": [
+            "3V3"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14187e41",
+            "x": 2345,
+            "y": 3280
+          },
+          "nc_flag": false,
+          "status": "POWER",
+          "reason": "VDD_IO on 3V3, decoupled by C63-MOT 100 nF as the datasheet requires."
+        },
+        {
+          "pin": "11",
+          "name": "INT2",
+          "nets": [],
+          "locator": {
+            "pin_primitive_id": "e14187e45",
+            "x": 2345,
+            "y": 3290
+          },
+          "nc_flag": false,
+          "status": "INTENTIONAL_NC",
+          "reason": "INT2 is a push-pull OUTPUT (default forced to GND), so leaving it open is electrically safe. It carried no NC flag at the frozen hash; the 14:58 DRC no longer lists it and the mutation ledger attributes that to Captain's unused-pin NC crosses. Disposition closed - see drc_1458_delta."
+        },
+        {
+          "pin": "12",
+          "name": "INT1",
+          "nets": [
+            "MOTION_INT1"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14187e49",
+            "x": 2345,
+            "y": 3300
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "INT1 to MOTION_INT1, the input side of the R48/R49 owner-selection pair."
+        }
+      ]
+    },
+    "C62-MOT": {
+      "primitive_id": "e13842",
+      "value": "100nF",
+      "supplier_part": "GRM155R71C104KA88D.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "1",
+          "nets": [
+            "3V3"
+          ],
+          "locator": {
+            "pin_primitive_id": "e13842e4",
+            "x": 2060,
+            "y": 2525
+          },
+          "nc_flag": false,
+          "status": "POWER",
+          "reason": "3V3 decoupling for U13-MOT VDD"
+        },
+        {
+          "pin": "2",
+          "name": "2",
+          "nets": [
+            "GND"
+          ],
+          "locator": {
+            "pin_primitive_id": "e13842e10",
+            "x": 2100,
+            "y": 2525
+          },
+          "nc_flag": false,
+          "status": "GND",
+          "reason": ""
+        }
+      ]
+    },
+    "C63-MOT": {
+      "primitive_id": "e13878",
+      "value": "100nF",
+      "supplier_part": "GRM155R71C104KA88D.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "1",
+          "nets": [
+            "3V3"
+          ],
+          "locator": {
+            "pin_primitive_id": "e13878e4",
+            "x": 2300,
+            "y": 2525
+          },
+          "nc_flag": false,
+          "status": "POWER",
+          "reason": "3V3 decoupling for U13-MOT VDD_IO"
+        },
+        {
+          "pin": "2",
+          "name": "2",
+          "nets": [
+            "GND"
+          ],
+          "locator": {
+            "pin_primitive_id": "e13878e10",
+            "x": 2340,
+            "y": 2525
+          },
+          "nc_flag": false,
+          "status": "GND",
+          "reason": ""
+        }
+      ]
+    },
+    "R44-MOT": {
+      "primitive_id": "e13914",
+      "value": "0R",
+      "supplier_part": "RC0402FR-070RL.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "1",
+          "nets": [
+            "MOTION_SDA"
+          ],
+          "locator": {
+            "pin_primitive_id": "e13914e7",
+            "x": 2300,
+            "y": 2812
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "MOTION_SDA"
+        },
+        {
+          "pin": "2",
+          "name": "2",
+          "nets": [
+            "I2C_SDA"
+          ],
+          "locator": {
+            "pin_primitive_id": "e13914e3",
+            "x": 2340,
+            "y": 2812
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "I2C_SDA - FIT leg of the intended SDA owner XOR"
+        }
+      ]
+    },
+    "R45-MOT": {
+      "primitive_id": "e13953",
+      "value": "DNP",
+      "supplier_part": "RC0402FR-0710KL.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "1",
+          "nets": [
+            "MOTION_SDA"
+          ],
+          "locator": {
+            "pin_primitive_id": "e13953e7",
+            "x": 2540,
+            "y": 2812
+          },
+          "nc_flag": false,
+          "status": "DNP_OPTION",
+          "reason": "MOTION_SDA"
+        },
+        {
+          "pin": "2",
+          "name": "2",
+          "nets": [
+            "I2C_SDA"
+          ],
+          "locator": {
+            "pin_primitive_id": "e13953e3",
+            "x": 2580,
+            "y": 2812
+          },
+          "nc_flag": false,
+          "status": "DNP_OPTION",
+          "reason": "I2C_SDA - identical net pair to R44-MOT, so this is not an owner alternative"
+        }
+      ]
+    },
+    "R46-MOT": {
+      "primitive_id": "e13992",
+      "value": "0R",
+      "supplier_part": "RC0402FR-070RL.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "1",
+          "nets": [
+            "MOTION_SCL"
+          ],
+          "locator": {
+            "pin_primitive_id": "e13992e7",
+            "x": 2780,
+            "y": 2812
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "MOTION_SCL"
+        },
+        {
+          "pin": "2",
+          "name": "2",
+          "nets": [
+            "I2C_SCL"
+          ],
+          "locator": {
+            "pin_primitive_id": "e13992e3",
+            "x": 2820,
+            "y": 2812
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "I2C_SCL - FIT leg of the intended SCL owner XOR"
+        }
+      ]
+    },
+    "R47-MOT": {
+      "primitive_id": "e14031",
+      "value": "DNP",
+      "supplier_part": "RC0402FR-0710KL.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "1",
+          "nets": [
+            "MOTION_SCL"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14031e7",
+            "x": 2060,
+            "y": 3098
+          },
+          "nc_flag": false,
+          "status": "DNP_OPTION",
+          "reason": "MOTION_SCL"
+        },
+        {
+          "pin": "2",
+          "name": "2",
+          "nets": [
+            "I2C_SCL"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14031e3",
+            "x": 2100,
+            "y": 3098
+          },
+          "nc_flag": false,
+          "status": "DNP_OPTION",
+          "reason": "I2C_SCL - identical net pair to R46-MOT, so this is not an owner alternative"
+        }
+      ]
+    },
+    "R48-MOT": {
+      "primitive_id": "e14070",
+      "value": "0R",
+      "supplier_part": "RC0402FR-070RL.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "1",
+          "nets": [
+            "MOTION_INT1"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14070e7",
+            "x": 2300,
+            "y": 3098
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "MOTION_INT1"
+        },
+        {
+          "pin": "2",
+          "name": "2",
+          "nets": [
+            "MOTION_INT_RT"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14070e3",
+            "x": 2340,
+            "y": 3098
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "MOTION_INT_RT to U6-RTC ball L11 (GPIO_AD_B1_02) - the real RT owner leg"
+        }
+      ]
+    },
+    "R49-MOT": {
+      "primitive_id": "e14109",
+      "value": "DNP",
+      "supplier_part": "RC0402FR-0710KL.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "1",
+          "nets": [
+            "MOTION_INT1"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14109e7",
+            "x": 2540,
+            "y": 3098
+          },
+          "nc_flag": false,
+          "status": "DNP_OPTION",
+          "reason": "MOTION_INT1"
+        },
+        {
+          "pin": "2",
+          "name": "2",
+          "nets": [
+            "MOTION_INT_S3"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14109e3",
+            "x": 2580,
+            "y": 3098
+          },
+          "nc_flag": false,
+          "status": "DNP_OPTION",
+          "reason": "MOTION_INT_S3 binds exactly one pin. A second labelled stub for this net (wire e8944, segment [4170,4365,4040,4365]) is drawn in the ESP block but lands on no pin; the nearest U9-ESP pin is 90 units away. The S3 owner leg is drawn but unterminated."
+        }
+      ]
+    },
+    "R50-MOT": {
+      "primitive_id": "e14148",
+      "value": "4.7k",
+      "supplier_part": "RC0402FR-074K7L.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "1",
+          "nets": [
+            "3V3"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14148e7",
+            "x": 2780,
+            "y": 3098
+          },
+          "nc_flag": false,
+          "status": "POWER",
+          "reason": "3V3"
+        },
+        {
+          "pin": "2",
+          "name": "2",
+          "nets": [
+            "MOTION_SDA"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14148e3",
+            "x": 2820,
+            "y": 3098
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "4.7k pull-up on MOTION_SDA. There is no matching pull-up on MOTION_SCL."
+        }
+      ]
+    }
+  },
+  "led": {
+    "U14-LED": {
+      "primitive_id": "e14716",
+      "value": "74AHCT",
+      "supplier_part": "SN74AHCT1G125DBVR.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "OE#",
+          "nets": [
+            "LED_OE_L"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14716e5",
+            "x": 3300,
+            "y": 3395
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "OE# held LOW through R53-LED 10k to GND. The buffer is hard-enabled from the instant +5V_LED_L is valid and no controller can disable it. TI function table: OE# low means Y follows A."
+        },
+        {
+          "pin": "2",
+          "name": "A",
+          "nets": [
+            "LED_D0_3V3"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14716e9",
+            "x": 3300,
+            "y": 3385
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "A input driven by U6-RTC ball D7 (GPIO_B0_00) over LED_D0_3V3. RT1062 ownership of channel 0 is confirmed. Boot state is still undefined - see boot_state findings."
+        },
+        {
+          "pin": "3",
+          "name": "GND",
+          "nets": [
+            "GND"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14716e13",
+            "x": 3300,
+            "y": 3375
+          },
+          "nc_flag": false,
+          "status": "GND",
+          "reason": ""
+        },
+        {
+          "pin": "4",
+          "name": "Y",
+          "nets": [
+            "LED_D0_5V"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14716e17",
+            "x": 3370,
+            "y": 3375
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "Y output to LED_D0_5V, then R51-LED to J2-LED pin 2."
+        },
+        {
+          "pin": "5",
+          "name": "VCC",
+          "nets": [
+            "+5V_LED_L"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14716e21",
+            "x": 3370,
+            "y": 3395
+          },
+          "nc_flag": false,
+          "status": "POWER",
+          "reason": "VCC on +5V_LED_L, decoupled by C64-LED 100 nF. Device VCC range is 4.5-5.5 V, so LED-rail droop below 4.5 V is out of spec."
+        }
+      ]
+    },
+    "U15-LED": {
+      "primitive_id": "e14770",
+      "value": "74AHCT",
+      "supplier_part": "SN74AHCT1G125DBVR.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "OE#",
+          "nets": [
+            "LED_OE_R"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14770e5",
+            "x": 3565,
+            "y": 3400
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "OE# held LOW through R54-LED 10k to GND. Hard-enabled, no firmware control."
+        },
+        {
+          "pin": "2",
+          "name": "A",
+          "nets": [
+            "LED_D1_3V3"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14770e9",
+            "x": 3565,
+            "y": 3390
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "A input driven by U6-RTC ball E7 (GPIO_B0_01) over LED_D1_3V3. RT1062 ownership of channel 1 is confirmed. Boot state is still undefined - see boot_state findings."
+        },
+        {
+          "pin": "3",
+          "name": "GND",
+          "nets": [
+            "GND"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14770e13",
+            "x": 3565,
+            "y": 3380
+          },
+          "nc_flag": false,
+          "status": "GND",
+          "reason": ""
+        },
+        {
+          "pin": "4",
+          "name": "Y",
+          "nets": [
+            "LED_D1_5V"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14770e17",
+            "x": 3635,
+            "y": 3380
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "Y output to LED_D1_5V, then R52-LED to J3-LED pin 2."
+        },
+        {
+          "pin": "5",
+          "name": "VCC",
+          "nets": [
+            "+5V_LED_R"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14770e21",
+            "x": 3635,
+            "y": 3400
+          },
+          "nc_flag": false,
+          "status": "POWER",
+          "reason": "VCC on +5V_LED_R, decoupled by C65-LED 100 nF."
+        }
+      ]
+    },
+    "J2-LED": {
+      "primitive_id": "e14825",
+      "value": "XH-3",
+      "supplier_part": "B3B-XH-A-3PZZ.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "1",
+          "nets": [
+            "+5V_LED_L"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14825e2",
+            "x": 3315,
+            "y": 2822
+          },
+          "nc_flag": false,
+          "status": "POWER",
+          "reason": "+5V_LED_L strip supply"
+        },
+        {
+          "pin": "2",
+          "name": "2",
+          "nets": [
+            "LED_D0_J"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14825e6",
+            "x": 3315,
+            "y": 2812
+          },
+          "nc_flag": false,
+          "status": "TUNE_TBD",
+          "reason": "LED_D0_J through R51-LED. Series value is currently frozen at 33R; it is layout-dependent and must not be frozen at this gate."
+        },
+        {
+          "pin": "3",
+          "name": "3",
+          "nets": [
+            "GND"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14825e10",
+            "x": 3315,
+            "y": 2802
+          },
+          "nc_flag": false,
+          "status": "GND",
+          "reason": ""
+        }
+      ]
+    },
+    "J3-LED": {
+      "primitive_id": "e14876",
+      "value": "XH-3",
+      "supplier_part": "B3B-XH-A-3PZZ.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "1",
+          "nets": [
+            "+5V_LED_R"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14876e2",
+            "x": 3555,
+            "y": 2822
+          },
+          "nc_flag": false,
+          "status": "POWER",
+          "reason": "+5V_LED_R strip supply"
+        },
+        {
+          "pin": "2",
+          "name": "2",
+          "nets": [
+            "LED_D1_J"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14876e6",
+            "x": 3555,
+            "y": 2812
+          },
+          "nc_flag": false,
+          "status": "TUNE_TBD",
+          "reason": "LED_D1_J through R52-LED. Same TUNE_TBD requirement as J2-LED.2."
+        },
+        {
+          "pin": "3",
+          "name": "3",
+          "nets": [
+            "GND"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14876e10",
+            "x": 3555,
+            "y": 2802
+          },
+          "nc_flag": false,
+          "status": "GND",
+          "reason": ""
+        }
+      ]
+    },
+    "C64-LED": {
+      "primitive_id": "e14334",
+      "value": "100nF",
+      "supplier_part": "GRM155R71C104KA88D.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "1",
+          "nets": [
+            "+5V_LED_L"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14334e4",
+            "x": 3075,
+            "y": 2525
+          },
+          "nc_flag": false,
+          "status": "POWER",
+          "reason": "+5V_LED_L decoupling for U14-LED VCC"
+        },
+        {
+          "pin": "2",
+          "name": "2",
+          "nets": [
+            "GND"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14334e10",
+            "x": 3115,
+            "y": 2525
+          },
+          "nc_flag": false,
+          "status": "GND",
+          "reason": ""
+        }
+      ]
+    },
+    "C65-LED": {
+      "primitive_id": "e14370",
+      "value": "100nF",
+      "supplier_part": "GRM155R71C104KA88D.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "1",
+          "nets": [
+            "+5V_LED_R"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14370e4",
+            "x": 3315,
+            "y": 2525
+          },
+          "nc_flag": false,
+          "status": "POWER",
+          "reason": "+5V_LED_R decoupling for U15-LED VCC"
+        },
+        {
+          "pin": "2",
+          "name": "2",
+          "nets": [
+            "GND"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14370e10",
+            "x": 3355,
+            "y": 2525
+          },
+          "nc_flag": false,
+          "status": "GND",
+          "reason": ""
+        }
+      ]
+    },
+    "R51-LED": {
+      "primitive_id": "e14470",
+      "value": "33R",
+      "supplier_part": "RC0402FR-0733RL.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "1",
+          "nets": [
+            "LED_D0_5V"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14470e8",
+            "x": 3795,
+            "y": 2812
+          },
+          "nc_flag": false,
+          "status": "TUNE_TBD",
+          "reason": "LED_D0_5V"
+        },
+        {
+          "pin": "2",
+          "name": "2",
+          "nets": [
+            "LED_D0_J"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14470e4",
+            "x": 3835,
+            "y": 2812
+          },
+          "nc_flag": false,
+          "status": "TUNE_TBD",
+          "reason": "LED_D0_J - 33R must be released to TUNE_TBD"
+        }
+      ]
+    },
+    "R52-LED": {
+      "primitive_id": "e14509",
+      "value": "33R",
+      "supplier_part": "RC0402FR-0733RL.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "1",
+          "nets": [
+            "LED_D1_5V"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14509e8",
+            "x": 3075,
+            "y": 3098
+          },
+          "nc_flag": false,
+          "status": "TUNE_TBD",
+          "reason": "LED_D1_5V"
+        },
+        {
+          "pin": "2",
+          "name": "2",
+          "nets": [
+            "LED_D1_J"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14509e4",
+            "x": 3115,
+            "y": 3098
+          },
+          "nc_flag": false,
+          "status": "TUNE_TBD",
+          "reason": "LED_D1_J - 33R must be released to TUNE_TBD"
+        }
+      ]
+    },
+    "R53-LED": {
+      "primitive_id": "e14548",
+      "value": "10k",
+      "supplier_part": "RC0402FR-0710KL.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "1",
+          "nets": [
+            "LED_OE_L"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14548e7",
+            "x": 3315,
+            "y": 3098
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "LED_OE_L"
+        },
+        {
+          "pin": "2",
+          "name": "2",
+          "nets": [
+            "GND"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14548e3",
+            "x": 3355,
+            "y": 3098
+          },
+          "nc_flag": false,
+          "status": "GND",
+          "reason": "10k to GND - this polarity enables the buffer at power-on"
+        }
+      ]
+    },
+    "R54-LED": {
+      "primitive_id": "e14587",
+      "value": "10k",
+      "supplier_part": "RC0402FR-0710KL.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "1",
+          "nets": [
+            "LED_OE_R"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14587e7",
+            "x": 3555,
+            "y": 3098
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "LED_OE_R"
+        },
+        {
+          "pin": "2",
+          "name": "2",
+          "nets": [
+            "GND"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14587e3",
+            "x": 3595,
+            "y": 3098
+          },
+          "nc_flag": false,
+          "status": "GND",
+          "reason": "10k to GND - this polarity enables the buffer at power-on"
+        }
+      ]
+    },
+    "RT1-LED": {
+      "primitive_id": "e14626",
+      "value": "10k-NTC",
+      "supplier_part": "NCP15XH103F03RC.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "1",
+          "nets": [
+            "LED_THERM_L"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14626e7",
+            "x": 3795,
+            "y": 3098
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "LED_THERM_L to U6-RTC ball L12 (GPIO_AD_B1_04). No bias resistor exists on this net - the divider is incomplete."
+        },
+        {
+          "pin": "2",
+          "name": "2",
+          "nets": [
+            "GND"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14626e3",
+            "x": 3835,
+            "y": 3098
+          },
+          "nc_flag": false,
+          "status": "GND",
+          "reason": ""
+        }
+      ]
+    },
+    "RT2-LED": {
+      "primitive_id": "e14671",
+      "value": "10k-NTC",
+      "supplier_part": "NCP15XH103F03RC.1",
+      "pins": [
+        {
+          "pin": "1",
+          "name": "1",
+          "nets": [
+            "LED_THERM_R"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14671e7",
+            "x": 3095,
+            "y": 3390
+          },
+          "nc_flag": false,
+          "status": "CONNECTED",
+          "reason": "LED_THERM_R to U6-RTC ball K12 (GPIO_AD_B1_05). No bias resistor exists on this net - the divider is incomplete."
+        },
+        {
+          "pin": "2",
+          "name": "2",
+          "nets": [
+            "GND"
+          ],
+          "locator": {
+            "pin_primitive_id": "e14671e3",
+            "x": 3135,
+            "y": 3390
+          },
+          "nc_flag": false,
+          "status": "GND",
+          "reason": ""
+        }
+      ]
+    }
+  },
+  "ownership_xor": {
+    "MOTION_SDA": {
+      "verdict": "FAKE",
+      "fit": "R44-MOT 0R",
+      "dnp": "R45-MOT",
+      "measured": "both resistors connect the identical net pair MOTION_SDA <-> I2C_SDA; there is no per-owner net",
+      "owners_on_I2C_SDA": [
+        "U9-ESP.37 (TXD0)"
+      ],
+      "rt1062_present": false
+    },
+    "MOTION_SCL": {
+      "verdict": "FAKE",
+      "fit": "R46-MOT 0R",
+      "dnp": "R47-MOT",
+      "measured": "both resistors connect the identical net pair MOTION_SCL <-> I2C_SCL",
+      "owners_on_I2C_SCL": [
+        "U9-ESP.36 (RXD0)"
+      ],
+      "rt1062_present": false
+    },
+    "dual_master_analysis": {
+      "today": "NO dual-master condition arises from populating R45/R47/R49. On SDA and SCL both resistors bridge the identical net pair, so fitting both puts 0R in parallel with 10k between the same two nets - electrically no change. The hazard the contract guards cannot occur today because only ONE master (U9-ESP) is wired to the shared bus at all, and the RT1062 is on no I2C bus. The safety property is VACUOUSLY satisfied, which is worse than a violation: it is satisfied by the absence of the configuration the contract requires.",
+      "latent": "The hazard ARMS the moment the correct per-owner split is built. If A3-RT-DEBUG assigns RT I2C balls and MOTION_SDA is split into RT_I2C_SDA via R44 and S3_I2C_SDA via R45, and R45 is still populated, MOTION_SDA is tied to BOTH masters simultaneously - the uncontrolled dual-master connection contracts/motion-interface.md exists to prevent. So the fake DNP must be fixed BEFORE or WITH the split, never after.",
+      "int_is_not_a_dual_master_risk": "MOTION_INT1 is a single push-pull OUTPUT from U13-MOT feeding MCU INPUTS. Driving it into two receivers is electrically fine - one driver, two loads, no contention. The XOR on INT is about which MCU services the interrupt in firmware, not about electrical contention. Do not conflate it with the SDA/SCL hazard.",
+      "value_class_is_also_wrong": "A 10k in series on an I2C line does not select an owner - it forms a resistive divider against the 4.7k bus pull-ups and neither side would meet V_OL. If R45/R47 are ever intended as a fitted alternative they must be 0R, like their R44/R46 counterparts. As drawn they are wrong on exclusion status AND wrong on value class for the position they occupy."
+    },
+    "fit_side_is_correct": {
+      "measured": "R44/R46/R48-MOT bind device 0f3d5fb5eae54546a764946f2555ccb3, an 11-member family whose only Name value is '0R', with Supplier Part RC0402FR-070RL.1 - a genuine 0 ohm. The FIT side is a real 0R link.",
+      "conclusion": "The concern that the fitted side might also be a 10k is NOT borne out. Only the DNP side is mis-specified."
+    },
+    "MOTION_INT1": {
+      "verdict": "REAL_SHAPE_INCOMPLETE",
+      "fit": "R48-MOT 0R -> MOTION_INT_RT -> U6-RTC.L11",
+      "dnp": "R49-MOT -> MOTION_INT_S3",
+      "measured": "genuine per-owner nets exist. MOTION_INT_RT reaches U6-RTC ball L11. MOTION_INT_S3 binds one pin; its second labelled stub (wire e8944, segment [4170,4365,4040,4365]) is drawn in the ESP block but lands on no pin, nearest U9-ESP pin 90 units away."
+    }
+  },
+  "rt1062_i2c_presence": {
+    "measured": "U6-RTC binds 41 distinct nets across both symbol parts (e3295, e3673). None is an I2C net. There is no RT_I2C_SDA or RT_I2C_SCL anywhere in the frozen source.",
+    "consequence": "contracts/motion-interface.md names RT1062 as the default motion owner, but the RT1062 has no data path to U13-MOT. It sees MOTION_INT_RT only. The ownership matrix cannot be repaired by fixing resistors - the RT leg does not exist to select.",
+    "blocking_dependency": "A3-RT-DEBUG must assign two RT1062 balls to RT_I2C_SDA / RT_I2C_SCL before this block can be built into a real XOR."
+  },
+  "motion_pullups": {
+    "measured": "R50-MOT 4.7k pulls up MOTION_SDA. No pull-up exists on MOTION_SCL. With the 0R links fitted the shared-bus pull-ups (R4-PWR1, R28-AUD, R29-AUD, all 4.7k) serve both lines, so the bus works today.",
+    "risk": "The moment the buses are genuinely split per owner, SCL has no pull-up on the sensor side. Fix it in the same edit as the split."
+  },
+  "led_ownership": {
+    "channel_0": {
+      "buffer": "U14-LED",
+      "driver": "U6-RTC ball D7 (GPIO_B0_00)",
+      "net": "LED_D0_3V3",
+      "verdict": "RT1062 OWNS"
+    },
+    "channel_1": {
+      "buffer": "U15-LED",
+      "driver": "U6-RTC ball E7 (GPIO_B0_01)",
+      "net": "LED_D1_3V3",
+      "verdict": "RT1062 OWNS"
+    },
+    "esp32_s3_on_led_pipeline": false,
+    "esp32_s3_nets_total": [
+      "GND",
+      "I2C_SDA",
+      "I2C_SCL",
+      "ESP_UART0_RX",
+      "ESP_UART0_TX"
+    ],
+    "verdict": "PASS - contracts/led-interface.md output_owner RT1062 is satisfied for both channels; U9-ESP touches no LED net."
+  },
+  "level_shift": {
+    "device": "SN74AHCT1G125DBVR",
+    "channels": 2,
+    "unidirectional": true,
+    "three_state": true,
+    "auto_sensing": false,
+    "evidence": "TI datasheet: single bus buffer gate/line driver with 3-state output; when OE# is low, true data is passed from the A input to the Y output. Function table: OE# H gives Hi-Z. LCSC parametric Channel Type = Unidirectional.",
+    "vih_at_5v": "2.0 V min across the whole VCC range, so a 3.3 V CMOS high is a valid TTL high",
+    "vcc_range": "4.5 V to 5.5 V - LED-rail droop below 4.5 V puts the shifter out of spec (VAL-G3 copper-sizing concern)",
+    "pinout_match": "schematic symbol matches the DBV package exactly: 1=OE#, 2=A, 3=GND, 4=Y, 5=VCC",
+    "verdict": "PASS - deterministic and unidirectional, not a bidirectional autosensing part."
+  },
+  "boot_state": {
+    "verdict": "FAIL",
+    "measured": "LED_OE_L binds exactly two pins (U14-LED.1, R53-LED.1) and LED_OE_R binds exactly two (U15-LED.1, R54-LED.1). R53/R54 are 10k to GND. No controller reaches either OE# pin.",
+    "consequence": "OE# is hard-tied low, so per the TI function table both buffers are enabled from the instant +5V_LED_L/R is valid and Y follows A unconditionally. The A inputs come from RT1062 pads GPIO_B0_00 and GPIO_B0_01. At cold power-on and throughout RT1062 reset, before firmware configures those pads, nothing in this circuit holds the buffer inputs or the 5 V strip data lines at a defined level. No pull-down exists on LED_D0_3V3/LED_D1_3V3 or on LED_D0_J/LED_D1_J, and firmware has no way to force the outputs Hi-Z.",
+    "note": "TI recommended operating conditions note 3 - all unused inputs must be held at VCC or GND - is the same rule applied to a pad that is not yet driven.",
+    "bounded_repair_options": [
+      "A (RECOMMENDED): 10k pull-down from LED_D0_3V3 to GND and from LED_D1_3V3 to GND. Two 0402 parts, holds both outputs at a defined 0 V through power-on and reset, costs no RT pads and no firmware sequencing.",
+      "B: flip R53/R54 to pull OE# UP to +5V_LED_L/R and route LED_OE_L/LED_OE_R to two RT1062 pads. Outputs boot Hi-Z and firmware enables them. Costs two RT pads and STILL needs a pull-down at J2/J3 to define the strip line while Hi-Z, so it adds to option A rather than replacing it.",
+      "Add B on top of A only if a firmware-commanded LED blackout is wanted for thermal or fault response."
+    ]
+  },
+  "thermal_feedback": {
+    "verdict": "FAIL",
+    "measured": "LED_THERM_L binds exactly two pins - RT1-LED.1 and U6-RTC ball L12 (GPIO_AD_B1_04). LED_THERM_R binds RT2-LED.1 and U6-RTC ball K12 (GPIO_AD_B1_05). RT1/RT2 are NCP15XH103F03RC 10k NTCs with their other terminal on GND.",
+    "defect": "No bias resistor exists from 3V3 to either LED_THERM net, so no divider exists. An NTC with one end on GND and the other on an ADC input has no excitation - the ADC reads an undriven node, not a temperature. Both thermal-feedback channels are unreadable as drawn, and the failure is silent: firmware receives a plausible-looking ADC number that means nothing.",
+    "bounded_repair": "Add one bias resistor per channel from 3V3 to LED_THERM_L and LED_THERM_R. 10k is the conventional match to a 10k-at-25C NTC, but the value should place the NTC mid-span across the intended monitoring range and belongs to the thermal lane (D15). This audit asserts only that the resistor must exist."
+  },
+  "branch_protection": {
+    "verdict": "PARTIAL",
+    "topology": "5V_SYS -> U4-PWR2 (TPS259474L eFuse, single device) -> 5V_LED_COMMON (C11-PWR2 22uF) -> FB1-PWR2 / FB2-PWR2 (BLM21PG221SN1D, 220 ohm at 100 MHz ferrites) -> +5V_LED_L / +5V_LED_R",
+    "per_branch_protection": false,
+    "per_branch_enable": false,
+    "reasoning": "The only element between the common node and each branch is a ferrite bead. A ferrite is an EMI element, not a protection device and not a switch. A short on one strip pulls the shared eFuse down and takes both channels out, and neither channel can be independently powered down for thermal response, fault isolation or bring-up.",
+    "fault_visibility": "U4-PWR2 pins 3 (PG/AUXOFF) and 4 (PGTH/FLT#) carry No-Connect flags and pin 10 (ITIMER) is also No-Connect. The TI datasheet characterises the device with AUXOFF/FLT/PGTH/PG all open and an open ITIMER simply gives minimum overcurrent blanking, so these are legitimate INTENTIONAL_NC, not defects.",
+    "latching_hazard": "The fitted part is the L suffix - latched off. EN/UVLO is hard-tied to 5V_SYS and FLT# is not connected, so a latched LED overcurrent trip cannot be cleared by firmware, requires a full input power cycle, and gives firmware no signal to explain why the strips went dark. With ITIMER open the blanking interval is minimum, so a strip hot-plug inrush is the most likely route into that state.",
+    "current_limit": "~0.96 A, DETERMINED. TI: I_ILM = 3334 / R_ILM(ohm). R8-PWR2 orders as Supplier Part C185418 / MPN RC0402FR-073K48L - a genuine 3.48k matching its drawn value, giving 0.96 A, inside the recommended R_ILM range of 549 R to 6.65 k.",
+    "correction_2026_08_28": "An earlier revision of this audit called the limit UNDETERMINED because R8-PWR2 supplierId reads RC0402FR-0710KL.1 (10k). That was wrong: supplierId is a stale library-inherited string on several parts, and the orderable identity is the Supplier Part field. Re-read field by field from bom_flat.csv.",
+    "soft_start": "C68-PWR2 2.2 nF gives SR = 2000/2200 = 0.91 V/ms, so the rail ramps in about 5.5 ms.",
+    "ownership": "A2-RAILS owns the device choice. This lane's finding is only that ferrite beads do not satisfy branch protection or branch enable, and that FLT# should reach an RT1062 input if a trip is to be observable."
+  },
+  "series_data_resistors": {
+    "verdict": "TUNE_TBD",
+    "measured": "R51-LED and R52-LED are RC0402FR-0733RL, 33 ohm, in series between each buffer output and its connector data pin.",
+    "footprint_justified": true,
+    "requirement": "The footprint is justified - it damps the fast AHCT edge into an unterminated strip lead. The VALUE is transmission-line dependent, a function of driver output impedance and routed trace and lead geometry, none of which exists yet. 33 ohm is a donor-circuit number and must be released to TUNE_TBD in both the BOM and the schematic value field, then set at VAL-G3."
+  },
+  "branch_bypass_candidate": {
+    "status": "CANDIDATE ONLY - not fitted, not a schematic requirement, not added by this audit"
+  },
+  "correct_topology": {
+    "root_cause": "The 0R/DNP pair is on the wrong side of the bus. A link between MOTION_SDA and the shared bus isolates the SENSOR, not the MASTER. Owner selection is a property of which master is attached, so the pair must sit on each master leg. No arrangement of R44-R49 in their present positions can produce a real XOR.",
+    "bus_census": {
+      "slaves": [
+        "U2-PWR1 INA226",
+        "U11-AUD TLV320ADC6120",
+        "U12-NFC ST25R3916B",
+        "U13-MOT LIS2DH12"
+      ],
+      "masters": [
+        "U9-ESP ESP32-S3-WROOM-1"
+      ],
+      "note": "One bus, four slaves, exactly one master-capable device."
+    },
+    "required_shape": "U2-PWR1 + U11-AUD + U12-NFC + U13-MOT permanently on I2C_SDA/I2C_SCL (bus pull-ups here); then I2C_SDA -> 0R FIT -> RT_I2C_SDA (RT1062, default owner) and I2C_SDA -> 0R DNP -> S3_I2C_SDA (ESP32-S3). Same for SCL. Two resistor pairs total, four parts, on the MASTER legs - not three pairs on the sensor leg.",
+    "consequences": [
+      "R44/R45 and R46/R47 move from the sensor leg to the master legs, or are deleted and replaced there. In their present positions they are not owner-selection hardware.",
+      "MOTION_SDA / MOTION_SCL collapse into I2C_SDA / I2C_SCL - the sensor is a slave and has no reason to sit behind a link.",
+      "MOTION_INT1 keeps its _RT/_S3 split through R48/R49. The interrupt is the one signal whose XOR is already correctly placed, because an interrupt line genuinely is point-to-point between sensor and owner. Follow it as the model for the master legs, not for the bus legs.",
+      "Recompute the pull-up budget in the same edit: once MOTION_SDA merges into I2C_SDA, R50-MOT 4.7k lands in parallel with R4-PWR1 and R28-AUD giving about 1.57k on SDA against 2.35k on SCL - asymmetric and stronger than intended. Consolidate to one pull-up pair on the shared bus.",
+      "All four matrix parts must be 0 ohm, with the DNP half excluded via 'Add into BOM'='no' rather than by a Name field."
+    ]
+  },
+  "isolation_verdict": {
+    "can_rt_and_s3_be_isolated": true,
+    "reasoning": "Yes, and more easily than the question assumed - there is only one master socket to arbitrate. NFC, audio and the power monitor are slaves and do not care which master is talking; their presence does not force a dual-master condition.",
+    "ruled_out": [
+      "Duplicating the bus per owner with its own copy of the slaves - impossible, the slaves are single instances.",
+      "Leaving both masters permanently attached and arbitrating in firmware - legal I2C multi-master, but it needs both masters powered and both stacks implementing arbitration, and on a validation platform testing one owner at a time it is exactly the uncontrolled dual-master connection the contract forbids.",
+      "Selecting on the sensor leg - what is drawn today; it isolates the wrong device."
+    ],
+    "blocking_dependency": "A3-RT-DEBUG must assign two RT1062 balls to RT_I2C_SDA / RT_I2C_SCL. Until then there is no RT master leg to link to and the matrix cannot be built in any position."
+  },
+  "drc_1458_delta": {
+    "log": "anchors/schDrcLog_2026-08-28T1458.txt",
+    "summary": "Fatal 0 / Error 0 / Warn 15 / Info 414",
+    "postdates_frozen_hash": true,
+    "floating_pins_board_wide": {
+      "1217": 195,
+      "1458": 101
+    },
+    "u13_mot_floating": {
+      "1217": [
+        "2",
+        "3",
+        "5",
+        "7",
+        "8",
+        "11"
+      ],
+      "1458": [
+        "2",
+        "3",
+        "5",
+        "7",
+        "8"
+      ]
+    },
+    "u9_esp_floating": {
+      "1217": 19,
+      "1458": 0
+    },
+    "u6_rtc_floating": {
+      "1217": 111,
+      "1458": 80
+    },
+    "confirmed": "Five of this audit's six U13-MOT findings are re-confirmed by netlist-grade evidence on a state NEWER than the frozen source: CS, SDO/SA0, RES and both spare GND pins are still floating. None is a registration artefact.",
+    "mechanism": "95 pins resolved in one sweep across 17 designators spanning every functional block (U6-RTC 31, U9-ESP 19, U12-NFC 10, plus connectors and switches). The mutation ledger names it - STATE_QUARANTINED reason: 'Captain applied unused-pin NC crosses after the open NFC NC transaction'. These pins were DECLARED, not connected.",
+    "inference_warning": "U9-ESP reaching zero floating pins is NOT evidence that any S3-side net became terminated. A No-Connect cross asserts a pin is deliberately unused - the opposite of a connection. No finding depending on MOTION_INT_S3 being unterminated is weakened by it; the last direct measurement puts MOTION_INT_S3 at one bound pin, and an NC sweep cannot add one.",
+    "sharper_risk": "If an NC cross was applied to the S3 pin meant to receive MOTION_INT_S3, the S3 owner leg is now documented as permanently unused - worse than unterminated, because it reads as intentional.",
+    "drc_rule_caveat": "The DRC 'single network' warning is NOT a reliable dangling-net detector: MOTION_INT_S3 was a one-pin net in the frozen source and appeared in neither run's list, while BUCK_PG did. Its silence is not evidence.",
+    "regression": "U3-PWR2.5 became floating between the two runs - outside this lane."
+  },
+  "cross_lane_handoffs": [
+    {
+      "to": "A4-S3-AUDIO",
+      "item": "Confirm against live whether the 14:58 NC sweep placed a No-Connect cross on the ESP32-S3 pin that was meant to receive MOTION_INT_S3. If it did, the S3 owner leg is now documented as permanently unused."
+    },
+    {
+      "to": "A2-RAILS",
+      "item": "U3-PWR2.5 became floating between the 12:17 and 14:58 DRC runs - a regression outside this lane."
+    },
+    {
+      "to": "B-BOM",
+      "item": "R45/R47/R49-MOT carry Name='DNP' and a fabricated Manufacturer Part 'RC0402FR-07DNP', but their orderable Supplier Part is 'RC0402FR-0710KL.1' - a real 10k - and they carry NO 'Add into BOM'='no' attribute. Re-derived from source: that attribute exists and works on C43-ESP, C44-ESP and C52-AUD, and is absent on all three MOT resistors. As shipped they will be populated as 10k."
+    },
+    {
+      "to": "B-BOM",
+      "item": "The same fake-DNP pattern (Name='DNP', MPN 'RC0402FR-07DNP', orderable 10k, no 'Add into BOM'='no') appears on exactly seven resistors board-wide: R40-AUD, R41-AUD, R45-MOT, R47-MOT, R49-MOT, R56-VAL, R57-VAL. Re-derived independently by scanning drawn Name against orderable Supplier Part across all 65 RC0402 resistors; no other resistor mismatches once notation differences (5.1k vs 5K1, 32.4k vs 32K4, 1.05M vs 1M05) are discounted."
+    },
+    {
+      "to": "A2-RAILS",
+      "item": "WITHDRAWN 2026-08-28. R8-PWR2 orders as C185418 / RC0402FR-073K48L, a genuine 3.48k, so the LED-branch eFuse current limit is a determined 0.96 A. The earlier UNDETERMINED claim misread the stale supplierId field instead of Supplier Part."
+    },
+    {
+      "to": "A2-RAILS",
+      "item": "U4-PWR2 is a TPS259474L - the LATCHED variant. Its FLT#/PG (pins 3,4) and ITIMER (pin 10) are No-Connect, and EN/UVLO is hard-tied to 5V_SYS. A latched LED overcurrent trip therefore requires a full power cycle to clear and is invisible to firmware."
+    },
+    {
+      "to": "A4-S3-AUDIO",
+      "item": "The shared I2C bus lands on U9-ESP pins 36/37, whose symbol names are RXD0/TXD0 - the ESP32-S3 ROM bootloader console pins. U9-ESP has only five nets in the frozen source (GND, I2C_SDA, I2C_SCL, ESP_UART0_RX, ESP_UART0_TX) and no supply net."
+    },
+    {
+      "to": "A3-RT-DEBUG",
+      "item": "U6-RTC touches no I2C net at all. Whatever RT1062 balls are chosen for RT_I2C_SDA/SCL must come from this lane."
+    }
+  ],
+  "val_g3_requirements": [
+    {
+      "id": "VAL-G3-MOT-01",
+      "text": "Mount U13-MOT on a rigid structural section near the assembled structural centre - not on a board edge, connector tongue or unsupported cantilever.",
+      "source": "contracts/motion-interface.md",
+      "action": "RECORDED ONLY - not acted on at VAL-G2"
+    },
+    {
+      "id": "VAL-G3-LED-01",
+      "text": "R51/R52-LED series data resistor values are transmission-line dependent and must be set from the routed geometry, not inherited from a donor circuit.",
+      "action": "RECORDED ONLY"
+    }
+  ]
+}

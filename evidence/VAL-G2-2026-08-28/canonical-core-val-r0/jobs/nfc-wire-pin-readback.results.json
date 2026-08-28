@@ -1,0 +1,206 @@
+[
+ {
+  "tag": "C92-NFC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e146025",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e146025e5",
+     "x": 1055,
+     "y": -2960,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e146025e9",
+     "x": 1085,
+     "y": -2960,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C93-NFC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e146061",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e146061e5",
+     "x": 1205,
+     "y": -2960,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e146061e9",
+     "x": 1235,
+     "y": -2960,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C94-NFC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e146097",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e146097e5",
+     "x": 1355,
+     "y": -2960,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e146097e9",
+     "x": 1385,
+     "y": -2960,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C95-NFC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e146133",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e146133e5",
+     "x": 1505,
+     "y": -2960,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e146133e9",
+     "x": 1535,
+     "y": -2960,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C96-NFC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e146169",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e146169e5",
+     "x": 1655,
+     "y": -2960,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e146169e9",
+     "x": 1685,
+     "y": -2960,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C97-NFC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e146205",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e146205e5",
+     "x": 1805,
+     "y": -2960,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e146205e9",
+     "x": 1835,
+     "y": -2960,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ }
+]

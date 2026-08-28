@@ -1,0 +1,31 @@
+{
+  "affected": [
+    "C92-NFC",
+    "C93-NFC",
+    "C94-NFC",
+    "C95-NFC",
+    "C96-NFC",
+    "C97-NFC"
+  ],
+  "census": {
+    "components": 228,
+    "rectangles": 10,
+    "texts": 22,
+    "wires": 657
+  },
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Designate C92-NFC..C97-NFC as 2.2uF GRM155R60J225ME15D / C76993. Do not move or wire.",
+  "post_source_hash": "483977:2da8cfcd",
+  "pre_source_hash": "479573:e34d817e",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "saved": true,
+  "schema_version": 1,
+  "scope": "NFC",
+  "source_basis": [
+    "ST25R3916B: VDD_A/D/RF/AM/DR and AGDC are internal regulator outputs",
+    "STEVAL-ST25R3916B C100/C205/C207/C212/C214/C216 GRM155R60J225ME15D 2.2uF",
+    "Captain schDrcLog 2026-08-28 single-pin NFC_VDD_* and NFC_AGDC"
+  ],
+  "stage": "designate",
+  "transaction_id": "canonical-nfc-regulator-decouple-designate-2026-08-28"
+}

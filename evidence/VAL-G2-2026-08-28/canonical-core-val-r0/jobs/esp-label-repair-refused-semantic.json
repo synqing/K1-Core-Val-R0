@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-esp-service-label-visibility-repair-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "474399:c735a3f7",
+  "post_source_hash": "474325:91295516",
+  "saved": true,
+  "affected": ["U10-ESP", "J6-ESP", "R71-ESP", "R72-ESP", "R73-ESP", "R74-ESP"],
+  "census": {"components": 222, "wires": 657, "texts": 22, "rectangles": 10},
+  "observed": "The bridge refused the source write because its active-document hash changed during the guarded operation; no label visibility change is claimed."
+}

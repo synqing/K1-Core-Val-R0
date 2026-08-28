@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-power-buck-ss-cap-wire-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Wire C10-PWR2 as the TPS62913 NR/SS capacitor: pin 1 to BUCK_SS, pin 2 to GND. Do not move parts or change any other net.",
+  "observed_delta": "Box-2 view shows C10-PWR2 100nF on the TPS62913 NR/SS node with U3-PWR2, L1-PWR2 and the 3V3 output bank still in place. Live pin read-back is C10 pin 1 BUCK_SS, pin 2 GND; U3 pin 8 remains BUCK_SS.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-power-buck-ss-cap-wire-left.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "C10-PWR2 pin 1 is on BUCK_SS",
+      "result": "OK",
+      "detail": "The block screenshot shows C10-PWR2 100nF on the NR/SS node. Live pin read-back names pin 1 BUCK_SS."
+    },
+    {
+      "name": "C10-PWR2 pin 2 is on GND",
+      "result": "OK",
+      "detail": "Live pin read-back names C10-PWR2 pin 2 GND. The capacitor sits as the SS-to-ground part beside U3-PWR2."
+    },
+    {
+      "name": "U3-PWR2 NR/SS remains on BUCK_SS",
+      "result": "OK",
+      "detail": "U3-PWR2 still shows the NR/SS pin on BUCK_SS. VIN, VO, SW, FB and EN nets are unchanged."
+    },
+    {
+      "name": "No other designator is added, removed or renamed",
+      "result": "OK",
+      "detail": "Census remains 222 components. Box 2 still shows one U3, one L1 and one C10; no extra symbol appeared."
+    }
+  ]
+}

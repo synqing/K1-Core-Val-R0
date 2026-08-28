@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "waivers": [
+    {
+      "kind": "floating_pins",
+      "match": "J7-ESP\\.(A8|B8)",
+      "reason": "USB-C SBU1/SBU2 are deliberately unconnected on the ESP service port; no alternate-mode or analog audio accessory is supported on this validation build.",
+      "authority": "fixture — battery case only, not a canonical waiver",
+      "date": "2026-08-28"
+    }
+  ]
+}

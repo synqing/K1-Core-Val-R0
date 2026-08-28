@@ -1,0 +1,91 @@
+[
+ {
+  "tag": "U3-PWR2-clear-nc",
+  "ok": false,
+  "error": "This EasyEDA runtime does not expose setState_NoConnected on schematic pin objects. No-connect editing is unavailable on this host build."
+ },
+ {
+  "tag": "R75",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e146277",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e146277e7",
+      "x": 1000,
+      "y": -4480,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "BUCK_PG",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        980,
+        -4480,
+        1000,
+        -4480
+       ]
+      ],
+      "net": "BUCK_PG",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e146317"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e146277e3",
+      "x": 1040,
+      "y": -4480,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "3V3",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1060,
+        -4480,
+        1040,
+        -4480
+       ]
+      ],
+      "net": "3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e146320"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "U3-PWR2",
+  "ok": false,
+  "error": "connect_schematic_pins_to_nets: FAILED at item 1 of 1 (pin 5 -> BUCK_PG). 0 attachment(s) were ALREADY COMMITTED to the document before this failure: (none). DO NOT re-run this call unchanged — that would double-apply the committed items. Verify with get_document_source, then resume from item 1. Cause: create failed!"
+ }
+]

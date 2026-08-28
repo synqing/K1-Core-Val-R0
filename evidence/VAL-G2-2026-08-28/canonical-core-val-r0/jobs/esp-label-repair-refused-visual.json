@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-esp-service-label-visibility-repair-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Restore visible endpoint net labels for ESP service USB support parts without changing electrical topology",
+  "observed_delta": "The source write was refused and the screenshot still shows the endpoint labels hidden; no visual repair landed.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/esp-label-repair-attempt.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": ["Bridge source write refusal; labels remain hidden"],
+  "verdict": "REJECTED",
+  "checks": [
+    {"name": "R73/R74 visibility", "result": "DEFECT", "detail": "Endpoint net labels remain absent in the screenshot."},
+    {"name": "R71/R72 visibility", "result": "DEFECT", "detail": "VBUS sense divider endpoint labels remain absent in the screenshot."},
+    {"name": "U10/J6 visibility", "result": "DEFECT", "detail": "Support endpoint labels remain absent or unreadable at box-5 scale."},
+    {"name": "collateral check", "result": "OK", "detail": "Component and wire census is unchanged and no PCB mutation occurred."}
+  ]
+}

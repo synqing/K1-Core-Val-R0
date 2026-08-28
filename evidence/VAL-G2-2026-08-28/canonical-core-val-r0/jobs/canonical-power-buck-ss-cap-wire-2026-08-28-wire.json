@@ -1,0 +1,21 @@
+[
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C10",
+    "args": {
+      "componentPrimitiveId": "e24607",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "BUCK_SS"
+        },
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

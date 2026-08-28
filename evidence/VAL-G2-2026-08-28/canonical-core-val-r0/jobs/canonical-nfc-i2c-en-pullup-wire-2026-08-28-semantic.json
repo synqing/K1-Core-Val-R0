@@ -1,0 +1,27 @@
+{
+  "affected": [
+    "R76-NFC",
+    "U12-NFC"
+  ],
+  "census": {
+    "components": 230,
+    "rectangles": 10,
+    "texts": 22,
+    "wires": 675
+  },
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Wire R76-NFC pin 1 to NFC_I2C_EN, pin 2 to 3V3, and U12-NFC pin 20 I2C_EN to NFC_I2C_EN. Do not move parts.",
+  "post_source_hash": "489805:542305a0",
+  "pre_source_hash": "489440:16b6c94a",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "saved": true,
+  "schema_version": 1,
+  "scope": "NFC",
+  "source_basis": [
+    "ST25R3916B: I2C_EN high selects I2C; floating is not a valid strap",
+    "FIXTURE-PLAN uses I2C_SDA/SCL, so I2C_EN must be held high",
+    "Captain schDrcLog 2026-08-28 listed U12-NFC.20 as floating"
+  ],
+  "stage": "wire",
+  "transaction_id": "canonical-nfc-i2c-en-pullup-wire-2026-08-28"
+}

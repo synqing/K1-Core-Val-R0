@@ -1,0 +1,5 @@
+["DOCTYPE","SCH","1.1"]
+["COMPONENT","c1","",100,400,0,0,{},0]
+["ATTR","a1","c1","Designator","R1",null,null,0,0,null,"st1",0]
+["WIRE","w1",[[500,400,520,400]],null,0]
+["ATTR","a2","w1","NET","NETD",null,null,0,0,null,"st1",0]

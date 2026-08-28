@@ -1,0 +1,20 @@
+RETIRED 2026-08-28 — qualification-fixture lane, project 09e9c541fd3d404082d4b92e55ae5336.
+
+Superseded by evidence/VAL-G2-2026-08-28/canonical-core-val-r0/ (project
+64325d0e55e0435abd018defb0089a9b), which is the canonical K1-Core-Val-R0
+single-sheet lane. Last event on this lane: MUTATION_ABORTED_NO_CHANGE at
+2026-08-27T23:59:27Z.
+
+Why this file exists: harness/easyeda_mutation_gate.py used to DEFAULT to this
+lane's state and ledger. AGENTS.md tells every agent to run a bare `validate`
+before actuation, so a bare validate checked this retired lane and returned
+READY — a green that said nothing about the board being worked on, and was
+indistinguishable from a correct one because both lanes read READY.
+
+The gate now discovers lanes and refuses to guess. This marker excludes this
+directory from that discovery. Do not delete it to "clean up": removing it
+makes two lanes live again, and the gate will then refuse every bare
+invocation until one is retired.
+
+This lane's state file and ledger remain on disk as evidence and must not be
+edited or deleted.

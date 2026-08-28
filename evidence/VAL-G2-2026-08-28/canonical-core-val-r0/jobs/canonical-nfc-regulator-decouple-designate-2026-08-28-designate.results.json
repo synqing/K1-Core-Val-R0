@@ -1,0 +1,303 @@
+[
+ {
+  "tag": "C92",
+  "ok": true,
+  "result": {
+   "primitiveId": "e146025",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "3feb6cc9ffe94b3694ff68c90aa5bdee"
+    },
+    "x": 1070,
+    "y": 2960,
+    "subPartName": "GRM155R60J225ME15D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I146025",
+    "symbol": {
+     "uuid": "5091efb998354fd18e7ad635c450a017",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "footprint": {
+     "uuid": "24b9374e7f2c478f991196f2b221ff62",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "designator": "C92-NFC",
+    "name": "2.2uF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J225ME15D",
+    "supplier": "LCSC",
+    "supplierId": "C76993",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C93",
+  "ok": true,
+  "result": {
+   "primitiveId": "e146061",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "3feb6cc9ffe94b3694ff68c90aa5bdee"
+    },
+    "x": 1220,
+    "y": 2960,
+    "subPartName": "GRM155R60J225ME15D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I146061",
+    "symbol": {
+     "uuid": "5091efb998354fd18e7ad635c450a017",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "footprint": {
+     "uuid": "24b9374e7f2c478f991196f2b221ff62",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "designator": "C93-NFC",
+    "name": "2.2uF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J225ME15D",
+    "supplier": "LCSC",
+    "supplierId": "C76993",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C94",
+  "ok": true,
+  "result": {
+   "primitiveId": "e146097",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "3feb6cc9ffe94b3694ff68c90aa5bdee"
+    },
+    "x": 1370,
+    "y": 2960,
+    "subPartName": "GRM155R60J225ME15D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I146097",
+    "symbol": {
+     "uuid": "5091efb998354fd18e7ad635c450a017",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "footprint": {
+     "uuid": "24b9374e7f2c478f991196f2b221ff62",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "designator": "C94-NFC",
+    "name": "2.2uF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J225ME15D",
+    "supplier": "LCSC",
+    "supplierId": "C76993",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C95",
+  "ok": true,
+  "result": {
+   "primitiveId": "e146133",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "3feb6cc9ffe94b3694ff68c90aa5bdee"
+    },
+    "x": 1520,
+    "y": 2960,
+    "subPartName": "GRM155R60J225ME15D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I146133",
+    "symbol": {
+     "uuid": "5091efb998354fd18e7ad635c450a017",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "footprint": {
+     "uuid": "24b9374e7f2c478f991196f2b221ff62",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "designator": "C95-NFC",
+    "name": "2.2uF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J225ME15D",
+    "supplier": "LCSC",
+    "supplierId": "C76993",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C96",
+  "ok": true,
+  "result": {
+   "primitiveId": "e146169",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "3feb6cc9ffe94b3694ff68c90aa5bdee"
+    },
+    "x": 1670,
+    "y": 2960,
+    "subPartName": "GRM155R60J225ME15D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I146169",
+    "symbol": {
+     "uuid": "5091efb998354fd18e7ad635c450a017",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "footprint": {
+     "uuid": "24b9374e7f2c478f991196f2b221ff62",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "designator": "C96-NFC",
+    "name": "2.2uF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J225ME15D",
+    "supplier": "LCSC",
+    "supplierId": "C76993",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "C97",
+  "ok": true,
+  "result": {
+   "primitiveId": "e146205",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "3feb6cc9ffe94b3694ff68c90aa5bdee"
+    },
+    "x": 1820,
+    "y": 2960,
+    "subPartName": "GRM155R60J225ME15D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I146205",
+    "symbol": {
+     "uuid": "5091efb998354fd18e7ad635c450a017",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "footprint": {
+     "uuid": "24b9374e7f2c478f991196f2b221ff62",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "designator": "C97-NFC",
+    "name": "2.2uF",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J225ME15D",
+    "supplier": "LCSC",
+    "supplierId": "C76993",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   },
+   "saved": true
+  }
+ }
+]

@@ -1,0 +1,166 @@
+[
+ {
+  "tag": "R75-PWR2",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e146277",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e146277e3",
+     "x": 1040,
+     "y": -4480,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    },
+    {
+     "primitiveId": "e146277e7",
+     "x": 1000,
+     "y": -4480,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN"
+    }
+   ]
+  }
+ },
+ {
+  "tag": "U3-PWR2",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e2199",
+   "count": 10,
+   "pins": [
+    {
+     "primitiveId": "e2199e5",
+     "x": 1140,
+     "y": -4575,
+     "pinNumber": "1",
+     "pinName": "EN/SYNC",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e2199e9",
+     "x": 1140,
+     "y": -4565,
+     "pinNumber": "2",
+     "pinName": "SW",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e2199e13",
+     "x": 1140,
+     "y": -4555,
+     "pinNumber": "3",
+     "pinName": "VO",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e2199e17",
+     "x": 1140,
+     "y": -4545,
+     "pinNumber": "4",
+     "pinName": "PGND",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e2199e21",
+     "x": 1140,
+     "y": -4535,
+     "pinNumber": "5",
+     "pinName": "PG",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e2199e25",
+     "x": 1260,
+     "y": -4535,
+     "pinNumber": "6",
+     "pinName": "VIN",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e2199e29",
+     "x": 1260,
+     "y": -4545,
+     "pinNumber": "7",
+     "pinName": "PSNS",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e2199e33",
+     "x": 1260,
+     "y": -4555,
+     "pinNumber": "8",
+     "pinName": "NR/SS",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e2199e37",
+     "x": 1260,
+     "y": -4565,
+     "pinNumber": "9",
+     "pinName": "FB",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    },
+    {
+     "primitiveId": "e2199e41",
+     "x": 1260,
+     "y": -4575,
+     "pinNumber": "10",
+     "pinName": "S-CONF",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined"
+    }
+   ]
+  }
+ }
+]

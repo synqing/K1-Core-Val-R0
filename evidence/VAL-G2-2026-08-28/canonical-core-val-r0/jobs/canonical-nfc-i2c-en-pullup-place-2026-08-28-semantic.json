@@ -1,0 +1,26 @@
+{
+  "affected": [
+    "e151832"
+  ],
+  "census": {
+    "components": 230,
+    "rectangles": 10,
+    "texts": 22,
+    "wires": 672
+  },
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Place RC0402FR-0710KL 10k R76-NFC in box 7 between J10 and U12 as the ST25R3916B I2C_EN high strap. Do not designate or wire.",
+  "post_source_hash": "488462:cbe81db1",
+  "pre_source_hash": "487622:9a0be089",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "saved": true,
+  "schema_version": 1,
+  "scope": "NFC",
+  "source_basis": [
+    "ST25R3916B: I2C_EN high selects I2C; floating is not a valid strap",
+    "FIXTURE-PLAN uses I2C_SDA/SCL, so I2C_EN must be held high",
+    "Captain schDrcLog 2026-08-28 listed U12-NFC.20 as floating"
+  ],
+  "stage": "place",
+  "transaction_id": "canonical-nfc-i2c-en-pullup-place-2026-08-28"
+}

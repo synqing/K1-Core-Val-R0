@@ -23,8 +23,98 @@ from typing import Any
 
 REPO = Path(__file__).resolve().parents[1]
 DEFAULT_EVIDENCE = REPO / "evidence" / "VAL-G2-2026-08-28"
-DEFAULT_STATE = DEFAULT_EVIDENCE / "EASYEDA-MUTATION-STATE.json"
-DEFAULT_LEDGER = DEFAULT_EVIDENCE / "EASYEDA-MUTATION-LEDGER.jsonl"
+
+# --------------------------------------------------------------------------
+# LANE RESOLUTION (added 2026-08-28 — closes a false-green path)
+#
+# These two constants used to be hardcoded module defaults pointing at
+#   evidence/VAL-G2-2026-08-28/EASYEDA-MUTATION-{STATE.json,LEDGER.jsonl}
+# which is the RETIRED lane (project 09e9c541fd3d404082d4b92e55ae5336). The live
+# lane is evidence/VAL-G2-2026-08-28/canonical-core-val-r0/ (project
+# 64325d0e55e0435abd018defb0089a9b). AGENTS.md instructs every agent to run a
+# bare `easyeda_mutation_gate.py validate` before actuation — which therefore
+# validated the WRONG ledger and returned a green that meant nothing about the
+# board being worked on. Both lanes read READY, so the green looked correct.
+#
+# The fix is deliberately minimal and changes no gate SEMANTICS: an explicit
+# --state/--ledger behaves exactly as before. Only the bare invocation changes,
+# and it now either resolves to the single non-retired lane and SAYS SO, or
+# refuses. It can no longer silently target a lane nobody asked for.
+#
+# A lane is retired by placing a LANE-RETIRED file in its directory.
+# --------------------------------------------------------------------------
+RETIRED_MARKER = "LANE-RETIRED"
+STATE_BASENAMES = ("MUTATION-STATE.json", "EASYEDA-MUTATION-STATE.json")
+LEDGER_FOR_STATE = {
+    "MUTATION-STATE.json": "MUTATION-LEDGER.jsonl",
+    "EASYEDA-MUTATION-STATE.json": "EASYEDA-MUTATION-LEDGER.jsonl",
+}
+
+
+def discover_lanes(root: Path | None = None) -> list[dict]:
+    """Every mutation lane under evidence/, with its retirement status."""
+    root = root or (REPO / "evidence")
+    lanes: list[dict] = []
+    if not root.is_dir():
+        return lanes
+    for state_path in sorted(root.rglob("*MUTATION-STATE.json")):
+        if state_path.name not in STATE_BASENAMES:
+            continue
+        ledger = state_path.with_name(LEDGER_FOR_STATE[state_path.name])
+        retired_marker = state_path.parent / RETIRED_MARKER
+        project_uuid = None
+        state_name = None
+        try:
+            payload = json.loads(state_path.read_text())
+            project_uuid = payload.get("project_uuid")
+            state_name = payload.get("state")
+        except (OSError, json.JSONDecodeError):
+            pass
+        lanes.append(
+            {
+                "directory": str(state_path.parent.relative_to(REPO)),
+                "state_path": state_path,
+                "ledger_path": ledger,
+                "ledger_exists": ledger.is_file(),
+                "retired": retired_marker.is_file(),
+                "retired_reason": retired_marker.read_text().strip() if retired_marker.is_file() else None,
+                "project_uuid": project_uuid,
+                "state": state_name,
+            }
+        )
+    return lanes
+
+
+def resolve_lane() -> dict:
+    """Pick the one live lane, or refuse. Never guess."""
+    lanes = discover_lanes()
+    if not lanes:
+        raise GateError(
+            "no mutation lane found under evidence/ — cannot resolve a default lane. "
+            "Pass --state and --ledger explicitly."
+        )
+    active = [lane for lane in lanes if not lane["retired"]]
+    if not active:
+        raise GateError(
+            "every mutation lane under evidence/ is marked "
+            f"{RETIRED_MARKER}: {[lane['directory'] for lane in lanes]}. "
+            "Pass --state and --ledger explicitly."
+        )
+    if len(active) > 1:
+        listing = ", ".join(
+            f"{lane['directory']} (project {lane['project_uuid']}, state {lane['state']})"
+            for lane in active
+        )
+        raise GateError(
+            f"{len(active)} live mutation lanes found and no --state/--ledger given: {listing}. "
+            "Refusing to guess which lane you meant — a bare invocation must never silently "
+            "validate or mutate a lane you did not name. Pass --state and --ledger, or retire "
+            f"the lanes you are not using with a {RETIRED_MARKER} file."
+        )
+    lane = active[0]
+    if not lane["ledger_exists"]:
+        raise GateError(f"lane {lane['directory']} has no ledger at {lane['ledger_path']}")
+    return lane
 
 SCHEMA_VERSION = 1
 STATES = {
@@ -887,8 +977,10 @@ def validate_repository_state(state_path: Path, ledger_path: Path) -> dict[str, 
 
 def _parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--state", type=Path, default=DEFAULT_STATE)
-    parser.add_argument("--ledger", type=Path, default=DEFAULT_LEDGER)
+    # Defaults are resolved in main() by resolve_lane(), which refuses rather than
+    # guessing. Do NOT restore a hardcoded default here — see LANE RESOLUTION above.
+    parser.add_argument("--state", type=Path, default=None)
+    parser.add_argument("--ledger", type=Path, default=None)
     subparsers = parser.add_subparsers(dest="command", required=True)
 
     block = subparsers.add_parser("block")
@@ -934,12 +1026,41 @@ def _parse_args() -> argparse.Namespace:
 
     subparsers.add_parser("status")
     subparsers.add_parser("validate")
+    subparsers.add_parser("lanes")
     return parser.parse_args()
 
 
 def main() -> int:
     args = _parse_args()
     try:
+        if args.command == "lanes":
+            lanes = discover_lanes()
+            if not lanes:
+                raise GateError("no mutation lane found under evidence/")
+            print(f"EASYEDA_MUTATION_LANES={len(lanes)}")
+            for lane in lanes:
+                tag = "RETIRED" if lane["retired"] else "LIVE   "
+                print(f"  [{tag}] {lane['directory']}")
+                print(f"           project={lane['project_uuid']} state={lane['state']} "
+                      f"ledger={'present' if lane['ledger_exists'] else 'MISSING'}")
+                if lane["retired_reason"]:
+                    print(f"           retired: {lane['retired_reason'].splitlines()[0]}")
+            live = [lane for lane in lanes if not lane["retired"]]
+            print(f"EASYEDA_MUTATION_LIVE_LANES={len(live)}")
+            return 0
+
+        # A bare invocation must name the lane it resolved to. Silence here was the
+        # false-green: two lanes both read READY, so validating the retired one
+        # looked exactly like validating the live one.
+        if args.state is None or args.ledger is None:
+            lane = resolve_lane()
+            if args.state is None:
+                args.state = lane["state_path"]
+            if args.ledger is None:
+                args.ledger = lane["ledger_path"]
+            print(f"EASYEDA_MUTATION_LANE_RESOLVED={lane['directory']}")
+            print(f"EASYEDA_MUTATION_LANE_PROJECT={lane['project_uuid']}")
+
         if args.command == "block":
             result = block_state(
                 args.state,

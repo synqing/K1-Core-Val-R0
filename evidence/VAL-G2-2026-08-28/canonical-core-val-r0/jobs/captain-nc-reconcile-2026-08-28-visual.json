@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "captain-nc-reconcile-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Reconcile and restamp the canonical EasyEDA mutation boundary after Captain applied unused-pin No Connect crosses and the live source hash advanced past the open NFC NC transaction.",
+  "observed_delta": "Whole-sheet view still shows the ten domain boxes. Green NC crosses are visible on unused U6 GPIO, U13 INT2, and other unused pins. Census is 230 components and 676 wires. U4 pin 3 PG/AUXOFF is still unmarked.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/captain-nc-check-u12.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "identity",
+      "result": "OK",
+      "detail": "Active document remains the canonical K1-Core-Val-R0 schematic page."
+    },
+    {
+      "name": "single-sheet occupancy",
+      "result": "OK",
+      "detail": "The ten titled domain boxes remain on the single electrical page."
+    },
+    {
+      "name": "census",
+      "result": "OK",
+      "detail": "Live source is 230 components, 676 wires, 22 texts, 10 rectangles."
+    },
+    {
+      "name": "nc-source-readback",
+      "result": "OK",
+      "detail": "101 NO_CONNECT attributes are present; 90 of 91 requested unused pins are marked."
+    }
+  ]
+}

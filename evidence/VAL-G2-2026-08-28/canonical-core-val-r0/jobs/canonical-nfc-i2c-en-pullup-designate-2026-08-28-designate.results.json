@@ -1,0 +1,56 @@
+[
+ {
+  "tag": "R76",
+  "ok": true,
+  "result": {
+   "primitiveId": "e151832",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "uuid": "e1b1f220e40a4edea589adfa05a5d8c7"
+    },
+    "x": 1680,
+    "y": 3240,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "primitiveId": "$1I151832",
+    "symbol": {
+     "uuid": "27e1c105ea1844858f8ef4c155fa3cd7",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "footprint": {
+     "uuid": "3a9991e4aef9455bb546fda6b87e03b9",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "designator": "R76-NFC",
+    "name": "10k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0710KL",
+    "supplier": "LCSC",
+    "supplierId": "C60490",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   },
+   "saved": true
+  }
+ }
+]

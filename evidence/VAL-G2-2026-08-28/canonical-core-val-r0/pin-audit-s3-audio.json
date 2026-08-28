@@ -1,0 +1,4867 @@
+{
+  "audit": "PIN-AUDIT-S3-AUDIO",
+  "date": "2026-08-28",
+  "frozen_denominator_hash": "489736:464c27d4",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "status": "PROPOSAL - findings require reconfirmation by the single writer against live",
+  "method": {
+    "connectivity_model": "Wire-stub topology. Every one of the 675 wires on this sheet is a geometrically isolated stub carrying a NET attribute; there are zero wire-to-wire junctions and no NETLABEL/NETFLAG/NETPORT primitives. Net membership is therefore: pin coordinate coincides with a stub endpoint, and the net is that stub's NET attribute.",
+    "registration": "jobs/all-pins-nc-audit.results.json predates the frozen source for some components. A 2-parameter translation per component was fitted so that the resulting connected/floating set reproduces EasyEDA's own DRC floating-pin list exactly. 219/228 components fit at offset (0,0); U9-ESP at (-5,-20); C10-PWR2 at (0,-5); 7 components do not fit exactly and are excluded.",
+    "oracle_fault_battery": [
+      "wire deletion -> pin reports FLOATING (RED, observed)",
+      "pin displaced 1 unit -> pin reports FLOATING (RED, observed)",
+      "stub NET renamed -> pin net membership changes (RED, observed)",
+      "injected known offset -> fitter recovers it exactly (RED then GREEN, observed)",
+      "stub endpoint removed -> registration fit fails to UNRESOLVED (RED, observed)",
+      "X-crossing wires -> not merged (GREEN control)",
+      "T-junction -> merged (GREEN control)"
+    ],
+    "external_denominator": "EasyEDA schematic DRC log anchors/schDrcLog_2026-08-28.txt (195 floating-pin entries) - not derived from this audit."
+  },
+  "coverage": {
+    "components_in_frozen_source": 230,
+    "designators_in_frozen_source": 228,
+    "designators_with_pin_readback": 228,
+    "pins_parsed_total": 782,
+    "nets_in_frozen_source": 143,
+    "scope_components_audited": 64,
+    "scope_pins_audited": 222,
+    "scope_pin_coverage": "100% - every pin of every in-scope component is classified",
+    "known_gaps": [
+      "U6-RTC (MIMXRT1062DVJ6B) pin readback covers 98 balls; EasyEDA DRC names 111 floating U6-RTC pins of which 73 are outside that readback. Where an in-scope net crosses into the RT1062 the far-side ball can be named only for balls inside the readback.",
+      "AUDIO_BCLK_RT terminates on an RT1062 ball at sheet (2415,4660), inside the U6-RTC symbol extent but outside the 98-ball readback. EasyEDA DRC does NOT list AUDIO_BCLK_RT among its single-pin nets, so the connection exists; the ball cannot be named from this evidence. UNVERIFIED, not a defect.",
+      "R30-AUD is absent from the board: the -AUD designator sequence skips it."
+    ]
+  },
+  "verdict_tally": {
+    "GND": 44,
+    "POWER": 39,
+    "CONNECTED": 104,
+    "INTENTIONAL_NC": 29,
+    "RESERVED_WITH_DOCUMENTED_REASON": 6
+  },
+  "components": {
+    "U9-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "FITTED",
+      "supplier_part": "ESP32-S3-WROOM-1(N16R8).1",
+      "primitive_id": "e8065",
+      "readback_registration_offset": [
+        -5,
+        -20
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 41,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "GND",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4170,
+              4405
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "3V3",
+          "nets": [
+            "3V3"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4170,
+              4395
+            ]
+          }
+        },
+        {
+          "pin": "3",
+          "pin_name": "EN",
+          "nets": [
+            "ESP_EN"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On ESP_EN.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4170,
+              4385
+            ]
+          }
+        },
+        {
+          "pin": "4",
+          "pin_name": "IO4",
+          "nets": [
+            "NFC_IRQ"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On NFC_IRQ.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4170,
+              4375
+            ]
+          }
+        },
+        {
+          "pin": "5",
+          "pin_name": "IO5",
+          "nets": [
+            "MOTION_INT_S3"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On MOTION_INT_S3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4170,
+              4365
+            ]
+          }
+        },
+        {
+          "pin": "6",
+          "pin_name": "IO6",
+          "nets": [
+            "S3_POR_REQ"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On S3_POR_REQ.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4170,
+              4355
+            ]
+          }
+        },
+        {
+          "pin": "7",
+          "pin_name": "IO7",
+          "nets": [
+            "RT_PWR_VALID"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On RT_PWR_VALID.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4170,
+              4345
+            ]
+          }
+        },
+        {
+          "pin": "8",
+          "pin_name": "IO15",
+          "nets": [
+            "ESP_USB_VBUS_SENSE"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On ESP_USB_VBUS_SENSE.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4170,
+              4335
+            ]
+          }
+        },
+        {
+          "pin": "9",
+          "pin_name": "IO16",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "GPIO16 spare GPIO, no assigned function. Not a strapping pin and not PSRAM-reserved. No No-Connect flag placed, so EasyEDA DRC lists it as floating.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4170,
+              4325
+            ]
+          }
+        },
+        {
+          "pin": "10",
+          "pin_name": "IO17",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "GPIO17 spare GPIO, no assigned function. Not a strapping pin and not PSRAM-reserved. No No-Connect flag placed, so EasyEDA DRC lists it as floating.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4170,
+              4315
+            ]
+          }
+        },
+        {
+          "pin": "11",
+          "pin_name": "IO18",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "GPIO18 spare GPIO, no assigned function. Not a strapping pin and not PSRAM-reserved. No No-Connect flag placed, so EasyEDA DRC lists it as floating.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4170,
+              4305
+            ]
+          }
+        },
+        {
+          "pin": "12",
+          "pin_name": "IO8",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "GPIO8 spare GPIO, no assigned function. Not a strapping pin and not PSRAM-reserved. No No-Connect flag placed, so EasyEDA DRC lists it as floating.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4170,
+              4295
+            ]
+          }
+        },
+        {
+          "pin": "13",
+          "pin_name": "IO19",
+          "nets": [
+            "USB_DM_S3"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_DM_S3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4170,
+              4285
+            ]
+          }
+        },
+        {
+          "pin": "14",
+          "pin_name": "IO20",
+          "nets": [
+            "USB_DP_S3"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_DP_S3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4170,
+              4275
+            ]
+          }
+        },
+        {
+          "pin": "15",
+          "pin_name": "IO3",
+          "nets": [],
+          "verdict": "RESERVED_WITH_DOCUMENTED_REASON",
+          "reason": "GPIO3 strapping pin (JTAG source select). Left floating; default selects USB-Serial/JTAG.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4205,
+              4220
+            ]
+          }
+        },
+        {
+          "pin": "16",
+          "pin_name": "IO46",
+          "nets": [],
+          "verdict": "RESERVED_WITH_DOCUMENTED_REASON",
+          "reason": "GPIO46 strapping pin (boot mode). Internal weak pull-down (IE, WPD) gives 0 = SPI Boot default. Must not be externally pulled high.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4215,
+              4220
+            ]
+          }
+        },
+        {
+          "pin": "17",
+          "pin_name": "IO9",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "GPIO9 spare GPIO, no assigned function. Not a strapping pin and not PSRAM-reserved. No No-Connect flag placed, so EasyEDA DRC lists it as floating.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4225,
+              4220
+            ]
+          }
+        },
+        {
+          "pin": "18",
+          "pin_name": "IO10",
+          "nets": [
+            "K1BR_CS"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On K1BR_CS.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4235,
+              4220
+            ]
+          }
+        },
+        {
+          "pin": "19",
+          "pin_name": "IO11",
+          "nets": [
+            "K1BR_MOSI"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On K1BR_MOSI.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4245,
+              4220
+            ]
+          }
+        },
+        {
+          "pin": "20",
+          "pin_name": "IO12",
+          "nets": [
+            "K1BR_SCK"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On K1BR_SCK.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4255,
+              4220
+            ]
+          }
+        },
+        {
+          "pin": "21",
+          "pin_name": "IO13",
+          "nets": [
+            "K1BR_MISO_S3"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On K1BR_MISO_S3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4265,
+              4220
+            ]
+          }
+        },
+        {
+          "pin": "22",
+          "pin_name": "IO14",
+          "nets": [
+            "K1BR_IRQ_S3"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On K1BR_IRQ_S3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4275,
+              4220
+            ]
+          }
+        },
+        {
+          "pin": "23",
+          "pin_name": "IO21",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "GPIO21 spare GPIO, no assigned function. Not a strapping pin and not PSRAM-reserved. No No-Connect flag placed, so EasyEDA DRC lists it as floating.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4285,
+              4220
+            ]
+          }
+        },
+        {
+          "pin": "24",
+          "pin_name": "IO47",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "GPIO47 spare GPIO, no assigned function. Not a strapping pin and not PSRAM-reserved. No No-Connect flag placed, so EasyEDA DRC lists it as floating.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4295,
+              4220
+            ]
+          }
+        },
+        {
+          "pin": "25",
+          "pin_name": "IO48",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "GPIO48 spare GPIO, no assigned function. Not a strapping pin and not PSRAM-reserved. No No-Connect flag placed, so EasyEDA DRC lists it as floating.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4305,
+              4220
+            ]
+          }
+        },
+        {
+          "pin": "26",
+          "pin_name": "IO45",
+          "nets": [],
+          "verdict": "RESERVED_WITH_DOCUMENTED_REASON",
+          "reason": "GPIO45 strapping pin (VDD_SPI voltage select). Internal weak pull-down gives 0 = 3.3 V VDD_SPI, correct for N16R8. Must not be externally pulled high.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4315,
+              4220
+            ]
+          }
+        },
+        {
+          "pin": "27",
+          "pin_name": "IO0",
+          "nets": [
+            "ESP_GPIO0"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On ESP_GPIO0.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4340,
+              4275
+            ]
+          }
+        },
+        {
+          "pin": "28",
+          "pin_name": "IO35",
+          "nets": [],
+          "verdict": "RESERVED_WITH_DOCUMENTED_REASON",
+          "reason": "GPIO35 - occupied by in-package octal SPI PSRAM on the N16R8 variant; Espressif ESP32-S3 Schematic Checklist states GPIO33-GPIO37 are occupied and cannot be used for other functions. Must remain unconnected.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4340,
+              4285
+            ]
+          }
+        },
+        {
+          "pin": "29",
+          "pin_name": "IO36",
+          "nets": [],
+          "verdict": "RESERVED_WITH_DOCUMENTED_REASON",
+          "reason": "GPIO36 - occupied by in-package octal SPI PSRAM on N16R8. Must remain unconnected.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4340,
+              4295
+            ]
+          }
+        },
+        {
+          "pin": "30",
+          "pin_name": "IO37",
+          "nets": [],
+          "verdict": "RESERVED_WITH_DOCUMENTED_REASON",
+          "reason": "GPIO37 - occupied by in-package octal SPI PSRAM on N16R8. Must remain unconnected.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4340,
+              4305
+            ]
+          }
+        },
+        {
+          "pin": "31",
+          "pin_name": "IO38",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "GPIO38 spare GPIO, no assigned function. Not a strapping pin and not PSRAM-reserved. No No-Connect flag placed, so EasyEDA DRC lists it as floating.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4340,
+              4315
+            ]
+          }
+        },
+        {
+          "pin": "32",
+          "pin_name": "IO39",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "GPIO39 spare GPIO, no assigned function. Not a strapping pin and not PSRAM-reserved. No No-Connect flag placed, so EasyEDA DRC lists it as floating.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4340,
+              4325
+            ]
+          }
+        },
+        {
+          "pin": "33",
+          "pin_name": "IO40",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "GPIO40 spare GPIO, no assigned function. Not a strapping pin and not PSRAM-reserved. No No-Connect flag placed, so EasyEDA DRC lists it as floating.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4340,
+              4335
+            ]
+          }
+        },
+        {
+          "pin": "34",
+          "pin_name": "IO41",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "GPIO41 spare GPIO, no assigned function. Not a strapping pin and not PSRAM-reserved. No No-Connect flag placed, so EasyEDA DRC lists it as floating.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4340,
+              4345
+            ]
+          }
+        },
+        {
+          "pin": "35",
+          "pin_name": "IO42",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "GPIO42 spare GPIO, no assigned function. Not a strapping pin and not PSRAM-reserved. No No-Connect flag placed, so EasyEDA DRC lists it as floating.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4340,
+              4355
+            ]
+          }
+        },
+        {
+          "pin": "36",
+          "pin_name": "RXD0",
+          "nets": [
+            "ESP_UART0_RX"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On ESP_UART0_RX.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4340,
+              4365
+            ]
+          }
+        },
+        {
+          "pin": "37",
+          "pin_name": "TXD0",
+          "nets": [
+            "ESP_UART0_TX"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On ESP_UART0_TX.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4340,
+              4375
+            ]
+          }
+        },
+        {
+          "pin": "38",
+          "pin_name": "IO2",
+          "nets": [
+            "I2C_SCL"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On I2C_SCL.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4340,
+              4385
+            ]
+          }
+        },
+        {
+          "pin": "39",
+          "pin_name": "IO1",
+          "nets": [
+            "I2C_SDA"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On I2C_SDA.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4340,
+              4395
+            ]
+          }
+        },
+        {
+          "pin": "40",
+          "pin_name": "GND",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4340,
+              4405
+            ]
+          }
+        },
+        {
+          "pin": "41",
+          "pin_name": "GND",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U9-ESP",
+            "primitive_id": "e8065",
+            "sheet_xy": [
+              4340,
+              4420
+            ]
+          }
+        }
+      ]
+    },
+    "U10-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "TVS",
+      "supplier_part": "USBLC6-2SC6_C323793.1",
+      "primitive_id": "e8499",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 6,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "USB_DP"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_DP.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U10-ESP",
+            "primitive_id": "e8499",
+            "sheet_xy": [
+              4305,
+              4040
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U10-ESP",
+            "primitive_id": "e8499",
+            "sheet_xy": [
+              4335,
+              4040
+            ]
+          }
+        },
+        {
+          "pin": "3",
+          "pin_name": "3",
+          "nets": [
+            "USB_DM"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_DM.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U10-ESP",
+            "primitive_id": "e8499",
+            "sheet_xy": [
+              4365,
+              4040
+            ]
+          }
+        },
+        {
+          "pin": "4",
+          "pin_name": "4",
+          "nets": [
+            "USB_DM_ESD"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_DM_ESD.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U10-ESP",
+            "primitive_id": "e8499",
+            "sheet_xy": [
+              4365,
+              4160
+            ]
+          }
+        },
+        {
+          "pin": "5",
+          "pin_name": "5",
+          "nets": [
+            "S3_VBUS"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node S3_VBUS.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U10-ESP",
+            "primitive_id": "e8499",
+            "sheet_xy": [
+              4335,
+              4160
+            ]
+          }
+        },
+        {
+          "pin": "6",
+          "pin_name": "6",
+          "nets": [
+            "USB_DP_ESD"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_DP_ESD.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U10-ESP",
+            "primitive_id": "e8499",
+            "sheet_xy": [
+              4305,
+              4160
+            ]
+          }
+        }
+      ]
+    },
+    "J6-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "RECOVERY 1x6",
+      "supplier_part": "HEADER_MALE-XH_1X6P_2.54MM.1",
+      "primitive_id": "e98163",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 6,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J6-ESP",
+            "primitive_id": "e98163",
+            "sheet_xy": [
+              4750,
+              4500
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "3V3"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J6-ESP",
+            "primitive_id": "e98163",
+            "sheet_xy": [
+              4750,
+              4490
+            ]
+          }
+        },
+        {
+          "pin": "3",
+          "pin_name": "3",
+          "nets": [
+            "ESP_UART0_TX"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On ESP_UART0_TX.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J6-ESP",
+            "primitive_id": "e98163",
+            "sheet_xy": [
+              4750,
+              4480
+            ]
+          }
+        },
+        {
+          "pin": "4",
+          "pin_name": "4",
+          "nets": [
+            "ESP_UART0_RX"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On ESP_UART0_RX.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J6-ESP",
+            "primitive_id": "e98163",
+            "sheet_xy": [
+              4790,
+              4480
+            ]
+          }
+        },
+        {
+          "pin": "5",
+          "pin_name": "5",
+          "nets": [
+            "ESP_EN"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On ESP_EN.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J6-ESP",
+            "primitive_id": "e98163",
+            "sheet_xy": [
+              4790,
+              4490
+            ]
+          }
+        },
+        {
+          "pin": "6",
+          "pin_name": "6",
+          "nets": [
+            "ESP_GPIO0"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On ESP_GPIO0.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J6-ESP",
+            "primitive_id": "e98163",
+            "sheet_xy": [
+              4790,
+              4500
+            ]
+          }
+        }
+      ]
+    },
+    "J7-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "USB-C-S3",
+      "supplier_part": "USB4105-GF-A.1",
+      "primitive_id": "e8334",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 17,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "EH",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J7-ESP",
+            "primitive_id": "e8334",
+            "sheet_xy": [
+              4815,
+              4250
+            ]
+          }
+        },
+        {
+          "pin": "A1",
+          "pin_name": "GND",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J7-ESP",
+            "primitive_id": "e8334",
+            "sheet_xy": [
+              4855,
+              4280
+            ]
+          }
+        },
+        {
+          "pin": "A4",
+          "pin_name": "VBUS",
+          "nets": [
+            "S3_VBUS"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node S3_VBUS.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J7-ESP",
+            "primitive_id": "e8334",
+            "sheet_xy": [
+              4855,
+              4310
+            ]
+          }
+        },
+        {
+          "pin": "A5",
+          "pin_name": "CC1",
+          "nets": [
+            "USB_CC1"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_CC1.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J7-ESP",
+            "primitive_id": "e8334",
+            "sheet_xy": [
+              4855,
+              4320
+            ]
+          }
+        },
+        {
+          "pin": "A6",
+          "pin_name": "DP1",
+          "nets": [
+            "USB_DP"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_DP.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J7-ESP",
+            "primitive_id": "e8334",
+            "sheet_xy": [
+              4855,
+              4330
+            ]
+          }
+        },
+        {
+          "pin": "A7",
+          "pin_name": "DN1",
+          "nets": [
+            "USB_DM"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_DM.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J7-ESP",
+            "primitive_id": "e8334",
+            "sheet_xy": [
+              4855,
+              4340
+            ]
+          }
+        },
+        {
+          "pin": "A8",
+          "pin_name": "SBU1",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "SBU1 - intentional open, confirmed. No alternate-mode or debug-accessory use on this port.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "J7-ESP",
+            "primitive_id": "e8334",
+            "sheet_xy": [
+              4855,
+              4350
+            ]
+          }
+        },
+        {
+          "pin": "A9",
+          "pin_name": "VBUS",
+          "nets": [
+            "S3_VBUS"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node S3_VBUS.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J7-ESP",
+            "primitive_id": "e8334",
+            "sheet_xy": [
+              4855,
+              4360
+            ]
+          }
+        },
+        {
+          "pin": "A12",
+          "pin_name": "GND",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J7-ESP",
+            "primitive_id": "e8334",
+            "sheet_xy": [
+              4855,
+              4390
+            ]
+          }
+        },
+        {
+          "pin": "B1",
+          "pin_name": "GND",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J7-ESP",
+            "primitive_id": "e8334",
+            "sheet_xy": [
+              4765,
+              4390
+            ]
+          }
+        },
+        {
+          "pin": "B4",
+          "pin_name": "VBUS",
+          "nets": [
+            "S3_VBUS"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node S3_VBUS.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J7-ESP",
+            "primitive_id": "e8334",
+            "sheet_xy": [
+              4765,
+              4360
+            ]
+          }
+        },
+        {
+          "pin": "B5",
+          "pin_name": "CC2",
+          "nets": [
+            "USB_CC2"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_CC2.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J7-ESP",
+            "primitive_id": "e8334",
+            "sheet_xy": [
+              4765,
+              4350
+            ]
+          }
+        },
+        {
+          "pin": "B6",
+          "pin_name": "DP2",
+          "nets": [
+            "USB_DP"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_DP.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J7-ESP",
+            "primitive_id": "e8334",
+            "sheet_xy": [
+              4765,
+              4340
+            ]
+          }
+        },
+        {
+          "pin": "B7",
+          "pin_name": "DN2",
+          "nets": [
+            "USB_DM"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_DM.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J7-ESP",
+            "primitive_id": "e8334",
+            "sheet_xy": [
+              4765,
+              4330
+            ]
+          }
+        },
+        {
+          "pin": "B8",
+          "pin_name": "SBU2",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "SBU2 - intentional open, confirmed.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "J7-ESP",
+            "primitive_id": "e8334",
+            "sheet_xy": [
+              4765,
+              4320
+            ]
+          }
+        },
+        {
+          "pin": "B9",
+          "pin_name": "VBUS",
+          "nets": [
+            "S3_VBUS"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node S3_VBUS.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J7-ESP",
+            "primitive_id": "e8334",
+            "sheet_xy": [
+              4765,
+              4310
+            ]
+          }
+        },
+        {
+          "pin": "B12",
+          "pin_name": "GND",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J7-ESP",
+            "primitive_id": "e8334",
+            "sheet_xy": [
+              4765,
+              4280
+            ]
+          }
+        }
+      ]
+    },
+    "SW2-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "BOOT",
+      "supplier_part": "PTS645SM43SMTR92LFS.1",
+      "primitive_id": "e7963",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 4,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "ESP_GPIO0"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On ESP_GPIO0.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "SW2-ESP",
+            "primitive_id": "e7963",
+            "sheet_xy": [
+              4065,
+              4590
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "SW2-ESP",
+            "primitive_id": "e7963",
+            "sheet_xy": [
+              4125,
+              4590
+            ]
+          }
+        },
+        {
+          "pin": "3",
+          "pin_name": "3",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "Second contact pair of the PTS645 tact switch; pair 1/2 carries the function. Recommend paralleling 3/4 onto 1/2.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "SW2-ESP",
+            "primitive_id": "e7963",
+            "sheet_xy": [
+              4065,
+              4550
+            ]
+          }
+        },
+        {
+          "pin": "4",
+          "pin_name": "4",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "Second contact pair of the PTS645 tact switch.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "SW2-ESP",
+            "primitive_id": "e7963",
+            "sheet_xy": [
+              4125,
+              4550
+            ]
+          }
+        }
+      ]
+    },
+    "SW3-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "EN",
+      "supplier_part": "PTS645SM43SMTR92LFS.1",
+      "primitive_id": "e8014",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 4,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "ESP_EN"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On ESP_EN.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "SW3-ESP",
+            "primitive_id": "e8014",
+            "sheet_xy": [
+              4195,
+              4595
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "SW3-ESP",
+            "primitive_id": "e8014",
+            "sheet_xy": [
+              4255,
+              4595
+            ]
+          }
+        },
+        {
+          "pin": "3",
+          "pin_name": "3",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "Second contact pair of the PTS645 tact switch.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "SW3-ESP",
+            "primitive_id": "e8014",
+            "sheet_xy": [
+              4195,
+              4555
+            ]
+          }
+        },
+        {
+          "pin": "4",
+          "pin_name": "4",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "Second contact pair of the PTS645 tact switch.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "SW3-ESP",
+            "primitive_id": "e8014",
+            "sheet_xy": [
+              4255,
+              4555
+            ]
+          }
+        }
+      ]
+    },
+    "TP1-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "TP",
+      "supplier_part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+      "primitive_id": "e8779",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 1,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "K1BR_SCK"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On K1BR_SCK.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "TP1-ESP",
+            "primitive_id": "e8779",
+            "sheet_xy": [
+              4270,
+              3820
+            ]
+          }
+        }
+      ]
+    },
+    "TP2-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "TP",
+      "supplier_part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+      "primitive_id": "e8808",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 1,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "K1BR_CS"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On K1BR_CS.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "TP2-ESP",
+            "primitive_id": "e8808",
+            "sheet_xy": [
+              4450,
+              3820
+            ]
+          }
+        }
+      ]
+    },
+    "C39-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "100nF",
+      "supplier_part": "GRM155R71C104KA88D.1",
+      "primitive_id": "e7586",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "3V3"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C39-ESP",
+            "primitive_id": "e7586",
+            "sheet_xy": [
+              4640,
+              4575
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C39-ESP",
+            "primitive_id": "e7586",
+            "sheet_xy": [
+              4680,
+              4575
+            ]
+          }
+        }
+      ]
+    },
+    "C40-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "10uF",
+      "supplier_part": "GRM155R60J106ME44D.1",
+      "primitive_id": "e7622",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "3V3"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C40-ESP",
+            "primitive_id": "e7622",
+            "sheet_xy": [
+              4735,
+              4575
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C40-ESP",
+            "primitive_id": "e7622",
+            "sheet_xy": [
+              4765,
+              4575
+            ]
+          }
+        }
+      ]
+    },
+    "C41-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "47uF",
+      "supplier_part": "GRM21BR61A476ME15L.1",
+      "primitive_id": "e7658",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "3V3"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C41-ESP",
+            "primitive_id": "e7658",
+            "sheet_xy": [
+              4640,
+              4455
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C41-ESP",
+            "primitive_id": "e7658",
+            "sheet_xy": [
+              4640,
+              4495
+            ]
+          }
+        }
+      ]
+    },
+    "C42-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "1uF",
+      "supplier_part": "C76999",
+      "primitive_id": "e98127",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "ESP_EN"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On ESP_EN.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C42-ESP",
+            "primitive_id": "e98127",
+            "sheet_xy": [
+              4830,
+              4575
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C42-ESP",
+            "primitive_id": "e98127",
+            "sheet_xy": [
+              4870,
+              4575
+            ]
+          }
+        }
+      ]
+    },
+    "C43-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "DNP / 100pF USB D+ TUNE",
+      "supplier_part": "GRM1555C1H101JA01D.1",
+      "primitive_id": "e8224",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "USB_DP_S3"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_DP_S3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C43-ESP",
+            "primitive_id": "e8224",
+            "sheet_xy": [
+              4095,
+              3980
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C43-ESP",
+            "primitive_id": "e8224",
+            "sheet_xy": [
+              4125,
+              3980
+            ]
+          }
+        }
+      ]
+    },
+    "C44-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "DNP / 100pF USB D- TUNE",
+      "supplier_part": "GRM1555C1H101JA01D.1",
+      "primitive_id": "e8260",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "USB_DM_S3"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_DM_S3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C44-ESP",
+            "primitive_id": "e8260",
+            "sheet_xy": [
+              4275,
+              3980
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C44-ESP",
+            "primitive_id": "e8260",
+            "sheet_xy": [
+              4305,
+              3980
+            ]
+          }
+        }
+      ]
+    },
+    "C45-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "100nF",
+      "supplier_part": "GRM155R71C104KA88D.1",
+      "primitive_id": "e8548",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "3V3"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C45-ESP",
+            "primitive_id": "e8548",
+            "sheet_xy": [
+              4090,
+              3720
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C45-ESP",
+            "primitive_id": "e8548",
+            "sheet_xy": [
+              4130,
+              3720
+            ]
+          }
+        }
+      ]
+    },
+    "R19-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "10k",
+      "supplier_part": "RC0402FR-0710KL.1",
+      "primitive_id": "e7885",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "3V3"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R19-ESP",
+            "primitive_id": "e7885",
+            "sheet_xy": [
+              4380,
+              4585
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "ESP_EN"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On ESP_EN.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R19-ESP",
+            "primitive_id": "e7885",
+            "sheet_xy": [
+              4420,
+              4585
+            ]
+          }
+        }
+      ]
+    },
+    "R20-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "10k",
+      "supplier_part": "RC0402FR-0710KL.1",
+      "primitive_id": "e7924",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "3V3"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R20-ESP",
+            "primitive_id": "e7924",
+            "sheet_xy": [
+              4520,
+              4588
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "ESP_GPIO0"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On ESP_GPIO0.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R20-ESP",
+            "primitive_id": "e7924",
+            "sheet_xy": [
+              4560,
+              4588
+            ]
+          }
+        }
+      ]
+    },
+    "R21-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "5.1k",
+      "supplier_part": "RC0402FR-075K1L.1",
+      "primitive_id": "e8421",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "USB_CC1"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_CC1.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R21-ESP",
+            "primitive_id": "e8421",
+            "sheet_xy": [
+              4800,
+              3975
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R21-ESP",
+            "primitive_id": "e8421",
+            "sheet_xy": [
+              4840,
+              3975
+            ]
+          }
+        }
+      ]
+    },
+    "R22-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "5.1k",
+      "supplier_part": "RC0402FR-075K1L.1",
+      "primitive_id": "e8460",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "USB_CC2"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_CC2.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R22-ESP",
+            "primitive_id": "e8460",
+            "sheet_xy": [
+              4050,
+              4140
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R22-ESP",
+            "primitive_id": "e8460",
+            "sheet_xy": [
+              4090,
+              4140
+            ]
+          }
+        }
+      ]
+    },
+    "R23-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "22R",
+      "supplier_part": "RC0402FR-0722RL.1",
+      "primitive_id": "e8584",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "K1BR_SCK_RT"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On K1BR_SCK_RT.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R23-ESP",
+            "primitive_id": "e8584",
+            "sheet_xy": [
+              4270,
+              3720
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "K1BR_SCK"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On K1BR_SCK.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R23-ESP",
+            "primitive_id": "e8584",
+            "sheet_xy": [
+              4310,
+              3720
+            ]
+          }
+        }
+      ]
+    },
+    "R24-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "22R",
+      "supplier_part": "RC0402FR-0722RL.1",
+      "primitive_id": "e8623",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "K1BR_MOSI_RT"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On K1BR_MOSI_RT.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R24-ESP",
+            "primitive_id": "e8623",
+            "sheet_xy": [
+              4450,
+              3720
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "K1BR_MOSI"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On K1BR_MOSI.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R24-ESP",
+            "primitive_id": "e8623",
+            "sheet_xy": [
+              4490,
+              3720
+            ]
+          }
+        }
+      ]
+    },
+    "R25-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "22R",
+      "supplier_part": "RC0402FR-0722RL.1",
+      "primitive_id": "e8662",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "K1BR_MISO_S3"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On K1BR_MISO_S3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R25-ESP",
+            "primitive_id": "e8662",
+            "sheet_xy": [
+              4630,
+              3720
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "K1BR_MISO"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On K1BR_MISO.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R25-ESP",
+            "primitive_id": "e8662",
+            "sheet_xy": [
+              4670,
+              3720
+            ]
+          }
+        }
+      ]
+    },
+    "R26-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "22R",
+      "supplier_part": "RC0402FR-0722RL.1",
+      "primitive_id": "e8701",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "K1BR_CS_RT"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On K1BR_CS_RT.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R26-ESP",
+            "primitive_id": "e8701",
+            "sheet_xy": [
+              4810,
+              3720
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "K1BR_CS"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On K1BR_CS.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R26-ESP",
+            "primitive_id": "e8701",
+            "sheet_xy": [
+              4850,
+              3720
+            ]
+          }
+        }
+      ]
+    },
+    "R27-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "22R",
+      "supplier_part": "RC0402FR-0722RL.1",
+      "primitive_id": "e8740",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "K1BR_IRQ_S3"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On K1BR_IRQ_S3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R27-ESP",
+            "primitive_id": "e8740",
+            "sheet_xy": [
+              4090,
+              3820
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "K1BR_IRQ"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On K1BR_IRQ.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R27-ESP",
+            "primitive_id": "e8740",
+            "sheet_xy": [
+              4130,
+              3820
+            ]
+          }
+        }
+      ]
+    },
+    "R71-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "100k",
+      "supplier_part": "C60491",
+      "primitive_id": "e98207",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "S3_VBUS"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node S3_VBUS.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R71-ESP",
+            "primitive_id": "e98207",
+            "sheet_xy": [
+              4430,
+              3890
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "ESP_USB_VBUS_SENSE"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On ESP_USB_VBUS_SENSE.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R71-ESP",
+            "primitive_id": "e98207",
+            "sheet_xy": [
+              4470,
+              3890
+            ]
+          }
+        }
+      ]
+    },
+    "R72-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "100k",
+      "supplier_part": "C60491",
+      "primitive_id": "e98246",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "ESP_USB_VBUS_SENSE"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On ESP_USB_VBUS_SENSE.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R72-ESP",
+            "primitive_id": "e98246",
+            "sheet_xy": [
+              4560,
+              3890
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R72-ESP",
+            "primitive_id": "e98246",
+            "sheet_xy": [
+              4600,
+              3890
+            ]
+          }
+        }
+      ]
+    },
+    "R73-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "22R",
+      "supplier_part": "RC0402FR-0722RL.1",
+      "primitive_id": "e98285",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "USB_DP_ESD"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_DP_ESD.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R73-ESP",
+            "primitive_id": "e98285",
+            "sheet_xy": [
+              4165,
+              4145
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "USB_DP_S3"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_DP_S3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R73-ESP",
+            "primitive_id": "e98285",
+            "sheet_xy": [
+              4205,
+              4145
+            ]
+          }
+        }
+      ]
+    },
+    "R74-ESP": {
+      "scope": "A_esp32s3_service_seam",
+      "value": "22R",
+      "supplier_part": "RC0402FR-0722RL.1",
+      "primitive_id": "e98324",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "USB_DM_ESD"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_DM_ESD.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R74-ESP",
+            "primitive_id": "e98324",
+            "sheet_xy": [
+              4150,
+              4050
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "USB_DM_S3"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On USB_DM_S3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R74-ESP",
+            "primitive_id": "e98324",
+            "sheet_xy": [
+              4190,
+              4050
+            ]
+          }
+        }
+      ]
+    },
+    "U11-AUD": {
+      "scope": "B_audio_capture",
+      "value": "ADC6120",
+      "supplier_part": "TLV320ADC6120IRTER.1",
+      "primitive_id": "e11985",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 21,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "IN1P",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "IN1P analog input unused in the PDM-only configuration. TI datasheet shows these pins connected in every typical application; termination or explicit GPIx/GPOx repurposing is recommended - see DEFECT AUD-05.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              425,
+              3430
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "IN1M",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "IN1M analog input unused in the PDM-only configuration. See DEFECT AUD-05.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              425,
+              3420
+            ]
+          }
+        },
+        {
+          "pin": "3",
+          "pin_name": "IN2P_GPI1",
+          "nets": [
+            "PDM_DAT_ADC"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On PDM_DAT_ADC.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              425,
+              3410
+            ]
+          }
+        },
+        {
+          "pin": "4",
+          "pin_name": "IN2M_GPO1",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "IN2M_GPO1 unused in the PDM-only configuration. See DEFECT AUD-05.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              425,
+              3400
+            ]
+          }
+        },
+        {
+          "pin": "5",
+          "pin_name": "VSS",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              425,
+              3390
+            ]
+          }
+        },
+        {
+          "pin": "6",
+          "pin_name": "SDOUT",
+          "nets": [
+            "AUDIO_DOUT_ADC"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_DOUT_ADC.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              425,
+              3380
+            ]
+          }
+        },
+        {
+          "pin": "7",
+          "pin_name": "BCLK",
+          "nets": [
+            "AUDIO_BCLK"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_BCLK.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              425,
+              3370
+            ]
+          }
+        },
+        {
+          "pin": "8",
+          "pin_name": "FSYNC",
+          "nets": [
+            "AUDIO_FSYNC"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_FSYNC.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              425,
+              3360
+            ]
+          }
+        },
+        {
+          "pin": "9",
+          "pin_name": "IOVDD",
+          "nets": [
+            "3V3"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              425,
+              3350
+            ]
+          }
+        },
+        {
+          "pin": "10",
+          "pin_name": "VSS",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              425,
+              3340
+            ]
+          }
+        },
+        {
+          "pin": "11",
+          "pin_name": "GPIO1",
+          "nets": [
+            "PDM_CLK_ADC"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On PDM_CLK_ADC.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              605,
+              3340
+            ]
+          }
+        },
+        {
+          "pin": "12",
+          "pin_name": "SDA",
+          "nets": [
+            "I2C_SDA"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On I2C_SDA.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              605,
+              3350
+            ]
+          }
+        },
+        {
+          "pin": "13",
+          "pin_name": "SCL",
+          "nets": [
+            "I2C_SCL"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On I2C_SCL.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              605,
+              3360
+            ]
+          }
+        },
+        {
+          "pin": "14",
+          "pin_name": "DREG",
+          "nets": [
+            "ADC_DREG"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node ADC_DREG.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              605,
+              3370
+            ]
+          }
+        },
+        {
+          "pin": "15",
+          "pin_name": "VSS",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              605,
+              3380
+            ]
+          }
+        },
+        {
+          "pin": "16",
+          "pin_name": "AVDD",
+          "nets": [
+            "3V3"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              605,
+              3390
+            ]
+          }
+        },
+        {
+          "pin": "17",
+          "pin_name": "AREG",
+          "nets": [
+            "ADC_AREG"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node ADC_AREG.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              605,
+              3400
+            ]
+          }
+        },
+        {
+          "pin": "18",
+          "pin_name": "VREF",
+          "nets": [
+            "ADC_VREF"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node ADC_VREF.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              605,
+              3410
+            ]
+          }
+        },
+        {
+          "pin": "19",
+          "pin_name": "MICBIAS_GPI2",
+          "nets": [
+            "AUDIO_MCLK"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_MCLK.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              605,
+              3420
+            ]
+          }
+        },
+        {
+          "pin": "20",
+          "pin_name": "VSS",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              605,
+              3430
+            ]
+          }
+        },
+        {
+          "pin": "21",
+          "pin_name": "EP",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U11-AUD",
+            "primitive_id": "e11985",
+            "sheet_xy": [
+              515,
+              3320
+            ]
+          }
+        }
+      ]
+    },
+    "J8-AUD": {
+      "scope": "B_audio_capture",
+      "value": "1x4",
+      "supplier_part": "PREC004SAAN-RC.1",
+      "primitive_id": "e12118",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 4,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "AUDIO_MCLK"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_MCLK.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J8-AUD",
+            "primitive_id": "e12118",
+            "sheet_xy": [
+              280,
+              2885
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "AUDIO_BCLK"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_BCLK.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J8-AUD",
+            "primitive_id": "e12118",
+            "sheet_xy": [
+              280,
+              2875
+            ]
+          }
+        },
+        {
+          "pin": "3",
+          "pin_name": "3",
+          "nets": [
+            "AUDIO_FSYNC"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_FSYNC.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J8-AUD",
+            "primitive_id": "e12118",
+            "sheet_xy": [
+              280,
+              2865
+            ]
+          }
+        },
+        {
+          "pin": "4",
+          "pin_name": "4",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J8-AUD",
+            "primitive_id": "e12118",
+            "sheet_xy": [
+              280,
+              2855
+            ]
+          }
+        }
+      ]
+    },
+    "J9-AUD": {
+      "scope": "B_audio_capture",
+      "value": "FFC-10",
+      "supplier_part": "FH12-10S-0.5SH(55).1",
+      "primitive_id": "e12548",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 12,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "3V3_MIC_FLEX"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3_MIC_FLEX.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J9-AUD",
+            "primitive_id": "e12548",
+            "sheet_xy": [
+              445,
+              2580
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J9-AUD",
+            "primitive_id": "e12548",
+            "sheet_xy": [
+              445,
+              2570
+            ]
+          }
+        },
+        {
+          "pin": "3",
+          "pin_name": "3",
+          "nets": [
+            "PDM_CLK"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On PDM_CLK.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J9-AUD",
+            "primitive_id": "e12548",
+            "sheet_xy": [
+              445,
+              2560
+            ]
+          }
+        },
+        {
+          "pin": "4",
+          "pin_name": "4",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J9-AUD",
+            "primitive_id": "e12548",
+            "sheet_xy": [
+              445,
+              2550
+            ]
+          }
+        },
+        {
+          "pin": "5",
+          "pin_name": "5",
+          "nets": [
+            "PDM_DAT"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On PDM_DAT.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J9-AUD",
+            "primitive_id": "e12548",
+            "sheet_xy": [
+              445,
+              2540
+            ]
+          }
+        },
+        {
+          "pin": "6",
+          "pin_name": "6",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "J9-AUD",
+            "primitive_id": "e12548",
+            "sheet_xy": [
+              445,
+              2530
+            ]
+          }
+        },
+        {
+          "pin": "7",
+          "pin_name": "7",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "Sheet annotation e129957 'J9: 1 PWR | 2 GND | 3 CLK | 4 GND | 5 DATA | 6 GND | 7-10 NC'.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "J9-AUD",
+            "primitive_id": "e12548",
+            "sheet_xy": [
+              445,
+              2520
+            ]
+          }
+        },
+        {
+          "pin": "8",
+          "pin_name": "8",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "Sheet annotation e129957: pins 7-10 NC.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "J9-AUD",
+            "primitive_id": "e12548",
+            "sheet_xy": [
+              445,
+              2510
+            ]
+          }
+        },
+        {
+          "pin": "9",
+          "pin_name": "9",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "Sheet annotation e129957: pins 7-10 NC.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "J9-AUD",
+            "primitive_id": "e12548",
+            "sheet_xy": [
+              445,
+              2500
+            ]
+          }
+        },
+        {
+          "pin": "10",
+          "pin_name": "10",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "Sheet annotation e129957: pins 7-10 NC.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "J9-AUD",
+            "primitive_id": "e12548",
+            "sheet_xy": [
+              445,
+              2490
+            ]
+          }
+        },
+        {
+          "pin": "11",
+          "pin_name": "11",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "FH12-10S-0.5SH hold-down / shell tab [INFERENCE from a 10-position part carrying 12 symbol pins]. Not tied to GND - see DEFECT AUD-06.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "J9-AUD",
+            "primitive_id": "e12548",
+            "sheet_xy": [
+              480,
+              2470
+            ]
+          }
+        },
+        {
+          "pin": "12",
+          "pin_name": "12",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "FH12-10S-0.5SH hold-down / shell tab [INFERENCE]. Not tied to GND - see DEFECT AUD-06.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "J9-AUD",
+            "primitive_id": "e12548",
+            "sheet_xy": [
+              480,
+              2600
+            ]
+          }
+        }
+      ]
+    },
+    "C46-AUD": {
+      "scope": "B_audio_capture",
+      "value": "100nF",
+      "supplier_part": "GRM155R71C104KA88D.1",
+      "primitive_id": "e11652",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "3V3"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C46-AUD",
+            "primitive_id": "e11652",
+            "sheet_xy": [
+              50,
+              3200
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C46-AUD",
+            "primitive_id": "e11652",
+            "sheet_xy": [
+              90,
+              3200
+            ]
+          }
+        }
+      ]
+    },
+    "C47-AUD": {
+      "scope": "B_audio_capture",
+      "value": "100nF",
+      "supplier_part": "GRM155R71C104KA88D.1",
+      "primitive_id": "e11688",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "3V3"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C47-AUD",
+            "primitive_id": "e11688",
+            "sheet_xy": [
+              230,
+              3200
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C47-AUD",
+            "primitive_id": "e11688",
+            "sheet_xy": [
+              270,
+              3200
+            ]
+          }
+        }
+      ]
+    },
+    "C48-AUD": {
+      "scope": "B_audio_capture",
+      "value": "100nF",
+      "supplier_part": "GRM155R71C104KA88D.1",
+      "primitive_id": "e11724",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "ADC_AREG"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node ADC_AREG.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C48-AUD",
+            "primitive_id": "e11724",
+            "sheet_xy": [
+              410,
+              3200
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C48-AUD",
+            "primitive_id": "e11724",
+            "sheet_xy": [
+              450,
+              3200
+            ]
+          }
+        }
+      ]
+    },
+    "C49-AUD": {
+      "scope": "B_audio_capture",
+      "value": "100nF",
+      "supplier_part": "GRM155R71C104KA88D.1",
+      "primitive_id": "e11760",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "ADC_DREG"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node ADC_DREG.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C49-AUD",
+            "primitive_id": "e11760",
+            "sheet_xy": [
+              590,
+              3200
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C49-AUD",
+            "primitive_id": "e11760",
+            "sheet_xy": [
+              630,
+              3200
+            ]
+          }
+        }
+      ]
+    },
+    "C50-AUD": {
+      "scope": "B_audio_capture",
+      "value": "10uF",
+      "supplier_part": "GRM155R60J106ME44D.1",
+      "primitive_id": "e11796",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "3V3"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C50-AUD",
+            "primitive_id": "e11796",
+            "sheet_xy": [
+              775,
+              3200
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C50-AUD",
+            "primitive_id": "e11796",
+            "sheet_xy": [
+              805,
+              3200
+            ]
+          }
+        }
+      ]
+    },
+    "C51-AUD": {
+      "scope": "B_audio_capture",
+      "value": "1uF",
+      "supplier_part": "C76999",
+      "primitive_id": "e129790",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "ADC_VREF"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node ADC_VREF.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C51-AUD",
+            "primitive_id": "e129790",
+            "sheet_xy": [
+              50,
+              3300
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C51-AUD",
+            "primitive_id": "e129790",
+            "sheet_xy": [
+              90,
+              3300
+            ]
+          }
+        }
+      ]
+    },
+    "C52-AUD": {
+      "scope": "B_audio_capture",
+      "value": "DNP / 100pF MCLK TUNE",
+      "supplier_part": "GRM1555C1H101JA01D.1",
+      "primitive_id": "e12082",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "AUDIO_MCLK"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_MCLK.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C52-AUD",
+            "primitive_id": "e12082",
+            "sheet_xy": [
+              85,
+              2855
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C52-AUD",
+            "primitive_id": "e12082",
+            "sheet_xy": [
+              115,
+              2855
+            ]
+          }
+        }
+      ]
+    },
+    "C53-AUD": {
+      "scope": "B_audio_capture",
+      "value": "100nF",
+      "supplier_part": "GRM155R71C104KA88D.1",
+      "primitive_id": "e12474",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "3V3_MIC_FLEX"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3_MIC_FLEX.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C53-AUD",
+            "primitive_id": "e12474",
+            "sheet_xy": [
+              50,
+              2535
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C53-AUD",
+            "primitive_id": "e12474",
+            "sheet_xy": [
+              90,
+              2535
+            ]
+          }
+        }
+      ]
+    },
+    "C90-AUD": {
+      "scope": "B_audio_capture",
+      "value": "10uF",
+      "supplier_part": "GRM155R60J106ME44D.1",
+      "primitive_id": "e129826",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "ADC_AREG"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node ADC_AREG.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C90-AUD",
+            "primitive_id": "e129826",
+            "sheet_xy": [
+              235,
+              3300
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C90-AUD",
+            "primitive_id": "e129826",
+            "sheet_xy": [
+              265,
+              3300
+            ]
+          }
+        }
+      ]
+    },
+    "C91-AUD": {
+      "scope": "B_audio_capture",
+      "value": "10uF",
+      "supplier_part": "GRM155R60J106ME44D.1",
+      "primitive_id": "e129862",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "ADC_DREG"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node ADC_DREG.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C91-AUD",
+            "primitive_id": "e129862",
+            "sheet_xy": [
+              775,
+              3400
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C91-AUD",
+            "primitive_id": "e129862",
+            "sheet_xy": [
+              805,
+              3400
+            ]
+          }
+        }
+      ]
+    },
+    "R28-AUD": {
+      "scope": "B_audio_capture",
+      "value": "4.7k",
+      "supplier_part": "RC0402FR-074K7L.1",
+      "primitive_id": "e11868",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "3V3"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R28-AUD",
+            "primitive_id": "e11868",
+            "sheet_xy": [
+              770,
+              3300
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "I2C_SDA"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On I2C_SDA.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R28-AUD",
+            "primitive_id": "e11868",
+            "sheet_xy": [
+              810,
+              3300
+            ]
+          }
+        }
+      ]
+    },
+    "R29-AUD": {
+      "scope": "B_audio_capture",
+      "value": "4.7k",
+      "supplier_part": "RC0402FR-074K7L.1",
+      "primitive_id": "e11907",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "3V3"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R29-AUD",
+            "primitive_id": "e11907",
+            "sheet_xy": [
+              50,
+              3400
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "I2C_SCL"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On I2C_SCL.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R29-AUD",
+            "primitive_id": "e11907",
+            "sheet_xy": [
+              90,
+              3400
+            ]
+          }
+        }
+      ]
+    },
+    "R31-AUD": {
+      "scope": "B_audio_capture",
+      "value": "22R",
+      "supplier_part": "RC0402FR-0722RL.1",
+      "primitive_id": "e12172",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "AUDIO_MCLK_RT"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_MCLK_RT.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R31-AUD",
+            "primitive_id": "e12172",
+            "sheet_xy": [
+              410,
+              2875
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "AUDIO_MCLK_ISO"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_MCLK_ISO.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R31-AUD",
+            "primitive_id": "e12172",
+            "sheet_xy": [
+              450,
+              2875
+            ]
+          }
+        }
+      ]
+    },
+    "R32-AUD": {
+      "scope": "B_audio_capture",
+      "value": "22R",
+      "supplier_part": "RC0402FR-0722RL.1",
+      "primitive_id": "e12211",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "AUDIO_BCLK_RT"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_BCLK_RT.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R32-AUD",
+            "primitive_id": "e12211",
+            "sheet_xy": [
+              590,
+              2875
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "AUDIO_BCLK_ISO"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_BCLK_ISO.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R32-AUD",
+            "primitive_id": "e12211",
+            "sheet_xy": [
+              630,
+              2875
+            ]
+          }
+        }
+      ]
+    },
+    "R33-AUD": {
+      "scope": "B_audio_capture",
+      "value": "22R",
+      "supplier_part": "RC0402FR-0722RL.1",
+      "primitive_id": "e12250",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "AUDIO_FSYNC_RT"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_FSYNC_RT.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R33-AUD",
+            "primitive_id": "e12250",
+            "sheet_xy": [
+              770,
+              2875
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "AUDIO_FSYNC_ISO"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_FSYNC_ISO.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R33-AUD",
+            "primitive_id": "e12250",
+            "sheet_xy": [
+              810,
+              2875
+            ]
+          }
+        }
+      ]
+    },
+    "R34-AUD": {
+      "scope": "B_audio_capture",
+      "value": "0R",
+      "supplier_part": "RC0402FR-070RL.1",
+      "primitive_id": "e12289",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "AUDIO_MCLK_ISO"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_MCLK_ISO.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R34-AUD",
+            "primitive_id": "e12289",
+            "sheet_xy": [
+              70,
+              3040
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "AUDIO_MCLK"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_MCLK.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R34-AUD",
+            "primitive_id": "e12289",
+            "sheet_xy": [
+              110,
+              3040
+            ]
+          }
+        }
+      ]
+    },
+    "R35-AUD": {
+      "scope": "B_audio_capture",
+      "value": "0R",
+      "supplier_part": "RC0402FR-070RL.1",
+      "primitive_id": "e12328",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "AUDIO_BCLK_ISO"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_BCLK_ISO.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R35-AUD",
+            "primitive_id": "e12328",
+            "sheet_xy": [
+              230,
+              3040
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "AUDIO_BCLK"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_BCLK.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R35-AUD",
+            "primitive_id": "e12328",
+            "sheet_xy": [
+              270,
+              3040
+            ]
+          }
+        }
+      ]
+    },
+    "R36-AUD": {
+      "scope": "B_audio_capture",
+      "value": "0R",
+      "supplier_part": "RC0402FR-070RL.1",
+      "primitive_id": "e12367",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "AUDIO_FSYNC_ISO"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_FSYNC_ISO.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R36-AUD",
+            "primitive_id": "e12367",
+            "sheet_xy": [
+              410,
+              3040
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "AUDIO_FSYNC"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_FSYNC.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R36-AUD",
+            "primitive_id": "e12367",
+            "sheet_xy": [
+              450,
+              3040
+            ]
+          }
+        }
+      ]
+    },
+    "R37-AUD": {
+      "scope": "B_audio_capture",
+      "value": "22R",
+      "supplier_part": "RC0402FR-0722RL.1",
+      "primitive_id": "e12406",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "AUDIO_DOUT_ADC"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_DOUT_ADC.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R37-AUD",
+            "primitive_id": "e12406",
+            "sheet_xy": [
+              590,
+              3040
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "AUDIO_DOUT"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_DOUT.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R37-AUD",
+            "primitive_id": "e12406",
+            "sheet_xy": [
+              630,
+              3040
+            ]
+          }
+        }
+      ]
+    },
+    "R38-AUD": {
+      "scope": "B_audio_capture",
+      "value": "0R",
+      "supplier_part": "RC0402FR-070RL.1",
+      "primitive_id": "e12620",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "PDM_CLK"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On PDM_CLK.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R38-AUD",
+            "primitive_id": "e12620",
+            "sheet_xy": [
+              590,
+              2535
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "PDM_CLK_ADC"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On PDM_CLK_ADC.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R38-AUD",
+            "primitive_id": "e12620",
+            "sheet_xy": [
+              630,
+              2535
+            ]
+          }
+        }
+      ]
+    },
+    "R39-AUD": {
+      "scope": "B_audio_capture",
+      "value": "0R",
+      "supplier_part": "RC0402FR-070RL.1",
+      "primitive_id": "e12659",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "PDM_DAT"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On PDM_DAT.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R39-AUD",
+            "primitive_id": "e12659",
+            "sheet_xy": [
+              770,
+              2535
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "PDM_DAT_ADC"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On PDM_DAT_ADC.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R39-AUD",
+            "primitive_id": "e12659",
+            "sheet_xy": [
+              810,
+              2535
+            ]
+          }
+        }
+      ]
+    },
+    "R40-AUD": {
+      "scope": "B_audio_capture",
+      "value": "DNP",
+      "supplier_part": "RC0402FR-0710KL.1",
+      "primitive_id": "e12698",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "PDM_CLK"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On PDM_CLK.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R40-AUD",
+            "primitive_id": "e12698",
+            "sheet_xy": [
+              245,
+              2705
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "PDM_CLK_RT"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On PDM_CLK_RT.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R40-AUD",
+            "primitive_id": "e12698",
+            "sheet_xy": [
+              285,
+              2705
+            ]
+          }
+        }
+      ]
+    },
+    "R41-AUD": {
+      "scope": "B_audio_capture",
+      "value": "DNP",
+      "supplier_part": "RC0402FR-0710KL.1",
+      "primitive_id": "e12737",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "PDM_DAT"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On PDM_DAT.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R41-AUD",
+            "primitive_id": "e12737",
+            "sheet_xy": [
+              440,
+              2705
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "PDM_DAT_RT"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On PDM_DAT_RT.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R41-AUD",
+            "primitive_id": "e12737",
+            "sheet_xy": [
+              480,
+              2705
+            ]
+          }
+        }
+      ]
+    },
+    "FB5-AUD": {
+      "scope": "B_audio_capture",
+      "value": "220ohm@100MHz",
+      "supplier_part": "BLM15AG221SN1D.1",
+      "primitive_id": "e12510",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "3V3_MIC"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3_MIC.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "FB5-AUD",
+            "primitive_id": "e12510",
+            "sheet_xy": [
+              230,
+              2535
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "3V3_MIC_FLEX"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3_MIC_FLEX.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "FB5-AUD",
+            "primitive_id": "e12510",
+            "sheet_xy": [
+              270,
+              2535
+            ]
+          }
+        }
+      ]
+    },
+    "TP3-AUD": {
+      "scope": "B_audio_capture",
+      "value": "TP",
+      "supplier_part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+      "primitive_id": "e12445",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 1,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "AUDIO_MCLK"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_MCLK.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "TP3-AUD",
+            "primitive_id": "e12445",
+            "sheet_xy": [
+              765,
+              3035
+            ]
+          }
+        }
+      ]
+    },
+    "TP4-AUD": {
+      "scope": "B_audio_capture",
+      "value": "TP",
+      "supplier_part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+      "primitive_id": "e12776",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 1,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "PDM_CLK"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On PDM_CLK.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "TP4-AUD",
+            "primitive_id": "e12776",
+            "sheet_xy": [
+              620,
+              2705
+            ]
+          }
+        }
+      ]
+    },
+    "TP5-AUD": {
+      "scope": "B_audio_capture",
+      "value": "TP",
+      "supplier_part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+      "primitive_id": "e12805",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 1,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "PDM_DAT"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On PDM_DAT.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "TP5-AUD",
+            "primitive_id": "e12805",
+            "sheet_xy": [
+              775,
+              2705
+            ]
+          }
+        }
+      ]
+    },
+    "TP7-AUD": {
+      "scope": "B_audio_capture",
+      "value": "BCLK TP",
+      "supplier_part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+      "primitive_id": "e129898",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 1,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "AUDIO_BCLK"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_BCLK.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "TP7-AUD",
+            "primitive_id": "e129898",
+            "sheet_xy": [
+              590,
+              2795
+            ]
+          }
+        }
+      ]
+    },
+    "TP8-AUD": {
+      "scope": "B_audio_capture",
+      "value": "FSYNC TP",
+      "supplier_part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+      "primitive_id": "e129927",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 1,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "AUDIO_FSYNC"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On AUDIO_FSYNC.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "TP8-AUD",
+            "primitive_id": "e129927",
+            "sheet_xy": [
+              770,
+              2795
+            ]
+          }
+        }
+      ]
+    },
+    "Q1-PWR2": {
+      "scope": "B_audio_capture",
+      "value": "P-FET",
+      "supplier_part": "DMG2305UX.1",
+      "primitive_id": "e2731",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 3,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "G",
+          "nets": [
+            "MIC_PWR_EN"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On MIC_PWR_EN.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "Q1-PWR2",
+            "primitive_id": "e2731",
+            "sheet_xy": [
+              1775,
+              3780
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "S",
+          "nets": [
+            "3V3_MIC_REG"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3_MIC_REG.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "Q1-PWR2",
+            "primitive_id": "e2731",
+            "sheet_xy": [
+              1795,
+              3760
+            ]
+          }
+        },
+        {
+          "pin": "3",
+          "pin_name": "D",
+          "nets": [
+            "3V3_MIC"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3_MIC.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "Q1-PWR2",
+            "primitive_id": "e2731",
+            "sheet_xy": [
+              1795,
+              3800
+            ]
+          }
+        }
+      ]
+    },
+    "R9-PWR2": {
+      "scope": "B_audio_capture",
+      "value": "100k",
+      "supplier_part": "RC0402FR-07100KL.1",
+      "primitive_id": "e2776",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "MIC_PWR_EN"
+          ],
+          "verdict": "CONNECTED",
+          "reason": "On MIC_PWR_EN.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R9-PWR2",
+            "primitive_id": "e2776",
+            "sheet_xy": [
+              1055,
+              3840
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "R9-PWR2",
+            "primitive_id": "e2776",
+            "sheet_xy": [
+              1095,
+              3840
+            ]
+          }
+        }
+      ]
+    },
+    "U5-PWR2": {
+      "scope": "B_audio_capture",
+      "value": "3V3-LDO",
+      "supplier_part": "TLV75533PDBVR.1",
+      "primitive_id": "e2815",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 5,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "IN",
+          "nets": [
+            "5V_SYS"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 5V_SYS.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U5-PWR2",
+            "primitive_id": "e2815",
+            "sheet_xy": [
+              1220,
+              3850
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "GND",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U5-PWR2",
+            "primitive_id": "e2815",
+            "sheet_xy": [
+              1220,
+              3840
+            ]
+          }
+        },
+        {
+          "pin": "3",
+          "pin_name": "EN",
+          "nets": [
+            "5V_SYS"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 5V_SYS.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U5-PWR2",
+            "primitive_id": "e2815",
+            "sheet_xy": [
+              1220,
+              3830
+            ]
+          }
+        },
+        {
+          "pin": "4",
+          "pin_name": "NC",
+          "nets": [],
+          "verdict": "INTENTIONAL_NC",
+          "reason": "TLV75533 NC pin - no internal connection.",
+          "easyeda_drc_floating": true,
+          "locator": {
+            "designator": "U5-PWR2",
+            "primitive_id": "e2815",
+            "sheet_xy": [
+              1290,
+              3830
+            ]
+          }
+        },
+        {
+          "pin": "5",
+          "pin_name": "OUT",
+          "nets": [
+            "3V3_MIC_REG"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3_MIC_REG.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "U5-PWR2",
+            "primitive_id": "e2815",
+            "sheet_xy": [
+              1290,
+              3850
+            ]
+          }
+        }
+      ]
+    },
+    "C15-PWR2": {
+      "scope": "B_audio_capture",
+      "value": "10uF",
+      "supplier_part": "GRM155R60J106ME44D.1",
+      "primitive_id": "e2585",
+      "readback_registration_offset": [
+        0,
+        0
+      ],
+      "registration_status": "EXACT_FIT_TO_EASYEDA_DRC",
+      "pin_count": 2,
+      "pins": [
+        {
+          "pin": "1",
+          "pin_name": "1",
+          "nets": [
+            "3V3_MIC"
+          ],
+          "verdict": "POWER",
+          "reason": "On power/regulator node 3V3_MIC.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C15-PWR2",
+            "primitive_id": "e2585",
+            "sheet_xy": [
+              1250,
+              3720
+            ]
+          }
+        },
+        {
+          "pin": "2",
+          "pin_name": "2",
+          "nets": [
+            "GND"
+          ],
+          "verdict": "GND",
+          "reason": "Tied to GND.",
+          "easyeda_drc_floating": false,
+          "locator": {
+            "designator": "C15-PWR2",
+            "primitive_id": "e2585",
+            "sheet_xy": [
+              1280,
+              3720
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

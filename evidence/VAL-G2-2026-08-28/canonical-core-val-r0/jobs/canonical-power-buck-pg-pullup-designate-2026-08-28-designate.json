@@ -1,0 +1,18 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R75",
+    "args": {
+      "primitiveId": "e146277",
+      "designator": "R75-PWR2",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "supplier": "LCSC",
+      "supplierId": "C60490",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

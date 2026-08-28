@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "lane": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "notes": [
+    "Consumed by harness/parse_drc_log.py --waivers. A waiver does not delete a finding: it",
+    "moves it into a waived bucket that is printed and counted. A waiver matching nothing is",
+    "reported as STALE and turns the run RED, so this register cannot silently rot.",
+    "Every entry needs kind, match (literal or regex), reason and authority. 'match' is tested",
+    "against the individual ITEM (a pin like J7-ESP.B8, a designator, a net name), not the",
+    "whole log line, so a batched Warn covering 30 pins can be waived one pin at a time.",
+    "Do NOT add a waiver to make a count look better. Adding one is a design statement that the",
+    "finding is intentional, and it is signed."
+  ],
+  "waivers": [
+    {
+      "kind": "floating_pins",
+      "match": "J7-ESP\\.(A8|B8)",
+      "reason": "USB-C SBU1/SBU2 on the ESP32-S3 service port are intentionally unconnected. This port carries USB 2.0 data and power for service and recovery only; no alternate mode, no debug accessory mode and no analogue audio accessory is supported on K1-CORE-VAL-R0, so SBU1/SBU2 have no defined function to route to.",
+      "authority": "contracts/usb-interface.md — confirm before extending this waiver to any other USB connector",
+      "date": "2026-08-28"
+    }
+  ]
+}

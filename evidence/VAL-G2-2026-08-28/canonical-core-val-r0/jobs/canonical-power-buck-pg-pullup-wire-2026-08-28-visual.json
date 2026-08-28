@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-power-buck-pg-pullup-wire-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Wire R75-PWR2 pin 1 to BUCK_PG, pin 2 to 3V3, and U3-PWR2 pin 5 to BUCK_PG. Do not move parts.",
+  "observed_delta": "R75-PWR2 remains left of U3-PWR2. Its left pin carries BUCK_PG, its right pin carries 3V3, and a named BUCK_PG wire reaches U3 pin 5 PG. Source still has WIRE e146347 NET=BUCK_PG and no e146330 short. Census stays 229 components / 672 wires. A stale green X remains on the PG stub; the host cannot clear setState_NoConnected. Nearby +5V_LED_L text overlaps the R75 designator and is not a new net.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-power-buck-pg-pullup-wire-r75.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "R75-PWR2 pin 1 is on BUCK_PG",
+      "result": "OK",
+      "detail": "Settled box-2 view shows BUCK_PG on the left pin of R75-PWR2. Source ATTR e146318 NET=BUCK_PG is still present."
+    },
+    {
+      "name": "R75-PWR2 pin 2 is on 3V3",
+      "result": "OK",
+      "detail": "The right pin of R75-PWR2 is on the 3V3 stub. No 3V3-to-PG short remains; e146330 is absent."
+    },
+    {
+      "name": "U3-PWR2 pin 5 is on BUCK_PG",
+      "result": "OK",
+      "detail": "A wire from the R75 pin-1 side meets U3 pin 5, labelled BUCK_PG. WIRE e146347 is NET=BUCK_PG."
+    },
+    {
+      "name": "census components stay at the post-place count",
+      "result": "OK",
+      "detail": "Live census remains 229 components. No extra part appeared in the U3 neighbourhood."
+    }
+  ]
+}

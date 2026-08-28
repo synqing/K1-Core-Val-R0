@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "codex-label-hash-reconcile-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Reconcile and restamp the canonical EasyEDA mutation boundary after Codex ESP label-visibility work; persist live hash drift without changing schematic topology",
+  "observed_delta": "Whole-sheet view shows the single canonical page and ten titled domain boxes. DRC markers remain on unused pins and the NFC/power opens. Census is unchanged at 222 components and 657 wires.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/codex-label-hash-reconcile-whole.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "identity",
+      "result": "OK",
+      "detail": "get_current_context matched 64325d0e55e0435abd018defb0089a9b / 1435cb46f39e48c8a8aadbb84ca81603. Active tab is P1.Schematic1."
+    },
+    {
+      "name": "single-sheet occupancy",
+      "result": "OK",
+      "detail": "Ten titled domain boxes occupy one schematic page. No second electrical sheet is visible."
+    },
+    {
+      "name": "census",
+      "result": "OK",
+      "detail": "Post-save source read-back remains 222 components, 657 wires, 22 texts, 10 rectangles."
+    },
+    {
+      "name": "collateral",
+      "result": "OK",
+      "detail": "This restamp does not add, delete or rewire parts. Hash drift is label-visibility only."
+    }
+  ]
+}

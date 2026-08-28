@@ -1,0 +1,18 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "R76",
+    "args": {
+      "primitiveId": "e151832",
+      "designator": "R76-NFC",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "supplier": "LCSC",
+      "supplierId": "C60490",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

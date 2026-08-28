@@ -1,0 +1,5714 @@
+{
+  "counts": {
+    "distinct_items_by_kind": {
+      "designator_style": 221,
+      "empty_value": 171,
+      "floating_pins": 193,
+      "multipart_property_mismatch": 2,
+      "net_name_not_displayed": 17,
+      "pad_without_pin": 2,
+      "single_pin_net": 7,
+      "start": 0,
+      "summary": 0,
+      "supplier_standardisation": 209
+    },
+    "findings_by_kind": {
+      "designator_style": 221,
+      "empty_value": 171,
+      "floating_pins": 7,
+      "multipart_property_mismatch": 1,
+      "net_name_not_displayed": 5,
+      "pad_without_pin": 1,
+      "single_pin_net": 7,
+      "start": 1,
+      "summary": 1,
+      "supplier_standardisation": 7
+    },
+    "findings_by_level": {
+      "Info": 400,
+      "Warn": 22
+    },
+    "lines_needing_space_normalisation": 7,
+    "lines_parsed": 422,
+    "lines_unparseable": 0,
+    "log_lines": 422,
+    "open_warn_or_worse": 22,
+    "stale_waivers": 0,
+    "unclassified_lines": 0,
+    "waived_items": 2
+  },
+  "declared_summary": {
+    "Error": 0,
+    "Fatal Error": 0,
+    "Info": 398,
+    "Warn": 22
+  },
+  "findings": [
+    {
+      "fully_waived": false,
+      "items": [],
+      "kind": "start",
+      "level": "Info",
+      "message": "Start Design Rule Checking."
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "BUCK_SS"
+      ],
+      "kind": "single_pin_net",
+      "level": "Warn",
+      "message": "The wire BUCK_SS $1N2873\u3001$1N2945 is a single network connected to only one component pin.",
+      "net": "BUCK_SS",
+      "wire_ids": [
+        "$1N2873",
+        "$1N2945"
+      ]
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "NFC_AGDC"
+      ],
+      "kind": "single_pin_net",
+      "level": "Warn",
+      "message": "The wire NFC_AGDC $1N13834 is a single network connected to only one component pin.",
+      "net": "NFC_AGDC",
+      "wire_ids": [
+        "$1N13834"
+      ]
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "NFC_VDD_A"
+      ],
+      "kind": "single_pin_net",
+      "level": "Warn",
+      "message": "The wire NFC_VDD_A $1N13822 is a single network connected to only one component pin.",
+      "net": "NFC_VDD_A",
+      "wire_ids": [
+        "$1N13822"
+      ]
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "NFC_VDD_AM"
+      ],
+      "kind": "single_pin_net",
+      "level": "Warn",
+      "message": "The wire NFC_VDD_AM $1N13828 is a single network connected to only one component pin.",
+      "net": "NFC_VDD_AM",
+      "wire_ids": [
+        "$1N13828"
+      ]
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "NFC_VDD_D"
+      ],
+      "kind": "single_pin_net",
+      "level": "Warn",
+      "message": "The wire NFC_VDD_D $1N13819 is a single network connected to only one component pin.",
+      "net": "NFC_VDD_D",
+      "wire_ids": [
+        "$1N13819"
+      ]
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "NFC_VDD_DR"
+      ],
+      "kind": "single_pin_net",
+      "level": "Warn",
+      "message": "The wire NFC_VDD_DR $1N13831 is a single network connected to only one component pin.",
+      "net": "NFC_VDD_DR",
+      "wire_ids": [
+        "$1N13831"
+      ]
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "NFC_VDD_RF"
+      ],
+      "kind": "single_pin_net",
+      "level": "Warn",
+      "message": "The wire NFC_VDD_RF $1N13825 is a single network connected to only one component pin.",
+      "net": "NFC_VDD_RF",
+      "wire_ids": [
+        "$1N13825"
+      ]
+    },
+    {
+      "component": "$1I72",
+      "fully_waived": false,
+      "items": [
+        "$1I72"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I72 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I72",
+      "fully_waived": false,
+      "items": [
+        "$1I72"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I72 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I108",
+      "fully_waived": false,
+      "items": [
+        "$1I108"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I108 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I108",
+      "fully_waived": false,
+      "items": [
+        "$1I108"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I108 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I252",
+      "fully_waived": false,
+      "items": [
+        "$1I252"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I252 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I301",
+      "fully_waived": false,
+      "items": [
+        "$1I301"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I301 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I339",
+      "fully_waived": false,
+      "items": [
+        "$1I339"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I339 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I426",
+      "fully_waived": false,
+      "items": [
+        "$1I426"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I426 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I426",
+      "fully_waived": false,
+      "items": [
+        "$1I426"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I426 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I465",
+      "fully_waived": false,
+      "items": [
+        "$1I465"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I465 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I465",
+      "fully_waived": false,
+      "items": [
+        "$1I465"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I465 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I504",
+      "fully_waived": false,
+      "items": [
+        "$1I504"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I504 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I562",
+      "fully_waived": false,
+      "items": [
+        "$1I562"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I562 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I562",
+      "fully_waived": false,
+      "items": [
+        "$1I562"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I562 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I598",
+      "fully_waived": false,
+      "items": [
+        "$1I598"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I598 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I598",
+      "fully_waived": false,
+      "items": [
+        "$1I598"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I598 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I778",
+      "fully_waived": false,
+      "items": [
+        "$1I778"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I778 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I778",
+      "fully_waived": false,
+      "items": [
+        "$1I778"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I778 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I817",
+      "fully_waived": false,
+      "items": [
+        "$1I817"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I817 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I817",
+      "fully_waived": false,
+      "items": [
+        "$1I817"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I817 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I856",
+      "fully_waived": false,
+      "items": [
+        "$1I856"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I856 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I856",
+      "fully_waived": false,
+      "items": [
+        "$1I856"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I856 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I894",
+      "fully_waived": false,
+      "items": [
+        "$1I894"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I894 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I1870",
+      "fully_waived": false,
+      "items": [
+        "$1I1870"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I1870 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I1870",
+      "fully_waived": false,
+      "items": [
+        "$1I1870"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I1870 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I1906",
+      "fully_waived": false,
+      "items": [
+        "$1I1906"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I1906 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I1906",
+      "fully_waived": false,
+      "items": [
+        "$1I1906"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I1906 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I1942",
+      "fully_waived": false,
+      "items": [
+        "$1I1942"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I1942 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I1942",
+      "fully_waived": false,
+      "items": [
+        "$1I1942"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I1942 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I1978",
+      "fully_waived": false,
+      "items": [
+        "$1I1978"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I1978 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I1978",
+      "fully_waived": false,
+      "items": [
+        "$1I1978"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I1978 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I2014",
+      "fully_waived": false,
+      "items": [
+        "$1I2014"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2014 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I2014",
+      "fully_waived": false,
+      "items": [
+        "$1I2014"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I2014 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I2082",
+      "fully_waived": false,
+      "items": [
+        "$1I2082"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2082 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I2082",
+      "fully_waived": false,
+      "items": [
+        "$1I2082"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I2082 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I2121",
+      "fully_waived": false,
+      "items": [
+        "$1I2121"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2121 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I2121",
+      "fully_waived": false,
+      "items": [
+        "$1I2121"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I2121 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I2160",
+      "fully_waived": false,
+      "items": [
+        "$1I2160"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2160 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I2160",
+      "fully_waived": false,
+      "items": [
+        "$1I2160"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I2160 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I2199",
+      "fully_waived": false,
+      "items": [
+        "$1I2199"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2199 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I2268",
+      "fully_waived": false,
+      "items": [
+        "$1I2268"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2268 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I2268",
+      "fully_waived": false,
+      "items": [
+        "$1I2268"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I2268 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I2304",
+      "fully_waived": false,
+      "items": [
+        "$1I2304"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2304 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I2304",
+      "fully_waived": false,
+      "items": [
+        "$1I2304"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I2304 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I2340",
+      "fully_waived": false,
+      "items": [
+        "$1I2340"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2340 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I2340",
+      "fully_waived": false,
+      "items": [
+        "$1I2340"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I2340 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I2376",
+      "fully_waived": false,
+      "items": [
+        "$1I2376"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2376 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I2414",
+      "fully_waived": false,
+      "items": [
+        "$1I2414"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2414 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I2452",
+      "fully_waived": false,
+      "items": [
+        "$1I2452"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2452 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I2452",
+      "fully_waived": false,
+      "items": [
+        "$1I2452"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I2452 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I2491",
+      "fully_waived": false,
+      "items": [
+        "$1I2491"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2491 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I2549",
+      "fully_waived": false,
+      "items": [
+        "$1I2549"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2549 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I2549",
+      "fully_waived": false,
+      "items": [
+        "$1I2549"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I2549 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I2585",
+      "fully_waived": false,
+      "items": [
+        "$1I2585"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2585 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I2585",
+      "fully_waived": false,
+      "items": [
+        "$1I2585"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I2585 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I2621",
+      "fully_waived": false,
+      "items": [
+        "$1I2621"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2621 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I2621",
+      "fully_waived": false,
+      "items": [
+        "$1I2621"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I2621 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I2657",
+      "fully_waived": false,
+      "items": [
+        "$1I2657"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2657 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I2657",
+      "fully_waived": false,
+      "items": [
+        "$1I2657"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I2657 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I2693",
+      "fully_waived": false,
+      "items": [
+        "$1I2693"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2693 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I2731",
+      "fully_waived": false,
+      "items": [
+        "$1I2731"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2731 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I2776",
+      "fully_waived": false,
+      "items": [
+        "$1I2776"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2776 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I2776",
+      "fully_waived": false,
+      "items": [
+        "$1I2776"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I2776 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I2815",
+      "fully_waived": false,
+      "items": [
+        "$1I2815"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I2815 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I3055",
+      "fully_waived": false,
+      "items": [
+        "$1I3055"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I3055 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I3055",
+      "fully_waived": false,
+      "items": [
+        "$1I3055"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I3055 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I3205",
+      "fully_waived": false,
+      "items": [
+        "$1I3205"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I3205 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I3205",
+      "fully_waived": false,
+      "items": [
+        "$1I3205"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I3205 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I3244",
+      "fully_waived": false,
+      "items": [
+        "$1I3244"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I3244 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I3619",
+      "fully_waived": false,
+      "items": [
+        "$1I3619"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I3619 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I4877",
+      "fully_waived": false,
+      "items": [
+        "$1I4877"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I4877 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I4877",
+      "fully_waived": false,
+      "items": [
+        "$1I4877"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I4877 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I4913",
+      "fully_waived": false,
+      "items": [
+        "$1I4913"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I4913 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I4913",
+      "fully_waived": false,
+      "items": [
+        "$1I4913"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I4913 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I4949",
+      "fully_waived": false,
+      "items": [
+        "$1I4949"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I4949 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I4949",
+      "fully_waived": false,
+      "items": [
+        "$1I4949"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I4949 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I4988",
+      "fully_waived": false,
+      "items": [
+        "$1I4988"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I4988 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I4988",
+      "fully_waived": false,
+      "items": [
+        "$1I4988"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I4988 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I5089",
+      "fully_waived": false,
+      "items": [
+        "$1I5089"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I5089 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I5089",
+      "fully_waived": false,
+      "items": [
+        "$1I5089"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I5089 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I5134",
+      "fully_waived": false,
+      "items": [
+        "$1I5134"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I5134 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I5358",
+      "fully_waived": false,
+      "items": [
+        "$1I5358"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I5358 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I5358",
+      "fully_waived": false,
+      "items": [
+        "$1I5358"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I5358 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I5397",
+      "fully_waived": false,
+      "items": [
+        "$1I5397"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I5397 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I5397",
+      "fully_waived": false,
+      "items": [
+        "$1I5397"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I5397 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I5436",
+      "fully_waived": false,
+      "items": [
+        "$1I5436"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I5436 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I5436",
+      "fully_waived": false,
+      "items": [
+        "$1I5436"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I5436 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I5475",
+      "fully_waived": false,
+      "items": [
+        "$1I5475"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I5475 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I5475",
+      "fully_waived": false,
+      "items": [
+        "$1I5475"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I5475 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I5635",
+      "fully_waived": false,
+      "items": [
+        "$1I5635"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I5635 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I7586",
+      "fully_waived": false,
+      "items": [
+        "$1I7586"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I7586 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I7586",
+      "fully_waived": false,
+      "items": [
+        "$1I7586"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I7586 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I7622",
+      "fully_waived": false,
+      "items": [
+        "$1I7622"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I7622 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I7622",
+      "fully_waived": false,
+      "items": [
+        "$1I7622"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I7622 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I7658",
+      "fully_waived": false,
+      "items": [
+        "$1I7658"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I7658 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I7658",
+      "fully_waived": false,
+      "items": [
+        "$1I7658"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I7658 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I7885",
+      "fully_waived": false,
+      "items": [
+        "$1I7885"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I7885 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I7885",
+      "fully_waived": false,
+      "items": [
+        "$1I7885"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I7885 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I7924",
+      "fully_waived": false,
+      "items": [
+        "$1I7924"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I7924 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I7924",
+      "fully_waived": false,
+      "items": [
+        "$1I7924"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I7924 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I7963",
+      "fully_waived": false,
+      "items": [
+        "$1I7963"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I7963 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I8014",
+      "fully_waived": false,
+      "items": [
+        "$1I8014"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I8014 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I8065",
+      "fully_waived": false,
+      "items": [
+        "$1I8065"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I8065 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I8065",
+      "fully_waived": false,
+      "items": [
+        "$1I8065"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I8065 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I8334",
+      "fully_waived": false,
+      "items": [
+        "$1I8334"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I8334 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I8421",
+      "fully_waived": false,
+      "items": [
+        "$1I8421"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I8421 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I8421",
+      "fully_waived": false,
+      "items": [
+        "$1I8421"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I8421 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I8460",
+      "fully_waived": false,
+      "items": [
+        "$1I8460"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I8460 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I8460",
+      "fully_waived": false,
+      "items": [
+        "$1I8460"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I8460 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I8499",
+      "fully_waived": false,
+      "items": [
+        "$1I8499"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I8499 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I8548",
+      "fully_waived": false,
+      "items": [
+        "$1I8548"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I8548 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I8548",
+      "fully_waived": false,
+      "items": [
+        "$1I8548"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I8548 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I8584",
+      "fully_waived": false,
+      "items": [
+        "$1I8584"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I8584 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I8584",
+      "fully_waived": false,
+      "items": [
+        "$1I8584"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I8584 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I8623",
+      "fully_waived": false,
+      "items": [
+        "$1I8623"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I8623 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I8623",
+      "fully_waived": false,
+      "items": [
+        "$1I8623"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I8623 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I8662",
+      "fully_waived": false,
+      "items": [
+        "$1I8662"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I8662 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I8662",
+      "fully_waived": false,
+      "items": [
+        "$1I8662"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I8662 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I8701",
+      "fully_waived": false,
+      "items": [
+        "$1I8701"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I8701 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I8701",
+      "fully_waived": false,
+      "items": [
+        "$1I8701"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I8701 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I8740",
+      "fully_waived": false,
+      "items": [
+        "$1I8740"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I8740 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I8740",
+      "fully_waived": false,
+      "items": [
+        "$1I8740"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I8740 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I8779",
+      "fully_waived": false,
+      "items": [
+        "$1I8779"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I8779 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I8808",
+      "fully_waived": false,
+      "items": [
+        "$1I8808"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I8808 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I11652",
+      "fully_waived": false,
+      "items": [
+        "$1I11652"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I11652 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I11652",
+      "fully_waived": false,
+      "items": [
+        "$1I11652"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I11652 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I11688",
+      "fully_waived": false,
+      "items": [
+        "$1I11688"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I11688 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I11688",
+      "fully_waived": false,
+      "items": [
+        "$1I11688"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I11688 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I11724",
+      "fully_waived": false,
+      "items": [
+        "$1I11724"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I11724 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I11724",
+      "fully_waived": false,
+      "items": [
+        "$1I11724"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I11724 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I11760",
+      "fully_waived": false,
+      "items": [
+        "$1I11760"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I11760 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I11760",
+      "fully_waived": false,
+      "items": [
+        "$1I11760"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I11760 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I11796",
+      "fully_waived": false,
+      "items": [
+        "$1I11796"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I11796 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I11796",
+      "fully_waived": false,
+      "items": [
+        "$1I11796"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I11796 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I11868",
+      "fully_waived": false,
+      "items": [
+        "$1I11868"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I11868 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I11868",
+      "fully_waived": false,
+      "items": [
+        "$1I11868"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I11868 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I11907",
+      "fully_waived": false,
+      "items": [
+        "$1I11907"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I11907 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I11907",
+      "fully_waived": false,
+      "items": [
+        "$1I11907"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I11907 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I11985",
+      "fully_waived": false,
+      "items": [
+        "$1I11985"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I11985 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I12118",
+      "fully_waived": false,
+      "items": [
+        "$1I12118"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I12118 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I12172",
+      "fully_waived": false,
+      "items": [
+        "$1I12172"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I12172 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I12172",
+      "fully_waived": false,
+      "items": [
+        "$1I12172"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I12172 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I12211",
+      "fully_waived": false,
+      "items": [
+        "$1I12211"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I12211 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I12211",
+      "fully_waived": false,
+      "items": [
+        "$1I12211"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I12211 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I12250",
+      "fully_waived": false,
+      "items": [
+        "$1I12250"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I12250 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I12250",
+      "fully_waived": false,
+      "items": [
+        "$1I12250"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I12250 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I12289",
+      "fully_waived": false,
+      "items": [
+        "$1I12289"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I12289 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I12289",
+      "fully_waived": false,
+      "items": [
+        "$1I12289"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I12289 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I12328",
+      "fully_waived": false,
+      "items": [
+        "$1I12328"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I12328 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I12328",
+      "fully_waived": false,
+      "items": [
+        "$1I12328"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I12328 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I12367",
+      "fully_waived": false,
+      "items": [
+        "$1I12367"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I12367 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I12367",
+      "fully_waived": false,
+      "items": [
+        "$1I12367"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I12367 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I12406",
+      "fully_waived": false,
+      "items": [
+        "$1I12406"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I12406 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I12406",
+      "fully_waived": false,
+      "items": [
+        "$1I12406"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I12406 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I12445",
+      "fully_waived": false,
+      "items": [
+        "$1I12445"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I12445 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I12474",
+      "fully_waived": false,
+      "items": [
+        "$1I12474"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I12474 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I12474",
+      "fully_waived": false,
+      "items": [
+        "$1I12474"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I12474 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I12510",
+      "fully_waived": false,
+      "items": [
+        "$1I12510"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I12510 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I12548",
+      "fully_waived": false,
+      "items": [
+        "$1I12548"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I12548 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I12620",
+      "fully_waived": false,
+      "items": [
+        "$1I12620"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I12620 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I12620",
+      "fully_waived": false,
+      "items": [
+        "$1I12620"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I12620 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I12659",
+      "fully_waived": false,
+      "items": [
+        "$1I12659"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I12659 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I12659",
+      "fully_waived": false,
+      "items": [
+        "$1I12659"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I12659 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I12698",
+      "fully_waived": false,
+      "items": [
+        "$1I12698"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I12698 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I12698",
+      "fully_waived": false,
+      "items": [
+        "$1I12698"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I12698 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I12737",
+      "fully_waived": false,
+      "items": [
+        "$1I12737"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I12737 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I12737",
+      "fully_waived": false,
+      "items": [
+        "$1I12737"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I12737 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I12776",
+      "fully_waived": false,
+      "items": [
+        "$1I12776"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I12776 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I12805",
+      "fully_waived": false,
+      "items": [
+        "$1I12805"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I12805 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13042",
+      "fully_waived": false,
+      "items": [
+        "$1I13042"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13042 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13042",
+      "fully_waived": false,
+      "items": [
+        "$1I13042"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I13042 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I13078",
+      "fully_waived": false,
+      "items": [
+        "$1I13078"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13078 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13078",
+      "fully_waived": false,
+      "items": [
+        "$1I13078"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I13078 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I13114",
+      "fully_waived": false,
+      "items": [
+        "$1I13114"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13114 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13114",
+      "fully_waived": false,
+      "items": [
+        "$1I13114"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I13114 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I13150",
+      "fully_waived": false,
+      "items": [
+        "$1I13150"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13150 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13150",
+      "fully_waived": false,
+      "items": [
+        "$1I13150"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I13150 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I13186",
+      "fully_waived": false,
+      "items": [
+        "$1I13186"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13186 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13186",
+      "fully_waived": false,
+      "items": [
+        "$1I13186"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I13186 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I13222",
+      "fully_waived": false,
+      "items": [
+        "$1I13222"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13222 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13222",
+      "fully_waived": false,
+      "items": [
+        "$1I13222"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I13222 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I13258",
+      "fully_waived": false,
+      "items": [
+        "$1I13258"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13258 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13258",
+      "fully_waived": false,
+      "items": [
+        "$1I13258"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I13258 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I13294",
+      "fully_waived": false,
+      "items": [
+        "$1I13294"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13294 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13294",
+      "fully_waived": false,
+      "items": [
+        "$1I13294"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I13294 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I13330",
+      "fully_waived": false,
+      "items": [
+        "$1I13330"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13330 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13362",
+      "fully_waived": false,
+      "items": [
+        "$1I13362"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13362 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13362",
+      "fully_waived": false,
+      "items": [
+        "$1I13362"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I13362 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I13399",
+      "fully_waived": false,
+      "items": [
+        "$1I13399"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13399 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13399",
+      "fully_waived": false,
+      "items": [
+        "$1I13399"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I13399 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I13438",
+      "fully_waived": false,
+      "items": [
+        "$1I13438"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13438 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13438",
+      "fully_waived": false,
+      "items": [
+        "$1I13438"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I13438 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I13477",
+      "fully_waived": false,
+      "items": [
+        "$1I13477"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13477 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13477",
+      "fully_waived": false,
+      "items": [
+        "$1I13477"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I13477 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I13516",
+      "fully_waived": false,
+      "items": [
+        "$1I13516"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13516 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13516",
+      "fully_waived": false,
+      "items": [
+        "$1I13516"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I13516 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I13647",
+      "fully_waived": false,
+      "items": [
+        "$1I13647"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13647 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13647",
+      "fully_waived": false,
+      "items": [
+        "$1I13647"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I13647 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I13842",
+      "fully_waived": false,
+      "items": [
+        "$1I13842"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13842 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13842",
+      "fully_waived": false,
+      "items": [
+        "$1I13842"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I13842 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I13878",
+      "fully_waived": false,
+      "items": [
+        "$1I13878"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13878 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13878",
+      "fully_waived": false,
+      "items": [
+        "$1I13878"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I13878 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I13914",
+      "fully_waived": false,
+      "items": [
+        "$1I13914"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13914 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13914",
+      "fully_waived": false,
+      "items": [
+        "$1I13914"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I13914 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I13953",
+      "fully_waived": false,
+      "items": [
+        "$1I13953"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13953 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13953",
+      "fully_waived": false,
+      "items": [
+        "$1I13953"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I13953 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I13992",
+      "fully_waived": false,
+      "items": [
+        "$1I13992"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I13992 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I13992",
+      "fully_waived": false,
+      "items": [
+        "$1I13992"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I13992 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I14031",
+      "fully_waived": false,
+      "items": [
+        "$1I14031"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I14031 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I14031",
+      "fully_waived": false,
+      "items": [
+        "$1I14031"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I14031 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I14070",
+      "fully_waived": false,
+      "items": [
+        "$1I14070"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I14070 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I14070",
+      "fully_waived": false,
+      "items": [
+        "$1I14070"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I14070 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I14109",
+      "fully_waived": false,
+      "items": [
+        "$1I14109"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I14109 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I14109",
+      "fully_waived": false,
+      "items": [
+        "$1I14109"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I14109 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I14148",
+      "fully_waived": false,
+      "items": [
+        "$1I14148"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I14148 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I14148",
+      "fully_waived": false,
+      "items": [
+        "$1I14148"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I14148 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I14187",
+      "fully_waived": false,
+      "items": [
+        "$1I14187"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I14187 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I14334",
+      "fully_waived": false,
+      "items": [
+        "$1I14334"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I14334 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I14334",
+      "fully_waived": false,
+      "items": [
+        "$1I14334"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I14334 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I14370",
+      "fully_waived": false,
+      "items": [
+        "$1I14370"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I14370 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I14370",
+      "fully_waived": false,
+      "items": [
+        "$1I14370"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I14370 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I14470",
+      "fully_waived": false,
+      "items": [
+        "$1I14470"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I14470 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I14470",
+      "fully_waived": false,
+      "items": [
+        "$1I14470"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I14470 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I14509",
+      "fully_waived": false,
+      "items": [
+        "$1I14509"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I14509 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I14509",
+      "fully_waived": false,
+      "items": [
+        "$1I14509"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I14509 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I14548",
+      "fully_waived": false,
+      "items": [
+        "$1I14548"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I14548 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I14548",
+      "fully_waived": false,
+      "items": [
+        "$1I14548"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I14548 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I14587",
+      "fully_waived": false,
+      "items": [
+        "$1I14587"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I14587 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I14587",
+      "fully_waived": false,
+      "items": [
+        "$1I14587"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I14587 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I14626",
+      "fully_waived": false,
+      "items": [
+        "$1I14626"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I14626 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I14671",
+      "fully_waived": false,
+      "items": [
+        "$1I14671"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I14671 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I14716",
+      "fully_waived": false,
+      "items": [
+        "$1I14716"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I14716 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I14770",
+      "fully_waived": false,
+      "items": [
+        "$1I14770"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I14770 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I14825",
+      "fully_waived": false,
+      "items": [
+        "$1I14825"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I14825 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I14876",
+      "fully_waived": false,
+      "items": [
+        "$1I14876"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I14876 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I15023",
+      "fully_waived": false,
+      "items": [
+        "$1I15023"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I15023 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I15067",
+      "fully_waived": false,
+      "items": [
+        "$1I15067"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I15067 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I15067",
+      "fully_waived": false,
+      "items": [
+        "$1I15067"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I15067 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I15106",
+      "fully_waived": false,
+      "items": [
+        "$1I15106"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I15106 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I15106",
+      "fully_waived": false,
+      "items": [
+        "$1I15106"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I15106 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I15145",
+      "fully_waived": false,
+      "items": [
+        "$1I15145"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I15145 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I15145",
+      "fully_waived": false,
+      "items": [
+        "$1I15145"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I15145 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I15184",
+      "fully_waived": false,
+      "items": [
+        "$1I15184"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I15184 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I15184",
+      "fully_waived": false,
+      "items": [
+        "$1I15184"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I15184 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I15223",
+      "fully_waived": false,
+      "items": [
+        "$1I15223"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I15223 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I15252",
+      "fully_waived": false,
+      "items": [
+        "$1I15252"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I15252 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I15252",
+      "fully_waived": false,
+      "items": [
+        "$1I15252"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I15252 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I15288",
+      "fully_waived": false,
+      "items": [
+        "$1I15288"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I15288 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I15332",
+      "fully_waived": false,
+      "items": [
+        "$1I15332"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I15332 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I15332",
+      "fully_waived": false,
+      "items": [
+        "$1I15332"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I15332 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I15371",
+      "fully_waived": false,
+      "items": [
+        "$1I15371"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I15371 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I15371",
+      "fully_waived": false,
+      "items": [
+        "$1I15371"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I15371 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I15410",
+      "fully_waived": false,
+      "items": [
+        "$1I15410"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I15410 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I15410",
+      "fully_waived": false,
+      "items": [
+        "$1I15410"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I15410 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I15449",
+      "fully_waived": false,
+      "items": [
+        "$1I15449"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I15449 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I15449",
+      "fully_waived": false,
+      "items": [
+        "$1I15449"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I15449 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I15488",
+      "fully_waived": false,
+      "items": [
+        "$1I15488"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I15488 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I15539",
+      "fully_waived": false,
+      "items": [
+        "$1I15539"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I15539 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I24569",
+      "fully_waived": false,
+      "items": [
+        "$1I24569"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I24569 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I24607",
+      "fully_waived": false,
+      "items": [
+        "$1I24607"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I24607 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I29093",
+      "fully_waived": false,
+      "items": [
+        "$1I29093"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I29093 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I29093",
+      "fully_waived": false,
+      "items": [
+        "$1I29093"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I29093 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I29132",
+      "fully_waived": false,
+      "items": [
+        "$1I29132"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I29132 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I29132",
+      "fully_waived": false,
+      "items": [
+        "$1I29132"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I29132 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I29171",
+      "fully_waived": false,
+      "items": [
+        "$1I29171"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I29171 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I29171",
+      "fully_waived": false,
+      "items": [
+        "$1I29171"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I29171 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I29210",
+      "fully_waived": false,
+      "items": [
+        "$1I29210"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I29210 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I29210",
+      "fully_waived": false,
+      "items": [
+        "$1I29210"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I29210 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I29249",
+      "fully_waived": false,
+      "items": [
+        "$1I29249"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I29249 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I29249",
+      "fully_waived": false,
+      "items": [
+        "$1I29249"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I29249 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I29288",
+      "fully_waived": false,
+      "items": [
+        "$1I29288"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I29288 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I29288",
+      "fully_waived": false,
+      "items": [
+        "$1I29288"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I29288 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I38545",
+      "fully_waived": false,
+      "items": [
+        "$1I38545"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I38545 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I38545",
+      "fully_waived": false,
+      "items": [
+        "$1I38545"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I38545 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I47826",
+      "fully_waived": false,
+      "items": [
+        "$1I47826"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I47826 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I47826",
+      "fully_waived": false,
+      "items": [
+        "$1I47826"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I47826 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I47865",
+      "fully_waived": false,
+      "items": [
+        "$1I47865"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I47865 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I47865",
+      "fully_waived": false,
+      "items": [
+        "$1I47865"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I47865 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I47904",
+      "fully_waived": false,
+      "items": [
+        "$1I47904"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I47904 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I47904",
+      "fully_waived": false,
+      "items": [
+        "$1I47904"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I47904 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I47939",
+      "fully_waived": false,
+      "items": [
+        "$1I47939"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I47939 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I47939",
+      "fully_waived": false,
+      "items": [
+        "$1I47939"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I47939 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I47974",
+      "fully_waived": false,
+      "items": [
+        "$1I47974"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I47974 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I48032",
+      "fully_waived": false,
+      "items": [
+        "$1I48032"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I48032 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I48032",
+      "fully_waived": false,
+      "items": [
+        "$1I48032"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I48032 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I48071",
+      "fully_waived": false,
+      "items": [
+        "$1I48071"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I48071 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I48071",
+      "fully_waived": false,
+      "items": [
+        "$1I48071"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I48071 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I75855",
+      "fully_waived": false,
+      "items": [
+        "$1I75855"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I75855 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I75855",
+      "fully_waived": false,
+      "items": [
+        "$1I75855"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I75855 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I75891",
+      "fully_waived": false,
+      "items": [
+        "$1I75891"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I75891 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I75891",
+      "fully_waived": false,
+      "items": [
+        "$1I75891"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I75891 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I75927",
+      "fully_waived": false,
+      "items": [
+        "$1I75927"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I75927 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I75927",
+      "fully_waived": false,
+      "items": [
+        "$1I75927"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I75927 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I75963",
+      "fully_waived": false,
+      "items": [
+        "$1I75963"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I75963 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I75963",
+      "fully_waived": false,
+      "items": [
+        "$1I75963"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I75963 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I75999",
+      "fully_waived": false,
+      "items": [
+        "$1I75999"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I75999 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I75999",
+      "fully_waived": false,
+      "items": [
+        "$1I75999"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I75999 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76035",
+      "fully_waived": false,
+      "items": [
+        "$1I76035"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76035 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76035",
+      "fully_waived": false,
+      "items": [
+        "$1I76035"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76035 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76071",
+      "fully_waived": false,
+      "items": [
+        "$1I76071"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76071 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76071",
+      "fully_waived": false,
+      "items": [
+        "$1I76071"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76071 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76107",
+      "fully_waived": false,
+      "items": [
+        "$1I76107"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76107 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76107",
+      "fully_waived": false,
+      "items": [
+        "$1I76107"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76107 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76143",
+      "fully_waived": false,
+      "items": [
+        "$1I76143"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76143 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76143",
+      "fully_waived": false,
+      "items": [
+        "$1I76143"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76143 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76179",
+      "fully_waived": false,
+      "items": [
+        "$1I76179"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76179 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76179",
+      "fully_waived": false,
+      "items": [
+        "$1I76179"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76179 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76215",
+      "fully_waived": false,
+      "items": [
+        "$1I76215"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76215 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76215",
+      "fully_waived": false,
+      "items": [
+        "$1I76215"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76215 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76251",
+      "fully_waived": false,
+      "items": [
+        "$1I76251"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76251 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76251",
+      "fully_waived": false,
+      "items": [
+        "$1I76251"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76251 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76287",
+      "fully_waived": false,
+      "items": [
+        "$1I76287"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76287 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76287",
+      "fully_waived": false,
+      "items": [
+        "$1I76287"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76287 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76323",
+      "fully_waived": false,
+      "items": [
+        "$1I76323"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76323 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76323",
+      "fully_waived": false,
+      "items": [
+        "$1I76323"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76323 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76359",
+      "fully_waived": false,
+      "items": [
+        "$1I76359"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76359 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76359",
+      "fully_waived": false,
+      "items": [
+        "$1I76359"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76359 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76395",
+      "fully_waived": false,
+      "items": [
+        "$1I76395"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76395 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76395",
+      "fully_waived": false,
+      "items": [
+        "$1I76395"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76395 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76431",
+      "fully_waived": false,
+      "items": [
+        "$1I76431"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76431 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76431",
+      "fully_waived": false,
+      "items": [
+        "$1I76431"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76431 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76467",
+      "fully_waived": false,
+      "items": [
+        "$1I76467"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76467 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76467",
+      "fully_waived": false,
+      "items": [
+        "$1I76467"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76467 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76503",
+      "fully_waived": false,
+      "items": [
+        "$1I76503"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76503 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76503",
+      "fully_waived": false,
+      "items": [
+        "$1I76503"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76503 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76539",
+      "fully_waived": false,
+      "items": [
+        "$1I76539"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76539 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76539",
+      "fully_waived": false,
+      "items": [
+        "$1I76539"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76539 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76575",
+      "fully_waived": false,
+      "items": [
+        "$1I76575"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76575 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76575",
+      "fully_waived": false,
+      "items": [
+        "$1I76575"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76575 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76611",
+      "fully_waived": false,
+      "items": [
+        "$1I76611"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76611 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76611",
+      "fully_waived": false,
+      "items": [
+        "$1I76611"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76611 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76647",
+      "fully_waived": false,
+      "items": [
+        "$1I76647"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76647 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76647",
+      "fully_waived": false,
+      "items": [
+        "$1I76647"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76647 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76683",
+      "fully_waived": false,
+      "items": [
+        "$1I76683"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76683 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76683",
+      "fully_waived": false,
+      "items": [
+        "$1I76683"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76683 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76719",
+      "fully_waived": false,
+      "items": [
+        "$1I76719"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76719 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76719",
+      "fully_waived": false,
+      "items": [
+        "$1I76719"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76719 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76755",
+      "fully_waived": false,
+      "items": [
+        "$1I76755"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76755 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76755",
+      "fully_waived": false,
+      "items": [
+        "$1I76755"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76755 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76791",
+      "fully_waived": false,
+      "items": [
+        "$1I76791"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76791 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76791",
+      "fully_waived": false,
+      "items": [
+        "$1I76791"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76791 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76827",
+      "fully_waived": false,
+      "items": [
+        "$1I76827"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76827 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76827",
+      "fully_waived": false,
+      "items": [
+        "$1I76827"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76827 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76863",
+      "fully_waived": false,
+      "items": [
+        "$1I76863"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76863 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76863",
+      "fully_waived": false,
+      "items": [
+        "$1I76863"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76863 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76899",
+      "fully_waived": false,
+      "items": [
+        "$1I76899"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76899 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76899",
+      "fully_waived": false,
+      "items": [
+        "$1I76899"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76899 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76935",
+      "fully_waived": false,
+      "items": [
+        "$1I76935"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76935 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76935",
+      "fully_waived": false,
+      "items": [
+        "$1I76935"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76935 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I76971",
+      "fully_waived": false,
+      "items": [
+        "$1I76971"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I76971 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I76971",
+      "fully_waived": false,
+      "items": [
+        "$1I76971"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I76971 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I77007",
+      "fully_waived": false,
+      "items": [
+        "$1I77007"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I77007 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I77007",
+      "fully_waived": false,
+      "items": [
+        "$1I77007"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I77007 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I77043",
+      "fully_waived": false,
+      "items": [
+        "$1I77043"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I77043 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I77043",
+      "fully_waived": false,
+      "items": [
+        "$1I77043"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I77043 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I77079",
+      "fully_waived": false,
+      "items": [
+        "$1I77079"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I77079 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I77079",
+      "fully_waived": false,
+      "items": [
+        "$1I77079"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I77079 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I77115",
+      "fully_waived": false,
+      "items": [
+        "$1I77115"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I77115 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I77115",
+      "fully_waived": false,
+      "items": [
+        "$1I77115"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I77115 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I77151",
+      "fully_waived": false,
+      "items": [
+        "$1I77151"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I77151 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I77151",
+      "fully_waived": false,
+      "items": [
+        "$1I77151"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I77151 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I77190",
+      "fully_waived": false,
+      "items": [
+        "$1I77190"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I77190 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I77190",
+      "fully_waived": false,
+      "items": [
+        "$1I77190"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I77190 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I77229",
+      "fully_waived": false,
+      "items": [
+        "$1I77229"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I77229 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I77229",
+      "fully_waived": false,
+      "items": [
+        "$1I77229"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I77229 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I98127",
+      "fully_waived": false,
+      "items": [
+        "$1I98127"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I98127 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I98127",
+      "fully_waived": false,
+      "items": [
+        "$1I98127"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I98127 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I98163",
+      "fully_waived": false,
+      "items": [
+        "$1I98163"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I98163 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I98207",
+      "fully_waived": false,
+      "items": [
+        "$1I98207"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I98207 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I98207",
+      "fully_waived": false,
+      "items": [
+        "$1I98207"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I98207 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I98246",
+      "fully_waived": false,
+      "items": [
+        "$1I98246"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I98246 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I98246",
+      "fully_waived": false,
+      "items": [
+        "$1I98246"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I98246 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I98285",
+      "fully_waived": false,
+      "items": [
+        "$1I98285"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I98285 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I98285",
+      "fully_waived": false,
+      "items": [
+        "$1I98285"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I98285 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I98324",
+      "fully_waived": false,
+      "items": [
+        "$1I98324"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I98324 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I98324",
+      "fully_waived": false,
+      "items": [
+        "$1I98324"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I98324 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I129790",
+      "fully_waived": false,
+      "items": [
+        "$1I129790"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I129790 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I129790",
+      "fully_waived": false,
+      "items": [
+        "$1I129790"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I129790 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I129826",
+      "fully_waived": false,
+      "items": [
+        "$1I129826"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I129826 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I129826",
+      "fully_waived": false,
+      "items": [
+        "$1I129826"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I129826 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I129862",
+      "fully_waived": false,
+      "items": [
+        "$1I129862"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I129862 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I129862",
+      "fully_waived": false,
+      "items": [
+        "$1I129862"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I129862 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I129898",
+      "fully_waived": false,
+      "items": [
+        "$1I129898"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I129898 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I129927",
+      "fully_waived": false,
+      "items": [
+        "$1I129927"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I129927 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I8224",
+      "fully_waived": false,
+      "items": [
+        "$1I8224"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I8224 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I8224",
+      "fully_waived": false,
+      "items": [
+        "$1I8224"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I8224 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I8260",
+      "fully_waived": false,
+      "items": [
+        "$1I8260"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I8260 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I8260",
+      "fully_waived": false,
+      "items": [
+        "$1I8260"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I8260 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I12082",
+      "fully_waived": false,
+      "items": [
+        "$1I12082"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I12082 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I12082",
+      "fully_waived": false,
+      "items": [
+        "$1I12082"
+      ],
+      "kind": "empty_value",
+      "level": "Info",
+      "message": "Component $1I12082 has empty value of property \"Value\"."
+    },
+    {
+      "component": "$1I3295",
+      "fully_waived": false,
+      "items": [
+        "$1I3295"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I3295 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "component": "$1I3673",
+      "fully_waived": false,
+      "items": [
+        "$1I3673"
+      ],
+      "kind": "designator_style",
+      "level": "Info",
+      "message": "The property \"Designator\" of Component $1I3673 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark."
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "RT_RESET_REQ_N",
+        "1V15_CORE",
+        "1V15_CORE",
+        "1V15_CORE",
+        "1V15_CORE",
+        "1V15_CORE",
+        "1V15_CORE",
+        "1V15_CORE",
+        "1V15_CORE",
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "3V3",
+        "3V3",
+        "GND"
+      ],
+      "kind": "net_name_not_displayed",
+      "level": "Info",
+      "message": "Wires and buses are not connected to netflag or netport, name not displayed in the canvas: RT_RESET_REQ_N,1V15_CORE,1V15_CORE,1V15_CORE,1V15_CORE,1V15_CORE,1V15_CORE,1V15_CORE,1V15_CORE,GND,GND,GND,GND,GND,GND,GND,GND,GND,GND,GND,GND,GND,GND,GND,GND,GND,GND,3V3,3V3,GND"
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "GND",
+        "DCDC_SW",
+        "1V15_CORE",
+        "3V3",
+        "3V3",
+        "3V3",
+        "3V3",
+        "3V3",
+        "3V3",
+        "3V3",
+        "3V3",
+        "3V3",
+        "3V3",
+        "GND",
+        "GND",
+        "1V15_CORE",
+        "GND",
+        "1V15_CORE",
+        "GND",
+        "1V15_CORE",
+        "GND",
+        "1V15_CORE",
+        "GND",
+        "1V15_CORE",
+        "GND",
+        "1V15_CORE",
+        "GND",
+        "1V15_CORE",
+        "GND",
+        "3V3"
+      ],
+      "kind": "net_name_not_displayed",
+      "level": "Info",
+      "message": "Wires and buses are not connected to netflag or netport, name not displayed in the canvas: GND,DCDC_SW,1V15_CORE,3V3,3V3,3V3,3V3,3V3,3V3,3V3,3V3,3V3,3V3,GND,GND,1V15_CORE,GND,1V15_CORE,GND,1V15_CORE,GND,1V15_CORE,GND,1V15_CORE,GND,1V15_CORE,GND,1V15_CORE,GND,3V3"
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "GND",
+        "3V3",
+        "GND",
+        "3V3",
+        "GND",
+        "3V3",
+        "GND",
+        "3V3",
+        "GND",
+        "3V3",
+        "GND",
+        "3V3",
+        "GND",
+        "VDD_HIGH_CAP",
+        "GND",
+        "VDD_HIGH_CAP",
+        "GND",
+        "3V3",
+        "GND",
+        "VDD_SNVS_CAP",
+        "GND",
+        "VDD_SNVS_CAP",
+        "GND",
+        "NVCC_PLL_1V1",
+        "GND",
+        "NVCC_PLL_1V1",
+        "GND",
+        "VDD_USB_CAP",
+        "GND",
+        "VDD_USB_CAP"
+      ],
+      "kind": "net_name_not_displayed",
+      "level": "Info",
+      "message": "Wires and buses are not connected to netflag or netport, name not displayed in the canvas: GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,VDD_HIGH_CAP,GND,VDD_HIGH_CAP,GND,3V3,GND,VDD_SNVS_CAP,GND,VDD_SNVS_CAP,GND,NVCC_PLL_1V1,GND,NVCC_PLL_1V1,GND,VDD_USB_CAP,GND,VDD_USB_CAP"
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "GND",
+        "3V3",
+        "GND",
+        "3V3",
+        "GND",
+        "3V3",
+        "GND",
+        "3V3",
+        "GND",
+        "3V3",
+        "GND",
+        "3V3",
+        "GND",
+        "3V3",
+        "GND",
+        "3V3",
+        "GND",
+        "3V3",
+        "GND",
+        "3V3",
+        "GND",
+        "3V3",
+        "GND",
+        "3V3",
+        "GND",
+        "3V3",
+        "GND",
+        "DCDC_SW",
+        "1V15_CORE",
+        "3V3"
+      ],
+      "kind": "net_name_not_displayed",
+      "level": "Info",
+      "message": "Wires and buses are not connected to netflag or netport, name not displayed in the canvas: GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,DCDC_SW,1V15_CORE,3V3"
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "DCDC_PSWITCH",
+        "DCDC_PSWITCH",
+        "GND",
+        "GND",
+        "S3_VBUS",
+        "USB_CC1",
+        "USB_DP",
+        "USB_DM",
+        "S3_VBUS",
+        "GND",
+        "GND",
+        "S3_VBUS",
+        "USB_CC2",
+        "USB_DP",
+        "USB_DM",
+        "S3_VBUS",
+        "GND",
+        "GND",
+        "USB_DP_S3",
+        "GND",
+        "USB_DM_S3",
+        "GND",
+        "GND",
+        "GND",
+        "GND",
+        "GND"
+      ],
+      "kind": "net_name_not_displayed",
+      "level": "Info",
+      "message": "Wires and buses are not connected to netflag or netport, name not displayed in the canvas: DCDC_PSWITCH,DCDC_PSWITCH,GND,GND,S3_VBUS,USB_CC1,USB_DP,USB_DM,S3_VBUS,GND,GND,S3_VBUS,USB_CC2,USB_DP,USB_DM,S3_VBUS,GND,GND,USB_DP_S3,GND,USB_DM_S3,GND,GND,GND,GND,GND"
+    },
+    {
+      "device": "MIMXRT1062DVJ6B",
+      "fully_waived": false,
+      "items": [
+        "$1I3295",
+        "$1I3673"
+      ],
+      "kind": "multipart_property_mismatch",
+      "level": "Warn",
+      "message": "Component MIMXRT1062DVJ6B is a multi-part component, the properties of each part should be the same. $1I3295\u3001$1I3673 have different property Supplier Part, Add into BOM, supplierId.",
+      "parts": [
+        "$1I3295",
+        "$1I3673"
+      ],
+      "properties": [
+        "Supplier Part",
+        "Add into BOM",
+        "supplierId"
+      ]
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "C1-PWR1",
+        "C2-PWR1",
+        "D1-PWR1",
+        "F1-PWR1",
+        "J1-PWR1",
+        "R1-PWR1",
+        "R2-PWR1",
+        "U1-PWR1",
+        "C3-PWR1",
+        "C4-PWR1",
+        "R3-PWR1",
+        "R4-PWR1",
+        "RSH1-PWR1",
+        "U2-PWR1",
+        "C5-PWR2",
+        "C6-PWR2",
+        "C7-PWR2",
+        "C8-PWR2",
+        "C9-PWR2",
+        "R5-PWR2",
+        "R6-PWR2",
+        "R7-PWR2",
+        "U3-PWR2",
+        "C11-PWR2",
+        "C12-PWR2",
+        "C13-PWR2",
+        "FB1-PWR2",
+        "FB2-PWR2",
+        "R8-PWR2",
+        "U4-PWR2"
+      ],
+      "kind": "supplier_standardisation",
+      "level": "Warn",
+      "message": "Component attributes does not match the Supplier Part, It is recommended to use Device Standardization: : C1-PWR1($1I72),C2-PWR1($1I108),D1-PWR1($1I252),F1-PWR1($1I301),J1-PWR1($1I339),R1-PWR1($1I426),R2-PWR1($1I465),U1-PWR1($1I504),C3-PWR1($1I562),C4-PWR1($1I598),R3-PWR1($1I778),R4-PWR1($1I817),RSH1-PWR1($1I856),U2-PWR1($1I894),C5-PWR2($1I1870),C6-PWR2($1I1906),C7-PWR2($1I1942),C8-PWR2($1I1978),C9-PWR2($1I2014),R5-PWR2($1I2082),R6-PWR2($1I2121),R7-PWR2($1I2160),U3-PWR2($1I2199),C11-PWR2($1I2268),C12-PWR2($1I2304),C13-PWR2($1I2340),FB1-PWR2($1I2376),FB2-PWR2($1I2414),R8-PWR2($1I2452),U4-PWR2($1I2491)"
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "C14-PWR2",
+        "C15-PWR2",
+        "C16-PWR2",
+        "C17-PWR2",
+        "FB3-PWR2",
+        "Q1-PWR2",
+        "R9-PWR2",
+        "U5-PWR2",
+        "C18-RTC",
+        "R12-RTC",
+        "SW1-RTC",
+        "U7-RTC",
+        "C37-RTDBG",
+        "C38-RTDBG",
+        "R13-RTDBG",
+        "R14-RTDBG",
+        "Y1-RTDBG",
+        "J4-RTDBG",
+        "R15-RTDBG",
+        "R16-RTDBG",
+        "R17-RTDBG",
+        "R18-RTDBG",
+        "J5-RTDBG",
+        "C39-ESP",
+        "C40-ESP",
+        "C41-ESP",
+        "R19-ESP",
+        "R20-ESP",
+        "SW2-ESP",
+        "SW3-ESP"
+      ],
+      "kind": "supplier_standardisation",
+      "level": "Warn",
+      "message": "Component attributes does not match the Supplier Part, It is recommended to use Device Standardization: : C14-PWR2($1I2549),C15-PWR2($1I2585),C16-PWR2($1I2621),C17-PWR2($1I2657),FB3-PWR2($1I2693),Q1-PWR2($1I2731),R9-PWR2($1I2776),U5-PWR2($1I2815),C18-RTC($1I3055),R12-RTC($1I3205),SW1-RTC($1I3244),U7-RTC($1I3619),C37-RTDBG($1I4877),C38-RTDBG($1I4913),R13-RTDBG($1I4949),R14-RTDBG($1I4988),Y1-RTDBG($1I5089),J4-RTDBG($1I5134),R15-RTDBG($1I5358),R16-RTDBG($1I5397),R17-RTDBG($1I5436),R18-RTDBG($1I5475),J5-RTDBG($1I5635),C39-ESP($1I7586),C40-ESP($1I7622),C41-ESP($1I7658),R19-ESP($1I7885),R20-ESP($1I7924),SW2-ESP($1I7963),SW3-ESP($1I8014)"
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "U9-ESP",
+        "J7-ESP",
+        "R21-ESP",
+        "R22-ESP",
+        "U10-ESP",
+        "C45-ESP",
+        "R23-ESP",
+        "R24-ESP",
+        "R25-ESP",
+        "R26-ESP",
+        "R27-ESP",
+        "TP1-ESP",
+        "TP2-ESP",
+        "C46-AUD",
+        "C47-AUD",
+        "C48-AUD",
+        "C49-AUD",
+        "C50-AUD",
+        "R28-AUD",
+        "R29-AUD",
+        "U11-AUD",
+        "J8-AUD",
+        "R31-AUD",
+        "R32-AUD",
+        "R33-AUD",
+        "R34-AUD",
+        "R35-AUD",
+        "R36-AUD",
+        "R37-AUD",
+        "TP3-AUD"
+      ],
+      "kind": "supplier_standardisation",
+      "level": "Warn",
+      "message": "Component attributes does not match the Supplier Part, It is recommended to use Device Standardization: : U9-ESP($1I8065),J7-ESP($1I8334),R21-ESP($1I8421),R22-ESP($1I8460),U10-ESP($1I8499),C45-ESP($1I8548),R23-ESP($1I8584),R24-ESP($1I8623),R25-ESP($1I8662),R26-ESP($1I8701),R27-ESP($1I8740),TP1-ESP($1I8779),TP2-ESP($1I8808),C46-AUD($1I11652),C47-AUD($1I11688),C48-AUD($1I11724),C49-AUD($1I11760),C50-AUD($1I11796),R28-AUD($1I11868),R29-AUD($1I11907),U11-AUD($1I11985),J8-AUD($1I12118),R31-AUD($1I12172),R32-AUD($1I12211),R33-AUD($1I12250),R34-AUD($1I12289),R35-AUD($1I12328),R36-AUD($1I12367),R37-AUD($1I12406),TP3-AUD($1I12445)"
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "C53-AUD",
+        "FB5-AUD",
+        "J9-AUD",
+        "R38-AUD",
+        "R39-AUD",
+        "R40-AUD",
+        "R41-AUD",
+        "TP4-AUD",
+        "TP5-AUD",
+        "C54-NFC",
+        "C55-NFC",
+        "C56-NFC",
+        "C57-NFC",
+        "C58-NFC",
+        "C59-NFC",
+        "C60-NFC",
+        "C61-NFC",
+        "J10-NFC",
+        "L2-NFC",
+        "L3-NFC",
+        "R42-NFC",
+        "R43-NFC",
+        "U12-NFC",
+        "Y2-NFC",
+        "C62-MOT",
+        "C63-MOT",
+        "R44-MOT",
+        "R45-MOT",
+        "R46-MOT",
+        "R47-MOT"
+      ],
+      "kind": "supplier_standardisation",
+      "level": "Warn",
+      "message": "Component attributes does not match the Supplier Part, It is recommended to use Device Standardization: : C53-AUD($1I12474),FB5-AUD($1I12510),J9-AUD($1I12548),R38-AUD($1I12620),R39-AUD($1I12659),R40-AUD($1I12698),R41-AUD($1I12737),TP4-AUD($1I12776),TP5-AUD($1I12805),C54-NFC($1I13042),C55-NFC($1I13078),C56-NFC($1I13114),C57-NFC($1I13150),C58-NFC($1I13186),C59-NFC($1I13222),C60-NFC($1I13258),C61-NFC($1I13294),J10-NFC($1I13330),L2-NFC($1I13362),L3-NFC($1I13399),R42-NFC($1I13438),R43-NFC($1I13477),U12-NFC($1I13516),Y2-NFC($1I13647),C62-MOT($1I13842),C63-MOT($1I13878),R44-MOT($1I13914),R45-MOT($1I13953),R46-MOT($1I13992),R47-MOT($1I14031)"
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "R48-MOT",
+        "R49-MOT",
+        "R50-MOT",
+        "U13-MOT",
+        "C64-LED",
+        "C65-LED",
+        "R51-LED",
+        "R52-LED",
+        "R53-LED",
+        "R54-LED",
+        "RT1-LED",
+        "RT2-LED",
+        "U14-LED",
+        "U15-LED",
+        "J2-LED",
+        "J3-LED",
+        "J11-VAL",
+        "R55-VAL",
+        "R56-VAL",
+        "R57-VAL",
+        "R58-VAL",
+        "TP6-VAL",
+        "C66-VAL",
+        "Q2-VAL",
+        "R59-VAL",
+        "R60-VAL",
+        "R61-VAL",
+        "R62-VAL",
+        "SW4-VAL",
+        "U16-VAL"
+      ],
+      "kind": "supplier_standardisation",
+      "level": "Warn",
+      "message": "Component attributes does not match the Supplier Part, It is recommended to use Device Standardization: : R48-MOT($1I14070),R49-MOT($1I14109),R50-MOT($1I14148),U13-MOT($1I14187),C64-LED($1I14334),C65-LED($1I14370),R51-LED($1I14470),R52-LED($1I14509),R53-LED($1I14548),R54-LED($1I14587),RT1-LED($1I14626),RT2-LED($1I14671),U14-LED($1I14716),U15-LED($1I14770),J2-LED($1I14825),J3-LED($1I14876),J11-VAL($1I15023),R55-VAL($1I15067),R56-VAL($1I15106),R57-VAL($1I15145),R58-VAL($1I15184),TP6-VAL($1I15223),C66-VAL($1I15252),Q2-VAL($1I15288),R59-VAL($1I15332),R60-VAL($1I15371),R61-VAL($1I15410),R62-VAL($1I15449),SW4-VAL($1I15488),U16-VAL($1I15539)"
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "R63-PWR1",
+        "R64-PWR1",
+        "R65-PWR1",
+        "R66-PWR1",
+        "R67-PWR1",
+        "C67-PWR1",
+        "R10-RTC",
+        "R11-RTC",
+        "U8-RTDBG",
+        "R68-RTDBG",
+        "R69-RTDBG",
+        "C19-RTC",
+        "C20-RTC",
+        "C21-RTC",
+        "C22-RTC",
+        "C23-RTC",
+        "C24-RTC",
+        "C25-RTC",
+        "C26-RTC",
+        "C27-RTC",
+        "C28-RTC",
+        "C29-RTC",
+        "C30-RTC",
+        "C31-RTC",
+        "C32-RTC",
+        "C33-RTC",
+        "C34-RTC",
+        "C69-RTC",
+        "C70-RTC",
+        "C71-RTC"
+      ],
+      "kind": "supplier_standardisation",
+      "level": "Warn",
+      "message": "Component attributes does not match the Supplier Part, It is recommended to use Device Standardization: : R63-PWR1($1I29093),R64-PWR1($1I29132),R65-PWR1($1I29171),R66-PWR1($1I29210),R67-PWR1($1I29249),C67-PWR1($1I29288),R10-RTC($1I47826),R11-RTC($1I47865),U8-RTDBG($1I47974),R68-RTDBG($1I48032),R69-RTDBG($1I48071),C19-RTC($1I75855),C20-RTC($1I75891),C21-RTC($1I75927),C22-RTC($1I75963),C23-RTC($1I75999),C24-RTC($1I76035),C25-RTC($1I76071),C26-RTC($1I76107),C27-RTC($1I76143),C28-RTC($1I76179),C29-RTC($1I76215),C30-RTC($1I76251),C31-RTC($1I76287),C32-RTC($1I76323),C33-RTC($1I76359),C34-RTC($1I76395),C69-RTC($1I76431),C70-RTC($1I76467),C71-RTC($1I76503)"
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "C72-RTC",
+        "C73-RTC",
+        "C74-RTC",
+        "C75-RTC",
+        "C76-RTC",
+        "C77-RTC",
+        "C78-RTC",
+        "C79-RTC",
+        "C80-RTC",
+        "C81-RTC",
+        "C82-RTC",
+        "C83-RTC",
+        "C84-RTC",
+        "C85-RTC",
+        "C86-RTC",
+        "C87-RTC",
+        "C88-RTC",
+        "R70-RTC",
+        "C89-RTC",
+        "J6-ESP",
+        "R71-ESP",
+        "R72-ESP",
+        "R73-ESP",
+        "R74-ESP",
+        "C90-AUD",
+        "C91-AUD",
+        "TP7-AUD",
+        "TP8-AUD",
+        "U6-RTC"
+      ],
+      "kind": "supplier_standardisation",
+      "level": "Warn",
+      "message": "Component attributes does not match the Supplier Part, It is recommended to use Device Standardization: : C72-RTC($1I76539),C73-RTC($1I76575),C74-RTC($1I76611),C75-RTC($1I76647),C76-RTC($1I76683),C77-RTC($1I76719),C78-RTC($1I76755),C79-RTC($1I76791),C80-RTC($1I76827),C81-RTC($1I76863),C82-RTC($1I76899),C83-RTC($1I76935),C84-RTC($1I76971),C85-RTC($1I77007),C86-RTC($1I77043),C87-RTC($1I77079),C88-RTC($1I77115),R70-RTC($1I77190),C89-RTC($1I77229),J6-ESP($1I98163),R71-ESP($1I98207),R72-ESP($1I98246),R73-ESP($1I98285),R74-ESP($1I98324),C90-AUD($1I129826),C91-AUD($1I129862),TP7-AUD($1I129898),TP8-AUD($1I129927),U6-RTC($1I3295)"
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "D1-PWR1.3",
+        "D1-PWR1.4",
+        "D1-PWR1.5",
+        "D1-PWR1.6",
+        "J1-PWR1.B5",
+        "J1-PWR1.B6",
+        "J1-PWR1.B7",
+        "J1-PWR1.B8",
+        "J1-PWR1.B9",
+        "J1-PWR1.B12",
+        "J1-PWR1.1",
+        "J1-PWR1.A1",
+        "J1-PWR1.A4",
+        "J1-PWR1.A5",
+        "J1-PWR1.A6",
+        "J1-PWR1.A7",
+        "J1-PWR1.A8",
+        "J1-PWR1.A9",
+        "J1-PWR1.A12",
+        "U1-PWR1.10",
+        "U4-PWR2.3",
+        "U5-PWR2.4",
+        "SW1-RTC.3",
+        "SW1-RTC.4",
+        "SW2-ESP.3",
+        "SW2-ESP.4",
+        "SW3-ESP.3",
+        "SW3-ESP.4",
+        "U9-ESP.9",
+        "U9-ESP.10"
+      ],
+      "kind": "floating_pins",
+      "level": "Warn",
+      "message": "Found some components Pins floating, suggest placing No Connect Flag on the Pins : D1-PWR1.3,D1-PWR1.4,D1-PWR1.5,D1-PWR1.6,J1-PWR1.B5,J1-PWR1.B6,J1-PWR1.B7,J1-PWR1.B8,J1-PWR1.B9,J1-PWR1.B12,J1-PWR1.1,J1-PWR1.A1,J1-PWR1.A4,J1-PWR1.A5,J1-PWR1.A6,J1-PWR1.A7,J1-PWR1.A8,J1-PWR1.A9,J1-PWR1.A12,U1-PWR1.10,U4-PWR2.3,U5-PWR2.4,SW1-RTC.3,SW1-RTC.4,SW2-ESP.3,SW2-ESP.4,SW3-ESP.3,SW3-ESP.4,U9-ESP.9,U9-ESP.10",
+      "raw_message": "Found some components\u00a0Pins floating, suggest placing No Connect Flag on the Pins : D1-PWR1.3,D1-PWR1.4,D1-PWR1.5,D1-PWR1.6,J1-PWR1.B5,J1-PWR1.B6,J1-PWR1.B7,J1-PWR1.B8,J1-PWR1.B9,J1-PWR1.B12,J1-PWR1.1,J1-PWR1.A1,J1-PWR1.A4,J1-PWR1.A5,J1-PWR1.A6,J1-PWR1.A7,J1-PWR1.A8,J1-PWR1.A9,J1-PWR1.A12,U1-PWR1.10,U4-PWR2.3,U5-PWR2.4,SW1-RTC.3,SW1-RTC.4,SW2-ESP.3,SW2-ESP.4,SW3-ESP.3,SW3-ESP.4,U9-ESP.9,U9-ESP.10"
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "U9-ESP.11",
+        "U9-ESP.12",
+        "U9-ESP.15",
+        "U9-ESP.16",
+        "U9-ESP.17",
+        "U9-ESP.23",
+        "U9-ESP.24",
+        "U9-ESP.25",
+        "U9-ESP.26",
+        "U9-ESP.28",
+        "U9-ESP.29",
+        "U9-ESP.30",
+        "U9-ESP.31",
+        "U9-ESP.32",
+        "U9-ESP.33",
+        "U9-ESP.34",
+        "U9-ESP.35",
+        "U11-AUD.1",
+        "U11-AUD.2",
+        "U11-AUD.4",
+        "J9-AUD.7",
+        "J9-AUD.8",
+        "J9-AUD.9",
+        "J9-AUD.10",
+        "J9-AUD.11",
+        "J9-AUD.12",
+        "U12-NFC.2",
+        "U12-NFC.15"
+      ],
+      "kind": "floating_pins",
+      "level": "Warn",
+      "message": "Found some components Pins floating, suggest placing No Connect Flag on the Pins : U9-ESP.11,U9-ESP.12,U9-ESP.15,U9-ESP.16,U9-ESP.17,U9-ESP.23,U9-ESP.24,U9-ESP.25,U9-ESP.26,U9-ESP.28,U9-ESP.29,U9-ESP.30,U9-ESP.31,U9-ESP.32,U9-ESP.33,U9-ESP.34,U9-ESP.35,J7-ESP.B8,J7-ESP.A8,U11-AUD.1,U11-AUD.2,U11-AUD.4,J9-AUD.7,J9-AUD.8,J9-AUD.9,J9-AUD.10,J9-AUD.11,J9-AUD.12,U12-NFC.2,U12-NFC.15",
+      "raw_message": "Found some components\u00a0Pins floating, suggest placing No Connect Flag on the Pins : U9-ESP.11,U9-ESP.12,U9-ESP.15,U9-ESP.16,U9-ESP.17,U9-ESP.23,U9-ESP.24,U9-ESP.25,U9-ESP.26,U9-ESP.28,U9-ESP.29,U9-ESP.30,U9-ESP.31,U9-ESP.32,U9-ESP.33,U9-ESP.34,U9-ESP.35,J7-ESP.B8,J7-ESP.A8,U11-AUD.1,U11-AUD.2,U11-AUD.4,J9-AUD.7,J9-AUD.8,J9-AUD.9,J9-AUD.10,J9-AUD.11,J9-AUD.12,U12-NFC.2,U12-NFC.15"
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "U12-NFC.17",
+        "U12-NFC.18",
+        "U12-NFC.19",
+        "U12-NFC.20",
+        "U12-NFC.23",
+        "U12-NFC.25",
+        "U12-NFC.28",
+        "U12-NFC.29",
+        "U12-NFC.31",
+        "Y2-NFC.4",
+        "Y2-NFC.3",
+        "U13-MOT.2",
+        "U13-MOT.3",
+        "U13-MOT.5",
+        "U13-MOT.7",
+        "U13-MOT.8",
+        "U13-MOT.11",
+        "SW4-VAL.3",
+        "SW4-VAL.4",
+        "U16-VAL.3",
+        "U16-VAL.4",
+        "U16-VAL.5",
+        "C10-PWR2.1",
+        "C10-PWR2.2",
+        "U6-RTC.G13",
+        "U6-RTC.G11",
+        "U6-RTC.G10",
+        "U6-RTC.G5",
+        "U6-RTC.G4",
+        "U6-RTC.G3"
+      ],
+      "kind": "floating_pins",
+      "level": "Warn",
+      "message": "Found some components Pins floating, suggest placing No Connect Flag on the Pins : U12-NFC.17,U12-NFC.18,U12-NFC.19,U12-NFC.20,U12-NFC.23,U12-NFC.25,U12-NFC.28,U12-NFC.29,U12-NFC.31,Y2-NFC.4,Y2-NFC.3,U13-MOT.2,U13-MOT.3,U13-MOT.5,U13-MOT.7,U13-MOT.8,U13-MOT.11,SW4-VAL.3,SW4-VAL.4,U16-VAL.3,U16-VAL.4,U16-VAL.5,C10-PWR2.1,C10-PWR2.2,U6-RTC.G13,U6-RTC.G11,U6-RTC.G10,U6-RTC.G5,U6-RTC.G4,U6-RTC.G3",
+      "raw_message": "Found some components\u00a0Pins floating, suggest placing No Connect Flag on the Pins : U12-NFC.17,U12-NFC.18,U12-NFC.19,U12-NFC.20,U12-NFC.23,U12-NFC.25,U12-NFC.28,U12-NFC.29,U12-NFC.31,Y2-NFC.4,Y2-NFC.3,U13-MOT.2,U13-MOT.3,U13-MOT.5,U13-MOT.7,U13-MOT.8,U13-MOT.11,SW4-VAL.3,SW4-VAL.4,U16-VAL.3,U16-VAL.4,U16-VAL.5,C10-PWR2.1,C10-PWR2.2,U6-RTC.G13,U6-RTC.G11,U6-RTC.G10,U6-RTC.G5,U6-RTC.G4,U6-RTC.G3"
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "U6-RTC.G2",
+        "U6-RTC.G1",
+        "U6-RTC.F14",
+        "U6-RTC.F13",
+        "U6-RTC.F4",
+        "U6-RTC.F3",
+        "U6-RTC.F2",
+        "U6-RTC.F1",
+        "U6-RTC.E12",
+        "U6-RTC.E11",
+        "U6-RTC.E10",
+        "U6-RTC.E8",
+        "U6-RTC.E5",
+        "U6-RTC.E4",
+        "U6-RTC.E3",
+        "U6-RTC.E1",
+        "U6-RTC.D14",
+        "U6-RTC.D13",
+        "U6-RTC.D12",
+        "U6-RTC.D11",
+        "U6-RTC.D10",
+        "U6-RTC.D9",
+        "U6-RTC.D8",
+        "U6-RTC.D6",
+        "U6-RTC.D5",
+        "U6-RTC.D4",
+        "U6-RTC.D3",
+        "U6-RTC.D2",
+        "U6-RTC.D1",
+        "U6-RTC.C14"
+      ],
+      "kind": "floating_pins",
+      "level": "Warn",
+      "message": "Found some components Pins floating, suggest placing No Connect Flag on the Pins : U6-RTC.G2,U6-RTC.G1,U6-RTC.F14,U6-RTC.F13,U6-RTC.F4,U6-RTC.F3,U6-RTC.F2,U6-RTC.F1,U6-RTC.E12,U6-RTC.E11,U6-RTC.E10,U6-RTC.E8,U6-RTC.E5,U6-RTC.E4,U6-RTC.E3,U6-RTC.E1,U6-RTC.D14,U6-RTC.D13,U6-RTC.D12,U6-RTC.D11,U6-RTC.D10,U6-RTC.D9,U6-RTC.D8,U6-RTC.D6,U6-RTC.D5,U6-RTC.D4,U6-RTC.D3,U6-RTC.D2,U6-RTC.D1,U6-RTC.C14",
+      "raw_message": "Found some components\u00a0Pins floating, suggest placing No Connect Flag on the Pins : U6-RTC.G2,U6-RTC.G1,U6-RTC.F14,U6-RTC.F13,U6-RTC.F4,U6-RTC.F3,U6-RTC.F2,U6-RTC.F1,U6-RTC.E12,U6-RTC.E11,U6-RTC.E10,U6-RTC.E8,U6-RTC.E5,U6-RTC.E4,U6-RTC.E3,U6-RTC.E1,U6-RTC.D14,U6-RTC.D13,U6-RTC.D12,U6-RTC.D11,U6-RTC.D10,U6-RTC.D9,U6-RTC.D8,U6-RTC.D6,U6-RTC.D5,U6-RTC.D4,U6-RTC.D3,U6-RTC.D2,U6-RTC.D1,U6-RTC.C14"
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "U6-RTC.C13",
+        "U6-RTC.C12",
+        "U6-RTC.C11",
+        "U6-RTC.C10",
+        "U6-RTC.C9",
+        "U6-RTC.C8",
+        "U6-RTC.C7",
+        "U6-RTC.C6",
+        "U6-RTC.C5",
+        "U6-RTC.C4",
+        "U6-RTC.C3",
+        "U6-RTC.C2",
+        "U6-RTC.C1",
+        "U6-RTC.B14",
+        "U6-RTC.B13",
+        "U6-RTC.B12",
+        "U6-RTC.B11",
+        "U6-RTC.B9",
+        "U6-RTC.B8",
+        "U6-RTC.B7",
+        "U6-RTC.B6",
+        "U6-RTC.B4",
+        "U6-RTC.B3",
+        "U6-RTC.B2",
+        "U6-RTC.B1",
+        "U6-RTC.A13",
+        "U6-RTC.A12",
+        "U6-RTC.A11",
+        "U6-RTC.A10",
+        "U6-RTC.A9"
+      ],
+      "kind": "floating_pins",
+      "level": "Warn",
+      "message": "Found some components Pins floating, suggest placing No Connect Flag on the Pins : U6-RTC.C13,U6-RTC.C12,U6-RTC.C11,U6-RTC.C10,U6-RTC.C9,U6-RTC.C8,U6-RTC.C7,U6-RTC.C6,U6-RTC.C5,U6-RTC.C4,U6-RTC.C3,U6-RTC.C2,U6-RTC.C1,U6-RTC.B14,U6-RTC.B13,U6-RTC.B12,U6-RTC.B11,U6-RTC.B9,U6-RTC.B8,U6-RTC.B7,U6-RTC.B6,U6-RTC.B4,U6-RTC.B3,U6-RTC.B2,U6-RTC.B1,U6-RTC.A13,U6-RTC.A12,U6-RTC.A11,U6-RTC.A10,U6-RTC.A9",
+      "raw_message": "Found some components\u00a0Pins floating, suggest placing No Connect Flag on the Pins : U6-RTC.C13,U6-RTC.C12,U6-RTC.C11,U6-RTC.C10,U6-RTC.C9,U6-RTC.C8,U6-RTC.C7,U6-RTC.C6,U6-RTC.C5,U6-RTC.C4,U6-RTC.C3,U6-RTC.C2,U6-RTC.C1,U6-RTC.B14,U6-RTC.B13,U6-RTC.B12,U6-RTC.B11,U6-RTC.B9,U6-RTC.B8,U6-RTC.B7,U6-RTC.B6,U6-RTC.B4,U6-RTC.B3,U6-RTC.B2,U6-RTC.B1,U6-RTC.A13,U6-RTC.A12,U6-RTC.A11,U6-RTC.A10,U6-RTC.A9"
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "U6-RTC.A8",
+        "U6-RTC.A7",
+        "U6-RTC.A6",
+        "U6-RTC.A5",
+        "U6-RTC.A4",
+        "U6-RTC.A3",
+        "U6-RTC.A2",
+        "U6-RTC.P13",
+        "U6-RTC.P9",
+        "U6-RTC.P7",
+        "U6-RTC.P6",
+        "U6-RTC.P5",
+        "U6-RTC.P4",
+        "U6-RTC.P2",
+        "U6-RTC.N13",
+        "U6-RTC.N12",
+        "U6-RTC.N10",
+        "U6-RTC.N7",
+        "U6-RTC.N6",
+        "U6-RTC.N3",
+        "U6-RTC.M14",
+        "U6-RTC.M13",
+        "U6-RTC.M11",
+        "U6-RTC.M6",
+        "U6-RTC.M5",
+        "U6-RTC.M4",
+        "U6-RTC.M3",
+        "U6-RTC.L10",
+        "U6-RTC.L8",
+        "U6-RTC.L7"
+      ],
+      "kind": "floating_pins",
+      "level": "Warn",
+      "message": "Found some components Pins floating, suggest placing No Connect Flag on the Pins : U6-RTC.A8,U6-RTC.A7,U6-RTC.A6,U6-RTC.A5,U6-RTC.A4,U6-RTC.A3,U6-RTC.A2,U6-RTC.P13,U6-RTC.P9,U6-RTC.P7,U6-RTC.P6,U6-RTC.P5,U6-RTC.P4,U6-RTC.P2,U6-RTC.N13,U6-RTC.N12,U6-RTC.N10,U6-RTC.N7,U6-RTC.N6,U6-RTC.N3,U6-RTC.M14,U6-RTC.M13,U6-RTC.M11,U6-RTC.M6,U6-RTC.M5,U6-RTC.M4,U6-RTC.M3,U6-RTC.L10,U6-RTC.L8,U6-RTC.L7",
+      "raw_message": "Found some components\u00a0Pins floating, suggest placing No Connect Flag on the Pins : U6-RTC.A8,U6-RTC.A7,U6-RTC.A6,U6-RTC.A5,U6-RTC.A4,U6-RTC.A3,U6-RTC.A2,U6-RTC.P13,U6-RTC.P9,U6-RTC.P7,U6-RTC.P6,U6-RTC.P5,U6-RTC.P4,U6-RTC.P2,U6-RTC.N13,U6-RTC.N12,U6-RTC.N10,U6-RTC.N7,U6-RTC.N6,U6-RTC.N3,U6-RTC.M14,U6-RTC.M13,U6-RTC.M11,U6-RTC.M6,U6-RTC.M5,U6-RTC.M4,U6-RTC.M3,U6-RTC.L10,U6-RTC.L8,U6-RTC.L7"
+    },
+    {
+      "fully_waived": false,
+      "items": [
+        "U6-RTC.L6",
+        "U6-RTC.L5",
+        "U6-RTC.K10",
+        "U6-RTC.K7",
+        "U6-RTC.K6",
+        "U6-RTC.J12",
+        "U6-RTC.J2",
+        "U6-RTC.H14",
+        "U6-RTC.H13",
+        "U6-RTC.H10",
+        "U6-RTC.H5",
+        "U6-RTC.H4",
+        "U6-RTC.H3",
+        "U6-RTC.H2",
+        "U6-RTC.H1"
+      ],
+      "kind": "floating_pins",
+      "level": "Warn",
+      "message": "Found some components Pins floating, suggest placing No Connect Flag on the Pins : U6-RTC.L6,U6-RTC.L5,U6-RTC.K10,U6-RTC.K7,U6-RTC.K6,U6-RTC.J12,U6-RTC.J2,U6-RTC.H14,U6-RTC.H13,U6-RTC.H10,U6-RTC.H5,U6-RTC.H4,U6-RTC.H3,U6-RTC.H2,U6-RTC.H1",
+      "raw_message": "Found some components\u00a0Pins floating, suggest placing No Connect Flag on the Pins : U6-RTC.L6,U6-RTC.L5,U6-RTC.K10,U6-RTC.K7,U6-RTC.K6,U6-RTC.J12,U6-RTC.J2,U6-RTC.H14,U6-RTC.H13,U6-RTC.H10,U6-RTC.H5,U6-RTC.H4,U6-RTC.H3,U6-RTC.H2,U6-RTC.H1"
+    },
+    {
+      "device": "USB4105-GF-A",
+      "fully_waived": false,
+      "items": [
+        "$1I339",
+        "$1I8334"
+      ],
+      "kind": "pad_without_pin",
+      "level": "Info",
+      "message": "The pin of the component USB4105-GF-A does not correspond to the pad (Pad has no corresponding pin: 2\u30013\u30014): $1I339,$1I8334",
+      "pads": [
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    {
+      "declared": {
+        "Error": 0,
+        "Fatal Error": 0,
+        "Info": 398,
+        "Warn": 22
+      },
+      "fully_waived": false,
+      "items": [],
+      "kind": "summary",
+      "level": "Info",
+      "message": "Finish Design Rule Checking. Fatal Error: 0, Error: 0, Warning: 22, Info: 398."
+    }
+  ],
+  "items_by_kind": {
+    "designator_style": [
+      "$1I108",
+      "$1I11652",
+      "$1I11688",
+      "$1I11724",
+      "$1I11760",
+      "$1I11796",
+      "$1I11868",
+      "$1I11907",
+      "$1I11985",
+      "$1I12082",
+      "$1I12118",
+      "$1I12172",
+      "$1I12211",
+      "$1I12250",
+      "$1I12289",
+      "$1I12328",
+      "$1I12367",
+      "$1I12406",
+      "$1I12445",
+      "$1I12474",
+      "$1I12510",
+      "$1I12548",
+      "$1I12620",
+      "$1I12659",
+      "$1I12698",
+      "$1I12737",
+      "$1I12776",
+      "$1I12805",
+      "$1I129790",
+      "$1I129826",
+      "$1I129862",
+      "$1I129898",
+      "$1I129927",
+      "$1I13042",
+      "$1I13078",
+      "$1I13114",
+      "$1I13150",
+      "$1I13186",
+      "$1I13222",
+      "$1I13258",
+      "$1I13294",
+      "$1I13330",
+      "$1I13362",
+      "$1I13399",
+      "$1I13438",
+      "$1I13477",
+      "$1I13516",
+      "$1I13647",
+      "$1I13842",
+      "$1I13878",
+      "$1I13914",
+      "$1I13953",
+      "$1I13992",
+      "$1I14031",
+      "$1I14070",
+      "$1I14109",
+      "$1I14148",
+      "$1I14187",
+      "$1I14334",
+      "$1I14370",
+      "$1I14470",
+      "$1I14509",
+      "$1I14548",
+      "$1I14587",
+      "$1I14626",
+      "$1I14671",
+      "$1I14716",
+      "$1I14770",
+      "$1I14825",
+      "$1I14876",
+      "$1I15023",
+      "$1I15067",
+      "$1I15106",
+      "$1I15145",
+      "$1I15184",
+      "$1I15223",
+      "$1I15252",
+      "$1I15288",
+      "$1I15332",
+      "$1I15371",
+      "$1I15410",
+      "$1I15449",
+      "$1I15488",
+      "$1I15539",
+      "$1I1870",
+      "$1I1906",
+      "$1I1942",
+      "$1I1978",
+      "$1I2014",
+      "$1I2082",
+      "$1I2121",
+      "$1I2160",
+      "$1I2199",
+      "$1I2268",
+      "$1I2304",
+      "$1I2340",
+      "$1I2376",
+      "$1I2414",
+      "$1I2452",
+      "$1I24569",
+      "$1I24607",
+      "$1I2491",
+      "$1I252",
+      "$1I2549",
+      "$1I2585",
+      "$1I2621",
+      "$1I2657",
+      "$1I2693",
+      "$1I2731",
+      "$1I2776",
+      "$1I2815",
+      "$1I29093",
+      "$1I29132",
+      "$1I29171",
+      "$1I29210",
+      "$1I29249",
+      "$1I29288",
+      "$1I301",
+      "$1I3055",
+      "$1I3205",
+      "$1I3244",
+      "$1I3295",
+      "$1I339",
+      "$1I3619",
+      "$1I3673",
+      "$1I38545",
+      "$1I426",
+      "$1I465",
+      "$1I47826",
+      "$1I47865",
+      "$1I47904",
+      "$1I47939",
+      "$1I47974",
+      "$1I48032",
+      "$1I48071",
+      "$1I4877",
+      "$1I4913",
+      "$1I4949",
+      "$1I4988",
+      "$1I504",
+      "$1I5089",
+      "$1I5134",
+      "$1I5358",
+      "$1I5397",
+      "$1I5436",
+      "$1I5475",
+      "$1I562",
+      "$1I5635",
+      "$1I598",
+      "$1I72",
+      "$1I75855",
+      "$1I7586",
+      "$1I75891",
+      "$1I75927",
+      "$1I75963",
+      "$1I75999",
+      "$1I76035",
+      "$1I76071",
+      "$1I76107",
+      "$1I76143",
+      "$1I76179",
+      "$1I76215",
+      "$1I7622",
+      "$1I76251",
+      "$1I76287",
+      "$1I76323",
+      "$1I76359",
+      "$1I76395",
+      "$1I76431",
+      "$1I76467",
+      "$1I76503",
+      "$1I76539",
+      "$1I76575",
+      "$1I7658",
+      "$1I76611",
+      "$1I76647",
+      "$1I76683",
+      "$1I76719",
+      "$1I76755",
+      "$1I76791",
+      "$1I76827",
+      "$1I76863",
+      "$1I76899",
+      "$1I76935",
+      "$1I76971",
+      "$1I77007",
+      "$1I77043",
+      "$1I77079",
+      "$1I77115",
+      "$1I77151",
+      "$1I77190",
+      "$1I77229",
+      "$1I778",
+      "$1I7885",
+      "$1I7924",
+      "$1I7963",
+      "$1I8014",
+      "$1I8065",
+      "$1I817",
+      "$1I8224",
+      "$1I8260",
+      "$1I8334",
+      "$1I8421",
+      "$1I8460",
+      "$1I8499",
+      "$1I8548",
+      "$1I856",
+      "$1I8584",
+      "$1I8623",
+      "$1I8662",
+      "$1I8701",
+      "$1I8740",
+      "$1I8779",
+      "$1I8808",
+      "$1I894",
+      "$1I98127",
+      "$1I98163",
+      "$1I98207",
+      "$1I98246",
+      "$1I98285",
+      "$1I98324"
+    ],
+    "empty_value": [
+      "$1I108",
+      "$1I11652",
+      "$1I11688",
+      "$1I11724",
+      "$1I11760",
+      "$1I11796",
+      "$1I11868",
+      "$1I11907",
+      "$1I12082",
+      "$1I12172",
+      "$1I12211",
+      "$1I12250",
+      "$1I12289",
+      "$1I12328",
+      "$1I12367",
+      "$1I12406",
+      "$1I12474",
+      "$1I12620",
+      "$1I12659",
+      "$1I12698",
+      "$1I12737",
+      "$1I129790",
+      "$1I129826",
+      "$1I129862",
+      "$1I13042",
+      "$1I13078",
+      "$1I13114",
+      "$1I13150",
+      "$1I13186",
+      "$1I13222",
+      "$1I13258",
+      "$1I13294",
+      "$1I13362",
+      "$1I13399",
+      "$1I13438",
+      "$1I13477",
+      "$1I13516",
+      "$1I13647",
+      "$1I13842",
+      "$1I13878",
+      "$1I13914",
+      "$1I13953",
+      "$1I13992",
+      "$1I14031",
+      "$1I14070",
+      "$1I14109",
+      "$1I14148",
+      "$1I14334",
+      "$1I14370",
+      "$1I14470",
+      "$1I14509",
+      "$1I14548",
+      "$1I14587",
+      "$1I15067",
+      "$1I15106",
+      "$1I15145",
+      "$1I15184",
+      "$1I15252",
+      "$1I15332",
+      "$1I15371",
+      "$1I15410",
+      "$1I15449",
+      "$1I1870",
+      "$1I1906",
+      "$1I1942",
+      "$1I1978",
+      "$1I2014",
+      "$1I2082",
+      "$1I2121",
+      "$1I2160",
+      "$1I2268",
+      "$1I2304",
+      "$1I2340",
+      "$1I2452",
+      "$1I2549",
+      "$1I2585",
+      "$1I2621",
+      "$1I2657",
+      "$1I2776",
+      "$1I29093",
+      "$1I29132",
+      "$1I29171",
+      "$1I29210",
+      "$1I29249",
+      "$1I29288",
+      "$1I3055",
+      "$1I3205",
+      "$1I38545",
+      "$1I426",
+      "$1I465",
+      "$1I47826",
+      "$1I47865",
+      "$1I47904",
+      "$1I47939",
+      "$1I48032",
+      "$1I48071",
+      "$1I4877",
+      "$1I4913",
+      "$1I4949",
+      "$1I4988",
+      "$1I5089",
+      "$1I5358",
+      "$1I5397",
+      "$1I5436",
+      "$1I5475",
+      "$1I562",
+      "$1I598",
+      "$1I72",
+      "$1I75855",
+      "$1I7586",
+      "$1I75891",
+      "$1I75927",
+      "$1I75963",
+      "$1I75999",
+      "$1I76035",
+      "$1I76071",
+      "$1I76107",
+      "$1I76143",
+      "$1I76179",
+      "$1I76215",
+      "$1I7622",
+      "$1I76251",
+      "$1I76287",
+      "$1I76323",
+      "$1I76359",
+      "$1I76395",
+      "$1I76431",
+      "$1I76467",
+      "$1I76503",
+      "$1I76539",
+      "$1I76575",
+      "$1I7658",
+      "$1I76611",
+      "$1I76647",
+      "$1I76683",
+      "$1I76719",
+      "$1I76755",
+      "$1I76791",
+      "$1I76827",
+      "$1I76863",
+      "$1I76899",
+      "$1I76935",
+      "$1I76971",
+      "$1I77007",
+      "$1I77043",
+      "$1I77079",
+      "$1I77115",
+      "$1I77151",
+      "$1I77190",
+      "$1I77229",
+      "$1I778",
+      "$1I7885",
+      "$1I7924",
+      "$1I8065",
+      "$1I817",
+      "$1I8224",
+      "$1I8260",
+      "$1I8421",
+      "$1I8460",
+      "$1I8548",
+      "$1I856",
+      "$1I8584",
+      "$1I8623",
+      "$1I8662",
+      "$1I8701",
+      "$1I8740",
+      "$1I98127",
+      "$1I98207",
+      "$1I98246",
+      "$1I98285",
+      "$1I98324"
+    ],
+    "floating_pins": [
+      "C10-PWR2.1",
+      "C10-PWR2.2",
+      "D1-PWR1.3",
+      "D1-PWR1.4",
+      "D1-PWR1.5",
+      "D1-PWR1.6",
+      "J1-PWR1.1",
+      "J1-PWR1.A1",
+      "J1-PWR1.A12",
+      "J1-PWR1.A4",
+      "J1-PWR1.A5",
+      "J1-PWR1.A6",
+      "J1-PWR1.A7",
+      "J1-PWR1.A8",
+      "J1-PWR1.A9",
+      "J1-PWR1.B12",
+      "J1-PWR1.B5",
+      "J1-PWR1.B6",
+      "J1-PWR1.B7",
+      "J1-PWR1.B8",
+      "J1-PWR1.B9",
+      "J9-AUD.10",
+      "J9-AUD.11",
+      "J9-AUD.12",
+      "J9-AUD.7",
+      "J9-AUD.8",
+      "J9-AUD.9",
+      "SW1-RTC.3",
+      "SW1-RTC.4",
+      "SW2-ESP.3",
+      "SW2-ESP.4",
+      "SW3-ESP.3",
+      "SW3-ESP.4",
+      "SW4-VAL.3",
+      "SW4-VAL.4",
+      "U1-PWR1.10",
+      "U11-AUD.1",
+      "U11-AUD.2",
+      "U11-AUD.4",
+      "U12-NFC.15",
+      "U12-NFC.17",
+      "U12-NFC.18",
+      "U12-NFC.19",
+      "U12-NFC.2",
+      "U12-NFC.20",
+      "U12-NFC.23",
+      "U12-NFC.25",
+      "U12-NFC.28",
+      "U12-NFC.29",
+      "U12-NFC.31",
+      "U13-MOT.11",
+      "U13-MOT.2",
+      "U13-MOT.3",
+      "U13-MOT.5",
+      "U13-MOT.7",
+      "U13-MOT.8",
+      "U16-VAL.3",
+      "U16-VAL.4",
+      "U16-VAL.5",
+      "U4-PWR2.3",
+      "U5-PWR2.4",
+      "U6-RTC.A10",
+      "U6-RTC.A11",
+      "U6-RTC.A12",
+      "U6-RTC.A13",
+      "U6-RTC.A2",
+      "U6-RTC.A3",
+      "U6-RTC.A4",
+      "U6-RTC.A5",
+      "U6-RTC.A6",
+      "U6-RTC.A7",
+      "U6-RTC.A8",
+      "U6-RTC.A9",
+      "U6-RTC.B1",
+      "U6-RTC.B11",
+      "U6-RTC.B12",
+      "U6-RTC.B13",
+      "U6-RTC.B14",
+      "U6-RTC.B2",
+      "U6-RTC.B3",
+      "U6-RTC.B4",
+      "U6-RTC.B6",
+      "U6-RTC.B7",
+      "U6-RTC.B8",
+      "U6-RTC.B9",
+      "U6-RTC.C1",
+      "U6-RTC.C10",
+      "U6-RTC.C11",
+      "U6-RTC.C12",
+      "U6-RTC.C13",
+      "U6-RTC.C14",
+      "U6-RTC.C2",
+      "U6-RTC.C3",
+      "U6-RTC.C4",
+      "U6-RTC.C5",
+      "U6-RTC.C6",
+      "U6-RTC.C7",
+      "U6-RTC.C8",
+      "U6-RTC.C9",
+      "U6-RTC.D1",
+      "U6-RTC.D10",
+      "U6-RTC.D11",
+      "U6-RTC.D12",
+      "U6-RTC.D13",
+      "U6-RTC.D14",
+      "U6-RTC.D2",
+      "U6-RTC.D3",
+      "U6-RTC.D4",
+      "U6-RTC.D5",
+      "U6-RTC.D6",
+      "U6-RTC.D8",
+      "U6-RTC.D9",
+      "U6-RTC.E1",
+      "U6-RTC.E10",
+      "U6-RTC.E11",
+      "U6-RTC.E12",
+      "U6-RTC.E3",
+      "U6-RTC.E4",
+      "U6-RTC.E5",
+      "U6-RTC.E8",
+      "U6-RTC.F1",
+      "U6-RTC.F13",
+      "U6-RTC.F14",
+      "U6-RTC.F2",
+      "U6-RTC.F3",
+      "U6-RTC.F4",
+      "U6-RTC.G1",
+      "U6-RTC.G10",
+      "U6-RTC.G11",
+      "U6-RTC.G13",
+      "U6-RTC.G2",
+      "U6-RTC.G3",
+      "U6-RTC.G4",
+      "U6-RTC.G5",
+      "U6-RTC.H1",
+      "U6-RTC.H10",
+      "U6-RTC.H13",
+      "U6-RTC.H14",
+      "U6-RTC.H2",
+      "U6-RTC.H3",
+      "U6-RTC.H4",
+      "U6-RTC.H5",
+      "U6-RTC.J12",
+      "U6-RTC.J2",
+      "U6-RTC.K10",
+      "U6-RTC.K6",
+      "U6-RTC.K7",
+      "U6-RTC.L10",
+      "U6-RTC.L5",
+      "U6-RTC.L6",
+      "U6-RTC.L7",
+      "U6-RTC.L8",
+      "U6-RTC.M11",
+      "U6-RTC.M13",
+      "U6-RTC.M14",
+      "U6-RTC.M3",
+      "U6-RTC.M4",
+      "U6-RTC.M5",
+      "U6-RTC.M6",
+      "U6-RTC.N10",
+      "U6-RTC.N12",
+      "U6-RTC.N13",
+      "U6-RTC.N3",
+      "U6-RTC.N6",
+      "U6-RTC.N7",
+      "U6-RTC.P13",
+      "U6-RTC.P2",
+      "U6-RTC.P4",
+      "U6-RTC.P5",
+      "U6-RTC.P6",
+      "U6-RTC.P7",
+      "U6-RTC.P9",
+      "U9-ESP.10",
+      "U9-ESP.11",
+      "U9-ESP.12",
+      "U9-ESP.15",
+      "U9-ESP.16",
+      "U9-ESP.17",
+      "U9-ESP.23",
+      "U9-ESP.24",
+      "U9-ESP.25",
+      "U9-ESP.26",
+      "U9-ESP.28",
+      "U9-ESP.29",
+      "U9-ESP.30",
+      "U9-ESP.31",
+      "U9-ESP.32",
+      "U9-ESP.33",
+      "U9-ESP.34",
+      "U9-ESP.35",
+      "U9-ESP.9",
+      "Y2-NFC.3",
+      "Y2-NFC.4"
+    ],
+    "multipart_property_mismatch": [
+      "$1I3295",
+      "$1I3673"
+    ],
+    "net_name_not_displayed": [
+      "1V15_CORE",
+      "3V3",
+      "DCDC_PSWITCH",
+      "DCDC_SW",
+      "GND",
+      "NVCC_PLL_1V1",
+      "RT_RESET_REQ_N",
+      "S3_VBUS",
+      "USB_CC1",
+      "USB_CC2",
+      "USB_DM",
+      "USB_DM_S3",
+      "USB_DP",
+      "USB_DP_S3",
+      "VDD_HIGH_CAP",
+      "VDD_SNVS_CAP",
+      "VDD_USB_CAP"
+    ],
+    "pad_without_pin": [
+      "$1I339",
+      "$1I8334"
+    ],
+    "single_pin_net": [
+      "BUCK_SS",
+      "NFC_AGDC",
+      "NFC_VDD_A",
+      "NFC_VDD_AM",
+      "NFC_VDD_D",
+      "NFC_VDD_DR",
+      "NFC_VDD_RF"
+    ],
+    "start": [],
+    "summary": [],
+    "supplier_standardisation": [
+      "C1-PWR1",
+      "C11-PWR2",
+      "C12-PWR2",
+      "C13-PWR2",
+      "C14-PWR2",
+      "C15-PWR2",
+      "C16-PWR2",
+      "C17-PWR2",
+      "C18-RTC",
+      "C19-RTC",
+      "C2-PWR1",
+      "C20-RTC",
+      "C21-RTC",
+      "C22-RTC",
+      "C23-RTC",
+      "C24-RTC",
+      "C25-RTC",
+      "C26-RTC",
+      "C27-RTC",
+      "C28-RTC",
+      "C29-RTC",
+      "C3-PWR1",
+      "C30-RTC",
+      "C31-RTC",
+      "C32-RTC",
+      "C33-RTC",
+      "C34-RTC",
+      "C37-RTDBG",
+      "C38-RTDBG",
+      "C39-ESP",
+      "C4-PWR1",
+      "C40-ESP",
+      "C41-ESP",
+      "C45-ESP",
+      "C46-AUD",
+      "C47-AUD",
+      "C48-AUD",
+      "C49-AUD",
+      "C5-PWR2",
+      "C50-AUD",
+      "C53-AUD",
+      "C54-NFC",
+      "C55-NFC",
+      "C56-NFC",
+      "C57-NFC",
+      "C58-NFC",
+      "C59-NFC",
+      "C6-PWR2",
+      "C60-NFC",
+      "C61-NFC",
+      "C62-MOT",
+      "C63-MOT",
+      "C64-LED",
+      "C65-LED",
+      "C66-VAL",
+      "C67-PWR1",
+      "C69-RTC",
+      "C7-PWR2",
+      "C70-RTC",
+      "C71-RTC",
+      "C72-RTC",
+      "C73-RTC",
+      "C74-RTC",
+      "C75-RTC",
+      "C76-RTC",
+      "C77-RTC",
+      "C78-RTC",
+      "C79-RTC",
+      "C8-PWR2",
+      "C80-RTC",
+      "C81-RTC",
+      "C82-RTC",
+      "C83-RTC",
+      "C84-RTC",
+      "C85-RTC",
+      "C86-RTC",
+      "C87-RTC",
+      "C88-RTC",
+      "C89-RTC",
+      "C9-PWR2",
+      "C90-AUD",
+      "C91-AUD",
+      "D1-PWR1",
+      "F1-PWR1",
+      "FB1-PWR2",
+      "FB2-PWR2",
+      "FB3-PWR2",
+      "FB5-AUD",
+      "J1-PWR1",
+      "J10-NFC",
+      "J11-VAL",
+      "J2-LED",
+      "J3-LED",
+      "J4-RTDBG",
+      "J5-RTDBG",
+      "J6-ESP",
+      "J7-ESP",
+      "J8-AUD",
+      "J9-AUD",
+      "L2-NFC",
+      "L3-NFC",
+      "Q1-PWR2",
+      "Q2-VAL",
+      "R1-PWR1",
+      "R10-RTC",
+      "R11-RTC",
+      "R12-RTC",
+      "R13-RTDBG",
+      "R14-RTDBG",
+      "R15-RTDBG",
+      "R16-RTDBG",
+      "R17-RTDBG",
+      "R18-RTDBG",
+      "R19-ESP",
+      "R2-PWR1",
+      "R20-ESP",
+      "R21-ESP",
+      "R22-ESP",
+      "R23-ESP",
+      "R24-ESP",
+      "R25-ESP",
+      "R26-ESP",
+      "R27-ESP",
+      "R28-AUD",
+      "R29-AUD",
+      "R3-PWR1",
+      "R31-AUD",
+      "R32-AUD",
+      "R33-AUD",
+      "R34-AUD",
+      "R35-AUD",
+      "R36-AUD",
+      "R37-AUD",
+      "R38-AUD",
+      "R39-AUD",
+      "R4-PWR1",
+      "R40-AUD",
+      "R41-AUD",
+      "R42-NFC",
+      "R43-NFC",
+      "R44-MOT",
+      "R45-MOT",
+      "R46-MOT",
+      "R47-MOT",
+      "R48-MOT",
+      "R49-MOT",
+      "R5-PWR2",
+      "R50-MOT",
+      "R51-LED",
+      "R52-LED",
+      "R53-LED",
+      "R54-LED",
+      "R55-VAL",
+      "R56-VAL",
+      "R57-VAL",
+      "R58-VAL",
+      "R59-VAL",
+      "R6-PWR2",
+      "R60-VAL",
+      "R61-VAL",
+      "R62-VAL",
+      "R63-PWR1",
+      "R64-PWR1",
+      "R65-PWR1",
+      "R66-PWR1",
+      "R67-PWR1",
+      "R68-RTDBG",
+      "R69-RTDBG",
+      "R7-PWR2",
+      "R70-RTC",
+      "R71-ESP",
+      "R72-ESP",
+      "R73-ESP",
+      "R74-ESP",
+      "R8-PWR2",
+      "R9-PWR2",
+      "RSH1-PWR1",
+      "RT1-LED",
+      "RT2-LED",
+      "SW1-RTC",
+      "SW2-ESP",
+      "SW3-ESP",
+      "SW4-VAL",
+      "TP1-ESP",
+      "TP2-ESP",
+      "TP3-AUD",
+      "TP4-AUD",
+      "TP5-AUD",
+      "TP6-VAL",
+      "TP7-AUD",
+      "TP8-AUD",
+      "U1-PWR1",
+      "U10-ESP",
+      "U11-AUD",
+      "U12-NFC",
+      "U13-MOT",
+      "U14-LED",
+      "U15-LED",
+      "U16-VAL",
+      "U2-PWR1",
+      "U3-PWR2",
+      "U4-PWR2",
+      "U5-PWR2",
+      "U6-RTC",
+      "U7-RTC",
+      "U8-RTDBG",
+      "U9-ESP",
+      "Y1-RTDBG",
+      "Y2-NFC"
+    ]
+  },
+  "kind_descriptions": {
+    "designator_style": "designator does not match EasyEDA's suggested letter+number form",
+    "empty_value": "component carries no Value property",
+    "floating_pins": "pins with neither a wire nor a No-Connect flag",
+    "multipart_property_mismatch": "parts of one multi-part component disagree on a property",
+    "net_name_not_displayed": "named wires with no netflag/netport \u2014 the name is not shown on the canvas",
+    "pad_without_pin": "footprint pads with no matching symbol pin",
+    "single_pin_net": "a named net EasyEDA resolved to exactly one component pin",
+    "start": "DRC run began",
+    "summary": "DRC run census \u2014 the external denominator for this parse",
+    "supplier_standardisation": "component attributes diverge from the supplier part record"
+  },
+  "reconciliation": {
+    "Error": {
+      "declared": 0,
+      "observed": 0
+    },
+    "Fatal Error": {
+      "declared": 0,
+      "observed": 0
+    },
+    "Info": {
+      "declared": 398,
+      "observed": 398
+    },
+    "Warn": {
+      "declared": 22,
+      "observed": 22
+    }
+  },
+  "schema_version": 1,
+  "stale_waivers": [],
+  "unclassified_messages": [],
+  "unparseable_lines": [],
+  "verdict": "RED",
+  "waived": [
+    {
+      "authority": "contracts/usb-interface.md \u2014 confirm before extending this waiver to any other USB connector",
+      "item": "J7-ESP.B8",
+      "kind": "floating_pins",
+      "reason": "USB-C SBU1/SBU2 on the ESP32-S3 service port are intentionally unconnected. This port carries USB 2.0 data and power for service and recovery only; no alternate mode, no debug accessory mode and no analogue audio accessory is supported on K1-CORE-VAL-R0, so SBU1/SBU2 have no defined function to route to."
+    },
+    {
+      "authority": "contracts/usb-interface.md \u2014 confirm before extending this waiver to any other USB connector",
+      "item": "J7-ESP.A8",
+      "kind": "floating_pins",
+      "reason": "USB-C SBU1/SBU2 on the ESP32-S3 service port are intentionally unconnected. This port carries USB 2.0 data and power for service and recovery only; no alternate mode, no debug accessory mode and no analogue audio accessory is supported on K1-CORE-VAL-R0, so SBU1/SBU2 have no defined function to route to."
+    }
+  ]
+}

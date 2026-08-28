@@ -1,0 +1,2520 @@
+{
+ "denominator": {
+  "frozen_hash": "489736:464c27d4",
+  "designators": 228,
+  "nets": 143,
+  "source": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/frozen-denominator-489736/source.txt",
+  "pin_readback": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/jobs/all-pins-nc-audit.results.json"
+ },
+ "method": {
+  "engine": "union-find over wire segments with T-junction (endpoint-on-segment) merging; pin anchors matched to wire geometry in the frame (x, -y_readback), verified at 629/782 = 80.4% exact endpoint hits",
+  "fault_battery": {
+   "control": "675 islands, 634 pins on copper, 0 multi-name bridges",
+   "fault1_inject_GND_to_3V3_bridge": "islands 675->674, bridges 0->1 (RED as required)",
+   "fault2_delete_wire_feeding_C1-PWR1.1": "pin_on_copper True->False (RED as required)",
+   "fault3_positive_control_delete_unrelated_wire": "victim pin still on copper (GREEN as required)"
+  }
+ },
+ "coverage": {
+  "scope_components": 42,
+  "scope_pins": 120,
+  "sheet_pins_readback": 782,
+  "sheet_pins_on_copper": 634,
+  "sheet_wires": 675,
+  "dangling_wires_no_pin": 43,
+  "readback_gaps": [
+   "U6-RTC (MIMXRT1062DVJ6B) is a TWO-PART symbol: COMPONENT records e3295 @ (2315,4440) and e3673 @ (2250,3930). The pin readback returned 98 pins for e3673 ONLY (bbox y 3820-4040). The ~20 dangling stubs at y 4200-4680 fall in e3295 territory and are UNVERIFIED, not defects. Any claim about RT1062 rail or signal completeness in that band is out of evidence."
+  ],
+  "verdict_census": {
+   "CONNECTED": 37,
+   "GND": 31,
+   "POWER": 41,
+   "INTENTIONAL_NC": 9,
+   "FLOATING_DEFECT": 2
+  }
+ },
+ "components": {
+  "C10-PWR2": {
+   "primitive_id": "e24607",
+   "value": "100nF",
+   "mpn": null,
+   "supplierId": "C71629",
+   "supplier_part": "",
+   "xy": [
+    1020,
+    4295
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1000,
+      4295
+     ],
+     "net": "BUCK_SS",
+     "wires": [
+      "e145984"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net BUCK_SS."
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1040,
+      4295
+     ],
+     "net": "GND",
+     "wires": [
+      "e2870"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    }
+   ]
+  },
+  "C11-PWR2": {
+   "primitive_id": "e2268",
+   "value": "22uF",
+   "mpn": null,
+   "supplierId": "GRM21BR61E226ME44L.1",
+   "supplier_part": "GRM21BR61E226ME44L.1",
+   "xy": [
+    1075,
+    4000
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1060,
+      4000
+     ],
+     "net": "5V_LED_COMMON",
+     "wires": [
+      "e2951"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 5V_LED_COMMON."
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1090,
+      4000
+     ],
+     "net": "GND",
+     "wires": [
+      "e2948"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    }
+   ]
+  },
+  "C12-PWR2": {
+   "primitive_id": "e2304",
+   "value": "22uF",
+   "mpn": null,
+   "supplierId": "GRM21BR61E226ME44L.1",
+   "supplier_part": "GRM21BR61E226ME44L.1",
+   "xy": [
+    1255,
+    4000
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1240,
+      4000
+     ],
+     "net": "+5V_LED_L",
+     "wires": [
+      "e2957"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail +5V_LED_L."
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1270,
+      4000
+     ],
+     "net": "GND",
+     "wires": [
+      "e2954"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    }
+   ]
+  },
+  "C13-PWR2": {
+   "primitive_id": "e2340",
+   "value": "22uF",
+   "mpn": null,
+   "supplierId": "GRM21BR61E226ME44L.1",
+   "supplier_part": "GRM21BR61E226ME44L.1",
+   "xy": [
+    1435,
+    4010
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1420,
+      4010
+     ],
+     "net": "+5V_LED_R",
+     "wires": [
+      "e2963"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail +5V_LED_R."
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1450,
+      4010
+     ],
+     "net": "GND",
+     "wires": [
+      "e2960"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    }
+   ]
+  },
+  "C14-PWR2": {
+   "primitive_id": "e2549",
+   "value": "100nF",
+   "mpn": null,
+   "supplierId": "GRM155R71C104KA88D.1",
+   "supplier_part": "GRM155R71C104KA88D.1",
+   "xy": [
+    1075,
+    3720
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1055,
+      3720
+     ],
+     "net": "5V_SYS",
+     "wires": [
+      "e3002"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 5V_SYS."
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1095,
+      3720
+     ],
+     "net": "GND",
+     "wires": [
+      "e2999"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    }
+   ]
+  },
+  "C15-PWR2": {
+   "primitive_id": "e2585",
+   "value": "10uF",
+   "mpn": null,
+   "supplierId": "GRM155R60J106ME44D.1",
+   "supplier_part": "GRM155R60J106ME44D.1",
+   "xy": [
+    1265,
+    3720
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1250,
+      3720
+     ],
+     "net": "3V3_MIC",
+     "wires": [
+      "e3008"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 3V3_MIC."
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1280,
+      3720
+     ],
+     "net": "GND",
+     "wires": [
+      "e3005"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    }
+   ]
+  },
+  "C16-PWR2": {
+   "primitive_id": "e2621",
+   "value": "22uF",
+   "mpn": null,
+   "supplierId": "GRM21BR61E226ME44L.1",
+   "supplier_part": "GRM21BR61E226ME44L.1",
+   "xy": [
+    1435,
+    3720
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1420,
+      3720
+     ],
+     "net": "NFC_5V",
+     "wires": [
+      "e3014"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail NFC_5V."
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1450,
+      3720
+     ],
+     "net": "GND",
+     "wires": [
+      "e3011"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    }
+   ]
+  },
+  "C17-PWR2": {
+   "primitive_id": "e2657",
+   "value": "100nF",
+   "mpn": null,
+   "supplierId": "GRM155R71C104KA88D.1",
+   "supplier_part": "GRM155R71C104KA88D.1",
+   "xy": [
+    1615,
+    3720
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1595,
+      3720
+     ],
+     "net": "NFC_5V",
+     "wires": [
+      "e3020"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail NFC_5V."
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1635,
+      3720
+     ],
+     "net": "GND",
+     "wires": [
+      "e3017"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    }
+   ]
+  },
+  "C5-PWR2": {
+   "primitive_id": "e1870",
+   "value": "22uF",
+   "mpn": null,
+   "supplierId": "GRM21BR61E226ME44L.1",
+   "supplier_part": "GRM21BR61E226ME44L.1",
+   "xy": [
+    1255,
+    4300
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1240,
+      4300
+     ],
+     "net": "5V_SYS",
+     "wires": [
+      "e2879"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 5V_SYS."
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1270,
+      4300
+     ],
+     "net": "GND",
+     "wires": [
+      "e2876"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    }
+   ]
+  },
+  "C6-PWR2": {
+   "primitive_id": "e1906",
+   "value": "47uF",
+   "mpn": null,
+   "supplierId": "GRM21BR61A476ME15L.1",
+   "supplier_part": "GRM21BR61A476ME15L.1",
+   "xy": [
+    1435,
+    4300
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1435,
+      4280
+     ],
+     "net": "3V3",
+     "wires": [
+      "e2885"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 3V3."
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1435,
+      4320
+     ],
+     "net": "GND",
+     "wires": [
+      "e2882"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    }
+   ]
+  },
+  "C68-PWR2": {
+   "primitive_id": "e38545",
+   "value": "2.2nF",
+   "mpn": null,
+   "supplierId": "C77022",
+   "supplier_part": "",
+   "xy": [
+    1615,
+    3900
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1600,
+      3900
+     ],
+     "net": "LED_EFUSE_DVDT",
+     "wires": [
+      "e38595"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net LED_EFUSE_DVDT."
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1630,
+      3900
+     ],
+     "net": "GND",
+     "wires": [
+      "e38597"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    }
+   ]
+  },
+  "C7-PWR2": {
+   "primitive_id": "e1942",
+   "value": "47uF",
+   "mpn": null,
+   "supplierId": "GRM21BR61A476ME15L.1",
+   "supplier_part": "GRM21BR61A476ME15L.1",
+   "xy": [
+    1615,
+    4300
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1615,
+      4280
+     ],
+     "net": "3V3",
+     "wires": [
+      "e2891"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 3V3."
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1615,
+      4320
+     ],
+     "net": "GND",
+     "wires": [
+      "e2888"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    }
+   ]
+  },
+  "C8-PWR2": {
+   "primitive_id": "e1978",
+   "value": "100nF",
+   "mpn": null,
+   "supplierId": "GRM155R71C104KA88D.1",
+   "supplier_part": "GRM155R71C104KA88D.1",
+   "xy": [
+    1795,
+    4300
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1775,
+      4300
+     ],
+     "net": "3V3",
+     "wires": [
+      "e2897"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 3V3."
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1815,
+      4300
+     ],
+     "net": "GND",
+     "wires": [
+      "e2894"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    }
+   ]
+  },
+  "C9-PWR2": {
+   "primitive_id": "e2014",
+   "value": "100pF",
+   "mpn": null,
+   "supplierId": "GRM1555C1H101JA01D.1",
+   "supplier_part": "GRM1555C1H101JA01D.1",
+   "xy": [
+    1075,
+    4410
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1060,
+      4410
+     ],
+     "net": "3V3",
+     "wires": [
+      "e2900"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 3V3."
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1090,
+      4410
+     ],
+     "net": "BUCK_FB",
+     "wires": [
+      "e2903"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net BUCK_FB."
+    }
+   ]
+  },
+  "FB1-PWR2": {
+   "primitive_id": "e2376",
+   "value": "220ohm@100MHz",
+   "mpn": null,
+   "supplierId": "BLM21PG221SN1D.1",
+   "supplier_part": "BLM21PG221SN1D.1",
+   "xy": [
+    1125,
+    4145
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1145,
+      4145
+     ],
+     "net": "+5V_LED_L",
+     "wires": [
+      "e2969"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail +5V_LED_L."
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1105,
+      4145
+     ],
+     "net": "5V_LED_COMMON",
+     "wires": [
+      "e2966"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 5V_LED_COMMON."
+    }
+   ]
+  },
+  "FB2-PWR2": {
+   "primitive_id": "e2414",
+   "value": "220ohm@100MHz",
+   "mpn": null,
+   "supplierId": "BLM21PG221SN1D.1",
+   "supplier_part": "BLM21PG221SN1D.1",
+   "xy": [
+    1305,
+    4145
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1325,
+      4145
+     ],
+     "net": "+5V_LED_R",
+     "wires": [
+      "e2975"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail +5V_LED_R."
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1285,
+      4145
+     ],
+     "net": "5V_LED_COMMON",
+     "wires": [
+      "e2972"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 5V_LED_COMMON."
+    }
+   ]
+  },
+  "FB3-PWR2": {
+   "primitive_id": "e2693",
+   "value": "220ohm@100MHz",
+   "mpn": null,
+   "supplierId": "BLM21PG221SN1D.1",
+   "supplier_part": "BLM21PG221SN1D.1",
+   "xy": [
+    1615,
+    3780
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1635,
+      3780
+     ],
+     "net": "NFC_5V",
+     "wires": [
+      "e3026"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail NFC_5V."
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1595,
+      3780
+     ],
+     "net": "5V_SYS",
+     "wires": [
+      "e3023"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 5V_SYS."
+    }
+   ]
+  },
+  "FB5-AUD": {
+   "primitive_id": "e12510",
+   "value": "220ohm@100MHz",
+   "mpn": null,
+   "supplierId": "BLM15AG221SN1D.1",
+   "supplier_part": "BLM15AG221SN1D.1",
+   "xy": [
+    250,
+    2535
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      270,
+      2535
+     ],
+     "net": "3V3_MIC_FLEX",
+     "wires": [
+      "e12995"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 3V3_MIC_FLEX."
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      230,
+      2535
+     ],
+     "net": "3V3_MIC",
+     "wires": [
+      "e12992"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 3V3_MIC."
+    }
+   ]
+  },
+  "L1-PWR2": {
+   "primitive_id": "e24569",
+   "value": "2.2uH",
+   "mpn": null,
+   "supplierId": "C6616463",
+   "supplier_part": "",
+   "xy": [
+    1220,
+    4405
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1240,
+      4405
+     ],
+     "net": "3V3",
+     "wires": [
+      "e2906"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 3V3."
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1200,
+      4405
+     ],
+     "net": "BUCK_SW",
+     "wires": [
+      "e2909"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net BUCK_SW."
+    }
+   ]
+  },
+  "Q1-PWR2": {
+   "primitive_id": "e2731",
+   "value": "P-FET",
+   "mpn": null,
+   "supplierId": "DMG2305UX.1",
+   "supplier_part": "DMG2305UX.1",
+   "xy": [
+    1795,
+    3780
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "S",
+     "xy_abs": [
+      1795,
+      3760
+     ],
+     "net": "3V3_MIC_REG",
+     "wires": [
+      "e3029"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 3V3_MIC_REG."
+    },
+    {
+     "pin": "1",
+     "name": "G",
+     "xy_abs": [
+      1775,
+      3780
+     ],
+     "net": "MIC_PWR_EN",
+     "wires": [
+      "e3035"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net MIC_PWR_EN."
+    },
+    {
+     "pin": "3",
+     "name": "D",
+     "xy_abs": [
+      1795,
+      3800
+     ],
+     "net": "3V3_MIC",
+     "wires": [
+      "e3032"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 3V3_MIC."
+    }
+   ]
+  },
+  "Q2-VAL": {
+   "primitive_id": "e15288",
+   "value": "N-FET",
+   "mpn": null,
+   "supplierId": "2N7002_C414014.1",
+   "supplier_part": "2N7002_C414014.1",
+   "xy": [
+    4350,
+    2525
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "S",
+     "xy_abs": [
+      4350,
+      2505
+     ],
+     "net": "GND",
+     "wires": [
+      "e15643"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    },
+    {
+     "pin": "1",
+     "name": "G",
+     "xy_abs": [
+      4330,
+      2525
+     ],
+     "net": "S3_POR_GATE",
+     "wires": [
+      "e15646"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net S3_POR_GATE."
+    },
+    {
+     "pin": "3",
+     "name": "D",
+     "xy_abs": [
+      4350,
+      2545
+     ],
+     "net": "S3_POR_OD",
+     "wires": [
+      "e15649"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net S3_POR_OD."
+    }
+   ]
+  },
+  "R5-PWR2": {
+   "primitive_id": "e2082",
+   "value": "100k",
+   "mpn": null,
+   "supplierId": "RC0402FR-07100KL.1",
+   "supplier_part": "RC0402FR-07100KL.1",
+   "xy": [
+    1400,
+    4405
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1420,
+      4405
+     ],
+     "net": "BUCK_FB",
+     "wires": [
+      "e2915"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net BUCK_FB."
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1380,
+      4405
+     ],
+     "net": "3V3",
+     "wires": [
+      "e2912"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 3V3."
+    }
+   ]
+  },
+  "R51-LED": {
+   "primitive_id": "e14470",
+   "value": "33R",
+   "mpn": null,
+   "supplierId": "RC0402FR-0733RL.1",
+   "supplier_part": "RC0402FR-0733RL.1",
+   "xy": [
+    3815,
+    2812
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      3835,
+      2812
+     ],
+     "net": "LED_D0_J",
+     "wires": [
+      "e14961"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net LED_D0_J."
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      3795,
+      2812
+     ],
+     "net": "LED_D0_5V",
+     "wires": [
+      "e14958"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net LED_D0_5V."
+    }
+   ]
+  },
+  "R52-LED": {
+   "primitive_id": "e14509",
+   "value": "33R",
+   "mpn": null,
+   "supplierId": "RC0402FR-0733RL.1",
+   "supplier_part": "RC0402FR-0733RL.1",
+   "xy": [
+    3095,
+    3098
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      3115,
+      3098
+     ],
+     "net": "LED_D1_J",
+     "wires": [
+      "e14967"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net LED_D1_J."
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      3075,
+      3098
+     ],
+     "net": "LED_D1_5V",
+     "wires": [
+      "e14964"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net LED_D1_5V."
+    }
+   ]
+  },
+  "R53-LED": {
+   "primitive_id": "e14548",
+   "value": "10k",
+   "mpn": null,
+   "supplierId": "RC0402FR-0710KL.1",
+   "supplier_part": "RC0402FR-0710KL.1",
+   "xy": [
+    3335,
+    3098
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      3355,
+      3098
+     ],
+     "net": "GND",
+     "wires": [
+      "e14970"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      3315,
+      3098
+     ],
+     "net": "LED_OE_L",
+     "wires": [
+      "e14973"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net LED_OE_L."
+    }
+   ]
+  },
+  "R54-LED": {
+   "primitive_id": "e14587",
+   "value": "10k",
+   "mpn": null,
+   "supplierId": "RC0402FR-0710KL.1",
+   "supplier_part": "RC0402FR-0710KL.1",
+   "xy": [
+    3575,
+    3098
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      3595,
+      3098
+     ],
+     "net": "GND",
+     "wires": [
+      "e14976"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      3555,
+      3098
+     ],
+     "net": "LED_OE_R",
+     "wires": [
+      "e14979"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net LED_OE_R."
+    }
+   ]
+  },
+  "R6-PWR2": {
+   "primitive_id": "e2121",
+   "value": "32.4k",
+   "mpn": null,
+   "supplierId": "RC0402FR-0732K4L.1",
+   "supplier_part": "RC0402FR-0732K4L.1",
+   "xy": [
+    1580,
+    4405
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1600,
+      4405
+     ],
+     "net": "GND",
+     "wires": [
+      "e2918"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1560,
+      4405
+     ],
+     "net": "BUCK_FB",
+     "wires": [
+      "e2921"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net BUCK_FB."
+    }
+   ]
+  },
+  "R7-PWR2": {
+   "primitive_id": "e2160",
+   "value": "100k",
+   "mpn": null,
+   "supplierId": "RC0402FR-07100KL.1",
+   "supplier_part": "RC0402FR-07100KL.1",
+   "xy": [
+    1760,
+    4405
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1780,
+      4405
+     ],
+     "net": "BUCK_EN",
+     "wires": [
+      "e2927"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net BUCK_EN."
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1740,
+      4405
+     ],
+     "net": "5V_SYS",
+     "wires": [
+      "e2924"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 5V_SYS."
+    }
+   ]
+  },
+  "R75-PWR2": {
+   "primitive_id": "e146277",
+   "value": "10k",
+   "mpn": null,
+   "supplierId": "C60490",
+   "supplier_part": "",
+   "xy": [
+    1030,
+    4480
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1050,
+      4480
+     ],
+     "net": "3V3",
+     "wires": [
+      "e146320"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 3V3."
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1010,
+      4480
+     ],
+     "net": "BUCK_PG",
+     "wires": [
+      "e146317"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net BUCK_PG."
+    }
+   ]
+  },
+  "R8-PWR2": {
+   "primitive_id": "e2452",
+   "value": "3.48k",
+   "mpn": "RC0402FR-073K48L",
+   "supplierId": "RC0402FR-0710KL.1",
+   "supplier_part": "C185418",
+   "xy": [
+    1480,
+    4145
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1500,
+      4145
+     ],
+     "net": "GND",
+     "wires": [
+      "e38593"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1460,
+      4145
+     ],
+     "net": "LED_EFUSE_ILIM",
+     "wires": [
+      "e38591"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net LED_EFUSE_ILIM."
+    }
+   ]
+  },
+  "R9-PWR2": {
+   "primitive_id": "e2776",
+   "value": "100k",
+   "mpn": null,
+   "supplierId": "RC0402FR-07100KL.1",
+   "supplier_part": "RC0402FR-07100KL.1",
+   "xy": [
+    1075,
+    3840
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      1095,
+      3840
+     ],
+     "net": "GND",
+     "wires": [
+      "e3038"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      1055,
+      3840
+     ],
+     "net": "MIC_PWR_EN",
+     "wires": [
+      "e3041"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net MIC_PWR_EN."
+    }
+   ]
+  },
+  "RT1-LED": {
+   "primitive_id": "e14626",
+   "value": "10k-NTC",
+   "mpn": null,
+   "supplierId": "NCP15XH103F03RC.1",
+   "supplier_part": "NCP15XH103F03RC.1",
+   "xy": [
+    3815,
+    3098
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      3835,
+      3098
+     ],
+     "net": "GND",
+     "wires": [
+      "e14982"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      3795,
+      3098
+     ],
+     "net": "LED_THERM_L",
+     "wires": [
+      "e14985"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net LED_THERM_L."
+    }
+   ]
+  },
+  "RT2-LED": {
+   "primitive_id": "e14671",
+   "value": "10k-NTC",
+   "mpn": null,
+   "supplierId": "NCP15XH103F03RC.1",
+   "supplier_part": "NCP15XH103F03RC.1",
+   "xy": [
+    3115,
+    3390
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      3135,
+      3390
+     ],
+     "net": "GND",
+     "wires": [
+      "e14988"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    },
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      3095,
+      3390
+     ],
+     "net": "LED_THERM_R",
+     "wires": [
+      "e14991"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net LED_THERM_R."
+    }
+   ]
+  },
+  "SW4-VAL": {
+   "primitive_id": "e15488",
+   "value": "SDL",
+   "mpn": null,
+   "supplierId": "PTS645SM43SMTR92LFS.1",
+   "supplier_part": "PTS645SM43SMTR92LFS.1",
+   "xy": [
+    4590,
+    2930
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      4560,
+      2945
+     ],
+     "net": "SDL_SW",
+     "wires": [
+      "e15679"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net SDL_SW."
+    },
+    {
+     "pin": "2",
+     "name": "2",
+     "xy_abs": [
+      4620,
+      2945
+     ],
+     "net": "GND",
+     "wires": [
+      "e15676"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    },
+    {
+     "pin": "3",
+     "name": "3",
+     "xy_abs": [
+      4560,
+      2905
+     ],
+     "net": null,
+     "wires": [],
+     "verdict": "INTENTIONAL_NC",
+     "basis": "PTS645SM43SMTR92LFS 4-terminal tactile switch: pins 3/4 are the opposite ends of the same two internally-bonded contacts already used at pins 1/2. Single-side use is normal."
+    },
+    {
+     "pin": "4",
+     "name": "4",
+     "xy_abs": [
+      4620,
+      2905
+     ],
+     "net": null,
+     "wires": [],
+     "verdict": "INTENTIONAL_NC",
+     "basis": "PTS645SM43SMTR92LFS: see pin 3."
+    }
+   ]
+  },
+  "TP6-VAL": {
+   "primitive_id": "e15223",
+   "value": "TP",
+   "mpn": "5001",
+   "supplierId": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+   "supplier_part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+   "xy": [
+    4350,
+    3390
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "1",
+     "xy_abs": [
+      4330,
+      3390
+     ],
+     "net": "3V3",
+     "wires": [
+      "e15691"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 3V3."
+    }
+   ]
+  },
+  "U14-LED": {
+   "primitive_id": "e14716",
+   "value": "74AHCT",
+   "mpn": null,
+   "supplierId": "SN74AHCT1G125DBVR.1",
+   "supplier_part": "SN74AHCT1G125DBVR.1",
+   "xy": [
+    3335,
+    3385
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "OE#",
+     "xy_abs": [
+      3300,
+      3395
+     ],
+     "net": "LED_OE_L",
+     "wires": [
+      "e15006"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net LED_OE_L."
+    },
+    {
+     "pin": "2",
+     "name": "A",
+     "xy_abs": [
+      3300,
+      3385
+     ],
+     "net": "LED_D0_3V3",
+     "wires": [
+      "e15000"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net LED_D0_3V3."
+    },
+    {
+     "pin": "3",
+     "name": "GND",
+     "xy_abs": [
+      3300,
+      3375
+     ],
+     "net": "GND",
+     "wires": [
+      "e14994"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    },
+    {
+     "pin": "4",
+     "name": "Y",
+     "xy_abs": [
+      3370,
+      3375
+     ],
+     "net": "LED_D0_5V",
+     "wires": [
+      "e15003"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net LED_D0_5V."
+    },
+    {
+     "pin": "5",
+     "name": "VCC",
+     "xy_abs": [
+      3370,
+      3395
+     ],
+     "net": "+5V_LED_L",
+     "wires": [
+      "e14997"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail +5V_LED_L."
+    }
+   ]
+  },
+  "U15-LED": {
+   "primitive_id": "e14770",
+   "value": "74AHCT",
+   "mpn": null,
+   "supplierId": "SN74AHCT1G125DBVR.1",
+   "supplier_part": "SN74AHCT1G125DBVR.1",
+   "xy": [
+    3600,
+    3390
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "OE#",
+     "xy_abs": [
+      3565,
+      3400
+     ],
+     "net": "LED_OE_R",
+     "wires": [
+      "e15021"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net LED_OE_R."
+    },
+    {
+     "pin": "2",
+     "name": "A",
+     "xy_abs": [
+      3565,
+      3390
+     ],
+     "net": "LED_D1_3V3",
+     "wires": [
+      "e15015"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net LED_D1_3V3."
+    },
+    {
+     "pin": "3",
+     "name": "GND",
+     "xy_abs": [
+      3565,
+      3380
+     ],
+     "net": "GND",
+     "wires": [
+      "e15009"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    },
+    {
+     "pin": "4",
+     "name": "Y",
+     "xy_abs": [
+      3635,
+      3380
+     ],
+     "net": "LED_D1_5V",
+     "wires": [
+      "e15018"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net LED_D1_5V."
+    },
+    {
+     "pin": "5",
+     "name": "VCC",
+     "xy_abs": [
+      3635,
+      3400
+     ],
+     "net": "+5V_LED_R",
+     "wires": [
+      "e15012"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail +5V_LED_R."
+    }
+   ]
+  },
+  "U16-VAL": {
+   "primitive_id": "e15539",
+   "value": "PGOOD",
+   "mpn": null,
+   "supplierId": "TPS3808G33DBVR.1",
+   "supplier_part": "TPS3808G33DBVR.1",
+   "xy": [
+    4830,
+    2940
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "RESET#",
+     "xy_abs": [
+      4775,
+      2950
+     ],
+     "net": "RT_PWR_VALID",
+     "wires": [
+      "e15688"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net RT_PWR_VALID."
+    },
+    {
+     "pin": "2",
+     "name": "GND",
+     "xy_abs": [
+      4775,
+      2940
+     ],
+     "net": "GND",
+     "wires": [
+      "e15682"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    },
+    {
+     "pin": "3",
+     "name": "MR#",
+     "xy_abs": [
+      4775,
+      2930
+     ],
+     "net": null,
+     "wires": [],
+     "verdict": "INTENTIONAL_NC",
+     "basis": "TI SBVS050M Table 6-1: \"MR is internally tied to VDD by a 90-kOhm pull-up resistor.\" Open = not asserting reset."
+    },
+    {
+     "pin": "4",
+     "name": "CT",
+     "xy_abs": [
+      4885,
+      2930
+     ],
+     "net": null,
+     "wires": [],
+     "verdict": "INTENTIONAL_NC",
+     "basis": "TI SBVS050M Table 6-1 CT: open results in fixed delay time."
+    },
+    {
+     "pin": "5",
+     "name": "SENSE",
+     "xy_abs": [
+      4885,
+      2940
+     ],
+     "net": null,
+     "wires": [],
+     "verdict": "FLOATING_DEFECT",
+     "basis": "TI SBVS050M Table 6-1 SENSE: \"This pin is connected to the voltage to be monitored. If the voltage at this terminal drops below the threshold voltage VIT, then RESET is asserted.\" Floating on the FIXED (G33) version too - the fixed threshold only moves the divider inside the part, it does not remove the requirement to connect SENSE to the monitored rail. Violates contracts/debug-fabric.md D13.1. DEFECT PWR2-002."
+    },
+    {
+     "pin": "6",
+     "name": "VDD",
+     "xy_abs": [
+      4885,
+      2950
+     ],
+     "net": "3V3",
+     "wires": [
+      "e15685"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 3V3."
+    }
+   ]
+  },
+  "U3-PWR2": {
+   "primitive_id": "e2199",
+   "value": "TPS62913",
+   "mpn": null,
+   "supplierId": "TPS62913RPUR.1",
+   "supplier_part": "TPS62913RPUR.1",
+   "xy": [
+    1200,
+    4555
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "EN/SYNC",
+     "xy_abs": [
+      1140,
+      4575
+     ],
+     "net": "BUCK_EN",
+     "wires": [
+      "e2942"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net BUCK_EN."
+    },
+    {
+     "pin": "2",
+     "name": "SW",
+     "xy_abs": [
+      1140,
+      4565
+     ],
+     "net": "BUCK_SW",
+     "wires": [
+      "e2936"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net BUCK_SW."
+    },
+    {
+     "pin": "3",
+     "name": "VO",
+     "xy_abs": [
+      1140,
+      4555
+     ],
+     "net": "3V3",
+     "wires": [
+      "e24643"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 3V3."
+    },
+    {
+     "pin": "4",
+     "name": "PGND",
+     "xy_abs": [
+      1140,
+      4545
+     ],
+     "net": "GND",
+     "wires": [
+      "e2930"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    },
+    {
+     "pin": "5",
+     "name": "PG",
+     "xy_abs": [
+      1140,
+      4535
+     ],
+     "net": null,
+     "wires": [],
+     "verdict": "FLOATING_DEFECT",
+     "basis": "TI SLUSEA4/SLVSFP4B Table 5-1 pin 5 PG: \"Open-drain power-good output ... requires a pullup resistor\". D-045 states K1-CORE-VAL USES PG and it must not be tied off. Pin touches no wire; the BUCK_PG stub e146347 is mirrored to negative y, 6969 units away. DEFECT PWR2-001."
+    },
+    {
+     "pin": "6",
+     "name": "VIN",
+     "xy_abs": [
+      1260,
+      4535
+     ],
+     "net": "5V_SYS",
+     "wires": [
+      "e2933"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 5V_SYS."
+    },
+    {
+     "pin": "7",
+     "name": "PSNS",
+     "xy_abs": [
+      1260,
+      4545
+     ],
+     "net": "GND",
+     "wires": [
+      "e24645"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    },
+    {
+     "pin": "8",
+     "name": "NR/SS",
+     "xy_abs": [
+      1260,
+      4555
+     ],
+     "net": "BUCK_SS",
+     "wires": [
+      "e2945"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net BUCK_SS."
+    },
+    {
+     "pin": "9",
+     "name": "FB",
+     "xy_abs": [
+      1260,
+      4565
+     ],
+     "net": "BUCK_FB",
+     "wires": [
+      "e2939"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net BUCK_FB."
+    },
+    {
+     "pin": "10",
+     "name": "S-CONF",
+     "xy_abs": [
+      1260,
+      4575
+     ],
+     "net": "5V_SYS",
+     "wires": [
+      "e24647"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 5V_SYS."
+    }
+   ]
+  },
+  "U4-PWR2": {
+   "primitive_id": "e2491",
+   "value": "eFuse",
+   "mpn": "TPS259474L",
+   "supplierId": "TPS259474LRPWR.1",
+   "supplier_part": "TPS259474LRPWR.1",
+   "xy": [
+    1700,
+    4095
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "EN/UVLO",
+     "xy_abs": [
+      1615,
+      4095
+     ],
+     "net": "5V_SYS",
+     "wires": [
+      "e38581"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 5V_SYS."
+    },
+    {
+     "pin": "2",
+     "name": "OVLO/OVCSEL",
+     "xy_abs": [
+      1615,
+      4075
+     ],
+     "net": "GND",
+     "wires": [
+      "e38583"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    },
+    {
+     "pin": "3",
+     "name": "PG/AUXOFF",
+     "xy_abs": [
+      1790,
+      4075
+     ],
+     "net": null,
+     "wires": [],
+     "verdict": "INTENTIONAL_NC",
+     "basis": "TI SLVSFC9C sec 6.5 Electrical Characteristics test conditions: \"PG = Open for TPS259472x/4x\". Open-drain output, unused. Acceptable; see FINDING PWR2-008 for the telemetry opportunity."
+    },
+    {
+     "pin": "4",
+     "name": "PGTH/FLT#",
+     "xy_abs": [
+      1790,
+      4095
+     ],
+     "net": null,
+     "wires": [],
+     "verdict": "INTENTIONAL_NC",
+     "basis": "TI SLVSFC9C sec 6.5 test conditions: \"PGTH = Open for TPS259472x/4x\". Analog PG-threshold input, unused because PG is unused."
+    },
+    {
+     "pin": "5",
+     "name": "IN",
+     "xy_abs": [
+      1615,
+      4115
+     ],
+     "net": "5V_SYS",
+     "wires": [
+      "e2987"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 5V_SYS."
+    },
+    {
+     "pin": "6",
+     "name": "OUT",
+     "xy_abs": [
+      1790,
+      4115
+     ],
+     "net": "5V_LED_COMMON",
+     "wires": [
+      "e2990"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 5V_LED_COMMON."
+    },
+    {
+     "pin": "7",
+     "name": "DVDT",
+     "xy_abs": [
+      1685,
+      4040
+     ],
+     "net": "LED_EFUSE_DVDT",
+     "wires": [
+      "e38585"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net LED_EFUSE_DVDT."
+    },
+    {
+     "pin": "8",
+     "name": "GND",
+     "xy_abs": [
+      1725,
+      4040
+     ],
+     "net": "GND",
+     "wires": [
+      "e38587"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    },
+    {
+     "pin": "9",
+     "name": "ILM",
+     "xy_abs": [
+      1765,
+      4040
+     ],
+     "net": "LED_EFUSE_ILIM",
+     "wires": [
+      "e38589"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net LED_EFUSE_ILIM."
+    },
+    {
+     "pin": "10",
+     "name": "ITIMER",
+     "xy_abs": [
+      1650,
+      4040
+     ],
+     "net": null,
+     "wires": [],
+     "verdict": "INTENTIONAL_NC",
+     "basis": "TI SLVSFC9C Table 5-1 pin 10 ITIMER: \"Leave this pin open for fastest response to overcurrent events.\" Deliberate fastest-trip choice."
+    }
+   ]
+  },
+  "U5-PWR2": {
+   "primitive_id": "e2815",
+   "value": "3V3-LDO",
+   "mpn": null,
+   "supplierId": "TLV75533PDBVR.1",
+   "supplier_part": "TLV75533PDBVR.1",
+   "xy": [
+    1255,
+    3840
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "IN",
+     "xy_abs": [
+      1220,
+      3850
+     ],
+     "net": "5V_SYS",
+     "wires": [
+      "e3047"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 5V_SYS."
+    },
+    {
+     "pin": "2",
+     "name": "GND",
+     "xy_abs": [
+      1220,
+      3840
+     ],
+     "net": "GND",
+     "wires": [
+      "e3044"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    },
+    {
+     "pin": "3",
+     "name": "EN",
+     "xy_abs": [
+      1220,
+      3830
+     ],
+     "net": "5V_SYS",
+     "wires": [
+      "e3053"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 5V_SYS."
+    },
+    {
+     "pin": "4",
+     "name": "NC",
+     "xy_abs": [
+      1290,
+      3830
+     ],
+     "net": null,
+     "wires": [],
+     "verdict": "INTENTIONAL_NC",
+     "basis": "TLV755P (SBVS320D) pin 4 on DBV is a no-internal-connection pin."
+    },
+    {
+     "pin": "5",
+     "name": "OUT",
+     "xy_abs": [
+      1290,
+      3850
+     ],
+     "net": "3V3_MIC_REG",
+     "wires": [
+      "e3050"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 3V3_MIC_REG."
+    }
+   ]
+  },
+  "U7-RTC": {
+   "primitive_id": "e3619",
+   "value": "RESET",
+   "mpn": null,
+   "supplierId": "TPS3808G33DBVR.1",
+   "supplier_part": "TPS3808G33DBVR.1",
+   "xy": [
+    3185,
+    4310
+   ],
+   "rot": 0,
+   "pins": [
+    {
+     "pin": "1",
+     "name": "RESET#",
+     "xy_abs": [
+      3130,
+      4320
+     ],
+     "net": "POR_B",
+     "wires": [
+      "e57541"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net POR_B."
+    },
+    {
+     "pin": "2",
+     "name": "GND",
+     "xy_abs": [
+      3130,
+      4310
+     ],
+     "net": "GND",
+     "wires": [
+      "e57543"
+     ],
+     "verdict": "GND",
+     "basis": "Wired to GND."
+    },
+    {
+     "pin": "3",
+     "name": "MR#",
+     "xy_abs": [
+      3130,
+      4300
+     ],
+     "net": "RT_RESET_REQ_N",
+     "wires": [
+      "e66889"
+     ],
+     "verdict": "CONNECTED",
+     "basis": "Wired to net RT_RESET_REQ_N."
+    },
+    {
+     "pin": "4",
+     "name": "CT",
+     "xy_abs": [
+      3240,
+      4300
+     ],
+     "net": null,
+     "wires": [],
+     "verdict": "INTENTIONAL_NC",
+     "basis": "TI SBVS050M Table 6-1 pin CT: \"Connecting this pin to VDD through a 40-kOhm to 200-kOhm resistor OR LEAVING IT OPEN results in fixed delay times.\" Open selects the fixed default delay."
+    },
+    {
+     "pin": "5",
+     "name": "SENSE",
+     "xy_abs": [
+      3240,
+      4310
+     ],
+     "net": "3V3",
+     "wires": [
+      "e57547"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 3V3."
+    },
+    {
+     "pin": "6",
+     "name": "VDD",
+     "xy_abs": [
+      3240,
+      4320
+     ],
+     "net": "3V3",
+     "wires": [
+      "e57549"
+     ],
+     "verdict": "POWER",
+     "basis": "Wired to power rail 3V3."
+    }
+   ]
+  }
+ },
+ "findings": [
+  {
+   "id": "PWR2-001",
+   "severity": "P0",
+   "title": "TPS62913 PG pin is not connected; the BUCK_PG wire is mirrored off-sheet to negative y",
+   "verdict": "D-045 is NOT satisfied on the pin. The ledger records the transaction as landed; the geometry says otherwise.",
+   "evidence": [
+    "U3-PWR2 pin 5 (PG) at abs (1140,4535) touches zero wires. Readback complete: 10 of 10 pins returned, ok=true.",
+    "Net BUCK_PG has 2 wires. e146317 = [[990,4480],[1010,4480]] correctly lands on R75-PWR2 pin 1. e146347 = [[1000,-4535,1130,-4535],[1000,-4480,1000,-4535]] lands on nothing.",
+    "e146347 is the ONLY wire on the entire 675-wire sheet with a negative y coordinate. Its nearest pin of any kind is 6969 units away; every other dangling stub on the sheet is within 452 units.",
+    "Both faults are present: the y sign is inverted (-4535/-4480 instead of +4535/+4480) AND the horizontal run ends at x=1130 where U3 left-column pins anchor at x=1140 (confirmed by pins 1,2,3,4 whose wires all terminate exactly at x=1140)."
+   ],
+   "basis": "TI SLVSFP4B Table 5-1 pin 5: 'Open-drain power-good output... It requires a pullup resistor to output a logic high.' architecture/POWER-ARCHITECTURE.md D-045: PG 'must not be tied off as no-connect'.",
+   "bounded_repair": "Replace e146347 with [[1000,4535,1140,4535],[1000,4480,1000,4535]] (y sign corrected, x extended 1130->1140). Single wire edit, no component moves. Re-read U3-PWR2 pin 5 and require net=BUCK_PG plus a 2-pin BUCK_PG island."
+  },
+  {
+   "id": "PWR2-002",
+   "severity": "P0-H",
+   "title": "RT_PWR_VALID is decorative: the supervisor senses nothing and nothing consumes its output",
+   "verdict": "contracts/debug-fabric.md D13.1 is NOT satisfied. This is the predicted P0-H and it is worse than predicted - both ends are broken.",
+   "evidence": [
+    "U16-VAL (TPS3808G33DBVR) pin 5 SENSE touches zero wires. Readback complete: 6 of 6 pins returned.",
+    "U16-VAL connected pins are only: 1 RESET#->RT_PWR_VALID, 2 GND, 6 VDD->3V3. It monitors nothing.",
+    "Net RT_PWR_VALID has 3 wires but only 2 pins: R62-VAL.2 (10k pull-up to 3V3, correct per SBVS050M) and U16-VAL.1. The third wire e8950 = [[4170,4345],[4040,4345]] is dangling 5.0 units from U9-ESP pin 9 - the intended ESP32-S3 consumer.",
+    "Even with SENSE tied to 3V3 (as U7-RTC does), U16 would report on 3V3, not on an RT-specific rail. The RT1062 core rail is 1V15_CORE, sourced from the RT1062 internal DCDC via L4-RTC (pin1 DCDC_SW -> pin2 1V15_CORE)."
+   ],
+   "basis": "TI SBVS050M Table 6-1 SENSE: 'This pin is connected to the voltage to be monitored. If the voltage at this terminal drops below the threshold voltage VIT, then RESET is asserted.' The G33 fixed-threshold option (VIT=3.07V) moves the divider inside the part; it does not remove the requirement to connect SENSE to the monitored rail.",
+   "bounded_repair": "Two edits. (a) Decide which rail is 'RT power valid' and wire U16-VAL pin 5 to it - 3V3 with the G33 threshold monitors the RT I/O rail, which is the defensible reading of D13.1 for a fixed-threshold part; monitoring 1V15_CORE needs the adjustable TPS3808G01 plus a divider, which is a part change, not a wire edit. (b) Extend e8950 by +5 in x to land on U9-ESP pin 9. Note the TPS62913 BUCK_PG of PWR2-001 is a DIFFERENT signal and is not a substitute."
+  },
+  {
+   "id": "PWR2-003",
+   "severity": "P1",
+   "title": "LED level-shifter output-enable is wired to the unsafe boot state and has no controller",
+   "verdict": "Boot state is 'buffers permanently enabled with floating data inputs' - the opposite of the vendor instruction.",
+   "evidence": [
+    "R53-LED 10k and R54-LED 10k are pull-DOWNS: pin1 -> LED_OE_L / LED_OE_R, pin2 -> GND. OE# low = buffer ENABLED.",
+    "Net LED_OE_L has exactly 2 wires and 2 pins (R53-LED.1, U14-LED.1); LED_OE_R likewise (R54-LED.1, U15-LED.1). There are NO dangling stubs on either net, so no hidden third member exists - nothing drives OE at all.",
+    "U14-LED and U15-LED readbacks are complete (5 of 5 pins each)."
+   ],
+   "basis": "TI SCLS378P section 7: 'To ensure the high-impedance state during power up or power down, OE should be tied to VCC through a pullup resistor; the minimum value of the resistor is determined by the current-sinking capability of the driver.'",
+   "bounded_repair": "Move R53/R54 from GND to +5V_LED_L / +5V_LED_R respectively (pull-up to the buffer's own VCC, per SCLS378P), and wire LED_OE_L / LED_OE_R to RT1062 GPIOs so firmware can assert the strings. Until a controller exists the strings cannot be disabled at boot."
+  },
+  {
+   "id": "PWR2-004",
+   "severity": "P1",
+   "title": "TLV75533 mic LDO has no output capacitor; the 10uF sits on the wrong side of the load switch",
+   "verdict": "Below the vendor minimum for stable operation.",
+   "evidence": [
+    "Net 3V3_MIC_REG has exactly 2 wires and 2 pins: U5-PWR2.5 (OUT) and Q1-PWR2.2 (P-FET source). No dangling stubs, so no hidden capacitor.",
+    "C15-PWR2 10uF is on 3V3_MIC, which is Q1's DRAIN - downstream of the load switch. It cannot stabilise the regulator loop when Q1 is off, and is separated from OUT by the FET when on.",
+    "Chain measured: 5V_SYS -> U5 (TLV75533) -> 3V3_MIC_REG -> Q1 (DMG2305UX P-FET, gate MIC_PWR_EN, R9 100k pull-down = default ON) -> 3V3_MIC -> C15 -> FB5-AUD -> 3V3_MIC_FLEX -> J9-AUD."
+   ],
+   "basis": "TI SBVS320D Recommended Operating Conditions: COUT 1 uF minimum, 200 uF maximum. Features list: 'Stable with a 1uF ceramic output capacitor'.",
+   "bounded_repair": "Add a >=1 uF X7R/X5R from 3V3_MIC_REG to GND at U5-PWR2 pin 5. One part, one net, no re-topology."
+  },
+  {
+   "id": "PWR2-005",
+   "severity": "P1",
+   "title": "R8-PWR2 BOM row is self-contradictory and one candidate part puts the LED eFuse out of spec",
+   "verdict": "Build-blocking ambiguity on the LED branch current limit. Design intent is correct; the library binding is not.",
+   "evidence": [
+    "BOM row R8-PWR2: Name=3.48k, Manufacturer Part=RC0402FR-073K48L, Supplier Part=C185418, but supplierId=RC0402FR-0710KL.1 (a 10k part reference).",
+    "LCSC C185418 confirmed via mcp__pcbparts__jlc_get_part as YAGEO RC0402FR-073K48L, 3.48 kOhm +/-1%, 0402 - the correct part.",
+    "R8-PWR2 shares Device UUID e1b1f220e40a4edea589adfa05a5d8c7 and Symbol UUID 27e1c105ea1844858f8ef4c155fa3cd7 with R75-PWR2, the 10k. R8 is bound to the 10k library device with its value text overridden - that is the root cause.",
+    "R8 wiring itself is correct: pin1 -> LED_EFUSE_ILIM (U4-PWR2 pin 9 ILM), pin2 -> GND."
+   ],
+   "basis": "TI SLVSFC9C Equation 5: RILM(Ohm) = 3334 / ILIM(A). Recommended Operating Conditions: RILM 549 Ohm to 6650 Ohm. Pin 9 ILM: 'Do not leave floating.'",
+   "computed": {
+    "R_3k48_gives_ILIM_A": 0.958,
+    "R_10k_gives_ILIM_A": 0.333,
+    "R_10k_within_recommended_range": false,
+    "LED_branch_budget_A_carried_forward": 0.95,
+    "note": "3.48k yields 0.958 A which matches the 0.95 A LED branch figure carried forward in architecture/POWER-ARCHITECTURE.md. The 0.95/2.35/0.60 A envelope belongs to A1-USB-POWER to re-derive; it is consumed here only as the comparator. 10k yields 0.333 A, below the branch load AND outside the recommended RILM range, so the LED branch would trip during inrush."
+   },
+   "bounded_repair": "Rebind R8-PWR2 to the C185418 (3.48k) library device so all four BOM fields agree. No schematic wiring change."
+  },
+  {
+   "id": "PWR2-006",
+   "severity": "P2",
+   "title": "Buck feedback bottom-leg resistor is 6.5x the vendor maximum for this low-noise part",
+   "verdict": "Defeats the low-noise property that is the only reason to choose a TPS62913.",
+   "evidence": [
+    "R5-PWR2 100k from 3V3 to BUCK_FB; R6-PWR2 32.4k from BUCK_FB to GND; C9-PWR2 100pF feedforward from 3V3 to BUCK_FB. Net BUCK_FB has 4 wires and 4 pins - complete, no dangling."
+   ],
+   "basis": "TI SLVSFP4B section 8.2.2.2.6: 'To keep the feedback network robust from noise, and to reduce the self-generated noise of resistors, set R2 equal to or lower than 5 kOhm. Lower values of FB resistors achieve better noise immunity.' R2 is the bottom leg = R6-PWR2 = 32.4 kOhm.",
+   "bounded_repair": "Scale the divider down by ~6.5x keeping the ratio, e.g. R2=4.99k with R1=15.8k (Vout 3.333 V) or R2=4.99k with R1=15.4k (Vout 3.269 V, ratio-identical to today). Two resistor value changes, no wiring change."
+  },
+  {
+   "id": "PWR2-007",
+   "severity": "P2",
+   "title": "LED thermistor dividers have no bias resistor and cannot produce a voltage",
+   "verdict": "LED_THERM_L and LED_THERM_R can never read anything but ground.",
+   "evidence": [
+    "RT1-LED (NCP15XH103F03RC 10k NTC): pin2 -> GND, pin1 -> LED_THERM_L. RT2-LED identical to LED_THERM_R.",
+    "Net LED_THERM_L has exactly 2 wires and 2 pins: RT1-LED.1 and U6-RTC.L12. LED_THERM_R likewise (RT2-LED.1, U6-RTC.K12). Neither net has a dangling stub, so no hidden top-leg resistor exists.",
+    "With one NTC terminal at GND and the other at a high-impedance MCU pin and no bias element, the node sits at 0 V regardless of temperature."
+   ],
+   "basis": "Elementary resistive-divider requirement; NCP15XH103F03RC is a passive thermistor with no internal bias.",
+   "bounded_repair": "Add a bias resistor (10k, matching the NTC R25) from 3V3 to LED_THERM_L and another to LED_THERM_R. Two parts. Confirm U6-RTC L12/K12 are ADC-capable with the RT lane before committing the value."
+  },
+  {
+   "id": "PWR2-008",
+   "severity": "P3",
+   "title": "LED eFuse PG is unused on a board whose purpose is measurement",
+   "verdict": "Not a defect; a missed instrument on a validation board.",
+   "evidence": [
+    "U4-PWR2 pin 3 (PG/AUXOFF) and pin 4 (PGTH) both float. Both are explicit datasheet test conditions and are legitimate."
+   ],
+   "basis": "TI SLVSFC9C section 6.5 test conditions: 'PGTH = Open for TPS259472x/4x, PG = Open for TPS259472x/4x.' TPS259474x PG is an open-drain power-good output.",
+   "bounded_repair": "Optional. The same argument D-045 makes for the buck PG applies here: a board that exists to be measured benefits from LED-branch power-good telemetry. Needs a PGTH divider plus a PG pull-up if adopted. Raise as a decision, not a fix."
+  },
+  {
+   "id": "PWR2-009",
+   "severity": "P3",
+   "title": "Buck output is 3.269 V, not 3.300 V",
+   "verdict": "Within every downstream part's tolerance. Report, do not chase.",
+   "computed": {
+    "VFB_V": 0.8,
+    "equation": "VOUT = VFB * (1 + R1/R2), SLVSFP4B Equation 8",
+    "R1_ohm": 100000,
+    "R2_ohm": 32400,
+    "VOUT_V": 3.2691,
+    "error_pct": -0.94
+   },
+   "basis": "TI SLVSFP4B: VFB = 0.8 V (0.792 min / 0.812 max over -40 to 150 C).",
+   "bounded_repair": "None required. Fold into PWR2-006 if the divider is rescaled anyway; note that E96 pairs bracket 3.3 V at roughly +/-1% either side, so 3.269 V is a normal E96 outcome and not evidence of an error."
+  },
+  {
+   "id": "PWR2-010",
+   "severity": "P3",
+   "title": "S-CONF is tied to VIN, which is a valid documented setting, but the sheet does not say what it selects",
+   "verdict": "Correct as wired, and the inductor matches it. Undocumented on the sheet.",
+   "evidence": [
+    "U3-PWR2 pin 10 (S-CONF) -> 5V_SYS. U3-PWR2 pin 7 (PSNS) -> GND. L1-PWR2 = 2.2 uH between BUCK_SW and 3V3. U3-PWR2 pin 3 (VO) -> 3V3, correctly after the inductor."
+   ],
+   "basis": "TI SLVSFP4B Table 7-1: S-CONF = VIN selects 2.2 MHz switching, spread spectrum OFF, output discharge OFF, no synchronisation. Section 8.2.2.2.2: 'When using the 2.2-MHz frequency, only use a 2.2-uH inductor.' Table 5-1 PSNS: 'Power sense ground. Connect directly to the ground plane' (abs max -0.3 to +0.3 V, so GND is mandatory).",
+   "bounded_repair": "Annotate the sheet beside U3 with the selected mode. The EMC consequence - fixed 2.2 MHz with no spread spectrum on a board carrying a 13.56 MHz NFC front end and an audio capture path - is a deliberate choice that should be recorded, not rediscovered at EMC."
+  },
+  {
+   "id": "PWR2-011",
+   "severity": "P2",
+   "title": "Buck output capacitance must be confirmed against the 40 uF effective minimum after DC-bias derating",
+   "verdict": "Probably passes; not proven. Do not assume nominal capacitance.",
+   "evidence": [
+    "3V3 caps local to the buck: C6-PWR2 47uF (GRM21BR61A476ME15L, 10V 0805), C7-PWR2 47uF (same), C8-PWR2 100nF. Nominal total 94.1 uF.",
+    "0805 X5R 47uF/10V parts typically lose 35-50% of capacitance at 3.3 V DC bias, landing the effective value near 50-60 uF."
+   ],
+   "basis": "TI SLVSFP4B Recommended Operating Conditions: effective COUT 40 uF min / 47 typ / 80 uF max. Section 8.2.2.2: 'The effective output capacitance can range from 40 uF (minimum) up to 200 uF (maximum) for a single L-C.' The datasheet explicitly warns about the DC-Bias effect and says to check capacitance at the operating voltage.",
+   "bounded_repair": "Pull the Murata SimSurfing bias curve for GRM21BR61A476ME15L at 3.3 V and record the effective figure in the evidence pack. If it lands below 40 uF, add one more 22 uF. Note the ROC table maximum is 80 uF while the design section says 200 uF - state which bound is being designed to."
+  },
+  {
+   "id": "PWR2-012",
+   "severity": "P1-HANDOFF",
+   "title": "ESP32-S3 module is systematically unwired by a +5 unit offset - 36 of 41 pins touch no copper",
+   "verdict": "Not my scope to repair, but it is the other half of PWR2-002 and it affects the 3V3/GND rail census.",
+   "evidence": [
+    "U9-ESP readback complete: 41 of 41 pins returned (ESP32-S3-WROOM-1 has 41 pads). 36 have no wire.",
+    "17 dangling stubs sit 5.0 to 20.6 units away with a repeating delta of (+5,0) on the left column: GND->pin3, 3V3->pin4, ESP_EN->pin5, NFC_IRQ->pin6, MOTION_INT_S3->pin7, S3_POR_REQ->pin8, RT_PWR_VALID->pin9, ESP_USB_VBUS_SENSE->pin10; and (-5,+20) on the K1BR bus: K1BR_CS/MOSI/SCK/MISO_S3/IRQ_S3 -> pins 17/18/19/20/21.",
+    "This is a single systematic placement offset, not 17 independent errors."
+   ],
+   "basis": "Direct geometric measurement against the frozen denominator.",
+   "bounded_repair": "One batch stub-translation of +5 in x (plus the y correction on the K1BR and USB groups). Belongs to the ESP/debug lane; flagged here because the 3V3 and GND rail members and the RT_PWR_VALID consumer are inside it."
+  },
+  {
+   "id": "PWR2-013",
+   "severity": "EVIDENCE",
+   "title": "The DRC anchor predates the two closed transactions and is not evidence about the current state",
+   "verdict": "'Fatal Error: 0, Error: 0, Warning: 22' from this log must not be quoted as clearance for PWR2-001 or PWR2-002.",
+   "evidence": [
+    "anchors/schDrcLog_2026-08-28.txt is timestamped 12:17:37-12:17:39; the frozen denominator's title-block @Update Time is 13:05:07.",
+    "The log warns 'The wire BUCK_SS $1N2873, $1N2945 is a single network connected to only one component pin' - naming wire e2873, which no longer exists in the frozen source. BUCK_SS is now carried by e145984 and e2945. The C10-PWR2 rewire happened after this log.",
+    "The log contains zero mentions of BUCK_PG, RT_PWR_VALID, LED_OE, LED_THERM, LED_D0_3V3 or LED_D1_3V3.",
+    "Its floating-pin warnings do list in-scope pins U16-VAL.3/4/5, U4-PWR2.3, U5-PWR2.4 and SW4-VAL.3/4 - consistent with my measurement - but it never saw U3-PWR2.5 because the PG transaction had not yet run."
+   ],
+   "basis": "Timestamps and wire-id divergence between the log and the frozen source.",
+   "bounded_repair": "Re-run schematic DRC after the PWR2-001/002 repairs and re-anchor. Treat the existing log as historical only."
+  },
+  {
+   "id": "PWR2-014",
+   "severity": "AUTHORITY",
+   "title": "The TPS62913 source register entry cites the wrong TI document number",
+   "verdict": "Substance correct, citation wrong. Correcting the brief's premise: SLUSEA4 IS registered.",
+   "evidence": [
+    "sources/SOURCE-REGISTER.md line 16 reads 'Texas Instruments | TPS62913 datasheet, SLUSEA4'. So the source IS in the register, contrary to the task brief's note.",
+    "The document retrieved from ti.com/lit/ds/symlink/tps62913.pdf self-identifies as 'TPS62912, TPS62913 - SLVSFP4B - AUGUST 2020 - REVISED MARCH 2021'.",
+    "SLUSEA4 is the TPS62933 datasheet (3.8-30 V, 3 A synchronous buck, SOT583) - a different part with a different pinout.",
+    "The two claims the register entry carries - PG open-drain requiring a pull-up, and NR/SS requiring a soft-start capacitor - are both independently confirmed from SLVSFP4B Table 5-1, so D-045 stands on its merits."
+   ],
+   "basis": "Direct comparison of the retrieved datasheet header against the register entry.",
+   "bounded_repair": "Change the register entry to 'TPS62913 datasheet, SLVSFP4B' and register the four other primary sources this audit relied on: SBVS050M (TPS3808), SBVS320D (TLV755P), SLVSFC9C (TPS25947), SCLS378P (SN74AHCT1G125)."
+  }
+ ],
+ "sources": [
+  {
+   "doc": "SLVSFP4B",
+   "part": "TPS62912/TPS62913",
+   "url": "https://www.ti.com/lit/ds/symlink/tps62913.pdf",
+   "registered": false,
+   "note": "THIS is the TPS62913 datasheet. sources/SOURCE-REGISTER.md line 16 records the TPS62913 datasheet as 'SLUSEA4'; SLUSEA4 is the TPS62933 datasheet, a different converter. Substance of the register entry is correct and independently re-derived here from SLVSFP4B."
+  },
+  {
+   "doc": "SBVS050M",
+   "part": "TPS3808",
+   "url": "https://www.ti.com/lit/ds/symlink/tps3808.pdf",
+   "registered": false
+  },
+  {
+   "doc": "SBVS320D",
+   "part": "TLV755P / TLV75533",
+   "url": "https://www.ti.com/lit/ds/symlink/tlv755p.pdf",
+   "registered": false
+  },
+  {
+   "doc": "SLVSFC9C",
+   "part": "TPS25947 / TPS259474L",
+   "url": "https://www.ti.com/lit/ds/symlink/tps25947.pdf",
+   "registered": false
+  },
+  {
+   "doc": "SCLS378P",
+   "part": "SN74AHCT1G125",
+   "url": "https://www.ti.com/lit/ds/symlink/sn74ahct1g125.pdf",
+   "registered": false
+  },
+  {
+   "doc": "LCSC C185418",
+   "part": "YAGEO RC0402FR-073K48L 3.48k 1%",
+   "via": "mcp__pcbparts__jlc_get_part",
+   "registered": false
+  }
+ ],
+ "rail_verdicts": {
+  "power_tree_electrical": "COMPLETE. Every branch has a real active source: J1-PWR1 -> U1-PWR1 -> 5V_PROTECTED -> RSH1-PWR1 (Kelvin shunt, U2-PWR1 INA226 on pins 8/9/10) -> 5V_SYS -> {U3-PWR2 buck -> 3V3; U4-PWR2 eFuse -> 5V_LED_COMMON -> FB1/FB2 -> +5V_LED_L/R; U5-PWR2 LDO -> 3V3_MIC_REG -> Q1-PWR2 -> 3V3_MIC -> FB5-AUD -> 3V3_MIC_FLEX; FB3-PWR2 -> NFC_5V}. 1V15_CORE is the RT1062 internal DCDC output via L4-RTC (DCDC_SW -> 1V15_CORE). K1E-017 PASSES: no rail is a passive-only fanout of nothing. NFC_5V is a ferrite filter from 5V to 5V, which is legitimate.",
+  "power_tree_visual": "NOT A TREE. The sheet renders this as isolated labelled stubs: 5V_SYS is 12 disjoint wires, 3V3 is 90. Zero of the 675 wires touch any other wire anywhere on the sheet - every net is stub-and-label. POWER-ARCHITECTURE.md's own words apply: 'six disconnected 5V_SYS labels are not a power tree.' The contract permits this for global rails and major buses, so this is a readability finding, not an electrical one - but the conversion, distribution and supervision spine specifically is what the architecture document asks to be visible, and it is not.",
+  "RT_PWR_VALID": "FAIL - see PWR2-002. The supervisor senses nothing and nothing consumes its output."
+ }
+}

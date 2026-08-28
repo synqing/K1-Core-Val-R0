@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "transaction_id": "i2c-hash-reconcile-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash": "489736:464c27d4",
+  "saved": true,
+  "observed": "Restamp after I2C_EN close. Gate still named 489805:542305a0; live hash is 489736:464c27d4. Census remains 230/675. R76-NFC and NFC_I2C_EN remain.",
+  "census": {
+    "components": 230,
+    "wires": 675,
+    "texts": 22,
+    "rectangles": 10
+  }
+}

@@ -1,0 +1,8 @@
+[
+  {"tag": "R1", "ok": true, "result": {"componentPrimitiveId": "c1", "count": 2,
+    "pins": [{"primitiveId": "c1p1", "x": 100, "y": -300, "pinNumber": "1"},
+             {"primitiveId": "c1p2", "x": 120, "y": -300, "pinNumber": "2"}]}},
+  {"tag": "R2", "ok": true, "result": {"componentPrimitiveId": "c2", "count": 2,
+    "pins": [{"primitiveId": "c2p1", "x": 300, "y": -300, "pinNumber": "1"},
+             {"primitiveId": "c2p2", "x": 320, "y": -300, "pinNumber": "2"}]}}
+]

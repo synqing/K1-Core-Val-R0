@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-nfc-i2c-en-pullup-place-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Place RC0402FR-0710KL 10k R76-NFC in box 7 between J10 and U12 as the ST25R3916B I2C_EN high strap. Do not designate or wire.",
+  "observed_delta": "One new undesignated 10k resistor sits in box 7 below U12 pin 20 I2C_EN and left of Y2, above the L2/L3 matching band. It is unwired. Census is 230 components / 672 wires.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-nfc-i2c-en-pullup-place-box7.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "one new 0402 resistor sits in box 7 between J10 and U12",
+      "result": "OK",
+      "detail": "Settled box-7 view shows one new 10k R? under U12 I2C_EN and above the L2/L3 matching parts."
+    },
+    {
+      "name": "it does not overlap U12, J10 or the regulator-cap row",
+      "result": "OK",
+      "detail": "Clear air remains around U12, Y2 and the matching inductors. The cap row is not under the new body."
+    },
+    {
+      "name": "no part appears outside box 7",
+      "result": "OK",
+      "detail": "The new resistor is inside the NFC neighbourhood with Y2, U12 and L2/L3."
+    },
+    {
+      "name": "component count increases by exactly 1",
+      "result": "OK",
+      "detail": "Census moved from 229 to 230. Wire count stayed 672."
+    }
+  ]
+}

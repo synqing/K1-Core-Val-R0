@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "transaction_id": "esp-label-drift-reconcile-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Reconcile the live EasyEDA source hash drift before restoring ESP service endpoint labels",
+  "observed_delta": "The live canonical sheet is on the expected project and one-sheet document; box 5 is the affected domain and the component/wire census is unchanged.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/current-box5-visual-inspection.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name": "identity", "result": "OK", "detail": "Canonical project and document identity match the mutation state."},
+    {"name": "census", "result": "OK", "detail": "222 components, 657 wires, 22 texts and 10 domain rectangles remain present."},
+    {"name": "scope", "result": "OK", "detail": "Only box 5 label visibility is queued for repair; PCB is excluded."},
+    {"name": "visual target", "result": "OK", "detail": "The captured box-5 view exposes the missing endpoint labels on the listed ESP service parts."}
+  ]
+}

@@ -1,0 +1,116 @@
+[
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C92",
+    "args": {
+      "componentPrimitiveId": "e146025",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "NFC_VDD_D"
+        },
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C93",
+    "args": {
+      "componentPrimitiveId": "e146061",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "NFC_VDD_A"
+        },
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C94",
+    "args": {
+      "componentPrimitiveId": "e146097",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "NFC_VDD_RF"
+        },
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C95",
+    "args": {
+      "componentPrimitiveId": "e146133",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "NFC_VDD_AM"
+        },
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C96",
+    "args": {
+      "componentPrimitiveId": "e146169",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "NFC_VDD_DR"
+        },
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C97",
+    "args": {
+      "componentPrimitiveId": "e146205",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "NFC_AGDC"
+        },
+        {
+          "pinNumber": "2",
+          "net": "GND"
+        }
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

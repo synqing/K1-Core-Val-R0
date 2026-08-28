@@ -1,0 +1,47 @@
+[
+  {
+    "tool": "set_schematic_pin_no_connect",
+    "tag": "U3-PWR2-clear-nc",
+    "args": {
+      "componentPrimitiveId": "e2199",
+      "pinNumber": "5",
+      "noConnected": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R75",
+    "args": {
+      "componentPrimitiveId": "e146277",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "BUCK_PG"
+        },
+        {
+          "pinNumber": "2",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U3-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2199",
+      "connections": [
+        {
+          "pinNumber": "5",
+          "net": "BUCK_PG"
+        }
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

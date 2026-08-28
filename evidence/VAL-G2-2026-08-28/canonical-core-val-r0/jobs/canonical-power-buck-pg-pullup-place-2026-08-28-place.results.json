@@ -1,0 +1,56 @@
+[
+ {
+  "tag": "R75",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753",
+     "uuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "x": 1020,
+    "y": 4480,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e146277",
+    "symbol": {
+     "uuid": "27e1c105ea1844858f8ef4c155fa3cd7",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "footprint": {
+     "uuid": "3a9991e4aef9455bb546fda6b87e03b9",
+     "libraryUuid": "6593321c1e554b2f9070c57621ba8753"
+    },
+    "designator": "R?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0710KL",
+    "supplier": "LCSC",
+    "supplierId": "C60490",
+    "otherProperty": {
+     "LCSC Part Name": "厚膜电阻 10kΩ ±1% 62.5mW",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/RC0402FR-0710KL/61542.html",
+     "Type": "Thick Film Resistor",
+     "Value": "10kΩ",
+     "Tolerance": "±1%",
+     "Power(Watts)": "62.5mW",
+     "Voltage-Supply(Max)": "50V",
+     "Temperature Coefficient": "±100ppm/℃",
+     "Operating Temperature": "-55℃~+155℃",
+     "Description": "Type:Thick Film Resistor Resistance:10kΩ Tolerance:±1% Tolerance:±1% Power(Watts):62.5mW Voltage-Supply(Max):50V Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature:-55℃~+155℃ Operating Temperature:-55℃~+155℃"
+    }
+   },
+   "recoveredFromError": false,
+   "saved": true
+  }
+ }
+]

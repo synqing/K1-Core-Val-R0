@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-esp-service-label-visibility-repair-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Restore visible endpoint net labels for ESP service USB support parts without changing electrical topology",
+  "observed_delta": "The post-write whole-sheet screenshot is modal-free and the source read-back confirms the 20 hidden NET attributes are visible again. The listed support parts retain their original positions and topology.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/esp-label-repair-attempt.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name": "label visibility", "result": "OK", "detail": "Live source read-back reports 20 previously hidden NET attributes visible."},
+    {"name": "electrical topology", "result": "OK", "detail": "Component and wire census remain 222 and 657."},
+    {"name": "box-5 scope", "result": "OK", "detail": "Only endpoint-label visibility on the six targeted ESP service references changed."},
+    {"name": "collateral check", "result": "OK", "detail": "Whole-sheet screenshot is modal-free; no PCB mutation occurred."}
+  ]
+}

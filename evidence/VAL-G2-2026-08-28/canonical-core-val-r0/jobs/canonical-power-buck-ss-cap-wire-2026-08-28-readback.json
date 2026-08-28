@@ -1,0 +1,18 @@
+[
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C10",
+    "args": {
+      "componentPrimitiveId": "e24607",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U3",
+    "args": {
+      "componentPrimitiveId": "e2199",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

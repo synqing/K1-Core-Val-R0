@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "transaction_id": "takeover-hash-reconcile-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash": "474325:e7353368",
+  "saved": true,
+  "census": {
+    "components": 222,
+    "wires": 657,
+    "texts": 22,
+    "rectangles": 10,
+    "designators": 220
+  },
+  "observed": "Captain takeover restamp. Live hash 474325:e7353368 differed from the previous stamp 474325:96bb5c36 with unchanged census. save_active_document returned saved=true and the post-save hash stayed 474325:e7353368."
+}

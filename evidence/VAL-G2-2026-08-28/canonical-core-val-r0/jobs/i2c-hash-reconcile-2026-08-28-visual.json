@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "i2c-hash-reconcile-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Reconcile and restamp the canonical EasyEDA mutation boundary after host hash drift on the closed I2C_EN save; persist the live hash without changing schematic topology",
+  "observed_delta": "Box 7 still shows R76-NFC 10k between 3V3 and NFC_I2C_EN, U12 pin 20 on NFC_I2C_EN, and unused U12 pins still without NC crosses. Census stays 230/675.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/i2c-hash-reconcile-box7.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "identity",
+      "result": "OK",
+      "detail": "Active document remains the canonical K1-Core-Val-R0 schematic page."
+    },
+    {
+      "name": "single-sheet occupancy",
+      "result": "OK",
+      "detail": "U12, R76-NFC and Y2 remain on the single electrical page."
+    },
+    {
+      "name": "census",
+      "result": "OK",
+      "detail": "Post-save source remains 230 components, 675 wires, 22 texts, 10 rectangles."
+    },
+    {
+      "name": "collateral",
+      "result": "OK",
+      "detail": "Restamp adds nothing. R76-NFC and NFC_I2C_EN are still present."
+    }
+  ]
+}

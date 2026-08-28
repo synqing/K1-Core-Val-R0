@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-nfc-regulator-decouple-wire-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Wire C92-NFC..C97-NFC pin 1 to NFC_VDD_D / NFC_VDD_A / NFC_VDD_RF / NFC_VDD_AM / NFC_VDD_DR / NFC_AGDC and pin 2 to GND. Do not move parts.",
+  "observed_delta": "The C92-NFC..C97-NFC row now carries the six ST regulator nets on pin 1 and GND on pin 2. Source net counts for NFC_VDD_D/A/RF/AM/DR and NFC_AGDC each rose from 1 to 2. Wire census rose 657 to 669.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-nfc-regulator-decouple-wire-below-u12.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "each new capacitor pin 1 is on its ST regulator net",
+      "result": "OK",
+      "detail": "Settled box-7 view shows NFC_VDD_* / NFC_AGDC labels on the new capacitor row. Source NET census is exactly 2 for each of those six rails."
+    },
+    {
+      "name": "each new capacitor pin 2 is on GND",
+      "result": "OK",
+      "detail": "Each visible new capacitor shows a GND symbol on the lower pin."
+    },
+    {
+      "name": "U12 regulator pins remain on those same nets",
+      "result": "OK",
+      "detail": "U12-NFC still carries NFC_VDD_D/A/RF/AM/DR and NFC_AGDC. The second endpoint on each net is the new capacitor."
+    },
+    {
+      "name": "census components stay at the post-place count",
+      "result": "OK",
+      "detail": "Component count remains 228. Wires increased by 12, one pair per capacitor."
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C92",
+    "args": {
+      "primitiveId": "e146025",
+      "designator": "C92-NFC",
+      "name": "2.2uF",
+      "manufacturerId": "GRM155R60J225ME15D",
+      "supplier": "LCSC",
+      "supplierId": "C76993",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C93",
+    "args": {
+      "primitiveId": "e146061",
+      "designator": "C93-NFC",
+      "name": "2.2uF",
+      "manufacturerId": "GRM155R60J225ME15D",
+      "supplier": "LCSC",
+      "supplierId": "C76993",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C94",
+    "args": {
+      "primitiveId": "e146097",
+      "designator": "C94-NFC",
+      "name": "2.2uF",
+      "manufacturerId": "GRM155R60J225ME15D",
+      "supplier": "LCSC",
+      "supplierId": "C76993",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C95",
+    "args": {
+      "primitiveId": "e146133",
+      "designator": "C95-NFC",
+      "name": "2.2uF",
+      "manufacturerId": "GRM155R60J225ME15D",
+      "supplier": "LCSC",
+      "supplierId": "C76993",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C96",
+    "args": {
+      "primitiveId": "e146169",
+      "designator": "C96-NFC",
+      "name": "2.2uF",
+      "manufacturerId": "GRM155R60J225ME15D",
+      "supplier": "LCSC",
+      "supplierId": "C76993",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "C97",
+    "args": {
+      "primitiveId": "e146205",
+      "designator": "C97-NFC",
+      "name": "2.2uF",
+      "manufacturerId": "GRM155R60J225ME15D",
+      "supplier": "LCSC",
+      "supplierId": "C76993",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

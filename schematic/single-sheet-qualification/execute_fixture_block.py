@@ -178,7 +178,8 @@ def mcp_call(tool: str, args: dict, timeout: int = 40) -> dict:
     i = text.find("{")
     if i < 0:
         raise SystemExit(f"{tool} no json: {text[:400]}")
-    return json.loads(text[i:])
+    payload, _end = json.JSONDecoder().raw_decode(text[i:])
+    return payload
 
 
 def assert_identity() -> None:

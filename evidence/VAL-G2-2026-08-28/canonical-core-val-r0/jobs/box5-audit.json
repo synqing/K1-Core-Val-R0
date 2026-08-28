@@ -1,0 +1,338 @@
+[
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C39-ESP",
+    "args": {
+      "componentPrimitiveId": "e7586",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C40-ESP",
+    "args": {
+      "componentPrimitiveId": "e7622",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C41-ESP",
+    "args": {
+      "componentPrimitiveId": "e7658",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C42-ESP",
+    "args": {
+      "componentPrimitiveId": "e98127",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C43-ESP",
+    "args": {
+      "componentPrimitiveId": "e8224",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C44-ESP",
+    "args": {
+      "componentPrimitiveId": "e8260",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C45-ESP",
+    "args": {
+      "componentPrimitiveId": "e8548",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C66-VAL",
+    "args": {
+      "componentPrimitiveId": "e15252",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "J11-VAL",
+    "args": {
+      "componentPrimitiveId": "e15023",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "J6-ESP",
+    "args": {
+      "componentPrimitiveId": "e98163",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "J7-ESP",
+    "args": {
+      "componentPrimitiveId": "e8334",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "Q2-VAL",
+    "args": {
+      "componentPrimitiveId": "e15288",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R19-ESP",
+    "args": {
+      "componentPrimitiveId": "e7885",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R20-ESP",
+    "args": {
+      "componentPrimitiveId": "e7924",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R21-ESP",
+    "args": {
+      "componentPrimitiveId": "e8421",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R22-ESP",
+    "args": {
+      "componentPrimitiveId": "e8460",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R23-ESP",
+    "args": {
+      "componentPrimitiveId": "e8584",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R24-ESP",
+    "args": {
+      "componentPrimitiveId": "e8623",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R25-ESP",
+    "args": {
+      "componentPrimitiveId": "e8662",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R26-ESP",
+    "args": {
+      "componentPrimitiveId": "e8701",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R27-ESP",
+    "args": {
+      "componentPrimitiveId": "e8740",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R55-VAL",
+    "args": {
+      "componentPrimitiveId": "e15067",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R56-VAL",
+    "args": {
+      "componentPrimitiveId": "e15106",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R57-VAL",
+    "args": {
+      "componentPrimitiveId": "e15145",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R58-VAL",
+    "args": {
+      "componentPrimitiveId": "e15184",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R59-VAL",
+    "args": {
+      "componentPrimitiveId": "e15332",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R60-VAL",
+    "args": {
+      "componentPrimitiveId": "e15371",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R61-VAL",
+    "args": {
+      "componentPrimitiveId": "e15410",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R62-VAL",
+    "args": {
+      "componentPrimitiveId": "e15449",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R71-ESP",
+    "args": {
+      "componentPrimitiveId": "e98207",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R72-ESP",
+    "args": {
+      "componentPrimitiveId": "e98246",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R73-ESP",
+    "args": {
+      "componentPrimitiveId": "e98285",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R74-ESP",
+    "args": {
+      "componentPrimitiveId": "e98324",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "SW2-ESP",
+    "args": {
+      "componentPrimitiveId": "e7963",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "SW3-ESP",
+    "args": {
+      "componentPrimitiveId": "e8014",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "SW4-VAL",
+    "args": {
+      "componentPrimitiveId": "e15488",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "TP1-ESP",
+    "args": {
+      "componentPrimitiveId": "e8779",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "TP2-ESP",
+    "args": {
+      "componentPrimitiveId": "e8808",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "TP6-VAL",
+    "args": {
+      "componentPrimitiveId": "e15223",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U10-ESP",
+    "args": {
+      "componentPrimitiveId": "e8499",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U16-VAL",
+    "args": {
+      "componentPrimitiveId": "e15539",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U9-ESP",
+    "args": {
+      "componentPrimitiveId": "e8065",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

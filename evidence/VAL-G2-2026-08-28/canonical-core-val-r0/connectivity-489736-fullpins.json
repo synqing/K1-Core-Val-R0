@@ -1,0 +1,3671 @@
+{
+  "counts": {
+    "components": 229,
+    "designators_with_pin_data": 230,
+    "distinct_endpoints": 1359,
+    "electrical_islands": 675,
+    "named_nets": 143,
+    "named_wires": 675,
+    "pin_files_parsed": 1,
+    "pin_records_failed": 0,
+    "pin_records_seen": 231,
+    "pins_landing_on_wire_geometry": 629,
+    "pins_loaded": 783,
+    "source_records": 6631,
+    "t_junction_merges": 0,
+    "wire_segments": 684,
+    "wires": 675
+  },
+  "nets": {
+    "+5V_LED_L": {
+      "distinct_points": 10,
+      "islands": 5,
+      "pins_per_island": {
+        "1145,4145": 1,
+        "1220,4000": 1,
+        "3055,2525": 1,
+        "3295,2822": 1,
+        "3390,3395": 1
+      },
+      "pins_reached": [
+        "C12-PWR2.1",
+        "C64-LED.1",
+        "FB1-PWR2.2",
+        "J2-LED.1",
+        "U14-LED.5"
+      ],
+      "pins_reached_count": 5,
+      "wire_count": 5
+    },
+    "+5V_LED_R": {
+      "distinct_points": 10,
+      "islands": 5,
+      "pins_per_island": {
+        "1325,4145": 1,
+        "1420,4010": 1,
+        "3295,2525": 1,
+        "3535,2822": 1,
+        "3635,3400": 1
+      },
+      "pins_reached": [
+        "C13-PWR2.1",
+        "C65-LED.1",
+        "FB2-PWR2.2",
+        "J3-LED.1",
+        "U15-LED.5"
+      ],
+      "pins_reached_count": 5,
+      "wire_count": 5
+    },
+    "1V15_CORE": {
+      "distinct_points": 36,
+      "islands": 18,
+      "pins_per_island": {
+        "2060,3800": 1,
+        "2090,3800": 1,
+        "2190,3800": 1,
+        "2230,3800": 1,
+        "2415,4460": 0,
+        "2415,4470": 0,
+        "2415,4480": 0,
+        "2415,4490": 0,
+        "2415,4600": 0,
+        "2415,4630": 0,
+        "2595,4370": 1,
+        "2600,3890": 1,
+        "2600,3970": 1,
+        "2600,4050": 1,
+        "2600,4130": 1,
+        "2600,4210": 1,
+        "2600,4290": 1,
+        "2675,4470": 1
+      },
+      "pins_reached": [
+        "C19-RTC.1",
+        "C20-RTC.1",
+        "C21-RTC.1",
+        "C22-RTC.1",
+        "C23-RTC.1",
+        "C24-RTC.1",
+        "C25-RTC.1",
+        "L4-RTC.2",
+        "U6-RTC.H6",
+        "U6-RTC.H9",
+        "U6-RTC.J5",
+        "U6-RTC.J9"
+      ],
+      "pins_reached_count": 12,
+      "wire_count": 18
+    },
+    "3V3": {
+      "distinct_points": 180,
+      "islands": 90,
+      "pins_per_island": {
+        "1040,4410": 1,
+        "1070,4480": 1,
+        "1080,4555": 1,
+        "1210,3395": 1,
+        "1240,4405": 1,
+        "1380,4405": 1,
+        "1390,2535": 1,
+        "1435,4260": 1,
+        "1475,3390": 1,
+        "1475,3460": 1,
+        "1615,4260": 1,
+        "1720,3240": 1,
+        "1755,4300": 1,
+        "185,4345": 1,
+        "185,4560": 1,
+        "20,4345": 1,
+        "2015,3660": 1,
+        "2030,4060": 1,
+        "2040,2525": 1,
+        "210,3200": 1,
+        "2150,3660": 1,
+        "2150,4060": 1,
+        "2200,3800": 1,
+        "2240,3800": 1,
+        "2245,3725": 1,
+        "2280,2525": 1,
+        "2290,3660": 1,
+        "2320,3800": 1,
+        "2330,3800": 1,
+        "2340,4060": 1,
+        "2350,3725": 1,
+        "2365,3270": 1,
+        "2365,3280": 1,
+        "2415,4320": 0,
+        "2415,4350": 0,
+        "2415,4450": 0,
+        "2415,4500": 0,
+        "2420,3660": 1,
+        "2430,3800": 1,
+        "2440,3800": 1,
+        "2460,3725": 1,
+        "2555,3660": 1,
+        "2575,3725": 1,
+        "2680,3725": 1,
+        "2690,3660": 1,
+        "2725,4210": 1,
+        "2725,4470": 1,
+        "2730,3890": 1,
+        "2730,3970": 1,
+        "2730,4050": 1,
+        "2730,4130": 1,
+        "2730,4290": 1,
+        "2730,4370": 1,
+        "2760,3098": 1,
+        "2795,3725": 1,
+        "2830,3660": 1,
+        "2850,4050": 1,
+        "30,3200": 1,
+        "30,3400": 1,
+        "3065,3985": 1,
+        "315,3350": 1,
+        "3205,4550": 1,
+        "3225,4550": 1,
+        "3230,4420": 1,
+        "3260,4310": 1,
+        "3260,4320": 1,
+        "3330,4420": 1,
+        "3470,4550": 1,
+        "3580,4415": 1,
+        "3615,4505": 1,
+        "3835,4625": 1,
+        "395,4560": 1,
+        "4070,2525": 1,
+        "4070,3720": 1,
+        "4170,4395": 0,
+        "4180,3100": 1,
+        "4310,2930": 1,
+        "4310,3390": 1,
+        "4380,4585": 1,
+        "4500,4588": 1,
+        "4640,4455": 1,
+        "4640,4575": 1,
+        "4730,4490": 1,
+        "4735,4575": 1,
+        "4885,2950": 1,
+        "560,3700": 1,
+        "695,3390": 1,
+        "750,3300": 1,
+        "755,3200": 1,
+        "755,4480": 1
+      },
+      "pins_reached": [
+        "C18-RTC.1",
+        "C26-RTC.1",
+        "C27-RTC.1",
+        "C28-RTC.1",
+        "C29-RTC.1",
+        "C3-PWR1.1",
+        "C30-RTC.1",
+        "C31-RTC.1",
+        "C32-RTC.1",
+        "C37-RTDBG.1",
+        "C38-RTDBG.1",
+        "C39-ESP.1",
+        "C4-PWR1.1",
+        "C40-ESP.1",
+        "C41-ESP.1",
+        "C45-ESP.1",
+        "C46-AUD.1",
+        "C47-AUD.1",
+        "C50-AUD.1",
+        "C56-NFC.1",
+        "C6-PWR2.1",
+        "C62-MOT.1",
+        "C63-MOT.1",
+        "C66-VAL.1",
+        "C69-RTC.1",
+        "C7-PWR2.1",
+        "C76-RTC.1",
+        "C77-RTC.1",
+        "C78-RTC.1",
+        "C79-RTC.1",
+        "C8-PWR2.1",
+        "C80-RTC.1",
+        "C81-RTC.1",
+        "C82-RTC.1",
+        "C83-RTC.1",
+        "C84-RTC.1",
+        "C85-RTC.1",
+        "C86-RTC.1",
+        "C87-RTC.1",
+        "C88-RTC.1",
+        "C9-PWR2.1",
+        "J11-VAL.5",
+        "J4-RTDBG.1",
+        "J6-ESP.2",
+        "L1-PWR2.2",
+        "R11-RTC.2",
+        "R12-RTC.1",
+        "R14-RTDBG.1",
+        "R19-ESP.1",
+        "R20-ESP.1",
+        "R28-AUD.1",
+        "R29-AUD.1",
+        "R3-PWR1.1",
+        "R4-PWR1.2",
+        "R43-NFC.1",
+        "R5-PWR2.1",
+        "R50-MOT.1",
+        "R62-VAL.1",
+        "R67-PWR1.1",
+        "R69-RTDBG.1",
+        "R70-RTC.1",
+        "R75-PWR2.2",
+        "R76-NFC.2",
+        "TP6-VAL.1",
+        "U11-AUD.16",
+        "U11-AUD.9",
+        "U12-NFC.1",
+        "U12-NFC.8",
+        "U13-MOT.10",
+        "U13-MOT.9",
+        "U16-VAL.6",
+        "U2-PWR1.6",
+        "U3-PWR2.3",
+        "U6-RTC.J10",
+        "U6-RTC.J6",
+        "U6-RTC.K4",
+        "U6-RTC.K5",
+        "U6-RTC.L1",
+        "U6-RTC.L2",
+        "U6-RTC.M9",
+        "U6-RTC.N14",
+        "U6-RTC.P12",
+        "U7-RTC.5",
+        "U7-RTC.6",
+        "U8-RTDBG.8"
+      ],
+      "pins_reached_count": 85,
+      "wire_count": 90
+    },
+    "3V3_MIC": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "1250,3720": 1,
+        "1795,3820": 1,
+        "210,2535": 1
+      },
+      "pins_reached": [
+        "C15-PWR2.1",
+        "FB5-AUD.1",
+        "Q1-PWR2.3"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "3V3_MIC_FLEX": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "290,2535": 1,
+        "30,2535": 1,
+        "425,2580": 1
+      },
+      "pins_reached": [
+        "C53-AUD.1",
+        "FB5-AUD.2",
+        "J9-AUD.1"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "3V3_MIC_REG": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "1310,3850": 1,
+        "1795,3740": 1
+      },
+      "pins_reached": [
+        "Q1-PWR2.2",
+        "U5-PWR2.5"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "5V_LED_COMMON": {
+      "distinct_points": 8,
+      "islands": 4,
+      "pins_per_island": {
+        "1040,4000": 1,
+        "1105,4145": 1,
+        "1285,4145": 1,
+        "1810,4115": 1
+      },
+      "pins_reached": [
+        "C11-PWR2.1",
+        "FB1-PWR2.1",
+        "FB2-PWR2.1",
+        "U4-PWR2.6"
+      ],
+      "pins_reached_count": 4,
+      "wire_count": 4
+    },
+    "5V_PROTECTED": {
+      "distinct_points": 12,
+      "islands": 6,
+      "pins_per_island": {
+        "180,4420": 1,
+        "465,4090": 1,
+        "505,4560": 1,
+        "595,3800": 1,
+        "600,4090": 1,
+        "755,4520": 1
+      },
+      "pins_reached": [
+        "C2-PWR1.1",
+        "D1-PWR1.1",
+        "R65-PWR1.1",
+        "RSH1-PWR1.1",
+        "U1-PWR1.6",
+        "U2-PWR1.10"
+      ],
+      "pins_reached_count": 6,
+      "wire_count": 6
+    },
+    "5V_SYS": {
+      "distinct_points": 26,
+      "islands": 12,
+      "pins_per_island": {
+        "1035,3720": 1,
+        "1160,3830": 1,
+        "1160,3850": 1,
+        "1220,4300": 1,
+        "1310,4535": 1,
+        "1310,4575": 1,
+        "1570,4095": 1,
+        "1570,4115": 1,
+        "1575,3780": 1,
+        "1740,4405": 1,
+        "545,4560": 1,
+        "755,4500": 2
+      },
+      "pins_reached": [
+        "C14-PWR2.1",
+        "C5-PWR2.1",
+        "FB3-PWR2.1",
+        "R7-PWR2.1",
+        "RSH1-PWR1.2",
+        "U2-PWR1.8",
+        "U2-PWR1.9",
+        "U3-PWR2.10",
+        "U3-PWR2.6",
+        "U4-PWR2.1",
+        "U4-PWR2.5",
+        "U5-PWR2.1",
+        "U5-PWR2.3"
+      ],
+      "pins_reached_count": 13,
+      "wire_count": 12
+    },
+    "5V_USB": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "110,4260": 1,
+        "70,4135": 1
+      },
+      "pins_reached": [
+        "F1-PWR1.1",
+        "J1-PWR1.B4"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "5V_USB_FILTERED": {
+      "distinct_points": 9,
+      "islands": 4,
+      "pins_per_island": {
+        "110,3800": 1,
+        "190,4260": 1,
+        "775,4090": 1,
+        "80,4420": 1
+      },
+      "pins_reached": [
+        "C1-PWR1.1",
+        "F1-PWR1.2",
+        "R63-PWR1.1",
+        "U1-PWR1.5"
+      ],
+      "pins_reached_count": 4,
+      "wire_count": 4
+    },
+    "ADC_AREG": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "215,3300": 1,
+        "390,3200": 1,
+        "695,3400": 1
+      },
+      "pins_reached": [
+        "C48-AUD.1",
+        "C90-AUD.1",
+        "U11-AUD.17"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "ADC_DREG": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "570,3200": 1,
+        "695,3370": 1,
+        "755,3400": 1
+      },
+      "pins_reached": [
+        "C49-AUD.1",
+        "C91-AUD.1",
+        "U11-AUD.14"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "ADC_VREF": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "30,3300": 1,
+        "695,3410": 1
+      },
+      "pins_reached": [
+        "C51-AUD.1",
+        "U11-AUD.18"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "AUDIO_BCLK": {
+      "distinct_points": 8,
+      "islands": 4,
+      "pins_per_island": {
+        "280,2875": 1,
+        "290,3040": 1,
+        "315,3370": 1,
+        "570,2795": 1
+      },
+      "pins_reached": [
+        "J8-AUD.2",
+        "R35-AUD.2",
+        "TP7-AUD.1",
+        "U11-AUD.7"
+      ],
+      "pins_reached_count": 4,
+      "wire_count": 4
+    },
+    "AUDIO_BCLK_ISO": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "210,3040": 1,
+        "650,2875": 1
+      },
+      "pins_reached": [
+        "R32-AUD.2",
+        "R35-AUD.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "AUDIO_BCLK_RT": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2415,4660": 0,
+        "570,2875": 1
+      },
+      "pins_reached": [
+        "R32-AUD.1"
+      ],
+      "pins_reached_count": 1,
+      "wire_count": 2
+    },
+    "AUDIO_DOUT": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2120,3800": 1,
+        "650,3040": 1
+      },
+      "pins_reached": [
+        "R37-AUD.2",
+        "U6-RTC.H12"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "AUDIO_DOUT_ADC": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "315,3380": 1,
+        "570,3040": 1
+      },
+      "pins_reached": [
+        "R37-AUD.1",
+        "U11-AUD.6"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "AUDIO_FSYNC": {
+      "distinct_points": 8,
+      "islands": 4,
+      "pins_per_island": {
+        "280,2865": 1,
+        "315,3360": 1,
+        "470,3040": 1,
+        "750,2795": 1
+      },
+      "pins_reached": [
+        "J8-AUD.3",
+        "R36-AUD.2",
+        "TP8-AUD.1",
+        "U11-AUD.8"
+      ],
+      "pins_reached_count": 4,
+      "wire_count": 4
+    },
+    "AUDIO_FSYNC_ISO": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "390,3040": 1,
+        "830,2875": 1
+      },
+      "pins_reached": [
+        "R33-AUD.2",
+        "R36-AUD.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "AUDIO_FSYNC_RT": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2110,3800": 1,
+        "750,2875": 1
+      },
+      "pins_reached": [
+        "R33-AUD.1",
+        "U6-RTC.H11"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "AUDIO_MCLK": {
+      "distinct_points": 12,
+      "islands": 6,
+      "pins_per_island": {
+        "110,3040": 1,
+        "280,2885": 1,
+        "4870,3100": 1,
+        "65,2855": 1,
+        "695,3420": 1,
+        "765,3035": 1
+      },
+      "pins_reached": [
+        "C52-AUD.1",
+        "J8-AUD.1",
+        "R34-AUD.2",
+        "R57-VAL.2",
+        "TP3-AUD.1",
+        "U11-AUD.19"
+      ],
+      "pins_reached_count": 6,
+      "wire_count": 6
+    },
+    "AUDIO_MCLK_ISO": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "470,2875": 1,
+        "70,3040": 1
+      },
+      "pins_reached": [
+        "R31-AUD.2",
+        "R34-AUD.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "AUDIO_MCLK_RT": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2280,3800": 1,
+        "390,2875": 1
+      },
+      "pins_reached": [
+        "R31-AUD.1",
+        "U6-RTC.J14"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "BOOT_MODE0": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "2415,4510": 0,
+        "3045,4550": 1,
+        "4150,2930": 1
+      },
+      "pins_reached": [
+        "R10-RTC.1",
+        "R61-VAL.2"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 3
+    },
+    "BOOT_MODE1": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2415,4680": 0,
+        "3125,4550": 1
+      },
+      "pins_reached": [
+        "R11-RTC.1"
+      ],
+      "pins_reached_count": 1,
+      "wire_count": 2
+    },
+    "BUCK_EN": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "1080,4575": 1,
+        "1780,4405": 1
+      },
+      "pins_reached": [
+        "R7-PWR2.2",
+        "U3-PWR2.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "BUCK_FB": {
+      "distinct_points": 8,
+      "islands": 4,
+      "pins_per_island": {
+        "1110,4410": 1,
+        "1310,4565": 1,
+        "1420,4405": 1,
+        "1560,4405": 1
+      },
+      "pins_reached": [
+        "C9-PWR2.2",
+        "R5-PWR2.2",
+        "R6-PWR2.1",
+        "U3-PWR2.9"
+      ],
+      "pins_reached_count": 4,
+      "wire_count": 4
+    },
+    "BUCK_PG": {
+      "distinct_points": 5,
+      "islands": 2,
+      "pins_per_island": {
+        "1000,-4480": 0,
+        "990,4480": 1
+      },
+      "pins_reached": [
+        "R75-PWR2.1"
+      ],
+      "pins_reached_count": 1,
+      "wire_count": 2
+    },
+    "BUCK_SS": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "1000,4295": 1,
+        "1310,4555": 1
+      },
+      "pins_reached": [
+        "C10-PWR2.1",
+        "U3-PWR2.8"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "BUCK_SW": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "1080,4565": 1,
+        "1200,4405": 1
+      },
+      "pins_reached": [
+        "L1-PWR2.1",
+        "U3-PWR2.2"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "DCDC_PSWITCH": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "2310,3800": 1,
+        "2805,4470": 1,
+        "2845,4470": 1
+      },
+      "pins_reached": [
+        "C89-RTC.1",
+        "R70-RTC.2",
+        "U6-RTC.K3"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "DCDC_SW": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "2410,4060": 1,
+        "2420,4060": 1,
+        "2595,4470": 1
+      },
+      "pins_reached": [
+        "L4-RTC.1",
+        "U6-RTC.M1",
+        "U6-RTC.M2"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "ESP_EN": {
+      "distinct_points": 10,
+      "islands": 5,
+      "pins_per_island": {
+        "4170,4385": 0,
+        "4195,4595": 1,
+        "4420,4585": 1,
+        "4810,4490": 1,
+        "4830,4575": 1
+      },
+      "pins_reached": [
+        "C42-ESP.1",
+        "J6-ESP.5",
+        "R19-ESP.2",
+        "SW3-ESP.1"
+      ],
+      "pins_reached_count": 4,
+      "wire_count": 5
+    },
+    "ESP_GPIO0": {
+      "distinct_points": 8,
+      "islands": 4,
+      "pins_per_island": {
+        "4065,4590": 1,
+        "4340,4275": 0,
+        "4580,4588": 1,
+        "4810,4500": 1
+      },
+      "pins_reached": [
+        "J6-ESP.6",
+        "R20-ESP.2",
+        "SW2-ESP.1"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 4
+    },
+    "ESP_UART0_RX": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "4340,4365": 0,
+        "4810,4480": 1
+      },
+      "pins_reached": [
+        "J6-ESP.4"
+      ],
+      "pins_reached_count": 1,
+      "wire_count": 2
+    },
+    "ESP_UART0_TX": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "4150,3390": 1,
+        "4340,4375": 0,
+        "4730,4480": 1
+      },
+      "pins_reached": [
+        "J6-ESP.3",
+        "R58-VAL.2"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 3
+    },
+    "ESP_USB_VBUS_SENSE": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "4170,4335": 0,
+        "4490,3890": 1,
+        "4540,3890": 1
+      },
+      "pins_reached": [
+        "R71-ESP.2",
+        "R72-ESP.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 3
+    },
+    "FLEXSPI_D0": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2120,4060": 1,
+        "3835,4595": 1
+      },
+      "pins_reached": [
+        "U6-RTC.P3",
+        "U8-RTDBG.5"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "FLEXSPI_D1": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2250,4060": 1,
+        "3580,4615": 1
+      },
+      "pins_reached": [
+        "U6-RTC.N4",
+        "U8-RTDBG.2"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "FLEXSPI_D2": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "3510,4550": 1,
+        "3580,4605": 1
+      },
+      "pins_reached": [
+        "R14-RTDBG.2",
+        "U8-RTDBG.3"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "FLEXSPI_D3": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "3660,4415": 1,
+        "3835,4615": 1
+      },
+      "pins_reached": [
+        "R69-RTDBG.2",
+        "U8-RTDBG.7"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "FLEXSPI_SCLK": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2460,3800": 1,
+        "3835,4605": 1
+      },
+      "pins_reached": [
+        "U6-RTC.L4",
+        "U8-RTDBG.6"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "FLEXSPI_SS0": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2450,3800": 1,
+        "3580,4625": 1
+      },
+      "pins_reached": [
+        "U6-RTC.L3",
+        "U8-RTDBG.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "GND": {
+      "distinct_points": 375,
+      "islands": 186,
+      "pins_per_island": {
+        "100,4345": 1,
+        "1055,4305": 1,
+        "1080,4545": 1,
+        "110,2535": 1,
+        "110,3200": 1,
+        "110,3300": 1,
+        "1105,2535": 1,
+        "1105,2960": 1,
+        "1110,2822": 1,
+        "1110,4000": 1,
+        "1115,3720": 1,
+        "1115,3840": 1,
+        "1160,3840": 1,
+        "1255,2960": 1,
+        "1280,3720": 1,
+        "1285,2535": 1,
+        "1290,4000": 1,
+        "1290,4300": 1,
+        "1310,4545": 1,
+        "135,2855": 1,
+        "1405,2960": 1,
+        "1435,4340": 1,
+        "1440,3138": 1,
+        "1450,4010": 1,
+        "1465,2822": 1,
+        "1470,2535": 1,
+        "1470,3720": 1,
+        "1475,3310": 1,
+        "1475,3350": 1,
+        "1475,3410": 1,
+        "150,4420": 1,
+        "1520,4145": 1,
+        "1555,2960": 1,
+        "1570,4075": 1,
+        "1600,4405": 1,
+        "1605,3350": 1,
+        "1605,3400": 1,
+        "1605,3470": 1,
+        "1615,4340": 1,
+        "1645,2535": 1,
+        "1650,3900": 1,
+        "1655,3720": 1,
+        "1705,2960": 1,
+        "1725,4020": 1,
+        "1830,2535": 1,
+        "1835,4300": 1,
+        "1855,2960": 1,
+        "2010,4060": 1,
+        "2055,3660": 1,
+        "2060,3250": 1,
+        "2060,3725": 1,
+        "2070,3800": 1,
+        "2080,3800": 1,
+        "2120,2525": 1,
+        "2140,4060": 1,
+        "2165,3725": 1,
+        "2190,3660": 1,
+        "2200,4060": 1,
+        "2210,3800": 1,
+        "2210,4060": 1,
+        "2215,4450": 0,
+        "2215,4500": 0,
+        "2215,4550": 0,
+        "2215,4680": 0,
+        "2220,3800": 1,
+        "2240,4060": 1,
+        "2270,4060": 1,
+        "2275,3725": 1,
+        "2280,4060": 1,
+        "2300,3800": 1,
+        "2320,3660": 1,
+        "2360,2525": 1,
+        "2370,3800": 1,
+        "2390,3725": 1,
+        "2410,3800": 1,
+        "2415,4280": 0,
+        "2415,4390": 0,
+        "2415,4610": 0,
+        "2415,4620": 0,
+        "2460,3660": 1,
+        "2480,4060": 1,
+        "250,4420": 1,
+        "2500,3725": 1,
+        "2595,3660": 1,
+        "2605,3725": 1,
+        "265,4345": 1,
+        "2670,3890": 1,
+        "2670,3970": 1,
+        "2670,4050": 1,
+        "2670,4130": 1,
+        "2670,4210": 1,
+        "2670,4290": 1,
+        "2675,4370": 1,
+        "2720,3725": 1,
+        "2730,3660": 1,
+        "280,2855": 1,
+        "2800,3890": 1,
+        "2800,3970": 1,
+        "2800,4050": 1,
+        "2800,4130": 1,
+        "2800,4290": 1,
+        "2800,4370": 1,
+        "2805,4210": 1,
+        "2825,3725": 1,
+        "285,3300": 1,
+        "2860,3660": 1,
+        "290,3200": 1,
+        "2920,3890": 1,
+        "2920,3970": 1,
+        "2920,4050": 1,
+        "2920,4130": 1,
+        "2920,4210": 1,
+        "2920,4290": 1,
+        "2920,4370": 1,
+        "2925,4470": 1,
+        "3005,4300": 1,
+        "3065,3975": 1,
+        "3085,4415": 1,
+        "3085,4550": 1,
+        "3095,4310": 1,
+        "3135,2525": 1,
+        "3135,3390": 1,
+        "3170,4420": 1,
+        "3225,3375": 1,
+        "3270,4420": 1,
+        "3295,2802": 1,
+        "3360,4420": 1,
+        "3375,2525": 1,
+        "3375,3098": 1,
+        "3400,3960": 1,
+        "3535,2802": 1,
+        "3535,4415": 1,
+        "3565,3380": 1,
+        "3580,4595": 1,
+        "3615,3098": 1,
+        "3655,4505": 1,
+        "3750,4525": 1,
+        "3855,3098": 1,
+        "3865,4505": 1,
+        "405,3340": 1,
+        "405,3390": 1,
+        "405,4420": 1,
+        "4110,4140": 1,
+        "4125,4590": 1,
+        "4145,3980": 1,
+        "4150,2525": 1,
+        "4150,3720": 1,
+        "4170,4405": 0,
+        "4180,3110": 1,
+        "425,2530": 1,
+        "425,2550": 1,
+        "425,2570": 1,
+        "4255,4595": 1,
+        "4325,3980": 1,
+        "4335,4040": 1,
+        "4340,4405": 0,
+        "4340,4420": 0,
+        "4350,2485": 1,
+        "4620,3890": 1,
+        "4640,2945": 1,
+        "4640,4495": 1,
+        "465,4120": 1,
+        "4680,4575": 1,
+        "470,3200": 1,
+        "4725,4280": 1,
+        "4725,4390": 1,
+        "4730,4500": 1,
+        "4765,4575": 1,
+        "4775,2940": 1,
+        "4815,4270": 1,
+        "4840,3975": 1,
+        "4870,4575": 1,
+        "4875,4280": 1,
+        "4875,4390": 1,
+        "515,3340": 1,
+        "515,3800": 1,
+        "625,3380": 1,
+        "625,3430": 1,
+        "650,3200": 1,
+        "655,4210": 1,
+        "70,4165": 1,
+        "755,4490": 1,
+        "780,3710": 1,
+        "825,3200": 1,
+        "825,3400": 1,
+        "835,3800": 1
+      },
+      "pins_reached": [
+        "C1-PWR1.2",
+        "C10-PWR2.2",
+        "C11-PWR2.2",
+        "C12-PWR2.2",
+        "C13-PWR2.2",
+        "C14-PWR2.2",
+        "C15-PWR2.2",
+        "C16-PWR2.2",
+        "C17-PWR2.2",
+        "C18-RTC.2",
+        "C19-RTC.2",
+        "C2-PWR1.2",
+        "C20-RTC.2",
+        "C21-RTC.2",
+        "C22-RTC.2",
+        "C23-RTC.2",
+        "C24-RTC.2",
+        "C25-RTC.2",
+        "C26-RTC.2",
+        "C27-RTC.2",
+        "C28-RTC.2",
+        "C29-RTC.2",
+        "C3-PWR1.2",
+        "C30-RTC.2",
+        "C31-RTC.2",
+        "C32-RTC.2",
+        "C33-RTC.2",
+        "C34-RTC.2",
+        "C35-RTDBG.2",
+        "C36-RTDBG.2",
+        "C37-RTDBG.2",
+        "C38-RTDBG.2",
+        "C39-ESP.2",
+        "C4-PWR1.2",
+        "C40-ESP.2",
+        "C41-ESP.2",
+        "C42-ESP.2",
+        "C43-ESP.2",
+        "C44-ESP.2",
+        "C45-ESP.2",
+        "C46-AUD.2",
+        "C47-AUD.2",
+        "C48-AUD.2",
+        "C49-AUD.2",
+        "C5-PWR2.2",
+        "C50-AUD.2",
+        "C51-AUD.2",
+        "C52-AUD.2",
+        "C53-AUD.2",
+        "C54-NFC.2",
+        "C55-NFC.2",
+        "C56-NFC.2",
+        "C57-NFC.2",
+        "C58-NFC.2",
+        "C59-NFC.2",
+        "C6-PWR2.2",
+        "C61-NFC.2",
+        "C62-MOT.2",
+        "C63-MOT.2",
+        "C64-LED.2",
+        "C65-LED.2",
+        "C66-VAL.2",
+        "C67-PWR1.2",
+        "C68-PWR2.2",
+        "C69-RTC.2",
+        "C7-PWR2.2",
+        "C70-RTC.2",
+        "C71-RTC.2",
+        "C72-RTC.2",
+        "C73-RTC.2",
+        "C74-RTC.2",
+        "C75-RTC.2",
+        "C76-RTC.2",
+        "C77-RTC.2",
+        "C78-RTC.2",
+        "C79-RTC.2",
+        "C8-PWR2.2",
+        "C80-RTC.2",
+        "C81-RTC.2",
+        "C82-RTC.2",
+        "C83-RTC.2",
+        "C84-RTC.2",
+        "C85-RTC.2",
+        "C86-RTC.2",
+        "C87-RTC.2",
+        "C88-RTC.2",
+        "C89-RTC.2",
+        "C90-AUD.2",
+        "C91-AUD.2",
+        "C92-NFC.2",
+        "C93-NFC.2",
+        "C94-NFC.2",
+        "C95-NFC.2",
+        "C96-NFC.2",
+        "C97-NFC.2",
+        "D1-PWR1.2",
+        "J1-PWR1.B1",
+        "J10-NFC.2",
+        "J11-VAL.6",
+        "J2-LED.3",
+        "J3-LED.3",
+        "J4-RTDBG.3",
+        "J5-RTDBG.4",
+        "J6-ESP.1",
+        "J7-ESP.1",
+        "J7-ESP.A1",
+        "J7-ESP.A12",
+        "J7-ESP.B1",
+        "J7-ESP.B12",
+        "J8-AUD.4",
+        "J9-AUD.2",
+        "J9-AUD.4",
+        "J9-AUD.6",
+        "Q2-VAL.2",
+        "R1-PWR1.2",
+        "R10-RTC.2",
+        "R21-ESP.2",
+        "R22-ESP.2",
+        "R53-LED.2",
+        "R54-LED.2",
+        "R6-PWR2.2",
+        "R64-PWR1.2",
+        "R66-PWR1.2",
+        "R68-RTDBG.2",
+        "R72-ESP.2",
+        "R8-PWR2.2",
+        "R9-PWR2.2",
+        "RT1-LED.2",
+        "RT2-LED.2",
+        "SW1-RTC.1",
+        "SW2-ESP.2",
+        "SW3-ESP.2",
+        "SW4-VAL.2",
+        "U1-PWR1.8",
+        "U10-ESP.2",
+        "U11-AUD.10",
+        "U11-AUD.15",
+        "U11-AUD.20",
+        "U11-AUD.21",
+        "U11-AUD.5",
+        "U12-NFC.12",
+        "U12-NFC.16",
+        "U12-NFC.21",
+        "U12-NFC.26",
+        "U12-NFC.33",
+        "U12-NFC.6",
+        "U13-MOT.6",
+        "U14-LED.3",
+        "U15-LED.3",
+        "U16-VAL.2",
+        "U2-PWR1.7",
+        "U3-PWR2.4",
+        "U3-PWR2.7",
+        "U4-PWR2.2",
+        "U4-PWR2.8",
+        "U5-PWR2.2",
+        "U6-RTC.H7",
+        "U6-RTC.H8",
+        "U6-RTC.J7",
+        "U6-RTC.J8",
+        "U6-RTC.K13",
+        "U6-RTC.K2",
+        "U6-RTC.K9",
+        "U6-RTC.L9",
+        "U6-RTC.N1",
+        "U6-RTC.N2",
+        "U6-RTC.N5",
+        "U6-RTC.N8",
+        "U6-RTC.N9",
+        "U6-RTC.P1",
+        "U6-RTC.P14",
+        "U7-RTC.2",
+        "U8-RTDBG.4",
+        "Y1-RTDBG.2",
+        "Y1-RTDBG.4"
+      ],
+      "pins_reached_count": 175,
+      "wire_count": 186
+    },
+    "I2C_SCL": {
+      "distinct_points": 14,
+      "islands": 7,
+      "pins_per_island": {
+        "110,3400": 1,
+        "1605,3440": 1,
+        "2120,3098": 1,
+        "2840,2812": 1,
+        "4340,4385": 0,
+        "655,4480": 1,
+        "695,3360": 1
+      },
+      "pins_reached": [
+        "R29-AUD.2",
+        "R46-MOT.2",
+        "R47-MOT.2",
+        "U11-AUD.13",
+        "U12-NFC.30",
+        "U2-PWR1.5"
+      ],
+      "pins_reached_count": 6,
+      "wire_count": 7
+    },
+    "I2C_SDA": {
+      "distinct_points": 16,
+      "islands": 8,
+      "pins_per_island": {
+        "1605,3460": 1,
+        "2360,2812": 1,
+        "2600,2812": 1,
+        "355,4560": 1,
+        "4340,4395": 0,
+        "655,4490": 1,
+        "695,3350": 1,
+        "830,3300": 1
+      },
+      "pins_reached": [
+        "R28-AUD.2",
+        "R4-PWR1.1",
+        "R44-MOT.2",
+        "R45-MOT.2",
+        "U11-AUD.12",
+        "U12-NFC.32",
+        "U2-PWR1.4"
+      ],
+      "pins_reached_count": 7,
+      "wire_count": 8
+    },
+    "INA_ALERT": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "265,4560": 1,
+        "655,4500": 1
+      },
+      "pins_reached": [
+        "R3-PWR1.2",
+        "U2-PWR1.3"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "K1BR_CS": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "4235,4220": 0,
+        "4450,3820": 1,
+        "4870,3720": 1
+      },
+      "pins_reached": [
+        "R26-ESP.2",
+        "TP2-ESP.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 3
+    },
+    "K1BR_CS_RT": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2170,3800": 1,
+        "4790,3720": 1
+      },
+      "pins_reached": [
+        "R26-ESP.1",
+        "U6-RTC.J3"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "K1BR_IRQ": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2390,3800": 1,
+        "4150,3820": 1
+      },
+      "pins_reached": [
+        "R27-ESP.2",
+        "U6-RTC.K11"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "K1BR_IRQ_S3": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "4070,3820": 1,
+        "4275,4220": 0
+      },
+      "pins_reached": [
+        "R27-ESP.1"
+      ],
+      "pins_reached_count": 1,
+      "wire_count": 2
+    },
+    "K1BR_MISO": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2290,3800": 1,
+        "4690,3720": 1
+      },
+      "pins_reached": [
+        "R25-ESP.2",
+        "U6-RTC.K1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "K1BR_MISO_S3": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "4265,4220": 0,
+        "4610,3720": 1
+      },
+      "pins_reached": [
+        "R25-ESP.1"
+      ],
+      "pins_reached_count": 1,
+      "wire_count": 2
+    },
+    "K1BR_MOSI": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "4245,4220": 0,
+        "4510,3720": 1
+      },
+      "pins_reached": [
+        "R24-ESP.2"
+      ],
+      "pins_reached_count": 1,
+      "wire_count": 2
+    },
+    "K1BR_MOSI_RT": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2150,3800": 1,
+        "4430,3720": 1
+      },
+      "pins_reached": [
+        "R24-ESP.1",
+        "U6-RTC.J1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "K1BR_SCK": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "4255,4220": 0,
+        "4270,3820": 1,
+        "4330,3720": 1
+      },
+      "pins_reached": [
+        "R23-ESP.2",
+        "TP1-ESP.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 3
+    },
+    "K1BR_SCK_RT": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2180,3800": 1,
+        "4250,3720": 1
+      },
+      "pins_reached": [
+        "R23-ESP.1",
+        "U6-RTC.J4"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "LED_D0_3V3": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2215,4200": 0,
+        "3225,3385": 1
+      },
+      "pins_reached": [
+        "U14-LED.2"
+      ],
+      "pins_reached_count": 1,
+      "wire_count": 2
+    },
+    "LED_D0_5V": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "3390,3375": 1,
+        "3775,2812": 1
+      },
+      "pins_reached": [
+        "R51-LED.1",
+        "U14-LED.4"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "LED_D0_J": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "3295,2812": 1,
+        "3855,2812": 1
+      },
+      "pins_reached": [
+        "J2-LED.2",
+        "R51-LED.2"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "LED_D1_3V3": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2415,4330": 0,
+        "3565,3390": 1
+      },
+      "pins_reached": [
+        "U15-LED.2"
+      ],
+      "pins_reached_count": 1,
+      "wire_count": 2
+    },
+    "LED_D1_5V": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "3055,3098": 1,
+        "3635,3380": 1
+      },
+      "pins_reached": [
+        "R52-LED.1",
+        "U15-LED.4"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "LED_D1_J": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "3135,3098": 1,
+        "3535,2812": 1
+      },
+      "pins_reached": [
+        "J3-LED.2",
+        "R52-LED.2"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "LED_EFUSE_DVDT": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "1580,3900": 1,
+        "1685,4020": 1
+      },
+      "pins_reached": [
+        "C68-PWR2.1",
+        "U4-PWR2.7"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "LED_EFUSE_ILIM": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "1440,4145": 1,
+        "1765,4020": 1
+      },
+      "pins_reached": [
+        "R8-PWR2.1",
+        "U4-PWR2.9"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "LED_OE_L": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "3225,3395": 1,
+        "3295,3098": 1
+      },
+      "pins_reached": [
+        "R53-LED.1",
+        "U14-LED.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "LED_OE_R": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "3535,3098": 1,
+        "3565,3400": 1
+      },
+      "pins_reached": [
+        "R54-LED.1",
+        "U15-LED.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "LED_THERM_L": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2450,4060": 1,
+        "3775,3098": 1
+      },
+      "pins_reached": [
+        "RT1-LED.1",
+        "U6-RTC.L12"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "LED_THERM_R": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2400,3800": 1,
+        "3095,3390": 1
+      },
+      "pins_reached": [
+        "RT2-LED.1",
+        "U6-RTC.K12"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "LPUART1_RX": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2430,4060": 1,
+        "3755,4310": 1
+      },
+      "pins_reached": [
+        "R18-RTDBG.1",
+        "U6-RTC.L14"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "LPUART1_RX_H": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "3400,3980": 1,
+        "3795,4310": 1
+      },
+      "pins_reached": [
+        "J5-RTDBG.2",
+        "R18-RTDBG.2"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "LPUART1_TX": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2420,3800": 1,
+        "3620,4310": 1
+      },
+      "pins_reached": [
+        "R17-RTDBG.1",
+        "U6-RTC.K14"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "LPUART1_TX_H": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "3400,3990": 1,
+        "3700,4310": 1
+      },
+      "pins_reached": [
+        "J5-RTDBG.1",
+        "R17-RTDBG.2"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "MIC_PWR_EN": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "1035,3840": 1,
+        "1755,3780": 1,
+        "2250,3800": 1
+      },
+      "pins_reached": [
+        "Q1-PWR2.1",
+        "R9-PWR2.1",
+        "U6-RTC.J11"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "MOTION_INT1": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "2280,3098": 1,
+        "2365,3300": 1,
+        "2520,3098": 1
+      },
+      "pins_reached": [
+        "R48-MOT.1",
+        "R49-MOT.1",
+        "U13-MOT.12"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "MOTION_INT_RT": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2360,3098": 1,
+        "2460,4060": 1
+      },
+      "pins_reached": [
+        "R48-MOT.2",
+        "U6-RTC.L11"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "MOTION_INT_S3": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2600,3098": 1,
+        "4170,4365": 0
+      },
+      "pins_reached": [
+        "R49-MOT.2"
+      ],
+      "pins_reached_count": 1,
+      "wire_count": 2
+    },
+    "MOTION_SCL": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "2040,3098": 1,
+        "2060,3300": 1,
+        "2760,2812": 1
+      },
+      "pins_reached": [
+        "R46-MOT.1",
+        "R47-MOT.1",
+        "U13-MOT.1"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "MOTION_SDA": {
+      "distinct_points": 8,
+      "islands": 4,
+      "pins_per_island": {
+        "2060,3270": 1,
+        "2280,2812": 1,
+        "2520,2812": 1,
+        "2840,3098": 1
+      },
+      "pins_reached": [
+        "R44-MOT.1",
+        "R45-MOT.1",
+        "R50-MOT.2",
+        "U13-MOT.4"
+      ],
+      "pins_reached_count": 4,
+      "wire_count": 4
+    },
+    "NFC_5V": {
+      "distinct_points": 12,
+      "islands": 6,
+      "pins_per_island": {
+        "1385,3720": 1,
+        "1475,3370": 1,
+        "1575,2535": 1,
+        "1575,3720": 1,
+        "1655,3780": 1,
+        "1750,2535": 1
+      },
+      "pins_reached": [
+        "C16-PWR2.1",
+        "C17-PWR2.1",
+        "C57-NFC.1",
+        "C58-NFC.1",
+        "FB3-PWR2.2",
+        "U12-NFC.10"
+      ],
+      "pins_reached_count": 6,
+      "wire_count": 6
+    },
+    "NFC_AGDC": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "1605,3380": 1,
+        "1785,2960": 1
+      },
+      "pins_reached": [
+        "C97-NFC.1",
+        "U12-NFC.24"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "NFC_ANT": {
+      "distinct_points": 8,
+      "islands": 4,
+      "pins_per_island": {
+        "1390,3098": 1,
+        "1395,2822": 1,
+        "1605,3360": 1,
+        "1830,3108": 1
+      },
+      "pins_reached": [
+        "C61-NFC.1",
+        "J10-NFC.1",
+        "L3-NFC.2",
+        "U12-NFC.22"
+      ],
+      "pins_reached_count": 4,
+      "wire_count": 4
+    },
+    "NFC_EMI": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "1030,2822": 1,
+        "1030,3395": 1,
+        "1650,3108": 1
+      },
+      "pins_reached": [
+        "C59-NFC.1",
+        "L2-NFC.2",
+        "R42-NFC.1"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "NFC_I2C_EN": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "1625,3340": 1,
+        "1640,3240": 1
+      },
+      "pins_reached": [
+        "R76-NFC.1",
+        "U12-NFC.20"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "NFC_IRQ": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "1290,3395": 1,
+        "1605,3410": 1,
+        "4170,4375": 0
+      },
+      "pins_reached": [
+        "R43-NFC.2",
+        "U12-NFC.27"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 3
+    },
+    "NFC_MATCH_IN": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "1110,3395": 1,
+        "1215,2822": 1
+      },
+      "pins_reached": [
+        "C60-NFC.1",
+        "R42-NFC.2"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "NFC_MATCH_L": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "1285,2822": 1,
+        "1750,3108": 1
+      },
+      "pins_reached": [
+        "C60-NFC.2",
+        "L3-NFC.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "NFC_RFO1": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "1475,3340": 1,
+        "1570,3108": 1
+      },
+      "pins_reached": [
+        "L2-NFC.1",
+        "U12-NFC.13"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "NFC_VDD_A": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "1185,2960": 1,
+        "1475,3400": 1
+      },
+      "pins_reached": [
+        "C93-NFC.1",
+        "U12-NFC.7"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "NFC_VDD_AM": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "1475,3360": 1,
+        "1485,2960": 1
+      },
+      "pins_reached": [
+        "C95-NFC.1",
+        "U12-NFC.11"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "NFC_VDD_D": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "1035,2960": 1,
+        "1475,3440": 1
+      },
+      "pins_reached": [
+        "C92-NFC.1",
+        "U12-NFC.3"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "NFC_VDD_DR": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "1475,3330": 1,
+        "1635,2960": 1
+      },
+      "pins_reached": [
+        "C96-NFC.1",
+        "U12-NFC.14"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "NFC_VDD_RF": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "1335,2960": 1,
+        "1475,3380": 1
+      },
+      "pins_reached": [
+        "C94-NFC.1",
+        "U12-NFC.9"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "NFC_XTI": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "1035,2535": 1,
+        "1475,3420": 1,
+        "1725,3315": 1
+      },
+      "pins_reached": [
+        "C54-NFC.1",
+        "U12-NFC.5",
+        "Y2-NFC.1"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "NFC_XTO": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "1215,2535": 1,
+        "1475,3430": 1,
+        "1825,3315": 1
+      },
+      "pins_reached": [
+        "C55-NFC.1",
+        "U12-NFC.4",
+        "Y2-NFC.2"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "NVCC_PLL_1V1": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "2050,4060": 1,
+        "2850,4290": 1,
+        "2850,4370": 1
+      },
+      "pins_reached": [
+        "C72-RTC.1",
+        "C73-RTC.1",
+        "U6-RTC.P10"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "OPT_BOOT_REC": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "4005,3110": 1,
+        "4310,3100": 1
+      },
+      "pins_reached": [
+        "J11-VAL.1",
+        "R55-VAL.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "OPT_BOOT_REC_RT": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2310,4060": 1,
+        "4390,3100": 1
+      },
+      "pins_reached": [
+        "R55-VAL.2",
+        "U6-RTC.M12"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "OPT_MCLK": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "4005,3090": 1,
+        "4790,3100": 1
+      },
+      "pins_reached": [
+        "J11-VAL.3",
+        "R57-VAL.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "OPT_S3_LOG": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "4070,3390": 1,
+        "4180,3090": 1
+      },
+      "pins_reached": [
+        "J11-VAL.4",
+        "R58-VAL.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "OPT_USB_AUD": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "4005,3100": 1,
+        "4550,3100": 1
+      },
+      "pins_reached": [
+        "J11-VAL.2",
+        "R56-VAL.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "OPT_USB_AUD_RT": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2350,4060": 1,
+        "4630,3100": 1
+      },
+      "pins_reached": [
+        "R56-VAL.2",
+        "U6-RTC.M8"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "PDM_CLK": {
+      "distinct_points": 8,
+      "islands": 4,
+      "pins_per_island": {
+        "245,2705": 1,
+        "425,2560": 1,
+        "570,2535": 1,
+        "620,2705": 1
+      },
+      "pins_reached": [
+        "J9-AUD.3",
+        "R38-AUD.1",
+        "R40-AUD.1",
+        "TP4-AUD.1"
+      ],
+      "pins_reached_count": 4,
+      "wire_count": 4
+    },
+    "PDM_CLK_ADC": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "650,2535": 1,
+        "695,3340": 1
+      },
+      "pins_reached": [
+        "R38-AUD.2",
+        "U11-AUD.11"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "PDM_CLK_RT": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2270,3800": 1,
+        "285,2705": 1
+      },
+      "pins_reached": [
+        "R40-AUD.2",
+        "U6-RTC.J13"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "PDM_DAT": {
+      "distinct_points": 8,
+      "islands": 4,
+      "pins_per_island": {
+        "425,2540": 1,
+        "440,2705": 1,
+        "750,2535": 1,
+        "755,2705": 1
+      },
+      "pins_reached": [
+        "J9-AUD.5",
+        "R39-AUD.1",
+        "R41-AUD.1",
+        "TP5-AUD.1"
+      ],
+      "pins_reached_count": 4,
+      "wire_count": 4
+    },
+    "PDM_DAT_ADC": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "315,3410": 1,
+        "830,2535": 1
+      },
+      "pins_reached": [
+        "R39-AUD.2",
+        "U11-AUD.3"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "PDM_DAT_RT": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2440,4060": 1,
+        "480,2705": 1
+      },
+      "pins_reached": [
+        "R41-AUD.2",
+        "U6-RTC.L13"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "POR_B": {
+      "distinct_points": 11,
+      "islands": 5,
+      "pins_per_island": {
+        "2360,4060": 1,
+        "3130,4320": 1,
+        "3180,3945": 1,
+        "3305,4550": 1,
+        "4630,2525": 1
+      },
+      "pins_reached": [
+        "J4-RTDBG.10",
+        "R12-RTC.2",
+        "R59-VAL.2",
+        "U6-RTC.M7",
+        "U7-RTC.1"
+      ],
+      "pins_reached_count": 5,
+      "wire_count": 5
+    },
+    "RT_PWR_VALID": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "4170,4345": 0,
+        "4390,2930": 1,
+        "4775,2950": 1
+      },
+      "pins_reached": [
+        "R62-VAL.2",
+        "U16-VAL.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 3
+    },
+    "RT_RESET_REQ_N": {
+      "distinct_points": 2,
+      "islands": 1,
+      "pins_per_island": {
+        "3065,4300": 2
+      },
+      "pins_reached": [
+        "SW1-RTC.2",
+        "U7-RTC.3"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 1
+    },
+    "S3_POR_GATE": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "4310,2525": 1,
+        "4870,2525": 1
+      },
+      "pins_reached": [
+        "Q2-VAL.1",
+        "R60-VAL.2"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "S3_POR_OD": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "4350,2565": 1,
+        "4550,2525": 1
+      },
+      "pins_reached": [
+        "Q2-VAL.3",
+        "R59-VAL.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "S3_POR_REQ": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "4170,4355": 0,
+        "4790,2525": 1
+      },
+      "pins_reached": [
+        "R60-VAL.1"
+      ],
+      "pins_reached_count": 1,
+      "wire_count": 2
+    },
+    "S3_VBUS": {
+      "distinct_points": 12,
+      "islands": 6,
+      "pins_per_island": {
+        "4335,4160": 1,
+        "4410,3890": 1,
+        "4725,4310": 1,
+        "4725,4360": 1,
+        "4875,4310": 1,
+        "4875,4360": 1
+      },
+      "pins_reached": [
+        "J7-ESP.A4",
+        "J7-ESP.A9",
+        "J7-ESP.B4",
+        "J7-ESP.B9",
+        "R71-ESP.1",
+        "U10-ESP.5"
+      ],
+      "pins_reached_count": 6,
+      "wire_count": 6
+    },
+    "SDL_SW": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "4070,2930": 1,
+        "4540,2945": 1
+      },
+      "pins_reached": [
+        "R61-VAL.1",
+        "SW4-VAL.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "SWD_SWCLK": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2415,4520": 0,
+        "3380,4310": 1
+      },
+      "pins_reached": [
+        "R15-RTDBG.1"
+      ],
+      "pins_reached_count": 1,
+      "wire_count": 2
+    },
+    "SWD_SWCLK_H": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "3180,3975": 1,
+        "3420,4310": 1
+      },
+      "pins_reached": [
+        "J4-RTDBG.4",
+        "R15-RTDBG.2"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "SWD_SWDIO": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2415,4400": 0,
+        "3495,4310": 1
+      },
+      "pins_reached": [
+        "R16-RTDBG.1"
+      ],
+      "pins_reached_count": 1,
+      "wire_count": 2
+    },
+    "SWD_SWDIO_H": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "3180,3985": 1,
+        "3575,4310": 1
+      },
+      "pins_reached": [
+        "J4-RTDBG.2",
+        "R16-RTDBG.2"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "USB_CC1": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "4800,3975": 1,
+        "4875,4320": 1
+      },
+      "pins_reached": [
+        "J7-ESP.A5",
+        "R21-ESP.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "USB_CC2": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "4030,4140": 1,
+        "4725,4350": 1
+      },
+      "pins_reached": [
+        "J7-ESP.B5",
+        "R22-ESP.1"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "USB_DM": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "4365,4040": 1,
+        "4725,4330": 1,
+        "4875,4340": 1
+      },
+      "pins_reached": [
+        "J7-ESP.A7",
+        "J7-ESP.B7",
+        "U10-ESP.3"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "USB_DM_ESD": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "4130,4050": 1,
+        "4365,4160": 1
+      },
+      "pins_reached": [
+        "R74-ESP.1",
+        "U10-ESP.4"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "USB_DM_S3": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "4170,4285": 0,
+        "4210,4050": 1,
+        "4255,3980": 1
+      },
+      "pins_reached": [
+        "C44-ESP.1",
+        "R74-ESP.2"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 3
+    },
+    "USB_DP": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "4305,4040": 1,
+        "4725,4340": 1,
+        "4875,4330": 1
+      },
+      "pins_reached": [
+        "J7-ESP.A6",
+        "J7-ESP.B6",
+        "U10-ESP.1"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "USB_DP_ESD": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "4145,4145": 1,
+        "4305,4160": 1
+      },
+      "pins_reached": [
+        "R73-ESP.1",
+        "U10-ESP.6"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "USB_DP_S3": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "4075,3980": 1,
+        "4170,4275": 0,
+        "4225,4145": 1
+      },
+      "pins_reached": [
+        "C43-ESP.1",
+        "R73-ESP.2"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 3
+    },
+    "USB_EFUSE_DVDT": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "705,4165": 1,
+        "750,3710": 1
+      },
+      "pins_reached": [
+        "C67-PWR1.1",
+        "U1-PWR1.7"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "USB_EFUSE_EN": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "190,3800": 1,
+        "320,3800": 1,
+        "775,4110": 1
+      },
+      "pins_reached": [
+        "R2-PWR1.1",
+        "R63-PWR1.2",
+        "U1-PWR1.1"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "USB_EFUSE_ILIM": {
+      "distinct_points": 5,
+      "islands": 2,
+      "pins_per_island": {
+        "325,4420": 1,
+        "600,4225": 1
+      },
+      "pins_reached": [
+        "R1-PWR1.1",
+        "U1-PWR1.9"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "USB_EFUSE_OVLO": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "360,3800": 1,
+        "475,3800": 1,
+        "775,4130": 1
+      },
+      "pins_reached": [
+        "R2-PWR1.2",
+        "R64-PWR1.1",
+        "U1-PWR1.2"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "USB_EFUSE_PG": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "600,4130": 1,
+        "640,3700": 1
+      },
+      "pins_reached": [
+        "R67-PWR1.2",
+        "U1-PWR1.3"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "USB_EFUSE_PGTH": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "600,4110": 1,
+        "635,3800": 1,
+        "795,3800": 1
+      },
+      "pins_reached": [
+        "R65-PWR1.2",
+        "R66-PWR1.1",
+        "U1-PWR1.4"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "VDD_HIGH_CAP": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "2070,4060": 1,
+        "2850,3890": 1,
+        "2850,3970": 1
+      },
+      "pins_reached": [
+        "C33-RTC.1",
+        "C34-RTC.1",
+        "U6-RTC.P8"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "VDD_SNVS_CAP": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "2330,4060": 1,
+        "2850,4130": 1,
+        "2850,4210": 1
+      },
+      "pins_reached": [
+        "C70-RTC.1",
+        "C71-RTC.1",
+        "U6-RTC.M10"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "VDD_USB_CAP": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "2020,3725": 1,
+        "2135,3725": 1,
+        "2360,3800": 1
+      },
+      "pins_reached": [
+        "C74-RTC.1",
+        "C75-RTC.1",
+        "U6-RTC.K8"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    },
+    "XTALI": {
+      "distinct_points": 8,
+      "islands": 4,
+      "pins_per_island": {
+        "2040,4060": 1,
+        "3015,4415": 1,
+        "3495,4415": 1,
+        "3750,4505": 1
+      },
+      "pins_reached": [
+        "C35-RTDBG.1",
+        "R68-RTDBG.1",
+        "U6-RTC.P11",
+        "Y1-RTDBG.1"
+      ],
+      "pins_reached_count": 4,
+      "wire_count": 4
+    },
+    "XTALO": {
+      "distinct_points": 4,
+      "islands": 2,
+      "pins_per_island": {
+        "2180,4060": 1,
+        "3345,4550": 1
+      },
+      "pins_reached": [
+        "R13-RTDBG.1",
+        "U6-RTC.N11"
+      ],
+      "pins_reached_count": 2,
+      "wire_count": 2
+    },
+    "XTALO_Y": {
+      "distinct_points": 6,
+      "islands": 3,
+      "pins_per_island": {
+        "3140,4420": 1,
+        "3425,4550": 1,
+        "3865,4525": 1
+      },
+      "pins_reached": [
+        "C36-RTDBG.1",
+        "R13-RTDBG.2",
+        "Y1-RTDBG.3"
+      ],
+      "pins_reached_count": 3,
+      "wire_count": 3
+    }
+  },
+  "pin_coverage": {
+    "designators_without_pin_data": [],
+    "designators_without_pin_data_count": 0,
+    "known": true,
+    "multi_part_designators_partially_covered": [
+      {
+        "designator": "U6-RTC",
+        "part_with_pin_data": "e3673",
+        "parts": [
+          "e3295",
+          "e3673"
+        ],
+        "parts_without_pin_data": [
+          "e3295"
+        ],
+        "pins_known": 98
+      }
+    ],
+    "multi_part_designators_partially_covered_count": 1
+  },
+  "schema_version": 1,
+  "verdict": "RED",
+  "violation_counts": {
+    "dangling_wire_endpoints": 722,
+    "fragmented_nets": 142,
+    "nets_reaching_fewer_than_two_pins": 13,
+    "pins_on_multiple_nets": 0,
+    "single_point_nets": 0
+  },
+  "violations": {
+    "dangling_wire_endpoints": [
+      "100,4345",
+      "1000,-4480",
+      "1030,2822",
+      "1030,3395",
+      "1035,2535",
+      "1035,2960",
+      "1035,3720",
+      "1035,3840",
+      "1035,4295",
+      "1040,4000",
+      "1040,4410",
+      "1055,4305",
+      "1070,4480",
+      "1080,4545",
+      "1080,4555",
+      "1080,4565",
+      "1080,4575",
+      "1085,4145",
+      "110,2535",
+      "110,3200",
+      "110,3300",
+      "110,3400",
+      "110,3800",
+      "110,4260",
+      "1105,2535",
+      "1105,2960",
+      "1110,2822",
+      "1110,3395",
+      "1110,4000",
+      "1110,4410",
+      "1115,3720",
+      "1115,3840",
+      "1130,-4535",
+      "1160,3830",
+      "1160,3840",
+      "1160,3850",
+      "1165,4145",
+      "1180,4405",
+      "1185,2960",
+      "1210,3395",
+      "1215,2535",
+      "1215,2822",
+      "1220,4000",
+      "1220,4300",
+      "1230,3720",
+      "1255,2960",
+      "1260,4405",
+      "1265,4145",
+      "1285,2535",
+      "1285,2822",
+      "1290,3395",
+      "1290,4000",
+      "1290,4300",
+      "130,3040",
+      "1300,3720",
+      "1310,3850",
+      "1310,4535",
+      "1310,4545",
+      "1310,4555",
+      "1310,4565",
+      "1310,4575",
+      "1335,2960",
+      "1345,4145",
+      "135,2855",
+      "1360,4405",
+      "1385,3720",
+      "1390,2535",
+      "1390,3098",
+      "1390,3310",
+      "1390,3330",
+      "1390,3340",
+      "1390,3350",
+      "1390,3360",
+      "1390,3370",
+      "1390,3380",
+      "1390,3390",
+      "1390,3400",
+      "1390,3410",
+      "1390,3420",
+      "1390,3430",
+      "1390,3440",
+      "1390,3460",
+      "1395,2822",
+      "1400,4010",
+      "1405,2960",
+      "1435,4260",
+      "1435,4340",
+      "1440,3138",
+      "1440,4145",
+      "1440,4405",
+      "1465,2822",
+      "1470,2535",
+      "1470,3720",
+      "1470,4010",
+      "1485,2960",
+      "150,4420",
+      "1520,4145",
+      "1540,4405",
+      "1555,2960",
+      "1570,3108",
+      "1570,4075",
+      "1570,4095",
+      "1570,4115",
+      "1575,2535",
+      "1575,3720",
+      "1575,3780",
+      "1580,3900",
+      "1615,4260",
+      "1615,4340",
+      "1620,4405",
+      "1625,3340",
+      "1635,2960",
+      "1640,3240",
+      "1645,2535",
+      "1650,3108",
+      "1650,3900",
+      "1655,3720",
+      "1655,3780",
+      "1680,3350",
+      "1680,3360",
+      "1680,3380",
+      "1680,3400",
+      "1680,3410",
+      "1680,3440",
+      "1680,3460",
+      "1680,3470",
+      "1685,4020",
+      "1705,2960",
+      "1720,3240",
+      "1720,4405",
+      "1725,3315",
+      "1725,4020",
+      "1750,2535",
+      "1750,3108",
+      "1755,3780",
+      "1755,4300",
+      "1765,4020",
+      "1785,2960",
+      "1795,3740",
+      "1795,3820",
+      "180,4420",
+      "1800,4405",
+      "1810,4115",
+      "1825,3315",
+      "1830,2535",
+      "1830,3108",
+      "1835,4300",
+      "185,4345",
+      "185,4560",
+      "1855,2960",
+      "190,3800",
+      "190,4260",
+      "1995,3660",
+      "20,4345",
+      "200,2855",
+      "200,2865",
+      "200,2875",
+      "200,2885",
+      "2000,3725",
+      "2010,4060",
+      "2030,4060",
+      "2040,2525",
+      "2040,3098",
+      "2040,4060",
+      "2050,4060",
+      "2060,3250",
+      "2060,3270",
+      "2060,3300",
+      "2060,3800",
+      "2070,3800",
+      "2070,4060",
+      "2075,3660",
+      "2080,3725",
+      "2080,3800",
+      "2090,3800",
+      "210,2535",
+      "210,3040",
+      "210,3200",
+      "2110,3800",
+      "2115,3725",
+      "2120,2525",
+      "2120,3098",
+      "2120,3800",
+      "2120,4060",
+      "2130,3660",
+      "2140,4060",
+      "215,3300",
+      "2150,3800",
+      "2150,4060",
+      "2170,3800",
+      "2180,3800",
+      "2180,4060",
+      "2185,3725",
+      "2190,3800",
+      "2195,4200",
+      "2195,4450",
+      "2195,4500",
+      "2195,4550",
+      "2195,4680",
+      "2200,3800",
+      "2200,4060",
+      "2210,3660",
+      "2210,3800",
+      "2210,4060",
+      "2215,4200",
+      "2215,4450",
+      "2215,4500",
+      "2215,4550",
+      "2215,4680",
+      "2220,3800",
+      "2225,3725",
+      "2230,3800",
+      "2240,3800",
+      "2240,4060",
+      "225,2705",
+      "2250,3800",
+      "2250,4060",
+      "2270,3660",
+      "2270,3800",
+      "2270,4060",
+      "2280,2525",
+      "2280,2812",
+      "2280,3098",
+      "2280,3800",
+      "2280,4060",
+      "2290,3800",
+      "2295,3725",
+      "2300,3800",
+      "2310,3800",
+      "2310,4060",
+      "2320,3800",
+      "2330,3725",
+      "2330,3800",
+      "2330,4060",
+      "2340,3660",
+      "2340,4060",
+      "2350,4060",
+      "2360,2525",
+      "2360,2812",
+      "2360,3098",
+      "2360,3800",
+      "2360,4060",
+      "2365,3270",
+      "2365,3280",
+      "2365,3300",
+      "2370,3800",
+      "2390,3800",
+      "2400,3660",
+      "2400,3800",
+      "2410,3725",
+      "2410,3800",
+      "2410,4060",
+      "2415,4280",
+      "2415,4320",
+      "2415,4330",
+      "2415,4350",
+      "2415,4390",
+      "2415,4400",
+      "2415,4450",
+      "2415,4460",
+      "2415,4470",
+      "2415,4480",
+      "2415,4490",
+      "2415,4500",
+      "2415,4510",
+      "2415,4520",
+      "2415,4600",
+      "2415,4610",
+      "2415,4620",
+      "2415,4630",
+      "2415,4660",
+      "2415,4680",
+      "2420,3800",
+      "2420,4060",
+      "2430,3800",
+      "2430,4060",
+      "2435,4280",
+      "2435,4320",
+      "2435,4330",
+      "2435,4350",
+      "2435,4390",
+      "2435,4400",
+      "2435,4450",
+      "2435,4460",
+      "2435,4470",
+      "2435,4480",
+      "2435,4490",
+      "2435,4500",
+      "2435,4510",
+      "2435,4520",
+      "2435,4600",
+      "2435,4610",
+      "2435,4620",
+      "2435,4630",
+      "2435,4660",
+      "2435,4680",
+      "2440,3725",
+      "2440,3800",
+      "2440,4060",
+      "2450,3800",
+      "2450,4060",
+      "2460,3800",
+      "2460,4060",
+      "2480,3660",
+      "2480,4060",
+      "250,4420",
+      "2520,2812",
+      "2520,3098",
+      "2520,3725",
+      "2535,3660",
+      "2555,3725",
+      "2595,4370",
+      "2595,4470",
+      "2600,2812",
+      "2600,3098",
+      "2600,3890",
+      "2600,3970",
+      "2600,4050",
+      "2600,4130",
+      "2600,4210",
+      "2600,4290",
+      "2615,3660",
+      "2625,3725",
+      "265,4345",
+      "265,4560",
+      "2660,3725",
+      "2670,3660",
+      "2670,3890",
+      "2670,3970",
+      "2670,4050",
+      "2670,4130",
+      "2670,4210",
+      "2670,4290",
+      "2675,4370",
+      "2675,4470",
+      "2725,4210",
+      "2725,4470",
+      "2730,3890",
+      "2730,3970",
+      "2730,4050",
+      "2730,4130",
+      "2730,4290",
+      "2730,4370",
+      "2740,3725",
+      "2750,3660",
+      "2760,2812",
+      "2760,3098",
+      "2775,3725",
+      "2800,3890",
+      "2800,3970",
+      "2800,4050",
+      "2800,4130",
+      "2800,4290",
+      "2800,4370",
+      "2805,4210",
+      "2805,4470",
+      "2810,3660",
+      "2840,2812",
+      "2840,3098",
+      "2845,3725",
+      "2845,4470",
+      "285,3300",
+      "2850,3890",
+      "2850,3970",
+      "2850,4050",
+      "2850,4130",
+      "2850,4210",
+      "2850,4290",
+      "2850,4370",
+      "2880,3660",
+      "290,2535",
+      "290,3040",
+      "290,3200",
+      "2920,3890",
+      "2920,3970",
+      "2920,4050",
+      "2920,4130",
+      "2920,4210",
+      "2920,4290",
+      "2920,4370",
+      "2925,4470",
+      "2990,4300",
+      "30,2535",
+      "30,3200",
+      "30,3300",
+      "30,3400",
+      "300,3800",
+      "3015,4415",
+      "3025,4550",
+      "305,2705",
+      "3055,2525",
+      "3055,3098",
+      "3065,3975",
+      "3065,3985",
+      "3075,3390",
+      "3085,4350",
+      "3085,4415",
+      "3095,4310",
+      "3105,4550",
+      "3120,4420",
+      "3125,4550",
+      "3135,2525",
+      "3135,3098",
+      "315,3350",
+      "315,3360",
+      "315,3370",
+      "315,3380",
+      "315,3410",
+      "3155,3390",
+      "3180,3945",
+      "3180,3975",
+      "3180,3985",
+      "3190,4420",
+      "3205,4550",
+      "3210,4420",
+      "3225,3375",
+      "3225,3385",
+      "3225,3395",
+      "3225,4550",
+      "325,4420",
+      "3260,4310",
+      "3260,4320",
+      "3290,4420",
+      "3295,2525",
+      "3295,2802",
+      "3295,2812",
+      "3295,2822",
+      "3295,3098",
+      "3305,4550",
+      "3310,4420",
+      "3315,3960",
+      "3315,3980",
+      "3315,3990",
+      "3345,4550",
+      "335,4560",
+      "3360,4310",
+      "3375,2525",
+      "3375,3098",
+      "3380,4420",
+      "3390,3375",
+      "3390,3395",
+      "3425,4550",
+      "3440,4310",
+      "3450,4550",
+      "3475,4415",
+      "3495,4310",
+      "3500,3380",
+      "3500,3390",
+      "3500,3400",
+      "3530,4550",
+      "3535,2802",
+      "3535,2812",
+      "3535,2822",
+      "3535,3098",
+      "3555,4415",
+      "3575,4310",
+      "3580,4415",
+      "3580,4595",
+      "3580,4605",
+      "3580,4615",
+      "3580,4625",
+      "3595,4505",
+      "3615,3098",
+      "3620,4310",
+      "3655,3380",
+      "3655,3400",
+      "3660,4415",
+      "3675,4505",
+      "3700,4310",
+      "3735,4310",
+      "3750,4505",
+      "3750,4525",
+      "3775,2812",
+      "3775,3098",
+      "380,3800",
+      "3815,4310",
+      "3835,4595",
+      "3835,4605",
+      "3835,4615",
+      "3835,4625",
+      "3855,2812",
+      "3855,3098",
+      "3865,4505",
+      "3865,4525",
+      "390,2875",
+      "390,3040",
+      "390,3200",
+      "4005,3090",
+      "4005,3100",
+      "4005,3110",
+      "4030,4140",
+      "4040,4275",
+      "4040,4285",
+      "4040,4335",
+      "4040,4345",
+      "4040,4355",
+      "4040,4365",
+      "4040,4375",
+      "4040,4385",
+      "4040,4395",
+      "4040,4405",
+      "4045,4590",
+      "405,3340",
+      "405,3390",
+      "405,4420",
+      "4070,2525",
+      "4070,2930",
+      "4070,3390",
+      "4070,3720",
+      "4070,3820",
+      "4075,3980",
+      "4110,4140",
+      "4130,4050",
+      "4145,3980",
+      "4145,4145",
+      "4145,4590",
+      "415,4560",
+      "4150,2525",
+      "4150,2930",
+      "4150,3390",
+      "4150,3720",
+      "4150,3820",
+      "4170,4275",
+      "4170,4285",
+      "4170,4335",
+      "4170,4345",
+      "4170,4355",
+      "4170,4365",
+      "4170,4375",
+      "4170,4385",
+      "4170,4395",
+      "4170,4405",
+      "4175,4595",
+      "4180,3090",
+      "4180,3100",
+      "4180,3110",
+      "420,2705",
+      "4210,4050",
+      "4225,4145",
+      "4230,3820",
+      "4235,4200",
+      "4235,4220",
+      "4245,4200",
+      "4245,4220",
+      "425,2530",
+      "425,2540",
+      "425,2550",
+      "425,2560",
+      "425,2570",
+      "425,2580",
+      "4250,3720",
+      "4255,3980",
+      "4255,4200",
+      "4255,4220",
+      "4265,4200",
+      "4265,4220",
+      "4275,4200",
+      "4275,4220",
+      "4275,4595",
+      "4305,4060",
+      "4305,4140",
+      "4310,2525",
+      "4310,2930",
+      "4310,3100",
+      "4310,3390",
+      "4325,3980",
+      "4330,3720",
+      "4335,4060",
+      "4335,4140",
+      "4340,4275",
+      "4340,4365",
+      "4340,4375",
+      "4340,4385",
+      "4340,4395",
+      "4340,4405",
+      "4340,4420",
+      "4350,2485",
+      "4350,2565",
+      "4360,4275",
+      "4360,4365",
+      "4360,4375",
+      "4360,4385",
+      "4360,4395",
+      "4360,4405",
+      "4360,4420",
+      "4360,4585",
+      "4365,4060",
+      "4365,4140",
+      "4390,2930",
+      "4390,3100",
+      "4400,3820",
+      "4410,3890",
+      "4430,3720",
+      "4440,4585",
+      "4490,3890",
+      "4500,4588",
+      "4510,3720",
+      "4540,2945",
+      "4540,3890",
+      "455,3800",
+      "4550,2525",
+      "4550,3100",
+      "4580,4588",
+      "4610,3720",
+      "4620,3890",
+      "4620,4575",
+      "4630,2525",
+      "4630,3100",
+      "4640,2945",
+      "4640,4435",
+      "4640,4515",
+      "465,4090",
+      "465,4120",
+      "4690,2940",
+      "4690,2950",
+      "4690,3720",
+      "470,2875",
+      "470,3040",
+      "470,3200",
+      "4700,4575",
+      "4715,4575",
+      "4725,4280",
+      "4725,4310",
+      "4725,4330",
+      "4725,4340",
+      "4725,4350",
+      "4725,4360",
+      "4725,4390",
+      "4730,4480",
+      "4730,4490",
+      "4730,4500",
+      "4780,3975",
+      "4785,4575",
+      "4790,2525",
+      "4790,3100",
+      "4790,3720",
+      "4810,4480",
+      "4810,4490",
+      "4810,4500",
+      "4810,4575",
+      "4815,4270",
+      "485,4560",
+      "4860,3975",
+      "4870,2525",
+      "4870,3100",
+      "4870,3720",
+      "4875,4280",
+      "4875,4310",
+      "4875,4320",
+      "4875,4330",
+      "4875,4340",
+      "4875,4360",
+      "4875,4390",
+      "4890,4575",
+      "4905,2950",
+      "50,3040",
+      "500,2705",
+      "510,4090",
+      "515,3340",
+      "535,3800",
+      "560,3700",
+      "565,4560",
+      "570,2535",
+      "570,2795",
+      "570,2875",
+      "570,3040",
+      "570,3200",
+      "575,3800",
+      "580,4110",
+      "580,4130",
+      "585,4480",
+      "585,4490",
+      "585,4500",
+      "600,2705",
+      "600,4225",
+      "625,3380",
+      "625,3430",
+      "640,3700",
+      "65,2855",
+      "650,2535",
+      "650,2875",
+      "650,3040",
+      "650,3200",
+      "655,3800",
+      "655,4210",
+      "695,3340",
+      "695,3350",
+      "695,3360",
+      "695,3370",
+      "695,3390",
+      "695,3400",
+      "695,3410",
+      "695,3420",
+      "70,4135",
+      "70,4165",
+      "705,4185",
+      "730,3710",
+      "745,3035",
+      "750,2535",
+      "750,2795",
+      "750,2875",
+      "750,3300",
+      "755,2705",
+      "755,3200",
+      "755,3400",
+      "775,3800",
+      "795,4110",
+      "795,4130",
+      "80,4420",
+      "800,3710",
+      "825,3200",
+      "825,3400",
+      "830,2535",
+      "830,2875",
+      "830,3300",
+      "840,4480",
+      "840,4490",
+      "840,4520",
+      "855,3800",
+      "865,4050",
+      "980,4295",
+      "990,4480"
+    ],
+    "fragmented_nets": {
+      "+5V_LED_L": 5,
+      "+5V_LED_R": 5,
+      "1V15_CORE": 18,
+      "3V3": 90,
+      "3V3_MIC": 3,
+      "3V3_MIC_FLEX": 3,
+      "3V3_MIC_REG": 2,
+      "5V_LED_COMMON": 4,
+      "5V_PROTECTED": 6,
+      "5V_SYS": 12,
+      "5V_USB": 2,
+      "5V_USB_FILTERED": 4,
+      "ADC_AREG": 3,
+      "ADC_DREG": 3,
+      "ADC_VREF": 2,
+      "AUDIO_BCLK": 4,
+      "AUDIO_BCLK_ISO": 2,
+      "AUDIO_BCLK_RT": 2,
+      "AUDIO_DOUT": 2,
+      "AUDIO_DOUT_ADC": 2,
+      "AUDIO_FSYNC": 4,
+      "AUDIO_FSYNC_ISO": 2,
+      "AUDIO_FSYNC_RT": 2,
+      "AUDIO_MCLK": 6,
+      "AUDIO_MCLK_ISO": 2,
+      "AUDIO_MCLK_RT": 2,
+      "BOOT_MODE0": 3,
+      "BOOT_MODE1": 2,
+      "BUCK_EN": 2,
+      "BUCK_FB": 4,
+      "BUCK_PG": 2,
+      "BUCK_SS": 2,
+      "BUCK_SW": 2,
+      "DCDC_PSWITCH": 3,
+      "DCDC_SW": 3,
+      "ESP_EN": 5,
+      "ESP_GPIO0": 4,
+      "ESP_UART0_RX": 2,
+      "ESP_UART0_TX": 3,
+      "ESP_USB_VBUS_SENSE": 3,
+      "FLEXSPI_D0": 2,
+      "FLEXSPI_D1": 2,
+      "FLEXSPI_D2": 2,
+      "FLEXSPI_D3": 2,
+      "FLEXSPI_SCLK": 2,
+      "FLEXSPI_SS0": 2,
+      "GND": 186,
+      "I2C_SCL": 7,
+      "I2C_SDA": 8,
+      "INA_ALERT": 2,
+      "K1BR_CS": 3,
+      "K1BR_CS_RT": 2,
+      "K1BR_IRQ": 2,
+      "K1BR_IRQ_S3": 2,
+      "K1BR_MISO": 2,
+      "K1BR_MISO_S3": 2,
+      "K1BR_MOSI": 2,
+      "K1BR_MOSI_RT": 2,
+      "K1BR_SCK": 3,
+      "K1BR_SCK_RT": 2,
+      "LED_D0_3V3": 2,
+      "LED_D0_5V": 2,
+      "LED_D0_J": 2,
+      "LED_D1_3V3": 2,
+      "LED_D1_5V": 2,
+      "LED_D1_J": 2,
+      "LED_EFUSE_DVDT": 2,
+      "LED_EFUSE_ILIM": 2,
+      "LED_OE_L": 2,
+      "LED_OE_R": 2,
+      "LED_THERM_L": 2,
+      "LED_THERM_R": 2,
+      "LPUART1_RX": 2,
+      "LPUART1_RX_H": 2,
+      "LPUART1_TX": 2,
+      "LPUART1_TX_H": 2,
+      "MIC_PWR_EN": 3,
+      "MOTION_INT1": 3,
+      "MOTION_INT_RT": 2,
+      "MOTION_INT_S3": 2,
+      "MOTION_SCL": 3,
+      "MOTION_SDA": 4,
+      "NFC_5V": 6,
+      "NFC_AGDC": 2,
+      "NFC_ANT": 4,
+      "NFC_EMI": 3,
+      "NFC_I2C_EN": 2,
+      "NFC_IRQ": 3,
+      "NFC_MATCH_IN": 2,
+      "NFC_MATCH_L": 2,
+      "NFC_RFO1": 2,
+      "NFC_VDD_A": 2,
+      "NFC_VDD_AM": 2,
+      "NFC_VDD_D": 2,
+      "NFC_VDD_DR": 2,
+      "NFC_VDD_RF": 2,
+      "NFC_XTI": 3,
+      "NFC_XTO": 3,
+      "NVCC_PLL_1V1": 3,
+      "OPT_BOOT_REC": 2,
+      "OPT_BOOT_REC_RT": 2,
+      "OPT_MCLK": 2,
+      "OPT_S3_LOG": 2,
+      "OPT_USB_AUD": 2,
+      "OPT_USB_AUD_RT": 2,
+      "PDM_CLK": 4,
+      "PDM_CLK_ADC": 2,
+      "PDM_CLK_RT": 2,
+      "PDM_DAT": 4,
+      "PDM_DAT_ADC": 2,
+      "PDM_DAT_RT": 2,
+      "POR_B": 5,
+      "RT_PWR_VALID": 3,
+      "S3_POR_GATE": 2,
+      "S3_POR_OD": 2,
+      "S3_POR_REQ": 2,
+      "S3_VBUS": 6,
+      "SDL_SW": 2,
+      "SWD_SWCLK": 2,
+      "SWD_SWCLK_H": 2,
+      "SWD_SWDIO": 2,
+      "SWD_SWDIO_H": 2,
+      "USB_CC1": 2,
+      "USB_CC2": 2,
+      "USB_DM": 3,
+      "USB_DM_ESD": 2,
+      "USB_DM_S3": 3,
+      "USB_DP": 3,
+      "USB_DP_ESD": 2,
+      "USB_DP_S3": 3,
+      "USB_EFUSE_DVDT": 2,
+      "USB_EFUSE_EN": 3,
+      "USB_EFUSE_ILIM": 2,
+      "USB_EFUSE_OVLO": 3,
+      "USB_EFUSE_PG": 2,
+      "USB_EFUSE_PGTH": 3,
+      "VDD_HIGH_CAP": 3,
+      "VDD_SNVS_CAP": 3,
+      "VDD_USB_CAP": 3,
+      "XTALI": 4,
+      "XTALO": 2,
+      "XTALO_Y": 3
+    },
+    "nets_reaching_fewer_than_two_pins": [
+      "AUDIO_BCLK_RT",
+      "BOOT_MODE1",
+      "BUCK_PG",
+      "ESP_UART0_RX",
+      "K1BR_IRQ_S3",
+      "K1BR_MISO_S3",
+      "K1BR_MOSI",
+      "LED_D0_3V3",
+      "LED_D1_3V3",
+      "MOTION_INT_S3",
+      "S3_POR_REQ",
+      "SWD_SWCLK",
+      "SWD_SWDIO"
+    ],
+    "pins_on_multiple_nets": {},
+    "single_point_nets": []
+  }
+}

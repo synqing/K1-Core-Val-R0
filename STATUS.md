@@ -9,8 +9,8 @@ Updated: 2026-08-28
 | VAL-G2 | **READY** |
 | VAL-G2.0A fixture definition | **RETIRED_BY_D-042 — corrected historical inventory 181, planned 218; old 120-net threshold not met** |
 | VAL-G2.0B EasyEDA qualification execution | **TERMINATED_BY_D-042 — qualification project frozen** |
-| VAL-G2.1 canonical single-sheet schematic capture | **IN PROGRESS — project 64325d0e55e0435abd018defb0089a9b** |
-| VAL-G3 envelope and floorplan | NOT STARTED |
+| VAL-G2.1 canonical single-sheet schematic capture | **IN PROGRESS — project 64325d0e55e0435abd018defb0089a9b; authority layer caught up to the tree 2026-08-28 (D-044 … D-047)** |
+| VAL-G3 envelope and floorplan | NOT STARTED — non-binding direction recorded in `architecture/G3-FLOORPLAN-DOCTRINE.md` (`RECORDED_NOT_EXECUTED`) |
 | VAL-G4 placement and locks | NOT STARTED |
 | VAL-G5 stack, rules, planes | NOT STARTED |
 | VAL-G6 route and DRC | NOT STARTED |
@@ -62,6 +62,32 @@ canonical page; the qualification project receives no further mutation.
 
 Voice PE specimen re-derivation is D-043 (`docs/agent/VOICE-PE-SPECIMEN-VAL-R0.md`).
 Receipt: `evidence/VAL-G2-2026-08-28/CURRENT-STATE-RECEIPT.md`. That lane does not write EasyEDA.
+
+### Authority catch-up, 2026-08-28
+
+The authority layer had fallen behind the live schematic. Four closed transaction families had no
+authority record, and three real design rulings existed only as Python string literals. Both gaps
+are closed:
+
+| Transaction family | Now recorded as |
+| --- | --- |
+| `canonical-power-buck-ss-cap-wire`, `canonical-power-buck-pg-pullup-*` | D-045; `architecture/POWER-ARCHITECTURE.md` |
+| `canonical-nfc-i2c-en-pullup-*` | D-046; `contracts/nfc-interface.md` |
+| `canonical-nfc-regulator-decouple-*` | D-047; `contracts/nfc-interface.md` |
+
+D-044 records Captain's two-receptacle USB ruling and amends `contracts/usb-interface.md`:
+service USB is `J7-ESP` / ESP32_S3, direct USB is `J1-PWR1` / RT1062, and USB audio terminates on
+J1 rather than remaining an open exception. D-014 is `AMENDED_BY_D-044`.
+
+`evidence/VAL-G2-2026-08-28/canonical-core-val-r0/TAKEOVER-RECEIPT.md` is **historical**. Its
+"Remaining DRC (not done this pass)" list — the NFC regulator caps and the PG decision — is closed
+by D-045 and D-047 and by the transactions above. The receipt is left unedited as the record of
+what was true at takeover.
+
+`architecture/G3-FLOORPLAN-DOCTRINE.md` records the mechanical and RF direction for VAL-G3 as
+`RECORDED_NOT_EXECUTED`. Nothing in it is ratified, and it contains no coordinates. Three bad
+artefacts are tombstoned in `authority/05-SUPERSESSIONS.md`: the `15 x 7 mm` antenna keepout, the
+four-screw mounting default and the short-edge USB-C assumption.
 
 ## Now unblocked by VAL-G1 closure
 

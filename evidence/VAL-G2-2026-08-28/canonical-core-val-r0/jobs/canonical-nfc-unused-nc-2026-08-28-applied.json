@@ -1,0 +1,79 @@
+{
+  "ok": true,
+  "applied": [
+    {
+      "designator": "U12-NFC",
+      "componentPrimitiveId": "e13516",
+      "pinNumber": "2",
+      "noConnect": true,
+      "pinId": "e13516e9",
+      "attrId": "e151881",
+      "action": "set"
+    },
+    {
+      "designator": "U12-NFC",
+      "componentPrimitiveId": "e13516",
+      "pinNumber": "17",
+      "noConnect": true,
+      "pinId": "e13516e69",
+      "attrId": "e151882",
+      "action": "set"
+    },
+    {
+      "designator": "U12-NFC",
+      "componentPrimitiveId": "e13516",
+      "pinNumber": "18",
+      "noConnect": true,
+      "pinId": "e13516e73",
+      "attrId": "e151883",
+      "action": "set"
+    },
+    {
+      "designator": "U12-NFC",
+      "componentPrimitiveId": "e13516",
+      "pinNumber": "19",
+      "noConnect": true,
+      "pinId": "e13516e77",
+      "attrId": "e151884",
+      "action": "set"
+    },
+    {
+      "designator": "U12-NFC",
+      "componentPrimitiveId": "e13516",
+      "pinNumber": "25",
+      "noConnect": true,
+      "pinId": "e13516e101",
+      "attrId": "e151885",
+      "action": "set"
+    },
+    {
+      "designator": "U12-NFC",
+      "componentPrimitiveId": "e13516",
+      "pinNumber": "28",
+      "noConnect": true,
+      "pinId": "e13516e113",
+      "attrId": "e151886",
+      "action": "set"
+    },
+    {
+      "designator": "U12-NFC",
+      "componentPrimitiveId": "e13516",
+      "pinNumber": "29",
+      "noConnect": true,
+      "pinId": "e13516e117",
+      "attrId": "e151887",
+      "action": "set"
+    },
+    {
+      "designator": "U12-NFC",
+      "componentPrimitiveId": "e13516",
+      "pinNumber": "31",
+      "noConnect": true,
+      "pinId": "e13516e125",
+      "attrId": "e151888",
+      "action": "set"
+    }
+  ],
+  "skipped": [],
+  "maxId": "e151889"
+}

@@ -1,0 +1,2794 @@
+{
+ "schema_version": 1,
+ "generated": "2026-08-28 (updated against the fresh 14:58:52 GUI DRC; NFC-D2 netlist RESOLVED, drawing half STALE)",
+ "lane": "NFC front-end pin audit, VAL-G2",
+ "status": "PROPOSAL_NOT_APPLIED",
+ "authority_note": "Proposals from a read-only lane. The frozen denominator predates the live document; the single writer must reconfirm every item against live before acting. No EasyEDA tool was called by this lane and no schematic artefact was modified.",
+ "denominator": {
+  "frozen_source": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/frozen-denominator-489736/source.txt",
+  "frozen_source_hash": "489736:464c27d4",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "pin_geometry_source": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/jobs/all-pins-nc-audit.results.json",
+  "drc_log": "schDrcLog_2026-08-28.txt (operator download folder, read-only input)",
+  "drc_log_note": "The DRC ran at 12:17:37, BEFORE all three NFC transactions at 12:43, 13:08 and 13:18. Its NFC_VDD_* single-pin-net warnings and its U12-NFC.20 floating warning are STALE and already closed. Its Y2-NFC.3 and Y2-NFC.4 floating warnings are still live.",
+  "known_drift": "The frozen source is the PRE state of transaction canonical-nfc-unused-nc-2026-08-28. The eight U12 no-connect marks are therefore evidenced by that transaction applied.json, not by the frozen source."
+ },
+ "oracle": {
+  "name": "geometry-truth connectivity oracle",
+  "property_measured": "coincidence of a pin connection point with wire-segment geometry, not the net label written on the wire",
+  "self_test": "six-case fault battery, four of which must go RED (pin one unit off a wire, pin in a wire gap, an endpoint not picking up a crossing wire, a two-label bridge). All six behaved as specified.",
+  "frame_mapping": "the API pin frame maps to the document source frame as x unchanged and y negated. Proved on 227 of 228 designators; the single miss is U6-RTC, whose designator is duplicated in the index and which is outside this lane.",
+  "registration": {
+   "problem": "Pin geometry comes from a LIVE readback; wire geometry comes from the FROZEN source. A component moved between those two captures is displaced relative to the wires, and its pins then read as floating when they are not. The first version of this audit did not test for that and got U9-ESP wrong.",
+   "external_denominator": "EasyEDA's own DRC floating-pin list. A per-component translation fitted to MAXIMISE hits is unfalsifiable \u2014 free parameters will always find connections. Every fit here is scored against DRC, never against itself.",
+   "second_and_stronger_check": "COHERENCE. A spurious offset scatters pins onto arbitrary nets; a real one reproduces the designer's intent. At the fitted U9-ESP offset, 22 of 22 connected pins land on a net whose name matches the pin's function, including pins 18-22 landing on K1BR_CS, K1BR_MOSI, K1BR_SCK, K1BR_MISO_S3 and K1BR_IRQ_S3 in pin order. That ordering cannot arise by coincidence.",
+   "result_U9_ESP": {
+    "offset": [
+     -5,
+     -20
+    ],
+    "connected_at_offset": 22,
+    "connected_at_zero": 5,
+    "floating_at_offset": 19,
+    "drc_floating": 18,
+    "note": "Sharp unique optimum. No offset in a 81x81 unit search reproduces DRC's 18 exactly; the model explains U9-ESP to within one pin, and the DRC log is itself stale by three transactions, so a one-pin residual is inside the drift. Stated, not smoothed over."
+   },
+   "result_NFC_lane": "All 22 NFC components register at ZERO offset and their floating counts agree with DRC exactly (U12-NFC 10 and 10, Y2-NFC 2 and 2, the other 20 at 0 and 0). Every surviving NFC finding therefore rests on components with no registration error. Y2-NFC shows a tie between (0,0) and (0,-20) at 2 connected pins, which does not affect NFC-D3: under either, only 2 of 4 pins connect and DRC independently lists Y2-NFC.3 and Y2-NFC.4 as floating.",
+   "known_limitation": "The oracle keys components by DESIGNATOR, so the duplicated U6-RTC collapses two components into one entry. That is why U6-RTC reads 38 floating against DRC's 107. Outside this lane, but it must be fixed before the oracle is trusted on U6-RTC.",
+   "other_zero_offset_mismatches": "C10-PWR2, D1-PWR1, J4-RTDBG, J5-RTDBG, U2-PWR1, U3-PWR2, U4-PWR2 and U7-RTC also disagree with DRC at zero offset, but in the OPPOSITE direction \u2014 DRC says floating where the oracle says connected. That is the stale-DRC signature, not a registration error: the DRC ran at 12:17:37, before the transactions that wired them. C10-PWR2 is the clean case, wired by D-045 after the DRC ran."
+  },
+  "superseded_for_drawing_findings": {
+   "tool": "harness/check_schematic_connectivity.py",
+   "why": "It is the repo's owned DRAWING oracle and it is better than the hand-rolled one this lane started with. It measures pins against their OWN component anchor, reports residuals as components_displaced_from_their_wiring rather than cancelling them, has a dedicated off_sheet_wires rule, keys pin data by PRIMITIVE ID rather than designator (which fixes this lane's U6-RTC collapse limitation), abstains on parts with no pin geometry instead of calling them defects, and REFUSES any snap tolerance >= half the pin pitch. Its 13-case battery passes including 4 RED, 3 fail-closed and the abstention, transform and keying controls.",
+   "verdict_on_frozen_source": "RED",
+   "violation_counts": {
+    "net_labels_meeting_fewer_than_two_pins": 8,
+    "wires_not_meeting_any_pin": 25,
+    "off_sheet_wires": 1,
+    "pins_met_by_multiple_net_labels": 0,
+    "wrong_pin_bindings": 0
+   },
+   "status_of_this_lane_oracle": "Retained only for the NFC-block per-pin net readout, where all 22 components register at zero offset. It is NOT the basis for any drawing verdict."
+  },
+  "retracted_method": {
+   "method": "per-component translation fitted to maximise agreement with EasyEDA's DRC floating count",
+   "status": "RETRACTED",
+   "why": "Two free parameters per component fitted against a target verdict will reproduce that verdict; the method produces its own result. It also erases the distinction the measurement exists for \u2014 a component whose PINS are correct and whose WIRE is misplaced would have the offset applied to the good pin data, moving it onto the bad wire and deleting a genuine defect. Retracted at the team lead's direction after the oracle lane's counterexample.",
+   "what_survives_and_on_what_evidence": {
+    "displacement_magnitude": "U9-ESP pins sit at +5,-20 from their own component anchor in the source frame. This is now taken from the harness's independent components_displaced_from_their_wiring diagnostic, NOT from any fit. The harness explicitly labels it DIAGNOSTIC and warns that symbol asymmetry and real displacement are not separable from that measurement alone.",
+    "attribution": "The team lead attributes the displacement to the rejected-and-never-rolled-back transaction canonical-esp-service-label-visibility-repair at 474325:91295516. That is their evidence, cited as theirs; this lane did not re-derive the transaction history.",
+    "which_pin_each_wire_was_drawn_for": "Established by NAME-TO-NET anchors, not by hit count \u2014 see intended_pin_identification."
+   }
+  }
+ },
+ "counts": {
+  "wires_parsed": 675,
+  "wire_segments_parsed": 684,
+  "net_labels_parsed": 675,
+  "distinct_net_names": 143,
+  "components_with_pin_geometry": 228,
+  "pins_parsed_whole_sheet": 782,
+  "pins_touching_a_wire_whole_sheet": 634,
+  "nfc_components": 22,
+  "nfc_pins_audited": 77,
+  "nfc_dispositions": {
+   "TUNE_TBD": 15,
+   "GND": 22,
+   "POWER": 9,
+   "CONNECTED": 21,
+   "INTENTIONAL_NC": 8,
+   "RESERVED_WITH_DOCUMENTED_REASON": 2
+  },
+  "nfc_dispositions_not_met": 12
+ },
+ "differential_rf_verdict": {
+  "headline_claim_in_brief": "NFC_RFO1 has 2 wires and no NFC_RFO2, NFC_RFI1 or NFC_RFI2 net exists",
+  "verdict": "CONFIRMED",
+  "evidence": "The net-label census over the frozen source finds NFC_RFO1 on 2 wires and no net named NFC_RFO2, NFC_RFI1 or NFC_RFI2 anywhere on the sheet. Geometry shows U12-NFC.15 (RFO2) and U12-NFC.23 (RFI2) touching zero wire segments, and neither carries a no-connect mark. RFI1 is on NFC_ANT, so the receive input exists but is undivided.",
+  "consequence": "IO configuration register 1 defaults to differential driving with bit single = 0. The captured hardware can only work with bit single = 1, and no repository document records that firmware requirement."
+ },
+ "brief_corrections": [
+  {
+   "claim": "sources/SOURCE-REGISTER.md registers only AN5240 and neither the datasheet nor the STEVAL board",
+   "verdict": "REFUTED",
+   "evidence": "SOURCE-REGISTER.md currently carries three ST rows: the ST25R3916B datasheet, the STEVAL-ST25R3916B reference design and AN5240. The register gap named in the brief has already been closed."
+  },
+  {
+   "claim": "contracts/nfc-interface.md specifies only local supply filtering and names none of the six regulator rails",
+   "verdict": "PARTLY REFUTED",
+   "evidence": "The contract has since grown an Internal-regulator rails are outputs (D-047) section naming all six rails and C92-NFC to C97-NFC, plus a Host interface strap (D-046) section. It still does not carry the VDD and VDD_TX co-supply rule, the RFI attenuation requirement, or the single-drive register bit."
+  }
+ ],
+ "unretrieved_sources": [],
+ "pins": [
+  {
+   "id": "C54-NFC.1",
+   "designator": "C54-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13042e5",
+   "x_source_frame": 1055,
+   "y_source_frame": 2535,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13696"
+    ],
+    "net_labels_touched": [
+     "NFC_XTI"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "TUNE_TBD",
+   "disposition_met": true,
+   "reason": "XTI load capacitor 10 pF. The value is not derived from a cited crystal load capacitance for ABM12-117-27.120MHZ-T3; no load-capacitance calculation exists in the repository.",
+   "defect": "NFC-D10",
+   "source_locator": "no cited source for CL or stray allowance"
+  },
+  {
+   "id": "C54-NFC.2",
+   "designator": "C54-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13042e9",
+   "x_source_frame": 1085,
+   "y_source_frame": 2535,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13693"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "Load capacitor return to GND.",
+   "defect": null,
+   "source_locator": "geometry oracle"
+  },
+  {
+   "id": "C55-NFC.1",
+   "designator": "C55-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13078e5",
+   "x_source_frame": 1235,
+   "y_source_frame": 2535,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13702"
+    ],
+    "net_labels_touched": [
+     "NFC_XTO"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "TUNE_TBD",
+   "disposition_met": true,
+   "reason": "XTO load capacitor 10 pF. The value is not derived from a cited crystal load capacitance for ABM12-117-27.120MHZ-T3; no load-capacitance calculation exists in the repository.",
+   "defect": "NFC-D10",
+   "source_locator": "no cited source for CL or stray allowance"
+  },
+  {
+   "id": "C55-NFC.2",
+   "designator": "C55-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13078e9",
+   "x_source_frame": 1265,
+   "y_source_frame": 2535,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13699"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "Load capacitor return to GND.",
+   "defect": null,
+   "source_locator": "geometry oracle"
+  },
+  {
+   "id": "C56-NFC.1",
+   "designator": "C56-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13114e4",
+   "x_source_frame": 1410,
+   "y_source_frame": 2535,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13708"
+    ],
+    "net_labels_touched": [
+     "3V3"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "POWER",
+   "disposition_met": true,
+   "reason": "100 nF decoupling on 3V3, shared by VDD (pin 8) and VDD_IO (pin 1).",
+   "defect": null,
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Figure 1"
+  },
+  {
+   "id": "C56-NFC.2",
+   "designator": "C56-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13114e10",
+   "x_source_frame": 1450,
+   "y_source_frame": 2535,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13705"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "Decoupling return.",
+   "defect": null,
+   "source_locator": "geometry oracle"
+  },
+  {
+   "id": "C57-NFC.1",
+   "designator": "C57-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13150e5",
+   "x_source_frame": 1595,
+   "y_source_frame": 2535,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13714"
+    ],
+    "net_labels_touched": [
+     "NFC_5V"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "POWER",
+   "disposition_met": true,
+   "reason": "Decoupling on NFC_5V at VDD_TX.",
+   "defect": null,
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Figure 1"
+  },
+  {
+   "id": "C57-NFC.2",
+   "designator": "C57-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13150e9",
+   "x_source_frame": 1625,
+   "y_source_frame": 2535,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13711"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "Decoupling return.",
+   "defect": null,
+   "source_locator": "geometry oracle"
+  },
+  {
+   "id": "C58-NFC.1",
+   "designator": "C58-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13186e4",
+   "x_source_frame": 1770,
+   "y_source_frame": 2535,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13720"
+    ],
+    "net_labels_touched": [
+     "NFC_5V"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "POWER",
+   "disposition_met": true,
+   "reason": "Decoupling on NFC_5V at VDD_TX.",
+   "defect": null,
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Figure 1"
+  },
+  {
+   "id": "C58-NFC.2",
+   "designator": "C58-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13186e10",
+   "x_source_frame": 1810,
+   "y_source_frame": 2535,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13717"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "Decoupling return.",
+   "defect": null,
+   "source_locator": "geometry oracle"
+  },
+  {
+   "id": "C59-NFC.1",
+   "designator": "C59-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13222e4",
+   "x_source_frame": 1050,
+   "y_source_frame": 2822,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13726"
+    ],
+    "net_labels_touched": [
+     "NFC_EMI"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "TUNE_TBD",
+   "disposition_met": false,
+   "reason": "EMC filter shunt capacitor 22 pF on NFC_EMI. See NFC-D13: with L2-NFC 5.6 nH the cutoff is about 453 MHz, roughly 27 times the 17 MHz upper bound.",
+   "defect": "NFC-D13",
+   "source_locator": "AN5276 Rev 6, May 2023, Antenna design for ST25R3916/16B, ST25R3917/17B, ST25R3918, ST25R3919B and ST25R3920/20B devices sec 3.3"
+  },
+  {
+   "id": "C59-NFC.2",
+   "designator": "C59-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13222e10",
+   "x_source_frame": 1090,
+   "y_source_frame": 2822,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13723"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "EMI shunt return.",
+   "defect": null,
+   "source_locator": "geometry oracle"
+  },
+  {
+   "id": "C60-NFC.1",
+   "designator": "C60-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13258e5",
+   "x_source_frame": 1235,
+   "y_source_frame": 2822,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13729"
+    ],
+    "net_labels_touched": [
+     "NFC_MATCH_IN"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "TUNE_TBD",
+   "disposition_met": true,
+   "reason": "Matching series capacitor 33 pF, input side, on NFC_MATCH_IN.",
+   "defect": "NFC-D10",
+   "source_locator": "contracts/nfc-interface.md"
+  },
+  {
+   "id": "C60-NFC.2",
+   "designator": "C60-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13258e9",
+   "x_source_frame": 1265,
+   "y_source_frame": 2822,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13732"
+    ],
+    "net_labels_touched": [
+     "NFC_MATCH_L"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "TUNE_TBD",
+   "disposition_met": true,
+   "reason": "Matching series capacitor, inductor side, on NFC_MATCH_L.",
+   "defect": "NFC-D10",
+   "source_locator": "contracts/nfc-interface.md"
+  },
+  {
+   "id": "C61-NFC.1",
+   "designator": "C61-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13294e5",
+   "x_source_frame": 1415,
+   "y_source_frame": 2822,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13738"
+    ],
+    "net_labels_touched": [
+     "NFC_ANT"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "TUNE_TBD",
+   "disposition_met": true,
+   "reason": "Antenna shunt capacitor 47 pF on NFC_ANT.",
+   "defect": "NFC-D10",
+   "source_locator": "contracts/nfc-interface.md"
+  },
+  {
+   "id": "C61-NFC.2",
+   "designator": "C61-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13294e9",
+   "x_source_frame": 1445,
+   "y_source_frame": 2822,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13735"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "Antenna shunt return.",
+   "defect": null,
+   "source_locator": "geometry oracle"
+  },
+  {
+   "id": "C92-NFC.1",
+   "designator": "C92-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e146025e5",
+   "x_source_frame": 1055,
+   "y_source_frame": 2960,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e146242"
+    ],
+    "net_labels_touched": [
+     "NFC_VDD_D"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": true,
+   "reason": "2.2 uF blocking capacitor on NFC_VDD_D (VDD_D). The datasheet asks for 2.2 uF in parallel with 10 nF; the parallel partner is not fitted and the AGDC value differs.",
+   "defect": "NFC-D6",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.2.10 p.38; D-047"
+  },
+  {
+   "id": "C92-NFC.2",
+   "designator": "C92-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e146025e9",
+   "x_source_frame": 1085,
+   "y_source_frame": 2960,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e146245"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "Blocking capacitor return to GND.",
+   "defect": null,
+   "source_locator": "geometry oracle"
+  },
+  {
+   "id": "C93-NFC.1",
+   "designator": "C93-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e146061e5",
+   "x_source_frame": 1205,
+   "y_source_frame": 2960,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e146248"
+    ],
+    "net_labels_touched": [
+     "NFC_VDD_A"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": true,
+   "reason": "2.2 uF blocking capacitor on NFC_VDD_A (VDD_A). The datasheet asks for 2.2 uF in parallel with 10 nF; the parallel partner is not fitted and the AGDC value differs.",
+   "defect": "NFC-D6",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.2.10 p.38; D-047"
+  },
+  {
+   "id": "C93-NFC.2",
+   "designator": "C93-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e146061e9",
+   "x_source_frame": 1235,
+   "y_source_frame": 2960,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e146251"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "Blocking capacitor return to GND.",
+   "defect": null,
+   "source_locator": "geometry oracle"
+  },
+  {
+   "id": "C94-NFC.1",
+   "designator": "C94-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e146097e5",
+   "x_source_frame": 1355,
+   "y_source_frame": 2960,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e146254"
+    ],
+    "net_labels_touched": [
+     "NFC_VDD_RF"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": true,
+   "reason": "2.2 uF blocking capacitor on NFC_VDD_RF (VDD_RF). The datasheet asks for 2.2 uF in parallel with 10 nF; the parallel partner is not fitted and the AGDC value differs.",
+   "defect": "NFC-D6",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.2.10 p.38; D-047"
+  },
+  {
+   "id": "C94-NFC.2",
+   "designator": "C94-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e146097e9",
+   "x_source_frame": 1385,
+   "y_source_frame": 2960,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e146257"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "Blocking capacitor return to GND.",
+   "defect": null,
+   "source_locator": "geometry oracle"
+  },
+  {
+   "id": "C95-NFC.1",
+   "designator": "C95-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e146133e5",
+   "x_source_frame": 1505,
+   "y_source_frame": 2960,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e146260"
+    ],
+    "net_labels_touched": [
+     "NFC_VDD_AM"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": true,
+   "reason": "2.2 uF blocking capacitor on NFC_VDD_AM (VDD_AM). The datasheet asks for 2.2 uF in parallel with 10 nF; the parallel partner is not fitted and the AGDC value differs.",
+   "defect": "NFC-D6",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.2.10 p.38; D-047"
+  },
+  {
+   "id": "C95-NFC.2",
+   "designator": "C95-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e146133e9",
+   "x_source_frame": 1535,
+   "y_source_frame": 2960,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e146263"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "Blocking capacitor return to GND.",
+   "defect": null,
+   "source_locator": "geometry oracle"
+  },
+  {
+   "id": "C96-NFC.1",
+   "designator": "C96-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e146169e5",
+   "x_source_frame": 1655,
+   "y_source_frame": 2960,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e146266"
+    ],
+    "net_labels_touched": [
+     "NFC_VDD_DR"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": true,
+   "reason": "2.2 uF blocking capacitor on NFC_VDD_DR (VDD_DR). The datasheet asks for 2.2 uF in parallel with 10 nF; the parallel partner is not fitted and the AGDC value differs.",
+   "defect": "NFC-D6",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.2.10 p.38; D-047"
+  },
+  {
+   "id": "C96-NFC.2",
+   "designator": "C96-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e146169e9",
+   "x_source_frame": 1685,
+   "y_source_frame": 2960,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e146269"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "Blocking capacitor return to GND.",
+   "defect": null,
+   "source_locator": "geometry oracle"
+  },
+  {
+   "id": "C97-NFC.1",
+   "designator": "C97-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e146205e5",
+   "x_source_frame": 1805,
+   "y_source_frame": 2960,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e146272"
+    ],
+    "net_labels_touched": [
+     "NFC_AGDC"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": true,
+   "reason": "2.2 uF blocking capacitor on NFC_AGDC (AGDC). The datasheet asks for 1 uF in parallel with 10 nF; the parallel partner is not fitted and the AGDC value differs.",
+   "defect": "NFC-D6",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.2.10 p.38; D-047"
+  },
+  {
+   "id": "C97-NFC.2",
+   "designator": "C97-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e146205e9",
+   "x_source_frame": 1835,
+   "y_source_frame": 2960,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e146275"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "Blocking capacitor return to GND.",
+   "defect": null,
+   "source_locator": "geometry oracle"
+  },
+  {
+   "id": "J10-NFC.2",
+   "designator": "J10-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13330e5",
+   "x_source_frame": 1440,
+   "y_source_frame": 3118,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13741"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "U.FL ground.",
+   "defect": null,
+   "source_locator": "symbol readback"
+  },
+  {
+   "id": "J10-NFC.1",
+   "designator": "J10-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13330e9",
+   "x_source_frame": 1410,
+   "y_source_frame": 3098,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13744"
+    ],
+    "net_labels_touched": [
+     "NFC_ANT"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "TUNE_TBD",
+   "disposition_met": true,
+   "reason": "U.FL centre pin on NFC_ANT. AN5592 sec 2.3 makes this the 'single ended antenna with cable' topology, which ST support confirms is the documented route for an external antenna on a coaxial lead with the ST25R3916B. That topology needs a SECOND matching network at the antenna itself, tuned to the cable characteristic impedance, and supports only a limited set of target matching impedances. Neither the cable nor the antenna-side network exists yet.",
+   "defect": "NFC-D10",
+   "source_locator": "AN5592 Rev 1, March 2021, ST25R single ended antenna matching sec 2.3, Figure 5, Tables 5 and 6; ST community best answer, Travis Palmer, 14 October 2024"
+  },
+  {
+   "id": "L2-NFC.2",
+   "designator": "L2-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13362e3",
+   "x_source_frame": 1630,
+   "y_source_frame": 3108,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13750"
+    ],
+    "net_labels_touched": [
+     "NFC_EMI"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "TUNE_TBD",
+   "disposition_met": false,
+   "reason": "EMC filter inductor, antenna side, on NFC_EMI with the C59-NFC shunt to ground. Topology matches AN5276 sec 3.3 and AN5592; the value pair does not.",
+   "defect": "NFC-D13",
+   "source_locator": "AN5276 Rev 6, May 2023, Antenna design for ST25R3916/16B, ST25R3917/17B, ST25R3918, ST25R3919B and ST25R3920/20B devices sec 3.3"
+  },
+  {
+   "id": "L2-NFC.1",
+   "designator": "L2-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13362e7",
+   "x_source_frame": 1590,
+   "y_source_frame": 3108,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13747"
+    ],
+    "net_labels_touched": [
+     "NFC_RFO1"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "TUNE_TBD",
+   "disposition_met": false,
+   "reason": "EMC filter series inductor, RFO1 side, on NFC_RFO1. With C59-NFC the fitted pair gives a cutoff of about 453 MHz against AN5276's required 8-17 MHz window.",
+   "defect": "NFC-D13",
+   "source_locator": "AN5276 Rev 6, May 2023, Antenna design for ST25R3916/16B, ST25R3917/17B, ST25R3918, ST25R3919B and ST25R3920/20B devices sec 3.3"
+  },
+  {
+   "id": "L3-NFC.2",
+   "designator": "L3-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13399e3",
+   "x_source_frame": 1810,
+   "y_source_frame": 3108,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13756"
+    ],
+    "net_labels_touched": [
+     "NFC_ANT"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "TUNE_TBD",
+   "disposition_met": false,
+   "reason": "Series inductor, antenna side, on NFC_ANT. Same deviation as L3-NFC.1.",
+   "defect": "NFC-D14",
+   "source_locator": "AN5276 Rev 6, May 2023, Antenna design for ST25R3916/16B, ST25R3917/17B, ST25R3918, ST25R3919B and ST25R3920/20B devices sec 3.4; AN5592 Rev 1, March 2021, ST25R single ended antenna matching sec 2.2"
+  },
+  {
+   "id": "L3-NFC.1",
+   "designator": "L3-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13399e7",
+   "x_source_frame": 1770,
+   "y_source_frame": 3108,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13753"
+    ],
+    "net_labels_touched": [
+     "NFC_MATCH_L"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "TUNE_TBD",
+   "disposition_met": false,
+   "reason": "Series inductor 33 nH on NFC_MATCH_L. No ST topology contains a series inductor in the matching network: AN5276 sec 3.4 and AN5592 sec 2.1 to 2.3 all specify a series capacitor, a parallel capacitor and a Q-factor resistor.",
+   "defect": "NFC-D14",
+   "source_locator": "AN5276 Rev 6, May 2023, Antenna design for ST25R3916/16B, ST25R3917/17B, ST25R3918, ST25R3919B and ST25R3920/20B devices sec 3.4; AN5592 Rev 1, March 2021, ST25R single ended antenna matching sec 2.2"
+  },
+  {
+   "id": "R42-NFC.2",
+   "designator": "R42-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13438e4",
+   "x_source_frame": 1090,
+   "y_source_frame": 3395,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13762"
+    ],
+    "net_labels_touched": [
+     "NFC_MATCH_IN"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "TUNE_TBD",
+   "disposition_met": true,
+   "reason": "Series damping resistor, matching side, on NFC_MATCH_IN.",
+   "defect": "NFC-D10",
+   "source_locator": "contracts/nfc-interface.md"
+  },
+  {
+   "id": "R42-NFC.1",
+   "designator": "R42-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13438e8",
+   "x_source_frame": 1050,
+   "y_source_frame": 3395,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13759"
+    ],
+    "net_labels_touched": [
+     "NFC_EMI"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "TUNE_TBD",
+   "disposition_met": true,
+   "reason": "Series damping resistor 2.2 R, EMI side, on NFC_EMI. Unsourced.",
+   "defect": "NFC-D10",
+   "source_locator": "contracts/nfc-interface.md"
+  },
+  {
+   "id": "R43-NFC.2",
+   "designator": "R43-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13477e3",
+   "x_source_frame": 1270,
+   "y_source_frame": 3395,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13768"
+    ],
+    "net_labels_touched": [
+     "NFC_IRQ"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": true,
+   "reason": "4.7k pull-up onto NFC_IRQ. IRQ is a push-pull digital output, so this pull-up is not required by the datasheet.",
+   "defect": "NFC-D8",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 2 pin 27 type DO; Table 13 IRQ digital output"
+  },
+  {
+   "id": "R43-NFC.1",
+   "designator": "R43-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13477e7",
+   "x_source_frame": 1230,
+   "y_source_frame": 3395,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13765"
+    ],
+    "net_labels_touched": [
+     "3V3"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "POWER",
+   "disposition_met": true,
+   "reason": "Pull-up top on 3V3.",
+   "defect": "NFC-D8",
+   "source_locator": "see defect NFC-D8"
+  },
+  {
+   "id": "R76-NFC.2",
+   "designator": "R76-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "2",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e151832e3",
+   "x_source_frame": 1700,
+   "y_source_frame": 3240,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e151875"
+    ],
+    "net_labels_touched": [
+     "3V3"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "POWER",
+   "disposition_met": true,
+   "reason": "10k strap resistor, high side on 3V3. The datasheet instruction is pull to VDD_D.",
+   "defect": "NFC-D11",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.3.2"
+  },
+  {
+   "id": "R76-NFC.1",
+   "designator": "R76-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e151832e7",
+   "x_source_frame": 1660,
+   "y_source_frame": 3240,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e151872"
+    ],
+    "net_labels_touched": [
+     "NFC_I2C_EN"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": true,
+   "reason": "10k I2C_EN strap resistor, low side on NFC_I2C_EN.",
+   "defect": null,
+   "source_locator": "D-046"
+  },
+  {
+   "id": "U12-NFC.1",
+   "designator": "U12-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "VDD_IO",
+   "datasheet_pin_name": "VDD_IO",
+   "pin_primitive_id": "e13516e5",
+   "x_source_frame": 1475,
+   "y_source_frame": 3460,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13801"
+    ],
+    "net_labels_touched": [
+     "3V3"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "POWER",
+   "disposition_met": true,
+   "reason": "VDD_IO peripheral-communication supply, 1.65 to 5.5 V, on 3V3 to match the ESP32-S3 host logic level.",
+   "defect": null,
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 2 pin 1; Table 123 VDD_IO 1.65-5.5 V"
+  },
+  {
+   "id": "U12-NFC.2",
+   "designator": "U12-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "TAD2",
+   "datasheet_pin_name": "TAD1",
+   "pin_primitive_id": "e13516e9",
+   "x_source_frame": 1475,
+   "y_source_frame": 3450,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [],
+    "net_labels_touched": [],
+    "electrical_state": "NO_CONNECT_MARK"
+   },
+   "no_connect_mark": {
+    "present": true,
+    "provenance": "transaction canonical-nfc-unused-nc-2026-08-28, applied after frozen snapshot 489736:464c27d4, post hash 490331:ca12d078"
+   },
+   "disposition": "INTENTIONAL_NC",
+   "disposition_met": true,
+   "reason": "Test pin, unused. NC cross applied by transaction canonical-nfc-unused-nc-2026-08-28. Datasheet Table 2 names pin 2 TAD1; the EDA symbol names it TAD2 (defect NFC-D7).",
+   "defect": "NFC-D7",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 2 pin 2 = TAD1"
+  },
+  {
+   "id": "U12-NFC.3",
+   "designator": "U12-NFC",
+   "pin_number": "3",
+   "symbol_pin_name": "VDD_D",
+   "datasheet_pin_name": "VDD_D",
+   "pin_primitive_id": "e13516e13",
+   "x_source_frame": 1475,
+   "y_source_frame": 3440,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13819"
+    ],
+    "net_labels_touched": [
+     "NFC_VDD_D"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": true,
+   "reason": "VDD_D internal digital-regulator OUTPUT on NFC_VDD_D with C92-NFC 2.2 uF to GND. Datasheet asks for 2.2 uF in parallel with 10 nF; the 10 nF partner is absent (NFC-D6).",
+   "defect": "NFC-D6",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.2.10 p.38 blocking capacitors; D-047"
+  },
+  {
+   "id": "U12-NFC.4",
+   "designator": "U12-NFC",
+   "pin_number": "4",
+   "symbol_pin_name": "XTO",
+   "datasheet_pin_name": "XTO",
+   "pin_primitive_id": "e13516e17",
+   "x_source_frame": 1475,
+   "y_source_frame": 3430,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13789"
+    ],
+    "net_labels_touched": [
+     "NFC_XTO"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": false,
+   "reason": "XTO on NFC_XTO with C55-NFC 10 pF. The net reaches Y2-NFC pin 2, which the symbol names GND, and NOT Y2 pin 3, the second crystal terminal (NFC-D3).",
+   "defect": "NFC-D3",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 2 pin 4 crystal oscillator output"
+  },
+  {
+   "id": "U12-NFC.5",
+   "designator": "U12-NFC",
+   "pin_number": "5",
+   "symbol_pin_name": "XTI",
+   "datasheet_pin_name": "XTI",
+   "pin_primitive_id": "e13516e21",
+   "x_source_frame": 1475,
+   "y_source_frame": 3420,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13786"
+    ],
+    "net_labels_touched": [
+     "NFC_XTI"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": true,
+   "reason": "XTI on NFC_XTI with C54-NFC 10 pF and Y2-NFC pin 1.",
+   "defect": null,
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 2 pin 5"
+  },
+  {
+   "id": "U12-NFC.6",
+   "designator": "U12-NFC",
+   "pin_number": "6",
+   "symbol_pin_name": "GND_D",
+   "datasheet_pin_name": "GND_D",
+   "pin_primitive_id": "e13516e25",
+   "x_source_frame": 1475,
+   "y_source_frame": 3410,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13804"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "GND_D digital ground.",
+   "defect": null,
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 2 pin 6"
+  },
+  {
+   "id": "U12-NFC.7",
+   "designator": "U12-NFC",
+   "pin_number": "7",
+   "symbol_pin_name": "VDD_A",
+   "datasheet_pin_name": "VDD_A",
+   "pin_primitive_id": "e13516e29",
+   "x_source_frame": 1475,
+   "y_source_frame": 3400,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13822"
+    ],
+    "net_labels_touched": [
+     "NFC_VDD_A"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": true,
+   "reason": "VDD_A internal analog-regulator OUTPUT on NFC_VDD_A with C93-NFC 2.2 uF to GND; 10 nF partner absent.",
+   "defect": "NFC-D6",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.2.10; D-047"
+  },
+  {
+   "id": "U12-NFC.8",
+   "designator": "U12-NFC",
+   "pin_number": "8",
+   "symbol_pin_name": "VDD",
+   "datasheet_pin_name": "VDD",
+   "pin_primitive_id": "e13516e33",
+   "x_source_frame": 1475,
+   "y_source_frame": 3390,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13774"
+    ],
+    "net_labels_touched": [
+     "3V3"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "POWER",
+   "disposition_met": false,
+   "reason": "VDD main supply wired to 3V3 while VDD_TX is on NFC_5V. The datasheet requires VDD and VDD_TX to be the same supply; the ~1.7 V split exceeds the absolute maximum.",
+   "defect": "NFC-D1",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.2.10 p.37; Table 122 dVDD-VDD_TX -0.3 to +0.3 V; Table 123 -0.2 to +0.2 V"
+  },
+  {
+   "id": "U12-NFC.9",
+   "designator": "U12-NFC",
+   "pin_number": "9",
+   "symbol_pin_name": "VDD_RF",
+   "datasheet_pin_name": "VDD_RF",
+   "pin_primitive_id": "e13516e37",
+   "x_source_frame": 1475,
+   "y_source_frame": 3380,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13825"
+    ],
+    "net_labels_touched": [
+     "NFC_VDD_RF"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": true,
+   "reason": "VDD_RF internal regulator OUTPUT on NFC_VDD_RF with C94-NFC 2.2 uF to GND; 10 nF partner absent.",
+   "defect": "NFC-D6",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.2.10; D-047"
+  },
+  {
+   "id": "U12-NFC.10",
+   "designator": "U12-NFC",
+   "pin_number": "10",
+   "symbol_pin_name": "VDD_TX",
+   "datasheet_pin_name": "VDD_TX",
+   "pin_primitive_id": "e13516e41",
+   "x_source_frame": 1475,
+   "y_source_frame": 3370,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13777"
+    ],
+    "net_labels_touched": [
+     "NFC_5V"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "POWER",
+   "disposition_met": false,
+   "reason": "VDD_TX transmitter supply on NFC_5V, which is 5V_SYS through ferrite FB3-PWR2. Same defect as pin 8: VDD and VDD_TX are not the same supply.",
+   "defect": "NFC-D1",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.2.10 p.37; Table 122; Table 123"
+  },
+  {
+   "id": "U12-NFC.11",
+   "designator": "U12-NFC",
+   "pin_number": "11",
+   "symbol_pin_name": "VDD_AM",
+   "datasheet_pin_name": "VDD_AM",
+   "pin_primitive_id": "e13516e45",
+   "x_source_frame": 1475,
+   "y_source_frame": 3360,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13828"
+    ],
+    "net_labels_touched": [
+     "NFC_VDD_AM"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": true,
+   "reason": "VDD_AM internal regulator OUTPUT on NFC_VDD_AM with C95-NFC 2.2 uF to GND; 10 nF partner absent.",
+   "defect": "NFC-D6",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.2.10; D-047"
+  },
+  {
+   "id": "U12-NFC.12",
+   "designator": "U12-NFC",
+   "pin_number": "12",
+   "symbol_pin_name": "GND_DR1",
+   "datasheet_pin_name": "GND_DR",
+   "pin_primitive_id": "e13516e49",
+   "x_source_frame": 1475,
+   "y_source_frame": 3350,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13807"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "GND_DR1 antenna-driver ground.",
+   "defect": null,
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 2 pin 12"
+  },
+  {
+   "id": "U12-NFC.13",
+   "designator": "U12-NFC",
+   "pin_number": "13",
+   "symbol_pin_name": "RFO1",
+   "datasheet_pin_name": "RFO1",
+   "pin_primitive_id": "e13516e53",
+   "x_source_frame": 1475,
+   "y_source_frame": 3340,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13795"
+    ],
+    "net_labels_touched": [
+     "NFC_RFO1"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "TUNE_TBD",
+   "disposition_met": true,
+   "reason": "RFO1 antenna driver output into NFC_RFO1 to L2-NFC. Topology and values of the EMI and matching chain are not frozen; the contract holds matching at TUNE_TBD.",
+   "defect": "NFC-D10",
+   "source_locator": "contracts/nfc-interface.md matching_values: TUNE_TBD"
+  },
+  {
+   "id": "U12-NFC.14",
+   "designator": "U12-NFC",
+   "pin_number": "14",
+   "symbol_pin_name": "VDD_DR",
+   "datasheet_pin_name": "VDD_DR",
+   "pin_primitive_id": "e13516e57",
+   "x_source_frame": 1475,
+   "y_source_frame": 3330,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13831"
+    ],
+    "net_labels_touched": [
+     "NFC_VDD_DR"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": true,
+   "reason": "VDD_DR driver supply, an internal regulator OUTPUT on NFC_VDD_DR with C96-NFC 2.2 uF to GND; 10 nF partner absent.",
+   "defect": "NFC-D6",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.2.10; D-047"
+  },
+  {
+   "id": "U12-NFC.15",
+   "designator": "U12-NFC",
+   "pin_number": "15",
+   "symbol_pin_name": "RFO2",
+   "datasheet_pin_name": "RFO2",
+   "pin_primitive_id": "e13516e61",
+   "x_source_frame": 1475,
+   "y_source_frame": 3320,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [],
+    "net_labels_touched": [],
+    "electrical_state": "FLOATING"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "RESERVED_WITH_DOCUMENTED_REASON",
+   "disposition_met": true,
+   "reason": "RFO2, the second antenna driver. Unconnected, which is CORRECT for a single-ended topology: AN5592 Figure 3 shows only RFO1 and RFI1 in the single-ended antenna interface stage, RFO2 and RFI2 do not appear, and no termination or dummy network is specified. This supersedes the earlier reading that the floating state was itself a defect. It stays RESERVED rather than INTENTIONAL_NC because the single-ended-versus-differential choice has not been ratified; NC-mark it only after that decision lands, together with RFI2, and only with IO configuration register 1 bit single = 1 recorded as a firmware requirement.",
+   "defect": "NFC-D4",
+   "source_locator": "AN5592 Rev 1, March 2021, ST25R single ended antenna matching sec 2.2 and Figure 3; ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 20 bits single (7) and rfo2 (6), sec 4.2.1",
+   "live_state_note": "See NFC-D16: not in the 14:58 floating list, so wired or NC-marked since the freeze. Confirm before acting."
+  },
+  {
+   "id": "U12-NFC.16",
+   "designator": "U12-NFC",
+   "pin_number": "16",
+   "symbol_pin_name": "GND_DR2",
+   "datasheet_pin_name": "GND_DR",
+   "pin_primitive_id": "e13516e65",
+   "x_source_frame": 1475,
+   "y_source_frame": 3310,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13810"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "GND_DR2 antenna-driver ground.",
+   "defect": null,
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 2 pin 16"
+  },
+  {
+   "id": "U12-NFC.17",
+   "designator": "U12-NFC",
+   "pin_number": "17",
+   "symbol_pin_name": "EXT_LM",
+   "datasheet_pin_name": "EXT_LM",
+   "pin_primitive_id": "e13516e69",
+   "x_source_frame": 1605,
+   "y_source_frame": 3310,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [],
+    "net_labels_touched": [],
+    "electrical_state": "NO_CONNECT_MARK"
+   },
+   "no_connect_mark": {
+    "present": true,
+    "provenance": "transaction canonical-nfc-unused-nc-2026-08-28, applied after frozen snapshot 489736:464c27d4, post hash 490331:ca12d078"
+   },
+   "disposition": "INTENTIONAL_NC",
+   "disposition_met": true,
+   "reason": "EXT_LM external load-modulation MOS gate driver, unused, NC applied. Now positively required rather than merely harmless: AN5592 sec 2.2 states that for a single-ended antenna it is necessary to REMOVE the EXT_LM circuit on ST25R3916 devices. K1 has no EXT_LM circuit, so it already complies with the single-ended requirement.",
+   "defect": null,
+   "source_locator": "AN5592 Rev 1, March 2021, ST25R single ended antenna matching sec 2.2; ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 2 pin 17"
+  },
+  {
+   "id": "U12-NFC.18",
+   "designator": "U12-NFC",
+   "pin_number": "18",
+   "symbol_pin_name": "AAT_A",
+   "datasheet_pin_name": "AAT_A",
+   "pin_primitive_id": "e13516e73",
+   "x_source_frame": 1605,
+   "y_source_frame": 3320,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [],
+    "net_labels_touched": [],
+    "electrical_state": "NO_CONNECT_MARK"
+   },
+   "no_connect_mark": {
+    "present": true,
+    "provenance": "transaction canonical-nfc-unused-nc-2026-08-28, applied after frozen snapshot 489736:464c27d4, post hash 490331:ca12d078"
+   },
+   "disposition": "INTENTIONAL_NC",
+   "disposition_met": true,
+   "reason": "AAT_A automatic-antenna-tuning drive, unused, no AAT varactors fitted, NC applied. Now positively correct rather than merely unused: AN5592 sec 2.4 states AAT is not possible for a single-ended antenna with cable because any change in cable parameters detunes the reader, and ST support confirms AAT is unavailable after converting a board to single-ended. K1 drives a remote antenna over a U.FL coaxial lead, so AAT could not be used.",
+   "defect": null,
+   "source_locator": "AN5592 Rev 1, March 2021, ST25R single ended antenna matching sec 2.4; ST community best answer, Travis Palmer, 22 January 2024; ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 2 pin 18"
+  },
+  {
+   "id": "U12-NFC.19",
+   "designator": "U12-NFC",
+   "pin_number": "19",
+   "symbol_pin_name": "AAT_B",
+   "datasheet_pin_name": "AAT_B",
+   "pin_primitive_id": "e13516e77",
+   "x_source_frame": 1605,
+   "y_source_frame": 3330,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [],
+    "net_labels_touched": [],
+    "electrical_state": "NO_CONNECT_MARK"
+   },
+   "no_connect_mark": {
+    "present": true,
+    "provenance": "transaction canonical-nfc-unused-nc-2026-08-28, applied after frozen snapshot 489736:464c27d4, post hash 490331:ca12d078"
+   },
+   "disposition": "INTENTIONAL_NC",
+   "disposition_met": true,
+   "reason": "AAT_B automatic-antenna-tuning drive, unused, no AAT varactors fitted, NC applied. Now positively correct rather than merely unused: AN5592 sec 2.4 states AAT is not possible for a single-ended antenna with cable because any change in cable parameters detunes the reader, and ST support confirms AAT is unavailable after converting a board to single-ended. K1 drives a remote antenna over a U.FL coaxial lead, so AAT could not be used.",
+   "defect": null,
+   "source_locator": "AN5592 Rev 1, March 2021, ST25R single ended antenna matching sec 2.4; ST community best answer, Travis Palmer, 22 January 2024; ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 2 pin 19"
+  },
+  {
+   "id": "U12-NFC.20",
+   "designator": "U12-NFC",
+   "pin_number": "20",
+   "symbol_pin_name": "I2C_EN",
+   "datasheet_pin_name": "I2C_EN",
+   "pin_primitive_id": "e13516e81",
+   "x_source_frame": 1605,
+   "y_source_frame": 3340,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e151878"
+    ],
+    "net_labels_touched": [
+     "NFC_I2C_EN"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "POWER",
+   "disposition_met": true,
+   "reason": "I2C_EN strap held high through R76-NFC 10k on NFC_I2C_EN to 3V3 (D-046). The datasheet instruction is pull to VDD_D. Pin 20 sits in the 5 V domain, abs max 6 V and operating 0 to 5.5 V, so a 3V3 pull is inside ratings, but the deviation from the stated instruction is undocumented.",
+   "defect": "NFC-D11",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.3.2; Table 13; Table 122 Vp5V pins 9,11,13,14,15,17,20"
+  },
+  {
+   "id": "U12-NFC.21",
+   "designator": "U12-NFC",
+   "pin_number": "21",
+   "symbol_pin_name": "VSS",
+   "datasheet_pin_name": "VSS",
+   "pin_primitive_id": "e13516e85",
+   "x_source_frame": 1605,
+   "y_source_frame": 3350,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13771"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "VSS die-substrate ground.",
+   "defect": null,
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 2 pin 21"
+  },
+  {
+   "id": "U12-NFC.22",
+   "designator": "U12-NFC",
+   "pin_number": "22",
+   "symbol_pin_name": "RFI1",
+   "datasheet_pin_name": "RFI1",
+   "pin_primitive_id": "e13516e89",
+   "x_source_frame": 1605,
+   "y_source_frame": 3360,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13798"
+    ],
+    "net_labels_touched": [
+     "NFC_ANT"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "TUNE_TBD",
+   "disposition_met": false,
+   "reason": "RFI1 receiver input wired DIRECTLY to NFC_ANT. The required capacitive voltage divider is absent: AN5276 sec 3.5 puts a two-capacitor divider at the antenna terminals to limit the signal reaching the RFI pins, and AN5592 names the pair CVDR1 (series, antenna node to RFI) and CVDR2 (shunt, RFI to ground) with CVDR1 = 10 pF in all three worked topologies. Without it the RFI input sees the undivided tank node, against the 3 Vpp operating limit and the 3 V pin domain. The divider is also part of the match, not an add-on: the CP matching equation subtracts CVDR1*CVDR2/(CVDR1+CVDR2), so fitting it later changes the matching solution.",
+   "defect": "NFC-D5",
+   "source_locator": "AN5276 Rev 6, May 2023, Antenna design for ST25R3916/16B, ST25R3917/17B, ST25R3918, ST25R3919B and ST25R3920/20B devices sec 3.5; AN5592 Rev 1, March 2021, ST25R single ended antenna matching sec 2.2, 2.3, 3.2, Tables 4-6; ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 123 VRFI_A 0.15-3 Vpp and Vp3V domain pins 22-25"
+  },
+  {
+   "id": "U12-NFC.23",
+   "designator": "U12-NFC",
+   "pin_number": "23",
+   "symbol_pin_name": "RFI2",
+   "datasheet_pin_name": "RFI2",
+   "pin_primitive_id": "e13516e93",
+   "x_source_frame": 1605,
+   "y_source_frame": 3370,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [],
+    "net_labels_touched": [],
+    "electrical_state": "FLOATING"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "RESERVED_WITH_DOCUMENTED_REASON",
+   "disposition_met": true,
+   "reason": "RFI2, the second receiver input. Unconnected, which is CORRECT for a single-ended topology per AN5592 Figure 3. The datasheet notes the consequence rather than a violation: the peak detector takes its input from RFI1 only at gain 0.7, while the AM demodulator mixer synchronously rectifies both RFI1 and RFI2 at gain 0.55, and the amplitude and phase detectors measure the differential signal between the two. Single-ended therefore gives up part of the receive and diagnostic capability by design. Same NC-marking condition as RFO2.",
+   "defect": "NFC-D4",
+   "source_locator": "AN5592 Rev 1, March 2021, ST25R single ended antenna matching sec 2.2 and Figure 3; ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 2.2.2 receiver, sec 2.2.3 phase and amplitude detector"
+  },
+  {
+   "id": "U12-NFC.24",
+   "designator": "U12-NFC",
+   "pin_number": "24",
+   "symbol_pin_name": "AGDC",
+   "datasheet_pin_name": "AGDC",
+   "pin_primitive_id": "e13516e97",
+   "x_source_frame": 1605,
+   "y_source_frame": 3380,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13834"
+    ],
+    "net_labels_touched": [
+     "NFC_AGDC"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": true,
+   "reason": "AGDC analog reference on NFC_AGDC with C97-NFC 2.2 uF to GND. The datasheet suggests 1 uF in parallel with 10 nF for AGDC, not 2.2 uF alone.",
+   "defect": "NFC-D6",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.2.10 p.38; Table 123 VAGDC 1.40-1.60 V"
+  },
+  {
+   "id": "U12-NFC.25",
+   "designator": "U12-NFC",
+   "pin_number": "25",
+   "symbol_pin_name": "TAD1",
+   "datasheet_pin_name": "TAD2",
+   "pin_primitive_id": "e13516e101",
+   "x_source_frame": 1605,
+   "y_source_frame": 3390,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [],
+    "net_labels_touched": [],
+    "electrical_state": "NO_CONNECT_MARK"
+   },
+   "no_connect_mark": {
+    "present": true,
+    "provenance": "transaction canonical-nfc-unused-nc-2026-08-28, applied after frozen snapshot 489736:464c27d4, post hash 490331:ca12d078"
+   },
+   "disposition": "INTENTIONAL_NC",
+   "disposition_met": true,
+   "reason": "Test pin, unused. NC applied. Datasheet Table 2 names pin 25 TAD2; the EDA symbol names it TAD1 (NFC-D7).",
+   "defect": "NFC-D7",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 2 pin 25 = TAD2"
+  },
+  {
+   "id": "U12-NFC.26",
+   "designator": "U12-NFC",
+   "pin_number": "26",
+   "symbol_pin_name": "GND_A",
+   "datasheet_pin_name": "GND_A",
+   "pin_primitive_id": "e13516e105",
+   "x_source_frame": 1605,
+   "y_source_frame": 3400,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13813"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "GND_A analog ground.",
+   "defect": null,
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 2 pin 26"
+  },
+  {
+   "id": "U12-NFC.27",
+   "designator": "U12-NFC",
+   "pin_number": "27",
+   "symbol_pin_name": "IRQ",
+   "datasheet_pin_name": "IRQ",
+   "pin_primitive_id": "e13516e109",
+   "x_source_frame": 1605,
+   "y_source_frame": 3410,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13792"
+    ],
+    "net_labels_touched": [
+     "NFC_IRQ"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": true,
+   "reason": "IRQ on NFC_IRQ. RESOLVED by the fresh 14:58:52 GUI DRC: U9-ESP has zero floating pins and the only two single-pin networks board-wide are $1N153914 and BUCK_PG, so the net is bound in the netlist. The drawing-level question is stale \u2014 see NFC-D2.",
+   "defect": null,
+   "source_locator": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/anchors/schDrcLog_2026-08-28T1458.txt (sha256 72b81f296a3af28c); ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, Table 13 IRQ"
+  },
+  {
+   "id": "U12-NFC.28",
+   "designator": "U12-NFC",
+   "pin_number": "28",
+   "symbol_pin_name": "MCU_CLK",
+   "datasheet_pin_name": "MCU_CLK",
+   "pin_primitive_id": "e13516e113",
+   "x_source_frame": 1605,
+   "y_source_frame": 3420,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [],
+    "net_labels_touched": [],
+    "electrical_state": "NO_CONNECT_MARK"
+   },
+   "no_connect_mark": {
+    "present": true,
+    "provenance": "transaction canonical-nfc-unused-nc-2026-08-28, applied after frozen snapshot 489736:464c27d4, post hash 490331:ca12d078"
+   },
+   "disposition": "INTENTIONAL_NC",
+   "disposition_met": true,
+   "reason": "MCU_CLK clock output for the MCU, unused. NC applied.",
+   "defect": null,
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.2.5"
+  },
+  {
+   "id": "U12-NFC.29",
+   "designator": "U12-NFC",
+   "pin_number": "29",
+   "symbol_pin_name": "BSS",
+   "datasheet_pin_name": "BSS",
+   "pin_primitive_id": "e13516e117",
+   "x_source_frame": 1605,
+   "y_source_frame": 3430,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [],
+    "net_labels_touched": [],
+    "electrical_state": "NO_CONNECT_MARK"
+   },
+   "no_connect_mark": {
+    "present": true,
+    "provenance": "transaction canonical-nfc-unused-nc-2026-08-28, applied after frozen snapshot 489736:464c27d4, post hash 490331:ca12d078"
+   },
+   "disposition": "INTENTIONAL_NC",
+   "disposition_met": true,
+   "reason": "BSS SPI slave-select, unused in I2C mode. NC applied. Residual: BSS is a CMOS digital INPUT and the datasheet gives no instruction for it in I2C mode; leaving a CMOS input floating is a recorded open concern, not a datasheet violation.",
+   "defect": "NFC-D12",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 13 lists only I2C_EN, MISO(SDA), SCLK(SCL) and IRQ for I2C"
+  },
+  {
+   "id": "U12-NFC.30",
+   "designator": "U12-NFC",
+   "pin_number": "30",
+   "symbol_pin_name": "SCLK/SCL",
+   "datasheet_pin_name": "SCLK",
+   "pin_primitive_id": "e13516e121",
+   "x_source_frame": 1605,
+   "y_source_frame": 3440,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13783"
+    ],
+    "net_labels_touched": [
+     "I2C_SCL"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": true,
+   "reason": "SCLK/SCL on the shared I2C_SCL bus with U2-PWR1, U11-AUD, the motion pull-ups and an ESP32-S3 GPIO.",
+   "defect": null,
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 13"
+  },
+  {
+   "id": "U12-NFC.31",
+   "designator": "U12-NFC",
+   "pin_number": "31",
+   "symbol_pin_name": "MOSI",
+   "datasheet_pin_name": "MOSI",
+   "pin_primitive_id": "e13516e125",
+   "x_source_frame": 1605,
+   "y_source_frame": 3450,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [],
+    "net_labels_touched": [],
+    "electrical_state": "NO_CONNECT_MARK"
+   },
+   "no_connect_mark": {
+    "present": true,
+    "provenance": "transaction canonical-nfc-unused-nc-2026-08-28, applied after frozen snapshot 489736:464c27d4, post hash 490331:ca12d078"
+   },
+   "disposition": "INTENTIONAL_NC",
+   "disposition_met": true,
+   "reason": "MOSI SPI data input, unused in I2C mode. NC applied. Same floating-CMOS-input residual as BSS.",
+   "defect": "NFC-D12",
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 13"
+  },
+  {
+   "id": "U12-NFC.32",
+   "designator": "U12-NFC",
+   "pin_number": "32",
+   "symbol_pin_name": "MISO/SDA",
+   "datasheet_pin_name": "MISO",
+   "pin_primitive_id": "e13516e129",
+   "x_source_frame": 1605,
+   "y_source_frame": 3460,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13780"
+    ],
+    "net_labels_touched": [
+     "I2C_SDA"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": true,
+   "reason": "MISO/SDA on the shared I2C_SDA bus. The I2C slave address is 50h.",
+   "defect": null,
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.3.4 I2C address 50h"
+  },
+  {
+   "id": "U12-NFC.33",
+   "designator": "U12-NFC",
+   "pin_number": "33",
+   "symbol_pin_name": "EP",
+   "datasheet_pin_name": "NA (thermal pad, GND)",
+   "pin_primitive_id": "e13516e133",
+   "x_source_frame": 1605,
+   "y_source_frame": 3470,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13816"
+    ],
+    "net_labels_touched": [
+     "GND"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": true,
+   "reason": "Exposed thermal pad to GND.",
+   "defect": null,
+   "source_locator": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 2 pin 33"
+  },
+  {
+   "id": "Y2-NFC.2",
+   "designator": "Y2-NFC",
+   "pin_number": "2",
+   "symbol_pin_name": "GND",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13647e10",
+   "x_source_frame": 1805,
+   "y_source_frame": 3315,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13840"
+    ],
+    "net_labels_touched": [
+     "NFC_XTO"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": false,
+   "reason": "The symbol names this pin GND, a case or ground pad of the 4-pad package. It is currently carrying NFC_XTO instead of ground.",
+   "defect": "NFC-D3",
+   "source_locator": "EasyEDA symbol readback all-pins-nc-audit.results.json, pin 2 pinName = GND"
+  },
+  {
+   "id": "Y2-NFC.4",
+   "designator": "Y2-NFC",
+   "pin_number": "4",
+   "symbol_pin_name": "GND",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13647e14",
+   "x_source_frame": 1745,
+   "y_source_frame": 3335,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [],
+    "net_labels_touched": [],
+    "electrical_state": "FLOATING"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "GND",
+   "disposition_met": false,
+   "reason": "Second case or ground pad. Currently FLOATING. Confirmed by the schematic DRC log line 416.",
+   "defect": "NFC-D3",
+   "source_locator": "EasyEDA symbol readback pin 4; schDrcLog_2026-08-28.txt line 416"
+  },
+  {
+   "id": "Y2-NFC.3",
+   "designator": "Y2-NFC",
+   "pin_number": "3",
+   "symbol_pin_name": "3",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13647e18",
+   "x_source_frame": 1805,
+   "y_source_frame": 3335,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [],
+    "net_labels_touched": [],
+    "electrical_state": "FLOATING"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": false,
+   "reason": "Crystal terminal 2, intended for NFC_XTO. Currently FLOATING. Independently confirmed floating by the schematic DRC log line 416.",
+   "defect": "NFC-D3",
+   "source_locator": "EasyEDA symbol readback pin 3; schDrcLog_2026-08-28.txt line 416"
+  },
+  {
+   "id": "Y2-NFC.1",
+   "designator": "Y2-NFC",
+   "pin_number": "1",
+   "symbol_pin_name": "1",
+   "datasheet_pin_name": null,
+   "pin_primitive_id": "e13647e22",
+   "x_source_frame": 1745,
+   "y_source_frame": 3315,
+   "measured": {
+    "method": "geometry union of the pin connection point against wire-segment geometry in the frozen source",
+    "wire_primitive_ids": [
+     "e13837"
+    ],
+    "net_labels_touched": [
+     "NFC_XTI"
+    ],
+    "electrical_state": "CONNECTED"
+   },
+   "no_connect_mark": {
+    "present": false,
+    "provenance": null
+   },
+   "disposition": "CONNECTED",
+   "disposition_met": true,
+   "reason": "Crystal terminal 1 on NFC_XTI with C54-NFC.",
+   "defect": null,
+   "source_locator": "ABM12-117-27.120MHZ-T3; symbol pin name 1"
+  }
+ ],
+ "defects": [
+  {
+   "id": "NFC-D1",
+   "severity": "P0",
+   "title": "VDD and VDD_TX are on different supplies",
+   "detail": "U12-NFC.8 (VDD) is on 3V3 and U12-NFC.10 (VDD_TX) is on NFC_5V, which is 5V_SYS through ferrite FB3-PWR2. The split is about 1.7 V.",
+   "source": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.2.10 p.37 'VDD and VDD_TX must be connected to the same power supply'; Table 122 absolute maximum dVDD-VDD_TX -0.3 to +0.3 V; Table 123 operating -0.2 to +0.2 V",
+   "pins": [
+    "U12-NFC.8",
+    "U12-NFC.10"
+   ],
+   "repair": "Choose one NFC supply rail and place both VDD and VDD_TX on it. Both 5 V (full transmit drive, VDD_IO stays on 3V3 for host levels) and 3V3 (lower drive, requires sup3V set in IO configuration register 2) are legal. This is a power-architecture decision and changes architecture/POWER-ARCHITECTURE.md.",
+   "finding_class": "ELECTRICAL \u2014 both pins connect to real, different rails; U12-NFC registers at zero offset",
+   "drc_visibility": "INVISIBLE to any connectivity checker, and confirmed absent from the fresh 14:58:52 GUI DRC. This finding rests entirely on its vendor citation, which is recorded in full in the source field above."
+  },
+  {
+   "id": "NFC-D2",
+   "severity": "RESOLVED_NETLIST_STALE_DRAWING",
+   "title": "NFC_IRQ is bound in the netlist. The drawing half is stale and cannot be re-judged from the frozen source.",
+   "detail": "NETLIST \u2014 RESOLVED, no defect. But NOT by the argument offered in the hand-off, which was that NFC_IRQ's absence from the single-pin-network list proves it reaches a host. That inference does not hold: the DRC rule reads 'is a single network connected to only ONE component pin', and this lane's own measurement already put TWO pins on NFC_IRQ (U12-NFC.27 and R43-NFC.2). A two-pin net can never trip that rule, whether or not the ESP is on it, so the absence is CONSISTENT WITH but does not PROVE the conclusion. The load-bearing evidence in the same log is different and stronger: U9-ESP has ZERO floating pins, down from 18-19, and the only two single-pin networks on the whole board are $1N153914 and BUCK_PG, neither NFC-related. All 41 U9-ESP pins are therefore on multi-pin nets. Combined with the name-to-net map that puts pin 4 (IO4) on NFC_IRQ, the net is bound. No defect.\n\nDRAWING \u2014 STALE, and this lane will not call it either way. The drawing finding was measured against frozen source 489736:464c27d4. Between the 12:17 DRC and the 14:58 DRC, U9-ESP went from 18-19 floating pins to ZERO, so something was repaired in the live document. This lane has no post-repair source read, so it can claim neither that the displaced stubs were fixed nor that they persist. The earlier 'DRAWING: real' wording is withdrawn as unsupported against current live. If the visible-wiring question still matters, re-run harness/check_schematic_connectivity.py against a fresh source export \u2014 it is a two-minute measurement.",
+   "source": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/anchors/schDrcLog_2026-08-28T1458.txt (sha256 72b81f296a3af28c, ran 14:58:52), independently parsed by this lane: U9-ESP floating = 0; single-pin networks = $1N153914, BUCK_PG; NFC_IRQ absent",
+   "pins": [
+    "U12-NFC.27"
+   ],
+   "repair": "None for the netlist. For the drawing question, re-measure against a fresh source export before acting.",
+   "finding_class": "NETLIST \u2014 resolved, no defect; DRAWING \u2014 stale, unmeasurable against current live",
+   "correction_note": "The team lead's conclusion was right and the challenge was correct to make. Their supporting evidence was not: they placed the hit on pin 6 (IO6) at offset (-5, 0). At the fitted rigid offset pin 6 is on S3_POR_REQ, and (-5, 0) yields 14 connected pins against DRC's required 23, so it contradicts the external denominator. Choosing a different offset per pin is the unfalsifiable procedure the challenge itself warned against. The correct pin is 4.",
+   "correction_history": [
+    "v1 filed P0 'NFC_IRQ reaches no host processor' \u2014 a drawing measurement stated as an electrical fact.",
+    "v2 WITHDREW it entirely on a DRC-fitted registration offset \u2014 over-corrected on a self-confirming method.",
+    "v3 reinstated the drawing half as real and marked the netlist unresolved.",
+    "v4 (this) fresh 14:58 GUI DRC: netlist RESOLVED with no defect; drawing half STALE, not real, because the live document moved after the frozen source was taken."
+   ]
+  },
+  {
+   "id": "NFC-D3",
+   "severity": "P0",
+   "title": "27.12 MHz crystal wired to the wrong pad; oscillator loop open",
+   "detail": "NFC_XTO lands on Y2-NFC.2, which the symbol names GND. Y2-NFC.3, the second crystal terminal, is floating, as is the second ground pad Y2-NFC.4. Neither case pad is grounded.",
+   "source": "symbol pin names from jobs/all-pins-nc-audit.results.json; floating state independently corroborated by schDrcLog_2026-08-28.txt line 416",
+   "pins": [
+    "U12-NFC.4",
+    "Y2-NFC.2",
+    "Y2-NFC.3",
+    "Y2-NFC.4"
+   ],
+   "repair": "Verify the Y2-NFC symbol pin numbering against the Abracon ABM12 datasheet first, then move NFC_XTO onto the real second terminal and tie both case pads to GND. Re-derive C54 and C55 from the crystal's specified load capacitance rather than keeping 10 pF.",
+   "finding_class": "ELECTRICAL \u2014 Y2-NFC.3 and Y2-NFC.4 touch no wire and EasyEDA's own DRC independently lists both as floating",
+   "independent_confirmation": "CONFIRMED by the fresh 14:58:52 GUI DRC: Y2-NFC pins 3 and 4 are BOTH in its floating-pin list, and they are the only Y2-NFC pins there. Two of the four crystal pads are unconnected while NFC_XTO sits on Y2-NFC.2, which the symbol names GND. This finding has now survived three independent measurements: the geometry oracle, the repo harness, and two separate GUI DRC runs 2h41m apart."
+  },
+  {
+   "id": "NFC-D4",
+   "severity": "P1",
+   "title": "Single-ended topology is as-built but was never decided, recorded, or costed",
+   "detail": "RFO2 (pin 15) and RFI2 (pin 23) are unconnected and no NFC_RFO2 or NFC_RFI2 net exists. This is now understood to be a VALID ST single-ended topology, not a wiring omission: AN5592 Figure 3 shows only RFO1 and RFI1, and ST support states that in single-ended operation only RFO1/RFI1 is connected to the antenna and driven. What is missing is everything attached to that choice. The device DEFAULTS to differential (IO configuration register 1 bit single = 0), so the board cannot work until firmware sets single = 1 with rfo2 = 0, and no repository document records that. No decision-register entry chooses single-ended over differential. The datasheet states the trade-off plainly: single driver mode halves the antenna LC tank component count and cost but reduces output power, and AN5592 adds that a single-ended signal is unbalanced and more prone to noise and interference.",
+   "source": "AN5592 Rev 1, March 2021, ST25R single ended antenna matching sec 2.2 and Figure 3; ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.2.1 and Table 20; ST community best answer, Travis Palmer, 22 January 2024",
+   "pins": [
+    "U12-NFC.15",
+    "U12-NFC.23"
+   ],
+   "repair": "Escalate as an architecture decision, not a repair. Captain ruling plus a decision-register entry choosing single-ended-with-cable or differential. Only after it is ratified: NC-mark RFO2 and RFI2 in one transaction, record single = 1 and rfo2 = 0 as a firmware requirement in contracts/nfc-interface.md, and record that AAT and the differential amplitude/phase diagnostics are given up.",
+   "correction_note": "This entry was P0 'floating pins, half the RF front end missing' before AN5592 was retrieved. The electrical claim is WITHDRAWN; the unconnected pins are correct for single-ended. The decision and documentation gap is real and is what remains.",
+   "ext_lm_corroboration": "The EXT_LM removal requirement is in AN5592 sec 2.2, NOT in AN5276. Verified against BOTH AN5276 Rev 5 and Rev 6: every EXT_LM occurrence in each revision is card-emulation and external-load-modulation content, and neither revision covers single-ended at all (sec 3 in both: 'this document focuses on the latter configuration', meaning differential). The STEVAL schematic corroborates the direction: it is a differential reference design and it DOES populate the Ext_LM net. K1 has no EXT_LM circuit, so K1 already satisfies the single-ended requirement.",
+   "finding_class": "DECISION AND DOCUMENTATION \u2014 the as-built topology is valid; the choice and its firmware consequence are unrecorded",
+   "independent_confirmation": "CONFIRMED by the fresh 14:58:52 GUI DRC: U12-NFC pin 23 (RFI2) is the ONLY floating pin on U12-NFC. That is exactly what AN5592's single-ended stage predicts \u2014 RFI2 unconnected, not mis-wired. The disposition stands and the topology decision remains the open item."
+  },
+  {
+   "id": "NFC-D5",
+   "severity": "P0",
+   "title": "RFI1 connected directly to the antenna node with no attenuation",
+   "detail": "U12-NFC.22 (RFI1) is on NFC_ANT alongside J10-NFC.1, L3-NFC.2 and C61-NFC.1, with no attenuation. AN5276 sec 3.5 requires a capacitive voltage divider at the antenna terminals to limit the signal reaching the RFI pins; AN5592 names the two components CVDR1 (series, antenna node to RFI) and CVDR2 (shunt, RFI to ground) and gives CVDR1 = 10 pF in all three worked topologies with CVDR2 at 135, 212 and 15 pF. Neither component exists on K1. The divider also sets the RFI DC bias to AGD, and its series combination appears inside the CP matching equation, so it is part of the match rather than an add-on.",
+   "source": "AN5276 Rev 6, May 2023, Antenna design for ST25R3916/16B, ST25R3917/17B, ST25R3918, ST25R3919B and ST25R3920/20B devices sec 3.5 and sec 6.2.1; AN5592 Rev 1, March 2021, ST25R single ended antenna matching sec 2.2, 2.3, 3.2, Tables 4, 5, 6; ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 123 VRFI_A 0.15 to 3 Vpp, recommended 2.8 Vpp in HF reader and NFC transmit mode, and Vp3V domain for pins 22 to 25",
+   "pins": [
+    "U12-NFC.22"
+   ],
+   "repair": "Fit CVDR1 in series from the antenna node to RFI1 and CVDR2 shunt from RFI1 to ground, and derive both together with the matching network from measured antenna parameters using the ST25R antenna matching tool STSW-ST25R004. Do not bolt the divider onto the existing match: the CP equation subtracts CVDR1*CVDR2/(CVDR1+CVDR2), so the whole solution is recomputed. Repair as one pass with NFC-D13 and NFC-D14 once the topology decision lands.",
+   "finding_class": "ELECTRICAL \u2014 the divider components are absent from the design entirely, not merely undrawn",
+   "drc_visibility": "INVISIBLE to any connectivity checker, and confirmed absent from the fresh 14:58:52 GUI DRC. This finding rests entirely on its vendor citation, which is recorded in full in the source field above."
+  },
+  {
+   "id": "NFC-D6",
+   "severity": "P1",
+   "title": "Regulator and AGDC decoupling incomplete, and the D-047 basis citation does not say what D-047 says",
+   "detail": "Five 10 nF parallel partners are missing on C92 to C96, and AGDC is fitted with 2.2 uF where 1 uF in parallel with 10 nF is specified. BOTH primary sources now agree and BOTH describe PAIRS. Datasheet sec 4.2.10: 'For regulators recommended blocking capacitors are 2.2 uF in parallel with 10 nF, for pin AGDC 1 uF in parallel with 10 nF is suggested.' The STEVAL-ST25R3916B schematic, read directly, fits 10 nF 0402 and 2.2 uF 0402 X5R capacitors as interleaved PAIRS around U200 (ten 10nF_0402 instances alongside the 2.2uF_0402_X5R parts), plus a 1uF_0402_X5R in the VDD_D/VDD_A area consistent with the AGDC recommendation. D-047 records the basis as 'C92-NFC through C97-NFC, GRM155R60J225ME15D, matching the STEVAL-ST25R3916B reference design' with one 2.2 uF per rail. The STEVAL does not support that reading: several of the designators D-047 names are the 10 nF members of pairs, and C100 is a 3V3 rail capacitor on the reader EXPANSION board, not an ST25R3916B regulator rail at all.",
+   "source": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.2.10 p.38; STEVAL-ST25R3916B schematic pack, STEVAL-25R3916B Rev 1 (17 pages), reader expansion board sheet 2 of 3",
+   "pins": [
+    "U12-NFC.3",
+    "U12-NFC.7",
+    "U12-NFC.9",
+    "U12-NFC.11",
+    "U12-NFC.14",
+    "U12-NFC.24"
+   ],
+   "repair": "Add five 10 nF parts across C92 to C96 and change C97 to 1 uF plus a 10 nF partner. One transaction, one visual stage, per D-038. Separately, correct the D-047 basis text: the electrical ruling that these rails are regulator OUTPUTS and must not be driven stands and is confirmed, but the 'one 2.2 uF per rail matching the STEVAL' justification is not what the STEVAL shows.",
+   "d047_status": "QUALIFIED, NOT OVERTURNED. The no-back-drive ruling holds. The capacitor count and the basis citation need correcting.",
+   "finding_class": "ELECTRICAL \u2014 the parallel capacitors are absent from the design entirely"
+  },
+  {
+   "id": "NFC-D9",
+   "severity": "P1",
+   "title": "Interface contract is missing three load-bearing rules",
+   "detail": "contracts/nfc-interface.md carries no VDD and VDD_TX co-supply rule, no RFI attenuation requirement, and no single-drive register-bit firmware requirement.",
+   "source": "contract read 2026-08-28; DS13541 Rev 5 sec 4.2.10, Table 123, Table 20",
+   "pins": [],
+   "repair": "Record all three in the contract, plus the 3V3-not-VDD_D strap variance from NFC-D11 with its rating justification.",
+   "finding_class": "DOCUMENTATION"
+  },
+  {
+   "id": "NFC-D7",
+   "severity": "P2",
+   "title": "U12-NFC symbol swaps TAD1 and TAD2",
+   "detail": "Datasheet Table 2 has pin 2 = TAD1 and pin 25 = TAD2; the K1 EDA symbol has the reverse. Electrically inert, both pins are no-connect. Context that lowers the blame on K1 and raises it on vendor consistency: ST names these two pins differently across its own documents. The STEVAL-ST25R3916B schematic labels pin 2 CSO and pin 25 CSI, and AN5276 Figure 1 uses CSO/CSI as well, while the datasheet pin table uses TAD1/TAD2. Whichever naming is used, pins 2 and 25 are the test pins and both are correctly no-connect on K1.",
+   "source": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 2; STEVAL-ST25R3916B schematic pack, STEVAL-25R3916B Rev 1 (17 pages) U200 pin list; AN5276 Rev 6, May 2023, Antenna design for ST25R3916/16B, ST25R3917/17B, ST25R3918, ST25R3919B and ST25R3920/20B devices Figure 1",
+   "pins": [
+    "U12-NFC.2",
+    "U12-NFC.25"
+   ],
+   "repair": "Correct the symbol pin names to match datasheet Table 2, and note the CSO/CSI alias so the next reader does not re-open it. Keep treating this as the prompt to verify every other symbol in the block against its vendor datasheet, which is how NFC-D3 was found.",
+   "finding_class": "SYMBOL METADATA \u2014 no electrical effect; both pins are no-connect"
+  },
+  {
+   "id": "NFC-D8",
+   "severity": "P2",
+   "title": "Unnecessary pull-up on a push-pull output",
+   "detail": "R43-NFC 4.7 k pulls NFC_IRQ up to 3V3. IRQ is a push-pull digital output, so the pull-up is not required by the datasheet.",
+   "source": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 2 pin 27 type DO; Table 13 IRQ active-high digital output",
+   "pins": [
+    "R43-NFC.1",
+    "R43-NFC.2"
+   ],
+   "repair": "Depopulate or delete R43-NFC. Sequence after NFC-D2 so the IRQ net is settled first.",
+   "finding_class": "ELECTRICAL \u2014 an unnecessary component is present"
+  },
+  {
+   "id": "NFC-D10",
+   "severity": "P2",
+   "title": "Matching, EMI and crystal-load values are frozen numbers with no cited source",
+   "detail": "L2 5.6 nH, C59 22 pF, R42 2.2 R, C60 33 pF, L3 33 nH, C61 47 pF, C54 and C55 10 pF. The contract holds matching_values at TUNE_TBD and the antenna is external and remote, so none of these can be derived yet.",
+   "source": "contracts/nfc-interface.md matching_values: TUNE_TBD",
+   "pins": [
+    "U12-NFC.13",
+    "U12-NFC.22",
+    "L2-NFC.1",
+    "L2-NFC.2",
+    "L3-NFC.1",
+    "L3-NFC.2",
+    "R42-NFC.1",
+    "R42-NFC.2",
+    "C59-NFC.1",
+    "C60-NFC.1",
+    "C60-NFC.2",
+    "C61-NFC.1",
+    "C54-NFC.1",
+    "C55-NFC.1",
+    "J10-NFC.1"
+   ],
+   "repair": "Stamp every value as provisional. Do not freeze any copied number, including 470 nH or 220 pF, until the real antenna, lead and enclosure are characterised.",
+   "finding_class": "VALUE PROVENANCE \u2014 documentation"
+  },
+  {
+   "id": "NFC-D11",
+   "severity": "P2",
+   "title": "I2C_EN strapped to 3V3 rather than VDD_D, undocumented as a variance",
+   "detail": "D-046 pulls NFC_I2C_EN to 3V3 through R76-NFC 10 k. The datasheet instruction is to pull to VDD_D. This is inside all ratings: Table 122 places pin 20 in the 5 V domain with absolute maximum 6 V and Table 123 gives operating 0 to 5.5 V, and in 5 V supply mode VDD_D is fixed at 3.4 V. It is a deviation from the stated instruction, not a violation.",
+   "source": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 sec 4.3.2 communication interface selection; Table 13; Table 122 Vp5V pins 9,11,13,14,15,17,20; Table 123",
+   "pins": [
+    "U12-NFC.20",
+    "R76-NFC.2"
+   ],
+   "repair": "Record the variance and its rating justification in the contract. No circuit change required.",
+   "finding_class": "DOCUMENTATION \u2014 electrically inside all ratings"
+  },
+  {
+   "id": "NFC-D12",
+   "severity": "P2",
+   "title": "BSS and MOSI are CMOS inputs left floating behind no-connect crosses",
+   "detail": "Table 13 lists only I2C_EN, MISO(SDA), SCLK(SCL) and IRQ for I2C mode, so BSS and MOSI are legitimately unused. Both are digital inputs. The datasheet neither requires nor forbids floating them.",
+   "source": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022 Table 13 I2C interface and interrupt signal lines; Table 2 pin 29 type DI and pin 31 type DI",
+   "pins": [
+    "U12-NFC.29",
+    "U12-NFC.31"
+   ],
+   "repair": "Decide whether to tie BSS and MOSI to a defined level rather than float them. Open question for the authority lane, not a datasheet violation.",
+   "finding_class": "ELECTRICAL \u2014 open question, not a datasheet violation"
+  },
+  {
+   "id": "NFC-D13",
+   "severity": "P0",
+   "title": "EMC filter cutoff is about 453 MHz against a required 8 to 17 MHz",
+   "detail": "The EMC filter is L2-NFC 5.6 nH in series with C59-NFC 22 pF shunt to ground. That topology is correct. The values are not: the pair resonates at about 453 MHz, roughly 27 times the 17 MHz upper bound. AN5276 sec 3.3 requires the filter cutoff to be between 8 and 17 MHz and specifically NOT between 13 and 14 MHz, because a cutoff near the 13.56 MHz carrier collapses the system Q factor. Neither fitted value is close to a workable pair: holding C59 at 22 pF would need roughly 4 to 18 uH, and holding L2 at 5.6 nH would need roughly 16 to 71 nF. Both values are wrong together, which reads as a copied set rather than a derived one. The filter as fitted does not attenuate the push-pull driver harmonics it exists to remove.",
+   "source": "AN5276 Rev 6, May 2023, Antenna design for ST25R3916/16B, ST25R3917/17B, ST25R3918, ST25R3919B and ST25R3920/20B devices sec 3.3 EMC filter; AN5592 Rev 1, March 2021, ST25R single ended antenna matching sec 2.2",
+   "pins": [
+    "U12-NFC.13",
+    "L2-NFC.1",
+    "L2-NFC.2",
+    "C59-NFC.1"
+   ],
+   "repair": "Re-derive L2 and C59 from the ST25R antenna matching tool together with the matching network, holding the cutoff inside 8 to 17 MHz and outside 13 to 14 MHz. Values stay TUNE_TBD until the antenna is characterised; the CONSTRAINT is what should be recorded now, not a number. Also apply AN5276's inductor guidance: self-resonance above the band of interest, ESR below about 1 ohm for anything but low and mid power matching, and rated current above the matching-network current.",
+   "finding_class": "ELECTRICAL \u2014 component values, verified by arithmetic against a cited constraint",
+   "drc_visibility": "INVISIBLE to any connectivity checker, and confirmed absent from the fresh 14:58:52 GUI DRC. This finding rests entirely on its vendor citation, which is recorded in full in the source field above."
+  },
+  {
+   "id": "NFC-D14",
+   "severity": "P1",
+   "title": "L3-NFC 33 nH series inductor is in no ST matching topology",
+   "detail": "The K1 chain is RFO1 -> L2 -> NFC_EMI -> (C59 shunt) -> R42 series -> NFC_MATCH_IN -> C60 series -> NFC_MATCH_L -> L3 series -> NFC_ANT -> (C61 shunt, J10, RFI1). Mapped onto AN5592 that is Lemc0 = L2, Cemc0 = C59, RQ_s = R42, Cs1 = C60, Cp1 = C61 \u2014 a recognisable single-ended stage \u2014 plus one component with no counterpart. AN5276 sec 3.4 and AN5592 sec 2.1 to 2.3 all define the matching network as a series capacitor, a parallel capacitor and a Q-factor resistor. There is no series inductor in any of the five ST configurations.",
+   "source": "AN5276 Rev 6, May 2023, Antenna design for ST25R3916/16B, ST25R3917/17B, ST25R3918, ST25R3919B and ST25R3920/20B devices sec 3.4 matching network; AN5592 Rev 1, March 2021, ST25R single ended antenna matching sec 2.1, 2.2, 2.3 and Figures 1, 3, 5",
+   "pins": [
+    "L3-NFC.1",
+    "L3-NFC.2"
+   ],
+   "repair": "Delete L3-NFC unless a documented reason for it is produced. Fold the decision into the single matching re-derivation with NFC-D5 and NFC-D13.",
+   "finding_class": "ELECTRICAL \u2014 topology; a component with no counterpart in any ST configuration"
+  },
+  {
+   "id": "NFC-D15",
+   "severity": "SUPERSEDED",
+   "finding_class": "SUPERSEDED by NFC-D2",
+   "title": "SUPERSEDED: folded into NFC-D2",
+   "detail": "This entry said NFC_IRQ's two-island geometry was 'electrically correct' and cited architecture/POWER-ARCHITECTURE.md line 3 as a power-tree-only visible-wiring requirement. Both halves were wrong. The electrical claim was never established \u2014 see NFC-D2. And the requirement is not power-tree-only: schematic/SINGLE-SHEET-CONTRACT.md carries a general Wiring doctrine. Superseded rather than deleted so the under-read stays on the record. Further superseded by the 14:58 DRC: NFC_IRQ is bound in the netlist, so the two-island geometry was never an electrical problem. The original entry reached the right conclusion for the wrong reason.",
+   "source": "frozen source 489736:464c27d4; EasyEDA DRC raises no error on NFC_IRQ",
+   "pins": [
+    "U12-NFC.27"
+   ],
+   "repair": "None. See NFC-D2."
+  },
+  {
+   "id": "NFC-D16",
+   "severity": "P1",
+   "finding_class": "OBSERVATION \u2014 live document changed under an open decision; needs the single writer to confirm",
+   "title": "RFO2 appears to have been connected since the freeze while RFI2 was not \u2014 half of the differential pair acted on before the topology ruling",
+   "detail": "In the frozen source both U12-NFC.15 (RFO2) and U12-NFC.23 (RFI2) touched zero wires, and the canonical-nfc-unused-nc-2026-08-28 transaction deliberately marked NEITHER (verified: its applied.json lists pins 2, 17, 18, 19, 25, 28, 29, 31 only). In the fresh 14:58:52 DRC, pin 23 is still listed floating and pin 15 is NOT. EasyEDA omits a pin from that list when it is wired OR when it carries a no-connect flag, so one of those two things has happened to RFO2 since the freeze.\n\nEither would be a change to one half of the differential pair while the single-ended-versus-differential ruling is still open \u2014 and an NC mark in particular is the thing this audit explicitly asked NOT to be applied before that ruling, because it freezes the topology choice before the evidence for it is ratified.\n\nThis lane cannot see the live document, so this is an OBSERVATION, not an accusation: there may be a perfectly good reason, or a reading this lane cannot make from a DRC log alone.",
+   "source": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/anchors/schDrcLog_2026-08-28T1458.txt: U12-NFC floating list = ['23'] only; jobs/canonical-nfc-unused-nc-2026-08-28-applied.json: pins 2,17,18,19,25,28,29,31; frozen source 489736:464c27d4: pins 15 and 23 both touch zero wires",
+   "pins": [
+    "U12-NFC.15",
+    "U12-NFC.23"
+   ],
+   "repair": "Single writer to read the live state of U12-NFC.15 and report whether it is wired or NC-marked, and under what authority. If it was NC-marked, consider reverting until the topology decision is ratified."
+  }
+ ],
+ "defect_summary": {
+  "total": 14,
+  "resolved_or_superseded": [
+   "NFC-D2",
+   "NFC-D15"
+  ],
+  "by_severity": {
+   "P0": 4,
+   "RESOLVED_NETLIST_STALE_DRAWING": 1,
+   "P1": 5,
+   "P2": 5,
+   "SUPERSEDED": 1
+  },
+  "p0": [
+   "NFC-D1",
+   "NFC-D3",
+   "NFC-D5",
+   "NFC-D13"
+  ],
+  "note": "The four P0s are all datasheet-derived and invisible to every connectivity checker, confirmed against the fresh 14:58 DRC. They stand on their vendor citations alone, which is why each carries an exact locator."
+ },
+ "out_of_scope_recorded_not_acted_on": [
+  "continuous ground beneath the matching network",
+  "short and symmetric RFO and RFI geometry",
+  "no through-vias in the matching path",
+  "antenna position, RF keepouts, board outline",
+  "the antenna-side matching network and the coaxial lead themselves, which are product parts that do not yet exist"
+ ],
+ "cited_sources": [
+  {
+   "document": "ST25R3916B/ST25R3917B datasheet, DS13541 Rev 5, September 2022",
+   "retrieved": true,
+   "locators_used": [
+    "sec 2.2.1 transmitter",
+    "sec 2.2.3 phase and amplitude detector",
+    "sec 4.2.1 transmitter single driver mode",
+    "sec 4.2.10 power supply system",
+    "sec 4.3.2 communication interface selection",
+    "sec 4.3.4 I2C interface",
+    "Table 2 pin assignment",
+    "Table 13 I2C signal lines",
+    "Table 20 IO configuration register 1",
+    "Table 122 absolute maximum ratings",
+    "Table 123 operating conditions"
+   ]
+  },
+  {
+   "document": "AN5276 Rev 6, May 2023, Antenna design for ST25R3916/16B, ST25R3917/17B, ST25R3918, ST25R3919B and ST25R3920/20B devices",
+   "retrieved": true,
+   "locators_used": [
+    "sec 3 antenna interface stage",
+    "sec 3.3 EMC filter",
+    "sec 3.4 matching network",
+    "sec 3.5 capacitive voltage divider",
+    "sec 6.1 matching tool",
+    "sec 6.2.1 models"
+   ],
+   "note": "Rev 6 retrieved and used. Its three load-bearing statements are word-for-word identical to Rev 5, which this audit cited first: sec 3.3 EMC cutoff 8-17 MHz and not between 13 and 14 MHz; sec 3.5 capacitive voltage divider with the RFI_1/RFI_2 and RFI_3/RFI_4 pairs and the 3 Vpp limit with 2.8 Vpp recommended; and the sec 3 statement that the document focuses on the differential configuration. No finding changes between the revisions."
+  },
+  {
+   "document": "AN5592 Rev 1, March 2021, ST25R single ended antenna matching",
+   "retrieved": true,
+   "locators_used": [
+    "sec 2.2 single ended antenna and Figure 3",
+    "sec 2.3 single ended antenna with cable and Figure 5",
+    "sec 2.4 automatic antenna tuning",
+    "sec 3.2 single ended antenna",
+    "Table 4",
+    "Table 5",
+    "Table 6"
+   ]
+  },
+  {
+   "document": "STMicroelectronics community, ST25 NFC/RFID forum, thread 'X-NUCLEO-NFC08A1 : Change to Single-ended Antenna?', best answer by Travis Palmer (ST Employee), 22 January 2024",
+   "retrieved": true,
+   "tier": "SECONDARY - vendor forum, corroborates AN5592 and the datasheet, never used alone",
+   "locators_used": [
+    "'only RFO1 / RFI1 is connected to the antenna and will be driven'",
+    "'Please make sure to set the single bit correctly'",
+    "'AAT will not be available afterwards'"
+   ]
+  },
+  {
+   "document": "STEVAL-ST25R3916B schematic pack, STEVAL-25R3916B Rev 1 (17 pages)",
+   "retrieved": true,
+   "tier": "PRIMARY reference design, read as flattened schematic text",
+   "locators_used": [
+    "reader expansion board sheet 2 of 3, U200 ST25R3916B and its decoupling",
+    "reader expansion board sheet 1 of 3, C100 on the 3V3 rail"
+   ],
+   "note": "Extracted as flattened text from the schematic PDF. Component VALUES and their presence are unambiguous; designator-to-rail mapping is positional in the flattened dump and is NOT asserted pin-by-pin here."
+  }
+ ],
+ "source_register_additions_required": {
+  "target": "sources/SOURCE-REGISTER.md",
+  "note": "Neither app note is registered. The register currently carries AN5240 only, plus the ST25R3916B datasheet and the STEVAL board.",
+  "rows": [
+   {
+    "organisation": "STMicroelectronics",
+    "source": "AN5276 Rev 6, May 2023, Antenna design for ST25R3916/16B, ST25R3917/17B, ST25R3918, ST25R3919B and ST25R3920/20B devices",
+    "used_for": "EMC filter is a one-stage series-inductor/parallel-capacitor low pass whose cutoff must be 8-17 MHz and must NOT fall between 13 and 14 MHz; the receive path requires a capacitive voltage divider at the antenna terminals (capacitor pairs RFI_1/RFI_2 and RFI_3/RFI_4); RFI pin voltage must not exceed 3 Vpp, 2.8 Vpp recommended in HF reader and NFC transmit mode; RFI nodes are biased to AGD; matching component values come from the ST25R antenna matching tool STSW-ST25R004 driven by measured antenna parameters. Basis for NFC-D5, NFC-D10 and NFC-D13."
+   },
+   {
+    "organisation": "STMicroelectronics",
+    "source": "AN5592 Rev 1, March 2021, ST25R single ended antenna matching",
+    "used_for": "Single-ended topology omits RFO2 and RFI2 entirely (Figure 3); the EXT_LM circuit must be removed for single-ended on ST25R3916 devices; single-ended uses fewer components and less area but is unbalanced and more prone to noise and interference; single-ended-with-cable is the supported topology for a remote antenna on a coaxial lead, requires a second matching network at the antenna, and supports only a limited set of target matching impedances; AAT is not possible with a cable. The RX divider term CVDR1*CVDR2/(CVDR1+CVDR2) appears inside the CP matching equation, so the divider is part of the match and cannot be added afterwards without recomputing it. Basis for NFC-D4, NFC-D5 and NFC-D14."
+   },
+   {
+    "organisation": "STMicroelectronics",
+    "source": "STEVAL-ST25R3916B schematic pack, STEVAL-25R3916B Rev 1 (17 pages)",
+    "used_for": "Reference-design corroboration that each ST25R3916B internal-regulator rail carries a 10 nF 0402 AND a 2.2 uF 0402 X5R capacitor as a PAIR, matching datasheet sec 4.2.10 and contradicting the single-2.2 uF reading recorded in D-047. Also shows the EXT_LM circuit populated in the differential reference design, and names the two test pins CSO (pin 2) and CSI (pin 25) rather than TAD1/TAD2. Basis for NFC-D6 and NFC-D7.",
+    "note": "The register already lists the STEVAL board; this row records that the SCHEMATIC PACK itself has now been read."
+   }
+  ]
+ },
+ "architecture_decision_required": {
+  "id": "NFC topology: single-ended-with-cable versus differential",
+  "status": "NEEDS CAPTAIN RULING AND A DECISION-REGISTER ENTRY",
+  "why_not_settled_here": "This is an architecture choice, not a repair. It changes the component count, the achievable read range, the firmware register setup, and whether antenna diagnostics exist at all. This lane records the evidence and a recommendation; it does not implement either topology.",
+  "as_built": "single-ended, undecided and unrecorded",
+  "recommendation": "Ratify SINGLE-ENDED WITH CABLE (AN5592 sec 2.3), which is what the board already is.",
+  "evidence_for": [
+   "The K1 antenna is external and remote on a U.FL coaxial lead. AN5592 sec 2.3 is the ST topology for exactly that, and ST support directs a STEVAL-ST25R3916B user with an external antenna on a coaxial cable to AN5592, confirming it applies to the ST25R3916B.",
+   "Differential over a coaxial lead is not what AN5592 documents; the cable case is presented only in the single-ended family.",
+   "AAT is unavailable either way here: AN5592 sec 2.4 states AAT is not possible for a single-ended antenna with cable because any change in cable parameters detunes the reader. K1 already leaves AAT_A and AAT_B unconnected, so nothing is lost by ratifying.",
+   "The EXT_LM removal that AN5592 requires for single-ended on ST25R3916 devices is already satisfied: K1 has no EXT_LM circuit.",
+   "Fewer components and less board area, per AN5592 sec 2.2 and the datasheet sec 4.2.1."
+  ],
+  "evidence_against_and_costs": [
+   "Reduced output power. Datasheet sec 4.2.1: single driver mode halves the antenna LC tank component count and cost 'but also the output power is reduced'. Read range is the thing being traded.",
+   "AN5592 sec 2.2: a single-ended signal is unbalanced and 'more prone to noise and interference'. On a board carrying a switching buck, LED drivers and USB, that matters.",
+   "AN5276 sec 2 recommends the differential design for low-power applications 'because gives the best range'.",
+   "Part of the receive path is given up: the peak detector reads RFI1 only at gain 0.7 while the AM demodulator mixer uses both inputs at gain 0.55, and the amplitude and phase detectors are differential between RFI1 and RFI2.",
+   "AN5592 sec 2.3: the cable case admits only a limited set of target matching impedances, for example 4, 8 and 16 ohm, so there is less design freedom.",
+   "A second matching network is required at the antenna end, tuned to the cable characteristic impedance. That is a part of the product that does not exist yet and is not in any BOM."
+  ],
+  "if_captain_rules_differential_instead": "Then NFC-D4 becomes a real wiring defect again and RFO2, RFI2 and a second CVDR1/CVDR2 divider pair must all be added, with a second EMC inductor and a second Cs/Cp arm. That is a larger change than the single-ended repair and it is not the topology AN5592 documents for a coaxial lead.",
+  "firmware_consequence_either_way": "IO configuration register 1 bit single must be set to 1 with bit rfo2 = 0 for the as-built board. The device default is differential. This belongs in contracts/nfc-interface.md whichever way the ruling goes."
+ },
+ "retrieval_note": "st.com is unreachable directly from this host (Akamai edge drops the connection) and WebFetch is blocked by a hook in this session. AN5276 Rev 6, AN5592 Rev 1 and the STEVAL schematic pack were obtained through a public text-extraction proxy on the public ST URLs; AN5276 Rev 5 came from a reachable distributor mirror. Every source in cited_sources was read, not summarised second-hand.",
+ "host_interface_verified": {
+  "RETRACTED": "The previous version of this block claimed 'All three signals D-009 permits across the module boundary are present. The contract is satisfied.' That was based on the retracted DRC fit and is withdrawn."
+ },
+ "cross_lane_evidence_for_motion_lane": {
+  "finding": "Both the FIT and the DNP side of the motion ownership matrix land on the same shared I2C net.",
+  "measured": {
+   "I2C_SDA": [
+    "R44-MOT.2",
+    "R45-MOT.2"
+   ],
+   "I2C_SCL": [
+    "R46-MOT.2",
+    "R47-MOT.2"
+   ]
+  },
+  "why_not_an_artefact": "These are 2-pin passives that register at zero offset with zero floating pins against DRC.",
+  "assessment": "Two resistors into one net is not owner selection. Passed to the motion lane; no action in this lane."
+ },
+ "intended_pin_identification": {
+  "question": "Which U9-ESP pin was each displaced ESP-side wire drawn for?",
+  "why_it_matters": "Only for the repair \u2014 it does not affect the drawing verdict, which is RED either way.",
+  "zero_offset_reading": {
+   "nearest_pin_to_the_NFC_IRQ_stub": "pin 6 (IO6), Chebyshev distance 5 from wire endpoint (4170,4375) to pin (4175,4375)",
+   "verdict": "INCOHERENT \u2014 rejected",
+   "evidence": "At zero offset the nearest-pin map reads pin 3 'EN' -> GND, pin 4 'IO4' -> 3V3, pin 5 'IO5' -> ESP_EN, pin 36 'RXD0' -> I2C_SCL, pin 14 'IO20' -> USB_DM_S3. That has the designer wiring GND to a GPIO and UART RXD0 to an I2C clock."
+  },
+  "displaced_reading": {
+   "shift_applied_to_pins": [
+    -5,
+    -20
+   ],
+   "nearest_pin_to_the_NFC_IRQ_stub": "pin 4 (IO4)",
+   "verdict": "COHERENT \u2014 accepted",
+   "independent_anchors": [
+    "Pins 1,2,3 are named GND, 3V3, EN and land on GND, 3V3, ESP_EN \u2014 three consecutive power/enable matches.",
+    "Pin 13 'IO19' -> USB_DM_S3 and pin 14 'IO20' -> USB_DP_S3. ESP32-S3 GPIO19 and GPIO20 ARE the native USB D- and D+ pins; this is a hardware fact, not a naming coincidence, and a two-pitch error would break it.",
+    "Pin 36 'RXD0' -> ESP_UART0_RX and pin 37 'TXD0' -> ESP_UART0_TX.",
+    "Pins 18-22 -> K1BR_CS, K1BR_MOSI, K1BR_SCK, K1BR_MISO_S3, K1BR_IRQ_S3 in pin order."
+   ],
+   "residual_uncertainty": "The x component of the shift is 5, exactly half the 10-unit pin pitch, which the harness refuses as ambiguous for binding purposes. The y component is 20, a clean two pitches. The name-to-net anchors are what separate pin 4 from pin 6; geometry alone cannot."
+  },
+  "correction_to_the_team_lead": "The adjacent pin at zero offset is indeed pin 6 (IO6) at distance 5, as observed. But the zero-offset map is incoherent, so pin 6 is the nearest-neighbour artefact and pin 4 is the pin the wire was drawn for. This matters only for the repair.",
+  "unreconciled_discrepancy": "harness/check_schematic_connectivity.py reports nearest_measured_distance 100 for the NFC_IRQ stub e8941, where direct arithmetic on the same inputs gives 5 to pin 6 and 20 to pin 4 (wire endpoint (4170,4375); pin 6 at (4175,4375); pin 4 at (4175,4395)). The harness VERDICT is unaffected \u2014 the wire meets no pin under either number \u2014 but the distance field is worth the oracle lane's attention."
+ },
+ "host_interface_drawing_vs_netlist": {
+  "measured_by": "harness/check_schematic_connectivity.py on frozen source 489736:464c27d4",
+  "note": "DRAWING only. The netlist column cannot be filled from geometry on this host.",
+  "signals": {
+   "NFC_IRQ": {
+    "drawing": "RED \u2014 3 wires, 2 pins met (R43-NFC.2, U12-NFC.27); ESP-side stub e8941 meets no pin  [STALE \u2014 measured on frozen source 489736; live moved after it, U9-ESP now 0 floating]",
+    "intended_pin": "U9-ESP.4 (IO4), by name-to-net anchors",
+    "netlist": "RESOLVED \u2014 no defect (14:58:52 GUI DRC)",
+    "contract": "point-to-point signal, no labelled-trunk exemption"
+   },
+   "I2C_SDA": {
+    "drawing": "RED \u2014 8 wires, 7 pins met (R28-AUD.2, R4-PWR1.1, R44-MOT.2, R45-MOT.2, U11-AUD.12, U12-NFC.32, U2-PWR1.4); ESP-side stub e8935 meets no pin  [STALE \u2014 measured on frozen source 489736; live moved after it, U9-ESP now 0 floating]",
+    "intended_pin": "U9-ESP.39 (IO1), by name-to-net anchors",
+    "netlist": "RESOLVED \u2014 no defect (14:58:52 GUI DRC)",
+    "contract": "major shared bus \u2014 the labelled-trunk form IS permitted; the violation is that the ESP-side stub meets no pin at all, which is a different thing from being a trunk"
+   },
+   "I2C_SCL": {
+    "drawing": "RED \u2014 7 wires, 6 pins met (R29-AUD.2, R46-MOT.2, R47-MOT.2, U11-AUD.13, U12-NFC.30, U2-PWR1.5); ESP-side stub e8938 meets no pin  [STALE \u2014 measured on frozen source 489736; live moved after it, U9-ESP now 0 floating]",
+    "intended_pin": "U9-ESP.38 (IO2), by name-to-net anchors",
+    "netlist": "RESOLVED \u2014 no defect (14:58:52 GUI DRC)",
+    "contract": "major shared bus \u2014 same as I2C_SDA"
+   },
+   "NFC_I2C_EN": {
+    "drawing": "GREEN \u2014 2 wires, 2 pins met (R76-NFC.1, U12-NFC.20)",
+    "intended_pin": "none; it is a local 10k strap to 3V3 per D-046, not a host signal",
+    "netlist": "not at issue",
+    "contract": "satisfied"
+   }
+  },
+  "why_all_three_reds_share_one_cause": "Every one of them is an ESP-side stub missing a displaced U9-ESP pin. Any net whose only unmet endpoint is on U9-ESP inherits the same uncertainty and the same repair.",
+  "netlist_resolved": "All of NFC_IRQ, I2C_SDA and I2C_SCL are absent from the 14:58:52 DRC and U9-ESP has zero floating pins. The netlist column is RESOLVED with no defect for all three. NFC_I2C_EN was never at issue."
+ },
+ "cross_lane_pointers_from_the_harness": {
+  "off_sheet_wire": "BUCK_PG wire e146347 has negative y coordinates [[1000,-4535,1130,-4535],[1000,-4480,1000,-4535]] \u2014 off-sheet, the one class the harness says no fit recovers. Power lane.",
+  "net_labels_meeting_fewer_than_two_pins": [
+   "BUCK_PG",
+   "ESP_UART0_RX",
+   "K1BR_IRQ_S3",
+   "K1BR_MISO_S3",
+   "K1BR_MOSI",
+   "LED_D0_3V3",
+   "MOTION_INT_S3",
+   "S3_POR_REQ"
+  ],
+  "note": "Reported for the owning lanes; none is an NFC finding."
+ },
+ "fresh_drc_anchor": {
+  "path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/anchors/schDrcLog_2026-08-28T1458.txt",
+  "sha256_prefix": "72b81f296a3af28c",
+  "ran": "2026-08-28 14:58:52",
+  "verified_independently_by_this_lane": true,
+  "counts_as_read": {
+   "lines": 431,
+   "Fatal": 0,
+   "Error": 0,
+   "Warn": 15,
+   "Info_grep": 416,
+   "Info_self_reported": 414
+  },
+  "note": "Line count reads 431 here against the 432 quoted in the hand-off, and the log's own summary says Info 414 where a grep counts 416. Neither difference touches any finding; recorded so the next reader is not surprised.",
+  "supersedes": "schDrcLog_2026-08-28.txt at 12:17:37, which this audit had already marked stale by three transactions.",
+  "what_it_settles": {
+   "U9-ESP floating pins": "ZERO (verified: 101 floating pins across 9 components, none of them on U9-ESP). Was 18-19 at 12:17.",
+   "single-pin networks board-wide": [
+    "$1N153914",
+    "BUCK_PG"
+   ],
+   "NFC_IRQ": "absent from the entire log",
+   "I2C_SDA / I2C_SCL / NFC_I2C_EN": "absent from the entire log",
+   "U12-NFC floating pins": [
+    "23"
+   ],
+   "Y2-NFC floating pins": [
+    "3",
+    "4"
+   ]
+  }
+ }
+}

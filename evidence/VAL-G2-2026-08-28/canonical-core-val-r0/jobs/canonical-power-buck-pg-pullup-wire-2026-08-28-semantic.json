@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-power-buck-pg-pullup-wire-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "scope": "POWER_BUCK",
+  "stage": "wire",
+  "intended_delta": "Wire R75-PWR2 pin 1 to BUCK_PG, pin 2 to 3V3, and U3-PWR2 pin 5 to BUCK_PG. Do not move parts.",
+  "pre_source_hash": "487238:fe5b0822",
+  "post_source_hash": "487622:7f93f9af",
+  "saved": true,
+  "affected": ["R75-PWR2", "U3-PWR2", "e146347"],
+  "census": {
+    "components": 229,
+    "wires": 672,
+    "texts": 22,
+    "rectangles": 10
+  },
+  "source_basis": [
+    "TI TPS62913 datasheet SLUSEA4: PG is open-drain and requires a pull-up when used",
+    "K1 validation board uses PG; do not NC it",
+    "Host cannot create net labels or setState_NoConnected; BUCK_PG attached by named wire-stub plus pin-to-pin wire"
+  ]
+}

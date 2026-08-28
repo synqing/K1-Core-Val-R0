@@ -1,0 +1,16 @@
+[
+  {
+    "tool": "add_schematic_component",
+    "tag": "R76",
+    "args": {
+      "deviceUuid": "6593321c1e554b2f9070c57621ba8753",
+      "x": 1680,
+      "y": 3240,
+      "rotation": 0,
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

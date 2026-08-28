@@ -1,0 +1,31 @@
+{
+  "affected": [
+    "e146025",
+    "e146061",
+    "e146097",
+    "e146133",
+    "e146169",
+    "e146205"
+  ],
+  "census": {
+    "components": 228,
+    "rectangles": 10,
+    "texts": 22,
+    "wires": 657
+  },
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Place six GRM155R60J225ME15D 2.2uF 0402 capacitors C92-NFC..C97-NFC inside box 7 between the matching row and J10, one per ST25R3916B internal regulator rail. Do not designate or wire.",
+  "post_source_hash": "479573:e34d817e",
+  "pre_source_hash": "474515:92da2b87",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "saved": true,
+  "schema_version": 1,
+  "scope": "NFC",
+  "source_basis": [
+    "ST25R3916B: VDD_A/D/RF/AM/DR and AGDC are internal regulator outputs",
+    "STEVAL-ST25R3916B C100/C205/C207/C212/C214/C216 GRM155R60J225ME15D 2.2uF",
+    "Captain schDrcLog 2026-08-28 single-pin NFC_VDD_* and NFC_AGDC"
+  ],
+  "stage": "place",
+  "transaction_id": "canonical-nfc-regulator-decouple-place-2026-08-28"
+}

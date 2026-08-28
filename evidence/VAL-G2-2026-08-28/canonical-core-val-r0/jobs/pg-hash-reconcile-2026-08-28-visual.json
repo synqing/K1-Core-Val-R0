@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "pg-hash-reconcile-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Reconcile and restamp the canonical EasyEDA mutation boundary after host hash drift on the closed PG-wire save; persist the live hash without changing schematic topology",
+  "observed_delta": "Settled power-domain view still shows R75-PWR2 10k between 3V3 and BUCK_PG, U3 pin 5 on BUCK_PG, and the existing box-2 power parts. Census stays 229 components and 672 wires.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/pg-hash-reconcile-whole.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "identity",
+      "result": "OK",
+      "detail": "Active document remains K1-Core-Val-R0 schematic page 1435cb46f39e48c8a8aadbb84ca81603."
+    },
+    {
+      "name": "single-sheet occupancy",
+      "result": "OK",
+      "detail": "The open tab is still the single electrical page. Box 2 POWER CONVERSION remains on that page."
+    },
+    {
+      "name": "census",
+      "result": "OK",
+      "detail": "Post-save source read-back remains 229 components, 672 wires, 22 texts, 10 rectangles."
+    },
+    {
+      "name": "collateral",
+      "result": "OK",
+      "detail": "This restamp adds, deletes or rewires nothing. Hash digest changed after save; length stayed 487622."
+    }
+  ]
+}

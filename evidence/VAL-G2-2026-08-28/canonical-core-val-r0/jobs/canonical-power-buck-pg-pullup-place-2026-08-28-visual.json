@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-power-buck-pg-pullup-place-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Place RC0402FR-0710KL 10k R75-PWR2 in box 2 left of U3-PWR2, near the TPS62913 PG pin. Do not designate or wire.",
+  "observed_delta": "A new undesignated 10k resistor R? sits in box 2 immediately left of U3-PWR2, level with the PG pin. U3 pin 5 still shows an NC flag. Component census rose 228 to 229.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-power-buck-pg-pullup-place-box2.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "one new 0402 resistor sits in box 2 left of U3",
+      "result": "OK",
+      "detail": "Settled box-2 view shows a new R? 10k immediately left of U3-PWR2, beside pin 5 PG."
+    },
+    {
+      "name": "it does not overlap U3, C10 or L1",
+      "result": "OK",
+      "detail": "The new resistor is in open space left of U3. C10 remains below-left and L1 remains to the right of the switch node."
+    },
+    {
+      "name": "no part appears outside box 2",
+      "result": "OK",
+      "detail": "The new resistor is inside the POWER CONVERSION + DISTRIBUTION frame."
+    },
+    {
+      "name": "component count increases by exactly 1",
+      "result": "OK",
+      "detail": "Saved census is 229 components and 669 wires."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-nfc-regulator-decouple-designate-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Designate C92-NFC..C97-NFC as 2.2uF GRM155R60J225ME15D / C76993. Do not move or wire.",
+  "observed_delta": "The new capacitor row now reads C92-NFC through C97-NFC at 2.2uF. The parts stay on the same row between J10/L2/L3 and the matching capacitors. Wire count is unchanged at 657.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-nfc-regulator-decouple-designate-below-u12.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "C92-NFC through C97-NFC exist exactly once",
+      "result": "OK",
+      "detail": "Settled box-7 view shows the C92-NFC..C97-NFC designators on the new 2.2uF row. Semantic affected list is those six names exactly once."
+    },
+    {
+      "name": "each reads 2.2uF",
+      "result": "OK",
+      "detail": "Each new capacitor in the row is labelled 2.2uF."
+    },
+    {
+      "name": "no extra designator appears",
+      "result": "OK",
+      "detail": "No additional C? or extra NFC designator appeared. Component census stays 228."
+    },
+    {
+      "name": "positions stay on the placed row",
+      "result": "OK",
+      "detail": "The six parts remain in the same horizontal band under J10/L2/L3, still inside box 7 and still not overlapping U12."
+    }
+  ]
+}

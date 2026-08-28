@@ -1,0 +1,1826 @@
+[
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C1-PWR1",
+    "args": {
+      "componentPrimitiveId": "e72",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C2-PWR1",
+    "args": {
+      "componentPrimitiveId": "e108",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "D1-PWR1",
+    "args": {
+      "componentPrimitiveId": "e252",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "F1-PWR1",
+    "args": {
+      "componentPrimitiveId": "e301",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "J1-PWR1",
+    "args": {
+      "componentPrimitiveId": "e339",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R1-PWR1",
+    "args": {
+      "componentPrimitiveId": "e426",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R2-PWR1",
+    "args": {
+      "componentPrimitiveId": "e465",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U1-PWR1",
+    "args": {
+      "componentPrimitiveId": "e504",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C3-PWR1",
+    "args": {
+      "componentPrimitiveId": "e562",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C4-PWR1",
+    "args": {
+      "componentPrimitiveId": "e598",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R3-PWR1",
+    "args": {
+      "componentPrimitiveId": "e778",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R4-PWR1",
+    "args": {
+      "componentPrimitiveId": "e817",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "RSH1-PWR1",
+    "args": {
+      "componentPrimitiveId": "e856",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U2-PWR1",
+    "args": {
+      "componentPrimitiveId": "e894",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C5-PWR2",
+    "args": {
+      "componentPrimitiveId": "e1870",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C6-PWR2",
+    "args": {
+      "componentPrimitiveId": "e1906",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C7-PWR2",
+    "args": {
+      "componentPrimitiveId": "e1942",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C8-PWR2",
+    "args": {
+      "componentPrimitiveId": "e1978",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C9-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2014",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R5-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2082",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R6-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2121",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R7-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2160",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U3-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2199",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C11-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2268",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C12-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2304",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C13-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2340",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "FB1-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2376",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "FB2-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2414",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R8-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2452",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U4-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2491",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C14-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2549",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C15-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2585",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C16-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2621",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C17-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2657",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "FB3-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2693",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "Q1-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2731",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R9-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2776",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U5-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2815",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C18-RTC",
+    "args": {
+      "componentPrimitiveId": "e3055",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R12-RTC",
+    "args": {
+      "componentPrimitiveId": "e3205",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "SW1-RTC",
+    "args": {
+      "componentPrimitiveId": "e3244",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U6-RTC",
+    "args": {
+      "componentPrimitiveId": "e3673",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U7-RTC",
+    "args": {
+      "componentPrimitiveId": "e3619",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C37-RTDBG",
+    "args": {
+      "componentPrimitiveId": "e4877",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C38-RTDBG",
+    "args": {
+      "componentPrimitiveId": "e4913",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R13-RTDBG",
+    "args": {
+      "componentPrimitiveId": "e4949",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R14-RTDBG",
+    "args": {
+      "componentPrimitiveId": "e4988",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "Y1-RTDBG",
+    "args": {
+      "componentPrimitiveId": "e5089",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "J4-RTDBG",
+    "args": {
+      "componentPrimitiveId": "e5134",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R15-RTDBG",
+    "args": {
+      "componentPrimitiveId": "e5358",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R16-RTDBG",
+    "args": {
+      "componentPrimitiveId": "e5397",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R17-RTDBG",
+    "args": {
+      "componentPrimitiveId": "e5436",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R18-RTDBG",
+    "args": {
+      "componentPrimitiveId": "e5475",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "J5-RTDBG",
+    "args": {
+      "componentPrimitiveId": "e5635",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C39-ESP",
+    "args": {
+      "componentPrimitiveId": "e7586",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C40-ESP",
+    "args": {
+      "componentPrimitiveId": "e7622",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C41-ESP",
+    "args": {
+      "componentPrimitiveId": "e7658",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R19-ESP",
+    "args": {
+      "componentPrimitiveId": "e7885",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R20-ESP",
+    "args": {
+      "componentPrimitiveId": "e7924",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "SW2-ESP",
+    "args": {
+      "componentPrimitiveId": "e7963",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "SW3-ESP",
+    "args": {
+      "componentPrimitiveId": "e8014",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U9-ESP",
+    "args": {
+      "componentPrimitiveId": "e8065",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "J7-ESP",
+    "args": {
+      "componentPrimitiveId": "e8334",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R21-ESP",
+    "args": {
+      "componentPrimitiveId": "e8421",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R22-ESP",
+    "args": {
+      "componentPrimitiveId": "e8460",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U10-ESP",
+    "args": {
+      "componentPrimitiveId": "e8499",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C45-ESP",
+    "args": {
+      "componentPrimitiveId": "e8548",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R23-ESP",
+    "args": {
+      "componentPrimitiveId": "e8584",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R24-ESP",
+    "args": {
+      "componentPrimitiveId": "e8623",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R25-ESP",
+    "args": {
+      "componentPrimitiveId": "e8662",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R26-ESP",
+    "args": {
+      "componentPrimitiveId": "e8701",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R27-ESP",
+    "args": {
+      "componentPrimitiveId": "e8740",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "TP1-ESP",
+    "args": {
+      "componentPrimitiveId": "e8779",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "TP2-ESP",
+    "args": {
+      "componentPrimitiveId": "e8808",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C46-AUD",
+    "args": {
+      "componentPrimitiveId": "e11652",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C47-AUD",
+    "args": {
+      "componentPrimitiveId": "e11688",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C48-AUD",
+    "args": {
+      "componentPrimitiveId": "e11724",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C49-AUD",
+    "args": {
+      "componentPrimitiveId": "e11760",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C50-AUD",
+    "args": {
+      "componentPrimitiveId": "e11796",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R28-AUD",
+    "args": {
+      "componentPrimitiveId": "e11868",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R29-AUD",
+    "args": {
+      "componentPrimitiveId": "e11907",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U11-AUD",
+    "args": {
+      "componentPrimitiveId": "e11985",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "J8-AUD",
+    "args": {
+      "componentPrimitiveId": "e12118",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R31-AUD",
+    "args": {
+      "componentPrimitiveId": "e12172",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R32-AUD",
+    "args": {
+      "componentPrimitiveId": "e12211",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R33-AUD",
+    "args": {
+      "componentPrimitiveId": "e12250",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R34-AUD",
+    "args": {
+      "componentPrimitiveId": "e12289",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R35-AUD",
+    "args": {
+      "componentPrimitiveId": "e12328",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R36-AUD",
+    "args": {
+      "componentPrimitiveId": "e12367",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R37-AUD",
+    "args": {
+      "componentPrimitiveId": "e12406",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "TP3-AUD",
+    "args": {
+      "componentPrimitiveId": "e12445",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C53-AUD",
+    "args": {
+      "componentPrimitiveId": "e12474",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "FB5-AUD",
+    "args": {
+      "componentPrimitiveId": "e12510",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "J9-AUD",
+    "args": {
+      "componentPrimitiveId": "e12548",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R38-AUD",
+    "args": {
+      "componentPrimitiveId": "e12620",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R39-AUD",
+    "args": {
+      "componentPrimitiveId": "e12659",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R40-AUD",
+    "args": {
+      "componentPrimitiveId": "e12698",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R41-AUD",
+    "args": {
+      "componentPrimitiveId": "e12737",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "TP4-AUD",
+    "args": {
+      "componentPrimitiveId": "e12776",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "TP5-AUD",
+    "args": {
+      "componentPrimitiveId": "e12805",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C54-NFC",
+    "args": {
+      "componentPrimitiveId": "e13042",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C55-NFC",
+    "args": {
+      "componentPrimitiveId": "e13078",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C56-NFC",
+    "args": {
+      "componentPrimitiveId": "e13114",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C57-NFC",
+    "args": {
+      "componentPrimitiveId": "e13150",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C58-NFC",
+    "args": {
+      "componentPrimitiveId": "e13186",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C59-NFC",
+    "args": {
+      "componentPrimitiveId": "e13222",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C60-NFC",
+    "args": {
+      "componentPrimitiveId": "e13258",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C61-NFC",
+    "args": {
+      "componentPrimitiveId": "e13294",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "J10-NFC",
+    "args": {
+      "componentPrimitiveId": "e13330",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "L2-NFC",
+    "args": {
+      "componentPrimitiveId": "e13362",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "L3-NFC",
+    "args": {
+      "componentPrimitiveId": "e13399",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R42-NFC",
+    "args": {
+      "componentPrimitiveId": "e13438",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R43-NFC",
+    "args": {
+      "componentPrimitiveId": "e13477",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U12-NFC",
+    "args": {
+      "componentPrimitiveId": "e13516",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "Y2-NFC",
+    "args": {
+      "componentPrimitiveId": "e13647",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C62-MOT",
+    "args": {
+      "componentPrimitiveId": "e13842",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C63-MOT",
+    "args": {
+      "componentPrimitiveId": "e13878",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R44-MOT",
+    "args": {
+      "componentPrimitiveId": "e13914",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R45-MOT",
+    "args": {
+      "componentPrimitiveId": "e13953",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R46-MOT",
+    "args": {
+      "componentPrimitiveId": "e13992",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R47-MOT",
+    "args": {
+      "componentPrimitiveId": "e14031",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R48-MOT",
+    "args": {
+      "componentPrimitiveId": "e14070",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R49-MOT",
+    "args": {
+      "componentPrimitiveId": "e14109",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R50-MOT",
+    "args": {
+      "componentPrimitiveId": "e14148",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U13-MOT",
+    "args": {
+      "componentPrimitiveId": "e14187",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C64-LED",
+    "args": {
+      "componentPrimitiveId": "e14334",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C65-LED",
+    "args": {
+      "componentPrimitiveId": "e14370",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R51-LED",
+    "args": {
+      "componentPrimitiveId": "e14470",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R52-LED",
+    "args": {
+      "componentPrimitiveId": "e14509",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R53-LED",
+    "args": {
+      "componentPrimitiveId": "e14548",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R54-LED",
+    "args": {
+      "componentPrimitiveId": "e14587",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "RT1-LED",
+    "args": {
+      "componentPrimitiveId": "e14626",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "RT2-LED",
+    "args": {
+      "componentPrimitiveId": "e14671",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U14-LED",
+    "args": {
+      "componentPrimitiveId": "e14716",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U15-LED",
+    "args": {
+      "componentPrimitiveId": "e14770",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "J2-LED",
+    "args": {
+      "componentPrimitiveId": "e14825",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "J3-LED",
+    "args": {
+      "componentPrimitiveId": "e14876",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "J11-VAL",
+    "args": {
+      "componentPrimitiveId": "e15023",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R55-VAL",
+    "args": {
+      "componentPrimitiveId": "e15067",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R56-VAL",
+    "args": {
+      "componentPrimitiveId": "e15106",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R57-VAL",
+    "args": {
+      "componentPrimitiveId": "e15145",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R58-VAL",
+    "args": {
+      "componentPrimitiveId": "e15184",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "TP6-VAL",
+    "args": {
+      "componentPrimitiveId": "e15223",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C66-VAL",
+    "args": {
+      "componentPrimitiveId": "e15252",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "Q2-VAL",
+    "args": {
+      "componentPrimitiveId": "e15288",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R59-VAL",
+    "args": {
+      "componentPrimitiveId": "e15332",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R60-VAL",
+    "args": {
+      "componentPrimitiveId": "e15371",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R61-VAL",
+    "args": {
+      "componentPrimitiveId": "e15410",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R62-VAL",
+    "args": {
+      "componentPrimitiveId": "e15449",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "SW4-VAL",
+    "args": {
+      "componentPrimitiveId": "e15488",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U16-VAL",
+    "args": {
+      "componentPrimitiveId": "e15539",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "L1-PWR2",
+    "args": {
+      "componentPrimitiveId": "e24569",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C10-PWR2",
+    "args": {
+      "componentPrimitiveId": "e24607",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R63-PWR1",
+    "args": {
+      "componentPrimitiveId": "e29093",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R64-PWR1",
+    "args": {
+      "componentPrimitiveId": "e29132",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R65-PWR1",
+    "args": {
+      "componentPrimitiveId": "e29171",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R66-PWR1",
+    "args": {
+      "componentPrimitiveId": "e29210",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R67-PWR1",
+    "args": {
+      "componentPrimitiveId": "e29249",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C67-PWR1",
+    "args": {
+      "componentPrimitiveId": "e29288",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C68-PWR2",
+    "args": {
+      "componentPrimitiveId": "e38545",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R10-RTC",
+    "args": {
+      "componentPrimitiveId": "e47826",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R11-RTC",
+    "args": {
+      "componentPrimitiveId": "e47865",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C35-RTDBG",
+    "args": {
+      "componentPrimitiveId": "e47904",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C36-RTDBG",
+    "args": {
+      "componentPrimitiveId": "e47939",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U8-RTDBG",
+    "args": {
+      "componentPrimitiveId": "e47974",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R68-RTDBG",
+    "args": {
+      "componentPrimitiveId": "e48032",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R69-RTDBG",
+    "args": {
+      "componentPrimitiveId": "e48071",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C19-RTC",
+    "args": {
+      "componentPrimitiveId": "e75855",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C20-RTC",
+    "args": {
+      "componentPrimitiveId": "e75891",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C21-RTC",
+    "args": {
+      "componentPrimitiveId": "e75927",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C22-RTC",
+    "args": {
+      "componentPrimitiveId": "e75963",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C23-RTC",
+    "args": {
+      "componentPrimitiveId": "e75999",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C24-RTC",
+    "args": {
+      "componentPrimitiveId": "e76035",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C25-RTC",
+    "args": {
+      "componentPrimitiveId": "e76071",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C26-RTC",
+    "args": {
+      "componentPrimitiveId": "e76107",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C27-RTC",
+    "args": {
+      "componentPrimitiveId": "e76143",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C28-RTC",
+    "args": {
+      "componentPrimitiveId": "e76179",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C29-RTC",
+    "args": {
+      "componentPrimitiveId": "e76215",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C30-RTC",
+    "args": {
+      "componentPrimitiveId": "e76251",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C31-RTC",
+    "args": {
+      "componentPrimitiveId": "e76287",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C32-RTC",
+    "args": {
+      "componentPrimitiveId": "e76323",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C33-RTC",
+    "args": {
+      "componentPrimitiveId": "e76359",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C34-RTC",
+    "args": {
+      "componentPrimitiveId": "e76395",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C69-RTC",
+    "args": {
+      "componentPrimitiveId": "e76431",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C70-RTC",
+    "args": {
+      "componentPrimitiveId": "e76467",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C71-RTC",
+    "args": {
+      "componentPrimitiveId": "e76503",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C72-RTC",
+    "args": {
+      "componentPrimitiveId": "e76539",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C73-RTC",
+    "args": {
+      "componentPrimitiveId": "e76575",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C74-RTC",
+    "args": {
+      "componentPrimitiveId": "e76611",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C75-RTC",
+    "args": {
+      "componentPrimitiveId": "e76647",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C76-RTC",
+    "args": {
+      "componentPrimitiveId": "e76683",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C77-RTC",
+    "args": {
+      "componentPrimitiveId": "e76719",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C78-RTC",
+    "args": {
+      "componentPrimitiveId": "e76755",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C79-RTC",
+    "args": {
+      "componentPrimitiveId": "e76791",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C80-RTC",
+    "args": {
+      "componentPrimitiveId": "e76827",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C81-RTC",
+    "args": {
+      "componentPrimitiveId": "e76863",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C82-RTC",
+    "args": {
+      "componentPrimitiveId": "e76899",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C83-RTC",
+    "args": {
+      "componentPrimitiveId": "e76935",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C84-RTC",
+    "args": {
+      "componentPrimitiveId": "e76971",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C85-RTC",
+    "args": {
+      "componentPrimitiveId": "e77007",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C86-RTC",
+    "args": {
+      "componentPrimitiveId": "e77043",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C87-RTC",
+    "args": {
+      "componentPrimitiveId": "e77079",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C88-RTC",
+    "args": {
+      "componentPrimitiveId": "e77115",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "L4-RTC",
+    "args": {
+      "componentPrimitiveId": "e77151",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R70-RTC",
+    "args": {
+      "componentPrimitiveId": "e77190",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C89-RTC",
+    "args": {
+      "componentPrimitiveId": "e77229",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C42-ESP",
+    "args": {
+      "componentPrimitiveId": "e98127",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "J6-ESP",
+    "args": {
+      "componentPrimitiveId": "e98163",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R71-ESP",
+    "args": {
+      "componentPrimitiveId": "e98207",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R72-ESP",
+    "args": {
+      "componentPrimitiveId": "e98246",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R73-ESP",
+    "args": {
+      "componentPrimitiveId": "e98285",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R74-ESP",
+    "args": {
+      "componentPrimitiveId": "e98324",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C51-AUD",
+    "args": {
+      "componentPrimitiveId": "e129790",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C90-AUD",
+    "args": {
+      "componentPrimitiveId": "e129826",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C91-AUD",
+    "args": {
+      "componentPrimitiveId": "e129862",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "TP7-AUD",
+    "args": {
+      "componentPrimitiveId": "e129898",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "TP8-AUD",
+    "args": {
+      "componentPrimitiveId": "e129927",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C43-ESP",
+    "args": {
+      "componentPrimitiveId": "e8224",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C44-ESP",
+    "args": {
+      "componentPrimitiveId": "e8260",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C52-AUD",
+    "args": {
+      "componentPrimitiveId": "e12082",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C92-NFC",
+    "args": {
+      "componentPrimitiveId": "e146025",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C93-NFC",
+    "args": {
+      "componentPrimitiveId": "e146061",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C94-NFC",
+    "args": {
+      "componentPrimitiveId": "e146097",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C95-NFC",
+    "args": {
+      "componentPrimitiveId": "e146133",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C96-NFC",
+    "args": {
+      "componentPrimitiveId": "e146169",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C97-NFC",
+    "args": {
+      "componentPrimitiveId": "e146205",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R75-PWR2",
+    "args": {
+      "componentPrimitiveId": "e146277",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R76-NFC",
+    "args": {
+      "componentPrimitiveId": "e151832",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

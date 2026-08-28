@@ -62,7 +62,8 @@
     "2N7002": {"deviceUuid": "afa3f16ae04341aaafaed9ca2782fbc0", "name": "2N7002"},
     "RC0402FR-072R2L": {"deviceUuid": "5c45a20a8a3a40f991a8387af4f0f98b", "name": "RC0402JR-072R2L", "note": "JR 5% stand-in for missing FR 2.2R"},
     "PREC006SAAN-RC": {"deviceUuid": "5f08146151b14d08af630cc4cd9d0168", "name": "HEADER_MALE-XH_1X6P_2.54MM", "note": "6-pin 2.54 header stand-in"},
-    "RC0402FR-07DNP": {"deviceUuid": "6593321c1e554b2f9070c57621ba8753", "name": "RC0402FR-0710KL", "note": "0402 DNP footprint stand-in"}
+    "RC0402FR-07DNP": {"deviceUuid": "6593321c1e554b2f9070c57621ba8753", "name": "RC0402FR-0710KL", "note": "0402 DNP footprint stand-in"},
+    "GRM155R60J225ME15D": {"deviceUuid": "7a962641d03c47e8b5f4e029ea26d5a9", "name": "GRM155R60J225ME15D", "lcsc": "C76993"}
   },
   "unbound_pending": ["NX2012SA-27.12M-STD-CSW-4"]
 }

@@ -1,0 +1,34 @@
+[
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U12-NFC",
+    "args": {
+      "componentPrimitiveId": "e13516",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U3-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2199",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C56-NFC",
+    "args": {
+      "componentPrimitiveId": "e13114",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "J7-ESP",
+    "args": {
+      "componentPrimitiveId": "e8334",
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

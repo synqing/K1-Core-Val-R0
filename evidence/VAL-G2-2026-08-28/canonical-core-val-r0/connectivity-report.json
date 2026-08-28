@@ -1,0 +1,3393 @@
+{
+  "abstentions": {
+    "nets_unknown": [],
+    "nets_unknown_count": 0,
+    "wires_abstained": []
+  },
+  "counts": {
+    "component_parts_with_pin_data": 231,
+    "component_records": 230,
+    "designators": 228,
+    "named_nets": 143,
+    "named_wires": 675,
+    "pin_files_parsed": 1,
+    "pin_landing_rate": "74.2%",
+    "pin_records_failed": 0,
+    "pin_records_seen": 231,
+    "pin_records_without_primitive_id": 0,
+    "pins_landing_on_wire_geometry": 654,
+    "pins_loaded": 881,
+    "pins_not_landing_on_wire_geometry": 227,
+    "source_records": 6631,
+    "wires": 675,
+    "wires_abstained_unmeasured_part": 0,
+    "wires_bound_to_at_least_one_pin": 652,
+    "wires_touching_no_pin_measured": 23
+  },
+  "diagnostics": {
+    "components_offset_from_their_anchor": [
+      {
+        "designator": "J8-AUD",
+        "offset": [
+          -20.0,
+          0.0
+        ],
+        "pin_bbox_centre": [
+          280.0,
+          2870.0
+        ],
+        "pins": 4,
+        "primitive_id": "e12118",
+        "source_anchor": [
+          300,
+          2870
+        ]
+      },
+      {
+        "designator": "TP3-AUD",
+        "offset": [
+          -20.0,
+          0.0
+        ],
+        "pin_bbox_centre": [
+          765.0,
+          3035.0
+        ],
+        "pins": 1,
+        "primitive_id": "e12445",
+        "source_anchor": [
+          785,
+          3035
+        ]
+      },
+      {
+        "designator": "TP4-AUD",
+        "offset": [
+          -20.0,
+          0.0
+        ],
+        "pin_bbox_centre": [
+          620.0,
+          2705.0
+        ],
+        "pins": 1,
+        "primitive_id": "e12776",
+        "source_anchor": [
+          640,
+          2705
+        ]
+      },
+      {
+        "designator": "TP5-AUD",
+        "offset": [
+          -20.0,
+          0.0
+        ],
+        "pin_bbox_centre": [
+          775.0,
+          2705.0
+        ],
+        "pins": 1,
+        "primitive_id": "e12805",
+        "source_anchor": [
+          795,
+          2705
+        ]
+      },
+      {
+        "designator": "TP7-AUD",
+        "offset": [
+          -20.0,
+          0.0
+        ],
+        "pin_bbox_centre": [
+          590.0,
+          2795.0
+        ],
+        "pins": 1,
+        "primitive_id": "e129898",
+        "source_anchor": [
+          610,
+          2795
+        ]
+      },
+      {
+        "designator": "TP8-AUD",
+        "offset": [
+          -20.0,
+          0.0
+        ],
+        "pin_bbox_centre": [
+          770.0,
+          2795.0
+        ],
+        "pins": 1,
+        "primitive_id": "e129927",
+        "source_anchor": [
+          790,
+          2795
+        ]
+      },
+      {
+        "designator": "J2-LED",
+        "offset": [
+          -20.0,
+          0.0
+        ],
+        "pin_bbox_centre": [
+          3315.0,
+          2812.0
+        ],
+        "pins": 3,
+        "primitive_id": "e14825",
+        "source_anchor": [
+          3335,
+          2812
+        ]
+      },
+      {
+        "designator": "J3-LED",
+        "offset": [
+          -20.0,
+          0.0
+        ],
+        "pin_bbox_centre": [
+          3555.0,
+          2812.0
+        ],
+        "pins": 3,
+        "primitive_id": "e14876",
+        "source_anchor": [
+          3575,
+          2812
+        ]
+      },
+      {
+        "designator": "TP6-VAL",
+        "offset": [
+          -20.0,
+          0.0
+        ],
+        "pin_bbox_centre": [
+          4330.0,
+          3390.0
+        ],
+        "pins": 1,
+        "primitive_id": "e15223",
+        "source_anchor": [
+          4350,
+          3390
+        ]
+      },
+      {
+        "designator": "U4-PWR2",
+        "offset": [
+          2.5,
+          -17.5
+        ],
+        "pin_bbox_centre": [
+          1702.5,
+          4077.5
+        ],
+        "pins": 10,
+        "primitive_id": "e2491",
+        "source_anchor": [
+          1700,
+          4095
+        ]
+      },
+      {
+        "designator": "U1-PWR1",
+        "offset": [
+          -2.5,
+          17.5
+        ],
+        "pin_bbox_centre": [
+          687.5,
+          4127.5
+        ],
+        "pins": 10,
+        "primitive_id": "e504",
+        "source_anchor": [
+          690,
+          4110
+        ]
+      },
+      {
+        "designator": "J5-RTDBG",
+        "offset": [
+          -20.0,
+          0.0
+        ],
+        "pin_bbox_centre": [
+          3400.0,
+          3975.0
+        ],
+        "pins": 4,
+        "primitive_id": "e5635",
+        "source_anchor": [
+          3420,
+          3975
+        ]
+      },
+      {
+        "designator": "U9-ESP",
+        "offset": [
+          5.0,
+          -20.0
+        ],
+        "pin_bbox_centre": [
+          4260.0,
+          4340.0
+        ],
+        "pins": 41,
+        "primitive_id": "e8065",
+        "source_anchor": [
+          4255,
+          4360
+        ]
+      },
+      {
+        "designator": "TP1-ESP",
+        "offset": [
+          -20.0,
+          0.0
+        ],
+        "pin_bbox_centre": [
+          4270.0,
+          3820.0
+        ],
+        "pins": 1,
+        "primitive_id": "e8779",
+        "source_anchor": [
+          4290,
+          3820
+        ]
+      },
+      {
+        "designator": "TP2-ESP",
+        "offset": [
+          -20.0,
+          0.0
+        ],
+        "pin_bbox_centre": [
+          4450.0,
+          3820.0
+        ],
+        "pins": 1,
+        "primitive_id": "e8808",
+        "source_anchor": [
+          4470,
+          3820
+        ]
+      }
+    ],
+    "note": "Offset between a component's pin-cloud bbox centre and its own SOURCE anchor. REPORTED, never cancelled. NOT promoted to a violation: 14 of the 15 hits are (-20,0) on single-pin test points and connectors, which is SYMBOL ASYMMETRY (pin length 20), not displacement. Separating the two needs the symbol definitions, which this oracle does not have. U9-ESP at (5,-20) is the one distinctive value and matches a known rejected-but-never-rolled-back move."
+  },
+  "drc_differential": {
+    "agreed_floating": [
+      "D1-PWR1.3",
+      "D1-PWR1.4",
+      "D1-PWR1.5",
+      "D1-PWR1.6",
+      "J1-PWR1.1",
+      "J1-PWR1.A1",
+      "J1-PWR1.A12",
+      "J1-PWR1.A4",
+      "J1-PWR1.A5",
+      "J1-PWR1.A6",
+      "J1-PWR1.A7",
+      "J1-PWR1.A8",
+      "J1-PWR1.A9",
+      "J1-PWR1.B12",
+      "J1-PWR1.B5",
+      "J1-PWR1.B6",
+      "J1-PWR1.B7",
+      "J1-PWR1.B8",
+      "J1-PWR1.B9",
+      "J7-ESP.A8",
+      "J7-ESP.B8",
+      "J9-AUD.10",
+      "J9-AUD.11",
+      "J9-AUD.12",
+      "J9-AUD.7",
+      "J9-AUD.8",
+      "J9-AUD.9",
+      "SW1-RTC.3",
+      "SW1-RTC.4",
+      "SW2-ESP.3",
+      "SW2-ESP.4",
+      "SW3-ESP.3",
+      "SW3-ESP.4",
+      "SW4-VAL.3",
+      "SW4-VAL.4",
+      "U1-PWR1.10",
+      "U11-AUD.1",
+      "U11-AUD.2",
+      "U11-AUD.4",
+      "U12-NFC.15",
+      "U12-NFC.17",
+      "U12-NFC.18",
+      "U12-NFC.19",
+      "U12-NFC.2",
+      "U12-NFC.23",
+      "U12-NFC.25",
+      "U12-NFC.28",
+      "U12-NFC.29",
+      "U12-NFC.31",
+      "U13-MOT.11",
+      "U13-MOT.2",
+      "U13-MOT.3",
+      "U13-MOT.5",
+      "U13-MOT.7",
+      "U13-MOT.8",
+      "U16-VAL.3",
+      "U16-VAL.4",
+      "U16-VAL.5",
+      "U4-PWR2.3",
+      "U5-PWR2.4",
+      "U6-RTC.A10",
+      "U6-RTC.A11",
+      "U6-RTC.A12",
+      "U6-RTC.A13",
+      "U6-RTC.A2",
+      "U6-RTC.A3",
+      "U6-RTC.A4",
+      "U6-RTC.A5",
+      "U6-RTC.A6",
+      "U6-RTC.A7",
+      "U6-RTC.A8",
+      "U6-RTC.A9",
+      "U6-RTC.B1",
+      "U6-RTC.B11",
+      "U6-RTC.B12",
+      "U6-RTC.B13",
+      "U6-RTC.B14",
+      "U6-RTC.B2",
+      "U6-RTC.B3",
+      "U6-RTC.B4",
+      "U6-RTC.B6",
+      "U6-RTC.B7",
+      "U6-RTC.B8",
+      "U6-RTC.B9",
+      "U6-RTC.C1",
+      "U6-RTC.C10",
+      "U6-RTC.C11",
+      "U6-RTC.C12",
+      "U6-RTC.C13",
+      "U6-RTC.C14",
+      "U6-RTC.C2",
+      "U6-RTC.C3",
+      "U6-RTC.C4",
+      "U6-RTC.C5",
+      "U6-RTC.C6",
+      "U6-RTC.C7",
+      "U6-RTC.C8",
+      "U6-RTC.C9",
+      "U6-RTC.D1",
+      "U6-RTC.D10",
+      "U6-RTC.D11",
+      "U6-RTC.D12",
+      "U6-RTC.D13",
+      "U6-RTC.D14",
+      "U6-RTC.D2",
+      "U6-RTC.D3",
+      "U6-RTC.D4",
+      "U6-RTC.D5",
+      "U6-RTC.D6",
+      "U6-RTC.D8",
+      "U6-RTC.D9",
+      "U6-RTC.E1",
+      "U6-RTC.E10",
+      "U6-RTC.E11",
+      "U6-RTC.E12",
+      "U6-RTC.E3",
+      "U6-RTC.E4",
+      "U6-RTC.E5",
+      "U6-RTC.E8",
+      "U6-RTC.F1",
+      "U6-RTC.F13",
+      "U6-RTC.F14",
+      "U6-RTC.F2",
+      "U6-RTC.F3",
+      "U6-RTC.F4",
+      "U6-RTC.G1",
+      "U6-RTC.G10",
+      "U6-RTC.G11",
+      "U6-RTC.G13",
+      "U6-RTC.G2",
+      "U6-RTC.G3",
+      "U6-RTC.G4",
+      "U6-RTC.G5",
+      "U6-RTC.H1",
+      "U6-RTC.H10",
+      "U6-RTC.H13",
+      "U6-RTC.H14",
+      "U6-RTC.H2",
+      "U6-RTC.H3",
+      "U6-RTC.H4",
+      "U6-RTC.H5",
+      "U6-RTC.J12",
+      "U6-RTC.J2",
+      "U6-RTC.K10",
+      "U6-RTC.K6",
+      "U6-RTC.K7",
+      "U6-RTC.L10",
+      "U6-RTC.L5",
+      "U6-RTC.L6",
+      "U6-RTC.L7",
+      "U6-RTC.L8",
+      "U6-RTC.M11",
+      "U6-RTC.M13",
+      "U6-RTC.M14",
+      "U6-RTC.M3",
+      "U6-RTC.M4",
+      "U6-RTC.M5",
+      "U6-RTC.M6",
+      "U6-RTC.N10",
+      "U6-RTC.N12",
+      "U6-RTC.N13",
+      "U6-RTC.N3",
+      "U6-RTC.N6",
+      "U6-RTC.N7",
+      "U6-RTC.P13",
+      "U6-RTC.P2",
+      "U6-RTC.P4",
+      "U6-RTC.P5",
+      "U6-RTC.P6",
+      "U6-RTC.P7",
+      "U6-RTC.P9",
+      "U9-ESP.10",
+      "U9-ESP.11",
+      "U9-ESP.12",
+      "U9-ESP.15",
+      "U9-ESP.16",
+      "U9-ESP.17",
+      "U9-ESP.23",
+      "U9-ESP.24",
+      "U9-ESP.25",
+      "U9-ESP.26",
+      "U9-ESP.28",
+      "U9-ESP.29",
+      "U9-ESP.30",
+      "U9-ESP.31",
+      "U9-ESP.32",
+      "U9-ESP.33",
+      "U9-ESP.34",
+      "U9-ESP.35",
+      "U9-ESP.9",
+      "Y2-NFC.3",
+      "Y2-NFC.4"
+    ],
+    "counts": {
+      "agreed_floating": 192,
+      "drc_only": 3,
+      "geometry_only": 35
+    },
+    "drc_floating_pins": 195,
+    "drc_only": [
+      "C10-PWR2.1",
+      "C10-PWR2.2",
+      "U12-NFC.20"
+    ],
+    "drc_report": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/drc-parse-report.json",
+    "geometry_floating_pins": 227,
+    "geometry_only": [
+      "J4-RTDBG.5",
+      "J4-RTDBG.6",
+      "J4-RTDBG.7",
+      "J4-RTDBG.8",
+      "J4-RTDBG.9",
+      "J5-RTDBG.3",
+      "U2-PWR1.1",
+      "U2-PWR1.2",
+      "U3-PWR2.5",
+      "U4-PWR2.10",
+      "U4-PWR2.4",
+      "U7-RTC.4",
+      "U9-ESP.1",
+      "U9-ESP.13",
+      "U9-ESP.14",
+      "U9-ESP.18",
+      "U9-ESP.19",
+      "U9-ESP.2",
+      "U9-ESP.20",
+      "U9-ESP.21",
+      "U9-ESP.22",
+      "U9-ESP.27",
+      "U9-ESP.3",
+      "U9-ESP.36",
+      "U9-ESP.37",
+      "U9-ESP.38",
+      "U9-ESP.39",
+      "U9-ESP.4",
+      "U9-ESP.40",
+      "U9-ESP.41",
+      "U9-ESP.5",
+      "U9-ESP.6",
+      "U9-ESP.7",
+      "U9-ESP.8",
+      "e153999.1"
+    ],
+    "interpretation": {
+      "agreed_floating": "both oracles say unconnected \u2014 high confidence, actionable",
+      "drc_only": "DRC says floating, geometry says bound \u2014 suspect the geometry",
+      "geometry_only": "geometry says unconnected, DRC does not \u2014 suspect tolerance, transform, or a DRC older than the dump, in that order"
+    }
+  },
+  "limitations": [
+    "Only nets that EXIST can be measured. A net that was never drawn is invisible here; completeness against a design authority is a different checker.",
+    "Pin geometry comes from on-disk read-backs, not from the schematic source. Components without pin geometry are abstained on, never passed."
+  ],
+  "measured_property": "label-to-pin binding (distinct component pins per named net)",
+  "nets": {
+    "+5V_LED_L": {
+      "geometric_islands": 5,
+      "pins_reached": [
+        "C12-PWR2.1",
+        "C64-LED.1",
+        "FB1-PWR2.2",
+        "J2-LED.1",
+        "U14-LED.5"
+      ],
+      "pins_reached_count": 5,
+      "status": "GREEN",
+      "wire_count": 5,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "+5V_LED_R": {
+      "geometric_islands": 5,
+      "pins_reached": [
+        "C13-PWR2.1",
+        "C65-LED.1",
+        "FB2-PWR2.2",
+        "J3-LED.1",
+        "U15-LED.5"
+      ],
+      "pins_reached_count": 5,
+      "status": "GREEN",
+      "wire_count": 5,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "1V15_CORE": {
+      "geometric_islands": 18,
+      "pins_reached": [
+        "C19-RTC.1",
+        "C20-RTC.1",
+        "C21-RTC.1",
+        "C22-RTC.1",
+        "C23-RTC.1",
+        "C24-RTC.1",
+        "C25-RTC.1",
+        "L4-RTC.2",
+        "U6-RTC.F6",
+        "U6-RTC.F7",
+        "U6-RTC.F8",
+        "U6-RTC.F9",
+        "U6-RTC.G6",
+        "U6-RTC.G9",
+        "U6-RTC.H6",
+        "U6-RTC.H9",
+        "U6-RTC.J5",
+        "U6-RTC.J9"
+      ],
+      "pins_reached_count": 18,
+      "status": "GREEN",
+      "wire_count": 18,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "3V3": {
+      "geometric_islands": 90,
+      "pins_reached": [
+        "C18-RTC.1",
+        "C26-RTC.1",
+        "C27-RTC.1",
+        "C28-RTC.1",
+        "C29-RTC.1",
+        "C3-PWR1.1",
+        "C30-RTC.1",
+        "C31-RTC.1",
+        "C32-RTC.1",
+        "C37-RTDBG.1",
+        "C38-RTDBG.1",
+        "C39-ESP.1",
+        "C4-PWR1.1",
+        "C40-ESP.1",
+        "C41-ESP.1",
+        "C45-ESP.1",
+        "C46-AUD.1",
+        "C47-AUD.1",
+        "C50-AUD.1",
+        "C56-NFC.1",
+        "C6-PWR2.1",
+        "C62-MOT.1",
+        "C63-MOT.1",
+        "C66-VAL.1",
+        "C69-RTC.1",
+        "C7-PWR2.1",
+        "C76-RTC.1",
+        "C77-RTC.1",
+        "C78-RTC.1",
+        "C79-RTC.1",
+        "C8-PWR2.1",
+        "C80-RTC.1",
+        "C81-RTC.1",
+        "C82-RTC.1",
+        "C83-RTC.1",
+        "C84-RTC.1",
+        "C85-RTC.1",
+        "C86-RTC.1",
+        "C87-RTC.1",
+        "C88-RTC.1",
+        "C9-PWR2.1",
+        "J11-VAL.5",
+        "J4-RTDBG.1",
+        "J6-ESP.2",
+        "L1-PWR2.2",
+        "R11-RTC.2",
+        "R12-RTC.1",
+        "R14-RTDBG.1",
+        "R19-ESP.1",
+        "R20-ESP.1",
+        "R28-AUD.1",
+        "R29-AUD.1",
+        "R3-PWR1.1",
+        "R4-PWR1.2",
+        "R43-NFC.1",
+        "R5-PWR2.1",
+        "R50-MOT.1",
+        "R62-VAL.1",
+        "R67-PWR1.1",
+        "R69-RTDBG.1",
+        "R70-RTC.1",
+        "R75-PWR2.2",
+        "R76-NFC.2",
+        "TP6-VAL.1",
+        "U11-AUD.16",
+        "U11-AUD.9",
+        "U12-NFC.1",
+        "U12-NFC.8",
+        "U13-MOT.10",
+        "U13-MOT.9",
+        "U16-VAL.6",
+        "U2-PWR1.6",
+        "U3-PWR2.3",
+        "U6-RTC.E6",
+        "U6-RTC.E9",
+        "U6-RTC.F10",
+        "U6-RTC.F5",
+        "U6-RTC.J10",
+        "U6-RTC.J6",
+        "U6-RTC.K4",
+        "U6-RTC.K5",
+        "U6-RTC.L1",
+        "U6-RTC.L2",
+        "U6-RTC.M9",
+        "U6-RTC.N14",
+        "U6-RTC.P12",
+        "U7-RTC.5",
+        "U7-RTC.6",
+        "U8-RTDBG.8"
+      ],
+      "pins_reached_count": 89,
+      "status": "RED",
+      "wire_count": 90,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e8902"
+      ]
+    },
+    "3V3_MIC": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "C15-PWR2.1",
+        "FB5-AUD.1",
+        "Q1-PWR2.3"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "3V3_MIC_FLEX": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "C53-AUD.1",
+        "FB5-AUD.2",
+        "J9-AUD.1"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "3V3_MIC_REG": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "Q1-PWR2.2",
+        "U5-PWR2.5"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "5V_LED_COMMON": {
+      "geometric_islands": 4,
+      "pins_reached": [
+        "C11-PWR2.1",
+        "FB1-PWR2.1",
+        "FB2-PWR2.1",
+        "U4-PWR2.6"
+      ],
+      "pins_reached_count": 4,
+      "status": "GREEN",
+      "wire_count": 4,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "5V_PROTECTED": {
+      "geometric_islands": 6,
+      "pins_reached": [
+        "C2-PWR1.1",
+        "D1-PWR1.1",
+        "R65-PWR1.1",
+        "RSH1-PWR1.1",
+        "U1-PWR1.6",
+        "U2-PWR1.10"
+      ],
+      "pins_reached_count": 6,
+      "status": "GREEN",
+      "wire_count": 6,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "5V_SYS": {
+      "geometric_islands": 12,
+      "pins_reached": [
+        "C14-PWR2.1",
+        "C5-PWR2.1",
+        "FB3-PWR2.1",
+        "R7-PWR2.1",
+        "RSH1-PWR1.2",
+        "U2-PWR1.8",
+        "U2-PWR1.9",
+        "U3-PWR2.10",
+        "U3-PWR2.6",
+        "U4-PWR2.1",
+        "U4-PWR2.5",
+        "U5-PWR2.1",
+        "U5-PWR2.3"
+      ],
+      "pins_reached_count": 13,
+      "status": "GREEN",
+      "wire_count": 12,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "5V_USB": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "F1-PWR1.1",
+        "J1-PWR1.B4"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "5V_USB_FILTERED": {
+      "geometric_islands": 4,
+      "pins_reached": [
+        "C1-PWR1.1",
+        "F1-PWR1.2",
+        "R63-PWR1.1",
+        "U1-PWR1.5"
+      ],
+      "pins_reached_count": 4,
+      "status": "GREEN",
+      "wire_count": 4,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "ADC_AREG": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "C48-AUD.1",
+        "C90-AUD.1",
+        "U11-AUD.17"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "ADC_DREG": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "C49-AUD.1",
+        "C91-AUD.1",
+        "U11-AUD.14"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "ADC_VREF": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "C51-AUD.1",
+        "U11-AUD.18"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "AUDIO_BCLK": {
+      "geometric_islands": 4,
+      "pins_reached": [
+        "J8-AUD.2",
+        "R35-AUD.2",
+        "TP7-AUD.1",
+        "U11-AUD.7"
+      ],
+      "pins_reached_count": 4,
+      "status": "GREEN",
+      "wire_count": 4,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "AUDIO_BCLK_ISO": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R32-AUD.2",
+        "R35-AUD.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "AUDIO_BCLK_RT": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R32-AUD.1",
+        "U6-RTC.G12"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "AUDIO_DOUT": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R37-AUD.2",
+        "U6-RTC.H12"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "AUDIO_DOUT_ADC": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R37-AUD.1",
+        "U11-AUD.6"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "AUDIO_FSYNC": {
+      "geometric_islands": 4,
+      "pins_reached": [
+        "J8-AUD.3",
+        "R36-AUD.2",
+        "TP8-AUD.1",
+        "U11-AUD.8"
+      ],
+      "pins_reached_count": 4,
+      "status": "GREEN",
+      "wire_count": 4,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "AUDIO_FSYNC_ISO": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R33-AUD.2",
+        "R36-AUD.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "AUDIO_FSYNC_RT": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R33-AUD.1",
+        "U6-RTC.H11"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "AUDIO_MCLK": {
+      "geometric_islands": 6,
+      "pins_reached": [
+        "C52-AUD.1",
+        "J8-AUD.1",
+        "R34-AUD.2",
+        "R57-VAL.2",
+        "TP3-AUD.1",
+        "U11-AUD.19"
+      ],
+      "pins_reached_count": 6,
+      "status": "GREEN",
+      "wire_count": 6,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "AUDIO_MCLK_ISO": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R31-AUD.2",
+        "R34-AUD.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "AUDIO_MCLK_RT": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R31-AUD.1",
+        "U6-RTC.J14"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "BOOT_MODE0": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "R10-RTC.1",
+        "R61-VAL.2",
+        "U6-RTC.F11"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "BOOT_MODE1": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R11-RTC.1",
+        "U6-RTC.G14"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "BUCK_EN": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R7-PWR2.2",
+        "U3-PWR2.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "BUCK_FB": {
+      "geometric_islands": 4,
+      "pins_reached": [
+        "C9-PWR2.2",
+        "R5-PWR2.2",
+        "R6-PWR2.1",
+        "U3-PWR2.9"
+      ],
+      "pins_reached_count": 4,
+      "status": "GREEN",
+      "wire_count": 4,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "BUCK_PG": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R75-PWR2.1"
+      ],
+      "pins_reached_count": 1,
+      "status": "RED",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e146347"
+      ]
+    },
+    "BUCK_SS": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "C10-PWR2.1",
+        "U3-PWR2.8"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "BUCK_SW": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "L1-PWR2.1",
+        "U3-PWR2.2"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "DCDC_PSWITCH": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "C89-RTC.1",
+        "R70-RTC.2",
+        "U6-RTC.K3"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "DCDC_SW": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "L4-RTC.1",
+        "U6-RTC.M1",
+        "U6-RTC.M2"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "ESP_EN": {
+      "geometric_islands": 5,
+      "pins_reached": [
+        "C42-ESP.1",
+        "J6-ESP.5",
+        "R19-ESP.2",
+        "SW3-ESP.1"
+      ],
+      "pins_reached_count": 4,
+      "status": "RED",
+      "wire_count": 5,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e8905"
+      ]
+    },
+    "ESP_GPIO0": {
+      "geometric_islands": 4,
+      "pins_reached": [
+        "J6-ESP.6",
+        "R20-ESP.2",
+        "SW2-ESP.1"
+      ],
+      "pins_reached_count": 3,
+      "status": "RED",
+      "wire_count": 4,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e8908"
+      ]
+    },
+    "ESP_UART0_RX": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "J6-ESP.4"
+      ],
+      "pins_reached_count": 1,
+      "status": "RED",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e103600"
+      ]
+    },
+    "ESP_UART0_TX": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "J6-ESP.3",
+        "R58-VAL.2"
+      ],
+      "pins_reached_count": 2,
+      "status": "RED",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e103602"
+      ]
+    },
+    "ESP_USB_VBUS_SENSE": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "R71-ESP.2",
+        "R72-ESP.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "RED",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e103594"
+      ]
+    },
+    "FLEXSPI_D0": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "U6-RTC.P3",
+        "U8-RTDBG.5"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "FLEXSPI_D1": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "U6-RTC.N4",
+        "U8-RTDBG.2"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "FLEXSPI_D2": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R14-RTDBG.2",
+        "U8-RTDBG.3"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "FLEXSPI_D3": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R69-RTDBG.2",
+        "U8-RTDBG.7"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "FLEXSPI_SCLK": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "U6-RTC.L4",
+        "U8-RTDBG.6"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "FLEXSPI_SS0": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "U6-RTC.L3",
+        "U8-RTDBG.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "GND": {
+      "geometric_islands": 186,
+      "pins_reached": [
+        "C1-PWR1.2",
+        "C10-PWR2.2",
+        "C11-PWR2.2",
+        "C12-PWR2.2",
+        "C13-PWR2.2",
+        "C14-PWR2.2",
+        "C15-PWR2.2",
+        "C16-PWR2.2",
+        "C17-PWR2.2",
+        "C18-RTC.2",
+        "C19-RTC.2",
+        "C2-PWR1.2",
+        "C20-RTC.2",
+        "C21-RTC.2",
+        "C22-RTC.2",
+        "C23-RTC.2",
+        "C24-RTC.2",
+        "C25-RTC.2",
+        "C26-RTC.2",
+        "C27-RTC.2",
+        "C28-RTC.2",
+        "C29-RTC.2",
+        "C3-PWR1.2",
+        "C30-RTC.2",
+        "C31-RTC.2",
+        "C32-RTC.2",
+        "C33-RTC.2",
+        "C34-RTC.2",
+        "C35-RTDBG.2",
+        "C36-RTDBG.2",
+        "C37-RTDBG.2",
+        "C38-RTDBG.2",
+        "C39-ESP.2",
+        "C4-PWR1.2",
+        "C40-ESP.2",
+        "C41-ESP.2",
+        "C42-ESP.2",
+        "C43-ESP.2",
+        "C44-ESP.2",
+        "C45-ESP.2",
+        "C46-AUD.2",
+        "C47-AUD.2",
+        "C48-AUD.2",
+        "C49-AUD.2",
+        "C5-PWR2.2",
+        "C50-AUD.2",
+        "C51-AUD.2",
+        "C52-AUD.2",
+        "C53-AUD.2",
+        "C54-NFC.2",
+        "C55-NFC.2",
+        "C56-NFC.2",
+        "C57-NFC.2",
+        "C58-NFC.2",
+        "C59-NFC.2",
+        "C6-PWR2.2",
+        "C61-NFC.2",
+        "C62-MOT.2",
+        "C63-MOT.2",
+        "C64-LED.2",
+        "C65-LED.2",
+        "C66-VAL.2",
+        "C67-PWR1.2",
+        "C68-PWR2.2",
+        "C69-RTC.2",
+        "C7-PWR2.2",
+        "C70-RTC.2",
+        "C71-RTC.2",
+        "C72-RTC.2",
+        "C73-RTC.2",
+        "C74-RTC.2",
+        "C75-RTC.2",
+        "C76-RTC.2",
+        "C77-RTC.2",
+        "C78-RTC.2",
+        "C79-RTC.2",
+        "C8-PWR2.2",
+        "C80-RTC.2",
+        "C81-RTC.2",
+        "C82-RTC.2",
+        "C83-RTC.2",
+        "C84-RTC.2",
+        "C85-RTC.2",
+        "C86-RTC.2",
+        "C87-RTC.2",
+        "C88-RTC.2",
+        "C89-RTC.2",
+        "C90-AUD.2",
+        "C91-AUD.2",
+        "C92-NFC.2",
+        "C93-NFC.2",
+        "C94-NFC.2",
+        "C95-NFC.2",
+        "C96-NFC.2",
+        "C97-NFC.2",
+        "D1-PWR1.2",
+        "J1-PWR1.B1",
+        "J10-NFC.2",
+        "J11-VAL.6",
+        "J2-LED.3",
+        "J3-LED.3",
+        "J4-RTDBG.3",
+        "J5-RTDBG.4",
+        "J6-ESP.1",
+        "J7-ESP.1",
+        "J7-ESP.A1",
+        "J7-ESP.A12",
+        "J7-ESP.B1",
+        "J7-ESP.B12",
+        "J8-AUD.4",
+        "J9-AUD.2",
+        "J9-AUD.4",
+        "J9-AUD.6",
+        "Q2-VAL.2",
+        "R1-PWR1.2",
+        "R10-RTC.2",
+        "R21-ESP.2",
+        "R22-ESP.2",
+        "R53-LED.2",
+        "R54-LED.2",
+        "R6-PWR2.2",
+        "R64-PWR1.2",
+        "R66-PWR1.2",
+        "R68-RTDBG.2",
+        "R72-ESP.2",
+        "R8-PWR2.2",
+        "R9-PWR2.2",
+        "RT1-LED.2",
+        "RT2-LED.2",
+        "SW1-RTC.1",
+        "SW2-ESP.2",
+        "SW3-ESP.2",
+        "SW4-VAL.2",
+        "U1-PWR1.8",
+        "U10-ESP.2",
+        "U11-AUD.10",
+        "U11-AUD.15",
+        "U11-AUD.20",
+        "U11-AUD.21",
+        "U11-AUD.5",
+        "U12-NFC.12",
+        "U12-NFC.16",
+        "U12-NFC.21",
+        "U12-NFC.26",
+        "U12-NFC.33",
+        "U12-NFC.6",
+        "U13-MOT.6",
+        "U14-LED.3",
+        "U15-LED.3",
+        "U16-VAL.2",
+        "U2-PWR1.7",
+        "U3-PWR2.4",
+        "U3-PWR2.7",
+        "U4-PWR2.2",
+        "U4-PWR2.8",
+        "U5-PWR2.2",
+        "U6-RTC.A1",
+        "U6-RTC.A14",
+        "U6-RTC.B10",
+        "U6-RTC.B5",
+        "U6-RTC.E13",
+        "U6-RTC.E2",
+        "U6-RTC.G7",
+        "U6-RTC.G8",
+        "U6-RTC.H7",
+        "U6-RTC.H8",
+        "U6-RTC.J7",
+        "U6-RTC.J8",
+        "U6-RTC.K13",
+        "U6-RTC.K2",
+        "U6-RTC.K9",
+        "U6-RTC.L9",
+        "U6-RTC.N1",
+        "U6-RTC.N2",
+        "U6-RTC.N5",
+        "U6-RTC.N8",
+        "U6-RTC.N9",
+        "U6-RTC.P1",
+        "U6-RTC.P14",
+        "U7-RTC.2",
+        "U8-RTDBG.4",
+        "Y1-RTDBG.2",
+        "Y1-RTDBG.4"
+      ],
+      "pins_reached_count": 183,
+      "status": "RED",
+      "wire_count": 186,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e8899",
+        "e8953",
+        "e8956"
+      ]
+    },
+    "I2C_SCL": {
+      "geometric_islands": 7,
+      "pins_reached": [
+        "R29-AUD.2",
+        "R46-MOT.2",
+        "R47-MOT.2",
+        "U11-AUD.13",
+        "U12-NFC.30",
+        "U2-PWR1.5"
+      ],
+      "pins_reached_count": 6,
+      "status": "RED",
+      "wire_count": 7,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e8938"
+      ]
+    },
+    "I2C_SDA": {
+      "geometric_islands": 8,
+      "pins_reached": [
+        "R28-AUD.2",
+        "R4-PWR1.1",
+        "R44-MOT.2",
+        "R45-MOT.2",
+        "U11-AUD.12",
+        "U12-NFC.32",
+        "U2-PWR1.4"
+      ],
+      "pins_reached_count": 7,
+      "status": "RED",
+      "wire_count": 8,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e8935"
+      ]
+    },
+    "INA_ALERT": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R3-PWR1.2",
+        "U2-PWR1.3"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "K1BR_CS": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "R26-ESP.2",
+        "TP2-ESP.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "RED",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e8929"
+      ]
+    },
+    "K1BR_CS_RT": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R26-ESP.1",
+        "U6-RTC.J3"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "K1BR_IRQ": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R27-ESP.2",
+        "U6-RTC.K11"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "K1BR_IRQ_S3": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R27-ESP.1"
+      ],
+      "pins_reached_count": 1,
+      "status": "RED",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e8932"
+      ]
+    },
+    "K1BR_MISO": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R25-ESP.2",
+        "U6-RTC.K1"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "K1BR_MISO_S3": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R25-ESP.1"
+      ],
+      "pins_reached_count": 1,
+      "status": "RED",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e8926"
+      ]
+    },
+    "K1BR_MOSI": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R24-ESP.2"
+      ],
+      "pins_reached_count": 1,
+      "status": "RED",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e8923"
+      ]
+    },
+    "K1BR_MOSI_RT": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R24-ESP.1",
+        "U6-RTC.J1"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "K1BR_SCK": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "R23-ESP.2",
+        "TP1-ESP.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "RED",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e8920"
+      ]
+    },
+    "K1BR_SCK_RT": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R23-ESP.1",
+        "U6-RTC.J4"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "LED_D0_3V3": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "U14-LED.2",
+        "U6-RTC.D7"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "LED_D0_5V": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R51-LED.1",
+        "U14-LED.4"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "LED_D0_J": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "J2-LED.2",
+        "R51-LED.2"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "LED_D1_3V3": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "U15-LED.2",
+        "U6-RTC.E7"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "LED_D1_5V": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R52-LED.1",
+        "U15-LED.4"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "LED_D1_J": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "J3-LED.2",
+        "R52-LED.2"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "LED_EFUSE_DVDT": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "C68-PWR2.1",
+        "U4-PWR2.7"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "LED_EFUSE_ILIM": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R8-PWR2.1",
+        "U4-PWR2.9"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "LED_OE_L": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R53-LED.1",
+        "U14-LED.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "LED_OE_R": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R54-LED.1",
+        "U15-LED.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "LED_THERM_L": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "RT1-LED.1",
+        "U6-RTC.L12"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "LED_THERM_R": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "RT2-LED.1",
+        "U6-RTC.K12"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "LPUART1_RX": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R18-RTDBG.1",
+        "U6-RTC.L14"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "LPUART1_RX_H": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "J5-RTDBG.2",
+        "R18-RTDBG.2"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "LPUART1_TX": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R17-RTDBG.1",
+        "U6-RTC.K14"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "LPUART1_TX_H": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "J5-RTDBG.1",
+        "R17-RTDBG.2"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "MIC_PWR_EN": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "Q1-PWR2.1",
+        "R9-PWR2.1",
+        "U6-RTC.J11"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "MOTION_INT1": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "R48-MOT.1",
+        "R49-MOT.1",
+        "U13-MOT.12"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "MOTION_INT_RT": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R48-MOT.2",
+        "U6-RTC.L11"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "MOTION_INT_S3": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R49-MOT.2"
+      ],
+      "pins_reached_count": 1,
+      "status": "RED",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e8944"
+      ]
+    },
+    "MOTION_SCL": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "R46-MOT.1",
+        "R47-MOT.1",
+        "U13-MOT.1"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "MOTION_SDA": {
+      "geometric_islands": 4,
+      "pins_reached": [
+        "R44-MOT.1",
+        "R45-MOT.1",
+        "R50-MOT.2",
+        "U13-MOT.4"
+      ],
+      "pins_reached_count": 4,
+      "status": "GREEN",
+      "wire_count": 4,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "NFC_5V": {
+      "geometric_islands": 6,
+      "pins_reached": [
+        "C16-PWR2.1",
+        "C17-PWR2.1",
+        "C57-NFC.1",
+        "C58-NFC.1",
+        "FB3-PWR2.2",
+        "U12-NFC.10"
+      ],
+      "pins_reached_count": 6,
+      "status": "GREEN",
+      "wire_count": 6,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "NFC_AGDC": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "C97-NFC.1",
+        "U12-NFC.24"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "NFC_ANT": {
+      "geometric_islands": 4,
+      "pins_reached": [
+        "C61-NFC.1",
+        "J10-NFC.1",
+        "L3-NFC.2",
+        "U12-NFC.22"
+      ],
+      "pins_reached_count": 4,
+      "status": "GREEN",
+      "wire_count": 4,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "NFC_EMI": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "C59-NFC.1",
+        "L2-NFC.2",
+        "R42-NFC.1"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "NFC_I2C_EN": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R76-NFC.1",
+        "U12-NFC.20"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "NFC_IRQ": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "R43-NFC.2",
+        "U12-NFC.27"
+      ],
+      "pins_reached_count": 2,
+      "status": "RED",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e8941"
+      ]
+    },
+    "NFC_MATCH_IN": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "C60-NFC.1",
+        "R42-NFC.2"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "NFC_MATCH_L": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "C60-NFC.2",
+        "L3-NFC.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "NFC_RFO1": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "L2-NFC.1",
+        "U12-NFC.13"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "NFC_VDD_A": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "C93-NFC.1",
+        "U12-NFC.7"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "NFC_VDD_AM": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "C95-NFC.1",
+        "U12-NFC.11"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "NFC_VDD_D": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "C92-NFC.1",
+        "U12-NFC.3"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "NFC_VDD_DR": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "C96-NFC.1",
+        "U12-NFC.14"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "NFC_VDD_RF": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "C94-NFC.1",
+        "U12-NFC.9"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "NFC_XTI": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "C54-NFC.1",
+        "U12-NFC.5",
+        "Y2-NFC.1"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "NFC_XTO": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "C55-NFC.1",
+        "U12-NFC.4",
+        "Y2-NFC.2"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "NVCC_PLL_1V1": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "C72-RTC.1",
+        "C73-RTC.1",
+        "U6-RTC.P10"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "OPT_BOOT_REC": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "J11-VAL.1",
+        "R55-VAL.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "OPT_BOOT_REC_RT": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R55-VAL.2",
+        "U6-RTC.M12"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "OPT_MCLK": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "J11-VAL.3",
+        "R57-VAL.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "OPT_S3_LOG": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "J11-VAL.4",
+        "R58-VAL.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "OPT_USB_AUD": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "J11-VAL.2",
+        "R56-VAL.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "OPT_USB_AUD_RT": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R56-VAL.2",
+        "U6-RTC.M8"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "PDM_CLK": {
+      "geometric_islands": 4,
+      "pins_reached": [
+        "J9-AUD.3",
+        "R38-AUD.1",
+        "R40-AUD.1",
+        "TP4-AUD.1"
+      ],
+      "pins_reached_count": 4,
+      "status": "GREEN",
+      "wire_count": 4,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "PDM_CLK_ADC": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R38-AUD.2",
+        "U11-AUD.11"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "PDM_CLK_RT": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R40-AUD.2",
+        "U6-RTC.J13"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "PDM_DAT": {
+      "geometric_islands": 4,
+      "pins_reached": [
+        "J9-AUD.5",
+        "R39-AUD.1",
+        "R41-AUD.1",
+        "TP5-AUD.1"
+      ],
+      "pins_reached_count": 4,
+      "status": "GREEN",
+      "wire_count": 4,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "PDM_DAT_ADC": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R39-AUD.2",
+        "U11-AUD.3"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "PDM_DAT_RT": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R41-AUD.2",
+        "U6-RTC.L13"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "POR_B": {
+      "geometric_islands": 5,
+      "pins_reached": [
+        "J4-RTDBG.10",
+        "R12-RTC.2",
+        "R59-VAL.2",
+        "U6-RTC.M7",
+        "U7-RTC.1"
+      ],
+      "pins_reached_count": 5,
+      "status": "GREEN",
+      "wire_count": 5,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "RT_PWR_VALID": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "R62-VAL.2",
+        "U16-VAL.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "RED",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e8950"
+      ]
+    },
+    "RT_RESET_REQ_N": {
+      "geometric_islands": 1,
+      "pins_reached": [
+        "SW1-RTC.2",
+        "U7-RTC.3"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 1,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "S3_POR_GATE": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "Q2-VAL.1",
+        "R60-VAL.2"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "S3_POR_OD": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "Q2-VAL.3",
+        "R59-VAL.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "S3_POR_REQ": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R60-VAL.1"
+      ],
+      "pins_reached_count": 1,
+      "status": "RED",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e8947"
+      ]
+    },
+    "S3_VBUS": {
+      "geometric_islands": 6,
+      "pins_reached": [
+        "J7-ESP.A4",
+        "J7-ESP.A9",
+        "J7-ESP.B4",
+        "J7-ESP.B9",
+        "R71-ESP.1",
+        "U10-ESP.5"
+      ],
+      "pins_reached_count": 6,
+      "status": "GREEN",
+      "wire_count": 6,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "SDL_SW": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R61-VAL.1",
+        "SW4-VAL.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "SWD_SWCLK": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R15-RTDBG.1",
+        "U6-RTC.F12"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "SWD_SWCLK_H": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "J4-RTDBG.4",
+        "R15-RTDBG.2"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "SWD_SWDIO": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R16-RTDBG.1",
+        "U6-RTC.E14"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "SWD_SWDIO_H": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "J4-RTDBG.2",
+        "R16-RTDBG.2"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "USB_CC1": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "J7-ESP.A5",
+        "R21-ESP.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "USB_CC2": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "J7-ESP.B5",
+        "R22-ESP.1"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "USB_DM": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "J7-ESP.A7",
+        "J7-ESP.B7",
+        "U10-ESP.3"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "USB_DM_ESD": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R74-ESP.1",
+        "U10-ESP.4"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "USB_DM_S3": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "C44-ESP.1",
+        "R74-ESP.2"
+      ],
+      "pins_reached_count": 2,
+      "status": "RED",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e103596"
+      ]
+    },
+    "USB_DP": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "J7-ESP.A6",
+        "J7-ESP.B6",
+        "U10-ESP.1"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "USB_DP_ESD": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R73-ESP.1",
+        "U10-ESP.6"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "USB_DP_S3": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "C43-ESP.1",
+        "R73-ESP.2"
+      ],
+      "pins_reached_count": 2,
+      "status": "RED",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": [
+        "e103598"
+      ]
+    },
+    "USB_EFUSE_DVDT": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "C67-PWR1.1",
+        "U1-PWR1.7"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "USB_EFUSE_EN": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "R2-PWR1.1",
+        "R63-PWR1.2",
+        "U1-PWR1.1"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "USB_EFUSE_ILIM": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R1-PWR1.1",
+        "U1-PWR1.9"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "USB_EFUSE_OVLO": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "R2-PWR1.2",
+        "R64-PWR1.1",
+        "U1-PWR1.2"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "USB_EFUSE_PG": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R67-PWR1.2",
+        "U1-PWR1.3"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "USB_EFUSE_PGTH": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "R65-PWR1.2",
+        "R66-PWR1.1",
+        "U1-PWR1.4"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "VDD_HIGH_CAP": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "C33-RTC.1",
+        "C34-RTC.1",
+        "U6-RTC.P8"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "VDD_SNVS_CAP": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "C70-RTC.1",
+        "C71-RTC.1",
+        "U6-RTC.M10"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "VDD_USB_CAP": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "C74-RTC.1",
+        "C75-RTC.1",
+        "U6-RTC.K8"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "XTALI": {
+      "geometric_islands": 4,
+      "pins_reached": [
+        "C35-RTDBG.1",
+        "R68-RTDBG.1",
+        "U6-RTC.P11",
+        "Y1-RTDBG.1"
+      ],
+      "pins_reached_count": 4,
+      "status": "GREEN",
+      "wire_count": 4,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "XTALO": {
+      "geometric_islands": 2,
+      "pins_reached": [
+        "R13-RTDBG.1",
+        "U6-RTC.N11"
+      ],
+      "pins_reached_count": 2,
+      "status": "GREEN",
+      "wire_count": 2,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    },
+    "XTALO_Y": {
+      "geometric_islands": 3,
+      "pins_reached": [
+        "C36-RTDBG.1",
+        "R13-RTDBG.2",
+        "Y1-RTDBG.3"
+      ],
+      "pins_reached_count": 3,
+      "status": "GREEN",
+      "wire_count": 3,
+      "wires_abstained_unmeasured_part": [],
+      "wires_not_meeting_any_pin": []
+    }
+  },
+  "pin_coverage": {
+    "designator_collisions_avoided": {
+      "U6-RTC": [
+        "e3295",
+        "e3673"
+      ]
+    },
+    "designator_coverage": "228/228",
+    "designators_total": 228,
+    "designators_with_pin_data": 228,
+    "designators_without_pin_data": [],
+    "part_coverage": "229/229",
+    "parts_total": 229,
+    "parts_with_pin_data": 229,
+    "parts_without_pin_data": [],
+    "pin_readback_tags_not_in_source": [
+      "e1",
+      "e153999"
+    ],
+    "pins_not_landing_on_any_wire": [
+      "D1-PWR1.3",
+      "D1-PWR1.4",
+      "D1-PWR1.5",
+      "D1-PWR1.6",
+      "J1-PWR1.1",
+      "J1-PWR1.A1",
+      "J1-PWR1.A12",
+      "J1-PWR1.A4",
+      "J1-PWR1.A5",
+      "J1-PWR1.A6",
+      "J1-PWR1.A7",
+      "J1-PWR1.A8",
+      "J1-PWR1.A9",
+      "J1-PWR1.B12",
+      "J1-PWR1.B5",
+      "J1-PWR1.B6",
+      "J1-PWR1.B7",
+      "J1-PWR1.B8",
+      "J1-PWR1.B9",
+      "J4-RTDBG.5",
+      "J4-RTDBG.6",
+      "J4-RTDBG.7",
+      "J4-RTDBG.8",
+      "J4-RTDBG.9",
+      "J5-RTDBG.3",
+      "J7-ESP.A8",
+      "J7-ESP.B8",
+      "J9-AUD.10",
+      "J9-AUD.11",
+      "J9-AUD.12",
+      "J9-AUD.7",
+      "J9-AUD.8",
+      "J9-AUD.9",
+      "SW1-RTC.3",
+      "SW1-RTC.4",
+      "SW2-ESP.3",
+      "SW2-ESP.4",
+      "SW3-ESP.3",
+      "SW3-ESP.4",
+      "SW4-VAL.3",
+      "SW4-VAL.4",
+      "U1-PWR1.10",
+      "U11-AUD.1",
+      "U11-AUD.2",
+      "U11-AUD.4",
+      "U12-NFC.15",
+      "U12-NFC.17",
+      "U12-NFC.18",
+      "U12-NFC.19",
+      "U12-NFC.2",
+      "U12-NFC.23",
+      "U12-NFC.25",
+      "U12-NFC.28",
+      "U12-NFC.29",
+      "U12-NFC.31",
+      "U13-MOT.11",
+      "U13-MOT.2",
+      "U13-MOT.3",
+      "U13-MOT.5",
+      "U13-MOT.7",
+      "U13-MOT.8",
+      "U16-VAL.3",
+      "U16-VAL.4",
+      "U16-VAL.5",
+      "U2-PWR1.1",
+      "U2-PWR1.2",
+      "U3-PWR2.5",
+      "U4-PWR2.10",
+      "U4-PWR2.3",
+      "U4-PWR2.4",
+      "U5-PWR2.4",
+      "U6-RTC.A10",
+      "U6-RTC.A11",
+      "U6-RTC.A12",
+      "U6-RTC.A13",
+      "U6-RTC.A2",
+      "U6-RTC.A3",
+      "U6-RTC.A4",
+      "U6-RTC.A5",
+      "U6-RTC.A6",
+      "U6-RTC.A7",
+      "U6-RTC.A8",
+      "U6-RTC.A9",
+      "U6-RTC.B1",
+      "U6-RTC.B11",
+      "U6-RTC.B12",
+      "U6-RTC.B13",
+      "U6-RTC.B14",
+      "U6-RTC.B2",
+      "U6-RTC.B3",
+      "U6-RTC.B4",
+      "U6-RTC.B6",
+      "U6-RTC.B7",
+      "U6-RTC.B8",
+      "U6-RTC.B9",
+      "U6-RTC.C1",
+      "U6-RTC.C10",
+      "U6-RTC.C11",
+      "U6-RTC.C12",
+      "U6-RTC.C13",
+      "U6-RTC.C14",
+      "U6-RTC.C2",
+      "U6-RTC.C3",
+      "U6-RTC.C4",
+      "U6-RTC.C5",
+      "U6-RTC.C6",
+      "U6-RTC.C7",
+      "U6-RTC.C8",
+      "U6-RTC.C9",
+      "U6-RTC.D1",
+      "U6-RTC.D10",
+      "U6-RTC.D11",
+      "U6-RTC.D12",
+      "U6-RTC.D13",
+      "U6-RTC.D14",
+      "U6-RTC.D2",
+      "U6-RTC.D3",
+      "U6-RTC.D4",
+      "U6-RTC.D5",
+      "U6-RTC.D6",
+      "U6-RTC.D8",
+      "U6-RTC.D9",
+      "U6-RTC.E1",
+      "U6-RTC.E10",
+      "U6-RTC.E11",
+      "U6-RTC.E12",
+      "U6-RTC.E3",
+      "U6-RTC.E4",
+      "U6-RTC.E5",
+      "U6-RTC.E8",
+      "U6-RTC.F1",
+      "U6-RTC.F13",
+      "U6-RTC.F14",
+      "U6-RTC.F2",
+      "U6-RTC.F3",
+      "U6-RTC.F4",
+      "U6-RTC.G1",
+      "U6-RTC.G10",
+      "U6-RTC.G11",
+      "U6-RTC.G13",
+      "U6-RTC.G2",
+      "U6-RTC.G3",
+      "U6-RTC.G4",
+      "U6-RTC.G5",
+      "U6-RTC.H1",
+      "U6-RTC.H10",
+      "U6-RTC.H13",
+      "U6-RTC.H14",
+      "U6-RTC.H2",
+      "U6-RTC.H3",
+      "U6-RTC.H4",
+      "U6-RTC.H5",
+      "U6-RTC.J12",
+      "U6-RTC.J2",
+      "U6-RTC.K10",
+      "U6-RTC.K6",
+      "U6-RTC.K7",
+      "U6-RTC.L10",
+      "U6-RTC.L5",
+      "U6-RTC.L6",
+      "U6-RTC.L7",
+      "U6-RTC.L8",
+      "U6-RTC.M11",
+      "U6-RTC.M13",
+      "U6-RTC.M14",
+      "U6-RTC.M3",
+      "U6-RTC.M4",
+      "U6-RTC.M5",
+      "U6-RTC.M6",
+      "U6-RTC.N10",
+      "U6-RTC.N12",
+      "U6-RTC.N13",
+      "U6-RTC.N3",
+      "U6-RTC.N6",
+      "U6-RTC.N7",
+      "U6-RTC.P13",
+      "U6-RTC.P2",
+      "U6-RTC.P4",
+      "U6-RTC.P5",
+      "U6-RTC.P6",
+      "U6-RTC.P7",
+      "U6-RTC.P9",
+      "U7-RTC.4",
+      "U9-ESP.1",
+      "U9-ESP.10",
+      "U9-ESP.11",
+      "U9-ESP.12",
+      "U9-ESP.13",
+      "U9-ESP.14",
+      "U9-ESP.15",
+      "U9-ESP.16",
+      "U9-ESP.17",
+      "U9-ESP.18",
+      "U9-ESP.19",
+      "U9-ESP.2",
+      "U9-ESP.20",
+      "U9-ESP.21",
+      "U9-ESP.22",
+      "U9-ESP.23",
+      "U9-ESP.24",
+      "U9-ESP.25",
+      "U9-ESP.26",
+      "U9-ESP.27",
+      "U9-ESP.28",
+      "U9-ESP.29",
+      "U9-ESP.3",
+      "U9-ESP.30",
+      "U9-ESP.31",
+      "U9-ESP.32",
+      "U9-ESP.33",
+      "U9-ESP.34",
+      "U9-ESP.35",
+      "U9-ESP.36",
+      "U9-ESP.37",
+      "U9-ESP.38",
+      "U9-ESP.39",
+      "U9-ESP.4",
+      "U9-ESP.40",
+      "U9-ESP.41",
+      "U9-ESP.5",
+      "U9-ESP.6",
+      "U9-ESP.7",
+      "U9-ESP.8",
+      "U9-ESP.9",
+      "Y2-NFC.3",
+      "Y2-NFC.4",
+      "e153999.1"
+    ]
+  },
+  "schema_version": 2,
+  "snap_tolerance": {
+    "ambiguous_at_or_above": 5.0,
+    "applied": 0,
+    "bindings_at_nonzero_distance": 0,
+    "measured_pin_pitch": 10,
+    "note": "Pin-to-wire distance on this sheet is QUANTISED (0/5/10/20), not noisy, so there is no grid-noise band to absorb. tol>=half-pitch is refused as ambiguous by construction.",
+    "sensitivity": [
+      {
+        "ambiguous": false,
+        "bindings_at_nonzero_distance": 0,
+        "nets_below_two_pins": 7,
+        "tolerance": 0,
+        "wires_not_meeting_any_pin": 23,
+        "wrong_pin_bindings": 0
+      },
+      {
+        "ambiguous": true,
+        "bindings_at_nonzero_distance": 16,
+        "nets_below_two_pins": 4,
+        "tolerance": 5,
+        "wires_not_meeting_any_pin": 9,
+        "wrong_pin_bindings": 15
+      },
+      {
+        "ambiguous": true,
+        "bindings_at_nonzero_distance": 44,
+        "nets_below_two_pins": 4,
+        "tolerance": 10,
+        "wires_not_meeting_any_pin": 8,
+        "wrong_pin_bindings": 42
+      }
+    ],
+    "wrong_pin_bindings": 0
+  },
+  "statistics": {
+    "distinct_wire_endpoints": 1359,
+    "most_fragmented": {
+      "1V15_CORE": 18,
+      "3V3": 90,
+      "5V_PROTECTED": 6,
+      "5V_SYS": 12,
+      "AUDIO_MCLK": 6,
+      "GND": 186,
+      "I2C_SCL": 7,
+      "I2C_SDA": 8,
+      "NFC_5V": 6,
+      "S3_VBUS": 6
+    },
+    "nets_spanning_multiple_islands": 142,
+    "note": "Geometric fragmentation is REPORTED, never flagged. Every pin gets its own 20-unit labelled stub (schematic/wire_led_efuse_support.py:37-48), so islands == wire count by construction, and SINGLE-SHEET-CONTRACT.md permits labelled trunks for long global rails and major shared buses.",
+    "t_junction_merges": 0,
+    "total_geometric_islands": 675
+  },
+  "verdict": "RED",
+  "violation_counts": {
+    "net_labels_meeting_fewer_than_two_pins": 7,
+    "off_sheet_wires": 1,
+    "pins_met_by_multiple_net_labels": 0,
+    "wires_not_meeting_any_pin": 23,
+    "wrong_pin_bindings": 0
+  },
+  "violations": {
+    "net_labels_meeting_fewer_than_two_pins": [
+      "BUCK_PG",
+      "ESP_UART0_RX",
+      "K1BR_IRQ_S3",
+      "K1BR_MISO_S3",
+      "K1BR_MOSI",
+      "MOTION_INT_S3",
+      "S3_POR_REQ"
+    ],
+    "off_sheet_wires": [
+      {
+        "net": "BUCK_PG",
+        "segments": [
+          [
+            1000,
+            -4535,
+            1130,
+            -4535
+          ],
+          [
+            1000,
+            -4480,
+            1000,
+            -4535
+          ]
+        ],
+        "wire_id": "e146347"
+      }
+    ],
+    "pins_met_by_multiple_net_labels": {},
+    "wires_not_meeting_any_pin": [
+      {
+        "nearest_measured": "R22-ESP/e8460",
+        "nearest_measured_distance": 225,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "ESP_USB_VBUS_SENSE",
+        "segments": [
+          [
+            4170,
+            4335,
+            4040,
+            4335
+          ]
+        ],
+        "wire_id": "e103594"
+      },
+      {
+        "nearest_measured": "R22-ESP/e8460",
+        "nearest_measured_distance": 175,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "USB_DM_S3",
+        "segments": [
+          [
+            4170,
+            4285,
+            4040,
+            4285
+          ]
+        ],
+        "wire_id": "e103596"
+      },
+      {
+        "nearest_measured": "R73-ESP/e98285",
+        "nearest_measured_distance": 145,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "USB_DP_S3",
+        "segments": [
+          [
+            4170,
+            4275,
+            4040,
+            4275
+          ]
+        ],
+        "wire_id": "e103598"
+      },
+      {
+        "nearest_measured": "U9-ESP/e8065",
+        "nearest_measured_distance": 90,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "ESP_UART0_RX",
+        "segments": [
+          [
+            4340,
+            4365,
+            4360,
+            4365
+          ]
+        ],
+        "wire_id": "e103600"
+      },
+      {
+        "nearest_measured": "U9-ESP/e8065",
+        "nearest_measured_distance": 100,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "ESP_UART0_TX",
+        "segments": [
+          [
+            4340,
+            4375,
+            4360,
+            4375
+          ]
+        ],
+        "wire_id": "e103602"
+      },
+      {
+        "nearest_measured": "C54-NFC/e13042",
+        "nearest_measured_distance": 7085,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "BUCK_PG",
+        "segments": [
+          [
+            1000,
+            -4535,
+            1130,
+            -4535
+          ],
+          [
+            1000,
+            -4480,
+            1000,
+            -4535
+          ]
+        ],
+        "wire_id": "e146347"
+      },
+      {
+        "nearest_measured": "SW2-ESP/e7963",
+        "nearest_measured_distance": 225,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "GND",
+        "segments": [
+          [
+            4170,
+            4405,
+            4040,
+            4405
+          ]
+        ],
+        "wire_id": "e8899"
+      },
+      {
+        "nearest_measured": "U9-ESP/e8065",
+        "nearest_measured_distance": 120,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "3V3",
+        "segments": [
+          [
+            4170,
+            4395,
+            4040,
+            4395
+          ]
+        ],
+        "wire_id": "e8902"
+      },
+      {
+        "nearest_measured": "U9-ESP/e8065",
+        "nearest_measured_distance": 110,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "ESP_EN",
+        "segments": [
+          [
+            4170,
+            4385,
+            4040,
+            4385
+          ]
+        ],
+        "wire_id": "e8905"
+      },
+      {
+        "nearest_measured": "U9-ESP/e8065",
+        "nearest_measured_distance": 170,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "ESP_GPIO0",
+        "segments": [
+          [
+            4340,
+            4275,
+            4360,
+            4275
+          ]
+        ],
+        "wire_id": "e8908"
+      },
+      {
+        "nearest_measured": "U9-ESP/e8065",
+        "nearest_measured_distance": 140,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "K1BR_SCK",
+        "segments": [
+          [
+            4255,
+            4220,
+            4255,
+            4200
+          ]
+        ],
+        "wire_id": "e8920"
+      },
+      {
+        "nearest_measured": "R73-ESP/e98285",
+        "nearest_measured_distance": 115,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "K1BR_MOSI",
+        "segments": [
+          [
+            4245,
+            4220,
+            4245,
+            4200
+          ]
+        ],
+        "wire_id": "e8923"
+      },
+      {
+        "nearest_measured": "U9-ESP/e8065",
+        "nearest_measured_distance": 150,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "K1BR_MISO_S3",
+        "segments": [
+          [
+            4265,
+            4220,
+            4265,
+            4200
+          ]
+        ],
+        "wire_id": "e8926"
+      },
+      {
+        "nearest_measured": "R73-ESP/e98285",
+        "nearest_measured_distance": 125,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "K1BR_CS",
+        "segments": [
+          [
+            4235,
+            4220,
+            4235,
+            4200
+          ]
+        ],
+        "wire_id": "e8929"
+      },
+      {
+        "nearest_measured": "R73-ESP/e98285",
+        "nearest_measured_distance": 145,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "K1BR_IRQ_S3",
+        "segments": [
+          [
+            4275,
+            4220,
+            4275,
+            4200
+          ]
+        ],
+        "wire_id": "e8932"
+      },
+      {
+        "nearest_measured": "U9-ESP/e8065",
+        "nearest_measured_distance": 140,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "I2C_SDA",
+        "segments": [
+          [
+            4340,
+            4395,
+            4360,
+            4395
+          ]
+        ],
+        "wire_id": "e8935"
+      },
+      {
+        "nearest_measured": "U9-ESP/e8065",
+        "nearest_measured_distance": 130,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "I2C_SCL",
+        "segments": [
+          [
+            4340,
+            4385,
+            4360,
+            4385
+          ]
+        ],
+        "wire_id": "e8938"
+      },
+      {
+        "nearest_measured": "U9-ESP/e8065",
+        "nearest_measured_distance": 100,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "NFC_IRQ",
+        "segments": [
+          [
+            4170,
+            4375,
+            4040,
+            4375
+          ]
+        ],
+        "wire_id": "e8941"
+      },
+      {
+        "nearest_measured": "U9-ESP/e8065",
+        "nearest_measured_distance": 90,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "MOTION_INT_S3",
+        "segments": [
+          [
+            4170,
+            4365,
+            4040,
+            4365
+          ]
+        ],
+        "wire_id": "e8944"
+      },
+      {
+        "nearest_measured": "U9-ESP/e8065",
+        "nearest_measured_distance": 90,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "S3_POR_REQ",
+        "segments": [
+          [
+            4170,
+            4355,
+            4040,
+            4355
+          ]
+        ],
+        "wire_id": "e8947"
+      },
+      {
+        "nearest_measured": "U9-ESP/e8065",
+        "nearest_measured_distance": 100,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "RT_PWR_VALID",
+        "segments": [
+          [
+            4170,
+            4345,
+            4040,
+            4345
+          ]
+        ],
+        "wire_id": "e8950"
+      },
+      {
+        "nearest_measured": "U9-ESP/e8065",
+        "nearest_measured_distance": 150,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "GND",
+        "segments": [
+          [
+            4340,
+            4405,
+            4360,
+            4405
+          ]
+        ],
+        "wire_id": "e8953"
+      },
+      {
+        "nearest_measured": "U9-ESP/e8065",
+        "nearest_measured_distance": 145,
+        "nearest_unmeasured": null,
+        "nearest_unmeasured_distance": null,
+        "net": "GND",
+        "segments": [
+          [
+            4340,
+            4420,
+            4360,
+            4420
+          ]
+        ],
+        "wire_id": "e8956"
+      }
+    ],
+    "wrong_pin_bindings": []
+  }
+}

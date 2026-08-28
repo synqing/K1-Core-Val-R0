@@ -1,0 +1,1126 @@
+{
+  "by_class": {
+    "NC_UNUSED_GPIO": [
+      "U6-RTC.P5 GPIO_SD_B1_11",
+      "U6-RTC.P4 GPIO_SD_B1_10",
+      "U6-RTC.P2 GPIO_SD_B1_04",
+      "U6-RTC.N3 GPIO_SD_B1_05",
+      "U6-RTC.M14 GPIO_AD_B0_00",
+      "U6-RTC.M13 GPIO_AD_B1_09",
+      "U6-RTC.M11 GPIO_AD_B0_02",
+      "U6-RTC.M5 GPIO_SD_B1_01",
+      "U6-RTC.M4 GPIO_SD_B1_03",
+      "U6-RTC.M3 GPIO_SD_B1_02",
+      "U6-RTC.L10 GPIO_AD_B0_15",
+      "U6-RTC.L5 GPIO_SD_B1_00",
+      "U6-RTC.K10 GPIO_AD_B1_07",
+      "U6-RTC.J12 GPIO_AD_B1_06",
+      "U6-RTC.J2 GPIO_SD_B0_05",
+      "U6-RTC.H14 GPIO_AD_B0_14",
+      "U6-RTC.H13 GPIO_AD_B1_08",
+      "U6-RTC.H10 GPIO_AD_B0_01",
+      "U6-RTC.H5 GPIO_EMC_06",
+      "U6-RTC.H4 GPIO_EMC_07",
+      "U6-RTC.H3 GPIO_EMC_08",
+      "U6-RTC.H2 GPIO_SD_B0_04",
+      "U6-RTC.H1 GPIO_EMC_12"
+    ],
+    "NC_UNUSED_SBU": [
+      "J7-ESP.B8 SBU2",
+      "J7-ESP.A8 SBU1"
+    ],
+    "NC_UNUSED_THROW": [
+      "SW1-RTC.3 3",
+      "SW1-RTC.4 4",
+      "SW2-ESP.3 3",
+      "SW2-ESP.4 4",
+      "SW3-ESP.3 3",
+      "SW3-ESP.4 4",
+      "SW4-VAL.3 3",
+      "SW4-VAL.4 4"
+    ],
+    "POWER_OR_GND": [
+      "J1-PWR1.B9 VBUS",
+      "J1-PWR1.B12 GND",
+      "J1-PWR1.A1 GND",
+      "J1-PWR1.A4 VBUS",
+      "J1-PWR1.A9 VBUS",
+      "J1-PWR1.A12 GND",
+      "U13-MOT.7 GND",
+      "U13-MOT.8 GND",
+      "U6-RTC.P7 USB_OTG2_DP",
+      "U6-RTC.P6 USB_OTG2_VBUS",
+      "U6-RTC.N12 USB_OTG1_CHD_B",
+      "U6-RTC.N7 USB_OTG2_DN",
+      "U6-RTC.N6 USB_OTG1_VBUS",
+      "U6-RTC.L8 USB_OTG1_DP",
+      "Y2-NFC.4 GND"
+    ],
+    "REVIEW": [
+      "D1-PWR1.3 3",
+      "D1-PWR1.4 4",
+      "D1-PWR1.5 5",
+      "D1-PWR1.6 6",
+      "J1-PWR1.B5 CC2",
+      "J1-PWR1.B6 DP2",
+      "J1-PWR1.B7 DN2",
+      "J1-PWR1.B8 SBU2",
+      "J1-PWR1.1 EH",
+      "J1-PWR1.A5 CC1",
+      "J1-PWR1.A6 DP1",
+      "J1-PWR1.A7 DN1",
+      "J1-PWR1.A8 SBU1",
+      "J9-AUD.7 7",
+      "J9-AUD.8 8",
+      "J9-AUD.9 9",
+      "J9-AUD.10 10",
+      "J9-AUD.11 11",
+      "J9-AUD.12 12",
+      "U1-PWR1.10 ITIMER",
+      "U11-AUD.1 IN1P",
+      "U11-AUD.2 IN1M",
+      "U11-AUD.4 IN2M_GPO1",
+      "U12-NFC.2 TAD2",
+      "U12-NFC.17 EXT_LM",
+      "U12-NFC.18 AAT_A",
+      "U12-NFC.19 AAT_B",
+      "U12-NFC.25 TAD1",
+      "U12-NFC.28 MCU_CLK",
+      "U12-NFC.29 BSS",
+      "U12-NFC.31 MOSI",
+      "U13-MOT.2 CS",
+      "U13-MOT.3 SDO/SA0",
+      "U13-MOT.5 RES",
+      "U13-MOT.11 INT2",
+      "U16-VAL.3 MR#",
+      "U16-VAL.4 CT",
+      "U16-VAL.5 SENSE",
+      "U4-PWR2.3 PG/AUXOFF",
+      "U5-PWR2.4 NC",
+      "U6-RTC.P13 CCM_CLK1_N",
+      "U6-RTC.P9 RTC_XTALO",
+      "U6-RTC.N13 CCM_CLK1_P",
+      "U6-RTC.N10 GPANAIO",
+      "U6-RTC.M6 ONOFF",
+      "U6-RTC.L7 PMIC_STBY_REQ",
+      "U6-RTC.L6 WAKEUP",
+      "U6-RTC.K7 PMIC_ON_REQ",
+      "U6-RTC.K6 TEST_MODE",
+      "U9-ESP.9 IO16",
+      "U9-ESP.10 IO17",
+      "U9-ESP.11 IO18",
+      "U9-ESP.12 IO8",
+      "U9-ESP.15 IO3",
+      "U9-ESP.16 IO46",
+      "U9-ESP.17 IO9",
+      "U9-ESP.23 IO21",
+      "U9-ESP.24 IO47",
+      "U9-ESP.25 IO48",
+      "U9-ESP.26 IO45",
+      "U9-ESP.28 IO35",
+      "U9-ESP.29 IO36",
+      "U9-ESP.30 IO37",
+      "U9-ESP.31 IO38",
+      "U9-ESP.32 IO39",
+      "U9-ESP.33 IO40",
+      "U9-ESP.34 IO41",
+      "U9-ESP.35 IO42",
+      "Y2-NFC.3 3"
+    ],
+    "SKIP_FUNCTIONAL": [
+      "C10-PWR2.1 1",
+      "C10-PWR2.2 2",
+      "U12-NFC.15 RFO2",
+      "U12-NFC.20 I2C_EN",
+      "U12-NFC.23 RFI2"
+    ]
+  },
+  "counts": {
+    "NC_UNUSED_GPIO": 23,
+    "NC_UNUSED_SBU": 2,
+    "NC_UNUSED_THROW": 8,
+    "POWER_OR_GND": 15,
+    "REVIEW": 69,
+    "SKIP_FUNCTIONAL": 5
+  },
+  "missing": [],
+  "rows": [
+    {
+      "decision": "SKIP_FUNCTIONAL",
+      "designator": "C10-PWR2",
+      "name": "1",
+      "net": "",
+      "no_connect": null,
+      "number": "1"
+    },
+    {
+      "decision": "SKIP_FUNCTIONAL",
+      "designator": "C10-PWR2",
+      "name": "2",
+      "net": "",
+      "no_connect": null,
+      "number": "2"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "D1-PWR1",
+      "name": "3",
+      "net": "",
+      "no_connect": null,
+      "number": "3"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "D1-PWR1",
+      "name": "4",
+      "net": "",
+      "no_connect": null,
+      "number": "4"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "D1-PWR1",
+      "name": "5",
+      "net": "",
+      "no_connect": null,
+      "number": "5"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "D1-PWR1",
+      "name": "6",
+      "net": "",
+      "no_connect": null,
+      "number": "6"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "J1-PWR1",
+      "name": "CC2",
+      "net": "",
+      "no_connect": null,
+      "number": "B5"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "J1-PWR1",
+      "name": "DP2",
+      "net": "",
+      "no_connect": null,
+      "number": "B6"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "J1-PWR1",
+      "name": "DN2",
+      "net": "",
+      "no_connect": null,
+      "number": "B7"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "J1-PWR1",
+      "name": "SBU2",
+      "net": "",
+      "no_connect": null,
+      "number": "B8"
+    },
+    {
+      "decision": "POWER_OR_GND",
+      "designator": "J1-PWR1",
+      "name": "VBUS",
+      "net": "",
+      "no_connect": null,
+      "number": "B9"
+    },
+    {
+      "decision": "POWER_OR_GND",
+      "designator": "J1-PWR1",
+      "name": "GND",
+      "net": "",
+      "no_connect": null,
+      "number": "B12"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "J1-PWR1",
+      "name": "EH",
+      "net": "",
+      "no_connect": null,
+      "number": "1"
+    },
+    {
+      "decision": "POWER_OR_GND",
+      "designator": "J1-PWR1",
+      "name": "GND",
+      "net": "",
+      "no_connect": null,
+      "number": "A1"
+    },
+    {
+      "decision": "POWER_OR_GND",
+      "designator": "J1-PWR1",
+      "name": "VBUS",
+      "net": "",
+      "no_connect": null,
+      "number": "A4"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "J1-PWR1",
+      "name": "CC1",
+      "net": "",
+      "no_connect": null,
+      "number": "A5"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "J1-PWR1",
+      "name": "DP1",
+      "net": "",
+      "no_connect": null,
+      "number": "A6"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "J1-PWR1",
+      "name": "DN1",
+      "net": "",
+      "no_connect": null,
+      "number": "A7"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "J1-PWR1",
+      "name": "SBU1",
+      "net": "",
+      "no_connect": null,
+      "number": "A8"
+    },
+    {
+      "decision": "POWER_OR_GND",
+      "designator": "J1-PWR1",
+      "name": "VBUS",
+      "net": "",
+      "no_connect": null,
+      "number": "A9"
+    },
+    {
+      "decision": "POWER_OR_GND",
+      "designator": "J1-PWR1",
+      "name": "GND",
+      "net": "",
+      "no_connect": null,
+      "number": "A12"
+    },
+    {
+      "decision": "NC_UNUSED_SBU",
+      "designator": "J7-ESP",
+      "name": "SBU2",
+      "net": "",
+      "no_connect": null,
+      "number": "B8"
+    },
+    {
+      "decision": "NC_UNUSED_SBU",
+      "designator": "J7-ESP",
+      "name": "SBU1",
+      "net": "",
+      "no_connect": null,
+      "number": "A8"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "J9-AUD",
+      "name": "7",
+      "net": "",
+      "no_connect": null,
+      "number": "7"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "J9-AUD",
+      "name": "8",
+      "net": "",
+      "no_connect": null,
+      "number": "8"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "J9-AUD",
+      "name": "9",
+      "net": "",
+      "no_connect": null,
+      "number": "9"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "J9-AUD",
+      "name": "10",
+      "net": "",
+      "no_connect": null,
+      "number": "10"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "J9-AUD",
+      "name": "11",
+      "net": "",
+      "no_connect": null,
+      "number": "11"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "J9-AUD",
+      "name": "12",
+      "net": "",
+      "no_connect": null,
+      "number": "12"
+    },
+    {
+      "decision": "NC_UNUSED_THROW",
+      "designator": "SW1-RTC",
+      "name": "3",
+      "net": "",
+      "no_connect": null,
+      "number": "3"
+    },
+    {
+      "decision": "NC_UNUSED_THROW",
+      "designator": "SW1-RTC",
+      "name": "4",
+      "net": "",
+      "no_connect": null,
+      "number": "4"
+    },
+    {
+      "decision": "NC_UNUSED_THROW",
+      "designator": "SW2-ESP",
+      "name": "3",
+      "net": "",
+      "no_connect": null,
+      "number": "3"
+    },
+    {
+      "decision": "NC_UNUSED_THROW",
+      "designator": "SW2-ESP",
+      "name": "4",
+      "net": "",
+      "no_connect": null,
+      "number": "4"
+    },
+    {
+      "decision": "NC_UNUSED_THROW",
+      "designator": "SW3-ESP",
+      "name": "3",
+      "net": "",
+      "no_connect": null,
+      "number": "3"
+    },
+    {
+      "decision": "NC_UNUSED_THROW",
+      "designator": "SW3-ESP",
+      "name": "4",
+      "net": "",
+      "no_connect": null,
+      "number": "4"
+    },
+    {
+      "decision": "NC_UNUSED_THROW",
+      "designator": "SW4-VAL",
+      "name": "3",
+      "net": "",
+      "no_connect": null,
+      "number": "3"
+    },
+    {
+      "decision": "NC_UNUSED_THROW",
+      "designator": "SW4-VAL",
+      "name": "4",
+      "net": "",
+      "no_connect": null,
+      "number": "4"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U1-PWR1",
+      "name": "ITIMER",
+      "net": "",
+      "no_connect": null,
+      "number": "10"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U11-AUD",
+      "name": "IN1P",
+      "net": "",
+      "no_connect": null,
+      "number": "1"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U11-AUD",
+      "name": "IN1M",
+      "net": "",
+      "no_connect": null,
+      "number": "2"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U11-AUD",
+      "name": "IN2M_GPO1",
+      "net": "",
+      "no_connect": null,
+      "number": "4"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U12-NFC",
+      "name": "TAD2",
+      "net": "",
+      "no_connect": null,
+      "number": "2"
+    },
+    {
+      "decision": "SKIP_FUNCTIONAL",
+      "designator": "U12-NFC",
+      "name": "RFO2",
+      "net": "",
+      "no_connect": null,
+      "number": "15"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U12-NFC",
+      "name": "EXT_LM",
+      "net": "",
+      "no_connect": null,
+      "number": "17"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U12-NFC",
+      "name": "AAT_A",
+      "net": "",
+      "no_connect": null,
+      "number": "18"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U12-NFC",
+      "name": "AAT_B",
+      "net": "",
+      "no_connect": null,
+      "number": "19"
+    },
+    {
+      "decision": "SKIP_FUNCTIONAL",
+      "designator": "U12-NFC",
+      "name": "I2C_EN",
+      "net": "",
+      "no_connect": null,
+      "number": "20"
+    },
+    {
+      "decision": "SKIP_FUNCTIONAL",
+      "designator": "U12-NFC",
+      "name": "RFI2",
+      "net": "",
+      "no_connect": null,
+      "number": "23"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U12-NFC",
+      "name": "TAD1",
+      "net": "",
+      "no_connect": null,
+      "number": "25"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U12-NFC",
+      "name": "MCU_CLK",
+      "net": "",
+      "no_connect": null,
+      "number": "28"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U12-NFC",
+      "name": "BSS",
+      "net": "",
+      "no_connect": null,
+      "number": "29"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U12-NFC",
+      "name": "MOSI",
+      "net": "",
+      "no_connect": null,
+      "number": "31"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U13-MOT",
+      "name": "CS",
+      "net": "",
+      "no_connect": null,
+      "number": "2"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U13-MOT",
+      "name": "SDO/SA0",
+      "net": "",
+      "no_connect": null,
+      "number": "3"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U13-MOT",
+      "name": "RES",
+      "net": "",
+      "no_connect": null,
+      "number": "5"
+    },
+    {
+      "decision": "POWER_OR_GND",
+      "designator": "U13-MOT",
+      "name": "GND",
+      "net": "",
+      "no_connect": null,
+      "number": "7"
+    },
+    {
+      "decision": "POWER_OR_GND",
+      "designator": "U13-MOT",
+      "name": "GND",
+      "net": "",
+      "no_connect": null,
+      "number": "8"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U13-MOT",
+      "name": "INT2",
+      "net": "",
+      "no_connect": null,
+      "number": "11"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U16-VAL",
+      "name": "MR#",
+      "net": "",
+      "no_connect": null,
+      "number": "3"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U16-VAL",
+      "name": "CT",
+      "net": "",
+      "no_connect": null,
+      "number": "4"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U16-VAL",
+      "name": "SENSE",
+      "net": "",
+      "no_connect": null,
+      "number": "5"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U4-PWR2",
+      "name": "PG/AUXOFF",
+      "net": "",
+      "no_connect": null,
+      "number": "3"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U5-PWR2",
+      "name": "NC",
+      "net": "",
+      "no_connect": null,
+      "number": "4"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U6-RTC",
+      "name": "CCM_CLK1_N",
+      "net": "",
+      "no_connect": null,
+      "number": "P13"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U6-RTC",
+      "name": "RTC_XTALO",
+      "net": "",
+      "no_connect": null,
+      "number": "P9"
+    },
+    {
+      "decision": "POWER_OR_GND",
+      "designator": "U6-RTC",
+      "name": "USB_OTG2_DP",
+      "net": "",
+      "no_connect": null,
+      "number": "P7"
+    },
+    {
+      "decision": "POWER_OR_GND",
+      "designator": "U6-RTC",
+      "name": "USB_OTG2_VBUS",
+      "net": "",
+      "no_connect": null,
+      "number": "P6"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_SD_B1_11",
+      "net": "",
+      "no_connect": null,
+      "number": "P5"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_SD_B1_10",
+      "net": "",
+      "no_connect": null,
+      "number": "P4"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_SD_B1_04",
+      "net": "",
+      "no_connect": null,
+      "number": "P2"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U6-RTC",
+      "name": "CCM_CLK1_P",
+      "net": "",
+      "no_connect": null,
+      "number": "N13"
+    },
+    {
+      "decision": "POWER_OR_GND",
+      "designator": "U6-RTC",
+      "name": "USB_OTG1_CHD_B",
+      "net": "",
+      "no_connect": null,
+      "number": "N12"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U6-RTC",
+      "name": "GPANAIO",
+      "net": "",
+      "no_connect": null,
+      "number": "N10"
+    },
+    {
+      "decision": "POWER_OR_GND",
+      "designator": "U6-RTC",
+      "name": "USB_OTG2_DN",
+      "net": "",
+      "no_connect": null,
+      "number": "N7"
+    },
+    {
+      "decision": "POWER_OR_GND",
+      "designator": "U6-RTC",
+      "name": "USB_OTG1_VBUS",
+      "net": "",
+      "no_connect": null,
+      "number": "N6"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_SD_B1_05",
+      "net": "",
+      "no_connect": null,
+      "number": "N3"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_AD_B0_00",
+      "net": "",
+      "no_connect": null,
+      "number": "M14"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_AD_B1_09",
+      "net": "",
+      "no_connect": null,
+      "number": "M13"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_AD_B0_02",
+      "net": "",
+      "no_connect": null,
+      "number": "M11"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U6-RTC",
+      "name": "ONOFF",
+      "net": "",
+      "no_connect": null,
+      "number": "M6"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_SD_B1_01",
+      "net": "",
+      "no_connect": null,
+      "number": "M5"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_SD_B1_03",
+      "net": "",
+      "no_connect": null,
+      "number": "M4"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_SD_B1_02",
+      "net": "",
+      "no_connect": null,
+      "number": "M3"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_AD_B0_15",
+      "net": "",
+      "no_connect": null,
+      "number": "L10"
+    },
+    {
+      "decision": "POWER_OR_GND",
+      "designator": "U6-RTC",
+      "name": "USB_OTG1_DP",
+      "net": "",
+      "no_connect": null,
+      "number": "L8"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U6-RTC",
+      "name": "PMIC_STBY_REQ",
+      "net": "",
+      "no_connect": null,
+      "number": "L7"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U6-RTC",
+      "name": "WAKEUP",
+      "net": "",
+      "no_connect": null,
+      "number": "L6"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_SD_B1_00",
+      "net": "",
+      "no_connect": null,
+      "number": "L5"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_AD_B1_07",
+      "net": "",
+      "no_connect": null,
+      "number": "K10"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U6-RTC",
+      "name": "PMIC_ON_REQ",
+      "net": "",
+      "no_connect": null,
+      "number": "K7"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U6-RTC",
+      "name": "TEST_MODE",
+      "net": "",
+      "no_connect": null,
+      "number": "K6"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_AD_B1_06",
+      "net": "",
+      "no_connect": null,
+      "number": "J12"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_SD_B0_05",
+      "net": "",
+      "no_connect": null,
+      "number": "J2"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_AD_B0_14",
+      "net": "",
+      "no_connect": null,
+      "number": "H14"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_AD_B1_08",
+      "net": "",
+      "no_connect": null,
+      "number": "H13"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_AD_B0_01",
+      "net": "",
+      "no_connect": null,
+      "number": "H10"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_EMC_06",
+      "net": "",
+      "no_connect": null,
+      "number": "H5"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_EMC_07",
+      "net": "",
+      "no_connect": null,
+      "number": "H4"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_EMC_08",
+      "net": "",
+      "no_connect": null,
+      "number": "H3"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_SD_B0_04",
+      "net": "",
+      "no_connect": null,
+      "number": "H2"
+    },
+    {
+      "decision": "NC_UNUSED_GPIO",
+      "designator": "U6-RTC",
+      "name": "GPIO_EMC_12",
+      "net": "",
+      "no_connect": null,
+      "number": "H1"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U9-ESP",
+      "name": "IO16",
+      "net": "",
+      "no_connect": null,
+      "number": "9"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U9-ESP",
+      "name": "IO17",
+      "net": "",
+      "no_connect": null,
+      "number": "10"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U9-ESP",
+      "name": "IO18",
+      "net": "",
+      "no_connect": null,
+      "number": "11"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U9-ESP",
+      "name": "IO8",
+      "net": "",
+      "no_connect": null,
+      "number": "12"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U9-ESP",
+      "name": "IO3",
+      "net": "",
+      "no_connect": null,
+      "number": "15"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U9-ESP",
+      "name": "IO46",
+      "net": "",
+      "no_connect": null,
+      "number": "16"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U9-ESP",
+      "name": "IO9",
+      "net": "",
+      "no_connect": null,
+      "number": "17"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U9-ESP",
+      "name": "IO21",
+      "net": "",
+      "no_connect": null,
+      "number": "23"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U9-ESP",
+      "name": "IO47",
+      "net": "",
+      "no_connect": null,
+      "number": "24"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U9-ESP",
+      "name": "IO48",
+      "net": "",
+      "no_connect": null,
+      "number": "25"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U9-ESP",
+      "name": "IO45",
+      "net": "",
+      "no_connect": null,
+      "number": "26"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U9-ESP",
+      "name": "IO35",
+      "net": "",
+      "no_connect": null,
+      "number": "28"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U9-ESP",
+      "name": "IO36",
+      "net": "",
+      "no_connect": null,
+      "number": "29"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U9-ESP",
+      "name": "IO37",
+      "net": "",
+      "no_connect": null,
+      "number": "30"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U9-ESP",
+      "name": "IO38",
+      "net": "",
+      "no_connect": null,
+      "number": "31"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U9-ESP",
+      "name": "IO39",
+      "net": "",
+      "no_connect": null,
+      "number": "32"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U9-ESP",
+      "name": "IO40",
+      "net": "",
+      "no_connect": null,
+      "number": "33"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U9-ESP",
+      "name": "IO41",
+      "net": "",
+      "no_connect": null,
+      "number": "34"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "U9-ESP",
+      "name": "IO42",
+      "net": "",
+      "no_connect": null,
+      "number": "35"
+    },
+    {
+      "decision": "POWER_OR_GND",
+      "designator": "Y2-NFC",
+      "name": "GND",
+      "net": "",
+      "no_connect": null,
+      "number": "4"
+    },
+    {
+      "decision": "REVIEW",
+      "designator": "Y2-NFC",
+      "name": "3",
+      "net": "",
+      "no_connect": null,
+      "number": "3"
+    }
+  ],
+  "source_hash": "491048:d3107fc9"
+}

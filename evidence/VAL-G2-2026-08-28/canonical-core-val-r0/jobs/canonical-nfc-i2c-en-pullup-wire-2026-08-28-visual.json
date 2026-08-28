@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-nfc-i2c-en-pullup-wire-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Wire R76-NFC pin 1 to NFC_I2C_EN, pin 2 to 3V3, and U12-NFC pin 20 I2C_EN to NFC_I2C_EN. Do not move parts.",
+  "observed_delta": "R76-NFC stays under U12 I2C_EN. Its left pin is labelled NFC_I2C_EN, its right pin is labelled 3V3, and U12 pin 20 now carries NFC_I2C_EN. Source has three new named stubs; NFC_I2C_EN count is 2. Census stays 230 components / 675 wires.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-nfc-i2c-en-pullup-wire-box7.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "R76-NFC pin 1 is on NFC_I2C_EN",
+      "result": "OK",
+      "detail": "Left pin of R76-NFC shows NFC_I2C_EN. Source WIRE e151872 ATTR NET=NFC_I2C_EN."
+    },
+    {
+      "name": "R76-NFC pin 2 is on 3V3",
+      "result": "OK",
+      "detail": "Right pin of R76-NFC shows 3V3. Source WIRE e151875 ATTR NET=3V3."
+    },
+    {
+      "name": "U12-NFC pin 20 I2C_EN is on NFC_I2C_EN",
+      "result": "OK",
+      "detail": "U12 pin 20 stub is labelled NFC_I2C_EN. Source WIRE e151878 ATTR NET=NFC_I2C_EN."
+    },
+    {
+      "name": "census components stay at the post-place count",
+      "result": "OK",
+      "detail": "Live census remains 230 components. Wire count rose by 3 named stubs only."
+    }
+  ]
+}

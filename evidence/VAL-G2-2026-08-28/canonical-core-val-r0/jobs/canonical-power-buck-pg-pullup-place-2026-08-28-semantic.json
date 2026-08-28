@@ -1,0 +1,26 @@
+{
+  "affected": [
+    "e146277"
+  ],
+  "census": {
+    "components": 229,
+    "rectangles": 10,
+    "texts": 22,
+    "wires": 669
+  },
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Place RC0402FR-0710KL 10k R75-PWR2 in box 2 left of U3-PWR2, near the TPS62913 PG pin. Do not designate or wire.",
+  "post_source_hash": "486259:87f8d105",
+  "pre_source_hash": "485419:98184a5e",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "saved": true,
+  "schema_version": 1,
+  "scope": "POWER_BUCK",
+  "source_basis": [
+    "TI TPS62913 datasheet SLUSEA4: PG is open-drain and requires a pull-up when used",
+    "K1 validation board uses PG; do not NC it",
+    "Captain schDrcLog 2026-08-28 unused-pin hygiene item 2"
+  ],
+  "stage": "place",
+  "transaction_id": "canonical-power-buck-pg-pullup-place-2026-08-28"
+}

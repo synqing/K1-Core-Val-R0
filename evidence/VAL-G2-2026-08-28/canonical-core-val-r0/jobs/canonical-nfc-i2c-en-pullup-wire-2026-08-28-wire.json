@@ -1,0 +1,36 @@
+[
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "R76",
+    "args": {
+      "componentPrimitiveId": "e151832",
+      "connections": [
+        {
+          "pinNumber": "1",
+          "net": "NFC_I2C_EN"
+        },
+        {
+          "pinNumber": "2",
+          "net": "3V3"
+        }
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U12-NFC",
+    "args": {
+      "componentPrimitiveId": "e13516",
+      "connections": [
+        {
+          "pinNumber": "20",
+          "net": "NFC_I2C_EN"
+        }
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

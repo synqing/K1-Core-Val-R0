@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-esp-service-label-visibility-repair-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "474325:91295516",
+  "post_source_hash": "474325:96bb5c36",
+  "saved": true,
+  "affected": ["U10-ESP", "J6-ESP", "R71-ESP", "R72-ESP", "R73-ESP", "R74-ESP"],
+  "census": {"components": 222, "wires": 657, "texts": 22, "rectangles": 10},
+  "restored_labels": 20,
+  "observed": "The live source now contains visible NET attributes for the 20 endpoint labels hidden by the earlier declutter stage; electrical topology and census are unchanged."
+}

@@ -1,0 +1,956 @@
+{
+ "rule": "union(raw,raw)",
+ "pins": 881,
+ "landed": 654,
+ "nets_under_two_pins": [
+  "BUCK_PG",
+  "ESP_UART0_RX",
+  "K1BR_IRQ_S3",
+  "K1BR_MISO_S3",
+  "K1BR_MOSI",
+  "MOTION_INT_S3",
+  "S3_POR_REQ"
+ ],
+ "net_to_pins": {
+  "5V_PROTECTED": [
+   "C2-PWR1.1",
+   "D1-PWR1.1",
+   "R65-PWR1.1",
+   "RSH1-PWR1.1",
+   "U1-PWR1.6",
+   "U2-PWR1.10"
+  ],
+  "GND": [
+   "C1-PWR1.2",
+   "C10-PWR2.2",
+   "C11-PWR2.2",
+   "C12-PWR2.2",
+   "C13-PWR2.2",
+   "C14-PWR2.2",
+   "C15-PWR2.2",
+   "C16-PWR2.2",
+   "C17-PWR2.2",
+   "C18-RTC.2",
+   "C19-RTC.2",
+   "C2-PWR1.2",
+   "C20-RTC.2",
+   "C21-RTC.2",
+   "C22-RTC.2",
+   "C23-RTC.2",
+   "C24-RTC.2",
+   "C25-RTC.2",
+   "C26-RTC.2",
+   "C27-RTC.2",
+   "C28-RTC.2",
+   "C29-RTC.2",
+   "C3-PWR1.2",
+   "C30-RTC.2",
+   "C31-RTC.2",
+   "C32-RTC.2",
+   "C33-RTC.2",
+   "C34-RTC.2",
+   "C35-RTDBG.2",
+   "C36-RTDBG.2",
+   "C37-RTDBG.2",
+   "C38-RTDBG.2",
+   "C39-ESP.2",
+   "C4-PWR1.2",
+   "C40-ESP.2",
+   "C41-ESP.2",
+   "C42-ESP.2",
+   "C43-ESP.2",
+   "C44-ESP.2",
+   "C45-ESP.2",
+   "C46-AUD.2",
+   "C47-AUD.2",
+   "C48-AUD.2",
+   "C49-AUD.2",
+   "C5-PWR2.2",
+   "C50-AUD.2",
+   "C51-AUD.2",
+   "C52-AUD.2",
+   "C53-AUD.2",
+   "C54-NFC.2",
+   "C55-NFC.2",
+   "C56-NFC.2",
+   "C57-NFC.2",
+   "C58-NFC.2",
+   "C59-NFC.2",
+   "C6-PWR2.2",
+   "C61-NFC.2",
+   "C62-MOT.2",
+   "C63-MOT.2",
+   "C64-LED.2",
+   "C65-LED.2",
+   "C66-VAL.2",
+   "C67-PWR1.2",
+   "C68-PWR2.2",
+   "C69-RTC.2",
+   "C7-PWR2.2",
+   "C70-RTC.2",
+   "C71-RTC.2",
+   "C72-RTC.2",
+   "C73-RTC.2",
+   "C74-RTC.2",
+   "C75-RTC.2",
+   "C76-RTC.2",
+   "C77-RTC.2",
+   "C78-RTC.2",
+   "C79-RTC.2",
+   "C8-PWR2.2",
+   "C80-RTC.2",
+   "C81-RTC.2",
+   "C82-RTC.2",
+   "C83-RTC.2",
+   "C84-RTC.2",
+   "C85-RTC.2",
+   "C86-RTC.2",
+   "C87-RTC.2",
+   "C88-RTC.2",
+   "C89-RTC.2",
+   "C90-AUD.2",
+   "C91-AUD.2",
+   "C92-NFC.2",
+   "C93-NFC.2",
+   "C94-NFC.2",
+   "C95-NFC.2",
+   "C96-NFC.2",
+   "C97-NFC.2",
+   "D1-PWR1.2",
+   "J1-PWR1.B1",
+   "J10-NFC.2",
+   "J11-VAL.6",
+   "J2-LED.3",
+   "J3-LED.3",
+   "J4-RTDBG.3",
+   "J5-RTDBG.4",
+   "J6-ESP.1",
+   "J7-ESP.1",
+   "J7-ESP.A1",
+   "J7-ESP.A12",
+   "J7-ESP.B1",
+   "J7-ESP.B12",
+   "J8-AUD.4",
+   "J9-AUD.2",
+   "J9-AUD.4",
+   "J9-AUD.6",
+   "Q2-VAL.2",
+   "R1-PWR1.2",
+   "R10-RTC.2",
+   "R21-ESP.2",
+   "R22-ESP.2",
+   "R53-LED.2",
+   "R54-LED.2",
+   "R6-PWR2.2",
+   "R64-PWR1.2",
+   "R66-PWR1.2",
+   "R68-RTDBG.2",
+   "R72-ESP.2",
+   "R8-PWR2.2",
+   "R9-PWR2.2",
+   "RT1-LED.2",
+   "RT2-LED.2",
+   "SW1-RTC.1",
+   "SW2-ESP.2",
+   "SW3-ESP.2",
+   "SW4-VAL.2",
+   "U1-PWR1.8",
+   "U10-ESP.2",
+   "U11-AUD.10",
+   "U11-AUD.15",
+   "U11-AUD.20",
+   "U11-AUD.21",
+   "U11-AUD.5",
+   "U12-NFC.12",
+   "U12-NFC.16",
+   "U12-NFC.21",
+   "U12-NFC.26",
+   "U12-NFC.33",
+   "U12-NFC.6",
+   "U13-MOT.6",
+   "U14-LED.3",
+   "U15-LED.3",
+   "U16-VAL.2",
+   "U2-PWR1.7",
+   "U3-PWR2.4",
+   "U3-PWR2.7",
+   "U4-PWR2.2",
+   "U4-PWR2.8",
+   "U5-PWR2.2",
+   "U6-RTC.A1",
+   "U6-RTC.A14",
+   "U6-RTC.B10",
+   "U6-RTC.B5",
+   "U6-RTC.E13",
+   "U6-RTC.E2",
+   "U6-RTC.G7",
+   "U6-RTC.G8",
+   "U6-RTC.H7",
+   "U6-RTC.H8",
+   "U6-RTC.J7",
+   "U6-RTC.J8",
+   "U6-RTC.K13",
+   "U6-RTC.K2",
+   "U6-RTC.K9",
+   "U6-RTC.L9",
+   "U6-RTC.N1",
+   "U6-RTC.N2",
+   "U6-RTC.N5",
+   "U6-RTC.N8",
+   "U6-RTC.N9",
+   "U6-RTC.P1",
+   "U6-RTC.P14",
+   "U7-RTC.2",
+   "U8-RTDBG.4",
+   "Y1-RTDBG.2",
+   "Y1-RTDBG.4"
+  ],
+  "3V3": [
+   "C18-RTC.1",
+   "C26-RTC.1",
+   "C27-RTC.1",
+   "C28-RTC.1",
+   "C29-RTC.1",
+   "C3-PWR1.1",
+   "C30-RTC.1",
+   "C31-RTC.1",
+   "C32-RTC.1",
+   "C37-RTDBG.1",
+   "C38-RTDBG.1",
+   "C39-ESP.1",
+   "C4-PWR1.1",
+   "C40-ESP.1",
+   "C41-ESP.1",
+   "C45-ESP.1",
+   "C46-AUD.1",
+   "C47-AUD.1",
+   "C50-AUD.1",
+   "C56-NFC.1",
+   "C6-PWR2.1",
+   "C62-MOT.1",
+   "C63-MOT.1",
+   "C66-VAL.1",
+   "C69-RTC.1",
+   "C7-PWR2.1",
+   "C76-RTC.1",
+   "C77-RTC.1",
+   "C78-RTC.1",
+   "C79-RTC.1",
+   "C8-PWR2.1",
+   "C80-RTC.1",
+   "C81-RTC.1",
+   "C82-RTC.1",
+   "C83-RTC.1",
+   "C84-RTC.1",
+   "C85-RTC.1",
+   "C86-RTC.1",
+   "C87-RTC.1",
+   "C88-RTC.1",
+   "C9-PWR2.1",
+   "J11-VAL.5",
+   "J4-RTDBG.1",
+   "J6-ESP.2",
+   "L1-PWR2.2",
+   "R11-RTC.2",
+   "R12-RTC.1",
+   "R14-RTDBG.1",
+   "R19-ESP.1",
+   "R20-ESP.1",
+   "R28-AUD.1",
+   "R29-AUD.1",
+   "R3-PWR1.1",
+   "R4-PWR1.2",
+   "R43-NFC.1",
+   "R5-PWR2.1",
+   "R50-MOT.1",
+   "R62-VAL.1",
+   "R67-PWR1.1",
+   "R69-RTDBG.1",
+   "R70-RTC.1",
+   "R75-PWR2.2",
+   "R76-NFC.2",
+   "TP6-VAL.1",
+   "U11-AUD.16",
+   "U11-AUD.9",
+   "U12-NFC.1",
+   "U12-NFC.8",
+   "U13-MOT.10",
+   "U13-MOT.9",
+   "U16-VAL.6",
+   "U2-PWR1.6",
+   "U3-PWR2.3",
+   "U6-RTC.E6",
+   "U6-RTC.E9",
+   "U6-RTC.F10",
+   "U6-RTC.F5",
+   "U6-RTC.J10",
+   "U6-RTC.J6",
+   "U6-RTC.K4",
+   "U6-RTC.K5",
+   "U6-RTC.L1",
+   "U6-RTC.L2",
+   "U6-RTC.M9",
+   "U6-RTC.N14",
+   "U6-RTC.P12",
+   "U7-RTC.5",
+   "U7-RTC.6",
+   "U8-RTDBG.8"
+  ],
+  "ADC_AREG": [
+   "C48-AUD.1",
+   "C90-AUD.1",
+   "U11-AUD.17"
+  ],
+  "ADC_DREG": [
+   "C49-AUD.1",
+   "C91-AUD.1",
+   "U11-AUD.14"
+  ],
+  "I2C_SDA": [
+   "R28-AUD.2",
+   "R4-PWR1.1",
+   "R44-MOT.2",
+   "R45-MOT.2",
+   "U11-AUD.12",
+   "U12-NFC.32",
+   "U2-PWR1.4"
+  ],
+  "I2C_SCL": [
+   "R29-AUD.2",
+   "R46-MOT.2",
+   "R47-MOT.2",
+   "U11-AUD.13",
+   "U12-NFC.30",
+   "U2-PWR1.5"
+  ],
+  "PDM_DAT_ADC": [
+   "R39-AUD.2",
+   "U11-AUD.3"
+  ],
+  "AUDIO_DOUT_ADC": [
+   "R37-AUD.1",
+   "U11-AUD.6"
+  ],
+  "AUDIO_BCLK": [
+   "J8-AUD.2",
+   "R35-AUD.2",
+   "TP7-AUD.1",
+   "U11-AUD.7"
+  ],
+  "AUDIO_FSYNC": [
+   "J8-AUD.3",
+   "R36-AUD.2",
+   "TP8-AUD.1",
+   "U11-AUD.8"
+  ],
+  "PDM_CLK_ADC": [
+   "R38-AUD.2",
+   "U11-AUD.11"
+  ],
+  "ADC_VREF": [
+   "C51-AUD.1",
+   "U11-AUD.18"
+  ],
+  "AUDIO_MCLK": [
+   "C52-AUD.1",
+   "J8-AUD.1",
+   "R34-AUD.2",
+   "R57-VAL.2",
+   "TP3-AUD.1",
+   "U11-AUD.19"
+  ],
+  "AUDIO_MCLK_ISO": [
+   "R31-AUD.2",
+   "R34-AUD.1"
+  ],
+  "AUDIO_MCLK_RT": [
+   "R31-AUD.1",
+   "U6-RTC.J14"
+  ],
+  "AUDIO_BCLK_ISO": [
+   "R32-AUD.2",
+   "R35-AUD.1"
+  ],
+  "AUDIO_BCLK_RT": [
+   "R32-AUD.1",
+   "U6-RTC.G12"
+  ],
+  "AUDIO_FSYNC_ISO": [
+   "R33-AUD.2",
+   "R36-AUD.1"
+  ],
+  "AUDIO_FSYNC_RT": [
+   "R33-AUD.1",
+   "U6-RTC.H11"
+  ],
+  "AUDIO_DOUT": [
+   "R37-AUD.2",
+   "U6-RTC.H12"
+  ],
+  "3V3_MIC_FLEX": [
+   "C53-AUD.1",
+   "FB5-AUD.2",
+   "J9-AUD.1"
+  ],
+  "3V3_MIC": [
+   "C15-PWR2.1",
+   "FB5-AUD.1",
+   "Q1-PWR2.3"
+  ],
+  "PDM_CLK": [
+   "J9-AUD.3",
+   "R38-AUD.1",
+   "R40-AUD.1",
+   "TP4-AUD.1"
+  ],
+  "PDM_DAT": [
+   "J9-AUD.5",
+   "R39-AUD.1",
+   "R41-AUD.1",
+   "TP5-AUD.1"
+  ],
+  "PDM_CLK_RT": [
+   "R40-AUD.2",
+   "U6-RTC.J13"
+  ],
+  "PDM_DAT_RT": [
+   "R41-AUD.2",
+   "U6-RTC.L13"
+  ],
+  "NFC_XTI": [
+   "C54-NFC.1",
+   "U12-NFC.5",
+   "Y2-NFC.1"
+  ],
+  "NFC_XTO": [
+   "C55-NFC.1",
+   "U12-NFC.4",
+   "Y2-NFC.2"
+  ],
+  "NFC_5V": [
+   "C16-PWR2.1",
+   "C17-PWR2.1",
+   "C57-NFC.1",
+   "C58-NFC.1",
+   "FB3-PWR2.2",
+   "U12-NFC.10"
+  ],
+  "NFC_EMI": [
+   "C59-NFC.1",
+   "L2-NFC.2",
+   "R42-NFC.1"
+  ],
+  "NFC_MATCH_IN": [
+   "C60-NFC.1",
+   "R42-NFC.2"
+  ],
+  "NFC_MATCH_L": [
+   "C60-NFC.2",
+   "L3-NFC.1"
+  ],
+  "NFC_ANT": [
+   "C61-NFC.1",
+   "J10-NFC.1",
+   "L3-NFC.2",
+   "U12-NFC.22"
+  ],
+  "NFC_RFO1": [
+   "L2-NFC.1",
+   "U12-NFC.13"
+  ],
+  "NFC_IRQ": [
+   "R43-NFC.2",
+   "U12-NFC.27"
+  ],
+  "NFC_VDD_D": [
+   "C92-NFC.1",
+   "U12-NFC.3"
+  ],
+  "NFC_VDD_A": [
+   "C93-NFC.1",
+   "U12-NFC.7"
+  ],
+  "NFC_VDD_RF": [
+   "C94-NFC.1",
+   "U12-NFC.9"
+  ],
+  "NFC_VDD_AM": [
+   "C95-NFC.1",
+   "U12-NFC.11"
+  ],
+  "NFC_VDD_DR": [
+   "C96-NFC.1",
+   "U12-NFC.14"
+  ],
+  "NFC_I2C_EN": [
+   "R76-NFC.1",
+   "U12-NFC.20"
+  ],
+  "NFC_AGDC": [
+   "C97-NFC.1",
+   "U12-NFC.24"
+  ],
+  "MOTION_SDA": [
+   "R44-MOT.1",
+   "R45-MOT.1",
+   "R50-MOT.2",
+   "U13-MOT.4"
+  ],
+  "MOTION_SCL": [
+   "R46-MOT.1",
+   "R47-MOT.1",
+   "U13-MOT.1"
+  ],
+  "MOTION_INT_RT": [
+   "R48-MOT.2",
+   "U6-RTC.L11"
+  ],
+  "MOTION_INT1": [
+   "R48-MOT.1",
+   "R49-MOT.1",
+   "U13-MOT.12"
+  ],
+  "MOTION_INT_S3": [
+   "R49-MOT.2"
+  ],
+  "+5V_LED_L": [
+   "C12-PWR2.1",
+   "C64-LED.1",
+   "FB1-PWR2.2",
+   "J2-LED.1",
+   "U14-LED.5"
+  ],
+  "+5V_LED_R": [
+   "C13-PWR2.1",
+   "C65-LED.1",
+   "FB2-PWR2.2",
+   "J3-LED.1",
+   "U15-LED.5"
+  ],
+  "LED_D0_J": [
+   "J2-LED.2",
+   "R51-LED.2"
+  ],
+  "LED_D0_5V": [
+   "R51-LED.1",
+   "U14-LED.4"
+  ],
+  "LED_D1_J": [
+   "J3-LED.2",
+   "R52-LED.2"
+  ],
+  "LED_D1_5V": [
+   "R52-LED.1",
+   "U15-LED.4"
+  ],
+  "LED_OE_L": [
+   "R53-LED.1",
+   "U14-LED.1"
+  ],
+  "LED_OE_R": [
+   "R54-LED.1",
+   "U15-LED.1"
+  ],
+  "LED_THERM_L": [
+   "RT1-LED.1",
+   "U6-RTC.L12"
+  ],
+  "BUCK_PG": [
+   "R75-PWR2.1"
+  ],
+  "LED_THERM_R": [
+   "RT2-LED.1",
+   "U6-RTC.K12"
+  ],
+  "LED_D0_3V3": [
+   "U14-LED.2",
+   "U6-RTC.D7"
+  ],
+  "LED_D1_3V3": [
+   "U15-LED.2",
+   "U6-RTC.E7"
+  ],
+  "OPT_BOOT_REC": [
+   "J11-VAL.1",
+   "R55-VAL.1"
+  ],
+  "OPT_USB_AUD": [
+   "J11-VAL.2",
+   "R56-VAL.1"
+  ],
+  "OPT_MCLK": [
+   "J11-VAL.3",
+   "R57-VAL.1"
+  ],
+  "OPT_S3_LOG": [
+   "J11-VAL.4",
+   "R58-VAL.1"
+  ],
+  "OPT_BOOT_REC_RT": [
+   "R55-VAL.2",
+   "U6-RTC.M12"
+  ],
+  "OPT_USB_AUD_RT": [
+   "R56-VAL.2",
+   "U6-RTC.M8"
+  ],
+  "ESP_UART0_TX": [
+   "J6-ESP.3",
+   "R58-VAL.2"
+  ],
+  "S3_POR_GATE": [
+   "Q2-VAL.1",
+   "R60-VAL.2"
+  ],
+  "S3_POR_OD": [
+   "Q2-VAL.3",
+   "R59-VAL.1"
+  ],
+  "POR_B": [
+   "J4-RTDBG.10",
+   "R12-RTC.2",
+   "R59-VAL.2",
+   "U6-RTC.M7",
+   "U7-RTC.1"
+  ],
+  "S3_POR_REQ": [
+   "R60-VAL.1"
+  ],
+  "BOOT_MODE0": [
+   "R10-RTC.1",
+   "R61-VAL.2",
+   "U6-RTC.F11"
+  ],
+  "SDL_SW": [
+   "R61-VAL.1",
+   "SW4-VAL.1"
+  ],
+  "RT_PWR_VALID": [
+   "R62-VAL.2",
+   "U16-VAL.1"
+  ],
+  "5V_SYS": [
+   "C14-PWR2.1",
+   "C5-PWR2.1",
+   "FB3-PWR2.1",
+   "R7-PWR2.1",
+   "RSH1-PWR1.2",
+   "U2-PWR1.8",
+   "U2-PWR1.9",
+   "U3-PWR2.10",
+   "U3-PWR2.6",
+   "U4-PWR2.1",
+   "U4-PWR2.5",
+   "U5-PWR2.1",
+   "U5-PWR2.3"
+  ],
+  "BUCK_FB": [
+   "C9-PWR2.2",
+   "R5-PWR2.2",
+   "R6-PWR2.1",
+   "U3-PWR2.9"
+  ],
+  "BUCK_EN": [
+   "R7-PWR2.2",
+   "U3-PWR2.1"
+  ],
+  "BUCK_SW": [
+   "L1-PWR2.1",
+   "U3-PWR2.2"
+  ],
+  "BUCK_SS": [
+   "C10-PWR2.1",
+   "U3-PWR2.8"
+  ],
+  "5V_LED_COMMON": [
+   "C11-PWR2.1",
+   "FB1-PWR2.1",
+   "FB2-PWR2.1",
+   "U4-PWR2.6"
+  ],
+  "LED_EFUSE_ILIM": [
+   "R8-PWR2.1",
+   "U4-PWR2.9"
+  ],
+  "LED_EFUSE_DVDT": [
+   "C68-PWR2.1",
+   "U4-PWR2.7"
+  ],
+  "3V3_MIC_REG": [
+   "Q1-PWR2.2",
+   "U5-PWR2.5"
+  ],
+  "MIC_PWR_EN": [
+   "Q1-PWR2.1",
+   "R9-PWR2.1",
+   "U6-RTC.J11"
+  ],
+  "USB_EFUSE_EN": [
+   "R2-PWR1.1",
+   "R63-PWR1.2",
+   "U1-PWR1.1"
+  ],
+  "5V_USB_FILTERED": [
+   "C1-PWR1.1",
+   "F1-PWR1.2",
+   "R63-PWR1.1",
+   "U1-PWR1.5"
+  ],
+  "USB_EFUSE_OVLO": [
+   "R2-PWR1.2",
+   "R64-PWR1.1",
+   "U1-PWR1.2"
+  ],
+  "USB_EFUSE_PGTH": [
+   "R65-PWR1.2",
+   "R66-PWR1.1",
+   "U1-PWR1.4"
+  ],
+  "USB_EFUSE_PG": [
+   "R67-PWR1.2",
+   "U1-PWR1.3"
+  ],
+  "USB_EFUSE_DVDT": [
+   "C67-PWR1.1",
+   "U1-PWR1.7"
+  ],
+  "5V_USB": [
+   "F1-PWR1.1",
+   "J1-PWR1.B4"
+  ],
+  "RT_RESET_REQ_N": [
+   "SW1-RTC.2",
+   "U7-RTC.3"
+  ],
+  "BOOT_MODE1": [
+   "R11-RTC.1",
+   "U6-RTC.G14"
+  ],
+  "1V15_CORE": [
+   "C19-RTC.1",
+   "C20-RTC.1",
+   "C21-RTC.1",
+   "C22-RTC.1",
+   "C23-RTC.1",
+   "C24-RTC.1",
+   "C25-RTC.1",
+   "L4-RTC.2",
+   "U6-RTC.F6",
+   "U6-RTC.F7",
+   "U6-RTC.F8",
+   "U6-RTC.F9",
+   "U6-RTC.G6",
+   "U6-RTC.G9",
+   "U6-RTC.H6",
+   "U6-RTC.H9",
+   "U6-RTC.J5",
+   "U6-RTC.J9"
+  ],
+  "SWD_SWCLK": [
+   "R15-RTDBG.1",
+   "U6-RTC.F12"
+  ],
+  "SWD_SWDIO": [
+   "R16-RTDBG.1",
+   "U6-RTC.E14"
+  ],
+  "XTALI": [
+   "C35-RTDBG.1",
+   "R68-RTDBG.1",
+   "U6-RTC.P11",
+   "Y1-RTDBG.1"
+  ],
+  "NVCC_PLL_1V1": [
+   "C72-RTC.1",
+   "C73-RTC.1",
+   "U6-RTC.P10"
+  ],
+  "VDD_HIGH_CAP": [
+   "C33-RTC.1",
+   "C34-RTC.1",
+   "U6-RTC.P8"
+  ],
+  "FLEXSPI_D0": [
+   "U6-RTC.P3",
+   "U8-RTDBG.5"
+  ],
+  "XTALO": [
+   "R13-RTDBG.1",
+   "U6-RTC.N11"
+  ],
+  "FLEXSPI_D1": [
+   "U6-RTC.N4",
+   "U8-RTDBG.2"
+  ],
+  "VDD_SNVS_CAP": [
+   "C70-RTC.1",
+   "C71-RTC.1",
+   "U6-RTC.M10"
+  ],
+  "DCDC_SW": [
+   "L4-RTC.1",
+   "U6-RTC.M1",
+   "U6-RTC.M2"
+  ],
+  "LPUART1_RX": [
+   "R18-RTDBG.1",
+   "U6-RTC.L14"
+  ],
+  "FLEXSPI_SCLK": [
+   "U6-RTC.L4",
+   "U8-RTDBG.6"
+  ],
+  "FLEXSPI_SS0": [
+   "U6-RTC.L3",
+   "U8-RTDBG.1"
+  ],
+  "LPUART1_TX": [
+   "R17-RTDBG.1",
+   "U6-RTC.K14"
+  ],
+  "K1BR_IRQ": [
+   "R27-ESP.2",
+   "U6-RTC.K11"
+  ],
+  "VDD_USB_CAP": [
+   "C74-RTC.1",
+   "C75-RTC.1",
+   "U6-RTC.K8"
+  ],
+  "DCDC_PSWITCH": [
+   "C89-RTC.1",
+   "R70-RTC.2",
+   "U6-RTC.K3"
+  ],
+  "K1BR_MISO": [
+   "R25-ESP.2",
+   "U6-RTC.K1"
+  ],
+  "K1BR_SCK_RT": [
+   "R23-ESP.1",
+   "U6-RTC.J4"
+  ],
+  "K1BR_CS_RT": [
+   "R26-ESP.1",
+   "U6-RTC.J3"
+  ],
+  "K1BR_MOSI_RT": [
+   "R24-ESP.1",
+   "U6-RTC.J1"
+  ],
+  "USB_EFUSE_ILIM": [
+   "R1-PWR1.1",
+   "U1-PWR1.9"
+  ],
+  "XTALO_Y": [
+   "C36-RTDBG.1",
+   "R13-RTDBG.2",
+   "Y1-RTDBG.3"
+  ],
+  "FLEXSPI_D2": [
+   "R14-RTDBG.2",
+   "U8-RTDBG.3"
+  ],
+  "FLEXSPI_D3": [
+   "R69-RTDBG.2",
+   "U8-RTDBG.7"
+  ],
+  "SWD_SWCLK_H": [
+   "J4-RTDBG.4",
+   "R15-RTDBG.2"
+  ],
+  "SWD_SWDIO_H": [
+   "J4-RTDBG.2",
+   "R16-RTDBG.2"
+  ],
+  "LPUART1_TX_H": [
+   "J5-RTDBG.1",
+   "R17-RTDBG.2"
+  ],
+  "LPUART1_RX_H": [
+   "J5-RTDBG.2",
+   "R18-RTDBG.2"
+  ],
+  "INA_ALERT": [
+   "R3-PWR1.2",
+   "U2-PWR1.3"
+  ],
+  "ESP_EN": [
+   "C42-ESP.1",
+   "J6-ESP.5",
+   "R19-ESP.2",
+   "SW3-ESP.1"
+  ],
+  "ESP_GPIO0": [
+   "J6-ESP.6",
+   "R20-ESP.2",
+   "SW2-ESP.1"
+  ],
+  "USB_DP_S3": [
+   "C43-ESP.1",
+   "R73-ESP.2"
+  ],
+  "USB_DM_S3": [
+   "C44-ESP.1",
+   "R74-ESP.2"
+  ],
+  "S3_VBUS": [
+   "J7-ESP.A4",
+   "J7-ESP.A9",
+   "J7-ESP.B4",
+   "J7-ESP.B9",
+   "R71-ESP.1",
+   "U10-ESP.5"
+  ],
+  "USB_CC2": [
+   "J7-ESP.B5",
+   "R22-ESP.1"
+  ],
+  "USB_DP": [
+   "J7-ESP.A6",
+   "J7-ESP.B6",
+   "U10-ESP.1"
+  ],
+  "USB_DM": [
+   "J7-ESP.A7",
+   "J7-ESP.B7",
+   "U10-ESP.3"
+  ],
+  "USB_CC1": [
+   "J7-ESP.A5",
+   "R21-ESP.1"
+  ],
+  "USB_DM_ESD": [
+   "R74-ESP.1",
+   "U10-ESP.4"
+  ],
+  "USB_DP_ESD": [
+   "R73-ESP.1",
+   "U10-ESP.6"
+  ],
+  "K1BR_SCK": [
+   "R23-ESP.2",
+   "TP1-ESP.1"
+  ],
+  "K1BR_MOSI": [
+   "R24-ESP.2"
+  ],
+  "K1BR_MISO_S3": [
+   "R25-ESP.1"
+  ],
+  "K1BR_CS": [
+   "R26-ESP.2",
+   "TP2-ESP.1"
+  ],
+  "K1BR_IRQ_S3": [
+   "R27-ESP.1"
+  ],
+  "ESP_UART0_RX": [
+   "J6-ESP.4"
+  ],
+  "ESP_USB_VBUS_SENSE": [
+   "R71-ESP.2",
+   "R72-ESP.1"
+  ]
+ }
+}

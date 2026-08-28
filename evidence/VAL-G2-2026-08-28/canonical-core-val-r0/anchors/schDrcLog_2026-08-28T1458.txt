@@ -1,0 +1,431 @@
+2026-08-28 14:58:52[Info] :  Start Design Rule Checking.
+2026-08-28 14:58:52[Warn] :  The wire $1N153914 $1N153914 is a single network connected to only one component pin.
+2026-08-28 14:58:52[Warn] :  The wire BUCK_PG $1N146317 is a single network connected to only one component pin.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I72 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I72 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I108 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I108 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I252 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I301 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I339 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I426 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I426 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I465 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I465 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I504 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I562 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I562 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I598 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I598 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I778 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I778 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I817 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I817 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I856 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I856 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I894 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I1870 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I1870 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I1906 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I1906 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I1942 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I1942 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I1978 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I1978 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2014 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I2014 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2082 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I2082 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2121 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I2121 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2160 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I2160 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2199 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2268 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I2268 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2304 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I2304 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2340 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I2340 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2376 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2414 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2452 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I2452 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2491 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2549 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I2549 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2585 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I2585 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2621 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I2621 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2657 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I2657 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2693 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2731 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2776 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I2776 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I2815 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I3055 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I3055 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I3205 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I3205 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I3244 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I3619 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I4877 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I4877 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I4913 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I4913 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I4949 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I4949 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I4988 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I4988 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I5089 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I5089 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I5134 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I5358 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I5358 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I5397 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I5397 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I5436 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I5436 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I5475 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I5475 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I5635 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I7586 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I7586 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I7622 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I7622 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I7658 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I7658 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I7885 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I7885 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I7924 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I7924 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I7963 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I8014 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I8065 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I8065 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I8334 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I8421 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I8421 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I8460 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I8460 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I8499 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I8548 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I8548 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I8584 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I8584 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I8623 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I8623 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I8662 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I8662 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I8701 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I8701 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I8740 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I8740 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I8779 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I8808 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I11652 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I11652 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I11688 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I11688 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I11724 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I11724 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I11760 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I11760 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I11796 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I11796 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I11868 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I11868 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I11907 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I11907 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I11985 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I12118 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I12172 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I12172 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I12211 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I12211 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I12250 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I12250 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I12289 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I12289 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I12328 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I12328 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I12367 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I12367 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I12406 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I12406 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I12445 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I12474 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I12474 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I12510 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I12548 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I12620 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I12620 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I12659 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I12659 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I12698 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I12698 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I12737 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I12737 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I12776 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I12805 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13042 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I13042 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13078 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I13078 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13114 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I13114 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13150 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I13150 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13186 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I13186 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13222 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I13222 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13258 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I13258 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13294 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I13294 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13330 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13362 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I13362 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13399 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I13399 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13438 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I13438 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13477 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I13477 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13516 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I13516 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13647 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I13647 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13842 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I13842 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13878 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I13878 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13914 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I13914 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13953 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I13953 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I13992 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I13992 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I14031 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I14031 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I14070 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I14070 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I14109 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I14109 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I14148 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I14148 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I14187 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I14334 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I14334 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I14370 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I14370 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I14470 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I14470 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I14509 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I14509 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I14548 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I14548 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I14587 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I14587 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I14626 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I14671 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I14716 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I14770 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I14825 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I14876 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I15023 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I15067 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I15067 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I15106 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I15106 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I15145 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I15145 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I15184 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I15184 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I15223 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I15252 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I15252 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I15288 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I15332 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I15332 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I15371 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I15371 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I15410 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I15410 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I15449 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I15449 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I15488 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I15539 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I24569 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I24607 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I29093 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I29093 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I29132 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I29132 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I29171 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I29171 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I29210 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I29210 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I29249 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I29249 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I29288 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I29288 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I38545 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I38545 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I47826 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I47826 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I47865 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I47865 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I47904 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I47904 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I47939 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I47939 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I47974 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I48032 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I48032 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I48071 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I48071 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I75855 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I75855 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I75891 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I75891 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I75927 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I75927 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I75963 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I75963 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I75999 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I75999 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76035 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76035 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76071 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76071 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76107 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76107 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76143 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76143 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76179 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76179 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76215 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76215 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76251 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76251 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76287 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76287 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76323 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76323 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76359 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76359 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76395 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76395 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76431 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76431 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76467 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76467 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76503 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76503 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76539 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76539 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76575 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76575 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76611 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76611 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76647 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76647 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76683 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76683 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76719 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76719 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76755 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76755 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76791 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76791 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76827 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76827 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76863 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76863 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76899 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76899 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76935 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76935 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I76971 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I76971 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I77007 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I77007 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I77043 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I77043 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I77079 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I77079 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I77115 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I77115 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I77151 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I77151 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I77190 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I77190 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I77229 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I77229 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I98127 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I98127 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I98163 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I98207 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I98207 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I98246 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I98246 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I98285 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I98285 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I98324 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I98324 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I129790 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I129790 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I129826 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I129826 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I129862 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I129862 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I129898 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I129927 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I8224 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I8224 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I8260 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I8260 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I12082 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I12082 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I146025 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I146025 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I146061 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I146061 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I146097 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I146097 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I146133 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I146133 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I146169 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I146169 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I146205 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I146205 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I146277 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I146277 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I151832 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Component $1I151832 has empty value of property "Value".
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I3295 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  The property "Designator" of Component $1I3673 doesn't match the suggestion rule. Suggesting the Designator value combine into: English letters + numeric or question mark.
+2026-08-28 14:58:52[Info] :  Wires and buses are not connected to netflag or netport, name not displayed in the canvas: RT_RESET_REQ_N,1V15_CORE,1V15_CORE,1V15_CORE,1V15_CORE,1V15_CORE,1V15_CORE,1V15_CORE,1V15_CORE,GND,GND,GND,GND,GND,GND,GND,GND,GND,GND,GND,GND,GND,GND,GND,GND,GND,GND,3V3,3V3,GND
+2026-08-28 14:58:52[Info] :  Wires and buses are not connected to netflag or netport, name not displayed in the canvas: GND,DCDC_SW,1V15_CORE,3V3,3V3,3V3,3V3,3V3,3V3,3V3,3V3,3V3,3V3,GND,GND,1V15_CORE,GND,1V15_CORE,GND,1V15_CORE,GND,1V15_CORE,GND,1V15_CORE,GND,1V15_CORE,GND,1V15_CORE,GND,3V3
+2026-08-28 14:58:52[Info] :  Wires and buses are not connected to netflag or netport, name not displayed in the canvas: GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,VDD_HIGH_CAP,GND,VDD_HIGH_CAP,GND,3V3,GND,VDD_SNVS_CAP,GND,VDD_SNVS_CAP,GND,NVCC_PLL_1V1,GND,NVCC_PLL_1V1,GND,VDD_USB_CAP,GND,VDD_USB_CAP
+2026-08-28 14:58:52[Info] :  Wires and buses are not connected to netflag or netport, name not displayed in the canvas: GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,3V3,GND,DCDC_SW,1V15_CORE,3V3
+2026-08-28 14:58:52[Info] :  Wires and buses are not connected to netflag or netport, name not displayed in the canvas: DCDC_PSWITCH,DCDC_PSWITCH,GND,GND,S3_VBUS,USB_CC1,USB_DP,USB_DM,S3_VBUS,GND,GND,S3_VBUS,USB_CC2,USB_DP,USB_DM,S3_VBUS,GND,GND,USB_DP_S3,GND,USB_DM_S3,GND,GND,GND,GND,GND
+2026-08-28 14:58:52[Warn] :  Component MIMXRT1062DVJ6B is a multi-part component, the properties of each part should be the same. $1I3295、$1I3673 have different property Supplier Part, Add into BOM, supplierId.
+2026-08-28 14:58:53[Warn] :  Component attributes does not match the Supplier Part, It is recommended to use Device Standardization: : C1-PWR1($1I72),C2-PWR1($1I108),D1-PWR1($1I252),F1-PWR1($1I301),J1-PWR1($1I339),R1-PWR1($1I426),R2-PWR1($1I465),U1-PWR1($1I504),C3-PWR1($1I562),C4-PWR1($1I598),R3-PWR1($1I778),R4-PWR1($1I817),RSH1-PWR1($1I856),U2-PWR1($1I894),C5-PWR2($1I1870),C6-PWR2($1I1906),C7-PWR2($1I1942),C8-PWR2($1I1978),C9-PWR2($1I2014),R5-PWR2($1I2082),R6-PWR2($1I2121),R7-PWR2($1I2160),U3-PWR2($1I2199),C11-PWR2($1I2268),C12-PWR2($1I2304),C13-PWR2($1I2340),FB1-PWR2($1I2376),FB2-PWR2($1I2414),R8-PWR2($1I2452),U4-PWR2($1I2491)
+2026-08-28 14:58:53[Warn] :  Component attributes does not match the Supplier Part, It is recommended to use Device Standardization: : C14-PWR2($1I2549),C15-PWR2($1I2585),C16-PWR2($1I2621),C17-PWR2($1I2657),FB3-PWR2($1I2693),Q1-PWR2($1I2731),R9-PWR2($1I2776),U5-PWR2($1I2815),C18-RTC($1I3055),R12-RTC($1I3205),SW1-RTC($1I3244),U7-RTC($1I3619),C37-RTDBG($1I4877),C38-RTDBG($1I4913),R13-RTDBG($1I4949),R14-RTDBG($1I4988),Y1-RTDBG($1I5089),J4-RTDBG($1I5134),R15-RTDBG($1I5358),R16-RTDBG($1I5397),R17-RTDBG($1I5436),R18-RTDBG($1I5475),J5-RTDBG($1I5635),C39-ESP($1I7586),C40-ESP($1I7622),C41-ESP($1I7658),R19-ESP($1I7885),R20-ESP($1I7924),SW2-ESP($1I7963),SW3-ESP($1I8014)
+2026-08-28 14:58:53[Warn] :  Component attributes does not match the Supplier Part, It is recommended to use Device Standardization: : U9-ESP($1I8065),J7-ESP($1I8334),R21-ESP($1I8421),R22-ESP($1I8460),U10-ESP($1I8499),C45-ESP($1I8548),R23-ESP($1I8584),R24-ESP($1I8623),R25-ESP($1I8662),R26-ESP($1I8701),R27-ESP($1I8740),TP1-ESP($1I8779),TP2-ESP($1I8808),C46-AUD($1I11652),C47-AUD($1I11688),C48-AUD($1I11724),C49-AUD($1I11760),C50-AUD($1I11796),R28-AUD($1I11868),R29-AUD($1I11907),U11-AUD($1I11985),J8-AUD($1I12118),R31-AUD($1I12172),R32-AUD($1I12211),R33-AUD($1I12250),R34-AUD($1I12289),R35-AUD($1I12328),R36-AUD($1I12367),R37-AUD($1I12406),TP3-AUD($1I12445)
+2026-08-28 14:58:53[Warn] :  Component attributes does not match the Supplier Part, It is recommended to use Device Standardization: : C53-AUD($1I12474),FB5-AUD($1I12510),J9-AUD($1I12548),R38-AUD($1I12620),R39-AUD($1I12659),R40-AUD($1I12698),R41-AUD($1I12737),TP4-AUD($1I12776),TP5-AUD($1I12805),C54-NFC($1I13042),C55-NFC($1I13078),C56-NFC($1I13114),C57-NFC($1I13150),C58-NFC($1I13186),C59-NFC($1I13222),C60-NFC($1I13258),C61-NFC($1I13294),J10-NFC($1I13330),L2-NFC($1I13362),L3-NFC($1I13399),R42-NFC($1I13438),R43-NFC($1I13477),U12-NFC($1I13516),Y2-NFC($1I13647),C62-MOT($1I13842),C63-MOT($1I13878),R44-MOT($1I13914),R45-MOT($1I13953),R46-MOT($1I13992),R47-MOT($1I14031)
+2026-08-28 14:58:53[Warn] :  Component attributes does not match the Supplier Part, It is recommended to use Device Standardization: : R48-MOT($1I14070),R49-MOT($1I14109),R50-MOT($1I14148),U13-MOT($1I14187),C64-LED($1I14334),C65-LED($1I14370),R51-LED($1I14470),R52-LED($1I14509),R53-LED($1I14548),R54-LED($1I14587),RT1-LED($1I14626),RT2-LED($1I14671),U14-LED($1I14716),U15-LED($1I14770),J2-LED($1I14825),J3-LED($1I14876),J11-VAL($1I15023),R55-VAL($1I15067),R56-VAL($1I15106),R57-VAL($1I15145),R58-VAL($1I15184),TP6-VAL($1I15223),C66-VAL($1I15252),Q2-VAL($1I15288),R59-VAL($1I15332),R60-VAL($1I15371),R61-VAL($1I15410),R62-VAL($1I15449),SW4-VAL($1I15488),U16-VAL($1I15539)
+2026-08-28 14:58:53[Warn] :  Component attributes does not match the Supplier Part, It is recommended to use Device Standardization: : R63-PWR1($1I29093),R64-PWR1($1I29132),R65-PWR1($1I29171),R66-PWR1($1I29210),R67-PWR1($1I29249),C67-PWR1($1I29288),R10-RTC($1I47826),R11-RTC($1I47865),U8-RTDBG($1I47974),R68-RTDBG($1I48032),R69-RTDBG($1I48071),C19-RTC($1I75855),C20-RTC($1I75891),C21-RTC($1I75927),C22-RTC($1I75963),C23-RTC($1I75999),C24-RTC($1I76035),C25-RTC($1I76071),C26-RTC($1I76107),C27-RTC($1I76143),C28-RTC($1I76179),C29-RTC($1I76215),C30-RTC($1I76251),C31-RTC($1I76287),C32-RTC($1I76323),C33-RTC($1I76359),C34-RTC($1I76395),C69-RTC($1I76431),C70-RTC($1I76467),C71-RTC($1I76503)
+2026-08-28 14:58:53[Warn] :  Component attributes does not match the Supplier Part, It is recommended to use Device Standardization: : C72-RTC($1I76539),C73-RTC($1I76575),C74-RTC($1I76611),C75-RTC($1I76647),C76-RTC($1I76683),C77-RTC($1I76719),C78-RTC($1I76755),C79-RTC($1I76791),C80-RTC($1I76827),C81-RTC($1I76863),C82-RTC($1I76899),C83-RTC($1I76935),C84-RTC($1I76971),C85-RTC($1I77007),C86-RTC($1I77043),C87-RTC($1I77079),C88-RTC($1I77115),R70-RTC($1I77190),C89-RTC($1I77229),J6-ESP($1I98163),R71-ESP($1I98207),R72-ESP($1I98246),R73-ESP($1I98285),R74-ESP($1I98324),C90-AUD($1I129826),C91-AUD($1I129862),TP7-AUD($1I129898),TP8-AUD($1I129927),R75-PWR2($1I146277),R76-NFC($1I151832)
+2026-08-28 14:58:53[Warn] :  Component attributes does not match the Supplier Part, It is recommended to use Device Standardization: : U6-RTC($1I3295)
+2026-08-28 14:58:53[Warn] :  Found some components Pins floating, suggest placing No Connect Flag on the Pins : J1-PWR1.B5,J1-PWR1.B9,J1-PWR1.B12,J1-PWR1.1,J1-PWR1.A1,J1-PWR1.A4,J1-PWR1.A5,J1-PWR1.A9,J1-PWR1.A12,U3-PWR2.5,U12-NFC.23,Y2-NFC.4,Y2-NFC.3,U13-MOT.2,U13-MOT.3,U13-MOT.5,U13-MOT.7,U13-MOT.8,U16-VAL.3,U16-VAL.4,U16-VAL.5,U6-RTC.G13,U6-RTC.G11,U6-RTC.G10,U6-RTC.G5,U6-RTC.G4,U6-RTC.G3,U6-RTC.G2,U6-RTC.G1,U6-RTC.F14
+2026-08-28 14:58:53[Warn] :  Found some components Pins floating, suggest placing No Connect Flag on the Pins : U6-RTC.F13,U6-RTC.F4,U6-RTC.F3,U6-RTC.F2,U6-RTC.F1,U6-RTC.E12,U6-RTC.E11,U6-RTC.E10,U6-RTC.E8,U6-RTC.E5,U6-RTC.E4,U6-RTC.E3,U6-RTC.E1,U6-RTC.D14,U6-RTC.D13,U6-RTC.D12,U6-RTC.D11,U6-RTC.D10,U6-RTC.D9,U6-RTC.D8,U6-RTC.D6,U6-RTC.D5,U6-RTC.D4,U6-RTC.D3,U6-RTC.D2,U6-RTC.D1,U6-RTC.C14,U6-RTC.C13,U6-RTC.C12,U6-RTC.C11
+2026-08-28 14:58:53[Warn] :  Found some components Pins floating, suggest placing No Connect Flag on the Pins : U6-RTC.C10,U6-RTC.C9,U6-RTC.C8,U6-RTC.C7,U6-RTC.C6,U6-RTC.C5,U6-RTC.C4,U6-RTC.C3,U6-RTC.C2,U6-RTC.C1,U6-RTC.B14,U6-RTC.B13,U6-RTC.B12,U6-RTC.B11,U6-RTC.B9,U6-RTC.B8,U6-RTC.B7,U6-RTC.B6,U6-RTC.B4,U6-RTC.B3,U6-RTC.B2,U6-RTC.B1,U6-RTC.A13,U6-RTC.A12,U6-RTC.A11,U6-RTC.A10,U6-RTC.A9,U6-RTC.A8,U6-RTC.A7,U6-RTC.A6
+2026-08-28 14:58:53[Warn] :  Found some components Pins floating, suggest placing No Connect Flag on the Pins : U6-RTC.A5,U6-RTC.A4,U6-RTC.A3,U6-RTC.A2,U6-RTC.P7,U6-RTC.P6,U6-RTC.N12,U6-RTC.N7,U6-RTC.N6,U6-RTC.L8,U6-RTC.K6
+2026-08-28 14:58:53[Info] :  The pin of the component USB4105-GF-A does not correspond to the pad (Pad has no corresponding pin: 2、3、4): $1I339,$1I8334
+2026-08-28 14:58:53[Info] :  Finish Design Rule Checking. Fatal Error: 0, Error: 0, Warning: 15, Info: 414.

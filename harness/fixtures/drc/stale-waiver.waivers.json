@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "waivers": [
+    {
+      "kind": "floating_pins",
+      "match": "J99-GONE\\.1",
+      "reason": "Refers to a designator that no longer exists — this waiver protects nothing and must be reported, not silently ignored.",
+      "authority": "fixture — battery case only",
+      "date": "2026-08-28"
+    }
+  ]
+}

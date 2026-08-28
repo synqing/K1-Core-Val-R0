@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "transaction_id": "pg-hash-reconcile-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash": "487622:9a0be089",
+  "saved": true,
+  "observed": "Restamp after PG-wire close. Gate still named 487622:7f93f9af; live post-save hash is 487622:9a0be089. Census remains 229 components / 672 wires. No topology change.",
+  "census": {
+    "components": 229,
+    "wires": 672,
+    "texts": 22,
+    "rectangles": 10
+  }
+}

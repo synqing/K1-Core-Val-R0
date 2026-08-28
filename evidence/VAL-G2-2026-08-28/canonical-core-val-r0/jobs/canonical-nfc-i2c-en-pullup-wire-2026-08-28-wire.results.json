@@ -1,0 +1,127 @@
+[
+ {
+  "tag": "R76",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e151832",
+   "attempted": 2,
+   "attached": 2,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e151832e7",
+      "x": 1660,
+      "y": -3240,
+      "pinNumber": "1",
+      "pinName": "1",
+      "rotation": 180,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "NFC_I2C_EN",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1640,
+        -3240,
+        1660,
+        -3240
+       ]
+      ],
+      "net": "NFC_I2C_EN",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e151872"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    },
+    {
+     "pin": {
+      "primitiveId": "e151832e3",
+      "x": 1700,
+      "y": -3240,
+      "pinNumber": "2",
+      "pinName": "2",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "IN"
+     },
+     "net": "3V3",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1720,
+        -3240,
+        1700,
+        -3240
+       ]
+      ],
+      "net": "3V3",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e151875"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "U12-NFC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e13516",
+   "attempted": 1,
+   "attached": 1,
+   "connections": [
+    {
+     "pin": {
+      "primitiveId": "e13516e81",
+      "x": 1625,
+      "y": -3355,
+      "pinNumber": "20",
+      "pinName": "I2C_EN",
+      "rotation": 0,
+      "pinLength": 10,
+      "pinColor": null,
+      "pinShape": "None",
+      "pinType": "Undefined"
+     },
+     "net": "NFC_I2C_EN",
+     "primitive": {
+      "async": true,
+      "primitiveType": "Wire",
+      "line": [
+       [
+        1645,
+        -3355,
+        1625,
+        -3355
+       ]
+      ],
+      "net": "NFC_I2C_EN",
+      "color": null,
+      "lineWidth": null,
+      "lineType": null,
+      "primitiveId": "e151878"
+     },
+     "attachmentKind": "wire-stub",
+     "fallbackUsed": true
+    }
+   ],
+   "saved": true
+  }
+ }
+]

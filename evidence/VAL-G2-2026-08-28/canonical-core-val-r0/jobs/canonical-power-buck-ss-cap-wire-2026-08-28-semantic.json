@@ -1,0 +1,194 @@
+{
+  "affected": [
+    "C10-PWR2",
+    "U3-PWR2"
+  ],
+  "c10_primitive_id": "e24607",
+  "census": {
+    "components": 222,
+    "rectangles": 10,
+    "texts": 22,
+    "wires": 657
+  },
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Wire C10-PWR2 as the TPS62913 NR/SS capacitor: pin 1 to BUCK_SS, pin 2 to GND. Do not move parts or change any other net.",
+  "pin_readback": [
+    {
+      "ok": true,
+      "result": {
+        "componentPrimitiveId": "e24607",
+        "count": 2,
+        "pins": [
+          {
+            "pinColor": null,
+            "pinLength": 10,
+            "pinName": "1",
+            "pinNumber": "1",
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "e24607e4",
+            "rotation": 180,
+            "x": 1055,
+            "y": -4300
+          },
+          {
+            "pinColor": null,
+            "pinLength": 10,
+            "pinName": "2",
+            "pinNumber": "2",
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "e24607e10",
+            "rotation": 0,
+            "x": 1095,
+            "y": -4300
+          }
+        ]
+      },
+      "tag": "C10"
+    },
+    {
+      "ok": true,
+      "result": {
+        "componentPrimitiveId": "e2199",
+        "count": 10,
+        "pins": [
+          {
+            "pinColor": null,
+            "pinLength": 10,
+            "pinName": "EN/SYNC",
+            "pinNumber": "1",
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "e2199e5",
+            "rotation": 180,
+            "x": 1140,
+            "y": -4575
+          },
+          {
+            "pinColor": null,
+            "pinLength": 10,
+            "pinName": "SW",
+            "pinNumber": "2",
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "e2199e9",
+            "rotation": 180,
+            "x": 1140,
+            "y": -4565
+          },
+          {
+            "pinColor": null,
+            "pinLength": 10,
+            "pinName": "VO",
+            "pinNumber": "3",
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "e2199e13",
+            "rotation": 180,
+            "x": 1140,
+            "y": -4555
+          },
+          {
+            "pinColor": null,
+            "pinLength": 10,
+            "pinName": "PGND",
+            "pinNumber": "4",
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "e2199e17",
+            "rotation": 180,
+            "x": 1140,
+            "y": -4545
+          },
+          {
+            "pinColor": null,
+            "pinLength": 10,
+            "pinName": "PG",
+            "pinNumber": "5",
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "e2199e21",
+            "rotation": 180,
+            "x": 1140,
+            "y": -4535
+          },
+          {
+            "pinColor": null,
+            "pinLength": 10,
+            "pinName": "VIN",
+            "pinNumber": "6",
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "e2199e25",
+            "rotation": 0,
+            "x": 1260,
+            "y": -4535
+          },
+          {
+            "pinColor": null,
+            "pinLength": 10,
+            "pinName": "PSNS",
+            "pinNumber": "7",
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "e2199e29",
+            "rotation": 0,
+            "x": 1260,
+            "y": -4545
+          },
+          {
+            "pinColor": null,
+            "pinLength": 10,
+            "pinName": "NR/SS",
+            "pinNumber": "8",
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "e2199e33",
+            "rotation": 0,
+            "x": 1260,
+            "y": -4555
+          },
+          {
+            "pinColor": null,
+            "pinLength": 10,
+            "pinName": "FB",
+            "pinNumber": "9",
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "e2199e37",
+            "rotation": 0,
+            "x": 1260,
+            "y": -4565
+          },
+          {
+            "pinColor": null,
+            "pinLength": 10,
+            "pinName": "S-CONF",
+            "pinNumber": "10",
+            "pinShape": "None",
+            "pinType": "Undefined",
+            "primitiveId": "e2199e41",
+            "rotation": 0,
+            "x": 1260,
+            "y": -4575
+          }
+        ]
+      },
+      "tag": "U3"
+    }
+  ],
+  "post_source_hash": "474373:a54002fa",
+  "pre_source_hash": "474325:e7353368",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "saved": true,
+  "schema_version": 1,
+  "scope": "POWER_BUCK",
+  "source_basis": [
+    "TI TPS62913 datasheet SLUSEA4 NR/SS capacitor",
+    "FIXTURE-PLAN C10 role buck_ss",
+    "Captain schDrcLog 2026-08-28 BUCK_SS single-pin + C10-PWR2 floating"
+  ],
+  "stage": "wire",
+  "transaction_id": "canonical-power-buck-ss-cap-wire-2026-08-28"
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "canonical-nfc-regulator-decouple-place-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Place six GRM155R60J225ME15D 2.2uF 0402 capacitors C92-NFC..C97-NFC inside box 7 between the matching row and J10, one per ST25R3916B internal regulator rail. Do not designate or wire.",
+  "observed_delta": "Box 7 now has a new horizontal row of undesignated 2.2uF 0402 capacitors between J10/L2/L3 and the C60/C61 matching parts. Five C? symbols are fully in frame; the sixth sits on the row at the planned right-hand coordinate. They are not wired. Census rose 222 to 228.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/canonical-nfc-regulator-decouple-place-below-u12.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "six new undesignated or designated 0402 capacitors sit in box 7",
+      "result": "OK",
+      "detail": "Settled box-7 view shows a new C? 2.2uF row under J10/L2/L3. Source read-back has all six GRM155R60J225ME15D primitives at y=2960, x=1070/1220/1370/1520/1670/1820."
+    },
+    {
+      "name": "they do not overlap U12, Y2, L2, L3 or the matching caps",
+      "result": "OK",
+      "detail": "The new row sits below J10/L2/L3 and above C60-NFC/C61-NFC. U12 and Y2 remain above that band with no overlap."
+    },
+    {
+      "name": "no part appears outside box 7",
+      "result": "OK",
+      "detail": "The new capacitors remain left of the box-8 motion boundary and inside the NFC frame."
+    },
+    {
+      "name": "component count increases by exactly 6",
+      "result": "OK",
+      "detail": "Saved census is 228 components and 657 wires, up 6 components from the pre-place 222/657 count."
+    }
+  ]
+}

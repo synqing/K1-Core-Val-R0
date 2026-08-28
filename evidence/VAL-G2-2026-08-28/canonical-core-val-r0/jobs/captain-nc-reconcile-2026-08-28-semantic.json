@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "transaction_id": "captain-nc-reconcile-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash": "497055:82c17c12",
+  "saved": true,
+  "observed": "Restamp after Captain applied unused-pin No Connect crosses. Live hash 497055:82c17c12. Census 230 components, 676 wires. 101 NO_CONNECT=yes attributes mapped. Requested set 90/91 present; U4-PWR2.3 PG/AUXOFF still unmarked. U2-PWR1 A0/A1 are marked NC and need address straps instead.",
+  "census": {
+    "components": 230,
+    "wires": 676,
+    "texts": 22,
+    "rectangles": 10
+  },
+  "nc_yes": 101,
+  "requested_present": 90,
+  "requested_missing": ["U4-PWR2.3 PG/AUXOFF"]
+}

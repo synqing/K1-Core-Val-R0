@@ -1,0 +1,303 @@
+[
+ {
+  "tag": "C92",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9",
+     "uuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "x": 1070,
+    "y": 2960,
+    "subPartName": "GRM155R60J225ME15D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e146025",
+    "symbol": {
+     "uuid": "5091efb998354fd18e7ad635c450a017",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "footprint": {
+     "uuid": "24b9374e7f2c478f991196f2b221ff62",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J225ME15D",
+    "supplier": "LCSC",
+    "supplierId": "C76993",
+    "otherProperty": {
+     "LCSC Part Name": "2.2uF ±20% 6.3V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R60J225ME15D/78120.html",
+     "Value": "2.2uF",
+     "Tolerance": "±20%",
+     "Voltage Rating": "6.3V",
+     "Temperature Coefficient": "X5R",
+     "Description": "Capacitance:2.2uF Tolerance:±20% Tolerance:±20% Voltage Rating:6.3V Temperature Coefficient:X5R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "C93",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9",
+     "uuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "x": 1220,
+    "y": 2960,
+    "subPartName": "GRM155R60J225ME15D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e146061",
+    "symbol": {
+     "uuid": "5091efb998354fd18e7ad635c450a017",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "footprint": {
+     "uuid": "24b9374e7f2c478f991196f2b221ff62",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J225ME15D",
+    "supplier": "LCSC",
+    "supplierId": "C76993",
+    "otherProperty": {
+     "LCSC Part Name": "2.2uF ±20% 6.3V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R60J225ME15D/78120.html",
+     "Value": "2.2uF",
+     "Tolerance": "±20%",
+     "Voltage Rating": "6.3V",
+     "Temperature Coefficient": "X5R",
+     "Description": "Capacitance:2.2uF Tolerance:±20% Tolerance:±20% Voltage Rating:6.3V Temperature Coefficient:X5R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "C94",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9",
+     "uuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "x": 1370,
+    "y": 2960,
+    "subPartName": "GRM155R60J225ME15D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e146097",
+    "symbol": {
+     "uuid": "5091efb998354fd18e7ad635c450a017",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "footprint": {
+     "uuid": "24b9374e7f2c478f991196f2b221ff62",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J225ME15D",
+    "supplier": "LCSC",
+    "supplierId": "C76993",
+    "otherProperty": {
+     "LCSC Part Name": "2.2uF ±20% 6.3V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R60J225ME15D/78120.html",
+     "Value": "2.2uF",
+     "Tolerance": "±20%",
+     "Voltage Rating": "6.3V",
+     "Temperature Coefficient": "X5R",
+     "Description": "Capacitance:2.2uF Tolerance:±20% Tolerance:±20% Voltage Rating:6.3V Temperature Coefficient:X5R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "C95",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9",
+     "uuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "x": 1520,
+    "y": 2960,
+    "subPartName": "GRM155R60J225ME15D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e146133",
+    "symbol": {
+     "uuid": "5091efb998354fd18e7ad635c450a017",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "footprint": {
+     "uuid": "24b9374e7f2c478f991196f2b221ff62",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J225ME15D",
+    "supplier": "LCSC",
+    "supplierId": "C76993",
+    "otherProperty": {
+     "LCSC Part Name": "2.2uF ±20% 6.3V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R60J225ME15D/78120.html",
+     "Value": "2.2uF",
+     "Tolerance": "±20%",
+     "Voltage Rating": "6.3V",
+     "Temperature Coefficient": "X5R",
+     "Description": "Capacitance:2.2uF Tolerance:±20% Tolerance:±20% Voltage Rating:6.3V Temperature Coefficient:X5R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "C96",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9",
+     "uuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "x": 1670,
+    "y": 2960,
+    "subPartName": "GRM155R60J225ME15D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e146169",
+    "symbol": {
+     "uuid": "5091efb998354fd18e7ad635c450a017",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "footprint": {
+     "uuid": "24b9374e7f2c478f991196f2b221ff62",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J225ME15D",
+    "supplier": "LCSC",
+    "supplierId": "C76993",
+    "otherProperty": {
+     "LCSC Part Name": "2.2uF ±20% 6.3V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R60J225ME15D/78120.html",
+     "Value": "2.2uF",
+     "Tolerance": "±20%",
+     "Voltage Rating": "6.3V",
+     "Temperature Coefficient": "X5R",
+     "Description": "Capacitance:2.2uF Tolerance:±20% Tolerance:±20% Voltage Rating:6.3V Temperature Coefficient:X5R"
+    }
+   },
+   "recoveredFromError": false
+  }
+ },
+ {
+  "tag": "C97",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "componentType": "part",
+    "component": {
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9",
+     "uuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "x": 1820,
+    "y": 2960,
+    "subPartName": "GRM155R60J225ME15D.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "primitiveId": "e146205",
+    "symbol": {
+     "uuid": "5091efb998354fd18e7ad635c450a017",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "footprint": {
+     "uuid": "24b9374e7f2c478f991196f2b221ff62",
+     "libraryUuid": "7a962641d03c47e8b5f4e029ea26d5a9"
+    },
+    "designator": "C?",
+    "name": "={Value}",
+    "uniqueId": "",
+    "manufacturer": "muRata(村田)",
+    "manufacturerId": "GRM155R60J225ME15D",
+    "supplier": "LCSC",
+    "supplierId": "C76993",
+    "otherProperty": {
+     "LCSC Part Name": "2.2uF ±20% 6.3V",
+     "Supplier Footprint": "0402",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/GRM155R60J225ME15D/78120.html",
+     "Value": "2.2uF",
+     "Tolerance": "±20%",
+     "Voltage Rating": "6.3V",
+     "Temperature Coefficient": "X5R",
+     "Description": "Capacitance:2.2uF Tolerance:±20% Tolerance:±20% Voltage Rating:6.3V Temperature Coefficient:X5R"
+    }
+   },
+   "recoveredFromError": false,
+   "saved": true
+  }
+ }
+]
