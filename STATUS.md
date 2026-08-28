@@ -60,6 +60,9 @@ VAL-G2.0A retains a corrected but retired historical plan. VAL-G2.0B is terminat
 canonical capture proceeds only through one closed mutation transaction at a time on the single
 canonical page; the qualification project receives no further mutation.
 
+Voice PE specimen re-derivation is D-043 (`docs/agent/VOICE-PE-SPECIMEN-VAL-R0.md`).
+Receipt: `evidence/VAL-G2-2026-08-28/CURRENT-STATE-RECEIPT.md`. That lane does not write EasyEDA.
+
 ## Now unblocked by VAL-G1 closure
 
 The domain-interaction matrix can be instantiated for Option C.

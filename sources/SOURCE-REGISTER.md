@@ -19,6 +19,7 @@ SSCM1_V2 = REQUIREMENTS_DRIVEN_REPLACEMENT
 | JLCPCB | Current general PCB capability table | Headline BGA, local multilayer spacing and filled/plated-over via-in-pad capability; not K1 design rules |
 | JLCPCB | BGA Design Guidelines, updated 2025-12-27 | BGA-specific conventional and filled-through-via guidance to reconcile with NXP and assembly requirements at VAL-G3 |
 | EasyEDA | Pro user guide, schematic settings | No schematic area limit; recommends fewer than 100 components per page |
+| Nabu Casa | Home Assistant Voice PE released KiCad (`home-assistant-voice-pe`), CERN-OHL-P v2 | Patterns-only specimen: optionality, observability, EVT→release regulator swap. Not a K1 parts list. v1.0 PDF power tree (SY80004/ETA3410) is stale versus released KiCad. See `docs/agent/VOICE-PE-SPECIMEN-VAL-R0.md`. |
 
 ## Internal
 
@@ -44,6 +45,10 @@ threshold. See `schematic/single-sheet-qualification/FIXTURE-PLAN.json`.
 D-042 terminated live qualification-project actuation. Canonical actuation is controlled by its
 separate mutation state file and append-only ledger. Static source-register prose is not a runtime
 write permit.
+
+Voice PE (D-043) is patterns-only. It does not change these qualification tokens or the 181
+baseline count. See `docs/agent/VOICE-PE-SPECIMEN-VAL-R0.md` and
+`evidence/VAL-G2-2026-08-28/CURRENT-STATE-RECEIPT.md`.
 
 - Current shipping ESP32-S3 headroom. Never measured post int64-GDFT promotion.
 

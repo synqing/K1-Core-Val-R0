@@ -37,6 +37,29 @@ BLE activity, NFC field, USB grounding, real flex lengths, enclosure. A custom a
 PCB may become worthwhile here, and its stack, connector, dimensions and placement derive from
 the VAL-G1 outcome.
 
+## Test access (VAL mule)
+
+A validation board needs documented safe observability, not a standalone test-point symbol
+on every net.
+
+Count these as legitimate test access: dedicated probe or pogo pad; fitted debug-connector
+pin; service-header pin; 0R or source-termination resistor pad; option-jumper pad; accessible
+IC test node.
+
+Dedicated pads are preferred on power rails, POR/reset, boot straps, power-good / fault /
+INA alert, and slow ownership or select lines.
+
+SWD, UART, K1BR, PDM and audio clocks need access. A fitted 10-pin Cortex header is the SWD
+interface; do not add extra SWDIO/SWCLK stubs merely to satisfy a count. Series or isolation
+resistor pads are access.
+
+Do not place casual probe stubs on USB differential pairs, NFC RF/matching, or other
+impedance-sensitive lines.
+
+Census of existing mechanisms:
+`evidence/VAL-G2-2026-08-28/VOICE-PE-TEST-ACCESS-CENSUS.md`.
+Voice PE is precedent only; it does not invent K1 pads.
+
 ## Current-ESP32-S3 baseline
 
 Measure post-GDFT behaviour under the real shipping workload: frame timing percentiles, worst
