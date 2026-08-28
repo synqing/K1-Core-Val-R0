@@ -1,0 +1,2421 @@
+{
+  "input_sha256": "78245760ba3f824f0d585e5ca7d0488e86dc1761d39a08a0503484b0184d4893",
+  "output_sha256": "1dd7d8156071e5b06163a9a3d28b22f24eab7e5ff62b2fa26ac59623c283cc54",
+  "pin_membership": {
+    "added_pins": {
+      "C43-ESP|GRM155R71C104KA88D.1|1|1": [
+        "USB_DP_S3"
+      ],
+      "C43-ESP|GRM155R71C104KA88D.1|2|2": [
+        "GND"
+      ],
+      "C44-ESP|GRM155R71C104KA88D.1|1|1": [
+        "USB_DM_S3"
+      ],
+      "C44-ESP|GRM155R71C104KA88D.1|2|2": [
+        "GND"
+      ],
+      "C52-AUD|GRM155R71C104KA88D.1|1|1": [
+        "AUDIO_MCLK"
+      ],
+      "C52-AUD|GRM155R71C104KA88D.1|2|2": [
+        "GND"
+      ],
+      "C54-NFC|GRM155R71C104KA88D.1|1|1": [
+        "NFC_XTI"
+      ],
+      "C54-NFC|GRM155R71C104KA88D.1|2|2": [
+        "GND"
+      ],
+      "C55-NFC|GRM155R71C104KA88D.1|1|1": [
+        "NFC_XTO"
+      ],
+      "C55-NFC|GRM155R71C104KA88D.1|2|2": [
+        "GND"
+      ],
+      "C910-NFC|GRM155R71C104KA88D.1|1|1": [
+        "NFC_VDD_RF"
+      ],
+      "C910-NFC|GRM155R71C104KA88D.1|2|2": [
+        "GND"
+      ],
+      "C911-NFC|GRM155R71C104KA88D.1|1|1": [
+        "NFC_VDD_AM"
+      ],
+      "C911-NFC|GRM155R71C104KA88D.1|2|2": [
+        "GND"
+      ],
+      "C912-NFC|GRM155R71C104KA88D.1|1|1": [
+        "NFC_VDD_DR"
+      ],
+      "C912-NFC|GRM155R71C104KA88D.1|2|2": [
+        "GND"
+      ],
+      "C97-NFC|GRM155R61A105KE15D.1|1|1": [
+        "NFC_AGDC"
+      ],
+      "C97-NFC|GRM155R61A105KE15D.1|2|2": [
+        "GND"
+      ],
+      "C98-NFC|GRM155R71C104KA88D.1|1|1": [
+        "NFC_VDD_D"
+      ],
+      "C98-NFC|GRM155R71C104KA88D.1|2|2": [
+        "GND"
+      ],
+      "C99-NFC|GRM155R71C104KA88D.1|1|1": [
+        "NFC_VDD_A"
+      ],
+      "C99-NFC|GRM155R71C104KA88D.1|2|2": [
+        "GND"
+      ],
+      "CINA_DIFF-PWR1|GRM155R71C104KA88D.1|1|1": [
+        "INA_KELVIN_P"
+      ],
+      "CINA_DIFF-PWR1|GRM155R71C104KA88D.1|2|2": [
+        "INA_KELVIN_N"
+      ],
+      "CMICREG-PWR2|GRM155R61A105KE15D.1|1|1": [
+        "3V3_MIC_REG"
+      ],
+      "CMICREG-PWR2|GRM155R61A105KE15D.1|2|2": [
+        "GND"
+      ],
+      "CMOT-BULK|GRM155R60J106ME44D.1|1|1": [
+        "3V3"
+      ],
+      "CMOT-BULK|GRM155R60J106ME44D.1|2|2": [
+        "GND"
+      ],
+      "CUSBVBUS-RTC|GRM155R61A105KE15D.1|1|1": [
+        "5V_PROTECTED"
+      ],
+      "CUSBVBUS-RTC|GRM155R61A105KE15D.1|2|2": [
+        "GND"
+      ],
+      "CVDR1-NFC|GRM155R71C104KA88D.1|1|1": [
+        "NFC_ANT"
+      ],
+      "CVDR1-NFC|GRM155R71C104KA88D.1|2|2": [
+        "NFC_RFI1_DIV"
+      ],
+      "CVDR2-NFC|GRM155R71C104KA88D.1|1|1": [
+        "NFC_RFI1_DIV"
+      ],
+      "CVDR2-NFC|GRM155R71C104KA88D.1|2|2": [
+        "GND"
+      ],
+      "DVBUS-PWR1|K1_SMF5V_TVS.1|1|K": [
+        "5V_USB"
+      ],
+      "DVBUS-PWR1|K1_SMF5V_TVS.1|2|A": [
+        "GND"
+      ],
+      "FB6-ESP|BLM21PG221SN1D.1|1|1": [
+        "3V3"
+      ],
+      "FB6-ESP|BLM21PG221SN1D.1|2|2": [
+        "3V3_S3_FILTERED"
+      ],
+      "J1-PWR1|USB4105-GF-A.1|2|SHIELD": [
+        "GND"
+      ],
+      "J1-PWR1|USB4105-GF-A.1|3|SHIELD": [
+        "GND"
+      ],
+      "J1-PWR1|USB4105-GF-A.1|4|SHIELD": [
+        "GND"
+      ],
+      "J7-ESP|USB4105-GF-A.1|2|SHIELD": [
+        "GND"
+      ],
+      "J7-ESP|USB4105-GF-A.1|3|SHIELD": [
+        "GND"
+      ],
+      "J7-ESP|USB4105-GF-A.1|4|SHIELD": [
+        "GND"
+      ],
+      "R38-AUD|RC0402FR-0722RL.1|1|1": [
+        "PDM_CLK"
+      ],
+      "R38-AUD|RC0402FR-0722RL.1|2|2": [
+        "PDM_CLK_ADC"
+      ],
+      "R39-AUD|RC0402FR-0722RL.1|1|1": [
+        "PDM_DAT"
+      ],
+      "R39-AUD|RC0402FR-0722RL.1|2|2": [
+        "PDM_DAT_ADC"
+      ],
+      "R40-AUD|RC0402FR-0722RL.1|1|1": [
+        "PDM_CLK"
+      ],
+      "R40-AUD|RC0402FR-0722RL.1|2|2": [
+        "PDM_CLK_RT"
+      ],
+      "R41-AUD|RC0402FR-0722RL.1|1|1": [
+        "PDM_DAT"
+      ],
+      "R41-AUD|RC0402FR-0722RL.1|2|2": [
+        "PDM_DAT_RT"
+      ],
+      "R42-NFC|RC0402FR-0710KL.1|1|1": [
+        "NFC_EMI"
+      ],
+      "R42-NFC|RC0402FR-0710KL.1|2|2": [
+        "NFC_MATCH_IN"
+      ],
+      "R45-MOT|RC0402FR-070RL.1|1|1": [
+        "S3_I2C_SDA"
+      ],
+      "R45-MOT|RC0402FR-070RL.1|2|2": [
+        "I2C_SDA"
+      ],
+      "R47-MOT|RC0402FR-070RL.1|1|1": [
+        "S3_I2C_SCL"
+      ],
+      "R47-MOT|RC0402FR-070RL.1|2|2": [
+        "I2C_SCL"
+      ],
+      "R5-PWR2|RC0402FR-0710KL.1|1|1": [
+        "3V3"
+      ],
+      "R5-PWR2|RC0402FR-0710KL.1|2|2": [
+        "BUCK_FB"
+      ],
+      "R51-LED|RC0402FR-0710KL.1|1|1": [
+        "LED_D0_5V"
+      ],
+      "R51-LED|RC0402FR-0710KL.1|2|2": [
+        "LED_D0_J"
+      ],
+      "R52-LED|RC0402FR-0710KL.1|1|1": [
+        "LED_D1_5V"
+      ],
+      "R52-LED|RC0402FR-0710KL.1|2|2": [
+        "LED_D1_J"
+      ],
+      "R6-PWR2|RC0402FR-0710KL.1|1|1": [
+        "BUCK_FB"
+      ],
+      "R6-PWR2|RC0402FR-0710KL.1|2|2": [
+        "GND"
+      ],
+      "R64-PWR1|RC0402FR-0710KL.1|1|1": [
+        "USB_EFUSE_OVLO"
+      ],
+      "R64-PWR1|RC0402FR-0710KL.1|2|2": [
+        "GND"
+      ],
+      "R72-ESP|RC0402FR-0710KL.1|1|1": [
+        "ESP_USB_VBUS_SENSE"
+      ],
+      "R72-ESP|RC0402FR-0710KL.1|2|2": [
+        "GND"
+      ],
+      "RCC1-PWR1|RC0402FR-075K1L.1|1|1": [
+        "USB_CC1"
+      ],
+      "RCC1-PWR1|RC0402FR-075K1L.1|2|2": [
+        "GND"
+      ],
+      "RCC1B-PWR1|RC0402FR-0710KL.1|1|1": [
+        "USB_CC1_ADC_TAP"
+      ],
+      "RCC1B-PWR1|RC0402FR-0710KL.1|2|2": [
+        "GND"
+      ],
+      "RCC1S-PWR1|RC0402FR-0710KL.1|1|1": [
+        "USB_CC1"
+      ],
+      "RCC1S-PWR1|RC0402FR-0710KL.1|2|2": [
+        "USB_CC1_ADC_TAP"
+      ],
+      "RCC2-PWR1|RC0402FR-075K1L.1|1|1": [
+        "USB_CC2"
+      ],
+      "RCC2-PWR1|RC0402FR-075K1L.1|2|2": [
+        "GND"
+      ],
+      "RCC2B-PWR1|RC0402FR-0710KL.1|1|1": [
+        "USB_CC2_ADC_TAP"
+      ],
+      "RCC2B-PWR1|RC0402FR-0710KL.1|2|2": [
+        "GND"
+      ],
+      "RCC2S-PWR1|RC0402FR-0710KL.1|1|1": [
+        "USB_CC2"
+      ],
+      "RCC2S-PWR1|RC0402FR-0710KL.1|2|2": [
+        "USB_CC2_ADC_TAP"
+      ],
+      "RILIM-LED|RC0402FR-0710KL.1|1|1": [
+        "TPS2561_ILIM"
+      ],
+      "RILIM-LED|RC0402FR-0710KL.1|2|2": [
+        "GND"
+      ],
+      "RINA_N-PWR1|RC0402FR-0710KL.1|1|1": [
+        "5V_SYS"
+      ],
+      "RINA_N-PWR1|RC0402FR-0710KL.1|2|2": [
+        "INA_KELVIN_N"
+      ],
+      "RINA_P-PWR1|RC0402FR-0710KL.1|1|1": [
+        "5V_PROTECTED"
+      ],
+      "RINA_P-PWR1|RC0402FR-0710KL.1|2|2": [
+        "INA_KELVIN_P"
+      ],
+      "RLED_ENL_PD-LED|RC0402FR-0710KL.1|1|1": [
+        "LED_PWR_L_EN"
+      ],
+      "RLED_ENL_PD-LED|RC0402FR-0710KL.1|2|2": [
+        "GND"
+      ],
+      "RLED_ENR_PD-LED|RC0402FR-0710KL.1|1|1": [
+        "LED_PWR_R_EN"
+      ],
+      "RLED_ENR_PD-LED|RC0402FR-0710KL.1|2|2": [
+        "GND"
+      ],
+      "RLED_PD0-LED|RC0402FR-0710KL.1|1|1": [
+        "LED_D0_3V3"
+      ],
+      "RLED_PD0-LED|RC0402FR-0710KL.1|2|2": [
+        "GND"
+      ],
+      "RLED_PD1-LED|RC0402FR-0710KL.1|1|1": [
+        "LED_D1_3V3"
+      ],
+      "RLED_PD1-LED|RC0402FR-0710KL.1|2|2": [
+        "GND"
+      ],
+      "RNTC_L-LED|RC0402FR-0710KL.1|1|1": [
+        "3V3"
+      ],
+      "RNTC_L-LED|RC0402FR-0710KL.1|2|2": [
+        "LED_THERM_L"
+      ],
+      "RNTC_R-LED|RC0402FR-0710KL.1|1|1": [
+        "3V3"
+      ],
+      "RNTC_R-LED|RC0402FR-0710KL.1|2|2": [
+        "LED_THERM_R"
+      ],
+      "RUSB_DN-PWR1|RC0402FR-070RL.1|1|1": [
+        "USB_DN_PROT"
+      ],
+      "RUSB_DN-PWR1|RC0402FR-070RL.1|2|2": [
+        "USB_DN_RT"
+      ],
+      "RUSB_DP-PWR1|RC0402FR-070RL.1|1|1": [
+        "USB_DP_PROT"
+      ],
+      "RUSB_DP-PWR1|RC0402FR-070RL.1|2|2": [
+        "USB_DP_RT"
+      ],
+      "U12-NFC|ST25R3916B-AQWT.1|25|TAD2": [],
+      "U12-NFC|ST25R3916B-AQWT.1|2|TAD1": [],
+      "U17-PWR2|TPS2561DRCR.1|10|FAULT1": [
+        "LED_FAULT_L_N"
+      ],
+      "U17-PWR2|TPS2561DRCR.1|1|GND": [
+        "GND"
+      ],
+      "U17-PWR2|TPS2561DRCR.1|2|IN": [
+        "5V_SYS"
+      ],
+      "U17-PWR2|TPS2561DRCR.1|3|IN": [
+        "5V_SYS"
+      ],
+      "U17-PWR2|TPS2561DRCR.1|4|EN1": [
+        "LED_PWR_L_EN"
+      ],
+      "U17-PWR2|TPS2561DRCR.1|5|EN2": [
+        "LED_PWR_R_EN"
+      ],
+      "U17-PWR2|TPS2561DRCR.1|6|FAULT2": [
+        "LED_FAULT_R_N"
+      ],
+      "U17-PWR2|TPS2561DRCR.1|7|ILIM": [
+        "TPS2561_ILIM"
+      ],
+      "U17-PWR2|TPS2561DRCR.1|8|OUT2": [
+        "5V_LED_R_SW"
+      ],
+      "U17-PWR2|TPS2561DRCR.1|9|OUT1": [
+        "5V_LED_L_SW"
+      ]
+    },
+    "removed_pins": {
+      "C43-ESP|GRM1555C1H101JA01D.1|1|1": [
+        "USB_DP_S3"
+      ],
+      "C43-ESP|GRM1555C1H101JA01D.1|2|2": [
+        "GND"
+      ],
+      "C44-ESP|GRM1555C1H101JA01D.1|1|1": [
+        "USB_DM_S3"
+      ],
+      "C44-ESP|GRM1555C1H101JA01D.1|2|2": [
+        "GND"
+      ],
+      "C52-AUD|GRM1555C1H101JA01D.1|1|1": [
+        "AUDIO_MCLK"
+      ],
+      "C52-AUD|GRM1555C1H101JA01D.1|2|2": [
+        "GND"
+      ],
+      "C54-NFC|GRM1555C1H100JA01D.1|1|1": [
+        "NFC_XTI"
+      ],
+      "C54-NFC|GRM1555C1H100JA01D.1|2|2": [
+        "GND"
+      ],
+      "C55-NFC|GRM1555C1H100JA01D.1|1|1": [
+        "NFC_XTO"
+      ],
+      "C55-NFC|GRM1555C1H100JA01D.1|2|2": [
+        "GND"
+      ],
+      "C97-NFC|GRM155R60J225ME15D.1|1|1": [
+        "NFC_AGDC"
+      ],
+      "C97-NFC|GRM155R60J225ME15D.1|2|2": [
+        "GND"
+      ],
+      "F1-PWR1|BLM21PG221SN1D.1|1|1": [
+        "5V_USB"
+      ],
+      "F1-PWR1|BLM21PG221SN1D.1|2|2": [
+        "5V_USB_FILTERED"
+      ],
+      "L3-NFC|LQW15AN33NG00D.1|1|1": [
+        "NFC_MATCH_L"
+      ],
+      "L3-NFC|LQW15AN33NG00D.1|2|2": [
+        "NFC_ANT"
+      ],
+      "R38-AUD|RC0402FR-070RL.1|1|1": [
+        "PDM_CLK"
+      ],
+      "R38-AUD|RC0402FR-070RL.1|2|2": [
+        "PDM_CLK_ADC"
+      ],
+      "R39-AUD|RC0402FR-070RL.1|1|1": [
+        "PDM_DAT"
+      ],
+      "R39-AUD|RC0402FR-070RL.1|2|2": [
+        "PDM_DAT_ADC"
+      ],
+      "R40-AUD|RC0402FR-0710KL.1|1|1": [
+        "PDM_CLK"
+      ],
+      "R40-AUD|RC0402FR-0710KL.1|2|2": [
+        "PDM_CLK_RT"
+      ],
+      "R41-AUD|RC0402FR-0710KL.1|1|1": [
+        "PDM_DAT"
+      ],
+      "R41-AUD|RC0402FR-0710KL.1|2|2": [
+        "PDM_DAT_RT"
+      ],
+      "R42-NFC|RC0402JR-072R2L.1|1|1": [
+        "NFC_EMI"
+      ],
+      "R42-NFC|RC0402JR-072R2L.1|2|2": [
+        "NFC_MATCH_IN"
+      ],
+      "R43-NFC|RC0402FR-074K7L.1|1|1": [
+        "3V3"
+      ],
+      "R43-NFC|RC0402FR-074K7L.1|2|2": [
+        "NFC_IRQ"
+      ],
+      "R45-MOT|RC0402FR-0710KL.1|1|1": [
+        "MOTION_SDA"
+      ],
+      "R45-MOT|RC0402FR-0710KL.1|2|2": [
+        "I2C_SDA"
+      ],
+      "R47-MOT|RC0402FR-0710KL.1|1|1": [
+        "MOTION_SCL"
+      ],
+      "R47-MOT|RC0402FR-0710KL.1|2|2": [
+        "I2C_SCL"
+      ],
+      "R5-PWR2|RC0402FR-07100KL.1|1|1": [
+        "3V3"
+      ],
+      "R5-PWR2|RC0402FR-07100KL.1|2|2": [
+        "BUCK_FB"
+      ],
+      "R50-MOT|RC0402FR-074K7L.1|1|1": [
+        "3V3"
+      ],
+      "R50-MOT|RC0402FR-074K7L.1|2|2": [
+        "MOTION_SDA"
+      ],
+      "R51-LED|RC0402FR-0733RL.1|1|1": [
+        "LED_D0_5V"
+      ],
+      "R51-LED|RC0402FR-0733RL.1|2|2": [
+        "LED_D0_J"
+      ],
+      "R52-LED|RC0402FR-0733RL.1|1|1": [
+        "LED_D1_5V"
+      ],
+      "R52-LED|RC0402FR-0733RL.1|2|2": [
+        "LED_D1_J"
+      ],
+      "R6-PWR2|RC0402FR-0732K4L.1|1|1": [
+        "BUCK_FB"
+      ],
+      "R6-PWR2|RC0402FR-0732K4L.1|2|2": [
+        "GND"
+      ],
+      "R64-PWR1|RC0402FR-07324KL.1|1|1": [
+        "USB_EFUSE_OVLO"
+      ],
+      "R64-PWR1|RC0402FR-07324KL.1|2|2": [
+        "GND"
+      ],
+      "R72-ESP|RC0402FR-07100KL.1|1|1": [
+        "ESP_USB_VBUS_SENSE"
+      ],
+      "R72-ESP|RC0402FR-07100KL.1|2|2": [
+        "GND"
+      ],
+      "U12-NFC|ST25R3916B-AQWT.1|25|TAD1": [],
+      "U12-NFC|ST25R3916B-AQWT.1|2|TAD2": [],
+      "U4-PWR2|TPS259474LRPWR.1|10|ITIMER": [],
+      "U4-PWR2|TPS259474LRPWR.1|1|EN/UVLO": [
+        "5V_SYS"
+      ],
+      "U4-PWR2|TPS259474LRPWR.1|2|OVLO/OVCSEL": [
+        "GND"
+      ],
+      "U4-PWR2|TPS259474LRPWR.1|3|PG/AUXOFF": [],
+      "U4-PWR2|TPS259474LRPWR.1|4|PGTH/FLT#": [],
+      "U4-PWR2|TPS259474LRPWR.1|5|IN": [
+        "5V_SYS"
+      ],
+      "U4-PWR2|TPS259474LRPWR.1|6|OUT": [
+        "5V_LED_COMMON"
+      ],
+      "U4-PWR2|TPS259474LRPWR.1|7|DVDT": [
+        "LED_EFUSE_DVDT"
+      ],
+      "U4-PWR2|TPS259474LRPWR.1|8|GND": [
+        "GND"
+      ],
+      "U4-PWR2|TPS259474LRPWR.1|9|ILM": [
+        "LED_EFUSE_ILIM"
+      ]
+    },
+    "changed_pins": {
+      "C1-PWR1|GRM21BR61E226ME44L.1|1|1": {
+        "before": [
+          "5V_USB_FILTERED"
+        ],
+        "after": [
+          "5V_USB"
+        ]
+      },
+      "C60-NFC|GRM1555C1H330JA01D.1|2|2": {
+        "before": [
+          "NFC_MATCH_L"
+        ],
+        "after": [
+          "NFC_ANT"
+        ]
+      },
+      "D1-PWR1|USBLC6-2SC6_C323793.1|1|1": {
+        "before": [
+          "5V_PROTECTED"
+        ],
+        "after": [
+          "USB_DP_J1"
+        ]
+      },
+      "D1-PWR1|USBLC6-2SC6_C323793.1|3|3": {
+        "before": [],
+        "after": [
+          "USB_DN_J1"
+        ]
+      },
+      "D1-PWR1|USBLC6-2SC6_C323793.1|4|4": {
+        "before": [],
+        "after": [
+          "USB_DN_PROT"
+        ]
+      },
+      "D1-PWR1|USBLC6-2SC6_C323793.1|5|5": {
+        "before": [],
+        "after": [
+          "5V_PROTECTED"
+        ]
+      },
+      "D1-PWR1|USBLC6-2SC6_C323793.1|6|6": {
+        "before": [],
+        "after": [
+          "USB_DP_PROT"
+        ]
+      },
+      "FB1-PWR2|BLM21PG221SN1D.1|1|1": {
+        "before": [
+          "5V_LED_COMMON"
+        ],
+        "after": [
+          "5V_LED_L_SW"
+        ]
+      },
+      "FB2-PWR2|BLM21PG221SN1D.1|1|1": {
+        "before": [
+          "5V_LED_COMMON"
+        ],
+        "after": [
+          "5V_LED_R_SW"
+        ]
+      },
+      "J1-PWR1|USB4105-GF-A.1|1|EH": {
+        "before": [],
+        "after": [
+          "GND"
+        ]
+      },
+      "J1-PWR1|USB4105-GF-A.1|A12|GND": {
+        "before": [],
+        "after": [
+          "GND"
+        ]
+      },
+      "J1-PWR1|USB4105-GF-A.1|A1|GND": {
+        "before": [],
+        "after": [
+          "GND"
+        ]
+      },
+      "J1-PWR1|USB4105-GF-A.1|A4|VBUS": {
+        "before": [],
+        "after": [
+          "5V_USB"
+        ]
+      },
+      "J1-PWR1|USB4105-GF-A.1|A5|CC1": {
+        "before": [],
+        "after": [
+          "USB_CC1"
+        ]
+      },
+      "J1-PWR1|USB4105-GF-A.1|A6|DP1": {
+        "before": [],
+        "after": [
+          "USB_DP_J1"
+        ]
+      },
+      "J1-PWR1|USB4105-GF-A.1|A7|DN1": {
+        "before": [],
+        "after": [
+          "USB_DN_J1"
+        ]
+      },
+      "J1-PWR1|USB4105-GF-A.1|A9|VBUS": {
+        "before": [],
+        "after": [
+          "5V_USB"
+        ]
+      },
+      "J1-PWR1|USB4105-GF-A.1|B12|GND": {
+        "before": [],
+        "after": [
+          "GND"
+        ]
+      },
+      "J1-PWR1|USB4105-GF-A.1|B5|CC2": {
+        "before": [],
+        "after": [
+          "USB_CC2"
+        ]
+      },
+      "J1-PWR1|USB4105-GF-A.1|B6|DP2": {
+        "before": [],
+        "after": [
+          "USB_DP_J1"
+        ]
+      },
+      "J1-PWR1|USB4105-GF-A.1|B7|DN2": {
+        "before": [],
+        "after": [
+          "USB_DN_J1"
+        ]
+      },
+      "J1-PWR1|USB4105-GF-A.1|B9|VBUS": {
+        "before": [],
+        "after": [
+          "5V_USB"
+        ]
+      },
+      "J9-AUD|FH12-10S-0.5SH(55).1|11|11": {
+        "before": [],
+        "after": [
+          "GND"
+        ]
+      },
+      "J9-AUD|FH12-10S-0.5SH(55).1|12|12": {
+        "before": [],
+        "after": [
+          "GND"
+        ]
+      },
+      "Q1-PWR2|DMG2305UX.1|1|G": {
+        "before": [
+          "MIC_PWR_EN"
+        ],
+        "after": [
+          "MIC_PWR_EN_N"
+        ]
+      },
+      "R23-ESP|RC0402FR-0722RL.1|2|2": {
+        "before": [
+          "K1BR_SCK"
+        ],
+        "after": [
+          "K1BR_SCK_S3"
+        ]
+      },
+      "R24-ESP|RC0402FR-0722RL.1|2|2": {
+        "before": [
+          "K1BR_MOSI"
+        ],
+        "after": [
+          "K1BR_MOSI_S3"
+        ]
+      },
+      "R25-ESP|RC0402FR-0722RL.1|2|2": {
+        "before": [
+          "K1BR_MISO"
+        ],
+        "after": [
+          "K1BR_MISO_RT"
+        ]
+      },
+      "R26-ESP|RC0402FR-0722RL.1|2|2": {
+        "before": [
+          "K1BR_CS"
+        ],
+        "after": [
+          "K1BR_CS_S3"
+        ]
+      },
+      "R27-ESP|RC0402FR-0722RL.1|2|2": {
+        "before": [
+          "K1BR_IRQ"
+        ],
+        "after": [
+          "K1BR_IRQ_RT"
+        ]
+      },
+      "R44-MOT|RC0402FR-070RL.1|1|1": {
+        "before": [
+          "MOTION_SDA"
+        ],
+        "after": [
+          "RT_I2C_SDA"
+        ]
+      },
+      "R46-MOT|RC0402FR-070RL.1|1|1": {
+        "before": [
+          "MOTION_SCL"
+        ],
+        "after": [
+          "RT_I2C_SCL"
+        ]
+      },
+      "R56-VAL|RC0402FR-0710KL.1|2|2": {
+        "before": [
+          "OPT_USB_AUD_RT"
+        ],
+        "after": [
+          "RT_USB_AUD_STRAP_IOMUX_TBD"
+        ]
+      },
+      "R63-PWR1|RC0402FR-071M05L.1|1|1": {
+        "before": [
+          "5V_USB_FILTERED"
+        ],
+        "after": [
+          "5V_USB"
+        ]
+      },
+      "R9-PWR2|RC0402FR-07100KL.1|1|1": {
+        "before": [
+          "MIC_PWR_EN"
+        ],
+        "after": [
+          "MIC_PWR_EN_N"
+        ]
+      },
+      "R9-PWR2|RC0402FR-07100KL.1|2|2": {
+        "before": [
+          "GND"
+        ],
+        "after": [
+          "3V3_MIC_REG"
+        ]
+      },
+      "TP1-ESP|TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1|1|1": {
+        "before": [
+          "K1BR_SCK"
+        ],
+        "after": [
+          "K1BR_SCK_S3"
+        ]
+      },
+      "TP2-ESP|TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1|1|1": {
+        "before": [
+          "K1BR_CS"
+        ],
+        "after": [
+          "K1BR_CS_S3"
+        ]
+      },
+      "U1-PWR1|TPS259474LRPWR.1|3|PG/AUXOFF": {
+        "before": [
+          "USB_EFUSE_PG"
+        ],
+        "after": [
+          "PWR_ENTRY_PG_RT_IOMUX_TBD"
+        ]
+      },
+      "U1-PWR1|TPS259474LRPWR.1|5|IN": {
+        "before": [
+          "5V_USB_FILTERED"
+        ],
+        "after": [
+          "5V_USB"
+        ]
+      },
+      "U12-NFC|ST25R3916B-AQWT.1|22|RFI1": {
+        "before": [
+          "NFC_ANT"
+        ],
+        "after": [
+          "NFC_RFI1_DIV"
+        ]
+      },
+      "U12-NFC|ST25R3916B-AQWT.1|8|VDD": {
+        "before": [
+          "3V3"
+        ],
+        "after": [
+          "NFC_5V"
+        ]
+      },
+      "U13-MOT|LIS2DH12TR.1|1|SCL/SPC": {
+        "before": [
+          "MOTION_SCL"
+        ],
+        "after": [
+          "I2C_SCL"
+        ]
+      },
+      "U13-MOT|LIS2DH12TR.1|2|CS": {
+        "before": [],
+        "after": [
+          "3V3"
+        ]
+      },
+      "U13-MOT|LIS2DH12TR.1|3|SDO/SA0": {
+        "before": [],
+        "after": [
+          "GND"
+        ]
+      },
+      "U13-MOT|LIS2DH12TR.1|4|SDA/SDI/SDO": {
+        "before": [
+          "MOTION_SDA"
+        ],
+        "after": [
+          "I2C_SDA"
+        ]
+      },
+      "U13-MOT|LIS2DH12TR.1|5|RES": {
+        "before": [],
+        "after": [
+          "GND"
+        ]
+      },
+      "U13-MOT|LIS2DH12TR.1|7|GND": {
+        "before": [],
+        "after": [
+          "GND"
+        ]
+      },
+      "U13-MOT|LIS2DH12TR.1|8|GND": {
+        "before": [],
+        "after": [
+          "GND"
+        ]
+      },
+      "U16-VAL|TPS3808G33DBVR.1|5|SENSE": {
+        "before": [],
+        "after": [
+          "3V3"
+        ]
+      },
+      "U2-PWR1|INA226AIDGSR.1|10|VIN+": {
+        "before": [
+          "5V_PROTECTED"
+        ],
+        "after": [
+          "INA_KELVIN_P"
+        ]
+      },
+      "U2-PWR1|INA226AIDGSR.1|8|VBUS": {
+        "before": [
+          "5V_SYS"
+        ],
+        "after": [
+          "INA_KELVIN_N"
+        ]
+      },
+      "U2-PWR1|INA226AIDGSR.1|9|VIN-": {
+        "before": [
+          "5V_SYS"
+        ],
+        "after": [
+          "INA_KELVIN_N"
+        ]
+      },
+      "U3-PWR2|TPS62913RPUR.1|5|PG": {
+        "before": [],
+        "after": [
+          "BUCK_PG"
+        ]
+      },
+      "U6-RTC|MIMXRT1062DVJ6B.2|J11|GPIO_AD_B1_00": {
+        "before": [
+          "MIC_PWR_EN"
+        ],
+        "after": [
+          "MIC_PWR_EN_N"
+        ]
+      },
+      "U6-RTC|MIMXRT1062DVJ6B.2|K11|GPIO_AD_B1_01": {
+        "before": [
+          "K1BR_IRQ"
+        ],
+        "after": [
+          "K1BR_IRQ_RT"
+        ]
+      },
+      "U6-RTC|MIMXRT1062DVJ6B.2|K1|GPIO_SD_B0_03": {
+        "before": [
+          "K1BR_MISO"
+        ],
+        "after": [
+          "K1BR_MISO_RT"
+        ]
+      },
+      "U6-RTC|MIMXRT1062DVJ6B.2|L8|USB_OTG1_DP": {
+        "before": [],
+        "after": [
+          "USB_DP_RT"
+        ]
+      },
+      "U6-RTC|MIMXRT1062DVJ6B.2|M6|ONOFF": {
+        "before": [],
+        "after": [
+          "USB_DN_RT"
+        ]
+      },
+      "U6-RTC|MIMXRT1062DVJ6B.2|M7|POR_B": {
+        "before": [
+          "POR_B"
+        ],
+        "after": [
+          "POR_B",
+          "USB_DN_RT"
+        ]
+      },
+      "U6-RTC|MIMXRT1062DVJ6B.2|M8|USB_OTG1_DN": {
+        "before": [
+          "OPT_USB_AUD_RT"
+        ],
+        "after": [
+          "USB_DN_RT"
+        ]
+      },
+      "U6-RTC|MIMXRT1062DVJ6B.2|N4|GPIO_SD_B1_09": {
+        "before": [
+          "FLEXSPI_D1"
+        ],
+        "after": [
+          "5V_PROTECTED",
+          "FLEXSPI_D1"
+        ]
+      },
+      "U6-RTC|MIMXRT1062DVJ6B.2|N5|VSS": {
+        "before": [
+          "GND"
+        ],
+        "after": [
+          "5V_PROTECTED",
+          "GND"
+        ]
+      },
+      "U6-RTC|MIMXRT1062DVJ6B.2|N6|USB_OTG1_VBUS": {
+        "before": [],
+        "after": [
+          "5V_PROTECTED"
+        ]
+      },
+      "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|18|IO10": {
+        "before": [
+          "K1BR_CS"
+        ],
+        "after": [
+          "K1BR_CS_S3"
+        ]
+      },
+      "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|19|IO11": {
+        "before": [
+          "K1BR_MOSI"
+        ],
+        "after": [
+          "K1BR_MOSI_S3"
+        ]
+      },
+      "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|20|IO12": {
+        "before": [
+          "K1BR_SCK"
+        ],
+        "after": [
+          "K1BR_SCK_S3"
+        ]
+      },
+      "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|2|3V3": {
+        "before": [
+          "3V3"
+        ],
+        "after": [
+          "3V3_S3_FILTERED"
+        ]
+      },
+      "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|5|IO5": {
+        "before": [
+          "MOTION_INT_S3"
+        ],
+        "after": []
+      },
+      "Y2-NFC|ABM12-117-27.120MHZ-T3.1|2|GND": {
+        "before": [
+          "NFC_XTO"
+        ],
+        "after": [
+          "GND"
+        ]
+      },
+      "Y2-NFC|ABM12-117-27.120MHZ-T3.1|3|3": {
+        "before": [],
+        "after": [
+          "NFC_XTO"
+        ]
+      },
+      "Y2-NFC|ABM12-117-27.120MHZ-T3.1|4|GND": {
+        "before": [],
+        "after": [
+          "GND"
+        ]
+      }
+    }
+  },
+  "nets": {
+    "added": {
+      "3V3_S3_FILTERED": [
+        "FB6-ESP|BLM21PG221SN1D.1|2|2",
+        "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|2|3V3"
+      ],
+      "5V_LED_L_SW": [
+        "FB1-PWR2|BLM21PG221SN1D.1|1|1",
+        "U17-PWR2|TPS2561DRCR.1|9|OUT1"
+      ],
+      "5V_LED_R_SW": [
+        "FB2-PWR2|BLM21PG221SN1D.1|1|1",
+        "U17-PWR2|TPS2561DRCR.1|8|OUT2"
+      ],
+      "INA_KELVIN_N": [
+        "CINA_DIFF-PWR1|GRM155R71C104KA88D.1|2|2",
+        "RINA_N-PWR1|RC0402FR-0710KL.1|2|2",
+        "U2-PWR1|INA226AIDGSR.1|8|VBUS",
+        "U2-PWR1|INA226AIDGSR.1|9|VIN-"
+      ],
+      "INA_KELVIN_P": [
+        "CINA_DIFF-PWR1|GRM155R71C104KA88D.1|1|1",
+        "RINA_P-PWR1|RC0402FR-0710KL.1|2|2",
+        "U2-PWR1|INA226AIDGSR.1|10|VIN+"
+      ],
+      "K1BR_CS_S3": [
+        "R26-ESP|RC0402FR-0722RL.1|2|2",
+        "TP2-ESP|TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1|1|1",
+        "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|18|IO10"
+      ],
+      "K1BR_IRQ_RT": [
+        "R27-ESP|RC0402FR-0722RL.1|2|2",
+        "U6-RTC|MIMXRT1062DVJ6B.2|K11|GPIO_AD_B1_01"
+      ],
+      "K1BR_MISO_RT": [
+        "R25-ESP|RC0402FR-0722RL.1|2|2",
+        "U6-RTC|MIMXRT1062DVJ6B.2|K1|GPIO_SD_B0_03"
+      ],
+      "K1BR_MOSI_S3": [
+        "R24-ESP|RC0402FR-0722RL.1|2|2",
+        "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|19|IO11"
+      ],
+      "K1BR_SCK_S3": [
+        "R23-ESP|RC0402FR-0722RL.1|2|2",
+        "TP1-ESP|TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1|1|1",
+        "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|20|IO12"
+      ],
+      "LED_FAULT_L_N": [
+        "U17-PWR2|TPS2561DRCR.1|10|FAULT1"
+      ],
+      "LED_FAULT_R_N": [
+        "U17-PWR2|TPS2561DRCR.1|6|FAULT2"
+      ],
+      "LED_PWR_L_EN": [
+        "RLED_ENL_PD-LED|RC0402FR-0710KL.1|1|1",
+        "U17-PWR2|TPS2561DRCR.1|4|EN1"
+      ],
+      "LED_PWR_R_EN": [
+        "RLED_ENR_PD-LED|RC0402FR-0710KL.1|1|1",
+        "U17-PWR2|TPS2561DRCR.1|5|EN2"
+      ],
+      "MIC_PWR_EN_N": [
+        "Q1-PWR2|DMG2305UX.1|1|G",
+        "R9-PWR2|RC0402FR-07100KL.1|1|1",
+        "U6-RTC|MIMXRT1062DVJ6B.2|J11|GPIO_AD_B1_00"
+      ],
+      "NFC_RFI1_DIV": [
+        "CVDR1-NFC|GRM155R71C104KA88D.1|2|2",
+        "CVDR2-NFC|GRM155R71C104KA88D.1|1|1",
+        "U12-NFC|ST25R3916B-AQWT.1|22|RFI1"
+      ],
+      "PWR_ENTRY_PG_RT_IOMUX_TBD": [
+        "U1-PWR1|TPS259474LRPWR.1|3|PG/AUXOFF"
+      ],
+      "RT_I2C_SCL": [
+        "R46-MOT|RC0402FR-070RL.1|1|1"
+      ],
+      "RT_I2C_SDA": [
+        "R44-MOT|RC0402FR-070RL.1|1|1"
+      ],
+      "RT_USB_AUD_STRAP_IOMUX_TBD": [
+        "R56-VAL|RC0402FR-0710KL.1|2|2"
+      ],
+      "S3_I2C_SCL": [
+        "R47-MOT|RC0402FR-070RL.1|1|1"
+      ],
+      "S3_I2C_SDA": [
+        "R45-MOT|RC0402FR-070RL.1|1|1"
+      ],
+      "TPS2561_ILIM": [
+        "RILIM-LED|RC0402FR-0710KL.1|1|1",
+        "U17-PWR2|TPS2561DRCR.1|7|ILIM"
+      ],
+      "USB_CC1_ADC_TAP": [
+        "RCC1B-PWR1|RC0402FR-0710KL.1|1|1",
+        "RCC1S-PWR1|RC0402FR-0710KL.1|2|2"
+      ],
+      "USB_CC2_ADC_TAP": [
+        "RCC2B-PWR1|RC0402FR-0710KL.1|1|1",
+        "RCC2S-PWR1|RC0402FR-0710KL.1|2|2"
+      ],
+      "USB_DN_J1": [
+        "D1-PWR1|USBLC6-2SC6_C323793.1|3|3",
+        "J1-PWR1|USB4105-GF-A.1|A7|DN1",
+        "J1-PWR1|USB4105-GF-A.1|B7|DN2"
+      ],
+      "USB_DN_PROT": [
+        "D1-PWR1|USBLC6-2SC6_C323793.1|4|4",
+        "RUSB_DN-PWR1|RC0402FR-070RL.1|1|1"
+      ],
+      "USB_DN_RT": [
+        "RUSB_DN-PWR1|RC0402FR-070RL.1|2|2",
+        "U6-RTC|MIMXRT1062DVJ6B.2|M6|ONOFF",
+        "U6-RTC|MIMXRT1062DVJ6B.2|M7|POR_B",
+        "U6-RTC|MIMXRT1062DVJ6B.2|M8|USB_OTG1_DN"
+      ],
+      "USB_DP_J1": [
+        "D1-PWR1|USBLC6-2SC6_C323793.1|1|1",
+        "J1-PWR1|USB4105-GF-A.1|A6|DP1",
+        "J1-PWR1|USB4105-GF-A.1|B6|DP2"
+      ],
+      "USB_DP_PROT": [
+        "D1-PWR1|USBLC6-2SC6_C323793.1|6|6",
+        "RUSB_DP-PWR1|RC0402FR-070RL.1|1|1"
+      ],
+      "USB_DP_RT": [
+        "RUSB_DP-PWR1|RC0402FR-070RL.1|2|2",
+        "U6-RTC|MIMXRT1062DVJ6B.2|L8|USB_OTG1_DP"
+      ]
+    },
+    "removed": {
+      "5V_USB_FILTERED": [
+        "C1-PWR1|GRM21BR61E226ME44L.1|1|1",
+        "F1-PWR1|BLM21PG221SN1D.1|2|2",
+        "R63-PWR1|RC0402FR-071M05L.1|1|1",
+        "U1-PWR1|TPS259474LRPWR.1|5|IN"
+      ],
+      "K1BR_CS": [
+        "R26-ESP|RC0402FR-0722RL.1|2|2",
+        "TP2-ESP|TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1|1|1",
+        "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|18|IO10"
+      ],
+      "K1BR_IRQ": [
+        "R27-ESP|RC0402FR-0722RL.1|2|2",
+        "U6-RTC|MIMXRT1062DVJ6B.2|K11|GPIO_AD_B1_01"
+      ],
+      "K1BR_MISO": [
+        "R25-ESP|RC0402FR-0722RL.1|2|2",
+        "U6-RTC|MIMXRT1062DVJ6B.2|K1|GPIO_SD_B0_03"
+      ],
+      "K1BR_MOSI": [
+        "R24-ESP|RC0402FR-0722RL.1|2|2",
+        "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|19|IO11"
+      ],
+      "K1BR_SCK": [
+        "R23-ESP|RC0402FR-0722RL.1|2|2",
+        "TP1-ESP|TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1|1|1",
+        "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|20|IO12"
+      ],
+      "MIC_PWR_EN": [
+        "Q1-PWR2|DMG2305UX.1|1|G",
+        "R9-PWR2|RC0402FR-07100KL.1|1|1",
+        "U6-RTC|MIMXRT1062DVJ6B.2|J11|GPIO_AD_B1_00"
+      ],
+      "MOTION_SCL": [
+        "R46-MOT|RC0402FR-070RL.1|1|1",
+        "R47-MOT|RC0402FR-0710KL.1|1|1",
+        "U13-MOT|LIS2DH12TR.1|1|SCL/SPC"
+      ],
+      "MOTION_SDA": [
+        "R44-MOT|RC0402FR-070RL.1|1|1",
+        "R45-MOT|RC0402FR-0710KL.1|1|1",
+        "R50-MOT|RC0402FR-074K7L.1|2|2",
+        "U13-MOT|LIS2DH12TR.1|4|SDA/SDI/SDO"
+      ],
+      "NFC_MATCH_L": [
+        "C60-NFC|GRM1555C1H330JA01D.1|2|2",
+        "L3-NFC|LQW15AN33NG00D.1|1|1"
+      ],
+      "OPT_USB_AUD_RT": [
+        "R56-VAL|RC0402FR-0710KL.1|2|2",
+        "U6-RTC|MIMXRT1062DVJ6B.2|M8|USB_OTG1_DN"
+      ]
+    },
+    "changed": {
+      "3V3": {
+        "before": [
+          "C18-RTC|GRM155R71C104KA88D.1|1|1",
+          "C26-RTC|GRM155R61A224KE19D.1|1|1",
+          "C27-RTC|GRM155R61A224KE19D.1|1|1",
+          "C28-RTC|GRM155R61A224KE19D.1|1|1",
+          "C29-RTC|GRM155R60J475ME47D.1|1|1",
+          "C3-PWR1|GRM155R71C104KA88D.1|1|1",
+          "C30-RTC|GRM188R60J226MEA0D.1|1|1",
+          "C31-RTC|GRM155R61A224KE19D.1|1|1",
+          "C32-RTC|GRM155R60J475ME47D.1|1|1",
+          "C37-RTDBG|GRM155R71C104KA88D.1|1|1",
+          "C38-RTDBG|GRM155R60J106ME44D.1|1|1",
+          "C39-ESP|GRM155R71C104KA88D.1|1|1",
+          "C4-PWR1|GRM155R71C104KA88D.1|1|1",
+          "C40-ESP|GRM155R60J106ME44D.1|1|1",
+          "C41-ESP|GRM21BR61A476ME15L.1|1|1",
+          "C45-ESP|GRM155R71C104KA88D.1|1|1",
+          "C46-AUD|GRM155R71C104KA88D.1|1|1",
+          "C47-AUD|GRM155R71C104KA88D.1|1|1",
+          "C50-AUD|GRM155R60J106ME44D.1|1|1",
+          "C56-NFC|GRM155R71C104KA88D.1|1|1",
+          "C6-PWR2|GRM21BR61A476ME15L.1|1|1",
+          "C62-MOT|GRM155R71C104KA88D.1|1|1",
+          "C63-MOT|GRM155R71C104KA88D.1|1|1",
+          "C66-VAL|GRM155R71C104KA88D.1|1|1",
+          "C69-RTC|GRM155R61A224KE19D.1|1|1",
+          "C7-PWR2|GRM21BR61A476ME15L.1|1|1",
+          "C76-RTC|GRM155R61A224KE19D.1|1|1",
+          "C77-RTC|GRM155R61A105KE15D.1|1|1",
+          "C78-RTC|GRM155R71C104KA88D.1|1|1",
+          "C79-RTC|GRM155R60J475ME47D.1|1|1",
+          "C8-PWR2|GRM155R71C104KA88D.1|1|1",
+          "C80-RTC|GRM155R71C104KA88D.1|1|1",
+          "C81-RTC|GRM155R60J475ME47D.1|1|1",
+          "C82-RTC|GRM155R71C104KA88D.1|1|1",
+          "C83-RTC|GRM155R71C104KA88D.1|1|1",
+          "C84-RTC|GRM155R60J475ME47D.1|1|1",
+          "C85-RTC|GRM155R71C104KA88D.1|1|1",
+          "C86-RTC|GRM155R71C104KA88D.1|1|1",
+          "C87-RTC|GRM155R71C104KA88D.1|1|1",
+          "C88-RTC|GRM155R60J475ME47D.1|1|1",
+          "C9-PWR2|GRM1555C1H101JA01D.1|1|1",
+          "J11-VAL|HEADER_MALE-XH_1X6P_2.54MM.1|5|5",
+          "J4-RTDBG|FTSH-105-01-L-DV-K.1|1|1",
+          "J6-ESP|HEADER_MALE-XH_1X6P_2.54MM.1|2|2",
+          "L1-PWR2|XGL4030-222MEC.1|2|2",
+          "R11-RTC|RC0402FR-0710KL.1|2|2",
+          "R12-RTC|RC0402FR-0710KL.1|1|1",
+          "R14-RTDBG|RC0402FR-0710KL.1|1|1",
+          "R19-ESP|RC0402FR-0710KL.1|1|1",
+          "R20-ESP|RC0402FR-0710KL.1|1|1",
+          "R28-AUD|RC0402FR-074K7L.1|1|1",
+          "R29-AUD|RC0402FR-074K7L.1|1|1",
+          "R3-PWR1|RC0402FR-0710KL.1|1|1",
+          "R4-PWR1|RC0402FR-074K7L.1|2|2",
+          "R43-NFC|RC0402FR-074K7L.1|1|1",
+          "R5-PWR2|RC0402FR-07100KL.1|1|1",
+          "R50-MOT|RC0402FR-074K7L.1|1|1",
+          "R62-VAL|RC0402FR-0710KL.1|1|1",
+          "R67-PWR1|RC0402FR-0710KL.1|1|1",
+          "R69-RTDBG|RC0402FR-0710KL.1|1|1",
+          "R70-RTC|RC0402FR-07100KL.1|1|1",
+          "R75-PWR2|RC0402FR-0710KL.1|2|2",
+          "R76-NFC|RC0402FR-0710KL.1|2|2",
+          "TP6-VAL|TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1|1|1",
+          "U11-AUD|TLV320ADC6120IRTER.1|16|AVDD",
+          "U11-AUD|TLV320ADC6120IRTER.1|9|IOVDD",
+          "U12-NFC|ST25R3916B-AQWT.1|1|VDD_IO",
+          "U12-NFC|ST25R3916B-AQWT.1|8|VDD",
+          "U13-MOT|LIS2DH12TR.1|10|VDD_IO",
+          "U13-MOT|LIS2DH12TR.1|9|VDD",
+          "U16-VAL|TPS3808G33DBVR.1|6|VDD",
+          "U2-PWR1|INA226AIDGSR.1|6|VS+",
+          "U3-PWR2|TPS62913RPUR.1|3|VO",
+          "U6-RTC|MIMXRT1062DVJ6B.1|E6|NVCC_EMC",
+          "U6-RTC|MIMXRT1062DVJ6B.1|E9|NVCC_GPIO",
+          "U6-RTC|MIMXRT1062DVJ6B.1|F10|NVCC_GPIO",
+          "U6-RTC|MIMXRT1062DVJ6B.1|F5|NVCC_EMC",
+          "U6-RTC|MIMXRT1062DVJ6B.2|J10|NVCC_GPIO",
+          "U6-RTC|MIMXRT1062DVJ6B.2|J6|NVCC_SD0",
+          "U6-RTC|MIMXRT1062DVJ6B.2|K4|DCDC__IN_Q",
+          "U6-RTC|MIMXRT1062DVJ6B.2|K5|NVCC_SD1",
+          "U6-RTC|MIMXRT1062DVJ6B.2|L1|DCDC_IN",
+          "U6-RTC|MIMXRT1062DVJ6B.2|L2|DCDC_IN",
+          "U6-RTC|MIMXRT1062DVJ6B.2|M9|VDD_SNVS_IN",
+          "U6-RTC|MIMXRT1062DVJ6B.2|N14|VDDA_ADC_3P3",
+          "U6-RTC|MIMXRT1062DVJ6B.2|P12|VDD_HIGH_IN",
+          "U7-RTC|TPS3808G33DBVR.1|5|SENSE",
+          "U7-RTC|TPS3808G33DBVR.1|6|VDD",
+          "U8-RTDBG|IS25LP064A-JBLE.1|8|Vcc",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|2|3V3"
+        ],
+        "after": [
+          "C18-RTC|GRM155R71C104KA88D.1|1|1",
+          "C26-RTC|GRM155R61A224KE19D.1|1|1",
+          "C27-RTC|GRM155R61A224KE19D.1|1|1",
+          "C28-RTC|GRM155R61A224KE19D.1|1|1",
+          "C29-RTC|GRM155R60J475ME47D.1|1|1",
+          "C3-PWR1|GRM155R71C104KA88D.1|1|1",
+          "C30-RTC|GRM188R60J226MEA0D.1|1|1",
+          "C31-RTC|GRM155R61A224KE19D.1|1|1",
+          "C32-RTC|GRM155R60J475ME47D.1|1|1",
+          "C37-RTDBG|GRM155R71C104KA88D.1|1|1",
+          "C38-RTDBG|GRM155R60J106ME44D.1|1|1",
+          "C39-ESP|GRM155R71C104KA88D.1|1|1",
+          "C4-PWR1|GRM155R71C104KA88D.1|1|1",
+          "C40-ESP|GRM155R60J106ME44D.1|1|1",
+          "C41-ESP|GRM21BR61A476ME15L.1|1|1",
+          "C45-ESP|GRM155R71C104KA88D.1|1|1",
+          "C46-AUD|GRM155R71C104KA88D.1|1|1",
+          "C47-AUD|GRM155R71C104KA88D.1|1|1",
+          "C50-AUD|GRM155R60J106ME44D.1|1|1",
+          "C56-NFC|GRM155R71C104KA88D.1|1|1",
+          "C6-PWR2|GRM21BR61A476ME15L.1|1|1",
+          "C62-MOT|GRM155R71C104KA88D.1|1|1",
+          "C63-MOT|GRM155R71C104KA88D.1|1|1",
+          "C66-VAL|GRM155R71C104KA88D.1|1|1",
+          "C69-RTC|GRM155R61A224KE19D.1|1|1",
+          "C7-PWR2|GRM21BR61A476ME15L.1|1|1",
+          "C76-RTC|GRM155R61A224KE19D.1|1|1",
+          "C77-RTC|GRM155R61A105KE15D.1|1|1",
+          "C78-RTC|GRM155R71C104KA88D.1|1|1",
+          "C79-RTC|GRM155R60J475ME47D.1|1|1",
+          "C8-PWR2|GRM155R71C104KA88D.1|1|1",
+          "C80-RTC|GRM155R71C104KA88D.1|1|1",
+          "C81-RTC|GRM155R60J475ME47D.1|1|1",
+          "C82-RTC|GRM155R71C104KA88D.1|1|1",
+          "C83-RTC|GRM155R71C104KA88D.1|1|1",
+          "C84-RTC|GRM155R60J475ME47D.1|1|1",
+          "C85-RTC|GRM155R71C104KA88D.1|1|1",
+          "C86-RTC|GRM155R71C104KA88D.1|1|1",
+          "C87-RTC|GRM155R71C104KA88D.1|1|1",
+          "C88-RTC|GRM155R60J475ME47D.1|1|1",
+          "C9-PWR2|GRM1555C1H101JA01D.1|1|1",
+          "CMOT-BULK|GRM155R60J106ME44D.1|1|1",
+          "FB6-ESP|BLM21PG221SN1D.1|1|1",
+          "J11-VAL|HEADER_MALE-XH_1X6P_2.54MM.1|5|5",
+          "J4-RTDBG|FTSH-105-01-L-DV-K.1|1|1",
+          "J6-ESP|HEADER_MALE-XH_1X6P_2.54MM.1|2|2",
+          "L1-PWR2|XGL4030-222MEC.1|2|2",
+          "R11-RTC|RC0402FR-0710KL.1|2|2",
+          "R12-RTC|RC0402FR-0710KL.1|1|1",
+          "R14-RTDBG|RC0402FR-0710KL.1|1|1",
+          "R19-ESP|RC0402FR-0710KL.1|1|1",
+          "R20-ESP|RC0402FR-0710KL.1|1|1",
+          "R28-AUD|RC0402FR-074K7L.1|1|1",
+          "R29-AUD|RC0402FR-074K7L.1|1|1",
+          "R3-PWR1|RC0402FR-0710KL.1|1|1",
+          "R4-PWR1|RC0402FR-074K7L.1|2|2",
+          "R5-PWR2|RC0402FR-0710KL.1|1|1",
+          "R62-VAL|RC0402FR-0710KL.1|1|1",
+          "R67-PWR1|RC0402FR-0710KL.1|1|1",
+          "R69-RTDBG|RC0402FR-0710KL.1|1|1",
+          "R70-RTC|RC0402FR-07100KL.1|1|1",
+          "R75-PWR2|RC0402FR-0710KL.1|2|2",
+          "R76-NFC|RC0402FR-0710KL.1|2|2",
+          "RNTC_L-LED|RC0402FR-0710KL.1|1|1",
+          "RNTC_R-LED|RC0402FR-0710KL.1|1|1",
+          "TP6-VAL|TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1|1|1",
+          "U11-AUD|TLV320ADC6120IRTER.1|16|AVDD",
+          "U11-AUD|TLV320ADC6120IRTER.1|9|IOVDD",
+          "U12-NFC|ST25R3916B-AQWT.1|1|VDD_IO",
+          "U13-MOT|LIS2DH12TR.1|10|VDD_IO",
+          "U13-MOT|LIS2DH12TR.1|2|CS",
+          "U13-MOT|LIS2DH12TR.1|9|VDD",
+          "U16-VAL|TPS3808G33DBVR.1|5|SENSE",
+          "U16-VAL|TPS3808G33DBVR.1|6|VDD",
+          "U2-PWR1|INA226AIDGSR.1|6|VS+",
+          "U3-PWR2|TPS62913RPUR.1|3|VO",
+          "U6-RTC|MIMXRT1062DVJ6B.1|E6|NVCC_EMC",
+          "U6-RTC|MIMXRT1062DVJ6B.1|E9|NVCC_GPIO",
+          "U6-RTC|MIMXRT1062DVJ6B.1|F10|NVCC_GPIO",
+          "U6-RTC|MIMXRT1062DVJ6B.1|F5|NVCC_EMC",
+          "U6-RTC|MIMXRT1062DVJ6B.2|J10|NVCC_GPIO",
+          "U6-RTC|MIMXRT1062DVJ6B.2|J6|NVCC_SD0",
+          "U6-RTC|MIMXRT1062DVJ6B.2|K4|DCDC__IN_Q",
+          "U6-RTC|MIMXRT1062DVJ6B.2|K5|NVCC_SD1",
+          "U6-RTC|MIMXRT1062DVJ6B.2|L1|DCDC_IN",
+          "U6-RTC|MIMXRT1062DVJ6B.2|L2|DCDC_IN",
+          "U6-RTC|MIMXRT1062DVJ6B.2|M9|VDD_SNVS_IN",
+          "U6-RTC|MIMXRT1062DVJ6B.2|N14|VDDA_ADC_3P3",
+          "U6-RTC|MIMXRT1062DVJ6B.2|P12|VDD_HIGH_IN",
+          "U7-RTC|TPS3808G33DBVR.1|5|SENSE",
+          "U7-RTC|TPS3808G33DBVR.1|6|VDD",
+          "U8-RTDBG|IS25LP064A-JBLE.1|8|Vcc"
+        ]
+      },
+      "3V3_MIC_REG": {
+        "before": [
+          "Q1-PWR2|DMG2305UX.1|2|S",
+          "U5-PWR2|TLV75533PDBVR.1|5|OUT"
+        ],
+        "after": [
+          "CMICREG-PWR2|GRM155R61A105KE15D.1|1|1",
+          "Q1-PWR2|DMG2305UX.1|2|S",
+          "R9-PWR2|RC0402FR-07100KL.1|2|2",
+          "U5-PWR2|TLV75533PDBVR.1|5|OUT"
+        ]
+      },
+      "5V_LED_COMMON": {
+        "before": [
+          "C11-PWR2|GRM21BR61E226ME44L.1|1|1",
+          "FB1-PWR2|BLM21PG221SN1D.1|1|1",
+          "FB2-PWR2|BLM21PG221SN1D.1|1|1",
+          "U4-PWR2|TPS259474LRPWR.1|6|OUT"
+        ],
+        "after": [
+          "C11-PWR2|GRM21BR61E226ME44L.1|1|1"
+        ]
+      },
+      "5V_PROTECTED": {
+        "before": [
+          "C2-PWR1|GRM21BR61E226ME44L.1|1|1",
+          "D1-PWR1|USBLC6-2SC6_C323793.1|1|1",
+          "R65-PWR1|RC0402FR-07274KL.1|1|1",
+          "RSH1-PWR1|WSHP2818R0100FEA.1|1|1",
+          "U1-PWR1|TPS259474LRPWR.1|6|OUT",
+          "U2-PWR1|INA226AIDGSR.1|10|VIN+"
+        ],
+        "after": [
+          "C2-PWR1|GRM21BR61E226ME44L.1|1|1",
+          "CUSBVBUS-RTC|GRM155R61A105KE15D.1|1|1",
+          "D1-PWR1|USBLC6-2SC6_C323793.1|5|5",
+          "R65-PWR1|RC0402FR-07274KL.1|1|1",
+          "RINA_P-PWR1|RC0402FR-0710KL.1|1|1",
+          "RSH1-PWR1|WSHP2818R0100FEA.1|1|1",
+          "U1-PWR1|TPS259474LRPWR.1|6|OUT",
+          "U6-RTC|MIMXRT1062DVJ6B.2|N4|GPIO_SD_B1_09",
+          "U6-RTC|MIMXRT1062DVJ6B.2|N5|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|N6|USB_OTG1_VBUS"
+        ]
+      },
+      "5V_SYS": {
+        "before": [
+          "C14-PWR2|GRM155R71C104KA88D.1|1|1",
+          "C5-PWR2|GRM21BR61E226ME44L.1|1|1",
+          "FB3-PWR2|BLM21PG221SN1D.1|1|1",
+          "R7-PWR2|RC0402FR-07100KL.1|1|1",
+          "RSH1-PWR1|WSHP2818R0100FEA.1|2|2",
+          "U2-PWR1|INA226AIDGSR.1|8|VBUS",
+          "U2-PWR1|INA226AIDGSR.1|9|VIN-",
+          "U3-PWR2|TPS62913RPUR.1|10|S-CONF",
+          "U3-PWR2|TPS62913RPUR.1|6|VIN",
+          "U4-PWR2|TPS259474LRPWR.1|1|EN/UVLO",
+          "U4-PWR2|TPS259474LRPWR.1|5|IN",
+          "U5-PWR2|TLV75533PDBVR.1|1|IN",
+          "U5-PWR2|TLV75533PDBVR.1|3|EN"
+        ],
+        "after": [
+          "C14-PWR2|GRM155R71C104KA88D.1|1|1",
+          "C5-PWR2|GRM21BR61E226ME44L.1|1|1",
+          "FB3-PWR2|BLM21PG221SN1D.1|1|1",
+          "R7-PWR2|RC0402FR-07100KL.1|1|1",
+          "RINA_N-PWR1|RC0402FR-0710KL.1|1|1",
+          "RSH1-PWR1|WSHP2818R0100FEA.1|2|2",
+          "U17-PWR2|TPS2561DRCR.1|2|IN",
+          "U17-PWR2|TPS2561DRCR.1|3|IN",
+          "U3-PWR2|TPS62913RPUR.1|10|S-CONF",
+          "U3-PWR2|TPS62913RPUR.1|6|VIN",
+          "U5-PWR2|TLV75533PDBVR.1|1|IN",
+          "U5-PWR2|TLV75533PDBVR.1|3|EN"
+        ]
+      },
+      "5V_USB": {
+        "before": [
+          "F1-PWR1|BLM21PG221SN1D.1|1|1",
+          "J1-PWR1|USB4105-GF-A.1|B4|VBUS"
+        ],
+        "after": [
+          "C1-PWR1|GRM21BR61E226ME44L.1|1|1",
+          "DVBUS-PWR1|K1_SMF5V_TVS.1|1|K",
+          "J1-PWR1|USB4105-GF-A.1|A4|VBUS",
+          "J1-PWR1|USB4105-GF-A.1|A9|VBUS",
+          "J1-PWR1|USB4105-GF-A.1|B4|VBUS",
+          "J1-PWR1|USB4105-GF-A.1|B9|VBUS",
+          "R63-PWR1|RC0402FR-071M05L.1|1|1",
+          "U1-PWR1|TPS259474LRPWR.1|5|IN"
+        ]
+      },
+      "AUDIO_MCLK": {
+        "before": [
+          "C52-AUD|GRM1555C1H101JA01D.1|1|1",
+          "J8-AUD|PREC004SAAN-RC.1|1|1",
+          "R34-AUD|RC0402FR-070RL.1|2|2",
+          "R57-VAL|RC0402FR-0710KL.1|2|2",
+          "TP3-AUD|TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1|1|1",
+          "U11-AUD|TLV320ADC6120IRTER.1|19|MICBIAS_GPI2"
+        ],
+        "after": [
+          "C52-AUD|GRM155R71C104KA88D.1|1|1",
+          "J8-AUD|PREC004SAAN-RC.1|1|1",
+          "R34-AUD|RC0402FR-070RL.1|2|2",
+          "R57-VAL|RC0402FR-0710KL.1|2|2",
+          "TP3-AUD|TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1|1|1",
+          "U11-AUD|TLV320ADC6120IRTER.1|19|MICBIAS_GPI2"
+        ]
+      },
+      "BUCK_FB": {
+        "before": [
+          "C9-PWR2|GRM1555C1H101JA01D.1|2|2",
+          "R5-PWR2|RC0402FR-07100KL.1|2|2",
+          "R6-PWR2|RC0402FR-0732K4L.1|1|1",
+          "U3-PWR2|TPS62913RPUR.1|9|FB"
+        ],
+        "after": [
+          "C9-PWR2|GRM1555C1H101JA01D.1|2|2",
+          "R5-PWR2|RC0402FR-0710KL.1|2|2",
+          "R6-PWR2|RC0402FR-0710KL.1|1|1",
+          "U3-PWR2|TPS62913RPUR.1|9|FB"
+        ]
+      },
+      "BUCK_PG": {
+        "before": [
+          "R75-PWR2|RC0402FR-0710KL.1|1|1"
+        ],
+        "after": [
+          "R75-PWR2|RC0402FR-0710KL.1|1|1",
+          "U3-PWR2|TPS62913RPUR.1|5|PG"
+        ]
+      },
+      "ESP_USB_VBUS_SENSE": {
+        "before": [
+          "R71-ESP|RC0402FR-07100KL.1|2|2",
+          "R72-ESP|RC0402FR-07100KL.1|1|1",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|8|IO15"
+        ],
+        "after": [
+          "R71-ESP|RC0402FR-07100KL.1|2|2",
+          "R72-ESP|RC0402FR-0710KL.1|1|1",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|8|IO15"
+        ]
+      },
+      "GND": {
+        "before": [
+          "C1-PWR1|GRM21BR61E226ME44L.1|2|2",
+          "C10-PWR2|GRM155R71C104KA88D.1|2|2",
+          "C11-PWR2|GRM21BR61E226ME44L.1|2|2",
+          "C12-PWR2|GRM21BR61E226ME44L.1|2|2",
+          "C13-PWR2|GRM21BR61E226ME44L.1|2|2",
+          "C14-PWR2|GRM155R71C104KA88D.1|2|2",
+          "C15-PWR2|GRM155R60J106ME44D.1|2|2",
+          "C16-PWR2|GRM21BR61E226ME44L.1|2|2",
+          "C17-PWR2|GRM155R71C104KA88D.1|2|2",
+          "C18-RTC|GRM155R71C104KA88D.1|2|2",
+          "C19-RTC|GRM155R61A224KE19D.1|2|2",
+          "C2-PWR1|GRM21BR61E226ME44L.1|2|2",
+          "C20-RTC|GRM155R61A224KE19D.1|2|2",
+          "C21-RTC|GRM155R61A224KE19D.1|2|2",
+          "C22-RTC|GRM155R61A224KE19D.1|2|2",
+          "C23-RTC|GRM155R61A224KE19D.1|2|2",
+          "C24-RTC|GRM155R60J475ME47D.1|2|2",
+          "C25-RTC|GRM188R60J226MEA0D.1|2|2",
+          "C26-RTC|GRM155R61A224KE19D.1|2|2",
+          "C27-RTC|GRM155R61A224KE19D.1|2|2",
+          "C28-RTC|GRM155R61A224KE19D.1|2|2",
+          "C29-RTC|GRM155R60J475ME47D.1|2|2",
+          "C3-PWR1|GRM155R71C104KA88D.1|2|2",
+          "C30-RTC|GRM188R60J226MEA0D.1|2|2",
+          "C31-RTC|GRM155R61A224KE19D.1|2|2",
+          "C32-RTC|GRM155R60J475ME47D.1|2|2",
+          "C33-RTC|GRM155R61A224KE19D.1|2|2",
+          "C34-RTC|GRM155R60J475ME47D.1|2|2",
+          "C35-RTDBG|GRM1555C1H8R2CA01D.1|2|2",
+          "C36-RTDBG|GRM1555C1H8R2CA01D.1|2|2",
+          "C37-RTDBG|GRM155R71C104KA88D.1|2|2",
+          "C38-RTDBG|GRM155R60J106ME44D.1|2|2",
+          "C39-ESP|GRM155R71C104KA88D.1|2|2",
+          "C4-PWR1|GRM155R71C104KA88D.1|2|2",
+          "C40-ESP|GRM155R60J106ME44D.1|2|2",
+          "C41-ESP|GRM21BR61A476ME15L.1|2|2",
+          "C42-ESP|GRM155R61A105KE15D.1|2|2",
+          "C43-ESP|GRM1555C1H101JA01D.1|2|2",
+          "C44-ESP|GRM1555C1H101JA01D.1|2|2",
+          "C45-ESP|GRM155R71C104KA88D.1|2|2",
+          "C46-AUD|GRM155R71C104KA88D.1|2|2",
+          "C47-AUD|GRM155R71C104KA88D.1|2|2",
+          "C48-AUD|GRM155R71C104KA88D.1|2|2",
+          "C49-AUD|GRM155R71C104KA88D.1|2|2",
+          "C5-PWR2|GRM21BR61E226ME44L.1|2|2",
+          "C50-AUD|GRM155R60J106ME44D.1|2|2",
+          "C51-AUD|GRM155R61A105KE15D.1|2|2",
+          "C52-AUD|GRM1555C1H101JA01D.1|2|2",
+          "C53-AUD|GRM155R71C104KA88D.1|2|2",
+          "C54-NFC|GRM1555C1H100JA01D.1|2|2",
+          "C55-NFC|GRM1555C1H100JA01D.1|2|2",
+          "C56-NFC|GRM155R71C104KA88D.1|2|2",
+          "C57-NFC|GRM155R60J106ME44D.1|2|2",
+          "C58-NFC|GRM155R71C104KA88D.1|2|2",
+          "C59-NFC|GRM1555C1H220JA01D.1|2|2",
+          "C6-PWR2|GRM21BR61A476ME15L.1|2|2",
+          "C61-NFC|GRM1555C1H470JA01D.1|2|2",
+          "C62-MOT|GRM155R71C104KA88D.1|2|2",
+          "C63-MOT|GRM155R71C104KA88D.1|2|2",
+          "C64-LED|GRM155R71C104KA88D.1|2|2",
+          "C65-LED|GRM155R71C104KA88D.1|2|2",
+          "C66-VAL|GRM155R71C104KA88D.1|2|2",
+          "C67-PWR1|GRM155R71H222KA01D.1|2|2",
+          "C68-PWR2|GRM155R71H222KA01D.1|2|2",
+          "C69-RTC|GRM155R61A224KE19D.1|2|2",
+          "C7-PWR2|GRM21BR61A476ME15L.1|2|2",
+          "C70-RTC|GRM155R61A224KE19D.1|2|2",
+          "C71-RTC|GRM155R60J475ME47D.1|2|2",
+          "C72-RTC|GRM155R61A224KE19D.1|2|2",
+          "C73-RTC|GRM155R60J475ME47D.1|2|2",
+          "C74-RTC|GRM155R71C104KA88D.1|2|2",
+          "C75-RTC|GRM155R60J106ME44D.1|2|2",
+          "C76-RTC|GRM155R61A224KE19D.1|2|2",
+          "C77-RTC|GRM155R61A105KE15D.1|2|2",
+          "C78-RTC|GRM155R71C104KA88D.1|2|2",
+          "C79-RTC|GRM155R60J475ME47D.1|2|2",
+          "C8-PWR2|GRM155R71C104KA88D.1|2|2",
+          "C80-RTC|GRM155R71C104KA88D.1|2|2",
+          "C81-RTC|GRM155R60J475ME47D.1|2|2",
+          "C82-RTC|GRM155R71C104KA88D.1|2|2",
+          "C83-RTC|GRM155R71C104KA88D.1|2|2",
+          "C84-RTC|GRM155R60J475ME47D.1|2|2",
+          "C85-RTC|GRM155R71C104KA88D.1|2|2",
+          "C86-RTC|GRM155R71C104KA88D.1|2|2",
+          "C87-RTC|GRM155R71C104KA88D.1|2|2",
+          "C88-RTC|GRM155R60J475ME47D.1|2|2",
+          "C89-RTC|GRM155R71C104KA88D.1|2|2",
+          "C90-AUD|GRM155R60J106ME44D.1|2|2",
+          "C91-AUD|GRM155R60J106ME44D.1|2|2",
+          "C92-NFC|GRM155R60J225ME15D.1|2|2",
+          "C93-NFC|GRM155R60J225ME15D.1|2|2",
+          "C94-NFC|GRM155R60J225ME15D.1|2|2",
+          "C95-NFC|GRM155R60J225ME15D.1|2|2",
+          "C96-NFC|GRM155R60J225ME15D.1|2|2",
+          "C97-NFC|GRM155R60J225ME15D.1|2|2",
+          "D1-PWR1|USBLC6-2SC6_C323793.1|2|2",
+          "J1-PWR1|USB4105-GF-A.1|B1|GND",
+          "J10-NFC|U.FL-R-SMT-1(80)_C9900020048.1|2|2",
+          "J11-VAL|HEADER_MALE-XH_1X6P_2.54MM.1|6|6",
+          "J2-LED|B3B-XH-A-3PZZ.1|3|3",
+          "J3-LED|B3B-XH-A-3PZZ.1|3|3",
+          "J4-RTDBG|FTSH-105-01-L-DV-K.1|3|3",
+          "J5-RTDBG|PREC004SAAN-RC.1|4|4",
+          "J6-ESP|HEADER_MALE-XH_1X6P_2.54MM.1|1|1",
+          "J7-ESP|USB4105-GF-A.1|1|EH",
+          "J7-ESP|USB4105-GF-A.1|A12|GND",
+          "J7-ESP|USB4105-GF-A.1|A1|GND",
+          "J7-ESP|USB4105-GF-A.1|B12|GND",
+          "J7-ESP|USB4105-GF-A.1|B1|GND",
+          "J8-AUD|PREC004SAAN-RC.1|4|4",
+          "J9-AUD|FH12-10S-0.5SH(55).1|2|2",
+          "J9-AUD|FH12-10S-0.5SH(55).1|4|4",
+          "J9-AUD|FH12-10S-0.5SH(55).1|6|6",
+          "Q2-VAL|2N7002_C414014.1|2|S",
+          "R1-PWR1|RC0402FR-0710KL.1|2|2",
+          "R10-RTC|RC0402FR-0710KL.1|2|2",
+          "R21-ESP|RC0402FR-075K1L.1|2|2",
+          "R22-ESP|RC0402FR-075K1L.1|2|2",
+          "R53-LED|RC0402FR-0710KL.1|2|2",
+          "R54-LED|RC0402FR-0710KL.1|2|2",
+          "R6-PWR2|RC0402FR-0732K4L.1|2|2",
+          "R64-PWR1|RC0402FR-07324KL.1|2|2",
+          "R66-PWR1|RC0402FR-07100KL.1|2|2",
+          "R68-RTDBG|RC0402FR-072M2L.1|2|2",
+          "R72-ESP|RC0402FR-07100KL.1|2|2",
+          "R8-PWR2|RC0402FR-0710KL.1|2|2",
+          "R9-PWR2|RC0402FR-07100KL.1|2|2",
+          "RT1-LED|NCP15XH103F03RC.1|2|2",
+          "RT2-LED|NCP15XH103F03RC.1|2|2",
+          "SW1-RTC|PTS645SM43SMTR92LFS.1|1|1",
+          "SW2-ESP|PTS645SM43SMTR92LFS.1|2|2",
+          "SW3-ESP|PTS645SM43SMTR92LFS.1|2|2",
+          "SW4-VAL|PTS645SM43SMTR92LFS.1|2|2",
+          "U1-PWR1|TPS259474LRPWR.1|8|GND",
+          "U10-ESP|USBLC6-2SC6_C323793.1|2|2",
+          "U11-AUD|TLV320ADC6120IRTER.1|10|VSS",
+          "U11-AUD|TLV320ADC6120IRTER.1|15|VSS",
+          "U11-AUD|TLV320ADC6120IRTER.1|20|VSS",
+          "U11-AUD|TLV320ADC6120IRTER.1|21|EP",
+          "U11-AUD|TLV320ADC6120IRTER.1|5|VSS",
+          "U12-NFC|ST25R3916B-AQWT.1|12|GND_DR1",
+          "U12-NFC|ST25R3916B-AQWT.1|16|GND_DR2",
+          "U12-NFC|ST25R3916B-AQWT.1|21|VSS",
+          "U12-NFC|ST25R3916B-AQWT.1|26|GND_A",
+          "U12-NFC|ST25R3916B-AQWT.1|33|EP",
+          "U12-NFC|ST25R3916B-AQWT.1|6|GND_D",
+          "U13-MOT|LIS2DH12TR.1|6|GND",
+          "U14-LED|SN74AHCT1G125DBVR.1|3|GND",
+          "U15-LED|SN74AHCT1G125DBVR.1|3|GND",
+          "U16-VAL|TPS3808G33DBVR.1|2|GND",
+          "U2-PWR1|INA226AIDGSR.1|1|A1",
+          "U2-PWR1|INA226AIDGSR.1|2|A0",
+          "U2-PWR1|INA226AIDGSR.1|7|GND",
+          "U3-PWR2|TPS62913RPUR.1|4|PGND",
+          "U3-PWR2|TPS62913RPUR.1|7|PSNS",
+          "U4-PWR2|TPS259474LRPWR.1|2|OVLO/OVCSEL",
+          "U4-PWR2|TPS259474LRPWR.1|8|GND",
+          "U5-PWR2|TLV75533PDBVR.1|2|GND",
+          "U6-RTC|MIMXRT1062DVJ6B.1|A14|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.1|A1|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.1|B10|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.1|B5|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.1|E13|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.1|E2|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.1|G7|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.1|G8|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|H7|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|H8|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|J7|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|J8|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|K13|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|K2|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|K9|NGND_KEL0",
+          "U6-RTC|MIMXRT1062DVJ6B.2|L9|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|N1|DCDC_GND",
+          "U6-RTC|MIMXRT1062DVJ6B.2|N2|DCDC_GND",
+          "U6-RTC|MIMXRT1062DVJ6B.2|N5|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|N8|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|N9|RTC_XTALI",
+          "U6-RTC|MIMXRT1062DVJ6B.2|P14|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|P1|VSS",
+          "U7-RTC|TPS3808G33DBVR.1|2|GND",
+          "U8-RTDBG|IS25LP064A-JBLE.1|4|GND",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|1|GND",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|40|GND",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|41|GND",
+          "Y1-RTDBG|XRCGB24M000F3A00R0.1|2|GND",
+          "Y1-RTDBG|XRCGB24M000F3A00R0.1|4|GND"
+        ],
+        "after": [
+          "C1-PWR1|GRM21BR61E226ME44L.1|2|2",
+          "C10-PWR2|GRM155R71C104KA88D.1|2|2",
+          "C11-PWR2|GRM21BR61E226ME44L.1|2|2",
+          "C12-PWR2|GRM21BR61E226ME44L.1|2|2",
+          "C13-PWR2|GRM21BR61E226ME44L.1|2|2",
+          "C14-PWR2|GRM155R71C104KA88D.1|2|2",
+          "C15-PWR2|GRM155R60J106ME44D.1|2|2",
+          "C16-PWR2|GRM21BR61E226ME44L.1|2|2",
+          "C17-PWR2|GRM155R71C104KA88D.1|2|2",
+          "C18-RTC|GRM155R71C104KA88D.1|2|2",
+          "C19-RTC|GRM155R61A224KE19D.1|2|2",
+          "C2-PWR1|GRM21BR61E226ME44L.1|2|2",
+          "C20-RTC|GRM155R61A224KE19D.1|2|2",
+          "C21-RTC|GRM155R61A224KE19D.1|2|2",
+          "C22-RTC|GRM155R61A224KE19D.1|2|2",
+          "C23-RTC|GRM155R61A224KE19D.1|2|2",
+          "C24-RTC|GRM155R60J475ME47D.1|2|2",
+          "C25-RTC|GRM188R60J226MEA0D.1|2|2",
+          "C26-RTC|GRM155R61A224KE19D.1|2|2",
+          "C27-RTC|GRM155R61A224KE19D.1|2|2",
+          "C28-RTC|GRM155R61A224KE19D.1|2|2",
+          "C29-RTC|GRM155R60J475ME47D.1|2|2",
+          "C3-PWR1|GRM155R71C104KA88D.1|2|2",
+          "C30-RTC|GRM188R60J226MEA0D.1|2|2",
+          "C31-RTC|GRM155R61A224KE19D.1|2|2",
+          "C32-RTC|GRM155R60J475ME47D.1|2|2",
+          "C33-RTC|GRM155R61A224KE19D.1|2|2",
+          "C34-RTC|GRM155R60J475ME47D.1|2|2",
+          "C35-RTDBG|GRM1555C1H8R2CA01D.1|2|2",
+          "C36-RTDBG|GRM1555C1H8R2CA01D.1|2|2",
+          "C37-RTDBG|GRM155R71C104KA88D.1|2|2",
+          "C38-RTDBG|GRM155R60J106ME44D.1|2|2",
+          "C39-ESP|GRM155R71C104KA88D.1|2|2",
+          "C4-PWR1|GRM155R71C104KA88D.1|2|2",
+          "C40-ESP|GRM155R60J106ME44D.1|2|2",
+          "C41-ESP|GRM21BR61A476ME15L.1|2|2",
+          "C42-ESP|GRM155R61A105KE15D.1|2|2",
+          "C43-ESP|GRM155R71C104KA88D.1|2|2",
+          "C44-ESP|GRM155R71C104KA88D.1|2|2",
+          "C45-ESP|GRM155R71C104KA88D.1|2|2",
+          "C46-AUD|GRM155R71C104KA88D.1|2|2",
+          "C47-AUD|GRM155R71C104KA88D.1|2|2",
+          "C48-AUD|GRM155R71C104KA88D.1|2|2",
+          "C49-AUD|GRM155R71C104KA88D.1|2|2",
+          "C5-PWR2|GRM21BR61E226ME44L.1|2|2",
+          "C50-AUD|GRM155R60J106ME44D.1|2|2",
+          "C51-AUD|GRM155R61A105KE15D.1|2|2",
+          "C52-AUD|GRM155R71C104KA88D.1|2|2",
+          "C53-AUD|GRM155R71C104KA88D.1|2|2",
+          "C54-NFC|GRM155R71C104KA88D.1|2|2",
+          "C55-NFC|GRM155R71C104KA88D.1|2|2",
+          "C56-NFC|GRM155R71C104KA88D.1|2|2",
+          "C57-NFC|GRM155R60J106ME44D.1|2|2",
+          "C58-NFC|GRM155R71C104KA88D.1|2|2",
+          "C59-NFC|GRM1555C1H220JA01D.1|2|2",
+          "C6-PWR2|GRM21BR61A476ME15L.1|2|2",
+          "C61-NFC|GRM1555C1H470JA01D.1|2|2",
+          "C62-MOT|GRM155R71C104KA88D.1|2|2",
+          "C63-MOT|GRM155R71C104KA88D.1|2|2",
+          "C64-LED|GRM155R71C104KA88D.1|2|2",
+          "C65-LED|GRM155R71C104KA88D.1|2|2",
+          "C66-VAL|GRM155R71C104KA88D.1|2|2",
+          "C67-PWR1|GRM155R71H222KA01D.1|2|2",
+          "C68-PWR2|GRM155R71H222KA01D.1|2|2",
+          "C69-RTC|GRM155R61A224KE19D.1|2|2",
+          "C7-PWR2|GRM21BR61A476ME15L.1|2|2",
+          "C70-RTC|GRM155R61A224KE19D.1|2|2",
+          "C71-RTC|GRM155R60J475ME47D.1|2|2",
+          "C72-RTC|GRM155R61A224KE19D.1|2|2",
+          "C73-RTC|GRM155R60J475ME47D.1|2|2",
+          "C74-RTC|GRM155R71C104KA88D.1|2|2",
+          "C75-RTC|GRM155R60J106ME44D.1|2|2",
+          "C76-RTC|GRM155R61A224KE19D.1|2|2",
+          "C77-RTC|GRM155R61A105KE15D.1|2|2",
+          "C78-RTC|GRM155R71C104KA88D.1|2|2",
+          "C79-RTC|GRM155R60J475ME47D.1|2|2",
+          "C8-PWR2|GRM155R71C104KA88D.1|2|2",
+          "C80-RTC|GRM155R71C104KA88D.1|2|2",
+          "C81-RTC|GRM155R60J475ME47D.1|2|2",
+          "C82-RTC|GRM155R71C104KA88D.1|2|2",
+          "C83-RTC|GRM155R71C104KA88D.1|2|2",
+          "C84-RTC|GRM155R60J475ME47D.1|2|2",
+          "C85-RTC|GRM155R71C104KA88D.1|2|2",
+          "C86-RTC|GRM155R71C104KA88D.1|2|2",
+          "C87-RTC|GRM155R71C104KA88D.1|2|2",
+          "C88-RTC|GRM155R60J475ME47D.1|2|2",
+          "C89-RTC|GRM155R71C104KA88D.1|2|2",
+          "C90-AUD|GRM155R60J106ME44D.1|2|2",
+          "C91-AUD|GRM155R60J106ME44D.1|2|2",
+          "C910-NFC|GRM155R71C104KA88D.1|2|2",
+          "C911-NFC|GRM155R71C104KA88D.1|2|2",
+          "C912-NFC|GRM155R71C104KA88D.1|2|2",
+          "C92-NFC|GRM155R60J225ME15D.1|2|2",
+          "C93-NFC|GRM155R60J225ME15D.1|2|2",
+          "C94-NFC|GRM155R60J225ME15D.1|2|2",
+          "C95-NFC|GRM155R60J225ME15D.1|2|2",
+          "C96-NFC|GRM155R60J225ME15D.1|2|2",
+          "C97-NFC|GRM155R61A105KE15D.1|2|2",
+          "C98-NFC|GRM155R71C104KA88D.1|2|2",
+          "C99-NFC|GRM155R71C104KA88D.1|2|2",
+          "CMICREG-PWR2|GRM155R61A105KE15D.1|2|2",
+          "CMOT-BULK|GRM155R60J106ME44D.1|2|2",
+          "CUSBVBUS-RTC|GRM155R61A105KE15D.1|2|2",
+          "CVDR2-NFC|GRM155R71C104KA88D.1|2|2",
+          "D1-PWR1|USBLC6-2SC6_C323793.1|2|2",
+          "DVBUS-PWR1|K1_SMF5V_TVS.1|2|A",
+          "J1-PWR1|USB4105-GF-A.1|1|EH",
+          "J1-PWR1|USB4105-GF-A.1|2|SHIELD",
+          "J1-PWR1|USB4105-GF-A.1|3|SHIELD",
+          "J1-PWR1|USB4105-GF-A.1|4|SHIELD",
+          "J1-PWR1|USB4105-GF-A.1|A12|GND",
+          "J1-PWR1|USB4105-GF-A.1|A1|GND",
+          "J1-PWR1|USB4105-GF-A.1|B12|GND",
+          "J1-PWR1|USB4105-GF-A.1|B1|GND",
+          "J10-NFC|U.FL-R-SMT-1(80)_C9900020048.1|2|2",
+          "J11-VAL|HEADER_MALE-XH_1X6P_2.54MM.1|6|6",
+          "J2-LED|B3B-XH-A-3PZZ.1|3|3",
+          "J3-LED|B3B-XH-A-3PZZ.1|3|3",
+          "J4-RTDBG|FTSH-105-01-L-DV-K.1|3|3",
+          "J5-RTDBG|PREC004SAAN-RC.1|4|4",
+          "J6-ESP|HEADER_MALE-XH_1X6P_2.54MM.1|1|1",
+          "J7-ESP|USB4105-GF-A.1|1|EH",
+          "J7-ESP|USB4105-GF-A.1|2|SHIELD",
+          "J7-ESP|USB4105-GF-A.1|3|SHIELD",
+          "J7-ESP|USB4105-GF-A.1|4|SHIELD",
+          "J7-ESP|USB4105-GF-A.1|A12|GND",
+          "J7-ESP|USB4105-GF-A.1|A1|GND",
+          "J7-ESP|USB4105-GF-A.1|B12|GND",
+          "J7-ESP|USB4105-GF-A.1|B1|GND",
+          "J8-AUD|PREC004SAAN-RC.1|4|4",
+          "J9-AUD|FH12-10S-0.5SH(55).1|11|11",
+          "J9-AUD|FH12-10S-0.5SH(55).1|12|12",
+          "J9-AUD|FH12-10S-0.5SH(55).1|2|2",
+          "J9-AUD|FH12-10S-0.5SH(55).1|4|4",
+          "J9-AUD|FH12-10S-0.5SH(55).1|6|6",
+          "Q2-VAL|2N7002_C414014.1|2|S",
+          "R1-PWR1|RC0402FR-0710KL.1|2|2",
+          "R10-RTC|RC0402FR-0710KL.1|2|2",
+          "R21-ESP|RC0402FR-075K1L.1|2|2",
+          "R22-ESP|RC0402FR-075K1L.1|2|2",
+          "R53-LED|RC0402FR-0710KL.1|2|2",
+          "R54-LED|RC0402FR-0710KL.1|2|2",
+          "R6-PWR2|RC0402FR-0710KL.1|2|2",
+          "R64-PWR1|RC0402FR-0710KL.1|2|2",
+          "R66-PWR1|RC0402FR-07100KL.1|2|2",
+          "R68-RTDBG|RC0402FR-072M2L.1|2|2",
+          "R72-ESP|RC0402FR-0710KL.1|2|2",
+          "R8-PWR2|RC0402FR-0710KL.1|2|2",
+          "RCC1-PWR1|RC0402FR-075K1L.1|2|2",
+          "RCC1B-PWR1|RC0402FR-0710KL.1|2|2",
+          "RCC2-PWR1|RC0402FR-075K1L.1|2|2",
+          "RCC2B-PWR1|RC0402FR-0710KL.1|2|2",
+          "RILIM-LED|RC0402FR-0710KL.1|2|2",
+          "RLED_ENL_PD-LED|RC0402FR-0710KL.1|2|2",
+          "RLED_ENR_PD-LED|RC0402FR-0710KL.1|2|2",
+          "RLED_PD0-LED|RC0402FR-0710KL.1|2|2",
+          "RLED_PD1-LED|RC0402FR-0710KL.1|2|2",
+          "RT1-LED|NCP15XH103F03RC.1|2|2",
+          "RT2-LED|NCP15XH103F03RC.1|2|2",
+          "SW1-RTC|PTS645SM43SMTR92LFS.1|1|1",
+          "SW2-ESP|PTS645SM43SMTR92LFS.1|2|2",
+          "SW3-ESP|PTS645SM43SMTR92LFS.1|2|2",
+          "SW4-VAL|PTS645SM43SMTR92LFS.1|2|2",
+          "U1-PWR1|TPS259474LRPWR.1|8|GND",
+          "U10-ESP|USBLC6-2SC6_C323793.1|2|2",
+          "U11-AUD|TLV320ADC6120IRTER.1|10|VSS",
+          "U11-AUD|TLV320ADC6120IRTER.1|15|VSS",
+          "U11-AUD|TLV320ADC6120IRTER.1|20|VSS",
+          "U11-AUD|TLV320ADC6120IRTER.1|21|EP",
+          "U11-AUD|TLV320ADC6120IRTER.1|5|VSS",
+          "U12-NFC|ST25R3916B-AQWT.1|12|GND_DR1",
+          "U12-NFC|ST25R3916B-AQWT.1|16|GND_DR2",
+          "U12-NFC|ST25R3916B-AQWT.1|21|VSS",
+          "U12-NFC|ST25R3916B-AQWT.1|26|GND_A",
+          "U12-NFC|ST25R3916B-AQWT.1|33|EP",
+          "U12-NFC|ST25R3916B-AQWT.1|6|GND_D",
+          "U13-MOT|LIS2DH12TR.1|3|SDO/SA0",
+          "U13-MOT|LIS2DH12TR.1|5|RES",
+          "U13-MOT|LIS2DH12TR.1|6|GND",
+          "U13-MOT|LIS2DH12TR.1|7|GND",
+          "U13-MOT|LIS2DH12TR.1|8|GND",
+          "U14-LED|SN74AHCT1G125DBVR.1|3|GND",
+          "U15-LED|SN74AHCT1G125DBVR.1|3|GND",
+          "U16-VAL|TPS3808G33DBVR.1|2|GND",
+          "U17-PWR2|TPS2561DRCR.1|1|GND",
+          "U2-PWR1|INA226AIDGSR.1|1|A1",
+          "U2-PWR1|INA226AIDGSR.1|2|A0",
+          "U2-PWR1|INA226AIDGSR.1|7|GND",
+          "U3-PWR2|TPS62913RPUR.1|4|PGND",
+          "U3-PWR2|TPS62913RPUR.1|7|PSNS",
+          "U5-PWR2|TLV75533PDBVR.1|2|GND",
+          "U6-RTC|MIMXRT1062DVJ6B.1|A14|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.1|A1|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.1|B10|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.1|B5|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.1|E13|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.1|E2|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.1|G7|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.1|G8|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|H7|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|H8|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|J7|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|J8|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|K13|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|K2|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|K9|NGND_KEL0",
+          "U6-RTC|MIMXRT1062DVJ6B.2|L9|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|N1|DCDC_GND",
+          "U6-RTC|MIMXRT1062DVJ6B.2|N2|DCDC_GND",
+          "U6-RTC|MIMXRT1062DVJ6B.2|N5|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|N8|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|N9|RTC_XTALI",
+          "U6-RTC|MIMXRT1062DVJ6B.2|P14|VSS",
+          "U6-RTC|MIMXRT1062DVJ6B.2|P1|VSS",
+          "U7-RTC|TPS3808G33DBVR.1|2|GND",
+          "U8-RTDBG|IS25LP064A-JBLE.1|4|GND",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|1|GND",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|40|GND",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|41|GND",
+          "Y1-RTDBG|XRCGB24M000F3A00R0.1|2|GND",
+          "Y1-RTDBG|XRCGB24M000F3A00R0.1|4|GND",
+          "Y2-NFC|ABM12-117-27.120MHZ-T3.1|2|GND",
+          "Y2-NFC|ABM12-117-27.120MHZ-T3.1|4|GND"
+        ]
+      },
+      "I2C_SCL": {
+        "before": [
+          "R29-AUD|RC0402FR-074K7L.1|2|2",
+          "R46-MOT|RC0402FR-070RL.1|2|2",
+          "R47-MOT|RC0402FR-0710KL.1|2|2",
+          "U11-AUD|TLV320ADC6120IRTER.1|13|SCL",
+          "U12-NFC|ST25R3916B-AQWT.1|30|SCLK/SCL",
+          "U2-PWR1|INA226AIDGSR.1|5|SCL",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|38|IO2"
+        ],
+        "after": [
+          "R29-AUD|RC0402FR-074K7L.1|2|2",
+          "R46-MOT|RC0402FR-070RL.1|2|2",
+          "R47-MOT|RC0402FR-070RL.1|2|2",
+          "U11-AUD|TLV320ADC6120IRTER.1|13|SCL",
+          "U12-NFC|ST25R3916B-AQWT.1|30|SCLK/SCL",
+          "U13-MOT|LIS2DH12TR.1|1|SCL/SPC",
+          "U2-PWR1|INA226AIDGSR.1|5|SCL",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|38|IO2"
+        ]
+      },
+      "I2C_SDA": {
+        "before": [
+          "R28-AUD|RC0402FR-074K7L.1|2|2",
+          "R4-PWR1|RC0402FR-074K7L.1|1|1",
+          "R44-MOT|RC0402FR-070RL.1|2|2",
+          "R45-MOT|RC0402FR-0710KL.1|2|2",
+          "U11-AUD|TLV320ADC6120IRTER.1|12|SDA",
+          "U12-NFC|ST25R3916B-AQWT.1|32|MISO/SDA",
+          "U2-PWR1|INA226AIDGSR.1|4|SDA",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|39|IO1"
+        ],
+        "after": [
+          "R28-AUD|RC0402FR-074K7L.1|2|2",
+          "R4-PWR1|RC0402FR-074K7L.1|1|1",
+          "R44-MOT|RC0402FR-070RL.1|2|2",
+          "R45-MOT|RC0402FR-070RL.1|2|2",
+          "U11-AUD|TLV320ADC6120IRTER.1|12|SDA",
+          "U12-NFC|ST25R3916B-AQWT.1|32|MISO/SDA",
+          "U13-MOT|LIS2DH12TR.1|4|SDA/SDI/SDO",
+          "U2-PWR1|INA226AIDGSR.1|4|SDA",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|39|IO1"
+        ]
+      },
+      "LED_D0_3V3": {
+        "before": [
+          "U14-LED|SN74AHCT1G125DBVR.1|2|A",
+          "U6-RTC|MIMXRT1062DVJ6B.1|D7|GPIO_B0_00"
+        ],
+        "after": [
+          "RLED_PD0-LED|RC0402FR-0710KL.1|1|1",
+          "U14-LED|SN74AHCT1G125DBVR.1|2|A",
+          "U6-RTC|MIMXRT1062DVJ6B.1|D7|GPIO_B0_00"
+        ]
+      },
+      "LED_D0_5V": {
+        "before": [
+          "R51-LED|RC0402FR-0733RL.1|1|1",
+          "U14-LED|SN74AHCT1G125DBVR.1|4|Y"
+        ],
+        "after": [
+          "R51-LED|RC0402FR-0710KL.1|1|1",
+          "U14-LED|SN74AHCT1G125DBVR.1|4|Y"
+        ]
+      },
+      "LED_D0_J": {
+        "before": [
+          "J2-LED|B3B-XH-A-3PZZ.1|2|2",
+          "R51-LED|RC0402FR-0733RL.1|2|2"
+        ],
+        "after": [
+          "J2-LED|B3B-XH-A-3PZZ.1|2|2",
+          "R51-LED|RC0402FR-0710KL.1|2|2"
+        ]
+      },
+      "LED_D1_3V3": {
+        "before": [
+          "U15-LED|SN74AHCT1G125DBVR.1|2|A",
+          "U6-RTC|MIMXRT1062DVJ6B.1|E7|GPIO_B0_01"
+        ],
+        "after": [
+          "RLED_PD1-LED|RC0402FR-0710KL.1|1|1",
+          "U15-LED|SN74AHCT1G125DBVR.1|2|A",
+          "U6-RTC|MIMXRT1062DVJ6B.1|E7|GPIO_B0_01"
+        ]
+      },
+      "LED_D1_5V": {
+        "before": [
+          "R52-LED|RC0402FR-0733RL.1|1|1",
+          "U15-LED|SN74AHCT1G125DBVR.1|4|Y"
+        ],
+        "after": [
+          "R52-LED|RC0402FR-0710KL.1|1|1",
+          "U15-LED|SN74AHCT1G125DBVR.1|4|Y"
+        ]
+      },
+      "LED_D1_J": {
+        "before": [
+          "J3-LED|B3B-XH-A-3PZZ.1|2|2",
+          "R52-LED|RC0402FR-0733RL.1|2|2"
+        ],
+        "after": [
+          "J3-LED|B3B-XH-A-3PZZ.1|2|2",
+          "R52-LED|RC0402FR-0710KL.1|2|2"
+        ]
+      },
+      "LED_EFUSE_DVDT": {
+        "before": [
+          "C68-PWR2|GRM155R71H222KA01D.1|1|1",
+          "U4-PWR2|TPS259474LRPWR.1|7|DVDT"
+        ],
+        "after": [
+          "C68-PWR2|GRM155R71H222KA01D.1|1|1"
+        ]
+      },
+      "LED_EFUSE_ILIM": {
+        "before": [
+          "R8-PWR2|RC0402FR-0710KL.1|1|1",
+          "U4-PWR2|TPS259474LRPWR.1|9|ILM"
+        ],
+        "after": [
+          "R8-PWR2|RC0402FR-0710KL.1|1|1"
+        ]
+      },
+      "LED_THERM_L": {
+        "before": [
+          "RT1-LED|NCP15XH103F03RC.1|1|1",
+          "U6-RTC|MIMXRT1062DVJ6B.2|L12|GPIO_AD_B1_04"
+        ],
+        "after": [
+          "RNTC_L-LED|RC0402FR-0710KL.1|2|2",
+          "RT1-LED|NCP15XH103F03RC.1|1|1",
+          "U6-RTC|MIMXRT1062DVJ6B.2|L12|GPIO_AD_B1_04"
+        ]
+      },
+      "LED_THERM_R": {
+        "before": [
+          "RT2-LED|NCP15XH103F03RC.1|1|1",
+          "U6-RTC|MIMXRT1062DVJ6B.2|K12|GPIO_AD_B1_05"
+        ],
+        "after": [
+          "RNTC_R-LED|RC0402FR-0710KL.1|2|2",
+          "RT2-LED|NCP15XH103F03RC.1|1|1",
+          "U6-RTC|MIMXRT1062DVJ6B.2|K12|GPIO_AD_B1_05"
+        ]
+      },
+      "MOTION_INT_S3": {
+        "before": [
+          "R49-MOT|RC0402FR-0710KL.1|2|2",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|5|IO5"
+        ],
+        "after": [
+          "R49-MOT|RC0402FR-0710KL.1|2|2"
+        ]
+      },
+      "NFC_5V": {
+        "before": [
+          "C16-PWR2|GRM21BR61E226ME44L.1|1|1",
+          "C17-PWR2|GRM155R71C104KA88D.1|1|1",
+          "C57-NFC|GRM155R60J106ME44D.1|1|1",
+          "C58-NFC|GRM155R71C104KA88D.1|1|1",
+          "FB3-PWR2|BLM21PG221SN1D.1|2|2",
+          "U12-NFC|ST25R3916B-AQWT.1|10|VDD_TX"
+        ],
+        "after": [
+          "C16-PWR2|GRM21BR61E226ME44L.1|1|1",
+          "C17-PWR2|GRM155R71C104KA88D.1|1|1",
+          "C57-NFC|GRM155R60J106ME44D.1|1|1",
+          "C58-NFC|GRM155R71C104KA88D.1|1|1",
+          "FB3-PWR2|BLM21PG221SN1D.1|2|2",
+          "U12-NFC|ST25R3916B-AQWT.1|10|VDD_TX",
+          "U12-NFC|ST25R3916B-AQWT.1|8|VDD"
+        ]
+      },
+      "NFC_AGDC": {
+        "before": [
+          "C97-NFC|GRM155R60J225ME15D.1|1|1",
+          "U12-NFC|ST25R3916B-AQWT.1|24|AGDC"
+        ],
+        "after": [
+          "C97-NFC|GRM155R61A105KE15D.1|1|1",
+          "U12-NFC|ST25R3916B-AQWT.1|24|AGDC"
+        ]
+      },
+      "NFC_ANT": {
+        "before": [
+          "C61-NFC|GRM1555C1H470JA01D.1|1|1",
+          "J10-NFC|U.FL-R-SMT-1(80)_C9900020048.1|1|1",
+          "L3-NFC|LQW15AN33NG00D.1|2|2",
+          "U12-NFC|ST25R3916B-AQWT.1|22|RFI1"
+        ],
+        "after": [
+          "C60-NFC|GRM1555C1H330JA01D.1|2|2",
+          "C61-NFC|GRM1555C1H470JA01D.1|1|1",
+          "CVDR1-NFC|GRM155R71C104KA88D.1|1|1",
+          "J10-NFC|U.FL-R-SMT-1(80)_C9900020048.1|1|1"
+        ]
+      },
+      "NFC_EMI": {
+        "before": [
+          "C59-NFC|GRM1555C1H220JA01D.1|1|1",
+          "L2-NFC|LQW15AN5N6C10D.1|2|2",
+          "R42-NFC|RC0402JR-072R2L.1|1|1"
+        ],
+        "after": [
+          "C59-NFC|GRM1555C1H220JA01D.1|1|1",
+          "L2-NFC|LQW15AN5N6C10D.1|2|2",
+          "R42-NFC|RC0402FR-0710KL.1|1|1"
+        ]
+      },
+      "NFC_IRQ": {
+        "before": [
+          "R43-NFC|RC0402FR-074K7L.1|2|2",
+          "U12-NFC|ST25R3916B-AQWT.1|27|IRQ",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|4|IO4"
+        ],
+        "after": [
+          "U12-NFC|ST25R3916B-AQWT.1|27|IRQ",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|4|IO4"
+        ]
+      },
+      "NFC_MATCH_IN": {
+        "before": [
+          "C60-NFC|GRM1555C1H330JA01D.1|1|1",
+          "R42-NFC|RC0402JR-072R2L.1|2|2"
+        ],
+        "after": [
+          "C60-NFC|GRM1555C1H330JA01D.1|1|1",
+          "R42-NFC|RC0402FR-0710KL.1|2|2"
+        ]
+      },
+      "NFC_VDD_A": {
+        "before": [
+          "C93-NFC|GRM155R60J225ME15D.1|1|1",
+          "U12-NFC|ST25R3916B-AQWT.1|7|VDD_A"
+        ],
+        "after": [
+          "C93-NFC|GRM155R60J225ME15D.1|1|1",
+          "C99-NFC|GRM155R71C104KA88D.1|1|1",
+          "U12-NFC|ST25R3916B-AQWT.1|7|VDD_A"
+        ]
+      },
+      "NFC_VDD_AM": {
+        "before": [
+          "C95-NFC|GRM155R60J225ME15D.1|1|1",
+          "U12-NFC|ST25R3916B-AQWT.1|11|VDD_AM"
+        ],
+        "after": [
+          "C911-NFC|GRM155R71C104KA88D.1|1|1",
+          "C95-NFC|GRM155R60J225ME15D.1|1|1",
+          "U12-NFC|ST25R3916B-AQWT.1|11|VDD_AM"
+        ]
+      },
+      "NFC_VDD_D": {
+        "before": [
+          "C92-NFC|GRM155R60J225ME15D.1|1|1",
+          "U12-NFC|ST25R3916B-AQWT.1|3|VDD_D"
+        ],
+        "after": [
+          "C92-NFC|GRM155R60J225ME15D.1|1|1",
+          "C98-NFC|GRM155R71C104KA88D.1|1|1",
+          "U12-NFC|ST25R3916B-AQWT.1|3|VDD_D"
+        ]
+      },
+      "NFC_VDD_DR": {
+        "before": [
+          "C96-NFC|GRM155R60J225ME15D.1|1|1",
+          "U12-NFC|ST25R3916B-AQWT.1|14|VDD_DR"
+        ],
+        "after": [
+          "C912-NFC|GRM155R71C104KA88D.1|1|1",
+          "C96-NFC|GRM155R60J225ME15D.1|1|1",
+          "U12-NFC|ST25R3916B-AQWT.1|14|VDD_DR"
+        ]
+      },
+      "NFC_VDD_RF": {
+        "before": [
+          "C94-NFC|GRM155R60J225ME15D.1|1|1",
+          "U12-NFC|ST25R3916B-AQWT.1|9|VDD_RF"
+        ],
+        "after": [
+          "C910-NFC|GRM155R71C104KA88D.1|1|1",
+          "C94-NFC|GRM155R60J225ME15D.1|1|1",
+          "U12-NFC|ST25R3916B-AQWT.1|9|VDD_RF"
+        ]
+      },
+      "NFC_XTI": {
+        "before": [
+          "C54-NFC|GRM1555C1H100JA01D.1|1|1",
+          "U12-NFC|ST25R3916B-AQWT.1|5|XTI",
+          "Y2-NFC|ABM12-117-27.120MHZ-T3.1|1|1"
+        ],
+        "after": [
+          "C54-NFC|GRM155R71C104KA88D.1|1|1",
+          "U12-NFC|ST25R3916B-AQWT.1|5|XTI",
+          "Y2-NFC|ABM12-117-27.120MHZ-T3.1|1|1"
+        ]
+      },
+      "NFC_XTO": {
+        "before": [
+          "C55-NFC|GRM1555C1H100JA01D.1|1|1",
+          "U12-NFC|ST25R3916B-AQWT.1|4|XTO",
+          "Y2-NFC|ABM12-117-27.120MHZ-T3.1|2|GND"
+        ],
+        "after": [
+          "C55-NFC|GRM155R71C104KA88D.1|1|1",
+          "U12-NFC|ST25R3916B-AQWT.1|4|XTO",
+          "Y2-NFC|ABM12-117-27.120MHZ-T3.1|3|3"
+        ]
+      },
+      "PDM_CLK": {
+        "before": [
+          "J9-AUD|FH12-10S-0.5SH(55).1|3|3",
+          "R38-AUD|RC0402FR-070RL.1|1|1",
+          "R40-AUD|RC0402FR-0710KL.1|1|1",
+          "TP4-AUD|TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1|1|1"
+        ],
+        "after": [
+          "J9-AUD|FH12-10S-0.5SH(55).1|3|3",
+          "R38-AUD|RC0402FR-0722RL.1|1|1",
+          "R40-AUD|RC0402FR-0722RL.1|1|1",
+          "TP4-AUD|TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1|1|1"
+        ]
+      },
+      "PDM_CLK_ADC": {
+        "before": [
+          "R38-AUD|RC0402FR-070RL.1|2|2",
+          "U11-AUD|TLV320ADC6120IRTER.1|11|GPIO1"
+        ],
+        "after": [
+          "R38-AUD|RC0402FR-0722RL.1|2|2",
+          "U11-AUD|TLV320ADC6120IRTER.1|11|GPIO1"
+        ]
+      },
+      "PDM_CLK_RT": {
+        "before": [
+          "R40-AUD|RC0402FR-0710KL.1|2|2",
+          "U6-RTC|MIMXRT1062DVJ6B.2|J13|GPIO_AD_B1_11"
+        ],
+        "after": [
+          "R40-AUD|RC0402FR-0722RL.1|2|2",
+          "U6-RTC|MIMXRT1062DVJ6B.2|J13|GPIO_AD_B1_11"
+        ]
+      },
+      "PDM_DAT": {
+        "before": [
+          "J9-AUD|FH12-10S-0.5SH(55).1|5|5",
+          "R39-AUD|RC0402FR-070RL.1|1|1",
+          "R41-AUD|RC0402FR-0710KL.1|1|1",
+          "TP5-AUD|TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1|1|1"
+        ],
+        "after": [
+          "J9-AUD|FH12-10S-0.5SH(55).1|5|5",
+          "R39-AUD|RC0402FR-0722RL.1|1|1",
+          "R41-AUD|RC0402FR-0722RL.1|1|1",
+          "TP5-AUD|TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1|1|1"
+        ]
+      },
+      "PDM_DAT_ADC": {
+        "before": [
+          "R39-AUD|RC0402FR-070RL.1|2|2",
+          "U11-AUD|TLV320ADC6120IRTER.1|3|IN2P_GPI1"
+        ],
+        "after": [
+          "R39-AUD|RC0402FR-0722RL.1|2|2",
+          "U11-AUD|TLV320ADC6120IRTER.1|3|IN2P_GPI1"
+        ]
+      },
+      "PDM_DAT_RT": {
+        "before": [
+          "R41-AUD|RC0402FR-0710KL.1|2|2",
+          "U6-RTC|MIMXRT1062DVJ6B.2|L13|GPIO_AD_B1_10"
+        ],
+        "after": [
+          "R41-AUD|RC0402FR-0722RL.1|2|2",
+          "U6-RTC|MIMXRT1062DVJ6B.2|L13|GPIO_AD_B1_10"
+        ]
+      },
+      "USB_CC1": {
+        "before": [
+          "J7-ESP|USB4105-GF-A.1|A5|CC1",
+          "R21-ESP|RC0402FR-075K1L.1|1|1"
+        ],
+        "after": [
+          "J1-PWR1|USB4105-GF-A.1|A5|CC1",
+          "J7-ESP|USB4105-GF-A.1|A5|CC1",
+          "R21-ESP|RC0402FR-075K1L.1|1|1",
+          "RCC1-PWR1|RC0402FR-075K1L.1|1|1",
+          "RCC1S-PWR1|RC0402FR-0710KL.1|1|1"
+        ]
+      },
+      "USB_CC2": {
+        "before": [
+          "J7-ESP|USB4105-GF-A.1|B5|CC2",
+          "R22-ESP|RC0402FR-075K1L.1|1|1"
+        ],
+        "after": [
+          "J1-PWR1|USB4105-GF-A.1|B5|CC2",
+          "J7-ESP|USB4105-GF-A.1|B5|CC2",
+          "R22-ESP|RC0402FR-075K1L.1|1|1",
+          "RCC2-PWR1|RC0402FR-075K1L.1|1|1",
+          "RCC2S-PWR1|RC0402FR-0710KL.1|1|1"
+        ]
+      },
+      "USB_DM_S3": {
+        "before": [
+          "C44-ESP|GRM1555C1H101JA01D.1|1|1",
+          "R74-ESP|RC0402FR-0722RL.1|2|2",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|13|IO19"
+        ],
+        "after": [
+          "C44-ESP|GRM155R71C104KA88D.1|1|1",
+          "R74-ESP|RC0402FR-0722RL.1|2|2",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|13|IO19"
+        ]
+      },
+      "USB_DP_S3": {
+        "before": [
+          "C43-ESP|GRM1555C1H101JA01D.1|1|1",
+          "R73-ESP|RC0402FR-0722RL.1|2|2",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|14|IO20"
+        ],
+        "after": [
+          "C43-ESP|GRM155R71C104KA88D.1|1|1",
+          "R73-ESP|RC0402FR-0722RL.1|2|2",
+          "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|14|IO20"
+        ]
+      },
+      "USB_EFUSE_OVLO": {
+        "before": [
+          "R2-PWR1|RC0402FR-07100KL.1|2|2",
+          "R64-PWR1|RC0402FR-07324KL.1|1|1",
+          "U1-PWR1|TPS259474LRPWR.1|2|OVLO/OVCSEL"
+        ],
+        "after": [
+          "R2-PWR1|RC0402FR-07100KL.1|2|2",
+          "R64-PWR1|RC0402FR-0710KL.1|1|1",
+          "U1-PWR1|TPS259474LRPWR.1|2|OVLO/OVCSEL"
+        ]
+      },
+      "USB_EFUSE_PG": {
+        "before": [
+          "R67-PWR1|RC0402FR-0710KL.1|2|2",
+          "U1-PWR1|TPS259474LRPWR.1|3|PG/AUXOFF"
+        ],
+        "after": [
+          "R67-PWR1|RC0402FR-0710KL.1|2|2"
+        ]
+      }
+    }
+  }
+}

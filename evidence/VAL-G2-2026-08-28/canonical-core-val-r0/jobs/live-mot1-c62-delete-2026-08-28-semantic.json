@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-mot1-c62-delete-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2258086:6f9d4200",
+  "post_source_hash": "2257697:4c23b613",
+  "saved": true,
+  "stage": "delete",
+  "scope": "Delete unwired duplicate C62-MOT1 only",
+  "intended_delta": "Delete C62-MOT1 1c431593519b8c88 only. Do not delete C62-MOT. Do not move, rename or wire anything else.",
+  "affected": ["C62-MOT1"],
+  "census": {
+    "components": 229,
+    "wires": 694,
+    "designators": 227
+  },
+  "absent": [],
+  "present": ["C62-MOT1", "C62-MOT"],
+  "delete_landed": false,
+  "note": "Host delete returned true twice; pin list and source still have 1c431593519b8c88. A GND wire near the RTC row split 1->2 during the same window."
+}

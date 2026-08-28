@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-mot1-r44-rename-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Rename R44-MOT1 to R44-MOT only. Do not move it. Do not change its nets or value.",
+  "observed_delta": "The 0R on the I2C_SDA / MOTION_SDA pair now reads R44-MOT and is still at 2615,-3095. R45-MOT1 was not renamed. C62-MOT1 remains DO NOT FIT. No motion part moved.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/live-mot1-c62-contain-after.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "designator is R44-MOT",
+      "result": "OK",
+      "detail": "Source designator on 4baf65b7a960e4f0 is R44-MOT."
+    },
+    {
+      "name": "id stays 4baf65b7a960e4f0",
+      "result": "OK",
+      "detail": "Same primitive id; no replacement part was created for R44."
+    },
+    {
+      "name": "position stays 2615,-3095",
+      "result": "OK",
+      "detail": "Coordinates unchanged."
+    },
+    {
+      "name": "no new component ids",
+      "result": "OK",
+      "detail": "The R44 primitive was not duplicated. A separate GND flag appeared in the RTC area during the same window and is not a motion part."
+    },
+    {
+      "name": "R45-MOT1 unchanged",
+      "result": "OK",
+      "detail": "R45-MOT1 remains at 2715,-3095 named DNP."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-mot1-c62-delete-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Delete C62-MOT1 1c431593519b8c88 only. Do not delete C62-MOT. Do not move, rename or wire anything else.",
+  "observed_delta": "C62-MOT1 is still on the live sheet. Both pins still enumerate. C62-MOT is untouched. A GND net in the RTC area was rewritten from one wire into two. The requested delete did not land.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/damage-reconcile-c62-pair.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [
+    "GND wire 6b8c8fb4e61bfd63 near 2135,-3710 split into 3ed8a758188fbe8c and cd0b3250755d122d"
+  ],
+  "verdict": "REJECTED",
+  "checks": [
+    {
+      "name": "C62-MOT1 is gone",
+      "result": "DEFECT",
+      "detail": "Id 1c431593519b8c88 still has two pins at 2270,3000 and 2310,3000."
+    },
+    {
+      "name": "C62-MOT remains",
+      "result": "OK",
+      "detail": "e13842 still present with pins at 2410,3095 and 2450,3095."
+    },
+    {
+      "name": "no new component ids",
+      "result": "OK",
+      "detail": "Component id set unchanged at 229."
+    },
+    {
+      "name": "R44-MOT1 and R45-MOT1 still present",
+      "result": "OK",
+      "detail": "Those two designators remain; they were not deleted."
+    },
+    {
+      "name": "C62-MOT still on 3V3 and GND",
+      "result": "OK",
+      "detail": "Original capacitor was not the delete target and remains in source."
+    }
+  ]
+}

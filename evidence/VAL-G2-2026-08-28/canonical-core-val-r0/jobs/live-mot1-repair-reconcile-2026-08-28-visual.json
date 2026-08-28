@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-mot1-repair-reconcile-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Reconcile the live K1-Core-Val-R0 mutation gate onto dump 2227 before the C62-MOT1 delete. No write in this transaction.",
+  "observed_delta": "Active tab is unsaved P1.Schematic1 on live K1-Core-Val-R0. Source dump 2258086:6f9d4200 still contains C62-MOT1 and C62-MOT. Fit-selection of those two ids landed on a nearby box gutter, not the motion row. Semantic census is the identity proof for this reconcile.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/damage-reconcile-c62-pair.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "identity",
+      "result": "OK",
+      "detail": "get_current_context parent is 64325d0e and page is 1435cb46."
+    },
+    {
+      "name": "c62-mot1 still present",
+      "result": "OK",
+      "detail": "Dump 2227 still has designator C62-MOT1 on id 1c431593519b8c88."
+    },
+    {
+      "name": "c62-mot still present",
+      "result": "OK",
+      "detail": "Dump 2227 still has designator C62-MOT on id e13842."
+    },
+    {
+      "name": "census",
+      "result": "OK",
+      "detail": "229 components, 227 designators, 693 wires. No new MOT1 refs since dump 2226."
+    }
+  ]
+}

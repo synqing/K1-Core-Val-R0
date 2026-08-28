@@ -1,0 +1,5 @@
+[
+  {"tool": "get_current_context", "tag": "proof-context", "args": {}},
+  {"tool": "get_schematic_netlist", "tag": "netlist", "args": {"fileName": "review-netlist", "netlistType": "EasyEDA", "saveToFileSystemPath": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/offline-bulk-repair/review-netlist.net", "forceOverwrite": true}},
+  {"tool": "run_schematic_drc", "tag": "erc", "args": {"strict": true, "userInterface": false, "includeVerboseError": true}}
+]

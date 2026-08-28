@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-mot1-r44-rename-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2255535:1b784134",
+  "post_source_hash": "2260172:8fc58874",
+  "saved": true,
+  "stage": "designate",
+  "scope": "Restore R44-MOT designator",
+  "intended_delta": "Rename R44-MOT1 to R44-MOT only. Do not move it. Do not change its nets or value.",
+  "affected": ["R44-MOT"],
+  "census": {
+    "components": 230,
+    "wires": 693,
+    "designators": 227
+  },
+  "present": ["R44-MOT", "R45-MOT1", "C62-MOT", "C62-MOT1"],
+  "absent": ["R44-MOT1"],
+  "attrs": {
+    "R44-MOT": {
+      "id": "4baf65b7a960e4f0",
+      "x": 2615,
+      "y": -3095,
+      "Name": "0R"
+    }
+  }
+}

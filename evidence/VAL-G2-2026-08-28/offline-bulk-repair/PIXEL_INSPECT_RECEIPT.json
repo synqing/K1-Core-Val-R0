@@ -1,0 +1,16 @@
+{
+  "claim": "Review project shows one sheet with ten domain boxes after save/reopen; not blank; not a dummy lattice.",
+  "subject_recognisable": true,
+  "craft_obvious": "ten titled boxes and project name K1-Core-Val-R0-G2.1-BULK-CANDIDATE are obvious on the whole-sheet shots; individual designators are not readable at that scale",
+  "files": [
+    "review-after-reopen-whole.png",
+    "review-whole-before-save.png",
+    "review-identity-before-save.png"
+  ],
+  "not_for_captain_as_designator_proof": [
+    "review-after-reopen-whole.png",
+    "review-whole-before-save.png",
+    "review-after-reopen-cua-whole.png"
+  ],
+  "hang_overlay": "review-after-reopen-cua-whole.png"
+}

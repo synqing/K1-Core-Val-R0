@@ -9,7 +9,7 @@ Updated: 2026-08-28
 | VAL-G2 | **READY** |
 | VAL-G2.0A fixture definition | **RETIRED_BY_D-042 — corrected historical inventory 181, planned 218; old 120-net threshold not met** |
 | VAL-G2.0B EasyEDA qualification execution | **TERMINATED_BY_D-042 — qualification project frozen** |
-| VAL-G2.1 canonical single-sheet schematic capture | **IN PROGRESS — project 64325d0e55e0435abd018defb0089a9b; authority layer caught up to the tree 2026-08-28 (D-044 … D-047)** |
+| VAL-G2.1 canonical single-sheet schematic capture | **IN PROGRESS — live `64325d0e55e0435abd018defb0089a9b` remains product canonical and untouched. `dcd7e3ca…` is the G2.1 electrical reference / EasyEDA normalisation oracle (D-048), not drawing authority. Import receipt NOT YET ACCEPTED. G2.2 readable reconstruction not started.** |
 | VAL-G3 envelope and floorplan | NOT STARTED — non-binding direction recorded in `architecture/G3-FLOORPLAN-DOCTRINE.md` (`RECORDED_NOT_EXECUTED`) |
 | VAL-G4 placement and locks | NOT STARTED |
 | VAL-G5 stack, rules, planes | NOT STARTED |
@@ -62,6 +62,16 @@ canonical page; the qualification project receives no further mutation.
 
 Voice PE specimen re-derivation is D-043 (`docs/agent/VOICE-PE-SPECIMEN-VAL-R0.md`).
 Receipt: `evidence/VAL-G2-2026-08-28/CURRENT-STATE-RECEIPT.md`. That lane does not write EasyEDA.
+
+A disposable G2.1 bulk-repair candidate is **IMPORTED_NOT_CANONICAL** as review project
+`dcd7e3cab2a24b9aa6e531d2b62e1b6f`. D-048 assigns that project the role **G2.1 electrical
+reference / EasyEDA normalisation oracle**. It is not product canonical, not JLCPCB handoff,
+and not schematic-geometry authority. The import receipt is **NOT YET ACCEPTED** (ERC item
+text and critical zooms remain OPEN). Live `64325d0e55e0435abd018defb0089a9b` remains the
+product project and stays untouched. Readable reconstruction is G2.2
+(`K1-Core-Val-R0-G2.2-READABLE-CANDIDATE`); `JLC-SCH-READY` attaches there.
+Programme: `architecture/G2.2-READABLE-SCHEMATIC.md`.
+Receipt: `evidence/VAL-G2-2026-08-28/offline-bulk-repair/IMPORT-VERIFY-RECEIPT.md`.
 
 ### Authority catch-up, 2026-08-28
 

@@ -1,0 +1,1783 @@
+[
+ {
+  "tag": "ctx",
+  "ok": true,
+  "result": {
+   "currentDocument": {
+    "documentType": 1,
+    "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+    "tabId": "1435cb46f39e48c8a8aadbb84ca81603@dcd7e3cab2a24b9aa6e531d2b62e1b6f",
+    "parentProjectUuid": "dcd7e3cab2a24b9aa6e531d2b62e1b6f"
+   },
+   "currentProject": {
+    "itemType": "Project",
+    "uuid": "dcd7e3cab2a24b9aa6e531d2b62e1b6f",
+    "friendlyName": "K1-Core-Val-R0-G2.1-BULK-CANDIDATE",
+    "name": "spectrasynq/K1-Core-Val-R0-G2.1-BULK-CANDIDATE",
+    "teamUuid": "27700277ef7a49e48a0293bece6b2993",
+    "description": "",
+    "data": [
+     {
+      "itemType": "Board",
+      "name": "Board1",
+      "schematic": {
+       "itemType": "Schematic",
+       "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "name": "Schematic1",
+       "page": [
+        {
+         "itemType": "Schematic Page",
+         "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+         "name": "P1",
+         "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+         "showTitleBlock": true,
+         "titleBlockData": {
+          "Symbol": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "@Project Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "K1-Core-Val-R0-G2.1-BULK-CANDIDATE"
+          },
+          "@Page Count": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Update Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-28"
+          },
+          "@Create Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-28"
+          },
+          "@Schematic Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Schematic1"
+          },
+          "@Page No": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Page Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "P1"
+          },
+          "Company": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "SPECTRASYNQ"
+          },
+          "Reviewed": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Version": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "V1.0"
+          },
+          "Page Size": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Custom"
+          },
+          "Drawn": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "@Create Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "19:51:18"
+          },
+          "@Update Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "19:59:27"
+          },
+          "Border": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "5000"
+          },
+          "Height": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "4800"
+          },
+          "Region Start": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "X Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Y Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "8"
+          },
+          "Blade Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Color": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "#333333"
+          },
+          "Title Block Position": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "3"
+          },
+          "Title Block": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "@Board Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Board1"
+          },
+          "Footprint": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Description": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Device": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "ID": {}
+         }
+        }
+       ],
+       "parentProjectUuid": "dcd7e3cab2a24b9aa6e531d2b62e1b6f",
+       "parentBoardName": "Board1"
+      },
+      "pcb": {
+       "itemType": "PCB",
+       "name": "PCB1",
+       "uuid": "59bef7e87cff4cd580561703b62d8c19",
+       "parentBoardName": "Board1",
+       "parentProjectUuid": "dcd7e3cab2a24b9aa6e531d2b62e1b6f"
+      },
+      "parentProjectUuid": "dcd7e3cab2a24b9aa6e531d2b62e1b6f"
+     }
+    ]
+   },
+   "splitScreenTree": {
+    "id": "editor-window-main",
+    "tabs": [
+     {
+      "title": "Start Page",
+      "tabId": "tab_page1",
+      "icon": {
+       "iconClassName": "icon-eda-logo"
+      },
+      "tabStyle": {
+       "width": "auto",
+       "minWidth": "76px"
+      },
+      "isAbleDelete": false,
+      "group": "start_blank",
+      "draggable": true,
+      "data": {
+       "doctype": -1
+      },
+      "isDisplayNone": false
+     },
+     {
+      "tabId": "1435cb46f39e48c8a8aadbb84ca81603@dcd7e3cab2a24b9aa6e531d2b62e1b6f",
+      "title": "P1.Schematic1",
+      "icon": {
+       "iconClassName": "icon-eda-page icon-color-blue"
+      },
+      "draggable": true,
+      "isAbleDelete": true,
+      "notUseI18n": true,
+      "data": {
+       "containerId": "editor-window-main",
+       "doctype": 1,
+       "ticket": 10342,
+       "updateTime": 1787918367843,
+       "data-model-sheet-uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+       "title": "P1",
+       "pid": "dcd7e3cab2a24b9aa6e531d2b62e1b6f",
+       "version": "1787918367843",
+       "schematicName": "Schematic1",
+       "data-schematic-uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "isBlockSymbolSheet": false,
+       "creator": "27700277ef7a49e48a0293bece6b2993",
+       "owner": "27700277ef7a49e48a0293bece6b2993",
+       "sch": true
+      },
+      "titleStyle": {}
+     }
+    ]
+   },
+   "editorBootstrapState": {
+    "startPageOnly": false,
+    "urlHash": "#id=dcd7e3cab2a24b9aa6e531d2b62e1b6f,tab=*1435cb46f39e48c8a8aadbb84ca81603@dcd7e3cab2a24b9aa6e531d2b62e1b6f",
+    "requestedProjectUuid": "dcd7e3cab2a24b9aa6e531d2b62e1b6f",
+    "requestedTabIds": [
+     "*1435cb46f39e48c8a8aadbb84ca81603@dcd7e3cab2a24b9aa6e531d2b62e1b6f"
+    ],
+    "activeRequestedTab": "1435cb46f39e48c8a8aadbb84ca81603@dcd7e3cab2a24b9aa6e531d2b62e1b6f",
+    "requestedActiveTabMissing": false,
+    "visibleTabIds": [
+     "tab_page1",
+     "1435cb46f39e48c8a8aadbb84ca81603@dcd7e3cab2a24b9aa6e531d2b62e1b6f"
+    ],
+    "suspectedBootstrapFailure": false
+   },
+   "contextLevel": "project-and-document",
+   "hasProjectContext": true,
+   "hasDocumentContext": true,
+   "recommendedNextSteps": [
+    "Use document-specific tools that match the active document type.",
+    "If you need project inventory or cross-document operations, call list_project_objects next.",
+    "For edits, prefer query tools first so primitive IDs and coordinates are verified before modification."
+   ]
+  }
+ },
+ {
+  "tag": "U1-PWR1",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e504",
+   "count": 10,
+   "pins": [
+    {
+     "primitiveId": "e504-e4",
+     "x": 775,
+     "y": 4110,
+     "pinNumber": "1",
+     "pinName": "EN/UVLO",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e504-e8",
+     "x": 775,
+     "y": 4130,
+     "pinNumber": "2",
+     "pinName": "OVLO/OVCSEL",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e504-e12",
+     "x": 600,
+     "y": 4130,
+     "pinNumber": "3",
+     "pinName": "PG/AUXOFF",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e504-e16",
+     "x": 600,
+     "y": 4110,
+     "pinNumber": "4",
+     "pinName": "PGTH/FLT#",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e504-e20",
+     "x": 775,
+     "y": 4090,
+     "pinNumber": "5",
+     "pinName": "IN",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e504-e24",
+     "x": 600,
+     "y": 4090,
+     "pinNumber": "6",
+     "pinName": "OUT",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e504-e28",
+     "x": 705,
+     "y": 4165,
+     "pinNumber": "7",
+     "pinName": "DVDT",
+     "rotation": 270,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e504-e32",
+     "x": 665,
+     "y": 4165,
+     "pinNumber": "8",
+     "pinName": "GND",
+     "rotation": 270,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e504-e36",
+     "x": 625,
+     "y": 4165,
+     "pinNumber": "9",
+     "pinName": "ILM",
+     "rotation": 270,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e504-e40",
+     "x": 740,
+     "y": 4165,
+     "pinNumber": "10",
+     "pinName": "ITIMER",
+     "rotation": 270,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": true
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R67-PWR1",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e29249",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e29249-e3",
+     "x": 620,
+     "y": 3700,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e29249-e7",
+     "x": 580,
+     "y": 3700,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    }
+   ]
+  }
+ },
+ {
+  "tag": "U17-PWR2",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "ebrc000648",
+   "count": 10,
+   "pins": [
+    {
+     "primitiveId": "ebrc000648-e4",
+     "x": 1495,
+     "y": 4055,
+     "pinNumber": "1",
+     "pinName": "GND",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ebrc000648-e8",
+     "x": 1495,
+     "y": 4125,
+     "pinNumber": "2",
+     "pinName": "IN",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ebrc000648-e12",
+     "x": 1495,
+     "y": 4115,
+     "pinNumber": "3",
+     "pinName": "IN",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ebrc000648-e16",
+     "x": 1495,
+     "y": 4100,
+     "pinNumber": "4",
+     "pinName": "EN1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ebrc000648-e20",
+     "x": 1495,
+     "y": 4090,
+     "pinNumber": "5",
+     "pinName": "EN2",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ebrc000648-e24",
+     "x": 1625,
+     "y": 4075,
+     "pinNumber": "6",
+     "pinName": "FAULT2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ebrc000648-e28",
+     "x": 1625,
+     "y": 4055,
+     "pinNumber": "7",
+     "pinName": "ILIM",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ebrc000648-e32",
+     "x": 1625,
+     "y": 4100,
+     "pinNumber": "8",
+     "pinName": "OUT2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ebrc000648-e36",
+     "x": 1625,
+     "y": 4115,
+     "pinNumber": "9",
+     "pinName": "OUT1",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ebrc000648-e40",
+     "x": 1625,
+     "y": 4125,
+     "pinNumber": "10",
+     "pinName": "FAULT1",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C11-PWR2",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e2268",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e2268-e5",
+     "x": 1060,
+     "y": 4000,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e2268-e9",
+     "x": 1090,
+     "y": 4000,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    }
+   ]
+  }
+ },
+ {
+  "tag": "U16-VAL",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e15539",
+   "count": 6,
+   "pins": [
+    {
+     "primitiveId": "e15539-e5",
+     "x": 4775,
+     "y": 2950,
+     "pinNumber": "1",
+     "pinName": "RESET#",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e15539-e9",
+     "x": 4775,
+     "y": 2940,
+     "pinNumber": "2",
+     "pinName": "GND",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e15539-e13",
+     "x": 4775,
+     "y": 2930,
+     "pinNumber": "3",
+     "pinName": "MR#",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": true
+    },
+    {
+     "primitiveId": "e15539-e17",
+     "x": 4885,
+     "y": 2930,
+     "pinNumber": "4",
+     "pinName": "CT",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": true
+    },
+    {
+     "primitiveId": "e15539-e21",
+     "x": 4885,
+     "y": 2940,
+     "pinNumber": "5",
+     "pinName": "SENSE",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e15539-e25",
+     "x": 4885,
+     "y": 2950,
+     "pinNumber": "6",
+     "pinName": "VDD",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    }
+   ]
+  }
+ },
+ {
+  "tag": "U3-PWR2",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e2199",
+   "count": 10,
+   "pins": [
+    {
+     "primitiveId": "e2199-e5",
+     "x": 1140,
+     "y": 4575,
+     "pinNumber": "1",
+     "pinName": "EN/SYNC",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e2199-e9",
+     "x": 1140,
+     "y": 4565,
+     "pinNumber": "2",
+     "pinName": "SW",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e2199-e13",
+     "x": 1140,
+     "y": 4555,
+     "pinNumber": "3",
+     "pinName": "VO",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e2199-e17",
+     "x": 1140,
+     "y": 4545,
+     "pinNumber": "4",
+     "pinName": "PGND",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e2199-e21",
+     "x": 1140,
+     "y": 4535,
+     "pinNumber": "5",
+     "pinName": "PG",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e2199-e25",
+     "x": 1260,
+     "y": 4535,
+     "pinNumber": "6",
+     "pinName": "VIN",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e2199-e29",
+     "x": 1260,
+     "y": 4545,
+     "pinNumber": "7",
+     "pinName": "PSNS",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e2199-e33",
+     "x": 1260,
+     "y": 4555,
+     "pinNumber": "8",
+     "pinName": "NR/SS",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e2199-e37",
+     "x": 1260,
+     "y": 4565,
+     "pinNumber": "9",
+     "pinName": "FB",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e2199-e41",
+     "x": 1260,
+     "y": 4575,
+     "pinNumber": "10",
+     "pinName": "S-CONF",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    }
+   ]
+  }
+ },
+ {
+  "tag": "U2-PWR1",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e894",
+   "count": 10,
+   "pins": [
+    {
+     "primitiveId": "e894-e3",
+     "x": 655,
+     "y": 4520,
+     "pinNumber": "1",
+     "pinName": "A1",
+     "rotation": 180,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e894-e7",
+     "x": 655,
+     "y": 4510,
+     "pinNumber": "2",
+     "pinName": "A0",
+     "rotation": 180,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e894-e11",
+     "x": 655,
+     "y": 4500,
+     "pinNumber": "3",
+     "pinName": "Alert",
+     "rotation": 180,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e894-e15",
+     "x": 655,
+     "y": 4490,
+     "pinNumber": "4",
+     "pinName": "SDA",
+     "rotation": 180,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e894-e19",
+     "x": 655,
+     "y": 4480,
+     "pinNumber": "5",
+     "pinName": "SCL",
+     "rotation": 180,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e894-e23",
+     "x": 755,
+     "y": 4480,
+     "pinNumber": "6",
+     "pinName": "VS+",
+     "rotation": 0,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e894-e27",
+     "x": 755,
+     "y": 4490,
+     "pinNumber": "7",
+     "pinName": "GND",
+     "rotation": 0,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e894-e31",
+     "x": 755,
+     "y": 4500,
+     "pinNumber": "8",
+     "pinName": "VBUS",
+     "rotation": 0,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e894-e35",
+     "x": 755,
+     "y": 4510,
+     "pinNumber": "9",
+     "pinName": "VIN-",
+     "rotation": 0,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e894-e39",
+     "x": 755,
+     "y": 4520,
+     "pinNumber": "10",
+     "pinName": "VIN+",
+     "rotation": 0,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    }
+   ]
+  }
+ },
+ {
+  "tag": "U12-NFC",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e13516",
+   "count": 33,
+   "pins": [
+    {
+     "primitiveId": "e13516-e5",
+     "x": 1475,
+     "y": 3460,
+     "pinNumber": "1",
+     "pinName": "VDD_IO",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e9",
+     "x": 1475,
+     "y": 3450,
+     "pinNumber": "2",
+     "pinName": "TAD1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": true
+    },
+    {
+     "primitiveId": "e13516-e13",
+     "x": 1475,
+     "y": 3440,
+     "pinNumber": "3",
+     "pinName": "VDD_D",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e17",
+     "x": 1475,
+     "y": 3430,
+     "pinNumber": "4",
+     "pinName": "XTO",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e21",
+     "x": 1475,
+     "y": 3420,
+     "pinNumber": "5",
+     "pinName": "XTI",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e25",
+     "x": 1475,
+     "y": 3410,
+     "pinNumber": "6",
+     "pinName": "GND_D",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e29",
+     "x": 1475,
+     "y": 3400,
+     "pinNumber": "7",
+     "pinName": "VDD_A",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e33",
+     "x": 1475,
+     "y": 3390,
+     "pinNumber": "8",
+     "pinName": "VDD",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e37",
+     "x": 1475,
+     "y": 3380,
+     "pinNumber": "9",
+     "pinName": "VDD_RF",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e41",
+     "x": 1475,
+     "y": 3370,
+     "pinNumber": "10",
+     "pinName": "VDD_TX",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e45",
+     "x": 1475,
+     "y": 3360,
+     "pinNumber": "11",
+     "pinName": "VDD_AM",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e49",
+     "x": 1475,
+     "y": 3350,
+     "pinNumber": "12",
+     "pinName": "GND_DR1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e53",
+     "x": 1475,
+     "y": 3340,
+     "pinNumber": "13",
+     "pinName": "RFO1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e57",
+     "x": 1475,
+     "y": 3330,
+     "pinNumber": "14",
+     "pinName": "VDD_DR",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e61",
+     "x": 1475,
+     "y": 3320,
+     "pinNumber": "15",
+     "pinName": "RFO2",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": true
+    },
+    {
+     "primitiveId": "e13516-e65",
+     "x": 1475,
+     "y": 3310,
+     "pinNumber": "16",
+     "pinName": "GND_DR2",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e69",
+     "x": 1605,
+     "y": 3310,
+     "pinNumber": "17",
+     "pinName": "EXT_LM",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": true
+    },
+    {
+     "primitiveId": "e13516-e73",
+     "x": 1605,
+     "y": 3320,
+     "pinNumber": "18",
+     "pinName": "AAT_A",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": true
+    },
+    {
+     "primitiveId": "e13516-e77",
+     "x": 1605,
+     "y": 3330,
+     "pinNumber": "19",
+     "pinName": "AAT_B",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": true
+    },
+    {
+     "primitiveId": "e13516-e81",
+     "x": 1605,
+     "y": 3340,
+     "pinNumber": "20",
+     "pinName": "I2C_EN",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e85",
+     "x": 1605,
+     "y": 3350,
+     "pinNumber": "21",
+     "pinName": "VSS",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e89",
+     "x": 1605,
+     "y": 3360,
+     "pinNumber": "22",
+     "pinName": "RFI1",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e93",
+     "x": 1605,
+     "y": 3370,
+     "pinNumber": "23",
+     "pinName": "RFI2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": true
+    },
+    {
+     "primitiveId": "e13516-e97",
+     "x": 1605,
+     "y": 3380,
+     "pinNumber": "24",
+     "pinName": "AGDC",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e101",
+     "x": 1605,
+     "y": 3390,
+     "pinNumber": "25",
+     "pinName": "TAD2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": true
+    },
+    {
+     "primitiveId": "e13516-e105",
+     "x": 1605,
+     "y": 3400,
+     "pinNumber": "26",
+     "pinName": "GND_A",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e109",
+     "x": 1605,
+     "y": 3410,
+     "pinNumber": "27",
+     "pinName": "IRQ",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e113",
+     "x": 1605,
+     "y": 3420,
+     "pinNumber": "28",
+     "pinName": "MCU_CLK",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": true
+    },
+    {
+     "primitiveId": "e13516-e117",
+     "x": 1605,
+     "y": 3430,
+     "pinNumber": "29",
+     "pinName": "BSS",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": true
+    },
+    {
+     "primitiveId": "e13516-e121",
+     "x": 1605,
+     "y": 3440,
+     "pinNumber": "30",
+     "pinName": "SCLK/SCL",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e125",
+     "x": 1605,
+     "y": 3450,
+     "pinNumber": "31",
+     "pinName": "MOSI",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": true
+    },
+    {
+     "primitiveId": "e13516-e129",
+     "x": 1605,
+     "y": 3460,
+     "pinNumber": "32",
+     "pinName": "MISO/SDA",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e13516-e133",
+     "x": 1605,
+     "y": 3470,
+     "pinNumber": "33",
+     "pinName": "EP",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    }
+   ]
+  }
+ },
+ {
+  "tag": "U13-MOT",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e14187",
+   "count": 12,
+   "pins": [
+    {
+     "primitiveId": "e14187-e5",
+     "x": 2145,
+     "y": 3300,
+     "pinNumber": "1",
+     "pinName": "SCL/SPC",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e14187-e9",
+     "x": 2145,
+     "y": 3290,
+     "pinNumber": "2",
+     "pinName": "CS",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e14187-e13",
+     "x": 2145,
+     "y": 3280,
+     "pinNumber": "3",
+     "pinName": "SDO/SA0",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e14187-e17",
+     "x": 2145,
+     "y": 3270,
+     "pinNumber": "4",
+     "pinName": "SDA/SDI/SDO",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e14187-e21",
+     "x": 2145,
+     "y": 3260,
+     "pinNumber": "5",
+     "pinName": "RES",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e14187-e25",
+     "x": 2145,
+     "y": 3250,
+     "pinNumber": "6",
+     "pinName": "GND",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e14187-e29",
+     "x": 2345,
+     "y": 3250,
+     "pinNumber": "7",
+     "pinName": "GND",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e14187-e33",
+     "x": 2345,
+     "y": 3260,
+     "pinNumber": "8",
+     "pinName": "GND",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e14187-e37",
+     "x": 2345,
+     "y": 3270,
+     "pinNumber": "9",
+     "pinName": "VDD",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e14187-e41",
+     "x": 2345,
+     "y": 3280,
+     "pinNumber": "10",
+     "pinName": "VDD_IO",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e14187-e45",
+     "x": 2345,
+     "y": 3290,
+     "pinNumber": "11",
+     "pinName": "INT2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": true
+    },
+    {
+     "primitiveId": "e14187-e49",
+     "x": 2345,
+     "y": 3300,
+     "pinNumber": "12",
+     "pinName": "INT1",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C10-PWR2",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e24607",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e24607-e4",
+     "x": 1000,
+     "y": 4295,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e24607-e10",
+     "x": 1040,
+     "y": 4295,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R31-AUD",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12172",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e12172-e3",
+     "x": 450,
+     "y": 2875,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e12172-e7",
+     "x": 410,
+     "y": 2875,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R32-AUD",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12211",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e12211-e3",
+     "x": 630,
+     "y": 2875,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e12211-e7",
+     "x": 590,
+     "y": 2875,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    }
+   ]
+  }
+ },
+ {
+  "tag": "R33-AUD",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e12250",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e12250-e3",
+     "x": 810,
+     "y": 2875,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e12250-e7",
+     "x": 770,
+     "y": 2875,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    }
+   ]
+  }
+ },
+ {
+  "tag": "RILIM-LED",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "ebrc000681",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "ebrc000681-e3",
+     "x": 1670,
+     "y": 4160,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ebrc000681-e7",
+     "x": 1630,
+     "y": 4160,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,4 @@
+[
+  {"tool":"add_schematic_wire","tag":"U1-3","args":{"line":[605,4130,585,4130],"net":"PWR_ENTRY_PG_RT_IOMUX_TBD","saveAfter":false,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool":"add_schematic_wire","tag":"R67-2","args":{"line":[620,3700,640,3700],"net":"PWR_ENTRY_PG_RT_IOMUX_TBD","saveAfter":true,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}}
+]

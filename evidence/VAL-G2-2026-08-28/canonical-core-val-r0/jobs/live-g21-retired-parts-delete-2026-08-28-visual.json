@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-g21-retired-parts-delete-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Delete F1-PWR1, L3-NFC, R43-NFC and R50-MOT only. Leave U1 and U17. Do not collapse 5V_USB_FILTERED in this transaction.",
+  "observed_delta": "Settled canvas still shows U1-PWR1 and U17-PWR2. U17 remains selected with its LED-branch stubs. The four retired designators F1-PWR1, L3-NFC, R43-NFC and R50-MOT are not on the sheet. Source census is 229 components / 692 wires. 5V_USB_FILTERED is still present, as this transaction did not collapse it.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/live-g21-retired-parts-delete-after.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "F1-PWR1 is gone",
+      "result": "OK",
+      "detail": "Source and canvas both lack F1-PWR1. The trunk ferrite is no longer on the live sheet."
+    },
+    {
+      "name": "L3-NFC is gone",
+      "result": "OK",
+      "detail": "L3-NFC is absent from the 2224 source dump and is not visible on the settled canvas."
+    },
+    {
+      "name": "R43-NFC is gone",
+      "result": "OK",
+      "detail": "R43-NFC is absent from the 2224 source dump and is not visible on the settled canvas."
+    },
+    {
+      "name": "R50-MOT is gone",
+      "result": "OK",
+      "detail": "R50-MOT is absent from the 2224 source dump and is not visible on the settled canvas."
+    },
+    {
+      "name": "U1-PWR1 and U17-PWR2 remain",
+      "result": "OK",
+      "detail": "U17-PWR2 is selected in red with its TPS2561 stubs. U1-PWR1 remains present in source. Neither trunk IC was deleted."
+    }
+  ]
+}

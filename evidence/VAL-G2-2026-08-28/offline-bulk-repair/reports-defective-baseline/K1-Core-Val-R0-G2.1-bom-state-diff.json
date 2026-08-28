@@ -1,0 +1,5195 @@
+{
+  "input_sha256": "78245760ba3f824f0d585e5ca7d0488e86dc1761d39a08a0503484b0184d4893",
+  "output_sha256": "1dd7d8156071e5b06163a9a3d28b22f24eab7e5ff62b2fa26ac59623c283cc54",
+  "changed_designators": {
+    "C1-PWR1": {
+      "before": [
+        {
+          "part": "GRM21BR61E226ME44L.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM21BR61E226ME44L.1",
+          "supplier_id": "C86816",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ea4d65f2cead4246abd0b3a54a711198",
+          "project_footprint": "58ed0384d16a4e53b7cb9f67e209d790"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM21BR61E226ME44L.1",
+          "manufacturer_part": "",
+          "supplier_part": "C86816",
+          "supplier_id": "C86816",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ea4d65f2cead4246abd0b3a54a711198",
+          "project_footprint": "58ed0384d16a4e53b7cb9f67e209d790"
+        }
+      ]
+    },
+    "C11-PWR2": {
+      "before": [
+        {
+          "part": "GRM21BR61E226ME44L.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM21BR61E226ME44L.1",
+          "supplier_id": "GRM21BR61E226ME44L.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ea4d65f2cead4246abd0b3a54a711198",
+          "project_footprint": "58ed0384d16a4e53b7cb9f67e209d790"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM21BR61E226ME44L.1",
+          "manufacturer_part": "",
+          "supplier_part": "C86816",
+          "supplier_id": "C86816",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ea4d65f2cead4246abd0b3a54a711198",
+          "project_footprint": "58ed0384d16a4e53b7cb9f67e209d790"
+        }
+      ]
+    },
+    "C12-PWR2": {
+      "before": [
+        {
+          "part": "GRM21BR61E226ME44L.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM21BR61E226ME44L.1",
+          "supplier_id": "GRM21BR61E226ME44L.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ea4d65f2cead4246abd0b3a54a711198",
+          "project_footprint": "58ed0384d16a4e53b7cb9f67e209d790"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM21BR61E226ME44L.1",
+          "manufacturer_part": "",
+          "supplier_part": "C86816",
+          "supplier_id": "C86816",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ea4d65f2cead4246abd0b3a54a711198",
+          "project_footprint": "58ed0384d16a4e53b7cb9f67e209d790"
+        }
+      ]
+    },
+    "C13-PWR2": {
+      "before": [
+        {
+          "part": "GRM21BR61E226ME44L.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM21BR61E226ME44L.1",
+          "supplier_id": "GRM21BR61E226ME44L.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ea4d65f2cead4246abd0b3a54a711198",
+          "project_footprint": "58ed0384d16a4e53b7cb9f67e209d790"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM21BR61E226ME44L.1",
+          "manufacturer_part": "",
+          "supplier_part": "C86816",
+          "supplier_id": "C86816",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ea4d65f2cead4246abd0b3a54a711198",
+          "project_footprint": "58ed0384d16a4e53b7cb9f67e209d790"
+        }
+      ]
+    },
+    "C14-PWR2": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C15-PWR2": {
+      "before": [
+        {
+          "part": "GRM155R60J106ME44D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R60J106ME44D.1",
+          "supplier_id": "GRM155R60J106ME44D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "86f035d41f4d4fc3a8ba7bf486279e8f",
+          "project_footprint": "c33326b9eb52426a92302d852ba3fb73"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R60J106ME44D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C76991",
+          "supplier_id": "C76991",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "86f035d41f4d4fc3a8ba7bf486279e8f",
+          "project_footprint": "c33326b9eb52426a92302d852ba3fb73"
+        }
+      ]
+    },
+    "C16-PWR2": {
+      "before": [
+        {
+          "part": "GRM21BR61E226ME44L.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM21BR61E226ME44L.1",
+          "supplier_id": "GRM21BR61E226ME44L.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ea4d65f2cead4246abd0b3a54a711198",
+          "project_footprint": "58ed0384d16a4e53b7cb9f67e209d790"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM21BR61E226ME44L.1",
+          "manufacturer_part": "",
+          "supplier_part": "C86816",
+          "supplier_id": "C86816",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ea4d65f2cead4246abd0b3a54a711198",
+          "project_footprint": "58ed0384d16a4e53b7cb9f67e209d790"
+        }
+      ]
+    },
+    "C17-PWR2": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C18-RTC": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C2-PWR1": {
+      "before": [
+        {
+          "part": "GRM21BR61E226ME44L.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM21BR61E226ME44L.1",
+          "supplier_id": "C86816",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ea4d65f2cead4246abd0b3a54a711198",
+          "project_footprint": "58ed0384d16a4e53b7cb9f67e209d790"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM21BR61E226ME44L.1",
+          "manufacturer_part": "",
+          "supplier_part": "C86816",
+          "supplier_id": "C86816",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ea4d65f2cead4246abd0b3a54a711198",
+          "project_footprint": "58ed0384d16a4e53b7cb9f67e209d790"
+        }
+      ]
+    },
+    "C3-PWR1": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C37-RTDBG": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C38-RTDBG": {
+      "before": [
+        {
+          "part": "GRM155R60J106ME44D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R60J106ME44D.1",
+          "supplier_id": "GRM155R60J106ME44D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "86f035d41f4d4fc3a8ba7bf486279e8f",
+          "project_footprint": "c33326b9eb52426a92302d852ba3fb73"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R60J106ME44D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C76991",
+          "supplier_id": "C76991",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "86f035d41f4d4fc3a8ba7bf486279e8f",
+          "project_footprint": "c33326b9eb52426a92302d852ba3fb73"
+        }
+      ]
+    },
+    "C39-ESP": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C4-PWR1": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C40-ESP": {
+      "before": [
+        {
+          "part": "GRM155R60J106ME44D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R60J106ME44D.1",
+          "supplier_id": "GRM155R60J106ME44D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "86f035d41f4d4fc3a8ba7bf486279e8f",
+          "project_footprint": "c33326b9eb52426a92302d852ba3fb73"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R60J106ME44D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C76991",
+          "supplier_id": "C76991",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "86f035d41f4d4fc3a8ba7bf486279e8f",
+          "project_footprint": "c33326b9eb52426a92302d852ba3fb73"
+        }
+      ]
+    },
+    "C41-ESP": {
+      "before": [
+        {
+          "part": "GRM21BR61A476ME15L.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM21BR61A476ME15L.1",
+          "supplier_id": "GRM21BR61A476ME15L.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "d791b631b1c94070b07702286fa2c993",
+          "project_footprint": "a38a0896fef04e8184f99e5d6c04c14b"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM21BR61A476ME15L.1",
+          "manufacturer_part": "",
+          "supplier_part": "C124129",
+          "supplier_id": "C124129",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "d791b631b1c94070b07702286fa2c993",
+          "project_footprint": "a38a0896fef04e8184f99e5d6c04c14b"
+        }
+      ]
+    },
+    "C43-ESP": {
+      "before": [
+        {
+          "part": "GRM1555C1H101JA01D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM1555C1H101JA01D.1",
+          "supplier_id": "GRM1555C1H101JA01D.1",
+          "add_into_bom": "no",
+          "convert_to_pcb": "",
+          "device_id": "8924a2eec41640fa9651dea26e133656",
+          "project_footprint": "6cd9a4cd1c35437e96c8fdb27fa13154"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM1555C1H101JA01D.1",
+          "supplier_id": "GRM1555C1H101JA01D.1",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "b9d51890e729ccdab5af3f803135cf35",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C44-ESP": {
+      "before": [
+        {
+          "part": "GRM1555C1H101JA01D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM1555C1H101JA01D.1",
+          "supplier_id": "GRM1555C1H101JA01D.1",
+          "add_into_bom": "no",
+          "convert_to_pcb": "",
+          "device_id": "8924a2eec41640fa9651dea26e133656",
+          "project_footprint": "6cd9a4cd1c35437e96c8fdb27fa13154"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM1555C1H101JA01D.1",
+          "supplier_id": "GRM1555C1H101JA01D.1",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "b9d51890e729ccdab5af3f803135cf35",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C45-ESP": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C46-AUD": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C47-AUD": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C48-AUD": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C49-AUD": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C5-PWR2": {
+      "before": [
+        {
+          "part": "GRM21BR61E226ME44L.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM21BR61E226ME44L.1",
+          "supplier_id": "GRM21BR61E226ME44L.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ea4d65f2cead4246abd0b3a54a711198",
+          "project_footprint": "58ed0384d16a4e53b7cb9f67e209d790"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM21BR61E226ME44L.1",
+          "manufacturer_part": "",
+          "supplier_part": "C86816",
+          "supplier_id": "C86816",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ea4d65f2cead4246abd0b3a54a711198",
+          "project_footprint": "58ed0384d16a4e53b7cb9f67e209d790"
+        }
+      ]
+    },
+    "C50-AUD": {
+      "before": [
+        {
+          "part": "GRM155R60J106ME44D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R60J106ME44D.1",
+          "supplier_id": "GRM155R60J106ME44D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "86f035d41f4d4fc3a8ba7bf486279e8f",
+          "project_footprint": "c33326b9eb52426a92302d852ba3fb73"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R60J106ME44D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C76991",
+          "supplier_id": "C76991",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "86f035d41f4d4fc3a8ba7bf486279e8f",
+          "project_footprint": "c33326b9eb52426a92302d852ba3fb73"
+        }
+      ]
+    },
+    "C52-AUD": {
+      "before": [
+        {
+          "part": "GRM1555C1H101JA01D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM1555C1H101JA01D.1",
+          "supplier_id": "GRM1555C1H101JA01D.1",
+          "add_into_bom": "no",
+          "convert_to_pcb": "",
+          "device_id": "8924a2eec41640fa9651dea26e133656",
+          "project_footprint": "6cd9a4cd1c35437e96c8fdb27fa13154"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM1555C1H101JA01D.1",
+          "supplier_id": "GRM1555C1H101JA01D.1",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "b9d51890e729ccdab5af3f803135cf35",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C53-AUD": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C54-NFC": {
+      "before": [
+        {
+          "part": "GRM1555C1H100JA01D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM1555C1H100JA01D.1",
+          "supplier_id": "GRM1555C1H100JA01D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "7a8d61742a574042a08232e536c0e509",
+          "project_footprint": "7f5ac2f8494f4a36b50946fedb767f7b"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM1555C1H100JA01D.1",
+          "supplier_id": "GRM1555C1H100JA01D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ea659ae3c9da6fcc1a109822d5917136",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C55-NFC": {
+      "before": [
+        {
+          "part": "GRM1555C1H100JA01D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM1555C1H100JA01D.1",
+          "supplier_id": "GRM1555C1H100JA01D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "7a8d61742a574042a08232e536c0e509",
+          "project_footprint": "7f5ac2f8494f4a36b50946fedb767f7b"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM1555C1H100JA01D.1",
+          "supplier_id": "GRM1555C1H100JA01D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ea659ae3c9da6fcc1a109822d5917136",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C56-NFC": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C57-NFC": {
+      "before": [
+        {
+          "part": "GRM155R60J106ME44D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R60J106ME44D.1",
+          "supplier_id": "GRM155R60J106ME44D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "86f035d41f4d4fc3a8ba7bf486279e8f",
+          "project_footprint": "c33326b9eb52426a92302d852ba3fb73"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R60J106ME44D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C76991",
+          "supplier_id": "C76991",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "86f035d41f4d4fc3a8ba7bf486279e8f",
+          "project_footprint": "c33326b9eb52426a92302d852ba3fb73"
+        }
+      ]
+    },
+    "C58-NFC": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C59-NFC": {
+      "before": [
+        {
+          "part": "GRM1555C1H220JA01D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM1555C1H220JA01D.1",
+          "supplier_id": "GRM1555C1H220JA01D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "6f63fd56a27e4ba9bd7ebe559b5708dd",
+          "project_footprint": "a08d828681144baf96d05ba493cac1f0"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM1555C1H220JA01D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C76960",
+          "supplier_id": "C76960",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "6f63fd56a27e4ba9bd7ebe559b5708dd",
+          "project_footprint": "a08d828681144baf96d05ba493cac1f0"
+        }
+      ]
+    },
+    "C6-PWR2": {
+      "before": [
+        {
+          "part": "GRM21BR61A476ME15L.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM21BR61A476ME15L.1",
+          "supplier_id": "GRM21BR61A476ME15L.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "d791b631b1c94070b07702286fa2c993",
+          "project_footprint": "a38a0896fef04e8184f99e5d6c04c14b"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM21BR61A476ME15L.1",
+          "manufacturer_part": "",
+          "supplier_part": "C124129",
+          "supplier_id": "C124129",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "d791b631b1c94070b07702286fa2c993",
+          "project_footprint": "a38a0896fef04e8184f99e5d6c04c14b"
+        }
+      ]
+    },
+    "C60-NFC": {
+      "before": [
+        {
+          "part": "GRM1555C1H330JA01D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM1555C1H330JA01D.1",
+          "supplier_id": "GRM1555C1H330JA01D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "4feba019d15c461f805137fca2454bef",
+          "project_footprint": "27236d73441447cc8b3a5bbe1e63358b"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM1555C1H330JA01D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C76964",
+          "supplier_id": "C76964",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "4feba019d15c461f805137fca2454bef",
+          "project_footprint": "27236d73441447cc8b3a5bbe1e63358b"
+        }
+      ]
+    },
+    "C61-NFC": {
+      "before": [
+        {
+          "part": "GRM1555C1H470JA01D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM1555C1H470JA01D.1",
+          "supplier_id": "GRM1555C1H470JA01D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "9ab7eb5a59784b2f9500c51f5d207f34",
+          "project_footprint": "6c2e0e47611847a98776d7746ad5c4a9"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM1555C1H470JA01D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C76970",
+          "supplier_id": "C76970",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "9ab7eb5a59784b2f9500c51f5d207f34",
+          "project_footprint": "6c2e0e47611847a98776d7746ad5c4a9"
+        }
+      ]
+    },
+    "C62-MOT": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C63-MOT": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C64-LED": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C65-LED": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C66-VAL": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C67-PWR1": {
+      "before": [
+        {
+          "part": "GRM155R71H222KA01D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71H222KA01D.1",
+          "supplier_id": "GRM155R71H222KA01D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "60afd69ff8704030ab59e635298b9afa",
+          "project_footprint": "9cb5e047bfb847b1ab48b167ac2d0cb2"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71H222KA01D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C77022",
+          "supplier_id": "C77022",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "60afd69ff8704030ab59e635298b9afa",
+          "project_footprint": "9cb5e047bfb847b1ab48b167ac2d0cb2"
+        }
+      ]
+    },
+    "C7-PWR2": {
+      "before": [
+        {
+          "part": "GRM21BR61A476ME15L.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM21BR61A476ME15L.1",
+          "supplier_id": "GRM21BR61A476ME15L.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "d791b631b1c94070b07702286fa2c993",
+          "project_footprint": "a38a0896fef04e8184f99e5d6c04c14b"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM21BR61A476ME15L.1",
+          "manufacturer_part": "",
+          "supplier_part": "C124129",
+          "supplier_id": "C124129",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "d791b631b1c94070b07702286fa2c993",
+          "project_footprint": "a38a0896fef04e8184f99e5d6c04c14b"
+        }
+      ]
+    },
+    "C74-RTC": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C75-RTC": {
+      "before": [
+        {
+          "part": "GRM155R60J106ME44D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R60J106ME44D.1",
+          "supplier_id": "GRM155R60J106ME44D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "86f035d41f4d4fc3a8ba7bf486279e8f",
+          "project_footprint": "c33326b9eb52426a92302d852ba3fb73"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R60J106ME44D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C76991",
+          "supplier_id": "C76991",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "86f035d41f4d4fc3a8ba7bf486279e8f",
+          "project_footprint": "c33326b9eb52426a92302d852ba3fb73"
+        }
+      ]
+    },
+    "C78-RTC": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C8-PWR2": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C80-RTC": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C82-RTC": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C83-RTC": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C84-RTC": {
+      "before": [
+        {
+          "part": "GRM155R60J475ME47D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R60J475ME47D.1",
+          "supplier_id": "GRM155R60J475ME47D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "30dd8e9d1b4845d598a51ca9a59d1000",
+          "project_footprint": "67be3a5d8bd243f98b230284e0b3ae5e"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R60J475ME47D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C82453",
+          "supplier_id": "C82453",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "30dd8e9d1b4845d598a51ca9a59d1000",
+          "project_footprint": "67be3a5d8bd243f98b230284e0b3ae5e"
+        }
+      ]
+    },
+    "C85-RTC": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C86-RTC": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C87-RTC": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C88-RTC": {
+      "before": [
+        {
+          "part": "GRM155R60J475ME47D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R60J475ME47D.1",
+          "supplier_id": "GRM155R60J475ME47D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "30dd8e9d1b4845d598a51ca9a59d1000",
+          "project_footprint": "67be3a5d8bd243f98b230284e0b3ae5e"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R60J475ME47D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C82453",
+          "supplier_id": "C82453",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "30dd8e9d1b4845d598a51ca9a59d1000",
+          "project_footprint": "67be3a5d8bd243f98b230284e0b3ae5e"
+        }
+      ]
+    },
+    "C89-RTC": {
+      "before": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R71C104KA88D.1",
+          "supplier_id": "GRM155R71C104KA88D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C9-PWR2": {
+      "before": [
+        {
+          "part": "GRM1555C1H101JA01D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM1555C1H101JA01D.1",
+          "supplier_id": "GRM1555C1H101JA01D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "8924a2eec41640fa9651dea26e133656",
+          "project_footprint": "6cd9a4cd1c35437e96c8fdb27fa13154"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM1555C1H101JA01D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C77177",
+          "supplier_id": "C77177",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "8924a2eec41640fa9651dea26e133656",
+          "project_footprint": "6cd9a4cd1c35437e96c8fdb27fa13154"
+        }
+      ]
+    },
+    "C90-AUD": {
+      "before": [
+        {
+          "part": "GRM155R60J106ME44D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R60J106ME44D.1",
+          "supplier_id": "GRM155R60J106ME44D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "86f035d41f4d4fc3a8ba7bf486279e8f",
+          "project_footprint": "c33326b9eb52426a92302d852ba3fb73"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R60J106ME44D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C76991",
+          "supplier_id": "C76991",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "86f035d41f4d4fc3a8ba7bf486279e8f",
+          "project_footprint": "c33326b9eb52426a92302d852ba3fb73"
+        }
+      ]
+    },
+    "C91-AUD": {
+      "before": [
+        {
+          "part": "GRM155R60J106ME44D.1",
+          "manufacturer_part": "",
+          "supplier_part": "GRM155R60J106ME44D.1",
+          "supplier_id": "GRM155R60J106ME44D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "86f035d41f4d4fc3a8ba7bf486279e8f",
+          "project_footprint": "c33326b9eb52426a92302d852ba3fb73"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R60J106ME44D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C76991",
+          "supplier_id": "C76991",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "86f035d41f4d4fc3a8ba7bf486279e8f",
+          "project_footprint": "c33326b9eb52426a92302d852ba3fb73"
+        }
+      ]
+    },
+    "C910-NFC": {
+      "before": [],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "40f5b493d43c12c253e83bfa6f4b3b56",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C911-NFC": {
+      "before": [],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "40f5b493d43c12c253e83bfa6f4b3b56",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C912-NFC": {
+      "before": [],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "40f5b493d43c12c253e83bfa6f4b3b56",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C97-NFC": {
+      "before": [
+        {
+          "part": "GRM155R60J225ME15D.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "C76993",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "3feb6cc9ffe94b3694ff68c90aa5bdee",
+          "project_footprint": "24b9374e7f2c478f991196f2b221ff62"
+        }
+      ],
+      "after": [
+        {
+          "part": "GRM155R61A105KE15D.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "C76999",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "f14d17c1e9a5432390e635576da7237b",
+          "project_footprint": "79ede26e208f4976b0d55d8d5b5951c5"
+        }
+      ]
+    },
+    "C98-NFC": {
+      "before": [],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "40f5b493d43c12c253e83bfa6f4b3b56",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "C99-NFC": {
+      "before": [],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "40f5b493d43c12c253e83bfa6f4b3b56",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "CINA_DIFF-PWR1": {
+      "before": [],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "GRM155R71C104KA88D",
+          "supplier_part": "C71629",
+          "supplier_id": "C71629",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "yes",
+          "device_id": "a9cf2f91492b44b0ab588d27628e3ff6",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "CMICREG-PWR2": {
+      "before": [],
+      "after": [
+        {
+          "part": "GRM155R61A105KE15D.1",
+          "manufacturer_part": "GRM155R61A105KE15D",
+          "supplier_part": "C76999",
+          "supplier_id": "C76999",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "yes",
+          "device_id": "f14d17c1e9a5432390e635576da7237b",
+          "project_footprint": "79ede26e208f4976b0d55d8d5b5951c5"
+        }
+      ]
+    },
+    "CMOT-BULK": {
+      "before": [],
+      "after": [
+        {
+          "part": "GRM155R60J106ME44D.1",
+          "manufacturer_part": "GRM155R60J106ME44D",
+          "supplier_part": "C76991",
+          "supplier_id": "C76991",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "yes",
+          "device_id": "86f035d41f4d4fc3a8ba7bf486279e8f",
+          "project_footprint": "c33326b9eb52426a92302d852ba3fb73"
+        }
+      ]
+    },
+    "CUSBVBUS-RTC": {
+      "before": [],
+      "after": [
+        {
+          "part": "GRM155R61A105KE15D.1",
+          "manufacturer_part": "GRM155R61A105KE15D",
+          "supplier_part": "C76999",
+          "supplier_id": "C76999",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "yes",
+          "device_id": "f14d17c1e9a5432390e635576da7237b",
+          "project_footprint": "79ede26e208f4976b0d55d8d5b5951c5"
+        }
+      ]
+    },
+    "CVDR1-NFC": {
+      "before": [],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "b9d51890e729ccdab5af3f803135cf35",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "CVDR2-NFC": {
+      "before": [],
+      "after": [
+        {
+          "part": "GRM155R71C104KA88D.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "b9d51890e729ccdab5af3f803135cf35",
+          "project_footprint": "ecc988f162c44eec829a596c8864e6d6"
+        }
+      ]
+    },
+    "D1-PWR1": {
+      "before": [
+        {
+          "part": "USBLC6-2SC6_C323793.1",
+          "manufacturer_part": "",
+          "supplier_part": "USBLC6-2SC6_C323793.1",
+          "supplier_id": "C323793",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "6beee6bbc33549dcb9267fc646db4c64",
+          "project_footprint": "e9d6b0b29be549c891877ed07d352cb7"
+        }
+      ],
+      "after": [
+        {
+          "part": "USBLC6-2SC6_C323793.1",
+          "manufacturer_part": "",
+          "supplier_part": "C323793",
+          "supplier_id": "C323793",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "6beee6bbc33549dcb9267fc646db4c64",
+          "project_footprint": "e9d6b0b29be549c891877ed07d352cb7"
+        }
+      ]
+    },
+    "DVBUS-PWR1": {
+      "before": [],
+      "after": [
+        {
+          "part": "K1_SMF5V_TVS.1",
+          "manufacturer_part": "SMF5.0A",
+          "supplier_part": "C2758488",
+          "supplier_id": "C2758488",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "no",
+          "device_id": "e890934c1d75a9119b109efdcf59bea7",
+          "project_footprint": ""
+        }
+      ]
+    },
+    "F1-PWR1": {
+      "before": [
+        {
+          "part": "BLM21PG221SN1D.1",
+          "manufacturer_part": "",
+          "supplier_part": "BLM21PG221SN1D.1",
+          "supplier_id": "C85840",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "d36e22975be14233becac081b11e1a80",
+          "project_footprint": "a46aa64a8c5d4a9f8947f709d9729870"
+        }
+      ],
+      "after": []
+    },
+    "FB1-PWR2": {
+      "before": [
+        {
+          "part": "BLM21PG221SN1D.1",
+          "manufacturer_part": "",
+          "supplier_part": "BLM21PG221SN1D.1",
+          "supplier_id": "BLM21PG221SN1D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "d36e22975be14233becac081b11e1a80",
+          "project_footprint": "a46aa64a8c5d4a9f8947f709d9729870"
+        }
+      ],
+      "after": [
+        {
+          "part": "BLM21PG221SN1D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C85840",
+          "supplier_id": "C85840",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "d36e22975be14233becac081b11e1a80",
+          "project_footprint": "a46aa64a8c5d4a9f8947f709d9729870"
+        }
+      ]
+    },
+    "FB2-PWR2": {
+      "before": [
+        {
+          "part": "BLM21PG221SN1D.1",
+          "manufacturer_part": "",
+          "supplier_part": "BLM21PG221SN1D.1",
+          "supplier_id": "BLM21PG221SN1D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "d36e22975be14233becac081b11e1a80",
+          "project_footprint": "a46aa64a8c5d4a9f8947f709d9729870"
+        }
+      ],
+      "after": [
+        {
+          "part": "BLM21PG221SN1D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C85840",
+          "supplier_id": "C85840",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "d36e22975be14233becac081b11e1a80",
+          "project_footprint": "a46aa64a8c5d4a9f8947f709d9729870"
+        }
+      ]
+    },
+    "FB3-PWR2": {
+      "before": [
+        {
+          "part": "BLM21PG221SN1D.1",
+          "manufacturer_part": "",
+          "supplier_part": "BLM21PG221SN1D.1",
+          "supplier_id": "BLM21PG221SN1D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "d36e22975be14233becac081b11e1a80",
+          "project_footprint": "a46aa64a8c5d4a9f8947f709d9729870"
+        }
+      ],
+      "after": [
+        {
+          "part": "BLM21PG221SN1D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C85840",
+          "supplier_id": "C85840",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "d36e22975be14233becac081b11e1a80",
+          "project_footprint": "a46aa64a8c5d4a9f8947f709d9729870"
+        }
+      ]
+    },
+    "FB5-AUD": {
+      "before": [
+        {
+          "part": "BLM15AG221SN1D.1",
+          "manufacturer_part": "",
+          "supplier_part": "BLM15AG221SN1D.1",
+          "supplier_id": "BLM15AG221SN1D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "444fd9c8e61e40c4afc338b37186eb86",
+          "project_footprint": "ba0953946ba84445b8b2ab484c081ee1"
+        }
+      ],
+      "after": [
+        {
+          "part": "BLM15AG221SN1D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C85813",
+          "supplier_id": "C85813",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "444fd9c8e61e40c4afc338b37186eb86",
+          "project_footprint": "ba0953946ba84445b8b2ab484c081ee1"
+        }
+      ]
+    },
+    "FB6-ESP": {
+      "before": [],
+      "after": [
+        {
+          "part": "BLM21PG221SN1D.1",
+          "manufacturer_part": "BLM21PG221SN1D",
+          "supplier_part": "C85840",
+          "supplier_id": "C85840",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "yes",
+          "device_id": "d36e22975be14233becac081b11e1a80",
+          "project_footprint": "a46aa64a8c5d4a9f8947f709d9729870"
+        }
+      ]
+    },
+    "J1-PWR1": {
+      "before": [
+        {
+          "part": "USB4105-GF-A.1",
+          "manufacturer_part": "",
+          "supplier_part": "USB4105-GF-A.1",
+          "supplier_id": "C3020560",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "f3e20d985fa741f1b49e7a779e4d9df4",
+          "project_footprint": "e784d9e0a6074a5ca0e3cad58c168a84"
+        }
+      ],
+      "after": [
+        {
+          "part": "USB4105-GF-A.1",
+          "manufacturer_part": "",
+          "supplier_part": "C3020560",
+          "supplier_id": "C3020560",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "f3e20d985fa741f1b49e7a779e4d9df4",
+          "project_footprint": "e784d9e0a6074a5ca0e3cad58c168a84"
+        }
+      ]
+    },
+    "J10-NFC": {
+      "before": [
+        {
+          "part": "U.FL-R-SMT-1(80)_C9900020048.1",
+          "manufacturer_part": "U.FL-R-SMT-1",
+          "supplier_part": "U.FL-R-SMT-1(80)_C9900020048.1",
+          "supplier_id": "U.FL-R-SMT-1(80)_C9900020048.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "b2b9b2a66d1b4a22a915f3030a7f9f29",
+          "project_footprint": "90c010cb399549eaaf57d0448c28e1a3"
+        }
+      ],
+      "after": [
+        {
+          "part": "U.FL-R-SMT-1(80)_C9900020048.1",
+          "manufacturer_part": "U.FL-R-SMT-1",
+          "supplier_part": "C9900020048",
+          "supplier_id": "C9900020048",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "b2b9b2a66d1b4a22a915f3030a7f9f29",
+          "project_footprint": "90c010cb399549eaaf57d0448c28e1a3"
+        }
+      ]
+    },
+    "J11-VAL": {
+      "before": [
+        {
+          "part": "HEADER_MALE-XH_1X6P_2.54MM.1",
+          "manufacturer_part": "PREC006SAAN-RC",
+          "supplier_part": "HEADER_MALE-XH_1X6P_2.54MM.1",
+          "supplier_id": "HEADER_MALE-XH_1X6P_2.54MM.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "faec77292c264f8788c0faaf21105368",
+          "project_footprint": "faccd6cf49f7479eb65535d2b02c23be"
+        }
+      ],
+      "after": [
+        {
+          "part": "HEADER_MALE-XH_1X6P_2.54MM.1",
+          "manufacturer_part": "PREC006SAAN-RC",
+          "supplier_part": "C9900007627",
+          "supplier_id": "C9900007627",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "faec77292c264f8788c0faaf21105368",
+          "project_footprint": "faccd6cf49f7479eb65535d2b02c23be"
+        }
+      ]
+    },
+    "J2-LED": {
+      "before": [
+        {
+          "part": "B3B-XH-A-3PZZ.1",
+          "manufacturer_part": "",
+          "supplier_part": "B3B-XH-A-3PZZ.1",
+          "supplier_id": "B3B-XH-A-3PZZ.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "31729533454f45639fdf055b42e10b37",
+          "project_footprint": "c6c86025c90c41a0a75a430f1a104119"
+        }
+      ],
+      "after": [
+        {
+          "part": "B3B-XH-A-3PZZ.1",
+          "manufacturer_part": "",
+          "supplier_part": "C54444768",
+          "supplier_id": "C54444768",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "31729533454f45639fdf055b42e10b37",
+          "project_footprint": "c6c86025c90c41a0a75a430f1a104119"
+        }
+      ]
+    },
+    "J3-LED": {
+      "before": [
+        {
+          "part": "B3B-XH-A-3PZZ.1",
+          "manufacturer_part": "",
+          "supplier_part": "B3B-XH-A-3PZZ.1",
+          "supplier_id": "B3B-XH-A-3PZZ.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "31729533454f45639fdf055b42e10b37",
+          "project_footprint": "c6c86025c90c41a0a75a430f1a104119"
+        }
+      ],
+      "after": [
+        {
+          "part": "B3B-XH-A-3PZZ.1",
+          "manufacturer_part": "",
+          "supplier_part": "C54444768",
+          "supplier_id": "C54444768",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "31729533454f45639fdf055b42e10b37",
+          "project_footprint": "c6c86025c90c41a0a75a430f1a104119"
+        }
+      ]
+    },
+    "J4-RTDBG": {
+      "before": [
+        {
+          "part": "FTSH-105-01-L-DV-K.1",
+          "manufacturer_part": "",
+          "supplier_part": "FTSH-105-01-L-DV-K.1",
+          "supplier_id": "FTSH-105-01-L-DV-K.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e799fc2e522b4c7fb4e4a38305b32c46",
+          "project_footprint": "e47b64ed6839466a9beba0dc05b6cf36"
+        }
+      ],
+      "after": [
+        {
+          "part": "FTSH-105-01-L-DV-K.1",
+          "manufacturer_part": "",
+          "supplier_part": "C5155080",
+          "supplier_id": "C5155080",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e799fc2e522b4c7fb4e4a38305b32c46",
+          "project_footprint": "e47b64ed6839466a9beba0dc05b6cf36"
+        }
+      ]
+    },
+    "J5-RTDBG": {
+      "before": [
+        {
+          "part": "PREC004SAAN-RC.1",
+          "manufacturer_part": "",
+          "supplier_part": "PREC004SAAN-RC.1",
+          "supplier_id": "PREC004SAAN-RC.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "bf545812656c4189b593f1b96ac59441",
+          "project_footprint": "35744e8e0f9f4e1b87ccd90be3930567"
+        }
+      ],
+      "after": [
+        {
+          "part": "PREC004SAAN-RC.1",
+          "manufacturer_part": "",
+          "supplier_part": "C3327812",
+          "supplier_id": "C3327812",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "bf545812656c4189b593f1b96ac59441",
+          "project_footprint": "35744e8e0f9f4e1b87ccd90be3930567"
+        }
+      ]
+    },
+    "J6-ESP": {
+      "before": [
+        {
+          "part": "HEADER_MALE-XH_1X6P_2.54MM.1",
+          "manufacturer_part": "PREC006SAAN-RC",
+          "supplier_part": "HEADER_MALE-XH_1X6P_2.54MM.1",
+          "supplier_id": "HEADER_MALE-XH_1X6P_2.54MM.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "faec77292c264f8788c0faaf21105368",
+          "project_footprint": "faccd6cf49f7479eb65535d2b02c23be"
+        }
+      ],
+      "after": [
+        {
+          "part": "HEADER_MALE-XH_1X6P_2.54MM.1",
+          "manufacturer_part": "PREC006SAAN-RC",
+          "supplier_part": "C9900007627",
+          "supplier_id": "C9900007627",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "faec77292c264f8788c0faaf21105368",
+          "project_footprint": "faccd6cf49f7479eb65535d2b02c23be"
+        }
+      ]
+    },
+    "J7-ESP": {
+      "before": [
+        {
+          "part": "USB4105-GF-A.1",
+          "manufacturer_part": "",
+          "supplier_part": "USB4105-GF-A.1",
+          "supplier_id": "USB4105-GF-A.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "f3e20d985fa741f1b49e7a779e4d9df4",
+          "project_footprint": "e784d9e0a6074a5ca0e3cad58c168a84"
+        }
+      ],
+      "after": [
+        {
+          "part": "USB4105-GF-A.1",
+          "manufacturer_part": "",
+          "supplier_part": "C3020560",
+          "supplier_id": "C3020560",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "f3e20d985fa741f1b49e7a779e4d9df4",
+          "project_footprint": "e784d9e0a6074a5ca0e3cad58c168a84"
+        }
+      ]
+    },
+    "J8-AUD": {
+      "before": [
+        {
+          "part": "PREC004SAAN-RC.1",
+          "manufacturer_part": "",
+          "supplier_part": "PREC004SAAN-RC.1",
+          "supplier_id": "PREC004SAAN-RC.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "bf545812656c4189b593f1b96ac59441",
+          "project_footprint": "35744e8e0f9f4e1b87ccd90be3930567"
+        }
+      ],
+      "after": [
+        {
+          "part": "PREC004SAAN-RC.1",
+          "manufacturer_part": "",
+          "supplier_part": "C3327812",
+          "supplier_id": "C3327812",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "bf545812656c4189b593f1b96ac59441",
+          "project_footprint": "35744e8e0f9f4e1b87ccd90be3930567"
+        }
+      ]
+    },
+    "J9-AUD": {
+      "before": [
+        {
+          "part": "FH12-10S-0.5SH(55).1",
+          "manufacturer_part": "FH12-10S-0.5SH",
+          "supplier_part": "FH12-10S-0.5SH(55).1",
+          "supplier_id": "FH12-10S-0.5SH(55).1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "88da4c08f24f4c2188b17be09e29a3cc",
+          "project_footprint": "c3e6a2c42c474138a2e85b564f186fb2"
+        }
+      ],
+      "after": [
+        {
+          "part": "FH12-10S-0.5SH(55).1",
+          "manufacturer_part": "FH12-10S-0.5SH",
+          "supplier_part": "C506791",
+          "supplier_id": "C506791",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "88da4c08f24f4c2188b17be09e29a3cc",
+          "project_footprint": "c3e6a2c42c474138a2e85b564f186fb2"
+        }
+      ]
+    },
+    "L2-NFC": {
+      "before": [
+        {
+          "part": "LQW15AN5N6C10D.1",
+          "manufacturer_part": "",
+          "supplier_part": "LQW15AN5N6C10D.1",
+          "supplier_id": "LQW15AN5N6C10D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ae80981db87b4decadfe71c18dcf87e1",
+          "project_footprint": "cd107387724c46e08a6e837f20747cae"
+        }
+      ],
+      "after": [
+        {
+          "part": "LQW15AN5N6C10D.1",
+          "manufacturer_part": "",
+          "supplier_part": "C91626",
+          "supplier_id": "C91626",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ae80981db87b4decadfe71c18dcf87e1",
+          "project_footprint": "cd107387724c46e08a6e837f20747cae"
+        }
+      ]
+    },
+    "L3-NFC": {
+      "before": [
+        {
+          "part": "LQW15AN33NG00D.1",
+          "manufacturer_part": "",
+          "supplier_part": "LQW15AN33NG00D.1",
+          "supplier_id": "LQW15AN33NG00D.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ec9018b7007746bea4aa1bcfbf6ce40e",
+          "project_footprint": "fa6e1a5c6fc24559b5ee7f50206cbb52"
+        }
+      ],
+      "after": []
+    },
+    "Q1-PWR2": {
+      "before": [
+        {
+          "part": "DMG2305UX.1",
+          "manufacturer_part": "",
+          "supplier_part": "DMG2305UX.1",
+          "supplier_id": "DMG2305UX.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "5576035a9479441096c92e4c76ffb30c",
+          "project_footprint": "077b879f2dda49a4aeef78ff896d9213"
+        }
+      ],
+      "after": [
+        {
+          "part": "DMG2305UX.1",
+          "manufacturer_part": "",
+          "supplier_part": "C2940629",
+          "supplier_id": "C2940629",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "5576035a9479441096c92e4c76ffb30c",
+          "project_footprint": "077b879f2dda49a4aeef78ff896d9213"
+        }
+      ]
+    },
+    "Q2-VAL": {
+      "before": [
+        {
+          "part": "2N7002_C414014.1",
+          "manufacturer_part": "",
+          "supplier_part": "2N7002_C414014.1",
+          "supplier_id": "2N7002_C414014.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "f685e07e57ca4a118e488c4ffb030cd4",
+          "project_footprint": "a0e8537f627c49d38822ee28e13c305e"
+        }
+      ],
+      "after": [
+        {
+          "part": "2N7002_C414014.1",
+          "manufacturer_part": "",
+          "supplier_part": "C414014",
+          "supplier_id": "C414014",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "f685e07e57ca4a118e488c4ffb030cd4",
+          "project_footprint": "a0e8537f627c49d38822ee28e13c305e"
+        }
+      ]
+    },
+    "R1-PWR1": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-071K33L",
+          "supplier_part": "C276261",
+          "supplier_id": "C60490",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RNCF0402BTC1K24",
+          "supplier_part": "C2491273",
+          "supplier_id": "C2491273",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "263cdab6e3341f4ea8fd57ccc688e923",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R10-RTC": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0710KL.1",
+          "supplier_id": "C60490",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C60490",
+          "supplier_id": "C60490",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R11-RTC": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0710KL.1",
+          "supplier_id": "C60490",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C60490",
+          "supplier_id": "C60490",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R12-RTC": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0710KL.1",
+          "supplier_id": "RC0402FR-0710KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C60490",
+          "supplier_id": "C60490",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R13-RTDBG": {
+      "before": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-070RL.1",
+          "supplier_id": "RC0402FR-070RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C106231",
+          "supplier_id": "C106231",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ]
+    },
+    "R14-RTDBG": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0710KL.1",
+          "supplier_id": "RC0402FR-0710KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C60490",
+          "supplier_id": "C60490",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R15-RTDBG": {
+      "before": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0722RL.1",
+          "supplier_id": "RC0402FR-0722RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C114765",
+          "supplier_id": "C114765",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ]
+    },
+    "R16-RTDBG": {
+      "before": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0722RL.1",
+          "supplier_id": "RC0402FR-0722RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C114765",
+          "supplier_id": "C114765",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ]
+    },
+    "R17-RTDBG": {
+      "before": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0722RL.1",
+          "supplier_id": "RC0402FR-0722RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C114765",
+          "supplier_id": "C114765",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ]
+    },
+    "R18-RTDBG": {
+      "before": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0722RL.1",
+          "supplier_id": "RC0402FR-0722RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C114765",
+          "supplier_id": "C114765",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ]
+    },
+    "R19-ESP": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0710KL.1",
+          "supplier_id": "RC0402FR-0710KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C60490",
+          "supplier_id": "C60490",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R2-PWR1": {
+      "before": [
+        {
+          "part": "RC0402FR-07100KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-07100KL.1",
+          "supplier_id": "C60491",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a013647b98b14e3fb9a78c6e8fd474c2",
+          "project_footprint": "96a690140ad14eb7990f4dd7a4e8ebc9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-07100KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C60491",
+          "supplier_id": "C60491",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a013647b98b14e3fb9a78c6e8fd474c2",
+          "project_footprint": "96a690140ad14eb7990f4dd7a4e8ebc9"
+        }
+      ]
+    },
+    "R20-ESP": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0710KL.1",
+          "supplier_id": "RC0402FR-0710KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C60490",
+          "supplier_id": "C60490",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R21-ESP": {
+      "before": [
+        {
+          "part": "RC0402FR-075K1L.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-075K1L.1",
+          "supplier_id": "RC0402FR-075K1L.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ed9693b4f812441a8cc1d00e28d7db63",
+          "project_footprint": "2874f8b71e9a4ed39cc1abe350a328f1"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-075K1L.1",
+          "manufacturer_part": "",
+          "supplier_part": "C105872",
+          "supplier_id": "C105872",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ed9693b4f812441a8cc1d00e28d7db63",
+          "project_footprint": "2874f8b71e9a4ed39cc1abe350a328f1"
+        }
+      ]
+    },
+    "R22-ESP": {
+      "before": [
+        {
+          "part": "RC0402FR-075K1L.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-075K1L.1",
+          "supplier_id": "RC0402FR-075K1L.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ed9693b4f812441a8cc1d00e28d7db63",
+          "project_footprint": "2874f8b71e9a4ed39cc1abe350a328f1"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-075K1L.1",
+          "manufacturer_part": "",
+          "supplier_part": "C105872",
+          "supplier_id": "C105872",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ed9693b4f812441a8cc1d00e28d7db63",
+          "project_footprint": "2874f8b71e9a4ed39cc1abe350a328f1"
+        }
+      ]
+    },
+    "R23-ESP": {
+      "before": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0722RL.1",
+          "supplier_id": "RC0402FR-0722RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C114765",
+          "supplier_id": "C114765",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ]
+    },
+    "R24-ESP": {
+      "before": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0722RL.1",
+          "supplier_id": "RC0402FR-0722RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C114765",
+          "supplier_id": "C114765",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ]
+    },
+    "R25-ESP": {
+      "before": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0722RL.1",
+          "supplier_id": "RC0402FR-0722RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C114765",
+          "supplier_id": "C114765",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ]
+    },
+    "R26-ESP": {
+      "before": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0722RL.1",
+          "supplier_id": "RC0402FR-0722RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C114765",
+          "supplier_id": "C114765",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ]
+    },
+    "R27-ESP": {
+      "before": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0722RL.1",
+          "supplier_id": "RC0402FR-0722RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C114765",
+          "supplier_id": "C114765",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ]
+    },
+    "R28-AUD": {
+      "before": [
+        {
+          "part": "RC0402FR-074K7L.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-074K7L.1",
+          "supplier_id": "RC0402FR-074K7L.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "191a00ffdb0d4b8db39aa6fa67c3fbf7",
+          "project_footprint": "a1d66db24f0f431b811b76a3026bc8de"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-074K7L.1",
+          "manufacturer_part": "",
+          "supplier_part": "C105871",
+          "supplier_id": "C105871",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "191a00ffdb0d4b8db39aa6fa67c3fbf7",
+          "project_footprint": "a1d66db24f0f431b811b76a3026bc8de"
+        }
+      ]
+    },
+    "R29-AUD": {
+      "before": [
+        {
+          "part": "RC0402FR-074K7L.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-074K7L.1",
+          "supplier_id": "RC0402FR-074K7L.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "191a00ffdb0d4b8db39aa6fa67c3fbf7",
+          "project_footprint": "a1d66db24f0f431b811b76a3026bc8de"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-074K7L.1",
+          "manufacturer_part": "",
+          "supplier_part": "C105871",
+          "supplier_id": "C105871",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "191a00ffdb0d4b8db39aa6fa67c3fbf7",
+          "project_footprint": "a1d66db24f0f431b811b76a3026bc8de"
+        }
+      ]
+    },
+    "R3-PWR1": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0710KL.1",
+          "supplier_id": "RC0402FR-0710KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C60490",
+          "supplier_id": "C60490",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R31-AUD": {
+      "before": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0722RL.1",
+          "supplier_id": "RC0402FR-0722RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C114765",
+          "supplier_id": "C114765",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ]
+    },
+    "R32-AUD": {
+      "before": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0722RL.1",
+          "supplier_id": "RC0402FR-0722RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C114765",
+          "supplier_id": "C114765",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ]
+    },
+    "R33-AUD": {
+      "before": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0722RL.1",
+          "supplier_id": "RC0402FR-0722RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C114765",
+          "supplier_id": "C114765",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ]
+    },
+    "R34-AUD": {
+      "before": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-070RL.1",
+          "supplier_id": "RC0402FR-070RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C106231",
+          "supplier_id": "C106231",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ]
+    },
+    "R35-AUD": {
+      "before": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-070RL.1",
+          "supplier_id": "RC0402FR-070RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C106231",
+          "supplier_id": "C106231",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ]
+    },
+    "R36-AUD": {
+      "before": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-070RL.1",
+          "supplier_id": "RC0402FR-070RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C106231",
+          "supplier_id": "C106231",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ]
+    },
+    "R37-AUD": {
+      "before": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0722RL.1",
+          "supplier_id": "RC0402FR-0722RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C114765",
+          "supplier_id": "C114765",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ]
+    },
+    "R38-AUD": {
+      "before": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-070RL.1",
+          "supplier_id": "RC0402FR-070RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C114765",
+          "supplier_id": "C114765",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ]
+    },
+    "R39-AUD": {
+      "before": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-070RL.1",
+          "supplier_id": "RC0402FR-070RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C114765",
+          "supplier_id": "C114765",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ]
+    },
+    "R4-PWR1": {
+      "before": [
+        {
+          "part": "RC0402FR-074K7L.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-074K7L.1",
+          "supplier_id": "RC0402FR-074K7L.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "191a00ffdb0d4b8db39aa6fa67c3fbf7",
+          "project_footprint": "a1d66db24f0f431b811b76a3026bc8de"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-074K7L.1",
+          "manufacturer_part": "",
+          "supplier_part": "C105871",
+          "supplier_id": "C105871",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "191a00ffdb0d4b8db39aa6fa67c3fbf7",
+          "project_footprint": "a1d66db24f0f431b811b76a3026bc8de"
+        }
+      ]
+    },
+    "R40-AUD": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-07DNP",
+          "supplier_part": "RC0402FR-0710KL.1",
+          "supplier_id": "RC0402FR-0710KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "",
+          "add_into_bom": "no",
+          "convert_to_pcb": "no",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ]
+    },
+    "R41-AUD": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-07DNP",
+          "supplier_part": "RC0402FR-0710KL.1",
+          "supplier_id": "RC0402FR-0710KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "",
+          "add_into_bom": "no",
+          "convert_to_pcb": "no",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ]
+    },
+    "R42-NFC": {
+      "before": [
+        {
+          "part": "RC0402JR-072R2L.1",
+          "manufacturer_part": "RC0402FR-072R2L",
+          "supplier_part": "RC0402JR-072R2L.1",
+          "supplier_id": "RC0402JR-072R2L.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "d43d4561e33942a0afd9506f7a9ab7ca",
+          "project_footprint": "087436250b54438c86248ef7c7b0b009"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-072R2L",
+          "supplier_part": "C327251",
+          "supplier_id": "C327251",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "0ddea5ca18ce5fa84b836ac8ed2cdfa3",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R43-NFC": {
+      "before": [
+        {
+          "part": "RC0402FR-074K7L.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-074K7L.1",
+          "supplier_id": "RC0402FR-074K7L.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "191a00ffdb0d4b8db39aa6fa67c3fbf7",
+          "project_footprint": "a1d66db24f0f431b811b76a3026bc8de"
+        }
+      ],
+      "after": []
+    },
+    "R44-MOT": {
+      "before": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-070RL.1",
+          "supplier_id": "RC0402FR-070RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C106231",
+          "supplier_id": "C106231",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "yes",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ]
+    },
+    "R45-MOT": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-07DNP",
+          "supplier_part": "RC0402FR-0710KL.1",
+          "supplier_id": "RC0402FR-0710KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "",
+          "add_into_bom": "no",
+          "convert_to_pcb": "no",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ]
+    },
+    "R46-MOT": {
+      "before": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-070RL.1",
+          "supplier_id": "RC0402FR-070RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C106231",
+          "supplier_id": "C106231",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "yes",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ]
+    },
+    "R47-MOT": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-07DNP",
+          "supplier_part": "RC0402FR-0710KL.1",
+          "supplier_id": "RC0402FR-0710KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "",
+          "add_into_bom": "no",
+          "convert_to_pcb": "no",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ]
+    },
+    "R48-MOT": {
+      "before": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-070RL.1",
+          "supplier_id": "RC0402FR-070RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C106231",
+          "supplier_id": "C106231",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ]
+    },
+    "R49-MOT": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-07DNP",
+          "supplier_part": "RC0402FR-0710KL.1",
+          "supplier_id": "RC0402FR-0710KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "",
+          "add_into_bom": "no",
+          "convert_to_pcb": "no",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R5-PWR2": {
+      "before": [
+        {
+          "part": "RC0402FR-07100KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-07100KL.1",
+          "supplier_id": "RC0402FR-07100KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a013647b98b14e3fb9a78c6e8fd474c2",
+          "project_footprint": "96a690140ad14eb7990f4dd7a4e8ebc9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C185463",
+          "supplier_id": "C185463",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "c07a85441fc4ddaf03ba50e0246ad4ad",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R50-MOT": {
+      "before": [
+        {
+          "part": "RC0402FR-074K7L.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-074K7L.1",
+          "supplier_id": "RC0402FR-074K7L.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "191a00ffdb0d4b8db39aa6fa67c3fbf7",
+          "project_footprint": "a1d66db24f0f431b811b76a3026bc8de"
+        }
+      ],
+      "after": []
+    },
+    "R51-LED": {
+      "before": [
+        {
+          "part": "RC0402FR-0733RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0733RL.1",
+          "supplier_id": "RC0402FR-0733RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "abe863d4244141ef97b3fd0ba218d523",
+          "project_footprint": "a2a32923b4214aa4a7b2f3217b85fa42"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0733RL.1",
+          "supplier_id": "RC0402FR-0733RL.1",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "2f462e4da9be832666742cf63c5d4f22",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R52-LED": {
+      "before": [
+        {
+          "part": "RC0402FR-0733RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0733RL.1",
+          "supplier_id": "RC0402FR-0733RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "abe863d4244141ef97b3fd0ba218d523",
+          "project_footprint": "a2a32923b4214aa4a7b2f3217b85fa42"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0733RL.1",
+          "supplier_id": "RC0402FR-0733RL.1",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "2f462e4da9be832666742cf63c5d4f22",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R53-LED": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0710KL.1",
+          "supplier_id": "RC0402FR-0710KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C60490",
+          "supplier_id": "C60490",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R54-LED": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0710KL.1",
+          "supplier_id": "RC0402FR-0710KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C60490",
+          "supplier_id": "C60490",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R55-VAL": {
+      "before": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-070RL.1",
+          "supplier_id": "RC0402FR-070RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C106231",
+          "supplier_id": "C106231",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ]
+    },
+    "R56-VAL": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-07DNP",
+          "supplier_part": "RC0402FR-0710KL.1",
+          "supplier_id": "RC0402FR-0710KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "",
+          "add_into_bom": "no",
+          "convert_to_pcb": "no",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R57-VAL": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-07DNP",
+          "supplier_part": "RC0402FR-0710KL.1",
+          "supplier_id": "RC0402FR-0710KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "",
+          "add_into_bom": "no",
+          "convert_to_pcb": "no",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R58-VAL": {
+      "before": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-070RL.1",
+          "supplier_id": "RC0402FR-070RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C106231",
+          "supplier_id": "C106231",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ]
+    },
+    "R59-VAL": {
+      "before": [
+        {
+          "part": "RC0402FR-07100RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-07100RL.1",
+          "supplier_id": "RC0402FR-07100RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "c16b145c3ff54ce688902a03eda363e8",
+          "project_footprint": "bd76bd88391f4f56a4d8430d31be7f05"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-07100RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C106232",
+          "supplier_id": "C106232",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "c16b145c3ff54ce688902a03eda363e8",
+          "project_footprint": "bd76bd88391f4f56a4d8430d31be7f05"
+        }
+      ]
+    },
+    "R6-PWR2": {
+      "before": [
+        {
+          "part": "RC0402FR-0732K4L.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0732K4L.1",
+          "supplier_id": "RC0402FR-0732K4L.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "5624c4fd444c42ae811ae0b8c53883d3",
+          "project_footprint": "a8eeda46504b45e88f77d37060e7b315"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C276272",
+          "supplier_id": "C276272",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "5c14f9ed164d4ea2364487158740d667",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R60-VAL": {
+      "before": [
+        {
+          "part": "RC0402FR-07100RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-07100RL.1",
+          "supplier_id": "RC0402FR-07100RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "c16b145c3ff54ce688902a03eda363e8",
+          "project_footprint": "bd76bd88391f4f56a4d8430d31be7f05"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-07100RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C106232",
+          "supplier_id": "C106232",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "c16b145c3ff54ce688902a03eda363e8",
+          "project_footprint": "bd76bd88391f4f56a4d8430d31be7f05"
+        }
+      ]
+    },
+    "R61-VAL": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0710KL.1",
+          "supplier_id": "RC0402FR-0710KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C60490",
+          "supplier_id": "C60490",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R62-VAL": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0710KL.1",
+          "supplier_id": "RC0402FR-0710KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C60490",
+          "supplier_id": "C60490",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R63-PWR1": {
+      "before": [
+        {
+          "part": "RC0402FR-071M05L.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-071M05L.1",
+          "supplier_id": "RC0402FR-071M05L.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "bbb9cd146c744fa9ac1a5b7ee7005baa",
+          "project_footprint": "8dbd55d6b40c413b874d8126d5681888"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-071M05L.1",
+          "manufacturer_part": "",
+          "supplier_part": "C477184",
+          "supplier_id": "C477184",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "bbb9cd146c744fa9ac1a5b7ee7005baa",
+          "project_footprint": "8dbd55d6b40c413b874d8126d5681888"
+        }
+      ]
+    },
+    "R64-PWR1": {
+      "before": [
+        {
+          "part": "RC0402FR-07324KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-07324KL.1",
+          "supplier_id": "RC0402FR-07324KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "02e22426d58640d3bfd874e3b3a6c223",
+          "project_footprint": "cbc06ddbe89d44fe81924d28c763b7ba"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C327358",
+          "supplier_id": "C327358",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "c823efe35b035d65e55375049044e85e",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R65-PWR1": {
+      "before": [
+        {
+          "part": "RC0402FR-07274KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-07274KL.1",
+          "supplier_id": "RC0402FR-07274KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "3a6da6491500495583f4ef364d7ce7ec",
+          "project_footprint": "b615d09876004d0691457b48f44fdb07"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-07274KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C185435",
+          "supplier_id": "C185435",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "3a6da6491500495583f4ef364d7ce7ec",
+          "project_footprint": "b615d09876004d0691457b48f44fdb07"
+        }
+      ]
+    },
+    "R66-PWR1": {
+      "before": [
+        {
+          "part": "RC0402FR-07100KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-07100KL.1",
+          "supplier_id": "RC0402FR-07100KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a013647b98b14e3fb9a78c6e8fd474c2",
+          "project_footprint": "96a690140ad14eb7990f4dd7a4e8ebc9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-07100KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C60491",
+          "supplier_id": "C60491",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a013647b98b14e3fb9a78c6e8fd474c2",
+          "project_footprint": "96a690140ad14eb7990f4dd7a4e8ebc9"
+        }
+      ]
+    },
+    "R67-PWR1": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0710KL.1",
+          "supplier_id": "RC0402FR-0710KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C60490",
+          "supplier_id": "C60490",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R7-PWR2": {
+      "before": [
+        {
+          "part": "RC0402FR-07100KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-07100KL.1",
+          "supplier_id": "RC0402FR-07100KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a013647b98b14e3fb9a78c6e8fd474c2",
+          "project_footprint": "96a690140ad14eb7990f4dd7a4e8ebc9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-07100KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C60491",
+          "supplier_id": "C60491",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a013647b98b14e3fb9a78c6e8fd474c2",
+          "project_footprint": "96a690140ad14eb7990f4dd7a4e8ebc9"
+        }
+      ]
+    },
+    "R72-ESP": {
+      "before": [
+        {
+          "part": "RC0402FR-07100KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "C60491",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a013647b98b14e3fb9a78c6e8fd474c2",
+          "project_footprint": "96a690140ad14eb7990f4dd7a4e8ebc9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "C93947",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a5b53d6646ff68b69854819e934cc143",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R73-ESP": {
+      "before": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0722RL.1",
+          "supplier_id": "RC0402FR-0722RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C114765",
+          "supplier_id": "C114765",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ]
+    },
+    "R74-ESP": {
+      "before": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-0722RL.1",
+          "supplier_id": "RC0402FR-0722RL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0722RL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C114765",
+          "supplier_id": "C114765",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "1e5677ef155d46db88b603ac68e38004",
+          "project_footprint": "7911c27983c546dfb50bf2cabd5562d2"
+        }
+      ]
+    },
+    "R8-PWR2": {
+      "before": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-073K48L",
+          "supplier_part": "C185418",
+          "supplier_id": "RC0402FR-0710KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-073K48L",
+          "supplier_part": "C185418",
+          "supplier_id": "C185418",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "962b3b2f753fb4991d3c3abb15ca4c40",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "R9-PWR2": {
+      "before": [
+        {
+          "part": "RC0402FR-07100KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "RC0402FR-07100KL.1",
+          "supplier_id": "RC0402FR-07100KL.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a013647b98b14e3fb9a78c6e8fd474c2",
+          "project_footprint": "96a690140ad14eb7990f4dd7a4e8ebc9"
+        }
+      ],
+      "after": [
+        {
+          "part": "RC0402FR-07100KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "C60491",
+          "supplier_id": "C60491",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a013647b98b14e3fb9a78c6e8fd474c2",
+          "project_footprint": "96a690140ad14eb7990f4dd7a4e8ebc9"
+        }
+      ]
+    },
+    "RCC1-PWR1": {
+      "before": [],
+      "after": [
+        {
+          "part": "RC0402FR-075K1L.1",
+          "manufacturer_part": "RC0402FR-075K1L",
+          "supplier_part": "C105872",
+          "supplier_id": "C105872",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "yes",
+          "device_id": "ed9693b4f812441a8cc1d00e28d7db63",
+          "project_footprint": "2874f8b71e9a4ed39cc1abe350a328f1"
+        }
+      ]
+    },
+    "RCC1B-PWR1": {
+      "before": [],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "2f462e4da9be832666742cf63c5d4f22",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "RCC1S-PWR1": {
+      "before": [],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "2f462e4da9be832666742cf63c5d4f22",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "RCC2-PWR1": {
+      "before": [],
+      "after": [
+        {
+          "part": "RC0402FR-075K1L.1",
+          "manufacturer_part": "RC0402FR-075K1L",
+          "supplier_part": "C105872",
+          "supplier_id": "C105872",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "yes",
+          "device_id": "ed9693b4f812441a8cc1d00e28d7db63",
+          "project_footprint": "2874f8b71e9a4ed39cc1abe350a328f1"
+        }
+      ]
+    },
+    "RCC2B-PWR1": {
+      "before": [],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "2f462e4da9be832666742cf63c5d4f22",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "RCC2S-PWR1": {
+      "before": [],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "",
+          "supplier_part": "",
+          "supplier_id": "",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "2f462e4da9be832666742cf63c5d4f22",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "RILIM-LED": {
+      "before": [],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-0759KL",
+          "supplier_part": "",
+          "supplier_id": "",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "45ed5ead533016deff3d1b19b25bd015",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "RINA_N-PWR1": {
+      "before": [],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-0710RL",
+          "supplier_part": "C138066",
+          "supplier_id": "C138066",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "yes",
+          "device_id": "1dbefd05c8138aa6be9c9444ad0fabd3",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "RINA_P-PWR1": {
+      "before": [],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-0710RL",
+          "supplier_part": "C138066",
+          "supplier_id": "C138066",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "yes",
+          "device_id": "1dbefd05c8138aa6be9c9444ad0fabd3",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "RLED_ENL_PD-LED": {
+      "before": [],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-0710KL",
+          "supplier_part": "C60490",
+          "supplier_id": "C60490",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "yes",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "RLED_ENR_PD-LED": {
+      "before": [],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-0710KL",
+          "supplier_part": "C60490",
+          "supplier_id": "C60490",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "yes",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "RLED_PD0-LED": {
+      "before": [],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-0710KL",
+          "supplier_part": "C60490",
+          "supplier_id": "C60490",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "yes",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "RLED_PD1-LED": {
+      "before": [],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-0710KL",
+          "supplier_part": "C60490",
+          "supplier_id": "C60490",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "yes",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "RNTC_L-LED": {
+      "before": [],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-0710KL",
+          "supplier_part": "C60490",
+          "supplier_id": "C60490",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "yes",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "RNTC_R-LED": {
+      "before": [],
+      "after": [
+        {
+          "part": "RC0402FR-0710KL.1",
+          "manufacturer_part": "RC0402FR-0710KL",
+          "supplier_part": "C60490",
+          "supplier_id": "C60490",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "yes",
+          "device_id": "e1b1f220e40a4edea589adfa05a5d8c7",
+          "project_footprint": "3a9991e4aef9455bb546fda6b87e03b9"
+        }
+      ]
+    },
+    "RSH1-PWR1": {
+      "before": [
+        {
+          "part": "WSHP2818R0100FEA.1",
+          "manufacturer_part": "",
+          "supplier_part": "WSHP2818R0100FEA.1",
+          "supplier_id": "WSHP2818R0100FEA.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "204b71679a0e4cc987a78d81a4a89cc2",
+          "project_footprint": "75af47c2f0a049dc86620161777ea484"
+        }
+      ],
+      "after": [
+        {
+          "part": "WSHP2818R0100FEA.1",
+          "manufacturer_part": "",
+          "supplier_part": "C4274345",
+          "supplier_id": "C4274345",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "204b71679a0e4cc987a78d81a4a89cc2",
+          "project_footprint": "75af47c2f0a049dc86620161777ea484"
+        }
+      ]
+    },
+    "RT1-LED": {
+      "before": [
+        {
+          "part": "NCP15XH103F03RC.1",
+          "manufacturer_part": "",
+          "supplier_part": "NCP15XH103F03RC.1",
+          "supplier_id": "NCP15XH103F03RC.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ffcf36f9dcc04913a230d43808bc9ca1",
+          "project_footprint": "a905d381b134460abf4c8ff4344e1c81"
+        }
+      ],
+      "after": [
+        {
+          "part": "NCP15XH103F03RC.1",
+          "manufacturer_part": "",
+          "supplier_part": "C77131",
+          "supplier_id": "C77131",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ffcf36f9dcc04913a230d43808bc9ca1",
+          "project_footprint": "a905d381b134460abf4c8ff4344e1c81"
+        }
+      ]
+    },
+    "RT2-LED": {
+      "before": [
+        {
+          "part": "NCP15XH103F03RC.1",
+          "manufacturer_part": "",
+          "supplier_part": "NCP15XH103F03RC.1",
+          "supplier_id": "NCP15XH103F03RC.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ffcf36f9dcc04913a230d43808bc9ca1",
+          "project_footprint": "a905d381b134460abf4c8ff4344e1c81"
+        }
+      ],
+      "after": [
+        {
+          "part": "NCP15XH103F03RC.1",
+          "manufacturer_part": "",
+          "supplier_part": "C77131",
+          "supplier_id": "C77131",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "ffcf36f9dcc04913a230d43808bc9ca1",
+          "project_footprint": "a905d381b134460abf4c8ff4344e1c81"
+        }
+      ]
+    },
+    "RUSB_DN-PWR1": {
+      "before": [],
+      "after": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "RC0402FR-070RL",
+          "supplier_part": "C106231",
+          "supplier_id": "C106231",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "yes",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ]
+    },
+    "RUSB_DP-PWR1": {
+      "before": [],
+      "after": [
+        {
+          "part": "RC0402FR-070RL.1",
+          "manufacturer_part": "RC0402FR-070RL",
+          "supplier_part": "C106231",
+          "supplier_id": "C106231",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "yes",
+          "device_id": "0f3d5fb5eae54546a764946f2555ccb3",
+          "project_footprint": "2c1238b1a6cf459896ea7bc5b68cd97d"
+        }
+      ]
+    },
+    "SW1-RTC": {
+      "before": [
+        {
+          "part": "PTS645SM43SMTR92LFS.1",
+          "manufacturer_part": "",
+          "supplier_part": "PTS645SM43SMTR92LFS.1",
+          "supplier_id": "PTS645SM43SMTR92LFS.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "03c1499ffd4c4da586c4ec4ba1cdc06e",
+          "project_footprint": "3cf2708c5d4347128c5dba2c5cca108b"
+        }
+      ],
+      "after": [
+        {
+          "part": "PTS645SM43SMTR92LFS.1",
+          "manufacturer_part": "",
+          "supplier_part": "C221880",
+          "supplier_id": "C221880",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "03c1499ffd4c4da586c4ec4ba1cdc06e",
+          "project_footprint": "3cf2708c5d4347128c5dba2c5cca108b"
+        }
+      ]
+    },
+    "SW2-ESP": {
+      "before": [
+        {
+          "part": "PTS645SM43SMTR92LFS.1",
+          "manufacturer_part": "",
+          "supplier_part": "PTS645SM43SMTR92LFS.1",
+          "supplier_id": "PTS645SM43SMTR92LFS.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "03c1499ffd4c4da586c4ec4ba1cdc06e",
+          "project_footprint": "3cf2708c5d4347128c5dba2c5cca108b"
+        }
+      ],
+      "after": [
+        {
+          "part": "PTS645SM43SMTR92LFS.1",
+          "manufacturer_part": "",
+          "supplier_part": "C221880",
+          "supplier_id": "C221880",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "03c1499ffd4c4da586c4ec4ba1cdc06e",
+          "project_footprint": "3cf2708c5d4347128c5dba2c5cca108b"
+        }
+      ]
+    },
+    "SW3-ESP": {
+      "before": [
+        {
+          "part": "PTS645SM43SMTR92LFS.1",
+          "manufacturer_part": "",
+          "supplier_part": "PTS645SM43SMTR92LFS.1",
+          "supplier_id": "PTS645SM43SMTR92LFS.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "03c1499ffd4c4da586c4ec4ba1cdc06e",
+          "project_footprint": "3cf2708c5d4347128c5dba2c5cca108b"
+        }
+      ],
+      "after": [
+        {
+          "part": "PTS645SM43SMTR92LFS.1",
+          "manufacturer_part": "",
+          "supplier_part": "C221880",
+          "supplier_id": "C221880",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "03c1499ffd4c4da586c4ec4ba1cdc06e",
+          "project_footprint": "3cf2708c5d4347128c5dba2c5cca108b"
+        }
+      ]
+    },
+    "SW4-VAL": {
+      "before": [
+        {
+          "part": "PTS645SM43SMTR92LFS.1",
+          "manufacturer_part": "",
+          "supplier_part": "PTS645SM43SMTR92LFS.1",
+          "supplier_id": "PTS645SM43SMTR92LFS.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "03c1499ffd4c4da586c4ec4ba1cdc06e",
+          "project_footprint": "3cf2708c5d4347128c5dba2c5cca108b"
+        }
+      ],
+      "after": [
+        {
+          "part": "PTS645SM43SMTR92LFS.1",
+          "manufacturer_part": "",
+          "supplier_part": "C221880",
+          "supplier_id": "C221880",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "03c1499ffd4c4da586c4ec4ba1cdc06e",
+          "project_footprint": "3cf2708c5d4347128c5dba2c5cca108b"
+        }
+      ]
+    },
+    "TP1-ESP": {
+      "before": [
+        {
+          "part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "manufacturer_part": "5001",
+          "supplier_part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "supplier_id": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "42b09b6db2ab43cb994fad497f236935",
+          "project_footprint": "6947055710024015842d8f38e2aab7c8"
+        }
+      ],
+      "after": [
+        {
+          "part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "manufacturer_part": "",
+          "supplier_part": "C9900007422",
+          "supplier_id": "C9900007422",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "42b09b6db2ab43cb994fad497f236935",
+          "project_footprint": "6947055710024015842d8f38e2aab7c8"
+        }
+      ]
+    },
+    "TP2-ESP": {
+      "before": [
+        {
+          "part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "manufacturer_part": "5001",
+          "supplier_part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "supplier_id": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "42b09b6db2ab43cb994fad497f236935",
+          "project_footprint": "6947055710024015842d8f38e2aab7c8"
+        }
+      ],
+      "after": [
+        {
+          "part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "manufacturer_part": "",
+          "supplier_part": "C9900007422",
+          "supplier_id": "C9900007422",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "42b09b6db2ab43cb994fad497f236935",
+          "project_footprint": "6947055710024015842d8f38e2aab7c8"
+        }
+      ]
+    },
+    "TP3-AUD": {
+      "before": [
+        {
+          "part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "manufacturer_part": "5001",
+          "supplier_part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "supplier_id": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "42b09b6db2ab43cb994fad497f236935",
+          "project_footprint": "6947055710024015842d8f38e2aab7c8"
+        }
+      ],
+      "after": [
+        {
+          "part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "manufacturer_part": "",
+          "supplier_part": "C9900007422",
+          "supplier_id": "C9900007422",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "42b09b6db2ab43cb994fad497f236935",
+          "project_footprint": "6947055710024015842d8f38e2aab7c8"
+        }
+      ]
+    },
+    "TP4-AUD": {
+      "before": [
+        {
+          "part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "manufacturer_part": "5001",
+          "supplier_part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "supplier_id": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "42b09b6db2ab43cb994fad497f236935",
+          "project_footprint": "6947055710024015842d8f38e2aab7c8"
+        }
+      ],
+      "after": [
+        {
+          "part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "manufacturer_part": "",
+          "supplier_part": "C9900007422",
+          "supplier_id": "C9900007422",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "42b09b6db2ab43cb994fad497f236935",
+          "project_footprint": "6947055710024015842d8f38e2aab7c8"
+        }
+      ]
+    },
+    "TP5-AUD": {
+      "before": [
+        {
+          "part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "manufacturer_part": "5001",
+          "supplier_part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "supplier_id": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "42b09b6db2ab43cb994fad497f236935",
+          "project_footprint": "6947055710024015842d8f38e2aab7c8"
+        }
+      ],
+      "after": [
+        {
+          "part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "manufacturer_part": "",
+          "supplier_part": "C9900007422",
+          "supplier_id": "C9900007422",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "42b09b6db2ab43cb994fad497f236935",
+          "project_footprint": "6947055710024015842d8f38e2aab7c8"
+        }
+      ]
+    },
+    "TP6-VAL": {
+      "before": [
+        {
+          "part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "manufacturer_part": "5001",
+          "supplier_part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "supplier_id": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "42b09b6db2ab43cb994fad497f236935",
+          "project_footprint": "6947055710024015842d8f38e2aab7c8"
+        }
+      ],
+      "after": [
+        {
+          "part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "manufacturer_part": "",
+          "supplier_part": "C9900007422",
+          "supplier_id": "C9900007422",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "42b09b6db2ab43cb994fad497f236935",
+          "project_footprint": "6947055710024015842d8f38e2aab7c8"
+        }
+      ]
+    },
+    "TP7-AUD": {
+      "before": [
+        {
+          "part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "manufacturer_part": "5001",
+          "supplier_part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "supplier_id": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "c20d1a7ed32e4e7f9b1b87c50982e2ef",
+          "project_footprint": "965d61cbb2554caaafd27187aa2243b5"
+        }
+      ],
+      "after": [
+        {
+          "part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "manufacturer_part": "",
+          "supplier_part": "C9900007422",
+          "supplier_id": "C9900007422",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "c20d1a7ed32e4e7f9b1b87c50982e2ef",
+          "project_footprint": "965d61cbb2554caaafd27187aa2243b5"
+        }
+      ]
+    },
+    "TP8-AUD": {
+      "before": [
+        {
+          "part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "manufacturer_part": "5001",
+          "supplier_part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "supplier_id": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "c20d1a7ed32e4e7f9b1b87c50982e2ef",
+          "project_footprint": "965d61cbb2554caaafd27187aa2243b5"
+        }
+      ],
+      "after": [
+        {
+          "part": "TP-\u9ec4\u8272\u6d4b\u8bd5\u70b9.1",
+          "manufacturer_part": "",
+          "supplier_part": "C9900007422",
+          "supplier_id": "C9900007422",
+          "add_into_bom": "no",
+          "convert_to_pcb": "yes",
+          "device_id": "c20d1a7ed32e4e7f9b1b87c50982e2ef",
+          "project_footprint": "965d61cbb2554caaafd27187aa2243b5"
+        }
+      ]
+    },
+    "U1-PWR1": {
+      "before": [
+        {
+          "part": "TPS259474LRPWR.1",
+          "manufacturer_part": "TPS259474L",
+          "supplier_part": "TPS259474LRPWR.1",
+          "supplier_id": "C2864845",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "038384b92684429b9cec4139e38b97f8",
+          "project_footprint": "db6fcc0bfb83447897c974ad5c05f8d3"
+        }
+      ],
+      "after": [
+        {
+          "part": "TPS259474LRPWR.1",
+          "manufacturer_part": "TPS259474L",
+          "supplier_part": "C2864845",
+          "supplier_id": "C2864845",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "038384b92684429b9cec4139e38b97f8",
+          "project_footprint": "db6fcc0bfb83447897c974ad5c05f8d3"
+        }
+      ]
+    },
+    "U10-ESP": {
+      "before": [
+        {
+          "part": "USBLC6-2SC6_C323793.1",
+          "manufacturer_part": "",
+          "supplier_part": "USBLC6-2SC6_C323793.1",
+          "supplier_id": "USBLC6-2SC6_C323793.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "6beee6bbc33549dcb9267fc646db4c64",
+          "project_footprint": "e9d6b0b29be549c891877ed07d352cb7"
+        }
+      ],
+      "after": [
+        {
+          "part": "USBLC6-2SC6_C323793.1",
+          "manufacturer_part": "",
+          "supplier_part": "C323793",
+          "supplier_id": "C323793",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "6beee6bbc33549dcb9267fc646db4c64",
+          "project_footprint": "e9d6b0b29be549c891877ed07d352cb7"
+        }
+      ]
+    },
+    "U11-AUD": {
+      "before": [
+        {
+          "part": "TLV320ADC6120IRTER.1",
+          "manufacturer_part": "",
+          "supplier_part": "TLV320ADC6120IRTER.1",
+          "supplier_id": "TLV320ADC6120IRTER.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "53241ba3c9d949c1bb75d1c8bb159618",
+          "project_footprint": "74b3e3647ed84ad4b5a608efcc29706f"
+        }
+      ],
+      "after": [
+        {
+          "part": "TLV320ADC6120IRTER.1",
+          "manufacturer_part": "",
+          "supplier_part": "C2874822",
+          "supplier_id": "C2874822",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "53241ba3c9d949c1bb75d1c8bb159618",
+          "project_footprint": "74b3e3647ed84ad4b5a608efcc29706f"
+        }
+      ]
+    },
+    "U12-NFC": {
+      "before": [
+        {
+          "part": "ST25R3916B-AQWT.1",
+          "manufacturer_part": "",
+          "supplier_part": "ST25R3916B-AQWT.1",
+          "supplier_id": "ST25R3916B-AQWT.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "c45a3d361d3941f6b5c66756cf65537b",
+          "project_footprint": "982f1daf8bca485289d7bc47df91846b"
+        }
+      ],
+      "after": [
+        {
+          "part": "ST25R3916B-AQWT.1",
+          "manufacturer_part": "",
+          "supplier_part": "C5267436",
+          "supplier_id": "C5267436",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "c45a3d361d3941f6b5c66756cf65537b",
+          "project_footprint": "982f1daf8bca485289d7bc47df91846b"
+        }
+      ]
+    },
+    "U13-MOT": {
+      "before": [
+        {
+          "part": "LIS2DH12TR.1",
+          "manufacturer_part": "",
+          "supplier_part": "LIS2DH12TR.1",
+          "supplier_id": "LIS2DH12TR.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "2ce1bfcbc1094ddca5df80d460f7f608",
+          "project_footprint": "3275403999624f5db2c38677706f03cc"
+        }
+      ],
+      "after": [
+        {
+          "part": "LIS2DH12TR.1",
+          "manufacturer_part": "",
+          "supplier_part": "C110926",
+          "supplier_id": "C110926",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "2ce1bfcbc1094ddca5df80d460f7f608",
+          "project_footprint": "3275403999624f5db2c38677706f03cc"
+        }
+      ]
+    },
+    "U14-LED": {
+      "before": [
+        {
+          "part": "SN74AHCT1G125DBVR.1",
+          "manufacturer_part": "",
+          "supplier_part": "SN74AHCT1G125DBVR.1",
+          "supplier_id": "SN74AHCT1G125DBVR.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "84c8e0a885c548e1881a3f4c25b3ef1d",
+          "project_footprint": "f8e3f40337774bfe92ec5200c7c6ed5b"
+        }
+      ],
+      "after": [
+        {
+          "part": "SN74AHCT1G125DBVR.1",
+          "manufacturer_part": "",
+          "supplier_part": "C7484",
+          "supplier_id": "C7484",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "84c8e0a885c548e1881a3f4c25b3ef1d",
+          "project_footprint": "f8e3f40337774bfe92ec5200c7c6ed5b"
+        }
+      ]
+    },
+    "U15-LED": {
+      "before": [
+        {
+          "part": "SN74AHCT1G125DBVR.1",
+          "manufacturer_part": "",
+          "supplier_part": "SN74AHCT1G125DBVR.1",
+          "supplier_id": "SN74AHCT1G125DBVR.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "84c8e0a885c548e1881a3f4c25b3ef1d",
+          "project_footprint": "f8e3f40337774bfe92ec5200c7c6ed5b"
+        }
+      ],
+      "after": [
+        {
+          "part": "SN74AHCT1G125DBVR.1",
+          "manufacturer_part": "",
+          "supplier_part": "C7484",
+          "supplier_id": "C7484",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "84c8e0a885c548e1881a3f4c25b3ef1d",
+          "project_footprint": "f8e3f40337774bfe92ec5200c7c6ed5b"
+        }
+      ]
+    },
+    "U16-VAL": {
+      "before": [
+        {
+          "part": "TPS3808G33DBVR.1",
+          "manufacturer_part": "",
+          "supplier_part": "TPS3808G33DBVR.1",
+          "supplier_id": "TPS3808G33DBVR.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a67e9512bc294cea8a6520da33fa60e5",
+          "project_footprint": "0095fe7fde024d7ca90d8690c1b1defa"
+        }
+      ],
+      "after": [
+        {
+          "part": "TPS3808G33DBVR.1",
+          "manufacturer_part": "",
+          "supplier_part": "C43698",
+          "supplier_id": "C43698",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a67e9512bc294cea8a6520da33fa60e5",
+          "project_footprint": "0095fe7fde024d7ca90d8690c1b1defa"
+        }
+      ]
+    },
+    "U17-PWR2": {
+      "before": [],
+      "after": [
+        {
+          "part": "TPS2561DRCR.1",
+          "manufacturer_part": "TPS2561DRCR",
+          "supplier_part": "C140303",
+          "supplier_id": "C140303",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "no",
+          "device_id": "5092abc9526b82072b33d43c893d8970",
+          "project_footprint": ""
+        }
+      ]
+    },
+    "U2-PWR1": {
+      "before": [
+        {
+          "part": "INA226AIDGSR.1",
+          "manufacturer_part": "",
+          "supplier_part": "INA226AIDGSR.1",
+          "supplier_id": "INA226AIDGSR.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "3fed872251cb484f9efa31f0af51ed1b",
+          "project_footprint": "80ad075a66054a00bbbd7e1468e9943b"
+        }
+      ],
+      "after": [
+        {
+          "part": "INA226AIDGSR.1",
+          "manufacturer_part": "",
+          "supplier_part": "C49851",
+          "supplier_id": "C49851",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "3fed872251cb484f9efa31f0af51ed1b",
+          "project_footprint": "80ad075a66054a00bbbd7e1468e9943b"
+        }
+      ]
+    },
+    "U3-PWR2": {
+      "before": [
+        {
+          "part": "TPS62913RPUR.1",
+          "manufacturer_part": "",
+          "supplier_part": "TPS62913RPUR.1",
+          "supplier_id": "TPS62913RPUR.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "d3b9c61c945040c395a0f5edd0f7c5c9",
+          "project_footprint": "eb58f0c130a949dfa928ccc0325e6cae"
+        }
+      ],
+      "after": [
+        {
+          "part": "TPS62913RPUR.1",
+          "manufacturer_part": "",
+          "supplier_part": "C5189914",
+          "supplier_id": "C5189914",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "d3b9c61c945040c395a0f5edd0f7c5c9",
+          "project_footprint": "eb58f0c130a949dfa928ccc0325e6cae"
+        }
+      ]
+    },
+    "U4-PWR2": {
+      "before": [
+        {
+          "part": "TPS259474LRPWR.1",
+          "manufacturer_part": "TPS259474L",
+          "supplier_part": "TPS259474LRPWR.1",
+          "supplier_id": "TPS259474LRPWR.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "038384b92684429b9cec4139e38b97f8",
+          "project_footprint": "db6fcc0bfb83447897c974ad5c05f8d3"
+        }
+      ],
+      "after": []
+    },
+    "U5-PWR2": {
+      "before": [
+        {
+          "part": "TLV75533PDBVR.1",
+          "manufacturer_part": "",
+          "supplier_part": "TLV75533PDBVR.1",
+          "supplier_id": "TLV75533PDBVR.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "3c7d331e06c54e10b2b612826100f99d",
+          "project_footprint": "80362f26649549b1b403ce65a7b7a7c3"
+        }
+      ],
+      "after": [
+        {
+          "part": "TLV75533PDBVR.1",
+          "manufacturer_part": "",
+          "supplier_part": "C404027",
+          "supplier_id": "C404027",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "3c7d331e06c54e10b2b612826100f99d",
+          "project_footprint": "80362f26649549b1b403ce65a7b7a7c3"
+        }
+      ]
+    },
+    "U6-RTC": {
+      "before": [
+        {
+          "part": "MIMXRT1062DVJ6B.1",
+          "manufacturer_part": "",
+          "supplier_part": "MIMXRT1062DVJ6B.1",
+          "supplier_id": "MIMXRT1062DVJ6B.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "69a263214ca544edaed5248f1d7e5e69",
+          "project_footprint": "0d8325d2787742aaa103696ca6f4bada"
+        },
+        {
+          "part": "MIMXRT1062DVJ6B.2",
+          "manufacturer_part": "",
+          "supplier_part": "MIMXRT1062DVJ6B.2",
+          "supplier_id": "MIMXRT1062DVJ6B.2",
+          "add_into_bom": "no",
+          "convert_to_pcb": "",
+          "device_id": "69a263214ca544edaed5248f1d7e5e69",
+          "project_footprint": "0d8325d2787742aaa103696ca6f4bada"
+        }
+      ],
+      "after": [
+        {
+          "part": "MIMXRT1062DVJ6B.1",
+          "manufacturer_part": "MIMXRT1062DVJ6B",
+          "supplier_part": "C3216699",
+          "supplier_id": "C3216699",
+          "add_into_bom": "yes",
+          "convert_to_pcb": "",
+          "device_id": "69a263214ca544edaed5248f1d7e5e69",
+          "project_footprint": "0d8325d2787742aaa103696ca6f4bada"
+        },
+        {
+          "part": "MIMXRT1062DVJ6B.2",
+          "manufacturer_part": "MIMXRT1062DVJ6B",
+          "supplier_part": "C3216699",
+          "supplier_id": "C3216699",
+          "add_into_bom": "no",
+          "convert_to_pcb": "",
+          "device_id": "69a263214ca544edaed5248f1d7e5e69",
+          "project_footprint": "0d8325d2787742aaa103696ca6f4bada"
+        }
+      ]
+    },
+    "U7-RTC": {
+      "before": [
+        {
+          "part": "TPS3808G33DBVR.1",
+          "manufacturer_part": "",
+          "supplier_part": "TPS3808G33DBVR.1",
+          "supplier_id": "TPS3808G33DBVR.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a67e9512bc294cea8a6520da33fa60e5",
+          "project_footprint": "0095fe7fde024d7ca90d8690c1b1defa"
+        }
+      ],
+      "after": [
+        {
+          "part": "TPS3808G33DBVR.1",
+          "manufacturer_part": "",
+          "supplier_part": "C43698",
+          "supplier_id": "C43698",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a67e9512bc294cea8a6520da33fa60e5",
+          "project_footprint": "0095fe7fde024d7ca90d8690c1b1defa"
+        }
+      ]
+    },
+    "U9-ESP": {
+      "before": [
+        {
+          "part": "ESP32-S3-WROOM-1(N16R8).1",
+          "manufacturer_part": "",
+          "supplier_part": "ESP32-S3-WROOM-1(N16R8).1",
+          "supplier_id": "ESP32-S3-WROOM-1(N16R8).1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a2fca768aa0c45aa9c0a4ebd5dbfa935",
+          "project_footprint": "c95d99a9a0da4fe5b070d89982c80881"
+        }
+      ],
+      "after": [
+        {
+          "part": "ESP32-S3-WROOM-1(N16R8).1",
+          "manufacturer_part": "",
+          "supplier_part": "C2913202",
+          "supplier_id": "C2913202",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "a2fca768aa0c45aa9c0a4ebd5dbfa935",
+          "project_footprint": "c95d99a9a0da4fe5b070d89982c80881"
+        }
+      ]
+    },
+    "Y1-RTDBG": {
+      "before": [
+        {
+          "part": "XRCGB24M000F3A00R0.1",
+          "manufacturer_part": "",
+          "supplier_part": "XRCGB24M000F3A00R0.1",
+          "supplier_id": "XRCGB24M000F3A00R0.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "2a916585022b4f01af8798d8d0ec2bbd",
+          "project_footprint": "2a97c34dabb84448be9f3bec3d01f0b1"
+        }
+      ],
+      "after": [
+        {
+          "part": "XRCGB24M000F3A00R0.1",
+          "manufacturer_part": "",
+          "supplier_part": "C194420",
+          "supplier_id": "C194420",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "2a916585022b4f01af8798d8d0ec2bbd",
+          "project_footprint": "2a97c34dabb84448be9f3bec3d01f0b1"
+        }
+      ]
+    },
+    "Y2-NFC": {
+      "before": [
+        {
+          "part": "ABM12-117-27.120MHZ-T3.1",
+          "manufacturer_part": "",
+          "supplier_part": "ABM12-117-27.120MHZ-T3.1",
+          "supplier_id": "ABM12-117-27.120MHZ-T3.1",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "4ecb363934ae48b9907b590e0499e958",
+          "project_footprint": "ab33e8432e00471ab5f9e5f797c2ca0e"
+        }
+      ],
+      "after": [
+        {
+          "part": "ABM12-117-27.120MHZ-T3.1",
+          "manufacturer_part": "",
+          "supplier_part": "C1986557",
+          "supplier_id": "C1986557",
+          "add_into_bom": "",
+          "convert_to_pcb": "",
+          "device_id": "4ecb363934ae48b9907b590e0499e958",
+          "project_footprint": "ab33e8432e00471ab5f9e5f797c2ca0e"
+        }
+      ]
+    }
+  },
+  "changed_count": 214
+}

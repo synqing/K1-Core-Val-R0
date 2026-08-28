@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-g21-u17-place-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2194636:b1b0d51e",
+  "post_source_hash": "2237582:89c6d07c",
+  "saved": true,
+  "stage": "place",
+  "scope": "TPS2561 LED branch switch and support passives",
+  "intended_delta": "Place undesignated TPS2561DRCR at 1560,4095 plus RC0402 59k at 1650,4160 and two RC0402 10k pulldowns at 1450,4185 and 1660,4185. Convert-to-PCB no on the TPS2561. Do not designate or wire.",
+  "affected": [
+    "b118f78741a245ce",
+    "887f876349514338",
+    "27364dde051e627f",
+    "4943ab32785082e6"
+  ],
+  "census": {
+    "components": 234,
+    "wires": 680,
+    "texts": 22,
+    "rectangles": 10
+  },
+  "placed": {
+    "TPS2561DRCR": {"id": "b118f78741a245ce", "x": 1560, "y": 4095, "designator": null, "convert_to_pcb": "no"},
+    "RC0402FR-0759KL": {"id": "887f876349514338", "x": 1650, "y": 4160, "designator": null},
+    "RC0402FR-0710KL_ENL": {"id": "27364dde051e627f", "x": 1450, "y": 4185, "designator": null},
+    "RC0402FR-0710KL_ENR": {"id": "4943ab32785082e6", "x": 1660, "y": 4185, "designator": null}
+  }
+}

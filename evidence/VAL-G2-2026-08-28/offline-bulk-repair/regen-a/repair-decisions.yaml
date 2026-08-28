@@ -1,0 +1,18 @@
+# K1-CORE-VAL-R0 G2.1 bulk-repair decisions
+# Source: current authority + fault-register rebase. TUNE/IOMUX decisions deliberately remain open where VAL-G3 owns them.
+DEC-01: { ruling: RT_DEFAULT_I2C_OWNER, physical_rt_iomux: VAL_G3_TBD }
+DEC-02: { ruling: SENSE_AND_THROTTLE, cc_rd: 5.1k, cc_adc_divider_values: TUNE_TBD, led_load_shed_gpio: VAL_G3_TBD }
+DEC-03: { ruling: NFC_5V, vdd_io: 3V3 }
+DEC-04: { ruling: SINGLE_ENDED_WITH_CABLE, rfo2_rfi2: NC, matching: TUNE_TBD }
+DEC-05: { ruling: TPS3808_G33_SENSE_3V3 }
+DEC-06: { ruling: PDM_SERIES_22R }
+DEC-07: { ruling: MIC_DEFAULT_OFF, net: MIC_PWR_EN_N, pull: UP_TO_3V3_MIC_REG }
+DEC-08: { ruling: REMOVE_F1_TRUNK_FERRITE }
+DEC-09: { ruling: NTC_TOP_BIAS_10K }
+DEC-10: { ruling: OPTION_A_DATA_PULLDOWNS, led_branch_power_default: OFF }
+DEC-11: { ruling: LIS2DH12_SA0_GND, address_7bit: 0x18, cs: 3V3 }
+DEC-12: { ruling: ADC_UNUSED_PINS_INTENTIONAL_NC_AND_DISABLED }
+DEC-13: { ruling: EXT_CLOCK_KEEP_R31_R33_AND_RT_SAI_SLAVE }
+DEC-14: { ruling: TPS2561DRCR_C140303, footprint: VERIFY_AT_VAL_G3, rilim: RE_DERIVE_AT_VAL_G3 }
+DEC-15: { ruling: R42_1PERCENT_BASELINE, part: RC0402FR-072R2L, lcsc: C327251, electrical_value: TUNE_TBD }
+DEC-16: { ruling: BARE_TEST_PADS, add_bom: no, convert_to_pcb: yes }

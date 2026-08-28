@@ -1,0 +1,398 @@
+{
+  "audit": "CLI independent structural/semantic audit; does not import into EasyEDA GUI",
+  "input_sha256": "78245760ba3f824f0d585e5ca7d0488e86dc1761d39a08a0503484b0184d4893",
+  "output_sha256": "1dd7d8156071e5b06163a9a3d28b22f24eab7e5ff62b2fa26ac59623c283cc54",
+  "ok": false,
+  "errors": [
+    "R8-PWR2 remains after U4 removal; ILIM remnant",
+    "C68-PWR2 remains after U4 removal; DVDT remnant",
+    "U1.3 and R67.2 do not share a PG net: U1=['PWR_ENTRY_PG_RT_IOMUX_TBD'] R67=['USB_EFUSE_PG']",
+    "orphan leftover-support net 5V_LED_COMMON members=['C11-PWR2|GRM21BR61E226ME44L.1|1']",
+    "orphan leftover-support net LED_EFUSE_DVDT members=['C68-PWR2|GRM155R71H222KA01D.1|1']",
+    "orphan leftover-support net LED_EFUSE_ILIM members=['R8-PWR2|RC0402FR-0710KL.1|1']",
+    "orphan IOMUX net MOTION_INT_S3 stranded companions ['U9-ESP|ESP32-S3-WROOM-1(N16R8).1|5'] members=['R49-MOT|RC0402FR-0710KL.1|2']",
+    "orphan IOMUX net PWR_ENTRY_PG_RT_IOMUX_TBD stranded companions ['R67-PWR1|RC0402FR-0710KL.1|2'] members=['U1-PWR1|TPS259474LRPWR.1|3']",
+    "orphan changed/new net RT_I2C_SCL has 1 endpoint(s): ['R46-MOT|RC0402FR-070RL.1|1']",
+    "orphan changed/new net RT_I2C_SDA has 1 endpoint(s): ['R44-MOT|RC0402FR-070RL.1|1']",
+    "orphan IOMUX net RT_USB_AUD_STRAP_IOMUX_TBD stranded companions ['U6-RTC|MIMXRT1062DVJ6B.2|M8'] members=['R56-VAL|RC0402FR-0710KL.1|2']",
+    "orphan changed/new net S3_I2C_SCL has 1 endpoint(s): ['R47-MOT|RC0402FR-070RL.1|1']",
+    "orphan changed/new net S3_I2C_SDA has 1 endpoint(s): ['R45-MOT|RC0402FR-070RL.1|1']",
+    "orphan leftover-support net USB_EFUSE_PG members=['R67-PWR1|RC0402FR-0710KL.1|2']"
+  ],
+  "warnings": [],
+  "archive_entries_before": 155,
+  "archive_entries_after": 157,
+  "changed_existing_members": [
+    "SHEET/cffcdb562c1b48d1a5214cfc263b6c90/1.esch",
+    "SYMBOL/33584adb3fae446b8267f72ffc2554b8.esym",
+    "SYMBOL/bd22fe873b2d43eca73a8e23e234f0ac.esym",
+    "project.json"
+  ],
+  "added_members": [
+    "SYMBOL/414ba6da3ac51b406da3fbb13e589c49.esym",
+    "SYMBOL/99ae5a8d90c97ad043c45f352e4c1422.esym"
+  ],
+  "removed_members": [],
+  "pcb_unchanged": {
+    "PCB/59bef7e87cff4cd580561703b62d8c19.epcb": true
+  },
+  "schematic_record_count": 7372,
+  "component_primitives": 257,
+  "designator_attributes": 255,
+  "unique_designators": 254,
+  "device_count": 87,
+  "symbol_count": 74,
+  "footprint_count": 70,
+  "key_postconditions": {
+    "BUCK_PG": {
+      "ok": true,
+      "nets": [
+        [
+          "BUCK_PG"
+        ]
+      ]
+    },
+    "LIS_CS": {
+      "ok": true,
+      "nets": [
+        [
+          "3V3"
+        ]
+      ]
+    },
+    "LIS_SA0": {
+      "ok": true,
+      "nets": [
+        [
+          "GND"
+        ]
+      ]
+    },
+    "RT_USB_DP": {
+      "ok": true,
+      "nets": [
+        [
+          "USB_DP_RT"
+        ]
+      ]
+    },
+    "RT_USB_DN": {
+      "ok": true,
+      "nets": [
+        [
+          "USB_DN_RT"
+        ]
+      ]
+    },
+    "RT_USB_VBUS": {
+      "ok": true,
+      "nets": [
+        [
+          "5V_PROTECTED"
+        ]
+      ]
+    },
+    "NFC_VDD": {
+      "ok": true,
+      "nets": [
+        [
+          "NFC_5V"
+        ]
+      ]
+    },
+    "NFC_VDDTX": {
+      "ok": true,
+      "nets": [
+        [
+          "NFC_5V"
+        ]
+      ]
+    },
+    "NFC_RFI1": {
+      "ok": true,
+      "nets": [
+        [
+          "NFC_RFI1_DIV"
+        ]
+      ]
+    },
+    "S3_FILTERED": {
+      "ok": true,
+      "nets": [
+        [
+          "3V3_S3_FILTERED"
+        ]
+      ]
+    },
+    "U16_SENSE": {
+      "ok": true,
+      "nets": [
+        [
+          "3V3"
+        ]
+      ]
+    },
+    "U1_PG_WITH_R67": {
+      "ok": false,
+      "u1": [
+        "PWR_ENTRY_PG_RT_IOMUX_TBD"
+      ],
+      "r67": [
+        "USB_EFUSE_PG"
+      ]
+    }
+  },
+  "orphan_net_findings": [
+    {
+      "net": "5V_LED_COMMON",
+      "ok": false,
+      "reason": "leftover_support",
+      "members": [
+        "C11-PWR2|GRM21BR61E226ME44L.1|1"
+      ]
+    },
+    {
+      "net": "LED_EFUSE_DVDT",
+      "ok": false,
+      "reason": "leftover_support",
+      "members": [
+        "C68-PWR2|GRM155R71H222KA01D.1|1"
+      ]
+    },
+    {
+      "net": "LED_EFUSE_ILIM",
+      "ok": false,
+      "reason": "leftover_support",
+      "members": [
+        "R8-PWR2|RC0402FR-0710KL.1|1"
+      ]
+    },
+    {
+      "net": "LED_FAULT_L_N",
+      "ok": true,
+      "reason": "named_hold",
+      "members": [
+        "U17-PWR2|TPS2561DRCR.1|10"
+      ]
+    },
+    {
+      "net": "LED_FAULT_R_N",
+      "ok": true,
+      "reason": "named_hold",
+      "members": [
+        "U17-PWR2|TPS2561DRCR.1|6"
+      ]
+    },
+    {
+      "net": "MOTION_INT_S3",
+      "ok": false,
+      "reason": "stranded_companion",
+      "members": [
+        "R49-MOT|RC0402FR-0710KL.1|2"
+      ],
+      "stranded": [
+        "U9-ESP|ESP32-S3-WROOM-1(N16R8).1|5"
+      ]
+    },
+    {
+      "net": "PWR_ENTRY_PG_RT_IOMUX_TBD",
+      "ok": false,
+      "reason": "stranded_companion",
+      "members": [
+        "U1-PWR1|TPS259474LRPWR.1|3"
+      ],
+      "stranded": [
+        "R67-PWR1|RC0402FR-0710KL.1|2"
+      ]
+    },
+    {
+      "net": "RT_I2C_SCL",
+      "ok": false,
+      "reason": "lt2_endpoints",
+      "members": [
+        "R46-MOT|RC0402FR-070RL.1|1"
+      ]
+    },
+    {
+      "net": "RT_I2C_SDA",
+      "ok": false,
+      "reason": "lt2_endpoints",
+      "members": [
+        "R44-MOT|RC0402FR-070RL.1|1"
+      ]
+    },
+    {
+      "net": "RT_USB_AUD_STRAP_IOMUX_TBD",
+      "ok": false,
+      "reason": "stranded_companion",
+      "members": [
+        "R56-VAL|RC0402FR-0710KL.1|2"
+      ],
+      "stranded": [
+        "U6-RTC|MIMXRT1062DVJ6B.2|M8"
+      ]
+    },
+    {
+      "net": "S3_I2C_SCL",
+      "ok": false,
+      "reason": "lt2_endpoints",
+      "members": [
+        "R47-MOT|RC0402FR-070RL.1|1"
+      ]
+    },
+    {
+      "net": "S3_I2C_SDA",
+      "ok": false,
+      "reason": "lt2_endpoints",
+      "members": [
+        "R45-MOT|RC0402FR-070RL.1|1"
+      ]
+    },
+    {
+      "net": "USB_EFUSE_PG",
+      "ok": false,
+      "reason": "leftover_support",
+      "members": [
+        "R67-PWR1|RC0402FR-0710KL.1|2"
+      ]
+    }
+  ],
+  "rq048_exact_metadata": {
+    "R40-AUD": {
+      "Add into BOM": [
+        "no"
+      ],
+      "Convert to PCB": [
+        "no"
+      ],
+      "Manufacturer Part": [
+        ""
+      ],
+      "Supplier Part": [
+        ""
+      ],
+      "supplierId": [
+        ""
+      ]
+    },
+    "R41-AUD": {
+      "Add into BOM": [
+        "no"
+      ],
+      "Convert to PCB": [
+        "no"
+      ],
+      "Manufacturer Part": [
+        ""
+      ],
+      "Supplier Part": [
+        ""
+      ],
+      "supplierId": [
+        ""
+      ]
+    },
+    "R45-MOT": {
+      "Add into BOM": [
+        "no"
+      ],
+      "Convert to PCB": [
+        "no"
+      ],
+      "Manufacturer Part": [
+        ""
+      ],
+      "Supplier Part": [
+        ""
+      ],
+      "supplierId": [
+        ""
+      ]
+    },
+    "R47-MOT": {
+      "Add into BOM": [
+        "no"
+      ],
+      "Convert to PCB": [
+        "no"
+      ],
+      "Manufacturer Part": [
+        ""
+      ],
+      "Supplier Part": [
+        ""
+      ],
+      "supplierId": [
+        ""
+      ]
+    },
+    "R49-MOT": {
+      "Add into BOM": [
+        "no"
+      ],
+      "Convert to PCB": [
+        "no"
+      ],
+      "Manufacturer Part": [
+        ""
+      ],
+      "Supplier Part": [
+        ""
+      ],
+      "supplierId": [
+        ""
+      ]
+    },
+    "R56-VAL": {
+      "Add into BOM": [
+        "no"
+      ],
+      "Convert to PCB": [
+        "no"
+      ],
+      "Manufacturer Part": [
+        ""
+      ],
+      "Supplier Part": [
+        ""
+      ],
+      "supplierId": [
+        ""
+      ]
+    },
+    "R57-VAL": {
+      "Add into BOM": [
+        "no"
+      ],
+      "Convert to PCB": [
+        "no"
+      ],
+      "Manufacturer Part": [
+        ""
+      ],
+      "Supplier Part": [
+        ""
+      ],
+      "supplierId": [
+        ""
+      ]
+    }
+  },
+  "custom_footprint_holds": {
+    "DVBUS-PWR1": [
+      "no"
+    ],
+    "U17-PWR2": [
+      "no"
+    ]
+  },
+  "presence": {
+    "U1-PWR1": true,
+    "U4-PWR2": false,
+    "U17-PWR2": true,
+    "R8-PWR2": true,
+    "C68-PWR2": true,
+    "C11-PWR2": true,
+    "R67-PWR1": true
+  }
+}

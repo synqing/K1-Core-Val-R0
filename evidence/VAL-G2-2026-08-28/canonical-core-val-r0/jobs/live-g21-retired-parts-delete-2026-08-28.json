@@ -1,0 +1,6 @@
+[
+  {"tool":"delete_schematic_component","tag":"F1","args":{"primitiveId":"e301","saveAfter":false,"skipConfirmation":true,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool":"delete_schematic_component","tag":"L3","args":{"primitiveId":"e13399","saveAfter":false,"skipConfirmation":true,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool":"delete_schematic_component","tag":"R43","args":{"primitiveId":"e13477","saveAfter":false,"skipConfirmation":true,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool":"delete_schematic_component","tag":"R50","args":{"primitiveId":"e14148","saveAfter":true,"skipConfirmation":true,"expectedDocumentUuid":"1435cb46f39e48c8a8aadbb84ca81603"}}
+]

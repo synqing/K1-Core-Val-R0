@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-mot1-repair-reconcile-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash": "2258086:6f9d4200",
+  "saved": true,
+  "observed": "Reconcile the live gate onto dump 2227 before deleting C62-MOT1. Census 229 components, 227 designators, 693 wires. C62-MOT1 1c431593519b8c88 is present and unwired. C62-MOT e13842 remains. R44-MOT and R45-MOT are still absent; R44-MOT1 and R45-MOT1 remain.",
+  "census": {
+    "components": 229,
+    "wires": 693,
+    "designators": 227
+  },
+  "present": ["C62-MOT", "C62-MOT1", "R44-MOT1", "R45-MOT1", "U13-MOT"],
+  "absent": ["R44-MOT", "R45-MOT"]
+}

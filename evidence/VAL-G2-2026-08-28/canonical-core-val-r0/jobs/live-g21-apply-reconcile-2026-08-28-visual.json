@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-g21-apply-reconcile-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Reconcile the live K1-Core-Val-R0 mutation gate onto the current V3 host dump before applying G2.1 electrical repairs. No write in this transaction.",
+  "observed_delta": "Whole-sheet view of live P1.Schematic1 at about 92 percent. Ten domain boxes remain. U1-PWR1 is in the top-left power box. U4-PWR2, R8-PWR2 and C68-PWR2 are still in the second power box. U17-PWR2 is not on the sheet.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/live-g21-apply-prewrite-u4.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "identity",
+      "result": "OK",
+      "detail": "Active tab is P1.Schematic1 on live K1-Core-Val-R0, parent 64325d0e, page 1435cb46."
+    },
+    {
+      "name": "single-sheet occupancy",
+      "result": "OK",
+      "detail": "The ten titled domain boxes remain on the one electrical page."
+    },
+    {
+      "name": "census",
+      "result": "OK",
+      "detail": "Live dump 2142088:6a266bf3 has 231 components and 680 wires."
+    },
+    {
+      "name": "u4-still-present",
+      "result": "OK",
+      "detail": "U4-PWR2 is still visible in the second power box; U17 is absent."
+    }
+  ]
+}

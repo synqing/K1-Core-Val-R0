@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-mot1-c62-contain-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2257697:4c23b613",
+  "post_source_hash": "2255535:1b784134",
+  "saved": true,
+  "stage": "designate",
+  "scope": "Contain unwired C62-MOT1 without deleting",
+  "intended_delta": "Set C62-MOT1 addIntoBom=no and addIntoPcb=no and name DO NOT FIT. Do not move it. Do not delete it. Do not touch C62-MOT or any wire.",
+  "affected": ["C62-MOT1"],
+  "census": {
+    "components": 229,
+    "wires": 692,
+    "designators": 227
+  },
+  "present": ["C62-MOT1", "C62-MOT"],
+  "attrs": {
+    "C62-MOT1": {
+      "id": "1c431593519b8c88",
+      "x": 2290,
+      "y": -3000,
+      "Name": "DO NOT FIT",
+      "Add into BOM": "no",
+      "Convert to PCB": "no"
+    }
+  }
+}

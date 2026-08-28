@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-g21-trunk-pg-wire-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2272318:c4803657",
+  "post_source_hash": "2273389:a0a235e2",
+  "saved": true,
+  "stage": "wire",
+  "scope": "U1 PG and R67 onto named hold net",
+  "intended_delta": "Put U1-PWR1 pin 3 and R67-PWR1 pin 2 on PWR_ENTRY_PG_RT_IOMUX_TBD. Do not remove U1. Do not touch NFC unused pins.",
+  "affected": ["U1-PWR1", "R67-PWR1"],
+  "census": {
+    "components": 233,
+    "wires": 692
+  },
+  "net_counts": {
+    "PWR_ENTRY_PG_RT_IOMUX_TBD": 4,
+    "USB_EFUSE_PG": 0
+  }
+}

@@ -1,0 +1,101 @@
+# K1-CORE-VAL-R0 — G2.1 Offline Bulk Repair Candidate
+
+- Input SHA256: `78245760ba3f824f0d585e5ca7d0488e86dc1761d39a08a0503484b0184d4893`
+- Output SHA256: `1dd7d8156071e5b06163a9a3d28b22f24eab7e5ff62b2fa26ac59623c283cc54`
+- Validation: **PASS**
+- PCB payload: **UNCHANGED / still empty**
+- Schematic primitive components: 257
+- Designator attributes: 255
+- Wires: 778
+- Intentional NC marks: 106
+
+## Repair-state counts
+- `ALREADY_SATISFIED`: 3
+- `ALREADY_SATISFIED_CURRENT_EXPORT`: 3
+- `ALREADY_SATISFIED_PLUS_GUARD`: 1
+- `APPLIED`: 43
+- `APPLIED_AUTHORITY_ADJUSTED`: 1
+- `APPLIED_INTENT`: 1
+- `APPLIED_SCHEMATIC`: 1
+- `APPLIED_SCHEMATIC_G3_FOOTPRINT_HOLD`: 1
+- `APPLIED_TUNE_TBD`: 1
+- `APPLIED_WITH_BOM_HOLD`: 1
+- `APPLIED_WITH_EXPLICIT_HOLDS`: 1
+- `NOT_SELECTED`: 1
+- `PARTIAL_G3`: 5
+- `PARTIAL_READABILITY`: 1
+- `SUPERSEDED_BY_REBASE`: 1
+
+## Remaining fail-closed items
+- VAL-G3: exact flexible RT1062/S3 GPIO/IOMUX assignments for CC sensing, I2C owner leg, power-good and LED enable/fault endpoints
+- VAL-G3/G5: RF matching and SI/termination values marked TUNE_TBD; measured antenna/stackup required
+- VAL-G3/G4: verify/bind local custom footprints for TPS2561DRCR and SMF5.0A before PCB conversion
+- VAL-G3: re-derive TPS2561 RILIM/current envelope; ~59k is explicitly nominal only
+- EasyEDA final import: ERC + BOM + CPL + save/reopen + visual block inspection required before promotion
+
+## Transaction rebase
+- **RQ-001** — `APPLIED` — deleted unnamed debris wire e153914
+- **RQ-002** — `ALREADY_SATISFIED` — frozen bad BUCK_PG wire absent
+- **RQ-003** — `APPLIED` — U3 PG now on BUCK_PG
+- **RQ-004** — `APPLIED` — removed 4 J1 USB-data NC flags
+- **RQ-005** — `APPLIED` — removed 4 USBLC NC flags
+- **RQ-006** — `ALREADY_SATISFIED` — INA address NC removals=0
+- **RQ-007** — `ALREADY_SATISFIED` — INA A1/A0 forced low => address 0x40
+- **RQ-008** — `APPLIED` — LIS ground/reserved pins 5,7,8
+- **RQ-009** — `APPLIED` — LIS I2C forced: CS=3V3, SA0=GND => 0x18
+- **RQ-010** — `APPLIED` — ABM12 signal/ground terminal topology corrected; C54/C55 restamped TUNE_TBD
+- **RQ-011** — `APPLIED` — TPS3808G33 SENSE tied to 3V3
+- **RQ-012** — `APPLIED` — all J1 VBUS contacts bonded to 5V_USB
+- **RQ-013** — `APPLIED` — all J1 ground contacts and four shell pads represented/bonded
+- **RQ-014** — `PARTIAL_G3` — USB_OTG1_DN freed; validation strap retained as RT_USB_AUD_STRAP_IOMUX_TBD pending VAL-G3 pin assignment
+- **RQ-015-P/D/W** — `PARTIAL_G3` — Rd pair implemented; CC sense topology present with TUNE_TBD values / RT ADC balls deferred by VAL-G3
+- **RQ-016-P/D/W** — `APPLIED` — RT USB D+/D- route built through USBLC6 and fitted 0R tuning footprints
+- **RQ-017-P/D/W** — `APPLIED` — RT USB_OTG1_VBUS on protected 5V with local 1uF; source-policy still enforced by CC sense/load shed
+- **RQ-018-P/D/W** — `APPLIED_SCHEMATIC` — SMF5.0A C2758488 added across inlet; footprint binding held fail-closed for VAL-G3
+- **RQ-019** — `APPLIED` — removed underspecified trunk ferrite; branch/NFC ferrites remain
+- **RQ-020** — `APPLIED` — OVLO lower leg changed to 287k => ~6.01V threshold
+- **RQ-021** — `APPLIED` — main eFuse ILIM resistor changed/bound to 1.24k precision part
+- **RQ-022-P/D/W** — `APPLIED` — 10R/10R + 100nF differential input filter added with explicit Kelvin net names
+- **RQ-023-P/D/W** — `APPLIED` — 1uF local output capacitor added on 3V3_MIC_REG
+- **RQ-024** — `APPLIED` — TPS62913 feedback divider set 15.4k / 4.87k (~3.33V), lower leg <=5k
+- **RQ-025** — `PARTIAL_G3` — PG made explicit/observable net; RT ball deferred per VAL-G3 pinmux rule
+- **RQ-026** — `APPLIED` — ST25R3916B VDD + VDD_TX both on NFC_5V; VDD_IO remains 3V3
+- **RQ-027-P/D/W** — `APPLIED_TUNE_TBD` — single-ended RFI1 divider topology implemented; matching/EMC values intentionally TUNE_TBD
+- **RQ-028-P/D/W** — `APPLIED_WITH_BOM_HOLD` — five 10nF regulator partners added; C97 AGDC changed to 1uF; 10n supplier left unbound instead of fabricated
+- **RQ-029** — `APPLIED` — removed NFC IRQ pull-up; IRQ remains host net
+- **RQ-030** — `APPLIED` — route-B alternates now 22R DNP, not fake 10k
+- **RQ-031** — `APPLIED` — both PDM routes current-limited by 22R; explicit XOR/never-both note
+- **RQ-032** — `APPLIED` — mic rail defaults OFF; gate net renamed active-low; pull-up references source rail
+- **RQ-033** — `APPLIED` — J9 hold-down/shell pins 11/12 grounded
+- **RQ-034** — `APPLIED_INTENT` — unused ADC high-Z pins explicitly NC with configuration intent recorded
+- **RQ-035** — `APPLIED` — external clock override no longer disables RT capture
+- **RQ-036** — `APPLIED` — service VBUS divider lower leg =150k
+- **RQ-037-P/D/W** — `APPLIED` — ESP32-S3 supply isolated through embedded BLM21PG221SN1D ferrite
+- **RQ-038** — `PARTIAL_G3` — real master-leg XOR topology created; RT default owner frozen, exact RT IOMUX balls intentionally deferred
+- **RQ-039** — `APPLIED` — S3 motion IRQ alternate explicitly DNP; stale dangling stub removed if present
+- **RQ-040-P/D/W** — `APPLIED` — 10uF bulk added at motion rail schematic node; physical closeness is G4 placement constraint
+- **RQ-041-P/D/W** — `APPLIED` — 10k pull-down on each LED data source net
+- **RQ-042-P/D/W** — `APPLIED` — 10k/10k NTC dividers completed to 3V3
+- **RQ-043** — `NOT_SELECTED` — DEC-10=A: data pull-downs + branch power default-off; no extra OE GPIO control added
+- **RQ-044** — `APPLIED_SCHEMATIC_G3_FOOTPRINT_HOLD` — TPS2561 dual-channel branch protection selected and drawn; footprint binding explicitly fail-closed to VAL-G3
+- **RQ-045** — `PARTIAL_G3` — LED branches default OFF and have separate enable nets; RT control GPIO balls intentionally deferred
+- **RQ-046** — `APPLIED` — R1 device binding now matches selected 1.24k part
+- **RQ-047** — `APPLIED` — R8 device binding now matches 3.48k drawn value
+- **RQ-048** — `APPLIED` — seven fabricated DNP MPNs cleared; Add into BOM=no and Convert to PCB=no exactly per fault register
+- **RQ-049** — `APPLIED` — USB4105 symbol now exposes shell pads 1-4; both J1/J7 shells ground-bonded
+- **RQ-050** — `APPLIED` — multipart RT1062 shares consistent identity; only primary unit emits BOM line
+- **RQ-051** — `APPLIED` — R42 corrected to 1% binding; header stand-ins made visible on sheet
+- **RQ-052** — `APPLIED` — eight test points are explicit bare pads: BOM=no, PCB=yes, Keystone 5001 identity removed
+- **RQ-054** — `APPLIED` — LED series termination footprints retained; values TUNE_TBD
+- **RQ-055** — `APPLIED` — USB/audio shunt tuning caps restamped TUNE_TBD/DNP
+- **RQ-057** — `ALREADY_SATISFIED_CURRENT_EXPORT` — all functional U9 pins in fresh export are already touched by the expected nets
+- **RQ-058** — `ALREADY_SATISFIED_CURRENT_EXPORT` — C10 pins/net membership verified in current export; no stale offset mutation replayed
+- **RQ-059** — `ALREADY_SATISFIED_CURRENT_EXPORT` — U9 IO7 already carries RT_PWR_VALID
+- **RQ-060** — `SUPERSEDED_BY_REBASE` — stale frozen-source stub census not replayed; post-transform semantic checker is authoritative
+- **RQ-061** — `PARTIAL_READABILITY` — power spine made explicit in-sheet; did not manufacture cosmetic wire-wire joins that change no netlist
+- **RQ-062** — `ALREADY_SATISFIED_PLUS_GUARD` — fresh export already had late NC batch; critical intentional NCs reasserted without touching newly-wired USB pins
+- **RQ-063** — `APPLIED` — RFO2/RFI2 marked intentional NC for single-ended topology
+- **RQ-064** — `APPLIED_AUTHORITY_ADJUSTED` — all K1BR sides unambiguous; no new gratuitous TP stubs added because current validation-access authority prefers existing doors
+- **RQ-065** — `APPLIED` — ST25R3916B TAD1/TAD2 symbol names corrected
+- **RQ-066** — `APPLIED` — NFC supply/topology/tuning/firmware and EMC intent recorded on sheet
+- **RQ-053** — `APPLIED_WITH_EXPLICIT_HOLDS` — normalized instance supplier IDs from project-device LCSC authority; changed fields=315, local/TUNE devices without real C-code held=26

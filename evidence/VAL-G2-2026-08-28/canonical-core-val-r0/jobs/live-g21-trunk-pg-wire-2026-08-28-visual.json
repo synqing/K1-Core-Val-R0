@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-g21-trunk-pg-wire-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Put U1-PWR1 pin 3 and R67-PWR1 pin 2 on PWR_ENTRY_PG_RT_IOMUX_TBD. Do not remove U1. Do not touch NFC unused pins.",
+  "observed_delta": "Saved live source now has four PWR_ENTRY_PG_RT_IOMUX_TBD net attributes. U1-PWR1 is still present. The exact name USB_EFUSE_PG is gone.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/live-g21-trunk-pg-after.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "U1 pin 3 is on PWR_ENTRY_PG_RT_IOMUX_TBD",
+      "result": "OK",
+      "detail": "A named stub was created at U1 pin 3, 605,4130."
+    },
+    {
+      "name": "R67 pin 2 is on PWR_ENTRY_PG_RT_IOMUX_TBD",
+      "result": "OK",
+      "detail": "A named stub was created at R67 pin 2, 620,3700."
+    },
+    {
+      "name": "U1-PWR1 remains on the sheet",
+      "result": "OK",
+      "detail": "Designator U1-PWR1 is still present."
+    },
+    {
+      "name": "USB_EFUSE_PG exact name is no longer the U1 pin-3 net",
+      "result": "OK",
+      "detail": "USB_EFUSE_PG NET attribute count is 0. PWR_ENTRY_PG_RT_IOMUX_TBD count is 4."
+    }
+  ]
+}

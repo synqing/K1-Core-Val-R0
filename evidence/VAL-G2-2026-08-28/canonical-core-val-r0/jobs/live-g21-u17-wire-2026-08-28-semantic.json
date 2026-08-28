@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-g21-u17-wire-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2259313:10c68ccf",
+  "post_source_hash": "2272318:c4803657",
+  "saved": true,
+  "stage": "wire",
+  "scope": "TPS2561 LED branch nets",
+  "intended_delta": "Wire U17-PWR2 and its three support resistors onto the G2.1 LED-branch nets. Re-home C11-PWR2 pin 1 to 5V_SYS. Repoint FB1/FB2 pin 1 to 5V_LED_L_SW and 5V_LED_R_SW. U17 pin 11 EP to GND.",
+  "affected": ["U17-PWR2", "RILIM-LED", "RLED_ENL_PD-LED", "RLED_ENR_PD-LED", "C11-PWR2", "FB1-PWR2", "FB2-PWR2"],
+  "census": {
+    "components": 233,
+    "wires": 692
+  },
+  "net_counts": {
+    "TPS2561_ILIM": 2,
+    "LED_PWR_L_EN": 2,
+    "LED_PWR_R_EN": 2,
+    "5V_LED_L_SW": 3,
+    "5V_LED_R_SW": 3,
+    "LED_FAULT_L_N": 2,
+    "LED_FAULT_R_N": 1
+  }
+}

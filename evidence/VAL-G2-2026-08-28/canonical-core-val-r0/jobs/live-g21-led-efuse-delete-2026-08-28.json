@@ -1,0 +1,32 @@
+[
+  {
+    "tool": "delete_schematic_component",
+    "tag": "delete-U4-PWR2",
+    "args": {
+      "primitiveId": "e2491",
+      "saveAfter": false,
+      "skipConfirmation": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "delete_schematic_component",
+    "tag": "delete-R8-PWR2",
+    "args": {
+      "primitiveId": "e2452",
+      "saveAfter": false,
+      "skipConfirmation": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "delete_schematic_component",
+    "tag": "delete-C68-PWR2",
+    "args": {
+      "primitiveId": "e38545",
+      "saveAfter": true,
+      "skipConfirmation": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

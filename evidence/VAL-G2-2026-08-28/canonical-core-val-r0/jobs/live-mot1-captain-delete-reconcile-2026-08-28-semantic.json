@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-mot1-captain-delete-reconcile-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash": "2248889:ce62b519",
+  "saved": true,
+  "observed": "Reconcile after Captain deleted C62-MOT1 and renamed R45-MOT1 to R45-MOT. No agent write. Census 229 components, 226 designators, 686 wires. C62-MOT1 id 1c431593519b8c88 is absent. C62-MOT still on 3V3/GND. R44-MOT and R45-MOT remain on MOTION_SDA/I2C_SDA.",
+  "census": {
+    "components": 229,
+    "wires": 686,
+    "designators": 226
+  },
+  "present": ["C62-MOT", "R44-MOT", "R45-MOT", "C63-MOT", "U13-MOT"],
+  "absent": ["C62-MOT1", "R44-MOT1", "R45-MOT1"]
+}

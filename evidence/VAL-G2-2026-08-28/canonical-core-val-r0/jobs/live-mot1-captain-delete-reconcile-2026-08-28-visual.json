@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-mot1-captain-delete-reconcile-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Reconcile the live gate after Captain deleted C62-MOT1 and restored the R45-MOT name. No agent write.",
+  "observed_delta": "The motion passive row shows C62-MOT 100nF on 3V3/GND, C63-MOT the same, R44-MOT 0R on MOTION_SDA/I2C_SDA, and R45-MOT DNP on the same SDA pair. C62-MOT1 is not on the sheet.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/live-mot1-after-captain-delete.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "identity",
+      "result": "OK",
+      "detail": "Active tab is saved P1.Schematic1 on live K1-Core-Val-R0."
+    },
+    {
+      "name": "c62-mot1 gone",
+      "result": "OK",
+      "detail": "Source and pin list both lack 1c431593519b8c88 / C62-MOT1. The row shows C62-MOT only."
+    },
+    {
+      "name": "c62-mot still wired",
+      "result": "OK",
+      "detail": "C62-MOT still reads 100nF with 3V3 and GND stubs."
+    },
+    {
+      "name": "r44 r45 names restored",
+      "result": "OK",
+      "detail": "The 0R is R44-MOT and the DNP is R45-MOT, both on MOTION_SDA / I2C_SDA."
+    }
+  ]
+}

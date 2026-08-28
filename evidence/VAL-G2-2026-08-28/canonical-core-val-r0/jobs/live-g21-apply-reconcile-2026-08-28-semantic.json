@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-g21-apply-reconcile-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash": "2142088:6a266bf3",
+  "saved": true,
+  "observed": "Restamp the live K1-Core-Val-R0 mutation gate onto the current V3 host dump before applying G2.1 electrical repairs. Census 231 components, 228 unique designators, 680 wires, 22 texts, 10 rectangles. U4-PWR2, R8-PWR2 and C68-PWR2 are still present. U17-PWR2 and RILIM-LED are absent.",
+  "census": {
+    "components": 231,
+    "wires": 680,
+    "texts": 22,
+    "rectangles": 10,
+    "designators": 228
+  },
+  "present": ["U1-PWR1", "U4-PWR2", "R8-PWR2", "C68-PWR2", "C11-PWR2"],
+  "absent": ["U17-PWR2", "RILIM-LED"]
+}

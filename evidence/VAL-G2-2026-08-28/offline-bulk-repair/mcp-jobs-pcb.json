@@ -1,0 +1,8 @@
+[
+  {"tool": "get_current_context", "tag": "pcb-context", "args": {}},
+  {"tool": "list_pcb_primitive_ids", "tag": "pcb-components", "args": {"family": "component"}},
+  {"tool": "list_pcb_primitive_ids", "tag": "pcb-vias", "args": {"family": "via"}},
+  {"tool": "list_pcb_primitive_ids", "tag": "pcb-lines", "args": {"family": "line"}},
+  {"tool": "list_pcb_primitive_ids", "tag": "pcb-texts", "args": {"family": "text"}},
+  {"tool": "list_pcb_nets", "tag": "pcb-nets", "args": {}}
+]

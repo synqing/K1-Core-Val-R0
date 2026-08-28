@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-g21-retired-parts-delete-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2273389:a0a235e2",
+  "post_source_hash": "2242441:f0348db4",
+  "saved": true,
+  "stage": "delete",
+  "scope": "F1 L3 R43 R50 retired by G2.1 transformer",
+  "intended_delta": "Delete F1-PWR1, L3-NFC, R43-NFC and R50-MOT only. Leave U1 and U17. Do not collapse 5V_USB_FILTERED in this transaction.",
+  "affected": ["F1-PWR1", "L3-NFC", "R43-NFC", "R50-MOT"],
+  "census": {
+    "components": 229,
+    "wires": 692
+  },
+  "absent": ["F1-PWR1", "L3-NFC", "R43-NFC", "R50-MOT"],
+  "present": ["U1-PWR1", "U17-PWR2"],
+  "net_counts": {
+    "5V_USB_FILTERED": 4,
+    "5V_USB": 2
+  }
+}

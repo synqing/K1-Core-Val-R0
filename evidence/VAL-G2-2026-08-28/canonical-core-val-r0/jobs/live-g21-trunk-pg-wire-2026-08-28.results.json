@@ -1,0 +1,49 @@
+[
+ {
+  "tag": "U1-3",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      605,
+      4130,
+      585,
+      4130
+     ]
+    ],
+    "net": "PWR_ENTRY_PG_RT_IOMUX_TBD",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "f3768cbb92857e08"
+   }
+  }
+ },
+ {
+  "tag": "R67-2",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      620,
+      3700,
+      640,
+      3700
+     ]
+    ],
+    "net": "PWR_ENTRY_PG_RT_IOMUX_TBD",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "4e0c779844589841"
+   },
+   "saved": true
+  }
+ }
+]

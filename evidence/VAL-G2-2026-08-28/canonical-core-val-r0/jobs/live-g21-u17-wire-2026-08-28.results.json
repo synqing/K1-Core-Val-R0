@@ -1,0 +1,37 @@
+[
+ {
+  "tag": "U17",
+  "ok": false,
+  "error": "connect_schematic_pins_to_nets: FAILED at item 1 of 11 (pin 1 -> GND). 0 attachment(s) were ALREADY COMMITTED to the document before this failure: (none). DO NOT re-run this call unchanged — that would double-apply the committed items. Verify with get_document_source, then resume from item 1. Cause: connect_schematic_pin_to_net(net-label, pin 1 -> GND): EasyEDA returned no primitive — the host REJ"
+ },
+ {
+  "tag": "RILIM",
+  "ok": false,
+  "error": "connect_schematic_pins_to_nets: FAILED at item 1 of 2 (pin 1 -> TPS2561_ILIM). 0 attachment(s) were ALREADY COMMITTED to the document before this failure: (none). DO NOT re-run this call unchanged — that would double-apply the committed items. Verify with get_document_source, then resume from item 1. Cause: connect_schematic_pin_to_net(net-label, pin 1 -> TPS2561_ILIM): EasyEDA returned no primiti"
+ },
+ {
+  "tag": "ENL",
+  "ok": false,
+  "error": "connect_schematic_pins_to_nets: FAILED at item 1 of 2 (pin 1 -> LED_PWR_L_EN). 0 attachment(s) were ALREADY COMMITTED to the document before this failure: (none). DO NOT re-run this call unchanged — that would double-apply the committed items. Verify with get_document_source, then resume from item 1. Cause: connect_schematic_pin_to_net(net-label, pin 1 -> LED_PWR_L_EN): EasyEDA returned no primiti"
+ },
+ {
+  "tag": "ENR",
+  "ok": false,
+  "error": "connect_schematic_pins_to_nets: FAILED at item 1 of 2 (pin 1 -> LED_PWR_R_EN). 0 attachment(s) were ALREADY COMMITTED to the document before this failure: (none). DO NOT re-run this call unchanged — that would double-apply the committed items. Verify with get_document_source, then resume from item 1. Cause: connect_schematic_pin_to_net(net-label, pin 1 -> LED_PWR_R_EN): EasyEDA returned no primiti"
+ },
+ {
+  "tag": "C11",
+  "ok": false,
+  "error": "connect_schematic_pins_to_nets: FAILED at item 1 of 1 (pin 1 -> 5V_SYS). 0 attachment(s) were ALREADY COMMITTED to the document before this failure: (none). DO NOT re-run this call unchanged — that would double-apply the committed items. Verify with get_document_source, then resume from item 1. Cause: connect_schematic_pin_to_net(net-label, pin 1 -> 5V_SYS): EasyEDA returned no primitive — the hos"
+ },
+ {
+  "tag": "FB1",
+  "ok": false,
+  "error": "connect_schematic_pins_to_nets: FAILED at item 1 of 1 (pin 1 -> 5V_LED_L_SW). 0 attachment(s) were ALREADY COMMITTED to the document before this failure: (none). DO NOT re-run this call unchanged — that would double-apply the committed items. Verify with get_document_source, then resume from item 1. Cause: connect_schematic_pin_to_net(net-label, pin 1 -> 5V_LED_L_SW): EasyEDA returned no primitive"
+ },
+ {
+  "tag": "FB2",
+  "ok": false,
+  "error": "connect_schematic_pins_to_nets: FAILED at item 1 of 1 (pin 1 -> 5V_LED_R_SW). 0 attachment(s) were ALREADY COMMITTED to the document before this failure: (none). DO NOT re-run this call unchanged — that would double-apply the committed items. Verify with get_document_source, then resume from item 1. Cause: connect_schematic_pin_to_net(net-label, pin 1 -> 5V_LED_R_SW): EasyEDA returned no primitive"
+ }
+]

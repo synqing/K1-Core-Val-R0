@@ -1,0 +1,17 @@
+{
+  "projectUuid": "dcd7e3cab2a24b9aa6e531d2b62e1b6f",
+  "documentUuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "strict": true,
+  "userInterface": false,
+  "passed": false,
+  "fatal": 9,
+  "warn": 19,
+  "bridge_note": "sch_Drc.check verbose returned [{type:fatalError,count:9},{type:warn,count:19}] only. GUI panel remains the certifying gate.",
+  "classification": [
+    {"class": "named_hold", "items": ["IOMUX_TBD nets RQ-014/025/038/045", "TUNE_TBD matching/SI", "footprint holds DVBUS/U17"]},
+    {"class": "empty_pcb_expected", "items": ["no copper, Convert to PCB=no parts"]},
+    {"class": "intentional_nc", "items": ["DEC-04 RFO2/RFI2", "LIS INT2", "unused ADC", "U1 ITIMER"]},
+    {"class": "transformer_defect", "items": []}
+  ],
+  "rules_weakened": false
+}

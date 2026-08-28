@@ -1,0 +1,11 @@
+[
+  {"tool": "open_document", "tag": "open-pcb", "args": {"documentUuid": "59bef7e87cff4cd580561703b62d8c19"}},
+  {"tool": "get_current_context", "tag": "after-open-pcb", "args": {}},
+  {"tool": "list_pcb_primitive_ids", "tag": "pcb-components", "args": {"family": "component"}},
+  {"tool": "list_pcb_primitive_ids", "tag": "pcb-vias", "args": {"family": "via"}},
+  {"tool": "list_pcb_primitive_ids", "tag": "pcb-lines", "args": {"family": "line"}},
+  {"tool": "list_pcb_primitive_ids", "tag": "pcb-texts", "args": {"family": "text"}},
+  {"tool": "list_pcb_nets", "tag": "pcb-nets", "args": {}},
+  {"tool": "open_document", "tag": "open-sch", "args": {"documentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "get_current_context", "tag": "after-open-sch", "args": {}}
+]

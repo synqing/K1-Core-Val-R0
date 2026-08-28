@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-g21-u17-designate-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Designate the new cluster only: TPS2561 becomes U17-PWR2, 59k becomes RILIM-LED, 10k pulldowns become RLED_ENL_PD-LED and RLED_ENR_PD-LED. Keep U17 Convert-to-PCB no. Do not wire.",
+  "observed_delta": "Saved live source now carries Designator U17-PWR2 on the TPS2561, RILIM-LED on the 59k, RLED_ENL_PD-LED and RLED_ENR_PD-LED on the 10k pair. U17 Convert to PCB is still no.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/live-g21-u17-designate-after.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "U17-PWR2 label is on the TPS2561",
+      "result": "OK",
+      "detail": "Designator U17-PWR2 is on primitive b118f78741a245ce, name TPS2561."
+    },
+    {
+      "name": "RILIM-LED label is on the 59k",
+      "result": "OK",
+      "detail": "Designator RILIM-LED is on primitive 887f876349514338, name ~59k / RE-DERIVE G3."
+    },
+    {
+      "name": "RLED_ENL_PD-LED is on the left 10k",
+      "result": "OK",
+      "detail": "Designator RLED_ENL_PD-LED is on primitive 27364dde051e627f."
+    },
+    {
+      "name": "RLED_ENR_PD-LED is on the right 10k",
+      "result": "OK",
+      "detail": "Designator RLED_ENR_PD-LED is on primitive 4943ab32785082e6."
+    },
+    {
+      "name": "U17 Convert-to-PCB remains no",
+      "result": "OK",
+      "detail": "U17-PWR2 Convert to PCB attribute is no."
+    }
+  ]
+}

@@ -12,6 +12,14 @@ and evidence contract for this repository.
 sheets are forbidden.** All electrical components, nets, power paths, option circuits and real
 schematic wiring live on that one sheet, separated visually by domain of concern.
 
+**`dcd7e3cab2a24b9aa6e531d2b62e1b6f` is not canonical.** That disposable project
+(`K1-Core-Val-R0-G2.1-BULK-CANDIDATE`) is the G2.1 electrical reference / EasyEDA
+normalisation oracle (D-048). Do not promote it. Do not beautify it interactively. Do not
+use it as JLCPCB handoff or as a PCB source. Readable reconstruction is G2.2
+(`K1-Core-Val-R0-G2.2-READABLE-CANDIDATE`), which must prove exact electrical equivalence
+to the G2.1 graph. `JLC-SCH-READY` attaches to G2.2, not G2.1. Leave a hung EasyEDA window
+alone; no Force Quit.
+
 ## Hard rules
 
 - Do not import legacy K1 copper.

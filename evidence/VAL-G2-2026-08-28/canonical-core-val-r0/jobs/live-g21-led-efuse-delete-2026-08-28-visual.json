@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-g21-led-efuse-delete-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Delete the shared LED eFuse family only: U4-PWR2 (e2491), R8-PWR2 (e2452), C68-PWR2 (e38545). Leave U1-PWR1, C11-PWR2, FB1/FB2 in place. Do not place U17 in this transaction.",
+  "observed_delta": "Saved live source no longer contains U4-PWR2, R8-PWR2 or C68-PWR2. U1-PWR1 and C11-PWR2 remain. U17 is not yet placed. Whole-sheet view still shows the ten domain boxes.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/live-g21-led-efuse-delete-box2.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "U4-PWR2 symbol gone from box 2",
+      "result": "OK",
+      "detail": "Live source after save has no COMPONENT e2491 and no Designator U4-PWR2."
+    },
+    {
+      "name": "R8-PWR2 gone from box 2",
+      "result": "OK",
+      "detail": "Live source after save has no COMPONENT e2452 and no Designator R8-PWR2."
+    },
+    {
+      "name": "C68-PWR2 gone from box 2",
+      "result": "OK",
+      "detail": "Live source after save has no COMPONENT e38545 and no Designator C68-PWR2."
+    },
+    {
+      "name": "U1-PWR1 remains in box 1",
+      "result": "OK",
+      "detail": "U1-PWR1 e504 remains at 690,4110 as TPS259474L."
+    },
+    {
+      "name": "C11-PWR2 remains in box 2",
+      "result": "OK",
+      "detail": "C11-PWR2 e2268 remains at 1075,4000."
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+[
+ {
+  "tag": "U17-3",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      2225,
+      3780,
+      2205,
+      3780
+     ]
+    ],
+    "net": "5V_SYS",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "a185e3937780de42"
+   }
+  }
+ },
+ {
+  "tag": "U17-4",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      2225,
+      3770,
+      2205,
+      3770
+     ]
+    ],
+    "net": "LED_PWR_L_EN",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "f2c65d736503bad7"
+   }
+  }
+ },
+ {
+  "tag": "U17-5",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      2225,
+      3760,
+      2205,
+      3760
+     ]
+    ],
+    "net": "LED_PWR_R_EN",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "c68b0b6c943eff09"
+   }
+  }
+ },
+ {
+  "tag": "U17-6",
+  "ok": false,
+  "error": "create failed!"
+ },
+ {
+  "tag": "U17-7",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      2365,
+      3770,
+      2385,
+      3770
+     ]
+    ],
+    "net": "TPS2561_ILIM",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "2180b6fe2fe34e9c"
+   }
+  }
+ },
+ {
+  "tag": "U17-8",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      2365,
+      3780,
+      2385,
+      3780
+     ]
+    ],
+    "net": "5V_LED_R_SW",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "d1913e4057ef3c5a"
+   }
+  }
+ },
+ {
+  "tag": "U17-9",
+  "ok": false,
+  "error": "create failed!"
+ },
+ {
+  "tag": "U17-10",
+  "ok": false,
+  "error": "create failed!"
+ },
+ {
+  "tag": "U17-11",
+  "ok": false,
+  "error": "create failed!"
+ },
+ {
+  "tag": "RILIM-1",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      2365,
+      3850,
+      2345,
+      3850
+     ]
+    ],
+    "net": "TPS2561_ILIM",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "934faf04b0a9a610"
+   }
+  }
+ },
+ {
+  "tag": "RILIM-2",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      2405,
+      3850,
+      2425,
+      3850
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "3d2ff3712fe8ce33"
+   }
+  }
+ },
+ {
+  "tag": "ENL-1",
+  "ok": false,
+  "error": "create failed!"
+ },
+ {
+  "tag": "ENL-2",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      2205,
+      3875,
+      2225,
+      3875
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "f03ffcf793c25783"
+   }
+  }
+ },
+ {
+  "tag": "ENR-1",
+  "ok": false,
+  "error": "create failed!"
+ },
+ {
+  "tag": "ENR-2",
+  "ok": false,
+  "error": "create failed!"
+ },
+ {
+  "tag": "C11-1",
+  "ok": false,
+  "error": "create failed!"
+ },
+ {
+  "tag": "FB1-1",
+  "ok": false,
+  "error": "create failed!"
+ },
+ {
+  "tag": "FB2-1",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1285,
+      4145,
+      1265,
+      4145
+     ]
+    ],
+    "net": "5V_LED_R_SW",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "c7feb891e3f5f531"
+   },
+   "saved": true
+  }
+ }
+]

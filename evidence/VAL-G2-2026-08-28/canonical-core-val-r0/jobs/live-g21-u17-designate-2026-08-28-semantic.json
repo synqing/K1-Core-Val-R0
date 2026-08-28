@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-g21-u17-designate-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2237582:89c6d07c",
+  "post_source_hash": "2259313:10c68ccf",
+  "saved": true,
+  "stage": "designate",
+  "scope": "TPS2561 LED branch designations",
+  "intended_delta": "Designate the new cluster only: TPS2561 becomes U17-PWR2, 59k becomes RILIM-LED, 10k pulldowns become RLED_ENL_PD-LED and RLED_ENR_PD-LED. Keep U17 Convert-to-PCB no. Do not wire.",
+  "affected": ["U17-PWR2", "RILIM-LED", "RLED_ENL_PD-LED", "RLED_ENR_PD-LED"],
+  "census": {
+    "components": 234,
+    "wires": 680,
+    "texts": 22,
+    "rectangles": 10
+  },
+  "designators": {
+    "b118f78741a245ce": "U17-PWR2",
+    "887f876349514338": "RILIM-LED",
+    "27364dde051e627f": "RLED_ENL_PD-LED",
+    "4943ab32785082e6": "RLED_ENR_PD-LED"
+  },
+  "u17_convert_to_pcb": "no"
+}

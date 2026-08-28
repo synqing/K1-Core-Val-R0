@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-mot1-c62-contain-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Set C62-MOT1 addIntoBom=no and addIntoPcb=no and name DO NOT FIT. Do not move it. Do not delete it. Do not touch C62-MOT or any wire.",
+  "observed_delta": "C62-MOT1 stayed at 2290,-3000. Its name is now DO NOT FIT. Add into BOM is no. Convert to PCB is no. C62-MOT did not move. No component ids were added or removed.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/live-mot1-c62-contain-after.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "C62-MOT1 still at 2290,-3000",
+      "result": "OK",
+      "detail": "Source still has 1c431593519b8c88 at 2290,-3000."
+    },
+    {
+      "name": "C62-MOT1 not in BOM",
+      "result": "OK",
+      "detail": "Add into BOM reads no."
+    },
+    {
+      "name": "C62-MOT1 not converted to PCB",
+      "result": "OK",
+      "detail": "Convert to PCB reads no."
+    },
+    {
+      "name": "C62-MOT unchanged",
+      "result": "OK",
+      "detail": "e13842 remains at 2430,-3095 named 100nF."
+    },
+    {
+      "name": "no new component ids",
+      "result": "OK",
+      "detail": "Component count stays 229 with the same ids."
+    }
+  ]
+}

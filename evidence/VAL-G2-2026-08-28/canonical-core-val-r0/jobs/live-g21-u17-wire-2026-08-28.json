@@ -1,0 +1,99 @@
+[
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "U17",
+    "args": {
+      "componentPrimitiveId": "b118f78741a245ce",
+      "connections": [
+        {"pinNumber": "1", "net": "GND"},
+        {"pinNumber": "2", "net": "5V_SYS"},
+        {"pinNumber": "3", "net": "5V_SYS"},
+        {"pinNumber": "4", "net": "LED_PWR_L_EN"},
+        {"pinNumber": "5", "net": "LED_PWR_R_EN"},
+        {"pinNumber": "6", "net": "LED_FAULT_R_N"},
+        {"pinNumber": "7", "net": "TPS2561_ILIM"},
+        {"pinNumber": "8", "net": "5V_LED_R_SW"},
+        {"pinNumber": "9", "net": "5V_LED_L_SW"},
+        {"pinNumber": "10", "net": "LED_FAULT_L_N"},
+        {"pinNumber": "11", "net": "GND"}
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "RILIM",
+    "args": {
+      "componentPrimitiveId": "887f876349514338",
+      "connections": [
+        {"pinNumber": "1", "net": "TPS2561_ILIM"},
+        {"pinNumber": "2", "net": "GND"}
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "ENL",
+    "args": {
+      "componentPrimitiveId": "27364dde051e627f",
+      "connections": [
+        {"pinNumber": "1", "net": "LED_PWR_L_EN"},
+        {"pinNumber": "2", "net": "GND"}
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "ENR",
+    "args": {
+      "componentPrimitiveId": "4943ab32785082e6",
+      "connections": [
+        {"pinNumber": "1", "net": "LED_PWR_R_EN"},
+        {"pinNumber": "2", "net": "GND"}
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "C11",
+    "args": {
+      "componentPrimitiveId": "e2268",
+      "connections": [
+        {"pinNumber": "1", "net": "5V_SYS"}
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "FB1",
+    "args": {
+      "componentPrimitiveId": "e2376",
+      "connections": [
+        {"pinNumber": "1", "net": "5V_LED_L_SW"}
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "FB2",
+    "args": {
+      "componentPrimitiveId": "e2414",
+      "connections": [
+        {"pinNumber": "1", "net": "5V_LED_R_SW"}
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

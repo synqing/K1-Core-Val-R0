@@ -1,0 +1,367 @@
+{
+  "artifact": "K1-Core-Val-R0 G2.1 offline bulk repair candidate",
+  "input_sha256": "78245760ba3f824f0d585e5ca7d0488e86dc1761d39a08a0503484b0184d4893",
+  "output_sha256": "1dd7d8156071e5b06163a9a3d28b22f24eab7e5ff62b2fa26ac59623c283cc54",
+  "validation": {
+    "ok": true,
+    "errors": [],
+    "warnings": [],
+    "state_counts": {
+      "APPLIED": 43,
+      "ALREADY_SATISFIED": 3,
+      "PARTIAL_G3": 5,
+      "APPLIED_SCHEMATIC": 1,
+      "APPLIED_TUNE_TBD": 1,
+      "APPLIED_WITH_BOM_HOLD": 1,
+      "APPLIED_INTENT": 1,
+      "NOT_SELECTED": 1,
+      "APPLIED_SCHEMATIC_G3_FOOTPRINT_HOLD": 1,
+      "ALREADY_SATISFIED_CURRENT_EXPORT": 3,
+      "SUPERSEDED_BY_REBASE": 1,
+      "PARTIAL_READABILITY": 1,
+      "ALREADY_SATISFIED_PLUS_GUARD": 1,
+      "APPLIED_AUTHORITY_ADJUSTED": 1,
+      "APPLIED_WITH_EXPLICIT_HOLDS": 1
+    },
+    "record_count": 7372,
+    "component_primitives": 257,
+    "designator_attrs": 255,
+    "unique_designators": 254,
+    "wire_count": 778,
+    "nc_yes": 106
+  },
+  "repairs": [
+    {
+      "tx": "RQ-001",
+      "state": "APPLIED",
+      "detail": "deleted unnamed debris wire e153914"
+    },
+    {
+      "tx": "RQ-002",
+      "state": "ALREADY_SATISFIED",
+      "detail": "frozen bad BUCK_PG wire absent"
+    },
+    {
+      "tx": "RQ-003",
+      "state": "APPLIED",
+      "detail": "U3 PG now on BUCK_PG"
+    },
+    {
+      "tx": "RQ-004",
+      "state": "APPLIED",
+      "detail": "removed 4 J1 USB-data NC flags"
+    },
+    {
+      "tx": "RQ-005",
+      "state": "APPLIED",
+      "detail": "removed 4 USBLC NC flags"
+    },
+    {
+      "tx": "RQ-006",
+      "state": "ALREADY_SATISFIED",
+      "detail": "INA address NC removals=0"
+    },
+    {
+      "tx": "RQ-007",
+      "state": "ALREADY_SATISFIED",
+      "detail": "INA A1/A0 forced low => address 0x40"
+    },
+    {
+      "tx": "RQ-008",
+      "state": "APPLIED",
+      "detail": "LIS ground/reserved pins 5,7,8"
+    },
+    {
+      "tx": "RQ-009",
+      "state": "APPLIED",
+      "detail": "LIS I2C forced: CS=3V3, SA0=GND => 0x18"
+    },
+    {
+      "tx": "RQ-010",
+      "state": "APPLIED",
+      "detail": "ABM12 signal/ground terminal topology corrected; C54/C55 restamped TUNE_TBD"
+    },
+    {
+      "tx": "RQ-011",
+      "state": "APPLIED",
+      "detail": "TPS3808G33 SENSE tied to 3V3"
+    },
+    {
+      "tx": "RQ-012",
+      "state": "APPLIED",
+      "detail": "all J1 VBUS contacts bonded to 5V_USB"
+    },
+    {
+      "tx": "RQ-013",
+      "state": "APPLIED",
+      "detail": "all J1 ground contacts and four shell pads represented/bonded"
+    },
+    {
+      "tx": "RQ-014",
+      "state": "PARTIAL_G3",
+      "detail": "USB_OTG1_DN freed; validation strap retained as RT_USB_AUD_STRAP_IOMUX_TBD pending VAL-G3 pin assignment"
+    },
+    {
+      "tx": "RQ-015-P/D/W",
+      "state": "PARTIAL_G3",
+      "detail": "Rd pair implemented; CC sense topology present with TUNE_TBD values / RT ADC balls deferred by VAL-G3"
+    },
+    {
+      "tx": "RQ-016-P/D/W",
+      "state": "APPLIED",
+      "detail": "RT USB D+/D- route built through USBLC6 and fitted 0R tuning footprints"
+    },
+    {
+      "tx": "RQ-017-P/D/W",
+      "state": "APPLIED",
+      "detail": "RT USB_OTG1_VBUS on protected 5V with local 1uF; source-policy still enforced by CC sense/load shed"
+    },
+    {
+      "tx": "RQ-018-P/D/W",
+      "state": "APPLIED_SCHEMATIC",
+      "detail": "SMF5.0A C2758488 added across inlet; footprint binding held fail-closed for VAL-G3"
+    },
+    {
+      "tx": "RQ-019",
+      "state": "APPLIED",
+      "detail": "removed underspecified trunk ferrite; branch/NFC ferrites remain"
+    },
+    {
+      "tx": "RQ-020",
+      "state": "APPLIED",
+      "detail": "OVLO lower leg changed to 287k => ~6.01V threshold"
+    },
+    {
+      "tx": "RQ-021",
+      "state": "APPLIED",
+      "detail": "main eFuse ILIM resistor changed/bound to 1.24k precision part"
+    },
+    {
+      "tx": "RQ-022-P/D/W",
+      "state": "APPLIED",
+      "detail": "10R/10R + 100nF differential input filter added with explicit Kelvin net names"
+    },
+    {
+      "tx": "RQ-023-P/D/W",
+      "state": "APPLIED",
+      "detail": "1uF local output capacitor added on 3V3_MIC_REG"
+    },
+    {
+      "tx": "RQ-024",
+      "state": "APPLIED",
+      "detail": "TPS62913 feedback divider set 15.4k / 4.87k (~3.33V), lower leg <=5k"
+    },
+    {
+      "tx": "RQ-025",
+      "state": "PARTIAL_G3",
+      "detail": "PG made explicit/observable net; RT ball deferred per VAL-G3 pinmux rule"
+    },
+    {
+      "tx": "RQ-026",
+      "state": "APPLIED",
+      "detail": "ST25R3916B VDD + VDD_TX both on NFC_5V; VDD_IO remains 3V3"
+    },
+    {
+      "tx": "RQ-027-P/D/W",
+      "state": "APPLIED_TUNE_TBD",
+      "detail": "single-ended RFI1 divider topology implemented; matching/EMC values intentionally TUNE_TBD"
+    },
+    {
+      "tx": "RQ-028-P/D/W",
+      "state": "APPLIED_WITH_BOM_HOLD",
+      "detail": "five 10nF regulator partners added; C97 AGDC changed to 1uF; 10n supplier left unbound instead of fabricated"
+    },
+    {
+      "tx": "RQ-029",
+      "state": "APPLIED",
+      "detail": "removed NFC IRQ pull-up; IRQ remains host net"
+    },
+    {
+      "tx": "RQ-030",
+      "state": "APPLIED",
+      "detail": "route-B alternates now 22R DNP, not fake 10k"
+    },
+    {
+      "tx": "RQ-031",
+      "state": "APPLIED",
+      "detail": "both PDM routes current-limited by 22R; explicit XOR/never-both note"
+    },
+    {
+      "tx": "RQ-032",
+      "state": "APPLIED",
+      "detail": "mic rail defaults OFF; gate net renamed active-low; pull-up references source rail"
+    },
+    {
+      "tx": "RQ-033",
+      "state": "APPLIED",
+      "detail": "J9 hold-down/shell pins 11/12 grounded"
+    },
+    {
+      "tx": "RQ-034",
+      "state": "APPLIED_INTENT",
+      "detail": "unused ADC high-Z pins explicitly NC with configuration intent recorded"
+    },
+    {
+      "tx": "RQ-035",
+      "state": "APPLIED",
+      "detail": "external clock override no longer disables RT capture"
+    },
+    {
+      "tx": "RQ-036",
+      "state": "APPLIED",
+      "detail": "service VBUS divider lower leg =150k"
+    },
+    {
+      "tx": "RQ-037-P/D/W",
+      "state": "APPLIED",
+      "detail": "ESP32-S3 supply isolated through embedded BLM21PG221SN1D ferrite"
+    },
+    {
+      "tx": "RQ-038",
+      "state": "PARTIAL_G3",
+      "detail": "real master-leg XOR topology created; RT default owner frozen, exact RT IOMUX balls intentionally deferred"
+    },
+    {
+      "tx": "RQ-039",
+      "state": "APPLIED",
+      "detail": "S3 motion IRQ alternate explicitly DNP; stale dangling stub removed if present"
+    },
+    {
+      "tx": "RQ-040-P/D/W",
+      "state": "APPLIED",
+      "detail": "10uF bulk added at motion rail schematic node; physical closeness is G4 placement constraint"
+    },
+    {
+      "tx": "RQ-041-P/D/W",
+      "state": "APPLIED",
+      "detail": "10k pull-down on each LED data source net"
+    },
+    {
+      "tx": "RQ-042-P/D/W",
+      "state": "APPLIED",
+      "detail": "10k/10k NTC dividers completed to 3V3"
+    },
+    {
+      "tx": "RQ-043",
+      "state": "NOT_SELECTED",
+      "detail": "DEC-10=A: data pull-downs + branch power default-off; no extra OE GPIO control added"
+    },
+    {
+      "tx": "RQ-044",
+      "state": "APPLIED_SCHEMATIC_G3_FOOTPRINT_HOLD",
+      "detail": "TPS2561 dual-channel branch protection selected and drawn; footprint binding explicitly fail-closed to VAL-G3"
+    },
+    {
+      "tx": "RQ-045",
+      "state": "PARTIAL_G3",
+      "detail": "LED branches default OFF and have separate enable nets; RT control GPIO balls intentionally deferred"
+    },
+    {
+      "tx": "RQ-046",
+      "state": "APPLIED",
+      "detail": "R1 device binding now matches selected 1.24k part"
+    },
+    {
+      "tx": "RQ-047",
+      "state": "APPLIED",
+      "detail": "R8 device binding now matches 3.48k drawn value"
+    },
+    {
+      "tx": "RQ-048",
+      "state": "APPLIED",
+      "detail": "seven fabricated DNP MPNs cleared; Add into BOM=no and Convert to PCB=no exactly per fault register"
+    },
+    {
+      "tx": "RQ-049",
+      "state": "APPLIED",
+      "detail": "USB4105 symbol now exposes shell pads 1-4; both J1/J7 shells ground-bonded"
+    },
+    {
+      "tx": "RQ-050",
+      "state": "APPLIED",
+      "detail": "multipart RT1062 shares consistent identity; only primary unit emits BOM line"
+    },
+    {
+      "tx": "RQ-051",
+      "state": "APPLIED",
+      "detail": "R42 corrected to 1% binding; header stand-ins made visible on sheet"
+    },
+    {
+      "tx": "RQ-052",
+      "state": "APPLIED",
+      "detail": "eight test points are explicit bare pads: BOM=no, PCB=yes, Keystone 5001 identity removed"
+    },
+    {
+      "tx": "RQ-054",
+      "state": "APPLIED",
+      "detail": "LED series termination footprints retained; values TUNE_TBD"
+    },
+    {
+      "tx": "RQ-055",
+      "state": "APPLIED",
+      "detail": "USB/audio shunt tuning caps restamped TUNE_TBD/DNP"
+    },
+    {
+      "tx": "RQ-057",
+      "state": "ALREADY_SATISFIED_CURRENT_EXPORT",
+      "detail": "all functional U9 pins in fresh export are already touched by the expected nets"
+    },
+    {
+      "tx": "RQ-058",
+      "state": "ALREADY_SATISFIED_CURRENT_EXPORT",
+      "detail": "C10 pins/net membership verified in current export; no stale offset mutation replayed"
+    },
+    {
+      "tx": "RQ-059",
+      "state": "ALREADY_SATISFIED_CURRENT_EXPORT",
+      "detail": "U9 IO7 already carries RT_PWR_VALID"
+    },
+    {
+      "tx": "RQ-060",
+      "state": "SUPERSEDED_BY_REBASE",
+      "detail": "stale frozen-source stub census not replayed; post-transform semantic checker is authoritative"
+    },
+    {
+      "tx": "RQ-061",
+      "state": "PARTIAL_READABILITY",
+      "detail": "power spine made explicit in-sheet; did not manufacture cosmetic wire-wire joins that change no netlist"
+    },
+    {
+      "tx": "RQ-062",
+      "state": "ALREADY_SATISFIED_PLUS_GUARD",
+      "detail": "fresh export already had late NC batch; critical intentional NCs reasserted without touching newly-wired USB pins"
+    },
+    {
+      "tx": "RQ-063",
+      "state": "APPLIED",
+      "detail": "RFO2/RFI2 marked intentional NC for single-ended topology"
+    },
+    {
+      "tx": "RQ-064",
+      "state": "APPLIED_AUTHORITY_ADJUSTED",
+      "detail": "all K1BR sides unambiguous; no new gratuitous TP stubs added because current validation-access authority prefers existing doors"
+    },
+    {
+      "tx": "RQ-065",
+      "state": "APPLIED",
+      "detail": "ST25R3916B TAD1/TAD2 symbol names corrected"
+    },
+    {
+      "tx": "RQ-066",
+      "state": "APPLIED",
+      "detail": "NFC supply/topology/tuning/firmware and EMC intent recorded on sheet"
+    },
+    {
+      "tx": "RQ-053",
+      "state": "APPLIED_WITH_EXPLICIT_HOLDS",
+      "detail": "normalized instance supplier IDs from project-device LCSC authority; changed fields=315, local/TUNE devices without real C-code held=26"
+    }
+  ],
+  "open_contract": [
+    "VAL-G3: exact flexible RT1062/S3 GPIO/IOMUX assignments for CC sensing, I2C owner leg, power-good and LED enable/fault endpoints",
+    "VAL-G3/G5: RF matching and SI/termination values marked TUNE_TBD; measured antenna/stackup required",
+    "VAL-G3/G4: verify/bind local custom footprints for TPS2561DRCR and SMF5.0A before PCB conversion",
+    "VAL-G3: re-derive TPS2561 RILIM/current envelope; ~59k is explicitly nominal only",
+    "EasyEDA final import: ERC + BOM + CPL + save/reopen + visual block inspection required before promotion"
+  ]
+}

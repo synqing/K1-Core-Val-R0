@@ -1,0 +1,16 @@
+# Phase 1 parked artefacts — do not treat 1dd7 as import target
+78245760ba3f824f0d585e5ca7d0488e86dc1761d39a08a0503484b0184d4893  evidence/VAL-G2-2026-08-28/offline-bulk-repair/ProPrj_K1-Core-Val-R0_2026-08-28-input-78245760.epro
+1dd7d8156071e5b06163a9a3d28b22f24eab7e5ff62b2fa26ac59623c283cc54  evidence/VAL-G2-2026-08-28/offline-bulk-repair/known-bad-1dd7/K1-Core-Val-R0-G2.1-BULK-CANDIDATE.epro
+86ecc12828da17a2c53ca1cea9fb91a813e6c118a4d4d9ab6fe18cf551f08475  evidence/VAL-G2-2026-08-28/offline-bulk-repair/baseline-unpatched/epro_bulk_repair.py
+90f109c3a4e7895cb67599902bebcc2605f63e39cbb78aa8c8deabe9ad743116  evidence/VAL-G2-2026-08-28/offline-bulk-repair/baseline-unpatched/independent_epro_audit.py
+22d7664e3bd6b584f2ddd4209421fc327ab50267a479fb8c0bf3e40122ffa80f  evidence/VAL-G2-2026-08-28/offline-bulk-repair/baseline-unpatched/generate_full_semantic_diff.py
+f9825d035296cb62884313c35e408b2781015ebf9f9b06066176b8ba59419bd1  evidence/VAL-G2-2026-08-28/offline-bulk-repair/independent_epro_audit_cli.py
+# Stage A regenerated candidate and patched transformer
+3db861a351239a8628b151c4610a845da761ed9bcb562755f9ea9374aa262ba7  evidence/VAL-G2-2026-08-28/offline-bulk-repair/K1-Core-Val-R0-G2.1-BULK-CANDIDATE-3db861a3.epro
+b5e460f745e0cef70b9108679df934426fc1fb454b2692b6aa68d1c7a8e0d782  evidence/VAL-G2-2026-08-28/offline-bulk-repair/patched/epro_bulk_repair.py
+35ed8f5ab3a7a100adf33cf715de6ccccac9cfaeb1782ab2547bff16b2ceac0e  evidence/VAL-G2-2026-08-28/offline-bulk-repair/review-identity-before-save.png
+b2ec8ce8253c4d69a88b17b8239e4627215e50c6780ad00227da80821860c220  evidence/VAL-G2-2026-08-28/offline-bulk-repair/review-whole-before-save.png
+3459c2158451a3539f1c6c55a0752dc8fdfc2a1a38270c94432f81dfca93dce5  evidence/VAL-G2-2026-08-28/offline-bulk-repair/review-after-reopen-whole.png
+a073b76e0c0baccd0cd5433e96f03a6b4fe6ecdfe5a3d62e6e3ceb8d6f37ed00  evidence/VAL-G2-2026-08-28/offline-bulk-repair/review-after-reopen-cua-whole.png
+# D-048 G2.1 pre-export electrical-graph seed — not the official freeze
+892bbaee80f22d7086d42faa43557be4600b34d99b765914f7caf4c2c2a7e568  evidence/VAL-G2-2026-08-28/offline-bulk-repair/g2.1-electrical-graph-seed.json

@@ -36,6 +36,16 @@ eda:
   canonical_mutation_gate_ledger: evidence/VAL-G2-2026-08-28/canonical-core-val-r0/MUTATION-LEDGER.jsonl
   canonical_project_slug: spectrasynq/K1-Core-Val-R0   # was spectrasynq/project_apevgyqq before the 3.2.149 migration
   execution_canon: docs/agent/EASYEDA-EXECUTION-CANON.md
+  # D-048: disposable review project is the electrical-reference oracle, not the product.
+  # Page UUID 1435cb46… is inherited/shared; parentProjectUuid is the discriminator.
+  g2_1_electrical_reference_project_uuid: dcd7e3cab2a24b9aa6e531d2b62e1b6f
+  g2_1_electrical_reference_name: K1-Core-Val-R0-G2.1-BULK-CANDIDATE
+  g2_1_electrical_reference_role: EASYEDA_NORMALISATION_ORACLE
+  g2_1_electrical_reference_state: IMPORTED_NOT_CANONICAL
+  g2_1_import_receipt_state: NOT_YET_ACCEPTED
+  g2_2_readable_candidate_name: K1-Core-Val-R0-G2.2-READABLE-CANDIDATE
+  g2_2_readable_candidate_state: NOT_STARTED
+  jlc_sch_ready_attaches_to: G2.2
 
   # Host identity — recorded 2026-08-28 (D-045). Absent before, so nothing in authority
   # pinned which client or source grammar the harness was written against.

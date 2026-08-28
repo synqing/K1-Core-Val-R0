@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-g21-u17-place-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Place undesignated TPS2561DRCR at 1560,4095 plus RC0402 59k at 1650,4160 and two RC0402 10k pulldowns at 1450,4185 and 1660,4185. Convert-to-PCB no on the TPS2561. Do not designate or wire.",
+  "observed_delta": "Saved live source now has undesignated TPS2561DRCR at 1560,4095 (Convert to PCB no), 59k at 1650,4160, and two 10k resistors at 1450,4185 and 1660,4185. No U17-PWR2 designator yet. U1-PWR1 remains.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/live-g21-u17-place-after.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "TPS2561 symbol sits in box 2 near old U4 site",
+      "result": "OK",
+      "detail": "Saved source has TPS2561DRCR primitive b118f78741a245ce at 1560,4095."
+    },
+    {
+      "name": "59k resistor sits near the TPS2561 ILIM side",
+      "result": "OK",
+      "detail": "Saved source has RC0402FR-0759KL primitive 887f876349514338 at 1650,4160."
+    },
+    {
+      "name": "two 10k resistors sit near the enable side",
+      "result": "OK",
+      "detail": "Saved source has RC0402FR-0710KL primitives at 1450,4185 and 1660,4185."
+    },
+    {
+      "name": "U1-PWR1 is untouched",
+      "result": "OK",
+      "detail": "U1-PWR1 e504 remains on the sheet."
+    },
+    {
+      "name": "new TPS2561 is not designated U17 yet",
+      "result": "OK",
+      "detail": "No Designator U17-PWR2 exists. The new TPS2561 has no Designator attribute."
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "audit": "independent structural/semantic audit; does not import into EasyEDA GUI",
+  "input_sha256": "78245760ba3f824f0d585e5ca7d0488e86dc1761d39a08a0503484b0184d4893",
+  "output_sha256": "1dd7d8156071e5b06163a9a3d28b22f24eab7e5ff62b2fa26ac59623c283cc54",
+  "ok": true,
+  "errors": [],
+  "warnings": [],
+  "archive_entries_before": 155,
+  "archive_entries_after": 157,
+  "changed_existing_members": [
+    "SHEET/cffcdb562c1b48d1a5214cfc263b6c90/1.esch",
+    "SYMBOL/33584adb3fae446b8267f72ffc2554b8.esym",
+    "SYMBOL/bd22fe873b2d43eca73a8e23e234f0ac.esym",
+    "project.json"
+  ],
+  "added_members": [
+    "SYMBOL/414ba6da3ac51b406da3fbb13e589c49.esym",
+    "SYMBOL/99ae5a8d90c97ad043c45f352e4c1422.esym"
+  ],
+  "removed_members": [],
+  "pcb_unchanged": {
+    "PCB/59bef7e87cff4cd580561703b62d8c19.epcb": true
+  },
+  "schematic_record_count": 7372,
+  "component_primitives": 257,
+  "designator_attributes": 255,
+  "unique_designators": 254,
+  "device_count": 87,
+  "symbol_count": 74,
+  "footprint_count": 70,
+  "key_postconditions": {
+    "BUCK_PG": {
+      "ok": true,
+      "nets": [
+        [
+          "BUCK_PG"
+        ]
+      ]
+    },
+    "LIS_CS": {
+      "ok": true,
+      "nets": [
+        [
+          "3V3"
+        ]
+      ]
+    },
+    "LIS_SA0": {
+      "ok": true,
+      "nets": [
+        [
+          "GND"
+        ]
+      ]
+    },
+    "RT_USB_DP": {
+      "ok": true,
+      "nets": [
+        [
+          "USB_DP_RT"
+        ]
+      ]
+    },
+    "RT_USB_DN": {
+      "ok": true,
+      "nets": [
+        [
+          "USB_DN_RT"
+        ]
+      ]
+    },
+    "RT_USB_VBUS": {
+      "ok": true,
+      "nets": [
+        [
+          "5V_PROTECTED"
+        ]
+      ]
+    },
+    "NFC_VDD": {
+      "ok": true,
+      "nets": [
+        [
+          "NFC_5V"
+        ]
+      ]
+    },
+    "NFC_VDDTX": {
+      "ok": true,
+      "nets": [
+        [
+          "NFC_5V"
+        ]
+      ]
+    },
+    "NFC_RFI1": {
+      "ok": true,
+      "nets": [
+        [
+          "NFC_RFI1_DIV"
+        ]
+      ]
+    },
+    "S3_FILTERED": {
+      "ok": true,
+      "nets": [
+        [
+          "3V3_S3_FILTERED"
+        ]
+      ]
+    }
+  },
+  "rq048_exact_metadata": {
+    "R40-AUD": {
+      "Add into BOM": [
+        "no"
+      ],
+      "Convert to PCB": [
+        "no"
+      ],
+      "Manufacturer Part": [
+        ""
+      ],
+      "Supplier Part": [
+        ""
+      ],
+      "supplierId": [
+        ""
+      ]
+    },
+    "R41-AUD": {
+      "Add into BOM": [
+        "no"
+      ],
+      "Convert to PCB": [
+        "no"
+      ],
+      "Manufacturer Part": [
+        ""
+      ],
+      "Supplier Part": [
+        ""
+      ],
+      "supplierId": [
+        ""
+      ]
+    },
+    "R45-MOT": {
+      "Add into BOM": [
+        "no"
+      ],
+      "Convert to PCB": [
+        "no"
+      ],
+      "Manufacturer Part": [
+        ""
+      ],
+      "Supplier Part": [
+        ""
+      ],
+      "supplierId": [
+        ""
+      ]
+    },
+    "R47-MOT": {
+      "Add into BOM": [
+        "no"
+      ],
+      "Convert to PCB": [
+        "no"
+      ],
+      "Manufacturer Part": [
+        ""
+      ],
+      "Supplier Part": [
+        ""
+      ],
+      "supplierId": [
+        ""
+      ]
+    },
+    "R49-MOT": {
+      "Add into BOM": [
+        "no"
+      ],
+      "Convert to PCB": [
+        "no"
+      ],
+      "Manufacturer Part": [
+        ""
+      ],
+      "Supplier Part": [
+        ""
+      ],
+      "supplierId": [
+        ""
+      ]
+    },
+    "R56-VAL": {
+      "Add into BOM": [
+        "no"
+      ],
+      "Convert to PCB": [
+        "no"
+      ],
+      "Manufacturer Part": [
+        ""
+      ],
+      "Supplier Part": [
+        ""
+      ],
+      "supplierId": [
+        ""
+      ]
+    },
+    "R57-VAL": {
+      "Add into BOM": [
+        "no"
+      ],
+      "Convert to PCB": [
+        "no"
+      ],
+      "Manufacturer Part": [
+        ""
+      ],
+      "Supplier Part": [
+        ""
+      ],
+      "supplierId": [
+        ""
+      ]
+    }
+  },
+  "custom_footprint_holds": {
+    "DVBUS-PWR1": [
+      "no"
+    ],
+    "U17-PWR2": [
+      "no"
+    ]
+  }
+}

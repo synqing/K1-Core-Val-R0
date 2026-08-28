@@ -1,0 +1,105 @@
+[
+  {
+    "tool": "get_current_context",
+    "tag": "ctx",
+    "args": {}
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U1-PWR1",
+    "args": {
+      "componentPrimitiveId": "e504"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R67-PWR1",
+    "args": {
+      "componentPrimitiveId": "e29249"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U17-PWR2",
+    "args": {
+      "componentPrimitiveId": "ebrc000648"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C11-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2268"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U16-VAL",
+    "args": {
+      "componentPrimitiveId": "e15539"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U3-PWR2",
+    "args": {
+      "componentPrimitiveId": "e2199"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U2-PWR1",
+    "args": {
+      "componentPrimitiveId": "e894"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U12-NFC",
+    "args": {
+      "componentPrimitiveId": "e13516"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U13-MOT",
+    "args": {
+      "componentPrimitiveId": "e14187"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "C10-PWR2",
+    "args": {
+      "componentPrimitiveId": "e24607"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R31-AUD",
+    "args": {
+      "componentPrimitiveId": "e12172"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R32-AUD",
+    "args": {
+      "componentPrimitiveId": "e12211"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "R33-AUD",
+    "args": {
+      "componentPrimitiveId": "e12250"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "RILIM-LED",
+    "args": {
+      "componentPrimitiveId": "ebrc000681"
+    }
+  }
+]

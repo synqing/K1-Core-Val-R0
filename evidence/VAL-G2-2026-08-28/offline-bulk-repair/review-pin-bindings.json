@@ -1,0 +1,1220 @@
+{
+  "tolerance": 8,
+  "checks": {
+    "U1.3_and_R67_same_PG": {
+      "U1.3": "PWR_ENTRY_PG_RT_IOMUX_TBD",
+      "R67.1": "3V3",
+      "R67.2": "PWR_ENTRY_PG_RT_IOMUX_TBD",
+      "ok": true
+    },
+    "C11_on_5V_SYS": {
+      "1": "5V_SYS",
+      "2": "GND",
+      "ok": true
+    },
+    "U16.5_SENSE_3V3": {
+      "net": "3V3",
+      "nc": false,
+      "ok": true
+    },
+    "U3.5_PG_BUCK_PG": {
+      "net": "BUCK_PG",
+      "nc": false,
+      "ok": true
+    },
+    "U2_A0_A1_strapped": {
+      "A0": "GND",
+      "A1": "GND",
+      "nc": [
+        false,
+        false
+      ],
+      "ok": true
+    },
+    "C10_soft_start": {
+      "1": "BUCK_SS",
+      "2": "GND",
+      "nc": [
+        false,
+        false
+      ],
+      "ok": true
+    },
+    "U12_DEC04": {
+      "RFO2": [
+        null,
+        true
+      ],
+      "I2C_EN": [
+        "NFC_I2C_EN",
+        false
+      ],
+      "RFI2": [
+        null,
+        true
+      ],
+      "ok": true
+    },
+    "RILIM": {
+      "1": "TPS2561_ILIM",
+      "2": "GND"
+    }
+  },
+  "bindings": {
+    "U1-PWR1": [
+      {
+        "pin": "1",
+        "name": "EN/UVLO",
+        "nc": false,
+        "x": 775,
+        "y": 4110,
+        "nets": [
+          "USB_EFUSE_EN"
+        ],
+        "net": "USB_EFUSE_EN"
+      },
+      {
+        "pin": "2",
+        "name": "OVLO/OVCSEL",
+        "nc": false,
+        "x": 775,
+        "y": 4130,
+        "nets": [
+          "USB_EFUSE_OVLO"
+        ],
+        "net": "USB_EFUSE_OVLO"
+      },
+      {
+        "pin": "3",
+        "name": "PG/AUXOFF",
+        "nc": false,
+        "x": 600,
+        "y": 4130,
+        "nets": [
+          "PWR_ENTRY_PG_RT_IOMUX_TBD"
+        ],
+        "net": "PWR_ENTRY_PG_RT_IOMUX_TBD"
+      },
+      {
+        "pin": "4",
+        "name": "PGTH/FLT#",
+        "nc": false,
+        "x": 600,
+        "y": 4110,
+        "nets": [
+          "USB_EFUSE_PGTH"
+        ],
+        "net": "USB_EFUSE_PGTH"
+      },
+      {
+        "pin": "5",
+        "name": "IN",
+        "nc": false,
+        "x": 775,
+        "y": 4090,
+        "nets": [
+          "5V_USB"
+        ],
+        "net": "5V_USB"
+      },
+      {
+        "pin": "6",
+        "name": "OUT",
+        "nc": false,
+        "x": 600,
+        "y": 4090,
+        "nets": [
+          "5V_PROTECTED"
+        ],
+        "net": "5V_PROTECTED"
+      },
+      {
+        "pin": "7",
+        "name": "DVDT",
+        "nc": false,
+        "x": 705,
+        "y": 4165,
+        "nets": [
+          "USB_EFUSE_DVDT"
+        ],
+        "net": "USB_EFUSE_DVDT"
+      },
+      {
+        "pin": "8",
+        "name": "GND",
+        "nc": false,
+        "x": 665,
+        "y": 4165,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      },
+      {
+        "pin": "9",
+        "name": "ILM",
+        "nc": false,
+        "x": 625,
+        "y": 4165,
+        "nets": [
+          "USB_EFUSE_ILIM"
+        ],
+        "net": "USB_EFUSE_ILIM"
+      },
+      {
+        "pin": "10",
+        "name": "ITIMER",
+        "nc": true,
+        "x": 740,
+        "y": 4165,
+        "nets": [],
+        "net": null
+      }
+    ],
+    "R67-PWR1": [
+      {
+        "pin": "2",
+        "name": "2",
+        "nc": false,
+        "x": 620,
+        "y": 3700,
+        "nets": [
+          "PWR_ENTRY_PG_RT_IOMUX_TBD"
+        ],
+        "net": "PWR_ENTRY_PG_RT_IOMUX_TBD"
+      },
+      {
+        "pin": "1",
+        "name": "1",
+        "nc": false,
+        "x": 580,
+        "y": 3700,
+        "nets": [
+          "3V3"
+        ],
+        "net": "3V3"
+      }
+    ],
+    "U17-PWR2": [
+      {
+        "pin": "1",
+        "name": "GND",
+        "nc": false,
+        "x": 1495,
+        "y": 4055,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      },
+      {
+        "pin": "2",
+        "name": "IN",
+        "nc": false,
+        "x": 1495,
+        "y": 4125,
+        "nets": [
+          "5V_SYS"
+        ],
+        "net": "5V_SYS"
+      },
+      {
+        "pin": "3",
+        "name": "IN",
+        "nc": false,
+        "x": 1495,
+        "y": 4115,
+        "nets": [
+          "5V_SYS"
+        ],
+        "net": "5V_SYS"
+      },
+      {
+        "pin": "4",
+        "name": "EN1",
+        "nc": false,
+        "x": 1495,
+        "y": 4100,
+        "nets": [
+          "LED_PWR_L_EN"
+        ],
+        "net": "LED_PWR_L_EN"
+      },
+      {
+        "pin": "5",
+        "name": "EN2",
+        "nc": false,
+        "x": 1495,
+        "y": 4090,
+        "nets": [
+          "LED_PWR_R_EN"
+        ],
+        "net": "LED_PWR_R_EN"
+      },
+      {
+        "pin": "6",
+        "name": "FAULT2",
+        "nc": false,
+        "x": 1625,
+        "y": 4075,
+        "nets": [
+          "LED_FAULT_R_N"
+        ],
+        "net": "LED_FAULT_R_N"
+      },
+      {
+        "pin": "7",
+        "name": "ILIM",
+        "nc": false,
+        "x": 1625,
+        "y": 4055,
+        "nets": [
+          "TPS2561_ILIM"
+        ],
+        "net": "TPS2561_ILIM"
+      },
+      {
+        "pin": "8",
+        "name": "OUT2",
+        "nc": false,
+        "x": 1625,
+        "y": 4100,
+        "nets": [
+          "5V_LED_R_SW"
+        ],
+        "net": "5V_LED_R_SW"
+      },
+      {
+        "pin": "9",
+        "name": "OUT1",
+        "nc": false,
+        "x": 1625,
+        "y": 4115,
+        "nets": [
+          "5V_LED_L_SW"
+        ],
+        "net": "5V_LED_L_SW"
+      },
+      {
+        "pin": "10",
+        "name": "FAULT1",
+        "nc": false,
+        "x": 1625,
+        "y": 4125,
+        "nets": [
+          "LED_FAULT_L_N"
+        ],
+        "net": "LED_FAULT_L_N"
+      }
+    ],
+    "C11-PWR2": [
+      {
+        "pin": "1",
+        "name": "1",
+        "nc": false,
+        "x": 1060,
+        "y": 4000,
+        "nets": [
+          "5V_SYS"
+        ],
+        "net": "5V_SYS"
+      },
+      {
+        "pin": "2",
+        "name": "2",
+        "nc": false,
+        "x": 1090,
+        "y": 4000,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      }
+    ],
+    "U16-VAL": [
+      {
+        "pin": "1",
+        "name": "RESET#",
+        "nc": false,
+        "x": 4775,
+        "y": 2950,
+        "nets": [
+          "RT_PWR_VALID"
+        ],
+        "net": "RT_PWR_VALID"
+      },
+      {
+        "pin": "2",
+        "name": "GND",
+        "nc": false,
+        "x": 4775,
+        "y": 2940,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      },
+      {
+        "pin": "3",
+        "name": "MR#",
+        "nc": true,
+        "x": 4775,
+        "y": 2930,
+        "nets": [],
+        "net": null
+      },
+      {
+        "pin": "4",
+        "name": "CT",
+        "nc": true,
+        "x": 4885,
+        "y": 2930,
+        "nets": [],
+        "net": null
+      },
+      {
+        "pin": "5",
+        "name": "SENSE",
+        "nc": false,
+        "x": 4885,
+        "y": 2940,
+        "nets": [
+          "3V3"
+        ],
+        "net": "3V3"
+      },
+      {
+        "pin": "6",
+        "name": "VDD",
+        "nc": false,
+        "x": 4885,
+        "y": 2950,
+        "nets": [
+          "3V3"
+        ],
+        "net": "3V3"
+      }
+    ],
+    "U3-PWR2": [
+      {
+        "pin": "1",
+        "name": "EN/SYNC",
+        "nc": false,
+        "x": 1140,
+        "y": 4575,
+        "nets": [
+          "BUCK_EN"
+        ],
+        "net": "BUCK_EN"
+      },
+      {
+        "pin": "2",
+        "name": "SW",
+        "nc": false,
+        "x": 1140,
+        "y": 4565,
+        "nets": [
+          "BUCK_SW"
+        ],
+        "net": "BUCK_SW"
+      },
+      {
+        "pin": "3",
+        "name": "VO",
+        "nc": false,
+        "x": 1140,
+        "y": 4555,
+        "nets": [
+          "3V3"
+        ],
+        "net": "3V3"
+      },
+      {
+        "pin": "4",
+        "name": "PGND",
+        "nc": false,
+        "x": 1140,
+        "y": 4545,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      },
+      {
+        "pin": "5",
+        "name": "PG",
+        "nc": false,
+        "x": 1140,
+        "y": 4535,
+        "nets": [
+          "BUCK_PG"
+        ],
+        "net": "BUCK_PG"
+      },
+      {
+        "pin": "6",
+        "name": "VIN",
+        "nc": false,
+        "x": 1260,
+        "y": 4535,
+        "nets": [
+          "5V_SYS"
+        ],
+        "net": "5V_SYS"
+      },
+      {
+        "pin": "7",
+        "name": "PSNS",
+        "nc": false,
+        "x": 1260,
+        "y": 4545,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      },
+      {
+        "pin": "8",
+        "name": "NR/SS",
+        "nc": false,
+        "x": 1260,
+        "y": 4555,
+        "nets": [
+          "BUCK_SS"
+        ],
+        "net": "BUCK_SS"
+      },
+      {
+        "pin": "9",
+        "name": "FB",
+        "nc": false,
+        "x": 1260,
+        "y": 4565,
+        "nets": [
+          "BUCK_FB"
+        ],
+        "net": "BUCK_FB"
+      },
+      {
+        "pin": "10",
+        "name": "S-CONF",
+        "nc": false,
+        "x": 1260,
+        "y": 4575,
+        "nets": [
+          "5V_SYS"
+        ],
+        "net": "5V_SYS"
+      }
+    ],
+    "U2-PWR1": [
+      {
+        "pin": "1",
+        "name": "A1",
+        "nc": false,
+        "x": 655,
+        "y": 4520,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      },
+      {
+        "pin": "2",
+        "name": "A0",
+        "nc": false,
+        "x": 655,
+        "y": 4510,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      },
+      {
+        "pin": "3",
+        "name": "Alert",
+        "nc": false,
+        "x": 655,
+        "y": 4500,
+        "nets": [
+          "INA_ALERT"
+        ],
+        "net": "INA_ALERT"
+      },
+      {
+        "pin": "4",
+        "name": "SDA",
+        "nc": false,
+        "x": 655,
+        "y": 4490,
+        "nets": [
+          "I2C_SDA"
+        ],
+        "net": "I2C_SDA"
+      },
+      {
+        "pin": "5",
+        "name": "SCL",
+        "nc": false,
+        "x": 655,
+        "y": 4480,
+        "nets": [
+          "I2C_SCL"
+        ],
+        "net": "I2C_SCL"
+      },
+      {
+        "pin": "6",
+        "name": "VS+",
+        "nc": false,
+        "x": 755,
+        "y": 4480,
+        "nets": [
+          "3V3"
+        ],
+        "net": "3V3"
+      },
+      {
+        "pin": "7",
+        "name": "GND",
+        "nc": false,
+        "x": 755,
+        "y": 4490,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      },
+      {
+        "pin": "8",
+        "name": "VBUS",
+        "nc": false,
+        "x": 755,
+        "y": 4500,
+        "nets": [
+          "INA_KELVIN_N"
+        ],
+        "net": "INA_KELVIN_N"
+      },
+      {
+        "pin": "9",
+        "name": "VIN-",
+        "nc": false,
+        "x": 755,
+        "y": 4510,
+        "nets": [
+          "INA_KELVIN_N"
+        ],
+        "net": "INA_KELVIN_N"
+      },
+      {
+        "pin": "10",
+        "name": "VIN+",
+        "nc": false,
+        "x": 755,
+        "y": 4520,
+        "nets": [
+          "INA_KELVIN_P"
+        ],
+        "net": "INA_KELVIN_P"
+      }
+    ],
+    "U12-NFC": [
+      {
+        "pin": "1",
+        "name": "VDD_IO",
+        "nc": false,
+        "x": 1475,
+        "y": 3460,
+        "nets": [
+          "3V3"
+        ],
+        "net": "3V3"
+      },
+      {
+        "pin": "2",
+        "name": "TAD1",
+        "nc": true,
+        "x": 1475,
+        "y": 3450,
+        "nets": [],
+        "net": null
+      },
+      {
+        "pin": "3",
+        "name": "VDD_D",
+        "nc": false,
+        "x": 1475,
+        "y": 3440,
+        "nets": [
+          "NFC_VDD_D"
+        ],
+        "net": "NFC_VDD_D"
+      },
+      {
+        "pin": "4",
+        "name": "XTO",
+        "nc": false,
+        "x": 1475,
+        "y": 3430,
+        "nets": [
+          "NFC_XTO"
+        ],
+        "net": "NFC_XTO"
+      },
+      {
+        "pin": "5",
+        "name": "XTI",
+        "nc": false,
+        "x": 1475,
+        "y": 3420,
+        "nets": [
+          "NFC_XTI"
+        ],
+        "net": "NFC_XTI"
+      },
+      {
+        "pin": "6",
+        "name": "GND_D",
+        "nc": false,
+        "x": 1475,
+        "y": 3410,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      },
+      {
+        "pin": "7",
+        "name": "VDD_A",
+        "nc": false,
+        "x": 1475,
+        "y": 3400,
+        "nets": [
+          "NFC_VDD_A"
+        ],
+        "net": "NFC_VDD_A"
+      },
+      {
+        "pin": "8",
+        "name": "VDD",
+        "nc": false,
+        "x": 1475,
+        "y": 3390,
+        "nets": [
+          "NFC_5V"
+        ],
+        "net": "NFC_5V"
+      },
+      {
+        "pin": "9",
+        "name": "VDD_RF",
+        "nc": false,
+        "x": 1475,
+        "y": 3380,
+        "nets": [
+          "NFC_VDD_RF"
+        ],
+        "net": "NFC_VDD_RF"
+      },
+      {
+        "pin": "10",
+        "name": "VDD_TX",
+        "nc": false,
+        "x": 1475,
+        "y": 3370,
+        "nets": [
+          "NFC_5V"
+        ],
+        "net": "NFC_5V"
+      },
+      {
+        "pin": "11",
+        "name": "VDD_AM",
+        "nc": false,
+        "x": 1475,
+        "y": 3360,
+        "nets": [
+          "NFC_VDD_AM"
+        ],
+        "net": "NFC_VDD_AM"
+      },
+      {
+        "pin": "12",
+        "name": "GND_DR1",
+        "nc": false,
+        "x": 1475,
+        "y": 3350,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      },
+      {
+        "pin": "13",
+        "name": "RFO1",
+        "nc": false,
+        "x": 1475,
+        "y": 3340,
+        "nets": [
+          "NFC_RFO1"
+        ],
+        "net": "NFC_RFO1"
+      },
+      {
+        "pin": "14",
+        "name": "VDD_DR",
+        "nc": false,
+        "x": 1475,
+        "y": 3330,
+        "nets": [
+          "NFC_VDD_DR"
+        ],
+        "net": "NFC_VDD_DR"
+      },
+      {
+        "pin": "15",
+        "name": "RFO2",
+        "nc": true,
+        "x": 1475,
+        "y": 3320,
+        "nets": [],
+        "net": null
+      },
+      {
+        "pin": "16",
+        "name": "GND_DR2",
+        "nc": false,
+        "x": 1475,
+        "y": 3310,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      },
+      {
+        "pin": "17",
+        "name": "EXT_LM",
+        "nc": true,
+        "x": 1605,
+        "y": 3310,
+        "nets": [],
+        "net": null
+      },
+      {
+        "pin": "18",
+        "name": "AAT_A",
+        "nc": true,
+        "x": 1605,
+        "y": 3320,
+        "nets": [],
+        "net": null
+      },
+      {
+        "pin": "19",
+        "name": "AAT_B",
+        "nc": true,
+        "x": 1605,
+        "y": 3330,
+        "nets": [],
+        "net": null
+      },
+      {
+        "pin": "20",
+        "name": "I2C_EN",
+        "nc": false,
+        "x": 1605,
+        "y": 3340,
+        "nets": [
+          "NFC_I2C_EN"
+        ],
+        "net": "NFC_I2C_EN"
+      },
+      {
+        "pin": "21",
+        "name": "VSS",
+        "nc": false,
+        "x": 1605,
+        "y": 3350,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      },
+      {
+        "pin": "22",
+        "name": "RFI1",
+        "nc": false,
+        "x": 1605,
+        "y": 3360,
+        "nets": [
+          "NFC_RFI1_DIV"
+        ],
+        "net": "NFC_RFI1_DIV"
+      },
+      {
+        "pin": "23",
+        "name": "RFI2",
+        "nc": true,
+        "x": 1605,
+        "y": 3370,
+        "nets": [],
+        "net": null
+      },
+      {
+        "pin": "24",
+        "name": "AGDC",
+        "nc": false,
+        "x": 1605,
+        "y": 3380,
+        "nets": [
+          "NFC_AGDC"
+        ],
+        "net": "NFC_AGDC"
+      },
+      {
+        "pin": "25",
+        "name": "TAD2",
+        "nc": true,
+        "x": 1605,
+        "y": 3390,
+        "nets": [],
+        "net": null
+      },
+      {
+        "pin": "26",
+        "name": "GND_A",
+        "nc": false,
+        "x": 1605,
+        "y": 3400,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      },
+      {
+        "pin": "27",
+        "name": "IRQ",
+        "nc": false,
+        "x": 1605,
+        "y": 3410,
+        "nets": [
+          "NFC_IRQ"
+        ],
+        "net": "NFC_IRQ"
+      },
+      {
+        "pin": "28",
+        "name": "MCU_CLK",
+        "nc": true,
+        "x": 1605,
+        "y": 3420,
+        "nets": [],
+        "net": null
+      },
+      {
+        "pin": "29",
+        "name": "BSS",
+        "nc": true,
+        "x": 1605,
+        "y": 3430,
+        "nets": [],
+        "net": null
+      },
+      {
+        "pin": "30",
+        "name": "SCLK/SCL",
+        "nc": false,
+        "x": 1605,
+        "y": 3440,
+        "nets": [
+          "I2C_SCL"
+        ],
+        "net": "I2C_SCL"
+      },
+      {
+        "pin": "31",
+        "name": "MOSI",
+        "nc": true,
+        "x": 1605,
+        "y": 3450,
+        "nets": [],
+        "net": null
+      },
+      {
+        "pin": "32",
+        "name": "MISO/SDA",
+        "nc": false,
+        "x": 1605,
+        "y": 3460,
+        "nets": [
+          "I2C_SDA"
+        ],
+        "net": "I2C_SDA"
+      },
+      {
+        "pin": "33",
+        "name": "EP",
+        "nc": false,
+        "x": 1605,
+        "y": 3470,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      }
+    ],
+    "U13-MOT": [
+      {
+        "pin": "1",
+        "name": "SCL/SPC",
+        "nc": false,
+        "x": 2145,
+        "y": 3300,
+        "nets": [
+          "I2C_SCL"
+        ],
+        "net": "I2C_SCL"
+      },
+      {
+        "pin": "2",
+        "name": "CS",
+        "nc": false,
+        "x": 2145,
+        "y": 3290,
+        "nets": [
+          "3V3"
+        ],
+        "net": "3V3"
+      },
+      {
+        "pin": "3",
+        "name": "SDO/SA0",
+        "nc": false,
+        "x": 2145,
+        "y": 3280,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      },
+      {
+        "pin": "4",
+        "name": "SDA/SDI/SDO",
+        "nc": false,
+        "x": 2145,
+        "y": 3270,
+        "nets": [
+          "I2C_SDA"
+        ],
+        "net": "I2C_SDA"
+      },
+      {
+        "pin": "5",
+        "name": "RES",
+        "nc": false,
+        "x": 2145,
+        "y": 3260,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      },
+      {
+        "pin": "6",
+        "name": "GND",
+        "nc": false,
+        "x": 2145,
+        "y": 3250,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      },
+      {
+        "pin": "7",
+        "name": "GND",
+        "nc": false,
+        "x": 2345,
+        "y": 3250,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      },
+      {
+        "pin": "8",
+        "name": "GND",
+        "nc": false,
+        "x": 2345,
+        "y": 3260,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      },
+      {
+        "pin": "9",
+        "name": "VDD",
+        "nc": false,
+        "x": 2345,
+        "y": 3270,
+        "nets": [
+          "3V3"
+        ],
+        "net": "3V3"
+      },
+      {
+        "pin": "10",
+        "name": "VDD_IO",
+        "nc": false,
+        "x": 2345,
+        "y": 3280,
+        "nets": [
+          "3V3"
+        ],
+        "net": "3V3"
+      },
+      {
+        "pin": "11",
+        "name": "INT2",
+        "nc": true,
+        "x": 2345,
+        "y": 3290,
+        "nets": [],
+        "net": null
+      },
+      {
+        "pin": "12",
+        "name": "INT1",
+        "nc": false,
+        "x": 2345,
+        "y": 3300,
+        "nets": [
+          "MOTION_INT1"
+        ],
+        "net": "MOTION_INT1"
+      }
+    ],
+    "C10-PWR2": [
+      {
+        "pin": "1",
+        "name": "1",
+        "nc": false,
+        "x": 1000,
+        "y": 4295,
+        "nets": [
+          "BUCK_SS"
+        ],
+        "net": "BUCK_SS"
+      },
+      {
+        "pin": "2",
+        "name": "2",
+        "nc": false,
+        "x": 1040,
+        "y": 4295,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      }
+    ],
+    "R31-AUD": [
+      {
+        "pin": "2",
+        "name": "2",
+        "nc": false,
+        "x": 450,
+        "y": 2875,
+        "nets": [
+          "AUDIO_MCLK_ISO"
+        ],
+        "net": "AUDIO_MCLK_ISO"
+      },
+      {
+        "pin": "1",
+        "name": "1",
+        "nc": false,
+        "x": 410,
+        "y": 2875,
+        "nets": [
+          "AUDIO_MCLK_RT"
+        ],
+        "net": "AUDIO_MCLK_RT"
+      }
+    ],
+    "R32-AUD": [
+      {
+        "pin": "2",
+        "name": "2",
+        "nc": false,
+        "x": 630,
+        "y": 2875,
+        "nets": [
+          "AUDIO_BCLK_ISO"
+        ],
+        "net": "AUDIO_BCLK_ISO"
+      },
+      {
+        "pin": "1",
+        "name": "1",
+        "nc": false,
+        "x": 590,
+        "y": 2875,
+        "nets": [
+          "AUDIO_BCLK_RT"
+        ],
+        "net": "AUDIO_BCLK_RT"
+      }
+    ],
+    "R33-AUD": [
+      {
+        "pin": "2",
+        "name": "2",
+        "nc": false,
+        "x": 810,
+        "y": 2875,
+        "nets": [
+          "AUDIO_FSYNC_ISO"
+        ],
+        "net": "AUDIO_FSYNC_ISO"
+      },
+      {
+        "pin": "1",
+        "name": "1",
+        "nc": false,
+        "x": 770,
+        "y": 2875,
+        "nets": [
+          "AUDIO_FSYNC_RT"
+        ],
+        "net": "AUDIO_FSYNC_RT"
+      }
+    ],
+    "RILIM-LED": [
+      {
+        "pin": "2",
+        "name": "2",
+        "nc": false,
+        "x": 1670,
+        "y": 4160,
+        "nets": [
+          "GND"
+        ],
+        "net": "GND"
+      },
+      {
+        "pin": "1",
+        "name": "1",
+        "nc": false,
+        "x": 1630,
+        "y": 4160,
+        "nets": [
+          "TPS2561_ILIM"
+        ],
+        "net": "TPS2561_ILIM"
+      }
+    ]
+  }
+}

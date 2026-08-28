@@ -1,0 +1,22 @@
+[
+ {
+  "tag": "F1",
+  "ok": false,
+  "error": "delete_schematic_component: e301 is STILL PRESENT after the delete call (host reported true). Treating this as a host no-op; use source-level surgical recapture instead of trusting the delete flag."
+ },
+ {
+  "tag": "L3",
+  "ok": false,
+  "error": "delete_schematic_component: e13399 is STILL PRESENT after the delete call (host reported true). Treating this as a host no-op; use source-level surgical recapture instead of trusting the delete flag."
+ },
+ {
+  "tag": "R43",
+  "ok": false,
+  "error": "delete_schematic_component: e13477 is STILL PRESENT after the delete call (host reported true). Treating this as a host no-op; use source-level surgical recapture instead of trusting the delete flag."
+ },
+ {
+  "tag": "R50",
+  "ok": false,
+  "error": "delete_schematic_component: e14148 is STILL PRESENT after the delete call (host reported true). Treating this as a host no-op; use source-level surgical recapture instead of trusting the delete flag."
+ }
+]

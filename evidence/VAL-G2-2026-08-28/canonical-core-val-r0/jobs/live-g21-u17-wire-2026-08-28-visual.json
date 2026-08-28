@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-g21-u17-wire-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Wire U17-PWR2 and its three support resistors onto the G2.1 LED-branch nets. Re-home C11-PWR2 pin 1 to 5V_SYS. Repoint FB1/FB2 pin 1 to 5V_LED_L_SW and 5V_LED_R_SW. U17 pin 11 EP to GND.",
+  "observed_delta": "Saved live source now has TPS2561_ILIM, LED_PWR_L_EN, LED_PWR_R_EN, 5V_LED_L_SW, 5V_LED_R_SW, LED_FAULT_L_N and LED_FAULT_R_N as named nets. U4 is still gone. U17-PWR2 remains designated.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/live-g21-u17-wire-after.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "U17 IN pins sit on 5V_SYS",
+      "result": "OK",
+      "detail": "Named 5V_SYS stubs were created on U17 pins 2 and 3."
+    },
+    {
+      "name": "U17 OUT1/OUT2 sit on the switched LED rails",
+      "result": "OK",
+      "detail": "5V_LED_L_SW has 3 NET attrs and 5V_LED_R_SW has 3."
+    },
+    {
+      "name": "RILIM sits on TPS2561_ILIM to GND",
+      "result": "OK",
+      "detail": "TPS2561_ILIM has 2 NET attrs after the RILIM stubs."
+    },
+    {
+      "name": "enable pulldowns sit on LED_PWR_L_EN and LED_PWR_R_EN to GND",
+      "result": "OK",
+      "detail": "LED_PWR_L_EN and LED_PWR_R_EN each have 2 NET attrs."
+    },
+    {
+      "name": "C11 pin 1 is on 5V_SYS and FB inputs are on the switched rails",
+      "result": "OK",
+      "detail": "C11 pin 1 stub is 5V_SYS; FB1/FB2 pin 1 stubs are 5V_LED_L_SW and 5V_LED_R_SW."
+    }
+  ]
+}

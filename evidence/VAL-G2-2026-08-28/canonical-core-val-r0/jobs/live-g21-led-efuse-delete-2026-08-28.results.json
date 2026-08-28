@@ -1,0 +1,30 @@
+[
+ {
+  "tag": "delete-U4-PWR2",
+  "ok": true,
+  "result": {
+   "primitiveId": "e2491",
+   "deleted": true,
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "delete-R8-PWR2",
+  "ok": true,
+  "result": {
+   "primitiveId": "e2452",
+   "deleted": true,
+   "deleteVerified": true
+  }
+ },
+ {
+  "tag": "delete-C68-PWR2",
+  "ok": true,
+  "result": {
+   "primitiveId": "e38545",
+   "deleted": true,
+   "deleteVerified": true,
+   "saved": true
+  }
+ }
+]

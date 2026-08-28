@@ -1,0 +1,66 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "U17",
+    "args": {
+      "primitiveId": "b118f78741a245ce",
+      "designator": "U17-PWR2",
+      "name": "TPS2561",
+      "manufacturerId": "TPS2561DRCR",
+      "supplier": "LCSC",
+      "supplierId": "C140303",
+      "addIntoBom": true,
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "RILIM",
+    "args": {
+      "primitiveId": "887f876349514338",
+      "designator": "RILIM-LED",
+      "name": "~59k / RE-DERIVE G3",
+      "manufacturerId": "RC0402FR-0759KL",
+      "supplier": "LCSC",
+      "supplierId": "C163459",
+      "addIntoBom": false,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "ENL",
+    "args": {
+      "primitiveId": "27364dde051e627f",
+      "designator": "RLED_ENL_PD-LED",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "supplier": "LCSC",
+      "supplierId": "C60490",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "ENR",
+    "args": {
+      "primitiveId": "4943ab32785082e6",
+      "designator": "RLED_ENR_PD-LED",
+      "name": "10k",
+      "manufacturerId": "RC0402FR-0710KL",
+      "supplier": "LCSC",
+      "supplierId": "C60490",
+      "addIntoBom": true,
+      "addIntoPcb": true,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

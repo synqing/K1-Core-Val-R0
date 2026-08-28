@@ -1,0 +1,5 @@
+[
+  {"tool": "open_document", "tag": "open-sch", "args": {"documentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "get_current_context", "tag": "pre-save-context", "args": {}},
+  {"tool": "save_active_document", "tag": "save-sch", "args": {"expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

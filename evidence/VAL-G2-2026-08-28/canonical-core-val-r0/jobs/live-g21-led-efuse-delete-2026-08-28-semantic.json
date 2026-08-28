@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-g21-led-efuse-delete-2026-08-28",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2142088:6a266bf3",
+  "post_source_hash": "2194636:b1b0d51e",
+  "saved": true,
+  "stage": "delete",
+  "scope": "LED eFuse family U4-PWR2 R8-PWR2 C68-PWR2",
+  "intended_delta": "Delete the shared LED eFuse family only: U4-PWR2 (e2491), R8-PWR2 (e2452), C68-PWR2 (e38545). Leave U1-PWR1, C11-PWR2, FB1/FB2 in place. Do not place U17 in this transaction.",
+  "affected": ["U4-PWR2", "R8-PWR2", "C68-PWR2"],
+  "census": {
+    "components": 231,
+    "wires": 680,
+    "texts": 22,
+    "rectangles": 10,
+    "designators": 228
+  },
+  "absent": ["U4-PWR2", "R8-PWR2", "C68-PWR2", "U17-PWR2"],
+  "present": ["U1-PWR1", "C11-PWR2", "FB1-PWR2", "FB2-PWR2"]
+}

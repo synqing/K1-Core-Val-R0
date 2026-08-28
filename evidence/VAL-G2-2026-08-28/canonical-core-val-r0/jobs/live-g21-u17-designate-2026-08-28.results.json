@@ -1,0 +1,232 @@
+[
+ {
+  "tag": "U17",
+  "ok": true,
+  "result": {
+   "primitiveId": "b118f78741a245ce",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "b118f78741a245ce",
+    "componentType": "part",
+    "x": 2295,
+    "y": 3785,
+    "subPartName": "TPS2561DRCR.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "45f00a2f4e8c8f5a",
+     "name": "TPS2561DRCR"
+    },
+    "symbol": {
+     "uuid": "df2241a9b9bed372",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "TPS2561DRCR"
+    },
+    "footprint": {
+     "uuid": "e21efe13444694f9",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "VSON-10_L3.0-W3.0-P0.50-TL-EP_TPS62410DRCR"
+    },
+    "designator": "U17-PWR2",
+    "name": "TPS2561",
+    "uniqueId": "",
+    "manufacturer": "TI(德州仪器)",
+    "manufacturerId": "TPS2561DRCR",
+    "supplier": "LCSC",
+    "supplierId": "C140303",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Number of Channels": "",
+     "Control Input Logic": "",
+     "Maximum Continuous Current": "",
+     "Voltage - Supply": "",
+     "RDS(on)": "",
+     "Operating Temperature\t-": "",
+     "Features": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "RILIM",
+  "ok": true,
+  "result": {
+   "primitiveId": "887f876349514338",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "887f876349514338",
+    "componentType": "part",
+    "x": 2385,
+    "y": 3850,
+    "subPartName": "RC0402FR-0759KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": false,
+    "addIntoPcb": true,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "7222d2ca92c398a0",
+     "name": "RC0402FR-0759KL"
+    },
+    "symbol": {
+     "uuid": "cfec8d8dea32bf62",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "RC0402FR-0759KL"
+    },
+    "footprint": {
+     "uuid": "2eb162b762469688",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "R0402"
+    },
+    "designator": "RILIM-LED",
+    "name": "~59k / RE-DERIVE G3",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0759KL",
+    "supplier": "LCSC",
+    "supplierId": "C163459",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "ENL",
+  "ok": true,
+  "result": {
+   "primitiveId": "27364dde051e627f",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "27364dde051e627f",
+    "componentType": "part",
+    "x": 2185,
+    "y": 3875,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "1369ae1d2d5443fc",
+     "name": "RC0402FR-0710KL"
+    },
+    "symbol": {
+     "uuid": "551a273df0b6a3f2",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "RC0402FR-0710KL"
+    },
+    "footprint": {
+     "uuid": "df0727d0bc9d7542",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "R0402"
+    },
+    "designator": "RLED_ENL_PD-LED",
+    "name": "10k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0710KL",
+    "supplier": "LCSC",
+    "supplierId": "C60490",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "ENR",
+  "ok": true,
+  "result": {
+   "primitiveId": "4943ab32785082e6",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "4943ab32785082e6",
+    "componentType": "part",
+    "x": 2395,
+    "y": 3875,
+    "subPartName": "RC0402FR-0710KL.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "bd6ae86e32f515be",
+     "name": "RC0402FR-0710KL"
+    },
+    "symbol": {
+     "uuid": "b98df9f1a27da789",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "RC0402FR-0710KL"
+    },
+    "footprint": {
+     "uuid": "2eb162b762469688",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "R0402"
+    },
+    "designator": "RLED_ENR_PD-LED",
+    "name": "10k",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "RC0402FR-0710KL",
+    "supplier": "LCSC",
+    "supplierId": "C60490",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   },
+   "saved": true
+  }
+ }
+]
