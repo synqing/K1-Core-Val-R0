@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "hub-lane-import-reconcile-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Phase I reconciliation after G2.1 archive import into disposable hub project. Confirm one sheet, G2.1 domain boxes, empty PCB, not live.",
+  "observed_delta": "Whole-sheet fit at 21 percent shows nine prison-box domains on one custom-size page, red title block at the lower right, tabs Start Page / P1.Schematic1 / PCB1. Canvas is the imported G2.1 graph, not a blank sheet and not the live product title.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/I-pre-hub-whole.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "one schematic page visible",
+      "result": "OK",
+      "detail": "Only P1.Schematic1 is the schematic tab. No second electrical sheet."
+    },
+    {
+      "name": "imported G2.1 domains present",
+      "result": "OK",
+      "detail": "Nine boxed domains in two rows, including a large high-pin IC in the top row. This is the G2.1 graph, not an empty fixture."
+    },
+    {
+      "name": "not the live product project chrome",
+      "result": "OK",
+      "detail": "URL and openProject identity are 41c8e652; title block sits on the imported candidate sheet."
+    },
+    {
+      "name": "screenshot large enough to inspect composition",
+      "result": "OK",
+      "detail": "2451x1129 PNG after Fit All in Window. Domain boxes and title block are visible."
+    }
+  ]
+}

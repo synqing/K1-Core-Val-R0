@@ -1,0 +1,60 @@
+{
+  "source_hash": "658016:65e067bf",
+  "usb1": {
+    "des": "USB1",
+    "id": "19bbd06e9438ab5d",
+    "sid": "C778726",
+    "mid": "CX70M-24P1",
+    "model3d": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "71aa35b92da84360b5d9e21f25c486f0",
+      "name": "USB_C_Hirose_CX_4800304000_v3"
+    },
+    "transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+    "model": "71aa35b92da84360b5d9e21f25c486f0",
+    "title": "USB_C_Hirose_CX_4800304000_v3",
+    "footprint": {
+      "libraryUuid": "64325d0e55e0435abd018defb0089a9b",
+      "uuid": "0c8e199e56e60728",
+      "name": "USB-TYPE-C-SMD_CX70M-24P1"
+    }
+  },
+  "usb2": {
+    "des": "USB2",
+    "id": "001a257400b89df6",
+    "sid": "C3034184",
+    "mid": "HYCW78-USBC24-140B",
+    "model3d": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "0513051d44a0486b835661f1b78cdeb9",
+      "name": "USB-C-SMD_HYCW78-USBC24-140B"
+    },
+    "transform": "486.22,391.18524,0,0,0,0,-0.002,-66.733,-78.74",
+    "model": "0513051d44a0486b835661f1b78cdeb9",
+    "title": "USB-C-SMD_HYCW78-USBC24-140B",
+    "footprint": {
+      "libraryUuid": "64325d0e55e0435abd018defb0089a9b",
+      "uuid": "59bef7e87cff4cd580561703b62d8c19_001a257400b89df6",
+      "name": "USB-C-SMD_HYCW78-USBC24-140B"
+    }
+  },
+  "u6": {
+    "des": "U6-RTC",
+    "id": "02892aabec4ba06b",
+    "sid": "C2847497",
+    "mid": "MIMXRT1062DVJ6B",
+    "model3d": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "de5664fd2ea74aa082831cfa5b198edb",
+      "name": "MIMXRT1061DVJ6B"
+    },
+    "transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+    "model": "de5664fd2ea74aa082831cfa5b198edb",
+    "title": "MIMXRT1061DVJ6B",
+    "footprint": {
+      "libraryUuid": "64325d0e55e0435abd018defb0089a9b",
+      "uuid": "0d8325d2787742aaa103696ca6f4bada",
+      "name": "LFBGA-196_L12.0-W12.0-R14-C14-P0.80-BL"
+    }
+  }
+}

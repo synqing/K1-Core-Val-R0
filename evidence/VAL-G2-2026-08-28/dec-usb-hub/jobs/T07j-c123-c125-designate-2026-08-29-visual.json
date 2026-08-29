@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07j-c123-c125-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Designate C123-USB C124-USB and C125-USB as 100nF LCSC C14663. No wires.",
+  "observed_delta": "107 percent select-zoom shows C123-USB, C124-USB and C125-USB as 100nF beside U23, U24 and U25. No new wires.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T07j-c123-des-tight.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "C123-USB readable",
+      "result": "OK",
+      "detail": "e8e13777e6daf227 designated C123-USB 100nF at 1420,1100 beside U23."
+    },
+    {
+      "name": "C124-USB readable",
+      "result": "OK",
+      "detail": "175450abf83b4c89 designated C124-USB 100nF at 1850,600 beside U24."
+    },
+    {
+      "name": "C125-USB readable",
+      "result": "OK",
+      "detail": "ffd3d3994031db72 designated C125-USB 100nF at 1850,1000 beside U25."
+    },
+    {
+      "name": "no new wires hub 41c8e652",
+      "result": "OK",
+      "detail": "Wires stay 787. Project 41c8e652 not live."
+    }
+  ]
+}

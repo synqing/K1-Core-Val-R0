@@ -1,0 +1,60 @@
+{
+  "steps": [
+    {
+      "label": "searched",
+      "value": "C778726"
+    },
+    {
+      "label": "selected-cx",
+      "text": "-USB-TYPE-C-SMD_CX70M-24P1"
+    },
+    {
+      "label": "confirmed-device"
+    },
+    {
+      "label": "clicked-seated-row",
+      "text": "1USB_C_Hirose_CX_4800304000_seatedPersonal Models2026-08-29 03:27:58spectrasynq"
+    },
+    {
+      "label": "confirmed-3d"
+    }
+  ],
+  "rows": [
+    "No.3D ModelCategoryUpdate TimeBelongLast modified by",
+    "1USB_C_Hirose_CX_4800304000_seatedPersonal Models2026-08-29 03:27:58spectrasynq",
+    "2MIMXRT1062DVJ6B-NXP-BODYPersonal Models2026-08-29 02:36:47spectrasynq",
+    "3usb_c_hirose_cx_4800304000_v3Personal Models2026-08-29 02:25:44spectrasynq",
+    "4HD108_SolidExport_mm2026-07-10 12:06:02spectrasynq",
+    "DesignatorCommentFootprint3D Model Titleinformation",
+    "-USB-TYPE-C-SMD_CX70M-24P1",
+    "No.TitleDescriptionBelongUpdate Time",
+    "No.DeviceFootprintValueSupplier PartManufacturerJLCPCB Part ClassDescription",
+    "1Drawing-Symbol_A4",
+    "2Drawing-Symbol_A4",
+    "31TS036A-2500-1700A7-CTSW-SMD_1TS036A-2500-1700A7-CTC33129661HYP(鸿源精密)Extended Part",
+    "41TS036A-2500-1700A7-CTSW-SMD_1TS036A-2500-1700A7-CTC33129661HYP(鸿源精密)Extended Part",
+    "52N7002SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BRC414014Extended PartType: Drain Source Voltage (Vdss):- Continuous Drain Current (Id):- Power Dissipation (Pd):- Drain S",
+    "6ABM12-117-27.120MHZ-T3CRYSTAL-SMD_4P-L1.6-W1.2-BL27.12MHzC1986557ABRACONExtended PartFrequency:27.12MHz Normal temperature Frequency Tolerance:±10ppm Normal te",
+    "7B2B-XH-ACONN-TH_XH-2AC19272845Extended Part",
+    "8B3B-XH-A-3PZZCONN-TH_3P-P2.54_B3B-XH-A-3PZZC54444768BXCONN(宝讯)Extended PartPins Structure:1x3P Pitch:2.54mm Mounting Type:Through Hole Reference Series:XH Numb",
+    "9BLM15AG221SN1DL0402C85813muRata(村田)Extended PartImpedance @ Frequency:220Ω@100MHz Tolerance:±25% Tolerance:±25% DC Resistance(DCR):290mΩ Current Rating:450mA N",
+    "10BLM21PG221SN1DL0805C85840muRata(村田)Extended PartImpedance @ Frequency:220Ω@100MHz Tolerance:±25% Tolerance:±25% DC Resistance(DCR):45mΩ Current Rating:2A Numb",
+    "11DMG2305UXSOT-23-3_L2.9-W1.3-P0.95-LS2.4-BR-1C2940629TECH PUBLIC(台舟)Extended PartDrain to Source Voltage:20V Current - Continuous Drain(Id):4.1A RDS(on):52mΩ@4"
+  ],
+  "after": {
+    "len": 74332,
+    "has3D": false,
+    "hasSeated": false,
+    "doc": {
+      "documentType": 4,
+      "uuid": "0c8e199e56e60728",
+      "tabId": "0c8e199e56e60728@64325d0e55e0435abd018defb0089a9b",
+      "parentLibraryUuid": "27700277ef7a49e48a0293bece6b2993"
+    }
+  },
+  "field": {
+    "value": "<3D Model>",
+    "title": "<3D Model>"
+  },
+  "dialogs": []
+}

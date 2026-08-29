@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "transaction_id": "G22-d01-j1-d3-move-2026-08-29",
+  "project_uuid": "55ed9ee948734a0e903f37744b51f3b8",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "3164926:7850460a",
+  "post_source_hash": "3164835:9e261d95",
+  "saved": true,
+  "affected": [
+    {
+      "primitiveId": "e154000",
+      "designator": "J1-PWR1",
+      "partId": "GT-USB-7005A-IND.1",
+      "x": 150,
+      "y": -4120,
+      "rotation": 0,
+      "previous": {"x": -485, "y": -3160},
+      "inside_box1": true
+    },
+    {
+      "primitiveId": "e154056",
+      "designator": "D3-USB",
+      "partId": "SMF5.0A_C2758488.1",
+      "x": 80,
+      "y": -4300,
+      "rotation": 0,
+      "previous": {"x": 1500, "y": -400},
+      "inside_box1": true
+    }
+  ],
+  "census": {
+    "components": 324,
+    "wires": 800,
+    "texts": 38,
+    "rects": 10,
+    "components_delta": 0,
+    "wires_delta": 0,
+    "title_power_entry_present": true
+  },
+  "host_bbox_j1_d3_d1_u1": {
+    "minX": 70.5,
+    "maxX": 765.5,
+    "minY": 4069.5,
+    "maxY": 4309.5,
+    "note": "Host Y is negated versus get_document_source Y on this sheet. Source places J1/D3 inside box e5480 (0..910, -4720..-3605)."
+  },
+  "observed": "Moved J1-PWR1 GT-USB-7005A-IND from (-485,-3160) to (150,-4120), left of D1-PWR1 on the same baseline, inside domain box 1. Moved D3-USB SMF5.0A from the hub island (1500,-400) to (80,-4300) beside C1-PWR1. Component and wire counts unchanged at 324/800. Title 1. POWER ENTRY + PROTECTION remains. Live 64325d0e not written. First modify with negative Y stored the opposite sign; the closing modify requested positive Y so the saved source landed on the negative box coordinates."
+}

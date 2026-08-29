@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-u17-fault1-ungnd-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2252446:d9ce864f",
+  "post_source_hash": "2258103:1ababf9a",
+  "saved": true,
+  "affected": [
+    {
+      "primitiveId": "e82471",
+      "action": "deleted",
+      "note": "GND island that physically joined U17-PWR2 FAULT1# pin 10 to GND"
+    },
+    {
+      "primitiveId": "5168f11a36333ffe",
+      "net": "GND",
+      "action": "recreated",
+      "note": "Replacement GND island. U17 pin 1 GND and pin 11 EP remain on this net."
+    },
+    {
+      "primitiveId": "2639a4b072b190b5",
+      "net": "LED_FAULT_L_N",
+      "action": "created",
+      "line": [2340, 3695, 2315, 3695],
+      "note": "FAULT1# pin 10 stub, matching FAULT2# geometry"
+    }
+  ],
+  "census": {
+    "components": 229,
+    "wires": 687,
+    "texts": 22,
+    "rects": 10,
+    "conflict_wires": 0,
+    "led_fault_l_on_gnd": false,
+    "u17_pin10_net": "LED_FAULT_L_N",
+    "u17_pin11_net": "GND",
+    "u17_pin1_net": "GND"
+  },
+  "observed": "U17-PWR2 FAULT1# pin 10 is no longer on the GND bus. It has its own LED_FAULT_L_N stub at (2315,3695)-(2340,3695), same pattern as FAULT2#. The exposed pad and pin 1 remain on GND. The old merged wire e82471 is gone. Source hash 2252446:d9ce864f -> 2258103:1ababf9a. Saved."
+}

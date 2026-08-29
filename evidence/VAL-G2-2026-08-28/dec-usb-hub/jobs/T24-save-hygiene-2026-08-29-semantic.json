@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T24-save-hygiene-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2975845:2cc7d763",
+  "post_source_hash": "2975845:437afeab",
+  "saved": true,
+  "affected": [
+    {"saved": true},
+    {"sheets": 1, "page": "1435cb46f39e48c8a8aadbb84ca81603"},
+    {"pcb": "59bef7e87cff4cd580561703b62d8c19", "never_converted": true},
+    {"j6": {"id": "e98163", "pins": 6, "untouched": true}}
+  ],
+  "census": {
+    "components": 322,
+    "wires": 786,
+    "sheets": 1,
+    "j7_present": false,
+    "j6_pins": 6
+  },
+  "observed": "Saved. Hash changed. One schematic page. J7 gone. J6-ESP six pins still present. PCB never received schematic parts. Hub 41c8e652. Live 64325d0e not focused."
+}

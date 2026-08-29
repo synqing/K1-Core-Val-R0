@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T13c-tune-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "R94 through TUNE to U9 GPIO20/19. Not R73/R74. Not R95.",
+  "observed_delta": "700 percent TUNE pair. West stubs USB_DP_DN2 / USB_DM_DN2. East stubs USB_DP_S3 / USB_DM_S3. DP east reaches U9.14 GPIO20. DM east is a short stub; GPIO19 stays on the existing USB_DM_S3. GPIO15 has no DM copper. R73/R74/R95 unused. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T13c-tune-wire.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "R94 far USB_DP_DN2",
+      "result": "OK",
+      "detail": "Stub 68b99321ffb6afa2 at 2120,800 net USB_DP_DN2."
+    },
+    {
+      "name": "TUNE DP west DN2 east S3",
+      "result": "OK",
+      "detail": "West 26c4ec3c99fc600f USB_DP_DN2. East 7a41eaf8f1832502 USB_DP_S3 to U9.14."
+    },
+    {
+      "name": "TUNE DM west DN2 east S3",
+      "result": "OK",
+      "detail": "West 946b8900cff89c09 USB_DM_DN2. East 916a2e5ac5bc3661 USB_DM_S3 short stub."
+    },
+    {
+      "name": "R73 R74 R95 not used",
+      "result": "OK",
+      "detail": "R73/R74 not parents of the new TUNE wires. R95 not on DN2."
+    },
+    {
+      "name": "hub 41c8e652",
+      "result": "OK",
+      "detail": "currentProject.uuid 41c8e652. Hash 3063555:eb9ac187. GPIO15 not on USB_DM_S3."
+    }
+  ]
+}

@@ -1,0 +1,1045 @@
+[
+ {
+  "tag": "epad-gnd-flag-no-pcb",
+  "ok": false,
+  "error": "仅当器件类型为元件时允许使用该函数进行修改"
+ },
+ {
+  "tag": "epad-wire",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      200,
+      1140,
+      540,
+      1140
+     ],
+     [
+      540,
+      1140,
+      540,
+      1100
+     ],
+     [
+      540,
+      1140,
+      570,
+      1140
+     ],
+     [
+      570,
+      860,
+      570,
+      1140
+     ],
+     [
+      570,
+      860,
+      590,
+      860
+     ],
+     [
+      620,
+      1140,
+      570,
+      1140
+     ],
+     [
+      620,
+      1100,
+      620,
+      1140
+     ],
+     [
+      700,
+      1140,
+      620,
+      1140
+     ],
+     [
+      700,
+      1140,
+      700,
+      1100
+     ],
+     [
+      750,
+      1140,
+      700,
+      1140
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "69c497ea322ff87d"
+   }
+  }
+ },
+ {
+  "tag": "vdd33-p1",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "ac95623bada64882",
+    "componentType": "netflag",
+    "x": 210,
+    "y": 850,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "3V3",
+    "component": {
+     "uuid": "10f3d7d8dc78c973",
+     "name": "Power-5V",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "84d626ba100f9ced",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Power-5V"
+    },
+    "name": "3V3",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "3V3",
+     "Description": "Power-5V"
+    }
+   }
+  }
+ },
+ {
+  "tag": "vdd33-p9",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "d12e390b8886d2e6",
+    "componentType": "netflag",
+    "x": 210,
+    "y": 770,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "3V3",
+    "component": {
+     "uuid": "10f3d7d8dc78c973",
+     "name": "Power-5V",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "84d626ba100f9ced",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Power-5V"
+    },
+    "name": "3V3",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "3V3",
+     "Description": "Power-5V"
+    }
+   }
+  }
+ },
+ {
+  "tag": "vdd33-p18",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "b118258a02504a25",
+    "componentType": "netflag",
+    "x": 590,
+    "y": 790,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "3V3",
+    "component": {
+     "uuid": "10f3d7d8dc78c973",
+     "name": "Power-5V",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "84d626ba100f9ced",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Power-5V"
+    },
+    "name": "3V3",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "3V3",
+     "Description": "Power-5V"
+    }
+   }
+  }
+ },
+ {
+  "tag": "vdd33-p1-wire",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      200,
+      700,
+      230,
+      700
+     ],
+     [
+      500,
+      700,
+      230,
+      700
+     ],
+     [
+      500,
+      700,
+      570,
+      700
+     ],
+     [
+      570,
+      700,
+      580,
+      700
+     ],
+     [
+      580,
+      700,
+      660,
+      700
+     ],
+     [
+      750,
+      700,
+      660,
+      700
+     ],
+     [
+      660,
+      700,
+      660,
+      980
+     ],
+     [
+      660,
+      1100,
+      660,
+      980
+     ],
+     [
+      580,
+      700,
+      580,
+      980
+     ],
+     [
+      580,
+      1100,
+      580,
+      980
+     ],
+     [
+      570,
+      700,
+      570,
+      740
+     ],
+     [
+      570,
+      740,
+      570,
+      750
+     ],
+     [
+      570,
+      750,
+      570,
+      760
+     ],
+     [
+      570,
+      760,
+      570,
+      770
+     ],
+     [
+      570,
+      770,
+      570,
+      780
+     ],
+     [
+      570,
+      790,
+      570,
+      780
+     ],
+     [
+      500,
+      700,
+      500,
+      980
+     ],
+     [
+      500,
+      1100,
+      500,
+      980
+     ],
+     [
+      230,
+      700,
+      230,
+      740
+     ],
+     [
+      230,
+      750,
+      230,
+      740
+     ],
+     [
+      230,
+      760,
+      230,
+      750
+     ],
+     [
+      230,
+      770,
+      230,
+      760
+     ],
+     [
+      230,
+      780,
+      230,
+      770
+     ],
+     [
+      230,
+      790,
+      230,
+      780
+     ],
+     [
+      230,
+      800,
+      230,
+      790
+     ],
+     [
+      230,
+      810,
+      230,
+      800
+     ],
+     [
+      230,
+      820,
+      230,
+      810
+     ],
+     [
+      230,
+      830,
+      230,
+      820
+     ],
+     [
+      230,
+      840,
+      230,
+      830
+     ],
+     [
+      230,
+      850,
+      230,
+      840
+     ],
+     [
+      230,
+      850,
+      210,
+      850
+     ]
+    ],
+    "net": "3V3",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "adc3d3ec743fba2c"
+   }
+  }
+ },
+ {
+  "tag": "vdd33-p9-wire",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      210,
+      850,
+      230,
+      850
+     ],
+     [
+      230,
+      850,
+      230,
+      840
+     ],
+     [
+      230,
+      840,
+      230,
+      830
+     ],
+     [
+      230,
+      830,
+      230,
+      820
+     ],
+     [
+      230,
+      820,
+      230,
+      810
+     ],
+     [
+      230,
+      810,
+      230,
+      800
+     ],
+     [
+      230,
+      800,
+      230,
+      790
+     ],
+     [
+      230,
+      790,
+      230,
+      780
+     ],
+     [
+      230,
+      770,
+      230,
+      780
+     ],
+     [
+      230,
+      770,
+      210,
+      770
+     ],
+     [
+      230,
+      770,
+      230,
+      760
+     ],
+     [
+      230,
+      760,
+      230,
+      750
+     ],
+     [
+      230,
+      750,
+      230,
+      740
+     ],
+     [
+      230,
+      700,
+      230,
+      740
+     ],
+     [
+      200,
+      700,
+      230,
+      700
+     ],
+     [
+      230,
+      700,
+      500,
+      700
+     ],
+     [
+      570,
+      700,
+      500,
+      700
+     ],
+     [
+      580,
+      700,
+      570,
+      700
+     ],
+     [
+      580,
+      700,
+      660,
+      700
+     ],
+     [
+      750,
+      700,
+      660,
+      700
+     ],
+     [
+      660,
+      700,
+      660,
+      980
+     ],
+     [
+      660,
+      1100,
+      660,
+      980
+     ],
+     [
+      580,
+      700,
+      580,
+      980
+     ],
+     [
+      580,
+      1100,
+      580,
+      980
+     ],
+     [
+      570,
+      700,
+      570,
+      740
+     ],
+     [
+      570,
+      740,
+      570,
+      750
+     ],
+     [
+      570,
+      750,
+      570,
+      760
+     ],
+     [
+      570,
+      760,
+      570,
+      770
+     ],
+     [
+      570,
+      770,
+      570,
+      780
+     ],
+     [
+      570,
+      790,
+      570,
+      780
+     ],
+     [
+      500,
+      700,
+      500,
+      980
+     ],
+     [
+      500,
+      1100,
+      500,
+      980
+     ]
+    ],
+    "net": "3V3",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "b2cafa664750167b"
+   }
+  }
+ },
+ {
+  "tag": "vdd33-p18-wire",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      660,
+      700,
+      580,
+      700
+     ],
+     [
+      660,
+      700,
+      750,
+      700
+     ],
+     [
+      660,
+      700,
+      660,
+      980
+     ],
+     [
+      660,
+      1100,
+      660,
+      980
+     ],
+     [
+      580,
+      700,
+      570,
+      700
+     ],
+     [
+      500,
+      700,
+      570,
+      700
+     ],
+     [
+      500,
+      700,
+      230,
+      700
+     ],
+     [
+      200,
+      700,
+      230,
+      700
+     ],
+     [
+      230,
+      700,
+      230,
+      740
+     ],
+     [
+      230,
+      750,
+      230,
+      740
+     ],
+     [
+      230,
+      760,
+      230,
+      750
+     ],
+     [
+      230,
+      770,
+      230,
+      760
+     ],
+     [
+      210,
+      770,
+      230,
+      770
+     ],
+     [
+      230,
+      770,
+      230,
+      780
+     ],
+     [
+      230,
+      790,
+      230,
+      780
+     ],
+     [
+      230,
+      800,
+      230,
+      790
+     ],
+     [
+      230,
+      810,
+      230,
+      800
+     ],
+     [
+      230,
+      820,
+      230,
+      810
+     ],
+     [
+      230,
+      830,
+      230,
+      820
+     ],
+     [
+      230,
+      840,
+      230,
+      830
+     ],
+     [
+      230,
+      850,
+      230,
+      840
+     ],
+     [
+      230,
+      850,
+      210,
+      850
+     ],
+     [
+      500,
+      700,
+      500,
+      980
+     ],
+     [
+      500,
+      1100,
+      500,
+      980
+     ],
+     [
+      570,
+      700,
+      570,
+      740
+     ],
+     [
+      570,
+      740,
+      570,
+      750
+     ],
+     [
+      570,
+      750,
+      570,
+      760
+     ],
+     [
+      570,
+      760,
+      570,
+      770
+     ],
+     [
+      570,
+      770,
+      570,
+      780
+     ],
+     [
+      570,
+      790,
+      570,
+      780
+     ],
+     [
+      570,
+      790,
+      590,
+      790
+     ],
+     [
+      580,
+      700,
+      580,
+      980
+     ],
+     [
+      580,
+      1100,
+      580,
+      980
+     ]
+    ],
+    "net": "3V3",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "86fd9ba1ba1ac19c"
+   }
+  }
+ },
+ {
+  "tag": "c104-3v3",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "9481fd66f4ad43bd",
+    "componentType": "netflag",
+    "x": 500,
+    "y": 1100,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "3V3",
+    "component": {
+     "uuid": "10f3d7d8dc78c973",
+     "name": "Power-5V",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "84d626ba100f9ced",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Power-5V"
+    },
+    "name": "3V3",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "3V3",
+     "Description": "Power-5V"
+    }
+   }
+  }
+ },
+ {
+  "tag": "c104-gnd",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "5f8fcf5ddb97c6d6",
+    "componentType": "netflag",
+    "x": 540,
+    "y": 1100,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "GND",
+    "component": {
+     "uuid": "a4f9a0db599d4ab993a0c73b48324c12",
+     "name": "Ground-GND",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "950187c0c34947a8b86c0075432a526b",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Ground-GND"
+    },
+    "footprint": {
+     "uuid": ""
+    },
+    "name": "GND",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "GND",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "c105-3v3",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "5172637670c1c95f",
+    "componentType": "netflag",
+    "x": 580,
+    "y": 1100,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "3V3",
+    "component": {
+     "uuid": "10f3d7d8dc78c973",
+     "name": "Power-5V",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "84d626ba100f9ced",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Power-5V"
+    },
+    "name": "3V3",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "3V3",
+     "Description": "Power-5V"
+    }
+   }
+  }
+ },
+ {
+  "tag": "c105-gnd",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "6d6ca1230b6dd8df",
+    "componentType": "netflag",
+    "x": 620,
+    "y": 1100,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "GND",
+    "component": {
+     "uuid": "a4f9a0db599d4ab993a0c73b48324c12",
+     "name": "Ground-GND",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "950187c0c34947a8b86c0075432a526b",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Ground-GND"
+    },
+    "footprint": {
+     "uuid": ""
+    },
+    "name": "GND",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "GND",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "c106-3v3",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "c624c465e022e109",
+    "componentType": "netflag",
+    "x": 660,
+    "y": 1100,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "3V3",
+    "component": {
+     "uuid": "10f3d7d8dc78c973",
+     "name": "Power-5V",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "84d626ba100f9ced",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Power-5V"
+    },
+    "name": "3V3",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "3V3",
+     "Description": "Power-5V"
+    }
+   }
+  }
+ },
+ {
+  "tag": "c106-gnd",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "56de56738c05da5f",
+    "componentType": "netflag",
+    "x": 700,
+    "y": 1100,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "GND",
+    "component": {
+     "uuid": "a4f9a0db599d4ab993a0c73b48324c12",
+     "name": "Ground-GND",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "950187c0c34947a8b86c0075432a526b",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Ground-GND"
+    },
+    "footprint": {
+     "uuid": ""
+    },
+    "name": "GND",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "GND",
+     "Description": ""
+    }
+   },
+   "saved": true
+  }
+ }
+]

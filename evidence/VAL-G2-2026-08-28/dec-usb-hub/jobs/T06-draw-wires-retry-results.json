@@ -1,0 +1,2014 @@
+[
+ {
+  "tag": "pre-ctx",
+  "ok": true,
+  "result": {
+   "currentDocument": {
+    "documentType": 1,
+    "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+    "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+   },
+   "currentProject": {
+    "itemType": "Project",
+    "uuid": "41c8e6523576456582ea35958b3684ed",
+    "friendlyName": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "name": "spectrasynq/K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "teamUuid": "27700277ef7a49e48a0293bece6b2993",
+    "description": "",
+    "data": [
+     {
+      "itemType": "Board",
+      "name": "Board1",
+      "schematic": {
+       "itemType": "Schematic",
+       "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "name": "Schematic1",
+       "page": [
+        {
+         "itemType": "Schematic Page",
+         "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+         "name": "P1",
+         "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+         "showTitleBlock": true,
+         "titleBlockData": {
+          "Symbol": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "@Project Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE"
+          },
+          "@Page Count": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Update Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Create Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Schematic Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Schematic1"
+          },
+          "@Page No": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Page Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "P1"
+          },
+          "Company": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "SPECTRASYNQ"
+          },
+          "Reviewed": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Version": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "V1.0"
+          },
+          "Page Size": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Custom"
+          },
+          "Drawn": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "@Create Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "07:22:31"
+          },
+          "@Update Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "08:24:03"
+          },
+          "Border": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "5000"
+          },
+          "Height": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "4800"
+          },
+          "Region Start": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "X Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Y Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "8"
+          },
+          "Blade Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Color": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "#333333"
+          },
+          "Title Block Position": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "3"
+          },
+          "Title Block": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "@Board Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Board1"
+          },
+          "Footprint": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Description": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Device": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "ID": {}
+         }
+        }
+       ],
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed",
+       "parentBoardName": "Board1"
+      },
+      "pcb": {
+       "itemType": "PCB",
+       "name": "PCB1",
+       "uuid": "59bef7e87cff4cd580561703b62d8c19",
+       "parentBoardName": "Board1",
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+      },
+      "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+     }
+    ]
+   },
+   "splitScreenTree": {
+    "id": "editor-window-main",
+    "tabs": [
+     {
+      "title": "Start Page",
+      "tabId": "tab_page1",
+      "icon": {
+       "iconClassName": "icon-eda-logo"
+      },
+      "tabStyle": {
+       "width": "auto",
+       "minWidth": "76px"
+      },
+      "isAbleDelete": false,
+      "group": "start_blank",
+      "draggable": true,
+      "data": {
+       "doctype": -1
+      },
+      "isDisplayNone": false
+     },
+     {
+      "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+      "title": "P1.Schematic1",
+      "icon": {
+       "iconClassName": "icon-eda-page icon-color-blue"
+      },
+      "draggable": true,
+      "isAbleDelete": true,
+      "notUseI18n": true,
+      "data": {
+       "containerId": "editor-window-main",
+       "doctype": 1,
+       "ticket": 10083,
+       "updateTime": 1787961070128,
+       "data-model-sheet-uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+       "title": "P1",
+       "pid": "41c8e6523576456582ea35958b3684ed",
+       "version": "1787961070128",
+       "schematicName": "Schematic1",
+       "data-schematic-uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "isBlockSymbolSheet": false,
+       "creator": "27700277ef7a49e48a0293bece6b2993",
+       "owner": "27700277ef7a49e48a0293bece6b2993",
+       "sch": true
+      },
+      "titleStyle": {},
+      "isUnSaved": false,
+      "isHighLight": false
+     }
+    ]
+   },
+   "editorBootstrapState": {
+    "startPageOnly": false,
+    "urlHash": "#id=41c8e6523576456582ea35958b3684ed,tab=*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedProjectUuid": "41c8e6523576456582ea35958b3684ed",
+    "requestedTabIds": [
+     "*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "activeRequestedTab": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedActiveTabMissing": false,
+    "visibleTabIds": [
+     "tab_page1",
+     "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "suspectedBootstrapFailure": false
+   },
+   "contextLevel": "project-and-document",
+   "hasProjectContext": true,
+   "hasDocumentContext": true,
+   "recommendedNextSteps": [
+    "Use document-specific tools that match the active document type.",
+    "If you need project inventory or cross-document operations, call list_project_objects next.",
+    "For edits, prefer query tools first so primitive IDs and coordinates are verified before modification."
+   ]
+  }
+ },
+ {
+  "tag": "3v3-ext",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      760,
+      700,
+      880,
+      700
+     ]
+    ],
+    "net": "3V3",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "91caba8a19bab6da"
+   }
+  }
+ },
+ {
+  "tag": "gnd-ext",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      760,
+      1140,
+      880,
+      1140
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "5f8c5aaedcffd686"
+   }
+  }
+ },
+ {
+  "tag": "rbias-out",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      620,
+      850,
+      570,
+      850
+     ]
+    ],
+    "net": "USB_RBIAS",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "651a416921a52d8d"
+   }
+  }
+ },
+ {
+  "tag": "rbias-d",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      570,
+      850,
+      620,
+      850
+     ],
+     [
+      620,
+      850,
+      620,
+      960
+     ]
+    ],
+    "net": "USB_RBIAS",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "f21ce8e344186edb"
+   }
+  }
+ },
+ {
+  "tag": "rbias-w",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      620,
+      850,
+      570,
+      850
+     ],
+     [
+      620,
+      960,
+      620,
+      850
+     ],
+     [
+      620,
+      960,
+      170,
+      960
+     ]
+    ],
+    "net": "USB_RBIAS",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "a8b558ae6d5ec451"
+   }
+  }
+ },
+ {
+  "tag": "rbias-p",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      570,
+      850,
+      620,
+      850
+     ],
+     [
+      620,
+      850,
+      620,
+      960
+     ],
+     [
+      170,
+      960,
+      620,
+      960
+     ],
+     [
+      170,
+      960,
+      170,
+      980
+     ]
+    ],
+    "net": "USB_RBIAS",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "d4b8f05dd6518dd5"
+   }
+  }
+ },
+ {
+  "tag": "rbias-pin",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      230,
+      760,
+      180,
+      760
+     ],
+     [
+      180,
+      760,
+      180,
+      980
+     ],
+     [
+      170,
+      980,
+      180,
+      980
+     ],
+     [
+      170,
+      980,
+      170,
+      960
+     ],
+     [
+      620,
+      960,
+      170,
+      960
+     ],
+     [
+      620,
+      960,
+      620,
+      850
+     ],
+     [
+      620,
+      850,
+      570,
+      850
+     ],
+     [
+      180,
+      1100,
+      180,
+      980
+     ]
+    ],
+    "net": "USB_RBIAS",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "b356e49afd7c50a9"
+   }
+  }
+ },
+ {
+  "tag": "r77-gnd",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      250,
+      980,
+      220,
+      980
+     ],
+     [
+      220,
+      980,
+      220,
+      1100
+     ],
+     [
+      220,
+      1140,
+      220,
+      1100
+     ],
+     [
+      200,
+      1140,
+      220,
+      1140
+     ],
+     [
+      300,
+      1140,
+      220,
+      1140
+     ],
+     [
+      300,
+      1140,
+      540,
+      1140
+     ],
+     [
+      540,
+      1140,
+      540,
+      1100
+     ],
+     [
+      635,
+      1140,
+      540,
+      1140
+     ],
+     [
+      635,
+      980,
+      635,
+      1140
+     ],
+     [
+      645,
+      1140,
+      635,
+      1140
+     ],
+     [
+      645,
+      1100,
+      645,
+      1140
+     ],
+     [
+      700,
+      1140,
+      645,
+      1140
+     ],
+     [
+      700,
+      1140,
+      700,
+      1100
+     ],
+     [
+      750,
+      1140,
+      700,
+      1140
+     ],
+     [
+      300,
+      1140,
+      300,
+      1100
+     ],
+     [
+      300,
+      1070,
+      300,
+      1100
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "11d2f969f387a118"
+   }
+  }
+ },
+ {
+  "tag": "nr1-out",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      650,
+      740,
+      570,
+      740
+     ]
+    ],
+    "net": "USB_NON_REM1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "651f433eaeb19763"
+   }
+  }
+ },
+ {
+  "tag": "nr1-d",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "nr1-p",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "r89-3v3",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "nr0-out",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      720,
+      780,
+      570,
+      780
+     ]
+    ],
+    "net": "USB_NON_REM0",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "f5f23fc2f9f7e3a0"
+   }
+  }
+ },
+ {
+  "tag": "nr0-d",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      570,
+      780,
+      720,
+      780
+     ],
+     [
+      720,
+      780,
+      720,
+      970
+     ]
+    ],
+    "net": "USB_NON_REM0",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "f9d6f025cc0a9f0c"
+   }
+  }
+ },
+ {
+  "tag": "nr0-p",
+  "ok": false,
+  "error": "create failed!"
+ },
+ {
+  "tag": "r90-gnd",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      780,
+      980,
+      780,
+      1100
+     ],
+     [
+      780,
+      1140,
+      780,
+      1100
+     ],
+     [
+      760,
+      1140,
+      780,
+      1140
+     ],
+     [
+      880,
+      1140,
+      780,
+      1140
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "5f8c5aaedcffd686"
+   }
+  }
+ },
+ {
+  "tag": "rst-out",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      710,
+      760,
+      570,
+      760
+     ]
+    ],
+    "net": "USB_RESET_N",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "6981ef09977cced1"
+   }
+  }
+ },
+ {
+  "tag": "rst-d",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      570,
+      760,
+      710,
+      760
+     ],
+     [
+      710,
+      760,
+      710,
+      960
+     ]
+    ],
+    "net": "USB_RESET_N",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "c57aad0145d7bd65"
+   }
+  }
+ },
+ {
+  "tag": "rst-e",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      820,
+      950,
+      820,
+      960
+     ],
+     [
+      710,
+      960,
+      820,
+      960
+     ],
+     [
+      710,
+      960,
+      710,
+      760
+     ],
+     [
+      710,
+      760,
+      570,
+      760
+     ],
+     [
+      820,
+      980,
+      820,
+      960
+     ]
+    ],
+    "net": "USB_RESET_N",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "aac2a5a79359fae8"
+   }
+  }
+ },
+ {
+  "tag": "rst-p",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      570,
+      760,
+      710,
+      760
+     ],
+     [
+      710,
+      760,
+      710,
+      960
+     ],
+     [
+      820,
+      960,
+      710,
+      960
+     ],
+     [
+      820,
+      950,
+      820,
+      960
+     ],
+     [
+      820,
+      980,
+      820,
+      960
+     ]
+    ],
+    "net": "USB_RESET_N",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "db19ddac42afb320"
+   }
+  }
+ },
+ {
+  "tag": "r91-3v3",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      760,
+      700,
+      860,
+      700
+     ],
+     [
+      860,
+      980,
+      860,
+      700
+     ],
+     [
+      880,
+      700,
+      860,
+      700
+     ]
+    ],
+    "net": "3V3",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "3e9497f7d819e22a"
+   }
+  }
+ },
+ {
+  "tag": "rst-cap-v",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      820,
+      950,
+      820,
+      960
+     ],
+     [
+      710,
+      960,
+      820,
+      960
+     ],
+     [
+      710,
+      960,
+      710,
+      760
+     ],
+     [
+      710,
+      760,
+      570,
+      760
+     ],
+     [
+      820,
+      960,
+      820,
+      980
+     ],
+     [
+      820,
+      1090,
+      820,
+      980
+     ]
+    ],
+    "net": "USB_RESET_N",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "3318fc24cad2eab9"
+   }
+  }
+ },
+ {
+  "tag": "rst-cap-h",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      570,
+      760,
+      710,
+      760
+     ],
+     [
+      710,
+      760,
+      710,
+      960
+     ],
+     [
+      820,
+      960,
+      710,
+      960
+     ],
+     [
+      820,
+      950,
+      820,
+      960
+     ],
+     [
+      820,
+      960,
+      820,
+      980
+     ],
+     [
+      820,
+      1090,
+      820,
+      980
+     ],
+     [
+      820,
+      1090,
+      710,
+      1090
+     ]
+    ],
+    "net": "USB_RESET_N",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "5f28ccc36e61385f"
+   }
+  }
+ },
+ {
+  "tag": "rst-cap-c",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      820,
+      950,
+      820,
+      960
+     ],
+     [
+      710,
+      960,
+      820,
+      960
+     ],
+     [
+      710,
+      960,
+      710,
+      760
+     ],
+     [
+      710,
+      760,
+      570,
+      760
+     ],
+     [
+      820,
+      960,
+      820,
+      980
+     ],
+     [
+      820,
+      1090,
+      820,
+      980
+     ],
+     [
+      710,
+      1090,
+      820,
+      1090
+     ],
+     [
+      710,
+      1090,
+      710,
+      1100
+     ]
+    ],
+    "net": "USB_RESET_N",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "03afca4ad87034f5"
+   }
+  }
+ },
+ {
+  "tag": "rst-cap-p",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      740,
+      1070,
+      740,
+      1100
+     ],
+     [
+      710,
+      1100,
+      740,
+      1100
+     ],
+     [
+      710,
+      1100,
+      710,
+      1090
+     ],
+     [
+      820,
+      1090,
+      710,
+      1090
+     ],
+     [
+      820,
+      1090,
+      820,
+      980
+     ],
+     [
+      820,
+      960,
+      820,
+      980
+     ],
+     [
+      820,
+      960,
+      710,
+      960
+     ],
+     [
+      710,
+      760,
+      710,
+      960
+     ],
+     [
+      570,
+      760,
+      710,
+      760
+     ],
+     [
+      820,
+      950,
+      820,
+      960
+     ]
+    ],
+    "net": "USB_RESET_N",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "760d065eed1b0662"
+   }
+  }
+ },
+ {
+  "tag": "xi-out",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "xi-d",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "xi-p",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "c102-v",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      345,
+      1040,
+      345,
+      1100
+     ]
+    ],
+    "net": "USB_XTALIN",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "ca97372bc2f7da54"
+   }
+  }
+ },
+ {
+  "tag": "c102-h",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      345,
+      1100,
+      345,
+      1040
+     ],
+     [
+      345,
+      1040,
+      650,
+      1040
+     ]
+    ],
+    "net": "USB_XTALIN",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "345b230d914c144b"
+   }
+  }
+ },
+ {
+  "tag": "c102-j",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "c102-gnd",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      200,
+      1140,
+      220,
+      1140
+     ],
+     [
+      300,
+      1140,
+      220,
+      1140
+     ],
+     [
+      300,
+      1140,
+      375,
+      1140
+     ],
+     [
+      375,
+      1100,
+      375,
+      1140
+     ],
+     [
+      540,
+      1140,
+      375,
+      1140
+     ],
+     [
+      540,
+      1100,
+      540,
+      1140
+     ],
+     [
+      635,
+      1140,
+      540,
+      1140
+     ],
+     [
+      635,
+      1140,
+      635,
+      980
+     ],
+     [
+      645,
+      1140,
+      635,
+      1140
+     ],
+     [
+      645,
+      1140,
+      645,
+      1100
+     ],
+     [
+      700,
+      1140,
+      645,
+      1140
+     ],
+     [
+      700,
+      1100,
+      700,
+      1140
+     ],
+     [
+      750,
+      1140,
+      700,
+      1140
+     ],
+     [
+      300,
+      1140,
+      300,
+      1100
+     ],
+     [
+      300,
+      1070,
+      300,
+      1100
+     ],
+     [
+      220,
+      1140,
+      220,
+      1100
+     ],
+     [
+      220,
+      980,
+      220,
+      1100
+     ],
+     [
+      220,
+      980,
+      250,
+      980
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "9e173a8f5fe66cd8"
+   }
+  }
+ },
+ {
+  "tag": "xo-out",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      760,
+      820,
+      570,
+      820
+     ]
+    ],
+    "net": "USB_XTALOUT",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "89d1302f06f3b29a"
+   }
+  }
+ },
+ {
+  "tag": "xo-d",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      750,
+      730,
+      760,
+      730
+     ],
+     [
+      760,
+      820,
+      760,
+      730
+     ],
+     [
+      570,
+      820,
+      760,
+      820
+     ],
+     [
+      770,
+      730,
+      760,
+      730
+     ]
+    ],
+    "net": "USB_XTALOUT",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "6fda30cbdbf7a7c5"
+   }
+  }
+ },
+ {
+  "tag": "xo-p",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      750,
+      730,
+      760,
+      730
+     ],
+     [
+      760,
+      730,
+      760,
+      820
+     ],
+     [
+      760,
+      820,
+      570,
+      820
+     ],
+     [
+      770,
+      730,
+      760,
+      730
+     ]
+    ],
+    "net": "USB_XTALOUT",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "922be000d113a997"
+   }
+  }
+ },
+ {
+  "tag": "c103-v",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      425,
+      1030,
+      425,
+      1100
+     ]
+    ],
+    "net": "USB_XTALOUT",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "935d545951e68d78"
+   }
+  }
+ },
+ {
+  "tag": "c103-h",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      425,
+      1100,
+      425,
+      1030
+     ],
+     [
+      425,
+      1030,
+      760,
+      1030
+     ]
+    ],
+    "net": "USB_XTALOUT",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "658a893a0d2bb923"
+   }
+  }
+ },
+ {
+  "tag": "c103-j",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      570,
+      820,
+      760,
+      820
+     ],
+     [
+      760,
+      730,
+      760,
+      820
+     ],
+     [
+      750,
+      730,
+      760,
+      730
+     ],
+     [
+      770,
+      730,
+      760,
+      730
+     ],
+     [
+      760,
+      1030,
+      760,
+      820
+     ],
+     [
+      760,
+      1030,
+      425,
+      1030
+     ],
+     [
+      425,
+      1030,
+      425,
+      1100
+     ]
+    ],
+    "net": "USB_XTALOUT",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "25591761f93f18d4"
+   }
+  }
+ },
+ {
+  "tag": "c103-gnd",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      375,
+      1140,
+      375,
+      1100
+     ],
+     [
+      300,
+      1140,
+      375,
+      1140
+     ],
+     [
+      220,
+      1140,
+      300,
+      1140
+     ],
+     [
+      200,
+      1140,
+      220,
+      1140
+     ],
+     [
+      220,
+      1140,
+      220,
+      1100
+     ],
+     [
+      220,
+      980,
+      220,
+      1100
+     ],
+     [
+      250,
+      980,
+      220,
+      980
+     ],
+     [
+      300,
+      1140,
+      300,
+      1100
+     ],
+     [
+      300,
+      1070,
+      300,
+      1100
+     ],
+     [
+      375,
+      1140,
+      455,
+      1140
+     ],
+     [
+      455,
+      1100,
+      455,
+      1140
+     ],
+     [
+      540,
+      1140,
+      455,
+      1140
+     ],
+     [
+      540,
+      1140,
+      540,
+      1100
+     ],
+     [
+      635,
+      1140,
+      540,
+      1140
+     ],
+     [
+      635,
+      980,
+      635,
+      1140
+     ],
+     [
+      645,
+      1140,
+      635,
+      1140
+     ],
+     [
+      645,
+      1100,
+      645,
+      1140
+     ],
+     [
+      700,
+      1140,
+      645,
+      1140
+     ],
+     [
+      700,
+      1140,
+      700,
+      1100
+     ],
+     [
+      750,
+      1140,
+      700,
+      1140
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "ad07dc7c597b90a2"
+   }
+  }
+ },
+ {
+  "tag": "y3-g2",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      750,
+      710,
+      810,
+      710
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "ed05a38bd27ab11b"
+   }
+  }
+ },
+ {
+  "tag": "y3-g2d",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      760,
+      1140,
+      780,
+      1140
+     ],
+     [
+      780,
+      1140,
+      810,
+      1140
+     ],
+     [
+      810,
+      710,
+      810,
+      1140
+     ],
+     [
+      810,
+      710,
+      750,
+      710
+     ],
+     [
+      880,
+      1140,
+      810,
+      1140
+     ],
+     [
+      780,
+      1140,
+      780,
+      1100
+     ],
+     [
+      780,
+      980,
+      780,
+      1100
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "3b8d2f075e0d5bd7"
+   }
+  }
+ },
+ {
+  "tag": "y3-g4",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      690,
+      730,
+      675,
+      730
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "4f651d1aa0f89fb4"
+   }
+  }
+ },
+ {
+  "tag": "y3-g4d",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      645,
+      1140,
+      645,
+      1100
+     ],
+     [
+      635,
+      1140,
+      645,
+      1140
+     ],
+     [
+      635,
+      1140,
+      635,
+      980
+     ],
+     [
+      540,
+      1140,
+      635,
+      1140
+     ],
+     [
+      540,
+      1100,
+      540,
+      1140
+     ],
+     [
+      540,
+      1140,
+      455,
+      1140
+     ],
+     [
+      455,
+      1140,
+      455,
+      1100
+     ],
+     [
+      455,
+      1140,
+      375,
+      1140
+     ],
+     [
+      375,
+      1100,
+      375,
+      1140
+     ],
+     [
+      300,
+      1140,
+      375,
+      1140
+     ],
+     [
+      220,
+      1140,
+      300,
+      1140
+     ],
+     [
+      200,
+      1140,
+      220,
+      1140
+     ],
+     [
+      220,
+      1140,
+      220,
+      1100
+     ],
+     [
+      220,
+      980,
+      220,
+      1100
+     ],
+     [
+      220,
+      980,
+      250,
+      980
+     ],
+     [
+      300,
+      1140,
+      300,
+      1100
+     ],
+     [
+      300,
+      1070,
+      300,
+      1100
+     ],
+     [
+      645,
+      1140,
+      675,
+      1140
+     ],
+     [
+      675,
+      730,
+      675,
+      1140
+     ],
+     [
+      675,
+      730,
+      690,
+      730
+     ],
+     [
+      700,
+      1140,
+      675,
+      1140
+     ],
+     [
+      700,
+      1100,
+      700,
+      1140
+     ],
+     [
+      750,
+      1140,
+      700,
+      1140
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "dfb781af78df3e47"
+   },
+   "saved": true
+  }
+ }
+]

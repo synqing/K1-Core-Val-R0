@@ -1,0 +1,355 @@
+{
+  "schema": "k1.erc-disposition.v1",
+  "host_bridge_totals": {
+    "fatal": 9,
+    "warn": 19,
+    "item_text": "MISSING_GUI_PANEL"
+  },
+  "review_project_uuid": "dcd7e3cab2a24b9aa6e531d2b62e1b6f",
+  "live_canonical_project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "gui_panel": "NOT_CAPTURED_LIVE_WINDOW_IS_CANONICAL",
+  "items": [
+    {
+      "kind": "one_ended_net",
+      "name": "LED_FAULT_L_N",
+      "detail": "wires=1 segs=1 \u2014 presentation fragment, not a proven transformer short",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "one_ended_net",
+      "name": "LED_FAULT_R_N",
+      "detail": "wires=1 segs=1 \u2014 presentation fragment, not a proven transformer short",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "one_ended_net",
+      "name": "MOTION_INT_S3",
+      "detail": "wires=1 segs=1 \u2014 presentation fragment, not a proven transformer short",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "named_hold_net",
+      "name": "PWR_ENTRY_PG_RT_IOMUX_TBD",
+      "detail": "wires=2 segs=2 \u2014 VAL-G3/TUNE/validation hold",
+      "class": "named_hold"
+    },
+    {
+      "kind": "one_ended_net",
+      "name": "RT_I2C_SCL",
+      "detail": "wires=1 segs=1 \u2014 presentation fragment, not a proven transformer short",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "one_ended_net",
+      "name": "RT_I2C_SDA",
+      "detail": "wires=1 segs=1 \u2014 presentation fragment, not a proven transformer short",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "named_hold_net",
+      "name": "RT_USB_AUD_STRAP_IOMUX_TBD",
+      "detail": "wires=1 segs=1 \u2014 VAL-G3/TUNE/validation hold",
+      "class": "named_hold"
+    },
+    {
+      "kind": "one_ended_net",
+      "name": "S3_I2C_SCL",
+      "detail": "wires=1 segs=1 \u2014 presentation fragment, not a proven transformer short",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "one_ended_net",
+      "name": "S3_I2C_SDA",
+      "detail": "wires=1 segs=1 \u2014 presentation fragment, not a proven transformer short",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "required_protection_present",
+      "name": "U1-PWR1",
+      "detail": "U1 remains trunk/inlet; U17 remains per-branch LED protection",
+      "class": "named_hold"
+    },
+    {
+      "kind": "required_protection_present",
+      "name": "U17-PWR2",
+      "detail": "U1 remains trunk/inlet; U17 remains per-branch LED protection",
+      "class": "named_hold"
+    },
+    {
+      "kind": "convert_to_pcb_no",
+      "name": "DVBUS-PWR1,R40-AUD,R41-AUD,R45-MOT,R47-MOT,R49-MOT,R56-VAL,R57-VAL,U17-PWR2",
+      "detail": "9 parts Convert to PCB=no (empty PCB expected at this gate)",
+      "class": "named_hold"
+    },
+    {
+      "kind": "intentional_nc_census",
+      "name": "95 NC flags",
+      "detail": "intentional NC present on the review source",
+      "class": "intentional_nc"
+    },
+    {
+      "kind": "bound_pin_nc",
+      "name": "U1-PWR1.10",
+      "detail": "ITIMER intentional NC",
+      "class": "intentional_nc"
+    },
+    {
+      "kind": "bound_pin_nc",
+      "name": "U12-NFC.15",
+      "detail": "RFO2 intentional NC",
+      "class": "intentional_nc"
+    },
+    {
+      "kind": "bound_pin_nc",
+      "name": "U12-NFC.17",
+      "detail": "EXT_LM intentional NC",
+      "class": "intentional_nc"
+    },
+    {
+      "kind": "bound_pin_nc",
+      "name": "U12-NFC.18",
+      "detail": "AAT_A intentional NC",
+      "class": "intentional_nc"
+    },
+    {
+      "kind": "bound_pin_nc",
+      "name": "U12-NFC.19",
+      "detail": "AAT_B intentional NC",
+      "class": "intentional_nc"
+    },
+    {
+      "kind": "bound_pin_nc",
+      "name": "U12-NFC.2",
+      "detail": "TAD1 intentional NC",
+      "class": "intentional_nc"
+    },
+    {
+      "kind": "bound_pin_nc",
+      "name": "U12-NFC.23",
+      "detail": "RFI2 intentional NC",
+      "class": "intentional_nc"
+    },
+    {
+      "kind": "bound_pin_nc",
+      "name": "U12-NFC.25",
+      "detail": "TAD2 intentional NC",
+      "class": "intentional_nc"
+    },
+    {
+      "kind": "bound_pin_nc",
+      "name": "U12-NFC.28",
+      "detail": "MCU_CLK intentional NC",
+      "class": "intentional_nc"
+    },
+    {
+      "kind": "bound_pin_nc",
+      "name": "U12-NFC.29",
+      "detail": "BSS intentional NC",
+      "class": "intentional_nc"
+    },
+    {
+      "kind": "bound_pin_nc",
+      "name": "U12-NFC.31",
+      "detail": "MOSI intentional NC",
+      "class": "intentional_nc"
+    },
+    {
+      "kind": "bound_pin_nc",
+      "name": "U13-MOT.11",
+      "detail": "INT2 intentional NC",
+      "class": "intentional_nc"
+    },
+    {
+      "kind": "bound_pin_nc",
+      "name": "U16-VAL.3",
+      "detail": "MR# intentional NC",
+      "class": "intentional_nc"
+    },
+    {
+      "kind": "bound_pin_nc",
+      "name": "U16-VAL.4",
+      "detail": "CT intentional NC",
+      "class": "intentional_nc"
+    },
+    {
+      "kind": "host_fatal_unmapped",
+      "name": "HOST_FATAL_01",
+      "detail": "sch_Drc.check returned a fatal count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_fatal_unmapped",
+      "name": "HOST_FATAL_02",
+      "detail": "sch_Drc.check returned a fatal count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_fatal_unmapped",
+      "name": "HOST_FATAL_03",
+      "detail": "sch_Drc.check returned a fatal count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_fatal_unmapped",
+      "name": "HOST_FATAL_04",
+      "detail": "sch_Drc.check returned a fatal count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_fatal_unmapped",
+      "name": "HOST_FATAL_05",
+      "detail": "sch_Drc.check returned a fatal count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_fatal_unmapped",
+      "name": "HOST_FATAL_06",
+      "detail": "sch_Drc.check returned a fatal count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_fatal_unmapped",
+      "name": "HOST_FATAL_07",
+      "detail": "sch_Drc.check returned a fatal count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_fatal_unmapped",
+      "name": "HOST_FATAL_08",
+      "detail": "sch_Drc.check returned a fatal count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_fatal_unmapped",
+      "name": "HOST_FATAL_09",
+      "detail": "sch_Drc.check returned a fatal count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_warn_unmapped",
+      "name": "HOST_WARN_01",
+      "detail": "sch_Drc.check returned a warn count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_warn_unmapped",
+      "name": "HOST_WARN_02",
+      "detail": "sch_Drc.check returned a warn count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_warn_unmapped",
+      "name": "HOST_WARN_03",
+      "detail": "sch_Drc.check returned a warn count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_warn_unmapped",
+      "name": "HOST_WARN_04",
+      "detail": "sch_Drc.check returned a warn count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_warn_unmapped",
+      "name": "HOST_WARN_05",
+      "detail": "sch_Drc.check returned a warn count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_warn_unmapped",
+      "name": "HOST_WARN_06",
+      "detail": "sch_Drc.check returned a warn count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_warn_unmapped",
+      "name": "HOST_WARN_07",
+      "detail": "sch_Drc.check returned a warn count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_warn_unmapped",
+      "name": "HOST_WARN_08",
+      "detail": "sch_Drc.check returned a warn count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_warn_unmapped",
+      "name": "HOST_WARN_09",
+      "detail": "sch_Drc.check returned a warn count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_warn_unmapped",
+      "name": "HOST_WARN_10",
+      "detail": "sch_Drc.check returned a warn count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_warn_unmapped",
+      "name": "HOST_WARN_11",
+      "detail": "sch_Drc.check returned a warn count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_warn_unmapped",
+      "name": "HOST_WARN_12",
+      "detail": "sch_Drc.check returned a warn count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_warn_unmapped",
+      "name": "HOST_WARN_13",
+      "detail": "sch_Drc.check returned a warn count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_warn_unmapped",
+      "name": "HOST_WARN_14",
+      "detail": "sch_Drc.check returned a warn count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_warn_unmapped",
+      "name": "HOST_WARN_15",
+      "detail": "sch_Drc.check returned a warn count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_warn_unmapped",
+      "name": "HOST_WARN_16",
+      "detail": "sch_Drc.check returned a warn count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_warn_unmapped",
+      "name": "HOST_WARN_17",
+      "detail": "sch_Drc.check returned a warn count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_warn_unmapped",
+      "name": "HOST_WARN_18",
+      "detail": "sch_Drc.check returned a warn count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "host_warn_unmapped",
+      "name": "HOST_WARN_19",
+      "detail": "sch_Drc.check returned a warn count only; GUI panel not captured from dcd7e3ca",
+      "class": "needs_gui_confirm"
+    }
+  ],
+  "counts": {
+    "independent_items": 55,
+    "real_defects": 0,
+    "named_hold": 5,
+    "intentional_nc": 15,
+    "needs_gui_confirm": 35,
+    "host_unmapped": 28
+  },
+  "unclassified_fatals": 9,
+  "real_defects_open": 0,
+  "source_real_defects": [],
+  "note": "Host still reports 9 fatal + 19 warn without item text. The open EasyEDA window is live project 64325d0e; it was not switched. Source census found no U4-era leftover and no missing U1/U17. Official freeze stays refused until GUI items are taken from dcd7e3ca."
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T00d2-j1-pwr1-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2368733:22e58ee3",
+  "post_source_hash": "2368741:406cc027",
+  "saved": true,
+  "affected": [
+    {
+      "primitiveId": "ea47c20de228fa3a",
+      "designator": "J1-PWR1",
+      "previous_designator": "J1-USB",
+      "name": "GT-USB-7005A-IND",
+      "manufacturerId": "GT-USB-7005A",
+      "supplierId": "C5250872"
+    }
+  ],
+  "census": {
+    "components": 257,
+    "wires": 773,
+    "components_delta": 0,
+    "wires_delta": 0,
+    "retired_j1_present": true
+  },
+  "observed": "New GT-USB-7005A-IND is now J1-PWR1. Supplier field C5250872 only. Old USB4105 remains J1-USB4105-RETIRED. No wires, no move."
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07i-c123-c125-place-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2868976:f03e1155",
+  "post_source_hash": "2880507:3ad6b476",
+  "saved": true,
+  "affected": [
+    {"primitiveId": "e8e13777e6daf227", "role": "C123 100nF", "x": 1420, "y": 1100, "addIntoPcb": false},
+    {"primitiveId": "175450abf83b4c89", "role": "C124 100nF", "x": 1850, "y": 600, "addIntoPcb": false},
+    {"primitiveId": "ffd3d3994031db72", "role": "C125 100nF", "x": 1850, "y": 1000, "addIntoPcb": false}
+  ],
+  "census": {
+    "components": 323,
+    "wires": 787,
+    "components_delta": 3,
+    "wires_delta": 0
+  },
+  "observed": "Placed three C14663 100nF caps at U23/U24/U25 VCC sites. addIntoPcb false. Wires still 787. Hub 41c8e652."
+}

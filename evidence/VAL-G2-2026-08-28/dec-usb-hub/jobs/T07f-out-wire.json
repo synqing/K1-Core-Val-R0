@@ -1,0 +1,17 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "add_schematic_wire", "tag": "out1-r", "args": {"line": [1260, 800, 1310, 800], "net": "RT_USB_VBUS", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "out1-d", "args": {"line": [1310, 800, 1310, 1080], "net": "RT_USB_VBUS", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "out1-c109-h", "args": {"line": [1310, 1080, 1200, 1080], "net": "RT_USB_VBUS", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "out1-c109", "args": {"line": [1200, 1080, 1200, 1000], "net": "RT_USB_VBUS", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "c109-gnd", "args": {"line": [1160, 1000, 1160, 1140], "net": "GND", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "out2-r", "args": {"line": [1260, 790, 1275, 790], "net": "S3_USB_VBUS_VALID", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "out2-d", "args": {"line": [1275, 790, 1275, 820], "net": "S3_USB_VBUS_VALID", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "out2-e", "args": {"line": [1275, 820, 1350, 820], "net": "S3_USB_VBUS_VALID", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "out2-d2", "args": {"line": [1350, 820, 1350, 1000], "net": "S3_USB_VBUS_VALID", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "out2-c110", "args": {"line": [1350, 1000, 1280, 1000], "net": "S3_USB_VBUS_VALID", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "c110-gnd", "args": {"line": [1240, 1000, 1240, 1140], "net": "GND", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "r86-h", "args": {"line": [1310, 1080, 1780, 1080], "net": "RT_USB_VBUS", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "r86-d", "args": {"line": [1780, 1080, 1780, 1200], "net": "RT_USB_VBUS", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "r86-gnd", "args": {"line": [1820, 1200, 1820, 1140], "net": "GND", "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

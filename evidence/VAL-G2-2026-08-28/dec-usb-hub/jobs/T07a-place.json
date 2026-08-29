@@ -1,0 +1,13 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "add_schematic_component", "tag": "place-U21", "args": {
+    "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+    "deviceUuid": "cfd37297ae6546f5a59bbaa3c1ffaaa1",
+    "x": 1200,
+    "y": 800,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "saveAfter": true,
+    "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+  }}
+]

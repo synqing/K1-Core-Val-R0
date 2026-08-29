@@ -1,0 +1,5 @@
+[
+  {"tool":"get_current_context","args":{},"tag":"context"},
+  {"tool":"get_document_source","args":{"expectedDocumentUuid":"59bef7e87cff4cd580561703b62d8c19"},"tag":"source"},
+  {"tool":"list_pcb_component_pads","args":{"componentPrimitiveId":"001a257400b89df6","expectedDocumentUuid":"59bef7e87cff4cd580561703b62d8c19"},"tag":"pads"}
+]

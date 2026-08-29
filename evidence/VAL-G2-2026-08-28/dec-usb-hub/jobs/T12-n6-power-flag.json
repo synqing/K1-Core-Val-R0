@@ -1,0 +1,4 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "add_schematic_net_flag", "tag": "n6-vbus-flag", "args": {"identification": "Power", "net": "RT_USB_VBUS", "x": 2230, "y": 4040, "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

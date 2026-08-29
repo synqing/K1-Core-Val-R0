@@ -1,0 +1,44 @@
+{
+  "when": "2026-08-29",
+  "project": "64325d0e55e0435abd018defb0089a9b",
+  "schUnits": 2,
+  "sch": [
+    {
+      "id": "e3295",
+      "des": "U6-RTC",
+      "sub": "MIMXRT1062DVJ6B.1",
+      "sid": "C2847497",
+      "mid": "MIMXRT1062DVJ6B",
+      "x": 2315,
+      "y": 4440,
+      "rot": 0
+    },
+    {
+      "id": "e3673",
+      "des": "U6-RTC",
+      "sub": "MIMXRT1062DVJ6B.2",
+      "sid": "C2847497",
+      "mid": "MIMXRT1062DVJ6B",
+      "x": 2250,
+      "y": 3930,
+      "rot": 90
+    }
+  ],
+  "pcb": [
+    {
+      "des": "U6-RTC",
+      "sid": "C2847497",
+      "mid": "MIMXRT1062DVJ6B",
+      "model": "de5664fd2ea74aa082831cfa5b198edb",
+      "title": "MIMXRT1061DVJ6B"
+    },
+    {
+      "des": "USB1",
+      "sid": "C778726",
+      "mid": "CX70M-24P1",
+      "model": "71aa35b92da84360b5d9e21f25c486f0",
+      "title": "USB_C_Hirose_CX_4800304000_v3"
+    }
+  ],
+  "nxpOnU6": true
+}

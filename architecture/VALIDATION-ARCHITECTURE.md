@@ -7,6 +7,8 @@
 | VAL-G0 | Project bootstrap and authority |
 | VAL-G1 | Option B versus Option C close |
 | VAL-G2 | Single-sheet native schematic |
+| JLC-SCH-READY | VAL-G2 close gate: electrically frozen, professionally readable, EasyEDA-stable one-sheet. Unblocks RFQ/package and schematic handoff preparation only. |
+| JLC-LAYOUT-READY | Later gate: `JLC-SCH-READY` plus layout-relevant IOMUX, footprints, DXF/mechanics, pad count, JLC source package. Unblocks paid JLCPCB placement/routing. |
 | VAL-G3 | Mechanical envelope and domain floorplan |
 | VAL-G4 | Real component placement and locks |
 | VAL-G5 | Layer stack, net rules, planes, SI and PI |
@@ -16,7 +18,11 @@
 
 ## Independent audio programme
 
-These lanes do not touch the Core and are not gated on VAL-G1.
+These lanes do not touch the Core and are not gated on VAL-G1. They are not a
+substitute for the mainboard audio contract. D-051 restores VAL-R0 Core audio as
+dual-input (switched stereo 3.5 mm AUX plus IM69D130 PDM through `U11-AUD`). The
+independent L0–L2 programme still characterises converter and SAI behaviour off
+the Core; it does not authorise omitting AUX from the Core graph.
 
 **L0 — software only.** Golden 48 kHz PCM through candidate sample-rate conversion into
 12.8 kHz / 96, and into 24 kHz / 180 where that alternative stays live. Measure passband,

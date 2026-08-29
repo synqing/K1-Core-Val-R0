@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07a-u21-tps2052b-place-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2697708:2df8fd87",
+  "post_source_hash": "2707725:d0d64222",
+  "saved": true,
+  "affected": [
+    {
+      "primitiveId": "fb7c84f0a582bd9c",
+      "designator": "U?",
+      "supplierId": "C130049",
+      "x": 1200,
+      "y": 800,
+      "addIntoPcb": false
+    }
+  ],
+  "census": {
+    "components": 303,
+    "wires": 787,
+    "components_delta": 1,
+    "wires_delta": 0
+  },
+  "observed": "TPS2052BDR C130049 placed at 1200,800 as U? primitive fb7c84f0a582bd9c. addIntoPcb false. Wires still 787. Hub 41c8e652. Live not written. No second USB2422."
+}

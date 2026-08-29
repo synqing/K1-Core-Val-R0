@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-identity-restamp-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "source_hash": "653168:d133c8b6",
+  "census": {
+    "characters": 653168,
+    "prior_gate_hash": "653168:8a563770",
+    "u1_id": "0f194aaf30bc2e32",
+    "u1_sid": "C5250872",
+    "u1_mid": "GT-USB-7005A",
+    "u1_model": "7e3f17b4e5b64384aaa03075cd65e3e3",
+    "u1_title": "J1_GT-USB-7005A",
+    "u1_transform": "0, 0, 0, 0, 180, 0, 0, 0, 0",
+    "note": "Activate re-serialised the PCB after the rejected rotX-180 write. Same character count, new SHA. No write in this restamp. Leftover rotX 180 still on U1. Not a seating claim."
+  }
+}

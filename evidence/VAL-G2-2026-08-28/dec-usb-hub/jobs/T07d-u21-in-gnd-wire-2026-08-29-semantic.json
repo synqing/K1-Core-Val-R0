@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07d-u21-in-gnd-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2907334:6d8e5507",
+  "post_source_hash": "2912320:54107544",
+  "saved": true,
+  "affected": [
+    {"ref": "U21-USB", "pin": "2 IN", "net": "5V0_USB_VALID"},
+    {"ref": "U21-USB", "pin": "1 GND", "net": "GND"},
+    {"ref": "C108-USB", "nets": ["5V0_USB_VALID", "GND"]}
+  ],
+  "census": {
+    "components": 323,
+    "wires": 788,
+    "components_delta": 0,
+    "wires_delta": 0,
+    "note": "Host merged 5V0_USB_VALID segments into the existing family."
+  },
+  "source_hits": {"5V0_USB_VALID": 19},
+  "not_wired": ["U21.3 EN1", "U21.4 EN2", "U21.7 OUT1", "U21.6 OUT2"],
+  "observed": "U21 IN and C108 joined to 5V0_USB_VALID from U22. U21 GND and C108 ground to GND. EN and OUT still open. Not 5V_PROTECTED. Hub 41c8e652."
+}

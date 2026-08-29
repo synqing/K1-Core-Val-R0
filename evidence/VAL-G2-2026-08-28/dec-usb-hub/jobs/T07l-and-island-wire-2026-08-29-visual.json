@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07l-and-island-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "U24.3 and U25.3 to USB_5V_VALID. U24.5 U25.5 C124 C125 to 3V3. U24.2 U25.2 C124 C125 to GND. Leave pin 1 and pin 4 open.",
+  "observed_delta": "90 percent AND-island view shows U24/U25 with 3V3, GND, C124, C125 and USB_5V_VALID routed to pin 3. Pin 1 and pin 4 remain open.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T07l-and.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "USB_5V_VALID on U24 pin3 and U25 pin3",
+      "result": "OK",
+      "detail": "Riser at x=1680 to 1710,590 and 1710,990. Source USB_5V_VALID hits 6."
+    },
+    {
+      "name": "U24 U25 VCC and C124 C125 on 3V3",
+      "result": "OK",
+      "detail": "U25 VCC vertical at x=1790 joins U24 VCC and the 3V3 rail. C124/C125 to VCC."
+    },
+    {
+      "name": "U24 U25 GND on GND not on pin3",
+      "result": "OK",
+      "detail": "U24.2 jogged east around C124 3V3. U25.2 down. C124/C125 grounds down."
+    },
+    {
+      "name": "pin1 and pin4 remain open",
+      "result": "OK",
+      "detail": "PRTPWR and EN left for T07e."
+    },
+    {
+      "name": "real wires hub 41c8e652",
+      "result": "OK",
+      "detail": "Project 41c8e652."
+    }
+  ]
+}

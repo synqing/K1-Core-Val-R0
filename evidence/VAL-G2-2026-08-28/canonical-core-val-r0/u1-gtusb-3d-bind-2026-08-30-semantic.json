@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-gtusb-3d-bind-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "pre_source_hash": "653038:5011a01c",
+  "post_source_hash": "653168:7cb93d19",
+  "saved": true,
+  "affected": ["U1", "3D Model", "3D Model Title", "3D Model Transform"],
+  "census": {
+    "used_folder": "evidence/VAL-G2-2026-08-28/dec-usb-hub/3d",
+    "uploaded_file": "J1_GT-USB-7005A.obj",
+    "personal_library": "27700277ef7a49e48a0293bece6b2993",
+    "new_model_uuid": "7e3f17b4e5b64384aaa03075cd65e3e3",
+    "model_title": "J1_GT-USB-7005A",
+    "bind_target": "U1",
+    "usb1_present": false,
+    "component_primitive_id": "0f194aaf30bc2e32",
+    "supplier_id": "C5250872",
+    "manufacturer_id": "GT-USB-7005A",
+    "transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+    "model3d_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+    "u6_unchanged": true,
+    "u6_model": "de5664fd2ea74aa082831cfa5b198edb",
+    "u6_transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+    "d1_unchanged": true,
+    "d1_model": "1370be37a17e44418ae52e2b4cc1f5e5",
+    "d1_transform": "110.236,113.364,0,90,0,0,0.0005,0.0005,0",
+    "pcb_save": true,
+    "bind_receipt": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-gtusb-3d-bind-2026-08-30.json"
+  }
+}

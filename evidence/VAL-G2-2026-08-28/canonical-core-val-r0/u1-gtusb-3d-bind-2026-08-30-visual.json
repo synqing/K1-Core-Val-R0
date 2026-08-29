@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-gtusb-3d-bind-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "USB-C only: upload the new millimetre J1 GT-USB-7005A rebuild into the personal 3D library and bind it to live U1 (C5250872). Identity transform. Do not retouch U6, TVS or audio.",
+  "observed_delta": "Used Captain's dec-usb-hub/3d rebuild (J1_GT-USB-7005A.obj, millimetre, Z=0 PCB top, mouth -Y). New personal 3D UUID 7e3f17b4e5b64384aaa03075cd65e3e3 titled J1_GT-USB-7005A is bound on live U1 only (C5250872 / GT-USB-7005A). USB1 is absent on this PCB, so nothing Hirose was painted. Identity transform 0,0,0,0,0,0,0,0,0. Front-side 3D after settle shows a mid-mount sink: shell recessed into the edge cut-out, four tabs through the oval slots, SMT tails on the rear pads, mouth toward the board edge. Not floating. U6-RTC and D1-PWR1 3D identities and transforms unchanged. Audio untouched.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-gtusb-3d-after-bind.png",
+  "supporting_screenshots": [
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-gtusb-3d-after-bind-front-side.png",
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-gtusb-3d-after-bind-front-band.png",
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-gtusb-3d-after-bind-top-side.png"
+  ],
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "U1 remains C5250872 / GT-USB-7005A",
+      "result": "OK",
+      "detail": "U1 primitive 0f194aaf30bc2e32 is still C5250872 / GT-USB-7005A. USB1 is not on this board."
+    },
+    {
+      "name": "new personal 3D UUID is bound on U1",
+      "result": "OK",
+      "detail": "U1 3D Model is 7e3f17b4e5b64384aaa03075cd65e3e3 titled J1_GT-USB-7005A. Not 08b2bb… or 71aa35…."
+    },
+    {
+      "name": "U6-RTC 3D model and transform unchanged",
+      "result": "OK",
+      "detail": "U6-RTC still de5664fd2ea74aa082831cfa5b198edb with identity 0, 0, 0, 0, 0, 0, 0, 0, 0."
+    },
+    {
+      "name": "D1-PWR1 TVS 3D model and transform unchanged",
+      "result": "OK",
+      "detail": "D1-PWR1 still 1370be37a17e44418ae52e2b4cc1f5e5 / 110.236,113.364,0,90,0,0,0.0005,0.0005,0."
+    }
+  ]
+}

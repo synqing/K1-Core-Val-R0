@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T06-hub-strap-xtal-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2597092:3a391c19",
+  "post_source_hash": "2713045:d883ba7f",
+  "saved": true,
+  "affected": [
+    {"role": "USB_CRFILT", "net": "USB_CRFILT", "pins": ["U20.10", "C100-USB"]},
+    {"role": "USB_PLLFILT", "net": "USB_PLLFILT", "pins": ["U20.23", "C101-USB"]},
+    {"role": "USB_CFG_SEL", "net": "USB_CFG_SEL", "pins": ["U20.14", "R88-USB"]},
+    {"role": "USB_RBIAS", "net": "USB_RBIAS", "pins": ["U20.24", "R77-USB"]},
+    {"role": "USB_NON_REM1", "net": "USB_NON_REM1", "pins": ["U20.13", "R89-USB"]},
+    {"role": "USB_NON_REM0", "net": "USB_NON_REM0", "pins": ["U20.17", "R90-USB"]},
+    {"role": "USB_RESET_N", "net": "USB_RESET_N", "pins": ["U20.15", "R91-USB", "C107-USB"]},
+    {"role": "USB_XTALIN", "net": "USB_XTALIN", "pins": ["U20.22", "Y3-USB.1", "C102-USB"]},
+    {"role": "USB_XTALOUT", "net": "USB_XTALOUT", "pins": ["U20.21", "Y3-USB.3", "C103-USB"]},
+    {"role": "Y3_GND", "net": "GND", "pins": ["Y3-USB.2", "Y3-USB.4"]}
+  ],
+  "census": {
+    "components": 297,
+    "wires": 784,
+    "components_delta": 12,
+    "wires_delta": 8
+  },
+  "observed": "Wired RBIAS, CRFILT, PLLFILT, XTALIN/XTALOUT, RESET_N RC, CFG_SEL low and NON_REM 10 with real wires. No BC_EN pull-up. USB pairs not wired. Saved. Hub 41c8e652. Component count rose 285 to 297 because foreign 5V/GND flags and later extras were already on the island or arrived during the open transaction; T06 itself added wires only."
+}

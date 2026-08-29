@@ -1,0 +1,4 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "set_schematic_pin_no_connect", "tag": "n6-nc-off", "args": {"componentPrimitiveId": "e3673", "pinNumber": "N6", "noConnected": false, "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

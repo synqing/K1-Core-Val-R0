@@ -1,0 +1,11 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "add_schematic_wire", "tag": "in-left", "args": {"line": [1140, 800, 1080, 800], "net": "5V0_USB_VALID", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "c108-up", "args": {"line": [1080, 1000, 1080, 800], "net": "5V0_USB_VALID", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "valid-drop", "args": {"line": [1080, 800, 1080, 850], "net": "5V0_USB_VALID", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "valid-west", "args": {"line": [1080, 850, 1448, 850], "net": "5V0_USB_VALID", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "valid-join-v", "args": {"line": [1448, 850, 1448, 780], "net": "5V0_USB_VALID", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "valid-join-h", "args": {"line": [1448, 780, 1455, 780], "net": "5V0_USB_VALID", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "u21-gnd", "args": {"line": [1140, 810, 1140, 1140], "net": "GND", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "c108-gnd", "args": {"line": [1120, 1000, 1120, 1140], "net": "GND", "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

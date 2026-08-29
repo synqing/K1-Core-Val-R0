@@ -1,0 +1,4 @@
+[
+  {"tool": "get_current_context", "tag": "context", "args": {}},
+  {"tool": "list_schematic_primitive_ids", "tag": "components", "args": {"family": "component"}}
+]

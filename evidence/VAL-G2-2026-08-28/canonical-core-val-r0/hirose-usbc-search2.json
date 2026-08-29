@@ -1,0 +1,125 @@
+{
+  "searches": {
+    "empty": [
+      {
+        "uuid": "7e7eac39cf44433b9710c4ae4afab424",
+        "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+        "classification": {
+          "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+          "libraryType": "3",
+          "primaryClassificationUuid": "0c6123eef9994a71a80f19a1170c44f0",
+          "secondaryClassificationUuid": "4d4524b7560c4cd5a3bf20676566ece5"
+        },
+        "ordinal": 0,
+        "name": "CX70M-24P1",
+        "model3DName": "USB_C_Hirose_CX_4800304000_v3",
+        "model3DUuid": "71aa35b92da84360b5d9e21f25c486f0",
+        "imageUuid": "",
+        "description": "CX70M-24P1 with Hirose CX 4800304000 STEP",
+        "manufacturer": "HRS",
+        "manufacturerId": "CX70M-24P1",
+        "supplier": "LCSC",
+        "supplierId": "C778726",
+        "otherProperty": {
+          "3D Model": "71aa35b92da84360b5d9e21f25c486f0",
+          "3D Model Title": "USB_C_Hirose_CX_4800304000_v3",
+          "3D Model Transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+          "Add into BOM": "yes",
+          "Convert to PCB": "yes",
+          "Designator": "USB?",
+          "Footprint": "279f06324aa142578b6ff40a12f66d9b",
+          "Name": "CX70M-24P1",
+          "Symbol": "c8b5c381560a4f7192aa521a21010e99",
+          "Manufacturer": "HRS",
+          "Supplier": "LCSC",
+          "Manufacturer Part": "CX70M-24P1",
+          "Supplier Part": "C778726",
+          "Description": "CX70M-24P1 with Hirose CX 4800304000 STEP"
+        }
+      }
+    ],
+    "CX70": [],
+    "C778726": [],
+    "HIROSE": [],
+    "usbClass": [],
+    "get": {
+      "libraryType": "3",
+      "uuid": "7e7eac39cf44433b9710c4ae4afab424",
+      "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+      "name": "CX70M-24P1",
+      "classification": {
+        "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+        "libraryType": "3",
+        "primaryClassificationUuid": "0c6123eef9994a71a80f19a1170c44f0",
+        "secondaryClassificationUuid": "4d4524b7560c4cd5a3bf20676566ece5"
+      },
+      "association": {
+        "symbolType": 2,
+        "symbolUuid": "c8b5c381560a4f7192aa521a21010e99",
+        "symbol": {
+          "type": 2,
+          "uuid": "c8b5c381560a4f7192aa521a21010e99",
+          "libraryUuid": "27700277ef7a49e48a0293bece6b2993"
+        },
+        "footprintUuid": "279f06324aa142578b6ff40a12f66d9b",
+        "footprint": {
+          "uuid": "279f06324aa142578b6ff40a12f66d9b",
+          "libraryUuid": "27700277ef7a49e48a0293bece6b2993"
+        },
+        "images": [
+          ""
+        ]
+      },
+      "description": "CX70M-24P1 with Hirose CX 4800304000 STEP",
+      "property": {
+        "name": "CX70M-24P1",
+        "designator": "USB?",
+        "addIntoBom": "yes",
+        "addIntoPcb": "yes",
+        "manufacturer": "HRS",
+        "manufacturerId": "CX70M-24P1",
+        "supplier": "LCSC",
+        "supplierId": "C778726",
+        "otherProperty": {
+          "3D Model": "71aa35b92da84360b5d9e21f25c486f0",
+          "3D Model Title": "USB_C_Hirose_CX_4800304000_v3",
+          "3D Model Transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+          "Add into BOM": "yes",
+          "Convert to PCB": "yes",
+          "Designator": "USB?",
+          "Footprint": "279f06324aa142578b6ff40a12f66d9b",
+          "Name": "CX70M-24P1",
+          "Symbol": "c8b5c381560a4f7192aa521a21010e99",
+          "Manufacturer": "HRS",
+          "Supplier": "LCSC",
+          "Manufacturer Part": "CX70M-24P1",
+          "Supplier Part": "C778726",
+          "Description": "CX70M-24P1 with Hirose CX 4800304000 STEP"
+        }
+      },
+      "subPartNames": [
+        "CX70M-24P1.1"
+      ]
+    }
+  },
+  "fileMgr": [
+    "getProjectFile",
+    "getDocumentFile",
+    "getDocumentSource",
+    "getDocumentFootprintSources",
+    "setDocumentSource",
+    "getProjectFileByProjectUuid",
+    "getDeviceFileByDeviceUuid",
+    "getSymbolFileBySymbolUuid",
+    "getFootprintFileByFootprintUuid",
+    "getCbbFileByCbbUuid",
+    "getPanelLibraryFileByPanelLibraryUuid",
+    "importProjectByProjectFile",
+    "extractProjectInfo",
+    "extractLibInfo"
+  ],
+  "click2d": {
+    "ok": false,
+    "want": "2D Preview"
+  }
+}

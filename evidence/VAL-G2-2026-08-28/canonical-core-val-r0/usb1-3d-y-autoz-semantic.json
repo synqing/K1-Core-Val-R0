@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "transaction_id": "usb1-3d-y-autoz-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "pre_source_hash": "658063:bbbf29c1",
+  "post_source_hash": "658052:fb8c662c",
+  "saved": true,
+  "affected": ["USB1", "3D Model Transform"],
+  "census": {
+    "component_primitive_id": "19bbd06e9438ab5d",
+    "designator": "USB1",
+    "supplier_id": "C778726",
+    "manufacturer_id": "CX70M-24P1",
+    "model_uuid": "71aa35b92da84360b5d9e21f25c486f0",
+    "pre_transform": "448.8179849815368,328.7394915521145,145.27529755949973,0,0,0,0,0,-80.315",
+    "post_transform": "448.8179849815368,328.7394915521145,0,0,0,0,0,-66.733,-80.315",
+    "usb2_unchanged": true,
+    "u6_unchanged": true,
+    "pcb_save": true
+  }
+}

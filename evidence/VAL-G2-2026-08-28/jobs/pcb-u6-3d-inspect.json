@@ -1,0 +1,5 @@
+[
+  {"tool": "open_document", "tag": "open-pcb", "args": {"documentUuid": "59bef7e87cff4cd580561703b62d8c19", "expectedDocumentUuid": "59bef7e87cff4cd580561703b62d8c19"}},
+  {"tool": "list_pcb_primitive_ids", "tag": "pcb-ids", "args": {}},
+  {"tool": "search_library_devices", "tag": "dvj6b-now", "args": {"query": "MIMXRT1062DVJ6B", "itemsPerPage": 5, "allowMultiMatch": true}}
+]

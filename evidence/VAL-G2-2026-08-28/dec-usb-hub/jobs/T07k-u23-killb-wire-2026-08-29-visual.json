@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07k-u23-killb-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "U23 IN+ on TAP_VBUS from R81/R82. U23 IN- on TAP_REF from R83/R84. VCC and C123 to 3V3. VEE C123 R82 R84 to GND. OUT stub USB_5V_VALID. Do not wire U24 U25 R85.",
+  "observed_delta": "100 percent island view shows U23 wired to the R81-R84 divider row, C123, 3V3 and GND. USB_5V_VALID leaves OUT. U24 and U25 still unwired.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T07k-u23.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "TAP_VBUS is R81 R82 U23 IN+",
+      "result": "OK",
+      "detail": "IN+ routed west then to R81.2/R82.1. API net TAP_VBUS."
+    },
+    {
+      "name": "TAP_REF is R83 R84 U23 IN-",
+      "result": "OK",
+      "detail": "IN- east to R83.2/R84.1. Source TAP_REF hits 3."
+    },
+    {
+      "name": "U23 VCC and C123 on 3V3",
+      "result": "OK",
+      "detail": "VCC up to extended 3V3 rail. C123 and R83.1 on 3V3."
+    },
+    {
+      "name": "U23 VEE on GND",
+      "result": "OK",
+      "detail": "VEE down to R82.2 and the GND rail. C123 and R84 grounds down."
+    },
+    {
+      "name": "USB_5V_VALID stub from OUT no AND yet hub 41c8e652",
+      "result": "OK",
+      "detail": "OUT 1540,1000 to 1600,1000 USB_5V_VALID. U24/U25 untouched. Project 41c8e652."
+    }
+  ]
+}

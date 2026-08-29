@@ -1,0 +1,123 @@
+{
+  "schema": "k1.erc-disposition.v1",
+  "host_bridge_totals": {
+    "fatal": 0,
+    "warn": 0,
+    "item_text": "CAPTURED"
+  },
+  "review_project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "live_canonical_project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "gui_panel": "CAPTURED_ITEM_LOG",
+  "items": [
+    {
+      "kind": "one_ended_net",
+      "name": "LED_FAULT_L_N",
+      "detail": "wires=1 segs=1 \u2014 presentation fragment, not a proven transformer short",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "one_ended_net",
+      "name": "LED_FAULT_R_N",
+      "detail": "wires=1 segs=1 \u2014 presentation fragment, not a proven transformer short",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "one_ended_net",
+      "name": "MOTION_INT_S3",
+      "detail": "wires=1 segs=1 \u2014 presentation fragment, not a proven transformer short",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "named_hold_net",
+      "name": "PWR_ENTRY_PG_RT_IOMUX_TBD",
+      "detail": "wires=2 segs=2 \u2014 VAL-G3/TUNE/validation hold",
+      "class": "named_hold"
+    },
+    {
+      "kind": "one_ended_net",
+      "name": "RT_I2C_SCL",
+      "detail": "wires=1 segs=1 \u2014 presentation fragment, not a proven transformer short",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "one_ended_net",
+      "name": "RT_I2C_SDA",
+      "detail": "wires=1 segs=1 \u2014 presentation fragment, not a proven transformer short",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "one_ended_net",
+      "name": "RT_RESET_REQ_N",
+      "detail": "wires=1 segs=1 \u2014 presentation fragment, not a proven transformer short",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "named_hold_net",
+      "name": "RT_USB_AUD_STRAP_IOMUX_TBD",
+      "detail": "wires=1 segs=1 \u2014 VAL-G3/TUNE/validation hold",
+      "class": "named_hold"
+    },
+    {
+      "kind": "one_ended_net",
+      "name": "S3_I2C_SCL",
+      "detail": "wires=1 segs=1 \u2014 presentation fragment, not a proven transformer short",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "one_ended_net",
+      "name": "S3_I2C_SDA",
+      "detail": "wires=1 segs=1 \u2014 presentation fragment, not a proven transformer short",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "one_ended_net",
+      "name": "USB_NON_REM1",
+      "detail": "wires=1 segs=1 \u2014 presentation fragment, not a proven transformer short",
+      "class": "needs_gui_confirm"
+    },
+    {
+      "kind": "required_protection_present",
+      "name": "U1-PWR1",
+      "detail": "U1 remains trunk/inlet; U17 remains per-branch LED protection",
+      "class": "named_hold"
+    },
+    {
+      "kind": "required_protection_present",
+      "name": "U17-PWR2",
+      "detail": "U1 remains trunk/inlet; U17 remains per-branch LED protection",
+      "class": "named_hold"
+    },
+    {
+      "kind": "convert_to_pcb_no",
+      "name": "C1-PWR1,C100-USB,C101-USB,C102-USB,C103-USB,C104-USB,C105-USB,C106-USB,C107-USB,C108-USB,C109-USB,C110-USB",
+      "detail": "56 parts Convert to PCB=no (empty PCB expected at this gate)",
+      "class": "named_hold"
+    },
+    {
+      "kind": "intentional_nc_census",
+      "name": "104 NC flags",
+      "detail": "intentional NC present on the review source",
+      "class": "intentional_nc"
+    },
+    {
+      "kind": "gui_info",
+      "name": "Host sch_Drc.check on 41c8e6523576456582ea35958b3684ed returned fatalError count 14 and warn count 49 without item text.",
+      "detail": "Host sch_Drc.check on 41c8e6523576456582ea35958b3684ed returned fatalError count 14 and warn count 49 without item text. The DRC API exposes only check(); the GUI item list was not exported this session.",
+      "class": "host_false_positive"
+    }
+  ],
+  "counts": {
+    "independent_items": 16,
+    "real_defects": 0,
+    "named_hold": 5,
+    "intentional_nc": 1,
+    "host_false_positive": 1,
+    "needs_gui_confirm": 9,
+    "host_unmapped": 0,
+    "gui_log_rows": 1
+  },
+  "unclassified_fatals": 0,
+  "real_defects_open": 0,
+  "source_real_defects": [],
+  "note": "GUI item log supplied. Official freeze requires unclassified_fatals=0 and real_defects_open=0 after overlay."
+}

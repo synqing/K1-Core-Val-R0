@@ -1,0 +1,7 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "list_schematic_component_pins", "tag": "5v-c104", "args": {"componentPrimitiveId": "9481fd66f4ad43bd"}},
+  {"tool": "list_schematic_component_pins", "tag": "5v-p1", "args": {"componentPrimitiveId": "ac95623bada64882"}},
+  {"tool": "list_schematic_component_pins", "tag": "gnd-c104", "args": {"componentPrimitiveId": "5f8fcf5ddb97c6d6"}},
+  {"tool": "list_schematic_component_pins", "tag": "gnd-rbias", "args": {"componentPrimitiveId": "5f8a7c3187159db5"}}
+]

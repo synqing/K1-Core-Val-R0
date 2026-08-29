@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T13b-tune-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Designate RUSB_S3_DP_TUNE and RUSB_S3_DM_TUNE 22 ohm. No wire.",
+  "observed_delta": "700 percent view of the two new 22 ohm resistors. Both designators RUSB_S3_DP_TUNE and RUSB_S3_DM_TUNE are on the bodies. Lands still 4000,4280 and 4000,4340. Existing USB_DP_S3 / USB_DM_S3 stubs remain unjoined. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T13b-tune-designate-block.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "DP TUNE designated",
+      "result": "OK",
+      "detail": "f5380a109ca65eb9 designator RUSB_S3_DP_TUNE name 22Ω at 4000,4280."
+    },
+    {
+      "name": "DM TUNE designated",
+      "result": "OK",
+      "detail": "e105d8e42924191c designator RUSB_S3_DM_TUNE name 22Ω at 4000,4340."
+    },
+    {
+      "name": "same lands",
+      "result": "OK",
+      "detail": "Coordinates unchanged from T13a place."
+    },
+    {
+      "name": "R73 R74 unchanged",
+      "result": "OK",
+      "detail": "Wires still 806. R73/R74 not modified this stage."
+    },
+    {
+      "name": "hub 41c8e652",
+      "result": "OK",
+      "detail": "currentProject.uuid 41c8e652. Hash 3059661:2d25c396."
+    }
+  ]
+}

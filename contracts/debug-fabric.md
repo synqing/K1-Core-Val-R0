@@ -104,10 +104,15 @@ Neither processor may be strandable by a network, firmware, mux or bridge failur
   proxied through ESP32_S3.** Baseline is a standard 10-pin 1.27 mm Cortex header unless
   mechanics later argue otherwise. Trace/SWO may be reserved; a full TPIU connector is not
   escalated to without a proven need.
-- **ESP32_S3:** native USB Serial/JTAG for console, flashing and debug, **plus** retained
-  physical access to UART0 TX/RX, GPIO0/BOOT, CHIP_PU/EN, 3V3 and GND. Espressif recommends
-  keeping UART download access because USB recovery can become unavailable depending on
-  application configuration. No CP2102, CH340 or FTDI part is added for ESP32_S3 access.
+- **ESP32_S3:** native USB Serial/JTAG for console, flashing and debug **via USB2422 DN2**,
+  reachable only when the hub and host are up, **plus** retained physical access to UART0
+  TX/RX, GPIO0/BOOT, CHIP_PU/EN, 3V3 and GND on `J6-ESP` as **mandatory**. Espressif
+  recommends keeping UART download access because USB recovery can become unavailable
+  depending on application configuration. A dead or misconfigured hub must not brick S3;
+  UART on `J6-ESP` is the path that still works. No dedicated S3 USB-C receptacle remains.
+  No CP2102, CH340 or FTDI part is added for ESP32_S3 access.
+- **RT1062 USB-HID / serial downloader through USB2422** is an engineering inference, not
+  the brick path. SWD and boot pads stay reachable without the hub.
 
 No MAX3232 or equivalent. Both domains are 3.3 V logic.
 

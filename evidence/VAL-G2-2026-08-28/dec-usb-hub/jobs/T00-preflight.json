@@ -1,0 +1,12 @@
+[
+  {
+    "tool": "search_library_devices",
+    "tag": "ind-gt-usb",
+    "args": { "query": "GT-USB-7005A-IND", "itemsPerPage": 10 }
+  },
+  {
+    "tool": "search_library_devices",
+    "tag": "ind-gt-usb-mpn",
+    "args": { "query": "GT-USB-7005A", "itemsPerPage": 10 }
+  }
+]

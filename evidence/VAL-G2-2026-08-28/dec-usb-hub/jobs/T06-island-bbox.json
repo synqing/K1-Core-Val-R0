@@ -1,0 +1,4 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "get_schematic_primitives_bbox", "tag": "island", "args": {"x": 100, "y": 650, "width": 900, "height": 550, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

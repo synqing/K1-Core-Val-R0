@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-hash-reconcile-2-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "Reconcile the PCB source hash after the pre-write snapshot activate re-serialised the page; no electrical or 3D write.",
+  "observed_delta": "Hash length unchanged at 653038. Live USB-C remains U1 GT-USB-7005A. USB1 Hirose remains absent.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/usb1-3d-reconcile-identity-2026-08-30b.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "identity",
+      "result": "OK",
+      "detail": "U1 remains C5250872 / GT-USB-7005A. USB1 is absent."
+    },
+    {
+      "name": "hash restamp",
+      "result": "OK",
+      "detail": "Live dump 653038:5011a01c replaces gate 653038:6cdb9687."
+    },
+    {
+      "name": "no new write",
+      "result": "OK",
+      "detail": "Snapshot capture only."
+    },
+    {
+      "name": "snapshot ready",
+      "result": "OK",
+      "detail": "Pre-write snapshot file now matches the restamped hash."
+    }
+  ]
+}

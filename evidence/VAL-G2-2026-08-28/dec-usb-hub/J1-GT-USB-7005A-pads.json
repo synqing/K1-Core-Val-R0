@@ -1,0 +1,66 @@
+{
+  "mpn": "GT-USB-7005A",
+  "lcsc": "C5250872",
+  "authority": "datasheets/D5g-GSwitch-GT-USB-7005A-manufacturer-drawing.pdf",
+  "drawing_sha256": "abe0fb3ee8c705b2c394e6f642c5268542377784c97e64785af050207d9223a0",
+  "step": "datasheets/_extract/GT-USB-7005A.stp",
+  "step_sha256": "3e8f2300c222477a26adf1221f91e5e01220b0216d33b7826a362ff13ea3b8d5",
+  "easyeda_cache": "not_used",
+  "frame": {
+    "unit": "mm",
+    "origin": "X=0 connector centreline; Y=0 A-row pad centres; +Y into the board (away from the mating face); cutout at negative Y",
+    "layout_tolerance_mm": 0.05,
+    "pcb_top_in_step_y_mm": 0.4,
+    "insertion_axis": "horizontal, into the board from the cutout, 0.40 mm below PCB top (CH)"
+  },
+  "thickness_on_drawing": "SILENT",
+  "bind": "GEOMETRIC_SECTION",
+  "sink_below_pcb_top_mm": 1.88,
+  "on_160_bottom_protrusion_mm": 0.28,
+  "th_reach_below_pcb_top_mm": 1.1,
+  "pads": [
+    {"id": "A1",  "class": "SMD", "name": "GND",   "net": "GND",       "x": -2.75, "y": 0.0,   "shape": "0.35x0.92", "xy": "CONFIRMED_LABEL", "notes": "A-row 0.50 pitch / 5.50 span / 0.35 width / 0.92 length"},
+    {"id": "A2",  "class": "SMD", "name": "TX1+",  "net": "NC",        "x": -2.25, "y": 0.0,   "shape": "0.35x0.92", "xy": "CONFIRMED_LABEL"},
+    {"id": "A3",  "class": "SMD", "name": "TX1-",  "net": "NC",        "x": -1.75, "y": 0.0,   "shape": "0.35x0.92", "xy": "CONFIRMED_LABEL"},
+    {"id": "A4",  "class": "SMD", "name": "VBUS",  "net": "5V_USB",    "x": -1.25, "y": 0.0,   "shape": "0.35x0.92", "xy": "CONFIRMED_LABEL"},
+    {"id": "A5",  "class": "SMD", "name": "CC1",   "net": "USB_CC1",   "x": -0.75, "y": 0.0,   "shape": "0.35x0.92", "xy": "CONFIRMED_LABEL"},
+    {"id": "A6",  "class": "SMD", "name": "D+",    "net": "USB_DP_J1", "x": -0.25, "y": 0.0,   "shape": "0.35x0.92", "xy": "CONFIRMED_LABEL"},
+    {"id": "A7",  "class": "SMD", "name": "D-",    "net": "USB_DN_J1", "x":  0.25, "y": 0.0,   "shape": "0.35x0.92", "xy": "CONFIRMED_LABEL"},
+    {"id": "A8",  "class": "SMD", "name": "SBU1",  "net": "NC",        "x":  0.75, "y": 0.0,   "shape": "0.35x0.92", "xy": "CONFIRMED_LABEL"},
+    {"id": "A9",  "class": "SMD", "name": "VBUS",  "net": "5V_USB",    "x":  1.25, "y": 0.0,   "shape": "0.35x0.92", "xy": "CONFIRMED_LABEL"},
+    {"id": "A10", "class": "SMD", "name": "RX2-",  "net": "NC",        "x":  1.75, "y": 0.0,   "shape": "0.35x0.92", "xy": "CONFIRMED_LABEL"},
+    {"id": "A11", "class": "SMD", "name": "RX2+",  "net": "NC",        "x":  2.25, "y": 0.0,   "shape": "0.35x0.92", "xy": "CONFIRMED_LABEL"},
+    {"id": "A12", "class": "SMD", "name": "GND",   "net": "GND",       "x":  2.75, "y": 0.0,   "shape": "0.35x0.92", "xy": "CONFIRMED_LABEL"},
+
+    {"id": "B12", "class": "TH", "name": "GND",   "net": "GND",       "x": -3.12, "y": -1.80, "shape": "D0.40", "xy": "CONFIRMED_LABEL_6.24", "row": "upper_toward_A", "notes": "pair span 6.24; 2-0.40 may mark B12/B1 as 0.40 slots"},
+    {"id": "B9",  "class": "TH", "name": "VBUS",  "net": "5V_USB",    "x": -1.30, "y": -1.80, "shape": "D0.40", "xy": "STEP_PIN_CENTRE", "row": "upper_toward_A", "notes": "2.60 mm pair span not OCR'd; STEP rear pin X ±1.300"},
+    {"id": "B7",  "class": "TH", "name": "D-",    "net": "USB_DN_J1", "x": -0.65, "y": -1.80, "shape": "D0.40", "xy": "CONFIRMED_LABEL_1.30", "row": "upper_toward_A"},
+    {"id": "B6",  "class": "TH", "name": "D+",    "net": "USB_DP_J1", "x":  0.65, "y": -1.80, "shape": "D0.40", "xy": "CONFIRMED_LABEL_1.30", "row": "upper_toward_A"},
+    {"id": "B4",  "class": "TH", "name": "VBUS",  "net": "5V_USB",    "x":  1.30, "y": -1.80, "shape": "D0.40", "xy": "STEP_PIN_CENTRE", "row": "upper_toward_A"},
+    {"id": "B1",  "class": "TH", "name": "GND",   "net": "GND",       "x":  3.12, "y": -1.80, "shape": "D0.40", "xy": "CONFIRMED_LABEL_6.24", "row": "upper_toward_A"},
+
+    {"id": "B11", "class": "TH", "name": "RX1+",  "net": "NC",        "x": -2.50, "y": -2.70, "shape": "D0.40", "xy": "CONFIRMED_LABEL_5.00", "row": "lower_toward_mouth"},
+    {"id": "B10", "class": "TH", "name": "RX1-",  "net": "NC",        "x": -1.70, "y": -2.70, "shape": "D0.40", "xy": "CONFIRMED_LABEL_3.40", "row": "lower_toward_mouth"},
+    {"id": "B8",  "class": "TH", "name": "SBU2",  "net": "NC",        "x": -0.85, "y": -2.70, "shape": "D0.40", "xy": "CONFIRMED_LABEL_1.70", "row": "lower_toward_mouth"},
+    {"id": "B5",  "class": "TH", "name": "CC2",   "net": "USB_CC2",   "x":  0.85, "y": -2.70, "shape": "D0.40", "xy": "CONFIRMED_LABEL_1.70", "row": "lower_toward_mouth"},
+    {"id": "B3",  "class": "TH", "name": "TX2-",  "net": "NC",        "x":  1.70, "y": -2.70, "shape": "D0.40", "xy": "CONFIRMED_LABEL_3.40", "row": "lower_toward_mouth"},
+    {"id": "B2",  "class": "TH", "name": "TX2+",  "net": "NC",        "x":  2.50, "y": -2.70, "shape": "D0.40", "xy": "CONFIRMED_LABEL_5.00", "row": "lower_toward_mouth"},
+
+    {"id": "SHELL.TAB1", "class": "TH_SLOT", "name": "shield", "net": "GND", "x": -6.075, "y": -1.95, "shape": "1.50x1.00", "xy": "CONFIRMED_LABEL", "notes": "rear pair; 12.15 span; 1.95 from A-row"},
+    {"id": "SHELL.TAB2", "class": "TH_SLOT", "name": "shield", "net": "GND", "x":  6.075, "y": -1.95, "shape": "1.50x1.00", "xy": "CONFIRMED_LABEL"},
+    {"id": "SHELL.TAB3", "class": "TH_SLOT", "name": "shield", "net": "GND", "x": -6.075, "y": -5.80, "shape": "1.00x2.00", "xy": "CONFIRMED_LABEL", "notes": "front pair; 5.80 from A-row; 4-1.50 / 2-1.00 / 2.00"},
+    {"id": "SHELL.TAB4", "class": "TH_SLOT", "name": "shield", "net": "GND", "x":  6.075, "y": -5.80, "shape": "1.00x2.00", "xy": "CONFIRMED_LABEL"},
+
+    {"id": "LOC.1", "class": "NPTH", "name": "locating", "net": null, "x": -3.45, "y": -1.10, "diameter_mm": 0.75, "xy": "CONFIRMED_LABEL", "notes": "2-Ø0.75; span 6.90; 1.10 from A-row"},
+    {"id": "LOC.2", "class": "NPTH", "name": "locating", "net": null, "x":  3.45, "y": -1.10, "diameter_mm": 0.75, "xy": "CONFIRMED_LABEL"}
+  ],
+  "cutout": {
+    "xy": "CONFIRMED_LABEL",
+    "front_half_width_mm": 4.75,
+    "inner_half_width_mm": 3.12,
+    "depth_from_a_row_mm": 5.10,
+    "board_edge_y_mm": -5.10,
+    "fillet_mm": 0.30,
+    "feature": "9.50 / 6.24 / 5.10 stepped, R0.30"
+  }
+}

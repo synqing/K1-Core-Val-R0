@@ -1,0 +1,257 @@
+[
+ {
+  "tag": "r81",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "22c6a17a7dbbd174",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "22c6a17a7dbbd174-e3",
+     "x": 1420,
+     "y": 1200,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "22c6a17a7dbbd174-e7",
+     "x": 1380,
+     "y": 1200,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    }
+   ]
+  }
+ },
+ {
+  "tag": "r82",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "dac528b1bfdc76ab",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "dac528b1bfdc76ab-e3",
+     "x": 1500,
+     "y": 1200,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "dac528b1bfdc76ab-e7",
+     "x": 1460,
+     "y": 1200,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    }
+   ]
+  }
+ },
+ {
+  "tag": "r83",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "252b7a11c6b4da53",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "252b7a11c6b4da53-e3",
+     "x": 1580,
+     "y": 1200,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "252b7a11c6b4da53-e7",
+     "x": 1540,
+     "y": 1200,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    }
+   ]
+  }
+ },
+ {
+  "tag": "r84",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "6b258885a490d64b",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "6b258885a490d64b-e3",
+     "x": 1660,
+     "y": 1200,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "6b258885a490d64b-e7",
+     "x": 1620,
+     "y": 1200,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    }
+   ]
+  }
+ },
+ {
+  "tag": "c123",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e8e13777e6daf227",
+   "count": 2,
+   "pins": [
+    {
+     "primitiveId": "e8e13777e6daf227-e1",
+     "x": 1400,
+     "y": 1100,
+     "pinNumber": "1",
+     "pinName": "1",
+     "rotation": 180,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "e8e13777e6daf227-e7",
+     "x": 1440,
+     "y": 1100,
+     "pinNumber": "2",
+     "pinName": "2",
+     "rotation": 0,
+     "pinLength": 10,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Undefined",
+     "noConnected": false
+    }
+   ]
+  }
+ },
+ {
+  "tag": "u23",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "125f3f5842b2d308",
+   "count": 5,
+   "pins": [
+    {
+     "primitiveId": "125f3f5842b2d308-e3",
+     "x": 1500,
+     "y": 960,
+     "pinNumber": "2",
+     "pinName": "VEE",
+     "rotation": 270,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "125f3f5842b2d308-e7",
+     "x": 1500,
+     "y": 1040,
+     "pinNumber": "5",
+     "pinName": "VCC",
+     "rotation": 90,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "125f3f5842b2d308-e11",
+     "x": 1460,
+     "y": 990,
+     "pinNumber": "3",
+     "pinName": "IN+",
+     "rotation": 180,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "125f3f5842b2d308-e15",
+     "x": 1460,
+     "y": 1010,
+     "pinNumber": "4",
+     "pinName": "IN-",
+     "rotation": 180,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "IN",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "125f3f5842b2d308-e19",
+     "x": 1540,
+     "y": 1000,
+     "pinNumber": "1",
+     "pinName": "OUT",
+     "rotation": 0,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "OUT",
+     "noConnected": false
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "transaction_id": "usb1-3d-hash-reconcile-4-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "Reconcile PCB source hash after EasyEDA re-serialised the USB1 rebind save; no new electrical change.",
+  "observed_delta": "Rebuilt 3D still shows USB1 floating. Live transform is sizeZ=145.275, offY=-66.733, offZ=-80.315. Hash length unchanged at 658069 characters.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/usb1-3d-after-rebind-settled.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name": "identity", "result": "OK", "detail": "USB1 Hirose body remains in the rebuilt 3D frame."},
+    {"name": "hash restamp", "result": "OK", "detail": "Live dump 658069:f82340ea replaces 658069:da10a55e after host re-serialise."},
+    {"name": "no new write", "result": "OK", "detail": "This restamp does not change pads, nets or other designators."},
+    {"name": "collateral", "result": "OK", "detail": "USB2 remains seated in the same 3D frame."}
+  ]
+}

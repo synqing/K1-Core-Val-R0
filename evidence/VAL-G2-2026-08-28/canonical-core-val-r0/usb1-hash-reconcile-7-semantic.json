@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "transaction_id": "usb1-3d-hash-reconcile-7-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "source_hash": "658056:2c760d1e",
+  "saved": true,
+  "census": {
+    "characters": 658056,
+    "usb1_id": "19bbd06e9438ab5d",
+    "usb1_supplier": "C778726",
+    "usb1_mpn": "CX70M-24P1",
+    "usb1_model": "08b2bb7ecebd47fc8f45f08f001d782e",
+    "usb1_title": "USB_C_Hirose_CX_4800304000_seated",
+    "usb1_transform": "448.8179849815368,328.7394915521145,0,0,0,0,0,-66.733,-80.315",
+    "usb1_footprint": "0c8e199e56e60728",
+    "usb2_model": "0513051d44a0486b835661f1b78cdeb9",
+    "usb2_transform": "486.22,391.18524,0,0,0,0,-0.002,-66.733,-78.74",
+    "u6_model": "de5664fd2ea74aa082831cfa5b198edb",
+    "u6_transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+    "prior_gate_hash": "658056:a6a6409d",
+    "live_hash": "658056:2c760d1e",
+    "note": "Same character count as the rejected seated-STEP bind; host re-serialised after PCB activate and 3D preview. No new electrical write in this restamp."
+  }
+}

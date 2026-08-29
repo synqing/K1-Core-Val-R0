@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-hash-reconcile-3-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "Reconcile the PCB source hash after activate re-serialised the page. No electrical or 3D write. This is not a seating claim.",
+  "observed_delta": "Hash length unchanged at 653168 (now bd1bc38a). Live U1 remains C5250872 / GT-USB-7005A bound to 7e3f17b4e5b64384aaa03075cd65e3e3 with identity transform. Captain's tight stills show that model standing vertical with naked gold pads — seating is still wrong. This reconciliation only restamps the hash.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/captain-u1-3d-fail-03903.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "identity",
+      "result": "OK",
+      "detail": "U1 remains primitive 0f194aaf30bc2e32, C5250872 / GT-USB-7005A. USB1 is absent."
+    },
+    {
+      "name": "hash restamp",
+      "result": "OK",
+      "detail": "Live dump 653168:bd1bc38a replaces gate 653168:7cb93d19."
+    },
+    {
+      "name": "no new write",
+      "result": "OK",
+      "detail": "Quarantine and restamp only. Model UUID unchanged."
+    },
+    {
+      "name": "seating not claimed",
+      "result": "OK",
+      "detail": "Captain stills used as the current 3D picture: shell vertical, pads empty. Not a seat."
+    }
+  ]
+}

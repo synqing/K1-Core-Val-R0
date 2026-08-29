@@ -1,0 +1,10 @@
+[
+  {"tool": "get_current_context", "tag": "ctx", "args": {}},
+  {"tool": "get_schematic_primitive", "tag": "c120", "args": {"primitiveId": "004d113915448a0a", "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "get_schematic_primitive", "tag": "w5v", "args": {"primitiveId": "300afd189cf427cb", "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "get_schematic_primitive", "tag": "wgnd", "args": {"primitiveId": "68db234b5bdac163", "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "get_schematic_primitive", "tag": "f5v", "args": {"primitiveId": "a689ce4197fefb88", "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "get_schematic_primitive", "tag": "fgnd", "args": {"primitiveId": "6fe37ae7451faa5d", "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "get_schematic_primitive", "tag": "c2", "args": {"primitiveId": "e108", "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "get_schematic_primitive", "tag": "c1", "args": {"primitiveId": "e72", "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

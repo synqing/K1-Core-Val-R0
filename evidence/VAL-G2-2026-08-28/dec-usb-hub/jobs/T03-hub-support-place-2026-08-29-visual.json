@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T03-hub-support-place-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Place 24 MHz crystal Y3 plus C100-C107 and R77-R80,R87-R91 beside the USB2422 island. addIntoPcb false. No wires.",
+  "observed_delta": "40 percent island around USB2422 shows the hub IC, a crystal to its right, and two rows of two-terminal passives above it. No new wires. Hub project K1-Core-Val-R0-G2.1-HUB-CANDIDATE. Live product not in the URL.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T03-hub-support-place.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "crystal and support passives present near USB2422",
+      "result": "OK",
+      "detail": "Settled 40 percent frame shows USB2422 plus a crystal and two rows of R/C symbols immediately around it. Semantic IDs Y3/R77-R91/C100-C107 all exist."
+    },
+    {
+      "name": "not dropped into a prison box",
+      "result": "OK",
+      "detail": "Island sits in empty canvas west of the domain frames, not inside a titled prison box."
+    },
+    {
+      "name": "no new wires",
+      "result": "OK",
+      "detail": "Wire census remains 773. Pins on the new passives and hub IC have no attached wires in the screenshot."
+    },
+    {
+      "name": "hub project 41c8e652 not live",
+      "result": "OK",
+      "detail": "CDP URL id=41c8e6523576456582ea35958b3684ed. Live 64325d0e was not focused."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "modify_schematic_component", "tag": "designate", "args": {
+    "primitiveId": "ea47c20de228fa3a",
+    "designator": "J1-USB",
+    "name": "USB-C",
+    "manufacturer": "G-Switch",
+    "manufacturerId": "GT-USB-7005A",
+    "supplier": "LCSC",
+    "supplierId": "C5250872",
+    "addIntoPcb": false,
+    "saveAfter": true,
+    "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+  }},
+  {"tool": "get_schematic_primitive", "tag": "new-j1", "args": {"primitiveId": "ea47c20de228fa3a"}},
+  {"tool": "get_schematic_primitive", "tag": "old-j1", "args": {"primitiveId": "e339"}},
+  {"tool": "list_schematic_primitive_ids", "tag": "components", "args": {"family": "component"}},
+  {"tool": "list_schematic_primitive_ids", "tag": "wires", "args": {"family": "wire"}}
+]

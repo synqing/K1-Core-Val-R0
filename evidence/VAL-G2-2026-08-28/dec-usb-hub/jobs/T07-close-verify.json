@@ -1,0 +1,9 @@
+[
+  {"tool": "get_current_context", "tag": "ctx", "args": {}},
+  {"tool": "list_schematic_primitive_ids", "tag": "components", "args": {"family": "component"}},
+  {"tool": "list_schematic_primitive_ids", "tag": "wires", "args": {"family": "wire"}},
+  {"tool": "list_schematic_component_pins", "tag": "u20", "args": {"componentPrimitiveId": "92edd0bd8901c171"}},
+  {"tool": "list_schematic_component_pins", "tag": "r78", "args": {"componentPrimitiveId": "a60d36245cbf4e86"}},
+  {"tool": "list_schematic_component_pins", "tag": "r79", "args": {"componentPrimitiveId": "d7ed808dd32d71fa"}},
+  {"tool": "list_schematic_component_pins", "tag": "r80", "args": {"componentPrimitiveId": "f6a62bb1e7d23ff6"}}
+]

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "C1-pwr1-1uF-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2981540:982e7d63",
+  "post_source_hash": "2982211:a3f6ed20",
+  "saved": true,
+  "affected": [
+    {"ref": "C1-PWR1", "primitiveId": "e72", "before": "22uF", "after": "1uF", "xy": [115, 4420], "net": "5V_USB"},
+    {"ref": "C2-PWR1", "primitiveId": "e108", "name": "22uF", "note": "untouched"}
+  ],
+  "census": {
+    "components": 325,
+    "wires": 799,
+    "components_delta": 0,
+    "wires_delta": 0
+  },
+  "observed": "C1-PWR1 name retargeted 22uF to 1uF at 115,4420. Not moved. C2 still 22uF. Still C0805 land. Hub 41c8e652."
+}

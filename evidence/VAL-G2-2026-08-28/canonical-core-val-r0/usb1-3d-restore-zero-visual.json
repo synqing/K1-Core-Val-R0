@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "transaction_id": "usb1-3d-restore-zero-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "USB1 only: restore the rejected -400 mil offZ fiction to identity 0,0,0,0,0,0,0,0,0 on the instance and the personal CX70M device so the saved property is not a 10 mm lie. Do not retouch U6, USB2, caps or TVS.",
+  "observed_delta": "USB1 instance and personal-device 3D Model Transform are now 0, 0, 0, 0, 0, 0, 0, 0, 0. Settled 3D PCB1 still shows the Hirose body on USB1; USB2 remains seated. The mesh pose did not jump, which matches the already-proved fact that this personal STEP ignores instance offsets.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/usb1-3d-after-restore-zero.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name": "USB1 identity C778726 / CX70M-24P1 unchanged", "result": "OK", "detail": "USB1 remains C778726 / CX70M-24P1 with Hirose model 71aa35b92da84360b5d9e21f25c486f0."},
+    {"name": "USB1 transform offZ is no longer -400", "result": "OK", "detail": "Live and saved transform is identity 0, 0, 0, 0, 0, 0, 0, 0, 0. Personal device 7e7eac39cf44433b9710c4ae4afab424 matches."},
+    {"name": "USB2 and U6 transforms unchanged", "result": "OK", "detail": "USB2 still 486.22,391.18524,0,0,0,0,-0.002,-66.733,-78.74; U6 still 0, 0, 0, 0, 0, 0, 0, 0, 0."},
+    {"name": "no other designators written", "result": "OK", "detail": "Source hash changed only by the USB1 transform restamp (658066:cbabaf90 to 658016:529bdf1f)."}
+  ]
+}

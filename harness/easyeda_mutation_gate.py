@@ -819,6 +819,65 @@ def _abort_unchanged_unlocked(
     return state
 
 
+def rebind_state(
+    state_path: Path,
+    ledger_path: Path,
+    *,
+    project_uuid: str,
+    document_uuid: str,
+    snapshot_path: Path,
+    reason: str,
+) -> dict[str, Any]:
+    """Move a READY lane to a newly activated document using a verified snapshot.
+
+    This is deliberately narrower than a normal mutation: same project only, no active
+    transaction, and the new source snapshot must carry the new document identity.
+    """
+    with _state_lock(state_path):
+        state = _load_state(state_path)
+        _require_identity(state, project_uuid, state["document_uuid"], "state")
+        if state["state"] != "READY":
+            raise GateError(f"rebind requires READY, found {state['state']}")
+        document_uuid = _require_nonempty(document_uuid, "document_uuid")
+        if document_uuid == state["document_uuid"]:
+            raise GateError("rebind requires a different document_uuid")
+        reason = _require_nonempty(reason, "rebind reason")
+        snapshot = _load_json(snapshot_path, "rebind snapshot")
+        if snapshot.get("schema_version") != SCHEMA_VERSION:
+            raise GateError(f"rebind snapshot schema_version must be {SCHEMA_VERSION}")
+        _require_identity(snapshot, project_uuid, document_uuid, "rebind snapshot")
+        source_hash = _require_nonempty(snapshot.get("source_hash"), "rebind source_hash")
+        _require_nonempty(snapshot.get("source"), "rebind source")
+        old_document_uuid = state["document_uuid"]
+        old_source_hash = state.get("current_source_hash")
+        state.update(
+            {
+                "document_uuid": document_uuid,
+                "current_source_hash": source_hash,
+                "active_transaction": None,
+                "blocked_transaction_id": None,
+                "blocking_reason": None,
+                "updated_at": _now(),
+            }
+        )
+        _atomic_write_json(state_path, state)
+        _append_event(
+            ledger_path,
+            {
+                "event": "STATE_REBOUND",
+                "project_uuid": project_uuid,
+                "document_uuid": document_uuid,
+                "previous_document_uuid": old_document_uuid,
+                "previous_source_hash": old_source_hash,
+                "source_hash": source_hash,
+                "snapshot_path": str(snapshot_path),
+                "snapshot_sha256": _sha256(snapshot_path),
+                "reason": reason,
+            },
+        )
+        return state
+
+
 def validate_repository_state(state_path: Path, ledger_path: Path) -> dict[str, Any]:
     """Validate current state, evidence references and the terminal ledger event."""
     with _state_lock(state_path):
@@ -860,14 +919,46 @@ def validate_repository_state(state_path: Path, ledger_path: Path) -> dict[str, 
         )
         replay_hash: str | None = None
         replay_transaction: str | None = None
+        replay_project = replay_records[0].get("project_uuid")
+        replay_document = replay_records[0].get("document_uuid")
         for offset, record in enumerate(replay_records[1:], boundary_indices[-1] + 2):
             event = record.get("event")
-            if event == "STATE_RECONCILED":
+            if event == "STATE_REBOUND":
+                if replay_state != "READY":
+                    raise GateError(f"ledger line {offset} rebinds from {replay_state}")
+                if record.get("project_uuid") != replay_project:
+                    raise GateError(f"ledger line {offset} changes project identity")
+                if record.get("previous_document_uuid") != replay_document:
+                    raise GateError(f"ledger line {offset} changes prior document identity")
+                replay_document = _require_nonempty(record.get("document_uuid"), "ledger document_uuid")
+                replay_hash = _require_nonempty(record.get("source_hash"), "ledger source_hash")
+            elif event == "STATE_RECONCILED":
                 if replay_state != "BLOCKED_RECONCILIATION":
                     raise GateError(f"ledger line {offset} reconciles from {replay_state}")
                 replay_hash = _require_nonempty(record.get("source_hash"), "ledger source_hash")
+                replay_project = record.get("project_uuid")
+                replay_document = record.get("document_uuid")
                 replay_state = "READY"
                 replay_transaction = None
+            elif event == "STATE_HASH_REFRESH":
+                # Host restamped DOCHEAD without an electrical write (library-editor
+                # session). Same project/document; hash must continue from the prior
+                # READY hash. Not a mutation and not a new trust boundary.
+                if replay_state != "READY":
+                    raise GateError(f"ledger line {offset} hash-refreshes from {replay_state}")
+                if record.get("project_uuid") != replay_project:
+                    raise GateError(f"ledger line {offset} changes project identity")
+                if record.get("document_uuid") != replay_document:
+                    raise GateError(f"ledger line {offset} changes document identity")
+                previous = _require_nonempty(
+                    record.get("previous_source_hash"), "ledger previous_source_hash"
+                )
+                if replay_hash and previous != replay_hash:
+                    raise GateError(
+                        f"ledger line {offset} hash-refresh breaks the source-hash chain: "
+                        f"expected {replay_hash}, found {previous}"
+                    )
+                replay_hash = _require_nonempty(record.get("source_hash"), "ledger source_hash")
             elif event == "MUTATION_BEGAN":
                 if replay_state not in {"READY", "REJECTED"}:
                     raise GateError(f"ledger line {offset} begins from {replay_state}")
@@ -929,6 +1020,8 @@ def validate_repository_state(state_path: Path, ledger_path: Path) -> dict[str, 
                 f"replayed source hash {replay_hash!r} conflicts with state file "
                 f"{state.get('current_source_hash')!r}"
             )
+        if replay_project != state.get("project_uuid") or replay_document != state.get("document_uuid"):
+            raise GateError("replayed ledger document identity conflicts with state file")
 
         expected_terminal_events = {
             "FROZEN_INCIDENT": {"STATE_FROZEN"},
@@ -936,7 +1029,13 @@ def validate_repository_state(state_path: Path, ledger_path: Path) -> dict[str, 
                 "STATE_BLOCKED_FOR_RECONCILIATION",
                 "STATE_QUARANTINED",
             },
-            "READY": {"STATE_RECONCILED", "MUTATION_INSPECTED", "MUTATION_ABORTED_NO_CHANGE"},
+            "READY": {
+                "STATE_RECONCILED",
+                "STATE_REBOUND",
+                "STATE_HASH_REFRESH",
+                "MUTATION_INSPECTED",
+                "MUTATION_ABORTED_NO_CHANGE",
+            },
             "IN_FLIGHT": {"MUTATION_BEGAN"},
             "AWAITING_EVIDENCE": {"MUTATION_RECORDED"},
             "REJECTED": {"MUTATION_INSPECTED"},
@@ -990,6 +1089,12 @@ def _parse_args() -> argparse.Namespace:
 
     quarantine = subparsers.add_parser("quarantine")
     quarantine.add_argument("--reason", required=True)
+
+    rebind = subparsers.add_parser("rebind")
+    rebind.add_argument("--project-uuid", required=True)
+    rebind.add_argument("--document-uuid", required=True)
+    rebind.add_argument("--snapshot", type=Path, required=True)
+    rebind.add_argument("--reason", required=True)
 
     freeze = subparsers.add_parser("freeze-incident")
     freeze.add_argument("--reason", required=True)
@@ -1071,6 +1176,15 @@ def main() -> int:
             )
         elif args.command == "quarantine":
             result = quarantine_state(args.state, args.ledger, args.reason)
+        elif args.command == "rebind":
+            result = rebind_state(
+                args.state,
+                args.ledger,
+                project_uuid=args.project_uuid,
+                document_uuid=args.document_uuid,
+                snapshot_path=args.snapshot,
+                reason=args.reason,
+            )
         elif args.command == "freeze-incident":
             result = freeze_incident(args.state, args.ledger, args.reason)
         elif args.command == "reconcile":

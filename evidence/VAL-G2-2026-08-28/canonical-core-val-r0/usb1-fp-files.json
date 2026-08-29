@@ -1,0 +1,43 @@
+{
+  "usb1_project": {
+    "uuid": "0c8e199e56e60728",
+    "lib": "64325d0e55e0435abd018defb0089a9b",
+    "fp": {
+      "libraryType": "4",
+      "uuid": "0c8e199e56e60728",
+      "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+      "name": "USB-TYPE-C-SMD_CX70M-24P1",
+      "classification": {
+        "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+        "libraryType": "4"
+      },
+      "description": ";SMD"
+    },
+    "fileType": "undefined",
+    "fileKeys": null
+  },
+  "usb1_personal": {
+    "uuid": "0c8e199e56e60728",
+    "lib": "27700277ef7a49e48a0293bece6b2993",
+    "fpErr": "[object Object]",
+    "fileType": "undefined",
+    "fileKeys": null
+  },
+  "usb2_project": {
+    "uuid": "59bef7e87cff4cd580561703b62d8c19_001a257400b89df6",
+    "lib": "64325d0e55e0435abd018defb0089a9b",
+    "fp": {
+      "libraryType": "4",
+      "uuid": "59bef7e87cff4cd580561703b62d8c19_001a257400b89df6",
+      "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+      "name": "USB-C-SMD_HYCW78-USBC24-140B",
+      "classification": {
+        "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+        "libraryType": "4"
+      },
+      "description": ""
+    },
+    "fileType": "undefined",
+    "fileKeys": null
+  }
+}

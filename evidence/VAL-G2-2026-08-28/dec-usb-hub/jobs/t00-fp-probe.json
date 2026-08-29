@@ -1,0 +1,47 @@
+{
+  "footprintUuid": "db6aa4d157814027bb31dae8aae789aa",
+  "created": true,
+  "opened": "db6aa4d157814027bb31dae8aae789aa@27700277ef7a49e48a0293bece6b2993",
+  "idsBefore": [],
+  "probePad": true,
+  "got": [
+    {
+      "id": "ce69242ea4ebbb6c",
+      "num": "PROBE",
+      "x": -2.75,
+      "y": 0,
+      "pad": [
+        "RECT",
+        0.4,
+        1,
+        0
+      ],
+      "keys": [
+        "async",
+        "primitiveType",
+        "layer",
+        "padNumber",
+        "x",
+        "y",
+        "rotation",
+        "pad",
+        "net",
+        "hole",
+        "holeOffsetX",
+        "holeOffsetY",
+        "holeRotation",
+        "metallization",
+        "padType",
+        "specialPad",
+        "solderMaskAndPasteMaskExpansion",
+        "heatWelding",
+        "primitiveLock",
+        "primitiveId"
+      ]
+    }
+  ],
+  "origin": {
+    "offsetX": 0,
+    "offsetY": 0
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T04-hub-support-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2531767:81e076f3",
+  "post_source_hash": "2526144:aa39dbb7",
+  "saved": true,
+  "affected": [
+    {"primitiveId": "92edd0bd8901c171", "designator": "U20-USB"},
+    {"primitiveId": "736247481f2dd650", "designator": "Y3-USB"},
+    {"primitiveId": "6c4b8e5918c0e1f0", "designator": "R77-USB"},
+    {"primitiveId": "a60d36245cbf4e86", "designator": "R78-USB"},
+    {"primitiveId": "d7ed808dd32d71fa", "designator": "R79-USB"},
+    {"primitiveId": "f6a62bb1e7d23ff6", "designator": "R80-USB"},
+    {"primitiveId": "109c559e17398f80", "designator": "R87-USB"},
+    {"primitiveId": "fc944770c8a600b3", "designator": "R88-USB"},
+    {"primitiveId": "859dc25a82d72494", "designator": "R89-USB"},
+    {"primitiveId": "0a971b6f27ac9f41", "designator": "R90-USB"},
+    {"primitiveId": "d04486ae5c7116a8", "designator": "R91-USB"},
+    {"primitiveId": "c483828709b8b49b", "designator": "C100-USB"},
+    {"primitiveId": "d51d670fb0acdc36", "designator": "C101-USB"},
+    {"primitiveId": "6718c810f2448d6c", "designator": "C102-USB"},
+    {"primitiveId": "d7f20978650e2f1d", "designator": "C103-USB"},
+    {"primitiveId": "930c9f07728120be", "designator": "C104-USB"},
+    {"primitiveId": "3fddf470f1772050", "designator": "C105-USB"},
+    {"primitiveId": "d4fba08559bea7f9", "designator": "C106-USB"},
+    {"primitiveId": "c70e548c3d1f4881", "designator": "C107-USB"}
+  ],
+  "census": {
+    "components": 275,
+    "wires": 773,
+    "components_delta": 0,
+    "wires_delta": 0
+  },
+  "observed": "Designated USB2422 as U20-USB, crystal as Y3-USB, and T03 passives as R77-USB through R91-USB and C100-USB through C107-USB. Positions unchanged. addIntoPcb false. Wires still 773. Hub 41c8e652. Live not written."
+}

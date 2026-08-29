@@ -3,7 +3,7 @@ project:
   purpose: hardware_validation_platform
   production_board: false
   gate: VAL-G2.1-IN-PROGRESS
-  updated: 2026-08-28
+  updated: 2026-08-30
 
 eda:
   authority: easyeda_pro
@@ -107,29 +107,48 @@ ownership:
   rt_recovery_request: ESP32_S3
 
 audio:
+  authority: D-051
   adc_evaluation_part: TLV320ADC6120
-  adc_custom_pcb: HOLD_UNTIL_L0_L1_L2
+  input_families: [AUX_STEREO_ANALOG, IM69D130_PDM]
+  aux_connector: SWITCHED_3P5MM_TRS
+  aux_implementation: MAINBOARD_U11_AUD
+  simultaneous_adc_capture: REQUIRED
+  audio_bus: TDM_48K_4X32
+  pdm_route_population: XOR
+  adc_custom_pcb: DEMOTED_NOT_VAL_R0_AUX_AUTHORITY
   rt1062_native_pdm_decimator: false
   audio_clock_external_override: REQUIRED
+  live_sheet_aux: ABSENT
 
 bridge:
   name: K1BR
   transport_class: COMMAND_STATE_TELEMETRY
 
 usb:
-  authority: D-044
-  receptacle_count: 2
+  authority: D-049
+  status: PROVISIONAL
+  receptacle_count: 1
+  receptacles: [J1-PWR1]
+  second_receptacle: FORBIDDEN
   third_receptacle: FORBIDDEN
+  hub: USB2422
   primary_power_inlet: J1-PWR1
-  rt_direct_usb_connector: J1-PWR1
-  rt_direct_usb_owner: RT1062
-  rt_direct_usb_controller: USB_OTG1
   j1_type_c_role: SINK
-  service_usb_connector: J7-ESP
-  j7_back_power: FORBIDDEN
-  usb_audio_termination: J1_RT1062_DIRECT
+  j1_receptacle: GOVERNED_BY_D-050
+  j1_selected_mpn: GSWITCH_GT-USB-7005A
+  j1_selected_lcsc: C5250872
+  service_usb_owner: ESP32_S3
+  service_usb_path: USB2422_DN2
+  service_usb_connector: J1-PWR1
+  rt_usb_owner: RT1062
+  rt_usb_path: USB2422_DN1
+  rt_usb_controller: USB_OTG1
+  vbus_detect_source: 5V_USB
+  downstream_vbus_power_islands: FORBIDDEN
+  usb_audio_termination: USB2422_DN1_RT1062
   k1br_raw_pcm: FORBIDDEN
   differential_impedance_ohm: 90
+  superspeed_routing: FORBIDDEN
 
 floorplan:
   g3_doctrine: architecture/G3-FLOORPLAN-DOCTRINE.md

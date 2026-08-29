@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-seat-restamp-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "source_hash": "653166:2951b526",
+  "census": {
+    "characters": 653166,
+    "prior_gate_hash": "653174:5bdab6c1",
+    "u1_model": "7e3f17b4e5b64384aaa03075cd65e3e3",
+    "u1_title": "J1_GT-USB-7005A",
+    "u1_transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+    "note": "Live source re-serialised after the rejected yflip bind. Same project and PCB. No write in this restamp. Seating is not claimed."
+  }
+}

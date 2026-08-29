@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "usb2-3d-y-align-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "pre_source_hash": "651500:523a1b40",
+  "post_source_hash": "657719:5df3e713",
+  "saved": true,
+  "affected": ["USB2", "3D Model Transform"],
+  "census": {
+    "component_primitive_id": "001a257400b89df6",
+    "designator": "USB2",
+    "component_position": {"x": 315, "y": 250, "angle": 0},
+    "model_uuid": "0513051d44a0486b835661f1b78cdeb9",
+    "model_transform": "486.22,391.18524,0,0,0,0,-0.002,-66.733,-78.74",
+    "footprint_pad_count": 28,
+    "identity_preserved": true,
+    "position_rotation_preserved": true
+  }
+}

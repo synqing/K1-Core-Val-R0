@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T09-xor-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "3026702:d8eed16a",
+  "post_source_hash": "3025567:348d2585",
+  "saved": true,
+  "affected": [
+    {"primitiveId": "b027c9ae9b996415", "designator": "R94-USB", "name": "0Ω FIT", "xy": [2100, 800]},
+    {"primitiveId": "24561118da702cc5", "designator": "R95-USB", "name": "0Ω DNP", "xy": [2100, 1000]},
+    {"primitiveId": "9f86d15a53851abb", "designator": "J12-USB", "name": "HDR-1x4", "xy": [2300, 900]}
+  ],
+  "census": {
+    "components": 330,
+    "wires": 801,
+    "components_delta": 0,
+    "wires_delta": 0
+  },
+  "observed": "Designated R94-USB 0Ω FIT, R95-USB 0Ω DNP, J12-USB HDR-1x4. Same lands. addIntoPcb false. No wires. Hub 41c8e652."
+}

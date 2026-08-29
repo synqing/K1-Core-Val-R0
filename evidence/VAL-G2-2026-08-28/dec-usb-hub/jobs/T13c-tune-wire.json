@@ -1,0 +1,8 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "add_schematic_wire", "tag": "r94-far", "args": {"line": [2120, 800, 2150, 800], "net": "USB_DP_DN2", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "tune-dp-west", "args": {"line": [3980, 4280, 3950, 4280], "net": "USB_DP_DN2", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "tune-dp-east", "args": {"line": [4020, 4280, 4050, 4280], "net": "USB_DP_S3", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "tune-dm-west", "args": {"line": [3980, 4340, 3950, 4340], "net": "USB_DM_DN2", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "tune-dm-east", "args": {"line": [4020, 4340, 4050, 4340], "net": "USB_DM_S3", "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

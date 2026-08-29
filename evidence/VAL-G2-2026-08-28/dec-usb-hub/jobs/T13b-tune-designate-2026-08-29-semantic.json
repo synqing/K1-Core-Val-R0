@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T13b-tune-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "3060489:65cc5632",
+  "post_source_hash": "3059661:2d25c396",
+  "saved": true,
+  "affected": [
+    {"id": "f5380a109ca65eb9", "designator": "RUSB_S3_DP_TUNE", "name": "22Ω", "xy": [4000, 4280]},
+    {"id": "e105d8e42924191c", "designator": "RUSB_S3_DM_TUNE", "name": "22Ω", "xy": [4000, 4340]}
+  ],
+  "census": {
+    "components": 333,
+    "wires": 806,
+    "components_delta": 0,
+    "wires_delta": 0
+  },
+  "observed": "Same lands. f5380a is RUSB_S3_DP_TUNE 22 ohm. e105d8 is RUSB_S3_DM_TUNE 22 ohm. No wire. Hub 41c8e652."
+}

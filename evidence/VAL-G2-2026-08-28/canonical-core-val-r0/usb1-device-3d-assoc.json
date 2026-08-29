@@ -1,0 +1,77 @@
+{
+  "steps": [
+    {
+      "label": "modify-component-project",
+      "err": "[object Object]",
+      "uuid": "cdbd0653120da16e",
+      "lib": "64325d0e55e0435abd018defb0089a9b"
+    },
+    {
+      "label": "modify-component-personal",
+      "err": "TypeError: Cannot read properties of null (reading 'attributes')",
+      "uuid": "cdbd0653120da16e",
+      "lib": "27700277ef7a49e48a0293bece6b2993"
+    },
+    {
+      "label": "modify-fp-as-device-personal",
+      "err": "TypeError: Cannot read properties of null (reading 'attributes')",
+      "uuid": "0c8e199e56e60728",
+      "lib": "27700277ef7a49e48a0293bece6b2993"
+    },
+    {
+      "label": "clicked-field",
+      "value": "<3D Model>",
+      "title": "<3D Model>"
+    },
+    {
+      "label": "clicked-associated-device"
+    }
+  ],
+  "before": {
+    "usb1": {
+      "sid": "C778726",
+      "mid": "CX70M-24P1",
+      "component": {
+        "libraryUuid": "64325d0e55e0435abd018defb0089a9b",
+        "uuid": "cdbd0653120da16e",
+        "name": "CX70M-24P1"
+      },
+      "model": "08b2bb7ecebd47fc8f45f08f001d782e",
+      "xf": "448.8179849815368,328.7394915521145,0,0,0,0,0,-66.733,-80.315"
+    },
+    "usb2": {
+      "model": "0513051d44a0486b835661f1b78cdeb9",
+      "xf": "486.22,391.18524,0,0,0,0,-0.002,-66.733,-78.74"
+    },
+    "u6": {
+      "model": "de5664fd2ea74aa082831cfa5b198edb",
+      "xf": "0, 0, 0, 0, 0, 0, 0, 0, 0"
+    }
+  },
+  "dialogs": [
+    "3D Model Manager.main-container_JDOCO{height:665px;min-height:480px}.view-loading-wrapper_ov8Qp{height:665px;left:0;position:relative;top:0;width:100%}.view-loading_4uxoF{background-color:var(--common-bg-color);height:-w",
+    "3D Model Manager.main-container_JDOCO{height:665px;min-height:480px}.view-loading-wrapper_ov8Qp{height:665px;left:0;position:relative;top:0;width:100%}.view-loading_4uxoF{background-color:var(--common-bg-color);height:-w",
+    "3D Model Manager",
+    ".main-container_JDOCO{height:665px;min-height:480px}.view-loading-wrapper_ov8Qp{height:665px;left:0;position:relative;top:0;width:100%}.view-loading_4uxoF{background-color:var(--common-bg-color);height:-webkit-calc(100% ",
+    "Loading",
+    "Tips.lc-tips-modal_-fWlM{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:flex;height:100%;width:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orien",
+    "Tips.lc-tips-modal_-fWlM{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:flex;height:100%;width:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orien",
+    "Tips"
+  ],
+  "dialogsAfterAssocClick": [
+    "3D Model Manager.main-container_JDOCO{height:665px;min-height:480px}.view-loading-wrapper_ov8Qp{height:665px;left:0;position:relative;top:0;width:100%}.view-loading_4uxoF{background-color:var(--common-bg-color);height:-w",
+    "3D Model Manager.main-container_JDOCO{height:665px;min-height:480px}.view-loading-wrapper_ov8Qp{height:665px;left:0;position:relative;top:0;width:100%}.view-loading_4uxoF{background-color:var(--common-bg-color);height:-w",
+    "3D Model Manager",
+    ".main-container_JDOCO{height:665px;min-height:480px}.view-loading-wrapper_ov8Qp{height:665px;left:0;position:relative;top:0;width:100%}.view-loading_4uxoF{background-color:var(--common-bg-color);height:-webkit-calc(100% ",
+    "Select Device.main-container_xcIBv{min-height:480px}.liblist-section_6vN76{margin-right:5px;overflow:auto;width:-webkit-calc(50% - 5px);width:-moz-calc(50% - 5px);width:calc(50% - 5px)}.category-section_Fe0Dh,.liblist-se",
+    "Select Device.main-container_xcIBv{min-height:480px}.liblist-section_6vN76{margin-right:5px;overflow:auto;width:-webkit-calc(50% - 5px);width:-moz-calc(50% - 5px);width:calc(50% - 5px)}.category-section_Fe0Dh,.liblist-se",
+    "Select Device",
+    ".main-container_xcIBv{min-height:480px}.liblist-section_6vN76{margin-right:5px;overflow:auto;width:-webkit-calc(50% - 5px);width:-moz-calc(50% - 5px);width:calc(50% - 5px)}.category-section_Fe0Dh,.liblist-section_6vN76{-"
+  ],
+  "doc": {
+    "documentType": 4,
+    "uuid": "0c8e199e56e60728",
+    "tabId": "0c8e199e56e60728@64325d0e55e0435abd018defb0089a9b",
+    "parentLibraryUuid": "27700277ef7a49e48a0293bece6b2993"
+  }
+}

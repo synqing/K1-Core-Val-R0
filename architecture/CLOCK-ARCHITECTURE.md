@@ -10,6 +10,9 @@ External override is a requirement, not an option. The validation board must be 
 laboratory or evaluation-module clock with RT1062 outputs isolated. See
 `contracts/audio-interface.md` and `contracts/sscm1-v2/REQUIREMENTS.md`.
 
+The audio bus is 48 kHz, four 32-bit TDM slots (D-051): AUX-L, AUX-R, room-microphone, reserved.
+That map is the dual-input contract. The live sheet is still PDM-only until the AUX restore.
+
 ## PDM
 
 Target 3.072 MHz for IM69D130 into the 48 kHz output family.

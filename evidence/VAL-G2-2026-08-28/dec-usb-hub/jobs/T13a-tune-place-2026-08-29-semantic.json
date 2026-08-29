@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T13a-tune-place-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "3040977:b32909b0",
+  "post_source_hash": "3060489:93567299",
+  "saved": true,
+  "affected": [
+    {"id": "f5380a109ca65eb9", "xy": [4000, 4280], "lcsc": "C25092", "value": "22Ω", "addIntoPcb": false},
+    {"id": "e105d8e42924191c", "xy": [4000, 4340], "lcsc": "C25092", "value": "22Ω", "addIntoPcb": false},
+    {"note": "New parts. R73-ESP e98285 at 4210,4035 untouched. R74 untouched. No wire."}
+  ],
+  "census": {
+    "components": 333,
+    "wires": 806,
+    "components_delta": 2,
+    "wires_delta": 0
+  },
+  "observed": "Two new 22 ohm 0402 C25092 at 4000,4280 and 4000,4340 west of U9 IO20/19. addIntoPcb false. R73/R74 not reused. Hub 41c8e652."
+}

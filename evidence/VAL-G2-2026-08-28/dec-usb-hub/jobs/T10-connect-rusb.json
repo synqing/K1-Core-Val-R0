@@ -1,0 +1,5 @@
+[
+  {"tool": "get_current_context", "tag": "ctx", "args": {}},
+  {"tool": "connect_schematic_pin_to_net", "tag": "rdp2", "args": {"componentPrimitiveId": "ebrc000184", "pinNumber": "2", "net": "USB_DP_UP", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "connect_schematic_pin_to_net", "tag": "rdn2", "args": {"componentPrimitiveId": "ebrc000205", "pinNumber": "2", "net": "USB_DM_UP", "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

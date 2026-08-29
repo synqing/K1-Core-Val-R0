@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "transaction_id": "usb1-3d-hash-reconcile-5-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "source_hash": "658066:cbabaf90",
+  "saved": true,
+  "census": {
+    "characters": 658066,
+    "usb1_id": "19bbd06e9438ab5d",
+    "usb1_supplier": "C778726",
+    "usb1_mpn": "CX70M-24P1",
+    "usb1_model": "71aa35b92da84360b5d9e21f25c486f0",
+    "usb1_transform": "448.8179849815368,328.7394915521145,145.27529755949973,0,0,0,0,-66.733,-400",
+    "usb1_footprint": "0c8e199e56e60728",
+    "usb2_transform": "486.22,391.18524,0,0,0,0,-0.002,-66.733,-78.74",
+    "u6_transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+    "prior_gate_hash": "658066:c481be3d",
+    "live_hash": "658066:cbabaf90",
+    "note": "Same character count as the rejected huge-Z write; host re-serialised the PCB page. No new electrical write in this restamp."
+  }
+}

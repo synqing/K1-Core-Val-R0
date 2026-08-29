@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07-vbus-det-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Wire USB_VBUS_DET from 5V_USB via R78/R79 and R80 bleeder. Prove the tap is not on 5V_SYS or 3V3.",
+  "observed_delta": "140 percent island zoom shows a 5V_USB rail above the resistor row, R78 from that rail to the USB_VBUS_DET tap, R79 from the tap to GND, R80 4.7k from 5V_USB to GND, and a horizontal USB_VBUS_DET stub into U20 pin 16. USB pair pins 2-5 and 19-20 remain unwired.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T07-vbus-det-tight.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "R78 from 5V_USB to tap",
+      "result": "OK",
+      "detail": "R78-USB pin 1 sits on the 5V_USB rail at y=640. Pin 2 joins the USB_VBUS_DET tap. Not 5V_SYS."
+    },
+    {
+      "name": "R79 from tap to GND",
+      "result": "OK",
+      "detail": "R79-USB pin 1 is on USB_VBUS_DET. Pin 2 returns to a GND flag. The tap is the divider mid-point, not a second pull-down of 5V_USB."
+    },
+    {
+      "name": "R80 bleeder on 5V_USB",
+      "result": "OK",
+      "detail": "R80-USB 4.7 kΩ has one end on the 5V_USB rail and the other on GND, independent of the VBUS_DET tap."
+    },
+    {
+      "name": "U20 pin 16 on tap not 5V_SYS",
+      "result": "OK",
+      "detail": "U20 pin 16 VBUS_DET has a USB_VBUS_DET label and a wire from the R78/R79 tap at y=770. The net is not 5V_SYS or 3V3. Hub 41c8e652. USB pairs still open."
+    }
+  ]
+}

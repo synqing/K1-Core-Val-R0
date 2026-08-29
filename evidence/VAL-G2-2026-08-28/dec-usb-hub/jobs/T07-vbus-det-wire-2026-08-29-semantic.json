@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07-vbus-det-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2681656:2499c1be",
+  "post_source_hash": "2697708:98657b56",
+  "saved": true,
+  "affected": [
+    {"role": "USB_VBUS_DET_TAP", "net": "USB_VBUS_DET", "pins": ["U20.16", "R78-USB.2", "R79-USB.1"]},
+    {"role": "USB_VBUS_DET_TOP", "net": "5V_USB", "pins": ["R78-USB.1", "R80-USB.1"]},
+    {"role": "USB_VBUS_DET_BOTTOM", "net": "GND", "pins": ["R79-USB.2"]},
+    {"role": "USB_BLEEDER", "net": "5V_USB", "pins": ["R80-USB.1", "R80-USB.2"]}
+  ],
+  "census": {
+    "components": 306,
+    "wires": 787,
+    "components_delta": 9,
+    "wires_delta": 3
+  },
+  "observed": "Wired USB_VBUS_DET as a 100k/100k divider from 5V_USB through R78/R79 onto U20 pin 16, with R80 4.7k bleeder on 5V_USB to GND. Tap is not 5V_SYS or 3V3. Saved. Hub 41c8e652. Component count rose 297 to 306 because foreign flags/parts arrived during the open transaction; T07 itself added named 5V_USB / USB_VBUS_DET / GND wires at the R78/R79/R80 pins. USB pairs not wired."
+}

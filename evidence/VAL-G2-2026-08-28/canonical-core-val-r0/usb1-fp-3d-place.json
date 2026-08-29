@@ -1,0 +1,259 @@
+{
+  "steps": [
+    {
+      "label": "click-3d-tab",
+      "hit": "3D Model"
+    },
+    {
+      "label": "click-personal",
+      "hit": "Personal"
+    },
+    {
+      "label": "search",
+      "value": "seated",
+      "placeholder": "Search, at lease 2 charaters"
+    },
+    {
+      "label": "attrCreate"
+    }
+  ],
+  "doc": {
+    "documentType": 4,
+    "uuid": "0c8e199e56e60728",
+    "tabId": "0c8e199e56e60728@64325d0e55e0435abd018defb0089a9b",
+    "parentLibraryUuid": "27700277ef7a49e48a0293bece6b2993"
+  },
+  "attrApi": [
+    "constructor",
+    "create",
+    "delete",
+    "get",
+    "getAll",
+    "getAllPrimitiveId",
+    "modify"
+  ],
+  "fpSearchByProps": "function",
+  "fpSearchByPropsSrc": "async searchByProperties(t,i){var l;let n=[];if(t.name&&n.push(t.name),n.length===0)return[];let r=window.location.origin+\"/api/v2/components/searchByUserUuidAndTitle\",s=await fetch(r,{method:\"POST\",headers:{\"Content-Type\":\"application/json\"},credentials:\"include\",body:JSON.stringify({titles:n,docType:4})});if(!s.ok)return[];let a=await s.json(),o=i;return o||(o=await _.extensionApiMessageBus2.rpc",
+  "updateSrc": "async updateDocumentSource(t,i,n){return await _.extensionApiMessageBus2.rpcCall(\"extensionApi.LIB_Footprint.updateDocumentSource\",{footprintUuid:t,libraryUuid:i,documentSource:n})}",
+  "inputs": [
+    {
+      "value": "<3D Model>",
+      "title": "<3D Model>",
+      "placeholder": "",
+      "cls": "input_LMIeb"
+    },
+    {
+      "value": "USB_C_Hirose_CX_4800304000_seated",
+      "title": "",
+      "placeholder": "Search, at lease 2 charaters",
+      "cls": "fittinginput-input_MQuJh"
+    },
+    {
+      "value": "",
+      "title": "",
+      "placeholder": "Filter",
+      "cls": "fittinginput-input_MQuJh"
+    },
+    {
+      "value": "",
+      "title": "",
+      "placeholder": "Filter",
+      "cls": "fittinginput-input_MQuJh"
+    }
+  ],
+  "tabs": [
+    {
+      "tag": "DIV",
+      "text": "Personal",
+      "cls": "selectItem_o-6FT"
+    },
+    {
+      "tag": "DIV",
+      "text": "Footprint",
+      "cls": "property_6MCf8"
+    },
+    {
+      "tag": "DIV",
+      "text": "Footprint",
+      "cls": "key_section_0u0Ra key_section"
+    },
+    {
+      "tag": "DIV",
+      "text": "Footprint",
+      "cls": "key_text_t5fFL"
+    },
+    {
+      "tag": "SPAN",
+      "text": "Footprint",
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "3D Model",
+      "cls": "key_section_0u0Ra key_section"
+    },
+    {
+      "tag": "DIV",
+      "text": "3D Model",
+      "cls": "key_text_t5fFL"
+    },
+    {
+      "tag": "SPAN",
+      "text": "3D Model",
+      "cls": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Footprint",
+      "cls": "Footprint"
+    },
+    {
+      "tag": "LI",
+      "text": "Device",
+      "cls": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Device",
+      "cls": ""
+    },
+    {
+      "tag": "LI",
+      "text": "Symbol",
+      "cls": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Symbol",
+      "cls": ""
+    },
+    {
+      "tag": "LI",
+      "text": "Footprint",
+      "cls": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Footprint",
+      "cls": ""
+    },
+    {
+      "tag": "LI",
+      "text": "3D Model",
+      "cls": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "3D Model",
+      "cls": "active_HeJ6i"
+    },
+    {
+      "tag": "LI",
+      "text": "Panel Lib",
+      "cls": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Panel Lib",
+      "cls": ""
+    },
+    {
+      "tag": "LI",
+      "text": "System",
+      "cls": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "System",
+      "cls": ""
+    },
+    {
+      "tag": "LI",
+      "text": "Personal",
+      "cls": ""
+    },
+    {
+      "tag": "SPAN",
+      "text": "Personal",
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "3D Model",
+      "cls": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "3D Model",
+      "cls": "th-cell_sSliD"
+    },
+    {
+      "tag": "SPAN",
+      "text": "3D Model",
+      "cls": "th-cell__left_iHIxu"
+    },
+    {
+      "tag": "SPAN",
+      "text": "3D Model",
+      "cls": "th-cell__left-title_vBUN3"
+    }
+  ],
+  "rows": [],
+  "buttons": [
+    {
+      "tag": "DIV",
+      "text": "Place",
+      "title": null
+    },
+    {
+      "tag": "DIV",
+      "text": "Place",
+      "title": null
+    },
+    {
+      "tag": "DIV",
+      "text": "Add Property",
+      "title": null
+    },
+    {
+      "tag": "DIV",
+      "text": "Add Property",
+      "title": ""
+    },
+    {
+      "tag": "DIV",
+      "text": "Add Property",
+      "title": null
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Add",
+      "title": "Add"
+    },
+    {
+      "tag": "DIV",
+      "text": "Add Row Above",
+      "title": "Add Row Above"
+    },
+    {
+      "tag": "DIV",
+      "text": "Add Row Below",
+      "title": "Add Row Below"
+    },
+    {
+      "tag": "DIV",
+      "text": "Add Column Left",
+      "title": "Add Column Left"
+    },
+    {
+      "tag": "DIV",
+      "text": "Add Column Right",
+      "title": "Add Column Right"
+    }
+  ],
+  "after": {
+    "len": 74332,
+    "has3D": false,
+    "hasSeated": false
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "transaction_id": "usb1-3d-hash-reconcile-6-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "source_hash": "658016:65e067bf",
+  "saved": true,
+  "census": {
+    "characters": 658016,
+    "usb1_transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+    "usb1_model": "71aa35b92da84360b5d9e21f25c486f0",
+    "prior_gate_hash": "658016:529bdf1f",
+    "live_hash": "658016:65e067bf",
+    "note": "Same character count after restore-zero; host re-serialised on document activate. No new electrical write."
+  }
+}

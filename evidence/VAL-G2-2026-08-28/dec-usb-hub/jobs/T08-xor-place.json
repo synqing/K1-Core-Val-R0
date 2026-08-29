@@ -1,0 +1,6 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "add_schematic_component", "tag": "R94", "args": {"libraryUuid": "0819f05c4eef4c71ace90d822a990e87", "deviceUuid": "675d948cd33a4a13b599b851b5bb0e95", "x": 2100, "y": 800, "addIntoBom": true, "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_component", "tag": "R95", "args": {"libraryUuid": "0819f05c4eef4c71ace90d822a990e87", "deviceUuid": "675d948cd33a4a13b599b851b5bb0e95", "x": 2100, "y": 1000, "addIntoBom": true, "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_component", "tag": "J12", "args": {"libraryUuid": "0819f05c4eef4c71ace90d822a990e87", "deviceUuid": "489be8c221fe4010a991ba556ea608bf", "x": 2300, "y": 900, "addIntoBom": true, "addIntoPcb": false, "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-hash-reconcile-4-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "source_hash": "653172:ac04093f",
+  "census": {
+    "characters": 653172,
+    "prior_hash": "653172:5d094a70",
+    "u1_model": "ea8551bd5e9c4319bb8e029bbc32cda4",
+    "note": "Activate re-serialised after REJECTED Z-up bind. Same character count. No write. Seating still inland."
+  }
+}

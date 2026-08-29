@@ -1,0 +1,140 @@
+{
+ "pin_deltas": [
+  {
+   "ref": "U20-USB.1",
+   "contract": "3V3",
+   "capture": null,
+   "authority": "PIN-CONTRACT G2"
+  },
+  {
+   "ref": "U20-USB.10",
+   "contract": "CRFILT(C100 1uF)",
+   "capture": null,
+   "authority": "PIN-CONTRACT G2"
+  },
+  {
+   "ref": "U20-USB.11",
+   "contract": "USB_PRTPWR2",
+   "capture": "GND",
+   "authority": "PIN-CONTRACT G2"
+  },
+  {
+   "ref": "U20-USB.22",
+   "contract": "XTALIN(Y3)",
+   "capture": null,
+   "authority": "PIN-CONTRACT G2"
+  },
+  {
+   "ref": "U20-USB.23",
+   "contract": "PLLFILT(C101 100nF)",
+   "capture": null,
+   "authority": "PIN-CONTRACT G2"
+  },
+  {
+   "ref": "U20-USB.24",
+   "contract": "RBIAS(R77 12k->GND)",
+   "capture": null,
+   "authority": "PIN-CONTRACT G2"
+  },
+  {
+   "ref": "U23-USB.2",
+   "contract": "GND",
+   "capture": "USB_EN2",
+   "authority": "H0f-CLOSE netlist"
+  },
+  {
+   "ref": "U23-USB.5",
+   "contract": "3V3",
+   "capture": "GND",
+   "authority": "H0f-CLOSE netlist"
+  },
+  {
+   "ref": "U25-USB.1",
+   "contract": "USB_PRTPWR2",
+   "capture": "GND",
+   "authority": "H0f-CLOSE netlist"
+  },
+  {
+   "ref": "U25-USB.5",
+   "contract": "3V3",
+   "capture": "USB_EN2",
+   "authority": "H0f-CLOSE netlist"
+  },
+  {
+   "ref": "R85-USB.2",
+   "contract": "GPIO15 side (distinct node through 470R)",
+   "capture": "USB_5V_VALID",
+   "authority": "H0f-CLOSE netlist"
+  },
+  {
+   "ref": "R87-USB.1",
+   "contract": "S3_USB_VBUS_VALID",
+   "capture": null,
+   "authority": "H0f-CLOSE netlist"
+  },
+  {
+   "ref": "R87-USB.2",
+   "contract": "GND",
+   "capture": null,
+   "authority": "H0f-CLOSE netlist"
+  },
+  {
+   "ref": "C123-USB.1",
+   "contract": "3V3",
+   "capture": "GND",
+   "authority": "H0f-CLOSE netlist"
+  },
+  {
+   "ref": "C125-USB.1",
+   "contract": "3V3",
+   "capture": "USB_EN2",
+   "authority": "H0f-CLOSE netlist"
+  },
+  {
+   "ref": "Y3-USB.1",
+   "contract": "USB_XTALIN",
+   "capture": null,
+   "authority": "H0f-CLOSE netlist"
+  },
+  {
+   "ref": "Y3-USB.2",
+   "contract": "GND",
+   "capture": null,
+   "authority": "H0f-CLOSE netlist"
+  },
+  {
+   "ref": "Y3-USB.3",
+   "contract": "USB_XTALOUT",
+   "capture": null,
+   "authority": "H0f-CLOSE netlist"
+  },
+  {
+   "ref": "Y3-USB.4",
+   "contract": "GND",
+   "capture": null,
+   "authority": "H0f-CLOSE netlist"
+  }
+ ],
+ "same_net_series": [
+  {
+   "ref": "R94-USB",
+   "net": "USB_DP_DN2",
+   "risk": "series element with both pads on one net \u2014 router can bypass it"
+  },
+  {
+   "ref": "R85-USB",
+   "net": "USB_5V_VALID",
+   "risk": "series element with both pads on one net \u2014 router can bypass it"
+  },
+  {
+   "ref": "R90-USB",
+   "net": "GND",
+   "risk": "series element with both pads on one net \u2014 router can bypass it"
+  },
+  {
+   "ref": "C123-USB",
+   "net": "GND",
+   "risk": "series element with both pads on one net \u2014 router can bypass it"
+  }
+ ]
+}

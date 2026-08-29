@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "transaction_id": "usb1-3d-hugez-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "USB1 only: set 3D Model Transform offZ to -400 mil (about 10 mm) as a visible seating probe. Keep size and offY. Do not retouch U6, USB2, caps or TVS.",
+  "observed_delta": "Instance transform persisted to offZ=-400 mil. Rebuilt 3D preview still shows the same 1-2 mm air gap under the Hirose shell; tabs remain behind the oval slots. USB2 in the same frame is seated. A 10 mm drop did not appear.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/usb1-3d-after-hugez-loading.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [
+    "3D preview pose did not follow a -400 mil offZ that is saved on USB1"
+  ],
+  "verdict": "REJECTED",
+  "checks": [
+    {"name": "USB1 identity C778726 / CX70M-24P1 unchanged", "result": "OK", "detail": "USB1 remains C778726 / CX70M-24P1."},
+    {"name": "USB2 and U6 transforms unchanged", "result": "OK", "detail": "USB2 and U6 transforms match the pre-write values."},
+    {"name": "shell drops by a clearly visible amount", "result": "DEFECT", "detail": "No 10 mm drop. Gap is still about 1-2 mm."},
+    {"name": "USB2 remains seated", "result": "OK", "detail": "USB2 shell is flush on the board in the same 3D frame."}
+  ]
+}

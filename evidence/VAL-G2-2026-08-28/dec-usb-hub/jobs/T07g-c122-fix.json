@@ -1,0 +1,5 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "delete_schematic_component", "tag": "del-c122-10u", "args": {"primitiveId": "183389c21e797e51", "skipConfirmation": true, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_component", "tag": "C122-2u2", "args": {"libraryUuid": "0819f05c4eef4c71ace90d822a990e87", "deviceUuid": "b925bfa4a5024275b18ec946b0b267bc", "x": 1580, "y": 800, "addIntoBom": true, "addIntoPcb": false, "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

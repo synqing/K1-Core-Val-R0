@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T03-hub-support-place-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2368734:73094c18",
+  "post_source_hash": "2531767:aabac3f2",
+  "saved": true,
+  "affected": [
+    {"primitiveId": "736247481f2dd650", "role": "Y3", "designator": "X?", "manufacturerId": "X322524MSB4SI", "x": 720, "y": 720},
+    {"primitiveId": "6c4b8e5918c0e1f0", "role": "R77", "designator": "R?", "manufacturerId": "0402WGF1202TCE", "x": 200, "y": 980},
+    {"primitiveId": "a60d36245cbf4e86", "role": "R78", "designator": "R?", "manufacturerId": "0402WGF1003TCE", "x": 280, "y": 980},
+    {"primitiveId": "d7ed808dd32d71fa", "role": "R79", "designator": "R?", "manufacturerId": "0402WGF1003TCE", "x": 360, "y": 980},
+    {"primitiveId": "f6a62bb1e7d23ff6", "role": "R80", "designator": "R?", "manufacturerId": "0402WGF4701TCE", "x": 440, "y": 980},
+    {"primitiveId": "109c559e17398f80", "role": "R87", "designator": "R?", "manufacturerId": "0402WGF1002TCE", "x": 520, "y": 980},
+    {"primitiveId": "fc944770c8a600b3", "role": "R88", "designator": "R?", "manufacturerId": "0402WGF1002TCE", "x": 600, "y": 980},
+    {"primitiveId": "859dc25a82d72494", "role": "R89", "designator": "R?", "manufacturerId": "0402WGF1002TCE", "x": 680, "y": 980},
+    {"primitiveId": "0a971b6f27ac9f41", "role": "R90", "designator": "R?", "manufacturerId": "0402WGF1002TCE", "x": 760, "y": 980},
+    {"primitiveId": "d04486ae5c7116a8", "role": "R91", "designator": "R?", "manufacturerId": "0402WGF1002TCE", "x": 840, "y": 980},
+    {"primitiveId": "c483828709b8b49b", "role": "C100", "designator": "C?", "manufacturerId": "CL10A105KB8NNNC", "x": 200, "y": 1100},
+    {"primitiveId": "d51d670fb0acdc36", "role": "C101", "designator": "C?", "manufacturerId": "CC0603KRX7R9BB104", "x": 280, "y": 1100},
+    {"primitiveId": "6718c810f2448d6c", "role": "C102", "designator": "C?", "manufacturerId": "0402CG120J500NT", "x": 360, "y": 1100},
+    {"primitiveId": "d7f20978650e2f1d", "role": "C103", "designator": "C?", "manufacturerId": "0402CG120J500NT", "x": 440, "y": 1100},
+    {"primitiveId": "930c9f07728120be", "role": "C104", "designator": "C?", "manufacturerId": "CC0603KRX7R9BB104", "x": 520, "y": 1100},
+    {"primitiveId": "3fddf470f1772050", "role": "C105", "designator": "C?", "manufacturerId": "CL10A105KB8NNNC", "x": 600, "y": 1100},
+    {"primitiveId": "d4fba08559bea7f9", "role": "C106", "designator": "C?", "manufacturerId": "CC0603KRX7R9BB104", "x": 680, "y": 1100},
+    {"primitiveId": "c70e548c3d1f4881", "role": "C107", "designator": "C?", "manufacturerId": "CC0603KRX7R9BB104", "x": 760, "y": 1100}
+  ],
+  "census": {
+    "components": 275,
+    "wires": 773,
+    "wires_delta": 0,
+    "addIntoPcb": false
+  },
+  "observed": "Placed 24 MHz crystal plus nine resistors and eight capacitors beside USB2422 at 400,800. Auto-names still X?/R?/C?. Wires still 773. Last saveAfter true. Live 64325d0e not written."
+}

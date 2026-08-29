@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "transaction_id": "buttons-3d-native-bind-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "pre_source_hash": "653058:8b340daa",
+  "post_source_hash": "652994:ede545a2",
+  "saved": true,
+  "affected": ["SW1-RTC", "SW2-ESP", "SW3-ESP", "SW4-VAL"],
+  "census": {
+    "model_uuid": "7597a78d7bfc4b9a88da4c353edc7bee",
+    "model_title": "SW-SMD_1TS036A-2500-1700A7-CT",
+    "model_library_uuid": "0819f05c4eef4c71ace90d822a990e87",
+    "pad_count": 20,
+    "positions_rotations_preserved": true,
+    "nets_preserved": true,
+    "native_model3d_binding": true
+  }
+}

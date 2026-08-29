@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "transaction_id": "hub-lane-import-reconcile-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash": "2352202:c5bf1157",
+  "saved": true,
+  "census": {
+    "components": 255,
+    "wires": 773,
+    "texts": 38,
+    "pcb_components": 0,
+    "pcb_vias": 0
+  },
+  "observed": "New disposable project K1-Core-Val-R0-G2.1-HUB-CANDIDATE 41c8e6523576456582ea35958b3684ed opened on inherited page 1435cb46. Single schematic page. PCB electrically empty. Source hash 2352202:c5bf1157."
+}

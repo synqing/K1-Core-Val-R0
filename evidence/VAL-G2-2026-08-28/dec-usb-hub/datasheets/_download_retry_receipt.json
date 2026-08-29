@@ -1,0 +1,155 @@
+[
+  {
+    "ok": false,
+    "url": "https://www.nxp.com/docs/en/nxp/data-sheets/IMXRT1060CEC.pdf",
+    "dest": "D4-NXP-IMXRT1060CEC.pdf",
+    "error": "HTTP Error 404: Not Found",
+    "insecure_ssl": true,
+    "first_error": "HTTP Error 404: Not Found"
+  },
+  {
+    "ok": false,
+    "url": "https://www.nxp.com/docs/en/nxp/data-sheets/IMXRT1060IEC.pdf",
+    "dest": "D4-NXP-IMXRT1060IEC.pdf",
+    "error": "HTTP Error 404: Not Found",
+    "insecure_ssl": true,
+    "first_error": "HTTP Error 404: Not Found"
+  },
+  {
+    "ok": true,
+    "url": "https://dg-switch.com/uploads/soft/230408/GT-USB-7005A.pdf",
+    "final": "https://dg-switch.com/uploads/soft/230408/GT-USB-7005A.pdf",
+    "dest": "D5g-GSwitch-GT-USB-7005A-manufacturer-drawing.pdf",
+    "bytes": 964364,
+    "sha256": "abe0fb3ee8c705b2c394e6f642c5268542377784c97e64785af050207d9223a0",
+    "ctype": "application/pdf",
+    "kind": "pdf",
+    "secs": 6.17
+  },
+  {
+    "ok": true,
+    "url": "https://dg-switch.com/uploads/soft/230408/GT-USB-7005A-3D.zip",
+    "final": "https://dg-switch.com/uploads/soft/230408/GT-USB-7005A-3D.zip",
+    "dest": "D5g-GSwitch-GT-USB-7005A-3D.zip",
+    "bytes": 551654,
+    "sha256": "bac2724ea79843ec8c7c32ef8c542b15bad20a1e806cd1094581e091ce0c88fa",
+    "ctype": "application/zip",
+    "kind": "zip",
+    "secs": 4.21
+  },
+  {
+    "ok": true,
+    "url": "https://www.hirose.com/product/p/CL0480-0304-0-00",
+    "final": "https://www.hirose.com/product/p/CL0480-0304-0-00",
+    "dest": "D5c-Hirose-CX70M-24P1-product.html",
+    "bytes": 560558,
+    "sha256": "26a9bad1eff832f7d917dde3fc9240d83685d3f1ead105a3b52e33eb5da1086d",
+    "ctype": "text/html;charset=UTF-8",
+    "kind": "text",
+    "secs": 1.93
+  },
+  {
+    "ok": true,
+    "url": "https://www.hirose.com/en/product/p/CL0480-0304-0-00",
+    "final": "https://www.hirose.com/en/product/p/CL0480-0304-0-00",
+    "dest": "D5c-Hirose-CX70M-24P1-product-en.html",
+    "bytes": 560558,
+    "sha256": "c036813d85887f809e695d644f04a68c39d0fff4998196b05feb09f38f5830a5",
+    "ctype": "text/html;charset=UTF-8",
+    "kind": "text",
+    "secs": 2.0
+  },
+  {
+    "ok": true,
+    "url": "https://www.hirose.com/product/p/CL0480-0889-0-00",
+    "final": "https://www.hirose.com/product/p/CL0480-0889-0-00",
+    "dest": "D5d-Hirose-CX90B2-24P-product.html",
+    "bytes": 560380,
+    "sha256": "82b856042ff2d3152f804d41e016273ee87523693a244ef22478e5bb484d24f8",
+    "ctype": "text/html;charset=UTF-8",
+    "kind": "text",
+    "secs": 1.97
+  },
+  {
+    "ok": true,
+    "url": "https://www.hirose.com/en/product/p/CL0480-0889-0-00",
+    "final": "https://www.hirose.com/en/product/p/CL0480-0889-0-00",
+    "dest": "D5d-Hirose-CX90B2-24P-product-en.html",
+    "bytes": 560380,
+    "sha256": "c1396afd2aa4a68fa98a71fb2693a67154b962dfa89be483fef390d867301f50",
+    "ctype": "text/html;charset=UTF-8",
+    "kind": "text",
+    "secs": 1.97
+  },
+  {
+    "ok": true,
+    "url": "https://www.hirose.com/medias/ed_CX_20240801.pdf?context=bWFzdGVyfHByaXZhdGVfc3lzX3VwbG9hZHw0MzEzODA1fGFwcGxpY2F0aW9uL3BkZnxjM2x6TFcxaGMzUmxjaTl3Y21sMllYUmxYM041YzE5MWNHeHZZV1F2YUdNd0wyZzRaUzg1TmpjeU5qQTBNekU1TnpjMEwyVmtYME5ZWHpJd01qUXdPREF4TG5Ca1pnfGIxNTViZjhhYzBlMTM4MDAwM2Y0YmFmYmZjNTU1YmRjZjA5YjJlMGUxN2Q0YTVkOTNkYWMzZDU5ZmZkYzc5ZWE",
+    "final": "https://www.hirose.com/medias/ed_CX_20240801.pdf?context=bWFzdGVyfHByaXZhdGVfc3lzX3VwbG9hZHw0MzEzODA1fGFwcGxpY2F0aW9uL3BkZnxjM2x6TFcxaGMzUmxjaTl3Y21sMllYUmxYM041YzE5MWNHeHZZV1F2YUdNd0wyZzRaUzg1TmpjeU5qQTBNekU1TnpjMEwyVmtYME5ZWHpJd01qUXdPREF4TG5Ca1pnfGIxNTViZjhhYzBlMTM4MDAwM2Y0YmFmYmZjNTU1YmRjZjA5YjJlMGUxN2Q0YTVkOTNkYWMzZDU5ZmZkYzc5ZWE",
+    "dest": "D5c-Hirose-CX-series-catalog-20240801.pdf",
+    "bytes": 4313805,
+    "sha256": "27cb143031e74d438df52a9bb492fd97254a3e599f888a18d90d1011a667052f",
+    "ctype": "application/pdf",
+    "kind": "pdf",
+    "secs": 1.97
+  },
+  {
+    "ok": true,
+    "url": "https://www.hirose.com/product/document?clcode=CL0480-0304-0-00&documentid=D52488_en&documenttype=Catalog&lang=en&productname=CX70M-24P1&series=CX",
+    "final": "https://www.hirose.com/product/document?clcode=CL0480-0304-0-00&documentid=D52488_en&documenttype=Catalog&lang=en&productname=CX70M-24P1&series=CX",
+    "dest": "D5c-Hirose-CX70M-catalog-page.html",
+    "bytes": 4331319,
+    "sha256": "46f56c4958916ce3f0e7200ba96a8828be91d014d06b6001e4e6b923a26ba18f",
+    "ctype": "application/pdf;charset=UTF-8",
+    "kind": "pdf",
+    "secs": 2.09
+  },
+  {
+    "ok": true,
+    "url": "https://www.hirose.com/en/product/document?clcode=CL0480-0889-0-00&documentid=CX90B2-24P_4800889000_Design+Guide_EN&documenttype=Guideline&lang=en&productname=CX90B2-24P&series=CX",
+    "final": "https://www.hirose.com/en/product/document?clcode=CL0480-0889-0-00&documentid=CX90B2-24P_4800889000_Design+Guide_EN&documenttype=Guideline&lang=en&productname=CX90B2-24P&series=CX",
+    "dest": "D5d-Hirose-CX90B2-design-guide.html",
+    "bytes": 1453536,
+    "sha256": "3475425a920d059a012754bc85c539d5d670f494139dd8450b41a33235b91f55",
+    "ctype": "application/pdf;charset=UTF-8",
+    "kind": "pdf",
+    "secs": 1.71
+  },
+  {
+    "ok": true,
+    "url": "https://www.hirose.com/en/product/document?clcode=CL0480-0889-0-00&documentid=CX90B2-24P_4800889000_Spechsheet_EN&documenttype=SpecSheet&lang=en&productname=CX90B2-24P&series=CX",
+    "final": "https://www.hirose.com/en/product/document?clcode=CL0480-0889-0-00&documentid=CX90B2-24P_4800889000_Spechsheet_EN&documenttype=SpecSheet&lang=en&productname=CX90B2-24P&series=CX",
+    "dest": "D5d-Hirose-CX90B2-spec-sheet.html",
+    "bytes": 97719,
+    "sha256": "3c683f85ac4c85a5ca554507e72382429ff74a97b61128de01e992d0cf674bfc",
+    "ctype": "application/pdf;charset=UTF-8",
+    "kind": "pdf",
+    "secs": 0.98
+  },
+  {
+    "ok": false,
+    "url": "https://www.microchip.com/en-us/product/usb2422",
+    "dest": "D6-Microchip-USB2422-product.html",
+    "error": "HTTP Error 403: Forbidden",
+    "insecure_ssl": true,
+    "first_error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "ok": false,
+    "url": "https://www.microchip.com/en-us/product/USB2422",
+    "dest": "D6-Microchip-USB2422-product-alt.html",
+    "error": "HTTP Error 403: Forbidden",
+    "insecure_ssl": true,
+    "first_error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "ok": true,
+    "url": "https://www.mouser.com/ProductDetail/Microchip-Technology/USB2422T-I-MJ",
+    "final": "https://www.mouser.com/ProductDetail/Microchip-Technology/USB2422T-I-MJ",
+    "dest": "D6-Mouser-USB2422T-I-MJ-status.html",
+    "bytes": 13897,
+    "sha256": "2c68623b09184f8c09195af268f6bb3e371f3042235de6ebf06e56240c025840",
+    "ctype": "text/html",
+    "kind": "text",
+    "secs": 1.14
+  }
+]

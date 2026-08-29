@@ -1,0 +1,5 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "add_schematic_component", "tag": "tune-dp", "args": {"libraryUuid": "0819f05c4eef4c71ace90d822a990e87", "deviceUuid": "3bf6f236add6445fbdc63ff29bb51d0e", "x": 4000, "y": 4280, "addIntoBom": true, "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_component", "tag": "tune-dm", "args": {"libraryUuid": "0819f05c4eef4c71ace90d822a990e87", "deviceUuid": "3bf6f236add6445fbdc63ff29bb51d0e", "x": 4000, "y": 4340, "addIntoBom": true, "addIntoPcb": false, "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07c-u21-caps-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2732892:ac46a4de",
+  "post_source_hash": "2731800:c4dbdabc",
+  "saved": true,
+  "affected": [
+    {"primitiveId": "fb7c84f0a582bd9c", "designator": "U21-USB"},
+    {"primitiveId": "daf3578c8ea5a570", "designator": "C108-USB"},
+    {"primitiveId": "22002ec9ef576301", "designator": "C109-USB"},
+    {"primitiveId": "16675eb0d11a5521", "designator": "C110-USB"}
+  ],
+  "census": {
+    "components": 306,
+    "wires": 787,
+    "components_delta": 0,
+    "wires_delta": 0
+  },
+  "observed": "Designated TPS2052B as U21-USB and the three 100 nF caps as C108-USB, C109-USB and C110-USB. Positions unchanged. Wires still 787. Hub 41c8e652."
+}

@@ -1,0 +1,42 @@
+{
+  "pcbMethods": [
+    "create",
+    "delete",
+    "modify",
+    "get",
+    "getAllPrimitiveId",
+    "getAll",
+    "getAllPinsByPrimitiveId",
+    "placeComponentWithMouse",
+    "placeFootprintWithMouse",
+    "getAllPropertyNames"
+  ],
+  "selectMethods": [
+    "getAllSelectedPrimitives_PrimitiveId",
+    "getAllSelectedPrimitives",
+    "getSelectedPrimitives",
+    "doSelectPrimitives",
+    "doCrossProbeSelect",
+    "doCrossProbeSelectByObject",
+    "clearSelected",
+    "getCurrentMousePosition"
+  ],
+  "has_getAll": true,
+  "has_getAllComponents": false,
+  "has_getComponents": false,
+  "has_getPrimitives": false,
+  "has_getPrimitiveList": false,
+  "has_query": false,
+  "srcType": "string",
+  "srcLen": 657719,
+  "hits": {
+    "C778726": 0,
+    "CX70M": 0,
+    "USB": 11,
+    "model3D": 2
+  },
+  "usbcLines": [
+    "{\"type\":\"ATTR\",\"ticket\":1976,\"id\":\"001a257400b89df6e100\"}||{\"partitionId\":\"\",\"groupID\":0,\"parentId\":\"001a257400b89df6\",\"layerId\":3,\"x\":44.252,\"y\":401.85,\"key\":\"Designator\",\"value\":\"USB2\",\"keyVisible\":false,\"valueVisible\":true,\"fontFamily\":\"Countach Bold Italic\",\"fontSize\":43.3071,\"strokeWidth\":6,\"bold\":0,\"italic\":0,\"origin\":\"LEFT_BOTTOM\",\"angle\":0,\"reverse\":false,\"expansion\":0,\"mirror\":false,\"locked\":false,\"zIndex\":-1,\"specialColor\":null}|",
+    "{\"type\":\"ATTR\",\"ticket\":2208,\"id\":\"19bbd06e9438ab5de110\"}||{\"partitionId\":\"\",\"groupID\":0,\"parentId\":\"19bbd06e9438ab5d\",\"layerId\":3,\"x\":577.78,\"y\":360.528,\"key\":\"Designator\",\"value\":\"USB1\",\"keyVisible\":false,\"valueVisible\":true,\"fontFamily\":\"Countach Bold Italic\",\"fontSize\":43.3071,\"strokeWidth\":6,\"bold\":0,\"italic\":0,\"origin\":\"LEFT_BOTTOM\",\"angle\":0,\"reverse\":false,\"expansion\":0,\"mirror\":false,\"locked\":false,\"zIndex\":-1,\"specialColor\":null}|"
+  ]
+}

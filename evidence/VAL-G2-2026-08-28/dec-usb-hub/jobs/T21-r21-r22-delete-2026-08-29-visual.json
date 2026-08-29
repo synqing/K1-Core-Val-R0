@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T21-r21-r22-delete-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Delete R21, R22. Re-read USB_CC1 / USB_CC2 = J1 + J1 Rd + sense only.",
+  "observed_delta": "220 percent former J7 Rd site. R21-ESP and R22-ESP bodies gone. Source USB_CC1/CC2 parents are J1 ebrw wires only. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T21-r21-r22-gone.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "R21 gone",
+      "result": "OK",
+      "detail": "e8421 deleted. R21-ESP absent from source."
+    },
+    {
+      "name": "R22 gone",
+      "result": "OK",
+      "detail": "e8460 deleted. R22-ESP absent from source."
+    },
+    {
+      "name": "USB_CC1 J1 only",
+      "result": "OK",
+      "detail": "NET parents ebrw000054, ebrw000079, ebrw000100. e9016 gone."
+    },
+    {
+      "name": "USB_CC2 J1 only",
+      "result": "OK",
+      "detail": "NET parents ebrw000075, ebrw000081, ebrw000142. e9022 gone."
+    }
+  ]
+}

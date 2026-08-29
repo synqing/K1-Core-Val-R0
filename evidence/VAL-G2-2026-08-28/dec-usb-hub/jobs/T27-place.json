@@ -1,0 +1,30 @@
+[
+  {
+    "tool": "add_schematic_component",
+    "tag": "C1-PWR1",
+    "args": {
+      "deviceUuid": "ea4d65f2cead4246abd0b3a54a711198",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "x": 115,
+      "y": -4420,
+      "addIntoBom": true,
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_component",
+    "tag": "RCC1S-PWR1",
+    "args": {
+      "deviceUuid": "2f462e4da9be832666742cf63c5d4f22",
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "x": 265,
+      "y": -3995,
+      "addIntoBom": false,
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

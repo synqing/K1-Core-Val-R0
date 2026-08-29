@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-gtusb-3d-identity-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "U1 only: keep original J1_GT-USB-7005A mesh 7e3f17b4 and set 3D Model Transform to 0, 0, 0, 0, 0, 0, 0, 0, 0 (native/auto size, no rotation, no offset). Restore the pre-rotation pose. Do not remesh, scale, or retouch U6, USB2, caps, TVS or audio.",
+  "observed_delta": "Semantic write landed: U1 still 7e3f17b4, transform 0, 0, 0, 0, 0, 0, 0, 0, 0. Tight top still: grey shell is original size on the top face, not inverted under the board. Mouth faces inland. Pre-rotation pose restored. U6 and D1 untouched.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-identity-tight.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name": "U1 remains C5250872 / GT-USB-7005A", "result": "OK", "detail": "Primitive 0f194aaf30bc2e32 unchanged."},
+    {"name": "Original J1_GT-USB-7005A 7e3f17b4 still bound at native size", "result": "OK", "detail": "Model 7e3f17b4; size 0,0,0; body is not the 6 mm speck."},
+    {"name": "Transform is all zeros", "result": "OK", "detail": "Read-back 0, 0, 0, 0, 0, 0, 0, 0, 0."},
+    {"name": "U6-RTC 3D model and transform unchanged", "result": "OK", "detail": "de5664fd unchanged."},
+    {"name": "D1-PWR1 TVS 3D model and transform unchanged", "result": "OK", "detail": "1370be37 unchanged."},
+    {"name": "Body is original size on the top face not inverted under the board", "result": "OK", "detail": "Tight still shows the shell on the top face at original size. Mouth inland. Not under the board."}
+  ]
+}

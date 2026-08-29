@@ -1,0 +1,53 @@
+{
+  "ok": true,
+  "usbClass": {
+    "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+    "libraryType": "3",
+    "secondaryClassificationUuid": "4d4524b7560c4cd5a3bf20676566ece5",
+    "primaryClassificationUuid": "0c6123eef9994a71a80f19a1170c44f0"
+  },
+  "reclass": true,
+  "modelReclass": true,
+  "classification": {
+    "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+    "libraryType": "3",
+    "primaryClassificationUuid": "0c6123eef9994a71a80f19a1170c44f0",
+    "secondaryClassificationUuid": "4d4524b7560c4cd5a3bf20676566ece5"
+  },
+  "other3d": {
+    "model": "71aa35b92da84360b5d9e21f25c486f0",
+    "title": "USB_C_Hirose_CX_4800304000_v3",
+    "transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+    "supplier": "C778726",
+    "mpn": "CX70M-24P1"
+  },
+  "search": [],
+  "official3d": {},
+  "model": {
+    "uuid": "71aa35b92da84360b5d9e21f25c486f0",
+    "name": "usb_c_hirose_cx_4800304000_v3",
+    "classification": {
+      "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+      "libraryType": "5",
+      "primaryClassificationUuid": "dcfcb5e86e39474a9511e7c34cacd3d1"
+    }
+  },
+  "search3d": [
+    {
+      "uuid": "71aa35b92da84360b5d9e21f25c486f0",
+      "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+      "classification": {
+        "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+        "libraryType": "5",
+        "primaryClassificationUuid": "dcfcb5e86e39474a9511e7c34cacd3d1"
+      },
+      "ordinal": 0,
+      "name": "usb_c_hirose_cx_4800304000_v3",
+      "type": 16,
+      "description": "USB_C_Hirose_CX_4800304000_v3",
+      "updateTimestamp": 1787941544000,
+      "ascription": "spectrasynq",
+      "lastModifiedBy": "spectrasynq"
+    }
+  ]
+}

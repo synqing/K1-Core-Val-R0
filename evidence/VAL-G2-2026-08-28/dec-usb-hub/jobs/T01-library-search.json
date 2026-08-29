@@ -1,0 +1,10 @@
+[
+  {"tool": "get_current_context", "tag": "context", "args": {}},
+  {"tool": "list_project_objects", "tag": "objects", "args": {}},
+  {"tool": "search_library_devices", "tag": "lcsc-C2876265", "args": {"lcscIds": ["C2876265"]}},
+  {"tool": "search_library_devices", "tag": "lcsc-C2869832", "args": {"lcscIds": ["C2869832"]}},
+  {"tool": "search_library_devices", "tag": "lcsc-C7666", "args": {"lcscIds": ["C7666"]}},
+  {"tool": "search_library_devices", "tag": "lcsc-C2758488", "args": {"lcscIds": ["C2758488"]}},
+  {"tool": "search_library_devices", "tag": "lcsc-C622610", "args": {"lcscIds": ["C622610"]}},
+  {"tool": "search_library_devices", "tag": "lcsc-C130049", "args": {"lcscIds": ["C130049"]}}
+]

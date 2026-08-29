@@ -1,0 +1,1158 @@
+[
+ {
+  "tag": "pre-ctx",
+  "ok": true,
+  "result": {
+   "currentDocument": {
+    "documentType": 1,
+    "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+    "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+   },
+   "currentProject": {
+    "itemType": "Project",
+    "uuid": "41c8e6523576456582ea35958b3684ed",
+    "friendlyName": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "name": "spectrasynq/K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "teamUuid": "27700277ef7a49e48a0293bece6b2993",
+    "description": "",
+    "data": [
+     {
+      "itemType": "Board",
+      "name": "Board1",
+      "schematic": {
+       "itemType": "Schematic",
+       "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "name": "Schematic1",
+       "page": [
+        {
+         "itemType": "Schematic Page",
+         "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+         "name": "P1",
+         "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+         "showTitleBlock": true,
+         "titleBlockData": {
+          "Symbol": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "@Project Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE"
+          },
+          "@Page Count": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Update Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Create Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Schematic Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Schematic1"
+          },
+          "@Page No": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Page Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "P1"
+          },
+          "Company": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "SPECTRASYNQ"
+          },
+          "Reviewed": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Version": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "V1.0"
+          },
+          "Page Size": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Custom"
+          },
+          "Drawn": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "@Create Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "07:22:31"
+          },
+          "@Update Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "08:51:40"
+          },
+          "Border": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "5000"
+          },
+          "Height": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "4800"
+          },
+          "Region Start": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "X Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Y Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "8"
+          },
+          "Blade Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Color": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "#333333"
+          },
+          "Title Block Position": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "3"
+          },
+          "Title Block": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "@Board Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Board1"
+          },
+          "Footprint": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Description": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Device": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "ID": {}
+         }
+        }
+       ],
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed",
+       "parentBoardName": "Board1"
+      },
+      "pcb": {
+       "itemType": "PCB",
+       "name": "PCB1",
+       "uuid": "59bef7e87cff4cd580561703b62d8c19",
+       "parentBoardName": "Board1",
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+      },
+      "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+     }
+    ]
+   },
+   "splitScreenTree": {
+    "id": "editor-window-main",
+    "tabs": [
+     {
+      "title": "Start Page",
+      "tabId": "tab_page1",
+      "icon": {
+       "iconClassName": "icon-eda-logo"
+      },
+      "tabStyle": {
+       "width": "auto",
+       "minWidth": "76px"
+      },
+      "isAbleDelete": false,
+      "group": "start_blank",
+      "draggable": true,
+      "data": {
+       "doctype": -1
+      },
+      "isDisplayNone": false
+     },
+     {
+      "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+      "title": "P1.Schematic1",
+      "icon": {
+       "iconClassName": "icon-eda-page icon-color-blue"
+      },
+      "draggable": true,
+      "isAbleDelete": true,
+      "notUseI18n": true,
+      "data": {
+       "containerId": "editor-window-main",
+       "doctype": 1,
+       "ticket": 10083,
+       "updateTime": 1787961070128,
+       "data-model-sheet-uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+       "title": "P1",
+       "pid": "41c8e6523576456582ea35958b3684ed",
+       "version": "1787961070128",
+       "schematicName": "Schematic1",
+       "data-schematic-uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "isBlockSymbolSheet": false,
+       "creator": "27700277ef7a49e48a0293bece6b2993",
+       "owner": "27700277ef7a49e48a0293bece6b2993",
+       "sch": true
+      },
+      "titleStyle": {
+       "fontWeight": "bold"
+      },
+      "isUnSaved": false,
+      "isHighLight": false
+     }
+    ]
+   },
+   "editorBootstrapState": {
+    "startPageOnly": false,
+    "urlHash": "#id=41c8e6523576456582ea35958b3684ed,tab=*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedProjectUuid": "41c8e6523576456582ea35958b3684ed",
+    "requestedTabIds": [
+     "*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "activeRequestedTab": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedActiveTabMissing": false,
+    "visibleTabIds": [
+     "tab_page1",
+     "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "suspectedBootstrapFailure": false
+   },
+   "contextLevel": "project-and-document",
+   "hasProjectContext": true,
+   "hasDocumentContext": true,
+   "recommendedNextSteps": [
+    "Use document-specific tools that match the active document type.",
+    "If you need project inventory or cross-document operations, call list_project_objects next.",
+    "For edits, prefer query tools first so primitive IDs and coordinates are verified before modification."
+   ]
+  }
+ },
+ {
+  "tag": "3v3-and",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      870,
+      700,
+      1500,
+      700
+     ],
+     [
+      1500,
+      960,
+      1500,
+      700
+     ],
+     [
+      1800,
+      700,
+      1500,
+      700
+     ]
+    ],
+    "net": "3V3",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "d49ab2baa2329744"
+   }
+  }
+ },
+ {
+  "tag": "u25-vcc-up",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1800,
+      700,
+      1790,
+      700
+     ],
+     [
+      1500,
+      700,
+      1790,
+      700
+     ],
+     [
+      1500,
+      700,
+      1500,
+      960
+     ],
+     [
+      870,
+      700,
+      1500,
+      700
+     ],
+     [
+      1790,
+      700,
+      1790,
+      990
+     ],
+     [
+      1790,
+      1010,
+      1790,
+      990
+     ]
+    ],
+    "net": "3V3",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "d49ab2baa2329744"
+   }
+  }
+ },
+ {
+  "tag": "c124-3v3-h",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1830,
+      600,
+      1830,
+      610
+     ]
+    ],
+    "net": "3V3",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "0631a8df8072c766"
+   }
+  }
+ },
+ {
+  "tag": "c124-3v3-j",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1830,
+      610,
+      1830,
+      600
+     ],
+     [
+      1830,
+      610,
+      1790,
+      610
+     ]
+    ],
+    "net": "3V3",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "cda4140a6fd3264d"
+   }
+  }
+ },
+ {
+  "tag": "c125-3v3-h",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1830,
+      1000,
+      1830,
+      1010
+     ]
+    ],
+    "net": "3V3",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "46bf0cbd0f0a7e77"
+   }
+  }
+ },
+ {
+  "tag": "c125-3v3-j",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      870,
+      700,
+      1500,
+      700
+     ],
+     [
+      1500,
+      960,
+      1500,
+      700
+     ],
+     [
+      1500,
+      700,
+      1790,
+      700
+     ],
+     [
+      1800,
+      700,
+      1790,
+      700
+     ],
+     [
+      1790,
+      700,
+      1790,
+      990
+     ],
+     [
+      1790,
+      1010,
+      1790,
+      990
+     ],
+     [
+      1830,
+      1010,
+      1790,
+      1010
+     ],
+     [
+      1830,
+      1010,
+      1830,
+      1000
+     ]
+    ],
+    "net": "3V3",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "e64dd3acf7b85624"
+   }
+  }
+ },
+ {
+  "tag": "valid-east",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1540,
+      1000,
+      1680,
+      1000
+     ]
+    ],
+    "net": "USB_5V_VALID",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "642b1f687062060e"
+   }
+  }
+ },
+ {
+  "tag": "valid-u25",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1680,
+      1000,
+      1540,
+      1000
+     ],
+     [
+      1680,
+      1000,
+      1680,
+      990
+     ]
+    ],
+    "net": "USB_5V_VALID",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "bd4928fa1e175cb0"
+   }
+  }
+ },
+ {
+  "tag": "valid-u25-in",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1540,
+      1000,
+      1680,
+      1000
+     ],
+     [
+      1680,
+      990,
+      1680,
+      1000
+     ],
+     [
+      1680,
+      990,
+      1710,
+      990
+     ]
+    ],
+    "net": "USB_5V_VALID",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "cbd04a248033c979"
+   }
+  }
+ },
+ {
+  "tag": "valid-up",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1710,
+      990,
+      1680,
+      990
+     ],
+     [
+      1680,
+      590,
+      1680,
+      990
+     ],
+     [
+      1680,
+      1000,
+      1680,
+      990
+     ],
+     [
+      1680,
+      1000,
+      1540,
+      1000
+     ]
+    ],
+    "net": "USB_5V_VALID",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "ab166b26df43637a"
+   }
+  }
+ },
+ {
+  "tag": "valid-u24-in",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1540,
+      1000,
+      1680,
+      1000
+     ],
+     [
+      1680,
+      1000,
+      1680,
+      990
+     ],
+     [
+      1680,
+      990,
+      1710,
+      990
+     ],
+     [
+      1680,
+      590,
+      1680,
+      990
+     ],
+     [
+      1680,
+      590,
+      1710,
+      590
+     ]
+    ],
+    "net": "USB_5V_VALID",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "e471fab8231e2e30"
+   }
+  }
+ },
+ {
+  "tag": "u24-gnd-e",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1710,
+      600,
+      1810,
+      600
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "dbfbca6a1d9ae2f4"
+   }
+  }
+ },
+ {
+  "tag": "u24-gnd-n",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1810,
+      600,
+      1710,
+      600
+     ],
+     [
+      1810,
+      600,
+      1810,
+      550
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "e0557cd9910c56f2"
+   }
+  }
+ },
+ {
+  "tag": "u24-gnd-e2",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1710,
+      600,
+      1810,
+      600
+     ],
+     [
+      1810,
+      550,
+      1810,
+      600
+     ],
+     [
+      1810,
+      550,
+      1885,
+      550
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "5e240db9c176e315"
+   }
+  }
+ },
+ {
+  "tag": "u24-gnd-d",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1810,
+      600,
+      1710,
+      600
+     ],
+     [
+      1810,
+      600,
+      1810,
+      550
+     ],
+     [
+      1885,
+      550,
+      1810,
+      550
+     ],
+     [
+      1885,
+      550,
+      1885,
+      1140
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "e7c863fa66ebd289"
+   }
+  }
+ },
+ {
+  "tag": "u25-gnd",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1710,
+      1000,
+      1710,
+      1010
+     ],
+     [
+      1710,
+      1140,
+      1710,
+      1010
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "24d4064d7f1f33f4"
+   }
+  }
+ },
+ {
+  "tag": "c124-gnd",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1870,
+      600,
+      1870,
+      1000
+     ],
+     [
+      1870,
+      1140,
+      1870,
+      1000
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "3db748c7c1690938"
+   }
+  }
+ },
+ {
+  "tag": "c125-gnd",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1870,
+      600,
+      1870,
+      1000
+     ],
+     [
+      1870,
+      1140,
+      1870,
+      1000
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "2774bb03a8154f2a"
+   }
+  }
+ },
+ {
+  "tag": "gnd-and",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      760,
+      1140,
+      780,
+      1140
+     ],
+     [
+      810,
+      1140,
+      780,
+      1140
+     ],
+     [
+      810,
+      1140,
+      810,
+      710
+     ],
+     [
+      750,
+      710,
+      810,
+      710
+     ],
+     [
+      1120,
+      1140,
+      810,
+      1140
+     ],
+     [
+      1120,
+      1140,
+      1120,
+      1000
+     ],
+     [
+      1140,
+      1140,
+      1120,
+      1140
+     ],
+     [
+      1140,
+      810,
+      1140,
+      1140
+     ],
+     [
+      1360,
+      1140,
+      1140,
+      1140
+     ],
+     [
+      1360,
+      1140,
+      1360,
+      600
+     ],
+     [
+      1465,
+      600,
+      1360,
+      600
+     ],
+     [
+      1440,
+      1140,
+      1360,
+      1140
+     ],
+     [
+      1440,
+      1100,
+      1440,
+      1140
+     ],
+     [
+      1470,
+      1140,
+      1440,
+      1140
+     ],
+     [
+      1470,
+      800,
+      1470,
+      1140
+     ],
+     [
+      1470,
+      800,
+      1440,
+      800
+     ],
+     [
+      1595,
+      1140,
+      1470,
+      1140
+     ],
+     [
+      1595,
+      1140,
+      1595,
+      800
+     ],
+     [
+      1620,
+      1140,
+      1595,
+      1140
+     ],
+     [
+      1620,
+      600,
+      1620,
+      1140
+     ],
+     [
+      1620,
+      600,
+      1535,
+      600
+     ],
+     [
+      1640,
+      1140,
+      1620,
+      1140
+     ],
+     [
+      1640,
+      1140,
+      1640,
+      630
+     ],
+     [
+      1500,
+      630,
+      1640,
+      630
+     ],
+     [
+      1660,
+      1140,
+      1640,
+      1140
+     ],
+     [
+      1660,
+      1200,
+      1660,
+      1140
+     ],
+     [
+      1660,
+      1140,
+      1710,
+      1140
+     ],
+     [
+      1710,
+      1140,
+      1870,
+      1140
+     ],
+     [
+      1870,
+      1140,
+      1885,
+      1140
+     ],
+     [
+      1885,
+      1140,
+      1885,
+      550
+     ],
+     [
+      1810,
+      550,
+      1885,
+      550
+     ],
+     [
+      1810,
+      550,
+      1810,
+      600
+     ],
+     [
+      1710,
+      600,
+      1810,
+      600
+     ],
+     [
+      1890,
+      1140,
+      1885,
+      1140
+     ],
+     [
+      1870,
+      1140,
+      1870,
+      1000
+     ],
+     [
+      1870,
+      600,
+      1870,
+      1000
+     ],
+     [
+      1710,
+      1140,
+      1710,
+      1010
+     ],
+     [
+      1710,
+      1000,
+      1710,
+      1010
+     ],
+     [
+      780,
+      1140,
+      780,
+      1100
+     ],
+     [
+      780,
+      980,
+      780,
+      1100
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "4f1e86b111e26ebd"
+   },
+   "saved": true
+  }
+ }
+]

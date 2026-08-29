@@ -1,0 +1,519 @@
+[
+ {
+  "tag": "pre-ctx",
+  "ok": true,
+  "result": {
+   "currentDocument": {
+    "documentType": 1,
+    "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+    "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+   },
+   "currentProject": {
+    "itemType": "Project",
+    "uuid": "41c8e6523576456582ea35958b3684ed",
+    "friendlyName": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "name": "spectrasynq/K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "teamUuid": "27700277ef7a49e48a0293bece6b2993",
+    "description": "",
+    "data": [
+     {
+      "itemType": "Board",
+      "name": "Board1",
+      "schematic": {
+       "itemType": "Schematic",
+       "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "name": "Schematic1",
+       "page": [
+        {
+         "itemType": "Schematic Page",
+         "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+         "name": "P1",
+         "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+         "showTitleBlock": true,
+         "titleBlockData": {
+          "Symbol": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "@Project Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE"
+          },
+          "@Page Count": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Update Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Create Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Schematic Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Schematic1"
+          },
+          "@Page No": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Page Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "P1"
+          },
+          "Company": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "SPECTRASYNQ"
+          },
+          "Reviewed": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Version": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "V1.0"
+          },
+          "Page Size": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Custom"
+          },
+          "Drawn": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "@Create Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "07:22:31"
+          },
+          "@Update Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "08:23:02"
+          },
+          "Border": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "5000"
+          },
+          "Height": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "4800"
+          },
+          "Region Start": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "X Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Y Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "8"
+          },
+          "Blade Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Color": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "#333333"
+          },
+          "Title Block Position": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "3"
+          },
+          "Title Block": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "@Board Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Board1"
+          },
+          "Footprint": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Description": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Device": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "ID": {}
+         }
+        }
+       ],
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed",
+       "parentBoardName": "Board1"
+      },
+      "pcb": {
+       "itemType": "PCB",
+       "name": "PCB1",
+       "uuid": "59bef7e87cff4cd580561703b62d8c19",
+       "parentBoardName": "Board1",
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+      },
+      "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+     }
+    ]
+   },
+   "splitScreenTree": {
+    "id": "editor-window-main",
+    "tabs": [
+     {
+      "title": "Start Page",
+      "tabId": "tab_page1",
+      "icon": {
+       "iconClassName": "icon-eda-logo"
+      },
+      "tabStyle": {
+       "width": "auto",
+       "minWidth": "76px"
+      },
+      "isAbleDelete": false,
+      "group": "start_blank",
+      "draggable": true,
+      "data": {
+       "doctype": -1
+      },
+      "isDisplayNone": false
+     },
+     {
+      "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+      "title": "P1.Schematic1",
+      "icon": {
+       "iconClassName": "icon-eda-page icon-color-blue"
+      },
+      "draggable": true,
+      "isAbleDelete": true,
+      "notUseI18n": true,
+      "data": {
+       "containerId": "editor-window-main",
+       "doctype": 1,
+       "ticket": 10083,
+       "updateTime": 1787961070128,
+       "data-model-sheet-uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+       "title": "P1",
+       "pid": "41c8e6523576456582ea35958b3684ed",
+       "version": "1787961070128",
+       "schematicName": "Schematic1",
+       "data-schematic-uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "isBlockSymbolSheet": false,
+       "creator": "27700277ef7a49e48a0293bece6b2993",
+       "owner": "27700277ef7a49e48a0293bece6b2993",
+       "sch": true
+      },
+      "titleStyle": {},
+      "isUnSaved": false,
+      "isHighLight": false
+     }
+    ]
+   },
+   "editorBootstrapState": {
+    "startPageOnly": false,
+    "urlHash": "#id=41c8e6523576456582ea35958b3684ed,tab=*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedProjectUuid": "41c8e6523576456582ea35958b3684ed",
+    "requestedTabIds": [
+     "*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "activeRequestedTab": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedActiveTabMissing": false,
+    "visibleTabIds": [
+     "tab_page1",
+     "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "suspectedBootstrapFailure": false
+   },
+   "contextLevel": "project-and-document",
+   "hasProjectContext": true,
+   "hasDocumentContext": true,
+   "recommendedNextSteps": [
+    "Use document-specific tools that match the active document type.",
+    "If you need project inventory or cross-document operations, call list_project_objects next.",
+    "For edits, prefer query tools first so primitive IDs and coordinates are verified before modification."
+   ]
+  }
+ },
+ {
+  "tag": "n0",
+  "ok": false,
+  "error": "get_schematic_primitive: EasyEDA returned no data for schematic primitive 5172637670c1c95f — the host did NOT resolve it (not found on the active document, or the read was rejected). This is a failure, not an empty result: do not treat it as \"absent from the document\". Verify with list_schematic_primitive_ids (to confirm the id exists on this page) or get_document_source."
+ },
+ {
+  "tag": "n1",
+  "ok": true,
+  "result": {
+   "primitiveId": "56de56738c05da5f",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "56de56738c05da5f",
+    "componentType": "netflag",
+    "x": 700,
+    "y": 1100,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "GND",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "a4f9a0db599d4ab993a0c73b48324c12",
+     "name": "Ground-GND"
+    }
+   }
+  }
+ },
+ {
+  "tag": "n2",
+  "ok": true,
+  "result": {
+   "primitiveId": "5f8a7c3187159db5",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "5f8a7c3187159db5",
+    "componentType": "netflag",
+    "x": 795,
+    "y": 835,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "GND",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "a4f9a0db599d4ab993a0c73b48324c12",
+     "name": "Ground-GND"
+    }
+   }
+  }
+ },
+ {
+  "tag": "n3",
+  "ok": true,
+  "result": {
+   "primitiveId": "5f8fcf5ddb97c6d6",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "5f8fcf5ddb97c6d6",
+    "componentType": "netflag",
+    "x": 540,
+    "y": 1100,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "GND",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "a4f9a0db599d4ab993a0c73b48324c12",
+     "name": "Ground-GND"
+    }
+   }
+  }
+ },
+ {
+  "tag": "n4",
+  "ok": true,
+  "result": {
+   "primitiveId": "6d6ca1230b6dd8df",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "6d6ca1230b6dd8df",
+    "componentType": "netflag",
+    "x": 645,
+    "y": 1100,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "GND",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "a4f9a0db599d4ab993a0c73b48324c12",
+     "name": "Ground-GND"
+    }
+   }
+  }
+ },
+ {
+  "tag": "n5",
+  "ok": true,
+  "result": {
+   "primitiveId": "9481fd66f4ad43bd",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "9481fd66f4ad43bd",
+    "componentType": "netflag",
+    "x": 500,
+    "y": 1100,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "3V3",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "10f3d7d8dc78c973",
+     "name": "Power-5V"
+    }
+   }
+  }
+ },
+ {
+  "tag": "n6",
+  "ok": true,
+  "result": {
+   "primitiveId": "ac95623bada64882",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "ac95623bada64882",
+    "componentType": "netflag",
+    "x": 150,
+    "y": 850,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 180,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "3V3",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "10f3d7d8dc78c973",
+     "name": "Power-5V"
+    }
+   }
+  }
+ },
+ {
+  "tag": "n7",
+  "ok": true,
+  "result": {
+   "primitiveId": "b118258a02504a25",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "b118258a02504a25",
+    "componentType": "netflag",
+    "x": 775,
+    "y": 765,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 180,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "3V3",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "10f3d7d8dc78c973",
+     "name": "Power-5V"
+    }
+   }
+  }
+ },
+ {
+  "tag": "n8",
+  "ok": true,
+  "result": {
+   "primitiveId": "c624c465e022e109",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "c624c465e022e109",
+    "componentType": "netflag",
+    "x": 660,
+    "y": 1100,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "3V3",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "10f3d7d8dc78c973",
+     "name": "Power-5V"
+    }
+   }
+  }
+ },
+ {
+  "tag": "n9",
+  "ok": true,
+  "result": {
+   "primitiveId": "d12e390b8886d2e6",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "d12e390b8886d2e6",
+    "componentType": "netflag",
+    "x": 210,
+    "y": 770,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "3V3",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "10f3d7d8dc78c973",
+     "name": "Power-5V"
+    }
+   }
+  }
+ }
+]

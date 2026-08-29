@@ -1,0 +1,11 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "add_schematic_wire", "tag": "5vusb-rail", "args": {"line": [240, 640, 480, 640], "net": "5V_USB", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "r78-5v", "args": {"line": [260, 980, 260, 640], "net": "5V_USB", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "r80-5v", "args": {"line": [420, 980, 420, 640], "net": "5V_USB", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "r79-gnd", "args": {"line": [380, 980, 380, 1140], "net": "GND", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "r80-gnd", "args": {"line": [460, 980, 460, 1140], "net": "GND", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "tap-r78", "args": {"line": [300, 980, 300, 770], "net": "USB_VBUS_DET", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "tap-r79", "args": {"line": [340, 980, 340, 770], "net": "USB_VBUS_DET", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "tap-h", "args": {"line": [300, 770, 570, 770], "net": "USB_VBUS_DET", "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

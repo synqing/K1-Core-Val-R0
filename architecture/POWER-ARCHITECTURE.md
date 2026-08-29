@@ -28,8 +28,11 @@ Carried forward from prior K1 power-class work as design input, to be re-derived
 High-current copper is implemented as deliberate regions with via arrays, never as
 router-default traces.
 
-Power entry is `J1-PWR1`, which is also the direct RT1062 USB2 data port (D-044). `J7-ESP` is
-service USB only and must not back-power the board. See `contracts/usb-interface.md`.
+J1 is the only USB-C and the 5 V inlet (D-049 `RATIFIED`). USB2 data on J1 is hub
+upstream, not a termination on RT1062. `J7-ESP` is deleted. Hub 3V3 comes from the
+existing 3V3 rail. No 1.2 V domain. See `contracts/usb-interface.md`. J1 MPN is
+D-050 **bound** GT-USB-7005A / C5250872. F6 validity rail is `5V0_USB_VALID`
+(TPS7A2550DRVR), not `5V_PROTECTED`.
 
 ## TPS62913 required support components (D-045)
 

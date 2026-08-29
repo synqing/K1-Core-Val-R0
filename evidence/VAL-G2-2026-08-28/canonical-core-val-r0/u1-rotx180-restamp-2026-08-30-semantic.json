@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-rotx180-restamp-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "source_hash": "653168:07a20538",
+  "census": {
+    "characters": 653168,
+    "prior_gate_hash": "653168:0e49ccd1",
+    "u1_id": "0f194aaf30bc2e32",
+    "u1_sid": "C5250872",
+    "u1_mid": "GT-USB-7005A",
+    "u1_model": "7e3f17b4e5b64384aaa03075cd65e3e3",
+    "u1_title": "J1_GT-USB-7005A",
+    "u1_transform": "0, 0, 0, 0, 0, 180, 0, 0, 0",
+    "u6_model": "de5664fd2ea74aa082831cfa5b198edb",
+    "d1_model": "1370be37a17e44418ae52e2b4cc1f5e5",
+    "note": "Activate re-serialised the PCB after the rejected rotY-180 write. Same character count, new SHA. No write in this restamp. U1 still original mesh 7e3f17b4 with leftover rotY 180. This is not a seating claim."
+  }
+}

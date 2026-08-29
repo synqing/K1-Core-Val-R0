@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T17-j7-lift-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Lift J7 island off USB_CC1/USB_CC2/USB_DP*/S3_VBUS.",
+  "observed_delta": "328 percent J7-ESP USB-C. Connector still present. CC/DP/VBUS pins have no shared-net labels; only GND stubs remain. SBU pins stay NC. J1 CC wires were not in this view and remain in source. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T17-j7-lift.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "J7 off USB_CC1",
+      "result": "OK",
+      "detail": "e103620 deleted. USB_CC1 remaining: J1 ebrw* plus R21 e9016."
+    },
+    {
+      "name": "J7 off USB_CC2",
+      "result": "OK",
+      "detail": "e103634 deleted. USB_CC2 remaining: J1 ebrw* plus R22 e9022."
+    },
+    {
+      "name": "J7 off S3_VBUS",
+      "result": "OK",
+      "detail": "S3_VBUS member count 0 after deleting island VBUS wires."
+    },
+    {
+      "name": "J1 CC kept",
+      "result": "OK",
+      "detail": "ebrw000054/079/100 and ebrw000075/081/142 still on USB_CC1/CC2."
+    },
+    {
+      "name": "USB_DP_S3 kept",
+      "result": "OK",
+      "detail": "TUNE/PHY USB_DP_S3 parents e103650, e103680, 7a41eaf8f1832502 unchanged."
+    }
+  ]
+}

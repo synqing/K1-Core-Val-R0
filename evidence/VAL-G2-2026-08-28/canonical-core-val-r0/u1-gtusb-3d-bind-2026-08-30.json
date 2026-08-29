@@ -1,0 +1,326 @@
+{
+  "recorded_at": "2026-08-29T19:30:39.671Z",
+  "obj_path": "evidence/VAL-G2-2026-08-28/dec-usb-hub/3d/J1_GT-USB-7005A.obj",
+  "obj_sha256": "119fe1ca399be1846c994a5a536570ed117dbbafdaa73d02fa1c6e77bafaff75",
+  "stl_sha256": "c8f9b686783eb90146bc1b35ed19bcc2e858ee42f92b5452dd98829428df601e",
+  "result": {
+    "objSize": 1417381,
+    "created": [
+      "7e3f17b4e5b64384aaa03075cd65e3e3"
+    ],
+    "modelUuid": "7e3f17b4e5b64384aaa03075cd65e3e3",
+    "renamed": true,
+    "model": {
+      "libraryType": "5",
+      "uuid": "7e3f17b4e5b64384aaa03075cd65e3e3",
+      "name": "J1_GT-USB-7005A",
+      "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+      "classification": {
+        "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+        "libraryType": "5",
+        "primaryClassificationUuid": "dcfcb5e86e39474a9511e7c34cacd3d1"
+      },
+      "description": "D-050 GT-USB-7005A seating-plane rebuild; Z=0 PCB top; mm"
+    },
+    "before": {
+      "u1": {
+        "des": "U1",
+        "id": "0f194aaf30bc2e32",
+        "sid": "C5250872",
+        "mid": "GT-USB-7005A",
+        "model3d": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+        }
+      },
+      "u6": {
+        "des": "U6-RTC",
+        "id": "02892aabec4ba06b",
+        "sid": "C2847497",
+        "mid": "MIMXRT1062DVJ6B",
+        "model": "de5664fd2ea74aa082831cfa5b198edb",
+        "title": "MIMXRT1061DVJ6B",
+        "xf": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+        "model3d": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "uuid": "de5664fd2ea74aa082831cfa5b198edb",
+          "name": "MIMXRT1061DVJ6B"
+        }
+      },
+      "d1": {
+        "des": "D1-PWR1",
+        "id": "0898faa11cd37cac",
+        "sid": "USBLC6-2SC6_C323793.1",
+        "mid": "USBLC6-2SC6",
+        "model": "1370be37a17e44418ae52e2b4cc1f5e5",
+        "title": "SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95",
+        "xf": "110.236,113.364,0,90,0,0,0.0005,0.0005,0",
+        "model3d": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "uuid": "1370be37a17e44418ae52e2b4cc1f5e5",
+          "name": "SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95"
+        }
+      },
+      "usb1": {
+        "missing": true
+      }
+    },
+    "modify": {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 3317.7691,
+      "y": 3459.8224,
+      "rotation": 180,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "64325d0e55e0435abd018defb0089a9b",
+        "uuid": "c3bb4dd81905bb44",
+        "name": "GT-USB-7005A"
+      },
+      "primitiveId": "0f194aaf30bc2e32",
+      "footprint": {
+        "libraryUuid": "64325d0e55e0435abd018defb0089a9b",
+        "uuid": "0e0bf75fdf55a316",
+        "name": "USB-C-SMD_GT-USB-7005A"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+      },
+      "designator": "U1",
+      "pads": [
+        {
+          "primitiveId": "e51",
+          "net": "",
+          "padNumber": "A12"
+        },
+        {
+          "primitiveId": "e52",
+          "net": "",
+          "padNumber": "A11"
+        },
+        {
+          "primitiveId": "e53",
+          "net": "",
+          "padNumber": "A10"
+        },
+        {
+          "primitiveId": "e54",
+          "net": "",
+          "padNumber": "A9"
+        },
+        {
+          "primitiveId": "e55",
+          "net": "",
+          "padNumber": "A8"
+        },
+        {
+          "primitiveId": "e56",
+          "net": "",
+          "padNumber": "A7"
+        },
+        {
+          "primitiveId": "e57",
+          "net": "",
+          "padNumber": "A6"
+        },
+        {
+          "primitiveId": "e58",
+          "net": "",
+          "padNumber": "A1"
+        },
+        {
+          "primitiveId": "e59",
+          "net": "",
+          "padNumber": "A2"
+        },
+        {
+          "primitiveId": "e60",
+          "net": "",
+          "padNumber": "A3"
+        },
+        {
+          "primitiveId": "e61",
+          "net": "",
+          "padNumber": "A4"
+        },
+        {
+          "primitiveId": "e62",
+          "net": "",
+          "padNumber": "A5"
+        },
+        {
+          "primitiveId": "e95",
+          "net": "",
+          "padNumber": "B1"
+        },
+        {
+          "primitiveId": "e96",
+          "net": "",
+          "padNumber": "B2"
+        },
+        {
+          "primitiveId": "e97",
+          "net": "",
+          "padNumber": "B3"
+        },
+        {
+          "primitiveId": "e98",
+          "net": "",
+          "padNumber": "B4"
+        },
+        {
+          "primitiveId": "e99",
+          "net": "",
+          "padNumber": "B5"
+        },
+        {
+          "primitiveId": "e100",
+          "net": "",
+          "padNumber": "B6"
+        },
+        {
+          "primitiveId": "e101",
+          "net": "",
+          "padNumber": "B7"
+        },
+        {
+          "primitiveId": "e102",
+          "net": "",
+          "padNumber": "B8"
+        },
+        {
+          "primitiveId": "e103",
+          "net": "",
+          "padNumber": "B9"
+        },
+        {
+          "primitiveId": "e104",
+          "net": "",
+          "padNumber": "B10"
+        },
+        {
+          "primitiveId": "e105",
+          "net": "",
+          "padNumber": "B11"
+        },
+        {
+          "primitiveId": "e106",
+          "net": "",
+          "padNumber": "B12"
+        },
+        {
+          "primitiveId": "e107",
+          "net": "",
+          "padNumber": "25"
+        },
+        {
+          "primitiveId": "e108",
+          "net": "",
+          "padNumber": "27"
+        },
+        {
+          "primitiveId": "e109",
+          "net": "",
+          "padNumber": "30"
+        },
+        {
+          "primitiveId": "e110",
+          "net": "",
+          "padNumber": "28"
+        },
+        {
+          "primitiveId": "e111",
+          "net": "",
+          "padNumber": "29"
+        },
+        {
+          "primitiveId": "e112",
+          "net": "",
+          "padNumber": "26"
+        }
+      ],
+      "name": "={Manufacturer Part}",
+      "uniqueId": "",
+      "manufacturer": "G-Switch(品赞)",
+      "manufacturerId": "GT-USB-7005A",
+      "supplier": "LCSC",
+      "supplierId": "C5250872",
+      "otherProperty": {
+        "Footprint": "USB-C-SMD_GT-USB-7005A",
+        "LCSC Part Name": "Type-C 母 沉板",
+        "Supplier Footprint": "SMD",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/GT-USB-7005A/5966596.html",
+        "Connector Type": "Type-C",
+        "Protocol Standard": "USB 3.1",
+        "Gender": "Female",
+        "Mounting Type": "Laminated board",
+        "Number of Contacts": "24P",
+        "Number of Ports": "1",
+        "Current Rating-Power": "5A",
+        "Voltage Rating": "24V",
+        "Connect-Disconnect Life": "10,000 Cycles",
+        "Center Height": "0.4mm",
+        "Length": "10.3mm",
+        "Detection color": "Black",
+        "Operating Temperature": "-40℃~+85℃",
+        "Description": "Connector Type:Type-C Protocol Standard:USB 3.1 Gender:Female Mounting Type:Laminated board Number of Contacts:24P Number of Ports:1 Current Rating-Power:5A Voltage Rating:24V Connect-Disconnect Life:10,000 Cycles Center Height:0.4mm Length:10.3mm Detecti",
+        "Device": "GT-USB-7005A",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "",
+        "3D Model": "7e3f17b4e5b64384aaa03075cd65e3e3",
+        "3D Model Title": "J1_GT-USB-7005A",
+        "3D Model Transform": "0, 0, 0, 0, 0, 0, 0, 0, 0"
+      }
+    },
+    "saved": true,
+    "after": {
+      "u1": {
+        "des": "U1",
+        "id": "0f194aaf30bc2e32",
+        "sid": "C5250872",
+        "mid": "GT-USB-7005A",
+        "model": "7e3f17b4e5b64384aaa03075cd65e3e3",
+        "title": "J1_GT-USB-7005A",
+        "xf": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+        "model3d": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "uuid": "7e3f17b4e5b64384aaa03075cd65e3e3",
+          "name": "J1_GT-USB-7005A"
+        }
+      },
+      "u6": {
+        "des": "U6-RTC",
+        "id": "02892aabec4ba06b",
+        "sid": "C2847497",
+        "mid": "MIMXRT1062DVJ6B",
+        "model": "de5664fd2ea74aa082831cfa5b198edb",
+        "title": "MIMXRT1061DVJ6B",
+        "xf": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+        "model3d": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "uuid": "de5664fd2ea74aa082831cfa5b198edb",
+          "name": "MIMXRT1061DVJ6B"
+        }
+      },
+      "d1": {
+        "des": "D1-PWR1",
+        "id": "0898faa11cd37cac",
+        "sid": "USBLC6-2SC6_C323793.1",
+        "mid": "USBLC6-2SC6",
+        "model": "1370be37a17e44418ae52e2b4cc1f5e5",
+        "title": "SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95",
+        "xf": "110.236,113.364,0,90,0,0,0.0005,0.0005,0",
+        "model3d": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "uuid": "1370be37a17e44418ae52e2b4cc1f5e5",
+          "name": "SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95"
+        }
+      }
+    },
+    "sourceHash": "653168:84b28b8b",
+    "ok": true
+  }
+}

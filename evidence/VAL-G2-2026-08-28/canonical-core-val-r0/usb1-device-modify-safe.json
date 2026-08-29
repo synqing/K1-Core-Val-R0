@@ -1,0 +1,110 @@
+{
+  "steps": [],
+  "ping": {
+    "ok": true,
+    "v": {
+      "documentType": 3,
+      "uuid": "59bef7e87cff4cd580561703b62d8c19",
+      "tabId": "59bef7e87cff4cd580561703b62d8c19@64325d0e55e0435abd018defb0089a9b",
+      "parentProjectUuid": "64325d0e55e0435abd018defb0089a9b"
+    }
+  },
+  "model3d": {
+    "ok": true,
+    "v": true
+  },
+  "footprint": {
+    "ok": false,
+    "err": {
+      "message": "[object Object]",
+      "name": "Error",
+      "string": "Error: [object Object]",
+      "keys": []
+    }
+  },
+  "get": {
+    "ok": true,
+    "v": {
+      "libraryType": "3",
+      "uuid": "7e7eac39cf44433b9710c4ae4afab424",
+      "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+      "name": "CX70M-24P1",
+      "classification": {
+        "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+        "libraryType": "3"
+      },
+      "association": {
+        "symbolType": 2,
+        "symbolUuid": "c8b5c381560a4f7192aa521a21010e99",
+        "symbol": {
+          "type": 2,
+          "uuid": "c8b5c381560a4f7192aa521a21010e99",
+          "libraryUuid": "27700277ef7a49e48a0293bece6b2993"
+        },
+        "footprintUuid": "279f06324aa142578b6ff40a12f66d9b",
+        "footprint": {
+          "uuid": "279f06324aa142578b6ff40a12f66d9b",
+          "libraryUuid": "27700277ef7a49e48a0293bece6b2993"
+        },
+        "images": [
+          ""
+        ]
+      },
+      "description": "CX70M-24P1 with Hirose CX 4800304000 STEP",
+      "property": {
+        "name": "CX70M-24P1",
+        "designator": "USB?",
+        "addIntoBom": "yes",
+        "addIntoPcb": "yes",
+        "manufacturer": "HRS",
+        "manufacturerId": "CX70M-24P1",
+        "supplier": "LCSC",
+        "supplierId": "C778726",
+        "otherProperty": {
+          "3D Model": "08b2bb7ecebd47fc8f45f08f001d782e",
+          "3D Model Title": "USB_C_Hirose_CX_4800304000_seated",
+          "3D Model Transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+          "Add into BOM": "yes",
+          "Convert to PCB": "yes",
+          "Designator": "USB?",
+          "Footprint": "279f06324aa142578b6ff40a12f66d9b",
+          "Name": "CX70M-24P1",
+          "Symbol": "c8b5c381560a4f7192aa521a21010e99",
+          "Manufacturer": "HRS",
+          "Supplier": "LCSC",
+          "Manufacturer Part": "CX70M-24P1",
+          "Supplier Part": "C778726",
+          "Description": "CX70M-24P1 with Hirose CX 4800304000 STEP"
+        }
+      },
+      "subPartNames": [
+        "CX70M-24P1.1"
+      ]
+    }
+  },
+  "dev": {
+    "name": "CX70M-24P1",
+    "assoc": {
+      "symbolType": 2,
+      "symbolUuid": "c8b5c381560a4f7192aa521a21010e99",
+      "symbol": {
+        "type": 2,
+        "uuid": "c8b5c381560a4f7192aa521a21010e99",
+        "libraryUuid": "27700277ef7a49e48a0293bece6b2993"
+      },
+      "footprintUuid": "279f06324aa142578b6ff40a12f66d9b",
+      "footprint": {
+        "uuid": "279f06324aa142578b6ff40a12f66d9b",
+        "libraryUuid": "27700277ef7a49e48a0293bece6b2993"
+      },
+      "images": [
+        ""
+      ]
+    },
+    "other": {
+      "model": "08b2bb7ecebd47fc8f45f08f001d782e",
+      "title": "USB_C_Hirose_CX_4800304000_seated",
+      "footprint": "279f06324aa142578b6ff40a12f66d9b"
+    }
+  }
+}

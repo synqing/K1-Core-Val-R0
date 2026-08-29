@@ -1,0 +1,8 @@
+[
+  {"tool": "get_current_context", "tag": "ctx", "args": {}},
+  {"tool": "get_schematic_primitive", "tag": "c1", "args": {"primitiveId": "e72"}},
+  {"tool": "list_schematic_component_pins", "tag": "c1-pins", "args": {"componentPrimitiveId": "e72"}},
+  {"tool": "get_schematic_primitive", "tag": "c100", "args": {"primitiveId": "c483828709b8b49b"}},
+  {"tool": "get_schematic_primitive", "tag": "c120", "args": {"primitiveId": "004d113915448a0a"}},
+  {"tool": "get_schematic_primitive", "tag": "c2", "args": {"primitiveId": "e108"}}
+]

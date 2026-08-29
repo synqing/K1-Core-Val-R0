@@ -1,0 +1,8 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "modify_schematic_component", "tag": "U22-USB", "args": {"primitiveId": "4c311982f7a3bb0d", "designator": "U22-USB", "name": "TPS7A2550DRVR", "supplier": "LCSC", "supplierId": "C2876265", "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_component", "tag": "U23-USB", "args": {"primitiveId": "125f3f5842b2d308", "designator": "U23-USB", "name": "TLV7031DBVR", "supplier": "LCSC", "supplierId": "C2869832", "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_component", "tag": "U24-USB", "args": {"primitiveId": "8d95d838df2d5f43", "designator": "U24-USB", "name": "SN74LVC1G08DBVR", "supplier": "LCSC", "supplierId": "C7666", "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_component", "tag": "U25-USB", "args": {"primitiveId": "cace78f52f4c7139", "designator": "U25-USB", "name": "SN74LVC1G08DBVR", "supplier": "LCSC", "supplierId": "C7666", "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_component", "tag": "D3-USB", "args": {"primitiveId": "fadfedaff2230f79", "designator": "D3-USB", "name": "SMF5.0A", "supplier": "LCSC", "supplierId": "C2758488", "addIntoPcb": false, "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

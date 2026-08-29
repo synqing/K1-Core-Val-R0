@@ -1,0 +1,88 @@
+{
+  "steps": [
+    {
+      "label": "tab-3d",
+      "hit": "3D Model"
+    },
+    {
+      "label": "tab-personal",
+      "hit": "Personal"
+    },
+    {
+      "label": "search",
+      "value": "seated"
+    },
+    {
+      "label": "row",
+      "text": "1USB_C_Hirose_CX_4800304000_seatedPersonal Models2026-08-29 03:27:58spectrasynq"
+    },
+    {
+      "label": "place",
+      "cls": ""
+    },
+    {
+      "label": "canvas-click",
+      "x": 150,
+      "y": 75
+    }
+  ],
+  "doc": {
+    "documentType": 4,
+    "uuid": "279f06324aa142578b6ff40a12f66d9b",
+    "tabId": "279f06324aa142578b6ff40a12f66d9b@27700277ef7a49e48a0293bece6b2993",
+    "parentLibraryUuid": "27700277ef7a49e48a0293bece6b2993"
+  },
+  "rows": [
+    "No.3D ModelCategoryUpdate TimeBelongLast modified by",
+    "1USB_C_Hirose_CX_4800304000_seatedPersonal Models2026-08-29 03:27:58spectrasynq",
+    "2MIMXRT1062DVJ6B-NXP-BODYPersonal Models2026-08-29 02:36:47spectrasynq",
+    "3usb_c_hirose_cx_4800304000_v3Personal Models2026-08-29 02:25:44spectrasynq",
+    "4HD108_SolidExport_mm2026-07-10 12:06:02spectrasynq"
+  ],
+  "placeBtns": [
+    {
+      "tag": "DIV",
+      "cls": "",
+      "disabled": false
+    },
+    {
+      "tag": "DIV",
+      "cls": "eda-menu-btn_YzjIq",
+      "disabled": false
+    }
+  ],
+  "canvas": {
+    "w": 300,
+    "h": 150,
+    "cls": ""
+  },
+  "save": true,
+  "after": {
+    "len": 74348,
+    "has3D": false,
+    "hasSeated": false,
+    "types": {
+      "DOCHEAD": 1,
+      "CANVAS": 1,
+      "LAYER": 60,
+      "LAYER_PHYS": 9,
+      "ACTIVE_LAYER": 1,
+      "NET": 1,
+      "RULE_TEMPLATE": 1,
+      "RULE": 14,
+      "RULE_SELECTOR": 1,
+      "PRIMITIVE": 37,
+      "SILK_OPTS": 2,
+      "PREFERENCE": 1,
+      "PAD": 30,
+      "FILL": 67,
+      "POLY": 11,
+      "ATTR": 2
+    }
+  },
+  "field": {
+    "value": "<3D Model>",
+    "title": "<3D Model>"
+  },
+  "dialogs": []
+}

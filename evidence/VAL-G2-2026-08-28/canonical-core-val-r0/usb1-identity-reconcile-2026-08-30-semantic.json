@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "transaction_id": "usb1-identity-reconcile-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "source_hash": "653038:f5af355b",
+  "census": {
+    "characters": 653038,
+    "component_count": 223,
+    "usb1_present": false,
+    "usb2_present": false,
+    "cx70m_present": false,
+    "c778726_present": false,
+    "seated_step_on_pcb": false,
+    "live_usbc_designator": "U1",
+    "live_usbc_primitive": "0f194aaf30bc2e32",
+    "live_usbc_sid": "C5250872",
+    "live_usbc_mid": "GT-USB-7005A",
+    "live_usbc_footprint": "0e0bf75fdf55a316",
+    "live_usbc_device": "c3bb4dd81905bb44",
+    "live_usbc_pad_count": 30,
+    "live_usbc_model3d": "system-libraryUuid-only-no-model-uuid",
+    "prior_gate_reason": "Intermediate outline-only shell state requires transform seating repair",
+    "note": "Read-only CDP census after EasyEDA reopen. USB1 Hirose CX70M-24P1 / C778726 is absent from the live PCB and schematic. No electrical or 3D write."
+  }
+}

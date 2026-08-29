@@ -1,0 +1,109 @@
+[
+ {
+  "tag": "J1-PWR1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e154000",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "e154000",
+    "componentType": "part",
+    "x": 150,
+    "y": -4120,
+    "subPartName": "GT-USB-7005A-IND.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "",
+     "uuid": "e775ee7f617ec838",
+     "name": "GT-USB-7005A-IND"
+    },
+    "symbol": {
+     "uuid": "e2eefe29afe8fe03",
+     "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+     "name": "GT-USB-7005A-IND"
+    },
+    "footprint": {
+     "uuid": "37f6183b7b0b3f1b",
+     "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+     "name": "GT-USB-7005A-IND"
+    },
+    "designator": "J1-PWR1",
+    "name": "USB-C",
+    "uniqueId": "",
+    "manufacturer": "G-Switch",
+    "manufacturerId": "GT-USB-7005A",
+    "supplier": "LCSC",
+    "supplierId": "GT-USB-7005A-IND.1",
+    "otherProperty": {
+     "Description": "",
+     "Multi-Part Group": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "D3-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "e154056",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "e154056",
+    "componentType": "part",
+    "x": 80,
+    "y": -4300,
+    "subPartName": "SMF5.0A_C2758488.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "",
+     "uuid": "240fe0da182a679f",
+     "name": "SMF5.0A_C2758488"
+    },
+    "symbol": {
+     "uuid": "8aaaea4124394f95",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "SMF5.0A_C2758488"
+    },
+    "footprint": {
+     "uuid": "7943ea3fdc128593",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "SOD-123FL_L2.7-W1.8-LS3.7-RD"
+    },
+    "designator": "D3-USB",
+    "name": "SMF5.0A",
+    "uniqueId": "",
+    "manufacturer": "UMW(友台半导体)",
+    "manufacturerId": "SMF5.0A",
+    "supplier": "LCSC",
+    "supplierId": "SMF5.0A_C2758488.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Polarity": "",
+     "Reverse Stand-Off Voltage (Vrwm)": "",
+     "Clamping Voltage": "",
+     "Peak Pulse Current (Ipp)": "",
+     "Peak Pulse Power Dissipation (Ppp)": "",
+     "Voltage - Breakdown": "",
+     "Reverse Leakage Current (Ir)": "",
+     "level of protection": "",
+     "Type": "",
+     "Description": ""
+    }
+   },
+   "saved": true
+  }
+ }
+]

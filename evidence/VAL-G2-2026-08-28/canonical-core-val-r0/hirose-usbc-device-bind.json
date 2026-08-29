@@ -1,0 +1,720 @@
+{
+  "ok": false,
+  "trees": {
+    "2": [
+      {
+        "name": "All",
+        "uuid": "@all",
+        "children": []
+      },
+      {
+        "name": "Dev Boards",
+        "uuid": "d620fc6ab4624f1d9ba38c429a72eae5",
+        "children": []
+      },
+      {
+        "name": "Circuit Protection",
+        "uuid": "572dee70f2de443aa71409b5562db750",
+        "children": [
+          {
+            "name": "Resettable Fuses",
+            "uuid": "979228a78648439fb9924a6cc46db7e9"
+          },
+          {
+            "name": "Surge Protection Devices (SPDs)",
+            "uuid": "b765c69663184667ba6e8d121de68601"
+          },
+          {
+            "name": "ESD and Surge Protection (TVS/ESD)",
+            "uuid": "bc06853a51f349cda9ee9ead52181935"
+          }
+        ]
+      },
+      {
+        "name": "Connectors",
+        "uuid": "a4709da65d5e436ab083c70292e06701",
+        "children": [
+          {
+            "name": "Wire To Board Connector",
+            "uuid": "a58c21746268483c8252018caf82977d"
+          },
+          {
+            "name": "FFC, FPC (Flat Flexible) Connector Assemblies",
+            "uuid": "b72167388bfa47ed97d03a592a8bbfa7"
+          },
+          {
+            "name": "USB Connectors",
+            "uuid": "ea1ebcce4d4e4b4d8a45580063ed291a"
+          }
+        ]
+      },
+      {
+        "name": "Resistors",
+        "uuid": "a0a83a736021448ab588a4f24a4fa116",
+        "children": [
+          {
+            "name": "Chip Resistor - Surface Mount",
+            "uuid": "e0208546297b49c188449fbb804961f4"
+          },
+          {
+            "name": "Current Sense Resistors / Shunt Resistors",
+            "uuid": "6e64154b39d74afcb2818dce6c0c09ca"
+          }
+        ]
+      },
+      {
+        "name": "Capacitors",
+        "uuid": "d2b4ffb83d8448599f6a5f3d0c7457b8",
+        "children": [
+          {
+            "name": "Tantalum Capacitors",
+            "uuid": "3fd26544c3d44b42a9f460c465bcfe5c"
+          },
+          {
+            "name": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+            "uuid": "58571deffc394534ae11c2be07886384"
+          }
+        ]
+      },
+      {
+        "name": "Amplifiers/Comparators",
+        "uuid": "c00a3e29a32646c3951ed2d72df0a6a3",
+        "children": [
+          {
+            "name": "Current Sense Amplifiers",
+            "uuid": "c65213a8b9534893b0a886e9b4405232"
+          }
+        ]
+      },
+      {
+        "name": "Filters",
+        "uuid": "5cf69d71b8c24a4190106f076c2c06cf",
+        "children": [
+          {
+            "name": "Ferrite Beads",
+            "uuid": "117d4a7f9ef74e85b802e48f9c5de822"
+          }
+        ]
+      },
+      {
+        "name": "Power Management (PMIC)",
+        "uuid": "38d5046b5eb2440cbac4aef6e1af9b86",
+        "children": [
+          {
+            "name": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+            "uuid": "072b2e0b4bfd46aeacba75eb3dc89683"
+          },
+          {
+            "name": "Power Distribution Switches",
+            "uuid": "7aa3f375eacc45d5b92c4c3180b4b1fb"
+          },
+          {
+            "name": "Battery Management",
+            "uuid": "c54ca4e0653b4fc5b37c0c85e775e7ce"
+          },
+          {
+            "name": "DC-DC Converters",
+            "uuid": "a90ad2e53ff24a00ab7fc2e559db34fa"
+          },
+          {
+            "name": "Supervisor and Reset ICs",
+            "uuid": "ff2365dc64f14170af878e14f9b0cba9"
+          }
+        ]
+      },
+      {
+        "name": "Switches",
+        "uuid": "8177341ac9204777b5a093918c9fbb91",
+        "children": [
+          {
+            "name": "Tactile Switches",
+            "uuid": "66119875186d4bf39e228a1bf2d2bad9"
+          }
+        ]
+      },
+      {
+        "name": "IoT/Communication Modules",
+        "uuid": "1b89121a14ee4d75a1602e992220bad8",
+        "children": [
+          {
+            "name": "WiFi Modules",
+            "uuid": "b6859114425844c19a5888d175dbc92c"
+          }
+        ]
+      },
+      {
+        "name": "Transistors/Thyristors",
+        "uuid": "4ad8c664bd794bcf9bfdabe8a4ef27aa",
+        "children": [
+          {
+            "name": "MOSFETs",
+            "uuid": "5a98ecd2f00644718e7465e0abfef39a"
+          }
+        ]
+      },
+      {
+        "name": "Logic",
+        "uuid": "69cba679e5224113afb79eabe3ac6115",
+        "children": [
+          {
+            "name": "Buffers, Drivers, Receivers, Transceivers",
+            "uuid": "66587571fb374874a9ebc1140ac11d77"
+          },
+          {
+            "name": "Logic Gates",
+            "uuid": "307aee51a23f4ede89e6f17b8285ce8c"
+          }
+        ]
+      },
+      {
+        "name": "Inductors, Coils, Chokes",
+        "uuid": "981c0a934e714d0aae950dda035c7557",
+        "children": [
+          {
+            "name": "Power Inductors",
+            "uuid": "ec62509a9d2d4bdebdff5d21d5c29156"
+          }
+        ]
+      },
+      {
+        "name": "Audio Products / Vibration Motors",
+        "uuid": "992a6c14b9924f499b7a47ae77062382",
+        "children": [
+          {
+            "name": "MEMS Microphones",
+            "uuid": "320dd5098998426eb756dd8d9d75d39c"
+          }
+        ]
+      },
+      {
+        "name": "Optoelectronics",
+        "uuid": "0783ec7e3b02450d8528b7c57eba7f59",
+        "children": [
+          {
+            "name": "RGB LEDs(Built-in IC)",
+            "uuid": "1061e7013d9e419697b4967562bd09bf"
+          }
+        ]
+      },
+      {
+        "name": "Sensors",
+        "uuid": "e7dfd7d2255548a7b9c5adc81957cc2b",
+        "children": [
+          {
+            "name": "NTC Thermistors",
+            "uuid": "0af9f9c2e22143f99444fe1ce7752e48"
+          }
+        ]
+      },
+      {
+        "name": "Personal Symbols",
+        "uuid": "b179120965634be9849dbfdc2f6a80fe",
+        "children": []
+      }
+    ],
+    "3": [
+      {
+        "name": "All",
+        "uuid": "@all",
+        "children": []
+      },
+      {
+        "name": "RGBIC Diodes",
+        "uuid": "467bd44cbe344ac9875addc0b77e3b60",
+        "children": []
+      },
+      {
+        "name": "Circuit Protection",
+        "uuid": "d577cee88ef74269850a629b8d77bfb1",
+        "children": [
+          {
+            "name": "Resettable Fuses",
+            "uuid": "2a77a464988e4f8da8da9364653f1752"
+          },
+          {
+            "name": "Surge Protection Devices (SPDs)",
+            "uuid": "598ad3b175f244df9847d3c346ee6d1e"
+          },
+          {
+            "name": "ESD and Surge Protection (TVS/ESD)",
+            "uuid": "58ee48b4e114494fb263d4bb5ed1bdbe"
+          }
+        ]
+      },
+      {
+        "name": "Connectors",
+        "uuid": "0c6123eef9994a71a80f19a1170c44f0",
+        "children": [
+          {
+            "name": "Wire To Board Connector",
+            "uuid": "a0ac78bb01b24aa48adcc5d18195d831"
+          },
+          {
+            "name": "FFC, FPC (Flat Flexible) Connector Assemblies",
+            "uuid": "076f1ce453924528a0bd6c693be3b9e5"
+          },
+          {
+            "name": "USB Connectors",
+            "uuid": "4d4524b7560c4cd5a3bf20676566ece5"
+          }
+        ]
+      },
+      {
+        "name": "Resistors",
+        "uuid": "96aadaea647a46b6963ec4892cb22625",
+        "children": [
+          {
+            "name": "Chip Resistor - Surface Mount",
+            "uuid": "c6b8fd318601411d8a2b063905384e0f"
+          },
+          {
+            "name": "Current Sense Resistors / Shunt Resistors",
+            "uuid": "899b3a2af9e74f1ba76dd64493ffbaa2"
+          }
+        ]
+      },
+      {
+        "name": "Capacitors",
+        "uuid": "2ff7f582d5fa47058bb2054a2fc2f13d",
+        "children": [
+          {
+            "name": "Tantalum Capacitors",
+            "uuid": "4e74fd3ffa6844e48ae32e1a2f5c4eb2"
+          },
+          {
+            "name": "Multilayer Ceramic Capacitors MLCC - SMD/SMT",
+            "uuid": "13fbfb37ddf64e63a345afab16127ad1"
+          }
+        ]
+      },
+      {
+        "name": "Amplifiers/Comparators",
+        "uuid": "2f9864538cc84217830a9b26d2011d91",
+        "children": [
+          {
+            "name": "Current Sense Amplifiers",
+            "uuid": "26e48bf894b14b94861dca3eb42399ce"
+          }
+        ]
+      },
+      {
+        "name": "Filters",
+        "uuid": "ec5adc0c690549d3815d6ff224f75800",
+        "children": [
+          {
+            "name": "Ferrite Beads",
+            "uuid": "a9b52d7969004f68bf05b9be4837f957"
+          }
+        ]
+      },
+      {
+        "name": "Power Management (PMIC)",
+        "uuid": "d6548e1cb6a4464f90ae48953eec62e7",
+        "children": [
+          {
+            "name": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+            "uuid": "86f6a7f4e8454154b9d1c77baa9e11ce"
+          },
+          {
+            "name": "Power Distribution Switches",
+            "uuid": "d7b88907d08249869c2d142d62b8570f"
+          },
+          {
+            "name": "Battery Management",
+            "uuid": "1213b19685394034b9d7997457b97e9f"
+          },
+          {
+            "name": "DC-DC Converters",
+            "uuid": "c707a0c8215b4491b87848afe2959944"
+          },
+          {
+            "name": "Supervisor and Reset ICs",
+            "uuid": "443d8b386e77415d800bdca311b0be59"
+          }
+        ]
+      },
+      {
+        "name": "Switches",
+        "uuid": "cfc77e4ffc58472a8fae4c0a42d3e86d",
+        "children": [
+          {
+            "name": "Tactile Switches",
+            "uuid": "9c181c5222a1493aa83071e0030dce38"
+          }
+        ]
+      },
+      {
+        "name": "IoT/Communication Modules",
+        "uuid": "5785aab1b59349d59f996fe548168a9d",
+        "children": [
+          {
+            "name": "WiFi Modules",
+            "uuid": "7dcfcc5db2934423bd3fe5d7c3a52aab"
+          }
+        ]
+      },
+      {
+        "name": "Transistors/Thyristors",
+        "uuid": "941184ff705d414e84506651fe1097d0",
+        "children": [
+          {
+            "name": "MOSFETs",
+            "uuid": "1d2d8d516c834f849f83eceda026cb40"
+          }
+        ]
+      },
+      {
+        "name": "Logic",
+        "uuid": "bcd0be3dfabc4d5090ec42f81f9647c5",
+        "children": [
+          {
+            "name": "Buffers, Drivers, Receivers, Transceivers",
+            "uuid": "781a819c3d7849a5ad5384209a73bb19"
+          },
+          {
+            "name": "Logic Gates",
+            "uuid": "e0093d7702124c989642c7006f70e636"
+          }
+        ]
+      },
+      {
+        "name": "Inductors, Coils, Chokes",
+        "uuid": "a91804872fe34982b3e8ee12851a95a8",
+        "children": [
+          {
+            "name": "Power Inductors",
+            "uuid": "0415448badf542dba004bcda0918698a"
+          }
+        ]
+      },
+      {
+        "name": "Audio Products / Vibration Motors",
+        "uuid": "3d73e71cbe09420db5301f42a59d4030",
+        "children": [
+          {
+            "name": "MEMS Microphones",
+            "uuid": "452c1f20d0664947b3bdc39916e4c6c2"
+          }
+        ]
+      },
+      {
+        "name": "Optoelectronics",
+        "uuid": "df0320beb1f24ce9a33fb6f9ab2d9c5e",
+        "children": [
+          {
+            "name": "RGB LEDs(Built-in IC)",
+            "uuid": "077405bc732c4969827ac6f2582786e3"
+          }
+        ]
+      },
+      {
+        "name": "Sensors",
+        "uuid": "5b6f551c47d5495bbf44153b73c91e10",
+        "children": [
+          {
+            "name": "NTC Thermistors",
+            "uuid": "284dbae598804b5fb10b158f0911be2c"
+          }
+        ]
+      },
+      {
+        "name": "Personal Devices",
+        "uuid": "adc4b89de25a4edf8b64bdbab125533e",
+        "children": [
+          {
+            "name": "RGBICs",
+            "uuid": "c93dda1ff41d4f44b9961179b2a7c7e7"
+          },
+          {
+            "name": "PinHeaders",
+            "uuid": "b33cda43765b4043b83be8c82216946d"
+          },
+          {
+            "name": "Components",
+            "uuid": "67a1c090d8ca4bcf99cdc628af772c9a"
+          }
+        ]
+      },
+      {
+        "name": "Dev Boards",
+        "uuid": "a81528f7da344a52ab7b91958db91fcd",
+        "children": []
+      }
+    ],
+    "4": [
+      {
+        "name": "All",
+        "uuid": "@all",
+        "children": []
+      },
+      {
+        "name": "UM ESP32s3 Footprints",
+        "uuid": "0d087603541e4c80b6f955c39462865e",
+        "children": []
+      },
+      {
+        "name": "FUSE-SMD",
+        "uuid": "e7185b8b7693486b8fe6e34f53338b5f",
+        "children": []
+      },
+      {
+        "name": "CONN-SMD",
+        "uuid": "f5665dd35d0a4b2e9c8b296f6560808c",
+        "children": []
+      },
+      {
+        "name": "RES-SMD",
+        "uuid": "89b44a0d70f2455bbb70ea0cb9109878",
+        "children": []
+      },
+      {
+        "name": "CAP-SMD",
+        "uuid": "c5ff2ae5bf4042389d04c126e17d1296",
+        "children": []
+      },
+      {
+        "name": "VQFN-10",
+        "uuid": "14d413b13eda4995b5a7fe88c2ff0414",
+        "children": []
+      },
+      {
+        "name": "MSOP-10",
+        "uuid": "2e604e969ce140f08eeeb026b3f716bd",
+        "children": []
+      },
+      {
+        "name": "FPC-SMD",
+        "uuid": "8f5769f51ead4776b7e6c34a6ec9e4ec",
+        "children": []
+      },
+      {
+        "name": "IND-SMD",
+        "uuid": "f26141ee14d84d9f95a748c45fc022ee",
+        "children": []
+      },
+      {
+        "name": "SOT-23-5",
+        "uuid": "16f04f0b17ff48f698aff2409bfa42be",
+        "children": []
+      },
+      {
+        "name": "SW-SMD",
+        "uuid": "7c7ecb694eca4ca699267efc87dbc162",
+        "children": []
+      },
+      {
+        "name": "WIRELM-SMD",
+        "uuid": "41514947299f475abd2a452458d75f31",
+        "children": []
+      },
+      {
+        "name": "SOT-23-3",
+        "uuid": "80015425bf1e40359401798db3e30425",
+        "children": []
+      },
+      {
+        "name": "VSON-10",
+        "uuid": "1f815bd0a16f4d8bb5a46219d0dd02b9",
+        "children": []
+      },
+      {
+        "name": "TSSOP-14",
+        "uuid": "ec8f662e64f04e01ae97369cbff7b5e3",
+        "children": []
+      },
+      {
+        "name": "SSOP-8",
+        "uuid": "c6508ef32aa74b41a1281f10a56b1a48",
+        "children": []
+      },
+      {
+        "name": "WSON-6",
+        "uuid": "61b9ebaf804747c9882f88ef2afb74d4",
+        "children": []
+      },
+      {
+        "name": "USON-10",
+        "uuid": "71c5a457c1e1460d82ece5a6f3298add",
+        "children": []
+      },
+      {
+        "name": "USB-C-SMD",
+        "uuid": "780ffe8ee947401180a9b57f48f3aac2",
+        "children": []
+      },
+      {
+        "name": "X2QFN-12",
+        "uuid": "d7ac5ec658c14c709e00cba198b061ce",
+        "children": []
+      },
+      {
+        "name": "QFN-10",
+        "uuid": "402e1ee811884b6e842c67b6b74238be",
+        "children": []
+      },
+      {
+        "name": "CONN-TH",
+        "uuid": "267e43118b34443a9fd6ed7583f0ef89",
+        "children": []
+      },
+      {
+        "name": "TYPE-C-SMD",
+        "uuid": "42ac029e49d34e1fb6cc166763d9f374",
+        "children": []
+      },
+      {
+        "name": "MIC-SMD",
+        "uuid": "0998cdea5a4a4426b9a70337d0faaa4e",
+        "children": []
+      },
+      {
+        "name": "LED-SMD",
+        "uuid": "8482c722195d42a38a8cfdde87d8d9c3",
+        "children": []
+      },
+      {
+        "name": "Personal Footprints",
+        "uuid": "fc86988ada064c62a55e2bab106cc0e1",
+        "children": [
+          {
+            "name": "Pin Headers",
+            "uuid": "0757e793590c4cdb8f9035215a6ffc0b"
+          }
+        ]
+      }
+    ],
+    "5": [
+      {
+        "name": "All",
+        "uuid": "@all",
+        "children": []
+      },
+      {
+        "name": "Personal Models",
+        "uuid": "dcfcb5e86e39474a9511e7c34cacd3d1",
+        "children": []
+      }
+    ]
+  },
+  "deviceClass": {
+    "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+    "libraryType": "3",
+    "primaryClassificationUuid": "467bd44cbe344ac9875addc0b77e3b60"
+  },
+  "copies": [
+    {
+      "ok": false,
+      "targetLib": "27700277ef7a49e48a0293bece6b2993",
+      "name": "CX70M-24P1",
+      "classif": {
+        "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+        "libraryType": "3",
+        "primaryClassificationUuid": "467bd44cbe344ac9875addc0b77e3b60"
+      }
+    },
+    {
+      "ok": false,
+      "targetLib": "27700277ef7a49e48a0293bece6b2993",
+      "name": "CX70M-24P1",
+      "classif": [
+        "Connectors",
+        "USB"
+      ]
+    },
+    {
+      "ok": false,
+      "targetLib": "27700277ef7a49e48a0293bece6b2993",
+      "name": "CX70M-24P1-C778726",
+      "classif": [
+        "Connectors"
+      ]
+    },
+    {
+      "ok": false,
+      "targetLib": "project",
+      "name": "CX70M-24P1",
+      "classif": [
+        "Connectors"
+      ]
+    },
+    {
+      "ok": false,
+      "targetLib": "project",
+      "name": "CX70M-24P1",
+      "classif": {
+        "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+        "libraryType": "3",
+        "primaryClassificationUuid": "467bd44cbe344ac9875addc0b77e3b60"
+      }
+    }
+  ],
+  "createdDevice": "7e7eac39cf44433b9710c4ae4afab424",
+  "modify": true,
+  "device": {
+    "libraryType": "3",
+    "uuid": "7e7eac39cf44433b9710c4ae4afab424",
+    "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+    "name": "CX70M-24P1",
+    "classification": {
+      "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+      "libraryType": "3",
+      "primaryClassificationUuid": "467bd44cbe344ac9875addc0b77e3b60"
+    },
+    "association": {
+      "symbolType": 2,
+      "symbolUuid": "c8b5c381560a4f7192aa521a21010e99",
+      "symbol": {
+        "type": 2,
+        "uuid": "c8b5c381560a4f7192aa521a21010e99",
+        "libraryUuid": "27700277ef7a49e48a0293bece6b2993"
+      },
+      "footprintUuid": "279f06324aa142578b6ff40a12f66d9b",
+      "footprint": {
+        "uuid": "279f06324aa142578b6ff40a12f66d9b",
+        "libraryUuid": "27700277ef7a49e48a0293bece6b2993"
+      },
+      "images": [
+        ""
+      ]
+    },
+    "description": "CX70M-24P1 with Hirose CX 4800304000 STEP",
+    "property": {
+      "name": "CX70M-24P1",
+      "designator": "USB?",
+      "addIntoBom": "yes",
+      "addIntoPcb": "yes",
+      "manufacturer": "HRS",
+      "manufacturerId": "CX70M-24P1",
+      "supplier": "LCSC",
+      "supplierId": "C778726",
+      "otherProperty": {
+        "3D Model": "71aa35b92da84360b5d9e21f25c486f0",
+        "3D Model Title": "USB_C_Hirose_CX_4800304000_v3",
+        "3D Model Transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+        "Add into BOM": "yes",
+        "Convert to PCB": "yes",
+        "Designator": "USB?",
+        "Footprint": "279f06324aa142578b6ff40a12f66d9b",
+        "Name": "CX70M-24P1",
+        "Symbol": "c8b5c381560a4f7192aa521a21010e99",
+        "Manufacturer": "HRS",
+        "Supplier": "LCSC",
+        "Manufacturer Part": "CX70M-24P1",
+        "Supplier Part": "C778726",
+        "Description": "CX70M-24P1 with Hirose CX 4800304000 STEP"
+      }
+    },
+    "subPartNames": [
+      "CX70M-24P1.1"
+    ]
+  },
+  "dest": {
+    "ok": true,
+    "uuid": "7e7eac39cf44433b9710c4ae4afab424",
+    "targetLib": "27700277ef7a49e48a0293bece6b2993",
+    "name": "CX70M-24P1",
+    "via": "create"
+  },
+  "search": [],
+  "searchProj": []
+}

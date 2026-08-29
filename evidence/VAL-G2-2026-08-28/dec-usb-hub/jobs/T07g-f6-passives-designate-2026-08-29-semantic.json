@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07g-f6-passives-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2871893:e13ae42d",
+  "post_source_hash": "2868976:0aadca92",
+  "saved": true,
+  "affected": [
+    {"primitiveId": "004d113915448a0a", "designator": "C120-USB", "supplierId": "C45783"},
+    {"primitiveId": "2859c2b57ac86be4", "designator": "C121-USB", "supplierId": "C14663"},
+    {"primitiveId": "3a63da66b1222580", "designator": "C122-USB", "supplierId": "C23630"},
+    {"primitiveId": "22c6a17a7dbbd174", "designator": "R81-USB", "supplierId": "C25758"},
+    {"primitiveId": "dac528b1bfdc76ab", "designator": "R82-USB", "supplierId": "C25741"},
+    {"primitiveId": "252b7a11c6b4da53", "designator": "R83-USB", "supplierId": "C25741"},
+    {"primitiveId": "6b258885a490d64b", "designator": "R84-USB", "supplierId": "C25741"},
+    {"primitiveId": "5cf017917b429da4", "designator": "R85-USB", "supplierId": "C25117"},
+    {"primitiveId": "d18377ecee6c9362", "designator": "R86-USB", "supplierId": "C25900"}
+  ],
+  "census": {
+    "components": 320,
+    "wires": 787,
+    "components_delta": 0,
+    "wires_delta": 0
+  },
+  "observed": "Designated C120-USB 22uF, C121-USB 100nF, C122-USB 2.2uF and R81-USB through R86-USB. addIntoPcb false. Wires still 787. Hub 41c8e652."
+}

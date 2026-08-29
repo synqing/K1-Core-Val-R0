@@ -1,0 +1,6 @@
+[
+  {"tool": "get_current_context", "tag": "ctx", "args": {}},
+  {"tool": "get_schematic_primitive", "tag": "tap-vbus", "args": {"primitiveId": "54b8d6c7efc61c4c"}},
+  {"tool": "get_schematic_primitive", "tag": "tap-ref", "args": {"primitiveId": "157288a558df8730"}},
+  {"tool": "get_schematic_primitive", "tag": "old-gone", "args": {"primitiveId": "e34ae57efe3e3790"}}
+]

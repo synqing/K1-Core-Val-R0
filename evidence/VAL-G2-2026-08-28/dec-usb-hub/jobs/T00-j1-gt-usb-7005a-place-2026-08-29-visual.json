@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T00-j1-gt-usb-7005a-place-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Place GT-USB-7005A-IND (personal library, not C5250872 cache) at 185,3480 above the power-entry title. Old USB4105 J1-PWR1 remains until later delete. No wires.",
+  "observed_delta": "Settled 68% select of ea47c20de228fa3a shows GT-USB-7005A-IND (designator still U?) with A1–A12, B1–B12 and S1–S4 SHELL.TAB1–4, all unwired. Old J1 USB4105 remains in 1. POWER ENTRY + PROTECTION. Hub 41c8e652 is the focused project. The 3% whole-chrome postage stamp was discarded and is not this file. Live landing is west of power-entry (get x=-485, y=3160), not the declared 185,3480; no wires this stage.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T00-j1-place-select.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "new 24-pin plus four shell-tab J1 symbol present",
+      "result": "OK",
+      "detail": "68% select PNG shows GT-USB-7005A-IND with readable A1–A12 / B1–B12 function names (GND, VBUS, D+, CC1/CC2, TX/RX, SBU) and S1–S4 SHELL.TAB1–4. Primitive ea47c20de228fa3a."
+    },
+    {
+      "name": "old J1-PWR1 USB4105 still present",
+      "result": "OK",
+      "detail": "The same settled frame still shows the original USB-C USB4105 J1 inside the POWER ENTRY + PROTECTION block. e339 was not deleted."
+    },
+    {
+      "name": "no new wires in this transaction",
+      "result": "OK",
+      "detail": "None of the 28 new pins have attached wires. Semantic census wires stay 773."
+    },
+    {
+      "name": "hub project 41c8e652 still current, not live 64325d0e",
+      "result": "OK",
+      "detail": "CDP page URL and getCurrentProjectInfo.uuid are 41c8e6523576456582ea35958b3684ed (K1-Core-Val-R0-G2.1-HUB-CANDIDATE). Live was not focused. PCB was not written."
+    }
+  ]
+}

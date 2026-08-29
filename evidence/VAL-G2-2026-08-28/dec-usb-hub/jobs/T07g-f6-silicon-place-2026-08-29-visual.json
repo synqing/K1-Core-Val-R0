@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07g-f6-silicon-place-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Place TPS7A2550DRVR, TLV7031DBVR, two SN74LVC1G08 and SMF5.0A in empty space east of U21. addIntoPcb false. No wires. No prison box.",
+  "observed_delta": "112% select-zoom of the five new primitives east of U21 shows TPS7A2550DRVR, TLV7031DBVR, two SN74LVC1G08 and SMF5.0A. No wires on those parts. Open canvas, not a prison box.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T07g-silicon-tight.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "TPS7A2550 present",
+      "result": "OK",
+      "detail": "4c311982f7a3bb0d TPS7A2550DRVR C2876265 at 1500,600. addIntoPcb false."
+    },
+    {
+      "name": "TLV7031 and two 1G08 present",
+      "result": "OK",
+      "detail": "TLV7031 125f3f5842b2d308 at 1500,1000; SN74LVC1G08 8d95d838df2d5f43 at 1750,600 and cace78f52f4c7139 at 1750,1000."
+    },
+    {
+      "name": "SMF5.0A present no wires",
+      "result": "OK",
+      "detail": "fadfedaff2230f79 SMF5.0A at 1500,400. Wire census stays 787."
+    },
+    {
+      "name": "hub project 41c8e652 not live",
+      "result": "OK",
+      "detail": "Focused project is 41c8e652 K1-Core-Val-R0-G2.1-HUB-CANDIDATE. Live 64325d0e not written."
+    }
+  ]
+}

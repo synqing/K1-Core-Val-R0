@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "transaction_id": "external-button-state-reconcile-native-retry-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "source_hash": "653058:8b340daa",
+  "census": {
+    "affected_designators": ["SW1-RTC", "SW2-ESP", "SW3-ESP", "SW4-VAL"],
+    "footprint_uuid": "9205cc5758e83686",
+    "instance_model_binding": "metadata binding written; native model3D library UUID still requires repair",
+    "live_board_readback": "source captured after first bounded metadata binding write"
+  }
+}

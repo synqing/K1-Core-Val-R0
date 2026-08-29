@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-rot180-restamp-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "source_hash": "653178:271c830e",
+  "census": {
+    "characters": 653178,
+    "prior_gate_hash": "653178:06ffb1b2",
+    "u1_id": "0f194aaf30bc2e32",
+    "u1_sid": "C5250872",
+    "u1_mid": "GT-USB-7005A",
+    "u1_model": "e6946995a72f4deaa7b036359e4ff6e7",
+    "u1_title": "J1_GT-USB-7005A_yflip",
+    "u1_transform": "0, 236.220, 0, 0, 0, 0, 0, 0, 0",
+    "note": "Activate re-serialised the PCB after the rejected 6 mm probe. Same character count. No write in this restamp. Transform field 2 is sizeY=236.220 mil, which shrinks the body. This is not a seating claim."
+  }
+}

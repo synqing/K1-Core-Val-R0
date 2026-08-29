@@ -1,0 +1,273 @@
+[
+  {
+    "tool": "get_current_context",
+    "tag": "pre-ctx",
+    "args": {}
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "des-U20-USB",
+    "args": {
+      "primitiveId": "92edd0bd8901c171",
+      "designator": "U20-USB",
+      "name": "USB2422T-I/MJ",
+      "supplier": "LCSC",
+      "supplierId": "C622610",
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "des-Y3-USB",
+    "args": {
+      "primitiveId": "736247481f2dd650",
+      "designator": "Y3-USB",
+      "name": "X322524MSB4SI",
+      "supplier": "LCSC",
+      "supplierId": "C15643",
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "des-R77-USB",
+    "args": {
+      "primitiveId": "6c4b8e5918c0e1f0",
+      "designator": "R77-USB",
+      "name": "12k",
+      "supplier": "LCSC",
+      "supplierId": "C25752",
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "des-R78-USB",
+    "args": {
+      "primitiveId": "a60d36245cbf4e86",
+      "designator": "R78-USB",
+      "name": "100k",
+      "supplier": "LCSC",
+      "supplierId": "C25741",
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "des-R79-USB",
+    "args": {
+      "primitiveId": "d7ed808dd32d71fa",
+      "designator": "R79-USB",
+      "name": "100k",
+      "supplier": "LCSC",
+      "supplierId": "C25741",
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "des-R80-USB",
+    "args": {
+      "primitiveId": "f6a62bb1e7d23ff6",
+      "designator": "R80-USB",
+      "name": "4.7k",
+      "supplier": "LCSC",
+      "supplierId": "C25900",
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "des-R87-USB",
+    "args": {
+      "primitiveId": "109c559e17398f80",
+      "designator": "R87-USB",
+      "name": "10k",
+      "supplier": "LCSC",
+      "supplierId": "C25744",
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "des-R88-USB",
+    "args": {
+      "primitiveId": "fc944770c8a600b3",
+      "designator": "R88-USB",
+      "name": "10k",
+      "supplier": "LCSC",
+      "supplierId": "C25744",
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "des-R89-USB",
+    "args": {
+      "primitiveId": "859dc25a82d72494",
+      "designator": "R89-USB",
+      "name": "10k",
+      "supplier": "LCSC",
+      "supplierId": "C25744",
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "des-R90-USB",
+    "args": {
+      "primitiveId": "0a971b6f27ac9f41",
+      "designator": "R90-USB",
+      "name": "10k",
+      "supplier": "LCSC",
+      "supplierId": "C25744",
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "des-R91-USB",
+    "args": {
+      "primitiveId": "d04486ae5c7116a8",
+      "designator": "R91-USB",
+      "name": "10k",
+      "supplier": "LCSC",
+      "supplierId": "C25744",
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "des-C100-USB",
+    "args": {
+      "primitiveId": "c483828709b8b49b",
+      "designator": "C100-USB",
+      "name": "1uF",
+      "supplier": "LCSC",
+      "supplierId": "C15849",
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "des-C101-USB",
+    "args": {
+      "primitiveId": "d51d670fb0acdc36",
+      "designator": "C101-USB",
+      "name": "100nF",
+      "supplier": "LCSC",
+      "supplierId": "C14663",
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "des-C102-USB",
+    "args": {
+      "primitiveId": "6718c810f2448d6c",
+      "designator": "C102-USB",
+      "name": "12pF",
+      "supplier": "LCSC",
+      "supplierId": "C1547",
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "des-C103-USB",
+    "args": {
+      "primitiveId": "d7f20978650e2f1d",
+      "designator": "C103-USB",
+      "name": "12pF",
+      "supplier": "LCSC",
+      "supplierId": "C1547",
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "des-C104-USB",
+    "args": {
+      "primitiveId": "930c9f07728120be",
+      "designator": "C104-USB",
+      "name": "100nF",
+      "supplier": "LCSC",
+      "supplierId": "C14663",
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "des-C105-USB",
+    "args": {
+      "primitiveId": "3fddf470f1772050",
+      "designator": "C105-USB",
+      "name": "1uF",
+      "supplier": "LCSC",
+      "supplierId": "C15849",
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "des-C106-USB",
+    "args": {
+      "primitiveId": "d4fba08559bea7f9",
+      "designator": "C106-USB",
+      "name": "100nF",
+      "supplier": "LCSC",
+      "supplierId": "C14663",
+      "addIntoPcb": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "modify_schematic_component",
+    "tag": "des-C107-USB",
+    "args": {
+      "primitiveId": "c70e548c3d1f4881",
+      "designator": "C107-USB",
+      "name": "100nF",
+      "supplier": "LCSC",
+      "supplierId": "C14663",
+      "addIntoPcb": false,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

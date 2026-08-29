@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>J1 GT-USB-7005A recommended land pattern</title>
+<style>
+  body { font: 15px/1.4 ui-sans-serif, system-ui, sans-serif; margin: 24px; color: #111; background: #f7f5f0; }
+  h1 { font-size: 20px; margin: 0 0 8px; }
+  .meta { color: #444; margin-bottom: 16px; max-width: 840px; }
+  svg { background: #fff; border: 1px solid #ccc; display: block; }
+  .note { max-width: 840px; margin-top: 16px; }
+</style>
+</head>
+<body>
+<h1>J1 GT-USB-7005A — recommended land pattern</h1>
+<p class="meta">Scale <strong>28 px = 1 mm</strong>. Frame: X = 0 centreline, Y = 0 A-row centres, +Y into the board (drawn up). Mating edge at the bottom (Y = −5.10). Tolerance ±0.05 mm. D-012 stays 1.60 mm. EasyEDA cache is not a source.</p>
+<svg width="560" height="400" viewBox="0 0 560 400" role="img" aria-label="To-scale GT-USB-7005A land pattern, 28 pixels per millimetre">
+  <!-- origin: (260, 80) = (X=0 mm, Y=+2 mm); x=260+28X; y=80+28(2-Y) -->
+
+  <!-- cutout 9.50 wide, 5.10 deep from A-row; inner 6.24 shown dashed -->
+  <rect x="127" y="136" width="266" height="142.8" fill="#f3eee3" stroke="#6a5a30"/>
+  <rect x="172.6" y="136" width="174.7" height="50" fill="none" stroke="#6a5a30" stroke-dasharray="4 3"/>
+  <text x="260" y="295" font-size="11" text-anchor="middle">cutout 9.50 × 5.10 from A-row; inner 6.24 dashed; R0.30</text>
+
+  <!-- A-row 0.35 × 0.92, centres Y=0, X=±0.25…±2.75 -->
+  <g fill="#c9a227" stroke="#5a4a10">
+    <rect x="178.1" y="123.1" width="9.8" height="25.8"/>
+    <rect x="192.1" y="123.1" width="9.8" height="25.8"/>
+    <rect x="206.1" y="123.1" width="9.8" height="25.8"/>
+    <rect x="220.1" y="123.1" width="9.8" height="25.8"/>
+    <rect x="234.1" y="123.1" width="9.8" height="25.8"/>
+    <rect x="248.1" y="123.1" width="9.8" height="25.8"/>
+    <rect x="262.1" y="123.1" width="9.8" height="25.8"/>
+    <rect x="276.1" y="123.1" width="9.8" height="25.8"/>
+    <rect x="290.1" y="123.1" width="9.8" height="25.8"/>
+    <rect x="304.1" y="123.1" width="9.8" height="25.8"/>
+    <rect x="318.1" y="123.1" width="9.8" height="25.8"/>
+    <rect x="332.1" y="123.1" width="9.8" height="25.8"/>
+  </g>
+  <text x="178" y="118" font-size="10">A1</text>
+  <text x="332" y="118" font-size="10">A12</text>
+  <text x="420" y="140" font-size="11">A-row SMT Y=0  0.35×0.92</text>
+
+  <!-- locators Ø0.75 at ±3.45, Y=−1.10 -->
+  <circle cx="163.4" cy="166.8" r="10.5" fill="#fff" stroke="#333"/>
+  <circle cx="356.6" cy="166.8" r="10.5" fill="#fff" stroke="#333"/>
+  <text x="420" y="170" font-size="11">Ø0.75 NPTH Y=−1.10</text>
+
+  <!-- upper B Ø0.40 Y=−1.80 -->
+  <g fill="#fff" stroke="#06c">
+    <circle cx="172.6" cy="186.4" r="5.6"/>
+    <circle cx="223.6" cy="186.4" r="5.6"/>
+    <circle cx="241.8" cy="186.4" r="5.6"/>
+    <circle cx="278.2" cy="186.4" r="5.6"/>
+    <circle cx="296.4" cy="186.4" r="5.6"/>
+    <circle cx="347.4" cy="186.4" r="5.6"/>
+  </g>
+  <text x="420" y="190" font-size="11" fill="#06c">B upper Ø0.40 Y=−1.80</text>
+
+  <!-- lower B Ø0.40 Y=−2.70 -->
+  <g fill="#fff" stroke="#06c">
+    <circle cx="190.0" cy="211.6" r="5.6"/>
+    <circle cx="212.4" cy="211.6" r="5.6"/>
+    <circle cx="236.2" cy="211.6" r="5.6"/>
+    <circle cx="283.8" cy="211.6" r="5.6"/>
+    <circle cx="307.6" cy="211.6" r="5.6"/>
+    <circle cx="330.0" cy="211.6" r="5.6"/>
+  </g>
+  <text x="420" y="216" font-size="11" fill="#06c">B lower Ø0.40 Y=−2.70</text>
+
+  <!-- rear tabs 1.00 × 1.50 at ±6.075, Y=−1.95 -->
+  <rect x="75.9" y="169.6" width="28.0" height="42.0" fill="#ddd" stroke="#222"/>
+  <rect x="416.1" y="169.6" width="28.0" height="42.0" fill="#ddd" stroke="#222"/>
+  <!-- front tabs 1.00 × 2.00 at ±6.075, Y=−5.80 -->
+  <rect x="75.9" y="270.4" width="28.0" height="56.0" fill="#ddd" stroke="#222"/>
+  <rect x="416.1" y="270.4" width="28.0" height="56.0" fill="#ddd" stroke="#222"/>
+  <text x="20" y="200" font-size="10">TAB Y=−1.95</text>
+  <text x="20" y="310" font-size="10">TAB Y=−5.80</text>
+
+  <text x="20" y="350" font-size="12">Insertion axis: into the board, CH 0.40 mm below PCB top. Four tabs to GND.</text>
+  <text x="20" y="368" font-size="12">A previous table with one B-row at Y=−1.15 is withdrawn.</text>
+</svg>
+<p class="note">Appendix. Bind letter: <code>H0-CLOSE.md</code>. Coordinate table: <code>J1-GT-USB-7005A-FOOTPRINT-REBUILD.md</code>.</p>
+</body>
+</html>

@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07l-and-island-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2926794:f3bea75f",
+  "post_source_hash": "2938531:83c5a4e9",
+  "saved": true,
+  "affected": [
+    {"net": "USB_5V_VALID", "members": ["U23.1", "U24.3", "U25.3"], "source_hits": 6},
+    {"net": "3V3", "members": ["U24.5", "U25.5", "C124.1", "C125.1"]},
+    {"net": "GND", "members": ["U24.2", "U25.2", "C124.2", "C125.2"]}
+  ],
+  "census": {
+    "components": 323,
+    "wires": 794,
+    "components_delta": 0,
+    "wires_delta": 1
+  },
+  "note": "Wired by datasheet pin number. LCSC names pin2 B and pin3 GND; those names were ignored.",
+  "observed": "AND island powered. USB_5V_VALID on U24.3 and U25.3. Pin 1 and pin 4 left open for PRTPWR and EN. Hub 41c8e652."
+}

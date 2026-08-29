@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "g22-hold-lane-open-reconcile-2026-08-29",
+  "project_uuid": "55ed9ee948734a0e903f37744b51f3b8",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Lane-open reconciliation on HOLD 55ed9ee9. Confirm EasyEDA is on K1-Core-Val-R0-G2.2-READABLE-HOLD, one schematic page, not live product, no mutation this step.",
+  "observed_delta": "EasyEDA chrome title is K1-Core-Val-R0-G2.2-READABLE-HOLD. P1 Schematic1 is the active tab. The visible canvas is the USB-hub island with real library symbols and orthogonal wires, not an HTML drawing and not the live K1-Core-Val-R0 product title.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/g22-hold-lane/screenshots/lane-open-before.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "HOLD project chrome is visible",
+      "result": "OK",
+      "detail": "Window title reads K1-Core-Val-R0-G2.2-READABLE-HOLD | JLCEDA Pro."
+    },
+    {
+      "name": "one schematic tab",
+      "result": "OK",
+      "detail": "Active tab is P1: Schematic1. No second electrical sheet."
+    },
+    {
+      "name": "canvas shows real schematic symbols",
+      "result": "OK",
+      "detail": "USB2422-class IC, passives and orthogonal wires are on the grid, not labelled HTML rectangles."
+    },
+    {
+      "name": "not the live product project",
+      "result": "OK",
+      "detail": "Chrome does not read K1-Core-Val-R0 without the G2.2-READABLE-HOLD suffix."
+    }
+  ]
+}

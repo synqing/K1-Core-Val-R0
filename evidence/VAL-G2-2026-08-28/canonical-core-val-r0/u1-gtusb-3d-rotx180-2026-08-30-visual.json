@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-gtusb-3d-rotx180-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "U1 only: keep original J1_GT-USB-7005A mesh 7e3f17b4 and set 3D Model Transform to 0, 0, 0, 0, 180, 0, 0, 0, 0 (rotX 180, rotY cleared to 0, native/auto size, offsets 0). Do not stack leftover rotY. Do not remesh, do not retouch U6, USB2, caps, TVS or audio.",
+  "observed_delta": "Semantic write landed: U1 still 7e3f17b4, transform 0, 0, 0, 0, 180, 0, 0, 0, 0, rotY cleared, U6 and D1 untouched. Pixels reject. Tight board crop of the top view: U1 silk and pads visible, no shell on the top face. Front/edge: grey shell inverted under the board with a gap. Tight top zoom missed (wrong component). No offZ: still inverted, so this turn stops.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-rotx180-edge.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [
+    "rotX 180 left the shell inverted under the board; U1 top pads are empty"
+  ],
+  "verdict": "REJECTED",
+  "checks": [
+    {"name": "U1 remains C5250872 / GT-USB-7005A", "result": "OK", "detail": "Primitive 0f194aaf30bc2e32, C5250872 / GT-USB-7005A unchanged."},
+    {"name": "Original J1_GT-USB-7005A 7e3f17b4 still bound at native size", "result": "OK", "detail": "Model uuid 7e3f17b4; size fields 0,0,0."},
+    {"name": "Transform is rotX 180 with size 0,0,0 and offsets 0,0,0", "result": "OK", "detail": "Read-back 0, 0, 0, 0, 180, 0, 0, 0, 0. Leftover rotY cleared."},
+    {"name": "U6-RTC 3D model and transform unchanged", "result": "OK", "detail": "de5664fd / 0, 0, 0, 0, 0, 0, 0, 0, 0."},
+    {"name": "D1-PWR1 TVS 3D model and transform unchanged", "result": "OK", "detail": "1370be37 / 110.236,113.364,0,90,0,0,0.0005,0.0005,0."},
+    {"name": "Mouth faces the board-edge cut-out and shell is right-way-up", "result": "DEFECT", "detail": "Shell inverted under the board on the edge view. Top-side U1 pads empty. Not seated. Stop."}
+  ]
+}

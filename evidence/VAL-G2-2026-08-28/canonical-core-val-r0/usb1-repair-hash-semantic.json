@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "transaction_id": "usb1-3d-save-hash-reconcile-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "source_hash": "658063:bbbf29c1",
+  "saved": true,
+  "census": {
+    "characters": 658063,
+    "usb1_transform": "448.8179849815368,328.7394915521145,145.27529755949973,0,0,0,0,0,-80.315",
+    "prior_hash": "658063:de31a8d1",
+    "note": "Same character count; host re-serialised PCB source after save"
+  }
+}

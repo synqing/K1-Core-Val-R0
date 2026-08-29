@@ -1,0 +1,651 @@
+{
+  "opened": "db6aa4d157814027bb31dae8aae789aa@27700277ef7a49e48a0293bece6b2993",
+  "created": [
+    {
+      "n": "A1",
+      "kind": "SMD",
+      "ok": true
+    },
+    {
+      "n": "A2",
+      "kind": "SMD",
+      "ok": true
+    },
+    {
+      "n": "A3",
+      "kind": "SMD",
+      "ok": true
+    },
+    {
+      "n": "A4",
+      "kind": "SMD",
+      "ok": true
+    },
+    {
+      "n": "A5",
+      "kind": "SMD",
+      "ok": true
+    },
+    {
+      "n": "A6",
+      "kind": "SMD",
+      "ok": true
+    },
+    {
+      "n": "A7",
+      "kind": "SMD",
+      "ok": true
+    },
+    {
+      "n": "A8",
+      "kind": "SMD",
+      "ok": true
+    },
+    {
+      "n": "A9",
+      "kind": "SMD",
+      "ok": true
+    },
+    {
+      "n": "A10",
+      "kind": "SMD",
+      "ok": true
+    },
+    {
+      "n": "A11",
+      "kind": "SMD",
+      "ok": true
+    },
+    {
+      "n": "A12",
+      "kind": "SMD",
+      "ok": true
+    },
+    {
+      "n": "B1",
+      "kind": "TH",
+      "ok": true
+    },
+    {
+      "n": "B2",
+      "kind": "TH",
+      "ok": true
+    },
+    {
+      "n": "B3",
+      "kind": "TH",
+      "ok": true
+    },
+    {
+      "n": "B4",
+      "kind": "TH",
+      "ok": true
+    },
+    {
+      "n": "B5",
+      "kind": "TH",
+      "ok": true
+    },
+    {
+      "n": "B6",
+      "kind": "TH",
+      "ok": true
+    },
+    {
+      "n": "B7",
+      "kind": "TH",
+      "ok": true
+    },
+    {
+      "n": "B8",
+      "kind": "TH",
+      "ok": true
+    },
+    {
+      "n": "B9",
+      "kind": "TH",
+      "ok": true
+    },
+    {
+      "n": "B10",
+      "kind": "TH",
+      "ok": true
+    },
+    {
+      "n": "B11",
+      "kind": "TH",
+      "ok": true
+    },
+    {
+      "n": "B12",
+      "kind": "TH",
+      "ok": true
+    },
+    {
+      "n": "S1",
+      "kind": "SLOT",
+      "ok": true
+    },
+    {
+      "n": "S2",
+      "kind": "SLOT",
+      "ok": true
+    },
+    {
+      "n": "S3",
+      "kind": "SLOT",
+      "ok": true
+    },
+    {
+      "n": "S4",
+      "kind": "SLOT",
+      "ok": true
+    },
+    {
+      "n": "H1",
+      "kind": "NPTH",
+      "ok": true
+    },
+    {
+      "n": "H2",
+      "kind": "NPTH",
+      "ok": true
+    }
+  ],
+  "saved": true,
+  "padCount": 30,
+  "pads": [
+    {
+      "id": "911307e01ec10c24",
+      "num": "A1",
+      "x": -2.75,
+      "y": 0,
+      "pad": [
+        "RECT",
+        0.4,
+        1,
+        0
+      ],
+      "hole": null,
+      "layer": 1,
+      "metal": true
+    },
+    {
+      "id": "90642d03fc4096bc",
+      "num": "A2",
+      "x": -2.25,
+      "y": 0,
+      "pad": [
+        "RECT",
+        0.4,
+        1,
+        0
+      ],
+      "hole": null,
+      "layer": 1,
+      "metal": true
+    },
+    {
+      "id": "a2bdbe2c8ab62357",
+      "num": "A3",
+      "x": -1.75,
+      "y": 0,
+      "pad": [
+        "RECT",
+        0.4,
+        1,
+        0
+      ],
+      "hole": null,
+      "layer": 1,
+      "metal": true
+    },
+    {
+      "id": "41aaa05e134ec00b",
+      "num": "A4",
+      "x": -1.25,
+      "y": 0,
+      "pad": [
+        "RECT",
+        0.4,
+        1,
+        0
+      ],
+      "hole": null,
+      "layer": 1,
+      "metal": true
+    },
+    {
+      "id": "f716edc58fd34693",
+      "num": "A5",
+      "x": -0.75,
+      "y": 0,
+      "pad": [
+        "RECT",
+        0.4,
+        1,
+        0
+      ],
+      "hole": null,
+      "layer": 1,
+      "metal": true
+    },
+    {
+      "id": "a0c20d87337db862",
+      "num": "A6",
+      "x": -0.25,
+      "y": 0,
+      "pad": [
+        "RECT",
+        0.4,
+        1,
+        0
+      ],
+      "hole": null,
+      "layer": 1,
+      "metal": true
+    },
+    {
+      "id": "9c4ae9e2a0e85a74",
+      "num": "A7",
+      "x": 0.25,
+      "y": 0,
+      "pad": [
+        "RECT",
+        0.4,
+        1,
+        0
+      ],
+      "hole": null,
+      "layer": 1,
+      "metal": true
+    },
+    {
+      "id": "d8acbcf3137bb13d",
+      "num": "A8",
+      "x": 0.75,
+      "y": 0,
+      "pad": [
+        "RECT",
+        0.4,
+        1,
+        0
+      ],
+      "hole": null,
+      "layer": 1,
+      "metal": true
+    },
+    {
+      "id": "2c899923782f6289",
+      "num": "A9",
+      "x": 1.25,
+      "y": 0,
+      "pad": [
+        "RECT",
+        0.4,
+        1,
+        0
+      ],
+      "hole": null,
+      "layer": 1,
+      "metal": true
+    },
+    {
+      "id": "4566f40b615bca41",
+      "num": "A10",
+      "x": 1.75,
+      "y": 0,
+      "pad": [
+        "RECT",
+        0.4,
+        1,
+        0
+      ],
+      "hole": null,
+      "layer": 1,
+      "metal": true
+    },
+    {
+      "id": "26b547bd1fe243a1",
+      "num": "A11",
+      "x": 2.25,
+      "y": 0,
+      "pad": [
+        "RECT",
+        0.4,
+        1,
+        0
+      ],
+      "hole": null,
+      "layer": 1,
+      "metal": true
+    },
+    {
+      "id": "62cf56df0aca2c54",
+      "num": "A12",
+      "x": 2.75,
+      "y": 0,
+      "pad": [
+        "RECT",
+        0.4,
+        1,
+        0
+      ],
+      "hole": null,
+      "layer": 1,
+      "metal": true
+    },
+    {
+      "id": "59a0c1b795a39b45",
+      "num": "B1",
+      "x": -2.75,
+      "y": -1.15,
+      "pad": [
+        "ELLIPSE",
+        0.8,
+        0.8
+      ],
+      "hole": [
+        "ROUND",
+        0.4
+      ],
+      "layer": 12,
+      "metal": true
+    },
+    {
+      "id": "190e9147515b8d21",
+      "num": "B2",
+      "x": -2.25,
+      "y": -1.15,
+      "pad": [
+        "ELLIPSE",
+        0.8,
+        0.8
+      ],
+      "hole": [
+        "ROUND",
+        0.4
+      ],
+      "layer": 12,
+      "metal": true
+    },
+    {
+      "id": "924c01fe0689b2bc",
+      "num": "B3",
+      "x": -1.75,
+      "y": -1.15,
+      "pad": [
+        "ELLIPSE",
+        0.8,
+        0.8
+      ],
+      "hole": [
+        "ROUND",
+        0.4
+      ],
+      "layer": 12,
+      "metal": true
+    },
+    {
+      "id": "f3200c873c6c31bb",
+      "num": "B4",
+      "x": -1.25,
+      "y": -1.15,
+      "pad": [
+        "ELLIPSE",
+        0.8,
+        0.8
+      ],
+      "hole": [
+        "ROUND",
+        0.4
+      ],
+      "layer": 12,
+      "metal": true
+    },
+    {
+      "id": "a02021f32e8efb69",
+      "num": "B5",
+      "x": -0.75,
+      "y": -1.15,
+      "pad": [
+        "ELLIPSE",
+        0.8,
+        0.8
+      ],
+      "hole": [
+        "ROUND",
+        0.4
+      ],
+      "layer": 12,
+      "metal": true
+    },
+    {
+      "id": "926e5c3e823ebaa7",
+      "num": "B6",
+      "x": -0.25,
+      "y": -1.15,
+      "pad": [
+        "ELLIPSE",
+        0.8,
+        0.8
+      ],
+      "hole": [
+        "ROUND",
+        0.4
+      ],
+      "layer": 12,
+      "metal": true
+    },
+    {
+      "id": "b71079b67938287c",
+      "num": "B7",
+      "x": 0.25,
+      "y": -1.15,
+      "pad": [
+        "ELLIPSE",
+        0.8,
+        0.8
+      ],
+      "hole": [
+        "ROUND",
+        0.4
+      ],
+      "layer": 12,
+      "metal": true
+    },
+    {
+      "id": "7e52905b8a9c42ec",
+      "num": "B8",
+      "x": 0.75,
+      "y": -1.15,
+      "pad": [
+        "ELLIPSE",
+        0.8,
+        0.8
+      ],
+      "hole": [
+        "ROUND",
+        0.4
+      ],
+      "layer": 12,
+      "metal": true
+    },
+    {
+      "id": "cd93a9ab0289bc98",
+      "num": "B9",
+      "x": 1.25,
+      "y": -1.15,
+      "pad": [
+        "ELLIPSE",
+        0.8,
+        0.8
+      ],
+      "hole": [
+        "ROUND",
+        0.4
+      ],
+      "layer": 12,
+      "metal": true
+    },
+    {
+      "id": "d722d41e660dee91",
+      "num": "B10",
+      "x": 1.75,
+      "y": -1.15,
+      "pad": [
+        "ELLIPSE",
+        0.8,
+        0.8
+      ],
+      "hole": [
+        "ROUND",
+        0.4
+      ],
+      "layer": 12,
+      "metal": true
+    },
+    {
+      "id": "3494bc963fae712c",
+      "num": "B11",
+      "x": 2.25,
+      "y": -1.15,
+      "pad": [
+        "ELLIPSE",
+        0.8,
+        0.8
+      ],
+      "hole": [
+        "ROUND",
+        0.4
+      ],
+      "layer": 12,
+      "metal": true
+    },
+    {
+      "id": "e187310a8435a45a",
+      "num": "B12",
+      "x": 2.75,
+      "y": -1.15,
+      "pad": [
+        "ELLIPSE",
+        0.8,
+        0.8
+      ],
+      "hole": [
+        "ROUND",
+        0.4
+      ],
+      "layer": 12,
+      "metal": true
+    },
+    {
+      "id": "34fe5c69e69c5a38",
+      "num": "S1",
+      "x": -6.075,
+      "y": -1.9500000000000002,
+      "pad": [
+        "OVAL",
+        1.2,
+        2.2
+      ],
+      "hole": [
+        "SLOT",
+        1,
+        1.9500000000000002
+      ],
+      "layer": 12,
+      "metal": true
+    },
+    {
+      "id": "247ed2905f24dbdd",
+      "num": "S2",
+      "x": 6.075,
+      "y": -1.9500000000000002,
+      "pad": [
+        "OVAL",
+        1.2,
+        2.2
+      ],
+      "hole": [
+        "SLOT",
+        1,
+        1.9500000000000002
+      ],
+      "layer": 12,
+      "metal": true
+    },
+    {
+      "id": "7e719676beb0c567",
+      "num": "S3",
+      "x": -6.075,
+      "y": -5.8,
+      "pad": [
+        "OVAL",
+        1.7,
+        1.2
+      ],
+      "hole": [
+        "SLOT",
+        1.5,
+        1.5
+      ],
+      "layer": 12,
+      "metal": true
+    },
+    {
+      "id": "3118bfb5e2724da7",
+      "num": "S4",
+      "x": 6.075,
+      "y": -5.8,
+      "pad": [
+        "OVAL",
+        1.7,
+        1.2
+      ],
+      "hole": [
+        "SLOT",
+        1.5,
+        1.5
+      ],
+      "layer": 12,
+      "metal": true
+    },
+    {
+      "id": "171e51f545b89ef4",
+      "num": "H1",
+      "x": -3.45,
+      "y": -0.8999999999999999,
+      "pad": [
+        "ELLIPSE",
+        0.8,
+        0.8
+      ],
+      "hole": [
+        "ROUND",
+        0.75
+      ],
+      "layer": 12,
+      "metal": false
+    },
+    {
+      "id": "6b01fa88cdde0855",
+      "num": "H2",
+      "x": 3.45,
+      "y": -0.8999999999999999,
+      "pad": [
+        "ELLIPSE",
+        0.8,
+        0.8
+      ],
+      "hole": [
+        "ROUND",
+        0.75
+      ],
+      "layer": 12,
+      "metal": false
+    }
+  ],
+  "cutout": false,
+  "cutoutErr": "错误：无法创建多边形图元，可能是传入的参数不正确。"
+}

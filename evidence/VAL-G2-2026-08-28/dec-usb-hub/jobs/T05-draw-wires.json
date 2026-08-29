@@ -1,0 +1,15 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "add_schematic_wire", "tag": "3v3-rail", "args": {"line": [200, 700, 750, 700], "net": "3V3", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "gnd-rail", "args": {"line": [200, 1140, 750, 1140], "net": "GND", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "p1-3v3", "args": {"line": [230, 850, 230, 700], "net": "3V3", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "p9-3v3", "args": {"line": [230, 770, 230, 700], "net": "3V3", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "p18-3v3", "args": {"line": [570, 790, 570, 700], "net": "3V3", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "epad-gnd", "args": {"line": [570, 860, 570, 1140], "net": "GND", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "c104-3v3", "args": {"line": [500, 1100, 500, 700], "net": "3V3", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "c104-gnd", "args": {"line": [540, 1100, 540, 1140], "net": "GND", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "c105-3v3", "args": {"line": [580, 1100, 580, 700], "net": "3V3", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "c105-gnd", "args": {"line": [620, 1100, 620, 1140], "net": "GND", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "c106-3v3", "args": {"line": [660, 1100, 660, 700], "net": "3V3", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "c106-gnd", "args": {"line": [700, 1100, 700, 1140], "net": "GND", "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

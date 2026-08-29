@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T11-dn1-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "3026989:a8c21bfa",
+  "post_source_hash": "3030863:028f005a",
+  "saved": true,
+  "affected": [
+    {"net": "USB_DP_DN1", "u20_pin": 4, "u6": "L8", "wires": ["7a4f75c51ccdfc66", "815101f08d910e66"]},
+    {"net": "USB_DM_DN1", "u20_pin": 3, "u6": "M8", "wires": ["4c956d486107f457", "66df66f13a54d053"]},
+    {"note": "OPT_USB_AUD remains at VAL strap 4015,3100. M6/M7 not on DN1."}
+  ],
+  "census": {
+    "components": 330,
+    "wires": 804,
+    "components_delta": 0,
+    "wires_delta": 4
+  },
+  "observed": "U20 pins 4/3 stubbed to USB_DP_DN1/USB_DM_DN1. U6 L8/M8 on those nets. OPT_USB_AUD not on those balls. Hub 41c8e652."
+}

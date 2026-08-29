@@ -1,0 +1,578 @@
+{
+  "doc": {
+    "documentType": 4,
+    "uuid": "0c8e199e56e60728",
+    "tabId": "0c8e199e56e60728@64325d0e55e0435abd018defb0089a9b",
+    "parentLibraryUuid": "27700277ef7a49e48a0293bece6b2993"
+  },
+  "sourceLen": 74332,
+  "has3DModel": false,
+  "primitiveSample": [
+    "{\"type\":\"PRIMITIVE\",\"ticket\":89,\"id\":\"[\\\"PRIMITIVE\\\",\\\"ALL\\\"]\"}||{\"display\":true,\"pick\":true}|",
+    "{\"type\":\"PRIMITIVE\",\"ticket\":90,\"id\":\"[\\\"PRIMITIVE\\\",\\\"COMPONENT\\\"]\"}||{\"display\":true,\"pick\":true}|",
+    "{\"type\":\"PRIMITIVE\",\"ticket\":91,\"id\":\"[\\\"PRIMITIVE\\\",\\\"PROPERTY\\\"]\"}||{\"display\":true,\"pick\":true}|",
+    "{\"type\":\"PRIMITIVE\",\"ticket\":92,\"id\":\"[\\\"PRIMITIVE\\\",\\\"COMPONENTSILK\\\"]\"}||{\"display\":true,\"pick\":true}|",
+    "{\"type\":\"PRIMITIVE\",\"ticket\":93,\"id\":\"[\\\"PRIMITIVE\\\",\\\"TRACK\\\"]\"}||{\"display\":true,\"pick\":true}|",
+    "{\"type\":\"PRIMITIVE\",\"ticket\":94,\"id\":\"[\\\"PRIMITIVE\\\",\\\"VIA\\\"]\"}||{\"display\":true,\"pick\":true}|",
+    "{\"type\":\"PRIMITIVE\",\"ticket\":95,\"id\":\"[\\\"PRIMITIVE\\\",\\\"TESTPOINT\\\"]\"}||{\"display\":true,\"pick\":true}|",
+    "{\"type\":\"PRIMITIVE\",\"ticket\":96,\"id\":\"[\\\"PRIMITIVE\\\",\\\"PAD\\\"]\"}||{\"display\":true,\"pick\":true}|"
+  ],
+  "modelishLines": [
+    "{\"type\":\"LAYER\",\"ticket\":53,\"id\":\"[\\\"LAYER\\\",52]\"}||{\"layerId\":52,\"layerType\":\"COMPONENT_MODEL\",\"layerName\":\"Component Model Layer\",\"use\":false,\"show\":false,\"locked\":false,\"activeColor\":\"#ffffff\",\"activateTransparency\":1,\"inactiveColor\":\"#7",
+    "{\"type\":\"LAYER\",\"ticket\":54,\"id\":\"[\\\"LAYER\\\",53]\"}||{\"layerId\":53,\"layerType\":\"3D_SHELL_OUTLINE\",\"layerName\":\"3D Shell Outline Layer\",\"use\":true,\"show\":true,\"locked\":false,\"activeColor\":\"#66ff99\",\"activateTransparency\":1,\"inactiveColor\":\"#3",
+    "{\"type\":\"LAYER\",\"ticket\":55,\"id\":\"[\\\"LAYER\\\",54]\"}||{\"layerId\":54,\"layerType\":\"3D_SHELL_TOP\",\"layerName\":\"3D Shell Top Layer\",\"use\":true,\"show\":true,\"locked\":false,\"activeColor\":\"#ffccff\",\"activateTransparency\":1,\"inactiveColor\":\"#7f667f\",\"",
+    "{\"type\":\"LAYER\",\"ticket\":56,\"id\":\"[\\\"LAYER\\\",55]\"}||{\"layerId\":55,\"layerType\":\"3D_SHELL_BOTTOM\",\"layerName\":\"3D Shell Bottom Layer\",\"use\":true,\"show\":true,\"locked\":false,\"activeColor\":\"#0066cc\",\"activateTransparency\":1,\"inactiveColor\":\"#003",
+    "{\"type\":\"PAD\",\"ticket\":129,\"id\":\"e43\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"G2\",\"centerX\":154.33,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":15.748,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"p",
+    "{\"type\":\"PAD\",\"ticket\":130,\"id\":\"e44\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"B1\",\"centerX\":133.86,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":7.874,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"pa",
+    "{\"type\":\"PAD\",\"ticket\":131,\"id\":\"e45\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"B2\",\"centerX\":118.11,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":7.874,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"pa",
+    "{\"type\":\"PAD\",\"ticket\":132,\"id\":\"e46\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"B3\",\"centerX\":102.36,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":7.874,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"pa",
+    "{\"type\":\"PAD\",\"ticket\":133,\"id\":\"e47\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"A12\",\"centerX\":86.62,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":7.874,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"pa",
+    "{\"type\":\"PAD\",\"ticket\":134,\"id\":\"e48\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"A11\",\"centerX\":70.87,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":7.874,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"pa",
+    "{\"type\":\"PAD\",\"ticket\":135,\"id\":\"e49\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"A10\",\"centerX\":55.12,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":7.874,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"pa",
+    "{\"type\":\"PAD\",\"ticket\":136,\"id\":\"e50\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"A9\",\"centerX\":39.37,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":7.874,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"pad",
+    "{\"type\":\"PAD\",\"ticket\":137,\"id\":\"e51\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"A8\",\"centerX\":23.62,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":7.874,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"pad",
+    "{\"type\":\"PAD\",\"ticket\":138,\"id\":\"e52\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"A7\",\"centerX\":7.88,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":7.874,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"padO",
+    "{\"type\":\"PAD\",\"ticket\":139,\"id\":\"e53\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"A6\",\"centerX\":-7.87,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":7.874,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"pad",
+    "{\"type\":\"PAD\",\"ticket\":140,\"id\":\"e54\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"A5\",\"centerX\":-23.62,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":7.874,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"pa",
+    "{\"type\":\"PAD\",\"ticket\":141,\"id\":\"e55\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"A4\",\"centerX\":-39.37,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":7.874,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"pa",
+    "{\"type\":\"PAD\",\"ticket\":142,\"id\":\"e56\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"A3\",\"centerX\":-55.12,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":7.874,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"pa",
+    "{\"type\":\"PAD\",\"ticket\":143,\"id\":\"e57\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"A2\",\"centerX\":-70.86,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":7.874,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"pa",
+    "{\"type\":\"PAD\",\"ticket\":144,\"id\":\"e58\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"A1\",\"centerX\":-86.61,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":7.874,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"pa",
+    "{\"type\":\"PAD\",\"ticket\":145,\"id\":\"e59\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"B10\",\"centerX\":-102.36,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":7.874,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"",
+    "{\"type\":\"PAD\",\"ticket\":146,\"id\":\"e60\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"B11\",\"centerX\":-118.11,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":7.874,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"",
+    "{\"type\":\"PAD\",\"ticket\":147,\"id\":\"e61\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"B12\",\"centerX\":-133.86,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":7.874,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"",
+    "{\"type\":\"PAD\",\"ticket\":148,\"id\":\"e62\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":1,\"num\":\"G1\",\"centerX\":-153.94,\"centerY\":108.64,\"padAngle\":0,\"hole\":null,\"defaultPad\":{\"padType\":\"RECT\",\"width\":15.748,\"height\":33.465,\"radius\":0},\"specialPad\":[],\"",
+    "{\"type\":\"PAD\",\"ticket\":149,\"id\":\"e97\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":12,\"num\":\"S4\",\"centerX\":218.5,\"centerY\":-108.64,\"padAngle\":0,\"hole\":{\"holeType\":\"SLOT\",\"width\":66.92,\"height\":23.62},\"defaultPad\":{\"padType\":\"OVAL\",\"width\":47.24,\"h",
+    "{\"type\":\"PAD\",\"ticket\":150,\"id\":\"e98\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":12,\"num\":\"S3\",\"centerX\":-218.5,\"centerY\":-108.64,\"padAngle\":0,\"hole\":{\"holeType\":\"SLOT\",\"width\":66.92,\"height\":23.62},\"defaultPad\":{\"padType\":\"OVAL\",\"width\":47.24,\"",
+    "{\"type\":\"PAD\",\"ticket\":151,\"id\":\"e99\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":12,\"num\":\"S2\",\"centerX\":218.5,\"centerY\":90.16,\"padAngle\":0,\"hole\":{\"holeType\":\"SLOT\",\"width\":66.92,\"height\":23.62},\"defaultPad\":{\"padType\":\"OVAL\",\"width\":47.24,\"hei",
+    "{\"type\":\"PAD\",\"ticket\":152,\"id\":\"e100\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":12,\"num\":\"S1\",\"centerX\":-218.5,\"centerY\":90.16,\"padAngle\":0,\"hole\":{\"holeType\":\"SLOT\",\"width\":66.92,\"height\":23.62},\"defaultPad\":{\"padType\":\"OVAL\",\"width\":47.24,\"h",
+    "{\"type\":\"PAD\",\"ticket\":153,\"id\":\"e101\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":12,\"num\":\"B4\",\"centerX\":78.739,\"centerY\":72.46,\"padAngle\":0,\"hole\":{\"holeType\":\"ROUND\",\"width\":15.748,\"height\":15.748},\"defaultPad\":{\"padType\":\"ELLIPSE\",\"width\":23",
+    "{\"type\":\"PAD\",\"ticket\":154,\"id\":\"e102\"}||{\"groupId\":0,\"netName\":\"\",\"layerId\":12,\"num\":\"B5\",\"centerX\":47.239,\"centerY\":72.46,\"padAngle\":0,\"hole\":{\"holeType\":\"ROUND\",\"width\":15.748,\"height\":15.748},\"defaultPad\":{\"padType\":\"ELLIPSE\",\"width\":23"
+  ],
+  "hits": [
+    {
+      "tag": "DIV",
+      "cls": "tab-pin_o3bJ-",
+      "title": "Auto Hide : Open",
+      "aria": null,
+      "text": "Auto Hide : Open"
+    },
+    {
+      "tag": "DIV",
+      "cls": "key_section_0u0Ra key_section",
+      "title": null,
+      "aria": null,
+      "text": "3D Model"
+    },
+    {
+      "tag": "DIV",
+      "cls": "key_text_t5fFL",
+      "title": "3D Model",
+      "aria": null,
+      "text": "3D Model"
+    },
+    {
+      "tag": "LABEL",
+      "cls": "",
+      "title": null,
+      "aria": null,
+      "text": "3D Model"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "",
+      "title": null,
+      "aria": null,
+      "text": "3D Model"
+    },
+    {
+      "tag": "INPUT",
+      "cls": "input_LMIeb",
+      "title": "<3D Model>",
+      "aria": null,
+      "text": "<3D Model>",
+      "input": {
+        "type": "text",
+        "value": "<3D Model>",
+        "name": ""
+      }
+    },
+    {
+      "tag": "DIV",
+      "cls": "tab-pin_o3bJ-",
+      "title": "Auto Hide : Open",
+      "aria": null,
+      "text": "Auto Hide : Open"
+    },
+    {
+      "tag": "DIV",
+      "cls": "property_6MCf8",
+      "title": null,
+      "aria": null,
+      "text": "Rotation ObjectsRotate the Selected Whole"
+    },
+    {
+      "tag": "DIV",
+      "cls": "key_section_0u0Ra key_section",
+      "title": null,
+      "aria": null,
+      "text": "Rotation Objects"
+    },
+    {
+      "tag": "DIV",
+      "cls": "key_text_t5fFL",
+      "title": "Rotation Objects",
+      "aria": null,
+      "text": "Rotation Objects"
+    },
+    {
+      "tag": "LABEL",
+      "cls": "",
+      "title": null,
+      "aria": null,
+      "text": "Rotation Objects"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "",
+      "title": null,
+      "aria": null,
+      "text": "Rotation Objects"
+    },
+    {
+      "tag": "DIV",
+      "cls": "property_6MCf8",
+      "title": null,
+      "aria": null,
+      "text": "Auto Trim SilkscreenYes"
+    },
+    {
+      "tag": "DIV",
+      "cls": "key_section_0u0Ra key_section",
+      "title": null,
+      "aria": null,
+      "text": "Auto Trim Silkscreen"
+    },
+    {
+      "tag": "DIV",
+      "cls": "key_text_t5fFL",
+      "title": "Auto Trim Silkscreen",
+      "aria": null,
+      "text": "Auto Trim Silkscreen"
+    },
+    {
+      "tag": "LABEL",
+      "cls": "",
+      "title": null,
+      "aria": null,
+      "text": "Auto Trim Silkscreen"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "",
+      "title": null,
+      "aria": null,
+      "text": "Auto Trim Silkscreen"
+    },
+    {
+      "tag": "DIV",
+      "cls": "tab-pin_o3bJ-",
+      "title": "Auto Hide : Open",
+      "aria": null,
+      "text": "Auto Hide : Open"
+    },
+    {
+      "tag": "DIV",
+      "cls": "left_lCS5E",
+      "title": null,
+      "aria": null,
+      "text": "DeviceSymbolFootprintReuse Block3D ModelPanel LibLCSC ElectronicsEasyEDA"
+    },
+    {
+      "tag": "DIV",
+      "cls": "container_itcH3",
+      "title": null,
+      "aria": null,
+      "text": "DeviceSymbolFootprintReuse Block3D ModelPanel Lib"
+    },
+    {
+      "tag": "UL",
+      "cls": "tab-wrap_6SoV8",
+      "title": null,
+      "aria": null,
+      "text": "DeviceSymbolFootprintReuse Block3D ModelPanel Lib"
+    },
+    {
+      "tag": "LI",
+      "cls": "",
+      "title": null,
+      "aria": null,
+      "text": "3D Model"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "active_HeJ6i",
+      "title": null,
+      "aria": null,
+      "text": "3D Model"
+    },
+    {
+      "tag": "DIV",
+      "cls": "table-container_wZElr",
+      "title": null,
+      "aria": null,
+      "text": "No.3D ModelCategoryUpdate TimeBelongLast modified byNo Data!"
+    },
+    {
+      "tag": "DIV",
+      "cls": "lc-table-container_ZxvXv",
+      "title": null,
+      "aria": null,
+      "text": "No.3D ModelCategoryUpdate TimeBelongLast modified byNo Data!"
+    },
+    {
+      "tag": "DIV",
+      "cls": "lc-table-header_IMJpL lc-table-header--fixed_FOSGl lc-table-header--border_E1XuM",
+      "title": null,
+      "aria": null,
+      "text": "No.3D ModelCategoryUpdate TimeBelongLast modified by"
+    },
+    {
+      "tag": "TABLE",
+      "cls": "lc-table_RqTIK lc-table--border_PeStY",
+      "title": null,
+      "aria": null,
+      "text": "No.3D ModelCategoryUpdate TimeBelongLast modified by"
+    },
+    {
+      "tag": "THEAD",
+      "cls": "",
+      "title": null,
+      "aria": null,
+      "text": "No.3D ModelCategoryUpdate TimeBelongLast modified by"
+    },
+    {
+      "tag": "TR",
+      "cls": "",
+      "title": null,
+      "aria": null,
+      "text": "No.3D ModelCategoryUpdate TimeBelongLast modified by"
+    },
+    {
+      "tag": "TH",
+      "cls": "",
+      "title": "3D Model",
+      "aria": null,
+      "text": "3D Model"
+    },
+    {
+      "tag": "DIV",
+      "cls": "",
+      "title": null,
+      "aria": null,
+      "text": "3D Model"
+    },
+    {
+      "tag": "DIV",
+      "cls": "th-cell_sSliD",
+      "title": null,
+      "aria": null,
+      "text": "3D Model"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "th-cell__left_iHIxu",
+      "title": null,
+      "aria": null,
+      "text": "3D Model"
+    },
+    {
+      "tag": "SPAN",
+      "cls": "th-cell__left-title_vBUN3",
+      "title": null,
+      "aria": null,
+      "text": "3D Model"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": "",
+      "placeholder": "",
+      "value": "on",
+      "aria": null,
+      "title": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": "",
+      "placeholder": "",
+      "value": "on",
+      "aria": null,
+      "title": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "Footprint",
+      "placeholder": "",
+      "value": "USB-TYPE-C-SMD_CX70M-24P1",
+      "aria": null,
+      "title": "USB-TYPE-C-SMD_CX70M-24P1"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "",
+      "placeholder": "",
+      "value": "",
+      "aria": null,
+      "title": ""
+    },
+    {
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "name": "",
+      "placeholder": "",
+      "value": ";SMD",
+      "aria": null,
+      "title": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": "",
+      "placeholder": "",
+      "value": "on",
+      "aria": null,
+      "title": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": "",
+      "placeholder": "",
+      "value": "on",
+      "aria": null,
+      "title": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "Designator",
+      "placeholder": "",
+      "value": "U?",
+      "aria": null,
+      "title": "U?"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": "",
+      "placeholder": "",
+      "value": "on",
+      "aria": null,
+      "title": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": "",
+      "placeholder": "",
+      "value": "on",
+      "aria": null,
+      "title": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "",
+      "placeholder": "",
+      "value": "<3D Model>",
+      "aria": null,
+      "title": "<3D Model>"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "",
+      "placeholder": "Type a command(ESC key to exit)",
+      "value": "",
+      "aria": null,
+      "title": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "",
+      "placeholder": "",
+      "value": "380%",
+      "aria": null,
+      "title": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "",
+      "placeholder": "",
+      "value": "0.254",
+      "aria": null,
+      "title": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "",
+      "placeholder": "",
+      "value": "2229%",
+      "aria": null,
+      "title": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "",
+      "placeholder": "",
+      "value": "0.254",
+      "aria": null,
+      "title": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "attr-multi-grid-ratio",
+      "placeholder": "",
+      "value": "5",
+      "aria": null,
+      "title": "5"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "attr-grid-size",
+      "placeholder": "",
+      "value": "0.254mm",
+      "aria": null,
+      "title": "0.254mm"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "attr-snap-size",
+      "placeholder": "",
+      "value": "0mm",
+      "aria": null,
+      "title": "0mm"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": "",
+      "placeholder": "",
+      "value": "on",
+      "aria": null,
+      "title": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "attr-alt-grid-size",
+      "placeholder": "",
+      "value": "1mm",
+      "aria": null,
+      "title": "1mm"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "attr-track-width",
+      "placeholder": "",
+      "value": "0.254mm",
+      "aria": null,
+      "title": "0.254mm"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "attr-track-minimum-corner",
+      "placeholder": "",
+      "value": "1",
+      "aria": null,
+      "title": "1"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "",
+      "placeholder": "Search, at lease 2 charaters",
+      "value": "",
+      "aria": null,
+      "title": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "",
+      "placeholder": "Filter",
+      "value": "",
+      "aria": null,
+      "title": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "",
+      "placeholder": "Filter",
+      "value": "",
+      "aria": null,
+      "title": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "",
+      "placeholder": "",
+      "value": "",
+      "aria": null,
+      "title": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "",
+      "placeholder": "",
+      "value": "#FF0000",
+      "aria": null,
+      "title": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "",
+      "placeholder": "",
+      "value": "ProLib_1pcs_2026-08-29",
+      "aria": null,
+      "title": "ProLib_1pcs_2026-08-29"
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "name": "",
+      "placeholder": "",
+      "value": ".elibz2",
+      "aria": null,
+      "title": null
+    },
+    {
+      "tag": "INPUT",
+      "type": "radio",
+      "name": "",
+      "placeholder": "",
+      "value": ".elibz",
+      "aria": null,
+      "title": null
+    }
+  ]
+}

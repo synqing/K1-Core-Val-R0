@@ -1,0 +1,34 @@
+{
+  "active_transaction": {
+    "began_at": "2026-08-29T18:18:06.583312+00:00",
+    "expected_checks": [
+      "U3-PWR2 pin 5 is on BUCK_PG",
+      "R75-PWR2 pull-up still sits between 3V3 and BUCK_PG",
+      "PG run does not merge onto 3V3, GND, BUCK_SW, BUCK_EN, or BUCK_FB",
+      "U3 other pins and R75 value 10k are unchanged"
+    ],
+    "intended_delta": "Wire U3-PWR2 PG pin 5 at (1560,4565) onto BUCK_PG by an orthogonal run to the existing R75-PWR2 BUCK_PG stub at (990,4480). Do not join 3V3. No other nets.",
+    "kind": "normal",
+    "mutation_recorded_at": "2026-08-29T18:20:19.962083+00:00",
+    "post_source_hash": "2259451:ad461e85",
+    "pre_source_hash": "2258325:57c2fcc6",
+    "previous_state": "READY",
+    "repairs_transaction_id": null,
+    "scope": "U3-PWR2 pin 5 PG: attach to existing BUCK_PG at R75-PWR2. Do not touch 3V3, GND, BUCK_SW, BUCK_EN, or BUCK_FB.",
+    "semantic_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/schematic-lane/jobs/live-u3-pg-buck-pg-2026-08-30-semantic.json",
+    "semantic_sha256": "e9675f8f44ac2318daebb00ef712e1c4cd0e457ebebed076cec87b1fc0237217",
+    "snapshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/schematic-lane/anchors/post-fault1-operator-fit.json",
+    "snapshot_sha256": "1876877d8a2bf771c9dfc0d66a2929f18d9036b16e9a0da123061e9286bfea6a",
+    "stage": "wire",
+    "transaction_id": "live-u3-pg-buck-pg-2026-08-30"
+  },
+  "blocked_transaction_id": null,
+  "blocking_reason": "Mutation exists; settled screenshot and visual inspection are required",
+  "current_source_hash": "2259451:ad461e85",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "last_closed_transaction_id": "live-sch-fit-hash-reconcile-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "schema_version": 1,
+  "state": "AWAITING_EVIDENCE",
+  "updated_at": "2026-08-29T18:20:19.962226+00:00"
+}

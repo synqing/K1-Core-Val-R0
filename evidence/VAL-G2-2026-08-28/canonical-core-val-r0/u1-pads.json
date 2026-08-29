@@ -1,0 +1,182 @@
+{
+  "doc": {
+    "documentType": 3,
+    "uuid": "59bef7e87cff4cd580561703b62d8c19",
+    "tabId": "59bef7e87cff4cd580561703b62d8c19@64325d0e55e0435abd018defb0089a9b",
+    "parentProjectUuid": "64325d0e55e0435abd018defb0089a9b"
+  },
+  "padCount": 30,
+  "pads": [
+    {
+      "id": "e51",
+      "net": "",
+      "n": "A12"
+    },
+    {
+      "id": "e52",
+      "net": "",
+      "n": "A11"
+    },
+    {
+      "id": "e53",
+      "net": "",
+      "n": "A10"
+    },
+    {
+      "id": "e54",
+      "net": "",
+      "n": "A9"
+    },
+    {
+      "id": "e55",
+      "net": "",
+      "n": "A8"
+    },
+    {
+      "id": "e56",
+      "net": "",
+      "n": "A7"
+    },
+    {
+      "id": "e57",
+      "net": "",
+      "n": "A6"
+    },
+    {
+      "id": "e58",
+      "net": "",
+      "n": "A1"
+    },
+    {
+      "id": "e59",
+      "net": "",
+      "n": "A2"
+    },
+    {
+      "id": "e60",
+      "net": "",
+      "n": "A3"
+    },
+    {
+      "id": "e61",
+      "net": "",
+      "n": "A4"
+    },
+    {
+      "id": "e62",
+      "net": "",
+      "n": "A5"
+    },
+    {
+      "id": "e95",
+      "net": "",
+      "n": "B1"
+    },
+    {
+      "id": "e96",
+      "net": "",
+      "n": "B2"
+    },
+    {
+      "id": "e97",
+      "net": "",
+      "n": "B3"
+    },
+    {
+      "id": "e98",
+      "net": "",
+      "n": "B4"
+    },
+    {
+      "id": "e99",
+      "net": "",
+      "n": "B5"
+    },
+    {
+      "id": "e100",
+      "net": "",
+      "n": "B6"
+    },
+    {
+      "id": "e101",
+      "net": "",
+      "n": "B7"
+    },
+    {
+      "id": "e102",
+      "net": "",
+      "n": "B8"
+    },
+    {
+      "id": "e103",
+      "net": "",
+      "n": "B9"
+    },
+    {
+      "id": "e104",
+      "net": "",
+      "n": "B10"
+    },
+    {
+      "id": "e105",
+      "net": "",
+      "n": "B11"
+    },
+    {
+      "id": "e106",
+      "net": "",
+      "n": "B12"
+    },
+    {
+      "id": "e107",
+      "net": "",
+      "n": "25"
+    },
+    {
+      "id": "e108",
+      "net": "",
+      "n": "27"
+    },
+    {
+      "id": "e109",
+      "net": "",
+      "n": "30"
+    },
+    {
+      "id": "e110",
+      "net": "",
+      "n": "28"
+    },
+    {
+      "id": "e111",
+      "net": "",
+      "n": "29"
+    },
+    {
+      "id": "e112",
+      "net": "",
+      "n": "26"
+    }
+  ],
+  "nearby": [
+    {
+      "des": "U1",
+      "id": "0f194aaf30bc2e32",
+      "mid": "GT-USB-7005A",
+      "sid": "C5250872",
+      "x": 3317.7691,
+      "y": 3459.8224,
+      "fp": "USB-C-SMD_GT-USB-7005A"
+    }
+  ],
+  "u1Lines": [
+    "{\"type\":\"COMPONENT\",\"ticket\":2175,\"id\":\"0f194aaf30bc2e32\"}||{\"partitionId\":\"\",\"groupId\":0,\"layerId\":1,\"x\":3317.7691,\"y\":3459.8224,\"angle\":180,\"attrs\":{\"Unique ID\":\"\",\"Reuse Block\":\"\",\"Group ID\":\"\",\"Channel ID\":\"\"},\"locked\":false,\"zIndex\":-1}|",
+    "{\"type\":\"ATTR\",\"ticket\":2176,\"id\":\"0f194aaf30bc2e32e114\"}||{\"partitionId\":\"\",\"groupID\":0,\"parentId\":\"0f194aaf30bc2e32\",\"layerId\":3,\"x\":null,\"y\":null,\"key\":\"Footprint\",\"value\":\"0e0bf75fdf55a316\",\"keyVisible\":false,\"valueVisible\":false,\"fontFamily\":\"Countach Bold Italic\",\"fontSize\":43.3071,\"strokeWidth\":6,\"bold\":0,\"italic\":0,\"origin\":\"LEFT_BOTTOM\",\"angle\":180,\"reverse\":false,\"expansion\":0,\"mirror\":false,\"locked\":false,",
+    "{\"type\":\"ATTR\",\"ticket\":2177,\"id\":\"0f194aaf30bc2e32e115\"}||{\"partitionId\":\"\",\"groupID\":0,\"parentId\":\"0f194aaf30bc2e32\",\"layerId\":3,\"x\":3576.7291,\"y\":3301.1824,\"key\":\"Designator\",\"value\":\"U1\",\"keyVisible\":false,\"valueVisible\":true,\"fontFamily\":\"Countach Bold Italic\",\"fontSize\":43.3071,\"strokeWidth\":6,\"bold\":0,\"italic\":0,\"origin\":\"LEFT_BOTTOM\",\"angle\":180,\"reverse\":false,\"expansion\":0,\"mirror\":false,\"locked\":false,\"zIn",
+    "{\"type\":\"ATTR\",\"ticket\":2178,\"id\":\"0f194aaf30bc2e32e0\"}||{\"partitionId\":\"\",\"groupID\":0,\"parentId\":\"0f194aaf30bc2e32\",\"layerId\":3,\"x\":null,\"y\":null,\"key\":\"Device\",\"value\":\"c3bb4dd81905bb44\",\"keyVisible\":false,\"valueVisible\":false,\"fontFamily\":\"Countach Bold Italic\",\"fontSize\":43.3071,\"strokeWidth\":6,\"bold\":0,\"italic\":0,\"origin\":\"LEFT_BOTTOM\",\"angle\":180,\"reverse\":false,\"expansion\":0,\"mirror\":false,\"locked\":false,\"zInd",
+    "{\"type\":\"PAD_NET\",\"ticket\":2179,\"id\":\"[\\\"PAD_NET\\\",\\\"0f194aaf30bc2e32\\\",\\\"A12\\\",\\\"e51\\\"]\"}||{\"partitionId\":\"\",\"padNet\":\"\",\"padLen\":null,\"attrsMap\":{}}|",
+    "{\"type\":\"PAD_NET\",\"ticket\":2180,\"id\":\"[\\\"PAD_NET\\\",\\\"0f194aaf30bc2e32\\\",\\\"A11\\\",\\\"e52\\\"]\"}||{\"partitionId\":\"\",\"padNet\":\"\",\"padLen\":null,\"attrsMap\":{}}|",
+    "{\"type\":\"PAD_NET\",\"ticket\":2181,\"id\":\"[\\\"PAD_NET\\\",\\\"0f194aaf30bc2e32\\\",\\\"A10\\\",\\\"e53\\\"]\"}||{\"partitionId\":\"\",\"padNet\":\"\",\"padLen\":null,\"attrsMap\":{}}|",
+    "{\"type\":\"PAD_NET\",\"ticket\":2182,\"id\":\"[\\\"PAD_NET\\\",\\\"0f194aaf30bc2e32\\\",\\\"A9\\\",\\\"e54\\\"]\"}||{\"partitionId\":\"\",\"padNet\":\"\",\"padLen\":null,\"attrsMap\":{}}|"
+  ]
+}

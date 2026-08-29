@@ -1,0 +1,12 @@
+[
+ {
+  "tag": "C1-PWR1",
+  "ok": false,
+  "error": "EasyEDA bridge timed out waiting for add_schematic_component after 30000ms. The EasyEDA host did not answer — check the editor is responsive and the document is open, then retry; raise EASYEDA_MCP_BRIDGE_TIMEOUT_MS (or EASYEDA_MCP_ADD_SCHEMATIC_COMPONENT_TIMEOUT_MS) if the operation is legitimately slow."
+ },
+ {
+  "tag": "RCC1S-PWR1",
+  "ok": false,
+  "error": "EasyEDA bridge timed out waiting for add_schematic_component after 30000ms. The EasyEDA host did not answer — check the editor is responsive and the document is open, then retry; raise EASYEDA_MCP_BRIDGE_TIMEOUT_MS (or EASYEDA_MCP_ADD_SCHEMATIC_COMPONENT_TIMEOUT_MS) if the operation is legitimately slow."
+ }
+]

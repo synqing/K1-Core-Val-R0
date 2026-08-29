@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07g-u22-island-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Create 5V0_USB_VALID from U22 OUT and C122. Tie U22 IN and EN and C121 to 5V_USB. Tie U22 GND NC EP and C121/C122 grounds to GND. Leave PG open. Do not touch 5V_SYS. Do not wire U21.",
+  "observed_delta": "107 percent select-zoom of U22 shows real wires: IN and EN on 5V_USB, OUT and C122 on 5V0_USB_VALID, GND/NC/EP to GND. PG has no wire. U21 IN not on this island.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T07k-u22-tight.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "U22 IN and EN on 5V_USB not 5V_SYS",
+      "result": "OK",
+      "detail": "U22 pins 6 and 4 have real 5V_USB stubs east of the symbol. No 5V_SYS label on this island."
+    },
+    {
+      "name": "U22 OUT and C122 on 5V0_USB_VALID",
+      "result": "OK",
+      "detail": "U22 pin 1 OUT and C122 share a new 5V0_USB_VALID rail west/south of U22."
+    },
+    {
+      "name": "U22 GND NC EP on GND",
+      "result": "OK",
+      "detail": "Pin 5 GND, pin 2 NC and EP drop to the GND rail with C121/C122 grounds."
+    },
+    {
+      "name": "PG remains open",
+      "result": "OK",
+      "detail": "U22 pin 3 PG has no wire and noConnected is still false-open, not landed on KILL-B."
+    },
+    {
+      "name": "real wires hub 41c8e652 no net-labels-only",
+      "result": "OK",
+      "detail": "Green wire primitives are visible on IN/EN/OUT/GND. Project 41c8e652. U21 IN not wired in this transaction."
+    }
+  ]
+}

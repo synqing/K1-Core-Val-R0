@@ -1,0 +1,12 @@
+[
+  {"tool": "get_current_context", "tag": "ctx", "args": {}},
+  {"tool": "list_schematic_component_pins", "tag": "u20", "args": {"componentPrimitiveId": "92edd0bd8901c171"}},
+  {"tool": "list_schematic_component_pins", "tag": "u21", "args": {"componentPrimitiveId": "fb7c84f0a582bd9c"}},
+  {"tool": "list_schematic_component_pins", "tag": "r87", "args": {"componentPrimitiveId": "109c559e17398f80"}},
+  {"tool": "list_schematic_component_pins", "tag": "r90", "args": {"componentPrimitiveId": "0a971b6f27ac9f41"}},
+  {"tool": "list_schematic_component_pins", "tag": "d3", "args": {"componentPrimitiveId": "fadfedaff2230f79"}},
+  {"tool": "list_schematic_component_pins", "tag": "c120", "args": {"componentPrimitiveId": "004d113915448a0a"}},
+  {"tool": "get_schematic_primitive", "tag": "r87-prim", "args": {"primitiveId": "109c559e17398f80"}},
+  {"tool": "get_schematic_primitive", "tag": "c120-prim", "args": {"primitiveId": "004d113915448a0a"}},
+  {"tool": "get_schematic_primitive", "tag": "d3-prim", "args": {"primitiveId": "fadfedaff2230f79"}}
+]

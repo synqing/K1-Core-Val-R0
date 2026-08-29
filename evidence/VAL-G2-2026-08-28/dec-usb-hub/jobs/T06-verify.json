@@ -1,0 +1,6 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "list_schematic_primitive_ids", "tag": "components", "args": {"family": "component"}},
+  {"tool": "list_schematic_primitive_ids", "tag": "wires", "args": {"family": "wire"}},
+  {"tool": "list_schematic_component_pins", "tag": "u20", "args": {"componentPrimitiveId": "92edd0bd8901c171"}}
+]

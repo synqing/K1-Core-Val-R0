@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-gtusb-3d-roty180-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "U1 only: keep original J1_GT-USB-7005A mesh 7e3f17b4 and set 3D Model Transform to 0, 0, 0, 0, 0, 180, 0, 0, 0 (rotY 180, rotZ cleared, native/auto size, offsets 0). Mouth axis is file +Z after Blender Y-up export; rotY 180 points the mouth at the board-edge cut-out without inverting height. Do not remesh, do not retouch U6, USB2, caps, TVS or audio.",
+  "observed_delta": "Semantic write landed: U1 still 7e3f17b4, transform 0, 0, 0, 0, 0, 180, 0, 0, 0, U6 and D1 untouched. Pixels reject seating. Wide top and navy U1: body is original size, mouth still inland, rectangular edge cut-out empty, four oval slots empty. Tight top zoom missed (blank canvas). Front/edge: shell inverted under the board. Iso: mouth still inland. rotY 180 changed pose (now inverted) but did not point the mouth at the cut-out. No offZ: the miss is axis, not a float of an aligned shell.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-roty180-navy-u1.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [
+    "rotY 180 inverted the shell under the board instead of pointing the mouth at the edge cut-out"
+  ],
+  "verdict": "REJECTED",
+  "checks": [
+    {"name": "U1 remains C5250872 / GT-USB-7005A", "result": "OK", "detail": "Primitive 0f194aaf30bc2e32, C5250872 / GT-USB-7005A unchanged."},
+    {"name": "Original J1_GT-USB-7005A 7e3f17b4 still bound at native size", "result": "OK", "detail": "Model uuid 7e3f17b4; size fields 0,0,0; body is not the 6 mm speck."},
+    {"name": "Transform is rotY 180 with size 0,0,0 and offsets 0,0,0", "result": "OK", "detail": "Read-back 0, 0, 0, 0, 0, 180, 0, 0, 0."},
+    {"name": "U6-RTC 3D model and transform unchanged", "result": "OK", "detail": "de5664fd / 0, 0, 0, 0, 0, 0, 0, 0, 0."},
+    {"name": "D1-PWR1 TVS 3D model and transform unchanged", "result": "OK", "detail": "1370be37 / 110.236,113.364,0,90,0,0,0.0005,0.0005,0."},
+    {"name": "Mouth faces the board-edge cut-out", "result": "DEFECT", "detail": "Mouth still inland. Edge view shows the shell inverted under the board. Ovals empty. Not seated."}
+  ]
+}

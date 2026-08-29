@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-gtusb-3d-zup-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "pre_source_hash": "653168:bd1bc38a",
+  "post_source_hash": "653172:5d094a70",
+  "saved": true,
+  "affected": ["U1", "3D Model", "3D Model Title"],
+  "census": {
+    "used_folder": "evidence/VAL-G2-2026-08-28/dec-usb-hub/3d",
+    "uploaded_file": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/J1_GT-USB-7005A.easyeda-zup.obj",
+    "remap": "(x, y_height, z_mouth) -> (x, -z, y) so EasyEDA Z-up, mouth -Y",
+    "new_model_uuid": "ea8551bd5e9c4319bb8e029bbc32cda4",
+    "old_model_uuid": "7e3f17b4e5b64384aaa03075cd65e3e3",
+    "model_title": "J1_GT-USB-7005A_zup",
+    "bind_target": "U1",
+    "component_primitive_id": "0f194aaf30bc2e32",
+    "supplier_id": "C5250872",
+    "manufacturer_id": "GT-USB-7005A",
+    "transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+    "u6_unchanged": true,
+    "d1_unchanged": true,
+    "pcb_save": true
+  }
+}

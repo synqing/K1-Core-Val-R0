@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "transaction_id": "usb1-3d-y-autoz-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "USB1 only: set 3D sizeZ to 0 (auto height, as seated USB2) and offY to -66.733 mil toward the board edge. Keep offZ at -80.315 mil.",
+  "observed_delta": "Instance transform persisted. Settled 3D view still shows the Hirose shell floating about 1-2 mm, tabs behind the oval slots, SMT pins behind the rear pads. An Export 3D File dialog appeared during one capture.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/usb1-3d-after-y-autoz-clean.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [
+    "3D viewer pose did not follow the persisted USB1 transform",
+    "Export 3D File dialog appeared while opening 3D Preview"
+  ],
+  "verdict": "REJECTED",
+  "checks": [
+    {"name": "USB1 identity C778726 / CX70M-24P1 unchanged", "result": "OK", "detail": "USB1 remains C778726 / CX70M-24P1."},
+    {"name": "USB2 and U6 transforms unchanged", "result": "OK", "detail": "USB2 and U6 transforms match the pre-write values."},
+    {"name": "tabs move toward the four oval slots", "result": "DEFECT", "detail": "Tabs still sit behind the ovals in the 3D view."},
+    {"name": "shell height uses auto sizeZ", "result": "OK", "detail": "Live otherProperty sizeZ is 0; visual seating did not follow."}
+  ]
+}

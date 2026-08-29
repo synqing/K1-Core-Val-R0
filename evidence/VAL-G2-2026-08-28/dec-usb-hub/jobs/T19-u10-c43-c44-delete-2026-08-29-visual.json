@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T19-u10-c43-c44-delete-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Delete U10, C43, C44.",
+  "observed_delta": "350 percent former U10/C43/C44 site. TVS and shunt caps gone. Only leftover GND stubs remain. Saved successfully. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T19-u10-gone.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "U10 gone",
+      "result": "OK",
+      "detail": "e8499 deleted. U10-ESP absent from source and 350 percent shot."
+    },
+    {
+      "name": "C43 gone",
+      "result": "OK",
+      "detail": "e8224 deleted. C43-ESP absent from source."
+    },
+    {
+      "name": "C44 gone",
+      "result": "OK",
+      "detail": "e8260 deleted. C44-ESP absent from source."
+    },
+    {
+      "name": "J1 present",
+      "result": "OK",
+      "detail": "ea47c20de228fa3a still gettable after the three deletes."
+    }
+  ]
+}

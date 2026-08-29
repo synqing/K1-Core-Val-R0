@@ -1,0 +1,40 @@
+{
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash_at_inspect": "2252446:b9fbf948",
+  "gui_drc": {
+    "fatal": 0,
+    "error": 0,
+    "warn_bridge_count": 27,
+    "warn_panel_first_pass": 16,
+    "info": 404
+  },
+  "real_defects": [
+    {
+      "id": "FAULT1_GND_SHORT",
+      "status": "FIXED_SEMANTIC",
+      "evidence": "Wire e82471 had NET names GND and LED_FAULT_L_N and LINE geometry from U17 pin 10 (2315,3695) into the GND bus. Post-fix pin 10 is only on 2639a4b072b190b5 / LED_FAULT_L_N. No remaining multi-name wires.",
+      "transaction": "live-u17-fault1-ungnd-2026-08-30"
+    },
+    {
+      "id": "U3_PG_FLOATING",
+      "status": "OPEN",
+      "evidence": "DRC lists U3-PWR2.5 floating. Live BUCK_PG wire e146317 is [990,4480,1010,4480] at R75. U3 pin 5 PG is at (1560,4565). D-045 pull-up exists; pin half is still open."
+    }
+  ],
+  "cosmetic_drc": [
+    "Duplicate identical net labels on 5V_LED_R_SW, 5V_SYS, 5V_LED_L_SW, PWR_ENTRY_PG_RT_IOMUX_TBD",
+    "Many GND net labels on the recreated U17 GND island after FAULT1 split",
+    "Designator suggestion Infos for $1I15400x (English+numeric rule)",
+    "USB4105-GF-A pad/pin mismatch Info on $1I339 and $1I8334"
+  ],
+  "floating_pins_need_adjudication": {
+    "do_not_nc_without_contract": ["J1-PWR1 USB data/SBU if still required by D-044/D-049"],
+    "likely_intentional_nc": ["U6-RTC unused balls", "U16-VAL.3/4/5", "U12-NFC.23", "Y2-NFC.3/4", "U13-MOT unused"],
+    "check_before_nc": ["U3-PWR2.5 is PG, must wire not NC"]
+  },
+  "not_a_drc_error": [
+    "USB2422 hub (D-049) is not on live MAIN. Live still has J7-ESP and USB_DP/USB_DM. That is an architecture transplant, not an item on this DRC panel."
+  ],
+  "orphans_still_present": ["5V_LED_COMMON", "LED_EFUSE_DVDT", "LED_EFUSE_ILIM"]
+}

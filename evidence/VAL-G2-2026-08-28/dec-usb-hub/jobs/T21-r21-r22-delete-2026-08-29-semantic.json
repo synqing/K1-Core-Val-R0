@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T21-r21-r22-delete-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2995560:945b6137",
+  "post_source_hash": "2978756:b64f6915",
+  "saved": true,
+  "affected": [
+    {"deleted": "R21-ESP", "id": "e8421"},
+    {"deleted": "R22-ESP", "id": "e8460"},
+    {"deleted_wires": ["e9016", "e9022"]},
+    {"USB_CC1": ["ebrw000054", "ebrw000079", "ebrw000100"]},
+    {"USB_CC2": ["ebrw000075", "ebrw000081", "ebrw000142"]}
+  ],
+  "census": {
+    "components": 323,
+    "wires": 794,
+    "components_delta": -2,
+    "wires_delta": -2
+  },
+  "observed": "R21 R22 gone. USB_CC1 and USB_CC2 members are J1 ebrw wires only. Hub 41c8e652."
+}

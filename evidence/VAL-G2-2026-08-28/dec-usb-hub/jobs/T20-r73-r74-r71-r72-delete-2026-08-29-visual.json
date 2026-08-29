@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T20-r73-r74-r71-r72-delete-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Delete R73, R74, R71, R72.",
+  "observed_delta": "280 percent S3 USB island. R73 R74 R71 R72 bodies gone. Floating USB_DP_ESD / USB_DM_ESD / ESP_USB_VBUS_SENSE labels remain for T22. R22-ESP still present. TUNE pair kept in source. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T20-resistors-gone.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "R73 gone",
+      "result": "OK",
+      "detail": "e98285 deleted. R73-ESP absent from source."
+    },
+    {
+      "name": "R74 gone",
+      "result": "OK",
+      "detail": "e98324 deleted. R74-ESP absent from source."
+    },
+    {
+      "name": "R71 gone",
+      "result": "OK",
+      "detail": "e98207 deleted. R71-ESP absent from source."
+    },
+    {
+      "name": "R72 gone",
+      "result": "OK",
+      "detail": "e98246 deleted. R72-ESP absent from source."
+    },
+    {
+      "name": "TUNE pair kept",
+      "result": "OK",
+      "detail": "f5380a109ca65eb9 and e105d8e42924191c still gettable."
+    }
+  ]
+}

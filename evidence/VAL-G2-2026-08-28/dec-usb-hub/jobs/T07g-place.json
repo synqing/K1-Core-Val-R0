@@ -1,0 +1,8 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "add_schematic_component", "tag": "U22", "args": {"libraryUuid": "0819f05c4eef4c71ace90d822a990e87", "deviceUuid": "57a3393adbaf4e478f7067b769e726fc", "x": 1500, "y": 600, "addIntoBom": true, "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_component", "tag": "U23", "args": {"libraryUuid": "0819f05c4eef4c71ace90d822a990e87", "deviceUuid": "3cb40dce42ce48d8972ffe8e98d67fc8", "x": 1500, "y": 1000, "addIntoBom": true, "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_component", "tag": "U24", "args": {"libraryUuid": "0819f05c4eef4c71ace90d822a990e87", "deviceUuid": "aa7194888c6b459094e5437dc75d23f0", "x": 1750, "y": 600, "addIntoBom": true, "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_component", "tag": "U25", "args": {"libraryUuid": "0819f05c4eef4c71ace90d822a990e87", "deviceUuid": "aa7194888c6b459094e5437dc75d23f0", "x": 1750, "y": 1000, "addIntoBom": true, "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_component", "tag": "D3", "args": {"libraryUuid": "0819f05c4eef4c71ace90d822a990e87", "deviceUuid": "cf4477c6701c4354aa05e8ea0afc8ab0", "x": 1500, "y": 400, "addIntoBom": true, "addIntoPcb": false, "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

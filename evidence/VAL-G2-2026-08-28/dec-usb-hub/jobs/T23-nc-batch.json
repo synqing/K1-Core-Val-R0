@@ -1,0 +1,15 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "set_schematic_pin_no_connect", "tag": "j1-A2", "args": {"componentPrimitiveId": "ea47c20de228fa3a", "pinNumber": "A2", "noConnected": true, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "set_schematic_pin_no_connect", "tag": "j1-A3", "args": {"componentPrimitiveId": "ea47c20de228fa3a", "pinNumber": "A3", "noConnected": true, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "set_schematic_pin_no_connect", "tag": "j1-A8", "args": {"componentPrimitiveId": "ea47c20de228fa3a", "pinNumber": "A8", "noConnected": true, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "set_schematic_pin_no_connect", "tag": "j1-A10", "args": {"componentPrimitiveId": "ea47c20de228fa3a", "pinNumber": "A10", "noConnected": true, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "set_schematic_pin_no_connect", "tag": "j1-A11", "args": {"componentPrimitiveId": "ea47c20de228fa3a", "pinNumber": "A11", "noConnected": true, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "set_schematic_pin_no_connect", "tag": "j1-B2", "args": {"componentPrimitiveId": "ea47c20de228fa3a", "pinNumber": "B2", "noConnected": true, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "set_schematic_pin_no_connect", "tag": "j1-B3", "args": {"componentPrimitiveId": "ea47c20de228fa3a", "pinNumber": "B3", "noConnected": true, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "set_schematic_pin_no_connect", "tag": "j1-B8", "args": {"componentPrimitiveId": "ea47c20de228fa3a", "pinNumber": "B8", "noConnected": true, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "set_schematic_pin_no_connect", "tag": "j1-B10", "args": {"componentPrimitiveId": "ea47c20de228fa3a", "pinNumber": "B10", "noConnected": true, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "set_schematic_pin_no_connect", "tag": "j1-B11", "args": {"componentPrimitiveId": "ea47c20de228fa3a", "pinNumber": "B11", "noConnected": true, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "set_schematic_pin_no_connect", "tag": "u20-6", "args": {"componentPrimitiveId": "92edd0bd8901c171", "pinNumber": "6", "noConnected": true, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "set_schematic_pin_no_connect", "tag": "u6-N7", "args": {"componentPrimitiveId": "e3673", "pinNumber": "N7", "noConnected": true, "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

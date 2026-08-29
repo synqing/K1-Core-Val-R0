@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "lane": "evidence/VAL-G2-2026-08-28/dec-usb-hub",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "notes": [
+    "Copy of the live-lane waiver register with the stale J7-ESP SBU waiver removed.",
+    "J7-ESP was deleted in T18. Do not rewrite historical canonical-core-val-r0/DRC-WAIVERS.json."
+  ],
+  "waivers": []
+}

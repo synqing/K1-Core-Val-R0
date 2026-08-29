@@ -1,0 +1,23 @@
+{
+  "personal": "27700277ef7a49e48a0293bece6b2993",
+  "symbolUuid": "cb1918895dba4e1691885a1892e9235a",
+  "created": true,
+  "opened": "cb1918895dba4e1691885a1892e9235a@27700277ef7a49e48a0293bece6b2993",
+  "ctxDoc": null,
+  "methods": [
+    "openDocument",
+    "openLibraryDocument",
+    "closeDocument",
+    "getSplitScreenIdByTabId",
+    "getTabsBySplitScreenId",
+    "moveDocumentToSplitScreen",
+    "activateDocument",
+    "tileAllDocumentToSplitScreen",
+    "mergeAllDocumentFromSplitScreen",
+    "getCurrentRenderedAreaImage"
+  ],
+  "pinCount": 0,
+  "stillHub": false,
+  "hubPage": "1435cb46f39e48c8a8aadbb84ca81603",
+  "hubProject": "41c8e6523576456582ea35958b3684ed"
+}

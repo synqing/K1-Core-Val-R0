@@ -1,0 +1,30 @@
+[
+  {
+    "contains": "Convert to PCB",
+    "class": "named_hold"
+  },
+  {
+    "contains": "empty PCB",
+    "class": "named_hold"
+  },
+  {
+    "contains": "IOMUX_TBD",
+    "class": "named_hold"
+  },
+  {
+    "contains": "TUNE_TBD",
+    "class": "named_hold"
+  },
+  {
+    "contains": "VALIDATION_ONLY",
+    "class": "named_hold"
+  },
+  {
+    "contains": "suggestion rule",
+    "class": "host_false_positive"
+  },
+  {
+    "contains": "empty value of property",
+    "class": "host_false_positive"
+  }
+]

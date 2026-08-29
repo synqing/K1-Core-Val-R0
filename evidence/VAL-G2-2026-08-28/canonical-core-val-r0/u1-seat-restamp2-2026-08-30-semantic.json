@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-seat-restamp2-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "source_hash": "653177:c5dec25e",
+  "census": {
+    "characters": 653177,
+    "prior_gate_hash": "653177:b6f10bfe",
+    "u1_model": "e6946995a72f4deaa7b036359e4ff6e7",
+    "u1_transform": "0, 74.803, 0, 0, 0, 0, 0, 0, 0",
+    "note": "Activate re-serialised the PCB after the rejected seating write. Same character count. No write in this restamp."
+  }
+}

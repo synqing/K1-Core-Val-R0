@@ -1,0 +1,677 @@
+{
+  "ok": true,
+  "doc": {
+    "documentType": 3,
+    "uuid": "59bef7e87cff4cd580561703b62d8c19",
+    "tabId": "59bef7e87cff4cd580561703b62d8c19@64325d0e55e0435abd018defb0089a9b",
+    "parentProjectUuid": "64325d0e55e0435abd018defb0089a9b"
+  },
+  "project": {
+    "itemType": "Project",
+    "uuid": "64325d0e55e0435abd018defb0089a9b",
+    "friendlyName": "K1-Core-Val-R0",
+    "name": "spectrasynq/K1-Core-Val-R0",
+    "teamUuid": "27700277ef7a49e48a0293bece6b2993",
+    "description": "",
+    "data": [
+      {
+        "itemType": "Board",
+        "name": "Board1",
+        "schematic": {
+          "itemType": "Schematic",
+          "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+          "name": "Schematic1",
+          "page": [
+            {
+              "itemType": "Schematic Page",
+              "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+              "name": "P1",
+              "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+              "showTitleBlock": true,
+              "titleBlockData": {
+                "Symbol": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Drawing-Symbol_A4"
+                },
+                "@Project Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "K1-Core-Val-R0"
+                },
+                "@Page Count": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": 1
+                },
+                "@Update Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-08-30"
+                },
+                "@Create Date": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "2026-08-28"
+                },
+                "@Schematic Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "Schematic1"
+                },
+                "@Page No": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": 1
+                },
+                "@Page Name": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "P1"
+                },
+                "Company": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "EasyEDA.com"
+                },
+                "Reviewed": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": ""
+                },
+                "Version": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "V1.0"
+                },
+                "Page Size": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": "A4"
+                },
+                "Drawn": {
+                  "showTitle": false,
+                  "showValue": false,
+                  "value": ""
+                },
+                "Device": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Drawing-Symbol_A4"
+                },
+                "Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "Description": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "@Create Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "16:54:47"
+                },
+                "@Update Time": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "03:35:04"
+                },
+                "Border": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1655"
+                },
+                "Height": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1170"
+                },
+                "Region Start": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "X Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "6"
+                },
+                "Y Region Count": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "4"
+                },
+                "Blade Width": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "10"
+                },
+                "Color": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": ""
+                },
+                "Title Block Position": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "3"
+                },
+                "Title Block": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "1"
+                },
+                "@Board Name": {
+                  "showTitle": null,
+                  "showValue": null,
+                  "value": "Board1"
+                },
+                "ID": {}
+              }
+            }
+          ],
+          "parentProjectUuid": "64325d0e55e0435abd018defb0089a9b",
+          "parentBoardName": "Board1"
+        },
+        "pcb": {
+          "itemType": "PCB",
+          "name": "PCB1",
+          "uuid": "59bef7e87cff4cd580561703b62d8c19",
+          "parentBoardName": "Board1",
+          "parentProjectUuid": "64325d0e55e0435abd018defb0089a9b"
+        },
+        "parentProjectUuid": "64325d0e55e0435abd018defb0089a9b"
+      }
+    ]
+  },
+  "u1": {
+    "des": "U1",
+    "id": "0f194aaf30bc2e32",
+    "sid": "C5250872",
+    "mid": "GT-USB-7005A",
+    "x": 3317.7691,
+    "y": 3459.8224,
+    "rot": 180,
+    "layer": 1,
+    "model": "e6946995a72f4deaa7b036359e4ff6e7",
+    "title": "J1_GT-USB-7005A_yflip",
+    "xf": "0, 236.220, 0, 0, 0, 0, 0, 0, 0",
+    "model3d": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "e6946995a72f4deaa7b036359e4ff6e7",
+      "name": "J1_GT-USB-7005A_yflip"
+    }
+  },
+  "u6": {
+    "des": "U6-RTC",
+    "id": "02892aabec4ba06b",
+    "sid": "C2847497",
+    "mid": "MIMXRT1062DVJ6B",
+    "x": 6400.1968,
+    "y": 3180.0453000000007,
+    "rot": 45,
+    "layer": 1,
+    "model": "de5664fd2ea74aa082831cfa5b198edb",
+    "title": "MIMXRT1061DVJ6B",
+    "xf": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+    "model3d": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "de5664fd2ea74aa082831cfa5b198edb",
+      "name": "MIMXRT1061DVJ6B"
+    }
+  },
+  "d1": {
+    "des": "D1-PWR1",
+    "id": "0898faa11cd37cac",
+    "sid": "USBLC6-2SC6_C323793.1",
+    "mid": "USBLC6-2SC6",
+    "x": 2272.51,
+    "y": -3395.0234,
+    "rot": 0,
+    "layer": 1,
+    "model": "1370be37a17e44418ae52e2b4cc1f5e5",
+    "title": "SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95",
+    "xf": "110.236,113.364,0,90,0,0,0.0005,0.0005,0",
+    "model3d": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "1370be37a17e44418ae52e2b4cc1f5e5",
+      "name": "SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95"
+    }
+  },
+  "usb2": null,
+  "padCountAll": 873,
+  "padsNear": [
+    {
+      "id": "0f194aaf30bc2e32e110",
+      "n": "28",
+      "net": "",
+      "x": 3078.5941,
+      "y": 3581.8723999999997,
+      "dx": -239.17500000000018,
+      "dy": 122.04999999999973,
+      "hole": [
+        "SLOT",
+        19.686,
+        59.055
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e108",
+      "n": "27",
+      "net": "",
+      "x": 3556.9441,
+      "y": 3581.8723999999997,
+      "dx": 239.17500000000018,
+      "dy": 122.04999999999973,
+      "hole": [
+        "SLOT",
+        19.686,
+        59.055
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e96",
+      "n": "B2",
+      "net": "",
+      "x": 3219.3441000000003,
+      "y": 3434.2324,
+      "dx": -98.42499999999973,
+      "dy": -25.590000000000146,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e97",
+      "n": "B3",
+      "net": "",
+      "x": 3250.8441,
+      "y": 3434.2324,
+      "dx": -66.92500000000018,
+      "dy": -25.590000000000146,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e99",
+      "n": "B5",
+      "net": "",
+      "x": 3282.3341,
+      "y": 3434.2324,
+      "dx": -35.434999999999945,
+      "dy": -25.590000000000146,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e102",
+      "n": "B8",
+      "net": "",
+      "x": 3353.2041,
+      "y": 3434.2324,
+      "dx": 35.434999999999945,
+      "dy": -25.590000000000146,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e104",
+      "n": "B10",
+      "net": "",
+      "x": 3384.6940999999997,
+      "y": 3434.2324,
+      "dx": 66.92499999999973,
+      "dy": -25.590000000000146,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e105",
+      "n": "B11",
+      "net": "",
+      "x": 3416.1940999999997,
+      "y": 3434.2324,
+      "dx": 98.42499999999973,
+      "dy": -25.590000000000146,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e111",
+      "n": "29",
+      "net": "",
+      "x": 3078.5941,
+      "y": 3430.2924000000003,
+      "dx": -239.17500000000018,
+      "dy": -29.529999999999745,
+      "hole": [
+        "SLOT",
+        19.686,
+        59.055
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e112",
+      "n": "26",
+      "net": "",
+      "x": 3556.9441,
+      "y": 3430.2923999999994,
+      "dx": 239.17500000000018,
+      "dy": -29.530000000000655,
+      "hole": [
+        "SLOT",
+        19.686,
+        59.055
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e95",
+      "n": "B1",
+      "net": "",
+      "x": 3194.9341,
+      "y": 3398.8024,
+      "dx": -122.83500000000004,
+      "dy": -61.01999999999998,
+      "hole": [
+        "SLOT",
+        15.748,
+        39.37
+      ],
+      "rot": 0,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e98",
+      "n": "B4",
+      "net": "",
+      "x": 3266.5841,
+      "y": 3398.8024,
+      "dx": -51.184999999999945,
+      "dy": -61.01999999999998,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e100",
+      "n": "B6",
+      "net": "",
+      "x": 3298.0841,
+      "y": 3398.8024,
+      "dx": -19.684999999999945,
+      "dy": -61.01999999999998,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e101",
+      "n": "B7",
+      "net": "",
+      "x": 3337.4541,
+      "y": 3398.8024,
+      "dx": 19.684999999999945,
+      "dy": -61.01999999999998,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e103",
+      "n": "B9",
+      "net": "",
+      "x": 3368.9541,
+      "y": 3398.8024,
+      "dx": 51.184999999999945,
+      "dy": -61.01999999999998,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e106",
+      "n": "B12",
+      "net": "",
+      "x": 3440.6041,
+      "y": 3398.8024,
+      "dx": 122.83500000000004,
+      "dy": -61.01999999999998,
+      "hole": [
+        "SLOT",
+        15.748,
+        39.37
+      ],
+      "rot": 0,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e51",
+      "n": "A12",
+      "net": "",
+      "x": 3209.5040999999997,
+      "y": 3357.0624,
+      "dx": -108.26500000000033,
+      "dy": -102.76000000000022,
+      "hole": null,
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e52",
+      "n": "A11",
+      "net": "",
+      "x": 3229.1841,
+      "y": 3357.0624,
+      "dx": -88.58500000000004,
+      "dy": -102.76000000000022,
+      "hole": null,
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e53",
+      "n": "A10",
+      "net": "",
+      "x": 3248.8741,
+      "y": 3357.0624,
+      "dx": -68.89499999999998,
+      "dy": -102.76000000000022,
+      "hole": null,
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e54",
+      "n": "A9",
+      "net": "",
+      "x": 3268.5541000000003,
+      "y": 3357.0624,
+      "dx": -49.21499999999969,
+      "dy": -102.76000000000022,
+      "hole": null,
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e55",
+      "n": "A8",
+      "net": "",
+      "x": 3288.2441,
+      "y": 3357.0624,
+      "dx": -29.52500000000009,
+      "dy": -102.76000000000022,
+      "hole": null,
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e56",
+      "n": "A7",
+      "net": "",
+      "x": 3307.9240999999997,
+      "y": 3357.0624,
+      "dx": -9.845000000000255,
+      "dy": -102.76000000000022,
+      "hole": null,
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e57",
+      "n": "A6",
+      "net": "",
+      "x": 3327.6141000000002,
+      "y": 3357.0624,
+      "dx": 9.845000000000255,
+      "dy": -102.76000000000022,
+      "hole": null,
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e62",
+      "n": "A5",
+      "net": "",
+      "x": 3347.2940999999996,
+      "y": 3357.0624,
+      "dx": 29.524999999999636,
+      "dy": -102.76000000000022,
+      "hole": null,
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e61",
+      "n": "A4",
+      "net": "",
+      "x": 3366.9840999999997,
+      "y": 3357.0624,
+      "dx": 49.21499999999969,
+      "dy": -102.76000000000022,
+      "hole": null,
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e60",
+      "n": "A3",
+      "net": "",
+      "x": 3386.6641,
+      "y": 3357.0624,
+      "dx": 68.89499999999998,
+      "dy": -102.76000000000022,
+      "hole": null,
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e59",
+      "n": "A2",
+      "net": "",
+      "x": 3406.3540999999996,
+      "y": 3357.0624,
+      "dx": 88.58499999999958,
+      "dy": -102.76000000000022,
+      "hole": null,
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e58",
+      "n": "A1",
+      "net": "",
+      "x": 3426.0341,
+      "y": 3357.0624,
+      "dx": 108.26499999999987,
+      "dy": -102.76000000000022,
+      "hole": null,
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e109",
+      "n": "30",
+      "net": "",
+      "x": 3141.5841,
+      "y": 3337.7724,
+      "dx": -176.18499999999995,
+      "dy": -122.05000000000018,
+      "hole": [
+        "SLOT",
+        19.686,
+        43.307
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e107",
+      "n": "25",
+      "net": "",
+      "x": 3493.9541,
+      "y": 3337.7724,
+      "dx": 176.18499999999995,
+      "dy": -122.05000000000018,
+      "hole": [
+        "SLOT",
+        19.686,
+        43.307
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    }
+  ],
+  "outlineNear": [],
+  "sourceHash": "653178:1331be26"
+}

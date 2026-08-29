@@ -18,7 +18,8 @@ Direct wiring is preferred. Net labels may aid readability but may not conceal a
 relationships or power flow.
 
 The sheet is organised into visually bounded domains corresponding to the project's domains of
-concern. Readability is achieved spatially, not hierarchically.
+concern. Readability is achieved spatially, not hierarchically. Domain boundaries are visual
+organisation aids and must never force electrical fragmentation.
 
 No PCB component may exist without schematic authority, except items that are purely mechanical
 and explicitly listed as such.

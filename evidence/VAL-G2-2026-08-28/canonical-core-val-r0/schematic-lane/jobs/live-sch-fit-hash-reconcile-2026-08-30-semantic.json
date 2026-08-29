@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-sch-fit-hash-reconcile-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash": "2258325:57c2fcc6",
+  "saved": false,
+  "census": {
+    "components": 229,
+    "wires": 687,
+    "texts": 22,
+    "rects": 10,
+    "u17_pin10_net": "LED_FAULT_L_N",
+    "u17_gnd_conflict": false,
+    "u3_designator": "U3-PWR2",
+    "buck_pg_wire": "e146317"
+  },
+  "observed": "Reconciliation after Captain Fit Selection on live MAIN. FAULT1# remains a dedicated LED_FAULT_L_N stub; the GND island has only GND names. Live source hash is 2258325:57c2fcc6 versus the closed FAULT1 post-hash 2258103:1ababf9a. The extra bytes are DOCHEAD restamp, a 15-unit U17-PWR2 move, a 20-unit U14-LED move, attached LINE/ATTR follow, and one extra GND tick on island 5168f11a36333ffe. No FAULT1 electrical regression. Unsaved editor flag may still be set; this snapshot is the live graph."
+}

@@ -1,0 +1,28 @@
+{
+  "devices": {},
+  "symbols": {},
+  "footprints": {
+    "0c8e199e56e60728": {
+      "uuid": "0c8e199e56e60728",
+      "path": "64325d0e55e0435abd018defb0089a9b",
+      "ticket": 39135,
+      "updateTime": 1787936141659,
+      "createTime": 1787936140389,
+      "title": "usb-type-c-smd_cx70m-24p1",
+      "description": ";SMD",
+      "display_title": "USB-TYPE-C-SMD_CX70M-24P1",
+      "creator": {},
+      "modifier": {},
+      "owner": {
+        "uuid": "27700277ef7a49e48a0293bece6b2993",
+        "nickname": "spectrasynq",
+        "username": "spectrasynq"
+      },
+      "custom_tags": "[\"USB-TYPE-C-SMD\"]",
+      "source": "44616f94c6914e79972b7923414e99c1|0819f05c4eef4c71ace90d822a990e87",
+      "version": "1659408711",
+      "docType": 4
+    }
+  },
+  "panelLibs": {}
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T13-dn2-r94-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "3037107:bc83be7a",
+  "post_source_hash": "3040977:44145fbb",
+  "saved": true,
+  "affected": [
+    {"net": "USB_DP_DN2", "u20_pin": 5, "xy": [230, 810], "wires": ["41b3a32b40b5413b", "2b96fee724a60013"], "r94_pin": 1},
+    {"net": "USB_DM_DN2", "u20_pin": 2, "xy": [230, 840], "wires": ["068877a397342e5e", "955e9ad023078e73"]},
+    {"note": "R94 pin2 left open for T13c. R95 not on DN2. GPIO19/20 not landed. EasyEDA names on pins 2-5 are wrong; pin numbers and y=810/840 are authority."}
+  ],
+  "census": {
+    "components": 331,
+    "wires": 806,
+    "components_delta": 0,
+    "wires_delta": 4
+  },
+  "observed": "U20 datasheet pins 5/2 stubbed USB_DP_DN2/USB_DM_DN2. R94 pin1 on USB_DP_DN2. R95 open. No GPIO19/20. Hub 41c8e652."
+}

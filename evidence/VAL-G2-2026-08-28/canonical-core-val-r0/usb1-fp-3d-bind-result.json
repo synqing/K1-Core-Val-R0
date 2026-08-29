@@ -1,0 +1,42 @@
+{
+  "transaction_id": "usb1-fp-3d-bind-2026-08-29",
+  "recorded_at": "2026-08-28T19:54:48Z",
+  "seated": false,
+  "visual_verdict": "REJECTED",
+  "gate": {
+    "state": "READY",
+    "close": "abort-unchanged",
+    "hash": "658056:4134f164",
+    "note": "No PCB source write persisted. Live activate re-serialised to 658056:501ca2e7 then EasyEDA/CDP died unsaved."
+  },
+  "identity": {
+    "usb1": "C778726 / CX70M-24P1",
+    "instance": "19bbd06e9438ab5d",
+    "footprint": "0c8e199e56e60728",
+    "seated_step": "08b2bb7ecebd47fc8f45f08f001d782e",
+    "personal_device": "7e7eac39cf44433b9710c4ae4afab424",
+    "device_footprint_still": "279f06324aa142578b6ff40a12f66d9b",
+    "untouched": ["U6-RTC", "USB2"]
+  },
+  "failed_apis": [
+    "lib_Footprint.updateDocumentSource — host discarded patched 3D attrs (prior)",
+    "lib_Device.modify footprint→0c8e199e — Error [object Object]",
+    "lib_Device.create CX70M-24P1-USB1-FP — Error [object Object]",
+    "3D Model Manager Confirm on associated FP 279f0632 — field stayed <3D Model>, source unchanged",
+    "Library Place + canvas click — source unchanged",
+    "instance 3D Model Transform — forbidden this turn; already proved ignored"
+  ],
+  "did_persist_library_only": {
+    "lib_Device.modify model3D on 7e7eac39cf44433b9710c4ae4afab424": "otherProperty 3D Model now 08b2bb7ecebd47fc8f45f08f001d782e; association.footprint still 279f06324aa142578b6ff40a12f66d9b; association.model3D absent"
+  },
+  "skill": {
+    "lib_Footprint.openInEditor": "allowed and works (PROJECT for 0c8e199e, PERSONAL for 279f0632)",
+    "lib_Footprint.updateDocumentSource": "allowed by skill; host discards invented 3D ATTR/META",
+    "F107": "schematic set_document_source ban; not used"
+  },
+  "screenshots": [
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/usb1-3d-reconcile-7.png",
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/usb1-3d-after-seated-step-settled.png"
+  ],
+  "easyeda": "not running at close; CDP 127.0.0.1:9223 ECONNREFUSED"
+}

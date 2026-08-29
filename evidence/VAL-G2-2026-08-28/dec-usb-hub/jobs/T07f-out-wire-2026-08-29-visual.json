@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07f-out-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "OUT1 RT_USB_VBUS plus C109 and R86 bleeder. OUT2 S3_USB_VBUS_VALID plus C110. Do not land MCU VDD. Do not reuse strap-row R87.",
+  "observed_delta": "80 percent U21 view: OUT1 east then south to C109 and R86 as RT_USB_VBUS. OUT2 jogged around USB_EN1 to C110 as S3_USB_VBUS_VALID.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T07f-out.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "OUT1 on RT_USB_VBUS with C109 and R86",
+      "result": "OK",
+      "detail": "Source RT_USB_VBUS hits 6. C109 and R86 on that net."
+    },
+    {
+      "name": "OUT2 on S3_USB_VBUS_VALID with C110",
+      "result": "OK",
+      "detail": "Source S3_USB_VBUS_VALID hits 5. C110 on that net."
+    },
+    {
+      "name": "no MCU core on either OUT",
+      "result": "OK",
+      "detail": "No RT or S3 core pins touched."
+    },
+    {
+      "name": "strap-row R87 not stolen",
+      "result": "OK",
+      "detail": "R87-USB at 740,980 left on the strap row."
+    },
+    {
+      "name": "real wires hub 41c8e652",
+      "result": "OK",
+      "detail": "Project 41c8e652."
+    }
+  ]
+}

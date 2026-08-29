@@ -1,0 +1,4 @@
+[
+  {"tool": "get_current_context", "tag": "ctx", "args": {}},
+  {"tool": "add_schematic_wire", "tag": "m8-dm-dn1", "args": {"line": [2350, 4040, 2350, 4080], "net": "USB_DM_DN1", "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

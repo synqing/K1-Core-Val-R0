@@ -1,0 +1,32 @@
+{
+  "devices": {},
+  "symbols": {},
+  "footprints": {
+    "59bef7e87cff4cd580561703b62d8c19_001a257400b89df6": {
+      "uuid": "59bef7e87cff4cd580561703b62d8c19_001a257400b89df6",
+      "path": "64325d0e55e0435abd018defb0089a9b",
+      "ticket": 36063,
+      "updateTime": 1787937848594,
+      "createTime": 1787937825294,
+      "title": "usb-c-smd_hycw78-usbc24-140b",
+      "description": "",
+      "display_title": "USB-C-SMD_HYCW78-USBC24-140B",
+      "creator": {},
+      "modifier": {
+        "uuid": "27700277ef7a49e48a0293bece6b2993",
+        "nickname": "spectrasynq",
+        "username": "spectrasynq"
+      },
+      "owner": {
+        "uuid": "27700277ef7a49e48a0293bece6b2993",
+        "nickname": "spectrasynq",
+        "username": "spectrasynq"
+      },
+      "custom_tags": "[\"USB-C-SMD\"]",
+      "source": "37d7a90e56e09d72|64325d0e55e0435abd018defb0089a9b",
+      "version": "1787937848594",
+      "docType": 4
+    }
+  },
+  "panelLibs": {}
+}

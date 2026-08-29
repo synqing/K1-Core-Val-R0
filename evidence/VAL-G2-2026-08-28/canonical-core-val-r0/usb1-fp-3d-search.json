@@ -1,0 +1,71 @@
+{
+  "searchSeatedP": [
+    {
+      "uuid": "08b2bb7ecebd47fc8f45f08f001d782e",
+      "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+      "classification": {
+        "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+        "libraryType": "5",
+        "primaryClassificationUuid": "dcfcb5e86e39474a9511e7c34cacd3d1"
+      },
+      "ordinal": 0,
+      "name": "usb_c_hirose_cx_4800304000_seated",
+      "type": 16,
+      "description": "CX70M-24P1 seating-plane bind for USB1 only",
+      "updateTimestamp": 1787945278000,
+      "ascription": "spectrasynq",
+      "lastModifiedBy": "spectrasynq"
+    }
+  ],
+  "searchHiroseP": [
+    {
+      "uuid": "71aa35b92da84360b5d9e21f25c486f0",
+      "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+      "classification": {
+        "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+        "libraryType": "5",
+        "primaryClassificationUuid": "dcfcb5e86e39474a9511e7c34cacd3d1"
+      },
+      "ordinal": 0,
+      "name": "usb_c_hirose_cx_4800304000_v3",
+      "type": 16,
+      "description": "USB_C_Hirose_CX_4800304000_v3",
+      "updateTimestamp": 1787941544000,
+      "ascription": "spectrasynq",
+      "lastModifiedBy": "spectrasynq"
+    },
+    {
+      "uuid": "08b2bb7ecebd47fc8f45f08f001d782e",
+      "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+      "classification": {
+        "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+        "libraryType": "5",
+        "primaryClassificationUuid": "dcfcb5e86e39474a9511e7c34cacd3d1"
+      },
+      "ordinal": 1,
+      "name": "usb_c_hirose_cx_4800304000_seated",
+      "type": 16,
+      "description": "CX70M-24P1 seating-plane bind for USB1 only",
+      "updateTimestamp": 1787945278000,
+      "ascription": "spectrasynq",
+      "lastModifiedBy": "spectrasynq"
+    }
+  ],
+  "searchSeatedS": [],
+  "getSeated": {
+    "libraryType": "5",
+    "uuid": "08b2bb7ecebd47fc8f45f08f001d782e",
+    "name": "USB_C_Hirose_CX_4800304000_seated",
+    "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+    "classification": {
+      "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+      "libraryType": "5",
+      "primaryClassificationUuid": "dcfcb5e86e39474a9511e7c34cacd3d1"
+    },
+    "description": "CX70M-24P1 seating-plane bind for USB1 only"
+  },
+  "attrCreateArity": 0,
+  "attrCreateSrc": "create(){}",
+  "attrModifySrc": "async modify(t,i){typeof t==\"string\"&&(t=await this.get(t));let{layer:n,x:r,y:s,key:a,value:o,keyVisible:l,valueVisible:u,fontFamily:c,fontSize:d,lineWidth:f,alignMode:p,rotation:m,reverse:y,expansion:b,mirror:E,primitiveLock:v}=i;return t.isAsync()||t.toAsync(),n!==void 0&&t.setState_Layer(n),r!==void 0&&t.setState_X(r),s!==void 0&&t.setState_Y(s),a!==void 0&&t.setState_Key(a),o!==void 0&&t.setState_Value(o),l!==void 0&&t.setState_KeyVisible(l),u!==void 0&&t.setState_ValueVisible(u),c!==void 0&&t.setState_FontFamily(c),d!==void 0&&t.setState_FontSize(d),f!==void 0&&t.setState_LineWidth(f),p!==void 0&&t.setState_AlignMode(p),m!==void 0&&t.setState_Rotation(m),y!==void 0&&t.setState_Reverse(y),b!==void 0&&t.setState_Expansion(b),E!==void 0&&t.setState_Mirror(E),v!==void 0&&t.setState_PrimitiveLock(v),t.isAsync()?t.done():t.toSync(),t}",
+  "attrGetAll": []
+}

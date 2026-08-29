@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T09-xor-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Designate R94-USB 0 ohm FIT, R95-USB 0 ohm DNP, J12-USB 4-pad. No move. No wire.",
+  "observed_delta": "475 percent view of R94-USB, 0Ω DNP (R95-USB), and J12-USB HDR-1x4 with pins 1-4. Same lands. No wires. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T09-xor-designate.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "R94-USB designated",
+      "result": "OK",
+      "detail": "R94-USB readable on the 0 ohm at 2100,800. Primitive b027c9ae9b996415."
+    },
+    {
+      "name": "R95-USB designated DNP",
+      "result": "OK",
+      "detail": "Name 0Ω DNP visible. Designator R95-USB on 24561118da702cc5 at 2100,1000."
+    },
+    {
+      "name": "J12-USB designated",
+      "result": "OK",
+      "detail": "J12-USB HDR-1x4 at 2300,900. Pins 1-4 readable."
+    },
+    {
+      "name": "not moved",
+      "result": "OK",
+      "detail": "Same coordinates as T08. No new wires. Wires still 801."
+    },
+    {
+      "name": "hub 41c8e652",
+      "result": "OK",
+      "detail": "currentProject.uuid 41c8e652. Hash 3025567:348d2585."
+    }
+  ]
+}

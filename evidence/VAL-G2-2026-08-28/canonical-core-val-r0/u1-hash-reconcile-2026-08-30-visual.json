@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-hash-reconcile-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "Reconcile the PCB source hash after EasyEDA re-serialised the page on activate; no electrical or 3D write.",
+  "observed_delta": "Live identity remains U1 / C5250872 / GT-USB-7005A. USB1 Hirose remains absent. Hash length unchanged at 653038 characters.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/usb1-3d-reconcile-identity-2026-08-30b.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "identity",
+      "result": "OK",
+      "detail": "U1 remains C5250872 / GT-USB-7005A primitive 0f194aaf30bc2e32. USB1 is absent."
+    },
+    {
+      "name": "hash restamp",
+      "result": "OK",
+      "detail": "Live dump 653038:6cdb9687 replaces gate 653038:f5af355b after host re-serialise."
+    },
+    {
+      "name": "no new write",
+      "result": "OK",
+      "detail": "Activate and census only."
+    },
+    {
+      "name": "collateral",
+      "result": "OK",
+      "detail": "U6-RTC still bound to de5664fd2ea74aa082831cfa5b198edb with identity transform."
+    }
+  ]
+}

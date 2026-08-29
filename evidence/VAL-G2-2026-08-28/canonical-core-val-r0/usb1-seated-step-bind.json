@@ -1,0 +1,319 @@
+{
+  "recorded_at": "2026-08-28T19:28:00.248Z",
+  "step_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/USB_C_Hirose_CX_4800304000_seated.STEP",
+  "step_sha256": "4df90f0762a1f341b47ecb55251ea3587208aac051717187cd4a7d298d404b40",
+  "result": {
+    "fileSize": 6763924,
+    "created": [
+      "08b2bb7ecebd47fc8f45f08f001d782e"
+    ],
+    "modelUuid": "08b2bb7ecebd47fc8f45f08f001d782e",
+    "renamed": true,
+    "model": {
+      "libraryType": "5",
+      "uuid": "08b2bb7ecebd47fc8f45f08f001d782e",
+      "name": "USB_C_Hirose_CX_4800304000_seated",
+      "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+      "classification": {
+        "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+        "libraryType": "5",
+        "primaryClassificationUuid": "dcfcb5e86e39474a9511e7c34cacd3d1"
+      },
+      "description": "CX70M-24P1 seating-plane bind for USB1 only"
+    },
+    "before": {
+      "usb1": {
+        "des": "USB1",
+        "sid": "C778726",
+        "mid": "CX70M-24P1",
+        "model": "71aa35b92da84360b5d9e21f25c486f0",
+        "title": "USB_C_Hirose_CX_4800304000_v3",
+        "transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+        "model3d": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "uuid": "71aa35b92da84360b5d9e21f25c486f0",
+          "name": "USB_C_Hirose_CX_4800304000_v3"
+        }
+      },
+      "usb2": {
+        "des": "USB2",
+        "sid": "C3034184",
+        "mid": "HYCW78-USBC24-140B",
+        "model": "0513051d44a0486b835661f1b78cdeb9",
+        "title": "USB-C-SMD_HYCW78-USBC24-140B",
+        "transform": "486.22,391.18524,0,0,0,0,-0.002,-66.733,-78.74",
+        "model3d": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "uuid": "0513051d44a0486b835661f1b78cdeb9",
+          "name": "USB-C-SMD_HYCW78-USBC24-140B"
+        }
+      },
+      "u6": {
+        "des": "U6-RTC",
+        "sid": "C2847497",
+        "mid": "MIMXRT1062DVJ6B",
+        "model": "de5664fd2ea74aa082831cfa5b198edb",
+        "title": "MIMXRT1061DVJ6B",
+        "transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+        "model3d": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "uuid": "de5664fd2ea74aa082831cfa5b198edb",
+          "name": "MIMXRT1061DVJ6B"
+        }
+      }
+    },
+    "modify": {
+      "async": true,
+      "primitiveType": "Component",
+      "layer": 1,
+      "x": 340,
+      "y": 1285,
+      "rotation": 180,
+      "primitiveLock": false,
+      "addIntoBom": true,
+      "component": {
+        "libraryUuid": "64325d0e55e0435abd018defb0089a9b",
+        "uuid": "cdbd0653120da16e",
+        "name": "CX70M-24P1"
+      },
+      "primitiveId": "19bbd06e9438ab5d",
+      "footprint": {
+        "libraryUuid": "64325d0e55e0435abd018defb0089a9b",
+        "uuid": "0c8e199e56e60728",
+        "name": "USB-TYPE-C-SMD_CX70M-24P1"
+      },
+      "model3D": {
+        "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+        "uuid": "71aa35b92da84360b5d9e21f25c486f0",
+        "name": "USB_C_Hirose_CX_4800304000_v3"
+      },
+      "designator": "USB1",
+      "pads": [
+        {
+          "primitiveId": "e43",
+          "net": "",
+          "padNumber": "G2"
+        },
+        {
+          "primitiveId": "e44",
+          "net": "",
+          "padNumber": "B1"
+        },
+        {
+          "primitiveId": "e45",
+          "net": "",
+          "padNumber": "B2"
+        },
+        {
+          "primitiveId": "e46",
+          "net": "",
+          "padNumber": "B3"
+        },
+        {
+          "primitiveId": "e47",
+          "net": "",
+          "padNumber": "A12"
+        },
+        {
+          "primitiveId": "e48",
+          "net": "",
+          "padNumber": "A11"
+        },
+        {
+          "primitiveId": "e49",
+          "net": "",
+          "padNumber": "A10"
+        },
+        {
+          "primitiveId": "e50",
+          "net": "",
+          "padNumber": "A9"
+        },
+        {
+          "primitiveId": "e51",
+          "net": "",
+          "padNumber": "A8"
+        },
+        {
+          "primitiveId": "e52",
+          "net": "",
+          "padNumber": "A7"
+        },
+        {
+          "primitiveId": "e53",
+          "net": "",
+          "padNumber": "A6"
+        },
+        {
+          "primitiveId": "e54",
+          "net": "",
+          "padNumber": "A5"
+        },
+        {
+          "primitiveId": "e55",
+          "net": "",
+          "padNumber": "A4"
+        },
+        {
+          "primitiveId": "e56",
+          "net": "",
+          "padNumber": "A3"
+        },
+        {
+          "primitiveId": "e57",
+          "net": "",
+          "padNumber": "A2"
+        },
+        {
+          "primitiveId": "e58",
+          "net": "",
+          "padNumber": "A1"
+        },
+        {
+          "primitiveId": "e59",
+          "net": "",
+          "padNumber": "B10"
+        },
+        {
+          "primitiveId": "e60",
+          "net": "",
+          "padNumber": "B11"
+        },
+        {
+          "primitiveId": "e61",
+          "net": "",
+          "padNumber": "B12"
+        },
+        {
+          "primitiveId": "e62",
+          "net": "",
+          "padNumber": "G1"
+        },
+        {
+          "primitiveId": "e97",
+          "net": "",
+          "padNumber": "S4"
+        },
+        {
+          "primitiveId": "e98",
+          "net": "",
+          "padNumber": "S3"
+        },
+        {
+          "primitiveId": "e99",
+          "net": "",
+          "padNumber": "S2"
+        },
+        {
+          "primitiveId": "e100",
+          "net": "",
+          "padNumber": "S1"
+        },
+        {
+          "primitiveId": "e101",
+          "net": "",
+          "padNumber": "B4"
+        },
+        {
+          "primitiveId": "e102",
+          "net": "",
+          "padNumber": "B5"
+        },
+        {
+          "primitiveId": "e103",
+          "net": "",
+          "padNumber": "B6"
+        },
+        {
+          "primitiveId": "e104",
+          "net": "",
+          "padNumber": "B7"
+        },
+        {
+          "primitiveId": "e105",
+          "net": "",
+          "padNumber": "B8"
+        },
+        {
+          "primitiveId": "e106",
+          "net": "",
+          "padNumber": "B9"
+        }
+      ],
+      "name": "={Manufacturer Part}",
+      "uniqueId": "",
+      "manufacturer": "HRS(广濑)",
+      "manufacturerId": "CX70M-24P1",
+      "supplier": "LCSC",
+      "supplierId": "C778726",
+      "otherProperty": {
+        "Footprint": "USB-TYPE-C-SMD_CX70M-24P1",
+        "LCSC Part Name": "Type-C 母 沉板",
+        "Supplier Footprint": "SMD",
+        "JLCPCB Part Class": "Extended Part",
+        "Datasheet": "https://item.szlcsc.com/datasheet/CX70M-24P1/827627.html",
+        "Connector Type": "Type-C",
+        "Protocol Standard": "USB 3.2",
+        "Gender": "Female",
+        "Mounting Type": "Laminated board",
+        "Number of Contacts": "24P",
+        "Number of Ports": "1",
+        "Current Rating-Power": "-",
+        "Voltage Rating": "20V",
+        "Detection color": "Black",
+        "Operating Temperature": "-30℃~+85℃",
+        "Description": "Connector Type:Type-C Protocol Standard:USB 3.2 Gender:Female Mounting Type:Laminated board Number of Contacts:24P Number of Ports:1 Current Rating-Power:- Voltage Rating:20V Detection color:Black Operating Temperature:-30℃~+85℃ Operating Temperature:-30℃",
+        "Device": "CX70M-24P1",
+        "Reuse Block": "",
+        "Group ID": "",
+        "Channel ID": "",
+        "3D Model": "08b2bb7ecebd47fc8f45f08f001d782e",
+        "3D Model Title": "USB_C_Hirose_CX_4800304000_seated",
+        "3D Model Transform": "448.8179849815368,328.7394915521145,0,0,0,0,0,-66.733,-80.315"
+      }
+    },
+    "saved": true,
+    "after": {
+      "usb1": {
+        "des": "USB1",
+        "sid": "C778726",
+        "mid": "CX70M-24P1",
+        "model": "08b2bb7ecebd47fc8f45f08f001d782e",
+        "title": "USB_C_Hirose_CX_4800304000_seated",
+        "transform": "448.8179849815368,328.7394915521145,0,0,0,0,0,-66.733,-80.315",
+        "model3d": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "uuid": "08b2bb7ecebd47fc8f45f08f001d782e",
+          "name": "USB_C_Hirose_CX_4800304000_seated"
+        }
+      },
+      "usb2": {
+        "des": "USB2",
+        "sid": "C3034184",
+        "mid": "HYCW78-USBC24-140B",
+        "model": "0513051d44a0486b835661f1b78cdeb9",
+        "title": "USB-C-SMD_HYCW78-USBC24-140B",
+        "transform": "486.22,391.18524,0,0,0,0,-0.002,-66.733,-78.74",
+        "model3d": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "uuid": "0513051d44a0486b835661f1b78cdeb9",
+          "name": "USB-C-SMD_HYCW78-USBC24-140B"
+        }
+      },
+      "u6": {
+        "des": "U6-RTC",
+        "sid": "C2847497",
+        "mid": "MIMXRT1062DVJ6B",
+        "model": "de5664fd2ea74aa082831cfa5b198edb",
+        "title": "MIMXRT1061DVJ6B",
+        "transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+        "model3d": {
+          "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+          "uuid": "de5664fd2ea74aa082831cfa5b198edb",
+          "name": "MIMXRT1061DVJ6B"
+        }
+      }
+    },
+    "ok": true
+  }
+}

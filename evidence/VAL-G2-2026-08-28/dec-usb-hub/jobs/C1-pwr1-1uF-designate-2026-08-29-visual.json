@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "C1-pwr1-1uF-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "C1-PWR1 value 22uF to 1uF. Stay on 5V_USB. Same land. C2 untouched.",
+  "observed_delta": "1337 percent J1-inlet view of C1-PWR1 1uF at 115,4420 and C2-PWR1 22uF at 215,4420. C1 still on the 5V_USB inlet pair. C2 still 22uF on 5V_PROTECTED. Same land. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/C1-1uF-block.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "C1-PWR1 name is 1uF",
+      "result": "OK",
+      "detail": "C1-PWR1 value text reads 1uF in red under the left capacitor at 115,4420."
+    },
+    {
+      "name": "C1 still C1-PWR1",
+      "result": "OK",
+      "detail": "Designator C1-PWR1 remains above the left symbol. Primitive e72."
+    },
+    {
+      "name": "C1 not moved",
+      "result": "OK",
+      "detail": "C1 still at 115,4420 on the J1 inlet, not the hub island."
+    },
+    {
+      "name": "C2 still 22uF",
+      "result": "OK",
+      "detail": "C2-PWR1 at 215,4420 still reads 22uF. 5V_PROTECTED label visible. Untouched."
+    },
+    {
+      "name": "hub 41c8e652",
+      "result": "OK",
+      "detail": "Capture from hub 41c8e652 page 1435cb46. J1 inlet, not U20 island."
+    }
+  ]
+}

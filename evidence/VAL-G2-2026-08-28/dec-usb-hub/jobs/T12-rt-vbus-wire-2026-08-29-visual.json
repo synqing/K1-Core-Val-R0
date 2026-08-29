@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T12-rt-vbus-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "U6 N6 and CUSBVBUS-RTC 1uF onto RT_USB_VBUS. No new place.",
+  "observed_delta": "537 percent U6 USB-ball view. N6 carries RT_USB_VBUS power flag. CUSBVBUS-RTC 1uF sits on the RT_USB_VBUS / GND stubs to the right of L8. N4 is FLEXSPI_D1 again, not VBUS. M8 remains USB_DM_DN1. Hub 41c8e652. Saved banner visible.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T12-rt-vbus.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "N6 on RT_USB_VBUS",
+      "result": "OK",
+      "detail": "Power flag c100a271b70fc31d at 2230,4040 named RT_USB_VBUS. Visible on N6 in the 537 percent shot."
+    },
+    {
+      "name": "CUSBVBUS on RT_USB_VBUS",
+      "result": "OK",
+      "detail": "Wire d712353198394ad0 on existing 1uF ebrc000232 pin 1. Red RT_USB_VBUS rail visible right of L8."
+    },
+    {
+      "name": "CUSBVBUS other pin GND",
+      "result": "OK",
+      "detail": "Wire 2752226d4cac7640 pin 2 to GND. GND label visible on the cap island."
+    },
+    {
+      "name": "1uF already present",
+      "result": "OK",
+      "detail": "CUSBVBUS-RTC ebrc000232 name 1uF / >=10V at 2530,4065. No new capacitor placed."
+    },
+    {
+      "name": "FLEXSPI_D1 isolated",
+      "result": "OK",
+      "detail": "Restored stub 541fb4ee520309e2 on N4 only. First merged wire b9520eddf98cb22f deleted."
+    },
+    {
+      "name": "hub 41c8e652",
+      "result": "OK",
+      "detail": "currentProject.uuid 41c8e652. Hash 3037107:7bcb0f9b."
+    }
+  ]
+}

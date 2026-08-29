@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07k-u23-killb-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2912320:e6ed977f",
+  "post_source_hash": "2926794:b38038a7",
+  "saved": true,
+  "affected": [
+    {"net": "TAP_VBUS", "members": ["U23.3 IN+", "R81.2", "R82.1"]},
+    {"net": "TAP_REF", "members": ["U23.4 IN-", "R83.2", "R84.1"]},
+    {"net": "3V3", "members": ["U23.5 VCC", "C123.1", "R83.1"]},
+    {"net": "GND", "members": ["U23.2 VEE", "C123.2", "R82.2", "R84.2"]},
+    {"net": "5V_USB", "members": ["R81.1"]},
+    {"net": "USB_5V_VALID", "members": ["U23.1 OUT stub"]}
+  ],
+  "census": {
+    "components": 323,
+    "wires": 793,
+    "components_delta": 0,
+    "wires_delta": 5
+  },
+  "observed": "KILL-B comparator wired. TAP_VBUS and TAP_REF created. USB_5V_VALID stub from U23 OUT. U24/U25 and R85 not wired. Hub 41c8e652."
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "transaction_id": "usb1-3d-seated-step-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "USB1 only: bind a new personal seating-plane Hirose STEP and apply USB2's COMPONENT 3D transform mechanism (auto height, offY=-66.733 mil, offZ=-80.315 mil) so the shell sits on the mask and the tabs enter the oval slots. Do not retouch U6, USB2, caps or TVS.",
+  "observed_delta": "USB1 now binds personal model 08b2bb7ecebd47fc8f45f08f001d782e with USB2-style transform 448.82,328.74,0,0,0,0,0,-66.733,-80.315. Rebuilt 3D PCB1 still shows a 1-2 mm air gap under the Hirose shell; tabs remain above the four oval slots; SMT pins remain behind the rear pads. USB2 in the same frame is seated.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/usb1-3d-after-seated-step-settled.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [
+    "New personal STEP UUID did not make the 3D builder apply OFFSET; pose matches the old 71aa35 bind"
+  ],
+  "verdict": "REJECTED",
+  "checks": [
+    {"name": "USB1 identity C778726 / CX70M-24P1 unchanged", "result": "OK", "detail": "USB1 remains C778726 / CX70M-24P1."},
+    {"name": "USB1 bound to a new personal 3D UUID not 71aa35b92da84360b5d9e21f25c486f0", "result": "OK", "detail": "Live model is 08b2bb7ecebd47fc8f45f08f001d782e titled USB_C_Hirose_CX_4800304000_seated."},
+    {"name": "USB2 and U6 models and transforms unchanged", "result": "OK", "detail": "USB2 still 0513051d44a0486b835661f1b78cdeb9 / 486.22,391.18524,0,0,0,0,-0.002,-66.733,-78.74. U6 still identity on de5664fd2ea74aa082831cfa5b198edb."},
+    {"name": "shell seats or a clear remaining air-gap is recorded", "result": "DEFECT", "detail": "Air gap under the shell is still about 1-2 mm. Tabs are not in the oval slots."}
+  ]
+}

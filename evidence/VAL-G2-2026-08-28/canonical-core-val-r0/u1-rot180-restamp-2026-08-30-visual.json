@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-rot180-restamp-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "Reconcile the PCB source hash after activate re-serialised the page following the rejected 6 mm probe. No new write. This is not a seating claim.",
+  "observed_delta": "Hash length unchanged at 653178 (now 271c830e). U1 still binds the yflip mesh. Transform 0, 236.220, 0 is sizeY=6 mm, so the grey body is a tiny block inside the silk, not original size. Ovals empty. Hash restamp only.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-rot180-restamp.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name": "identity", "result": "OK", "detail": "U1 remains C5250872 / GT-USB-7005A primitive 0f194aaf30bc2e32."},
+    {"name": "hash restamp", "result": "OK", "detail": "Live dump 653178:271c830e replaces gate 653178:06ffb1b2 after host re-serialise."},
+    {"name": "no new write", "result": "OK", "detail": "Snapshot and 3D capture only."},
+    {"name": "seating not claimed", "result": "OK", "detail": "Body is tiny and inland; ovals still empty."}
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "recorded_at": "2026-08-29T19:26:53Z",
+  "seated": false,
+  "visual_verdict": "NOT_SEATED_IDENTITY_MISMATCH",
+  "wrote": false,
+  "cdp": {
+    "base": "http://127.0.0.1:9223",
+    "page": true,
+    "project": "64325d0e55e0435abd018defb0089a9b",
+    "title": "K1-Core-Val-R0 | JLCEDA Pro - V3.2.149.88089769"
+  },
+  "gate": {
+    "lane": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0",
+    "before": "BLOCKED_RECONCILIATION",
+    "after": "READY",
+    "hash": "653038:f5af355b",
+    "transaction_id": "usb1-identity-reconcile-2026-08-30"
+  },
+  "asked": {
+    "designator": "USB1",
+    "sid": "C778726",
+    "mid": "CX70M-24P1",
+    "primitive": "19bbd06e9438ab5d",
+    "footprint": "0c8e199e56e60728",
+    "seated_step": "08b2bb7ecebd47fc8f45f08f001d782e"
+  },
+  "live": {
+    "usb1": false,
+    "usb2": false,
+    "cx70m": false,
+    "seated_step_on_pcb": false,
+    "usbc": {
+      "des": "U1",
+      "sid": "C5250872",
+      "mid": "GT-USB-7005A",
+      "primitive": "0f194aaf30bc2e32",
+      "footprint": "0e0bf75fdf55a316",
+      "device": "c3bb4dd81905bb44",
+      "pads": 30,
+      "model3d": "0819f05c4eef4c71ace90d822a990e87 libraryUuid only; no model uuid"
+    },
+    "schematic_usbc": [
+      { "des": "J1-PWR1", "mid": "USB4105-GF-A" },
+      { "des": "J7-ESP", "mid": "USB4105-GF-A" }
+    ]
+  },
+  "mechanism": "none — live identities failed confirmation; no PCB write",
+  "failed_apis": [],
+  "screenshots": [
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/usb1-3d-reconcile-identity-2026-08-30b.png",
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-gtusb-2d-identity-2026-08-30.png"
+  ]
+}

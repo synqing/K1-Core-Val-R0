@@ -1,0 +1,398 @@
+[
+ {
+  "tag": "ctx",
+  "ok": true,
+  "result": {
+   "currentDocument": {
+    "documentType": 1,
+    "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+    "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+   },
+   "currentProject": {
+    "itemType": "Project",
+    "uuid": "41c8e6523576456582ea35958b3684ed",
+    "friendlyName": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "name": "spectrasynq/K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "teamUuid": "27700277ef7a49e48a0293bece6b2993",
+    "description": "",
+    "data": [
+     {
+      "itemType": "Board",
+      "name": "Board1",
+      "schematic": {
+       "itemType": "Schematic",
+       "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "name": "Schematic1",
+       "page": [
+        {
+         "itemType": "Schematic Page",
+         "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+         "name": "P1",
+         "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+         "showTitleBlock": true,
+         "titleBlockData": {
+          "Symbol": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "@Project Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE"
+          },
+          "@Page Count": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Update Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Create Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Schematic Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Schematic1"
+          },
+          "@Page No": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Page Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "P1"
+          },
+          "Company": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "SPECTRASYNQ"
+          },
+          "Reviewed": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Version": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "V1.0"
+          },
+          "Page Size": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Custom"
+          },
+          "Drawn": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "@Create Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "07:22:31"
+          },
+          "@Update Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "09:46:47"
+          },
+          "Border": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "5000"
+          },
+          "Height": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "4800"
+          },
+          "Region Start": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "X Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Y Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "8"
+          },
+          "Blade Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Color": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "#333333"
+          },
+          "Title Block Position": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "3"
+          },
+          "Title Block": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "@Board Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Board1"
+          },
+          "Footprint": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Description": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Device": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "ID": {}
+         }
+        }
+       ],
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed",
+       "parentBoardName": "Board1"
+      },
+      "pcb": {
+       "itemType": "PCB",
+       "name": "PCB1",
+       "uuid": "59bef7e87cff4cd580561703b62d8c19",
+       "parentBoardName": "Board1",
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+      },
+      "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+     }
+    ]
+   },
+   "splitScreenTree": {
+    "id": "editor-window-main",
+    "tabs": [
+     {
+      "title": "Start Page",
+      "tabId": "tab_page1",
+      "icon": {
+       "iconClassName": "icon-eda-logo"
+      },
+      "tabStyle": {
+       "width": "auto",
+       "minWidth": "76px"
+      },
+      "isAbleDelete": false,
+      "group": "start_blank",
+      "draggable": true,
+      "data": {
+       "doctype": -1
+      },
+      "isDisplayNone": false
+     },
+     {
+      "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+      "title": "P1.Schematic1",
+      "icon": {
+       "iconClassName": "icon-eda-page icon-color-blue"
+      },
+      "draggable": true,
+      "isAbleDelete": true,
+      "notUseI18n": true,
+      "data": {
+       "containerId": "editor-window-main",
+       "doctype": 1,
+       "ticket": 10083,
+       "updateTime": 1787961070128,
+       "data-model-sheet-uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+       "title": "P1",
+       "pid": "41c8e6523576456582ea35958b3684ed",
+       "version": "1787961070128",
+       "schematicName": "Schematic1",
+       "data-schematic-uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "isBlockSymbolSheet": false,
+       "creator": "27700277ef7a49e48a0293bece6b2993",
+       "owner": "27700277ef7a49e48a0293bece6b2993",
+       "sch": true
+      },
+      "titleStyle": {
+       "fontWeight": "bold"
+      },
+      "isUnSaved": false,
+      "isHighLight": false
+     }
+    ]
+   },
+   "editorBootstrapState": {
+    "startPageOnly": false,
+    "urlHash": "#id=41c8e6523576456582ea35958b3684ed,tab=*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedProjectUuid": "41c8e6523576456582ea35958b3684ed",
+    "requestedTabIds": [
+     "*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "activeRequestedTab": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedActiveTabMissing": false,
+    "visibleTabIds": [
+     "tab_page1",
+     "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "suspectedBootstrapFailure": false
+   },
+   "contextLevel": "project-and-document",
+   "hasProjectContext": true,
+   "hasDocumentContext": true,
+   "recommendedNextSteps": [
+    "Use document-specific tools that match the active document type.",
+    "If you need project inventory or cross-document operations, call list_project_objects next.",
+    "For edits, prefer query tools first so primitive IDs and coordinates are verified before modification."
+   ]
+  }
+ },
+ {
+  "tag": "u20",
+  "ok": true,
+  "result": {
+   "primitiveId": "92edd0bd8901c171",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "92edd0bd8901c171",
+    "componentType": "part",
+    "x": 400,
+    "y": 800,
+    "subPartName": "USB2422T-I/MJ.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "953a7efbda8b5c60",
+     "name": "USB2422T-I/MJ"
+    },
+    "symbol": {
+     "uuid": "498197b1b36ebbe9",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "USB2422T-I/MJ"
+    },
+    "footprint": {
+     "uuid": "fabc91dfb9c7e93c",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "QFN-24_L4.0-W4.0-P0.50-TL-EP2.5"
+    },
+    "designator": "U20-USB",
+    "name": "USB2422T-I/MJ",
+    "uniqueId": "",
+    "manufacturer": "MICROCHIP(美国微芯)",
+    "manufacturerId": "USB2422T-I/MJ",
+    "supplier": "LCSC",
+    "supplierId": "USB2422T-I/MJ.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "type": "",
+     "USB Protocol": "",
+     "Data Rate": "",
+     "Voltage - Supply": "",
+     "Operating Temperature": "",
+     "Memory Interface": "",
+     "Current - Supply": "",
+     "Quiescent Supply Current": "",
+     "Number of Channels": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "u6",
+  "ok": true,
+  "result": {
+   "primitiveId": "e3673",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "e3673",
+    "componentType": "part",
+    "x": 2250,
+    "y": 3930,
+    "subPartName": "MIMXRT1062DVJ6B.2",
+    "rotation": 90,
+    "mirror": false,
+    "addIntoBom": false,
+    "addIntoPcb": true,
+    "net": "",
+    "component": {
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058",
+     "uuid": "69a263214ca544edaed5248f1d7e5e69",
+     "name": "MIMXRT1062DVJ6B"
+    },
+    "symbol": {
+     "uuid": "6b50fcab76dc45c3bb51cfd14e3e6973",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058",
+     "name": "MIMXRT1062DVJ6B"
+    },
+    "footprint": {
+     "uuid": "0d8325d2787742aaa103696ca6f4bada",
+     "libraryUuid": "1f60af53654b4c089403430f1a6f9058",
+     "name": "LFBGA-196_L12.0-W12.0-R14-C14-P0.80-BL"
+    },
+    "designator": "U6-RTC",
+    "name": "FITTED",
+    "uniqueId": "gge220",
+    "manufacturer": "NXP(恩智浦)",
+    "manufacturerId": "MIMXRT1062DVJ6B",
+    "supplier": "LCSC",
+    "supplierId": "C3216699",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "CPU Core": "",
+     "CPU Maximum Speed": "",
+     "Number of I/O": "",
+     "ADC (Bit)": "",
+     "Voltage - Supply": "",
+     "Description": "",
+     "Multi-Part Group": "",
+     "Relevance": "",
+     "Datasheet": ""
+    }
+   }
+  }
+ }
+]

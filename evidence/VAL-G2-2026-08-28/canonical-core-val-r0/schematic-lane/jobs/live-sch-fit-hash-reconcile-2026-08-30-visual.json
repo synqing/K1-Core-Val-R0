@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-sch-fit-hash-reconcile-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Lane reconciliation after Captain Fit Selection. Absorb live MAIN source hash 2258325:57c2fcc6 so the schematic write lock matches the canvas that showed the accepted FAULT1 stub. No new electrical write this step.",
+  "observed_delta": "The fitted U17-PWR2 block still shows FAULT1# on LED_FAULT_L_N and the exposed pad on GND. Chrome is K1-Core-Val-R0 | JLCEDA Pro on project 64325d0e. The hash move is operator zoom/nudge plus host restamp, not a second FAULT1 edit.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/schematic-lane/screenshots/live-u17-fault1-ungnd-captain-fit.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "live MAIN identity",
+      "result": "OK",
+      "detail": "get_current_context parent is 64325d0e / K1-Core-Val-R0, page 1435cb46, not HOLD 55ed9ee9 and not hub 41c8e652."
+    },
+    {
+      "name": "FAULT1 electrical result still on canvas",
+      "result": "OK",
+      "detail": "Block capture of U17 shows LED_FAULT_L_N on FAULT1# and GND on pin 1 and the exposed pad."
+    },
+    {
+      "name": "source hash catch-up is the live graph",
+      "result": "OK",
+      "detail": "Independent parse of the new snapshot is 229 components, 687 wires, LED_FAULT_L_N only on the FAULT1 stub, GND-only on island 5168f11a36333ffe."
+    },
+    {
+      "name": "no second electrical programme this step",
+      "result": "OK",
+      "detail": "This reconciliation does not add, delete, or rename nets. U3-PWR2 pin 5 remains unwired until the next gated wire transaction."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T00d-j1-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Designate the independently placed GT-USB-7005A-IND from auto-name U? to J1-USB. Old USB4105 J1-PWR1 remains. No wires and no move.",
+  "observed_delta": "140 percent block zoom shows the 28-pin symbol now labelled J1-USB. A/B/S pin names unchanged. No new wires. Old J1-PWR1 remains in POWER ENTRY. Hub project 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T00d-j1-designate.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "new symbol designator is J1-USB",
+      "result": "OK",
+      "detail": "Red designator J1-USB is readable at the top of the independently rebuilt Type-C symbol."
+    },
+    {
+      "name": "part remains GT-USB-7005A-IND not C5250872",
+      "result": "OK",
+      "detail": "Read-back component name is still GT-USB-7005A-IND in personal library 27700277. 28 pins A1–A12, B1–B12, S1–S4."
+    },
+    {
+      "name": "old J1-PWR1 still present",
+      "result": "OK",
+      "detail": "e339 remains J1-PWR1 USB4105-GF-A at 185,4095."
+    },
+    {
+      "name": "no new wires and hub project 41c8e652",
+      "result": "OK",
+      "detail": "Wires still 773. Active project is K1-Core-Val-R0-G2.1-HUB-CANDIDATE / 41c8e652."
+    }
+  ]
+}

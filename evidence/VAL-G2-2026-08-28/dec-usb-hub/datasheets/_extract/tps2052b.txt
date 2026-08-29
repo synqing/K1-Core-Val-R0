@@ -1,0 +1,1501 @@
+                                                                                               TPS2041B, TPS2042B, TPS2043B, TPS2044B
+                                                                                               TPS2051B, TPS2052B, TPS2053B, TPS2054B
+                                                                                                          SLVS514P – APRIL 2004 – REVISED AUGUST 2024
+
+                      TPS20xxB Current-Limited, Power-Distribution Switches
+1 Features                                                                    3 Description
+•   70mΩ High-Side MOSFET                                                     The TPS20xxB power-distribution switches are
+•   500mA Continuous Current                                                  intended for applications where heavy capacitive
+•   Thermal and Short-Circuit Protection                                      loads and short circuits are likely to be encountered.
+•   Accurate Current Limit                                                    These devices incorporates 70mΩ N-channel
+    (0.75A Minimum, 1.25A Maximum)                                            MOSFET power switches for power-distribution
+•   Operating Range: 2.7V to 5.5V                                             systems that require multiple power switches in
+•   0.6ms Typical Rise Time                                                   a single package. Each switch is controlled by a
+•   Undervoltage Lockout                                                      logic enable input. Gate drive is provided by an
+•   Deglitched Fault Report ( OC)                                             internal charge pump designed to control the power-
+•   No OC Glitch During Power Up                                              switch rise times and fall times to minimize current
+•   Maximum Standby Supply Current:                                           surges during switching. The charge pump requires
+    1μA (Single, Dual) or 2μA (Triple, Quad)                                  no external components and allows operation from
+•   Ambient Temperature Range: –40°C to 85°C                                  supplies as low as 2.7V.
+•   UL Recognized, File Number E169910
+                                                                              When the output load exceeds the current-limit
+•   Additional UL Recognition for TPS2042B and
+                                                                              threshold or a short is present, the device limits the
+    TPS2052B for Ganged Configuration
+                                                                              output current to a safe level by switching into a
+2 Applications                                                                constant-current mode, pulling the overcurrent ( OCx)
+                                                                              logic output low. When continuous heavy overloads
+•   Heavy Capacitive Loads                                                    and short circuits increase the power dissipation in
+•   Short-Circuit Protections                                                 the switch, causing the junction temperature to rise,
+                                                                              a thermal protection circuit shuts off the switch to
+                                                                              prevent damage. Recovery from a thermal shutdown
+                                                                              is automatic once the device has cooled sufficiently.
+                                                                              Internal circuitry ensures that the switch remains
+                                                                              off until valid input voltage is present. This power-
+                                                                              distribution switch is designed to set current limit at
+                                                                              1A (typical).
+                                                                                                          Device Information
+                                                                                PART NUMBER                    PACKAGE(1)              BODY SIZE (NOM)
+                                                                                                        SOIC (8)                       4.90mm × 3.91mm
+                                                                                                        SOIC (16)                      9.90mm × 3.91mm
+                                                                              TPS20xxB                  SOT-23 (5)                     2.90mm × 1.60mm
+                                                                                                        HVSSOP (8)                     3.00mm × 3.00mm
+                                                                                                        SON (8)                        3.00mm × 3.00mm
+
+                                                                              (1)   For all available packages, see the orderable addendum at
+                                                                                    the end of the data sheet.
+                                                                        TPS2042B
+                         Power Supply                         2
+                                                                  IN
+                          2.7 V to 5.5 V                                                7
+                                                                                OUT1                                       Load
+                                                     0.1 µF
+                                                                                                 0.1 µF        22 µF
+
+                                                              8
+                                                                  OC1
+                                                              3                          6
+                                                                  EN1           OUT2                                       Load
+                                                              5
+                                                                  OC2                            0.1 µF        22 µF
+                                                              4
+                                                                  EN2
+                                                                          GND
+                                                                          1
+                                                                                    Copyright © 2016, Texas Instruments Incorporated
+
+
+                                                Typical Application Schematic
+
+     An IMPORTANT NOTICE at the end of this data sheet addresses availability, warranty, changes, use in safety-critical applications,
+     intellectual property matters and other important disclaimers. PRODUCTION DATA.
+TPS2041B, TPS2042B, TPS2043B, TPS2044B
+TPS2051B, TPS2052B, TPS2053B, TPS2054B
+SLVS514P – APRIL 2004 – REVISED AUGUST 2024                                                                                                                      www.ti.com
+
+
+                                                                        Table of Contents
+1 Features............................................................................1     8.4 Device Functional Modes..........................................22
+2 Applications..................................................................... 1     9 Application and Implementation.................................. 23
+3 Description.......................................................................1       9.1 Application Information............................................. 23
+4 General Switch Catalog.................................................. 3                9.2 Typical Application.................................................... 23
+5 Pin Configuration and Functions...................................3                     10 Power Supply Recommendations..............................36
+6 Specifications.................................................................. 6        10.1 Undervoltage Lockout (UVLO)................................36
+  6.1 Absolute Maximum Ratings........................................ 6                  11 Layout........................................................................... 37
+  6.2 ESD Ratings............................................................... 6          11.1 Layout Guidelines................................................... 37
+  6.3 Recommended Operating Conditions.........................6                            11.2 Layout Example...................................................... 37
+  6.4 Thermal Information....................................................6              11.3 Power Dissipation................................................... 37
+  6.5 Electrical Characteristics.............................................7              11.4 Thermal Protection..................................................37
+  6.6 Typical Characteristics (All Devices Excluding                                      12 Device and Documentation Support..........................39
+    TPS2051BDBV and TPS2052BD)................................ 9                            12.1 Receiving Notification of Documentation Updates..39
+  6.7 Typical Characteristics (TPS2051BDBV and                                              12.2 Support Resources................................................. 39
+    TPS2052BD)............................................................... 13            12.3 Trademarks............................................................. 39
+7 Parameter Measurement Information.......................... 16                            12.4 Electrostatic Discharge Caution..............................39
+8 Detailed Description......................................................17              12.5 Glossary..................................................................39
+  8.1 Overview................................................................... 17      13 Revision History.......................................................... 39
+  8.2 Functional Block Diagrams....................................... 17                 14 Mechanical, Packaging, and Orderable
+  8.3 Feature Description...................................................20              Information.................................................................... 40
+
+
+
+
+2       Submit Document Feedback                                                                                          Copyright © 2025 Texas Instruments Incorporated
+
+                 Product Folder Links: TPS2041B TPS2042B TPS2043B TPS2044B TPS2051B TPS2052B TPS2053B TPS2054B
+                                                                                                                TPS2041B, TPS2042B, TPS2043B, TPS2044B
+                                                                                                                TPS2051B, TPS2052B, TPS2053B, TPS2054B
+www.ti.com                                                                                                                  SLVS514P – APRIL 2004 – REVISED AUGUST 2024
+
+
+4 General Switch Catalog
+                                                                             GENERAL SWITCH CATALOG
+                33 mW, Single                 80 mW, Single           80 mW, Dual          80 mW, Dual      80 mW, Triple            80 mW, Quad               80 mW, Quad
+
+
+
+             TPS201xA    0.2 A to 2 A     TPS2014       600 mA
+             TPS202x     0.2 A to 2 A     TPS2015       1A
+             TPS203x     0.2 A to 2 A     TPS2041B      500 mA    TPS2042B    500 mA   TPS2080   500 mA
+                                          TPS2051B      500 mA    TPS2052B    500 mA   TPS2081   500 mA
+                                          TPS2045A      250 mA    TPS2046B    250 mA                      TPS2043B   500 mA
+                                                                                       TPS2082   500 mA
+                                          TPS2049       100 mA    TPS2056     250 mA                      TPS2053B   500 mA
+                                                                                       TPS2090   250 mA                         TPS2044B       500 mA         TPS2085   500 mA
+                                          TPS2055A      250 mA    TPS2062     1A                          TPS2047B   250 mA
+                                                                                       TPS2091   250 mA                         TPS2054B       500 mA         TPS2086   500 mA
+                                          TPS2061       1A        TPS2066     1A                          TPS2057A   250 mA
+                                                                                       TPS2092   250 mA                         TPS2048A       250 mA         TPS2087   500 mA
+                                          TPS2065       1A        TPS2060     1.5 A                       TPS2063    1A
+                                                                  TPS2064     1.5 A                       TPS2067    1A         TPS2058        250 mA         TPS2095   250 mA
+                                          TPS2068       1.5 A
+                                                                                                                                                              TPS2096   250 mA
+                                          TPS2069       1.5 A
+                                                                                                                                                              TPS2097   250 mA
+
+
+
+
+5 Pin Configuration and Functions
+
+                               OUT                       IN                                                                   GND        1      8       OUT
+                                                                                                                                IN       2      7       OUT
+                               GND
+                                                                                                                                IN       3      6       OUT
+                                                              †
+                                OC                       EN                                                                   EN†        4      5       OC
+
+
+       † All enable outputs are active high for the TPS205xB series.                                † All enable outputs are active high for the TPS205xB series.
+
+        Figure 5-1. TPS2041B and TPS2051B: DBV                                                   Figure 5-2. TPS2041B and TPS2051B: D and DGN
+             Package 5-Pin SOT-23 Top View                                                         Packages 8-Pin SOIC and HVSSOP Top View
+
+                                GND       1        8    OC1                                                                 GND      1              8   OC1
+                                  IN      2        7    OUT1                                                                   IN    2              7   OUT1
+                               EN1†       3        6    OUT2                                                                EN1†     3              6   OUT2
+                                                        OC2
+                               EN2†       4        5                                                                        EN2†     4              5   OC2
+
+       † All enable outputs are active high for the TPS205xB series.                                † All enable outputs are active high for the TPS205xB series.
+
+   Figure 5-3. TPS2042B and TPS2052B: D and DGN                                                      Figure 5-4. TPS2042B and TPS2052B: DRB
+     Packages 8-Pin SOIC and HVSSOP Top View                                                                Package 8-Pin SON Top View
+
+                              GND         1        16   OC1                                                                 GND          1     16       OC1
+                               IN1        2        15   OUT1                                                                 IN1         2     15       OUT1
+                              EN1†        3        14   OUT2                                                                EN1†         3     14       OUT2
+                                          4        13   OC2                                                                              4     13       OC2
+                              EN2†                                                                                          EN2†
+                              GND         5        12   OC3                                                                 GND          5     12       OC3
+                               IN2        6        11   OUT3                                                                 IN2         6     11       OUT3
+                              EN3†        7        10   NC                                                                  EN3†         7     10       OUT4
+                                 NC       8         9   NC                                                                  EN4†         8      9       OC4
+
+
+       † All enable outputs are active high for the TPS205xB series.                                † All enable outputs are active high for the TPS205xB series.
+
+   Figure 5-5. TPS2043B and TPS2053B: D Package                                                  Figure 5-6. TPS2044B and TPS2054B: D Package
+                 16-Pin SOIC Top View                                                                          16-Pin SOIC Top View
+
+
+                                                  Table 5-1. Pin Functions (TPS2041B and TPS2051B)
+                                                  PIN
+               TPS2041B                 TPS2051B              TPS2041B          TPS2051B            I/O                                      DESCRIPTION
+ NAME
+                    SOIC AND DGN                                         SOT-23
+ EN                 4                         —                   4                    —             I    Enable input, logic low turns on power switch
+ EN                —                          4                   —                    4             I    Enable input, logic high turns on power switch
+ GND                1                         1                   2                    2            —     Ground
+ IN               2, 3                    2, 3                    5                    5             I    Input voltage
+ OC                 5                         5                   3                    3             O    Overcurrent open-drain output, active-low
+
+
+Copyright © 2025 Texas Instruments Incorporated                                                                                               Submit Document Feedback           3
+               Product Folder Links: TPS2041B TPS2042B TPS2043B TPS2044B TPS2051B TPS2052B TPS2053B TPS2054B
+TPS2041B, TPS2042B, TPS2043B, TPS2044B
+TPS2051B, TPS2052B, TPS2053B, TPS2054B
+SLVS514P – APRIL 2004 – REVISED AUGUST 2024                                                                                          www.ti.com
+
+                              Table 5-1. Pin Functions (TPS2041B and TPS2051B) (continued)
+                                     PIN
+               TPS2041B       TPS2051B      TPS2041B          TPS2051B       I/O                          DESCRIPTION
+    NAME
+                    SOIC AND DGN                         SOT-23
+    OUT          6, 7, 8        6, 7, 8        1                    1         O     Power-switch output
+
+
+                                     Table 5-2. Pin Functions (TPS2042B and TPS2052B)
+                      PIN
+                  TPS2042B      TPS2052B           I/O                                        DESCRIPTION
+    NAME
+                    SOIC, HVSSOP, SON
+    EN1               3                —            I        Enable input, logic low turns on power switch IN-OUT1
+    EN2               4                —            I        Enable input, logic low turns on power switch IN-OUT2
+    EN1               —                 3           I        Enable input, logic high turns on power switch IN-OUT1
+    EN2               —                 4           I        Enable input, logic high turns on power switch IN-OUT2
+    GND               1                 1           —        Ground
+    IN                2                 2           I        Input voltage
+    OC1               8                 8           O        Overcurrent, open-drain output, active low, IN-OUT1
+    OC2               5                 5           O        Overcurrent, open-drain output, active low, IN-OUT2
+    OUT1              7                 7           O        Power-switch output, IN-OUT1
+    OUT2              6                 6           O        Power-switch output, IN-OUT2
+    PowerPAD                                                 Internally connected to GND; used to heat-sink the part to the circuit board
+                      —                —            —
+    ™                                                        traces. Must be connected to GND pin.
+
+
+                                     Table 5-3. Pin Functions (TPS2043B and TPS2053B)
+                     PIN
+                 TPS2043B      TPS2053B       I/O                                            DESCRIPTION
+    NAME
+                    SOIC         SOIC
+    EN1               3            —           I           Enable input, logic low turns on power switch IN1-OUT1
+    EN2               4            —           I           Enable input, logic low turns on power switch IN1-OUT2
+    EN3               7            —           I           Enable input, logic low turns on power switch IN2-OUT3
+    EN1              —             3           I           Enable input, logic high turns on power switch IN1-OUT1
+    EN2              —             4           I           Enable input, logic high turns on power switch IN1-OUT2
+    EN3              —             7           I           Enable input, logic high turns on power switch IN2-OUT3
+    GND              1, 5         1, 5        —            Ground
+    IN1               2            2           I           Input voltage for OUT1 and OUT2
+    IN2               6            6           I           Input voltage for OUT3
+    NC             8, 9, 10     8, 9, 10      —            No connection
+    OC1              16            16         O            Overcurrent, open-drain output, active low, IN1-OUT1
+    OC2              13            13         O            Overcurrent, open-drain output, active low, IN1-OUT2
+    OC3              12            12         O            Overcurrent, open-drain output, active low, IN2-OUT3
+    OUT1             15            15         O            Power-switch output, IN1-OUT1
+    OUT2             14            14         O            Power-switch output, IN1-OUT2
+    OUT3             11            11         O            Power-switch output, IN2-OUT3
+
+
+
+
+4         Submit Document Feedback                                                                  Copyright © 2025 Texas Instruments Incorporated
+
+                Product Folder Links: TPS2041B TPS2042B TPS2043B TPS2044B TPS2051B TPS2052B TPS2053B TPS2054B
+                                                                                     TPS2041B, TPS2042B, TPS2043B, TPS2044B
+                                                                                     TPS2051B, TPS2052B, TPS2053B, TPS2054B
+www.ti.com                                                                                  SLVS514P – APRIL 2004 – REVISED AUGUST 2024
+
+                                       Table 5-4. Pin Functions (TPS2044B and TPS2054B)
+                     PIN
+                 TPS2044B       TPS2054B          I/O                                     DESCRIPTION
+ NAME
+                    SOIC           SOIC
+ EN1                  3              —             I    Enable input, logic low turns on power switch IN1-OUT1
+ EN2                  4              —             I    Enable input, logic low turns on power switch IN1-OUT2
+ EN3                  7              —             I    Enable input, logic low turns on power switch IN2-OUT3
+ EN4                  8              —             I    Enable input, logic low turns on power switch IN2-OUT4
+ EN1                  —               3            I    Enable input, logic high turns on power switch IN1-OUT1
+ EN2                  —               4            I    Enable input, logic high turns on power switch IN1-OUT2
+ EN3                  —               7            I    Enable input, logic high turns on power switch IN2-OUT3
+ EN4                  —               8            I    Enable input, logic high turns on power switch IN2-OUT4
+ GND                 1, 5           1, 5          —     Ground
+ IN1                  2               2            I    Input voltage for OUT1 and OUT2
+ IN2                  6               6            I    Input voltage for OUT3 and OUT4
+ OC1                  16             16           O     Overcurrent, open-drain output, active low, IN1-OUT1
+ OC2                  13             13           O     Overcurrent, open-drain output, active low, IN1-OUT2
+ OC3                  12             12           O     Overcurrent, open-drain output, active low, IN2-OUT3
+ OC4                  9               9           O     Overcurrent, open-drain output, active low, IN2-OUT4
+ OUT1                 15             15           O     Power-switch output, IN1-OUT1
+ OUT2                 14             14           O     Power-switch output, IN1-OUT2
+ OUT3                 11             11           O     Power-switch output, IN2-OUT3
+ OUT4                 10             10           O     Power-switch output, IN2-OUT4
+
+
+
+
+Copyright © 2025 Texas Instruments Incorporated                                                        Submit Document Feedback      5
+               Product Folder Links: TPS2041B TPS2042B TPS2043B TPS2044B TPS2051B TPS2052B TPS2053B TPS2054B
+TPS2041B, TPS2042B, TPS2043B, TPS2044B
+TPS2051B, TPS2052B, TPS2053B, TPS2054B
+SLVS514P – APRIL 2004 – REVISED AUGUST 2024                                                                                                        www.ti.com
+
+6 Specifications
+6.1 Absolute Maximum Ratings
+over operating free-air temperature range (unless otherwise noted) (1)
+                                                                                                                      MIN            MAX            UNIT
+    VI(IN), VI(INx)                Input voltage (2)                                                                  –0.3             6              V
+    VO(OUT), VO(OUTx) (2)          Output voltage                                                                     –0.3             6              V
+    VI( EN), VI( ENx), VI(EN),
+                                   Input voltage                                                                      –0.3             6              V
+    VI(ENx)
+    VI(/OC), VI( OCx)              Voltage range                                                                      –0.3             6              V
+    IO(OUT), IO(OUTx)              Continuous output current                                                           Internally limited
+    TJ                             Operating virtual junction temperature                                             –40            125              °C
+    Tstg                           Storage temperature                                                                –65            150              °C
+
+(1)        Stresses beyond those listed under Absolute Maximum Ratings may cause permanent damage to the device. These are stress
+           ratings only, which do not imply functional operation of the device at these or any other conditions beyond those indicated under
+           Recommended Operating Conditions. Exposure to absolute-maximum-rated conditions for extended periods may affect device
+           reliability.
+(2)        All voltages are with respect to GND.
+
+6.2 ESD Ratings
+                                                                                                                                     VALUE           UNIT
+                                                 Human body model (HBM), per ANSI/ESDA/JEDEC JS-001, all pins(1)                     ±2000
+    V(ESD)      Electrostatic discharge          Charged device model (CDM), per JEDEC specification JESD22-C101, all                                  V
+                                                                                                                                      ±500
+                                                 pins(2)
+
+(1)        JEDEC document JEP155 states that 500-V HBM allows safe manufacturing with a standard ESD control process.
+(2)        JEDEC document JEP157 states that 250-V CDM allows safe manufacturing with a standard ESD control process.
+
+6.3 Recommended Operating Conditions
+over operating free-air temperature range (unless otherwise noted)
+                                                                                                           MIN            NOM               MAX     UNIT
+    VI(IN), VI(INx)              Input voltage                                                             2.7                               5.5      V
+    VI( EN), VI( ENx), VI(EN),
+                               Input voltage                                                                 0                               5.5      V
+    VI(ENx)
+    IO(OUT), IO(OUTx)            Continuous output current                                                   0                               500     mA
+    TJ                           Operating virtual junction temperature                                    –40                               125      °C
+
+
+
+6.4 Thermal Information
+                                                                                    D               DBV               DGN              DRB
+                         THERMAL METRIC(1)                                        (SOIC)          (SOT-23)          (HVSSOP)          (SON)          UNIT
+                                                                      8 PINS          16 PINS     5 PINS              8 PINS         8 PINS
+    RθJA          Junction-to-ambient thermal resistance                  119.3            81.6    208.6                53.6           47.5          °C/W
+    RθJC(top)     Junction-to-case (top) thermal resistance               67.6             42.7    122.9                58.7            53           °C/W
+    RθJB          Junction-to-board thermal resistance                    59.6             39.1     37.8                35.5           14.2          °C/W
+    ψJT           Junction-to-top characterization parameter              20.3             10.4     14.6                2.7            1.2           °C/W
+                  Junction-to-board characterization
+    ψJB                                                                   59.1             38.8     36.9                35.3           14.2          °C/W
+                  parameter
+    RθJC(bot)     Junction-to-case (bottom) thermal resistance            N/A              N/A      N/A                 6.7            7.3           °C/W
+
+(1)        For more information about traditional and new thermal metrics, see the Semiconductor and IC Package Thermal Metrics application
+           report.
+
+
+
+6          Submit Document Feedback                                                                              Copyright © 2025 Texas Instruments Incorporated
+
+                      Product Folder Links: TPS2041B TPS2042B TPS2043B TPS2044B TPS2051B TPS2052B TPS2053B TPS2054B
+                                                                                        TPS2041B, TPS2042B, TPS2043B, TPS2044B
+                                                                                        TPS2051B, TPS2052B, TPS2053B, TPS2054B
+www.ti.com                                                                                     SLVS514P – APRIL 2004 – REVISED AUGUST 2024
+
+
+
+6.5 Electrical Characteristics
+over recommended operating junction temperature range, VI(IN) = 5.5 V, IO = 0.5 A, VI(/ENx) = 0 V (unless otherwise noted)
+           PARAMETER                                             TEST CONDITIONS(1)                             MIN    TYP    MAX UNIT
+ POWER SWITCH
+           Static drain-source                                                          D and DGN
+                                                                                                                        70    135
+           on-state resistance,    VI(IN) = 5 V or 3.3 V, IO = 0.5 A,                   packages
+                                                                                                                                      mΩ
+           5-V operation and       -40°C ≤ TJ ≤ 125°C
+           3.3-V operation                                                              DBV package only                95    140
+
+           Static drain-source
+ rDS(on)                           VI(IN) = 2.7 V, IO = 0.5 A,                          D and DGN
+           on-state resistance,                                                                                         75    150     mΩ
+                                   –40°C ≤ TJ ≤ 125°C                                   packages
+           2.7-V operation
+           Static drain-source
+                                   VI(IN) = 5 V, IO = 1 A, OUT1 and OUT2                DGN package,
+           on-state resistance,                                                                                                49     mΩ
+                                   connected, 0°C ≤ TJ ≤ 70°C                           TPS2042B/52B
+           5-V operation
+                                   VI(IN) = 5.5 V                                                                       0.6    1.5
+ tr        Rise time, output
+                                   VI(IN) = 2.7 V      CL = 1 μF,                                                       0.4     1
+                                                                                        TJ = 25°C                                     ms
+                                   VI(IN) = 5.5 V      RL = 10 Ω                                               0.05            0.5
+ tf        Fall time, output
+                                   VI(IN) = 2.7 V                                                              0.05            0.5
+ ENABLE INPUT EN AND ENx
+           High-level input
+ VIH                               2.7 V ≤ VI(IN) ≤ 5.5 V                                                         2
+           voltage
+                                                                                                                                      V
+           Low-level input
+ VIL                               2.7 V ≤ VI(IN) ≤ 5.5 V                                                                      0.8
+           voltage
+ II        Input current           VI( ENx) = 0 V or 5.5 V                                                     –0.5            0.5    μA
+ ton       Turnon time             CL = 100 μF, RL = 10 Ω                                                                       3
+                                                                                                                                      ms
+ toff      Turnoff time            CL = 100 μF, RL = 10 Ω                                                                      10
+ CURRENT LIMIT
+
+                                   VI(IN) = 5 V, OUT connected to GND,                  TJ = 25°C              0.75      1    1.25
+           Short-circuit output    device enabled into short-circuit                    –40°C ≤ TJ ≤ 125°C       0.7     1     1.3
+ IOS                                                                                                                                  A
+           current
+                                   VI(IN) = 5 V, OUT1 and OUT2 connected to              0°C ≤ TJ ≤ 70°C
+                                                                                                                 1.5
+                                   GND, device enabled into short-circuit, measure at IN TPS2042B/52B
+           Overcurrent trip        VIN = 5 V, 100      TPS2042B
+ IOC (2)                                                                                                         IOS   1.55     2     A
+           threshold               A/s                 TPS2052B (DRB package only)
+ SUPPLY CURRENT (TPS2041B, TPS2051B)
+
+ Supply current, low-level         No load on OUT, VI( ENx) = 5.5 V,                    TJ = 25°C                       0.5     1
+                                                                                                                                      μA
+ output                            or VI(ENx) = 0 V                                     -40°°C ≤ TJ ≤ 125°C             0.5     5
+
+ Supply current, high-level        No load on OUT, VI( ENx) = 0 V,                      TJ = 25°C                       75     95
+                                                                                                                                      μA
+ output                            or VI(ENx) = 5.5 V                                   –40°C ≤ TJ ≤ 125°C              75     95
+                                   OUT connected to ground, VI( ENx) = 5.5 V,
+ Leakage current                                                                        –40°C ≤ TJ ≤ 125°C               1            μA
+                                   or VI(ENx) = 0 V
+ Reverse leakage current           VI(OUTx) = 5.5 V, IN = ground                        TJ = 25°C                        0            μA
+ SUPPLY CURRENT (TPS2042B, TPS2052B)
+
+ Supply current, low-level                                                              TJ = 25°C                       0.5     1
+                                   No load on OUT, VI( ENx) = 5.5 V                                                                   μA
+ output                                                                                 –40°C ≤ TJ ≤ 125°C              0.5     5
+
+                                                   TPS20x2B                             TJ = 25°C                       50     70
+                                                                                                                                      μA
+ Supply current, high-level        No load on OUT, (DRB package only)                   –40°C ≤ TJ ≤ 125°C              50     90
+ output                            VI( ENx) = 0 V                                       TJ = 25°C                       95    120
+                                                   TPS20x2B
+                                                                                                                                      uA
+                                                   (D and DGN packages)                 –40°C ≤ TJ ≤ 125°C              95    120
+ Leakage current                   OUT connected to ground, VI( ENx) = 5.5 V            –40°C ≤ TJ ≤ 125°C               1            μA
+ Reverse leakage current           VI(OUTx) = 5.5 V, IN = ground                        TJ = 25°C                       0.2           μA
+
+Copyright © 2025 Texas Instruments Incorporated                                                            Submit Document Feedback        7
+                Product Folder Links: TPS2041B TPS2042B TPS2043B TPS2044B TPS2051B TPS2052B TPS2053B TPS2054B
+TPS2041B, TPS2042B, TPS2043B, TPS2044B
+TPS2051B, TPS2052B, TPS2053B, TPS2054B
+SLVS514P – APRIL 2004 – REVISED AUGUST 2024                                                                                         www.ti.com
+
+6.5 Electrical Characteristics (continued)
+over recommended operating junction temperature range, VI(IN) = 5.5 V, IO = 0.5 A, VI(/ENx) = 0 V (unless otherwise noted)
+            PARAMETER                                          TEST CONDITIONS(1)                                 MIN     TYP     MAX UNIT
+    SUPPLY CURRENT (TPS2043B, TPS2053B)
+
+    Supply current, low-level                                                          TJ = 25°C                           0.5        2
+                                    No load on OUT, VI(ENx) = 0 V                                                                          μA
+    output                                                                             –40°C ≤ TJ ≤ 125°C                  0.5       10
+
+    Supply current, high-level                                                         TJ = 25°C                            65       90
+                                    No load on OUT, VI(ENx) = 5.5 V                                                                        μA
+    output                                                                             –40°C ≤ TJ ≤ 125°C                   65      110
+    Leakage current                 OUT connected to ground, VI(ENx) = 0 V             –40°C≤ TJ ≤ 125°C                     1             μA
+    Reverse leakage current         VI(OUTx) = 5.5 V, INx = ground                     TJ = 25°C                           0.2             μA
+    SUPPLY CURRENT (TPS2044B, TPS2054B)
+
+    Supply current, low-level       No load on OUT, VI( ENx) = 5.5 V,                  TJ = 25°C                           0.5        2
+                                                                                                                                           μA
+    output                          or VI(ENx) = 0 V                                   –40°C ≤ TJ ≤ 125°C                  0.5       10
+
+    Supply current, high-level      No load on OUT, VI( ENx) = 0 V,                    TJ = 25°C                            75      110
+                                                                                                                                           μA
+    output                          or VI(ENx) = 5.5 V                                 –40°C ≤ TJ ≤ 125°C                   75     140
+                                    OUT connected to ground, VI( ENx) = 5.5 V,
+    Leakage current                                                                    –40°C≤ TJ ≤ 125°C                     1             μA
+                                    or VI(ENx) = 0 V
+    Reverse leakage current         VI(OUTx) = 5.5 V, INx = ground                     TJ = 25°C                           0.2             μA
+    UNDERVOLTAGE LOCKOUT (TPS20x3BD, TPS20x4BD, & TPS20x2BDRB)
+    Low-level input voltage, IN,
+                                                                                                                     2              2.5     V
+    INx
+    Hysteresis, IN, INx             TJ = 25°C                                                                               75             mV
+    UNDERVOLTAGE LOCKOUT (TPS20x1B & TPS20x2B; D/DBV/DGN packages)
+    Low-level input voltage, IN,
+                                                                                                                     2              2.6     V
+    INx
+    Hysteresis, IN, INx             TJ = 25°C                                                                               75             mV
+    OVERCURRENT OC and OCx
+    Output low voltage, VOL(/OCx)   IO( OCx) = 5 mA                                                                                 0.4     V
+    Off-state current               VO( OCx) = 5 V or 3.3 V                                                                           1    μA
+    OC deglitch                     OCx assertion or deassertion                                                     4       8       15    ms
+    THERMAL SHUTDOWN(3)
+    Thermal shutdown threshold                                                                                    135                      °C
+    Recovery from thermal
+                                                                                                                  125                      °C
+    shutdown
+    Hysteresis                                                                                                              10             °C
+
+(1)      Pulse-testing techniques maintain junction temperature close to ambient temperature; thermal effects must be taken into account
+         separately.
+(2)      TPS20x1B and TPS20x2B devices in the D, DGN, and DBV packages do not have overcurrent trip thresholds. Current is limited to IOS
+         under different test condition. Check Section 8.3.7 for more details.
+(3)      The thermal shutdown only reacts under overcurrent conditions.
+
+
+
+
+8        Submit Document Feedback                                                                  Copyright © 2025 Texas Instruments Incorporated
+
+                  Product Folder Links: TPS2041B TPS2042B TPS2043B TPS2044B TPS2051B TPS2052B TPS2053B TPS2054B
+                                                                                                                                                                                          TPS2041B, TPS2042B, TPS2043B, TPS2044B
+                                                                                                                                                                                          TPS2051B, TPS2052B, TPS2053B, TPS2054B
+www.ti.com                                                                                                                                                                                           SLVS514P – APRIL 2004 – REVISED AUGUST 2024
+
+
+6.6 Typical Characteristics (All Devices Excluding TPS2051BDBV and TPS2052BD)
+                                                                1.0                                                                                                                       3.3
+                                                                             CL = 100 µF,                                                                                                           CL = 100 µF,
+                                                                0.9          RL = 10 Ω,                                                                                                             RL = 10 Ω,
+                                                                             TA = 25°C                                                                                                              TA = 25°C
+                                                                0.8                                                                                                                       3.2
+
+                                                                0.7
+
+
+
+
+                        Turnon Time − ms                                                                                                             Turnoff Time − ms
+                                                                0.6                                                                                                                       3.1
+
+                                                                0.5
+
+                                                                0.4                                                                                                                        3
+
+                                                                0.3
+
+                                                                0.2                                                                                                                       2.9
+
+                                                                0.1
+
+                                                                     0                                                                                                                    2.8
+                                                                         2           3               4           5         6                                                                    2          3              4               5   6
+                                                                                          VI − Input Voltage − V                                                                                                 VI − Input Voltage − V
+                                              Figure 6-1. Turnon Time vs Input Voltage                                                                              Figure 6-2. Turnoff Time vs Input Voltage
+                                                                0.6                                                                                                                      0.25
+                                                                             CL = 1 µF,                                                                                                             CL = 1 µF,
+                                                                             RL = 10 Ω,                                                                                                             RL = 10 Ω,
+                                                                0.5          TA = 25°C                                                                                                              TA = 25°C
+                                                                                                                                                                                          0.2
+
+
+                                                                0.4
+
+
+
+
+                      Rise Time − ms
+                                                                                                                                                   Fall Time − ms
+                                                                                                                                                                                         0.15
+
+                                                                0.3
+
+                                                                                                                                                                                          0.1
+                                                                0.2
+
+
+                                                                                                                                                                                         0.05
+                                                                0.1
+
+
+                                                                     0                                                                                                                     0
+                                                                         2            3              4           5         6                                                                    2         3                4             5        6
+                                                                                          VI − Input Voltage − V                                                                                                  VI − Input Voltage − V
+                                                               Figure 6-3. Rise Time vs Input Voltage                             \
+
+                                                                                                                                                                                         Figure 6-4. Fall Time vs Input Voltage
+                                                                70                                                                                                                        90
+
+
+
+
+             I I (IN) − Supply Current, Output Enabled − µ A                                                                            I I (IN) − Supply Current, Output Enabled −µ A
+                                                                                                  VI = 5.5 V                                                                              80
+                                                                60                                                                                                                                               VI = 5.5 V
+
+                                                                                                                                                                                          70
+                                                                50
+                                                                                                                                                                                          60                                   VI = 5 V
+                                                                                                         VI = 5 V
+                                                                                                                                                                                                                  VI = 3.3 V
+                                                                                            VI = 3.3 V
+                                                                40
+                                                                                                                                                                                          50
+
+                                                                30                                                                                                                        40
+                                                                                                                                                                                                                               VI = 2.7 V
+                                                                                                         VI = 2.7 V
+                                                                                                                                                                                          30
+                                                                20
+                                                                                                                                                                                          20
+                                                                10
+                                                                                                                                                                                          10
+
+                                                                 0                                                                                                                         0
+                                                                     −50             0              50              100   150                                                              −50             0            50        100         150
+                                                                                   TJ − Junction Temperature − °C                                                                                        TJ − Junction Temperature − °C
+
+       \                                                                                                                        Figure 6-6. TPS2043B and TPS2053B Supply Current, Output
+                                                                                                                                              Enabled vs Junction Temperature
+   Figure 6-5. TPS20x2BDRB Supply Current, Output Enabled vs
+                      Junction Temperature
+
+
+
+
+Copyright © 2025 Texas Instruments Incorporated                                                                                                                                                                        Submit Document Feedback       9
+                                               Product Folder Links: TPS2041B TPS2042B TPS2043B TPS2044B TPS2051B TPS2052B TPS2053B TPS2054B
+TPS2041B, TPS2042B, TPS2043B, TPS2044B
+TPS2051B, TPS2052B, TPS2053B, TPS2054B
+SLVS514P – APRIL 2004 – REVISED AUGUST 2024                                                                                                                                                                                                                                       www.ti.com
+
+6.6 Typical Characteristics (All Devices Excluding TPS2051BDBV and TPS2052BD) (continued)
+                                                                        120                                                                                                                                     0.5
+
+
+
+
+              I I (IN) − Supply Current, Output Enabled − µ A                                                                                               I I (IN) − Supply Current, Output Disabled − µ A
+                                                                                                                  VI = 5.5 V                                                                                   0.45        VI = 5.5 V
+                                                                                                                                                                                                                                          VI = 5 V
+                                                                        100
+                                                                                                                                                                                                                0.4
+                                                                                                  VI = 5 V
+                                                                                                                                                                                                               0.35
+                                                                         80
+                                                                                                                                                                                                                0.3                       VI = 3.3 V
+                                                                                                                                                                                                                         VI = 2.7 V
+
+                                                                         60                                                                                                                                    0.25
+
+                                                                                                                   VI = 2.7 V                                                                                   0.2
+                                                                         40                    VI = 3.3 V                                                                                                      0.15
+
+                                                                                                                                                                                                                0.1
+                                                                         20
+                                                                                                                                                                                                               0.05
+
+                                                                          0                                                                                                                                       0
+                                                                              −50            0               50            100         150                                                                        −50                 0              50           100       150
+                                                                                         TJ − Junction Temperature − °C                                                                                                         TJ − Junction Temperature − °C
+
+       Figure 6-7. TPS2044B TPS2054B Supply Current, Output                                                                                  Figure 6-8. TPS20x2BDRB Supply Current, Output Disabled vs
+                   Enabled vs Junction Temperature                                                                                                              Junction Temperature
+                                                                         0.5                                                                                                                                    0.5
+
+
+
+
+                I I (IN) − Supply Current, Output Disabled − µ A                                                                                          I I (IN) − Supply Current, Output Disabled − µ A
+                                                                                                                     VI = 5.5 V
+                                                                        0.45                                                                                                                                   0.45               VI = 5.5 V
+                                                                                                 VI = 5 V
+                                                                                                                                                                                                                                                VI = 5 V
+                                                                         0.4                                                                                                                                    0.4
+
+                                                                        0.35                                                                                                                                   0.35
+
+                                                                                         VI = 3.3 V                                                                                                                      VI = 2.7 V
+                                                                         0.3                                                                                                                                    0.3                          VI = 3.3 V
+                                                                                                                          VI = 2.7 V
+                                                                        0.25                                                                                                                                   0.25
+
+                                                                         0.2                                                                                                                                    0.2
+
+                                                                        0.15                                                                                                                                   0.15
+
+                                                                         0.1                                                                                                                                    0.1
+
+                                                                        0.05                                                                                                                                   0.05
+
+                                                                          0                                                                                                                                       0
+                                                                          −50                0        50          100                  150                                                                        −50              0           50         100               150
+                                                                                         TJ − Junction Temperature − °C                                                                                                          TJ − Junction Temperature − °C
+
+     Figure 6-9. TPS2043B and TPS2053B Supply Current, Output                                                                                Figure 6-10. TPS2044B and TPS2054B Supply Current, Output
+                  Disabled vs Junction Temperature                                                                                                         Disabled vs Junction Temperature
+
+
+
+
+             r DS(on) − Static Drain-Source On-State Resistance − m Ω
+                                                                        120                                                                                                                                    1.08
+                                                                                IO = 0.5 A
+                                                                                                                                                                                                               1.06                                        VI = 2.7 V
+
+
+
+
+                                                                                                                                                     I OS − Short-Circuit Output Current − A
+                                                                                                       VI = 2.7 V
+                                                                        100                                                                                                                                                                     VI = 3.3 V
+                                                                                                                                                                                                               1.04
+
+                                                                        80                                                                                                                                     1.02
+                                                                                                                  VI = 3.3 V
+                                                                                                                                                                                                                1.0
+                                                                        60
+
+                                                                                    VI = 5 V                                                                                                                   0.98
+                                                                                                                                                                                                                                                                 VI = 5 V
+                                                                        40                                                                                                                                     0.96
+                                                                                                                                                                                                                                                           VI = 5.5 V
+                                                                                                                                                                                                               0.94
+                                                                        20
+                                                                                                                                                                                                               0.92
+
+                                                                         0                                                                                                                                      0.9
+                                                                              −50            0               50            100         150                                                                         −50            0           50          100               150
+                                                                                        TJ − Junction Temperature − °C                                                                                                          TJ − Junction Temperature − °C
+       Figure 6-11. Static Drain-Source on-State Resistance vs                                                                                   Figure 6-12. Short-Circuit Output Current vs Junction
+                         Junction Temperature                                                                                                                        Temperature
+
+
+
+
+10      Submit Document Feedback                                                                                                                                                                                                  Copyright © 2025 Texas Instruments Incorporated
+
+                                                Product Folder Links: TPS2041B TPS2042B TPS2043B TPS2044B TPS2051B TPS2052B TPS2053B TPS2054B
+                                                                                                                                                          TPS2041B, TPS2042B, TPS2043B, TPS2044B
+                                                                                                                                                          TPS2051B, TPS2052B, TPS2053B, TPS2054B
+www.ti.com                                                                                                                                                            SLVS514P – APRIL 2004 – REVISED AUGUST 2024
+
+
+6.6 Typical Characteristics (All Devices Excluding TPS2051BDBV and TPS2052BD) (continued)
+                                                    2                                                                                                      2
+                                                                                            TPS2041B,                                                              TA = 25 °C
+                                                           TA = 25°C                        TPS2042B,                                                              Load Ramp = 1A/10 ms
+                                                           Load Ramp = 1A/10 ms             TPS2051B,
+                                                  1.8                                       TPS2052B                                                      1.8
+
+
+
+
+               Threshold Trip Current − A                                                                                   Threshold Trip Current − A
+                                                  1.6                                                                                                     1.6
+
+
+
+                                                  1.4                                                                                                     1.4
+
+
+
+                                                  1.2                                                                                                              TPS2043B,
+                                                                                                                                                          1.2
+                                                                                                                                                                   TPS2044B,
+                                                                                                                                                                   TPS2053B,
+                                                                                                                                                                   TPS2054B
+                                                    1                                                                                                      1
+                                                    2.5       3        3.5      4    4.5         5   5.5    6                                               2.5        3         3.5      4      4.5     5         5.5      6
+                                                                        VI − Input Voltage − V                                                                                     VI − Input Voltage − V
+
+        Figure 6-13. Threshold Trip Current vs Input Voltage                                                      Figure 6-14. Threshold Trip Current vs Input Voltage
+                                                  2.3                                                                                                    100
+                                                                                                                                                                                                           VI = 5 V,
+                                                                                                                                                                                                           TA = 25°C
+                                                                             UVLO Rising
+
+
+
+
+             UVLO − Undervoltage Lockout − V
+                                                2.26                                                                                                     80
+
+
+
+
+                                                                                                                       Current-Limit Response − µs
+                                                2.22                                                                                                     60
+                                                                             UVLO Falling
+
+
+                                                2.18                                                                                                     40
+
+
+
+                                                2.14                                                                                                     20
+
+
+
+                                                  2.1                                                                                                     0
+                                                     −50           0           50          100             150                                                 0           2.5        5        7.5            10          12.5
+                                                                  TJ − Junction Temperature − °C                                                                                     Peak Current − A
+    Figure 6-15. Undervoltage Lockout vs Junction Temperature                                                     Figure 6-16. Current-Limit Response vs Peak Current
+
+                                                                                             RL = 10 Ω,
+                                               VI(EN)                                                                                            VI(EN)
+                                                                                             CL = 1 µF
+                                               VI(EN)                                                                                            VI(EN)
+                                                                                             TA = 25°C
+                                               5 V/div                                                                                           5 V/div
+
+
+
+
+                                                                                                                                     VO(OUT)                                                                 RL = 10 Ω,
+                                                                                                                                     2 V/div                                                                 CL = 1 µF
+                                   VO(OUT)                                                                                                                                                                   TA = 25°C
+                                   2 V/div
+
+
+
+
+                                                                         t − Time − 500 µs/div                                                                                     t − Time − 500 µs/div
+
+      Figure 6-17. Turnon Delay and Rise Time With 1-µF Load                                                     Figure 6-18. Turnoff Delay and Fall Time With 1-µF Load
+
+
+
+
+Copyright © 2025 Texas Instruments Incorporated                                                                                                                                          Submit Document Feedback                11
+                                        Product Folder Links: TPS2041B TPS2042B TPS2043B TPS2044B TPS2051B TPS2052B TPS2053B TPS2054B
+TPS2041B, TPS2042B, TPS2043B, TPS2044B
+TPS2051B, TPS2052B, TPS2053B, TPS2054B
+SLVS514P – APRIL 2004 – REVISED AUGUST 2024                                                                                            www.ti.com
+
+6.6 Typical Characteristics (All Devices Excluding TPS2051BDBV and TPS2052BD) (continued)
+
+                                                 RL = 10 Ω,                    VI(EN)
+               VI(EN)                            CL = 100 µF                   VI(EN)
+               VI(EN)                            TA = 25°C                     5 V/div
+               5 V/div
+
+
+
+
+                                                                                                                      RL = 10 Ω,
+                                                                              VO(OUT)                                 CL = 100 µF
+                                                                              2 V/div                                 TA = 25°C
+               VO(OUT)
+               2 V/div
+
+
+
+
+                               t − Time − 500 µs/div                                           t − Time − 500 µs/div
+
+      Figure 6-19. Turnon Delay and Rise Time With 100-µF Load        Figure 6-20. Turnoff Delay and Fall Time With 100-µF Load
+
+                                                                                                                          VI = 5 V,
+                 VI(EN)                                                        VI(EN)                                     RL = 10 Ω,
+                 VI(EN)                                                        VI(EN)                                     TA = 25°C
+                 5 V/div                                                       5 V/div
+
+
+
+
+                                                                                                 220 µF
+                                                                                                             470 µF
+
+                 IO(OUT)                                                       IO(OUT)
+             500 mA/div                                                    500 mA/div
+
+                                                                                            100 µF
+
+
+
+                               t − Time − 500 µs/div                                                 t − Time − 500 µs/div
+
+     Figure 6-21. Short-Circuit Current, Device Enabled Into Short   Figure 6-22. Inrush Current With Different Load Capacitance
+
+
+
+                VO(OC)                                                           VO(OC)
+                2 V/div                                                          2 V/div
+
+
+
+
+                 IO(OUT)                                                         IO(OUT)
+             500 mA/div                                                      500 mA/div
+
+
+
+
+                                  t − Time − 2 ms/div                                            t − Time − 2 ms/div
+
+         Figure 6-23. 3-Ω Load Connected to Enabled Device               Figure 6-24. 2-Ω Load Connected to Enabled Device
+
+
+
+
+12      Submit Document Feedback                                                           Copyright © 2025 Texas Instruments Incorporated
+
+               Product Folder Links: TPS2041B TPS2042B TPS2043B TPS2044B TPS2051B TPS2052B TPS2053B TPS2054B
+                                                                                                                                                               TPS2041B, TPS2042B, TPS2043B, TPS2044B
+                                                                                                                                                               TPS2051B, TPS2052B, TPS2053B, TPS2054B
+www.ti.com                                                                                                                                                                 SLVS514P – APRIL 2004 – REVISED AUGUST 2024
+
+
+6.7 Typical Characteristics (TPS2051BDBV and TPS2052BD)
+                       1                                                                                                                  2.8
+                                CL = 100 uF, RL =10 , TA = 25C                                                                                    CL = 100 uF, RL =10 , TA = 25C
+                      0.9
+
+                      0.8                                                                                                                 2.7
+
+                      0.7
+
+
+
+
+   Turnon Time - ms                                                                        Turnoff Time - ms
+                      0.6                                                                                                                 2.6
+
+                      0.5
+
+                      0.4                                                                                                                 2.5
+
+                      0.3
+
+                      0.2                                                                                                                 2.4
+
+                      0.1
+
+                       0                                                                                                                  2.3
+                            2                     3                 4              5   6                                                        2                      3                  4                 5                6
+                                                          VI - Input Voltage - V                                                                                                VI - Input Voltage - V
+                                    Figure 6-25. Turnon Time vs Input Voltage                                                                            Figure 6-26. Turnoff Time vs Input Voltage
+                      0.8                                                                                                                 0.25
+                                CL = 100 uF, RL =10 , TA = 25C                                                                                      CL = 100 uF, RL =10 , TA = 25C
+
+                      0.7
+
+                                                                                                                                           0.2
+                      0.6
+
+
+
+
+   Rise Time - ms                                                                          Turnon Time - ms
+                      0.5
+                                                                                                                                          0.15
+
+                      0.4
+
+                                                                                                                                           0.1
+                      0.3
+
+
+                      0.2
+                                                                                                                                          0.05
+
+                      0.1
+
+
+                       0                                                                                                                      0
+                            2                     3                 4              5   6                                                          2                    3                   4                5                6
+                                                          VI - Input Voltage - V                                                                                                VI - Input Voltage - V
+                                      Figure 6-27. Rise Time vs Input Voltage                                                             \
+
+                                                                                                                                                            Figure 6-28. Fall Time vs Input Voltage
+                                                                                                                                          100
+
+
+
+
+                                                                                           II(IN) - Supply Current, Output Enabled - uA
+                                                                                                                                           90
+
+                                                                                                                                           80
+
+                                                                                                                                           70
+
+                                                                                                                                           60
+
+                                                                                                                                           50
+
+                                                                                                                                           40
+
+                                                                                                                                           30
+
+                                                                                                                                           20
+
+                                                                                                                                           10                                                                   VI = 5 V
+                                                                                                                                                                                                                VI = 5.5 V
+                                                                                                                                              0
+                                                                                                                                              -50                      0                  50             100             150
+                                                                                                                                                                           TJ - Junction Temperature - °C
+  Figure 6-29. TPS2051BDBV Supply Current, Output Enabled vs                                            Figure 6-30. TPS2052BD Supply Current, Output Enabled vs
+                     Junction Temperature                                                                                 Junction Temperature
+
+
+
+
+Copyright © 2025 Texas Instruments Incorporated                                                                                                                                          Submit Document Feedback                13
+                                     Product Folder Links: TPS2041B TPS2042B TPS2043B TPS2044B TPS2051B TPS2052B TPS2053B TPS2054B
+TPS2041B, TPS2042B, TPS2043B, TPS2044B
+TPS2051B, TPS2052B, TPS2053B, TPS2054B
+SLVS514P – APRIL 2004 – REVISED AUGUST 2024                                                                                                                                                                                                                 www.ti.com
+
+6.7 Typical Characteristics (TPS2051BDBV and TPS2052BD) (continued)
+                                                                                                                                                                                                         0.1
+                                                                                                                                                                                                                                                            VI = 5 V
+
+
+
+
+                                                                                                                                         II(IN) - Supply Current, Output Enabled - uA
+                                                                                                                                                                                                        0.09                                                VI = 5.5 V
+
+
+                                                                                                                                                                                                        0.08
+
+                                                                                                                                                                                                        0.07
+
+                                                                                                                                                                                                        0.06
+
+                                                                                                                                                                                                        0.05
+
+                                                                                                                                                                                                        0.04
+
+                                                                                                                                                                                                        0.03
+
+                                                                                                                                                                                                        0.02
+
+                                                                                                                                                                                                        0.01
+
+                                                                                                                                                                                                          0
+                                                                                                                                                                                                          -50    0                 50             100                150
+                                                                                                                                                                                                                     TJ - Junction Temperature - °C
+ Figure 6-31. TPS2051BDBV Supply Current, Output Disabled vs                                                                                    Figure 6-32. TPS2052BD Supply Current, Output Disabled vs
+                     Junction Temperature                                                                                                                         Junction Temperature
+
+                                                             140                                                                                                                                        120
+
+
+
+
+     DS(on) - Static Drain-Source On-State Resistance - m                                                                                      DS(on) - Static Drain-Source On-State Resistance - m
+                                                             120
+                                                                                                                                                                                                        100
+
+
+                                                             100
+                                                                                                                                                                                                         80
+
+                                                              80
+                                                                                                                                                                                                         60
+                                                              60
+
+                                                                                                                                                                                                         40
+                                                              40
+
+
+                                                                                                                     IO= 0.5 A                                                                           20                                             IO= 0.5 A
+                                                              20                                                         VI = 2.7 V                                                                                                                         VI = 2.7 V
+                                                                                                                         VI = 3.3 V                                                                                                                         VI = 3.3 V
+                                                                                                                         VI = 5 V                                                                                                                           VI = 5 V
+                                                               0                                                                                                                                          0
+                                                               -50           0                 50              100                150                                                                     -50    0                 50             100                150
+                                                                                 TJ - Junction Temperature - °C                                                                                                      TJ - Junction Temperature - °C
+     r                                                                                                                                        r
+
+                                                             Figure 6-33. DBV Package Static Drain-Source on-State                      Figure 6-34. D Package Static Drain-Source on-State Resistance
+                                                                      Resistance vs Junction Temperature                                                   vs Junction Temperature
+                                                               1                                                                                                                                         2.5
+                                                                                                                         VI = 2.7 V
+                                                                                                                         VI = 5 V
+                                                                                                                         VI = 5.5 V
+
+
+
+
+      IOS - Short-Circuit Output Current - A
+                                                                                                                                                 UVLO - Undervoltage Lockout - V
+                                                             0.98                                                                                                                                       2.46
+
+
+
+
+                                                             0.96                                                                                                                                       2.42
+
+
+
+
+                                                             0.94                                                                                                                                       2.38
+
+
+
+
+                                                             0.92                                                                                                                                       2.34
+
+
+                                                                                                                                                                                                                                                        UVLO Rising
+                                                                                                                                                                                                                                                        UVLO Falling
+                                                              0.9                                                                                                                                        2.3
+                                                                -50           0                 50             100                150                                                                      -50   0                 50             100                150
+                                                                                  TJ - Junction Temperature - °C                                                                                                     TJ - Junction Temperature - °C
+                                                             Figure 6-35. Short-Circuit Output Current vs Junction                                 Figure 6-36. Undervoltage Lockout vs Junction Temperature
+                                                                                 Temperature
+
+
+
+
+14                                                           Submit Document Feedback                                                                                                                                   Copyright © 2025 Texas Instruments Incorporated
+
+                                                                      Product Folder Links: TPS2041B TPS2042B TPS2043B TPS2044B TPS2051B TPS2052B TPS2053B TPS2054B
+                                                                                  TPS2041B, TPS2042B, TPS2043B, TPS2044B
+                                                                                  TPS2051B, TPS2052B, TPS2053B, TPS2054B
+www.ti.com                                                                               SLVS514P – APRIL 2004 – REVISED AUGUST 2024
+
+
+6.7 Typical Characteristics (TPS2051BDBV and TPS2052BD) (continued)
+
+                                                                                                                        RL = 10 Ω
+                                                                                                                         CL = 1 uF
+                                                                                                                        TA = 25 °C
+
+
+                                                                        VI(EN)
+                                                                       5 V/div
+
+
+
+
+                                                                      VO(OUT)
+                                                                      2 V/div
+
+
+
+
+                                                                                               t – Time – 1 ms/div
+
+                                                                        Figure 6-38. Turnon Delay and Rise Time With 1-µF Load
+         Figure 6-37. Current-Limit Response vs Peak Current
+
+                                                        RL = 10 Ω                                                       RL = 10 Ω
+                                                         CL = 1 uF                                                       CL = 1 uF
+                                                        TA = 25 °C                                                      TA = 25 °C
+
+
+      VI(EN)                                                            VI(EN)
+     5 V/div                                                           5 V/div
+
+
+
+
+    VO(OUT)                                                           VO(OUT)
+    2 V/div                                                           2 V/div
+
+
+
+
+                                  t – Time – 1 ms/div                                          t – Time – 1 ms/div
+       Figure 6-39. Turnoff Delay and Fall Time With 1-µF Load        Figure 6-40. Turnon Delay and Rise Time With 100-µF Load
+
+                                                        RL = 10 Ω
+                                                         CL = 1 uF
+                                                        TA = 25 °C
+
+
+      VI(EN)
+                                                                         VI(EN)
+     5 V/div
+                                                                        5 V/div
+
+
+
+
+    VO(OUT)
+                                                                       IO(OUT)
+    2 V/div
+                                                                     500 mA/div
+
+
+
+
+                                 t – Time – 1 ms/div                                            t – Time – 1 ms/div
+     Figure 6-41. Turnoff Delay and Fall Time With 100-µF Load       Figure 6-42. Short-Circuit Current, Device Enabled Into Short
+
+
+
+
+Copyright © 2025 Texas Instruments Incorporated                                                       Submit Document Feedback       15
+               Product Folder Links: TPS2041B TPS2042B TPS2043B TPS2044B TPS2051B TPS2052B TPS2053B TPS2054B
+TPS2041B, TPS2042B, TPS2043B, TPS2044B
+TPS2051B, TPS2052B, TPS2053B, TPS2054B
+SLVS514P – APRIL 2004 – REVISED AUGUST 2024                                                                                                                           www.ti.com
+
+6.7 Typical Characteristics (TPS2051BDBV and TPS2052BD) (continued)
+
+                                                                          VI = 5 V
+                                                                          RL = 10 Ω
+                                                                          TA = 25 °C
+                                                                                                    VO(OC)
+                                                                                                   2 V/div
+         VI(EN)
+        5 V/div
+                                      220 uF
+                                               470 uF
+                                                                                                 IO(OUT)
+                                                                                               500 mA/div
+       IO(OUT)
+     500 mA/div
+                            100 uF
+
+
+
+
+                                                                                                                                       t – Time – 2 ms/div
+                                           t – Time – 2 ms/div
+                                                                                                      Figure 6-44. 3-Ω Load Connected to Enabled Device
+      Figure 6-43. Inrush Current With Different Load Capacitance
+
+
+
+                                                          VO(OC)
+                                                         2 V/div
+
+
+
+
+                                                      IO(OUT)
+                                                    500 mA/div
+
+
+
+
+                                                                                       t – Time – 2 ms/div
+
+                                                            Figure 6-45. 2-Ω Load Connected to Enabled Device
+
+
+7 Parameter Measurement Information
+                                     OUT
+
+                                                                                                                            tr                                 tf
+                                                         RL         CL
+                                                                                                               VO(OUT)                   90%       90%
+                                                                                                                                   10%                10%
+                                           TEST CIRCUIT
+
+
+
+                   VI(EN)               50%             50%                                                  VI(EN)              50%        50%
+
+
+                               ton                                        toff                                        ton                                      toff
+
+                  VO(OUT)                               90%                                            VO(OUT)                              90%
+                                                                   10%                                                                                   10%
+
+                                                                          VOLTAGE WAVEFORMS
+
+                                                        Figure 7-1. Test Circuit and Voltage Waveforms
+
+
+
+
+16        Submit Document Feedback                                                                                               Copyright © 2025 Texas Instruments Incorporated
+
+                   Product Folder Links: TPS2041B TPS2042B TPS2043B TPS2044B TPS2051B TPS2052B TPS2053B TPS2054B
+                                                                                        TPS2041B, TPS2042B, TPS2043B, TPS2044B
+                                                                                        TPS2051B, TPS2052B, TPS2053B, TPS2054B
+www.ti.com                                                                                   SLVS514P – APRIL 2004 – REVISED AUGUST 2024
+
+
+8 Detailed Description
+8.1 Overview
+The TPS20xxB are current-limited, power-distribution switches providing 0.5-A continuous load current. These
+devices incorporates 70-mΩ N-channel MOSFET power switches for power-distribution systems that require
+multiple power switches in a single package. Gate driver is provided by an internal charge pump designed
+to minimize current surges during switching. The charge pump requires no external components and allows
+operation supplies as low as 2.7 V.
+8.2 Functional Block Diagrams
+                                                                                     (See Note A)
+                       IN                                                       CS                                     OUT
+
+                                        Charge
+                                        Pump
+
+                                                                              Current
+                    EN                                      Driver
+                                                                               Limit
+              (See Note B)
+                                                                                                                       OC
+                                         UVLO
+
+
+                                                           Thermal                              Deglitch
+                    GND                                     Sense
+
+
+               Note A: Current sense
+               Note B: Active low (EN) for TPS2041B; Active high (EN) for TPS2051B
+
+                             Figure 8-1. Functional Block Diagram (TPS2041B and TPS2051B)
+
+
+
+
+Copyright © 2025 Texas Instruments Incorporated                                                        Submit Document Feedback      17
+               Product Folder Links: TPS2041B TPS2042B TPS2043B TPS2044B TPS2051B TPS2052B TPS2053B TPS2054B
+TPS2041B, TPS2042B, TPS2043B, TPS2044B
+TPS2051B, TPS2052B, TPS2053B, TPS2054B
+SLVS514P – APRIL 2004 – REVISED AUGUST 2024                                                                                    www.ti.com
+
+                                                                                                                  OC1
+
+
+                     GND                             Thermal
+                                                                                        Deglitch
+                                                      Sense
+
+                     EN1
+                  (See Note B)
+                                                                     Current
+                                                      Driver
+                                                                      Limit
+
+                                 Charge
+                                 Pump
+                                                                              (See Note A)
+                                                                         CS                                        OUT1
+                                        UVLO
+
+
+                                                                              (See Note A)
+                       IN                                                CS                                        OUT2
+
+                                 Charge
+                                 Pump
+
+                                                                     Current
+                                                      Driver
+                                                                      Limit
+                                                                                                                   OC2
+                     EN2
+                  (See Note B)
+                                                     Thermal                            Deglitch
+                                                      Sense
+
+                Note A: Current sense
+                Note B: Active low (ENx) for TPS2042B; Active high (ENx) for TPS2052B
+
+                         Figure 8-2. Functional Block Diagram (TPS2042B and TPS2052B)
+
+
+
+
+18    Submit Document Feedback                                                                Copyright © 2025 Texas Instruments Incorporated
+
+             Product Folder Links: TPS2041B TPS2042B TPS2043B TPS2044B TPS2051B TPS2052B TPS2053B TPS2054B
+                                                                                      TPS2041B, TPS2042B, TPS2043B, TPS2044B
+                                                                                      TPS2051B, TPS2052B, TPS2053B, TPS2054B
+www.ti.com                                                                                     SLVS514P – APRIL 2004 – REVISED AUGUST 2024
+
+                                                                                                                 OC1
+                                                               Thermal
+                         GND                                    Sense                         Deglitch
+
+                         EN1
+                      (See Note B)
+                                                                            Current
+                                                                 Driver
+                                                                             Limit
+
+
+
+                                                                                    (See Note A)
+                                                                               CS                                 OUT1
+                                                      UVLO
+
+                                                                                    (See Note A)
+                          IN1                                                  CS                                 OUT2
+
+
+
+
+                                                                            Current
+                                                                 Driver
+                                                                             Limit
+                                                                                                                  OC2
+                         EN2
+                      (See Note B)                             Thermal
+                                                                                              Deglitch
+                                                                Sense
+                                   VCC            Charge
+                                  Selector        Pump
+
+                                                                                    (See Note A)
+                          IN2                                                  CS                                 OUT3
+
+
+
+
+                                                                            Current
+                         EN3                                     Driver
+                                                                             Limit
+                      (See Note B)                                                                                OC3
+                                                  UVLO
+
+                                                                  Thermal                     Deglitch
+                         GND                                       Sense
+
+
+                      Note A: Current sense
+                      Note B: Active low (ENx) for TPS2043B; Active high (ENx) for TPS2053B
+
+                             Figure 8-3. Functional Block Diagram (TPS2043B and TPS2053B)
+
+
+
+
+Copyright © 2025 Texas Instruments Incorporated                                                          Submit Document Feedback      19
+               Product Folder Links: TPS2041B TPS2042B TPS2043B TPS2044B TPS2051B TPS2052B TPS2053B TPS2054B
+TPS2041B, TPS2042B, TPS2043B, TPS2044B
+TPS2051B, TPS2052B, TPS2053B, TPS2054B
+SLVS514P – APRIL 2004 – REVISED AUGUST 2024                                                                                      www.ti.com
+
+                                                                                                                           OC1
+
+                              GND                                     Thermal
+                                                                                                   Deglitch
+                                                                       Sense
+
+                                  EN1
+                        (See Note B)                                              Current
+                                                                       Driver
+                                                                                   Limit
+
+
+                                                                                            (See Note A)
+                                                                                     CS                                    OUT1
+                                                           UVLO
+                                                                            Power Switch
+
+                                                                                            (See Note A)
+                                  IN1                                                CS                                    OUT2
+
+
+
+
+                                                                                  Current
+                                                                       Driver
+                                                                                   Limit
+                                                                                                                           OC2
+                                  EN2
+                        (See Note B)                                 Thermal
+                                                                                                   Deglitch
+                                                                      Sense
+                                         VCC         Charge
+                                        Selector     Pump
+                                                                                                                           OC3
+
+                                                                      Thermal
+                                                                                                   Deglitch
+                                                                       Sense
+
+                                  EN3
+                        (See Note B)                                              Current
+                                                                       Driver
+                                                                                   Limit
+
+
+                                                                                            (See Note A)
+                                                                                     CS                                    OUT3
+                                                           UVLO
+                                                                            Power Switch
+                                                                                            (See Note A)
+                                  IN2                                                CS                                    OUT4
+
+
+
+
+                                                                                  Current
+                                                                       Driver
+                                                                                   Limit
+                                                                                                                           OC4
+                                  EN4
+                        (See Note B)                                 Thermal
+                                                                                                   Deglitch
+                                                                      Sense
+                              GND
+
+
+          Note A: Current sense
+          Note B: Active low (ENx) for TPS2044B; Active high (ENx) for TPS2054B
+
+                         Figure 8-4. Functional Block Diagram (TPS2044B and TPS2054B)
+
+8.3 Feature Description
+8.3.1 Power Switch
+The power switch is an N-channel MOSFET with a low on-state resistance. Configured as a high-side switch, the
+power switch prevents current flow from OUT to IN and IN to OUT when disabled. The power switch supplies a
+minimum current of 500 mA.
+
+
+
+20    Submit Document Feedback                                                                 Copyright © 2025 Texas Instruments Incorporated
+
+             Product Folder Links: TPS2041B TPS2042B TPS2043B TPS2044B TPS2051B TPS2052B TPS2053B TPS2054B
+

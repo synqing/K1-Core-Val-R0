@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "usb1-3d-hash-reconcile-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "Reconcile the canonical PCB mutation boundary to the live source after the USB1 Hirose 3D bind; no footprint, net or placement change.",
+  "observed_delta": "USB1 Hirose CX70M-24P1 body is visible in the 3D view but floats 1-2 mm above the solder mask. Mounting tabs hover above the four oval slots; SMT pins hover behind the rear pads. USB2 is not in this crop.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/usb1-3d-before-floating.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "changed block visible",
+      "result": "OK",
+      "detail": "USB1 silkscreen and Hirose shell are readable in the 3D crop."
+    },
+    {
+      "name": "identity",
+      "result": "OK",
+      "detail": "Live readback is USB1 / C778726 / CX70M-24P1 / model 71aa35b92da84360b5d9e21f25c486f0."
+    },
+    {
+      "name": "no duplicates",
+      "result": "OK",
+      "detail": "One USB1 body in the crop."
+    },
+    {
+      "name": "no unrelated movement",
+      "result": "OK",
+      "detail": "Reconcile restamps the hash only; U6, USB2, caps and TVS are not written."
+    }
+  ]
+}

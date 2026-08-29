@@ -1,0 +1,77 @@
+{
+  "steps": [
+    {
+      "label": "open",
+      "ok": true,
+      "v": "279f06324aa142578b6ff40a12f66d9b@27700277ef7a49e48a0293bece6b2993"
+    },
+    {
+      "label": "field",
+      "value": "<3D Model>",
+      "title": "<3D Model>"
+    },
+    {
+      "label": "clicked-seated",
+      "text": "1USB_C_Hirose_CX_4800304000_seatedPersonal Models2026-08-29 03:27:58spectrasynq"
+    },
+    {
+      "label": "confirmed-3d"
+    }
+  ],
+  "ping": {
+    "ok": true,
+    "v": {
+      "documentType": 4,
+      "uuid": "279f06324aa142578b6ff40a12f66d9b",
+      "tabId": "279f06324aa142578b6ff40a12f66d9b@27700277ef7a49e48a0293bece6b2993",
+      "parentLibraryUuid": "27700277ef7a49e48a0293bece6b2993"
+    }
+  },
+  "open": {
+    "ok": true,
+    "v": "279f06324aa142578b6ff40a12f66d9b@27700277ef7a49e48a0293bece6b2993"
+  },
+  "doc": {
+    "ok": true,
+    "v": {
+      "documentType": 4,
+      "uuid": "279f06324aa142578b6ff40a12f66d9b",
+      "tabId": "279f06324aa142578b6ff40a12f66d9b@27700277ef7a49e48a0293bece6b2993",
+      "parentLibraryUuid": "27700277ef7a49e48a0293bece6b2993"
+    }
+  },
+  "before": {
+    "len": 74348,
+    "has3D": false,
+    "hasSeated": false
+  },
+  "dialogs": [],
+  "saveApis": {
+    "pcb_Document": true,
+    "sys_saveDocument": false,
+    "sys_save": false
+  },
+  "save": {
+    "ok": true,
+    "v": true
+  },
+  "after": {
+    "len": 74348,
+    "has3D": false,
+    "hasSeated": false,
+    "sample": []
+  },
+  "fieldAfter": {
+    "value": "<3D Model>",
+    "title": "<3D Model>"
+  },
+  "docAfter": {
+    "ok": true,
+    "v": {
+      "documentType": 4,
+      "uuid": "279f06324aa142578b6ff40a12f66d9b",
+      "tabId": "279f06324aa142578b6ff40a12f66d9b@27700277ef7a49e48a0293bece6b2993",
+      "parentLibraryUuid": "27700277ef7a49e48a0293bece6b2993"
+    }
+  }
+}

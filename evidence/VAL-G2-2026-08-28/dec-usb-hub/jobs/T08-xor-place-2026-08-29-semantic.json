@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T08-xor-place-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2994873:21728c8a",
+  "post_source_hash": "3026702:d06f6b6d",
+  "saved": true,
+  "affected": [
+    {"ref": "R?", "role": "R94-USB FIT 0Ω", "primitiveId": "b027c9ae9b996415", "xy": [2100, 800], "lcsc": "C106231", "addIntoPcb": false},
+    {"ref": "R?", "role": "R95-USB DNP 0Ω", "primitiveId": "24561118da702cc5", "xy": [2100, 1000], "lcsc": "C106231", "addIntoPcb": false},
+    {"ref": "H?", "role": "J12-USB 4-pad", "primitiveId": "9f86d15a53851abb", "xy": [2300, 900], "lcsc": "C124378", "footprint": "HDR-TH_4P-P2.54-V-M", "addIntoPcb": false}
+  ],
+  "census": {
+    "components": 330,
+    "wires": 801,
+    "components_delta": 3,
+    "wires_delta": 0
+  },
+  "observed": "Placed two C106231 0Ω at 2100,800 and 2100,1000 and one C124378 1x4 header at 2300,900. Designators still R?/H?. No wires. Not a USB-C. Hub 41c8e652."
+}

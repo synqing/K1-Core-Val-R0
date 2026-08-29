@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07e-prt-en-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "U20.7 to U24.1 USB_PRTPWR1. U20.11 to U25.1 USB_PRTPWR2. U24.4 to U21.3 USB_EN1. U25.4 to U21.4 USB_EN2. Gap USB_5V_VALID at y=790 so EN1 does not short.",
+  "observed_delta": "55 percent island view plus API/source proof: USB_PRTPWR1/2 and USB_EN1/2 exist as named wires. USB_5V_VALID riser split. DRC panel on screen is a stale 08:48 run and is not this transaction's evidence.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T07e-prt-en-tight.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "USB_PRTPWR1 U20.7 to U24.1",
+      "result": "OK",
+      "detail": "North corridor y=500 from U20.7 to U24.1. Source hits 5."
+    },
+    {
+      "name": "USB_PRTPWR2 U20.11 to U25.1",
+      "result": "OK",
+      "detail": "North corridor y=480 then east drop x=1910, enter U25.1 from below to miss VCC."
+    },
+    {
+      "name": "USB_EN1 U24.4 to U21.3 not shorted to USB_5V_VALID",
+      "result": "OK",
+      "detail": "East of 3V3 then west at y=790 through the USB_5V_VALID gap. Jog around U21 OUT2."
+    },
+    {
+      "name": "USB_EN2 U25.4 to U21.4",
+      "result": "OK",
+      "detail": "East drop x=1935 then west at y=760 to U21.4."
+    },
+    {
+      "name": "OUT pins remain open hub 41c8e652",
+      "result": "OK",
+      "detail": "U21 OUT1/OUT2 not wired. Project 41c8e652."
+    }
+  ]
+}

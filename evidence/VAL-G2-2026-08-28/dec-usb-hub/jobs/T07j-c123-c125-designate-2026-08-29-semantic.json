@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07j-c123-c125-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2880507:610c8632",
+  "post_source_hash": "2893593:3912075f",
+  "saved": true,
+  "affected": [
+    {"primitiveId": "e8e13777e6daf227", "designator": "C123-USB"},
+    {"primitiveId": "175450abf83b4c89", "designator": "C124-USB"},
+    {"primitiveId": "ffd3d3994031db72", "designator": "C125-USB"}
+  ],
+  "census": {
+    "components": 323,
+    "wires": 787,
+    "components_delta": 0,
+    "wires_delta": 0
+  },
+  "observed": "Designated C123-USB, C124-USB and C125-USB as 100nF. No wires. Hub 41c8e652."
+}

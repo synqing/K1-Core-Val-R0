@@ -1,0 +1,6 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "add_schematic_wire", "tag": "n6-vbus", "args": {"line": [2230, 4040, 2230, 4080], "net": "RT_USB_VBUS", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "cap-vbus", "args": {"line": [2510, 4065, 2510, 4100], "net": "RT_USB_VBUS", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "cap-gnd", "args": {"line": [2550, 4065, 2550, 4100], "net": "GND", "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

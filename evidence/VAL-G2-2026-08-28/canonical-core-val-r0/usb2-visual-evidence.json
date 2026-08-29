@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "transaction_id": "usb2-3d-y-align-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "captured_after_settle": true,
+  "scale": "block",
+  "intended_delta": "Change only USB2 HYCW78-USBC24-140B 3D model longitudinal Y registration by +2.46 mm; preserve footprint pads, X, rotation, and Z.",
+  "observed_delta": "USB2 model is longitudinally registered over its footprint: shell retention tabs and plated mounting slots coincide in the settled EasyEDA 3D render.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/usb2-3d-proof2.png",
+  "unexpected_changes": [],
+  "checks": [
+    {"name": "USB2 identity", "result": "OK", "detail": "Designator USB2 and primitive 001a257400b89df6 are unchanged."},
+    {"name": "3D model registration", "result": "OK", "detail": "HYCW78 model uses the corrected Y registration transform and is visibly seated on the footprint."},
+    {"name": "Footprint pads", "result": "OK", "detail": "Semantic readback reports all 28 pads present with unchanged footprint identity."},
+    {"name": "Retention-slot alignment", "result": "OK", "detail": "Settled 3D screenshot shows the connector retention features over the four plated mounting slots."}
+  ],
+  "verdict": "ACCEPTED"
+}

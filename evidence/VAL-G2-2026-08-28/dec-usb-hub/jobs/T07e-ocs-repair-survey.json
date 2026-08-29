@@ -1,0 +1,10 @@
+[
+  {"tool": "get_current_context", "tag": "ctx", "args": {}},
+  {"tool": "list_schematic_component_pins", "tag": "r81", "args": {"componentPrimitiveId": "22c6a17a7dbbd174"}},
+  {"tool": "list_schematic_component_pins", "tag": "r82", "args": {"componentPrimitiveId": "dac528b1bfdc76ab"}},
+  {"tool": "list_schematic_component_pins", "tag": "c121", "args": {"componentPrimitiveId": "2859c2b57ac86be4"}},
+  {"tool": "list_schematic_component_pins", "tag": "c122", "args": {"componentPrimitiveId": "3a63da66b1222580"}},
+  {"tool": "get_schematic_primitive", "tag": "merged", "args": {"primitiveId": "5dcc3c3eb557b5e8"}},
+  {"tool": "get_schematic_primitive", "tag": "ocs1w", "args": {"primitiveId": "977f80ca81ce4d00"}},
+  {"tool": "get_schematic_primitive", "tag": "ocs2w", "args": {"primitiveId": "49b94488cc1ceb02"}}
+]

@@ -1,0 +1,779 @@
+[
+ {
+  "tag": "ctx",
+  "ok": true,
+  "result": {
+   "currentDocument": {
+    "documentType": 1,
+    "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+    "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+   },
+   "currentProject": {
+    "itemType": "Project",
+    "uuid": "41c8e6523576456582ea35958b3684ed",
+    "friendlyName": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "name": "spectrasynq/K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "teamUuid": "27700277ef7a49e48a0293bece6b2993",
+    "description": "",
+    "data": [
+     {
+      "itemType": "Board",
+      "name": "Board1",
+      "schematic": {
+       "itemType": "Schematic",
+       "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "name": "Schematic1",
+       "page": [
+        {
+         "itemType": "Schematic Page",
+         "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+         "name": "P1",
+         "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+         "showTitleBlock": true,
+         "titleBlockData": {
+          "Symbol": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "@Project Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE"
+          },
+          "@Page Count": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Update Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Create Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Schematic Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Schematic1"
+          },
+          "@Page No": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Page Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "P1"
+          },
+          "Company": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "SPECTRASYNQ"
+          },
+          "Reviewed": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Version": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "V1.0"
+          },
+          "Page Size": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Custom"
+          },
+          "Drawn": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "@Create Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "07:22:31"
+          },
+          "@Update Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "07:51:10"
+          },
+          "Border": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "5000"
+          },
+          "Height": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "4800"
+          },
+          "Region Start": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "X Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Y Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "8"
+          },
+          "Blade Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Color": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "#333333"
+          },
+          "Title Block Position": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "3"
+          },
+          "Title Block": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "@Board Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Board1"
+          },
+          "Footprint": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Description": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Device": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "ID": {}
+         }
+        }
+       ],
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed",
+       "parentBoardName": "Board1"
+      },
+      "pcb": {
+       "itemType": "PCB",
+       "name": "PCB1",
+       "uuid": "59bef7e87cff4cd580561703b62d8c19",
+       "parentBoardName": "Board1",
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+      },
+      "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+     }
+    ]
+   },
+   "splitScreenTree": {
+    "id": "editor-window-main",
+    "tabs": [
+     {
+      "title": "Start Page",
+      "tabId": "tab_page1",
+      "icon": {
+       "iconClassName": "icon-eda-logo"
+      },
+      "tabStyle": {
+       "width": "auto",
+       "minWidth": "76px"
+      },
+      "isAbleDelete": false,
+      "group": "start_blank",
+      "draggable": true,
+      "data": {
+       "doctype": -1
+      },
+      "isDisplayNone": false
+     },
+     {
+      "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+      "title": "P1.Schematic1",
+      "icon": {
+       "iconClassName": "icon-eda-page icon-color-blue"
+      },
+      "draggable": true,
+      "isAbleDelete": true,
+      "notUseI18n": true,
+      "data": {
+       "containerId": "editor-window-main",
+       "doctype": 1,
+       "ticket": 10083,
+       "updateTime": 1787961070128,
+       "data-model-sheet-uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+       "title": "P1",
+       "pid": "41c8e6523576456582ea35958b3684ed",
+       "version": "1787961070128",
+       "schematicName": "Schematic1",
+       "data-schematic-uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "isBlockSymbolSheet": false,
+       "creator": "27700277ef7a49e48a0293bece6b2993",
+       "owner": "27700277ef7a49e48a0293bece6b2993",
+       "sch": true
+      },
+      "titleStyle": {}
+     }
+    ]
+   },
+   "editorBootstrapState": {
+    "startPageOnly": false,
+    "urlHash": "#id=41c8e6523576456582ea35958b3684ed,tab=*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedProjectUuid": "41c8e6523576456582ea35958b3684ed",
+    "requestedTabIds": [
+     "*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "activeRequestedTab": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedActiveTabMissing": false,
+    "visibleTabIds": [
+     "tab_page1",
+     "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "suspectedBootstrapFailure": false
+   },
+   "contextLevel": "project-and-document",
+   "hasProjectContext": true,
+   "hasDocumentContext": true,
+   "recommendedNextSteps": [
+    "Use document-specific tools that match the active document type.",
+    "If you need project inventory or cross-document operations, call list_project_objects next.",
+    "For edits, prefer query tools first so primitive IDs and coordinates are verified before modification."
+   ]
+  }
+ },
+ {
+  "tag": "new-j1",
+  "ok": true,
+  "result": {
+   "primitiveId": "ea47c20de228fa3a",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "ea47c20de228fa3a",
+    "componentType": "part",
+    "x": -485,
+    "y": 3160,
+    "subPartName": "d8454310888675a2",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+     "uuid": "e775ee7f617ec838",
+     "name": "GT-USB-7005A-IND"
+    },
+    "symbol": {
+     "uuid": "e2eefe29afe8fe03",
+     "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+     "name": "GT-USB-7005A-IND"
+    },
+    "footprint": {
+     "uuid": "37f6183b7b0b3f1b",
+     "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+     "name": "GT-USB-7005A-IND"
+    },
+    "designator": "U?",
+    "name": "",
+    "uniqueId": "",
+    "manufacturer": "",
+    "manufacturerId": "",
+    "supplier": "",
+    "supplierId": "",
+    "otherProperty": {
+     "Description": "Independent GT-USB-7005A from manufacturer drawing. Not LCSC C5250872 cache artwork."
+    }
+   }
+  }
+ },
+ {
+  "tag": "old-j1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e339",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "e339",
+    "componentType": "part",
+    "x": 185,
+    "y": 4095,
+    "subPartName": "USB4105-GF-A.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "",
+    "component": {
+     "libraryUuid": "ea8fe62438f94521b482dce770be0817",
+     "uuid": "f3e20d985fa741f1b49e7a779e4d9df4",
+     "name": "USB4105-GF-A"
+    },
+    "symbol": {
+     "uuid": "33584adb3fae446b8267f72ffc2554b8",
+     "libraryUuid": "ea8fe62438f94521b482dce770be0817",
+     "name": "USB4105-GF-A"
+    },
+    "footprint": {
+     "uuid": "e784d9e0a6074a5ca0e3cad58c168a84",
+     "libraryUuid": "ea8fe62438f94521b482dce770be0817",
+     "name": "TYPE-C-SMD_SBC-160S1A-20-S412"
+    },
+    "designator": "J1-PWR1",
+    "name": "USB-C",
+    "uniqueId": "gge5",
+    "manufacturer": "GCT",
+    "manufacturerId": "USB4105-GF-A",
+    "supplier": "LCSC",
+    "supplierId": "C3020560",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Connector Type": "",
+     "Protocol Standard": "",
+     "Gender": "",
+     "Mounting Type": "",
+     "Number of Contacts": "",
+     "Number of Ports": "",
+     "Current Rating-Power": "",
+     "Voltage Rating": "",
+     "Detection color": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "new-j1-pins",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "ea47c20de228fa3a",
+   "count": 28,
+   "pins": [
+    {
+     "primitiveId": "ea47c20de228fa3a-7d78c61f74cb4d94",
+     "x": -525,
+     "y": 3160,
+     "pinNumber": "A1",
+     "pinName": "GND",
+     "rotation": 0,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Ground",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-25e9ae04e649eb2e",
+     "x": -525,
+     "y": 3192,
+     "pinNumber": "A2",
+     "pinName": "TX1+",
+     "rotation": 0,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Passive",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-7ce58d8bcf24e0b2",
+     "x": -525,
+     "y": 3224,
+     "pinNumber": "A3",
+     "pinName": "TX1-",
+     "rotation": 0,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Passive",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-1695756af5b33859",
+     "x": -525,
+     "y": 3256,
+     "pinNumber": "A4",
+     "pinName": "VBUS",
+     "rotation": 0,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Power",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-1c11f8c989099ff5",
+     "x": -525,
+     "y": 3288,
+     "pinNumber": "A5",
+     "pinName": "CC1",
+     "rotation": 0,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Passive",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-dc60bf15dd64044a",
+     "x": -525,
+     "y": 3320,
+     "pinNumber": "A6",
+     "pinName": "D+",
+     "rotation": 0,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "BI",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-8d538b7bb4315f51",
+     "x": -525,
+     "y": 3352,
+     "pinNumber": "A7",
+     "pinName": "D-",
+     "rotation": 0,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "BI",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-f7d319004995d70d",
+     "x": -525,
+     "y": 3384,
+     "pinNumber": "A8",
+     "pinName": "SBU1",
+     "rotation": 0,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Passive",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-3256b46049f87afc",
+     "x": -525,
+     "y": 3416,
+     "pinNumber": "A9",
+     "pinName": "VBUS",
+     "rotation": 0,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Power",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-6703ed51eda8368c",
+     "x": -525,
+     "y": 3448,
+     "pinNumber": "A10",
+     "pinName": "RX2-",
+     "rotation": 0,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Passive",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-087f76052046fd07",
+     "x": -525,
+     "y": 3480,
+     "pinNumber": "A11",
+     "pinName": "RX2+",
+     "rotation": 0,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Passive",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-28544d006cd8fb47",
+     "x": -525,
+     "y": 3512,
+     "pinNumber": "A12",
+     "pinName": "GND",
+     "rotation": 0,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Ground",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-5a9433e654e2e9c5",
+     "x": -245,
+     "y": 3160,
+     "pinNumber": "B1",
+     "pinName": "GND",
+     "rotation": 180,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Ground",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-350d97cbdb0edb2a",
+     "x": -245,
+     "y": 3192,
+     "pinNumber": "B2",
+     "pinName": "TX2+",
+     "rotation": 180,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Passive",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-14081890c408328c",
+     "x": -245,
+     "y": 3224,
+     "pinNumber": "B3",
+     "pinName": "TX2-",
+     "rotation": 180,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Passive",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-5a71683c9a5c872f",
+     "x": -245,
+     "y": 3256,
+     "pinNumber": "B4",
+     "pinName": "VBUS",
+     "rotation": 180,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Power",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-e97ae13920ce069b",
+     "x": -245,
+     "y": 3288,
+     "pinNumber": "B5",
+     "pinName": "CC2",
+     "rotation": 180,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Passive",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-14a29e258b059152",
+     "x": -245,
+     "y": 3320,
+     "pinNumber": "B6",
+     "pinName": "D+",
+     "rotation": 180,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "BI",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-959f99e18a96d676",
+     "x": -245,
+     "y": 3352,
+     "pinNumber": "B7",
+     "pinName": "D-",
+     "rotation": 180,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "BI",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-250a8b6f65ac5fd6",
+     "x": -245,
+     "y": 3384,
+     "pinNumber": "B8",
+     "pinName": "SBU2",
+     "rotation": 180,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Passive",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-56da964807aec07c",
+     "x": -245,
+     "y": 3416,
+     "pinNumber": "B9",
+     "pinName": "VBUS",
+     "rotation": 180,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Power",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-4a678bbabd647332",
+     "x": -245,
+     "y": 3448,
+     "pinNumber": "B10",
+     "pinName": "RX1-",
+     "rotation": 180,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Passive",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-21cfc9978c5ee3e6",
+     "x": -245,
+     "y": 3480,
+     "pinNumber": "B11",
+     "pinName": "RX1+",
+     "rotation": 180,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Passive",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-583844b1e96ae33d",
+     "x": -245,
+     "y": 3512,
+     "pinNumber": "B12",
+     "pinName": "GND",
+     "rotation": 180,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Ground",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-9753fe63af600fcb",
+     "x": -465,
+     "y": 3580,
+     "pinNumber": "S1",
+     "pinName": "SHELL.TAB1",
+     "rotation": 270,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Ground",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-0ed61013c69dd5b7",
+     "x": -415,
+     "y": 3580,
+     "pinNumber": "S2",
+     "pinName": "SHELL.TAB2",
+     "rotation": 270,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Ground",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-99f86c0f53aa103f",
+     "x": -365,
+     "y": 3580,
+     "pinNumber": "S3",
+     "pinName": "SHELL.TAB3",
+     "rotation": 270,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Ground",
+     "noConnected": false
+    },
+    {
+     "primitiveId": "ea47c20de228fa3a-a8a2a360e7f67b46",
+     "x": -315,
+     "y": 3580,
+     "pinNumber": "S4",
+     "pinName": "SHELL.TAB4",
+     "rotation": 270,
+     "pinLength": 20,
+     "pinColor": null,
+     "pinShape": "None",
+     "pinType": "Ground",
+     "noConnected": false
+    }
+   ]
+  }
+ },
+ {
+  "tag": "bbox",
+  "ok": true,
+  "result": {
+   "primitiveIds": [
+    "ea47c20de228fa3a",
+    "e339"
+   ],
+   "bbox": {
+    "minX": -505.5,
+    "maxX": 215.5,
+    "minY": 2719.5,
+    "maxY": 4175.5
+   }
+  }
+ },
+ {
+  "tag": "hash",
+  "ok": false,
+  "error": "MCP error -32602: Input validation error: Invalid arguments for tool compute_source_revision: [\n  {\n    \"expected\": \"string\",\n    \"code\": \"invalid_type\",\n    \"path\": [\n      \"source\"\n    ],\n    \"message\": \"Invalid input: expected string, received undefined\"\n  }\n]"
+ }
+]

@@ -1,0 +1,161 @@
+[
+  {
+    "tool": "modify_schematic_component",
+    "tag": "epad-gnd-flag-no-pcb",
+    "args": {
+      "primitiveId": "5f8a7c3187159db5",
+      "addIntoPcb": false,
+      "addIntoBom": false,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "epad-wire",
+    "args": {
+      "line": [570, 860, 590, 860],
+      "net": "GND",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_net_flag",
+    "tag": "vdd33-p1",
+    "args": {
+      "identification": "Power",
+      "net": "3V3",
+      "x": 210,
+      "y": 850,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_net_flag",
+    "tag": "vdd33-p9",
+    "args": {
+      "identification": "Power",
+      "net": "3V3",
+      "x": 210,
+      "y": 770,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_net_flag",
+    "tag": "vdd33-p18",
+    "args": {
+      "identification": "Power",
+      "net": "3V3",
+      "x": 590,
+      "y": 790,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "vdd33-p1-wire",
+    "args": {
+      "line": [230, 850, 210, 850],
+      "net": "3V3",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "vdd33-p9-wire",
+    "args": {
+      "line": [230, 770, 210, 770],
+      "net": "3V3",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "vdd33-p18-wire",
+    "args": {
+      "line": [570, 790, 590, 790],
+      "net": "3V3",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_net_flag",
+    "tag": "c104-3v3",
+    "args": {
+      "identification": "Power",
+      "net": "3V3",
+      "x": 500,
+      "y": 1100,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_net_flag",
+    "tag": "c104-gnd",
+    "args": {
+      "identification": "Ground",
+      "net": "GND",
+      "x": 540,
+      "y": 1100,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_net_flag",
+    "tag": "c105-3v3",
+    "args": {
+      "identification": "Power",
+      "net": "3V3",
+      "x": 580,
+      "y": 1100,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_net_flag",
+    "tag": "c105-gnd",
+    "args": {
+      "identification": "Ground",
+      "net": "GND",
+      "x": 620,
+      "y": 1100,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_net_flag",
+    "tag": "c106-3v3",
+    "args": {
+      "identification": "Power",
+      "net": "3V3",
+      "x": 660,
+      "y": 1100,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_net_flag",
+    "tag": "c106-gnd",
+    "args": {
+      "identification": "Ground",
+      "net": "GND",
+      "x": 700,
+      "y": 1100,
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

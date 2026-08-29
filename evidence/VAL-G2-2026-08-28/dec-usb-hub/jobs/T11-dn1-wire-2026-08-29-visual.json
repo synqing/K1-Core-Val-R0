@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T11-dn1-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Hub DN1 pins 4/3 to U6 L8/M8 as USB_DP_DN1/USB_DM_DN1. Not M6/M7.",
+  "observed_delta": "472 percent U20 left-column view with USB_DP_DN1/USB_DM_DN1 stubs on datasheet pins 4/3 (y=820/830). L8/M8 share those nets. OPT_USB_AUD stays on the VAL strap. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T11-dn1.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "U20 pin 4 USB_DP_DN1",
+      "result": "OK",
+      "detail": "Stub 7a4f75c51ccdfc66 at 230,820 net USB_DP_DN1. Datasheet pin 4 USBDP_DN1."
+    },
+    {
+      "name": "U20 pin 3 USB_DM_DN1",
+      "result": "OK",
+      "detail": "Stub 4c956d486107f457 at 230,830 net USB_DM_DN1. Datasheet pin 3 USBDM_DN1."
+    },
+    {
+      "name": "U6 L8 USB_DP_DN1",
+      "result": "OK",
+      "detail": "Wire 815101f08d910e66 at 2490,4040 net USB_DP_DN1."
+    },
+    {
+      "name": "U6 M8 USB_DM_DN1",
+      "result": "OK",
+      "detail": "Wire 66df66f13a54d053 at 2350,4040 south to 4080 net USB_DM_DN1."
+    },
+    {
+      "name": "M6 M7 not USB",
+      "result": "OK",
+      "detail": "OPT_USB_AUD remains at 4015,3100. No new USB net on M6/M7."
+    },
+    {
+      "name": "hub 41c8e652",
+      "result": "OK",
+      "detail": "currentProject.uuid 41c8e652. Hash 3030863:028f005a."
+    }
+  ]
+}

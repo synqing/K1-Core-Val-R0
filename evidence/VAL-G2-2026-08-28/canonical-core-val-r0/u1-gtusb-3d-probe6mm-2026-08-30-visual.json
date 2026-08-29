@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-gtusb-3d-probe6mm-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "U1 only: keep yflip mesh e6946995a72f4deaa7b036359e4ff6e7 and apply a 6 mm +Y motion probe 0, 236.220, 0 mil so the 3D viewer either jumps the grey body toward the edge cut-out or proves the stored instance offset is ignored. Do not retouch U6, USB2, caps, TVS or audio.",
+  "observed_delta": "Semantic persist landed: U1 still binds e6946995a72f4deaa7b036359e4ff6e7 with transform 0, 236.220, 0, 0, 0, 0, 0, 0, 0. U6 and D1 unchanged. After Refresh, settled 3D stills still show the grey USB-C body inland of the U1 edge cut-out. Oval golds and the rear SMT row remain naked. The body did not jump ~6 mm toward or past the notch. The stored instance offset is ignored by the 3D viewer. This is not a seating claim.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-seat-probe6mm-iso.png",
+  "supporting_screenshots": [
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-seat-probe6mm-iso-navy2-u1.png",
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-seat-probe6mm-wide-top.png",
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-seat-probe6mm-wide-navy.png",
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-seat-probe6mm-wide-navy-u1.png",
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-seat-probe6mm-edge.png"
+  ],
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [],
+  "verdict": "REJECTED",
+  "checks": [
+    {
+      "name": "U1 remains C5250872 / GT-USB-7005A",
+      "result": "OK",
+      "detail": "U1 primitive 0f194aaf30bc2e32 is still C5250872 / GT-USB-7005A on footprint USB-C-SMD_GT-USB-7005A."
+    },
+    {
+      "name": "U1 still binds yflip e6946995a72f4deaa7b036359e4ff6e7",
+      "result": "OK",
+      "detail": "Read-back model is e6946995a72f4deaa7b036359e4ff6e7 titled J1_GT-USB-7005A_yflip."
+    },
+    {
+      "name": "U6-RTC 3D model and transform unchanged",
+      "result": "OK",
+      "detail": "U6-RTC still de5664fd2ea74aa082831cfa5b198edb identity transform."
+    },
+    {
+      "name": "D1-PWR1 TVS 3D model and transform unchanged",
+      "result": "OK",
+      "detail": "D1-PWR1 still 1370be37a17e44418ae52e2b4cc1f5e5 with the same transform."
+    },
+    {
+      "name": "grey body jumps ~6 mm toward the edge or the transform is proven ignored",
+      "result": "DEFECT",
+      "detail": "After a stored +6 mm +Y, Refresh stills still show the grey body inland of the cut-out with oval gold and SMT row naked. The mesh did not jump. Instance 3D Model Transform is ignored by this viewer."
+    }
+  ]
+}

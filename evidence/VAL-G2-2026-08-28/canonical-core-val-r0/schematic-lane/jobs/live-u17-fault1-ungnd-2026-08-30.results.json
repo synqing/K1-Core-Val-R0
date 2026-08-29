@@ -1,0 +1,32 @@
+[
+ {
+  "tag": "prune-fault1-from-gnd",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "unmerge-led-fault-l-label",
+  "ok": true,
+  "result": {
+   "primitiveId": "6c2d22961bad8b84",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Attribute",
+    "y": null,
+    "color": null,
+    "fontSize": null,
+    "fillColor": null,
+    "key": "Name",
+    "value": "GND",
+    "keyVisible": false,
+    "parentPrimitiveId": "e82471",
+    "primitiveId": "6c2d22961bad8b84"
+   }
+  }
+ },
+ {
+  "tag": "fault1-stub",
+  "ok": false,
+  "error": "modify failed!"
+ }
+]

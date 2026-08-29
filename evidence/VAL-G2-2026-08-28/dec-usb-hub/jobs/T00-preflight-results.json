@@ -1,0 +1,16 @@
+[
+ {
+  "tag": "ind-gt-usb",
+  "ok": true,
+  "result": {
+   "query": "GT-USB-7005A-IND",
+   "count": 0,
+   "devices": []
+  }
+ },
+ {
+  "tag": "ind-gt-usb-mpn",
+  "ok": false,
+  "error": "EasyEDA bridge disconnected while waiting for 17977fe7-57ed-4def-8a1a-2785b535df17"
+ }
+]

@@ -1,0 +1,567 @@
+[
+ {
+  "tag": "ctx",
+  "ok": true,
+  "result": {
+   "currentDocument": {
+    "documentType": 1,
+    "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+    "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+   },
+   "currentProject": {
+    "itemType": "Project",
+    "uuid": "41c8e6523576456582ea35958b3684ed",
+    "friendlyName": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "name": "spectrasynq/K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "teamUuid": "27700277ef7a49e48a0293bece6b2993",
+    "description": "",
+    "data": [
+     {
+      "itemType": "Board",
+      "name": "Board1",
+      "schematic": {
+       "itemType": "Schematic",
+       "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "name": "Schematic1",
+       "page": [
+        {
+         "itemType": "Schematic Page",
+         "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+         "name": "P1",
+         "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+         "showTitleBlock": true,
+         "titleBlockData": {
+          "Symbol": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "@Project Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE"
+          },
+          "@Page Count": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Update Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Create Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Schematic Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Schematic1"
+          },
+          "@Page No": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Page Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "P1"
+          },
+          "Company": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "SPECTRASYNQ"
+          },
+          "Reviewed": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Version": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "V1.0"
+          },
+          "Page Size": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Custom"
+          },
+          "Drawn": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "@Create Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "07:22:31"
+          },
+          "@Update Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "09:34:42"
+          },
+          "Border": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "5000"
+          },
+          "Height": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "4800"
+          },
+          "Region Start": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "X Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Y Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "8"
+          },
+          "Blade Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Color": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "#333333"
+          },
+          "Title Block Position": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "3"
+          },
+          "Title Block": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "@Board Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Board1"
+          },
+          "Footprint": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Description": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Device": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "ID": {}
+         }
+        }
+       ],
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed",
+       "parentBoardName": "Board1"
+      },
+      "pcb": {
+       "itemType": "PCB",
+       "name": "PCB1",
+       "uuid": "59bef7e87cff4cd580561703b62d8c19",
+       "parentBoardName": "Board1",
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+      },
+      "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+     }
+    ]
+   },
+   "splitScreenTree": {
+    "id": "editor-window-main",
+    "tabs": [
+     {
+      "title": "Start Page",
+      "tabId": "tab_page1",
+      "icon": {
+       "iconClassName": "icon-eda-logo"
+      },
+      "tabStyle": {
+       "width": "auto",
+       "minWidth": "76px"
+      },
+      "isAbleDelete": false,
+      "group": "start_blank",
+      "draggable": true,
+      "data": {
+       "doctype": -1
+      },
+      "isDisplayNone": false
+     },
+     {
+      "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+      "title": "P1.Schematic1",
+      "icon": {
+       "iconClassName": "icon-eda-page icon-color-blue"
+      },
+      "draggable": true,
+      "isAbleDelete": true,
+      "notUseI18n": true,
+      "data": {
+       "containerId": "editor-window-main",
+       "doctype": 1,
+       "ticket": 10083,
+       "updateTime": 1787961070128,
+       "data-model-sheet-uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+       "title": "P1",
+       "pid": "41c8e6523576456582ea35958b3684ed",
+       "version": "1787961070128",
+       "schematicName": "Schematic1",
+       "data-schematic-uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "isBlockSymbolSheet": false,
+       "creator": "27700277ef7a49e48a0293bece6b2993",
+       "owner": "27700277ef7a49e48a0293bece6b2993",
+       "sch": true
+      },
+      "titleStyle": {
+       "fontWeight": "bold"
+      },
+      "isUnSaved": false,
+      "isHighLight": false
+     }
+    ]
+   },
+   "editorBootstrapState": {
+    "startPageOnly": false,
+    "urlHash": "#id=41c8e6523576456582ea35958b3684ed,tab=*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedProjectUuid": "41c8e6523576456582ea35958b3684ed",
+    "requestedTabIds": [
+     "*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "activeRequestedTab": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedActiveTabMissing": false,
+    "visibleTabIds": [
+     "tab_page1",
+     "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "suspectedBootstrapFailure": false
+   },
+   "contextLevel": "project-and-document",
+   "hasProjectContext": true,
+   "hasDocumentContext": true,
+   "recommendedNextSteps": [
+    "Use document-specific tools that match the active document type.",
+    "If you need project inventory or cross-document operations, call list_project_objects next.",
+    "For edits, prefer query tools first so primitive IDs and coordinates are verified before modification."
+   ]
+  }
+ },
+ {
+  "tag": "C25744",
+  "ok": true,
+  "result": {
+   "lcscIds": [
+    "C25744"
+   ],
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "ffb8c4ed7d7244bc918e37313d4ca373",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "classification": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "libraryType": "3"
+     },
+     "ordinal": 0,
+     "footprintName": "R0402",
+     "footprintUuid": "b43f879bdccf4af3bada432fe602c7c6",
+     "model3DName": "R0402_L1.0-W0.5-H0.4",
+     "model3DUuid": "efdecb7dae4442949d28eecaf748420f",
+     "manufacturer": "UNI-ROYAL(厚声)",
+     "manufacturerId": "0402WGF1002TCE",
+     "supplier": "LCSC",
+     "supplierId": "C25744",
+     "otherProperty": {
+      "LCSC Part Name": "厚膜电阻 10kΩ ±1%",
+      "Supplier Part": "C25744",
+      "Manufacturer": "UNI-ROYAL(厚声)",
+      "Manufacturer Part": "0402WGF1002TCE",
+      "Supplier Footprint": "0402",
+      "JLCPCB Part Class": "Basic Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/0402WGF1002TCE/26487.html",
+      "Supplier": "LCSC",
+      "Add into BOM": "yes",
+      "Convert to PCB": "yes",
+      "Symbol": "3f35868158bc45a98b0aac34609ff970",
+      "Designator": "R?",
+      "Footprint": "b43f879bdccf4af3bada432fe602c7c6",
+      "3D Model": "efdecb7dae4442949d28eecaf748420f",
+      "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+      "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+      "Type": "Thick Film Resistor",
+      "Value": "10kΩ",
+      "Tolerance": "±1%",
+      "Power(Watts)": "62.5mW",
+      "Voltage-Supply(Max)": "50V",
+      "Temperature Coefficient": "±100ppm/℃",
+      "Operating Temperature": "-55℃~+155℃",
+      "Name": "={Value}"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C25768",
+  "ok": true,
+  "result": {
+   "lcscIds": [
+    "C25768"
+   ],
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "2b4222cc312549c69f08ca8d58423a8a",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "classification": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "libraryType": "3"
+     },
+     "ordinal": 0,
+     "footprintName": "R0402",
+     "footprintUuid": "b43f879bdccf4af3bada432fe602c7c6",
+     "model3DName": "R0402_L1.0-W0.5-H0.4",
+     "model3DUuid": "efdecb7dae4442949d28eecaf748420f",
+     "manufacturer": "UNI-ROYAL(厚声)",
+     "manufacturerId": "0402WGF2202TCE",
+     "supplier": "LCSC",
+     "supplierId": "C25768",
+     "otherProperty": {
+      "LCSC Part Name": "厚膜电阻 22kΩ ±1%",
+      "Supplier Part": "C25768",
+      "Manufacturer": "UNI-ROYAL(厚声)",
+      "Manufacturer Part": "0402WGF2202TCE",
+      "Supplier Footprint": "0402",
+      "JLCPCB Part Class": "Basic Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/0402WGF2202TCE/26511.html",
+      "Supplier": "LCSC",
+      "Add into BOM": "yes",
+      "Convert to PCB": "yes",
+      "Symbol": "f292624d281a4166a192e1267b3838e3",
+      "Designator": "R?",
+      "Footprint": "b43f879bdccf4af3bada432fe602c7c6",
+      "3D Model": "efdecb7dae4442949d28eecaf748420f",
+      "3D Model Title": "R0402_L1.0-W0.5-H0.4",
+      "3D Model Transform": "39.37,19.685,0,0,0,0,0,0,0",
+      "Type": "Thick Film Resistor",
+      "Value": "22kΩ",
+      "Tolerance": "±1%",
+      "Power(Watts)": "62.5mW",
+      "Voltage-Supply(Max)": "50V",
+      "Temperature Coefficient": "±100ppm/℃",
+      "Operating Temperature": "-55℃~+155℃",
+      "Name": "={Value}"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C21190",
+  "ok": true,
+  "result": {
+   "lcscIds": [
+    "C21190"
+   ],
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "2340647df7144fc5a30489ed06518eb5",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "classification": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "libraryType": "3"
+     },
+     "ordinal": 0,
+     "footprintName": "R0603",
+     "footprintUuid": "b44c1b381d26462586b8a8d9fac22ec8",
+     "model3DName": "R0603",
+     "model3DUuid": "112863783b5b41f1b5254f87eedc7932",
+     "manufacturer": "UNI-ROYAL(厚声)",
+     "manufacturerId": "0603WAF1001T5E",
+     "supplier": "LCSC",
+     "supplierId": "C21190",
+     "otherProperty": {
+      "LCSC Part Name": "1kΩ ±1% 100mW 厚膜电阻",
+      "Supplier Part": "C21190",
+      "Manufacturer": "UNI-ROYAL(厚声)",
+      "Manufacturer Part": "0603WAF1001T5E",
+      "Supplier Footprint": "0603",
+      "JLCPCB Part Class": "Basic Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/0603WAF1001T5E/21904.html",
+      "Supplier": "LCSC",
+      "Add into BOM": "yes",
+      "Convert to PCB": "yes",
+      "Symbol": "9a91e91e9eed4d1398253ad92400dfec",
+      "Designator": "R?",
+      "Footprint": "b44c1b381d26462586b8a8d9fac22ec8",
+      "3D Model": "112863783b5b41f1b5254f87eedc7932",
+      "3D Model Title": "R0603",
+      "3D Model Transform": "31.8897,63.7794,0,90,0,0,0,0,0",
+      "Type": "Thick Film Resistor",
+      "Value": "1kΩ",
+      "Tolerance": "±1%",
+      "Power(Watts)": "100mW",
+      "Voltage-Supply(Max)": "75V",
+      "Temperature Coefficient": "±100ppm/℃",
+      "Operating Temperature": "-55℃~+155℃",
+      "Name": "={Value}"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C124379",
+  "ok": true,
+  "result": {
+   "lcscIds": [
+    "C124379"
+   ],
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "cdc6d397b18a45f69c04185ad4a1e49e",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "classification": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "libraryType": "3"
+     },
+     "ordinal": 0,
+     "footprintName": "HDR-TH_5P-P2.54-V-M",
+     "footprintUuid": "bf7d440190d8482b8d86bac6e747bd96",
+     "model3DName": "HDR-TH_5P-P2.54-M-LI-1X5P",
+     "model3DUuid": "98c612b43cbb479a86eae3328ff22ecc",
+     "manufacturer": "Ckmtw(灿科盟)",
+     "manufacturerId": "B-2100S05P-A110",
+     "supplier": "LCSC",
+     "supplierId": "C124379",
+     "otherProperty": {
+      "LCSC Part Name": "1x5P 间距:2.54mm 方针 直插",
+      "Supplier Part": "C124379",
+      "Manufacturer": "Ckmtw(灿科盟)",
+      "Manufacturer Part": "B-2100S05P-A110",
+      "Supplier Footprint": "插件,P=2.54mm",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/B-2100S05P-A110/125654.html",
+      "Supplier": "LCSC",
+      "Add into BOM": "yes",
+      "Convert to PCB": "yes",
+      "Symbol": "e23909fd70534a54ad513292ade822c9",
+      "Designator": "H?",
+      "Footprint": "bf7d440190d8482b8d86bac6e747bd96",
+      "3D Model": "98c612b43cbb479a86eae3328ff22ecc",
+      "3D Model Title": "HDR-TH_5P-P2.54-M-LI-1X5P",
+      "3D Model Transform": "499.999,100,0,0,0,0,0,0,-118.11",
+      "Pin Structure": "1x5P",
+      "Pitch": "2.54mm",
+      "Row Spacing": "-",
+      "Circluar Pins/Square Pins": "Pin Header",
+      "Mounting Type": "Through Hole",
+      "Number of Rows": "1",
+      "Number of Pins": "5P",
+      "Current Rating": "3A",
+      "Voltage Rating (Max)": "-",
+      "Length of Mating Pin": "6mm",
+      "Insulation Height": "2.54mm",
+      "Length of End Connection Pin": "3mm",
+      "Contact Material": "Brass",
+      "Contact Plating": "-",
+      "Operating Temperature": "-40℃~+105℃",
+      "Color": "Black",
+      "Name": "={Manufacturer Part}"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "tag": "C50990",
+  "ok": true,
+  "result": {
+   "lcscIds": [
+    "C50990"
+   ],
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "3a2bb629b4d64bf99d172c72fd950853",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "classification": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "libraryType": "3"
+     },
+     "ordinal": 0,
+     "footprintName": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+     "footprintUuid": "3962fa5424e54dde8cfd30751ab1c7e4",
+     "model3DName": "SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95",
+     "model3DUuid": "3168b22659ce4998ae232d44bb704e0a",
+     "manufacturer": "TI(德州仪器)",
+     "manufacturerId": "SN65LVDS1DBVRG4",
+     "supplier": "LCSC",
+     "supplierId": "C50990",
+     "otherProperty": {
+      "LCSC Part Name": "SN65LVDxx 高速差分线驱动器和接收器",
+      "Supplier Part": "C50990",
+      "Manufacturer": "TI(德州仪器)",
+      "Manufacturer Part": "SN65LVDS1DBVRG4",
+      "Supplier Footprint": "SOT-23-5",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://www.ti.com/cn/lit/ds/symlink/sn65lvds1.pdf",
+      "Supplier": "LCSC",
+      "Add into BOM": "yes",
+      "Convert to PCB": "yes",
+      "Symbol": "c4afb9988a01463aa27e96af1391965c",
+      "Designator": "U?",
+      "Footprint": "3962fa5424e54dde8cfd30751ab1c7e4",
+      "3D Model": "3168b22659ce4998ae232d44bb704e0a",
+      "3D Model Title": "SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95",
+      "3D Model Transform": "114.173,109.636,0,180,0,0,0,0,0",
+      "Type": "Driver",
+      "Number of Drivers": "1",
+      "Number of Receivers": "0",
+      "Voltage - Supply": "2.4V~3.6V",
+      "Data Rate": "630Mbps",
+      "Operating Temperature": "-40℃~+85℃",
+      "Level Standard": "LVDS",
+      "Features": "Input termination and bias integration；Fail-safe",
+      "Name": "={Manufacturer Part}"
+     }
+    }
+   ]
+  }
+ }
+]

@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07g-f6-passives-place-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2788699:1714d94e",
+  "post_source_hash": "2871893:6862d5e3",
+  "saved": true,
+  "affected": [
+    {"primitiveId": "004d113915448a0a", "role": "C120 22uF CL21A226"},
+    {"primitiveId": "2859c2b57ac86be4", "role": "C121 100nF"},
+    {"primitiveId": "3a63da66b1222580", "role": "C122 2.2uF C23630 CL10A225 after replacing C15850 10uF"},
+    {"primitiveId": "22c6a17a7dbbd174", "role": "R81 169k"},
+    {"primitiveId": "dac528b1bfdc76ab", "role": "R82 100k"},
+    {"primitiveId": "252b7a11c6b4da53", "role": "R83 100k"},
+    {"primitiveId": "6b258885a490d64b", "role": "R84 100k"},
+    {"primitiveId": "5cf017917b429da4", "role": "R85 470R"},
+    {"primitiveId": "d18377ecee6c9362", "role": "R86 4.7k"}
+  ],
+  "census": {
+    "components": 320,
+    "wires": 787,
+    "components_delta": 9,
+    "wires_delta": 0
+  },
+  "observed": "Placed C120 22 µF, C121 100 nF, C122 2.2 µF (C23630 after deleting a mistaken C15850 10 µF), and R81–R86. addIntoPcb false. Wires still 787. Hub 41c8e652."
+}

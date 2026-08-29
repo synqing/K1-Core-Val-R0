@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07g-u22-island-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2893554:4dd94059",
+  "post_source_hash": "2907334:791de875",
+  "saved": true,
+  "affected": [
+    {"primitiveId": "4c311982f7a3bb0d", "role": "U22-USB"},
+    {"primitiveId": "2859c2b57ac86be4", "role": "C121-USB"},
+    {"primitiveId": "3a63da66b1222580", "role": "C122-USB"},
+    {"primitiveId": "26587ed6a4539774", "net": "5V0_USB_VALID"},
+    {"primitiveId": "7152584fc12e37e1", "net": "5V0_USB_VALID"},
+    {"primitiveId": "d66b55618b2253f0", "net": "5V0_USB_VALID"},
+    {"primitiveId": "e58ac05813575d1d", "net": "5V0_USB_VALID"},
+    {"primitiveId": "e2d0c6afb7499e90", "net": "5V_USB"},
+    {"primitiveId": "70d8a31bb1ac1999", "net": "5V_USB"}
+  ],
+  "census": {
+    "components": 323,
+    "wires": 788,
+    "components_delta": 0,
+    "wires_delta": 1
+  },
+  "observed": "U22 IN and EN and C121 on 5V_USB. U22 OUT and C122 on 5V0_USB_VALID. U22 GND, NC and EP plus C121/C122 grounds on GND. PG left open. Real wires, not labels only. U21 IN not landed. 5V_SYS not used. Hub 41c8e652."
+}

@@ -1,0 +1,10 @@
+[
+  {"tool": "search_library_devices", "tag": "C25770", "args": {"lcscIds": ["C25770"]}},
+  {"tool": "search_library_devices", "tag": "C25768", "args": {"lcscIds": ["C25768"]}},
+  {"tool": "search_library_devices", "tag": "C76929", "args": {"lcscIds": ["C76929"]}},
+  {"tool": "search_library_devices", "tag": "C9005", "args": {"lcscIds": ["C9005"]}},
+  {"tool": "search_library_devices", "tag": "C13739", "args": {"lcscIds": ["C13739"]}},
+  {"tool": "search_library_devices", "tag": "xtal24b", "args": {"query": "X322524", "itemsPerPage": 8, "allowMultiMatch": true}},
+  {"tool": "search_library_devices", "tag": "R169", "args": {"query": "0402WGF1693", "itemsPerPage": 5, "allowMultiMatch": true}},
+  {"tool": "search_library_devices", "tag": "C12p", "args": {"query": "0402 12pF 50V", "itemsPerPage": 5, "allowMultiMatch": true}}
+]

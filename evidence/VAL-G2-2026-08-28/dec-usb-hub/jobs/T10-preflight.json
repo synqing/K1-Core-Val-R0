@@ -1,0 +1,11 @@
+[
+  {"tool": "get_current_context", "tag": "ctx", "args": {}},
+  {"tool": "list_schematic_component_pins", "tag": "j1-live", "args": {"componentPrimitiveId": "ea47c20de228fa3a"}},
+  {"tool": "list_schematic_component_pins", "tag": "d1", "args": {"componentPrimitiveId": "e252"}},
+  {"tool": "list_schematic_component_pins", "tag": "rusb-dp", "args": {"componentPrimitiveId": "ebrc000184"}},
+  {"tool": "list_schematic_component_pins", "tag": "rusb-dn", "args": {"componentPrimitiveId": "ebrc000205"}},
+  {"tool": "list_schematic_component_pins", "tag": "u6-usb", "args": {"componentPrimitiveId": "e3673"}},
+  {"tool": "get_schematic_primitive", "tag": "rusb-dp-prim", "args": {"primitiveId": "ebrc000184"}},
+  {"tool": "get_schematic_primitive", "tag": "rusb-dn-prim", "args": {"primitiveId": "ebrc000205"}},
+  {"tool": "get_schematic_primitive", "tag": "d1-prim", "args": {"primitiveId": "e252"}}
+]

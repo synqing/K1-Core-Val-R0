@@ -1,0 +1,18 @@
+{
+  "passed": false,
+  "verbose": true,
+  "errorCount": 2,
+  "errors": [
+    {
+      "type": "fatalError",
+      "count": 14
+    },
+    {
+      "type": "warn",
+      "count": 49
+    }
+  ],
+  "strict": true,
+  "userInterface": false,
+  "note": "Bridge schematic DRC is a claim, not a certification. The GUI Check DRC panel remains the certifying gate, and it is STALE until Clear Errors is pressed."
+}

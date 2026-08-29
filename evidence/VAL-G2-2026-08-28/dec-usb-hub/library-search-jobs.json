@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "bridge_status",
+    "tag": "bridge_status",
+    "args": {}
+  },
+  {
+    "tool": "ping_bridge",
+    "tag": "ping_bridge",
+    "args": {}
+  },
+  {
+    "tool": "search_library_devices",
+    "tag": "lcsc-C5250872",
+    "args": { "lcscIds": ["C5250872"] }
+  },
+  {
+    "tool": "search_library_devices",
+    "tag": "lcsc-C622610",
+    "args": { "lcscIds": ["C622610"] }
+  },
+  {
+    "tool": "search_library_devices",
+    "tag": "lcsc-C130049",
+    "args": { "lcscIds": ["C130049"] }
+  },
+  {
+    "tool": "search_library_devices",
+    "tag": "lcsc-C2680445",
+    "args": { "lcscIds": ["C2680445"] }
+  },
+  {
+    "tool": "search_library_devices",
+    "tag": "query-USB2422",
+    "args": { "query": "USB2422", "itemsPerPage": 10 }
+  },
+  {
+    "tool": "search_library_devices",
+    "tag": "query-TPS2052B",
+    "args": { "query": "TPS2052B", "itemsPerPage": 10 }
+  }
+]

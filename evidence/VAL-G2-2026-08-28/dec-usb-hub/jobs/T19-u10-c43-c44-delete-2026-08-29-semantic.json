@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T19-u10-c43-c44-delete-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "3047588:cb6ed512",
+  "post_source_hash": "3025378:38e0e9f2",
+  "saved": true,
+  "affected": [
+    {"deleted": "U10-ESP", "id": "e8499"},
+    {"deleted": "C43-ESP", "id": "e8224"},
+    {"deleted": "C44-ESP", "id": "e8260"},
+    {"kept": "J1-PWR1", "id": "ea47c20de228fa3a"}
+  ],
+  "census": {
+    "components": 329,
+    "wires": 796,
+    "components_delta": -3,
+    "wires_delta": 0
+  },
+  "observed": "U10 C43 C44 gone from source. J1 still present. Hub 41c8e652."
+}

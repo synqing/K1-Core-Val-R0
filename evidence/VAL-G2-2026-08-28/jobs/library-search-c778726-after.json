@@ -1,0 +1,5 @@
+[
+  {"tool": "search_library_devices", "tag": "C778726", "args": {"lcscIds": ["C778726"], "itemsPerPage": 10, "allowMultiMatch": true}},
+  {"tool": "search_library_devices", "tag": "CX70M-personal", "args": {"query": "CX70M-24P1", "itemsPerPage": 10, "allowMultiMatch": true}},
+  {"tool": "list_pcb_primitive_ids", "tag": "pcb-comps", "args": {"family": "component"}}
+]

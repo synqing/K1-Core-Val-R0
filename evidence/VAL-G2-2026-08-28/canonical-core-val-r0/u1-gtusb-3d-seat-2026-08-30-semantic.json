@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-gtusb-3d-seat-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "pre_source_hash": "653166:2951b526",
+  "post_source_hash": "653177:b6f10bfe",
+  "saved": true,
+  "affected": ["U1", "3D Model", "3D Model Title", "3D Model Transform"],
+  "census": {
+    "new_model_uuid": "e6946995a72f4deaa7b036359e4ff6e7",
+    "previous_model_uuid": "7e3f17b4e5b64384aaa03075cd65e3e3",
+    "model_title": "J1_GT-USB-7005A_yflip",
+    "transform": "0, 74.803, 0, 0, 0, 0, 0, 0, 0",
+    "bind_target": "U1",
+    "component_primitive_id": "0f194aaf30bc2e32",
+    "supplier_id": "C5250872",
+    "manufacturer_id": "GT-USB-7005A",
+    "u6_unchanged": true,
+    "d1_unchanged": true,
+    "pcb_save": true,
+    "footprint_unchanged": "USB-C-SMD_GT-USB-7005A"
+  }
+}

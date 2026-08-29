@@ -1,0 +1,65 @@
+[
+ {
+  "tag": "C778726",
+  "ok": true,
+  "result": {
+   "lcscIds": [
+    "C778726"
+   ],
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "4db9e6982d2c421c8c7ea67eaf304069",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "classification": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "libraryType": "3"
+     },
+     "ordinal": 0,
+     "footprintName": "USB-TYPE-C-SMD_CX70M-24P1",
+     "footprintUuid": "44616f94c6914e79972b7923414e99c1",
+     "manufacturer": "HRS(广濑)",
+     "manufacturerId": "CX70M-24P1",
+     "supplier": "LCSC",
+     "supplierId": "C778726",
+     "otherProperty": {
+      "LCSC Part Name": "Type-C 母 沉板",
+      "Supplier Part": "C778726",
+      "Manufacturer": "HRS(广濑)",
+      "Manufacturer Part": "CX70M-24P1",
+      "Supplier Footprint": "SMD",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/CX70M-24P1/827627.html",
+      "Supplier": "LCSC",
+      "Add into BOM": "yes",
+      "Convert to PCB": "yes",
+      "Symbol": "66b97c87f3654e4fa9c858f82075a5af",
+      "Designator": "USB?",
+      "Footprint": "44616f94c6914e79972b7923414e99c1",
+      "Connector Type": "Type-C",
+      "Protocol Standard": "USB 3.2",
+      "Gender": "Female",
+      "Mounting Type": "Laminated board",
+      "Number of Contacts": "24P",
+      "Number of Ports": "1",
+      "Current Rating-Power": "-",
+      "Voltage Rating": "20V",
+      "Detection color": "Black",
+      "Operating Temperature": "-30℃~+85℃",
+      "Name": "={Manufacturer Part}"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "tag": "CX70M-personal",
+  "ok": false,
+  "error": "EasyEDA bridge disconnected while waiting for f7e42881-faa8-4efd-ba23-acdf2321f394"
+ },
+ {
+  "tag": "pcb-comps",
+  "ok": false,
+  "error": "PCB document required for PCB primitive queries"
+ }
+]

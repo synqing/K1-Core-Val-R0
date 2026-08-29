@@ -1,0 +1,1344 @@
+[
+ {
+  "tag": "pre-ctx",
+  "ok": true,
+  "result": {
+   "currentDocument": {
+    "documentType": 1,
+    "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+    "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+   },
+   "currentProject": {
+    "itemType": "Project",
+    "uuid": "41c8e6523576456582ea35958b3684ed",
+    "friendlyName": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "name": "spectrasynq/K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "teamUuid": "27700277ef7a49e48a0293bece6b2993",
+    "description": "",
+    "data": [
+     {
+      "itemType": "Board",
+      "name": "Board1",
+      "schematic": {
+       "itemType": "Schematic",
+       "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "name": "Schematic1",
+       "page": [
+        {
+         "itemType": "Schematic Page",
+         "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+         "name": "P1",
+         "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+         "showTitleBlock": true,
+         "titleBlockData": {
+          "Symbol": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "@Project Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE"
+          },
+          "@Page Count": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Update Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Create Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Schematic Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Schematic1"
+          },
+          "@Page No": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Page Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "P1"
+          },
+          "Company": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "SPECTRASYNQ"
+          },
+          "Reviewed": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Version": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "V1.0"
+          },
+          "Page Size": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Custom"
+          },
+          "Drawn": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "@Create Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "07:22:31"
+          },
+          "@Update Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "08:11:18"
+          },
+          "Border": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "5000"
+          },
+          "Height": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "4800"
+          },
+          "Region Start": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "X Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Y Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "8"
+          },
+          "Blade Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Color": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "#333333"
+          },
+          "Title Block Position": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "3"
+          },
+          "Title Block": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "@Board Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Board1"
+          },
+          "Footprint": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Description": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Device": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "ID": {}
+         }
+        }
+       ],
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed",
+       "parentBoardName": "Board1"
+      },
+      "pcb": {
+       "itemType": "PCB",
+       "name": "PCB1",
+       "uuid": "59bef7e87cff4cd580561703b62d8c19",
+       "parentBoardName": "Board1",
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+      },
+      "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+     }
+    ]
+   },
+   "splitScreenTree": {
+    "id": "editor-window-main",
+    "tabs": [
+     {
+      "title": "Start Page",
+      "tabId": "tab_page1",
+      "icon": {
+       "iconClassName": "icon-eda-logo"
+      },
+      "tabStyle": {
+       "width": "auto",
+       "minWidth": "76px"
+      },
+      "isAbleDelete": false,
+      "group": "start_blank",
+      "draggable": true,
+      "data": {
+       "doctype": -1
+      },
+      "isDisplayNone": false
+     },
+     {
+      "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+      "title": "P1.Schematic1",
+      "icon": {
+       "iconClassName": "icon-eda-page icon-color-blue"
+      },
+      "draggable": true,
+      "isAbleDelete": true,
+      "notUseI18n": true,
+      "data": {
+       "containerId": "editor-window-main",
+       "doctype": 1,
+       "ticket": 10083,
+       "updateTime": 1787961070128,
+       "data-model-sheet-uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+       "title": "P1",
+       "pid": "41c8e6523576456582ea35958b3684ed",
+       "version": "1787961070128",
+       "schematicName": "Schematic1",
+       "data-schematic-uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "isBlockSymbolSheet": false,
+       "creator": "27700277ef7a49e48a0293bece6b2993",
+       "owner": "27700277ef7a49e48a0293bece6b2993",
+       "sch": true
+      },
+      "titleStyle": {
+       "fontWeight": "bold"
+      },
+      "isUnSaved": false,
+      "isHighLight": false
+     }
+    ]
+   },
+   "editorBootstrapState": {
+    "startPageOnly": false,
+    "urlHash": "#id=41c8e6523576456582ea35958b3684ed,tab=*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedProjectUuid": "41c8e6523576456582ea35958b3684ed",
+    "requestedTabIds": [
+     "*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "activeRequestedTab": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedActiveTabMissing": false,
+    "visibleTabIds": [
+     "tab_page1",
+     "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "suspectedBootstrapFailure": false
+   },
+   "contextLevel": "project-and-document",
+   "hasProjectContext": true,
+   "hasDocumentContext": true,
+   "recommendedNextSteps": [
+    "Use document-specific tools that match the active document type.",
+    "If you need project inventory or cross-document operations, call list_project_objects next.",
+    "For edits, prefer query tools first so primitive IDs and coordinates are verified before modification."
+   ]
+  }
+ },
+ {
+  "tag": "des-U20-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "92edd0bd8901c171",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "92edd0bd8901c171",
+    "componentType": "part",
+    "x": 400,
+    "y": 800,
+    "subPartName": "USB2422T-I/MJ.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "953a7efbda8b5c60",
+     "name": "USB2422T-I/MJ"
+    },
+    "symbol": {
+     "uuid": "498197b1b36ebbe9",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "USB2422T-I/MJ"
+    },
+    "footprint": {
+     "uuid": "fabc91dfb9c7e93c",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "QFN-24_L4.0-W4.0-P0.50-TL-EP2.5"
+    },
+    "designator": "U20-USB",
+    "name": "USB2422T-I/MJ",
+    "uniqueId": "",
+    "manufacturer": "MICROCHIP(美国微芯)",
+    "manufacturerId": "USB2422T-I/MJ",
+    "supplier": "LCSC",
+    "supplierId": "C622610",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "type": "",
+     "USB Protocol": "",
+     "Data Rate": "",
+     "Voltage - Supply": "",
+     "Operating Temperature": "",
+     "Memory Interface": "",
+     "Current - Supply": "",
+     "Quiescent Supply Current": "",
+     "Number of Channels": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "des-Y3-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "736247481f2dd650",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "736247481f2dd650",
+    "componentType": "part",
+    "x": 720,
+    "y": 720,
+    "subPartName": "X322524MSB4SI.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "a1e8af9920596cb3",
+     "name": "X322524MSB4SI"
+    },
+    "symbol": {
+     "uuid": "7bca2ec4a4662319",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "X322524MSB4SI"
+    },
+    "footprint": {
+     "uuid": "6702d41625743dd3",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "CRYSTAL-SMD_4P-L3.2-W2.5-BL"
+    },
+    "designator": "Y3-USB",
+    "name": "X322524MSB4SI",
+    "uniqueId": "",
+    "manufacturer": "YXC(扬兴晶振)",
+    "manufacturerId": "X322524MSB4SI",
+    "supplier": "LCSC",
+    "supplierId": "C15643",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Normal temperature Frequency Tolerance": "",
+     "Load Capacitance": "",
+     "Frequency Stability": "",
+     "Equivalent Series Resistance(ESR)": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "des-R77-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "6c4b8e5918c0e1f0",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "6c4b8e5918c0e1f0",
+    "componentType": "part",
+    "x": 200,
+    "y": 980,
+    "subPartName": "0402WGF1202TCE.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "dbac7cb509857ad6",
+     "name": "0402WGF1202TCE"
+    },
+    "symbol": {
+     "uuid": "b9c5ec8cf29d4b29",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "0402WGF1202TCE"
+    },
+    "footprint": {
+     "uuid": "81af04a927136b02",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "R0402"
+    },
+    "designator": "R77-USB",
+    "name": "12k",
+    "uniqueId": "",
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "manufacturerId": "0402WGF1202TCE",
+    "supplier": "LCSC",
+    "supplierId": "C25752",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "des-R78-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "a60d36245cbf4e86",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "a60d36245cbf4e86",
+    "componentType": "part",
+    "x": 280,
+    "y": 980,
+    "subPartName": "0402WGF1003TCE.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "3ce02e8a2737946c",
+     "name": "0402WGF1003TCE"
+    },
+    "symbol": {
+     "uuid": "eca649cc3f0f3bf1",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "0402WGF1003TCE"
+    },
+    "footprint": {
+     "uuid": "81af04a927136b02",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "R0402"
+    },
+    "designator": "R78-USB",
+    "name": "100k",
+    "uniqueId": "",
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "manufacturerId": "0402WGF1003TCE",
+    "supplier": "LCSC",
+    "supplierId": "C25741",
+    "otherProperty": {
+     "Value": "",
+     "JLCPCB Part Class": "",
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "Datasheet": "",
+     "Type": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "des-R79-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "d7ed808dd32d71fa",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "d7ed808dd32d71fa",
+    "componentType": "part",
+    "x": 360,
+    "y": 980,
+    "subPartName": "0402WGF1003TCE.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "3ce02e8a2737946c",
+     "name": "0402WGF1003TCE"
+    },
+    "symbol": {
+     "uuid": "eca649cc3f0f3bf1",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "0402WGF1003TCE"
+    },
+    "footprint": {
+     "uuid": "81af04a927136b02",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "R0402"
+    },
+    "designator": "R79-USB",
+    "name": "100k",
+    "uniqueId": "",
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "manufacturerId": "0402WGF1003TCE",
+    "supplier": "LCSC",
+    "supplierId": "C25741",
+    "otherProperty": {
+     "Value": "",
+     "JLCPCB Part Class": "",
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "Datasheet": "",
+     "Type": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "des-R80-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "f6a62bb1e7d23ff6",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "f6a62bb1e7d23ff6",
+    "componentType": "part",
+    "x": 440,
+    "y": 980,
+    "subPartName": "0402WGF4701TCE.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "336b978db3d66021",
+     "name": "0402WGF4701TCE"
+    },
+    "symbol": {
+     "uuid": "c4ae1b1e19ffd19b",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "0402WGF4701TCE"
+    },
+    "footprint": {
+     "uuid": "81af04a927136b02",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "R0402"
+    },
+    "designator": "R80-USB",
+    "name": "4.7k",
+    "uniqueId": "",
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "manufacturerId": "0402WGF4701TCE",
+    "supplier": "LCSC",
+    "supplierId": "C25900",
+    "otherProperty": {
+     "Value": "",
+     "JLCPCB Part Class": "",
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "Datasheet": "",
+     "Type": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "des-R87-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "109c559e17398f80",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "109c559e17398f80",
+    "componentType": "part",
+    "x": 520,
+    "y": 980,
+    "subPartName": "0402WGF1002TCE.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "b145cd1c2afa4399",
+     "name": "0402WGF1002TCE"
+    },
+    "symbol": {
+     "uuid": "434d4b86e9e90b25",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "0402WGF1002TCE"
+    },
+    "footprint": {
+     "uuid": "81af04a927136b02",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "R0402"
+    },
+    "designator": "R87-USB",
+    "name": "10k",
+    "uniqueId": "",
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "manufacturerId": "0402WGF1002TCE",
+    "supplier": "LCSC",
+    "supplierId": "C25744",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "des-R88-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "fc944770c8a600b3",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "fc944770c8a600b3",
+    "componentType": "part",
+    "x": 600,
+    "y": 980,
+    "subPartName": "0402WGF1002TCE.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "b145cd1c2afa4399",
+     "name": "0402WGF1002TCE"
+    },
+    "symbol": {
+     "uuid": "434d4b86e9e90b25",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "0402WGF1002TCE"
+    },
+    "footprint": {
+     "uuid": "81af04a927136b02",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "R0402"
+    },
+    "designator": "R88-USB",
+    "name": "10k",
+    "uniqueId": "",
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "manufacturerId": "0402WGF1002TCE",
+    "supplier": "LCSC",
+    "supplierId": "C25744",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "des-R89-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "859dc25a82d72494",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "859dc25a82d72494",
+    "componentType": "part",
+    "x": 680,
+    "y": 980,
+    "subPartName": "0402WGF1002TCE.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "b145cd1c2afa4399",
+     "name": "0402WGF1002TCE"
+    },
+    "symbol": {
+     "uuid": "434d4b86e9e90b25",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "0402WGF1002TCE"
+    },
+    "footprint": {
+     "uuid": "81af04a927136b02",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "R0402"
+    },
+    "designator": "R89-USB",
+    "name": "10k",
+    "uniqueId": "",
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "manufacturerId": "0402WGF1002TCE",
+    "supplier": "LCSC",
+    "supplierId": "C25744",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "des-R90-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "0a971b6f27ac9f41",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "0a971b6f27ac9f41",
+    "componentType": "part",
+    "x": 760,
+    "y": 980,
+    "subPartName": "0402WGF1002TCE.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "b145cd1c2afa4399",
+     "name": "0402WGF1002TCE"
+    },
+    "symbol": {
+     "uuid": "434d4b86e9e90b25",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "0402WGF1002TCE"
+    },
+    "footprint": {
+     "uuid": "81af04a927136b02",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "R0402"
+    },
+    "designator": "R90-USB",
+    "name": "10k",
+    "uniqueId": "",
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "manufacturerId": "0402WGF1002TCE",
+    "supplier": "LCSC",
+    "supplierId": "C25744",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "des-R91-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "d04486ae5c7116a8",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "d04486ae5c7116a8",
+    "componentType": "part",
+    "x": 840,
+    "y": 980,
+    "subPartName": "0402WGF1002TCE.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "b145cd1c2afa4399",
+     "name": "0402WGF1002TCE"
+    },
+    "symbol": {
+     "uuid": "434d4b86e9e90b25",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "0402WGF1002TCE"
+    },
+    "footprint": {
+     "uuid": "81af04a927136b02",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "R0402"
+    },
+    "designator": "R91-USB",
+    "name": "10k",
+    "uniqueId": "",
+    "manufacturer": "UNI-ROYAL(厚声)",
+    "manufacturerId": "0402WGF1002TCE",
+    "supplier": "LCSC",
+    "supplierId": "C25744",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Type": "",
+     "Value": "",
+     "Tolerance": "",
+     "Power(Watts)": "",
+     "Voltage-Supply(Max)": "",
+     "Temperature Coefficient": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "des-C100-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "c483828709b8b49b",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "c483828709b8b49b",
+    "componentType": "part",
+    "x": 200,
+    "y": 1100,
+    "subPartName": "CL10A105KB8NNNC.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "7f0cb977539808b9",
+     "name": "CL10A105KB8NNNC"
+    },
+    "symbol": {
+     "uuid": "8413346c1bf1bcc6",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "CL10A105KB8NNNC"
+    },
+    "footprint": {
+     "uuid": "a46ba78560a8fa45",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "C0603"
+    },
+    "designator": "C100-USB",
+    "name": "1uF",
+    "uniqueId": "",
+    "manufacturer": "SAMSUNG(三星)",
+    "manufacturerId": "CL10A105KB8NNNC",
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "des-C101-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "d51d670fb0acdc36",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "d51d670fb0acdc36",
+    "componentType": "part",
+    "x": 280,
+    "y": 1100,
+    "subPartName": "CC0603KRX7R9BB104.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "3ad47476ed28ac00",
+     "name": "CC0603KRX7R9BB104"
+    },
+    "symbol": {
+     "uuid": "003494c6ac70d2be",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "CC0603KRX7R9BB104"
+    },
+    "footprint": {
+     "uuid": "a46ba78560a8fa45",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "C0603"
+    },
+    "designator": "C101-USB",
+    "name": "100nF",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "CC0603KRX7R9BB104",
+    "supplier": "LCSC",
+    "supplierId": "C14663",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "des-C102-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "6718c810f2448d6c",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "6718c810f2448d6c",
+    "componentType": "part",
+    "x": 360,
+    "y": 1100,
+    "subPartName": "0402CG120J500NT.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "5f77c341c21d1d4a",
+     "name": "0402CG120J500NT"
+    },
+    "symbol": {
+     "uuid": "a301978507b42e66",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "0402CG120J500NT"
+    },
+    "footprint": {
+     "uuid": "ad6e06a3e2fdfedc",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "C0402"
+    },
+    "designator": "C102-USB",
+    "name": "12pF",
+    "uniqueId": "",
+    "manufacturer": "FH(风华)",
+    "manufacturerId": "0402CG120J500NT",
+    "supplier": "LCSC",
+    "supplierId": "C1547",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "des-C103-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "d7f20978650e2f1d",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "d7f20978650e2f1d",
+    "componentType": "part",
+    "x": 440,
+    "y": 1100,
+    "subPartName": "0402CG120J500NT.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "5f77c341c21d1d4a",
+     "name": "0402CG120J500NT"
+    },
+    "symbol": {
+     "uuid": "a301978507b42e66",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "0402CG120J500NT"
+    },
+    "footprint": {
+     "uuid": "ad6e06a3e2fdfedc",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "C0402"
+    },
+    "designator": "C103-USB",
+    "name": "12pF",
+    "uniqueId": "",
+    "manufacturer": "FH(风华)",
+    "manufacturerId": "0402CG120J500NT",
+    "supplier": "LCSC",
+    "supplierId": "C1547",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "des-C104-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "930c9f07728120be",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "930c9f07728120be",
+    "componentType": "part",
+    "x": 520,
+    "y": 1100,
+    "subPartName": "CC0603KRX7R9BB104.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "3ad47476ed28ac00",
+     "name": "CC0603KRX7R9BB104"
+    },
+    "symbol": {
+     "uuid": "003494c6ac70d2be",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "CC0603KRX7R9BB104"
+    },
+    "footprint": {
+     "uuid": "a46ba78560a8fa45",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "C0603"
+    },
+    "designator": "C104-USB",
+    "name": "100nF",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "CC0603KRX7R9BB104",
+    "supplier": "LCSC",
+    "supplierId": "C14663",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "des-C105-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "3fddf470f1772050",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "3fddf470f1772050",
+    "componentType": "part",
+    "x": 600,
+    "y": 1100,
+    "subPartName": "CL10A105KB8NNNC.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "7f0cb977539808b9",
+     "name": "CL10A105KB8NNNC"
+    },
+    "symbol": {
+     "uuid": "8413346c1bf1bcc6",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "CL10A105KB8NNNC"
+    },
+    "footprint": {
+     "uuid": "a46ba78560a8fa45",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "C0603"
+    },
+    "designator": "C105-USB",
+    "name": "1uF",
+    "uniqueId": "",
+    "manufacturer": "SAMSUNG(三星)",
+    "manufacturerId": "CL10A105KB8NNNC",
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "des-C106-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "d4fba08559bea7f9",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "d4fba08559bea7f9",
+    "componentType": "part",
+    "x": 680,
+    "y": 1100,
+    "subPartName": "CC0603KRX7R9BB104.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "3ad47476ed28ac00",
+     "name": "CC0603KRX7R9BB104"
+    },
+    "symbol": {
+     "uuid": "003494c6ac70d2be",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "CC0603KRX7R9BB104"
+    },
+    "footprint": {
+     "uuid": "a46ba78560a8fa45",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "C0603"
+    },
+    "designator": "C106-USB",
+    "name": "100nF",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "CC0603KRX7R9BB104",
+    "supplier": "LCSC",
+    "supplierId": "C14663",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "des-C107-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "c70e548c3d1f4881",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "c70e548c3d1f4881",
+    "componentType": "part",
+    "x": 760,
+    "y": 1100,
+    "subPartName": "CC0603KRX7R9BB104.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "3ad47476ed28ac00",
+     "name": "CC0603KRX7R9BB104"
+    },
+    "symbol": {
+     "uuid": "003494c6ac70d2be",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "CC0603KRX7R9BB104"
+    },
+    "footprint": {
+     "uuid": "a46ba78560a8fa45",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "C0603"
+    },
+    "designator": "C107-USB",
+    "name": "100nF",
+    "uniqueId": "",
+    "manufacturer": "YAGEO(国巨)",
+    "manufacturerId": "CC0603KRX7R9BB104",
+    "supplier": "LCSC",
+    "supplierId": "C14663",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Value": "",
+     "Tolerance": "",
+     "Voltage Rating": "",
+     "Temperature Coefficient": "",
+     "Description": ""
+    }
+   },
+   "saved": true
+  }
+ }
+]

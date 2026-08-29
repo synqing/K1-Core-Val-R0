@@ -1,0 +1,13 @@
+[
+  {"tool": "get_current_context", "tag": "ctx", "args": {}},
+  {"tool": "list_schematic_component_pins", "tag": "c121", "args": {"componentPrimitiveId": "2859c2b57ac86be4"}},
+  {"tool": "list_schematic_component_pins", "tag": "c122", "args": {"componentPrimitiveId": "3a63da66b1222580"}},
+  {"tool": "list_schematic_component_pins", "tag": "c120", "args": {"componentPrimitiveId": "004d113915448a0a"}},
+  {"tool": "list_schematic_component_pins", "tag": "d3", "args": {"componentPrimitiveId": "fadfedaff2230f79"}},
+  {"tool": "list_schematic_component_pins", "tag": "c108", "args": {"componentPrimitiveId": "daf3578c8ea5a570"}},
+  {"tool": "list_schematic_component_pins", "tag": "u23", "args": {"componentPrimitiveId": "125f3f5842b2d308"}},
+  {"tool": "list_schematic_component_pins", "tag": "u24", "args": {"componentPrimitiveId": "8d95d838df2d5f43"}},
+  {"tool": "list_schematic_component_pins", "tag": "u25", "args": {"componentPrimitiveId": "cace78f52f4c7139"}},
+  {"tool": "list_schematic_component_pins", "tag": "r81", "args": {"componentPrimitiveId": "22c6a17a7dbbd174"}},
+  {"tool": "list_schematic_component_pins", "tag": "r82", "args": {"componentPrimitiveId": "dac528b1bfdc76ab"}}
+]

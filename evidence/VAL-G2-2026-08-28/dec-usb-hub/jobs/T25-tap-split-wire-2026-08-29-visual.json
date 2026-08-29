@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T25-tap-split-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Split TAP_VBUS and TAP_REF. Delete 1460-1580 bar. TAP_VBUS only R81 R82 U23 IN+. TAP_REF only R83 R84 U23 IN-.",
+  "observed_delta": "220 percent U23 island. TAP_VBUS label on the west riser to R81/R82. TAP_REF label on the east riser to R83/R84. No 1460-1580 bar through the IC. Two tap names readable. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T25-u23-final.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "TAP_VBUS own parent",
+      "result": "OK",
+      "detail": "get_schematic_primitive 54b8d6c7efc61c4c net TAP_VBUS only. Source scan one parent. West path 1460,990-1330-1440-1420/1460,1200. No 1460-1580."
+    },
+    {
+      "name": "TAP_REF own parent",
+      "result": "OK",
+      "detail": "get_schematic_primitive 766b3b0368bbe7cc net TAP_REF only. Source scan one parent. IN- 1460,1010 over y=850 to 1580 then R83.2/R84.1."
+    },
+    {
+      "name": "no shared parentId",
+      "result": "OK",
+      "detail": "TAP_VBUS parent 54b8d6c7efc61c4c. TAP_REF parent 766b3b0368bbe7cc. Intersection empty. Old e34ae57efe3e3790 gone."
+    },
+    {
+      "name": "no 1460-1580 bar",
+      "result": "OK",
+      "detail": "Post-T25 source LINE scan: zero segments at y=1010 spanning 1460-1580. Primitive lines have no such pair."
+    },
+    {
+      "name": "U21 R85 GPIO15 untouched",
+      "result": "OK",
+      "detail": "U21-USB fb7c84f0a582bd9c at 1200,800. R85-USB 5cf017917b429da4 at 1720,1200 wire 0df3701fe687193c USB_5V_VALID. GPIO15 still ff12401c730641b7 USB_5V_VALID. J6-ESP e98163 present."
+    }
+  ]
+}

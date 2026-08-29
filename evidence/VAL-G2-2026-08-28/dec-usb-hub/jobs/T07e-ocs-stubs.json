@@ -1,0 +1,7 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "add_schematic_wire", "tag": "ocs1-hub", "args": {"line": [230, 780, 210, 780], "net": "USB_OCS1_N", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "ocs1-sw", "args": {"line": [1260, 810, 1285, 810], "net": "USB_OCS1_N", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "ocs2-hub", "args": {"line": [230, 740, 210, 740], "net": "USB_OCS2_N", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "ocs2-sw", "args": {"line": [1260, 780, 1285, 780], "net": "USB_OCS2_N", "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

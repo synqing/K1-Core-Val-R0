@@ -1,0 +1,77 @@
+[
+  {
+    "tool": "get_current_context",
+    "tag": "pre-ctx",
+    "args": {}
+  },
+  {
+    "tool": "get_schematic_primitive",
+    "tag": "n0",
+    "args": {
+      "primitiveId": "5172637670c1c95f"
+    }
+  },
+  {
+    "tool": "get_schematic_primitive",
+    "tag": "n1",
+    "args": {
+      "primitiveId": "56de56738c05da5f"
+    }
+  },
+  {
+    "tool": "get_schematic_primitive",
+    "tag": "n2",
+    "args": {
+      "primitiveId": "5f8a7c3187159db5"
+    }
+  },
+  {
+    "tool": "get_schematic_primitive",
+    "tag": "n3",
+    "args": {
+      "primitiveId": "5f8fcf5ddb97c6d6"
+    }
+  },
+  {
+    "tool": "get_schematic_primitive",
+    "tag": "n4",
+    "args": {
+      "primitiveId": "6d6ca1230b6dd8df"
+    }
+  },
+  {
+    "tool": "get_schematic_primitive",
+    "tag": "n5",
+    "args": {
+      "primitiveId": "9481fd66f4ad43bd"
+    }
+  },
+  {
+    "tool": "get_schematic_primitive",
+    "tag": "n6",
+    "args": {
+      "primitiveId": "ac95623bada64882"
+    }
+  },
+  {
+    "tool": "get_schematic_primitive",
+    "tag": "n7",
+    "args": {
+      "primitiveId": "b118258a02504a25"
+    }
+  },
+  {
+    "tool": "get_schematic_primitive",
+    "tag": "n8",
+    "args": {
+      "primitiveId": "c624c465e022e109"
+    }
+  },
+  {
+    "tool": "get_schematic_primitive",
+    "tag": "n9",
+    "args": {
+      "primitiveId": "d12e390b8886d2e6"
+    }
+  }
+]

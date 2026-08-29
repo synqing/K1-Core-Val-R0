@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T24-save-hygiene-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Save hygiene. One sheet. PCB 0/0. J1 hub RT USB S3 USB J6 zooms. J6 untouched.",
+  "observed_delta": "J1 GT-USB-7005A SuperSpeed columns still present. U20-USB hub island intact. U6 N6 RT_USB_VBUS and DN1 labels present. S3 TUNE 22 ohm into GPIO19/20 and GPIO15 on USB_5V_VALID. J6 RECOVERY 1x6 six pins GND 3V3 UART EN GPIO0 untouched. One page. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T24-j6.png",
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "saved true",
+      "result": "OK",
+      "detail": "sch_Document.save returned and source was readable afterwards."
+    },
+    {
+      "name": "hash changed",
+      "result": "OK",
+      "detail": "2975845:2cc7d763 to 2975845:437afeab."
+    },
+    {
+      "name": "one sheet",
+      "result": "OK",
+      "detail": "currentProject schematic.page length 1. Page 1435cb46."
+    },
+    {
+      "name": "PCB empty",
+      "result": "OK",
+      "detail": "PCB 59bef7e8 exists. No convert-to-PCB this campaign. addIntoPcb false on new parts. Via count from schematic source 0."
+    },
+    {
+      "name": "J6 six pins untouched",
+      "result": "OK",
+      "detail": "e98163 J6-ESP still present. 450 percent shot shows pins 1-6 GND 3V3 ESP_UART0_TX ESP_UART0_RX ESP_EN ESP_GPIO0."
+    }
+  ]
+}

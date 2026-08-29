@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-u17-fault1-ungnd-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Disconnect U17-PWR2 FAULT1# from GND and attach a LED_FAULT_L_N stub matching FAULT2#. Exposed pad stays on GND. No other wires.",
+  "observed_delta": "Block-scale capture of U17-PWR2 (TPS2561, 2536x1091) after Captain Fit Selection. FAULT1# pin 10 carries a short dedicated stub labelled LED_FAULT_L_N. Pin 1 and the exposed pad remain on GND. The FAULT name is not on the GND bus. IN pins stay on 5V_SYS; OUT1/OUT2 stay on 5V_LED_L_SW / 5V_LED_R_SW.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/schematic-lane/screenshots/live-u17-fault1-ungnd-captain-fit.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "FAULT1# pin 10 no longer joins GND wire e82471",
+      "result": "OK",
+      "detail": "Pin 10 FAULT1# shows a short stub that ends at a net-port marker and is labelled LED_FAULT_L_N. It does not continue into the GND island on pin 1 or the exposed pad."
+    },
+    {
+      "name": "LED_FAULT_L_N is not a net name on the GND bus",
+      "result": "OK",
+      "detail": "The GND labels sit on pin 1 and on the exposed-pad pin 11 only. LED_FAULT_L_N appears only on the FAULT1# stub."
+    },
+    {
+      "name": "a dedicated LED_FAULT_L_N stub sits on FAULT1# like FAULT2#",
+      "result": "OK",
+      "detail": "FAULT1# has the same short rightward stub-and-label pattern used for the other fault pin, with LED_FAULT_L_N as its own net name."
+    },
+    {
+      "name": "U17 exposed pad pin 11 remains on GND",
+      "result": "OK",
+      "detail": "The exposed-pad pin on the right of U17 is still wired into the GND net, separate from the FAULT1# stub."
+    }
+  ]
+}

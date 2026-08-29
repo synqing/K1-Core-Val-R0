@@ -1,0 +1,4 @@
+[
+  {"tool": "list_pcb_primitive_ids", "tag": "pcb-comps", "args": {"family": "component", "expectedDocumentUuid": "59bef7e87cff4cd580561703b62d8c19"}},
+  {"tool": "search_library_devices", "tag": "dvj6b-now", "args": {"query": "MIMXRT1062DVJ6B", "itemsPerPage": 3, "allowMultiMatch": true}}
+]

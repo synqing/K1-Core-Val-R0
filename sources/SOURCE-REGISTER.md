@@ -33,6 +33,7 @@ SSCM1_V2 = REQUIREMENTS_DRIVEN_REPLACEMENT
 | K1.hardware | SSCM-1 recovery attempt | Historical K1-M2B/module fragments and placeholder mapping found; frozen SSCM-1 v1 specification not found |
 | SpectraSynq-Instrument-Spine | SSCM-1 recovery attempt | Prior search not reproducible in current review because checkout was unavailable |
 | EasyEDA disposable `K1-Core-Val-R0-G2.1-BULK-CANDIDATE` (`dcd7e3cab2a24b9aa6e531d2b62e1b6f`) | G2.1 electrical reference / EasyEDA normalisation oracle (D-048) | IMPORTED_NOT_CANONICAL; import receipt NOT YET ACCEPTED; not product canonical; not JLCPCB handoff |
+| K1-AUDIO-EVAL-R0 complete design-input package (33 files; `K1-AUDIO-EVAL-R0_COMPLETE_PACKAGE.zip`) | Source authority for dual-input audio: switched stereo 3.5 mm TRS, laboratory XOR, IM69D130 through TLV320ADC6120, 48 kHz four-slot TDM, ADC/direct PDM XOR. Failed to migrate the analogue lane into the VAL-R0 mainboard contract until D-051. | READ 2026-08-30 from the package on disk. Daughterboard FPC / ESP32 direct-PDM / EVAL GPIO map are **not** copied. Direct-PDM on VAL-R0 terminates at RT1062. Jack MPN remains candidate (`PJ-3537S-SMT` / `C2689709`), not bound. |
 
 ## Unresolved
 

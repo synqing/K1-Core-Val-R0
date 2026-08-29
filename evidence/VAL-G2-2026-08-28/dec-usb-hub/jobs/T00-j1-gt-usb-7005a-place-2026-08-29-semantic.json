@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T00-j1-gt-usb-7005a-place-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2352202:5bde21bc",
+  "post_source_hash": "2357746:d808d1ed",
+  "saved": true,
+  "affected": [
+    {
+      "primitiveId": "ea47c20de228fa3a",
+      "designator": "U?",
+      "name": "GT-USB-7005A-IND",
+      "x": 185,
+      "y": 3480,
+      "library": "27700277ef7a49e48a0293bece6b2993",
+      "deviceUuid_created": "64a4890ac65a4002b950d8b07c8459df",
+      "symbolUuid": "cb1918895dba4e1691885a1892e9235a",
+      "footprintUuid": "db6aa4d157814027bb31dae8aae789aa",
+      "addIntoPcb": false
+    }
+  ],
+  "census": {
+    "components": 256,
+    "wires": 773,
+    "texts": 38,
+    "components_delta": 1,
+    "wires_delta": 0,
+    "j1_pwr1_present": true,
+    "new_j1_designator": "U?"
+  },
+  "observed": "Placed independently constructed GT-USB-7005A-IND on the hub schematic at 185,3480. Component count 255 to 256. Wire count unchanged at 773. Old J1-PWR1 USB4105 remains. Auto-designator is U?; designate is a later stage. Not C5250872 cache artwork. Live 64325d0e not written."
+}

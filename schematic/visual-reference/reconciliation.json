@@ -1,0 +1,1152 @@
+{
+ "summary": {
+  "verdict": "PASS",
+  "fails": [],
+  "component_count_per_domain": {
+   "D01": 71,
+   "D02": 27,
+   "D03": 42,
+   "D04": 21,
+   "D05": 21,
+   "D06": 32,
+   "D07": 27,
+   "D08": 10,
+   "D09": 19,
+   "D10": 17
+  },
+  "total_components": 287,
+  "cross_domain_ports": 48,
+  "rails": 23,
+  "single_domain_nets": 101,
+  "single_endpoint_nets": [
+   "LED_FAULT_L_N",
+   "LED_FAULT_R_N",
+   "MOTION_INT_S3",
+   "RT_I2C_SCL",
+   "RT_I2C_SDA",
+   "RT_USB_AUD_STRAP_IOMUX_TBD",
+   "S3_I2C_SCL",
+   "S3_I2C_SDA",
+   "USB_EFUSE_ILIM",
+   "USB_XTALIN"
+  ],
+  "orphan_nets": [
+   "USB_NON_REM0",
+   "USB_NON_REM1"
+  ],
+  "tbd_rows": 12
+ },
+ "net_reconciliation": {
+  "+5V_LED_L": {
+   "endpoints": 5,
+   "domains": [
+    "D02",
+    "D09"
+   ]
+  },
+  "+5V_LED_R": {
+   "endpoints": 5,
+   "domains": [
+    "D02",
+    "D09"
+   ]
+  },
+  "1V15_CORE": {
+   "endpoints": 18,
+   "domains": [
+    "D03"
+   ]
+  },
+  "3V3": {
+   "endpoints": 101,
+   "domains": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "D08",
+    "D09",
+    "D10"
+   ]
+  },
+  "3V3_MIC": {
+   "endpoints": 3,
+   "domains": [
+    "D02",
+    "D06"
+   ]
+  },
+  "3V3_MIC_FLEX": {
+   "endpoints": 3,
+   "domains": [
+    "D06"
+   ]
+  },
+  "3V3_MIC_REG": {
+   "endpoints": 4,
+   "domains": [
+    "D02"
+   ]
+  },
+  "3V3_S3_FILTERED": {
+   "endpoints": 2,
+   "domains": [
+    "D05"
+   ]
+  },
+  "5V0_USB_VALID": {
+   "endpoints": 4,
+   "domains": [
+    "D01"
+   ]
+  },
+  "5V_LED_L_SW": {
+   "endpoints": 2,
+   "domains": [
+    "D02"
+   ]
+  },
+  "5V_LED_R_SW": {
+   "endpoints": 2,
+   "domains": [
+    "D02"
+   ]
+  },
+  "5V_PROTECTED": {
+   "endpoints": 7,
+   "domains": [
+    "D01"
+   ]
+  },
+  "5V_SYS": {
+   "endpoints": 13,
+   "domains": [
+    "D01",
+    "D02"
+   ]
+  },
+  "5V_USB": {
+   "endpoints": 14,
+   "domains": [
+    "D01"
+   ]
+  },
+  "ADC_AREG": {
+   "endpoints": 3,
+   "domains": [
+    "D06"
+   ]
+  },
+  "ADC_DREG": {
+   "endpoints": 3,
+   "domains": [
+    "D06"
+   ]
+  },
+  "ADC_VREF": {
+   "endpoints": 2,
+   "domains": [
+    "D06"
+   ]
+  },
+  "AUDIO_BCLK": {
+   "endpoints": 4,
+   "domains": [
+    "D06"
+   ]
+  },
+  "AUDIO_BCLK_ISO": {
+   "endpoints": 2,
+   "domains": [
+    "D06"
+   ]
+  },
+  "AUDIO_BCLK_RT": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D06"
+   ]
+  },
+  "AUDIO_DOUT": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D06"
+   ]
+  },
+  "AUDIO_DOUT_ADC": {
+   "endpoints": 2,
+   "domains": [
+    "D06"
+   ]
+  },
+  "AUDIO_FSYNC": {
+   "endpoints": 4,
+   "domains": [
+    "D06"
+   ]
+  },
+  "AUDIO_FSYNC_ISO": {
+   "endpoints": 2,
+   "domains": [
+    "D06"
+   ]
+  },
+  "AUDIO_FSYNC_RT": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D06"
+   ]
+  },
+  "AUDIO_MCLK": {
+   "endpoints": 6,
+   "domains": [
+    "D06",
+    "D10"
+   ]
+  },
+  "AUDIO_MCLK_ISO": {
+   "endpoints": 2,
+   "domains": [
+    "D06"
+   ]
+  },
+  "AUDIO_MCLK_RT": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D06"
+   ]
+  },
+  "BOOT_MODE0": {
+   "endpoints": 3,
+   "domains": [
+    "D03",
+    "D04",
+    "D10"
+   ]
+  },
+  "BOOT_MODE1": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D04"
+   ]
+  },
+  "BUCK_EN": {
+   "endpoints": 2,
+   "domains": [
+    "D02"
+   ]
+  },
+  "BUCK_FB": {
+   "endpoints": 4,
+   "domains": [
+    "D02"
+   ]
+  },
+  "BUCK_PG": {
+   "endpoints": 2,
+   "domains": [
+    "D02"
+   ]
+  },
+  "BUCK_SS": {
+   "endpoints": 2,
+   "domains": [
+    "D02"
+   ]
+  },
+  "BUCK_SW": {
+   "endpoints": 2,
+   "domains": [
+    "D02"
+   ]
+  },
+  "DCDC_PSWITCH": {
+   "endpoints": 3,
+   "domains": [
+    "D03"
+   ]
+  },
+  "DCDC_SW": {
+   "endpoints": 3,
+   "domains": [
+    "D03"
+   ]
+  },
+  "ESP_EN": {
+   "endpoints": 5,
+   "domains": [
+    "D05"
+   ]
+  },
+  "ESP_GPIO0": {
+   "endpoints": 4,
+   "domains": [
+    "D05"
+   ]
+  },
+  "ESP_UART0_RX": {
+   "endpoints": 2,
+   "domains": [
+    "D05"
+   ]
+  },
+  "ESP_UART0_TX": {
+   "endpoints": 3,
+   "domains": [
+    "D05",
+    "D10"
+   ]
+  },
+  "FLEXSPI_D0": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D04"
+   ]
+  },
+  "FLEXSPI_D1": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D04"
+   ]
+  },
+  "FLEXSPI_D2": {
+   "endpoints": 2,
+   "domains": [
+    "D04"
+   ]
+  },
+  "FLEXSPI_D3": {
+   "endpoints": 2,
+   "domains": [
+    "D04"
+   ]
+  },
+  "FLEXSPI_SCLK": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D04"
+   ]
+  },
+  "FLEXSPI_SS0": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D04"
+   ]
+  },
+  "GND": {
+   "endpoints": 249,
+   "domains": [
+    "D01",
+    "D02",
+    "D03",
+    "D04",
+    "D05",
+    "D06",
+    "D07",
+    "D08",
+    "D09",
+    "D10"
+   ]
+  },
+  "I2C_SCL": {
+   "endpoints": 8,
+   "domains": [
+    "D01",
+    "D05",
+    "D06",
+    "D07",
+    "D08"
+   ]
+  },
+  "I2C_SDA": {
+   "endpoints": 9,
+   "domains": [
+    "D01",
+    "D05",
+    "D06",
+    "D07",
+    "D08"
+   ]
+  },
+  "INA_ALERT": {
+   "endpoints": 2,
+   "domains": [
+    "D01"
+   ]
+  },
+  "INA_KELVIN_N": {
+   "endpoints": 4,
+   "domains": [
+    "D01"
+   ]
+  },
+  "INA_KELVIN_P": {
+   "endpoints": 3,
+   "domains": [
+    "D01"
+   ]
+  },
+  "K1BR_CS_RT": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D05"
+   ]
+  },
+  "K1BR_CS_S3": {
+   "endpoints": 3,
+   "domains": [
+    "D05"
+   ]
+  },
+  "K1BR_IRQ_RT": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D05"
+   ]
+  },
+  "K1BR_IRQ_S3": {
+   "endpoints": 2,
+   "domains": [
+    "D05"
+   ]
+  },
+  "K1BR_MISO_RT": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D05"
+   ]
+  },
+  "K1BR_MISO_S3": {
+   "endpoints": 2,
+   "domains": [
+    "D05"
+   ]
+  },
+  "K1BR_MOSI_RT": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D05"
+   ]
+  },
+  "K1BR_MOSI_S3": {
+   "endpoints": 2,
+   "domains": [
+    "D05"
+   ]
+  },
+  "K1BR_SCK_RT": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D05"
+   ]
+  },
+  "K1BR_SCK_S3": {
+   "endpoints": 3,
+   "domains": [
+    "D05"
+   ]
+  },
+  "LED_D0_3V3": {
+   "endpoints": 3,
+   "domains": [
+    "D03",
+    "D09"
+   ]
+  },
+  "LED_D0_5V": {
+   "endpoints": 2,
+   "domains": [
+    "D09"
+   ]
+  },
+  "LED_D0_J": {
+   "endpoints": 2,
+   "domains": [
+    "D09"
+   ]
+  },
+  "LED_D1_3V3": {
+   "endpoints": 3,
+   "domains": [
+    "D03",
+    "D09"
+   ]
+  },
+  "LED_D1_5V": {
+   "endpoints": 2,
+   "domains": [
+    "D09"
+   ]
+  },
+  "LED_D1_J": {
+   "endpoints": 2,
+   "domains": [
+    "D09"
+   ]
+  },
+  "LED_FAULT_L_N": {
+   "endpoints": 1,
+   "domains": [
+    "D02"
+   ]
+  },
+  "LED_FAULT_R_N": {
+   "endpoints": 1,
+   "domains": [
+    "D02"
+   ]
+  },
+  "LED_OE_L": {
+   "endpoints": 2,
+   "domains": [
+    "D09"
+   ]
+  },
+  "LED_OE_R": {
+   "endpoints": 2,
+   "domains": [
+    "D09"
+   ]
+  },
+  "LED_PWR_L_EN": {
+   "endpoints": 2,
+   "domains": [
+    "D02",
+    "D09"
+   ]
+  },
+  "LED_PWR_R_EN": {
+   "endpoints": 2,
+   "domains": [
+    "D02",
+    "D09"
+   ]
+  },
+  "LED_THERM_L": {
+   "endpoints": 3,
+   "domains": [
+    "D03",
+    "D09"
+   ]
+  },
+  "LED_THERM_R": {
+   "endpoints": 3,
+   "domains": [
+    "D03",
+    "D09"
+   ]
+  },
+  "LPUART1_RX": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D04"
+   ]
+  },
+  "LPUART1_RX_H": {
+   "endpoints": 2,
+   "domains": [
+    "D04"
+   ]
+  },
+  "LPUART1_TX": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D04"
+   ]
+  },
+  "LPUART1_TX_H": {
+   "endpoints": 2,
+   "domains": [
+    "D04"
+   ]
+  },
+  "MIC_PWR_EN_N": {
+   "endpoints": 3,
+   "domains": [
+    "D02",
+    "D03"
+   ]
+  },
+  "MOTION_INT1": {
+   "endpoints": 3,
+   "domains": [
+    "D08"
+   ]
+  },
+  "MOTION_INT_RT": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D08"
+   ]
+  },
+  "MOTION_INT_S3": {
+   "endpoints": 1,
+   "domains": [
+    "D08"
+   ]
+  },
+  "NFC_5V": {
+   "endpoints": 7,
+   "domains": [
+    "D02",
+    "D07"
+   ]
+  },
+  "NFC_AGDC": {
+   "endpoints": 2,
+   "domains": [
+    "D07"
+   ]
+  },
+  "NFC_ANT": {
+   "endpoints": 4,
+   "domains": [
+    "D07"
+   ]
+  },
+  "NFC_EMI": {
+   "endpoints": 3,
+   "domains": [
+    "D07"
+   ]
+  },
+  "NFC_I2C_EN": {
+   "endpoints": 2,
+   "domains": [
+    "D07"
+   ]
+  },
+  "NFC_IRQ": {
+   "endpoints": 2,
+   "domains": [
+    "D05",
+    "D07"
+   ]
+  },
+  "NFC_MATCH_IN": {
+   "endpoints": 2,
+   "domains": [
+    "D07"
+   ]
+  },
+  "NFC_RFI1_DIV": {
+   "endpoints": 3,
+   "domains": [
+    "D07"
+   ]
+  },
+  "NFC_RFO1": {
+   "endpoints": 2,
+   "domains": [
+    "D07"
+   ]
+  },
+  "NFC_VDD_A": {
+   "endpoints": 3,
+   "domains": [
+    "D07"
+   ]
+  },
+  "NFC_VDD_AM": {
+   "endpoints": 3,
+   "domains": [
+    "D07"
+   ]
+  },
+  "NFC_VDD_D": {
+   "endpoints": 3,
+   "domains": [
+    "D07"
+   ]
+  },
+  "NFC_VDD_DR": {
+   "endpoints": 3,
+   "domains": [
+    "D07"
+   ]
+  },
+  "NFC_VDD_RF": {
+   "endpoints": 3,
+   "domains": [
+    "D07"
+   ]
+  },
+  "NFC_XTI": {
+   "endpoints": 3,
+   "domains": [
+    "D07"
+   ]
+  },
+  "NFC_XTO": {
+   "endpoints": 3,
+   "domains": [
+    "D07"
+   ]
+  },
+  "NVCC_PLL_1V1": {
+   "endpoints": 3,
+   "domains": [
+    "D03"
+   ]
+  },
+  "OPT_BOOT_REC": {
+   "endpoints": 2,
+   "domains": [
+    "D10"
+   ]
+  },
+  "OPT_BOOT_REC_RT": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D10"
+   ]
+  },
+  "OPT_MCLK": {
+   "endpoints": 2,
+   "domains": [
+    "D10"
+   ]
+  },
+  "OPT_S3_LOG": {
+   "endpoints": 2,
+   "domains": [
+    "D10"
+   ]
+  },
+  "OPT_USB_AUD": {
+   "endpoints": 2,
+   "domains": [
+    "D10"
+   ]
+  },
+  "PDM_CLK": {
+   "endpoints": 4,
+   "domains": [
+    "D06"
+   ]
+  },
+  "PDM_CLK_ADC": {
+   "endpoints": 2,
+   "domains": [
+    "D06"
+   ]
+  },
+  "PDM_CLK_RT": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D06"
+   ]
+  },
+  "PDM_DAT": {
+   "endpoints": 4,
+   "domains": [
+    "D06"
+   ]
+  },
+  "PDM_DAT_ADC": {
+   "endpoints": 2,
+   "domains": [
+    "D06"
+   ]
+  },
+  "PDM_DAT_RT": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D06"
+   ]
+  },
+  "POR_B": {
+   "endpoints": 5,
+   "domains": [
+    "D03",
+    "D04",
+    "D10"
+   ]
+  },
+  "PWR_ENTRY_PG_RT_IOMUX_TBD": {
+   "endpoints": 2,
+   "domains": [
+    "D01"
+   ]
+  },
+  "RT_I2C_SCL": {
+   "endpoints": 1,
+   "domains": [
+    "D08"
+   ]
+  },
+  "RT_I2C_SDA": {
+   "endpoints": 1,
+   "domains": [
+    "D08"
+   ]
+  },
+  "RT_PWR_VALID": {
+   "endpoints": 3,
+   "domains": [
+    "D05",
+    "D10"
+   ]
+  },
+  "RT_RESET_REQ_N": {
+   "endpoints": 2,
+   "domains": [
+    "D04"
+   ]
+  },
+  "RT_USB_AUD_STRAP_IOMUX_TBD": {
+   "endpoints": 1,
+   "domains": [
+    "D10"
+   ]
+  },
+  "RT_USB_VBUS": {
+   "endpoints": 5,
+   "domains": [
+    "D01",
+    "D03"
+   ]
+  },
+  "S3_I2C_SCL": {
+   "endpoints": 1,
+   "domains": [
+    "D08"
+   ]
+  },
+  "S3_I2C_SDA": {
+   "endpoints": 1,
+   "domains": [
+    "D08"
+   ]
+  },
+  "S3_POR_GATE": {
+   "endpoints": 2,
+   "domains": [
+    "D10"
+   ]
+  },
+  "S3_POR_OD": {
+   "endpoints": 2,
+   "domains": [
+    "D10"
+   ]
+  },
+  "S3_POR_REQ": {
+   "endpoints": 2,
+   "domains": [
+    "D05",
+    "D10"
+   ]
+  },
+  "S3_USB_VBUS_VALID": {
+   "endpoints": 2,
+   "domains": [
+    "D01"
+   ]
+  },
+  "SDL_SW": {
+   "endpoints": 2,
+   "domains": [
+    "D10"
+   ]
+  },
+  "SWD_SWCLK": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D04"
+   ]
+  },
+  "SWD_SWCLK_H": {
+   "endpoints": 2,
+   "domains": [
+    "D04"
+   ]
+  },
+  "SWD_SWDIO": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D04"
+   ]
+  },
+  "SWD_SWDIO_H": {
+   "endpoints": 2,
+   "domains": [
+    "D04"
+   ]
+  },
+  "TAP_REF": {
+   "endpoints": 3,
+   "domains": [
+    "D01"
+   ]
+  },
+  "TAP_VBUS": {
+   "endpoints": 3,
+   "domains": [
+    "D01"
+   ]
+  },
+  "TPS2561_ILIM": {
+   "endpoints": 2,
+   "domains": [
+    "D02",
+    "D09"
+   ]
+  },
+  "USB_5V_VALID": {
+   "endpoints": 6,
+   "domains": [
+    "D01",
+    "D05"
+   ]
+  },
+  "USB_CC1": {
+   "endpoints": 3,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_CC1_ADC_TAP": {
+   "endpoints": 2,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_CC2": {
+   "endpoints": 3,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_CC2_ADC_TAP": {
+   "endpoints": 2,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_DM_DN1": {
+   "endpoints": 2,
+   "domains": [
+    "D01",
+    "D03"
+   ]
+  },
+  "USB_DM_DN2": {
+   "endpoints": 2,
+   "domains": [
+    "D01",
+    "D05"
+   ]
+  },
+  "USB_DM_S3": {
+   "endpoints": 2,
+   "domains": [
+    "D05"
+   ]
+  },
+  "USB_DM_UP": {
+   "endpoints": 2,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_DN_J1": {
+   "endpoints": 3,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_DN_PROT": {
+   "endpoints": 2,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_DP_DN1": {
+   "endpoints": 2,
+   "domains": [
+    "D01",
+    "D03"
+   ]
+  },
+  "USB_DP_DN2": {
+   "endpoints": 4,
+   "domains": [
+    "D01",
+    "D05",
+    "D10"
+   ]
+  },
+  "USB_DP_J1": {
+   "endpoints": 3,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_DP_PROT": {
+   "endpoints": 2,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_DP_S3": {
+   "endpoints": 2,
+   "domains": [
+    "D05"
+   ]
+  },
+  "USB_DP_UP": {
+   "endpoints": 3,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_EFUSE_DVDT": {
+   "endpoints": 2,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_EFUSE_EN": {
+   "endpoints": 3,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_EFUSE_ILIM": {
+   "endpoints": 1,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_EFUSE_OVLO": {
+   "endpoints": 3,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_EFUSE_PGTH": {
+   "endpoints": 3,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_EN1": {
+   "endpoints": 2,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_EN2": {
+   "endpoints": 5,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_OCS1_N": {
+   "endpoints": 2,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_OCS2_N": {
+   "endpoints": 2,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_PRTPWR1": {
+   "endpoints": 2,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_RESET_N": {
+   "endpoints": 3,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_VBUS_DET": {
+   "endpoints": 3,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_XTALIN": {
+   "endpoints": 1,
+   "domains": [
+    "D01"
+   ]
+  },
+  "USB_XTALOUT": {
+   "endpoints": 2,
+   "domains": [
+    "D01"
+   ]
+  },
+  "VDD_HIGH_CAP": {
+   "endpoints": 3,
+   "domains": [
+    "D03"
+   ]
+  },
+  "VDD_SNVS_CAP": {
+   "endpoints": 3,
+   "domains": [
+    "D03"
+   ]
+  },
+  "VDD_USB_CAP": {
+   "endpoints": 3,
+   "domains": [
+    "D03"
+   ]
+  },
+  "XTALI": {
+   "endpoints": 4,
+   "domains": [
+    "D03",
+    "D04"
+   ]
+  },
+  "XTALO": {
+   "endpoints": 2,
+   "domains": [
+    "D03",
+    "D04"
+   ]
+  },
+  "XTALO_Y": {
+   "endpoints": 3,
+   "domains": [
+    "D04"
+   ]
+  }
+ }
+}

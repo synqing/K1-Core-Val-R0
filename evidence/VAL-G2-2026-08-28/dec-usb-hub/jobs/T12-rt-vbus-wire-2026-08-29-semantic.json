@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T12-rt-vbus-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "3030863:62da59e4",
+  "post_source_hash": "3037107:7bcb0f9b",
+  "saved": true,
+  "affected": [
+    {"net": "RT_USB_VBUS", "u6": "N6", "flag": "c100a271b70fc31d", "xy": [2230, 4040]},
+    {"net": "RT_USB_VBUS", "cap": "CUSBVBUS-RTC", "id": "ebrc000232", "wire": "d712353198394ad0", "name": "1uF / >=10V"},
+    {"net": "GND", "cap_pin": 2, "wire": "2752226d4cac7640"},
+    {"note": "First N6 stub merged onto N4 FLEXSPI_D1; deleted b9520eddf98cb22f and restored FLEXSPI_D1 as 541fb4ee520309e2. N6 attached by Power flag, not a ball-row wire."}
+  ],
+  "census": {
+    "components": 331,
+    "wires": 802,
+    "components_delta": 1,
+    "wires_delta": -2
+  },
+  "observed": "N6 Power flag RT_USB_VBUS at 2230,4040. Existing CUSBVBUS-RTC 1uF retargeted to RT_USB_VBUS / GND. FLEXSPI_D1 isolated on N4. No new capacitor. Hub 41c8e652."
+}

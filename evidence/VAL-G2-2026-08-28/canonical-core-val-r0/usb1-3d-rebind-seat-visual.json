@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "transaction_id": "usb1-3d-rebind-seat-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "USB1 only: restore explicit Hirose sizeZ and rebind the personal STEP so the 3D view reloads the already-computed offY=-66.733 / offZ=-80.315 seating. Write the same transform onto the personal CX70M device. Do not retouch U6, USB2, caps or TVS.",
+  "observed_delta": "Instance and personal-device transforms persisted. After closing the old 3D preview and waiting for a full-board rebuild, USB1 still floats about 1.5-2 mm; tabs sit behind the four ovals; SMT pins sit behind the rear pads. USB2 in the same frame is seated.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/usb1-3d-after-rebind-settled.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [
+    "Rebuilt 3D preview did not apply the persisted USB1 offY/offZ as a visible seating change"
+  ],
+  "verdict": "REJECTED",
+  "checks": [
+    {"name": "USB1 identity C778726 / CX70M-24P1 unchanged", "result": "OK", "detail": "USB1 remains C778726 / CX70M-24P1."},
+    {"name": "USB2 and U6 transforms unchanged", "result": "OK", "detail": "USB2 and U6 transforms match the pre-write values."},
+    {"name": "shell drops onto the solder mask", "result": "DEFECT", "detail": "Rebuilt 3D still shows a 1.5-2 mm air gap under the Hirose shell."},
+    {"name": "tabs sit in the four oval slots", "result": "DEFECT", "detail": "Tabs remain behind the four oval PTH slots."}
+  ]
+}

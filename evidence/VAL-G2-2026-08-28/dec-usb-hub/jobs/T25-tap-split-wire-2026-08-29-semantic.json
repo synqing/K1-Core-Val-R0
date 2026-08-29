@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T25-tap-split-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2975845:c582c96d",
+  "post_source_hash": "2981994:272660f1",
+  "saved": true,
+  "affected": [
+    {"deleted_wire": "e34ae57efe3e3790", "was": "TAP_VBUS+TAP_REF merged"},
+    {"TAP_VBUS": {"parentId": "54b8d6c7efc61c4c", "net": "TAP_VBUS", "members": ["U23.3 IN+", "R81.2", "R82.1"]}},
+    {"TAP_REF": {"parentId": "766b3b0368bbe7cc", "net": "TAP_REF", "members": ["U23.4 IN-", "R83.2", "R84.1"]}},
+    {"bar_1460_1580_y1010": false}
+  ],
+  "census": {
+    "components": 322,
+    "wires": 787,
+    "sheets": 1,
+    "TAP_VBUS_parents": 1,
+    "TAP_REF_parents": 1,
+    "shared_tap_parents": 0
+  },
+  "observed": "Deleted merged TAP wire e34ae57efe3e3790. TAP_VBUS is 54b8d6c7efc61c4c only, west of U23 to R81/R82. TAP_REF is 766b3b0368bbe7cc only, IN- over the top to R83/R84. No 1460-1580 bar. No shared parentId. U21 R85 GPIO15 J6 untouched. Hub 41c8e652. Live not focused."
+}

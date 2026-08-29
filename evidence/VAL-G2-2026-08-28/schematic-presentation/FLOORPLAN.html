@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8"/>
+<title>K1-CORE-VAL-R0 schematic soft-region floorplan</title>
+<style>
+  body { margin: 24px; font: 16px/1.45 ui-sans-serif, Helvetica, sans-serif; color: #111; background: #f4f1ea; }
+  h1 { font-size: 22px; margin: 0 0 8px; }
+  .meta { max-width: 72rem; }
+  svg { background: #fff; border: 1px solid #222; margin-top: 16px; }
+  .region { fill: #f7f3e8; stroke: #222; stroke-width: 1.2; stroke-dasharray: 6 4; }
+  .title { font: 600 11px ui-sans-serif; fill: #111; }
+  .dim { font: 10px ui-sans-serif; fill: #333; }
+  .seam { stroke: #444; fill: none; opacity: 0.45; }
+  .scale { font: 10px ui-sans-serif; fill: #111; }
+  table { border-collapse: collapse; margin-top: 16px; }
+  td, th { border: 1px solid #333; padding: 4px 8px; font-size: 13px; }
+  @media print { .card { break-inside: avoid; } }
+</style>
+</head>
+<body>
+<main class="card">
+<h1>Schematic soft-region floorplan (proposal)</h1>
+<p class="meta">Scale: 1 SVG pixel = 22.2 schematic units. 1 schematic unit = 0.01 inch = 0.254 mm. Sheet extents 4115 × 2083 mm. Regions are visual organisation aids and must not fragment wiring. GND is excluded from placement weight. Power and high-fanout rails are downweighted. Buses collapse to one interface. Declared reading flow overrides residual weight.</p>
+<p class="meta"><strong>Reading flow:</strong> power_entry → power_reg → audio → rt1062 → led → debug → s3 → nfc → motion → validation</p>
+<svg xmlns="http://www.w3.org/2000/svg" width="729" height="405" viewBox="0 0 729 405" role="img" aria-label="Soft-region schematic floorplan">
+<line x1="94.5" y1="63.0" x2="94.5" y2="189.0" class="seam" stroke-width="4.60"/><line x1="279.0" y1="189.0" x2="292.5" y2="67.5" class="seam" stroke-width="4.55"/><line x1="477.0" y1="63.0" x2="94.5" y2="189.0" class="seam" stroke-width="4.06"/><line x1="477.0" y1="63.0" x2="292.5" y2="67.5" class="seam" stroke-width="4.06"/><line x1="279.0" y1="306.0" x2="292.5" y2="67.5" class="seam" stroke-width="3.56"/><line x1="639.0" y1="180.0" x2="463.5" y2="193.5" class="seam" stroke-width="3.56"/><line x1="292.5" y1="67.5" x2="463.5" y2="193.5" class="seam" stroke-width="3.56"/><line x1="279.0" y1="306.0" x2="463.5" y2="193.5" class="seam" stroke-width="3.07"/><line x1="630.0" y1="274.5" x2="639.0" y2="180.0" class="seam" stroke-width="2.13"/><line x1="630.0" y1="274.5" x2="94.5" y2="63.0" class="seam" stroke-width="2.13"/><line x1="639.0" y1="180.0" x2="94.5" y2="63.0" class="seam" stroke-width="2.13"/><line x1="630.0" y1="274.5" x2="292.5" y2="67.5" class="seam" stroke-width="2.08"/><line x1="630.0" y1="274.5" x2="463.5" y2="193.5" class="seam" stroke-width="2.08"/><line x1="94.5" y1="189.0" x2="292.5" y2="67.5" class="seam" stroke-width="1.79"/><line x1="639.0" y1="180.0" x2="94.5" y2="189.0" class="seam" stroke-width="0.65"/><line x1="94.5" y1="63.0" x2="477.0" y2="306.0" class="seam" stroke-width="0.65"/><line x1="630.0" y1="274.5" x2="94.5" y2="189.0" class="seam" stroke-width="0.65"/><line x1="630.0" y1="274.5" x2="477.0" y2="306.0" class="seam" stroke-width="0.65"/><line x1="639.0" y1="180.0" x2="477.0" y2="306.0" class="seam" stroke-width="0.65"/><line x1="94.5" y1="189.0" x2="477.0" y2="306.0" class="seam" stroke-width="0.65"/>
+<g data-domain="power_entry"><rect x="9.0" y="9.0" width="171.0" height="108.0" class="region"/><text x="14.4" y="25.2" class="title">power_entry · 31 parts</text><text x="14.4" y="36.9" class="dim">3800 × 2400 su · 965 × 610 mm</text></g><g data-domain="power_reg"><rect x="9.0" y="135.0" width="171.0" height="108.0" class="region"/><text x="14.4" y="151.2" class="title">power_reg · 28 parts</text><text x="14.4" y="162.9" class="dim">3800 × 2400 su · 965 × 610 mm</text></g><g data-domain="audio"><rect x="198.0" y="135.0" width="162.0" height="108.0" class="region"/><text x="203.4" y="151.2" class="title">audio · 32 parts</text><text x="203.4" y="162.9" class="dim">3600 × 2400 su · 914 × 610 mm</text></g><g data-domain="rt1062"><rect x="198.0" y="9.0" width="189.0" height="117.0" class="region"/><text x="203.4" y="25.2" class="title">rt1062 · 47 parts</text><text x="203.4" y="36.9" class="dim">4200 × 2600 su · 1067 × 660 mm</text></g><g data-domain="led"><rect x="396.0" y="9.0" width="162.0" height="108.0" class="region"/><text x="401.4" y="25.2" class="title">led · 19 parts</text><text x="401.4" y="36.9" class="dim">3600 × 2400 su · 914 × 610 mm</text></g><g data-domain="debug"><rect x="198.0" y="261.0" width="162.0" height="90.0" class="region"/><text x="203.4" y="277.2" class="title">debug · 16 parts</text><text x="203.4" y="288.9" class="dim">3600 × 2000 su · 914 × 508 mm</text></g><g data-domain="s3"><rect x="369.0" y="135.0" width="189.0" height="117.0" class="region"/><text x="374.4" y="151.2" class="title">s3 · 29 parts</text><text x="374.4" y="162.9" class="dim">4200 × 2600 su · 1067 × 660 mm</text></g><g data-domain="nfc"><rect x="567.0" y="135.0" width="144.0" height="90.0" class="region"/><text x="572.4" y="151.2" class="title">nfc · 27 parts</text><text x="572.4" y="162.9" class="dim">3200 × 2000 su · 813 × 508 mm</text></g><g data-domain="motion"><rect x="567.0" y="234.0" width="126.0" height="81.0" class="region"/><text x="572.4" y="250.2" class="title">motion · 9 parts</text><text x="572.4" y="261.9" class="dim">2800 × 1800 su · 711 × 457 mm</text></g><g data-domain="validation"><rect x="396.0" y="261.0" width="162.0" height="90.0" class="region"/><text x="401.4" y="277.2" class="title">validation · 14 parts</text><text x="401.4" y="288.9" class="dim">3600 × 2000 su · 914 × 508 mm</text></g>
+<g class="scalebar">
+  <line x1="16" y1="387.0" x2="61.0" y2="387.0" stroke="#111" stroke-width="2"/>
+  <text class="scale" x="16" y="399.0">1000 su = 254 mm</text>
+</g>
+</svg>
+<table>
+<caption>Residual signal adjacency after GND exclusion</caption>
+<tr><th>Seam</th><th>Weight</th></tr>
+<tr><td>power_entry|power_reg</td><td>4.05</td></tr><tr><td>audio|rt1062</td><td>4.0</td></tr><tr><td>led|power_reg</td><td>3.5</td></tr><tr><td>led|rt1062</td><td>3.5</td></tr><tr><td>debug|rt1062</td><td>3.0</td></tr><tr><td>nfc|s3</td><td>3.0</td></tr><tr><td>rt1062|s3</td><td>3.0</td></tr><tr><td>debug|s3</td><td>2.5</td></tr><tr><td>motion|nfc</td><td>1.55</td></tr><tr><td>motion|power_entry</td><td>1.55</td></tr><tr><td>nfc|power_entry</td><td>1.55</td></tr><tr><td>motion|rt1062</td><td>1.5</td></tr><tr><td>motion|s3</td><td>1.5</td></tr><tr><td>power_reg|rt1062</td><td>1.2</td></tr><tr><td>nfc|power_reg</td><td>0.05</td></tr><tr><td>power_entry|validation</td><td>0.05</td></tr><tr><td>motion|power_reg</td><td>0.05</td></tr><tr><td>motion|validation</td><td>0.05</td></tr><tr><td>nfc|validation</td><td>0.05</td></tr><tr><td>power_reg|validation</td><td>0.05</td></tr>
+</table>
+<p class="meta">Coordinates remain proposals until this board is accepted. This is not PCB geometry and not JLC-LAYOUT-READY.</p>
+</main>
+</body>
+</html>

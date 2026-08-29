@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07c-u21-caps-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Designate TPS2052B as U21-USB and the three 100 nF caps as C108-USB, C109-USB and C110-USB. No wires.",
+  "observed_delta": "80 percent view of the east island shows U21-USB on the TPS2052B and C108-USB through C110-USB on the three capacitors. No new wires.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T07c-designate.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "U21-USB on TPS2052B",
+      "result": "OK",
+      "detail": "API and canvas show U21-USB / TPS2052BDR on primitive fb7c84f0a582bd9c."
+    },
+    {
+      "name": "C108-USB readable",
+      "result": "OK",
+      "detail": "C108-USB 100nF on daf3578c8ea5a570."
+    },
+    {
+      "name": "C109-USB and C110-USB readable",
+      "result": "OK",
+      "detail": "C109-USB and C110-USB 100nF on 22002ec9 and 16675eb0."
+    },
+    {
+      "name": "no new wires hub 41c8e652",
+      "result": "OK",
+      "detail": "Wires stay 787. Project 41c8e652."
+    }
+  ]
+}

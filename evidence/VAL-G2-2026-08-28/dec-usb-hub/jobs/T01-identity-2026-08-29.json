@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T01-identity-2026-08-29",
+  "stage": "read-only",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "friendly": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+  "live_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "live_focused": false,
+  "source_hash": "2368741:7fdb183c",
+  "note": "Hash at T00d2 close. T03 later began on a different restamp. Do not treat this file as the T03 pre-image.",
+  "census": {
+    "components": 257,
+    "wires": 773
+  },
+  "sentinels": {
+    "j1_pwr1": {
+      "id": "ea47c20de228fa3a",
+      "designator": "J1-PWR1",
+      "name": "GT-USB-7005A",
+      "supplierId": "C5250872",
+      "x": -485,
+      "y": 3160,
+      "addIntoPcb": false,
+      "pins": 28
+    },
+    "j1_usb4105_retired": {
+      "id": "e339",
+      "designator": "J1-USB4105-RETIRED",
+      "manufacturerId": "USB4105-GF-A",
+      "x": 185,
+      "y": 4095
+    },
+    "u20_already_placed": {
+      "id": "92edd0bd8901c171",
+      "designator": "U?",
+      "manufacturerId": "USB2422T-I/MJ",
+      "supplierId": "C622610",
+      "x": 400,
+      "y": 800,
+      "note": "T02 place already on the sheet from a premature write. Do not place a second USB2422. T04 will designate U20-USB."
+    }
+  },
+  "pcb": {
+    "uuid": "59bef7e87cff4cd580561703b62d8c19",
+    "note": "T00/T00d writes used addIntoPcb false. PCB not opened this transaction."
+  },
+  "gate": {
+    "state": "READY",
+    "last_closed_transaction_id": "T00d2-j1-pwr1-designate-2026-08-29"
+  }
+}

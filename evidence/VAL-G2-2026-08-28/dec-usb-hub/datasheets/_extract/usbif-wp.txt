@@ -1,0 +1,697 @@
+                USB Upstream Facing Port Powered Hub
+
+
+
+
+              Universal Serial Bus
+Upstream Facing Port Powered Hub
+          White Paper Document
+
+                              Revision 0.9
+
+
+                           May 22, 2023
+
+
+
+
+                                                  1
+                                                             USB Upstream Facing Port Powered Hub
+
+
+
+
+                      Copyright © 2021, USB Implementers Forum, Inc.
+
+                                      All rights reserved.
+
+Legal Disclaimers:
+
+A LICENSE IS HEREBY GRANTED TO REPRODUCE THIS DOCUMENT FOR INTERNAL USE ONLY.
+NO OTHER LICENSE, EXPRESS OR IMPLIED, BY ESTOPPEL OR OTHERWISE, IS GRANTED OR
+INTENDED HEREBY.
+
+
+USB-IF AND THE AUTHORS OF THIS DOCUMENT EXPRESSLY DISCLAIM ALL LIABILITY FOR
+INFRINGEMENT OF INTELLECTUAL PROPERTY RIGHTS, RELATING TO IMPLEMENTATION OF
+INFORMATION IN THIS DOCUMENT. USB-IF AND THE AUTHORS OF THIS DOCUMENT ALSO DO
+NOT WARRANT OR REPRESENT THAT SUCH IMPLEMENTATION(S) WILL NOT INFRINGE THE
+INTELLECTUAL PROPERTY RIGHTS OF OTHERS.
+
+
+THIS DOCUMENT IS PROVIDED "AS IS” AND WITH NO WARRANTIES, EXPRESS OR IMPLIED,
+STATUTORY OR OTHERWISE. ALL WARRANTIES ARE EXPRESSLY DISCLAIMED. NO WARRANTY
+OF MERCHANTABILITY, NO WARRANTY OF NON-INFRINGEMENT, NO WARRANTY OF FITNESS
+FOR ANY PARTICULAR PURPOSE, AND NO WARRANTY ARISING OUT OF ANY PROPOSAL,
+SPECIFICATION, OR SAMPLE. THE PROVISION OF THIS DOCUMENT TO YOU DOES NOT
+PROVIDE YOU WITH ANY LICENSE, EXPRESS OR IMPLIED, BY ESTOPPEL OR OTHERWISE, TO
+ANY INTELLECTUAL PROPERTY RIGHTS.
+
+
+
+USB Type-C™ and USB-C™ are trademarks of the Universal Serial Bus Implementers Forum
+(USB-IF). All product names are trademarks, registered trademarks, or service marks of their
+respective owners
+
+
+
+
+                                                                                               2
+                                                      USB Upstream Facing Port Powered Hub
+
+
+Revision History
+ Revision      Issue Date   Comments
+
+ 0.5           11/09/2020   First Draft
+
+ 0.6           02/26/2021   Second Revision – Updated after internal USB-IF review
+
+ 0.7           06/28/2021   Third Revision – Updated after industry feedback
+
+ 0.8           08/20/2021   First Release
+
+ 0.9           03/22/2023   Second Release – Upstream Port Partner Testing Conditions
+                            section updated. USB Type‐C Host operating as a 7.5W source
+                            test condition removed due to market considerations.
+
+Contributors
+Dmitriy Berchanskiy
+Sydney Fernandez
+Jamie Grimm
+Amanda Hosler
+Abdul Ismail
+Diane Lenox
+Kyle O’Connell
+Stephanie Wallick
+
+
+
+
+                                                                                          3
+                                                                                         USB Upstream Facing Port Powered Hub
+
+
+
+
+Contents
+1. Introduction ................................................................................................................................ 5
+   1.1 Background............................................................................................................................ 5
+   1.2 Objective................................................................................................................................ 5
+   1.3 Scope of the Document ......................................................................................................... 5
+   1.4 UFP Powered Definitions....................................................................................................... 6
+   1.5 Related Documents ............................................................................................................... 6
+   1.6 Terms and Abbreviations ...................................................................................................... 7
+2. Configuration, Functional and Power Guidelines ....................................................................... 9
+   2.1 Configuration and Capability Descriptors ............................................................................. 9
+   2.2 UFP Powered Hub Configuration ........................................................................................ 10
+   2.3 Hub Upstream Facing Port .................................................................................................. 10
+   2.4 Hub Downstream Facing Ports ............................................................................................ 10
+      2.4.1 USB Type-C DFPs........................................................................................................... 10
+      2.4.2 USB Type-A DFPs .......................................................................................................... 11
+   2.5 Power Sinking Device (PSD) Port ......................................................................................... 11
+   2.6 Compound Device ............................................................................................................... 11
+   2.7 USB Billboard Device ........................................................................................................... 11
+3. Testing Procedures.................................................................................................................... 11
+   3.1 General Testing Requirements ............................................................................................ 11
+      3.1.1 Externally and UFP Powered Hubs ............................................................................... 11
+      3.1.2 UFP Powered Hubs (No External Power Capability)..................................................... 11
+   3.2 Hub Depth Tests .................................................................................................................. 12
+   3.3 Upstream Port Partner Testing Conditions ......................................................................... 12
+4. Example Implementations ........................................................................................................ 12
+5. Summary of Guidelines ............................................................................................................. 15
+   5.1 UFP Powered Hub Checklist ................................................................................................ 15
+
+
+
+
+                                                                                                                                                4
+                                                                   USB Upstream Facing Port Powered Hub
+
+
+1. Introduction
+1.1 Background
+The USB 2.0 compliance program allowed the certification of bus powered hubs. The USB 3.2
+compliance program has not allowed certification of bus powered hubs because of power
+limitations.
+
+1.2 Objective
+This document establishes definitions and guidelines that allow expansion of the Bus Powered
+Hub certification program to include USB 2.0 and USB 3.2 hubs that receive at least 3A of USB
+Type-C Current on the Upstream Facing Port.
+
+1.3 Scope of the Document
+This document is for the developers of hubs that can be powered from sinking V BUS on its
+upstream facing port and/or from some other source. The original definitions of bus-powered
+and self-powered mapped those power characteristics directly to specific bus/self-powered
+fields in the Configuration and Capability Descriptors defined in the USB 2.0 and USB 3.2
+specifications [USB 2.0, USB 3.2]. This description is no longer sufficient for defining compliance
+testing for hubs using USB Type-C and USB Power Delivery.
+
+This document should be used in combination with other compliance documents applicable to
+the Devices USB product type. To determine which other compliance documents are applicable
+please use the test matrixes linked in Section 1.5 Related Documents.
+
+            Table 1-1 Summary of power type combinations addressed in this document
+
+                                                              UFP Power
+                                                                               USB
+                                            Legacy Bus         USB
+                               None                                           Power           BC 1.2
+                                              Power       Type-C Current
+                                                                             Delivery
+                                              USB 2.0
+                               Invalid        Testing
+                 None                                     This Document    This Document   This Document
+                            Configuration   USB 3.2 Not
+                                             Allowed
+
+                              USB 2.0/       USB 2.0/
+ External      USB PSD
+                              USB 3.2        USB 3.2      This Document    This Document   This Document
+  Power         Port
+                              Testing        Testing
+
+                 Other        USB 2.0/       USB 2.0/
+                (Barrel       USB 3.2        USB 3.2      This Document    This Document   This Document
+               Jack, etc)     Testing        Testing
+
+
+
+
+                                                                                                           5
+                                                             USB Upstream Facing Port Powered Hub
+
+
+1.4 UFP Powered Definitions
+The term ‘UFP Powered’ is used to describe any peripheral that is capable of sinking power
+from V BUS on its upstream port. A bus-powered peripheral is a specific subset of a UFP
+Powered peripheral.
+
+A peripheral is considered a ‘UFP Powered Device’ if it has the capability of sinking UFP Power.
+Similarly, a peripheral is considered an ‘Externally Powered Device’ if it has the capability of
+sinking power from any source other than the UFP. A peripheral can be both a UFP Powered
+Device and an Externally Powered Device.
+
+1.5 Related Documents
+[USB 2.0] – Universal Serial Bus Base Specification, Revision 2.0, 27 April 2000.
+https://www.usb.org/document-library/usb-20-specification
+
+[USB 3.2] – Universal Serial Bus Base Specification, Revision 3.2, 22 September 2017.
+https://www.usb.org/document-library/usb-32-specification-released-september-22-2017-and-
+ecns
+
+[USB Type-C] – Universal Serial Bus Type-C Cable and Connector Specification, Revision 2.0,
+August 2019.
+https://www.usb.org/document-library/usb-type-cr-cable-and-connector-specification-
+revision-20
+
+[USB PD] – Universal Serial Bus Power Delivery Specification, Revision 3.0, Version 2.0, 07
+February 2020.
+https://www.usb.org/document-library/usb-power-delivery
+
+[USB BC 1.2] – Universal Serial Bus Battery Charging Specification, Revision 1.2, 15 March 2012.
+https://www.usb.org/document-library/battery-charging-v12-spec-and-adopters-agreement
+
+[USB 2.0 Matrix] – Universal Serial Bus 2.0 Product Matrix, 1 March 2019.
+https://usb.org/document-library/usb-20-test-matrix
+
+[USB 3.2 Matrix] – Universal Serial Bus 3.2 Product Matrix, 19 November 2018.
+https://usb.org/document-library/usb-32-product-test-matrix
+
+[USB Type-C Matrix] – Universal Serial Bus Type-C Product Matrix, Revision 0.95, 1 March 2019.
+https://usb.org/document-library/usb-type-c-product-test-matrix-0
+[USB BB] – Universal Serial Bus Device Class Definition for Billboard Devices, Revision 1.21, 8
+September 2016.
+
+
+
+
+                                                                                                   6
+                                                            USB Upstream Facing Port Powered Hub
+
+
+https://www.usb.org/document-library/billboard-device-class-spec-revision-121-and-adopters-
+agreement
+
+[USB Interop] – Universal Serial Bus xHCI Interoperability Test Procedures For Peripherals, Hubs
+and Hosts, Revision 1.0, July 2020.
+https://usb.org/document-library/xhci-interoperability-test-procedures-peripherals-hubs-and-
+hosts-version
+
+[USB Legacy CabCon] – Universal Serial Bus USB 3.1 Legacy Cable and Connector Revision 1.0,
+Revision 0.97, September 2020.
+https://usb.org/document-library/usb-31-legacy-cable-and-connector-revision-10
+
+1.6 Terms and Abbreviations
+Term                Definition
+                    A multi-port device where the sum of the maximum capabilities of all of
+Assured Capacity    the exposed ports, as indicated to the user, is equal to the total power
+                    delivery capacity of the charger. [USB Type-C]
+                    Either a standalone USB device that adheres to this class specification or a
+Billboard Device    Device Container that exposes other USB functionality but includes the
+                    Billboard Descriptors as part of its complete BOS descriptor. [USB BB]
+                    A physical package implementing multiple functions and an embedded
+Compound
+                    hub with a single USB cable, appears to the host as a hub with one or
+Device
+                    more non-removable USB devices. [USB 2.0]
+                    Indicates the Port’s position in the USB topology which typically
+Downstream          corresponds to a USB Host Root Port or Hub Downstream Port, at
+Facing Port (DFP)   connection the Port defaults to operation as a USB Host (when USB
+                    Communication is supported) and Source. [USB Type-C]
+                    A USB port that can operate as either a DFP (Host) or UFP (Device). The
+Dual-Role-Data      role that the port initially takes is determined by the port’s power role at
+(DRD)               attach. A Source port takes on the data role of a DFP and a Sink port
+                    takes on the data role of a UFP. [USB Type-C]
+                    A USB port that can operate as either a Source or a Sink. The role that the
+                    port offers may be fixed to either a Source or Sink or may alternate
+Dual-Role-Power
+                    between the two port states. Initially when operating as a Source,
+(DRP)
+                    the port will also take on the data role of a DFP and when operating
+                    as a Sink, the port will also take on the data role of a UFP. [USB Type-C]
+                    Power drawn from an external source via a non-UFP Port (e.g. USB Type-C
+External Power
+                    PSD, barrel jack, etc.).
+
+
+                                                                                                   7
+                                                          USB Upstream Facing Port Powered Hub
+
+
+Legacy Connector USB Type-A and USB Type-B Connectors [USB Legacy CabCon].
+Port Partner       Refers to the port (device or host) a port is attached to. [USB Type-C]
+Power Sinking      Sink which draws power but has no other USB or Alternate Mode
+Device (PSD)       communication function.
+                   A multi-port device where the sum of the maximum capabilities of all of
+Shared Capacity    the exposed ports, as indicated to the user, is less than the total power
+                   delivery capacity of the charger [USB Type-C].
+                   A special sub-class of a DRP that is capable of consuming power but is not
+Sinking Host
+                   capable of acting as a USB device [USB Type-C].
+                   Indicates the Port’s position in the USB topology typically a Port on a
+Upstream Facing
+                   device, at connection the port defaults to operation as a USB Device
+Port (UFP)
+                   (when USB Communication is supported) and Sink [USB Type-C].
+                 Power drawn from the UFP which may be one or more of the following:
+Upstream Facing
+                 USB 2.0 or 3.2 Power, USB Type-C Current, USB PD Contract or USB BC
+Port (UFP) Power
+                 1.2.
+USB 2.0 Unit Load A USB 2.0 Unit Load is defined to be 100 mA [USB 2.0].
+USB 3.2 Unit Load A USB 3.2 Unit Load is defined to be 150 mA [USB3.2].
+USB 2.0 Low
+                   A port supplying 1 USB 2.0 Unit Load – 100 mA. [USB 2.0]
+Power Port
+USB 3.2 Low
+                   A port supplying 1 USB 3.2 Unit Load – 150 mA. [USB 3.2]
+Power Port
+USB 2.0 High
+                   A port supplying at least 5 USB 2.0 Unit Loads – 500 mA. [USB 2.0]
+Power Port
+USB 3.2 Single-
+                   A port supplying at least 6 USB 3.2 Unit Loads – 900 mA. [USB 3.2]
+Lane Port
+USB Type-C 1.5A
+                   A port supplying at least 1.5A of USB Type-C Current. [USB Type-C]
+Port
+USB Type-C 3.0A
+                   A port supplying at least 3A of USB Type-C Current. [USB Type-C]
+Port
+USB Type-A         A general reference to all versions of USB “A” plugs and receptacles.
+USB Type-B         A general reference to all versions of USB “B” plugs and receptacles.
+USB Type-C         A general reference to all versions of USB “C” plugs and receptacles.
+
+
+
+
+                                                                                                8
+                                                                  USB Upstream Facing Port Powered Hub
+
+
+2. Configuration, Functional and Power Guidelines
+2.1 Configuration and Capability Descriptors
+A UFP Powered Port will set its Configuration and Capability descriptors based on the below
+table [USB 2.0, USB3.2, USB Type-C, USB PD].
+
+                  Table 2-1 clarifies which hubs are described as UFP Powered
+
+
+                                                                   USB PD
+              Configuration                     USB PD                              USB PD Consumer
+                              Configuration                       Consumer
+               Descriptor                      Capability                            Port Capability
+ UFP Power                      Descriptor                      Port Capability
+              bmAttributes                     Descriptor                              Descriptor
+                               bMaxPower                          Descriptor
+                   D6                         bmAttributes                        dwMaxOperatingPower
+                                                                bmCapabilites
+
+
+
+
+   Legacy                        USB 2.0        descriptor        descriptor            descriptor
+                 0 or 1
+ Connectors                   0 < x ≤ 500mA    not present       not present           not present
+
+
+
+                                 USB 2.0
+                                                                                   500 mA – max 2.5 W
+                              0 < x ≤ 500mA
+ USB Type-C                                   bit 6 set to 0
+                 0 or 1                                          bit 2 set to 0
+  Default                                     bit 14 set to 1
+                                 USB 3.2
+                                                                                   900 mA – max 4.5 W
+                              0 < x ≤ 900mA
+
+
+
+                                                                                    1.5 A – max 7.5 W
+ USB Type-C
+                                              bit 6 set to 1
+  (1.5A or         1               0                             bit 2 set to 1
+                                              bit 14 set to 1
+   3.0A)
+                                                                                    3.0 A – max 15 W
+
+
+                                              bit 2 set to 1
+    USB
+                   1               0           bit 4 set to 1    bit 1 set to 1        max 100 W
+    PD
+                                              bit 14 set to 1
+
+
+                                              bit 1 set to 1
+   BC 1.2          1               0                             bit 0 set to 1        max 7.5 W
+                                              bit 14 set to 1
+
+
+
+These descriptors are based on current guidance; however, they are in the process of being
+updated by USB working groups and will likely be changed in the coming months.
+
+
+                                                                                                        9
+                                                         USB Upstream Facing Port Powered Hub
+
+
+2.2 UFP Powered Hub Configuration
+The following describes the configuration guidelines of a UFP Powered Hub.
+   - A UFP Powered Hub may only sink power from one USB Type-C data capable port at a
+        time (i.e. a UFP Powered Hub may sink power from the UFP or one of its DFPs).
+   - If operating from UFP Power, a DFP may disable its Battery Charging 1.2 capability.
+   - Power drawn by the product (including indicator lights) should be reported in the PD
+        descriptors.
+   - A UFP Powered Hub’s power draw may not exceed the power contract negotiated with
+        the source regardless of what occurs on the DFPs.
+
+2.3 Hub Upstream Facing Port
+The following is defined for UFP Powered Hubs Upstream Facing Ports:
+   - A UFP Powered Hub should have one UFP that is properly labeled, and its role is clearly
+        communicated to the end user [USB Type-C].
+   - The UFP of a USB 3.2 UFP Powered Hub must be a USB Type-C port.
+
+This document assumes that the UFP on a UFP Powered Hub is acting as a power sink.
+
+2.4 Hub Downstream Facing Ports
+The following is defined for UFP Powered Hubs Downstream Facing Ports:
+   - A UFP Powered Hub must provide multiple exposed DFPs.
+   - The USB Type-A and USB Type-C DFPs will be implemented as independent groups, any
+        load change on a USB Type-A port should not result in a voltage change on any of the
+        USB Type-C ports and vice-versa [USB Type-C].
+   - It is encouraged that each DFP have its own power limiting and overcurrent protection.
+
+Additional non-USB ports and other functionality will add additional power requirements.
+
+2.4.1 USB Type-C DFPs
+The following is defined for any USB Type-C DFPs:
+   - USB Type-C DFPs should support at least USB 3.2 Single-Lane Power as a source [USB
+        Type-C].
+   - All USB Type-C DFPs should support the same functionality or shall be clearly marked as
+        to the functionality supported [USB Type-C].
+   - A UFP Powered Hub’s USB Type-C DFPs may not have Dual-Role-Data (DRD) capabilities.
+   - A UFP Powered Hub’s USB Type-C DFPs may have Dual-Role-Power (DRP) capabilities.
+                Note – This includes Sinking Host ports. [USB Type-C]
+   - A UFP Powered Hub with multiple USB Type-C DFPs will act as an Assured Capacity USB
+        Type-C Multi-Port Charger [USB Type-C].
+                Note – This will be reviewed and updated upon the availability of the “USB-IF
+                USB Type-C Shared Capacity charging program”.
+
+
+                                                                                           10
+                                                           USB Upstream Facing Port Powered Hub
+
+
+2.4.2 USB Type-A DFPs
+The following is defined for any USB Type-A DFPs:
+   - USB Type-A DFPs should support at least USB 2.0 High Power as a source [USB 2.0].
+   - USB Type-A DFPs that are USB 3.2 capable may disable USB 3.2 SuperSpeed functionality
+        and drop down to USB 2.0 speeds and power when there is insufficient power received
+        by the UFP. [USB 3.2, USB 2.0].
+
+2.5 Power Sinking Device (PSD) Port
+This document currently does not cover the use case of a Power Sinking Device port on a UFP
+Powered Hub. Until guidelines are solidified, Power Sinking Device ports are not encouraged.
+
+2.6 Compound Device
+A UFP Powered Hub may be implemented as a Compound Device, in which case it should meet
+all testing conditions for a UFP Powered Hub, except that a Compound Device’s DFPs are not
+required to be exposed and may be internal to the device.
+
+2.7 USB Billboard Device
+A UFP Powered Hub should present a Billboard Device in any situation in which the source does
+not provide enough power for the hub to provide full functionality [USB BB]. If insufficient
+power to present a Billboard Device is provided to the hub (less than 4.5W), the hub should not
+enumerate.
+
+3. Testing Procedures
+3.1 General Testing Requirements
+A UFP Powered Hub will be tested against all applicable tests in the “USB 3.2 Product Test
+Matrix” [USB 3.2 Matrix] and the “USB Type-C Product Matrix” [USB Type-C Matrix].
+
+If the product is to be shipped with a USB charger/cable, the charger/cable must be certified.
+
+3.1.1 Externally and UFP Powered Hubs
+A hub capable of sinking power from both the UFP and External Power will be tested with its
+External Power connected and disconnected as defined in the “USB Interoperability Test
+Procedures” specification [USB Interop].
+
+3.1.2 UFP Powered Hubs (No External Power Capability)
+A UFP Powered Hub with no external power capabilities should provide some hub functionality
+if drawing more than or equal to 15W from its UFP. Hub functionality is defined as the ability to
+provide power and data capabilities to two or more DFPs (USB or Non-USB).
+
+
+
+                                                                                                 11
+                                                          USB Upstream Facing Port Powered Hub
+
+
+Note – Presenting a USB Billboard Device is not defined as providing some hub functionality in
+this context.
+
+3.2 Hub Depth Tests
+The following provides a brief description of the depth testing conditions for a UFP Powered
+Hub. A full description of test steps will be provided in the Bus-Powered Hub Interoperability
+Test Steps in the “USB Interoperability Test Procedures” specification [USB Interop]:
+   - Test fully populated DFPs at 1 hub depth. All DFPs will be populated with peripherals of
+        different transfer types.
+   - Follow standard interoperability hub testing procedure, using Externally Powered Hubs
+        for hubs not under test.
+   - UFP Powered Hubs that do not support External Power do not need to be tested against
+        the Self-Powered Hub Interoperability Test Steps described in the “USB Interoperability
+        Test Procedures” specification [USB Interop].
+
+3.3 Upstream Port Partner Testing Conditions
+UFP Powered Hubs will be tested using the following sources connected to the hubs UFP:
+   - USB Type-C Host operating as a 15W source.
+         - Expected to provide some hub functionality if no external power capabilities.
+         - Expected to provide USB Billboard Device if full functionality not provided.
+   - USB Type-C Host operating as a 4.5W source.
+         - Expected to provide USB Billboard Device if full functionality not provided.
+   - USB Type-C Host that can source the required power for the hub to operate at full
+      functionality (Only tested if the UFP Powered Hub does not provide full functionality
+      when connected to a USB Type-C Host operating as a 15W source).
+
+4. Example Implementations
+The following tables provide several examples for potential UFP Powered Hubs, they are for
+reference only and are only four of many possible UFP Powered Hub implementations eligible
+for certification. They are meant to provide a base for what the power consumption and
+management may look like in USB 3.2 UFP Powered Hubs.
+
+These hub examples include some ‘non-USB ports’, the port current and power associated with
+these ports are for reference only. Non-USB ports may have Interoperability requirements
+defined in the “USB Interoperability Test Procedures” specification [USB Interop].
+
+The examples below factor in the minimum source voltage of 4.75V and maximum USB Type-C
+cable drop of 750mV. Therefore, as shown below a UFP Powered Hub should be designed to
+operate while only receiving 12W of power on its UFP.
+
+
+
+
+                                                                                              12
+                                                                              USB Upstream Facing Port Powered Hub
+
+
+Table 4-1 Example UFP Powered Hub – 1 USB Type-C Source, 1 USB Type-A Source, 1 Non-USB
+
+                                                                                                              Power
+ Source    Max Cable         UFP Power                             Port Current               Port Power
+                                                  DFPs                                                      Available for
+ Power     Power Loss         Received                             (As Source)                (As Source)
+                                                                                                            Hub Circuitry
+
+                                                 USB
+                                                                      1.5 A
+                                                Type-C                                          7.5 W
+                                                               (USB Type-C Power)
+                                               (Source)
+
+
+
+                                                 USB
+                                                                    500 mA
+ 14.25 W      2.25 W             12 W           Type-A                                          2.5 W          1.75 W
+                                                              (USB 2.0 High Power)
+                                               (Source)
+
+
+
+                                                 Non-
+                                                                       50 mA                    0.25 W
+                                                 USB
+
+
+      1.   Assumed 14.25W (4.75V/3A) of UFP Power as only power source (no External Power).
+      2.   1.75W of power available to the hub circuitry.
+
+
+      Table 4-2 Example UFP Powered Hub – 1 USB Type-C DRP, 2 USB Type-A Sources
+
+                                                                                                              Power
+ Source    Max Cable         UFP Power                             Port Current               Port Power
+                                                 DFPs                                                       Available for
+ Power     Power Loss         Received                             (As Source)                (As Source)
+                                                                                                            Hub Circuitry
+
+                                                  USB               900 mA
+                                                Type-C        (USB Type-C Default;              4.5 W
+                                                 (DRP)        USB 3.2 Single-Lane)
+
+
+
+                                                 USB
+                                                                   500 mA
+14.25 W       2.25 W             12 W           Type-A                                          2.5 W          2.5 W
+                                                             (USB 2.0 High Power)
+                                               (Source)
+
+
+
+                                                 USB
+                                                                   500 mA
+                                                Type-A                                          2.5 W
+                                                             (USB 2.0 High Power)
+                                               (Source)
+
+      1.   Assumed 14.25W (4.75V/3A) of UFP Power as only power source (no External Power).
+      2.   2.5W of power available to the hub circuitry.
+
+
+
+
+                                                                                                                        13
+                                                                             USB Upstream Facing Port Powered Hub
+
+
+Table 4-3 Example UFP Powered Hub – 1 USB Type-C Source, 1 USB Type-A Source, Non-USB
+
+                                                                                                             Power
+Source    Max Cable         UFP Power                             Port Current               Port Power
+                                                DFPs                                                       Available for
+Power     Power Loss         Received                             (As Source)                (As Source)
+                                                                                                           Hub Circuitry
+
+                                                USB                900 mA
+                                               Type-C        (USB Type-C Default;              4.5 W
+                                              (Source)       USB 3.2 Single-Lane)
+
+
+
+                                                USB
+                                                                  500 mA
+14.25 W      2.25 W             12 W           Type-A                                          2.5 W         4.75 W
+                                                            (USB 2.0 High Power)
+                                              (Source)
+
+
+
+                                                Non-
+                                                                      50 mA                    0.25 W
+                                                USB
+
+     1.   Assumed 14.25W (4.75V/3A) of UFP Power as only power source (no External Power).
+     2.   4.75W of power available to the hub circuitry.
+
+
+                    Table 4-4 Example UFP Powered Hub – 2 USB Type-C DRPs
+
+                                                                                                             Power
+Source    Max Cable         UFP Power                              Port Current              Port Power
+                                                 DFPs                                                      Available for
+Power     Power Loss         Received                              (As Source)               (As Source)
+                                                                                                           Hub Circuitry
+
+
+
+                                                 USB               900 mA
+                                               Type-C        (USB Type-C Default;               4.5 W
+                                                (DRP)        USB 3.2 Single-Lane)
+
+
+14.25 W      2.25 W             12 W                                                                           3W
+
+
+                                                 USB               900 mA
+                                               Type-C        (USB Type-C Default;              4.5 W
+                                                (DRP)        USB 3.2 Single-Lane)
+
+
+     1.   Assumed 14.25W (4.75V/3A) of UFP Power as only power source (no External Power).
+     2.   3W of power available to the hub circuitry.
+
+
+
+
+                                                                                                                      14
+                                                           USB Upstream Facing Port Powered Hub
+
+
+5. Summary of Guidelines
+The following section summarizes the conditions that will be considered in the USB-IF certifying
+a UFP Powered Hub in addition to the testing the product undergoes.
+
+5.1 UFP Powered Hub Checklist
+   1. Set Configuration Descriptors correctly based on the UFP Power provided?
+   2. Set Capability Descriptors set correctly based on the UFP Power provided?
+   3. Does the UFP Powered Hub expose 1 clearly identifiable USB Type-C UFP?
+   4. Does the UFP Powered Hub expose 2 USB DFPs (may be internal for Compound Device)?
+   5. Are the USB Type-C and USB Type-A DFPs implemented as independent groups?
+   6. Do all exposed USB Type-A DFPs provide a minimum of USB 2.0 High Power?
+   7. Do all exposed USB Type-C DFPs provide a minimum of USB 3.2 Single-Lane Power?
+   8. Do all USB Type-C DFPs act as Assured Capacity Chargers with the same capabilities?
+   9. Does the UFP Powered Hub provide some hub functionality at 15W of UFP Power?
+   10. If UFP Powered Hub cannot provide full functionality at the received UFP Power does it
+       present a billboard device indicating insufficient power?
+
+
+
+
+                                                                                              15
+

@@ -1,0 +1,4 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "search_library_devices", "tag": "ics", "args": {"lcscIds": ["C2876265", "C2869832", "C7666", "C2758488", "C15850", "C45783", "C25758", "C25117"], "libraryUuid": "0819f05c4eef4c71ace90d822a990e87", "allowMultiMatch": true}}
+]

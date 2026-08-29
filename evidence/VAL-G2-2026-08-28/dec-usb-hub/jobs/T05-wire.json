@@ -1,0 +1,61 @@
+[
+  {
+    "tool": "get_current_context",
+    "tag": "pre-ctx",
+    "args": {}
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "u20-power",
+    "args": {
+      "componentPrimitiveId": "92edd0bd8901c171",
+      "connections": [
+        {"pinNumber": "1", "net": "3V3"},
+        {"pinNumber": "9", "net": "3V3"},
+        {"pinNumber": "18", "net": "3V3"},
+        {"pinNumber": "25", "net": "GND"}
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "c104",
+    "args": {
+      "componentPrimitiveId": "930c9f07728120be",
+      "connections": [
+        {"pinNumber": "1", "net": "3V3"},
+        {"pinNumber": "2", "net": "GND"}
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "c105",
+    "args": {
+      "componentPrimitiveId": "3fddf470f1772050",
+      "connections": [
+        {"pinNumber": "1", "net": "3V3"},
+        {"pinNumber": "2", "net": "GND"}
+      ],
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "c106",
+    "args": {
+      "componentPrimitiveId": "d4fba08559bea7f9",
+      "connections": [
+        {"pinNumber": "1", "net": "3V3"},
+        {"pinNumber": "2", "net": "GND"}
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

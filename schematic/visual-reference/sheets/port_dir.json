@@ -1,0 +1,194 @@
+{
+ "AUDIO_BCLK_RT": [
+  "D03",
+  "out"
+ ],
+ "AUDIO_DOUT": [
+  "D06",
+  "out"
+ ],
+ "AUDIO_FSYNC_RT": [
+  "D03",
+  "out"
+ ],
+ "AUDIO_MCLK": [
+  "D10",
+  "bidi"
+ ],
+ "AUDIO_MCLK_RT": [
+  "D03",
+  "out"
+ ],
+ "BOOT_MODE0": [
+  "D04",
+  "out"
+ ],
+ "BOOT_MODE1": [
+  "D04",
+  "out"
+ ],
+ "ESP_UART0_TX": [
+  "D05",
+  "out"
+ ],
+ "FLEXSPI_D0": [
+  "D03",
+  "bidi"
+ ],
+ "FLEXSPI_D1": [
+  "D03",
+  "bidi"
+ ],
+ "FLEXSPI_SCLK": [
+  "D03",
+  "out"
+ ],
+ "FLEXSPI_SS0": [
+  "D03",
+  "out"
+ ],
+ "I2C_SCL": [
+  "D05",
+  "bidi"
+ ],
+ "I2C_SDA": [
+  "D05",
+  "bidi"
+ ],
+ "K1BR_CS_RT": [
+  "D03",
+  "out"
+ ],
+ "K1BR_IRQ_RT": [
+  "D05",
+  "out"
+ ],
+ "K1BR_MISO_RT": [
+  "D05",
+  "out"
+ ],
+ "K1BR_MOSI_RT": [
+  "D03",
+  "out"
+ ],
+ "K1BR_SCK_RT": [
+  "D03",
+  "out"
+ ],
+ "LED_D0_3V3": [
+  "D03",
+  "out"
+ ],
+ "LED_D1_3V3": [
+  "D03",
+  "out"
+ ],
+ "LED_PWR_L_EN": [
+  "D09",
+  "out"
+ ],
+ "LED_PWR_R_EN": [
+  "D09",
+  "out"
+ ],
+ "LED_THERM_L": [
+  "D09",
+  "out"
+ ],
+ "LED_THERM_R": [
+  "D09",
+  "out"
+ ],
+ "LPUART1_RX": [
+  "D04",
+  "out"
+ ],
+ "LPUART1_TX": [
+  "D03",
+  "out"
+ ],
+ "MIC_PWR_EN_N": [
+  "D03",
+  "out"
+ ],
+ "MOTION_INT_RT": [
+  "D08",
+  "out"
+ ],
+ "NFC_5V": [
+  "D02",
+  "out"
+ ],
+ "NFC_IRQ": [
+  "D07",
+  "out"
+ ],
+ "OPT_BOOT_REC_RT": [
+  "D10",
+  "out"
+ ],
+ "PDM_CLK_RT": [
+  "D03",
+  "out"
+ ],
+ "PDM_DAT_RT": [
+  "D06",
+  "out"
+ ],
+ "POR_B": [
+  "D04",
+  "out"
+ ],
+ "RT_PWR_VALID": [
+  "D10",
+  "out"
+ ],
+ "RT_USB_VBUS": [
+  "D01",
+  "out"
+ ],
+ "S3_POR_REQ": [
+  "D05",
+  "out"
+ ],
+ "SWD_SWCLK": [
+  "D04",
+  "out"
+ ],
+ "SWD_SWDIO": [
+  "D04",
+  "bidi"
+ ],
+ "TPS2561_ILIM": [
+  "D09",
+  "out"
+ ],
+ "USB_5V_VALID": [
+  "D01",
+  "out"
+ ],
+ "USB_DM_DN1": [
+  "D01",
+  "bidi"
+ ],
+ "USB_DM_DN2": [
+  "D01",
+  "bidi"
+ ],
+ "USB_DP_DN1": [
+  "D01",
+  "bidi"
+ ],
+ "USB_DP_DN2": [
+  "D01",
+  "bidi"
+ ],
+ "XTALI": [
+  "D04",
+  "out"
+ ],
+ "XTALO": [
+  "D03",
+  "out"
+ ]
+}

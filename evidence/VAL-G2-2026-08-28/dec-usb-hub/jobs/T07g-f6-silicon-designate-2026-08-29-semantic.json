@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07g-f6-silicon-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2791234:4a02c2ff",
+  "post_source_hash": "2788699:09f0149f",
+  "saved": true,
+  "affected": [
+    {"primitiveId": "4c311982f7a3bb0d", "designator": "U22-USB"},
+    {"primitiveId": "125f3f5842b2d308", "designator": "U23-USB"},
+    {"primitiveId": "8d95d838df2d5f43", "designator": "U24-USB"},
+    {"primitiveId": "cace78f52f4c7139", "designator": "U25-USB"},
+    {"primitiveId": "fadfedaff2230f79", "designator": "D3-USB"}
+  ],
+  "census": {
+    "components": 311,
+    "wires": 787,
+    "components_delta": 0,
+    "wires_delta": 0
+  },
+  "observed": "Designated U22-USB TPS7A2550DRVR, U23-USB TLV7031DBVR, U24-USB and U25-USB SN74LVC1G08DBVR, D3-USB SMF5.0A. No wires. Hub 41c8e652."
+}

@@ -1,0 +1,66 @@
+{
+  "steps": [
+    {
+      "label": "field",
+      "value": "<3D Model>",
+      "title": "<3D Model>"
+    },
+    {
+      "label": "place-count",
+      "n": 5
+    },
+    {
+      "label": "clicked-place",
+      "cls": ""
+    },
+    {
+      "label": "clicked-personal-li",
+      "cls": ""
+    }
+  ],
+  "doc": {
+    "documentType": 4,
+    "uuid": "0c8e199e56e60728",
+    "tabId": "0c8e199e56e60728@64325d0e55e0435abd018defb0089a9b",
+    "parentLibraryUuid": "27700277ef7a49e48a0293bece6b2993"
+  },
+  "dialogs": [
+    "···",
+    "···",
+    "3D Model Manager.main-container_JDOCO{height:665px;min-height:480px}.view-loading-wrapper_ov8Qp{height:665px;left:0;position:relative;top:0;width:100%}.view-loading_4uxoF{background-color:var(--common-bg-color);height:-webkit-calc(100% - 2p",
+    "3D Model Manager.main-container_JDOCO{height:665px;min-height:480px}.view-loading-wrapper_ov8Qp{height:665px;left:0;position:relative;top:0;width:100%}.view-loading_4uxoF{background-color:var(--common-bg-color);height:-webkit-calc(100% - 2p",
+    "3D Model Manager",
+    ".main-container_JDOCO{height:665px;min-height:480px}.view-loading-wrapper_ov8Qp{height:665px;left:0;position:relative;top:0;width:100%}.view-loading_4uxoF{background-color:var(--common-bg-color);height:-webkit-calc(100% - 2px);height:-moz-c",
+    "Tips.lc-tips-modal_-fWlM{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:flex;height:100%;width:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-",
+    "Tips.lc-tips-modal_-fWlM{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:flex;height:100%;width:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-",
+    "Tips",
+    ".lc-tips-modal_-fWlM{display:-webkit-box;display:-webkit-flex;display:-moz-box;display:flex;height:100%;width:100%;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-moz-box-orient:vertical;-moz-box-dire",
+    "The footprint needs to be used by the associated device, the current footprint has not been associated with the device, please associate the device first.Associated DeviceCancel",
+    "The footprint needs to be used by the associated device, the current footprint has not been associated with the device, please associate the device first.",
+    "Associated DeviceCancel"
+  ],
+  "searchBoxes": [
+    {
+      "ph": "Search, at lease 2 charaters",
+      "val": "seated",
+      "cls": "fittinginput-input_MQuJh"
+    },
+    {
+      "ph": "Search, at lease 2 charaters",
+      "val": "USB-TYPE-C-SMD_CX70M-24P1",
+      "cls": "fittinginput-input_MQuJh"
+    }
+  ],
+  "titles": [
+    "Place",
+    "3D Preview",
+    "3D Model",
+    "<3D Model>",
+    "Personal",
+    "dcfcb5e86e39474a9511e7c34cacd3d1",
+    "Personal Models",
+    "3D Model",
+    "3D Model Title",
+    "Personal"
+  ]
+}

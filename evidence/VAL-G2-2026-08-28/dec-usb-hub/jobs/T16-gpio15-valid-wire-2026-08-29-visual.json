@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T16-gpio15-valid-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "R85 USB_5V_VALID to U9.8 only. Not OUT2. Not S3_VBUS.",
+  "observed_delta": "700 percent U9 left column. Pin 8 IO15 at 4175,4340 has an east USB_5V_VALID stub. That copper does not reach the USB_DM_S3 TUNE stub. S3_VBUS is not on GPIO15. R85-USB 470R also carries USB_5V_VALID on both pins. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T16-gpio15.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "R85 on USB_5V_VALID",
+      "result": "OK",
+      "detail": "Stubs 0df3701fe687193c and c0d8ffdb09d7c8d8 at 1700/1740,1200. Secondary shot T16-r85.png."
+    },
+    {
+      "name": "U9.8 on USB_5V_VALID",
+      "result": "OK",
+      "detail": "Wire ff12401c730641b7 at 4175,4340 net USB_5V_VALID. API pin 8 name IO15."
+    },
+    {
+      "name": "GPIO15 off S3_VBUS",
+      "result": "OK",
+      "detail": "S3_VBUS members remain J7-island parents only. No 4175,4340 hit."
+    },
+    {
+      "name": "GPIO15 not USB_DM_S3",
+      "result": "OK",
+      "detail": "USB_DM_S3 TUNE stub stays 916a2e5ac5bc3661 at 4035,4340. GPIO15 east-only."
+    },
+    {
+      "name": "not OUT2",
+      "result": "OK",
+      "detail": "S3_USB_VBUS_VALID parents remain a05554c53f4f4e37 on the hub island only."
+    }
+  ]
+}

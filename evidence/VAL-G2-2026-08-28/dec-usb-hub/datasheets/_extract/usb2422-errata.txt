@@ -1,0 +1,317 @@
+                                                                               USB2422
+                                  USB2422
+                 Silicon Errata and Data Sheet Clarification
+
+Hardware Anomalies
+This document describes known anomalies in the USB2422 device.
+
+Anomaly 1: Low-Speed Keep-Alive Traffic is not Resumed in 3ms
+Description
+While in Full-Speed (FS) mode, the USB2422 does not produce a keep-alive strobe within 3ms of a SOF to prevent a
+Low-Speed (LS) device from entering suspend.
+All USB 2.0 hubs must generate a Low-Speed keep-alive strobe to prevent a low speed device on its downstream port
+from entering suspend mode and to keep it alive. This strobe must be generated at least once per frame after a SOF
+(Start of Frame) is received by the device (within 3ms) to prevent the LS device from going into suspend.
+End User Implications
+Because the strobe does not occur within 3ms, it is possible that the low speed device may go into suspend and stay
+there even after the end of RESUME, which would then require another wakeup event for the LS device to become
+active again.
+Currently SMSC has not found any LS devices that are sensitive to this timing. However, this anomaly could potentially
+occur in unknown future LS products.
+    Work around
+There is no work around at this time since there are no known real-world implications to the end user.
+Plan
+This will not be addressed in a future revision of the device.
+
+Anomaly 2: Disconnect Event Occurs when Hub is Operating at Full-Speed
+Description
+This issue is only seen when the USB2422 is configured as a Full-Speed hub or as a device attached to a downstream
+port from a Full-Speed host.
+When an adjacent downstream port is disconnected, a data packet may become corrupted on the other port while a
+data transfer is occurring simultaneously. Infrequently, this corruption could lead to a full hub disconnect.
+End User Implications
+On very rare occasions, the end user may observe a total hub disconnect when removing a downstream device while
+performing a data transfer on the other port, disrupting the data transfer and forcing the end user to restart the data
+transfer. The user will observe the hub and all downstream devices disconnect and re-enumerate thereafter.
+    Work around
+Loading the downstream port DP/DM signals with 100pF caps can help reduce the packet corruption.
+Plan
+This will not be addressed in a future revision of the device.
+
+
+
+
+ 2013 Microchip Technology Inc.                                                                  DS00001576A-page 1
+USB2422
+Anomaly 3: High-Speed Split Transaction to Full-Speed
+Description
+If a High-Speed (HS) split transaction exceeds 288 bytes per microframe to a single downstream port, the Transaction
+Translator of the USB2422 could be corrupted if another HS data packet is sent before the Full-Speed packets down-
+stream have completed.
+End User Implications
+The corrupted data would be caught by the USB error checks in most applications, causing the host to resend the data
+to the device with no visibility to the end user. However, if the data is not checked by the device and streamed to a
+speaker for example, the corrupted data can negatively impact the performance of the device.
+     Work around
+There is no known work around at this time.
+Plan
+This will not be addressed in a future revision of the device.
+
+Anomaly 4: Glitch on DP (and SDA/SCL) During Power-up
+Description
+This anomaly is only seen when the USB2422 is under BUS power and can cause some minor signal glitches on the
+digital pins (SDA/SCL) during an attach/docking event.
+About 2ms to 5ms after the attach event (DP goes HIGH) the DP wire will momentary (for ~0.5us) transitions to LOW.
+End User Implications
+When under BUS power, if the SOC is monitoring the digital pins (SDA/SCL) during Power-On Reset (POR), the glitch
+could be detected. This anomaly should not affect the performance of the USB2422.
+     Work around
+There are two possible solutions:
+1.   If using an SOC and this glitch occurs, the SOC could ignore the SMBUS traffic for the initial 5ms after POR.
+     Adding a 5ms delay during POR will alleviate this issue and prevent it from occurring.
+2.   Glitch occurrence and width is related to ramp rate of internal core voltage. If the resistor and capacitor on the
+     RESETn are 100k ohms and 100nF, respectively, the glitch occurs. However, doubling the capacitor to 200nF
+     will prevent the glitch from occurring.
+Plan
+This will not be addressed in a future revision of the device.
+
+Anomaly 5: Port Disconnect Timer in Full-Speed Mode Violates USB Specifications
+Description
+Configured in Full-Speed mode, the USB2422 will not disconnect the downstream port when D+ is deasserted <100us.
+D+ held low longer than 100us will cause port disconnect and port re-enumeration after D+ is tri-stated. The Spec spec-
+ifies that a D+ deassert >2.5us should end the SOF. SOF are seen on downstream traffic until D+ is held for 100us or
+longer.
+End User Implications
+While the end user impact will not be wide spread, this issue might be seen by some FS hosts.
+     Work around
+There is no work around at this time since there are no known implications to the end user.
+Plan
+This will not be addressed in a future revision of the device.
+
+
+
+
+DS00001576A-page 2                                                                        2013 Microchip Technology Inc.
+                                                                                                 USB2422
+Anomaly 6: SE0 Generated on Downstream Port During Remote Wake-up Signaling
+Description
+When the USB2422 device is placed in global suspend mode (J state) and a remote wakeup event (K state) is generated
+from a downstream device, the device will attempt to change state as if trying to wake up. The port enters an undefined
+state for 140 ns before it transitioning back to the original state (K state). This event is only seen on the same port on
+which the wake up event was generated.
+End User Implications
+This anomaly does not appear to effect the performance of the USB2422 and may not be of concern by end user. How-
+ever, the end user implications have not fully been investigated at this time.
+    Work around
+There is no work around at this time since there are no known implications to the end user.
+Plan
+This will not be addressed in a future revision of the device.
+
+Anomaly 7: Suspended USB 2.0 Hub Does Not Wake upon Downstream Device Disconnect after
+           Disabling the Downstream Port
+Description
+The USB 2.0 specification states that a hub “must not perform disconnect detection” in the first 4ms after entering “Dis-
+abled” state. This implies that after 4ms the hub must perform the normal disconnect detection on its downstream ports.
+The USB2422 does not execute normal disconnect detection when a downstream port is in the “Disabled” state. In the
+<safe removal> case, while a USB2 device is attached to the HUT and the user ejects that device, the hub does not
+report port change status during any subsequent detach/attach events on that port. In Windows 7 the Intel driver sends
+the SET_FEATURE PORT_SUSPEND, to which the USB2422 hub would correctly detect the detach event and gener-
+ate the correct port status change behavior. Windows 8 sends a CLEAR_FEATURE PORT_ENABLE which disables
+the hub port – thus creating the condition for this anomalous behavior.
+End User Implications
+The End User would only see this issue when using Windows 8. There are no issues with previous Microsoft operating
+systems.
+    Work around
+The problem will be fixed in some future Windows 8 update.
+Plan
+This will not be addressed in a future revision of the device.
+
+Anomaly 8: USB Device Reconnection Error in Windows 8 and Windows Server 2013
+Description
+There is an issue that affects the USB2422 when used with Windows 8 or Windows Server 2013. This issue occurs
+when a USB device is connected to a USB downstream port on the hub, the USB device is safely removed from the
+USB port, and a device (the same device or difference device) is then reconnected to the same downstream port of the
+hub. In this scenario, Windows does not detect the USB device. This issue occurs because the USB port is disabled
+after the device was safely removed from the port.
+End User Implications
+A Windows 8 or Windows Server 2013 user may not be able to reconnect devices on USB downstream ports without
+rebooting Windows.
+    Work around
+To resolve this issue, install the Windows RT, Windows 8, and Windows Server 2012 update rollup 2845533, or install
+a hotfix that is described at http://support.microsoft.com/kb/2830154.
+Plan
+This is a Windows software issue and will not be addressed in a future version of the device.
+
+
+
+
+ 2013 Microchip Technology Inc.                                                                     DS00001576A-page 3
+USB2422
+APPENDIX A:          DOCUMENT REVISION HISTORY
+
+        REVISION                                            DESCRIPTION
+REV A                     Replaces the previous SMSC version 1.4.
+Revision 1.4 (07-24-13)   Added anomaly 8, fixed misc. typos and grammatical errors
+Revision 1.3 (05-31-13)   Document co-branded
+Revision 1.2 (05-28-13)   Updated anomalies with the latest corrections and feedback
+Revision 1.1 (05-23-13)   Updated anomalies.
+Revision 1.0 (05-03-10)   Initial release
+
+
+
+
+DS00001576A-page 4                                                                2013 Microchip Technology Inc.
+                                                                                                                 USB2422
+
+Note the following details of the code protection feature on Microchip devices:
+•    Microchip products meet the specification contained in their particular Microchip Data Sheet.
+
+•    Microchip believes that its family of products is one of the most secure families of its kind on the market today, when used in the
+     intended manner and under normal conditions.
+
+•    There are dishonest and possibly illegal methods used to breach the code protection feature. All of these methods, to our
+     knowledge, require using the Microchip products in a manner outside the operating specifications contained in Microchip’s Data
+     Sheets. Most likely, the person doing so is engaged in theft of intellectual property.
+
+•    Microchip is willing to work with the customer who is concerned about the integrity of their code.
+
+•    Neither Microchip nor any other semiconductor manufacturer can guarantee the security of their code. Code protection does not
+     mean that we are guaranteeing the product as “unbreakable.”
+
+Code protection is constantly evolving. We at Microchip are committed to continuously improving the code protection features of our
+products. Attempts to break Microchip’s code protection feature may be a violation of the Digital Millennium Copyright Act. If such acts
+allow unauthorized access to your software or other copyrighted work, you may have a right to sue for relief under that Act.
+
+Information contained in this publication regarding device applications and the like is provided only for your convenience and may be
+superseded by updates. It is your responsibility to ensure that your application meets with your specifications. MICROCHIP MAKES NO
+REPRESENTATIONS OR WARRANTIES OF ANY KIND WHETHER EXPRESS OR IMPLIED, WRITTEN OR ORAL, STATUTORY OR
+OTHERWISE, RELATED TO THE INFORMATION, INCLUDING BUT NOT LIMITED TO ITS CONDITION, QUALITY, PERFORMANCE,
+MERCHANTABILITY OR FITNESS FOR PURPOSE. Microchip disclaims all liability arising from this information and its use. Use of
+Microchip devices in life support and/or safety applications is entirely at the buyer’s risk, and the buyer agrees to defend, indemnify and
+hold harmless Microchip from any and all damages, claims, suits, or expenses resulting from such use. No licenses are conveyed, implic-
+itly or otherwise, under any Microchip intellectual property rights.
+
+Trademarks
+The Microchip name and logo, the Microchip logo, dsPIC, FlashFlex, KEELOQ, KEELOQ logo, MPLAB, PIC, PICmicro, PICSTART, PIC32
+logo, rfPIC, SST, SST Logo, SuperFlash and UNI/O are registered trademarks of Microchip Technology Incorporated in the U.S.A. and
+other countries.
+FilterLab, Hampshire, HI-TECH C, Linear Active Thermistor, MTP, SEEVAL and The Embedded Control Solutions Company are
+registered trademarks of Microchip Technology Incorporated in the U.S.A.
+Silicon Storage Technology is a registered trademark of Microchip Technology Inc. in other countries.
+Analog-for-the-Digital Age, Application Maestro, BodyCom, chipKIT, chipKIT logo, CodeGuard, dsPICDEM, dsPICDEM.net,
+dsPICworks, dsSPEAK, ECAN, ECONOMONITOR, FanSense, HI-TIDE, In-Circuit Serial Programming, ICSP, Mindi, MiWi, MPASM,
+MPF, MPLAB Certified logo, MPLIB, MPLINK, mTouch, Omniscient Code Generation, PICC, PICC-18, PICDEM, PICDEM.net, PICkit,
+PICtail, REAL ICE, rfLAB, Select Mode, SQI, Serial Quad I/O, Total Endurance, TSHARC, UniWinDriver, WiperLock, ZENA and Z-
+Scale are trademarks of Microchip Technology Incorporated in the U.S.A. and other countries.
+SQTP is a service mark of Microchip Technology Incorporated in the U.S.A.
+GestIC and ULPP are registered trademarks of Microchip Technology Germany II GmbH & Co. KG, a subsidiary of Microchip
+Technology Inc., in other countries.
+A more complete list of registered trademarks and common law trademarks owned by Standard Microsystems Corporation (“SMSC”)
+is available at: www.smsc.com. The absence of a trademark (name, logo, etc.) from the list does not constitute a waiver of any
+intellectual property rights that SMSC has established in any of its trademarks.
+All other trademarks mentioned herein are property of their respective companies.
+© 2013, Microchip Technology Incorporated, Printed in the U.S.A., All Rights Reserved.
+
+
+ISBN: 9781620774755
+
+
+
+
+                                                                          Microchip received ISO/TS-16949:2009 certification for its worldwide
+                                                                          headquarters, design and wafer fabrication facilities in Chandler and
+                                                                          Tempe, Arizona; Gresham, Oregon and design centers in California
+                                                                          and India. The Company’s quality system processes and procedures
+                                                                          are for its PIC® MCUs and dsPIC® DSCs, KEELOQ® code hopping
+                                                                          devices, Serial EEPROMs, microperipherals, nonvolatile memory and
+                                                                          analog products. In addition, Microchip’s quality system for the design
+                                                                          and manufacture of development systems is ISO 9001:2000 certified.
+
+
+
+ 2013 Microchip Technology Inc.                                                                                       DS00001576A-page 6
+                                Worldwide Sales and Service
+AMERICAS                        ASIA/PACIFIC                 ASIA/PACIFIC              EUROPE
+Corporate Office                Asia Pacific Office          India - Bangalore         Austria - Wels
+2355 West Chandler Blvd.        Suites 3707-14, 37th Floor   Tel: 91-80-3090-4444      Tel: 43-7242-2244-39
+Chandler, AZ 85224-6199         Tower 6, The Gateway         Fax: 91-80-3090-4123      Fax: 43-7242-2244-393
+Tel: 480-792-7200               Harbour City, Kowloon        India - New Delhi         Denmark - Copenhagen
+Fax: 480-792-7277               Hong Kong                                              Tel: 45-4450-2828
+                                                             Tel: 91-11-4160-8631
+Technical Support:              Tel: 852-2401-1200                                     Fax: 45-4485-2829
+                                                             Fax: 91-11-4160-8632
+http://www.microchip.com/       Fax: 852-2401-3431                                     France - Paris
+support                                                      India - Pune
+                                Australia - Sydney           Tel: 91-20-3019-1500      Tel: 33-1-69-53-63-20
+Web Address:
+                                Tel: 61-2-9868-6733                                    Fax: 33-1-69-30-90-79
+www.microchip.com                                            Japan - Osaka
+                                Fax: 61-2-9868-6755                                    Germany - Munich
+Atlanta                                                      Tel: 81-6-6152-7160
+                                China - Beijing                                        Tel: 49-89-627-144-0
+Duluth, GA                                                   Fax: 81-6-6152-9310
+                                Tel: 86-10-8569-7000                                   Fax: 49-89-627-144-44
+Tel: 678-957-9614                                            Japan - Tokyo
+                                Fax: 86-10-8528-2104                                   Italy - Milan
+Fax: 678-957-1455                                            Tel: 81-3-6880- 3770
+                                China - Chengdu                                        Tel: 39-0331-742611
+Boston                                                       Fax: 81-3-6880-3771
+                                Tel: 86-28-8665-5511                                   Fax: 39-0331-466781
+Westborough, MA                                              Korea - Daegu
+                                Fax: 86-28-8665-7889                                   Netherlands - Drunen
+Tel: 774-760-0087                                            Tel: 82-53-744-4301
+Fax: 774-760-0088               China - Chongqing                                      Tel: 31-416-690399
+                                                             Fax: 82-53-744-4302
+                                Tel: 86-23-8980-9588                                   Fax: 31-416-690340
+Chicago                                                      Korea - Seoul
+Itasca, IL                      Fax: 86-23-8980-9500                                   Spain - Madrid
+                                                             Tel: 82-2-554-7200
+Tel: 630-285-0071               China - Hangzhou                                       Tel: 34-91-708-08-90
+                                                             Fax: 82-2-558-5932 or
+Fax: 630-285-0075               Tel: 86-571-2819-3187                                  Fax: 34-91-708-08-91
+                                                             82-2-558-5934
+Cleveland                       Fax: 86-571-2819-3189                                  UK - Wokingham
+                                                             Malaysia - Kuala Lumpur
+Independence, OH                China - Hong Kong SAR                                  Tel: 44-118-921-5869
+                                                             Tel: 60-3-6201-9857
+Tel: 216-447-0464               Tel: 852-2943-5100                                     Fax: 44-118-921-5820
+                                                             Fax: 60-3-6201-9859
+Fax: 216-447-0643               Fax: 852-2401-3431
+                                                             Malaysia - Penang
+Dallas                          China - Nanjing              Tel: 60-4-227-8870
+Addison, TX                     Tel: 86-25-8473-2460         Fax: 60-4-227-4068
+Tel: 972-818-7423               Fax: 86-25-8473-2470
+Fax: 972-818-2924                                            Philippines - Manila
+                                China - Qingdao              Tel: 63-2-634-9065
+Detroit                         Tel: 86-532-8502-7355        Fax: 63-2-634-9069
+Farmington Hills, MI            Fax: 86-532-8502-7205
+Tel: 248-538-2250                                            Singapore
+Fax: 248-538-2260               China - Shanghai             Tel: 65-6334-8870
+                                Tel: 86-21-5407-5533         Fax: 65-6334-8850
+Indianapolis                    Fax: 86-21-5407-5066
+Noblesville, IN                                              Taiwan - Hsin Chu
+Tel: 317-773-8323               China - Shenyang             Tel: 886-3-5778-366
+Fax: 317-773-5453               Tel: 86-24-2334-2829         Fax: 886-3-5770-955
+                                Fax: 86-24-2334-2393
+Los Angeles                                                  Taiwan - Kaohsiung
+Mission Viejo, CA               China - Shenzhen             Tel: 886-7-213-7828
+Tel: 949-462-9523               Tel: 86-755-8864-2200        Fax: 886-7-330-9305
+Fax: 949-462-9608               Fax: 86-755-8203-1760        Taiwan - Taipei
+Santa Clara                     China - Wuhan                Tel: 886-2-2508-8600
+Santa Clara, CA                 Tel: 86-27-5980-5300         Fax: 886-2-2508-0102
+Tel: 408-961-6444               Fax: 86-27-5980-5118         Thailand - Bangkok
+Fax: 408-961-6445               China - Xian                 Tel: 66-2-694-1351
+Toronto                         Tel: 86-29-8833-7252         Fax: 66-2-694-1350
+Mississauga, Ontario,           Fax: 86-29-8833-7256
+Canada                          China - Xiamen
+Tel: 905-673-0699               Tel: 86-592-2388138
+Fax: 905-673-6509               Fax: 86-592-2388130
+                                China - Zhuhai
+                                Tel: 86-756-3210040
+                                                                                                       08/20/13
+                                Fax: 86-756-3210049
+
+
+
+      2013 Microchip Technology Inc.                                                            DS00001576A-page 7
+

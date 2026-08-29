@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07f-out-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2953161:d2e0b1d1",
+  "post_source_hash": "2962347:bec32671",
+  "saved": true,
+  "affected": [
+    {"net": "RT_USB_VBUS", "members": ["U21.7 OUT1", "C109.2", "R86.1"], "source_hits": 6},
+    {"net": "S3_USB_VBUS_VALID", "members": ["U21.6 OUT2", "C110.2"], "source_hits": 5}
+  ],
+  "census": {
+    "components": 323,
+    "wires": 798,
+    "components_delta": 0,
+    "wires_delta": 2
+  },
+  "r87_note": "Existing R87-USB at 740,980 is the T03 strap-row 10k, not the OUT2 bleeder. OUT2 bleeder still to place as a new part.",
+  "observed": "OUT1 RT_USB_VBUS with C109 and R86. OUT2 S3_USB_VBUS_VALID with C110. No MCU core pins. Hub 41c8e652."
+}

@@ -1,0 +1,932 @@
+{
+  "sourceHash": "651300:37037293",
+  "u1": {
+    "cx": 3317.7691,
+    "cy": 3459.8224,
+    "rot": 180,
+    "rawPadCount": 30,
+    "padProto": [
+      "constructor",
+      "__defineGetter__",
+      "__defineSetter__",
+      "hasOwnProperty",
+      "__lookupGetter__",
+      "__lookupSetter__",
+      "isPrototypeOf",
+      "propertyIsEnumerable",
+      "toString",
+      "valueOf",
+      "__proto__",
+      "toLocaleString"
+    ],
+    "padKeys": [
+      "primitiveId",
+      "net",
+      "padNumber"
+    ],
+    "sample": {
+      "primitiveId": "e51",
+      "net": "",
+      "padNumber": "A12"
+    }
+  },
+  "allPadCount": 873,
+  "nearPads": [
+    {
+      "id": "0f194aaf30bc2e32e51",
+      "n": "A12",
+      "x": 3209.5040999999997,
+      "y": 3357.0624,
+      "hole": null,
+      "pad": [
+        "RECT",
+        11.8,
+        36.2,
+        0
+      ],
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e52",
+      "n": "A11",
+      "x": 3229.1841,
+      "y": 3357.0624,
+      "hole": null,
+      "pad": [
+        "RECT",
+        11.8,
+        36.2,
+        0
+      ],
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e53",
+      "n": "A10",
+      "x": 3248.8741,
+      "y": 3357.0624,
+      "hole": null,
+      "pad": [
+        "RECT",
+        11.8,
+        36.2,
+        0
+      ],
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e54",
+      "n": "A9",
+      "x": 3268.5541000000003,
+      "y": 3357.0624,
+      "hole": null,
+      "pad": [
+        "RECT",
+        11.8,
+        36.2,
+        0
+      ],
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e55",
+      "n": "A8",
+      "x": 3288.2441,
+      "y": 3357.0624,
+      "hole": null,
+      "pad": [
+        "RECT",
+        11.8,
+        36.2,
+        0
+      ],
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e56",
+      "n": "A7",
+      "x": 3307.9240999999997,
+      "y": 3357.0624,
+      "hole": null,
+      "pad": [
+        "RECT",
+        11.8,
+        36.2,
+        0
+      ],
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e57",
+      "n": "A6",
+      "x": 3327.6141000000002,
+      "y": 3357.0624,
+      "hole": null,
+      "pad": [
+        "RECT",
+        11.8,
+        36.2,
+        0
+      ],
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e58",
+      "n": "A1",
+      "x": 3426.0341,
+      "y": 3357.0624,
+      "hole": null,
+      "pad": [
+        "RECT",
+        11.8,
+        36.2,
+        0
+      ],
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e59",
+      "n": "A2",
+      "x": 3406.3540999999996,
+      "y": 3357.0624,
+      "hole": null,
+      "pad": [
+        "RECT",
+        11.8,
+        36.2,
+        0
+      ],
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e60",
+      "n": "A3",
+      "x": 3386.6641,
+      "y": 3357.0624,
+      "hole": null,
+      "pad": [
+        "RECT",
+        11.8,
+        36.2,
+        0
+      ],
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e61",
+      "n": "A4",
+      "x": 3366.9840999999997,
+      "y": 3357.0624,
+      "hole": null,
+      "pad": [
+        "RECT",
+        11.8,
+        36.2,
+        0
+      ],
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e62",
+      "n": "A5",
+      "x": 3347.2940999999996,
+      "y": 3357.0624,
+      "hole": null,
+      "pad": [
+        "RECT",
+        11.8,
+        36.2,
+        0
+      ],
+      "rot": 3.141592653589793,
+      "layer": 1
+    },
+    {
+      "id": "0f194aaf30bc2e32e95",
+      "n": "B1",
+      "x": 3194.9341,
+      "y": 3398.8024,
+      "hole": [
+        "SLOT",
+        15.748,
+        39.37
+      ],
+      "pad": [
+        "OVAL",
+        51.2,
+        23.6
+      ],
+      "rot": 0,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e96",
+      "n": "B2",
+      "x": 3219.3441000000003,
+      "y": 3434.2324,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "pad": [
+        "ELLIPSE",
+        23.6,
+        23.6
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e97",
+      "n": "B3",
+      "x": 3250.8441,
+      "y": 3434.2324,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "pad": [
+        "ELLIPSE",
+        23.6,
+        23.6
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e98",
+      "n": "B4",
+      "x": 3266.5841,
+      "y": 3398.8024,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "pad": [
+        "ELLIPSE",
+        23.6,
+        23.6
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e99",
+      "n": "B5",
+      "x": 3282.3341,
+      "y": 3434.2324,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "pad": [
+        "ELLIPSE",
+        23.6,
+        23.6
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e100",
+      "n": "B6",
+      "x": 3298.0841,
+      "y": 3398.8024,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "pad": [
+        "ELLIPSE",
+        23.6,
+        23.6
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e101",
+      "n": "B7",
+      "x": 3337.4541,
+      "y": 3398.8024,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "pad": [
+        "ELLIPSE",
+        23.6,
+        23.6
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e102",
+      "n": "B8",
+      "x": 3353.2041,
+      "y": 3434.2324,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "pad": [
+        "ELLIPSE",
+        23.6,
+        23.6
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e103",
+      "n": "B9",
+      "x": 3368.9541,
+      "y": 3398.8024,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "pad": [
+        "ELLIPSE",
+        23.6,
+        23.6
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e104",
+      "n": "B10",
+      "x": 3384.6940999999997,
+      "y": 3434.2324,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "pad": [
+        "ELLIPSE",
+        23.6,
+        23.6
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e105",
+      "n": "B11",
+      "x": 3416.1940999999997,
+      "y": 3434.2324,
+      "hole": [
+        "ROUND",
+        15.748
+      ],
+      "pad": [
+        "ELLIPSE",
+        23.6,
+        23.6
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e106",
+      "n": "B12",
+      "x": 3440.6041,
+      "y": 3398.8024,
+      "hole": [
+        "SLOT",
+        15.748,
+        39.37
+      ],
+      "pad": [
+        "OVAL",
+        51.2,
+        23.6
+      ],
+      "rot": 0,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e107",
+      "n": "25",
+      "x": 3493.9541,
+      "y": 3337.7724,
+      "hole": [
+        "SLOT",
+        19.686,
+        43.307
+      ],
+      "pad": [
+        "OVAL",
+        39.4,
+        63
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e108",
+      "n": "27",
+      "x": 3556.9441,
+      "y": 3581.8723999999997,
+      "hole": [
+        "SLOT",
+        19.686,
+        59.055
+      ],
+      "pad": [
+        "OVAL",
+        39.4,
+        78.7
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e109",
+      "n": "30",
+      "x": 3141.5841,
+      "y": 3337.7724,
+      "hole": [
+        "SLOT",
+        19.686,
+        43.307
+      ],
+      "pad": [
+        "OVAL",
+        39.4,
+        63
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e110",
+      "n": "28",
+      "x": 3078.5941,
+      "y": 3581.8723999999997,
+      "hole": [
+        "SLOT",
+        19.686,
+        59.055
+      ],
+      "pad": [
+        "OVAL",
+        39.4,
+        78.7
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e111",
+      "n": "29",
+      "x": 3078.5941,
+      "y": 3430.2924000000003,
+      "hole": [
+        "SLOT",
+        19.686,
+        59.055
+      ],
+      "pad": [
+        "OVAL",
+        39.4,
+        78.7
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    },
+    {
+      "id": "0f194aaf30bc2e32e112",
+      "n": "26",
+      "x": 3556.9441,
+      "y": 3430.2923999999994,
+      "hole": [
+        "SLOT",
+        19.686,
+        59.055
+      ],
+      "pad": [
+        "OVAL",
+        39.4,
+        78.7
+      ],
+      "rot": 3.141592653589793,
+      "layer": 12
+    }
+  ],
+  "fpKeys": [],
+  "fpErr": "[object Object]",
+  "outlinePolys": [
+    {
+      "proto": [
+        "getState_PrimitiveType",
+        "getState_Layer",
+        "getState_Polygon",
+        "setState_Layer",
+        "setState_Polygon",
+        "toAsync",
+        "toSync",
+        "isAsync"
+      ],
+      "getState_PrimitiveType": "Polyline",
+      "getState_Layer": 11,
+      "getState_Polygon": {
+        "polygon": [
+          4078.6077,
+          2164.7743,
+          "L",
+          4077.7657,
+          2165.0453
+        ]
+      },
+      "setState_Layer": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "1290eeedc217b251"
+      },
+      "setState_Polygon": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "1290eeedc217b251"
+      },
+      "toAsync": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "1290eeedc217b251"
+      },
+      "toSync": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "1290eeedc217b251"
+      },
+      "isAsync": false
+    },
+    {
+      "proto": [
+        "getState_PrimitiveType",
+        "getState_Layer",
+        "getState_Polygon",
+        "setState_Layer",
+        "setState_Polygon",
+        "toAsync",
+        "toSync",
+        "isAsync"
+      ],
+      "getState_PrimitiveType": "Polyline",
+      "getState_Layer": 11,
+      "getState_Polygon": {
+        "polygon": [
+          3047.6968,
+          2380.2229,
+          "L",
+          3397.4798,
+          2380.1505
+        ]
+      },
+      "setState_Layer": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "c2113a7ac500780a"
+      },
+      "setState_Polygon": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "c2113a7ac500780a"
+      },
+      "toAsync": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "c2113a7ac500780a"
+      },
+      "toSync": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "c2113a7ac500780a"
+      },
+      "isAsync": false
+    },
+    {
+      "proto": [
+        "getState_PrimitiveType",
+        "getState_Layer",
+        "getState_Polygon",
+        "setState_Layer",
+        "setState_Polygon",
+        "toAsync",
+        "toSync",
+        "isAsync"
+      ],
+      "getState_PrimitiveType": "Polyline",
+      "getState_Layer": 11,
+      "getState_Polygon": {
+        "polygon": [
+          3423.788,
+          2164.7572,
+          "ARC",
+          -95.7251,
+          3409.8231,
+          2178.7928
+        ]
+      },
+      "setState_Layer": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "cd21f8f2bd7ff5ae"
+      },
+      "setState_Polygon": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "cd21f8f2bd7ff5ae"
+      },
+      "toAsync": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "cd21f8f2bd7ff5ae"
+      },
+      "toSync": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "cd21f8f2bd7ff5ae"
+      },
+      "isAsync": false
+    },
+    {
+      "proto": [
+        "getState_PrimitiveType",
+        "getState_Layer",
+        "getState_Polygon",
+        "setState_Layer",
+        "setState_Polygon",
+        "toAsync",
+        "toSync",
+        "isAsync"
+      ],
+      "getState_PrimitiveType": "Polyline",
+      "getState_Layer": 11,
+      "getState_Polygon": {
+        "polygon": [
+          3479.5402,
+          3446.0127,
+          "L",
+          3129.7572,
+          3446.0852
+        ]
+      },
+      "setState_Layer": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "b97b9be82a96e2d7"
+      },
+      "setState_Polygon": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "b97b9be82a96e2d7"
+      },
+      "toAsync": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "b97b9be82a96e2d7"
+      },
+      "toSync": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "b97b9be82a96e2d7"
+      },
+      "isAsync": false
+    },
+    {
+      "proto": [
+        "getState_PrimitiveType",
+        "getState_Layer",
+        "getState_Polygon",
+        "setState_Layer",
+        "setState_Polygon",
+        "toAsync",
+        "toSync",
+        "isAsync"
+      ],
+      "getState_PrimitiveType": "Polyline",
+      "getState_Layer": 11,
+      "getState_Polygon": {
+        "polygon": [
+          3045.1968,
+          2380.0453,
+          "ARC",
+          73.7398,
+          3030.1968,
+          2365.0453,
+          "L",
+          3030.1968,
+          2185.0453,
+          "ARC",
+          -89.6644,
+          3005.1968,
+          2165.0453,
+          "L",
+          2410.1968,
+          2165.0453,
+          2410.1968,
+          3661.1083,
+          8509.6062,
+          3661.1083,
+          8509.6062,
+          2165.0453,
+          5185.1762,
+          2164.7572,
+          5075.1762,
+          2274.7572,
+          4212.7451,
+          2274.7572,
+          4102.7451,
+          2164.7572,
+          3423.788,
+          2164.7572
+        ]
+      },
+      "setState_Layer": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "e79be5dc1a64dd3c"
+      },
+      "setState_Polygon": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "e79be5dc1a64dd3c"
+      },
+      "toAsync": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "e79be5dc1a64dd3c"
+      },
+      "toSync": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "e79be5dc1a64dd3c"
+      },
+      "isAsync": false
+    },
+    {
+      "proto": [
+        "getState_PrimitiveType",
+        "getState_Layer",
+        "getState_Polygon",
+        "setState_Layer",
+        "setState_Polygon",
+        "toAsync",
+        "toSync",
+        "isAsync"
+      ],
+      "getState_PrimitiveType": "Polyline",
+      "getState_Layer": 11,
+      "getState_Polygon": {
+        "polygon": [
+          3398.2075,
+          2380.1309,
+          "ARC",
+          -83.8294,
+          3410.9807,
+          2367.3577,
+          "L",
+          3409.8048,
+          2176.1577
+        ]
+      },
+      "setState_Layer": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "0cd630125da59dc8"
+      },
+      "setState_Polygon": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "0cd630125da59dc8"
+      },
+      "toAsync": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "0cd630125da59dc8"
+      },
+      "toSync": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "0cd630125da59dc8"
+      },
+      "isAsync": false
+    },
+    {
+      "proto": [
+        "getState_PrimitiveType",
+        "getState_Layer",
+        "getState_Polygon",
+        "setState_Layer",
+        "setState_Polygon",
+        "toAsync",
+        "toSync",
+        "isAsync"
+      ],
+      "getState_PrimitiveType": "Polyline",
+      "getState_Layer": 11,
+      "getState_Polygon": {
+        "polygon": [
+          "R",
+          3129.7572,
+          3661.1083,
+          376.6892,
+          215.0231,
+          0,
+          0
+        ]
+      },
+      "setState_Layer": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "aefd5b60953644e5"
+      },
+      "setState_Polygon": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "aefd5b60953644e5"
+      },
+      "toAsync": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "aefd5b60953644e5"
+      },
+      "toSync": {
+        "async": false,
+        "primitiveType": "Polyline",
+        "lineWidth": 10,
+        "primitiveLock": false,
+        "primitiveId": "aefd5b60953644e5"
+      },
+      "isAsync": false
+    }
+  ]
+}

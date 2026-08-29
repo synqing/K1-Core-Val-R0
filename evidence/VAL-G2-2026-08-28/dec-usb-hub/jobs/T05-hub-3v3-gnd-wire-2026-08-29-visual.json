@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T05-hub-3v3-gnd-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Wire USB2422 VDD33 pins 1/9/18, ePad and C104-C106 to 3V3 and GND. Do not touch USB pairs.",
+  "observed_delta": "U20-USB USB2422T-I/MJ shows VDD33 pins 1, 9 and 18 on 3V3 and EP on GND. USB DN/UP pairs remain unwired. Hub island, not live product.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T05-hub-3v3-gnd.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "VDD33 pins on 3V3",
+      "result": "OK",
+      "detail": "Pins 1, 9 and 18 VDD33 have 3V3 flags/wires in the settled island shot."
+    },
+    {
+      "name": "ePad on GND",
+      "result": "OK",
+      "detail": "Pin 25 EP is connected to a GND symbol."
+    },
+    {
+      "name": "C104-C106 wired as decoupling",
+      "result": "OK",
+      "detail": "3V3 and GND flags were placed on C104/C105/C106 pin coordinates this transaction."
+    },
+    {
+      "name": "USB pairs untouched hub 41c8e652",
+      "result": "OK",
+      "detail": "USBDM/USBDP DN and UP pins remain unconnected in the screenshot. Project is hub 41c8e652."
+    }
+  ]
+}

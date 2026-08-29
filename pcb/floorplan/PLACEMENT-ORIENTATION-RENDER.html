@@ -1,0 +1,1296 @@
+<meta charset="utf-8">
+<title>K1 Core Floorplan</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<style>
+  :root{
+    --bench:#0a0c10; --bench2:#111419; --panel:#14181e; --line:#242a33;
+    --ink:#e9ecef; --dim:#8b95a1; --faint:#5a6470;
+    --gold:#d9b45b; --gold2:#f2d489;
+    --cyan:#3ec9da; --grn:#5fd67e; --amber:#e6c04d; --violet:#b48ce6;
+    --orange:#ef9a4e; --mag:#e078b8; --teal:#46c8ae; --red:#f0604c;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bench);color:var(--ink);
+    font:14px/1.5 "IBM Plex Mono",ui-monospace,monospace;}
+  .wrap{max-width:1760px;margin:0 auto;padding:0 22px 60px}
+  header{display:flex;align-items:baseline;gap:18px;flex-wrap:wrap;padding:26px 2px 8px}
+  h1{font:700 30px/1 "Saira Condensed",Arial,sans-serif;letter-spacing:.04em;margin:0;
+     text-transform:uppercase}
+  h1 em{font-style:normal;color:var(--gold)}
+  .badge{font:600 11px/1 "IBM Plex Mono",monospace;letter-spacing:.12em;color:var(--amber);
+    border:1px solid #4b3f1e;background:#1c1810;border-radius:3px;padding:5px 8px}
+  .sub{color:var(--dim);font-size:12px;letter-spacing:.02em}
+  .tabs{display:flex;gap:8px;padding:10px 2px 4px}
+  button.tab{font:700 14px "Saira Condensed",sans-serif;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--dim);background:var(--panel);border:1px solid var(--line);border-radius:6px;
+    padding:9px 20px;cursor:pointer}
+  button.tab[aria-pressed="true"]{color:#0c0e11;background:var(--gold);border-color:var(--gold)}
+  button.tab:focus-visible,button.tg:focus-visible{outline:2px solid var(--gold);outline-offset:2px}
+  .bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:8px 2px 12px}
+  .bar span.lbl{font:600 11px "Saira Condensed",sans-serif;letter-spacing:.2em;color:var(--faint);
+    text-transform:uppercase;margin-right:4px}
+  button.tg{font:500 12px "IBM Plex Mono",monospace;color:var(--dim);background:var(--panel);
+    border:1px solid var(--line);border-radius:4px;padding:6px 11px;cursor:pointer}
+  button.tg[aria-pressed="true"]{color:var(--ink);border-color:#3a4450;background:#1b2129;
+    box-shadow:inset 0 0 0 1px #2c3541}
+  button.tg i{font-style:normal;margin-right:7px}
+  .stagecap{color:var(--faint);font-size:11.5px;padding:0 2px 6px;letter-spacing:.04em}
+  .stage{position:relative;background:
+      radial-gradient(1200px 420px at 50% 42%, #161b22 0%, var(--bench2) 46%, var(--bench) 100%);
+    border:1px solid var(--line);border-radius:10px;overflow-x:auto;overflow-y:hidden;padding:6px 0}
+  svg{display:block;min-width:1240px;width:100%;height:auto}
+  [hidden]{display:none!important}
+  .legend{display:flex;gap:16px;flex-wrap:wrap;padding:12px 4px;color:var(--dim);font-size:11.5px}
+  .legend b{display:inline-block;width:20px;height:4px;border-radius:2px;margin-right:7px;
+    vertical-align:middle}
+  .cols{display:grid;grid-template-columns:1.7fr 1fr;gap:18px;margin-top:8px}
+  @media(max-width:1080px){.cols{grid-template-columns:1fr}}
+  .panel{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+  .panel h2{font:600 15px "Saira Condensed",sans-serif;letter-spacing:.18em;text-transform:uppercase;
+    color:var(--gold);margin:0 0 10px}
+  table{border-collapse:collapse;width:100%;font-size:12px}
+  th{font:600 10.5px "Saira Condensed",sans-serif;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--faint);text-align:left;padding:6px 10px 6px 0;border-bottom:1px solid var(--line)}
+  td{padding:6px 10px 6px 0;border-bottom:1px solid #1b2027;vertical-align:top;color:var(--dim)}
+  td:first-child{color:var(--ink);white-space:nowrap}
+  td.th{color:var(--gold2);font-weight:600;white-space:nowrap}
+  td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+  .esc{display:grid;grid-template-columns:1fr 1fr;gap:14px;font-size:12px}
+  .esc h3{font:600 13px "IBM Plex Mono",monospace;color:var(--ink);margin:0 0 8px}
+  .esc .row{display:flex;align-items:center;gap:8px;margin:5px 0}
+  .esc .f{width:14px;color:var(--faint)}
+  .esc .bar2{height:8px;border-radius:2px}
+  .esc .n{color:var(--dim);font-variant-numeric:tabular-nums}
+  .foot{color:var(--faint);font-size:11px;margin-top:16px;line-height:1.7}
+  .vgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}
+  @media(max-width:1080px){.vgrid{grid-template-columns:1fr}}
+  .vlist{margin:0;padding-left:20px;color:var(--dim);font-size:12.5px;line-height:1.75}
+  .vlist li{margin-bottom:8px}
+  .vlist b{color:var(--ink)}
+  .rec{border-left:3px solid var(--gold);padding:4px 0 4px 14px;color:var(--dim);font-size:13px;
+    line-height:1.8;margin-top:10px}
+  .rec b{color:var(--gold2)}
+  svg text{font-family:"IBM Plex Mono",monospace}
+  .comp:hover .body{filter:brightness(1.25)}
+  @media (prefers-reduced-motion:no-preference){.comp .body{transition:filter .12s}}
+</style>
+<div class="wrap">
+  <header>
+    <h1>K1-CORE-VAL-R0 <em>· Placement Architecture Study</em></h1>
+    <span class="badge">STUDY_INPUT · BINDING = NO</span>
+    <span class="sub">V1 longitudinal zoning vs V2 RT-centric star / dual-spine · derived from the parsed .epro2 netlist · D-049 hub topology</span>
+  </header>
+
+  <div class="tabs" id="tabs">
+    <button class="tab" data-v="v1" aria-pressed="false">V1 · 158 archive</button>
+    <button class="tab" data-v="v2" aria-pressed="false">V2 · archive</button>
+    <button class="tab" data-v="v1n" aria-pressed="true">V1N · normalised</button>
+    <button class="tab" data-v="s1n" aria-pressed="false">S1N-R1 · rebase</button>
+    <button class="tab" data-v="verdict" aria-pressed="false">Verdict · S1N-R1</button>
+  </div>
+
+  <div class="bar" id="bar">
+    <span class="lbl">Overlays</span>
+    <button class="tg" data-l="zones"  aria-pressed="true"><i style="color:var(--gold)">▣</i>Zones</button>
+    <button class="tg" data-l="corr"   aria-pressed="true"><i style="color:var(--cyan)">〰</i>Corridors</button>
+    <button class="tg" data-l="rf"     aria-pressed="true"><i style="color:var(--red)">▨</i>RF / mech keepouts</button>
+    <button class="tg" data-l="faces"  aria-pressed="true"><i style="color:var(--grn)">⇤</i>Pin-face escapes</button>
+    <button class="tg" data-l="silk"   aria-pressed="true"><i style="color:#cfd6dd">Aa</i>Designators</button>
+    <button class="tg" data-l="xray"   aria-pressed="true"><i style="color:var(--violet)">◲</i>B-side x-ray</button>
+    <button class="tg" data-l="delta"  aria-pressed="true"><i style="color:var(--gold)">Δ</i>Δ vs V1N</button>
+  </div>
+
+  <div class="stagecap" id="stagecap"></div>
+  <div class="stage" id="stage"><svg id="board" xmlns="http://www.w3.org/2000/svg"></svg></div>
+  <div id="escwrap" hidden>
+    <div class="stagecap" style="padding-top:14px">S1N-R1 · LOCAL G4 ESCAPE STUDY — geometry MEASURED (footprint grid) · function SYMBOL-DERIVED (repair history — NXP cross-check REQUIRED) · assignments PROPOSED, NOT PINMUX-FROZEN · first 10–15 mm of K1BR / USB DN1 / FlexSPI / DCDC / service</div>
+    <div class="stage"><svg id="esc" xmlns="http://www.w3.org/2000/svg"></svg></div>
+  </div>
+
+  <div class="legend" id="legend">
+    <span><b style="background:var(--cyan)"></b>K1BR bridge</span>
+    <span><b style="background:var(--grn)"></b>USB 90 Ω</span>
+    <span><b style="background:var(--red)"></b>power / RF keepout</span>
+    <span><b style="background:var(--amber)"></b>service</span>
+    <span><b style="background:var(--mag)"></b>I²C spine (L4)</span>
+    <span><b style="background:var(--violet)"></b>SAI / PDM · B-side</span>
+    <span><b style="background:var(--orange)"></b>LED data / power</span>
+    <span><b style="background:var(--teal)"></b>NFC digital</span>
+    <span style="color:var(--faint)">hover any part for its placement reasoning</span>
+  </div>
+
+  <!-- ===================== V1 PANELS ===================== -->
+  <div class="cols" id="panels-v1">
+    <div class="panel">
+      <h2>V1 orientation register — pin-derived, 0/90/180/270 studied</h2>
+      <table>
+        <tr><th>Part</th><th>θ</th><th>Pin logic (verified faces)</th><th>Cost</th></tr>
+        <tr><td>U6 RT1062</td><td class="th">180°</td><td>K1BR→N corridor · USB OTG1+FlexSPI→W hub · all fixed service balls (SWD·UART·straps)+SAI/PDM→S corridor · LED→E</td><td>DCDC+flash crowd NW → flash goes B-side</td></tr>
+        <tr><td>U9 ESP32-S3</td><td class="th">180° locked</td><td>Antenna face S = 0 signals · K1BR→N · USB(IO19/20 fixed)→E toward hub · UART0/IO0→W bay</td><td>EN pin sits E — one slow 20 mm walk</td></tr>
+        <tr><td>USB2422 hub</td><td class="th">at capture</td><td>US→NW to J1 · DN1→E (8 mm) · DN2→W (6 mm); orient from real QFN map, bias DN shortness</td><td>US pair pays ~45 mm — the tolerant pair</td></tr>
+        <tr><td>U12 ST25R3916B</td><td class="th">90°</td><td>I²C/IRQ face→W spine · RFO/TX face→E matching→antenna · XTAL face→S, Y2 local</td><td>none — matching stays over solid L2</td></tr>
+        <tr><td>U11 ADC6120</td><td class="th">180°</td><td>TDM face→N to RT SAI drop · I²C/PDM-CLK→W · PDM-DATA→E to flex · VREF shelf→S</td><td>J8 ext-clock lives inside C4 east end</td></tr>
+        <tr><td>U8 flash</td><td class="th">B-side</td><td>directly under RT SD_B1 corner, six FlexSPI nets ≤8 mm</td><td>+6 via pairs, bottom assembly</td></tr>
+        <tr><td>U14/U15 + J2/J3</td><td class="th">shifters at connectors</td><td>3.3 V data travels; 5 V post-shifter stub &lt;3 mm; +5V_LED arrives as L3 region</td><td>~70 mm power run — paid in copper, not edges</td></tr>
+        <tr><td>J1 GT-USB-7005A</td><td class="th">N edge, x≈20</td><td>inlet + US pair on one edge; ≥25 mm from aperture; W mount pair takes insertion load</td><td>N-west seam is the densest corridor</td></tr>
+        <tr><td>SW/headers</td><td class="th">by owner</td><td>J6+SW2/SW3→W bay · SW1+U7 at RT-W · J5/J11/SW4/J4/J8→S service row</td><td>the pretty 4-switch row is dissolved</td></tr>
+        <tr><td>U6 at 45°</td><td class="th" style="color:var(--red)">rejected</td><td>0.8 mm BGA escape is rectilinear dogbone; diagonal breaks fanout + every corridor</td><td>—</td></tr>
+      </table>
+    </div>
+    <div class="panel">
+      <h2>Measured escapes per face (signals, power excluded)</h2>
+      <div class="esc">
+        <div>
+          <h3>U6 · RT1062 @180°</h3>
+          <div class="row"><span class="f">N</span><span class="bar2" style="width:35px;background:var(--cyan)"></span><span class="n">5 · K1BR</span></div>
+          <div class="row"><span class="f">W</span><span class="bar2" style="width:63px;background:var(--grn)"></span><span class="n">9 · USB DN1 + FlexSPI</span></div>
+          <div class="row"><span class="f">S</span><span class="bar2" style="width:105px;background:var(--amber)"></span><span class="n">15 · service + audio</span></div>
+          <div class="row"><span class="f">E</span><span class="bar2" style="width:14px;background:var(--orange)"></span><span class="n">2 · LED</span></div>
+        </div>
+        <div>
+          <h3>U9 · ESP32-S3 @180°</h3>
+          <div class="row"><span class="f">N</span><span class="bar2" style="width:35px;background:var(--cyan)"></span><span class="n">5 · K1BR</span></div>
+          <div class="row"><span class="f">E</span><span class="bar2" style="width:56px;background:var(--grn)"></span><span class="n">8 · USB + IRQ/EN</span></div>
+          <div class="row"><span class="f">W</span><span class="bar2" style="width:35px;background:var(--amber)"></span><span class="n">5 · UART0 / boot</span></div>
+          <div class="row"><span class="f">S</span><span class="bar2" style="width:3px;background:var(--red)"></span><span class="n" style="color:var(--grn)">0 · antenna face clean</span></div>
+        </div>
+      </div>
+      <div class="foot">
+        GPIO doctrine: only Class-F (fixed-silicon) pins are committed. Every movable
+        assignment is re-swept geometrically <em>after</em> placement freeze (D-031).
+        V1 board drawn at its .epro2 snapshot outline (158.0 × 38.0); the V2 study is bound
+        to the mandated 155.0 × 38.0.
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== V2 PANELS ===================== -->
+  <div class="cols" id="panels-v2" hidden>
+    <div class="panel">
+      <h2>V2 orientation register — recomputed from ball/pin coordinates</h2>
+      <table>
+        <tr><th>Part</th><th>θ</th><th>Pin logic</th><th>Cost</th></tr>
+        <tr><td>U6 RT1062</td><td class="th">90°</td><td>K1BR (LPSPI3 on AD face)→W straight to S3 · USB OTG1 (fixed)→N to hub · SAI2/3 (EMC)→E enclave · LED (FlexIO2/B)→S. SD_B0-native K1BR + USB-north is geometrically impossible on any rotation — two Class-G IOMUX moves resolve it (D-031 doing real work)</td><td>W face multiplexed (K1BR+fixed service); LED exits away from its connectors; LPSPI3 pad-set needs RM verification</td></tr>
+        <tr><td>U9 ESP32-S3</td><td class="th">90° · antenna WEST short edge, locked</td><td>Antenna face W = 0 signals · K1BR→E face, dead-on to RT · USB (fixed)→S face east end · UART0 (fixed)→N face west end · EN→S west end</td><td>DN2 pays ~50 mm with an under-body B-side leg</td></tr>
+        <tr><td>USB2422</td><td class="th">at capture</td><td>US→W to J1 (~15 mm) · DN1→SE to RT N face (~10 mm) · DN2→W</td><td>orientation from real QFN-24 map</td></tr>
+        <tr><td>U11 ADC6120</td><td class="th">270°</td><td>TDM face→W to RT east-face SAI2 (~14 mm) · I²C→S spine · VREF shelf→N · PDM wraps E to flex</td><td>PDM wraps one corner (~6 mm)</td></tr>
+        <tr><td>U12 ST25R3916B</td><td class="th">90°</td><td>digital W ← spine · RF E → matching → reserve · XTAL S</td><td>unchanged — V1 got this right</td></tr>
+        <tr><td>U14/U15</td><td class="th">at connectors</td><td>5 V stub &lt;3 mm; the 3.3 V RT→shifter run is the long, guarded segment with source-series R</td><td>V2's worst corridor: ~48 mm seam / L4 +2T</td></tr>
+        <tr><td>J1 TE 2129691-1</td><td class="th">N edge x≈44</td><td>THR shell posts anchor insertion load (why this MPN); US pair exits east; ≥35 mm from aperture</td><td>TE drawing dimensions pending verification</td></tr>
+        <tr><td>U13 LIS2DH12</td><td class="th">0° · (107,20)</td><td>stiffness-triangle interior, board neutral axis, away from insertion/cables/switches</td><td>re-derives when enclosure fixes mounts</td></tr>
+      </table>
+      <h2 style="margin-top:16px">B-side register — every part justified or it stays on top</h2>
+      <table>
+        <tr><th>B-side item</th><th>Justification</th></tr>
+        <tr><td>U8 flash</td><td>six FlexSPI nets become ≤8 mm dogbones under their own (NE) corner; frees the top NE courtyard for the DCDC island</td></tr>
+        <tr><td>Core decap ring</td><td>each cap's loop closes through the ball via field directly — lowest loop inductance this stack offers; top ring can't reach inner VDD_SOC balls cleanly</td></tr>
+        <tr><td>Hub straps + VBUS_DET divider</td><td>top face around the hub is reserved for three unbroken 90 Ω pairs; straps are DC</td></tr>
+        <tr><td>Boot-strap / K1BR series R</td><td>clears the top W courtyard where K1BR lands — removes the last face contention</td></tr>
+        <tr><td>Everything else</td><td>top — no qualifying reason exists. Unjustified B-side parts: 0</td></tr>
+      </table>
+    </div>
+    <div class="panel">
+      <h2>V2 escapes per face</h2>
+      <div class="esc">
+        <div>
+          <h3>U6 · RT1062 @90°</h3>
+          <div class="row"><span class="f">W</span><span class="bar2" style="width:91px;background:var(--amber)"></span><span class="n">13 · K1BR + fixed service</span></div>
+          <div class="row"><span class="f">N</span><span class="bar2" style="width:63px;background:var(--grn)"></span><span class="n">9 · USB + FlexSPI + POR</span></div>
+          <div class="row"><span class="f">E</span><span class="bar2" style="width:49px;background:var(--violet)"></span><span class="n">7 · SAI/PDM + DCDC</span></div>
+          <div class="row"><span class="f">S</span><span class="bar2" style="width:21px;background:var(--orange)"></span><span class="n">3 · LED</span></div>
+        </div>
+        <div>
+          <h3>U9 · ESP32-S3 @90°</h3>
+          <div class="row"><span class="f">E</span><span class="bar2" style="width:35px;background:var(--cyan)"></span><span class="n">5 · K1BR → RT, straight</span></div>
+          <div class="row"><span class="f">N</span><span class="bar2" style="width:35px;background:var(--amber)"></span><span class="n">~5 · UART0 + swept I²C</span></div>
+          <div class="row"><span class="f">S</span><span class="bar2" style="width:28px;background:var(--grn)"></span><span class="n">~4 · USB + EN</span></div>
+          <div class="row"><span class="f">W</span><span class="bar2" style="width:3px;background:var(--red)"></span><span class="n" style="color:var(--grn)">0 · antenna face clean</span></div>
+        </div>
+      </div>
+      <h2 style="margin-top:16px">Critical nets (Manhattan +15 %)</h2>
+      <table>
+        <tr><th>Net</th><th style="text-align:right">Length</th><th style="text-align:right">Transitions</th></tr>
+        <tr><td>K1BR S3↔RT</td><td class="num">~36 mm straight</td><td class="num">0 · sovereign</td></tr>
+        <tr><td>J1→hub US (HS)</td><td class="num">~15 mm</td><td class="num">0</td></tr>
+        <tr><td>hub→RT DN1 (HS)</td><td class="num">~10 mm</td><td class="num">0</td></tr>
+        <tr><td>hub→S3 DN2 (FS)</td><td class="num">~50 mm</td><td class="num">2 (L6 under body)</td></tr>
+        <tr><td>RT↔flash (FlexSPI)</td><td class="num">≤8 mm</td><td class="num">6 vias</td></tr>
+        <tr><td>RT↔ADC SAI2</td><td class="num">~14 mm</td><td class="num">0</td></tr>
+        <tr><td>RT→LED shifters (3.3 V)</td><td class="num">~48 mm</td><td class="num">0–2 (seam or L4)</td></tr>
+        <tr><td>+5V_LED switched branch</td><td class="num">~8 mm ≈ 0.5 mΩ</td><td class="num">switch at load</td></tr>
+      </table>
+      <div class="foot">Derivation order: outline/J1-TE/mounts → RF apertures → cable volumes →
+      RT centroid+rotation → escape faces → sovereign K1BR → USB P2P → flash → audio enclave →
+      LED split → power loops → motion (stiffness) → service → support. Zones drawn last, as output.</div>
+    </div>
+  </div>
+
+  <!-- ===================== V1N PANELS ===================== -->
+  <div class="cols" id="panels-v1n" hidden>
+    <div class="panel">
+      <h2>V1N — normalisation register (dimensional equalisation only, defects retained)</h2>
+      <table>
+        <tr><th>Normalised item</th><th>V1N state</th></tr>
+        <tr><td>Board</td><td class="th">155.0 × 38.0 × 1.60 mm, six-layer JLC06161H-3313 — east field compressed from the 158.0 snapshot; NFC island unified with S1N at x≈122.5 so island position is not a confound</td></tr>
+        <tr><td>J1</td><td>TE 2129691-1 / C590834 envelope, THR shell posts. <b style="color:var(--red)">Footprint, cutout and mounting geometry UNVERIFIED</b> — no mechanical closure is claimed until the TE customer drawing is checked</td></tr>
+        <tr><td>Mounting</td><td>H1 (7,32) · H2 (7,6) · H3 (121,31.5) + P4 passive rest — drawn as complete fastener envelopes (Ø7 head/washer + Ø8 boss ghost), identical in S1N</td></tr>
+        <tr><td>NFC reserve</td><td>x 126–155, full height, hardware-inclusive definition (connector bodies, fasteners, washers, standoffs, cable shields, enclosure bosses count as occupancy) — identical in S1N</td></tr>
+        <tr><td>Harness assumptions</td><td>J1 north cable ≥10 mm bend; LED cables north; mic flex per-variant position with identical bend volume; identical in S1N</td></tr>
+      </table>
+      <h2 style="margin-top:14px">V1 defects retained in V1N (so S1N deltas are measurable)</h2>
+      <table>
+        <tr><td>D-a</td><td style="color:var(--red)">J9 mic flex + full bend volume inside the NFC reserve corner (hardware-inclusive rule makes this a violation, not a near-miss)</td></tr>
+        <tr><td>D-b</td><td style="color:var(--red)">J10 U.FL + cable body inside the antenna field</td></tr>
+        <tr><td>D-c</td><td>All K1BR series resistors grouped at the S3 end regardless of signal direction</td></tr>
+        <tr><td>D-d</td><td>Source-side LED switch: ~70 mm of switched, inrush-carrying rail</td></tr>
+        <tr><td>D-e</td><td>“DN1 = 0 vias” claim — false: USB_OTG1 balls L8/M8 sit 7 rings deep; escape needs 2 transitions (MEASURED_FROM_GEOMETRY)</td></tr>
+        <tr><td>D-f</td><td>NW gateway asserted with arrows, never studied at ball level</td></tr>
+      </table>
+    </div>
+    <div class="panel">
+      <h2>Evidence labels used from here on</h2>
+      <table>
+        <tr><td>MEASURED_FROM_GEOMETRY</td><td>read off the drawn geometry / real ball map / real pin map</td></tr>
+        <tr><td>CALCULATED_FROM_STACKUP</td><td>computed from JLC06161H-3313 copper thickness + drawn width/length</td></tr>
+        <tr><td>ESTIMATED</td><td>Manhattan + 15 % or datasheet-typical value — not routed evidence</td></tr>
+        <tr><td>UNPROVEN</td><td>no evidence exists yet; must not be cited as fact</td></tr>
+      </table>
+      <div class="foot">V1N is not a proposal — it is the normalised baseline the synthesis is measured
+      against. The V1 · 158 tab is retained as the archived original; nothing in it was moved.</div>
+    </div>
+  </div>
+
+  <!-- ===================== S1N PANELS ===================== -->
+  <div class="cols" id="panels-s1n" hidden>
+    <div class="panel">
+      <h2>Directional termination register (S1N-R1 — series R at the driving end; LED path split into its two real segments)</h2>
+      <table>
+        <tr><th>Signal</th><th>Source</th><th>Destination</th><th>Series-R owner</th><th>Test access</th></tr>
+        <tr><td>K1BR_SCK</td><td>RT1062 (LPSPI1 master)</td><td>ESP32-S3</td><td class="th">RT end (NW gateway cluster)</td><td>TP at S3 end</td></tr>
+        <tr><td>K1BR_MOSI</td><td>RT1062</td><td>ESP32-S3</td><td class="th">RT end</td><td>TP at S3 end</td></tr>
+        <tr><td>K1BR_CS</td><td>RT1062</td><td>ESP32-S3</td><td class="th">RT end</td><td>TP at S3 end</td></tr>
+        <tr><td>K1BR_MISO</td><td>ESP32-S3</td><td>RT1062</td><td class="th">S3 end</td><td>TP at RT end</td></tr>
+        <tr><td>K1BR_IRQ</td><td>ESP32-S3</td><td>RT1062</td><td class="th">S3 end</td><td>TP at RT end</td></tr>
+        <tr><td>LED_D0/D1_3V3 (segment 1)</td><td>RT1062 (FlexIO2)</td><td>U14 / U15 <b>input</b></td><td class="th">RT end — optional source treatment (0R/33R, DNP default)</td><td>0R pad mid-run</td></tr>
+        <tr><td>LED_D0/D1_5V → J (segment 2)</td><td class="th">U14 / U15 <b>output</b> — the actual cable driver</td><td>J2 / J3 DATA</td><td class="th">R51 / R52 AT the shifter output (existing schematic designators — they stay with U14/U15, never at RT)</td><td>LED_Dx_J pad</td></tr>
+        <tr><td>PDM_CLK</td><td>capture master (RT or ADC, XOR)</td><td>IM69D130</td><td class="th">active master end (both pads exist in the XOR matrix)</td><td>TP4</td></tr>
+        <tr><td>AUDIO_MCLK/BCLK/FSYNC</td><td>RT default · J8 external override</td><td>ADC6120</td><td class="th">RT end; iso-R doubles as the isolation the contract requires</td><td>TP3 + J8</td></tr>
+        <tr><td>AUDIO_DOUT</td><td>ADC6120</td><td>RT1062</td><td class="th">ADC end (R37 stays load-side of nothing — moves to U11)</td><td>TP</td></tr>
+      </table>
+      <div class="foot">Schematic delta flagged: the captured netlist groups the R23-family at the S3
+      end — SCK/MOSI/CS resistors move to the RT gateway in one closed transaction before G4.
+      Designator hygiene: TPS2561 = <b>U17-PWR2</b> (repaired schematic; “U4” alias retired);
+      TPS2052B and USB2422 designators = <b>TBD, placeholders</b> until the hub island is captured.
+      No floorplan-only alias may be mistaken for schematic authority.</div>
+      <h2 style="margin-top:14px">Escape-study provenance (geometry ≠ function ≠ mux)</h2>
+      <table>
+        <tr><th>Net</th><th>Ball</th><th>Native pad</th><th>ALT / daisy</th><th>NVCC</th><th>Authority</th></tr>
+        <tr><td>LPUART1 TX/RX</td><td>K14 / L14</td><td>GPIO_AD_B0_12/13</td><td>RM lookup</td><td>NVCC_GPIO</td><td class="th">D-020 · RATIFIED FACT</td></tr>
+        <tr><td>BOOT_MODE0/1</td><td>F11 / G14</td><td>GPIO_AD_B0_04/05</td><td>—</td><td>NVCC_GPIO</td><td class="th">D-020 · RATIFIED FACT</td></tr>
+        <tr><td>SWD DIO/CLK</td><td>E14 / F12</td><td>GPIO_AD_B0_06/07</td><td>RM lookup</td><td>NVCC_GPIO</td><td>symbol + EVKB — cross-check</td></tr>
+        <tr><td>USB_OTG1 DP/DN</td><td>L8 / M8</td><td>fixed silicon</td><td>n/a</td><td>—</td><td>NXP DS — cross-check pending</td></tr>
+        <tr><td>K1BR ×5 (LPSPI1)</td><td>J1/J3/J4/K1(+IRQ)</td><td>SD_B0 field</td><td>RM-REQUIRED</td><td>NVCC_SD0</td><td style="color:var(--amber)">PROPOSED — NOT PINMUX-FROZEN</td></tr>
+        <tr><td>SAI1 + PDM</td><td>G12/H11/H12/J14 · J13/L13</td><td>AD_B1 field</td><td>RM-REQUIRED</td><td>NVCC_GPIO</td><td style="color:var(--amber)">PROPOSED — NOT PINMUX-FROZEN</td></tr>
+        <tr><td>LED_D0/D1 (FlexIO2)</td><td>D7 / E7</td><td>GPIO_B0_00/01</td><td>RM-REQUIRED</td><td>NVCC_GPIO</td><td style="color:var(--amber)">PROPOSED — NOT PINMUX-FROZEN</td></tr>
+        <tr><td>MOTION_INT · THERM ADC</td><td>L11 · K12/L12</td><td>AD field (ADC-capable)</td><td>RM-REQUIRED</td><td>NVCC_GPIO</td><td style="color:var(--amber)">PROPOSED — NOT PINMUX-FROZEN</td></tr>
+      </table>
+      <div class="foot">The project U6 symbol has a documented repair history (bad DCDC naming, wrong
+      ball landings in the older repair register). Ball GEOMETRY above is measured from the footprint
+      grid; ball FUNCTION is symbol-derived and requires NXP ball-map cross-check; mux assignment
+      authority is the frozen K1 pinmux contract, which does not exist yet. “Measured from geometry”
+      never implies “electrically ratified.”</div>
+      <h2 style="margin-top:14px">S1N mandatory changes applied</h2>
+      <table>
+        <tr><td>1</td><td>J9 + full flex/bend volume out of the NFC field → south edge x≈120 (hardware-inclusive reserve now empty)</td></tr>
+        <tr><td>2</td><td>J10 + cable body → x≈121.5, WEST of the pure antenna field; 0R XOR selection between integrated loop and external path; external tap is DNP-default and its stub consequence is stated on the render</td></tr>
+        <tr><td>3</td><td>V2 enclave rule-set on the V1 audio zone — 3 named, justified crossings; 0 unnamed (register on the render)</td></tr>
+        <tr><td>4</td><td>Switch-at-load LED protection with the full source/return/fault worksheet (right panel)</td></tr>
+        <tr><td>5</td><td>NW gateway arrows replaced by the ball-level escape study (second viewport below the board)</td></tr>
+        <tr><td>6</td><td>Directional terminations (table above)</td></tr>
+        <tr><td>7+8</td><td>Combined B-side owner-shadow with NXP-style bottom decoupling and DCDC switch-node exclusion. The escape study FALSIFIED the easy coexistence claim (LP/SD_B1 interleave) and replaced it with a drawn, conditional containment scheme — which is the point of drawing it</td></tr>
+      </table>
+    </div>
+    <div class="panel">
+      <h2>LED power / fault / thermal worksheet (per channel unless stated)</h2>
+      <table>
+        <tr><th>Item</th><th>Value</th><th>Evidence</th></tr>
+        <tr><td>5V_SYS trunk (RSH1 → x≈100)</td><td>~66 mm · L3 region 12 mm × 15.2 µm + L1 reinforcement 8 mm × 35 µm</td><td>MEASURED (drawn)</td></tr>
+        <tr><td>Trunk resistance / drop @ 3 A both ch</td><td>≈2.5–3 mΩ → ≈8 mV · ΔT &lt; 5 °C</td><td>CALCULATED_FROM_STACKUP / ESTIMATED (IPC-2152 scale)</td></tr>
+        <tr><td>Switched branch (U4 → FB → J2/J3)</td><td>~8 mm · 6 mm × 35 µm ≈ 0.7 mΩ copper</td><td>CALCULATED_FROM_STACKUP</td></tr>
+        <tr><td>TPS2561 R<sub>ON</sub> · FB DCR</td><td>≈26 mΩ typ · ≈15 mΩ typ — the ferrite, not copper, dominates</td><td>ESTIMATED (datasheet-typical)</td></tr>
+        <tr><td>Drop @ 1.5 A limit</td><td>≈39 + 22 + 1 + 4(share of trunk) ≈ 66–70 mV</td><td>ESTIMATED</td></tr>
+        <tr><td>ΔT @ limit</td><td>switch package &lt;15 °C at 59 mW/ch; copper negligible</td><td>ESTIMATED · UNPROVEN until thermal pass</td></tr>
+        <tr><td>Neck-downs</td><td>none permitted &lt;6 mm on branches; trunk taps = 6 × Ø0.45 via arrays</td><td>MEASURED (rule, drawn)</td></tr>
+        <tr><td>Connector bulk C</td><td>2 × 22 µF/ch at J2/J3 + trunk bulk at source</td><td>drawn</td></tr>
+        <tr><td>Return path</td><td>L2 unbroken under trunk + branches; ≥4 GND vias per connector</td><td>MEASURED (drawn)</td></tr>
+        <tr><td>Fault coverage — source side</td><td>eFuse (global) + RSH1/INA226 monitor + INA_ALERT</td><td>netlist</td></tr>
+        <tr><td>Fault coverage — load side</td><td>U17-PWR2 per-channel limit (RILIM ≈1.5 A — <b>worksheet assumption, value TBD by contract</b>) + thermal shutdown + PG → RT (sweep pin)</td><td>datasheet / netlist · limit PROPOSED Δ</td></tr>
+        <tr><td>Channel independence</td><td>L fault does not drop R: separate switch halves, shared protected IN</td><td>topology</td></tr>
+        <tr><td>Switch OFF / faulted</td><td>connector +5 V dead (bulk discharges into load); 5V_SYS trunk stays up; LED_OE_L/R gates the shifter so no data drives an unpowered strip</td><td>netlist (LED_OE nets exist)</td></tr>
+      </table>
+      <h2 style="margin-top:14px">B-side coexistence register</h2>
+      <table>
+        <tr><th>B-side item</th><th>Coexistence proof</th></tr>
+        <tr><td>U8 flash (under SD_B1)</td><td>FINDING: DCDC_LP ball columns interleave SD_B1 — ≥3 mm is impossible. Coexistence instead by: flash shifted SW (~1.5–2.5 mm lateral, MEASURED), switch-node copper confined to L1 north of the package with a via fence, B-side exposed only to plane-shielded balls; 2 mm rework ring kept clear. CONDITIONAL on a noise check</td></tr>
+        <tr><td>Core decap (NXP-style, under BGA centre)</td><td>lives inside the fan-out via field; loops close through ball vias; clear of the flash ring</td></tr>
+        <tr><td>Boot straps (under S face)</td><td>DC; clears the top service face</td></tr>
+        <tr><td>K1BR RT-end series R (under N face)</td><td>keeps the top gateway for K1BR + DN1 copper; resistors sit beside the escape vias they serve</td></tr>
+        <tr><td>DCDC field</td><td>B-side under the switch node = GND + return only — component keepout drawn; NO parts under the node projection</td></tr>
+        <tr><td>Fan-out vias</td><td>dogbone field drawn in the escape study; assembly clearance ≥0.3 mm via-to-pad maintained</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <!-- ===================== VERDICT ===================== -->
+  <div id="panels-verdict" hidden>
+    <div class="panel">
+      <h2>Corrected comparison matrix — V1N vs S1N-R1 (normalised: same outline, J1 D-050 reserve, mounts, reserve, harness, stack)</h2>
+      <div style="overflow-x:auto"><table>
+        <tr><th>Metric</th><th>V1N</th><th>S1N</th><th>Evidence</th></tr>
+        <tr><td>RT↔S3 K1BR</td><td>~32 mm arc; escape needs ~4 vias (J3/J4 inner rings) — “0 via” withdrawn</td><td class="th">same geometry + directional terminations (RT-end R in gateway)</td><td>length ESTIMATED · via count MEASURED_FROM_GEOMETRY</td></tr>
+        <tr><td>J1 mechanical basis</td><td colspan="2">D-050 MECHANICAL RESERVE in both — GT-USB-7005A SELECTED, BIND PENDING; TE archived fallback; west-bay geometry NOT authoritative until bind</td><td>UNPROVEN (bind pending)</td></tr>
+        <tr><td>J1↔hub US</td><td>~45 mm, L1, 0T</td><td>≈45 mm — <b>REMEASURE AT BIND</b>, not preserved by assumption</td><td>ESTIMATED · UNPROVEN at bind</td></tr>
+        <tr><td>D11 island occupancy</td><td>3 ICs drawn, under-bounded</td><td class="th">whole-island census ≈240 mm² → 20×13 mm reserved envelope; validity source + kill logic PARAMETRISED</td><td>CALCULATED (census) · UNPROVEN (source part)</td></tr>
+        <tr><td>Ball-function provenance</td><td>implied by “measured”</td><td class="th">split: geometry MEASURED · function symbol-derived (NXP cross-check) · assignments PROPOSED, NOT PINMUX-FROZEN (D-020 rows excepted)</td><td>per provenance table</td></tr>
+        <tr><td>hub↔RT DN1</td><td>~8 mm + <b>2 transitions</b> (L8/M8 are 7 rings deep → L6 escape over L5)</td><td class="th">same, now drawn in the escape study</td><td>MEASURED_FROM_GEOMETRY</td></tr>
+        <tr><td>hub↔S3 DN2</td><td>~6 mm, 0T</td><td>same</td><td>ESTIMATED</td></tr>
+        <tr><td>RT↔flash</td><td>≤8 mm, 6 vias, B-side — coexistence with DCDC asserted</td><td class="th">coexistence CONDITIONAL — drawing FALSIFIED the ≥3 mm claim: DCDC_LP columns interleave SD_B1 (~1.5–2.5 mm). Fix drawn: node copper L1-only + via fence, B-side plane-shielded, flash shifted SW, rework ring</td><td>MEASURED_FROM_GEOMETRY (finding) · UNPROVEN (noise)</td></tr>
+        <tr><td>RT↔audio (SAI)</td><td>~20 mm, 0T</td><td class="th">same, through a named NW gate in the enclave wall</td><td>ESTIMATED</td></tr>
+        <tr><td>RT↔LED logic</td><td>~15–25 mm; skirts the enclave unnamed</td><td>~26 mm rerouted N of the enclave, ≥2 mm + guard</td><td>ESTIMATED · clearance MEASURED</td></tr>
+        <tr><td>LED switched-path R</td><td>~70 mm switched rail ≈5–7 mΩ copper + R<sub>ON</sub>+DCR</td><td class="th">~8 mm ≈0.7 mΩ copper; total drop @1.5 A ≈66–70 mV (R<sub>ON</sub> 26 + DCR 15 dominate)</td><td>CALCULATED_FROM_STACKUP + ESTIMATED (datasheet)</td></tr>
+        <tr><td>Enclave aggressor crossings</td><td>2, unnamed</td><td class="th">3, each named + justified (SAI gate · I²C L4 · THERM L4/RC) · 0 unnamed</td><td>MEASURED (drawn register)</td></tr>
+        <tr><td>NFC field hardware (hardware-inclusive)</td><td style="color:var(--red)">J9 flex + bend volume + J10 + cable inside</td><td class="th">0 — nearest fastener envelope edge 124.5 &lt; 126</td><td>MEASURED_FROM_GEOMETRY</td></tr>
+        <tr><td>High-speed transitions</td><td>2 (DN1) + 6 flash — corrected from the false “0 USB”</td><td>same</td><td>MEASURED_FROM_GEOMETRY</td></tr>
+        <tr><td>B-side</td><td>1 group, no coexistence study</td><td class="th">4 groups + via field + DCDC keepout + rework rings, drawn</td><td>MEASURED (drawn)</td></tr>
+        <tr><td>NW gateway</td><td>arrows, unstudied</td><td class="th">local G4 escape study at real ball positions</td><td>MEASURED_FROM_GEOMETRY (routing itself remains G4 work)</td></tr>
+        <tr><td>Thermal cluster</td><td>UNPROVEN</td><td>UNPROVEN — flagged, not claimed</td><td>UNPROVEN</td></tr>
+        <tr><td>Free VAL experiment area</td><td>~13 %</td><td>~15 %</td><td>ESTIMATED</td></tr>
+      </table></div>
+
+      <div class="vgrid">
+        <div>
+          <h2>Disposition — every studied idea lands in exactly one row (RATIFIED / PROMOTED are reserved for actual authority changes and appear nowhere here)</h2>
+          <table>
+            <tr><td class="th">SELECTED INTO S1N STUDY</td><td>155.0 normalisation · TE 2129691-1 envelope (geometry UNVERIFIED) · J9 out of the NFC field · J10 + selection XOR west of the field · enclave rule-set with named gates · switch-at-load LED protection · directional terminations · B-side owner-shadow set (flash, NXP-style decap, straps, RT-end terms) · DCDC node exclusion + flash separation · hardware-inclusive reserve definition · fastener envelopes · chassis/ESD provision at cable entries</td></tr>
+            <tr><td class="th" style="color:var(--amber)">CONDITIONAL</td><td>DN1 L6 escape dressing incl. return-via structure (full G4 escape + impedance run must confirm) · LED-data guarded reroute (noise check) · U13 position (mount-dependent stiffness/modal hypothesis) · connector positions (enclosure egress not authoritative) · H3 RF margin (~3 mm + 2 mm exclusion — NOT RF-qualified) · RT θ180 baseline (conditional on the authoritative NXP pinmap cross-check) · DCDC↔flash containment (noise check)</td></tr>
+            <tr><td class="th" style="color:var(--cyan)">FALLBACK</td><td>West-short-edge S3 (“RF-C fallback” per Captain — note: name collides with G3 §3's RF-C cavity; flagged for the terminology check). NOT qualified until: antenna genuinely off-board or manufacturer cutout; ≥15 mm 3-D sphere enforced; SW2/SW3 + finger volume moved east of x≈22 (currently ~8.4 mm — violation, MEASURED); J6 cable bend included; false 25/35 mm claims corrected (nearest USB copper ≈18 mm on L6 under module GND; J1 body ≈32.7 mm — MEASURED); feed-side GND pour + via fence added</td></tr>
+            <tr><td class="th" style="color:var(--red)">REJECTED</td><td>45° RT rotation · 90° RT / LPSPI3 / SAI2 as baseline (kept only as the escalation package) · all series R at one end · J9/J10 inside the NFC field · any “zero-via” or “0 USB transitions” claim not shown geometrically · Manhattan numbers presented as routed evidence</td></tr>
+            <tr><td class="th" style="color:var(--faint)">UNPROVEN</td><td>TE 2129691-1 drawing/CAD (blocks mechanical closure) · LPSPI3 pad-set legality (RM) · full BGA escape (G4 gate D-026/D-031) · thermal cluster · LED-seam noise · enclosure egress · DN2 under-body copper sign-off (fallback only)</td></tr>
+          </table>
+        </div>
+        <div>
+          <h2>Escalation package — 90° architecture, preserved not promoted</h2>
+          <div class="foot" style="margin-top:0">Before the V2 90° RT / LPSPI3 / SAI2 architecture may ever be promoted, a
+          global pinmux proof must exist with one row per moved signal:
+          <b>MIMXRT1062DVJ6B (196 MAPBGA)</b> · exact pad · mux ALT mode · input-daisy register ·
+          IO rail (NVCC bank) · DMA request line · clock root · boot-pin interaction · conflicts ·
+          firmware changes. Rows currently fillable from verified data: ball positions and NVCC
+          banks. Rows that are UNPROVEN until IMXRT1060RM lookup: every ALT mode, daisy, and DMA
+          mapping. The package lives in PLACEMENT-V2-STAR-STUDY.md and is not layout authority.</div>
+          <h2 style="margin-top:14px">Archived V1 ⇄ V2 adversarial findings</h2>
+          <div class="foot" style="margin-top:0">The original ten findings stand as recorded in the two study
+          documents; the ones that survived normalisation are absorbed above (J9/NFC, gateway,
+          switch-at-load, face budgets, outline). The ones the normalisation dissolved
+          (board-length asymmetry, J1 MPN asymmetry) are closed. S1-N is the single comparable
+          floorplan pair; V1 · 158 and V2 remain archive tabs, untouched.</div>
+          <div class="rec" style="margin-top:14px">
+            <b>S1N-R1 standing:</b> STUDY_INPUT · BINDING = NO. No authoritative EasyEDA or PCB coordinate
+            was changed. S1N-R1 is S1N rebased onto current authority — 7 moves, each with a written
+            physical cause, zero topology changes, no movement for aesthetic tidying. It is the sole
+            candidate architecture and the recommended G4 entry floorplan; V1N remains the measured
+            negative control; the west-edge arrangement stays the corrected fallback; the 90°
+            architecture stays the escalation package behind its pinmux proof. Not reopened: the
+            longitudinal-vs-star question, J9/J10 in the NFC field, source-side LED switching,
+            single-end K1BR terminations, “zero-via DN1”, 45°/90° baselines.
+          </div>
+        </div>
+      </div>
+      <h2 style="margin-top:18px">JLC fabrication-constraints register (8 help articles, fetched 2026-08-29)</h2>
+      <table>
+        <tr><th>Constraint</th><th>JLC figure</th><th>Effect on S1N-R1</th><th>Status</th></tr>
+        <tr><td>BGA escape ≥4L</td><td>0.09 trace / 0.10 clearances / drill-to-pad 0; escape trace 0.09 (0.076 at cost)</td><td>one-trace-between-balls feasible at 0.8 mm → outer TWO rings on L1, as drawn</td><td>CAPABILITY · CALCULATED (land Ø pending, D-034)</td></tr>
+        <tr><td>Via-in-pad</td><td>forced only at 0.5 mm pitch; fill drill ≥0.15 / pad ≥0.35; <b>POFV free 6–20L</b></td><td>0.8 mm dogbones stay conventional; B-side decap/via-field may use POFV at zero cost</td><td>CAPABILITY — supports D-034</td></tr>
+        <tr><td>Via covering</td><td>ink plug invalid &lt;0.35 mm from pads; epoxy/Cu fill ≤0.5 mm holes; resin fill free ≥6L; tent ≤0.4 mm</td><td>B-side decap + DN1 return vias: tent or fill+cap, never ink-plug</td><td>BINDING on §B-side</td></tr>
+        <tr><td>Copper weights</td><td>inner 0.5 oz ≈15.2 µm (worksheet value VERIFIED); outer finished ≈40 µm vs 35 µm assumed</td><td>LED drop numbers stand, slightly conservative in K1's favour</td><td>VERIFIED / CALCULATED</td></tr>
+        <tr><td style="color:var(--amber)">Inner copper coverage</td><td>&lt;25 % → pour required; sparse inner copper → prepreg thinning, warpage</td><td><b>NEW: the ~27 mm all-layer copper-free NFC end on a 155 mm board is a named JLC DFM consultation item — the antenna field is not compromised without that answer</b></td><td style="color:var(--amber)">UNPROVEN · DFM question</td></tr>
+        <tr><td>Back-drill</td><td>available; 0.15 mm clearance to kept layer</td><td>deliberately NOT used: DN1 through-via has no stub; K1BR L1→L4 stub ~0.75 mm at SPI speed</td><td>decision recorded with reason</td></tr>
+        <tr><td>Mask-defined pads</td><td>mask overlaps pad ≥3 mil all sides; order via Remark + Confirm Production File</td><td>NSMD-vs-SMD stays D-034 open; ordering path recorded for whichever wins</td><td>CAPABILITY</td></tr>
+        <tr><td>Drill tool list</td><td>self-contained M48/% header with T#C# table, units consistent</td><td>added to the G7 export gate beside the explicit-Gerber-layer rule</td><td>G7 gate item</td></tr>
+      </table>
+      <div class="foot">Full register with sources: pcb/FAB-CONSTRAINTS-JLC.md · capability figures are JLC-published; application to K1 stays conditional until land geometry and the ordered stack are frozen.</div>
+    </div>
+  </div>
+
+  <div class="foot">S1N-R1 current-authority rebase — STUDY_INPUT · BINDING=NO · no authoritative PCB coordinates changed.
+  Both V1N and S1N-R1: 155.0 × 38.0 × 1.60 mm six-layer; J1 = D-050 MECHANICAL RESERVE (GT-USB-7005A / C5250872 SELECTED, BIND PENDING; TE archived fallback);
+  identical mounting envelopes (H3 relocated in S1N-R1 with written cause), hardware-inclusive NFC reserve, harness and copper-stack assumptions.
+  Companion docs: <span style="color:var(--dim)">pcb/floorplan/PLACEMENT-S1N-SYNTHESIS.md · PLACEMENT-S1N-R1-REBASE.md</span></div>
+</div>
+
+<script>
+'use strict';
+const NS='http://www.w3.org/2000/svg';
+const S=10, MX=52, MY=58, BH=38;
+const W=MX*2+158*S, H=MY+BH*S+66;
+const svg=document.getElementById('board');
+svg.setAttribute('viewBox',`0 0 ${W} ${H}`);
+const X=x=>MX+x*S, Y=y=>MY+(BH-y)*S;
+function el(t,a,p){const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);(p||svg).appendChild(e);return e}
+function tip(g,s){const t=document.createElementNS(NS,'title');t.textContent=s;g.appendChild(t)}
+function txt(p,x,y,s,size,fill,anchor,extra){const t=el('text',Object.assign({x,y,'font-size':size,fill,'text-anchor':anchor||'middle'},extra||{}),p);t.textContent=s;return t}
+
+/* ---------- defs ---------- */
+const defs=el('defs',{});
+function grad(id,stops,x1,y1,x2,y2){const g=el('linearGradient',{id,x1,y1,x2,y2},defs);
+  stops.forEach(([o,c])=>el('stop',{offset:o,'stop-color':c},g));}
+grad('gMask',[["0","#181b1e"],[".45","#101215"],["1","#0c0e11"]],"0","0","0","1");
+grad('gSheen',[["0","rgba(255,255,255,.10)"],[".18","rgba(255,255,255,.02)"],[".5","rgba(255,255,255,0)"],["1","rgba(255,255,255,.045)"]],"0","0","1","1");
+grad('gSteel',[["0","#f4f7fa"],[".35","#b9c2cb"],[".6","#8f99a3"],["1","#dbe2e8"]],"0","0","0","1");
+grad('gShield',[["0","#e8edf1"],[".4","#aeb8c1"],[".7","#98a2ab"],["1","#cfd6dc"]],"0","0","1","1");
+grad('gGold',[["0","#f6dd94"],[".5","#d9b45b"],["1","#a97f2c"]],"0","0","0","1");
+grad('gBody',[["0","#2b2e33"],[".5","#17191c"],["1","#0e1013"]],"0","0","0","1");
+grad('gBeige',[["0","#efe7d2"],[".6","#d9cdb0"],["1","#bdb08f"]],"0","0","0","1");
+grad('gInd',[["0","#3a3f45"],[".5","#23272c"],["1","#15181c"]],"0","0","0","1");
+const fS=el('filter',{id:'fS',x:'-40%',y:'-40%',width:'180%',height:'180%'},defs);
+el('feDropShadow',{dx:'0',dy:'1.6',stdDeviation:'1.4','flood-color':'#000','flood-opacity':'.6'},fS);
+const fB=el('filter',{id:'fB',x:'-6%',y:'-24%',width:'112%',height:'150%'},defs);
+el('feDropShadow',{dx:'0',dy:'9',stdDeviation:'11','flood-color':'#000','flood-opacity':'.65'},fB);
+const fN=el('filter',{id:'fN'},defs);
+el('feTurbulence',{type:'fractalNoise',baseFrequency:'.9',numOctaves:'2',result:'n'},fN);
+el('feColorMatrix',{in:'n',type:'matrix',values:'0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 .05 0'},fN);
+const hat=el('pattern',{id:'hat',width:'7',height:'7',patternUnits:'userSpaceOnUse',patternTransform:'rotate(45)'},defs);
+el('rect',{width:7,height:7,fill:'rgba(240,96,76,.05)'},hat);
+el('rect',{width:2.2,height:7,fill:'rgba(240,96,76,.28)'},hat);
+
+/* ---------- layers ---------- */
+const Lboard=el('g',{}), Lzone=el('g',{id:'zones'}), Lcomp=el('g',{}), Lxray=el('g',{id:'xray'}),
+      Lsilk=el('g',{id:'silk'}), Lrf=el('g',{id:'rf'}), Lcorr=el('g',{id:'corr'}),
+      Lface=el('g',{id:'faces'}), Ldelta=el('g',{id:'delta'}), Lrule=el('g',{});
+[Lboard,Lzone,Lcomp,Lxray,Lsilk,Lrf,Lcorr,Lface,Ldelta,Lrule].forEach(g=>svg.appendChild(g));
+const LAYERS=[Lboard,Lzone,Lcomp,Lxray,Lsilk,Lrf,Lcorr,Lface,Ldelta,Lrule];
+
+/* ---------- painters ---------- */
+const M=v=>v*S;
+function place(x,y,rot){const g=el('g',{class:'comp',transform:`translate(${X(x)},${Y(y)})`+(rot?` rotate(${-rot})`:'')},Lcomp);return g}
+function body(g,w,h,rx,fill){return el('rect',{class:'body',x:-M(w)/2,y:-M(h)/2,width:M(w),height:M(h),rx:rx,fill:fill||'url(#gBody)',filter:'url(#fS)'},g)}
+function pin1(g,dx,dy){el('circle',{cx:M(dx),cy:M(dy),r:2.4,fill:'#c9ced4',opacity:.9},g)}
+function lbl(g,s,size,dy,fill){txt(g,0,dy||1.5,s,size||6,fill||'#9aa2ab','middle',{'letter-spacing':'.04em'})}
+function leads(g,w,h,n){for(let i=0;i<n;i++){const t=n===1?0:(i/(n-1)-.5),y=t*M(h*0.66);
+  el('rect',{x:-M(w)/2-4.5,y:y-1.7,width:5,height:3.4,fill:'url(#gSteel)'},g);
+  el('rect',{x: M(w)/2-0.5,y:y-1.7,width:5,height:3.4,fill:'url(#gSteel)'},g);}}
+function qfnTicks(g,w,h){const nx=Math.max(4,Math.round(w*2)),ny=Math.max(4,Math.round(h*2));
+  for(let i=0;i<nx;i++){const x=(i/(nx-1)-.5)*M(w*.8);
+    el('rect',{x:x-1,y:-M(h)/2-1.4,width:2,height:2.8,fill:'url(#gGold)'},g);
+    el('rect',{x:x-1,y:M(h)/2-1.4,width:2,height:2.8,fill:'url(#gGold)'},g);}
+  for(let i=0;i<ny;i++){const y=(i/(ny-1)-.5)*M(h*.8);
+    el('rect',{x:-M(w)/2-1.4,y:y-1,width:2.8,height:2,fill:'url(#gGold)'},g);
+    el('rect',{x:M(w)/2-1.4,y:y-1,width:2.8,height:2,fill:'url(#gGold)'},g);}}
+const draw={
+ usbc(g){body(g,8.9,7.4,4,'url(#gSteel)');
+   el('rect',{x:-M(8.9)/2+2,y:-M(7.4)/2+2,width:M(8.9)-4,height:9,rx:4,fill:'#2c3339'},g);
+   el('rect',{x:-M(6.6)/2,y:-M(7.4)/2+4.5,width:M(6.6),height:4.5,rx:2.2,fill:'#0d0f11'},g);
+   for(let i=0;i<10;i++)el('rect',{x:-M(5.4)/2+i*M(5.4)/9,y:M(7.4)/2-2,width:2,height:4.6,fill:'url(#gGold)'},g);},
+ usbcRes(g){ // J1 D-050 MECHANICAL RESERVE: envelope bounding both candidates
+   el('rect',{x:-M(10.6)/2,y:-M(8.6)/2,width:M(10.6),height:M(8.6),rx:5,fill:'rgba(217,180,91,.07)',
+     stroke:'var(--gold)','stroke-dasharray':'6 4','stroke-width':1.6},g);
+   el('rect',{x:-M(8.9)/2,y:-M(7.3)/2,width:M(8.9),height:M(7.3),rx:4,fill:'url(#gSteel)',opacity:.45},g);
+   el('rect',{x:-M(6.6)/2,y:-M(7.3)/2+4,width:M(6.6),height:4.5,rx:2.2,fill:'#0d0f11',opacity:.6},g);
+   txt(g,0,3,'D-050',6.5,'var(--gold)','middle',{'font-weight':'600'});
+   txt(g,0,12,'RESERVE',5.5,'rgba(217,180,91,.8)');},
+ usbcTE(g){ // TE 2129691-1: THR shell posts drawn as barrels
+   body(g,9.0,7.35,4,'url(#gSteel)');
+   el('rect',{x:-M(9)/2+2,y:-M(7.35)/2+2,width:M(9)-4,height:9,rx:4,fill:'#2c3339'},g);
+   el('rect',{x:-M(6.6)/2,y:-M(7.35)/2+4.5,width:M(6.6),height:4.5,rx:2.2,fill:'#0d0f11'},g);
+   [[-4.2,-1.2],[4.2,-1.2],[-4.2,2.6],[4.2,2.6]].forEach(([dx,dy])=>{
+     el('circle',{cx:M(dx),cy:M(dy),r:5.4,fill:'url(#gGold)'},g);
+     el('circle',{cx:M(dx),cy:M(dy),r:2.6,fill:'#0a0c10'},g);});
+   for(let i=0;i<10;i++)el('rect',{x:-M(5.4)/2+i*M(5.4)/9,y:M(7.35)/2-2,width:2,height:4.6,fill:'url(#gGold)'},g);},
+ module(g){const w=18,h=25.5;body(g,w,h,3,'#0e1114');
+   el('rect',{x:-M(w)/2,y:-M(h)/2,width:M(w),height:M(h),rx:3,fill:'url(#gSheen)'},g);
+   for(let i=0;i<13;i++){const y=-M(h)/2+8+i*M(1.45);
+     el('circle',{cx:-M(w)/2,cy:y,r:2.6,fill:'url(#gGold)'},g);
+     el('circle',{cx: M(w)/2,cy:y,r:2.6,fill:'url(#gGold)'},g);}
+   for(let i=0;i<11;i++){const x=-M(w)/2+12+i*M(1.45);
+     el('circle',{cx:x,cy:-M(h)/2,r:2.6,fill:'url(#gGold)'},g);}
+   el('rect',{x:-M(w-2)/2,y:-M(h)/2+5,width:M(w-2),height:M(16.5),rx:2.5,fill:'url(#gShield)',filter:'url(#fS)'},g);
+   el('rect',{x:-M(w-2)/2,y:-M(h)/2+5,width:M(w-2),height:M(16.5),rx:2.5,fill:'none',stroke:'rgba(0,0,0,.35)'},g);
+   txt(g,0,-M(h)/2+38,'ESP32-S3-WROOM-1',7,'#41474d','middle',{'font-weight':'600'});
+   txt(g,0,-M(h)/2+48,'N16R8',6.5,'#565d64');
+   txt(g,0,-M(h)/2+59,'· FCC ID 2AC7Z ·',4.6,'#6a7178');
+   const ay=M(h)/2-M(6), p=[];let dir=1;
+   for(let i=0;i<7;i++){const x=-M(6.6)+i*M(2.2);
+     p.push(`M ${x} ${ay+4} V ${ay+M(6)-6} `);
+     if(i<6)p.push(`M ${x} ${dir>0?ay+4:ay+M(6)-6} H ${x+M(2.2)} `);dir=-dir;}
+   el('path',{d:p.join(''),stroke:'url(#gGold)','stroke-width':4,fill:'none'},g);
+   pin1(g,7.6,11.4);},
+ bga(g,o){const s=o.s;body(g,s,s,2.5);
+   el('rect',{x:-M(s)/2+3,y:-M(s)/2+3,width:M(s)-6,height:M(s)-6,rx:1.5,fill:'#1c1f23'},g);
+   el('rect',{x:-M(s)/2,y:-M(s)/2,width:M(s),height:M(s),rx:2.5,fill:'url(#gSheen)'},g);
+   txt(g,0,-8,'MIMXRT1062',8.5,'#b9c0c7','middle',{'letter-spacing':'.06em'});
+   txt(g,0,4,'DVJ6B',7.5,'#868d94');
+   txt(g,0,15,o.th||'196 · 0.8 P',6,'#5b6167');
+   const p=o.p1||[s/2-1.5,-(s/2-1.5)];
+   pin1(g,p[0],p[1]);txt(g,M(p[0])-(p[0]>0?14:-14),M(p[1])+(p[1]>0?-6:9),'A1',5,'#7c838a');},
+ qfn(g,o){qfnTicks(g,o.w,o.h);body(g,o.w,o.h,2);
+   el('rect',{x:-M(o.w)*.22,y:-M(o.h)*.22,width:M(o.w)*.44,height:M(o.h)*.44,fill:'#22262b'},g);
+   if(o.t)lbl(g,o.t,Math.min(6.5,M(o.w)/2.6),2,'#9aa2ab');
+   pin1(g,-(o.w/2-.45),-(o.h/2-.45));
+   if(o.pend){el('rect',{x:-M(o.w)/2-4,y:-M(o.h)/2-4,width:M(o.w)+8,height:M(o.h)+8,rx:3,
+     fill:'none',stroke:'var(--amber)','stroke-dasharray':'4 3',opacity:.85},g);}},
+ sot(g,o){leads(g,o.w,o.h,o.n||3);body(g,o.w,o.h,1.5);if(o.t)lbl(g,o.t,5.4,1.5)},
+ msop(g,o){leads(g,o.w,o.h,5);body(g,o.w,o.h,1.5);lbl(g,o.t,5.6,1.5)},
+ soic(g,o){leads(g,o.w,o.h,4);body(g,o.w,o.h,2);lbl(g,o.t,6,1.5);pin1(g,-(o.w/2-.6),-(o.h/2-.7))},
+ soicB(g,o){el('rect',{x:-M(o.w)/2,y:-M(o.h)/2,width:M(o.w),height:M(o.h),rx:2,
+    fill:'rgba(180,140,230,.10)',stroke:'var(--violet)','stroke-dasharray':'5 3','stroke-width':1.4},g);
+    lbl(g,o.t,6,-2,'#b48ce6');lbl(g,o.t2||'B-SIDE',5,8,'#8f6fc0')},
+ xh(g){body(g,9.8,5.8,1.2,'url(#gBeige)');
+   el('rect',{x:-M(9.8)/2+2.4,y:-M(5.8)/2+2.4,width:M(9.8)-4.8,height:M(5.8)-2,fill:'#8f8264'},g);
+   for(let i=0;i<3;i++)el('rect',{x:-M(2.5)+i*M(2.5)-1.5,y:-3,width:3,height:12,fill:'url(#gSteel)'},g);},
+ hdr(g,o){const n=o.n,vert=o.vert,L=n*2.54;
+   if(vert){body(g,2.6,L,1);for(let i=0;i<n;i++)el('rect',{x:-4.2,y:-M(L)/2+M(1.27)+i*M(2.54)-4.2,width:8.4,height:8.4,fill:'url(#gGold)',rx:1.4},g);}
+   else{body(g,L,2.6,1);for(let i=0;i<n;i++)el('rect',{x:-M(L)/2+M(1.27)+i*M(2.54)-4.2,y:-4.2,width:8.4,height:8.4,fill:'url(#gGold)',rx:1.4},g);}},
+ cortex(g){body(g,7.6,3.6,1.2);
+   for(let r=0;r<2;r++)for(let i=0;i<5;i++)
+     el('circle',{cx:-M(2.54)+i*M(1.27),cy:(r-.5)*M(1.27),r:2.6,fill:'url(#gGold)'},g);},
+ ffc(g){body(g,14,5,1.2,'url(#gBeige)');
+   el('rect',{x:-M(11)/2,y:M(5)/2-4,width:M(11),height:4,fill:'url(#gGold)'},g);
+   el('rect',{x:-M(14)/2+2,y:-M(5)/2+2,width:M(14)-4,height:7,rx:2,fill:'#a2946f'},g);
+   for(let i=0;i<10;i++)el('rect',{x:-M(4.95)+i*M(1.1)-1.2,y:M(5)/2-11,width:2.4,height:7,fill:'#7d7154'},g);},
+ ufl(g){el('rect',{x:-13,y:-13,width:26,height:26,rx:3,fill:'url(#gBody)',filter:'url(#fS)'},g);
+   el('circle',{cx:0,cy:0,r:9.5,fill:'url(#gSteel)'},g);
+   el('circle',{cx:0,cy:0,r:5.5,fill:'#23282d'},g);
+   el('circle',{cx:0,cy:0,r:2.2,fill:'url(#gGold)'},g);},
+ sw(g){body(g,3.9,2.9,1,'url(#gSteel)');
+   el('circle',{cx:0,cy:0,r:6.5,fill:'#22262a'},g);el('circle',{cx:0,cy:0,r:4.4,fill:'#3a4046'},g);},
+ xtal(g,o){body(g,o.w,o.h,2,'url(#gSteel)');el('circle',{cx:-M(o.w)/2+3.5,cy:M(o.h)/2-3.5,r:1.4,fill:'#5c646b'},g);},
+ shunt(g){body(g,7.1,4.6,1,'#31363c');
+   el('rect',{x:-M(7.1)/2,y:-M(4.6)/2,width:11,height:M(4.6),rx:1,fill:'url(#gGold)'},g);
+   el('rect',{x:M(7.1)/2-11,y:-M(4.6)/2,width:11,height:M(4.6),rx:1,fill:'url(#gGold)'},g);
+   lbl(g,'10mΩ',5.4,1.5,'#b6bcc2')},
+ ind(g,o){body(g,o.s,o.s,4,'url(#gInd)');
+   el('circle',{cx:0,cy:0,r:M(o.s)*.32,fill:'none',stroke:'#454b52','stroke-width':3},g);
+   if(o.t)lbl(g,o.t,5.4,2,'#8b929a')},
+ lga(g,o){body(g,o.s,o.s,1.5);pin1(g,-(o.s/2-.35),-(o.s/2-.35));lbl(g,o.t,4.6,1.5)},
+ rc(g,o){const n=o.n,cols=o.cols||n,tan=o.tan;
+   for(let i=0;i<n;i++){const c=i%cols,r=Math.floor(i/cols);
+     const x=(c-(cols-1)/2)*M(1.5),y=(r-((Math.ceil(n/cols)-1))/2)*M(1.3);
+     const w=M(1.0),h=M(0.5);
+     const gg=el('g',{transform:`translate(${x},${y})`+(o.vert?' rotate(90)':'')},g);
+     el('rect',{x:-w/2,y:-h/2,width:w,height:h,rx:.8,fill:tan?'#b58a55':'#1d2024'},gg);
+     el('rect',{x:-w/2,y:-h/2,width:2.6,height:h,fill:'#c8ccd1'},gg);
+     el('rect',{x:w/2-2.6,y:-h/2,width:2.6,height:h,fill:'#c8ccd1'},gg);}},
+ hole(g){el('circle',{cx:0,cy:0,r:12,fill:'url(#gGold)',filter:'url(#fS)'},g);
+   el('circle',{cx:0,cy:0,r:7.6,fill:'#0a0c10'},g);},
+ pad(g){el('circle',{cx:0,cy:0,r:8,fill:'url(#gGold)',opacity:.9},g);
+   el('circle',{cx:0,cy:0,r:8,fill:'none',stroke:'#8a6c25'},g);},
+ bpatch(g,o){el('rect',{x:-M(o.w)/2,y:-M(o.h)/2,width:M(o.w),height:M(o.h),rx:3,
+   fill:'rgba(180,140,230,.10)',stroke:'var(--violet)','stroke-dasharray':'5 3','stroke-width':1.3},g);
+   lbl(g,o.t,5.6,0,'#b48ce6');if(o.t2)lbl(g,o.t2,4.8,9,'#8f6fc0')},
+};
+
+/* ---------- shared draw helpers ---------- */
+function outlineBase(path){
+  el('path',{d:path,fill:'url(#gMask)',stroke:'#000',filter:'url(#fB)'},Lboard);
+  el('path',{d:path,fill:'url(#gSheen)'},Lboard);
+  el('path',{d:path,fill:'#fff',filter:'url(#fN)',opacity:'.5'},Lboard);
+  el('path',{d:path,fill:'none',stroke:'url(#gGold)','stroke-width':'1.6',opacity:'.8'},Lboard);}
+function ruler(BW){const ry=Y(0)+26;
+  el('line',{x1:X(0),y1:ry,x2:X(BW),y2:ry,stroke:'#2c333d'},Lrule);
+  for(let m=0;m<=BW;m+=5){const h=m%10?4:8;
+    el('line',{x1:X(m),y1:ry-h,x2:X(m),y2:ry,stroke:m%10?'#2c333d':'#49525e'},Lrule);
+    if(m%20===0)txt(Lrule,X(m),ry+13,String(m),8,'#5a6470');}
+  txt(Lrule,X(BW)+8,ry+3,'mm',8,'#5a6470','start');
+  el('line',{x1:X(0)-16,y1:Y(0),x2:X(0)-16,y2:Y(38),stroke:'#2c333d'},Lrule);
+  txt(Lrule,X(0)-24,Y(19),'38.0',8,'#5a6470','middle',{transform:`rotate(-90 ${X(0)-24} ${Y(19)})`});}
+function ribbon(d,color,w,dash){el('path',{d,fill:'none',stroke:color,'stroke-width':w,
+  'stroke-linecap':'round',opacity:.30},Lcorr);
+  el('path',{d,fill:'none',stroke:color,'stroke-width':2,opacity:.85,
+   'stroke-dasharray':dash||'none'},Lcorr);}
+function clabel(x,y,s,c){el('rect',{x:X(x)-s.length*2.9,y:Y(y)-9,width:s.length*5.8,height:12,
+   fill:'rgba(10,12,16,.72)',rx:3},Lcorr);
+  txt(Lcorr,X(x),Y(y),s,8.5,c,'middle',{'letter-spacing':'.06em'});}
+function chip(x,y,s,c){el('rect',{x:X(x)-s.length*2.75-5,y:Y(y)-8.5,width:s.length*5.5+10,height:14,
+  rx:7,fill:'rgba(10,12,16,.85)',stroke:c,'stroke-width':1},Lface);
+  txt(Lface,X(x),Y(y)+2.6,s,8,c,'middle',{'font-weight':'600'});}
+function fline(x1,y1,x2,y2,c){el('line',{x1:X(x1),y1:Y(y1),x2:X(x2),y2:Y(y2),stroke:c,
+  'stroke-width':1.2,opacity:.7},Lface)}
+function zoneCols(zs,noteY){zs.forEach(([id,x1,x2,c,name])=>{
+  el('rect',{x:X(x1),y:Y(37.4),width:(x2-x1)*S,height:36.8*S,fill:c,opacity:'.055',rx:4},Lzone);
+  el('line',{x1:X(x2),y1:Y(36),x2:X(x2),y2:Y(2),stroke:c,opacity:'.22','stroke-dasharray':'2 5'},Lzone);
+  txt(Lzone,X((x1+x2)/2),MY-26,`${id} · ${name}`,10.5,c,'middle',
+      {'font-family':'"Saira Condensed",sans-serif','font-weight':'600','letter-spacing':'.14em',opacity:'.9'});
+  el('line',{x1:X((x1+x2)/2),y1:MY-20,x2:X((x1+x2)/2),y2:Y(38)-6,stroke:c,opacity:'.3'},Lzone);});}
+function renderParts(parts){parts.forEach(p=>{const g=place(p.x,p.y,p.rot||0);
+  if(p.xr){Lxray.appendChild(g)}
+  draw[p.t](g,p.o||{});tip(g,`${p.r} — ${p.tip}`);
+  if(p.pend&&p.t!=='qfn'){const bb=g.getBBox();
+    el('rect',{x:bb.x-4,y:bb.y-4,width:bb.width+8,height:bb.height+8,rx:3,
+      fill:'none',stroke:'var(--amber)','stroke-dasharray':'4 3',opacity:.85},g);}
+  if(!p.sd&&!/^(H\d|P4|C-)/.test(p.r)){
+    const t=txt(Lsilk,X(p.x),Y(p.y)-((p.t==='module')?142:(p.t==='bga'?76:16)),
+      p.r,7.5,'rgba(233,236,239,.75)','middle',{'letter-spacing':'.05em'});
+    if(p.t==='hdr'||p.t==='cortex'||p.t==='sw')t.setAttribute('y',Y(p.y)+24);
+    if(p.t==='ffc')t.setAttribute('y',Y(p.y)+34);
+    if(p.so)t.setAttribute('y',Y(p.y)+p.so);
+  }});}
+
+/* ================================================================= V1 */
+const V1={
+ BW:158, cap:'V1 · longitudinal zoning · 158.0 × 38.0 (as captured in the .epro2 snapshot) · antenna south (RF-B notch) · J1 = GT-USB-7005A (D-050)',
+ outline(){const nX1=46,nX2=66,R=15;
+  const O=`M ${X(0)+R} ${Y(38)} H ${X(158)-R} Q ${X(158)} ${Y(38)} ${X(158)} ${Y(38)+R}
+   V ${Y(0)-R} Q ${X(158)} ${Y(0)} ${X(158)-R} ${Y(0)}
+   H ${X(nX2)} V ${Y(6.5)} H ${X(nX1)} V ${Y(0)}
+   H ${X(0)+R} Q ${X(0)} ${Y(0)} ${X(0)} ${Y(0)-R}
+   V ${Y(38)+R} Q ${X(0)} ${Y(38)} ${X(0)+R} ${Y(38)} Z`;
+  outlineBase(O);
+  txt(Lboard,X(11),Y(1.2),'K1-CORE-VAL-R0  ·  SPECTRASYNQ',7,'rgba(233,236,239,.5)','start',{'letter-spacing':'.12em'});
+  txt(Lboard,X(155.5),Y(1.2),'6L · 1.6MM',6.5,'rgba(233,236,239,.35)','end');},
+ zones(){zoneCols([
+  ['Z0',0.5,6,'#9aa4ae','WEST BAY'],['Z1',6,45,'#e0654f','POWER ENTRY + CONVERSION'],
+  ['Z2',46,66,'#f0604c','2.4 GHz RADIO'],['Z3',66.5,81,'#5fd67e','HUB'],
+  ['Z4',81,101,'#3ec9da','RT CORE'],['Z5',101,127,'#b48ce6','AUDIO · MOTION'],
+  ['Z6',128,157.5,'#46c8ae','NFC']]);
+  el('rect',{x:X(78),y:Y(6.5),width:34*S,height:6.5*S,fill:'none',stroke:'var(--amber)',
+    opacity:'.5','stroke-dasharray':'4 4',rx:5},Lzone);
+  txt(Lzone,X(95),Y(-1.6),'Z7 · SOUTH SERVICE CORRIDOR',9.5,'#e6c04d','middle',
+     {'font-family':'"Saira Condensed",sans-serif','letter-spacing':'.14em'});},
+ parts:[
+  {r:'J6-ESP',t:'hdr',x:2.9,y:19,o:{n:6,vert:true},tip:'S3 recovery: UART0+EN+GPIO0 — brick-proof path (D-049). West recessed service bay (G3 §4).'},
+  {r:'SW3-ESP',t:'sw',x:2.9,y:28.5,tip:'S3 EN button — owner-local, west bay.'},
+  {r:'SW2-ESP',t:'sw',x:2.9,y:9.5,tip:'S3 BOOT (GPIO0) button — owner-local, west bay.'},
+  {r:'J1-PWR1',t:'usbc',x:20,y:35.1,sd:1,tip:'GT-USB-7005A (D-050). North long edge (G3 §1), x≈20: inlet + hub-upstream pair on one edge, ≥25 mm from the 2.4 GHz aperture.'},
+  {r:'D1-PWR1',t:'sot',x:11.5,y:31,o:{w:2.9,h:1.6,t:'TVS'},tip:'Connector-class ESD/TVS — feed-through on the upstream pair only.'},
+  {r:'C-IN',t:'rc',x:15.6,y:31.4,o:{n:4,cols:2,tan:true},sd:1,tip:'5V_USB input filtering.'},
+  {r:'U1-PWR1',t:'qfn',x:26,y:30.6,o:{w:2,h:2,t:'eFuse'},tip:'TPS259474 eFuse. IN faces J1 (W), OUT faces shunt (E).'},
+  {r:'RSH1',t:'shunt',x:31.5,y:34.2,so:22,tip:'2818 shunt inline W→E on the trunk. Kelvin stubs drop to INA226.'},
+  {r:'U2-PWR1',t:'msop',x:31.5,y:29,o:{w:3,h:3,t:'INA226'},tip:'Kelvin VIN± face the shunt; I²C/alert exit S into the L4 spine.'},
+  {r:'U3-PWR2',t:'qfn',x:38.5,y:29.5,o:{w:2,h:2.5,t:'62913'},tip:'TPS62913 buck. SW west → inductor adjacent; FB/SS/PG quiet north (D-045).'},
+  {r:'L-BUCK',t:'ind',x:38.5,y:34,o:{s:4,t:'4µ7'},tip:'Buck inductor — tight hot loop closing north of U3.'},
+  {r:'C-BK',t:'rc',x:42.8,y:30,o:{n:4,cols:2,tan:true},sd:1,tip:'Buck in/out capacitors.'},
+  {r:'U4-TPS2561',t:'msop',x:33,y:23.2,o:{w:3,h:3,t:'2561'},pend:1,tip:'LED eFuse — Δ4: capture incomplete. Source-side switch; +5V_LED travels east as an L3 region.'},
+  {r:'FB1·FB2',t:'rc',x:37.2,y:23.2,o:{n:2,cols:1},sd:1,tip:'LED rail ferrites.'},
+  {r:'J2-LED',t:'xh',x:106,y:35.1,sd:1,tip:'XH-3 LED strip L — +5V_LED_L arrives as an L3 region; 5 V data stub <3 mm.'},
+  {r:'J3-LED',t:'xh',x:116.8,y:35.1,sd:1,tip:'XH-3 LED strip R.'},
+  {r:'U14-LED',t:'sot',x:104.8,y:31.2,o:{w:3,h:1.7,t:'AHCT'},tip:'74AHCT1G125 shifter L: 3.3 V data faces RT east face; Y output <3 mm into J2.'},
+  {r:'U15-LED',t:'sot',x:114.6,y:31.2,o:{w:3,h:1.7,t:'AHCT'},tip:'Shifter R — same doctrine.'},
+  {r:'THERM',t:'rc',x:110.4,y:31.6,o:{n:2,cols:1},sd:1,tip:'LED thermistor dividers → ADC-capable AD balls.'},
+  {r:'U9-ESP',t:'module',x:56,y:12.75,tip:'ESP32-S3-WROOM-1 @180° — locked by the south antenna. Antenna face ZERO signals (measured). K1BR N; USB E toward hub; UART0/IO0 W bay.'},
+  {r:'USB2422',t:'qfn',x:73,y:27,sd:1,o:{w:4,h:4,t:'USB2422',pend:1},tip:'D-049 hub — capture pending (Δ2). US NW ~45 mm; DN1 E ~8 mm; DN2 W ~6 mm.'},
+  {r:'U22-USB',t:'sot',x:68.3,y:31.5,o:{w:2,h:2,t:'7A25'},tip:'TPS7A2550 → 5V0_USB_VALID (F6 validity source).'},
+  {r:'F6-2052B',t:'soic',x:78,y:31.4,o:{w:3.9,h:4.9,t:'2052B'},tip:'TPS2052B F6-B VBUS-validity switch.'},
+  {r:'STRAPS',t:'rc',x:73,y:23,sd:1,o:{n:3,cols:3},tip:'NON_REM straps + VBUS_DET divider.'},
+  {r:'U6-RTC',t:'bga',x:92,y:20,o:{s:12,th:'θ180 · 196'},tip:'RT1062 @180° — measured faces: N=5 K1BR, W=9 USB+FlexSPI, S=15 fixed service+audio, E=2 LED. 45° rejected.'},
+  {r:'Y1',t:'xtal',x:84.6,y:17,o:{w:2,h:1.6},tip:'24 MHz on the W-face XTAL balls; crystal universe ≤3 mm.'},
+  {r:'L-DCDC',t:'ind',x:87,y:28.6,o:{s:3,t:'DCDC'},tip:'RT internal-DCDC inductor — pkg SE corner maps NW at 180°; loop tight.'},
+  {r:'U8-FLASH',t:'soicB',x:88.6,y:23.6,sd:1,o:{w:5.3,h:5.3,t:'IS25LP064'},xr:1,tip:'FlexSPI boot flash — BOTTOM SIDE under the SD_B1 corner. Six nets ≤8 mm, +6 via pairs.'},
+  {r:'U7-RTC',t:'sot',x:81.5,y:13.2,o:{w:2.9,h:1.6,t:'3808'},tip:'TPS3808 supervisor beside POR_B (W face at 180°).'},
+  {r:'Q2·U16',t:'sot',x:77,y:9,o:{w:2.9,h:1.6,t:'PGOOD'},tip:'RT_PWR_VALID + S3 POR gate — between owners.'},
+  {r:'C-RT-N',t:'rc',x:92,y:27.6,o:{n:6,cols:6,tan:true},sd:1,tip:'RT decoupling.'},
+  {r:'C-RT-E',t:'rc',x:99.4,y:20,o:{n:5,cols:1,tan:true,vert:true},sd:1,tip:'RT decoupling.'},
+  {r:'C-RT-S',t:'rc',x:92,y:12.6,o:{n:6,cols:6,tan:true},sd:1,tip:'RT decoupling.'},
+  {r:'SW1-RTC',t:'sw',x:80,y:3.1,tip:'RT reset → U7 MR#, south edge.'},
+  {r:'R-STRAP',t:'rc',x:84.6,y:3.1,o:{n:3,cols:3},sd:1,tip:'Boot straps beside their arbitration.'},
+  {r:'J5-RTDBG',t:'hdr',x:89.5,y:3.1,o:{n:4},tip:'LPUART1 header — fixed AD_B0_12/13 land on this face at 180°.'},
+  {r:'J11-VAL',t:'hdr',x:97,y:3.1,o:{n:6},tip:'Option header beside the straps it arbitrates.'},
+  {r:'SW4-VAL',t:'sw',x:102.5,y:3.1,tip:'Serial-downloader strap — adjacent.'},
+  {r:'J4-RTDBG',t:'cortex',x:107.5,y:3.4,tip:'Cortex SWD — fixed balls land on the S face at 180°.'},
+  {r:'J8-AUD',t:'hdr',x:113,y:3.1,o:{n:4},tip:'External audio-clock injection (contract-required).'},
+  {r:'R-ISO',t:'rc',x:103.8,y:13.6,o:{n:6,cols:2},tip:'AUDIO iso/0R matrix mid-corridor.'},
+  {r:'U11-AUD',t:'qfn',x:112,y:12.5,o:{w:3,h:3,t:'6120'},tip:'ADC6120 @180°: TDM N toward RT SAI; I²C/PDM-CLK W; PDM-DATA E to flex; VREF shelf S.'},
+  {r:'R-PDM',t:'rc',x:116.4,y:13.6,o:{n:4,cols:2},tip:'PDM XOR matrix — flex→ADC vs flex→RT experiment.'},
+  {r:'C-ADC',t:'rc',x:109.3,y:16.8,o:{n:3,cols:3,tan:true},sd:1,tip:'AREG/DREG/VREF caps.'},
+  {r:'U5·Q1',t:'sot',x:119,y:17.3,o:{w:3,h:1.7,t:'MIC LDO'},tip:'3V3_MIC point-of-load at the flex.'},
+  {r:'U13-MOT',t:'lga',x:123.5,y:21.5,o:{s:2,t:'LIS2'},tip:'LIS2DH12 — position is mechanical; re-site at mount freeze.'},
+  {r:'R-XOR',t:'rc',x:120.2,y:21.5,o:{n:4,cols:2},tip:'Motion I²C/IRQ 0R XOR at the boundary.'},
+  {r:'J9-AUD',t:'ffc',x:130.5,y:35,tip:'Mic flex — V2 STUDY FINDING: this exit sits in the NFC reserve corner airspace. Must move in any V1 derivative.'},
+  {r:'FB3+C',t:'rc',x:128.6,y:27.5,o:{n:3,cols:3,tan:true},tip:'NFC_5V POL filter.'},
+  {r:'U12-NFC',t:'qfn',x:134,y:20,o:{w:5,h:5,t:'ST25R'},rot:90,tip:'ST25R3916B @90°: digital W; RF E into matching → antenna.'},
+  {r:'Y2',t:'xtal',x:134,y:14.7,o:{w:1.6,h:1.2},tip:'27.12 MHz local.'},
+  {r:'C-RAILS',t:'rc',x:129.8,y:23.4,o:{n:6,cols:2,tan:true},tip:'C92-C97 — regulator rails are OUTPUTS (D-047).'},
+  {r:'MATCH',t:'rc',x:140.2,y:20,o:{n:6,cols:2},tip:'Matching — TUNE_TBD.'},
+  {r:'J10-NFC',t:'ufl',x:143.5,y:9.5,tip:'U.FL on NFC_ANT — external-antenna escape hatch.'},
+  {r:'H1',t:'hole',x:7,y:32,tip:'M2.5 — mounting triangle (G3). Hypothesis.'},
+  {r:'H2',t:'hole',x:7,y:6,tip:'M2.5 — mounting triangle.'},
+  {r:'H3',t:'hole',x:126,y:31.5,tip:'M2.5 — east point, west of the NFC reserve.'},
+  {r:'P4',t:'pad',x:28.5,y:35.6,tip:'Passive support — reacts J1 insertion load. Not a screw.'},
+ ],
+ silk(){txt(Lsilk,X(26.2),Y(37.2),'J1-PWR1',7.5,'rgba(233,236,239,.8)','start',{'letter-spacing':'.05em'});
+   txt(Lsilk,X(105.4),MY-12,'J2',7.5,'rgba(233,236,239,.8)');
+   txt(Lsilk,X(117.4),MY-12,'J3',7.5,'rgba(233,236,239,.8)');},
+ rf(){el('rect',{x:X(44),y:Y(7.5),width:24*S,height:7.5*S,fill:'url(#hat)',stroke:'var(--red)',
+    'stroke-dasharray':'5 4',opacity:.85,rx:4},Lrf);
+  txt(Lrf,X(43.6),Y(4.4),'2.4 GHz APERTURE · RF-B NOTCH',8,'var(--red)','end',{'letter-spacing':'.06em'});
+  txt(Lrf,X(43.6),Y(2.2),'0 SIGNALS · CLEARANCE VOL = G3 MECH',7,'rgba(240,96,76,.75)','end');
+  el('line',{x1:X(43.9),y1:Y(3.4),x2:X(45.8),y2:Y(3.4),stroke:'var(--red)',opacity:.6},Lrf);
+  el('rect',{x:X(142),y:Y(35.5),width:15.5*S,height:33*S,fill:'url(#hat)',stroke:'var(--red)',
+    'stroke-dasharray':'5 4',opacity:.8,rx:6},Lrf);
+  el('rect',{x:X(145),y:Y(31),width:10*S,height:24*S,rx:14,fill:'none',stroke:'var(--teal)',
+    'stroke-width':5,opacity:.5,'stroke-dasharray':'12 7'},Lrf);
+  txt(Lrf,X(149.7),Y(19.4),'NFC LOOP',9,'var(--teal)');
+  txt(Lrf,X(149.7),Y(17),'RESERVE',9,'var(--teal)');
+  txt(Lrf,X(149.7),Y(14.6),'TUNE_TBD',7,'rgba(70,200,174,.7)');
+  txt(Lrf,X(149.7),Y(12.4),'NO HARDWARE',6.5,'rgba(240,96,76,.8)');},
+ corr(){
+  ribbon(`M ${X(13)} ${Y(32.4)} H ${X(44)}`, 'var(--red)',12);
+  ribbon(`M ${X(44.5)} ${Y(33.8)} H ${X(104)}`,'var(--orange)',8,'1 7');
+  clabel(56,36.5,'+5V_LED REGION · L3 →','var(--orange)');
+  ribbon(`M ${X(56)} ${Y(26)} C ${X(66)} ${Y(31.5)}, ${X(80)} ${Y(31.5)}, ${X(89.5)} ${Y(26.5)}`,'var(--cyan)',13);
+  clabel(76,32.8,'C2 K1BR ×5 + GND','var(--cyan)');
+  ribbon(`M ${X(73)} ${Y(29.2)} V ${Y(34.9)} H ${X(24.5)}`,'var(--grn)',7);
+  ribbon(`M ${X(75.3)} ${Y(27)} H ${X(85.8)} `,'var(--grn)',7);
+  ribbon(`M ${X(70.7)} ${Y(26)} L ${X(65.2)} ${Y(22.5)}`,'var(--grn)',7);
+  clabel(50,32.6,'C3 US 90Ω','var(--grn)');clabel(80.5,24.6,'DN1','var(--grn)');clabel(67.2,24.2,'DN2','var(--grn)');
+  ribbon(`M ${X(78)} ${Y(3.2)} H ${X(112)}`,'var(--amber)',16);
+  clabel(95,5.6,'C4 SERVICE','var(--amber)');
+  ribbon(`M ${X(31.5)} ${Y(26.8)} V ${Y(10.5)} H ${X(131.2)} V ${Y(17.4)}`,'var(--mag)',5,'7 5');
+  clabel(37.5,12.2,'C5 I²C · L4','var(--mag)');
+  ribbon(`M ${X(89.5)} ${Y(13.4)} C ${X(96)} ${Y(9.8)}, ${X(104)} ${Y(10)}, ${X(110.6)} ${Y(13.6)}`,'var(--violet)',10);
+  clabel(100,8.3,'C6 SAI/PDM','var(--violet)');
+  ribbon(`M ${X(128.5)} ${Y(32.4)} C ${X(124)} ${Y(22)}, ${X(119)} ${Y(16)}, ${X(113.6)} ${Y(13.8)}`,'var(--violet)',6,'1 6');
+  ribbon(`M ${X(98.3)} ${Y(20.6)} C ${X(101)} ${Y(25)}, ${X(102.5)} ${Y(28)}, ${X(104.6)} ${Y(30.2)} M ${X(98.3)} ${Y(19.4)} C ${X(106)} ${Y(23)}, ${X(111.5)} ${Y(27)}, ${X(114.4)} ${Y(30.2)}`,'var(--orange)',6);
+  clabel(108.5,24.2,'C7 LED DATA','var(--orange)');
+  ribbon(`M ${X(128.5)} ${Y(9)} L ${X(131.3)} ${Y(14)}`,'var(--teal)',6);
+  clabel(127,6.3,'C8','var(--teal)');},
+ faces(){
+  fline(92,26.4,92,28.6,'var(--cyan)');   chip(92,29.6,'N · K1BR ×5','var(--cyan)');
+  fline(85.6,20,83.4,20,'var(--grn)');    chip(80,19.3,'W ×9','var(--grn)');
+  fline(92,13.6,92,11.8,'var(--amber)');  chip(92,10.6,'S · SVC+AUD ×15','var(--amber)');
+  fline(98.4,20,100.4,20,'var(--orange)');chip(103.4,18.4,'E ×2','var(--orange)');
+  fline(56,25.9,56,27.4,'var(--cyan)');   chip(50,28.4,'N · K1BR ×5','var(--cyan)');
+  fline(65.4,17,67,17,'var(--grn)');      chip(70.6,15,'E ×8','var(--grn)');
+  fline(46.6,16.5,45,16.5,'var(--amber)');chip(42.2,16.5,'W ×5','var(--amber)');
+  chip(56,2.6,'S · 0 SIGNALS','var(--red)');},
+};
+
+/* ================================================================= V2 */
+const V2={
+ BW:155, cap:'V2 · RT-centric star / dual-spine · 155.0 × 38.0 (study constant) · antenna WEST short edge · J1 = TE 2129691-1 / C590834 · derived blank-board in the mandated order',
+ outline(){const R=20;
+  const O=`M ${X(0)+R} ${Y(38)} H ${X(155)-R} Q ${X(155)} ${Y(38)} ${X(155)} ${Y(38)+R}
+   V ${Y(0)-R} Q ${X(155)} ${Y(0)} ${X(155)-R} ${Y(0)}
+   H ${X(0)+R} Q ${X(0)} ${Y(0)} ${X(0)} ${Y(0)-R}
+   V ${Y(38)+R} Q ${X(0)} ${Y(38)} ${X(0)+R} ${Y(38)} Z`;
+  outlineBase(O);
+  txt(Lboard,X(31),Y(1.2),'K1-CORE-VAL-R0 · V2 STAR · SPECTRASYNQ',7,'rgba(233,236,239,.5)','start',{'letter-spacing':'.12em'});
+  txt(Lboard,X(152.5),Y(1.2),'6L · 1.6MM',6.5,'rgba(233,236,239,.35)','end');},
+ zones(){zoneCols([
+  ['RF',0,8.5,'#f0604c','APERTURE'],
+  ['S3',8.5,26.5,'#e0654f','RADIO'],
+  ['BR',26.5,62,'#3ec9da','SOVEREIGN BRIDGE + N HUB'],
+  ['CORE',62,80,'#5fd67e','RT + DCDC'],
+  ['AUD·MOT',80,118.5,'#b48ce6','ENCLAVE · LED NE · MOTION'],
+  ['NFC',118.5,155,'#46c8ae','ISLAND + RESERVE']]);
+  el('rect',{x:X(26.5),y:Y(24),width:35.5*S,height:9*S,fill:'none',stroke:'var(--cyan)',
+    opacity:'.55','stroke-dasharray':'6 4',rx:5},Lzone);
+  el('rect',{x:X(80),y:Y(12.5),width:22*S,height:9*S,fill:'none',stroke:'var(--violet)',
+    opacity:'.6','stroke-dasharray':'6 4',rx:5},Lzone);
+  txt(Lzone,X(91),Y(11.4),'AUDIO QUIET ENCLAVE',7.5,'var(--violet)','middle',{opacity:.95});
+  el('rect',{x:X(9),y:Y(6),width:63*S,height:6*S,fill:'none',stroke:'var(--amber)',
+    opacity:'.45','stroke-dasharray':'4 4',rx:5},Lzone);
+  txt(Lzone,X(40),Y(-1.6),'SOUTH SERVICE SPINE',9.5,'#e6c04d','middle',
+     {'font-family':'"Saira Condensed",sans-serif','letter-spacing':'.14em'});
+  txt(Lzone,X(88),Y(-1.6),'AUDIO / FLEX',9.5,'#b48ce6','middle',
+     {'font-family':'"Saira Condensed",sans-serif','letter-spacing':'.14em'});},
+ parts:[
+  // S3 west, antenna west short edge
+  {r:'U9-ESP',t:'module',x:13.65,y:19,rot:270,sd:1,tip:'ESP32-S3-WROOM-1 @90° — antenna on the WEST SHORT EDGE over a full six-layer keepout. Verified: antenna face 0 signals; K1BR (IO10-14) faces EAST dead-on to RT; USB (fixed) exits the south face east end; UART0 (fixed) exits the north face west end.'},
+  {r:'SW3-ESP',t:'sw',x:12,y:3.4,tip:'S3 EN — pads exit the module south face west end; button in the SW service corner.'},
+  {r:'SW2-ESP',t:'sw',x:16.5,y:3.4,tip:'S3 BOOT (IO0 routes from the N face); SW corner service.'},
+  {r:'J6-ESP',t:'hdr',x:30,y:35.2,o:{n:6},tip:'Recovery header on the north spine — S3 UART0 pads exit the module north face west end; ~22 mm slow run along y≈30.'},
+  // north entry + hub
+  {r:'J1-PWR1',t:'usbcTE',x:44,y:35.2,sd:1,tip:'TE 2129691-1 / C590834 (study constant). Through-hole shell posts anchor the insertion load — the reason this MPN is studied. ≥35 mm from the aperture; US pair exits east ~15 mm to the hub. Drawing dims pending verification.'},
+  {r:'D1-PWR1',t:'sot',x:39.8,y:32.2,o:{w:2.9,h:1.6,t:'TVS'},tip:'Connector-class ESD, upstream pair only, feed-through.'},
+  {r:'C-IN',t:'rc',x:43.2,y:31.4,o:{n:4,cols:2,tan:true},sd:1,tip:'Inlet filtering.'},
+  {r:'U1-PWR1',t:'qfn',x:50,y:34.4,o:{w:2,h:2,t:'eFuse'},tip:'eFuse: IN faces J1, OUT faces the shunt — entry chain flows W→E along the north spine.'},
+  {r:'RSH1',t:'shunt',x:55.3,y:34.5,so:22,tip:'Shunt inline on the trunk; Kelvin drops to INA below.'},
+  {r:'U2-PWR1',t:'msop',x:55.3,y:31,o:{w:3,h:3,t:'INA226'},tip:'INA226 under its shunt; I²C spur joins the L4 spine at y≈29.'},
+  {r:'U22-USB',t:'sot',x:51,y:29.6,o:{w:2,h:2,t:'7A25'},tip:'TPS7A2550 → 5V0_USB_VALID, at the hub island edge.'},
+  {r:'USB2422',t:'qfn',x:57.5,y:29.2,sd:1,o:{w:4,h:4,t:'USB2422',pend:1},tip:'Hub NW of RT, north of the sovereign corridor. US←J1 ~15 mm; DN1→RT N face ~10 mm; DN2→S3 ~50 mm with the under-body L6 leg. Capture pending (D-049).'},
+  {r:'F6-2052B',t:'soic',x:63,y:31.8,o:{w:3.9,h:4.9,t:'2052B'},tip:'TPS2052B VBUS-validity switch beside the hub.'},
+  // buck
+  {r:'U3-PWR2',t:'qfn',x:73.5,y:34.6,o:{w:2,h:2.5,t:'62913'},tip:'TPS62913 north of RT; hot loop closes northward; ≥20 mm from the enclave, ≥8 mm from any USB pair.'},
+  {r:'L-BUCK',t:'ind',x:77,y:34.5,o:{s:4,t:'4µ7'},tip:'Buck inductor, loop local.'},
+  {r:'C-BK',t:'rc',x:70.3,y:34.4,o:{n:4,cols:2,tan:true},sd:1,tip:'Buck caps.'},
+  // core
+  {r:'U6-RTC',t:'bga',x:68,y:19,o:{s:12,th:'θ90 · 196',p1:[4.8,4.8]},tip:'RT1062 @90° at the electrical centroid (68,19). Faces: W=K1BR(LPSPI3/AD)+fixed service ×13 · N=USB+FlexSPI+XTAL ×9 · E=SAI2/3+DCDC ×7 · S=LED ×3. SD_B0-native K1BR with USB-north is impossible at any rotation — resolved by two Class-G IOMUX moves (D-031).'},
+  {r:'Y1',t:'xtal',x:64.5,y:27.4,o:{w:2,h:1.6},tip:'24 MHz — XTAL balls land on the N face west half at 90°; ≤3 mm universe.'},
+  {r:'L-DCDC',t:'ind',x:78,y:23.5,o:{s:3,t:'DCDC'},tip:'RT DCDC inductor — the DCDC island maps to the E face north end at 90°; loop tight, away from hub AND enclave.'},
+  {r:'U7-RTC',t:'sot',x:69.5,y:28.4,o:{w:2.9,h:1.6,t:'3808'},tip:'TPS3808 supervisor above the N-face POR_B escape.'},
+  {r:'U16·Q2',t:'sot',x:44,y:9.5,o:{w:2.9,h:1.6,t:'PGOOD'},tip:'RT_PWR_VALID + POR gate between the owners, south of the corridor.'},
+  {r:'C-RT-N',t:'rc',x:68,y:26.6,o:{n:6,cols:6,tan:true},sd:1,tip:'Top-side decoupling (N).'},
+  {r:'C-RT-E',t:'rc',x:74.6,y:19,o:{n:5,cols:1,tan:true,vert:true},sd:1,tip:'Top-side decoupling (E).'},
+  {r:'C-RT-S',t:'rc',x:68,y:11.4,o:{n:6,cols:6,tan:true},sd:1,tip:'Top-side decoupling (S).'},
+  // service spine
+  {r:'J5-RTDBG',t:'hdr',x:33,y:3.2,o:{n:4},tip:'LPUART1 header — fixed balls exit RT W face north half; slow route down the W courtyard.'},
+  {r:'J11-VAL',t:'hdr',x:46.5,y:3.2,o:{n:6},tip:'Option header near the strap arbitration.'},
+  {r:'SW4-VAL',t:'sw',x:57,y:3.4,tip:'SDL strap button.'},
+  {r:'SW1-RTC',t:'sw',x:61,y:3.4,tip:'RT reset → supervisor MR# (slow net).'},
+  {r:'J4-RTDBG',t:'cortex',x:67.5,y:3.4,tip:'Cortex SWD directly under its fixed W-face-south balls — ~13 mm drop.'},
+  // audio enclave
+  {r:'R-ISO',t:'rc',x:81,y:11.8,o:{n:6,cols:2},tip:'Audio iso/0R matrix at the enclave north-east gate.'},
+  {r:'U11-AUD',t:'qfn',x:86,y:8.5,rot:270,o:{w:3,h:3,t:'6120'},tip:'ADC6120 @270°: TDM face W toward the RT east-face SAI2 escape (~14 mm); I²C S into the spine; VREF shelf N; PDM wraps E to the flex.'},
+  {r:'R-PDM',t:'rc',x:91,y:10.8,o:{n:4,cols:2},tip:'PDM XOR matrix inside the enclave.'},
+  {r:'C-ADC',t:'rc',x:88.5,y:5.8,o:{n:3,cols:3,tan:true},sd:1,tip:'AREG/DREG/VREF caps.'},
+  {r:'U5·Q1',t:'sot',x:96,y:11.3,o:{w:3,h:1.7,t:'MIC LDO'},tip:'3V3_MIC point-of-load inside the enclave north edge.'},
+  {r:'J9-AUD',t:'ffc',x:92,y:2.9,tip:'Mic flex on the SOUTH edge — opposite the LED cables, and nowhere near the NFC reserve (fixes the V1 finding). Enclosure-open.'},
+  {r:'J8-AUD',t:'hdr',x:105.5,y:3.1,o:{n:4},tip:'External clock injection at the enclave SE boundary.'},
+  // motion
+  {r:'U13-MOT',t:'lga',x:107,y:20,o:{s:2,t:'LIS2'},tip:'LIS2DH12 from mechanical first principles: stiffness-triangle interior, neutral axis, away from insertion loads, cables, switches and both RF ends.'},
+  {r:'R-XOR',t:'rc',x:110.8,y:20,o:{n:4,cols:2},tip:'Motion ownership 0R XOR.'},
+  // LED NE
+  {r:'U4-TPS2561',t:'msop',x:99,y:34.3,o:{w:3,h:3,t:'2561'},pend:1,tip:'LED eFuse AT THE LOAD (V2 inversion): the shared trunk travels; the switched, inrush-carrying branch is ~8 mm. Capture pending (Δ4).'},
+  {r:'FB1·FB2',t:'rc',x:101.8,y:33,o:{n:2,cols:1},sd:1,tip:'LED ferrites at the connectors.'},
+  {r:'U14-LED',t:'sot',x:105,y:31,o:{w:3,h:1.7,t:'AHCT'},tip:'Shifter L at the connector; 5 V stub <3 mm; the 3.3 V run carries source-series R at the RT end.'},
+  {r:'U15-LED',t:'sot',x:115.5,y:31,o:{w:3,h:1.7,t:'AHCT'},tip:'Shifter R at the connector.'},
+  {r:'THERM',t:'rc',x:110.5,y:31.4,o:{n:2,cols:1},sd:1,tip:'Thermistor dividers — ADC inputs are AD-bank-fixed (W face): ~50 mm slow RC-filtered analogue on L4. Priced in the study.'},
+  {r:'J2-LED',t:'xh',x:106.5,y:35.2,sd:1,tip:'XH-3 strip L — cable exits north; +5V_LED_L switched 3 mm away.'},
+  {r:'J3-LED',t:'xh',x:117,y:35.2,sd:1,tip:'XH-3 strip R.'},
+  // NFC
+  {r:'FB3+C',t:'rc',x:118.8,y:25.5,o:{n:3,cols:3,tan:true},tip:'NFC_5V POL filter at the island edge.'},
+  {r:'U12-NFC',t:'qfn',x:122.5,y:19,o:{w:5,h:5,t:'ST25R'},rot:90,tip:'ST25R3916B @90° (V1 got this right): digital W ← spine; RF E → matching → reserve; XTAL S.'},
+  {r:'Y2',t:'xtal',x:122.5,y:14.2,o:{w:1.6,h:1.2},tip:'27.12 MHz local.'},
+  {r:'C-RAILS',t:'rc',x:119,y:22.6,o:{n:6,cols:2,tan:true},sd:1,tip:'Regulator-output rail caps (D-047).'},
+  {r:'MATCH',t:'rc',x:126.6,y:19,sd:1,o:{n:6,cols:2},tip:'Matching network at the reserve boundary — symmetric, over solid L2, TUNE_TBD.'},
+  {r:'J10-NFC',t:'ufl',x:133,y:8.5,tip:'U.FL test-antenna feed just inside the reserve west edge; lead dressed away from the loop.'},
+  // mounting
+  {r:'H1',t:'hole',x:36,y:31.5,tip:'M2.5 — kinematic triangle; also backs J1 insertion. Hypothesis.'},
+  {r:'H2',t:'hole',x:36,y:8,tip:'M2.5 — triangle, clear of the service row.'},
+  {r:'H3',t:'hole',x:124.5,y:33,tip:'M2.5 — east point, WEST of the x=128 reserve: no hardware in the loop field.'},
+  {r:'P4',t:'pad',x:48,y:36.6,tip:'Passive rest under the J1 edge — reacts insertion, constrains nothing (G3 §5).'},
+ ],
+ xray:[
+  {r:'U8-FLASH',t:'soicB',x:71,y:22,sd:1,o:{w:5.3,h:5.3,t:'IS25LP064'},xr:1,tip:'B-side: six FlexSPI nets ≤8 mm under their own NE corner; frees the top NE courtyard for the DCDC island.'},
+  {r:'B-DECAP',t:'bpatch',x:66.5,y:16,sd:1,o:{w:7,h:6,t:'CORE DECAP',t2:'B-SIDE RING'},xr:1,tip:'B-side: each cap loop closes through the ball via field — lowest loop inductance on this stack; the top ring cannot reach inner VDD_SOC balls cleanly.'},
+  {r:'B-STRAPS',t:'bpatch',x:57.5,y:26.2,sd:1,o:{w:4.5,h:2.2,t:'HUB STRAPS'},xr:1,tip:'B-side: hub top face reserved for three unbroken 90 Ω pairs; NON_REM straps + VBUS_DET divider are DC.'},
+  {r:'B-SERIES',t:'bpatch',x:61.5,y:12.6,sd:1,o:{w:5,h:2.2,t:'STRAP+SER. R'},xr:1,tip:'B-side: boot-strap and K1BR series resistors clear the top W courtyard where K1BR lands.'},
+ ],
+ silk(){txt(Lsilk,X(49.6),Y(37.1),'J1 · TE 2129691-1',7.5,'rgba(233,236,239,.8)','start',{'letter-spacing':'.05em'});
+   txt(Lsilk,X(13.65),Y(19)-150,'U9-ESP',7.5,'rgba(233,236,239,0)');
+   txt(Lsilk,X(20.5),Y(33.2),'U9-ESP · 90°CCW',7.5,'rgba(233,236,239,.75)','start');
+   txt(Lsilk,X(105.9),MY-12,'J2',7.5,'rgba(233,236,239,.8)');
+   txt(Lsilk,X(117.4),MY-12,'J3',7.5,'rgba(233,236,239,.8)');},
+ rf(){ // west aperture, all six layers
+  el('rect',{x:X(0),y:Y(29.5),width:8.5*S,height:21*S,fill:'url(#hat)',stroke:'var(--red)',
+    'stroke-dasharray':'5 4',opacity:.9,rx:4},Lrf);
+  txt(Lrf,X(4.4),Y(19),'RF APERTURE · 6-LAYER KEEPOUT',7.5,'var(--red)','middle',
+     {transform:`rotate(-90 ${X(4.4)} ${Y(19)})`,'letter-spacing':'.06em'});
+  el('rect',{x:X(0)-46,y:Y(30),width:44,height:22*S,fill:'none',stroke:'var(--red)',
+    'stroke-dasharray':'3 4',opacity:.5,rx:4},Lrf);
+  txt(Lrf,X(0)-24,Y(19),'3-D KEEPOUT ≥15 mm · NO METAL / CABLE',6.5,'rgba(240,96,76,.8)','middle',
+     {transform:`rotate(-90 ${X(0)-24} ${Y(19)})`});
+  // NFC reserve
+  el('rect',{x:X(128),y:Y(35),width:27*S,height:32*S,fill:'url(#hat)',stroke:'var(--red)',
+    'stroke-dasharray':'5 4',opacity:.8,rx:6},Lrf);
+  el('rect',{x:X(134),y:Y(31),width:18*S,height:24*S,rx:14,fill:'none',stroke:'var(--teal)',
+    'stroke-width':5,opacity:.5,'stroke-dasharray':'12 7'},Lrf);
+  txt(Lrf,X(142.8),Y(20.4),'NFC LOOP RESERVE',9,'var(--teal)');
+  txt(Lrf,X(142.8),Y(18),'GENUINE · EMPTY',8,'var(--teal)');
+  txt(Lrf,X(142.8),Y(15.6),'TUNE_TBD · NO HARDWARE',6.5,'rgba(240,96,76,.8)');
+  // cable mating volumes
+  [[39.5,48.5],[101.6,111.4],[112.1,121.9]].forEach(([a,b])=>{
+    el('rect',{x:X(a),y:Y(38)-36,width:(b-a)*S,height:34,fill:'none',stroke:'#8b95a1',
+      'stroke-dasharray':'3 4',opacity:.55,rx:4},Lrf);});
+  el('rect',{x:X(85),y:Y(0)+2,width:14*S,height:32,fill:'none',stroke:'#8b95a1',
+    'stroke-dasharray':'3 4',opacity:.55,rx:4},Lrf);
+  txt(Lrf,X(52),Y(39.3),'CABLE MATING / BEND VOLUMES',7,'#8b95a1','start');
+  txt(Lrf,X(92),Y(-1.2),'FLEX VOLUME',6.5,'#8b95a1');
+  // thermal watch
+  el('ellipse',{cx:X(66),cy:Y(27),rx:210,ry:78,fill:'none',stroke:'var(--orange)',
+    'stroke-dasharray':'2 6',opacity:.55},Lrf);
+  txt(Lrf,X(86.5),Y(26),'THERMAL WATCH',6.5,'rgba(239,154,78,.85)','start');},
+ corr(){
+  // sovereign K1BR
+  ribbon(`M ${X(27)} ${Y(19)} H ${X(61.6)}`,'var(--cyan)',16);
+  clabel(44,21.9,'K1BR ×5 · SOVEREIGN · 36mm · 0 VIA','var(--cyan)');
+  // USB star
+  ribbon(`M ${X(46.5)} ${Y(33.6)} L ${X(55.2)} ${Y(30.8)}`,'var(--grn)',7);
+  clabel(46,31.6,'US 15mm','var(--grn)');
+  ribbon(`M ${X(59.5)} ${Y(27.1)} L ${X(66.8)} ${Y(25.6)}`,'var(--grn)',7);
+  clabel(65,28.9,'DN1 10mm','var(--grn)');
+  ribbon(`M ${X(55.4)} ${Y(29)} H ${X(24.8)} V ${Y(9.8)} L ${X(21.5)} ${Y(9.6)}`,'var(--grn)',5,'2 5');
+  clabel(35,26.6,'DN2 · L6 UNDER BODY · 2T','var(--grn)');
+  // power
+  ribbon(`M ${X(57)} ${Y(34.8)} H ${X(96.5)}`,'var(--red)',10,'1 7');
+  clabel(78,37,'5V_SYS TRUNK · L3 →','var(--red)');
+  ribbon(`M ${X(100.5)} ${Y(34)} L ${X(105.5)} ${Y(34.9)}`,'var(--orange)',6);
+  // LED data seam
+  ribbon(`M ${X(68.5)} ${Y(13.4)} H ${X(102.5)} V ${Y(30)} H ${X(114.8)}`,'var(--orange)',6,'1 6');
+  clabel(88,15.9,'LED 3V3 · GUARDED SEAM / L4','var(--orange)');
+  // audio
+  ribbon(`M ${X(74.3)} ${Y(16.5)} C ${X(78)} ${Y(13.5)}, ${X(80.5)} ${Y(11.5)}, ${X(83.6)} ${Y(9.5)}`,'var(--violet)',9);
+  clabel(78.5,9.1,'SAI2 14mm','var(--violet)');
+  ribbon(`M ${X(93)} ${Y(4.4)} L ${X(90.6)} ${Y(9.4)}`,'var(--violet)',4,'1 5');
+  // I2C spine L4
+  ribbon(`M ${X(20)} ${Y(28.7)} H ${X(75.8)} V ${Y(15)} H ${X(119.5)}`,'var(--mag)',4,'7 5');
+  ribbon(`M ${X(55.5)} ${Y(28.7)} V ${Y(30.4)}`,'var(--mag)',4,'7 5');
+  clabel(98,16.6,'I²C SPINE · L4','var(--mag)');
+  // NFC digital
+  ribbon(`M ${X(119.5)} ${Y(15)} L ${X(120.3)} ${Y(17)}`,'var(--teal)',5);
+  // service
+  ribbon(`M ${X(11)} ${Y(3.2)} H ${X(71)}`,'var(--amber)',14);
+  clabel(24,6.2,'SERVICE SPINE','var(--amber)');},
+ faces(){
+  fline(61.6,22.5,58.8,24.8,'var(--amber)'); chip(55,25.4,'W ×13 · K1BR+SVC','var(--amber)');
+  fline(68,25.4,70.2,31.2,'var(--grn)');     chip(73.5,32.4,'N ×9 · USB+FLEXSPI','var(--grn)');
+  fline(74.4,21.5,80.5,23.8,'var(--violet)');chip(85.5,24.6,'E ×7 · SAI+DCDC','var(--violet)');
+  fline(68,13.4,68,10.6,'var(--orange)');    chip(68,9.4,'S ×3 · LED','var(--orange)');
+  chip(13.5,32.9,'W = ANT · 0 SIG','var(--red)');
+  fline(22.7,19,25.4,19,'var(--cyan)');      chip(31.5,25.9,'E ×5 · K1BR','var(--cyan)');
+  chip(15,6.7,'S · USB+EN','var(--grn)');
+  chip(17,30.9,'N · UART+I²C','var(--amber)');},
+};
+
+/* ============================================================ S1-N */
+const cloneD=o=>JSON.parse(JSON.stringify(o));
+function patchParts(parts,edits,adds,dels){const P=cloneD(parts);
+  (dels||[]).forEach(r=>{const i=P.findIndex(q=>q.r===r);if(i>=0)P.splice(i,1);});
+  Object.entries(edits||{}).forEach(([r,e])=>{const q=P.find(x=>x.r===r);if(q)Object.assign(q,e);});
+  (adds||[]).forEach(a=>P.push(a)); return P;}
+
+function nOutline(tag){const nX1=46,nX2=66,R=15;
+  const O=`M ${X(0)+R} ${Y(38)} H ${X(155)-R} Q ${X(155)} ${Y(38)} ${X(155)} ${Y(38)+R}
+   V ${Y(0)-R} Q ${X(155)} ${Y(0)} ${X(155)-R} ${Y(0)}
+   H ${X(nX2)} V ${Y(6.5)} H ${X(nX1)} V ${Y(0)}
+   H ${X(0)+R} Q ${X(0)} ${Y(0)} ${X(0)} ${Y(0)-R}
+   V ${Y(38)+R} Q ${X(0)} ${Y(38)} ${X(0)+R} ${Y(38)} Z`;
+  outlineBase(O);
+  txt(Lboard,X(11),Y(1.2),`K1-CORE-VAL-R0 · ${tag} · SPECTRASYNQ`,7,'rgba(233,236,239,.5)','start',{'letter-spacing':'.12em'});
+  txt(Lboard,X(152.5),Y(1.2),'6L · 1.6MM · 155.0',6.5,'rgba(233,236,239,.35)','end');}
+
+function nZones(enclave){zoneCols([
+  ['Z0',0.5,6,'#9aa4ae','WEST BAY'],['Z1',6,45,'#e0654f','POWER ENTRY + CONVERSION'],
+  ['Z2',46,66,'#f0604c','2.4 GHz RADIO'],['Z3',66.5,81,'#5fd67e','HUB'],
+  ['Z4',81,101,'#3ec9da','RT CORE'],['Z5',101,125.5,'#b48ce6','AUDIO · MOTION'],
+  ['Z6',126,155,'#46c8ae','NFC RESERVE']]);
+  el('rect',{x:X(78),y:Y(6.5),width:34*S,height:6.5*S,fill:'none',stroke:'var(--amber)',
+    opacity:'.5','stroke-dasharray':'4 4',rx:5},Lzone);
+  txt(Lzone,X(95),Y(-1.6),'Z7 · SOUTH SERVICE CORRIDOR',9.5,'#e6c04d','middle',
+     {'font-family':'"Saira Condensed",sans-serif','letter-spacing':'.14em'});
+  if(enclave){
+    el('rect',{x:X(104),y:Y(18),width:22*S,height:14.5*S,fill:'none',stroke:'var(--violet)',
+      opacity:'.65','stroke-dasharray':'6 4',rx:5},Lzone);
+    txt(Lzone,X(115),Y(16.6),'AUDIO QUIET ENCLAVE — RULED',7.5,'var(--violet)','middle',{opacity:.95});
+    chipZ(106.5,18,'G1 SAI','var(--violet)');
+    chipZ(104,9,'G2 I²C·L4','var(--mag)');
+    chipZ(121.5,18,'G3 THERM·L4·RC','var(--amber)');
+  }}
+function chipZ(x,y,t,c){el('rect',{x:X(x)-t.length*2.5-4,y:Y(y)-7,width:t.length*5+8,height:12,
+  rx:6,fill:'rgba(10,12,16,.85)',stroke:c,'stroke-width':1},Lzone);
+  txt(Lzone,X(x),Y(y)+2.4,t,7,c,'middle');}
+
+function nRF(v){ // shared normalised keepout/mech overlay; v='v1n'|'s1n'
+  // 2.4 GHz aperture (south notch)
+  el('rect',{x:X(44),y:Y(7.5),width:24*S,height:7.5*S,fill:'url(#hat)',stroke:'var(--red)',
+    'stroke-dasharray':'5 4',opacity:.85,rx:4},Lrf);
+  txt(Lrf,X(43.6),Y(4.4),'2.4 GHz APERTURE · RF-B NOTCH',8,'var(--red)','end',{'letter-spacing':'.06em'});
+  txt(Lrf,X(43.6),Y(2.2),'0 SIGNALS · CLEARANCE VOL = G3 MECH',7,'rgba(240,96,76,.75)','end');
+  // NFC reserve — hardware-inclusive
+  el('rect',{x:X(126),y:Y(35),width:29*S,height:32*S,fill:'url(#hat)',stroke:'var(--red)',
+    'stroke-dasharray':'5 4',opacity:.8,rx:6},Lrf);
+  el('rect',{x:X(132),y:Y(31),width:20*S,height:24*S,rx:14,fill:'none',stroke:'var(--teal)',
+    'stroke-width':5,opacity:.5,'stroke-dasharray':'12 7'},Lrf);
+  txt(Lrf,X(141),Y(23.6),'NFC LOOP RESERVE',9,'var(--teal)');
+  txt(Lrf,X(141),Y(21.2),'HARDWARE-INCLUSIVE:',6.5,'rgba(70,200,174,.85)');
+  txt(Lrf,X(141),Y(19.4),'BODIES · FASTENERS · WASHERS',6.2,'rgba(70,200,174,.7)');
+  txt(Lrf,X(141),Y(17.6),'STANDOFFS · SHIELDS · BOSSES',6.2,'rgba(70,200,174,.7)');
+  txt(Lrf,X(141),Y(15.2),'TUNE_TBD',6.5,'rgba(240,96,76,.8)');
+  // mounting fastener envelopes (H3 relocated in S1N-R1 with written cause)
+  (v==='s1n'?[[7,32],[7,6],[119.5,28.5]]:[[7,32],[7,6],[121,31.5]]).forEach(([hx,hy])=>{
+    el('circle',{cx:X(hx),cy:Y(hy),r:3.5*S,fill:'none',stroke:'#9aa4ae','stroke-dasharray':'4 3',opacity:.6},Lrf);
+    el('circle',{cx:X(hx),cy:Y(hy),r:4*S,fill:'none',stroke:'#9aa4ae','stroke-dasharray':'1 4',opacity:.35},Lrf);});
+  txt(Lrf,X(12.6),Y(31.8),'Ø7 FASTENER',5.8,'#9aa4ae','start');
+  txt(Lrf,X(12.6),Y(30),'+ Ø8 BOSS ENV',5.8,'#9aa4ae','start');
+  // chassis / shield / ESD provision at cable entries
+  el('rect',{x:X(13.5),y:Y(38)-8,width:13*S,height:8.6*S,fill:'none',stroke:'#8b95a1',
+    'stroke-dasharray':'6 3',opacity:.6,rx:6},Lrf);
+  txt(Lrf,X(20),Y(29.3),'SHIELD/CHASSIS PROVISION · ⏚ STITCH',6.2,'#8b95a1');
+  txt(Lrf,X(27.6),Y(36.8),'⏚ESD',6,'rgba(139,149,161,.9)','start');
+  txt(Lrf,X(111.4),Y(39.3),'⏚ESD J2·J3',6,'rgba(139,149,161,.9)');
+  // J1 mating volume + D-050 reserve flag
+  el('rect',{x:X(15.5),y:Y(38)-36,width:9*S,height:34,fill:'none',stroke:'#8b95a1',
+    'stroke-dasharray':'3 4',opacity:.55,rx:4},Lrf);
+  txt(Lrf,X(28.2),Y(33.4),'J1: D-050 RESERVE — GT-USB-7005A SELECTED · BIND PENDING',6,'var(--gold)','start');
+  txt(Lrf,X(28.2),Y(31.9),'J1↔HUB US ≈45mm — REMEASURE AT BIND',5.6,'rgba(217,180,91,.75)','start');
+  if(v==='v1n'){
+    // defect flags
+    txt(Lrf,X(127.5),Y(31.4),'✕',13,'var(--red)');
+    txt(Lrf,X(133.6),Y(29.4),'D-a: J9 FLEX + BEND VOL IN RESERVE',6.5,'var(--red)','start');
+    txt(Lrf,X(140),Y(11.2),'✕',13,'var(--red)');
+    txt(Lrf,X(140),Y(7.4),'D-b: J10 + CABLE IN FIELD',6.5,'var(--red)');
+    el('rect',{x:X(123),y:Y(38)-30,width:9*S,height:28,fill:'none',stroke:'var(--red)',
+      'stroke-dasharray':'3 3',opacity:.7,rx:4},Lrf);
+    txt(Lrf,X(127.5),Y(40.4),'FLEX BEND VOL (VIOLATION)',6,'var(--red)');
+    txt(Lrf,X(114),Y(26.9),'✕ D-g: H3 ENV ∩ J3 BODY · 1.5mm TO RESERVE',6,'var(--red)');
+  }else{
+    // S1N: DCDC switch-node exclusion + flash rework ring + flex volume south
+    el('circle',{cx:X(87),cy:Y(28.6),r:2.5*S,fill:'none',stroke:'var(--red)','stroke-width':1.6,
+      'stroke-dasharray':'5 3',opacity:.85},Lrf);
+    txt(Lrf,X(80.5),Y(32.6),'SW-NODE EXCL · NO B-SIDE PARTS UNDER',6.2,'var(--red)');
+    el('rect',{x:X(82.95),y:Y(26.05),width:9.3*S,height:9.3*S,fill:'none',stroke:'var(--violet)',
+      'stroke-dasharray':'2 4',opacity:.6,rx:4},Lrf);
+    txt(Lrf,X(95.8),Y(30.9),'FLASH REWORK RING +2mm',5.8,'var(--violet)','start');
+    txt(Lrf,X(87.6),Y(16.2),'LP COLS INTERLEAVE SD_B1 — NODE=L1+FENCE, B-SIDE PLANE-SHIELDED',5.4,'var(--violet)');
+    el('rect',{x:X(113),y:Y(0)+2,width:14*S,height:30,fill:'none',stroke:'#8b95a1',
+      'stroke-dasharray':'3 4',opacity:.55,rx:4},Lrf);
+    txt(Lrf,X(120),Y(-1.2),'FLEX VOLUME',6.2,'#8b95a1');
+    txt(Lrf,X(140.5),Y(9.2),'FIELD CLEAN ✓',7.5,'var(--grn)');
+    txt(Lrf,X(140.5),Y(6.8),'JLC INNER-COVERAGE / WARPAGE',5.6,'var(--amber)');
+    txt(Lrf,X(140.5),Y(5.4),'DFM QUESTION: 27mm COPPER-FREE END',5.6,'var(--amber)');
+    // D11 hub/validity island — census-derived reserved envelope
+    el('rect',{x:X(63.5),y:Y(33.5),width:20.5*S,height:13*S,fill:'none',stroke:'var(--grn)',
+      'stroke-dasharray':'8 4','stroke-width':1.6,opacity:.75,rx:6},Lrf);
+    txt(Lrf,X(73.7),Y(19.7),'D11 RESERVED ENVELOPE ≈20×13mm (CENSUS ≈240mm² — WHOLE ISLAND)',6.4,'var(--grn)');
+    txt(Lrf,X(73.7),Y(18.35),'VALIDITY SOURCE + UNPLUG-KILL: PARAMETRISED',5.8,'rgba(95,214,126,.8)');
+    // H3 RF exclusion margin
+    el('circle',{cx:X(119.5),cy:Y(28.5),r:5.5*S,fill:'none',stroke:'var(--red)','stroke-dasharray':'2 6',opacity:.5},Lrf);
+    txt(Lrf,X(112.4),Y(23.4),'H3 +2mm RF EXCL — CONDITIONAL, NOT RF-QUALIFIED',5.6,'rgba(240,96,76,.85)','end');
+  }
+  // U13 modal note
+  txt(Lrf,X(123.5),Y(24.9),'U13: MOUNT-DEPENDENT MODAL HYP.',5.6,'#8b95a1');}
+
+/* ---------- V1N ---------- */
+const V1N={BW:155,
+ cap:'V1N · normalised baseline · 155.0 × 38.0 · TE 2129691-1 (UNVERIFIED footprint) · V1 topology with defects retained and measured',
+ outline(){nOutline('V1N')},
+ zones(){nZones(false)},
+ parts:patchParts(V1.parts,{
+  'J1-PWR1':{t:'usbcRes',tip:'J1 · D-050 MECHANICAL RESERVE — SELECTED GT-USB-7005A / C5250872, BIND PENDING; TE 2129691-1 archived as previous fallback. Envelope bounds both candidates. On bind, re-evaluate: cutout, pad/B-row positions, shell/support tabs, centre height, insertion axis, shield/ESD region, CC-protection, raw-VBUS cap/discharge, cable bend, J1-ESD→hub path, mounting-envelope interference. No mechanical closure claimed.'},
+  'U4-TPS2561':{r:'U17-PWR2',tip:'U17-PWR2 (TPS2561) — exact repaired-schematic designator; the floorplan alias “U4” is retired. V1N keeps the source-side position (defect D-d).'},
+  'F6-2052B':{r:'TPS2052B·TBD',tip:'TPS2052B — F6-B fork label retired; SCHEMATIC DESIGNATOR TBD (hub island not yet captured). PLACEHOLDER.'},
+  'USB2422':{tip:'USB2422 hub — DESIGNATOR TBD, capture pending (D-049/Δ2). See the D11 census: the reserved envelope must hold the WHOLE island, not three ICs.'},
+  'U22-USB':{tip:'U22-USB slot — F6_VALIDITY_SOURCE is OPEN: the source must come from the voltage-envelope proof, not a default. PARAMETRISED PLACEHOLDER sized for the worst candidate; independent host-VBUS kill logic also belongs in the island.'},
+  'U12-NFC':{x:122.5,y:19.5,tip:'ST25R3916B @90° — island position unified with S1N so it is not a confound. Digital W, RF E.'},
+  'Y2':{x:122.5,y:14.8},'C-RAILS':{x:119,y:22.8},'MATCH':{x:127,y:19.5,sd:1},'FB3+C':{x:117.5,y:25.5,sd:1},
+  'J10-NFC':{x:140,y:9,tip:'V1 DEFECT D-b: U.FL + cable body INSIDE the antenna field. S1N item-2 moves it west.'},
+  'J9-AUD':{x:127.5,y:35,tip:'V1 DEFECT D-a: mic flex + full bend volume inside the hardware-inclusive NFC reserve. Retained in V1N so the S1N delta is measurable.'},
+  'H3':{x:121,y:31.5,tip:'V1N DEFECT D-g (drawn): the Ø7 fastener envelope OVERLAPS the J3 connector body, and its edge sits only ~1.5 mm from the NFC reserve — close metal for a loop antenna. Not RF-qualified. S1N-R1 relocates it with written cause.'},
+  'U13-MOT':{tip:'LIS2DH12 — mount-dependent stiffness/modal placement HYPOTHESIS inside the drawn fastener-envelope triangle; re-derives when the enclosure fixes the mounts. “Neutral axis” language withdrawn.'},
+ }),
+ silk(){txt(Lsilk,X(26.2),Y(37.2),'J1 · D-050 MECHANICAL RESERVE',7.5,'var(--gold)','start',{'letter-spacing':'.05em'});
+   txt(Lsilk,X(26.2),Y(35.2),'GT-USB-7005A SELECTED · BIND PENDING',6,'rgba(217,180,91,.85)','start');
+   txt(Lsilk,X(105.4),MY-12,'J2',7.5,'rgba(233,236,239,.8)');
+   txt(Lsilk,X(117.4),MY-12,'J3',7.5,'rgba(233,236,239,.8)');},
+ rf(){nRF('v1n')},
+ corr(){
+  ribbon(`M ${X(13)} ${Y(32.4)} H ${X(44)}`, 'var(--red)',12);
+  ribbon(`M ${X(44.5)} ${Y(33.8)} H ${X(100)}`,'var(--orange)',8,'1 7');
+  clabel(56,36.5,'+5V_LED REGION · L3 → (SOURCE-SIDE SWITCH · D-d)','var(--orange)');
+  ribbon(`M ${X(56)} ${Y(26)} C ${X(66)} ${Y(31.5)}, ${X(80)} ${Y(31.5)}, ${X(89.5)} ${Y(26.5)}`,'var(--cyan)',13);
+  clabel(76,32.8,'C2 K1BR ×5 · ~4 ESCAPE VIAS','var(--cyan)');
+  ribbon(`M ${X(73)} ${Y(29.2)} V ${Y(34.9)} H ${X(24.5)}`,'var(--grn)',7);
+  ribbon(`M ${X(75.3)} ${Y(27)} H ${X(85.8)} `,'var(--grn)',7);
+  ribbon(`M ${X(70.7)} ${Y(26)} L ${X(65.2)} ${Y(22.5)}`,'var(--grn)',7);
+  clabel(50,32.6,'C3 US 90Ω','var(--grn)');clabel(80.5,24.6,'DN1 · 2T','var(--grn)');clabel(67.2,24.2,'DN2','var(--grn)');
+  ribbon(`M ${X(78)} ${Y(3.2)} H ${X(112)}`,'var(--amber)',16);
+  clabel(95,5.6,'C4 SERVICE','var(--amber)');
+  ribbon(`M ${X(31.5)} ${Y(26.8)} V ${Y(10.5)} H ${X(119.8)} V ${Y(17.6)}`,'var(--mag)',5,'7 5');
+  clabel(37.5,12.2,'C5 I²C · L4','var(--mag)');
+  ribbon(`M ${X(89.5)} ${Y(13.4)} C ${X(96)} ${Y(9.8)}, ${X(104)} ${Y(10)}, ${X(110.6)} ${Y(13.6)}`,'var(--violet)',10);
+  clabel(100,8.3,'C6 SAI/PDM','var(--violet)');
+  ribbon(`M ${X(126.9)} ${Y(32.4)} C ${X(123)} ${Y(22)}, ${X(118.5)} ${Y(16)}, ${X(113.6)} ${Y(13.8)}`,'var(--violet)',6,'1 6');
+  ribbon(`M ${X(98.3)} ${Y(20.6)} C ${X(101)} ${Y(25)}, ${X(102.5)} ${Y(28)}, ${X(104.6)} ${Y(30.2)} M ${X(98.3)} ${Y(19.4)} C ${X(106)} ${Y(23)}, ${X(111.5)} ${Y(27)}, ${X(114.4)} ${Y(30.2)}`,'var(--orange)',6);
+  clabel(108.5,24.2,'C7 LED DATA','var(--orange)');},
+ faces(){
+  fline(92,26.4,92,28.6,'var(--cyan)');   chip(92,29.6,'N · K1BR ×5','var(--cyan)');
+  fline(85.6,20,83.4,20,'var(--grn)');    chip(80,19.3,'W ×9 · DN1 2T','var(--grn)');
+  fline(92,13.6,92,11.8,'var(--amber)');  chip(92,10.6,'S · SVC+AUD ×15','var(--amber)');
+  fline(98.4,20,100.4,20,'var(--orange)');chip(103.4,18.4,'E ×2','var(--orange)');
+  fline(56,25.9,56,27.4,'var(--cyan)');   chip(50,28.4,'N · K1BR ×5','var(--cyan)');
+  fline(65.4,17,67,17,'var(--grn)');      chip(70.6,15,'E ×8','var(--grn)');
+  fline(46.6,16.5,45,16.5,'var(--amber)');chip(42.2,16.5,'W ×5','var(--amber)');
+  chip(56,2.6,'S · 0 SIGNALS','var(--red)');},
+};
+
+/* ---------- S1N ---------- */
+const S1N={BW:155,
+ cap:'S1N-R1 · CURRENT-AUTHORITY REBASE of S1N · every relative placement preserved unless D-050 / D11 / pinmap physically forces movement · STUDY_INPUT · BINDING=NO',
+ outline(){nOutline('S1N')},
+ zones(){nZones(true)},
+ parts:patchParts(V1N.parts,{
+  'J9-AUD':{x:120,y:2.9,tip:'S1N-1: mic flex on the SOUTH edge — flex + full bend volume outside the NFC field; opposite edge from the LED cables. Exit stays enclosure-open.'},
+  'J10-NFC':{x:121.5,y:8,tip:'S1N-2: U.FL + cable body WEST of the pure antenna field. 0R XOR selects integrated loop vs external path; external tap DNP by default; its stub consequence is drawn.'},
+  'U17-PWR2':{x:99.5,y:33.9,tip:'S1N-4: U17-PWR2 (TPS2561) AT THE LOAD — switched branch ~8 mm ≈0.7 mΩ copper; shared trunk travels; per-channel limit + thermal shutdown + PG at the event. RILIM value and connector bulk are PROPOSED SCHEMATIC Δ, not frozen. Capture pending (Δ4).'},
+  'FB1·FB2':{x:101.9,y:32.4},
+  'H3':{x:119.5,y:28.5,tip:'S1N-R1 MOVE — written physical cause: (1) V1N fastener envelope overlapped the J3 connector body (drawn collision); (2) NFC RF margin raised from ~1.5 mm to ~3 mm + a 2 mm RF exclusion margin beyond the envelope. Still CONDITIONAL — not RF-qualified until antenna + enclosure hardware are modelled.'},
+  'U11-AUD':{tip:'ADC6120 @180° inside the RULED enclave: TDM N through gate G1; PDM E to the south flex; I²C W via gate G2 (L4).'},
+  'U8-FLASH':{x:87.6,y:21.4,tip:'S1N-8 FINDING: the DCDC_LP ball columns INTERLEAVE the SD_B1 field — a ≥3 mm gap is geometrically impossible (MEASURED). Resolution: flash shifted SW, node copper confined to L1 north of the package + fenced vias, B-side sees only plane-shielded balls (L2–L5). CONDITIONAL on the noise check.'},
+  'R-ISO':{tip:'Audio iso/0R matrix at gate G1 — the named SAI crossing.'},
+ },[
+  {r:'SEL',t:'rc',x:129.3,y:19.5,sd:1,o:{n:2,cols:1},tip:'S1N-2: 0R XOR — integrated loop feed vs external J10 path. Never both loaded.'},
+  {r:'C-BLKL',t:'rc',x:108.6,y:31.6,o:{n:2,cols:1,tan:true},sd:1,tip:'Connector-side bulk 2×22µF (L).'},
+  {r:'C-BLKR',t:'rc',x:118.6,y:31.6,o:{n:2,cols:1,tan:true},sd:1,tip:'Connector-side bulk 2×22µF (R).'},
+  {r:'R-TS3',t:'rc',x:58.5,y:27.6,o:{n:2,cols:2},tip:'S1N-6: S3-end series R — MISO/IRQ (S3-driven). TPs at the RT end.'},
+  {r:'B-DECAP',t:'bpatch',x:92,y:17.5,sd:1,o:{w:7,h:6,t:'CORE DECAP',t2:'NXP-STYLE'},xr:1,tip:'B-side: NXP-style bottom decoupling inside the fan-out via field; loops close through ball vias; clear of the flash rework ring.'},
+  {r:'B-STRAP',t:'bpatch',x:90.5,y:13.4,sd:1,o:{w:4.5,h:2,t:'STRAPS'},xr:1,tip:'B-side: boot straps under the S face — DC; clears the top service face.'},
+  {r:'B-KTERM',t:'bpatch',x:86.5,y:27.6,sd:1,o:{w:4,h:2,t:'K1BR TERM'},xr:1,tip:'S1N-6/7 B-side: RT-end series R (SCK/MOSI/CS) beside their escape vias — keeps the top gateway clear for K1BR + DN1 copper.'},
+ ]),
+ silk(){V1N.silk();
+   txt(Lsilk,X(120),Y(0)+34,'J9',7.5,'rgba(233,236,239,.8)');},
+ rf(){nRF('s1n')},
+ corr(){
+  ribbon(`M ${X(13)} ${Y(32.4)} H ${X(44)}`, 'var(--red)',12);
+  ribbon(`M ${X(44.5)} ${Y(34.6)} H ${X(97.5)}`,'var(--red)',9,'1 7');
+  clabel(62,36.6,'5V_SYS TRUNK · L3 → (SWITCH AT LOAD)','var(--red)');
+  ribbon(`M ${X(100.8)} ${Y(33.4)} L ${X(105.3)} ${Y(34.7)}`,'var(--orange)',6);
+  clabel(95.5,31.4,'SW 8mm','var(--orange)');
+  ribbon(`M ${X(56)} ${Y(26)} C ${X(66)} ${Y(31.5)}, ${X(80)} ${Y(31.5)}, ${X(89.5)} ${Y(26.5)}`,'var(--cyan)',13);
+  clabel(76,32.8,'C2 K1BR ×5 · ~4 ESCAPE VIAS · DIRECTIONAL TERM','var(--cyan)');
+  ribbon(`M ${X(73)} ${Y(29.2)} V ${Y(34.9)} H ${X(24.5)}`,'var(--grn)',7);
+  ribbon(`M ${X(75.3)} ${Y(27)} H ${X(85.8)} `,'var(--grn)',7);
+  ribbon(`M ${X(70.7)} ${Y(26)} L ${X(65.2)} ${Y(22.5)}`,'var(--grn)',7);
+  clabel(50,32.6,'C3 US 90Ω','var(--grn)');clabel(80.5,24.6,'DN1 · 2T (L6)','var(--grn)');clabel(67.2,24.2,'DN2','var(--grn)');
+  ribbon(`M ${X(78)} ${Y(3.2)} H ${X(112)}`,'var(--amber)',16);
+  clabel(95,5.6,'C4 SERVICE','var(--amber)');
+  ribbon(`M ${X(31.5)} ${Y(26.8)} V ${Y(10.5)} H ${X(119.8)} V ${Y(17.6)}`,'var(--mag)',5,'7 5');
+  clabel(37.5,12.2,'C5 I²C · L4 (GATE G2)','var(--mag)');
+  ribbon(`M ${X(89.5)} ${Y(13.4)} C ${X(96)} ${Y(9.8)}, ${X(104)} ${Y(10)}, ${X(108)} ${Y(12.6)}`,'var(--violet)',10);
+  clabel(100,8.3,'C6 SAI → GATE G1','var(--violet)');
+  ribbon(`M ${X(120)} ${Y(4.6)} C ${X(118.5)} ${Y(8)}, ${X(116.5)} ${Y(10.5)}, ${X(114.4)} ${Y(12.4)}`,'var(--violet)',6,'1 6');
+  ribbon(`M ${X(98.3)} ${Y(20.4)} H ${X(104.5)} V ${Y(29.6)} H ${X(114.2)}`,'var(--orange)',6,'1 6');
+  clabel(103,22.5,'C7 LED · N OF ENCLAVE +2.3mm + GUARD','var(--orange)');
+  ribbon(`M ${X(129.8)} ${Y(19.5)} H ${X(133.5)}`,'var(--teal)',6);
+  clabel(137,25.4,'LOOP FEED','var(--teal)');
+  ribbon(`M ${X(129.3)} ${Y(18.6)} L ${X(123.2)} ${Y(10.2)}`,'var(--teal)',4,'2 4');
+  clabel(129.5,6.6,'EXT PATH · DNP · STUB COST DRAWN','var(--teal)');},
+ faces(){V1N.faces()},
+ delta(){ // Δ vs V1N
+  function ghost(x,y,w,h,t){el('rect',{x:X(x)-w*S/2,y:Y(y)-h*S/2,width:w*S,height:h*S,rx:3,
+    fill:'none',stroke:'var(--gold)','stroke-dasharray':'3 3',opacity:.7},Ldelta);
+    txt(Ldelta,X(x),Y(y)+2,t,6.5,'var(--gold)');}
+  function arrow(x1,y1,x2,y2){el('line',{x1:X(x1),y1:Y(y1),x2:X(x2),y2:Y(y2),stroke:'var(--gold)',
+    'stroke-width':1.6,opacity:.75,'stroke-dasharray':'6 4'},Ldelta);
+    el('circle',{cx:X(x2),cy:Y(y2),r:3.5,fill:'var(--gold)'},Ldelta);}
+  ghost(127.5,35,14,5,'J9 was');   arrow(127.5,32.4,120.6,4.4);
+  ghost(140,9,3,3,'J10 was');      arrow(138.6,9,123.2,8.2);
+  ghost(33,23.2,3.5,3.5,'2561 was');arrow(34.8,23.2,97.8,33.2);
+  ghost(121,31.5,2.5,2.5,'H3 was');  arrow(121,30.2,119.9,29.2);
+  txt(Ldelta,X(129),Y(31.6),'Δ H3: J3-body collision + RF margin',6,'var(--gold)','start');
+  txt(Ldelta,X(72),Y(24.8),'Δ SERIES-R SPLIT: SCK/MOSI/CS → RT END (B-SIDE)',6.5,'var(--gold)');
+  txt(Ldelta,X(107),Y(26.4),'Δ LED DATA REROUTED N OF ENCLAVE',6.5,'var(--gold)');
+  txt(Ldelta,X(8),Y(12),'Δ MAP · S1N-R1 vs V1N — 7 MOVES, EACH WITH WRITTEN PHYSICAL CAUSE, 0 TOPOLOGY CHANGES',7,'var(--gold)','start');},
+};
+
+/* ---------- local G4 escape study (real ball map, west half, θ180) ---------- */
+function buildEscape(){
+  const esc=document.getElementById('esc'); if(!esc)return;
+  const EW=1560,EH=860; esc.setAttribute('viewBox',`0 0 ${EW} ${EH}`);
+  const Z=44, ox=84, oy=28.2, MEX=120, MEY=120;
+  const ex=x=>MEX+(x-ox)*Z, ey=y=>MEY+(oy-y)*Z;
+  const eel=(t,a,p)=>{const e=document.createElementNS(NS,t);for(const k in a)e.setAttribute(k,a[k]);(p||esc).appendChild(e);return e};
+  const etxt=(x,y,s,sz,c,anc,ex2)=>{const t=eel('text',Object.assign({x,y,'font-size':sz,fill:c,'text-anchor':anc||'middle','font-family':'"IBM Plex Mono",monospace'},ex2||{}));t.textContent=s;return t};
+  // background: package outline (west half window) at RT (92,20), 12mm body
+  eel('rect',{x:ex(86),y:ey(26),width:8*Z,height:12*Z,rx:8,fill:'#14171b',stroke:'#2a2f36'});
+  etxt(720,ey(27.2),'RT1062 · 196 MAPBGA · 0.8 mm PITCH · θ180 · WEST HALF (BOARD FRAME)','10','#c9ced4','start');
+  etxt(720,ey(26.4),'PROVENANCE: BALL GEOMETRY = MEASURED (footprint grid) · BALL FUNCTION = PROJECT SYMBOL — repair history on record, NXP ball-map cross-check REQUIRED','8','var(--amber)','start');
+  etxt(720,ey(25.8),'PERIPHERAL ASSIGNMENTS = PROPOSED BALL ASSIGNMENT — NOT PINMUX-FROZEN (except D-020 facts: LPUART1 AD_B0_12/13 · BOOT_MODE AD_B0_04/05)','8','var(--amber)','start');
+  const LET='ABCDEFGHJKLMNP';
+  const NAME={ // verified from the project symbol
+   'J1':['K1BR SD_B0','cyan'],'J3':['K1BR','cyan'],'J4':['K1BR','cyan'],'K1':['K1BR','cyan'],'J2':['SD_B0','cyan'],'K2':['SD_B0','cyan'],
+   'P3':['FLEXSPI D0','violet'],'N4':['FLEXSPI D1','violet'],'L4':['FLEXSPI SCLK','violet'],'L3':['FLEXSPI SS0','violet'],
+   'K3':['DCDC_PSW','red'],'K4':['DCDC_IN_Q','red'],'J5':['DCDC_SENSE','red'],'L1':['DCDC_IN','red'],'L2':['DCDC_IN','red'],
+   'M1':['DCDC_LP (SW)','red'],'M2':['DCDC_LP (SW)','red'],'N1':['DCDC_GND','red'],'N2':['DCDC_GND','red'],
+   'L8':['USB_OTG1_DP','grn'],'M8':['USB_OTG1_DN','grn'],'N6':['OTG1_VBUS','grn'],
+   'P11':['XTALI','gold'],'N11':['XTALO','gold'],'N9':['RTC_XTALI','gold'],'P9':['RTC_XTALO','gold'],
+   'M7':['POR_B','amber'],'M6':['ONOFF','amber'],'L6':['WAKEUP','amber'],'K6':['TEST_MODE','amber'],'K7':['PMIC_ON','amber'],'L7':['PMIC_STBY','amber'],
+   'K8':['VDD_USB_CAP','gold'],'M9':['SNVS_IN','gold'],'M10':['SNVS_CAP','gold'],'P8':['VDD_HIGH','gold'],'P10':['NVCC_PLL','gold']};
+  const COL={cyan:'var(--cyan)',violet:'var(--violet)',red:'var(--red)',grn:'var(--grn)',gold:'var(--gold)',amber:'var(--amber)'};
+  for(let li=0;li<14;li++)for(let ni=1;ni<=14;ni++){
+    const px=(li-6.5)*0.8, py=(ni-6.5)*0.8;
+    const bx=92-px, by=20-py;
+    if(bx<86.2||bx>93.9||by<14||by>26) continue;
+    const id=LET[li]+ni, nm=NAME[id];
+    const c=nm?COL[nm[1]]:'#3a4149';
+    const g=eel('g',{});
+    eel('circle',{cx:ex(bx),cy:ey(by),r:nm?12:9,fill:c,opacity:nm?.95:.5},g);
+    const ti=document.createElementNS(NS,'title');
+    ti.textContent=id+(nm?' · '+nm[0]:' · GPIO/PWR field');g.appendChild(ti);
+    if(nm)etxt(ex(bx),ey(by)+3,id,'8','#0c0e11');
+  }
+  // K1BR escapes: J1,K1 (outer col 1) north on L1; J3,J4 inner -> via -> L4
+  [['J',1],['K',1]].forEach(([L,n])=>{const bx=92-(LET.indexOf(L)-6.5)*0.8, by=20-(n-6.5)*0.8;
+    eel('path',{d:`M ${ex(bx)} ${ey(by)} V ${ey(28.6)}`,stroke:'var(--cyan)','stroke-width':4,fill:'none'});});
+  [['J',3],['J',4]].forEach(([L,n])=>{const bx=92-(LET.indexOf(L)-6.5)*0.8, by=20-(n-6.5)*0.8;
+    eel('circle',{cx:ex(bx)+18,cy:ey(by)-14,r:7,fill:'none',stroke:'var(--cyan)','stroke-width':2.5});
+    eel('path',{d:`M ${ex(bx)} ${ey(by)} L ${ex(bx)+18} ${ey(by)-14}`,stroke:'var(--cyan)','stroke-width':3});
+    eel('path',{d:`M ${ex(bx)+18} ${ey(by)-14} V ${ey(28.6)}`,stroke:'var(--cyan)','stroke-width':2.5,'stroke-dasharray':'7 5',fill:'none'});});
+  eel('rect',{x:ex(90.4)-34,y:ey(29.3),width:68,height:18,rx:4,fill:'none',stroke:'var(--cyan)','stroke-dasharray':'3 3'});
+  etxt(ex(90.4),ey(29),'B: TERM R','7.5','var(--cyan)');
+  etxt(720,ey(25.4),'K1BR ×5 → N GATEWAY · J1/K1 outer ring = L1 (L2 ref) · J3/J4 inner = via→L4→via = 2T each','9.5','var(--cyan)','start');
+  eel('line',{x1:520,y1:ey(25.5),x2:710,y2:ey(25.5),stroke:'var(--cyan)',opacity:.35});
+  // USB escape
+  [['L',8],['M',8]].forEach(([L,n])=>{const bx=92-(LET.indexOf(L)-6.5)*0.8, by=20-(n-6.5)*0.8;
+    eel('circle',{cx:ex(bx)-20,cy:ey(by)+2,r:7,fill:'none',stroke:'var(--grn)','stroke-width':2.5});
+    eel('path',{d:`M ${ex(bx)} ${ey(by)} H ${ex(bx)-20}`,stroke:'var(--grn)','stroke-width':3});
+    eel('path',{d:`M ${ex(bx)-20} ${ey(by)+2} H ${ex(84.6)} `,stroke:'var(--grn)','stroke-width':2.5,'stroke-dasharray':'7 5'});});
+  [['L',8],['M',8]].forEach(([L,n])=>{const bx=92-(LET.indexOf(L)-6.5)*0.8, by=20-(n-6.5)*0.8;
+    eel('circle',{cx:ex(bx)-20,cy:ey(by)+2-15,r:5,fill:'#3a4149',stroke:'#8b95a1','stroke-width':1.5});
+    eel('circle',{cx:ex(bx)-20,cy:ey(by)+2+15,r:5,fill:'#3a4149',stroke:'#8b95a1','stroke-width':1.5});});
+  etxt(720,ey(19.2),'DN1 90 Ω: L8/M8 sit 7 RINGS DEEP → dogbone → L6 (L5 ref) → west to hub · 2 TRANSITIONS','9.5','var(--grn)','start');
+  etxt(720,ey(16.9),'RETURN STRUCTURE: +2 GND vias flanking the pair at the transition (L2↔L5 reference transfer) · through-vias, no stub','8.5','rgba(95,214,126,.8)','start');
+  etxt(720,ey(16.1),'pair-skew matched by symmetric via placement · anti-pads per stack · route width/gap from JLC impedance calc = UNPROVEN','8.5','rgba(95,214,126,.65)','start');
+  etxt(720,ey(18),'“0 via / 0 transition USB” claim WITHDRAWN — MEASURED_FROM_GEOMETRY','8.5','rgba(95,214,126,.75)','start');
+  eel('line',{x1:ex(85)+8,y1:ey(19),x2:710,y2:ey(19),stroke:'var(--grn)',opacity:.3,'stroke-dasharray':'4 4'});
+  // FlexSPI B-side
+  [['P',3],['N',4],['L',4],['L',3]].forEach(([L,n])=>{const bx=92-(LET.indexOf(L)-6.5)*0.8, by=20-(n-6.5)*0.8;
+    eel('circle',{cx:ex(bx)+16,cy:ey(by)+14,r:8,fill:'none',stroke:'var(--violet)','stroke-width':2.5});
+    eel('line',{x1:ex(bx)+11,y1:ey(by)+9,x2:ex(bx)+21,y2:ey(by)+19,stroke:'var(--violet)','stroke-width':2});
+    eel('path',{d:`M ${ex(bx)} ${ey(by)} L ${ex(bx)+16} ${ey(by)+14}`,stroke:'var(--violet)','stroke-width':3});});
+  eel('rect',{x:ex(84.95),y:ey(24.05),width:5.3*Z,height:5.3*Z,rx:6,fill:'rgba(180,140,230,.07)',
+    stroke:'var(--violet)','stroke-dasharray':'6 4'});
+  etxt(720,ey(22.6),'FLEXSPI ×6 → B-SIDE FLASH under SD_B1 (6 vias) · +2 mm REWORK RING','9.5','var(--violet)','start');
+  etxt(720,ey(21.6),'FINDING: DCDC_LP columns INTERLEAVE SD_B1 → lateral gap only ~1.5–2.5 mm — “≥3 mm” WITHDRAWN','8.5','rgba(180,140,230,.85)','start');
+  etxt(720,ey(20.7),'Fix: node copper = L1 north of pkg + fenced vias; B-side sees plane-shielded balls (L2–L5). CONDITIONAL: noise check','8.5','rgba(180,140,230,.7)','start');
+  eel('line',{x1:ex(91.4),y1:ey(22.7),x2:710,y2:ey(22.7),stroke:'var(--violet)',opacity:.3});
+  // DCDC loop + exclusion
+  const swx=ex(88.4),swy=ey(25.2);
+  eel('path',{d:`M ${ex(88.4)} ${ey(24.8)} V ${ey(27.6)} H ${ex(90)} V ${ey(24.8)}`,stroke:'var(--red)','stroke-width':6,fill:'none',opacity:.8});
+  eel('circle',{cx:ex(89.2),cy:ey(27.2),r:2.2*Z/2,fill:'none',stroke:'var(--red)','stroke-width':2,'stroke-dasharray':'5 3'});
+  etxt(720,ey(29),'DCDC LOOP local · SW-NODE EXCLUSION (all layers + B-side parts keepout)','9.5','var(--red)','start');
+  etxt(720,ey(28),'“Quiet FlexSPI corner” claim demoted to CONDITIONAL — drawn, measured, not asserted','8.5','rgba(240,96,76,.8)','start');
+  // service face arrows south
+  eel('path',{d:`M ${ex(90.5)} ${ey(14.4)} V ${ey(13.2)} M ${ex(91.5)} ${ey(14.4)} V ${ey(13.2)} M ${ex(92.5)} ${ey(14.4)} V ${ey(13.2)}`,stroke:'var(--amber)','stroke-width':3});
+  etxt(720,ey(14.2),'AD SERVICE FACE → S: SWD · LPUART1 · BOOT STRAPS · SAI1 (fixed balls, outer rings, L1)','9.5','var(--amber)','start');
+  // legend
+  etxt(140,EH-34,'SOLID = L1 (L2 ref) · DASH-CYAN = L4 (L5 far ref — slow only) · DASH-GREEN = L6 (L5 ref) · ⊗ = B-side via · COUNTS: K1BR 2 nets ×2T · DN1 2T · FLEXSPI 6 B-via · geometry MEASURED; routing itself remains G4 work','8.5','#8b95a1','start');
+  etxt(140,EH-16,'JLC CAPABILITY (help articles, 2026-08-29): ≥4L 0.09/0.10 mm rules → one-trace-between-balls feasible at 0.8 mm (land Ø pending) · via-in-pad NOT forced above 0.5 mm pitch · POFV free on 6-20L → B-side decap/dogbone strategy costs nothing extra · no back-drill needed (no-stub DN1, SPI-speed K1BR stubs)','8.5','var(--gold)','start');
+}
+
+/* ---------- build ---------- */
+function clearAll(){LAYERS.forEach(g=>{while(g.firstChild)g.removeChild(g.firstChild)})}
+function build(Vr){clearAll();
+  Vr.outline(); Vr.zones(); renderParts(Vr.parts); if(Vr.xray)renderParts(Vr.xray);
+  Vr.silk(); Vr.rf(); Vr.corr(); Vr.faces(); if(Vr.delta)Vr.delta(); ruler(Vr.BW);
+  document.getElementById('stagecap').textContent=Vr.cap;}
+let current='v1n'; build(V1N); buildEscape();
+
+/* ---------- tabs + toggles ---------- */
+const P={v1:document.getElementById('panels-v1'),v2:document.getElementById('panels-v2'),
+         v1n:document.getElementById('panels-v1n'),s1n:document.getElementById('panels-s1n'),
+         verdict:document.getElementById('panels-verdict')};
+const VMAP={v1:V1,v2:V2,v1n:V1N,s1n:S1N};
+const stage=document.getElementById('stage'),cap=document.getElementById('stagecap'),
+      bar=document.getElementById('bar'),legend=document.getElementById('legend'),
+      escw=document.getElementById('escwrap');
+document.getElementById('tabs').addEventListener('click',e=>{
+  const b=e.target.closest('button.tab'); if(!b)return;
+  document.querySelectorAll('#tabs .tab').forEach(t=>t.setAttribute('aria-pressed',t===b));
+  const v=b.dataset.v; current=v;
+  Object.entries(P).forEach(([k,elm])=>elm.toggleAttribute('hidden',k!==v));
+  const isBoard=v!=='verdict';
+  stage.toggleAttribute('hidden',!isBoard); cap.toggleAttribute('hidden',!isBoard);
+  bar.toggleAttribute('hidden',!isBoard); legend.toggleAttribute('hidden',!isBoard);
+  escw.toggleAttribute('hidden',v!=='s1n');
+  if(VMAP[v])build(VMAP[v]);
+  if(isBoard)syncOverlays();
+});
+function syncOverlays(){document.querySelectorAll('#bar .tg').forEach(b=>{
+  const g=svg.getElementById(b.dataset.l);
+  if(g)g.toggleAttribute('hidden',b.getAttribute('aria-pressed')!=='true');});}
+bar.addEventListener('click',e=>{
+  const b=e.target.closest('button.tg'); if(!b)return;
+  const on=b.getAttribute('aria-pressed')!=='true';
+  b.setAttribute('aria-pressed',on);
+  const g=svg.getElementById(b.dataset.l); if(g)g.toggleAttribute('hidden',!on);
+});
+</script>

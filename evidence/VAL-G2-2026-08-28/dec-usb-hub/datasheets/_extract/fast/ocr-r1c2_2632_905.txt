@@ -1,0 +1,40 @@
+y=0.7871 x=0.0102 c=1.00 | N
+y=0.7813 x=0.1875 c=1.00 | G-Switch USB-C Specification:
+y=0.7439 x=0.1846 c=1.00 | 1.Current rated: 5A on vbus/1.25A
+y=0.6927 x=0.1917 c=1.00 | on vconn/0.25A on other
+y=0.6659 x=0.2006 c=1.00 | Voltage rating: 24V AC
+y=0.6288 x=0.1860 c=1.00 | 2.Withstanding voltage: 100V AC/minute
+y=0.5937 x=0.1860 c=1.00 | 3.Contact resistance: 40ml Max
+y=0.5473 x=0.1792 c=1.00 | 4. Insulation resistance: 100M2 Min
+y=0.5113 x=0.1858 c=1.00 | 5.Operating temperature: -40°C ~ +85°C
+y=0.4746 x=0.1833 c=1.00 | 6.Mating force : 5N~20N
+y=0.4395 x=0.1860 c=1.00 | 7.Unmating force: 8N~20N
+y=0.4258 x=0.9302 c=1.00 | :
+y=0.3911 x=0.1792 c=1.00 | 8.Durability cycle: 10,000 cycles
+y=0.3629 x=0.1833 c=1.00 | 9.Data transmission rate up to 10Gbp/s
+y=0.1289 x=0.1962 c=1.00 | A1
+y=0.1328 x=0.2529 c=1.00 | A2
+y=0.1328 x=0.3212 c=1.00 | A3
+y=0.1309 x=0.3808 c=1.00 | A4
+y=0.1348 x=0.4360 c=1.00 | A5
+y=0.1309 x=0.4971 c=1.00 | A6
+y=0.1309 x=0.5610 c=1.00 | A7
+y=0.1328 x=0.6235 c=1.00 | A8
+y=0.1348 x=0.6788 c=1.00 | A9
+y=0.1309 x=0.7326 c=1.00 | A10
+y=0.1348 x=0.7965 c=1.00 | A11
+y=0.1348 x=0.8547 c=1.00 | A12
+y=0.0645 x=0.1904 c=1.00 | GND
+y=0.0625 x=0.2456 c=1.00 | TX1+
+y=0.0641 x=0.3153 c=1.00 | TX1-
+y=0.0644 x=0.3721 c=1.00 | VBUS
+y=0.0625 x=0.4244 c=1.00 | CC1
+y=0.0645 x=0.4971 c=1.00 | D+
+y=0.0664 x=0.5654 c=1.00 | D-
+y=0.0644 x=0.6148 c=1.00 | SBU1 |VBUS
+y=0.0645 x=0.7297 c=1.00 | RX2-
+y=0.0645 x=0.7907 c=1.00 | RX2+GND
+y=0.0039 x=0.1933 c=1.00 | First
+y=0.0020 x=0.2340 c=1.00 | Second Second First Second Second Second Second First
+y=0.0020 x=0.7151 c=1.00 | Second Second First
+COUNT 39

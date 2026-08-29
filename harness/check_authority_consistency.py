@@ -327,6 +327,33 @@ if usb_c.get("service_usb_owner") != "ESP32_S3":
 if usb_c.get("usb_audio") != "EXPERIMENT_ONLY":
     fail("usb_audio must be EXPERIMENT_ONLY")
 
+# D-049 draft / provisional front matter. RATIFIED is allowed after H GREEN but
+# must not be required before then. DRAFT and PROVISIONAL are legal living states.
+USB_CONTRACT_STATUSES_OK = {"DRAFT", "PROVISIONAL", "RATIFIED"}
+usb_status = usb_c.get("status")
+if usb_status not in USB_CONTRACT_STATUSES_OK:
+    fail("usb contract status must be DRAFT, PROVISIONAL or RATIFIED, found %s"
+         % usb_status)
+if usb_c.get("receptacle_count") != 1:
+    fail("usb receptacle_count must be 1, found %s" % usb_c.get("receptacle_count"))
+if usb_c.get("hub") != "USB2422":
+    fail("usb hub must be USB2422, found %s" % usb_c.get("hub"))
+if usb_c.get("downstream_vbus_power_islands") != "FORBIDDEN":
+    fail("downstream_vbus_power_islands must be FORBIDDEN")
+if usb_c.get("vbus_detect_source") != "5V_USB":
+    fail("vbus_detect_source must be 5V_USB")
+if usb_c.get("superspeed_routing") != "FORBIDDEN":
+    fail("superspeed_routing must be FORBIDDEN")
+j1_receptacle = usb_c.get("j1_receptacle")
+if j1_receptacle == "GOVERNED_BY_D-050":
+    pass
+elif j1_receptacle == "GSWITCH_GT-USB-7005A":
+    if usb_c.get("j1_selected_lcsc") != "C5250872":
+        fail("bound J1 GSWITCH_GT-USB-7005A must declare j1_selected_lcsc C5250872")
+else:
+    fail("j1_receptacle must be GOVERNED_BY_D-050 until bind, or "
+         "GSWITCH_GT-USB-7005A after bind, found %s" % j1_receptacle)
+
 motion_c = contracts.get("contracts/motion-interface.md", {})
 if motion_c.get("owner") != seen.get("accelerometer"):
     fail("motion contract owner disagrees with ownership matrix")

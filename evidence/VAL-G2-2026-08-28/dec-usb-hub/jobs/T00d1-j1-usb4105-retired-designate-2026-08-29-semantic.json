@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T00d1-j1-usb4105-retired-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2368058:6f427e91",
+  "post_source_hash": "2368733:3f047b2a",
+  "saved": true,
+  "affected": [
+    {
+      "primitiveId": "e339",
+      "designator": "J1-USB4105-RETIRED",
+      "previous_designator": "J1-PWR1",
+      "name": "USB-C",
+      "manufacturerId": "USB4105-GF-A",
+      "x": 185,
+      "y": 4095
+    }
+  ],
+  "census": {
+    "components": 257,
+    "wires": 773,
+    "components_delta": 0,
+    "wires_delta": 0,
+    "old_j1_designator": "J1-USB4105-RETIRED",
+    "new_j1_designator": "J1-USB",
+    "u20_still_undesignated": true
+  },
+  "observed": "Old USB4105 e339 designator is J1-USB4105-RETIRED. New GT-USB-7005A-IND ea47c20de228fa3a remains J1-USB. USB2422 92edd0bd8901c171 still U?. Wires still 773. Live 64325d0e not written."
+}

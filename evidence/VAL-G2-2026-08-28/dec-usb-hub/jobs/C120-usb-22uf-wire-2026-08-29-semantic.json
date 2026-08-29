@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "transaction_id": "C120-usb-22uf-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2982211:5370d612",
+  "post_source_hash": "2994873:ded46882",
+  "saved": true,
+  "affected": [
+    {"ref": "C120-USB", "primitiveId": "004d113915448a0a", "xy": [1320, 1300], "name": "22uF", "pin1": "5V_PROTECTED", "pin2": "GND"},
+    {"net": "5V_PROTECTED", "wires": ["300afd189cf427cb", "4b7aa5f898db2a32"], "flag": "a689ce4197fefb88"},
+    {"net": "GND", "wire": "68db234b5bdac163", "flag": "6fe37ae7451faa5d"},
+    {"ref": "C2-PWR1", "primitiveId": "e108", "name": "22uF", "note": "kept"},
+    {"ref": "C1-PWR1", "primitiveId": "e72", "name": "1uF", "note": "untouched"}
+  ],
+  "census": {
+    "components": 327,
+    "wires": 801,
+    "components_delta": 2,
+    "wires_delta": 2,
+    "note": "Power 5V_PROTECTED and Ground GND flags at C120. C2 kept."
+  },
+  "observed": "C120-USB 22uF pin1 stubbed to 5V_PROTECTED flag, pin2 stubbed to GND flag. C2 still 22uF. C1 still 1uF. Hub 41c8e652."
+}

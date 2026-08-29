@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07e-ocs-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "U20.8 to U21.8 USB_OCS1_N. U20.12 to U21.5 USB_OCS2_N. Hub IPU is the pull-up. Real wires. No PRTPWR remake.",
+  "observed_delta": "80 percent hub-and-island view. U20 and U21 present. OCS routed on dedicated south-corridor wires 3577604ba14aeb45 and ab6ad0fc563ec7a6. OUT1/OUT2 remain RT_USB_VBUS and S3_USB_VBUS_VALID.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T07e-ocs.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "USB_OCS1_N U20.8 to U21.8",
+      "result": "OK",
+      "detail": "South corridor x=90 y=1500 then 1285,830 jog west of OUT2 to 1260,810. Source hits 9. Own wire 3577604ba14aeb45."
+    },
+    {
+      "name": "USB_OCS2_N U20.12 to U21.5",
+      "result": "OK",
+      "detail": "South corridor x=80 y=1520 then x=1230 up to 1260,780. Source hits 7. Own wire ab6ad0fc563ec7a6."
+    },
+    {
+      "name": "no short to OUT1 RT_USB_VBUS",
+      "result": "OK",
+      "detail": "RT_USB_VBUS remains parent 767c5348f1d9d7f9. Not shared with either OCS wire."
+    },
+    {
+      "name": "no short to OUT2 S3_USB_VBUS_VALID",
+      "result": "OK",
+      "detail": "S3_USB_VBUS_VALID remains parent a05554c53f4f4e37. OCS1 jogs at y=830 west of 1275 before rising to OC1."
+    },
+    {
+      "name": "real wires hub 41c8e652",
+      "result": "OK",
+      "detail": "Project 41c8e652. Saved true. Hub IPU is the pull-up. No extra OCS resistors."
+    }
+  ]
+}

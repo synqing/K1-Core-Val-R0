@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "transaction_id": "buttons-3d-native-bind-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "captured_after_settle": true,
+  "scale": "block",
+  "intended_delta": "Bind official HYP 1TS036A model with personal library UUID to SW1-SW4; preserve pads, positions, rotations and nets.",
+  "observed_delta": "Settled EasyEDA 3D render shows switch bodies seated over their footprints; the footprint shell perimeter remains visible and is the next removal target.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-29-button-3d-after.png",
+  "unexpected_changes": [],
+  "checks": [
+    {"name":"four native meshes","result":"OK","detail":"All four switch bodies render."},
+    {"name":"identity and placement","result":"OK","detail":"SW1-SW4 positions and rotations unchanged."},
+    {"name":"pads and nets","result":"OK","detail":"20 pads preserved."},
+    {"name":"body seating","result":"OK","detail":"Bodies are seated on pads; shell perimeter is separately identified for removal."}
+  ],
+  "verdict": "ACCEPTED"
+}

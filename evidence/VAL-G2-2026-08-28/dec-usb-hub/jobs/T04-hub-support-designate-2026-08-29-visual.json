@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T04-hub-support-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Designate USB2422 as U20-USB, crystal as Y3-USB, and T03 passives as R77-USB through R91-USB and C100-USB through C107-USB. No wires.",
+  "observed_delta": "90% block zoom of the hub island shows U20-USB, Y3-USB, R77-USB through R91-USB and C100-USB through C107-USB with readable values. No new wires. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T04-hub-designate-tight.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "U20-USB designator on USB2422",
+      "result": "OK",
+      "detail": "90% island view shows the hub IC labelled U20-USB USB2422. Primitive 92edd0bd8901c171."
+    },
+    {
+      "name": "Y3-USB on 24 MHz crystal",
+      "result": "OK",
+      "detail": "Crystal right of U20 reads Y3-USB / 24 MHz. Primitive 736247481f2dd650."
+    },
+    {
+      "name": "R77-USB and C100-USB readable",
+      "result": "OK",
+      "detail": "Resistor row R77-USB…R91-USB and capacitor row C100-USB…C107-USB are readable at 90%."
+    },
+    {
+      "name": "no new wires hub 41c8e652",
+      "result": "OK",
+      "detail": "No wires on the new island. Census wires stay 773. Project uuid 41c8e652. Live not focused."
+    }
+  ]
+}

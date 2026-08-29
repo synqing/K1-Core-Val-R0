@@ -1,0 +1,28 @@
+{
+  "records": 8073,
+  "components": 255,
+  "designators": 253,
+  "wires": 774,
+  "rects": 10,
+  "stub_wires": 664,
+  "routed_wires": 110,
+  "stub_ratio": 0.858,
+  "power_without_spine": [
+    "3V3_MIC",
+    "3V3_MIC_FLEX",
+    "3V3_MIC_REG",
+    "5V_LED_L_SW",
+    "5V_LED_R_SW",
+    "VDD_HIGH_CAP",
+    "VDD_SNVS_CAP",
+    "VDD_USB_CAP"
+  ],
+  "equal_similar_rects": 8,
+  "state_notes": 7,
+  "failures": [
+    "stub_label_substitution: 664 stubs vs 110 routed (86% stubs)",
+    "power_tree_is_labels_only: ['3V3_MIC', '3V3_MIC_FLEX', '3V3_MIC_REG', '5V_LED_L_SW', '5V_LED_R_SW', 'VDD_HIGH_CAP', 'VDD_SNVS_CAP', 'VDD_USB_CAP']",
+    "equal_cell_prison_boxes: 8 similar RECTs (of 10)"
+  ],
+  "inspected": true
+}

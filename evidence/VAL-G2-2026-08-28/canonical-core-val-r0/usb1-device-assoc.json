@@ -1,0 +1,70 @@
+{
+  "usb1": {
+    "des": "USB1",
+    "sid": "C778726",
+    "mid": "CX70M-24P1",
+    "footprint": {
+      "libraryUuid": "64325d0e55e0435abd018defb0089a9b",
+      "uuid": "0c8e199e56e60728",
+      "name": "USB-TYPE-C-SMD_CX70M-24P1"
+    },
+    "model3d": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "08b2bb7ecebd47fc8f45f08f001d782e",
+      "name": "USB_C_Hirose_CX_4800304000_seated"
+    },
+    "model": "08b2bb7ecebd47fc8f45f08f001d782e",
+    "transform": "448.8179849815368,328.7394915521145,0,0,0,0,0,-66.733,-80.315"
+  },
+  "usb2": {
+    "des": "USB2",
+    "sid": "C3034184",
+    "mid": "HYCW78-USBC24-140B",
+    "footprint": {
+      "libraryUuid": "64325d0e55e0435abd018defb0089a9b",
+      "uuid": "59bef7e87cff4cd580561703b62d8c19_001a257400b89df6",
+      "name": "USB-C-SMD_HYCW78-USBC24-140B"
+    },
+    "model3d": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "0513051d44a0486b835661f1b78cdeb9",
+      "name": "USB-C-SMD_HYCW78-USBC24-140B"
+    },
+    "model": "0513051d44a0486b835661f1b78cdeb9",
+    "transform": "486.22,391.18524,0,0,0,0,-0.002,-66.733,-78.74"
+  },
+  "u6": {
+    "des": "U6-RTC",
+    "sid": "C2847497",
+    "mid": "MIMXRT1062DVJ6B",
+    "footprint": {
+      "libraryUuid": "64325d0e55e0435abd018defb0089a9b",
+      "uuid": "0d8325d2787742aaa103696ca6f4bada",
+      "name": "LFBGA-196_L12.0-W12.0-R14-C14-P0.80-BL"
+    },
+    "model3d": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "de5664fd2ea74aa082831cfa5b198edb",
+      "name": "MIMXRT1061DVJ6B"
+    },
+    "model": "de5664fd2ea74aa082831cfa5b198edb",
+    "transform": "0, 0, 0, 0, 0, 0, 0, 0, 0"
+  },
+  "devProject": {
+    "lib": "64325d0e55e0435abd018defb0089a9b",
+    "err": "TypeError: Cannot read properties of undefined (reading 'parent_tag')"
+  },
+  "devPersonal": {
+    "lib": "27700277ef7a49e48a0293bece6b2993"
+  },
+  "devGuess": {
+    "lib": "27700277ef7a49e48a0293bece6b2993"
+  },
+  "devGuessProj": {
+    "lib": "64325d0e55e0435abd018defb0089a9b",
+    "err": "TypeError: Cannot read properties of undefined (reading 'parent_tag')"
+  },
+  "searchCx": [],
+  "searchCxProj": [],
+  "modifySrc": "async modify(t,i,n,r,s,a,o){return await _.extensionApiMessageBus2.rpcCall(\"extensionApi.LIB_Device.modify\",{deviceUuid:t,libraryUuid:i,deviceName:n,classification:r,association:s,description:a,property:o})}"
+}

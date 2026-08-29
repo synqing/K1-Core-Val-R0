@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T17-j7-lift-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "3066999:d2e7ec2e",
+  "post_source_hash": "3056663:1318895e",
+  "saved": true,
+  "affected": [
+    {"deleted_wires": ["e103620", "e103634", "e103612", "e103618", "e103626", "e103632", "e103640", "e103670", "e103604", "e103622", "e103636", "e103608", "e103624", "e103638", "e103614", "e103610"]},
+    {"kept": "J7-ESP e8334 still present. J1 CC ebrw* kept. R21 e9016 and R22 e9022 still on CC. USB_DP_S3 kept."}
+  ],
+  "census": {
+    "components": 333,
+    "wires": 796,
+    "components_delta": 0,
+    "wires_delta": -16
+  },
+  "observed": "J7 island lifted off USB_CC1/CC2/USB_DP/USB_DM/S3_VBUS. S3_VBUS zero members. J1 CC remains. USB_DP_S3 remains. Hub 41c8e652."
+}

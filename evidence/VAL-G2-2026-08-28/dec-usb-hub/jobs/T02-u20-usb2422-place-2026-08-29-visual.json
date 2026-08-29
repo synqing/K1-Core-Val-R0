@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T02-u20-usb2422-place-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Place USB2422T-I/MJ C622610 at 400,800 in the empty hub island. addIntoPcb false. No wires. Do not drop into a prison box.",
+  "observed_delta": "80 percent zoom of the empty island shows a lone USB2422T-I/MJ rectangle at 400,800 labelled U?. No prison-box frame around it. No wires leave the symbol. Hub candidate chrome.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T02-u20-place.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "USB2422 symbol present in empty island",
+      "result": "OK",
+      "detail": "U? USB2422T-I/MJ C622610 is at 400,800 with 24 body pins plus ePad. Isolated on white grid."
+    },
+    {
+      "name": "not inside a prison box",
+      "result": "OK",
+      "detail": "No domain-box title or black prison rectangle around the new IC. Empty-island placement."
+    },
+    {
+      "name": "no new wires",
+      "result": "OK",
+      "detail": "Wire census remains 773. No nets leave the new symbol."
+    },
+    {
+      "name": "hub project 41c8e652 not live",
+      "result": "OK",
+      "detail": "Context parent is 41c8e6523576456582ea35958b3684ed, tab P1.Schematic1 on K1-Core-Val-R0-G2.1-HUB-CANDIDATE."
+    }
+  ]
+}

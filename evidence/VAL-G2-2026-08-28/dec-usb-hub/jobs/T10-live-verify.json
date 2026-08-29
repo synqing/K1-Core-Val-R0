@@ -1,0 +1,16 @@
+[
+  {"tool": "get_current_context", "tag": "ctx", "args": {}},
+  {"tool": "get_schematic_primitive", "tag": "rusb-dp-stub", "args": {"primitiveId": "ebrw000203"}},
+  {"tool": "get_schematic_primitive", "tag": "rusb-dn-stub", "args": {"primitiveId": "ebrw000224"}},
+  {"tool": "get_schematic_primitive", "tag": "lab-rusb-dp", "args": {"primitiveId": "ebr000204"}},
+  {"tool": "get_schematic_primitive", "tag": "lab-rusb-dn", "args": {"primitiveId": "ebr000225"}},
+  {"tool": "get_schematic_primitive", "tag": "lab-u6-dp", "args": {"primitiveId": "ebr000227"}},
+  {"tool": "get_schematic_primitive", "tag": "lab-u6-dn", "args": {"primitiveId": "ebr000229"}},
+  {"tool": "get_schematic_primitive", "tag": "u6-dp-stub", "args": {"primitiveId": "ebrw000226"}},
+  {"tool": "get_schematic_primitive", "tag": "u6-dn-stub", "args": {"primitiveId": "ebrw000228"}},
+  {"tool": "list_schematic_component_pins", "tag": "u20", "args": {"componentPrimitiveId": "92edd0bd8901c171"}},
+  {"tool": "list_schematic_component_pins", "tag": "j1-live", "args": {"componentPrimitiveId": "ea47c20de228fa3a"}},
+  {"tool": "list_schematic_component_pins", "tag": "rusb-dp", "args": {"componentPrimitiveId": "ebrc000184"}},
+  {"tool": "list_schematic_component_pins", "tag": "rusb-dn", "args": {"componentPrimitiveId": "ebrc000205"}},
+  {"tool": "get_pcb_components", "tag": "pcb-empty", "args": {"expectedDocumentUuid": "59bef7e87cff4cd580561703b62d8c19"}}
+]

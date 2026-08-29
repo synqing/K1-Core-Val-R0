@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T05-hub-3v3-gnd-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2526144:ebb27073",
+  "post_source_hash": "2592154:c052b000",
+  "saved": true,
+  "affected": [
+    {"role": "U20-USB VDD33 pins 1/9/18", "net": "3V3"},
+    {"role": "U20-USB EP pin 25", "net": "GND"},
+    {"role": "C104-C106 decoupling", "nets": ["3V3", "GND"]}
+  ],
+  "census": {
+    "wires_added": true,
+    "usb_pairs_not_in_this_transaction": true
+  },
+  "observed": "Placed 3V3 power flags on U20 pins 1/9/18 and GND on ePad, plus 3V3/GND flags on C104-C106. Wires from VDD33 pins to flags. USB D+/D- pins not connected this stage. Live 64325d0e not written."
+}

@@ -1,0 +1,427 @@
+www.ti.com                                                                                                                                                              Table of Contents
+
+Application Note
+ESD and Surge Protection for USB Interfaces
+
+
+
+Obi Oji                                                                                                                           Multiplexers and Protection Devices
+                                                                                    ABSTRACT
+Universal Serial Bus, more commonly known as USB, is an industry standard that defines communication,
+power supply, and connectors between computers and peripherals. There are many variations of USB standards
+that range from 1.5Mbps all the way up to 40Gbps with the more common standards being USB 2.0 and
+USB 3.x. There are also numerous connector types such as USB Type-A and USB Type-C®. With the recent
+European Union regulations, USB Type-C® is soon to be the single charging design for electronic devices
+in the EU, increasing the popularity of the connector. USB Type-C® is able to support alternate modes like
+DisplayPort, HMDI, and others as well as supporting USB Power Delivery (USB-PD) that allows for increased
+power transmission over USB.
+
+
+
+
+                                                                            Table of Contents
+1 Overview..................................................................................................................................................................................2
+2 USB 1.1.................................................................................................................................................................................... 3
+  2.1 Overview............................................................................................................................................................................ 3
+  2.2 ESD Protection Requirements........................................................................................................................................... 3
+  2.3 System Level Design......................................................................................................................................................... 4
+3 USB 2.0 Circuit Protection..................................................................................................................................................... 5
+  3.1 Overview............................................................................................................................................................................ 5
+  3.2 ESD Protection Requirements........................................................................................................................................... 5
+  3.3 System Level Designs........................................................................................................................................................6
+4 USB 5Gbps.............................................................................................................................................................................. 7
+  4.1 Overview............................................................................................................................................................................ 7
+  4.2 ESD Protection Requirements........................................................................................................................................... 7
+  4.3 System Level Designs........................................................................................................................................................8
+5 USB 10Gbps............................................................................................................................................................................ 9
+  5.1 Overview............................................................................................................................................................................ 9
+  5.2 ESD Protection Requirements........................................................................................................................................... 9
+  5.3 System Level Designs......................................................................................................................................................10
+6 USB 20Gbps.......................................................................................................................................................................... 11
+  6.1 Overview...........................................................................................................................................................................11
+  6.2 ESD Protection Requirements..........................................................................................................................................11
+  6.3 System Level Designs......................................................................................................................................................12
+7 USB Type-C® Protection.......................................................................................................................................................13
+  7.1 Overview.......................................................................................................................................................................... 13
+  7.2 ESD Protection Requirements......................................................................................................................................... 14
+  7.3 System Level Designs......................................................................................................................................................15
+8 USB Power Delivery (USB-PD) Surge Protection.............................................................................................................. 16
+  8.1 Overview.......................................................................................................................................................................... 16
+  8.2 VBUS Protection.............................................................................................................................................................. 16
+  8.3 Short to VBUS..................................................................................................................................................................17
+9 References............................................................................................................................................................................ 17
+10 Revision History................................................................................................................................................................. 17
+
+Trademarks
+USB Type-C® is a registered trademark of USB Implementers Forum.
+All trademarks are the property of their respective owners.
+
+
+
+
+SLVAF82B – AUGUST 2022 – REVISED JANUARY 2024                                                                                   ESD and Surge Protection for USB Interfaces                   1
+Submit Document Feedback
+                                            Copyright © 2024 Texas Instruments Incorporated
+Overview                                                                                                                                www.ti.com
+
+
+1 Overview
+The Universal Serial Bus (USB) is an industry standard that specifies connection, communication, and power
+supply between host systems and peripherals. USB has evolved over the years through a series of standards
+focusing on increased data rates. The following table breaks down the standards including naming convention,
+data lines, nominal rates, and connector types.
+There are two types of data pairs: half-duplex (HDx) and full-duplex (FDx). USB 2.0 and earlier standards use a
+single half-duplex which provides communication in both directions but only one direction at a time. A half-duplex
+translates to the D+ and D- data lines. USB 3.0 and later implement a single half-duplex (D+, D-) for USB 2.0
+compatibility and two or four pairs in full-duplex with the full-duplex allowing for bidirectional communication
+simultaneously. A pair is considered to be either the transmit lines (TX+, TX-) or the receive lines (RX+, RX-).
+USB 3.0 and later include at least two pairs (TX+, TX-, RX+, RX-), also known as a lane.
+Since there are many USB standards, determining the data rates can be confusing specifically for USB 3.2 and
+USB 4. The general consensus is that if the format is AxB then the last digit determines the number of lanes.
+For example, USB 3.2 Gen 2x2 has a nominal rate of 20Gbps, but since there is a 2 as the last digit, this means
+there are 2 data lanes each with 10Gbps totaling 20Gbps.
+The following sections go into detail on ESD protection based on the nominal rate for USB interfaces.
+                                                              Table 1-1. USB Standards
+    Standards                          Data Pairs            Nominal Rate           USB-IF Name                         Connector Types
+    USB 1.1                               1 HDx                 12Mbps                Basic-Speed USB                    Type-A, Type-B
+                                                                                                                 Type-A, Type-B, Type-C, Micro,
+    USB 2.0                               1 HDx                480Mbps                 Hi-Speed USB
+                                                                                                                             Mini
+    USB 3.0/USB 3.1 Gen 1/
+                                     2 FDx + 1 HDx               5Gbps                   USB 5Gbps               Type-A, Type-B, Type-C, Micro
+    USB 3.2 Gen 1x1
+    USB 3.1 Gen 2/ USB 3.2
+                                     2 FDx + 1 HDx              10Gbps                  USB 10Gbps                       Type-A, Type-C
+    Gen 2x1
+    USB 3.2 Gen 1x2                  4 FDx + 1 HDx              10Gbps                  USB 10Gbps                           Type-C
+    USB 3.2 Gen 2x2                  4 FDx + 1 HDx              20Gbps                  USB 20Gbps                           Type-C
+    USB 4 Gen 2x1                    2 FDx + 1 HDx              10Gbps                  USB 10Gbps                           Type-C
+    USB 4 Gen 2x2                    4 FDx + 1 HDx              20Gbps                  USB 20Gbps                           Type-C
+    USB 4 Gen 3x1                    2 FDx + 1 HDx              20Gbps                  USB 20Gbps                           Type-C
+
+
+
+
+2        ESD and Surge Protection for USB Interfaces                                                 SLVAF82B – AUGUST 2022 – REVISED JANUARY 2024
+                                                                                                                            Submit Document Feedback
+                                                       Copyright © 2024 Texas Instruments Incorporated
+www.ti.com                                                                                                                               USB 1.1
+
+
+2 USB 1.1
+
+2.1 Overview
+USB 1.0 was the first USB standard released with a revision, USB 1.1, shortly after. USB 1.0/1.1 has a 4-wire
+interface: VBUS for power, D+ and D- for differential data signals, and a ground pin. USB 1.0/1.1 is able to
+support Low Speed (1.5Mbps) and Full Speed (12Mbps). Figure 2-1 details the pin configuration in a Type-A
+connector for USB 1.0/1.1.
+
+
+
+                                                    VBUS       D-         D+      GND
+
+                                                      1        2          3        4
+
+
+                                          Figure 2-1. USB 1.0/1.1 Pin Configuration
+
+USB 1.0/1.1 is a fairly uncommon standard used today in new systems but still at risk of high voltage strikes
+due to the external connector. An ESD strike can enter through the connector and can cause damage to the
+downstream components in the system. The following sections discuss the ESD protection requirements and the
+system-level design for USB 1.0/1.1.
+2.2 ESD Protection Requirements
+For protecting UBS 1.0/1.1, follow the list of parameters related to each pin:
+•   D+ and D-
+    – Working Voltage: The reverse working voltage (VRWM) of the protection diode is recommended to be
+      greater than or equal to the operating voltage of the system being protected. For USB 1.0/1.1 data lines,
+      the typical operating voltage is 3.3V. A working voltage greater than or equal to 3.3V is recommended.
+    – Clamping Voltage: There can be many systems utilizing USB. This results in the clamping voltage of the
+      ESD diode being dependent on the circuity downstream from the USB connector. The clamping voltage is
+      recommended to be below the absolute maximum rating of the downstream component.
+    – Capacitance: For USB 1.0/1/1, the signal speeds can reach up to 12Mbps. A capacitance less than 20pF
+      is recommended to support the signal speed.
+    – IEC 61000-4-2 Rating: Real-world ESD strikes are defined by the IEC 61000-4-2 testing standard. This
+      standard consists of two measurements: contact and air-gap discharge. The higher the contact and
+      air-gap rating, the higher the voltage a device can withstand. For USB 1.0/1.1, a minimum IEC 61000-4-2
+      rating of 8kV for contact and 15kV for air-gap is recommended.
+•   VBUS
+    – Working Voltage: For VBUS, the operating voltage is 5V. An ESD diode with a working voltage greater than
+      or equal to 5V is recommended.
+Table 2-1 lists devices that support these specifications.
+                                     Table 2-1. USB 1.0/1.1 Device Recommendations
+                                      IEC 61000-4-2 (kV)
+      Device           VRWM (V)                             Capacitance (pF)   Channel Count      Package Size (mm)       Recommended For
+                                       (Contact/Air-gap)
+                                                                                                DFN1006 (1.00 x 0.60),
+      ESD321              3.6               30/30                   0.9                1                                        D+, D-
+                                                                                                 SOD523 (1.60 x 0.80)
+
+      ESD441              5.5               30/30                   1                  1         DFN0603 (0.60 x 0.30)           VBUS
+    TPD4E05U06            5.5               12/15                   0.5                4          USON (2.50 x 1.00)         D+, D-, VBUS
+
+
+
+
+SLVAF82B – AUGUST 2022 – REVISED JANUARY 2024                                                 ESD and Surge Protection for USB Interfaces      3
+Submit Document Feedback
+                                            Copyright © 2024 Texas Instruments Incorporated
+USB 1.1                                                                                                                                       www.ti.com
+
+2.3 System Level Design
+TI offers ESD protection diodes with options to protect USB 1.0/1.1. Figure 2-2 shows a block diagram
+implementing three ESD protection diodes. The diodes are connected to each data and power line between
+the connector and either the battery charger or USB controller. To properly protect the system, place the diodes
+as close to the source of ESD, in this case the connector, as design rules allow.
+
+                                                                             ESD441
+                                                                                                    Battery
+                                                              VBUS
+                                                                                                    Charger
+
+
+
+
+                                             USB Connector
+                                                               D-
+                                                                                                      USB
+                                                                                                    Controller
+                                                               D+
+
+
+                                                                                      ESD321 (x2)
+                                                              Power Line Protection
+                                                              Data Line Protection
+
+                                                 Figure 2-2. USB 1.0/1.1 ESD Protection
+
+For Figure 2-2, ESD321 is used to the protect the D+ and D- lines and ESD441 is used to protect the VBUS line.
+There is also an option to use one ESD diode that protects both the data and power lines. For this to work, the
+diode is recommended to have a working voltage greater than or equal to 5V. A device that can handle both data
+and power lines is TPD4E05U06.
+
+
+
+
+4    ESD and Surge Protection for USB Interfaces                                                           SLVAF82B – AUGUST 2022 – REVISED JANUARY 2024
+                                                                                                                                  Submit Document Feedback
+                                                             Copyright © 2024 Texas Instruments Incorporated
+www.ti.com                                                                                                          USB 2.0 Circuit Protection
+
+
+3 USB 2.0 Circuit Protection
+3.1 Overview
+USB 2.0, also known as hi-speed USB, is an updated version of USB 1.0/1.1 with improved functionality and
+increased data speeds. USB 2.0 has a 4-wire interface: VBUS for power, D+ and D- for differential data signals,
+and a ground pin. The pin configuration for USB 2.0 is shown in Figure 3-1 for a Type-A connector. USB 2.0 is
+able to support Low Speed (1.5Mbps), Full Speed (12Mbps), and High Speed (480Mbps).
+
+
+
+                                                    VBUS       D-         D+      GND
+
+                                                      1        2          3        4
+
+
+                                             Figure 3-1. USB 2.0 Pin Configuration
+
+USB 2.0 is a common interface still used today across a range of devices and applications. Since the connector
+is exposed to the outside world, the system is at risk of a high voltage strike. This transient event can cause
+damage to the downstream components in the system. The following sections discuss the ESD protection
+requirements and the system-level design for USB 2.0.
+3.2 ESD Protection Requirements
+For protecting UBS 2.0, follow the list of parameters related to each pin:
+•   D+ and D-
+    – Working Voltage: The reverse working voltage (VRWM) of the protection diode is recommended to be
+      greater than or equal to the operating voltage of the system being protected. For USB 2.0 data lines, the
+      typical operating voltage 3.3V. This translates to a working voltage of greater than or equal to 3.3V.
+    – Clamping Voltage: There can be many systems utilizing USB. This results in the clamping voltage of the
+      ESD diode being dependent on the circuity downstream from the USB connector. The clamping voltage is
+      recommended to be below the absolute maximum rating of the downstream component.
+    – Capacitance: Since the signal speeds for USB 2.0 can reach up to 480Mbps, a low-capacitance ESD
+      diode with less than 4pF is recommended to support the signal speed.
+    – IEC 61000-4-2 Rating: Real-world ESD strikes are defined by the IEC 61000-4-2 testing standard. This
+      standard consists of two measurements: contact and air-gap discharge. The higher the contact and
+      air-gap rating, the higher the voltage a device can withstand. For USB 2.0, a minimum IEC 61000-4-2
+      rating of 8kV for contact and 15kV for air-gap is recommended.
+•   VBUS
+    – Working Voltage: For VBUS, the operating voltage is 5V. An ESD diode with a working voltage greater than
+      or equal to 5V is recommended.
+Table 3-1 lists devices that support these specifications.
+                                        Table 3-1. USB 2.0 Device Recommendations
+                                      IEC 61000-4-2 (kV)
+      Device           VRWM (V)                             Capacitance (pF)   Channel Count      Package Size (mm)       Recommended For
+                                       (Contact/Air-gap)
+                                                                                                DFN1006 (1.00 x 0.60),
+      ESD321              3.6               30/30                   0.9                1                                        D+, D-
+                                                                                                 SOD523(1.60 x 0.80)
+                                                                                                 DFN1006, 3 pins (1.00
+      ESD122              3.6               17/17                   0.2                2                                        D+, D-
+                                                                                                       x 0.60)
+      ESD441              5.5               30/30                   1                  1         DFN0603 (0.60 x 0.30)           VBUS
+    TPD4E05U06            5.5               12/15                   0.5                4          USON (2.50 x 1.00)         D+, D-, VBUS
+
+
+
+
+SLVAF82B – AUGUST 2022 – REVISED JANUARY 2024                                                 ESD and Surge Protection for USB Interfaces   5
+Submit Document Feedback
+                                            Copyright © 2024 Texas Instruments Incorporated
+USB 2.0 Circuit Protection                                                                                                                       www.ti.com
+
+3.3 System Level Designs
+TI offers a multitude of ESD diodes with options to protect USB 2.0. Figure 3-2 shows a block diagram
+implementing three ESD protection diodes. The diodes are connected to each data and power line between
+the connector and either the battery charger or USB controller. To properly protect the system, place the diodes
+as close to the source of ESD, in this case the connector, as design rules allow.
+
+                                                                                ESD441
+                                                                                                       Battery
+                                                                 VBUS
+                                                                                                       Charger
+
+
+
+
+                                               USB Connector
+                                                                  D-
+                                                                                                         USB
+                                                                                                       Controller
+                                                                  D+
+
+
+                                                                                         ESD321 (x2)
+                                                                 Power Line Protection
+                                                                 Data Line Protection
+
+                                                               Figure 3-2. USB 2.0 ESD Protection
+
+For the above diagram, ESD321 is used to the protect the D+ and D- lines and ESD441 is used to protect the
+VBUS line. There is also an option to use one ESD diode that protects both the data and power lines. For this to
+work, the diode is recommended to have a working voltage greater than or equal to 5V. A device that can handle
+both data and power lines is TPD4E05U06.
+
+
+
+
+6      ESD and Surge Protection for USB Interfaces                                                            SLVAF82B – AUGUST 2022 – REVISED JANUARY 2024
+                                                                                                                                     Submit Document Feedback
+                                                                Copyright © 2024 Texas Instruments Incorporated
+www.ti.com                                                                                                                         USB 5Gbps
+
+
+4 USB 5Gbps
+
+4.1 Overview
+USB standards that reach a nominal rate of 5Gbps include: USB 3.0, USB 3.1 Gen 1, and USB 3.2 Gen 1x1.
+These standards use the following pins: VBUS for power, D+ and D- for differential data signals, TX+, TX-, RX+,
+and RX- for transmitting and receiving signals, and ground.
+USB 5Gbps is used in various devices and applications. There is an external connector which puts the system
+at risk of a high voltage strike. This transient event can cause damage to the downstream components in the
+system if the system is not protected properly. The following sections discuss the ESD protection requirements
+and the system-level design for protecting speeds up to 5Gbps.
+4.2 ESD Protection Requirements
+For protecting USB 5Gbps, follow the list of parameters related to each pin:
+• D+, D-, TX+, TX-, RX+, RX-
+   – Working Voltage: The reverse working voltage (VRWM) of the protection diode is recommended to be
+      greater than or equal to the operating voltage of the system being protected. For USB 5Gbps data lines,
+      the typical operating voltage is 3.3V. A protection diode with a working voltage greater than or equal to
+      3.3V is recommended.
+   – Clamping Voltage: There can be many systems utilizing USB. This results in the clamping voltage of the
+      ESD diode being dependent on the circuity downstream from the USB connector. The clamping voltage is
+      recommended to be below the absolute maximum rating of the downstream component.
+   – Capacitance (D+, D-): Since D+ and D- are specific to USB 2.0 data transfer, the signal speeds can reach
+      up to 480Mbps. An ESD diode with a capacitance less than 4pF is recommended.
+   – Capacitance (TX+, TX-, RX+, RX-): The signal speeds can reach up to 5Gbps, a low-capacitance ESD
+      diode with less than 0.5pF is recommended to support the signal speed.
+   – IEC 61000-4-2 Rating: Real-world ESD strikes are defined by the IEC 61000-4-2 testing standard. This
+      standard consists of two measurements: contact and air-gap discharge. The higher the contact and
+      air-gap rating, the higher the voltage a device can withstand. For USB 5Gbps, a minimum IEC 61000-4-2
+      rating of 8kV for contact and 15kV for air-gap is recommended.
+• VBUS
+   – Working Voltage: For VBUS, the operating voltage is 5V. An ESD diode with a working voltage greater than
+      or equal to 5V is recommended.
+Table 4-1 lists devices that support these specifications.
+                                     Table 4-1. USB 5Gbps Device Recommendations
+                                      IEC 61000-4-2 (kV)
+      Device           VRWM (V)                             Capacitance (pF)   Channel Count      Package Size (mm)       Recommended For
+                                       (Contact/Air-gap)
+                                                                                                DFN1006 (1.00 x 0.60),
+      ESD321              3.6               30/30                 0.9                 1                                         D+, D-
+                                                                                                 SOD523(1.60 x 0.80)
+                                                                                                 DFN1006, 3 pins (1.00   D+, D-, TX+, TX-, RX+,
+      ESD122              3.6               17/17                 0.2                 2
+                                                                                                       x 0.60)                    RX-
+                                                                                                                         D+, D-, TX+, TX-, RX+,
+    TPD4E02B04            3.6               12/15                 0.25                4           USON (2.50 x 1.00)
+                                                                                                                                  RX-
+                                                                                                                         D+, D-, TX+, TX-, RX+,
+    TPD6E05U06            5.5               12/15                 0.47                6           USON (3.50 x 1.35)
+                                                                                                                                  RX-
+      ESD441              5.5               30/30                  1                  1          DFN0603 (0.60 x 0.30)           VBUS
+
+
+
+
+SLVAF82B – AUGUST 2022 – REVISED JANUARY 2024                                                 ESD and Surge Protection for USB Interfaces         7
+Submit Document Feedback
+                                            Copyright © 2024 Texas Instruments Incorporated
+USB 5Gbps                                                                                                                                    www.ti.com
+
+4.3 System Level Designs
+TI has a range of ESD diodes with options to protect USB 5Gbps. Figure 4-1 shows a block diagram
+implementing four ESD protection diodes. The diodes are connected to each data and power line between
+the connector and either the battery charger or USB controller. To properly protect the system, place the diodes
+as close to the source of ESD, in this case the connector, as design rules allow.
+
+                                                                     ESD441
+                                                                                                  Battery
+                                                            VBUS
+                                                             D+
+                                                                                                  Charger
+
+
+
+                                                              D-
+
+                                                                                    ESD321 (x2)
+
+                                                             D+
+
+
+
+
+                                            USB Connector
+                                                             TX+
+                                                                                                    USB
+                                                                                                  Controller
+
+                                                             TX-
+
+
+
+
+                                                             RX+
+
+
+
+
+                                                             RX-
+
+                                                                                     TPD4E02B04
+
+                                                            Power Line Protection
+                                                             Data Line Protection
+
+                                                        Figure 4-1. USB 5Gbps ESD Protection
+
+For Figure 4-1, ESD321 is used to the protect D+ and D-. TPD4E02B04 is used for the TX/RX lines. There are
+a few other options for protecting the D/TX/RX lines such as using a 6-channel device, using multiple 2-channel
+devices, or even using 1-channel devices. ESD441 is used to protect the VBUS line.
+
+
+
+
+8    ESD and Surge Protection for USB Interfaces                                                          SLVAF82B – AUGUST 2022 – REVISED JANUARY 2024
+                                                                                                                                 Submit Document Feedback
+                                                            Copyright © 2024 Texas Instruments Incorporated
+

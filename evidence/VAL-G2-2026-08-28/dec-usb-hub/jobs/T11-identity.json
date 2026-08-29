@@ -1,0 +1,5 @@
+[
+  {"tool": "get_current_context", "tag": "ctx", "args": {}},
+  {"tool": "get_schematic_primitive", "tag": "u20", "args": {"primitiveId": "92edd0bd8901c171", "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "get_schematic_primitive", "tag": "u6", "args": {"primitiveId": "e3673", "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

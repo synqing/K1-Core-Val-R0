@@ -1,0 +1,6 @@
+[
+  {"tool": "get_current_context", "tag": "ctx", "args": {}},
+  {"tool": "get_schematic_primitive", "tag": "r94", "args": {"primitiveId": "b027c9ae9b996415", "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "get_schematic_primitive", "tag": "r95", "args": {"primitiveId": "24561118da702cc5", "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "get_schematic_primitive", "tag": "j12", "args": {"primitiveId": "9f86d15a53851abb", "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

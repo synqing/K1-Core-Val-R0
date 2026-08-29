@@ -1,0 +1,572 @@
+{
+  "sourceHash": "2252446:b9fbf948",
+  "documentUuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "e82471": {
+    "id": "e82471",
+    "type": "WIRE",
+    "payload": {
+      "zIndex": 5800,
+      "locked": false
+    },
+    "attrs": [
+      {
+        "id": "e82472",
+        "type": "ATTR",
+        "key": "NET",
+        "value": "GND",
+        "x": 2070,
+        "y": -3800
+      },
+      {
+        "id": "f9149dad097eac90",
+        "type": "ATTR",
+        "key": "Relevance",
+        "value": "[]",
+        "x": null,
+        "y": null
+      },
+      {
+        "id": "e4bfa592c1d148ba",
+        "type": "ATTR",
+        "key": "NET",
+        "value": "GND",
+        "x": 2080,
+        "y": -3800
+      },
+      {
+        "id": "5dc0dbecc253b0a2",
+        "type": "ATTR",
+        "key": "NET",
+        "value": "GND",
+        "x": 2410,
+        "y": -3800
+      },
+      {
+        "id": "05bc5cdb7b5565f2",
+        "type": "ATTR",
+        "key": "NET",
+        "value": "GND",
+        "x": 2300,
+        "y": -3805
+      },
+      {
+        "id": "41518368e079381d",
+        "type": "ATTR",
+        "key": "NET",
+        "value": "GND",
+        "x": 2220,
+        "y": -3810
+      },
+      {
+        "id": "dab0b25b3a9481dc",
+        "type": "ATTR",
+        "key": "NET",
+        "value": "GND",
+        "x": 2200,
+        "y": -3810
+      },
+      {
+        "id": "a321dc3a0be0d855",
+        "type": "ATTR",
+        "key": "NET",
+        "value": "GND",
+        "x": 2210,
+        "y": -3785
+      },
+      {
+        "id": "d6d8d60aea12278c",
+        "type": "ATTR",
+        "key": "NET",
+        "value": "GND",
+        "x": 2321,
+        "y": -3695
+      },
+      {
+        "id": "6c2d22961bad8b84",
+        "type": "ATTR",
+        "key": "NET",
+        "value": "LED_FAULT_L_N",
+        "x": 2390,
+        "y": -3705
+      },
+      {
+        "id": "677f8bdb8782d681",
+        "type": "ATTR",
+        "key": "NET",
+        "value": "GND",
+        "x": 2333.5,
+        "y": -3705
+      }
+    ]
+  },
+  "led_fault": [
+    {
+      "type": "ATTR",
+      "id": "b6ff927596a9d60d",
+      "parent": "cfc8d814cc6e5bf2",
+      "key": "NET",
+      "value": "LED_FAULT_R_N",
+      "x": 2327.5,
+      "y": -3655
+    },
+    {
+      "type": "ATTR",
+      "id": "6c2d22961bad8b84",
+      "parent": "e82471",
+      "key": "NET",
+      "value": "LED_FAULT_L_N",
+      "x": 2390,
+      "y": -3705
+    }
+  ],
+  "named_designators": {
+    "U17-PWR2": {
+      "id": "b118f78741a245ce",
+      "x": 2245,
+      "y": -3680,
+      "rotation": 0
+    },
+    "U3-PWR2": {
+      "id": "e2199",
+      "x": 1620,
+      "y": -4585,
+      "rotation": 0
+    },
+    "R75-PWR2": {
+      "id": "e146277",
+      "x": 1030,
+      "y": -4480,
+      "rotation": 0
+    },
+    "J1-PWR1": {
+      "id": "e339",
+      "x": 185,
+      "y": -4095,
+      "rotation": 0
+    },
+    "D1-PWR1": {
+      "id": "e252",
+      "x": 385,
+      "y": -4120,
+      "rotation": 90
+    },
+    "U6-RTC": {
+      "id": "e3673",
+      "x": 2250,
+      "y": -3930,
+      "rotation": 90
+    },
+    "J7-ESP": {
+      "id": "e8334",
+      "x": 4815,
+      "y": -4320,
+      "rotation": 0
+    },
+    "U1-PWR1": {
+      "id": "e504",
+      "x": 695,
+      "y": -4105,
+      "rotation": 180
+    }
+  },
+  "orphan_nets": {
+    "5V_LED_COMMON": [
+      {
+        "id": "e2990",
+        "payload": {
+          "zIndex": 1072,
+          "locked": false
+        },
+        "net_attrs": [
+          {
+            "id": "e2991",
+            "type": "ATTR",
+            "key": "NET",
+            "value": "5V_LED_COMMON",
+            "x": 1800,
+            "y": -4130
+          }
+        ]
+      }
+    ],
+    "LED_EFUSE_DVDT": [
+      {
+        "id": "e38585",
+        "payload": {
+          "zIndex": 4672,
+          "locked": false
+        },
+        "net_attrs": [
+          {
+            "id": "e38586",
+            "type": "ATTR",
+            "key": "NET",
+            "value": "LED_EFUSE_DVDT",
+            "x": 1680,
+            "y": -3940
+          }
+        ]
+      },
+      {
+        "id": "e38595",
+        "payload": {
+          "zIndex": 4682,
+          "locked": false
+        },
+        "net_attrs": [
+          {
+            "id": "e38596",
+            "type": "ATTR",
+            "key": "NET",
+            "value": "LED_EFUSE_DVDT",
+            "x": 1580,
+            "y": -3880
+          }
+        ]
+      }
+    ],
+    "LED_EFUSE_ILIM": [
+      {
+        "id": "e38589",
+        "payload": {
+          "zIndex": 4676,
+          "locked": false
+        },
+        "net_attrs": [
+          {
+            "id": "e38590",
+            "type": "ATTR",
+            "key": "NET",
+            "value": "LED_EFUSE_ILIM",
+            "x": 1800,
+            "y": -4005
+          }
+        ]
+      },
+      {
+        "id": "e38591",
+        "payload": {
+          "zIndex": 4678,
+          "locked": false
+        },
+        "net_attrs": [
+          {
+            "id": "e38592",
+            "type": "ATTR",
+            "key": "NET",
+            "value": "LED_EFUSE_ILIM",
+            "x": 1440,
+            "y": -4130
+          }
+        ]
+      }
+    ],
+    "BUCK_PG": [
+      {
+        "id": "e146317",
+        "payload": {
+          "zIndex": 6674,
+          "locked": false
+        },
+        "net_attrs": [
+          {
+            "id": "e146318",
+            "type": "ATTR",
+            "key": "NET",
+            "value": "BUCK_PG",
+            "x": 995,
+            "y": -4465
+          }
+        ]
+      }
+    ],
+    "LED_FAULT_L_N": [
+      {
+        "id": "e82471",
+        "payload": {
+          "zIndex": 5800,
+          "locked": false
+        },
+        "net_attrs": [
+          {
+            "id": "e82472",
+            "type": "ATTR",
+            "key": "NET",
+            "value": "GND",
+            "x": 2070,
+            "y": -3800
+          },
+          {
+            "id": "e4bfa592c1d148ba",
+            "type": "ATTR",
+            "key": "NET",
+            "value": "GND",
+            "x": 2080,
+            "y": -3800
+          },
+          {
+            "id": "5dc0dbecc253b0a2",
+            "type": "ATTR",
+            "key": "NET",
+            "value": "GND",
+            "x": 2410,
+            "y": -3800
+          },
+          {
+            "id": "05bc5cdb7b5565f2",
+            "type": "ATTR",
+            "key": "NET",
+            "value": "GND",
+            "x": 2300,
+            "y": -3805
+          },
+          {
+            "id": "41518368e079381d",
+            "type": "ATTR",
+            "key": "NET",
+            "value": "GND",
+            "x": 2220,
+            "y": -3810
+          },
+          {
+            "id": "dab0b25b3a9481dc",
+            "type": "ATTR",
+            "key": "NET",
+            "value": "GND",
+            "x": 2200,
+            "y": -3810
+          },
+          {
+            "id": "a321dc3a0be0d855",
+            "type": "ATTR",
+            "key": "NET",
+            "value": "GND",
+            "x": 2210,
+            "y": -3785
+          },
+          {
+            "id": "d6d8d60aea12278c",
+            "type": "ATTR",
+            "key": "NET",
+            "value": "GND",
+            "x": 2321,
+            "y": -3695
+          },
+          {
+            "id": "6c2d22961bad8b84",
+            "type": "ATTR",
+            "key": "NET",
+            "value": "LED_FAULT_L_N",
+            "x": 2390,
+            "y": -3705
+          },
+          {
+            "id": "677f8bdb8782d681",
+            "type": "ATTR",
+            "key": "NET",
+            "value": "GND",
+            "x": 2333.5,
+            "y": -3705
+          }
+        ]
+      }
+    ],
+    "LED_FAULT_R_N": [
+      {
+        "id": "cfc8d814cc6e5bf2",
+        "payload": {
+          "zIndex": 6781
+        },
+        "net_attrs": [
+          {
+            "id": "b6ff927596a9d60d",
+            "type": "ATTR",
+            "key": "NET",
+            "value": "LED_FAULT_R_N",
+            "x": 2327.5,
+            "y": -3655
+          }
+        ]
+      }
+    ]
+  },
+  "nc_keys": {
+    "Tolerance": 174,
+    "Connector Type": 2,
+    "Function": 3,
+    "Frequency - Switching": 1,
+    "Synchronous Rectifier": 1,
+    "Impedance @ Frequency": 4,
+    "DC Resistance(DCR)": 5,
+    "Input Capacitance(Ciss)": 1,
+    "Reverse Transfer Capacitance (Crss@Vds)": 2,
+    "Relevance": 340,
+    "Normal temperature Frequency Tolerance": 2,
+    "Load Capacitance": 2,
+    "Frequency Stability": 2,
+    "Equivalent Series Resistance(ESR)": 2,
+    "Length of End Connection Pin": 3,
+    "Resistance @ 25\u2103": 2,
+    "Resistance Tolerance": 2,
+    "B Constant Tolerance": 2,
+    "Reference Series": 2,
+    "Drain Source On Resistance (RDS(on)@Vgs,Id)": 1,
+    "Input Capacitance (Ciss@Vds)": 1,
+    "Clock Frequency (fc)": 1,
+    "NO_CONNECT": 97
+  },
+  "nc_samples": [
+    {
+      "id": "e88",
+      "key": "Tolerance",
+      "value": "",
+      "parent": "e72"
+    },
+    {
+      "id": "e124",
+      "key": "Tolerance",
+      "value": "",
+      "parent": "e108"
+    },
+    {
+      "id": "e354",
+      "key": "Connector Type",
+      "value": "",
+      "parent": "e339"
+    },
+    {
+      "id": "e443",
+      "key": "Tolerance",
+      "value": "",
+      "parent": "e426"
+    },
+    {
+      "id": "e483",
+      "key": "Tolerance",
+      "value": "",
+      "parent": "e465"
+    },
+    {
+      "id": "e580",
+      "key": "Tolerance",
+      "value": "",
+      "parent": "e562"
+    },
+    {
+      "id": "e616",
+      "key": "Tolerance",
+      "value": "",
+      "parent": "e598"
+    },
+    {
+      "id": "e797",
+      "key": "Tolerance",
+      "value": "",
+      "parent": "e778"
+    }
+  ],
+  "empty_designators": [
+    {
+      "id": "e153999",
+      "x": 560,
+      "y": -4515,
+      "partId": "pid8a0e77bacb214e"
+    },
+    {
+      "id": "6da43ee181cf13a9",
+      "x": 0,
+      "y": 0,
+      "partId": "pid8a0e77bacb214e"
+    },
+    {
+      "id": "42df88e4a3e64915",
+      "x": 2170,
+      "y": -3745,
+      "partId": "pid8a0e77bacb214e"
+    }
+  ],
+  "neg_y_wire_count": 0,
+  "neg_y_wires": [],
+  "attr_keys_sample": [
+    "3D Model",
+    "3D Model Title",
+    "3D Model Transform",
+    "@Board Name",
+    "@Create Date",
+    "@Create Time",
+    "@Page Count",
+    "@Page Name",
+    "@Page No",
+    "@Project Name",
+    "@Schematic Name",
+    "@Update Date",
+    "@Update Time",
+    "ADC (Bit)",
+    "Acceleration Measurement Range (MAX)",
+    "Accelerometer Sensing Axis",
+    "Add into BOM",
+    "Antenna Type",
+    "B Constant (25\u2103/100\u2103)",
+    "B Constant (25\u2103/50\u2103)",
+    "B Constant (25\u2103/75\u2103)",
+    "B Constant (25\u2103/85\u2103)",
+    "B Constant Tolerance",
+    "Bandwidth",
+    "Blade Width",
+    "Block Erase Time (tBE)",
+    "Border",
+    "Breakdown Voltage",
+    "CPU Core",
+    "CPU Maximum Speed",
+    "Cache Size",
+    "Channel ID",
+    "Channel Type",
+    "ChipType",
+    "Circluar Pins/Square Pins",
+    "Clock Frequency (fc)",
+    "Color",
+    "Common Mode Rejection Ratio (CMRR)",
+    "Company",
+    "Connector Type",
+    "Contact Material",
+    "Contact Plating",
+    "Contact Type",
+    "Continuous Drain Current (Id)",
+    "Control Input Logic",
+    "Convert to PCB",
+    "Current - Continuous Drain(Id)",
+    "Current - Output High(IOH)",
+    "Current - Output Low(IOL)",
+    "Current - Saturation(Isat)",
+    "Current Rating",
+    "Current Rating-Power",
+    "DC Resistance(DCR)",
+    "Data Retention - TDR (Year)",
+    "Datasheet",
+    "Description",
+    "Designator",
+    "Detection color",
+    "Device",
+    "Differential Voltage",
+    "Dissipation Factor",
+    "Drain Source On Resistance (RDS(on)@Vgs,Id)",
+    "Drain Source Voltage (Vdss)",
+    "Drain to Source Voltage",
+    "Drawn",
+    "Dual Supply",
+    "Equivalent Series Resistance(ESR)",
+    "FFC, FCB Thickness",
+    "Features",
+    "Flame Retardant Rating",
+    "Footprint",
+    "Frequency - Switching",
+    "Frequency Stability",
+    "Function",
+    "Gain",
+    "Gain Error",
+    "Gate Charge(Qg)",
+    "Gate Threshold Voltage (Vgs(th))",
+    "Gate Threshold Voltage (Vgs(th)@Id)",
+    "Gender"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T08-xor-place-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Place R94-USB 0Ω FIT, R95-USB 0Ω DNP, J12-USB 4-pad header. No designate. No wire. Not a USB-C.",
+  "observed_delta": "475 percent view of two C106231 0 ohm resistors at 2100,800 and 2100,1000 plus C124378 1x4 header H? B-2100S04P-A110 at 2300,900 with pins 1-4. Designators still R?/H?. No wires. Not a USB-C. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T08-xor-place.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "R94 0Ω placed",
+      "result": "OK",
+      "detail": "C106231 0 ohm at 2100,800 primitive b027c9ae9b996415. Value 0Ω visible."
+    },
+    {
+      "name": "R95 0Ω placed",
+      "result": "OK",
+      "detail": "C106231 0 ohm at 2100,1000 primitive 24561118da702cc5. R? still undesignated."
+    },
+    {
+      "name": "J12 4-pad header placed",
+      "result": "OK",
+      "detail": "C124378 HDR-TH_4P at 2300,900 primitive 9f86d15a53851abb. Pins 1-4 readable."
+    },
+    {
+      "name": "not a USB-C",
+      "result": "OK",
+      "detail": "Header-Male-2.54_1x4 B-2100S04P-A110. Not a USB-C receptacle."
+    },
+    {
+      "name": "hub 41c8e652",
+      "result": "OK",
+      "detail": "currentProject.uuid 41c8e652. Hash 3026702:d06f6b6d. addIntoPcb false."
+    }
+  ]
+}

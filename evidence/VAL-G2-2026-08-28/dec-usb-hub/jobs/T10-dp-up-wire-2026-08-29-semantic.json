@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T10-dp-up-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "3025567:11bdb466",
+  "post_source_hash": "3026989:a0e820b9",
+  "saved": true,
+  "affected": [
+    {"net": "USB_DP_UP", "wires": ["192564a3128b5d9c", "284a237049e52ab4"], "u20_pin": 20, "rusb": "ebrc000184 pin 2"},
+    {"net": "USB_DM_UP", "wires": ["4141da5ce0b5f2c4", "8173275f56a526fa"], "u20_pin": 19, "rusb": "ebrc000205 pin 2"},
+    {"lifted": ["ebrw000226", "ebrw000228"], "note": "U6 L8/M8 off USB_DP_RT/USB_DN_RT"},
+    {"ref": "D1-PWR1", "primitiveId": "e252", "note": "kept"}
+  ],
+  "census": {
+    "components": 330,
+    "wires": 800,
+    "components_delta": 0,
+    "wires_delta": -1,
+    "note": "USB_DP_RT and USB_DN_RT removed. PROT nets unchanged."
+  },
+  "observed": "RUSB far side retargeted to USB_DP_UP/USB_DM_UP. U20 pins 20/19 have USB_DP_UP/USB_DM_UP stubs. U6 L8/M8 lifted off USB_DP_RT/USB_DN_RT. D1-PWR1 kept. Hub 41c8e652."
+}

@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07e-prt-en-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2938531:f36f8e09",
+  "post_source_hash": "2953161:85b2c1c6",
+  "saved": true,
+  "affected": [
+    {"net": "USB_PRTPWR1", "members": ["U20.7", "U24.1"], "source_hits": 5},
+    {"net": "USB_PRTPWR2", "members": ["U20.11", "U25.1"], "source_hits": 33},
+    {"net": "USB_EN1", "members": ["U24.4", "U21.3"], "source_hits": 7},
+    {"net": "USB_EN2", "members": ["U25.4", "U21.4"], "source_hits": 11},
+    {"net": "USB_5V_VALID", "note": "riser gapped at y=775-805 so USB_EN1 at y=790 does not short"}
+  ],
+  "census": {
+    "components": 323,
+    "wires": 796,
+    "components_delta": 0,
+    "wires_delta": 2
+  },
+  "observed": "PRTPWR1/2 and EN1/EN2 drawn as real wires on hub 41c8e652. USB_5V_VALID riser gapped. U21 OUT still open. OCS not yet wired."
+}

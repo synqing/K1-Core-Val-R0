@@ -1,0 +1,7 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "add_schematic_wire", "tag": "r85-p1", "args": {"line": [1700, 1200, 1670, 1200], "net": "USB_5V_VALID", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "r85-p2", "args": {"line": [1740, 1200, 1770, 1200], "net": "USB_5V_VALID", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "u9-gpio15-east", "args": {"line": [4175, 4340, 4210, 4340], "net": "USB_5V_VALID", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "set_schematic_pin_no_connect", "tag": "u9-8-nc-off", "args": {"componentPrimitiveId": "e8065", "pinNumber": "8", "noConnected": false, "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

@@ -1,0 +1,882 @@
+[
+ {
+  "tag": "pre-ctx",
+  "ok": true,
+  "result": {
+   "currentDocument": {
+    "documentType": 1,
+    "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+    "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+   },
+   "currentProject": {
+    "itemType": "Project",
+    "uuid": "41c8e6523576456582ea35958b3684ed",
+    "friendlyName": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "name": "spectrasynq/K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "teamUuid": "27700277ef7a49e48a0293bece6b2993",
+    "description": "",
+    "data": [
+     {
+      "itemType": "Board",
+      "name": "Board1",
+      "schematic": {
+       "itemType": "Schematic",
+       "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "name": "Schematic1",
+       "page": [
+        {
+         "itemType": "Schematic Page",
+         "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+         "name": "P1",
+         "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+         "showTitleBlock": true,
+         "titleBlockData": {
+          "Symbol": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "@Project Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE"
+          },
+          "@Page Count": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Update Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Create Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Schematic Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Schematic1"
+          },
+          "@Page No": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Page Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "P1"
+          },
+          "Company": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "SPECTRASYNQ"
+          },
+          "Reviewed": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Version": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "V1.0"
+          },
+          "Page Size": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Custom"
+          },
+          "Drawn": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "@Create Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "07:22:31"
+          },
+          "@Update Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "09:16:47"
+          },
+          "Border": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "5000"
+          },
+          "Height": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "4800"
+          },
+          "Region Start": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "X Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Y Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "8"
+          },
+          "Blade Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Color": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "#333333"
+          },
+          "Title Block Position": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "3"
+          },
+          "Title Block": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "@Board Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Board1"
+          },
+          "Footprint": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Description": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Device": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "ID": {}
+         }
+        }
+       ],
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed",
+       "parentBoardName": "Board1"
+      },
+      "pcb": {
+       "itemType": "PCB",
+       "name": "PCB1",
+       "uuid": "59bef7e87cff4cd580561703b62d8c19",
+       "parentBoardName": "Board1",
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+      },
+      "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+     }
+    ]
+   },
+   "splitScreenTree": {
+    "id": "editor-window-main",
+    "tabs": [
+     {
+      "title": "Start Page",
+      "tabId": "tab_page1",
+      "icon": {
+       "iconClassName": "icon-eda-logo"
+      },
+      "tabStyle": {
+       "width": "auto",
+       "minWidth": "76px"
+      },
+      "isAbleDelete": false,
+      "group": "start_blank",
+      "draggable": true,
+      "data": {
+       "doctype": -1
+      },
+      "isDisplayNone": false
+     },
+     {
+      "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+      "title": "P1.Schematic1",
+      "icon": {
+       "iconClassName": "icon-eda-page icon-color-blue"
+      },
+      "draggable": true,
+      "isAbleDelete": true,
+      "notUseI18n": true,
+      "data": {
+       "containerId": "editor-window-main",
+       "doctype": 1,
+       "ticket": 10083,
+       "updateTime": 1787961070128,
+       "data-model-sheet-uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+       "title": "P1",
+       "pid": "41c8e6523576456582ea35958b3684ed",
+       "version": "1787961070128",
+       "schematicName": "Schematic1",
+       "data-schematic-uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "isBlockSymbolSheet": false,
+       "creator": "27700277ef7a49e48a0293bece6b2993",
+       "owner": "27700277ef7a49e48a0293bece6b2993",
+       "sch": true
+      },
+      "titleStyle": {
+       "fontWeight": "bold"
+      },
+      "isUnSaved": false,
+      "isHighLight": false
+     }
+    ]
+   },
+   "editorBootstrapState": {
+    "startPageOnly": false,
+    "urlHash": "#id=41c8e6523576456582ea35958b3684ed,tab=*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedProjectUuid": "41c8e6523576456582ea35958b3684ed",
+    "requestedTabIds": [
+     "*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "activeRequestedTab": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedActiveTabMissing": false,
+    "visibleTabIds": [
+     "tab_page1",
+     "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "suspectedBootstrapFailure": false
+   },
+   "contextLevel": "project-and-document",
+   "hasProjectContext": true,
+   "hasDocumentContext": true,
+   "recommendedNextSteps": [
+    "Use document-specific tools that match the active document type.",
+    "If you need project inventory or cross-document operations, call list_project_objects next.",
+    "For edits, prefer query tools first so primitive IDs and coordinates are verified before modification."
+   ]
+  }
+ },
+ {
+  "tag": "d3-c",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      420,
+      640,
+      420,
+      980
+     ],
+     [
+      470,
+      640,
+      420,
+      640
+     ],
+     [
+      470,
+      560,
+      470,
+      640
+     ],
+     [
+      470,
+      560,
+      1350,
+      560
+     ],
+     [
+      1350,
+      560,
+      1350,
+      800
+     ],
+     [
+      1350,
+      800,
+      1380,
+      800
+     ],
+     [
+      1380,
+      800,
+      1380,
+      1200
+     ],
+     [
+      1400,
+      800,
+      1380,
+      800
+     ],
+     [
+      1350,
+      560,
+      1480,
+      560
+     ],
+     [
+      1480,
+      400,
+      1480,
+      560
+     ],
+     [
+      1570,
+      560,
+      1480,
+      560
+     ],
+     [
+      1570,
+      560,
+      1570,
+      590
+     ],
+     [
+      1570,
+      590,
+      1535,
+      590
+     ],
+     [
+      1570,
+      610,
+      1570,
+      590
+     ],
+     [
+      1535,
+      610,
+      1570,
+      610
+     ],
+     [
+      260,
+      640,
+      420,
+      640
+     ],
+     [
+      260,
+      640,
+      260,
+      980
+     ],
+     [
+      240,
+      640,
+      260,
+      640
+     ]
+    ],
+    "net": "5V_USB",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "540a3405c5e95273"
+   }
+  }
+ },
+ {
+  "tag": "d3-a-e",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1520,
+      400,
+      1640,
+      400
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "abe57046cc003be7"
+   }
+  }
+ },
+ {
+  "tag": "d3-a-s",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1640,
+      400,
+      1520,
+      400
+     ],
+     [
+      1640,
+      400,
+      1640,
+      600
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "ee0b1dd8771f08c9"
+   }
+  }
+ },
+ {
+  "tag": "d3-a-gnd",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1520,
+      400,
+      1640,
+      400
+     ],
+     [
+      1640,
+      600,
+      1640,
+      400
+     ],
+     [
+      1640,
+      600,
+      1620,
+      600
+     ],
+     [
+      1620,
+      600,
+      1620,
+      1140
+     ],
+     [
+      1595,
+      1140,
+      1620,
+      1140
+     ],
+     [
+      1595,
+      1140,
+      1595,
+      800
+     ],
+     [
+      1470,
+      1140,
+      1595,
+      1140
+     ],
+     [
+      1470,
+      800,
+      1470,
+      1140
+     ],
+     [
+      1470,
+      800,
+      1440,
+      800
+     ],
+     [
+      1440,
+      1140,
+      1470,
+      1140
+     ],
+     [
+      1440,
+      1100,
+      1440,
+      1140
+     ],
+     [
+      1360,
+      1140,
+      1440,
+      1140
+     ],
+     [
+      1360,
+      1140,
+      1360,
+      600
+     ],
+     [
+      1465,
+      600,
+      1360,
+      600
+     ],
+     [
+      1240,
+      1140,
+      1360,
+      1140
+     ],
+     [
+      1240,
+      1000,
+      1240,
+      1140
+     ],
+     [
+      1160,
+      1140,
+      1240,
+      1140
+     ],
+     [
+      1160,
+      1140,
+      1160,
+      1000
+     ],
+     [
+      1140,
+      1140,
+      1160,
+      1140
+     ],
+     [
+      1140,
+      810,
+      1140,
+      1140
+     ],
+     [
+      1120,
+      1140,
+      1140,
+      1140
+     ],
+     [
+      1120,
+      1140,
+      1120,
+      1000
+     ],
+     [
+      810,
+      1140,
+      1120,
+      1140
+     ],
+     [
+      810,
+      1140,
+      810,
+      710
+     ],
+     [
+      750,
+      710,
+      810,
+      710
+     ],
+     [
+      780,
+      1140,
+      810,
+      1140
+     ],
+     [
+      760,
+      1140,
+      780,
+      1140
+     ],
+     [
+      780,
+      1140,
+      780,
+      1100
+     ],
+     [
+      780,
+      980,
+      780,
+      1100
+     ],
+     [
+      1640,
+      1140,
+      1620,
+      1140
+     ],
+     [
+      1640,
+      1140,
+      1640,
+      630
+     ],
+     [
+      1500,
+      630,
+      1640,
+      630
+     ],
+     [
+      1640,
+      1140,
+      1660,
+      1140
+     ],
+     [
+      1660,
+      1200,
+      1660,
+      1140
+     ],
+     [
+      1660,
+      1140,
+      1710,
+      1140
+     ],
+     [
+      1710,
+      1140,
+      1710,
+      1030
+     ],
+     [
+      1710,
+      1030,
+      1910,
+      1030
+     ],
+     [
+      1910,
+      480,
+      1910,
+      1030
+     ],
+     [
+      1910,
+      480,
+      170,
+      480
+     ],
+     [
+      170,
+      750,
+      170,
+      480
+     ],
+     [
+      170,
+      750,
+      230,
+      750
+     ],
+     [
+      1710,
+      1030,
+      1710,
+      1010
+     ],
+     [
+      1710,
+      1000,
+      1710,
+      1010
+     ],
+     [
+      1820,
+      1140,
+      1710,
+      1140
+     ],
+     [
+      1820,
+      1140,
+      1820,
+      1200
+     ],
+     [
+      1870,
+      1140,
+      1820,
+      1140
+     ],
+     [
+      1870,
+      1140,
+      1885,
+      1140
+     ],
+     [
+      1885,
+      1140,
+      1885,
+      550
+     ],
+     [
+      1810,
+      550,
+      1885,
+      550
+     ],
+     [
+      1810,
+      550,
+      1810,
+      600
+     ],
+     [
+      1710,
+      600,
+      1810,
+      600
+     ],
+     [
+      1890,
+      1140,
+      1885,
+      1140
+     ],
+     [
+      1870,
+      1140,
+      1870,
+      1000
+     ],
+     [
+      1870,
+      600,
+      1870,
+      1000
+     ],
+     [
+      1535,
+      600,
+      1620,
+      600
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "0170749d64f794d2"
+   }
+  }
+ },
+ {
+  "tag": "d3-5v-flag",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "04081806e669cba2",
+    "componentType": "netflag",
+    "x": 1480,
+    "y": 380,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "5V_USB",
+    "component": {
+     "uuid": "10f3d7d8dc78c973",
+     "name": "Power-5V",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "84d626ba100f9ced",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Power-5V"
+    },
+    "name": "5V_USB",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "5V_USB",
+     "Description": "Power-5V"
+    }
+   }
+  }
+ },
+ {
+  "tag": "d3-gnd-flag",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "9ab5b206998f03bb",
+    "componentType": "netflag",
+    "x": 1640,
+    "y": 400,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "GND",
+    "component": {
+     "uuid": "a4f9a0db599d4ab993a0c73b48324c12",
+     "name": "Ground-GND",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "950187c0c34947a8b86c0075432a526b",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Ground-GND"
+    },
+    "footprint": {
+     "uuid": ""
+    },
+    "name": "GND",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "GND",
+     "Description": ""
+    }
+   },
+   "saved": true
+  }
+ }
+]

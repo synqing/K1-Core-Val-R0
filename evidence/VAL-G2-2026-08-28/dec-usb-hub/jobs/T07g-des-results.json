@@ -1,0 +1,600 @@
+[
+ {
+  "tag": "pre-ctx",
+  "ok": true,
+  "result": {
+   "currentDocument": {
+    "documentType": 1,
+    "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+    "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+   },
+   "currentProject": {
+    "itemType": "Project",
+    "uuid": "41c8e6523576456582ea35958b3684ed",
+    "friendlyName": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "name": "spectrasynq/K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "teamUuid": "27700277ef7a49e48a0293bece6b2993",
+    "description": "",
+    "data": [
+     {
+      "itemType": "Board",
+      "name": "Board1",
+      "schematic": {
+       "itemType": "Schematic",
+       "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "name": "Schematic1",
+       "page": [
+        {
+         "itemType": "Schematic Page",
+         "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+         "name": "P1",
+         "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+         "showTitleBlock": true,
+         "titleBlockData": {
+          "Symbol": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "@Project Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE"
+          },
+          "@Page Count": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Update Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Create Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Schematic Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Schematic1"
+          },
+          "@Page No": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Page Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "P1"
+          },
+          "Company": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "SPECTRASYNQ"
+          },
+          "Reviewed": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Version": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "V1.0"
+          },
+          "Page Size": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Custom"
+          },
+          "Drawn": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "@Create Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "07:22:31"
+          },
+          "@Update Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "08:34:33"
+          },
+          "Border": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "5000"
+          },
+          "Height": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "4800"
+          },
+          "Region Start": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "X Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Y Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "8"
+          },
+          "Blade Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Color": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "#333333"
+          },
+          "Title Block Position": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "3"
+          },
+          "Title Block": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "@Board Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Board1"
+          },
+          "Footprint": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Description": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Device": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "ID": {}
+         }
+        }
+       ],
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed",
+       "parentBoardName": "Board1"
+      },
+      "pcb": {
+       "itemType": "PCB",
+       "name": "PCB1",
+       "uuid": "59bef7e87cff4cd580561703b62d8c19",
+       "parentBoardName": "Board1",
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+      },
+      "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+     }
+    ]
+   },
+   "splitScreenTree": {
+    "id": "editor-window-main",
+    "tabs": [
+     {
+      "title": "Start Page",
+      "tabId": "tab_page1",
+      "icon": {
+       "iconClassName": "icon-eda-logo"
+      },
+      "tabStyle": {
+       "width": "auto",
+       "minWidth": "76px"
+      },
+      "isAbleDelete": false,
+      "group": "start_blank",
+      "draggable": true,
+      "data": {
+       "doctype": -1
+      },
+      "isDisplayNone": false
+     },
+     {
+      "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+      "title": "P1.Schematic1",
+      "icon": {
+       "iconClassName": "icon-eda-page icon-color-blue"
+      },
+      "draggable": true,
+      "isAbleDelete": true,
+      "notUseI18n": true,
+      "data": {
+       "containerId": "editor-window-main",
+       "doctype": 1,
+       "ticket": 10083,
+       "updateTime": 1787961070128,
+       "data-model-sheet-uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+       "title": "P1",
+       "pid": "41c8e6523576456582ea35958b3684ed",
+       "version": "1787961070128",
+       "schematicName": "Schematic1",
+       "data-schematic-uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "isBlockSymbolSheet": false,
+       "creator": "27700277ef7a49e48a0293bece6b2993",
+       "owner": "27700277ef7a49e48a0293bece6b2993",
+       "sch": true
+      },
+      "titleStyle": {
+       "fontWeight": "bold"
+      },
+      "isUnSaved": false,
+      "isHighLight": false
+     }
+    ]
+   },
+   "editorBootstrapState": {
+    "startPageOnly": false,
+    "urlHash": "#id=41c8e6523576456582ea35958b3684ed,tab=*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedProjectUuid": "41c8e6523576456582ea35958b3684ed",
+    "requestedTabIds": [
+     "*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "activeRequestedTab": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedActiveTabMissing": false,
+    "visibleTabIds": [
+     "tab_page1",
+     "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "suspectedBootstrapFailure": false
+   },
+   "contextLevel": "project-and-document",
+   "hasProjectContext": true,
+   "hasDocumentContext": true,
+   "recommendedNextSteps": [
+    "Use document-specific tools that match the active document type.",
+    "If you need project inventory or cross-document operations, call list_project_objects next.",
+    "For edits, prefer query tools first so primitive IDs and coordinates are verified before modification."
+   ]
+  }
+ },
+ {
+  "tag": "U22-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "4c311982f7a3bb0d",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "4c311982f7a3bb0d",
+    "componentType": "part",
+    "x": 1500,
+    "y": 600,
+    "subPartName": "TPS7A2550DRVR.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "5b3e663cd862641f",
+     "name": "TPS7A2550DRVR"
+    },
+    "symbol": {
+     "uuid": "86af034110ea6c89",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "TPS7A2550DRVR"
+    },
+    "footprint": {
+     "uuid": "ecb87d6c270cf197",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "WSON-6_L2.0-W2.0-P0.65-TL-EP"
+    },
+    "designator": "U22-USB",
+    "name": "TPS7A2550DRVR",
+    "uniqueId": "",
+    "manufacturer": "TI(德州仪器)",
+    "manufacturerId": "TPS7A2550DRVR",
+    "supplier": "LCSC",
+    "supplierId": "C2876265",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Output Configuration": "",
+     "Voltage - Supply": "",
+     "Output Voltage": "",
+     "Output Current": "",
+     "Power Supply Rejection Ratio (PSRR)": "",
+     "Voltage Dropout": "",
+     "standby current": "",
+     "Noise": "",
+     "Features": "",
+     "Operating Temperature": "",
+     "Output Type": "",
+     "Number of Outputs": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "U23-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "125f3f5842b2d308",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "125f3f5842b2d308",
+    "componentType": "part",
+    "x": 1500,
+    "y": 1000,
+    "subPartName": "TLV7031DBVR.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "aa5391d71670cdbc",
+     "name": "TLV7031DBVR"
+    },
+    "symbol": {
+     "uuid": "5f5ecd035a1b7eb5",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "TLV7031DBVR"
+    },
+    "footprint": {
+     "uuid": "1f2e3a928a0d11ce",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR"
+    },
+    "designator": "U23-USB",
+    "name": "TLV7031DBVR",
+    "uniqueId": "",
+    "manufacturer": "TI(德州仪器)",
+    "manufacturerId": "TLV7031DBVR",
+    "supplier": "LCSC",
+    "supplierId": "C2869832",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Number of Channels": "",
+     "Vos - Input Offset Voltage": "",
+     "Ib - Input Bias Current": "",
+     "Propagation Delay Time": "",
+     "Input Hysteresis Voltage (Vhys)": "",
+     "Common Mode Rejection Ratio(CMRR)": "",
+     "Output Type": "",
+     "Output Mode": "",
+     "Rail to Rail": "",
+     "Quiescent Current": "",
+     "Operating Temperature": "",
+     "Maximum Power Supply Range (Vdd-Vss)": "",
+     "Single Supply": "",
+     "Input Offset Current(Ios)": "",
+     "Response Time (tr)": "",
+     "Features": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "U24-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "8d95d838df2d5f43",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "8d95d838df2d5f43",
+    "componentType": "part",
+    "x": 1750,
+    "y": 600,
+    "subPartName": "SN74LVC1G08DBVR.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "5e48086a66f9514b",
+     "name": "SN74LVC1G08DBVR"
+    },
+    "symbol": {
+     "uuid": "eaac2cf7ab86edb9",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "SN74LVC1G08DBVR"
+    },
+    "footprint": {
+     "uuid": "76944713fd9853aa",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
+    },
+    "designator": "U24-USB",
+    "name": "SN74LVC1G08DBVR",
+    "uniqueId": "",
+    "manufacturer": "TI(德州仪器)",
+    "manufacturerId": "SN74LVC1G08DBVR",
+    "supplier": "LCSC",
+    "supplierId": "C7666",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Logic Type": "",
+     "Number of Channels": "",
+     "Voltage - Supply": "",
+     "Quiescent Current": "",
+     "Current - Output Low(IOL)": "",
+     "Current - Output High(IOH)": "",
+     "Input Logic Level - High": "",
+     "Input Logic Level - Low": "",
+     "Output Logic Level - High": "",
+     "Output Logic Level - Low": "",
+     "Series": "",
+     "Propagation Delay": "",
+     "Operating Temperature": "",
+     "Input Number": "",
+     "Features": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "U25-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "cace78f52f4c7139",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "cace78f52f4c7139",
+    "componentType": "part",
+    "x": 1750,
+    "y": 1000,
+    "subPartName": "SN74LVC1G08DBVR.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "5e48086a66f9514b",
+     "name": "SN74LVC1G08DBVR"
+    },
+    "symbol": {
+     "uuid": "eaac2cf7ab86edb9",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "SN74LVC1G08DBVR"
+    },
+    "footprint": {
+     "uuid": "76944713fd9853aa",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR"
+    },
+    "designator": "U25-USB",
+    "name": "SN74LVC1G08DBVR",
+    "uniqueId": "",
+    "manufacturer": "TI(德州仪器)",
+    "manufacturerId": "SN74LVC1G08DBVR",
+    "supplier": "LCSC",
+    "supplierId": "C7666",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Logic Type": "",
+     "Number of Channels": "",
+     "Voltage - Supply": "",
+     "Quiescent Current": "",
+     "Current - Output Low(IOL)": "",
+     "Current - Output High(IOH)": "",
+     "Input Logic Level - High": "",
+     "Input Logic Level - Low": "",
+     "Output Logic Level - High": "",
+     "Output Logic Level - Low": "",
+     "Series": "",
+     "Propagation Delay": "",
+     "Operating Temperature": "",
+     "Input Number": "",
+     "Features": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "D3-USB",
+  "ok": true,
+  "result": {
+   "primitiveId": "fadfedaff2230f79",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "fadfedaff2230f79",
+    "componentType": "part",
+    "x": 1500,
+    "y": 400,
+    "subPartName": "SMF5.0A_C2758488.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "240fe0da182a679f",
+     "name": "SMF5.0A_C2758488"
+    },
+    "symbol": {
+     "uuid": "8aaaea4124394f95",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "SMF5.0A_C2758488"
+    },
+    "footprint": {
+     "uuid": "7943ea3fdc128593",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "SOD-123FL_L2.7-W1.8-LS3.7-RD"
+    },
+    "designator": "D3-USB",
+    "name": "SMF5.0A",
+    "uniqueId": "",
+    "manufacturer": "UMW(友台半导体)",
+    "manufacturerId": "SMF5.0A",
+    "supplier": "LCSC",
+    "supplierId": "C2758488",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Polarity": "",
+     "Reverse Stand-Off Voltage (Vrwm)": "",
+     "Clamping Voltage": "",
+     "Peak Pulse Current (Ipp)": "",
+     "Peak Pulse Power Dissipation (Ppp)": "",
+     "Voltage - Breakdown": "",
+     "Reverse Leakage Current (Ir)": "",
+     "level of protection": "",
+     "Type": "",
+     "Description": ""
+    }
+   },
+   "saved": true
+  }
+ }
+]

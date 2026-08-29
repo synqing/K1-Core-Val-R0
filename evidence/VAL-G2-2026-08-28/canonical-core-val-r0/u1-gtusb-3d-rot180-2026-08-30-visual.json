@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-gtusb-3d-rot180-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "U1 only: rebind Captain original J1_GT-USB-7005A (7e3f17b4, 1:1, no remesh) and set 3D Model Transform to 0, 0, 0, 180, 0, 0, 0, 0, 0 (rotZ 180, native/auto size, offsets cleared). Clear the 6 mm sizeY lie. Do not retouch U6, USB2, caps, TVS or audio.",
+  "observed_delta": "Semantic persist landed: U1 binds original 7e3f17b4 titled J1_GT-USB-7005A with transform 0, 0, 0, 180, 0, 0, 0, 0, 0. The 6 mm sizeY lie is gone. The body is no longer the tiny speck seen on the restamp still. Tight and wide 3D stills still show empty oval golds and an empty SMT row. The shell is not in the edge cut-out; the mouth faces inland. U6 and D1 unchanged. Not seated. Z was not changed.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-rot180-navy-u1.png",
+  "supporting_screenshots": [
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-rot180-wide-top.png",
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-rot180-iso.png",
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-rot180-edge.png"
+  ],
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [],
+  "verdict": "REJECTED",
+  "checks": [
+    {
+      "name": "U1 remains C5250872 / GT-USB-7005A",
+      "result": "OK",
+      "detail": "U1 primitive 0f194aaf30bc2e32 is still C5250872 / GT-USB-7005A."
+    },
+    {
+      "name": "Original J1_GT-USB-7005A 7e3f17b4 bound at 1:1",
+      "result": "OK",
+      "detail": "U1 3D Model is 7e3f17b4e5b64384aaa03075cd65e3e3 titled J1_GT-USB-7005A. No remesh. No new OBJ."
+    },
+    {
+      "name": "Transform is rotZ 180 with 6 mm sizeY lie cleared",
+      "result": "OK",
+      "detail": "Read-back transform is 0, 0, 0, 180, 0, 0, 0, 0, 0. Field 2 is no longer 236.220."
+    },
+    {
+      "name": "U6-RTC 3D model and transform unchanged",
+      "result": "OK",
+      "detail": "U6-RTC still de5664fd2ea74aa082831cfa5b198edb identity transform."
+    },
+    {
+      "name": "D1-PWR1 TVS 3D model and transform unchanged",
+      "result": "OK",
+      "detail": "D1-PWR1 still 1370be37a17e44418ae52e2b4cc1f5e5 with the same transform."
+    },
+    {
+      "name": "Body is original size not a tiny block",
+      "result": "OK",
+      "detail": "Restamp still showed a speck inside the silk. After rebind the grey body spans the oval pair on the wide-top still. It is not the 6 mm sizeY shrink."
+    },
+    {
+      "name": "tabs through oval gold on tight 3D stills",
+      "result": "DEFECT",
+      "detail": "Oval golds and the SMT row stay empty. Shell is not in the cut-out. Mouth faces inland. Not seated."
+    }
+  ]
+}

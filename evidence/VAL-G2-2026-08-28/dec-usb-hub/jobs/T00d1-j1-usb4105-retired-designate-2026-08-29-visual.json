@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T00d1-j1-usb4105-retired-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Designate the existing USB4105 receptacle e339 from J1-PWR1 to J1-USB4105-RETIRED. Do not delete. Do not wire. Do not touch the new GT-USB-7005A symbol.",
+  "observed_delta": "80% block zoom on POWER ENTRY shows the USB4105 receptacle selected and labelled J1-USB4105-RETIRED. It was not deleted. No new wires. The west GT-USB symbol remains. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T00d1-j1-retired-readable.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "old USB4105 now reads J1-USB4105-RETIRED",
+      "result": "OK",
+      "detail": "80% POWER ENTRY view shows the selected USB-C receptacle labelled J1-USB4105-RETIRED."
+    },
+    {
+      "name": "new GT-USB symbol designator unchanged this transaction",
+      "result": "OK",
+      "detail": "Read-back of ea47c20de228fa3a remains J1-USB at -485,3160. This transaction only modified e339."
+    },
+    {
+      "name": "no new wires in this transaction",
+      "result": "OK",
+      "detail": "Wire census stays 773. The retired receptacle still shows its existing power-entry wiring only."
+    },
+    {
+      "name": "hub project 41c8e652 still current, not live 64325d0e",
+      "result": "OK",
+      "detail": "CDP page and getCurrentProjectInfo.uuid are 41c8e6523576456582ea35958b3684ed. Live was not focused."
+    }
+  ]
+}

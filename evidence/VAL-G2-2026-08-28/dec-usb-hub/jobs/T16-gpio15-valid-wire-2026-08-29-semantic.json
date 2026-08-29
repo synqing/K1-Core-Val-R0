@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T16-gpio15-valid-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "3063555:7e86266a",
+  "post_source_hash": "3066999:b39cb0dc",
+  "saved": true,
+  "affected": [
+    {"ref": "R85-USB", "id": "5cf017917b429da4", "net": "USB_5V_VALID", "wires": ["0df3701fe687193c", "c0d8ffdb09d7c8d8"]},
+    {"ref": "U9.8 IO15", "wire": "ff12401c730641b7", "xy": [4175, 4340], "net": "USB_5V_VALID"},
+    {"note": "East stub only. USB_DM_S3 TUNE stub stays at 4035,4340. S3_VBUS members unchanged (J7 island). S3_USB_VBUS_VALID not on GPIO15."}
+  ],
+  "census": {
+    "components": 333,
+    "wires": 812,
+    "components_delta": 0,
+    "wires_delta": 3
+  },
+  "observed": "R85 both pins and U9.8 IO15 on USB_5V_VALID. GPIO15 not on S3_VBUS, not on USB_DM_S3, not on S3_USB_VBUS_VALID. Hub 41c8e652."
+}

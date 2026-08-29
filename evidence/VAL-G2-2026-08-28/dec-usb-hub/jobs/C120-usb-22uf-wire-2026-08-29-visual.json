@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "C120-usb-22uf-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "C120-USB 22uF to 5V_PROTECTED and GND. Keep C2. Do not retarget C1.",
+  "observed_delta": "1226 percent island view of C120-USB 22uF. Left pin on 5V_PROTECTED with Power flag. Right pin on GND with Ground flag. C2 remains 22uF at 215,4420. C1 remains 1uF. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/C120-5V-PROTECTED.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "C120 pin1 on 5V_PROTECTED",
+      "result": "OK",
+      "detail": "Left pin stub and Power-5V flag both labelled 5V_PROTECTED at 1240,1280."
+    },
+    {
+      "name": "C120 pin2 on GND",
+      "result": "OK",
+      "detail": "Right pin vertical stub to Ground-GND flag. Wire 68db234b5bdac163 net GND."
+    },
+    {
+      "name": "C2 still 22uF on 5V_PROTECTED",
+      "result": "OK",
+      "detail": "C2-PWR1 e108 still 22uF at 215,4420. Not stolen for C120."
+    },
+    {
+      "name": "C1 still 1uF",
+      "result": "OK",
+      "detail": "C1-PWR1 e72 still 1uF at 115,4420."
+    },
+    {
+      "name": "hub 41c8e652",
+      "result": "OK",
+      "detail": "currentProject.uuid 41c8e652. Hash 2994873:ded46882."
+    }
+  ]
+}

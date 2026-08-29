@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-u3-pg-buck-pg-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2258325:57c2fcc6",
+  "post_source_hash": "2259451:ad461e85",
+  "saved": true,
+  "affected": [
+    {
+      "primitiveId": "e146317",
+      "net": "BUCK_PG",
+      "action": "absorbed",
+      "note": "Former R75-PWR2 BUCK_PG stub. Geometry kept as LINE 0b7537ff on the new island."
+    },
+    {
+      "primitiveId": "fa16d39836f56347",
+      "net": "BUCK_PG",
+      "action": "created",
+      "line": [
+        [990, 4565, 1560, 4565],
+        [990, 4480, 990, 4565],
+        [990, 4480, 1010, 4480]
+      ],
+      "note": "Orthogonal PG run from U3-PWR2 pin 5 (1560,4565) to the R75-PWR2 BUCK_PG stub. Does not touch the 3V3 side of R75."
+    }
+  ],
+  "census": {
+    "components": 229,
+    "wires": 687,
+    "conflict_wires": 0,
+    "pin5_line_group": "fa16d39836f56347",
+    "pin5_net": "BUCK_PG",
+    "r75_3v3_net": "3V3",
+    "r75_3v3_wire": "e146320",
+    "gnd_near_u3": "e2930",
+    "buck_sw": "e2936",
+    "buck_en": "e2942",
+    "buck_fb": "e2921",
+    "r75_name": "10k"
+  },
+  "observed": "U3-PWR2 pin 5 at (1560,4565) is now on BUCK_PG wire fa16d39836f56347. The run goes left to x=990 then down onto the old R75 BUCK_PG stub. e146317 was absorbed. e146320 remains 3V3. Nearby GND/BUCK_SW/BUCK_EN/BUCK_FB nets are unchanged. R75-PWR2 is still 10k. Saved. Hash 2258325:57c2fcc6 -> 2259451:ad461e85."
+}

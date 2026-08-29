@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07i-c123-c125-place-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Place C123 C124 and C125 100nF beside U23 U24 U25. addIntoPcb false. No wires.",
+  "observed_delta": "107 percent select-zoom shows three new 100nF capacitors beside U23, U24 and U25. No wires on those parts. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T07i-c123-tight.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "C123 100nF present",
+      "result": "OK",
+      "detail": "e8e13777e6daf227 C14663 at 1420,1100 beside U23. addIntoPcb false."
+    },
+    {
+      "name": "C124 100nF present",
+      "result": "OK",
+      "detail": "175450abf83b4c89 C14663 at 1850,600 beside U24. addIntoPcb false."
+    },
+    {
+      "name": "C125 100nF present",
+      "result": "OK",
+      "detail": "ffd3d3994031db72 C14663 at 1850,1000 beside U25. addIntoPcb false."
+    },
+    {
+      "name": "no new wires hub 41c8e652",
+      "result": "OK",
+      "detail": "Wire census stays 787. Focused project is 41c8e652 not live."
+    }
+  ]
+}

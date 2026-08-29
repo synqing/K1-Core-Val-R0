@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-sch-lane-open-reconcile-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Lane-open reconciliation on live MAIN schematic page 1435cb46. Confirm EasyEDA is on K1-Core-Val-R0, one schematic page, not HOLD, no mutation this step.",
+  "observed_delta": "EasyEDA chrome title is K1-Core-Val-R0 | JLCEDA Pro. The canvas shows the live RT1062 decoupling island with C23–C32 and C71–C73, orthogonal wires, and the DRC tab. This is not the HOLD candidate and not an HTML drawing.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/canonical-core-val-r0/schematic-lane/screenshots/lane-open-before.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "live MAIN chrome is visible",
+      "result": "OK",
+      "detail": "Window title reads K1-Core-Val-R0 | JLCEDA Pro without the G2.2-READABLE-HOLD suffix."
+    },
+    {
+      "name": "one schematic tab",
+      "result": "OK",
+      "detail": "Active document is schematic page 1435cb46 / P1 Schematic1 on project 64325d0e."
+    },
+    {
+      "name": "canvas shows the live RT1062 schematic",
+      "result": "OK",
+      "detail": "Settled capture shows U6-side pins, C23-RTC through C32-RTC and C71-RTC through C73-RTC, and named nets 1V15_CORE / 3V3 / NVCC_PLL_1V1."
+    },
+    {
+      "name": "not the HOLD candidate",
+      "result": "OK",
+      "detail": "Chrome and project UUID are live K1-Core-Val-R0 64325d0e, not HOLD 55ed9ee9."
+    }
+  ]
+}

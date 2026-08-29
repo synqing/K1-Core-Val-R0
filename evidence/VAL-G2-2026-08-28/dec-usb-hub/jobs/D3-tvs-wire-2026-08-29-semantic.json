@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "transaction_id": "D3-tvs-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2968924:14340094",
+  "post_source_hash": "2981540:5f074d30",
+  "saved": true,
+  "affected": [
+    {"ref": "D3-USB", "primitiveId": "fadfedaff2230f79", "cathode": "5V_USB", "anode": "GND"},
+    {"net": "5V_USB", "note": "D3 cathode joined existing 5V_USB rail at y=560"},
+    {"net": "GND", "note": "D3 anode to U22 GND at 1535,600"}
+  ],
+  "census": {
+    "components": 325,
+    "wires": 799,
+    "components_delta": 2,
+    "wires_delta": 0,
+    "note": "Two net flags Power 5V_USB and Ground GND. New wire segments merged into existing rails."
+  },
+  "observed": "D3-USB SMF5.0A cathode on 5V_USB, anode on GND. DVBUS-PWR1 not revived. U22 IN still 5V_USB. OCS parents unchanged. Hub 41c8e652."
+}

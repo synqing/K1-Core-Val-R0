@@ -1,0 +1,12 @@
+{
+  "schema": "k1.pixel-inspect.v1",
+  "subject": "evidence/VAL-G2-2026-08-28/schematic-presentation/FLOORPLAN.png",
+  "craft_claim": "Ten named soft regions with part counts and millimetre sizes, west-to-east reading flow, and signal-weight seams are obvious on the page.",
+  "subject_recognisable": true,
+  "option_or_craft_obvious": true,
+  "magenta_missing_texture": false,
+  "not_pcb_geometry": true,
+  "not_jlc_layout_ready": true,
+  "verdict": "PASS_FOR_HUMAN_REVIEW",
+  "notes": "Dashed region boxes, scale bar (1000 su = 254 mm), and adjacency table are readable. Coordinates remain proposals until Captain accepts the HTML board."
+}

@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T00d-j1-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2357840:c5df3d30",
+  "post_source_hash": "2357789:0f956675",
+  "saved": true,
+  "affected": [
+    {
+      "primitiveId": "ea47c20de228fa3a",
+      "designator": "J1-USB",
+      "previous_designator": "U?",
+      "name": "GT-USB-7005A-IND",
+      "x": -485,
+      "y": 3160
+    }
+  ],
+  "census": {
+    "components": 256,
+    "wires": 773,
+    "components_delta": 0,
+    "wires_delta": 0,
+    "j1_usb_present": true,
+    "j1_pwr1_present": true
+  },
+  "observed": "Designated independently placed GT-USB-7005A-IND from U? to J1-USB. Component and wire counts unchanged. Old J1-PWR1 remains. Live 64325d0e not written."
+}

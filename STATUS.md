@@ -1,6 +1,6 @@
 # STATUS
 
-Updated: 2026-08-28
+Updated: 2026-08-30 (D-051 RATIFIED — audio contract dual-input; live sheet still PDM-only)
 
 | Lane | State |
 | --- | --- |
@@ -9,7 +9,7 @@ Updated: 2026-08-28
 | VAL-G2 | **READY** |
 | VAL-G2.0A fixture definition | **RETIRED_BY_D-042 — corrected historical inventory 181, planned 218; old 120-net threshold not met** |
 | VAL-G2.0B EasyEDA qualification execution | **TERMINATED_BY_D-042 — qualification project frozen** |
-| VAL-G2.1 canonical single-sheet schematic capture | **IN PROGRESS — live `64325d0e55e0435abd018defb0089a9b` remains product canonical and untouched. `dcd7e3ca…` is the G2.1 electrical reference / EasyEDA normalisation oracle (D-048), not drawing authority. Import receipt NOT YET ACCEPTED. G2.2 readable reconstruction not started.** |
+| VAL-G2.1 canonical single-sheet schematic capture | **IN PROGRESS — live `64325d0e55e0435abd018defb0089a9b` remains product canonical and untouched. `dcd7e3ca…` is the G2.1 electrical reference / EasyEDA normalisation oracle (D-048), not drawing authority. Import receipt NOT YET ACCEPTED. Hub disposable + G2.2 reconstruction are the authorised EasyEDA path. `G2_1_OFFICIAL_FREEZE` waits on hub ERC (Phase K) **and** on AUX being present on the electrical graph (D-051). The live sheet is still PDM-only; the **contract** is dual-input. `JLC-SCH-READY` remains OPEN. D-049 is `RATIFIED`. D-050 is `RATIFIED / BOUND` on GT-USB-7005A / C5250872. D-051 is `RATIFIED`.** |
 | VAL-G3 envelope and floorplan | NOT STARTED — non-binding direction recorded in `architecture/G3-FLOORPLAN-DOCTRINE.md` (`RECORDED_NOT_EXECUTED`) |
 | VAL-G4 placement and locks | NOT STARTED |
 | VAL-G5 stack, rules, planes | NOT STARTED |
@@ -21,6 +21,7 @@ Updated: 2026-08-28
 | Audio L1 ADC6120EVM | NOT STARTED |
 | Audio L2 RT1062 raw SAI | NOT STARTED |
 | Current-S3 baseline | NOT STARTED |
+| DEC-USB-HUB | **ADOPTED** — D-049 `RATIFIED`. D-050 `RATIFIED / BOUND` on `GT-USB-7005A` / `C5250872`. H **GREEN**. `F6_VALIDITY_SOURCE` = `5V0_USB_VALID` (TPS7A2550DRVR / C2876265). EasyEDA I–L in scope on disposable projects only. |
 
 ## SSCM-1 recovery state
 
@@ -73,6 +74,40 @@ product project and stays untouched. Readable reconstruction is G2.2
 Programme: `architecture/G2.2-READABLE-SCHEMATIC.md`.
 Receipt: `evidence/VAL-G2-2026-08-28/offline-bulk-repair/IMPORT-VERIFY-RECEIPT.md`.
 
+## JLC handoff gates
+
+```text
+JLCPCB_LAYOUT = BLOCKED_BY_SCHEMATIC_PRESENTATION
+JLC_SCH_READY = OPEN
+JLC_LAYOUT_READY = BLOCKED_BY_JLC_SCH_READY
+G2_1_OFFICIAL_FREEZE = BLOCKED_BY_HUB_ERC_PHASE_K
+G2_2_OFFLINE_FIXTURE = ELECTRICAL_IDENTITY_PASS_UNFROZEN
+```
+
+Official freeze was already refused for unclassified ERC. D-049/D-050 no longer
+block it. The living freeze stamp waits on hub EasyEDA ERC (Phase K). D-051
+additionally forbids freezing a PDM-only audio graph: the contract now requires
+the switched stereo 3.5 mm AUX lane, which is **not** yet on the live sheet.
+The earlier ERC refusal is still true. AUX schematic restore waits until USB-C
+3D seating is off the canvas and Captain issues an EasyEDA GO.
+
+Offline reconstruction artefacts live under
+`evidence/VAL-G2-2026-08-28/schematic-presentation/`. The current review sheet
+fails the presentation checker (86 % stubs, label-only power, prison boxes).
+The reconstructed V3 page matches the unpublished digest
+(`0651019a5a345389…`) and is not imported, not canonical, and not a JLC stamp.
+
+`JLC-SCH-READY` means the G2.2 reconstructed sheet is electrically frozen, professionally
+readable, and EasyEDA-stable. It unblocks RFQ/package completion and schematic handoff
+preparation. It does **not** unblock paid JLCPCB placement or routing.
+
+`JLC-LAYOUT-READY` means `JLC-SCH-READY` plus final layout-relevant IOMUX, verified
+footprints for every fitted part, final DXF/mechanics, exact pad count, and the required
+JLC source package. Only that stamp unblocks paid JLCPCB placement/routing.
+
+The current EasyEDA sheet is a graphical netlist. Paid layout stays blocked until both
+gates close in order.
+
 ### Authority catch-up, 2026-08-28
 
 The authority layer had fallen behind the live schematic. Four closed transaction families had no
@@ -85,9 +120,13 @@ are closed:
 | `canonical-nfc-i2c-en-pullup-*` | D-046; `contracts/nfc-interface.md` |
 | `canonical-nfc-regulator-decouple-*` | D-047; `contracts/nfc-interface.md` |
 
-D-044 records Captain's two-receptacle USB ruling and amends `contracts/usb-interface.md`:
-service USB is `J7-ESP` / ESP32_S3, direct USB is `J1-PWR1` / RT1062, and USB audio terminates on
-J1 rather than remaining an open exception. D-014 is `AMENDED_BY_D-044`.
+D-044 was the two-port ruling: `J1-PWR1` power plus direct RT1062 USB, `J7-ESP` S3 service USB.
+That text stays in the register as history. D-049 now states **one** USB-C plus USB2422, with
+both processors as non-removable downstream devices. D-049 is **`APPROVED_FOR_PHYSICS / PROVISIONAL`**
+from Captain implement-the-plan 2026-08-29, and is **`RATIFIED`** after H GREEN
+2026-08-29. D-050 is `RATIFIED / BOUND` on `GT-USB-7005A` / `C5250872`. Two
+receptacles are no longer current living truth. D-014 remains `AMENDED_BY_D-044`; D-044 is
+`AMENDED_BY_D-049`.
 
 `evidence/VAL-G2-2026-08-28/canonical-core-val-r0/TAKEOVER-RECEIPT.md` is **historical**. Its
 "Remaining DRC (not done this pass)" list — the NFC regulator caps and the PG decision — is closed
@@ -98,6 +137,15 @@ what was true at takeover.
 `RECORDED_NOT_EXECUTED`. Nothing in it is ratified, and it contains no coordinates. Three bad
 artefacts are tombstoned in `authority/05-SUPERSESSIONS.md`: the `15 x 7 mm` antenna keepout, the
 four-screw mounting default and the short-edge USB-C assumption.
+
+### Authority catch-up, 2026-08-30
+
+D-051 restores the analogue architecture that K1-AUDIO-EVAL-R0 already specified and that
+failed to migrate into `contracts/audio-interface.md`. VAL-R0 audio is dual-input: switched
+stereo 3.5 mm AUX plus IM69D130 PDM through one TLV320ADC6120, with simultaneous AUX-L /
+AUX-R / room-mic capture. The PDM XOR remains the microphone-lane alternate only. Ownership
+is unchanged (RT1062 still owns capture). The live sheet still has no jack; this catch-up
+does not rewrite that history.
 
 ## Now unblocked by VAL-G1 closure
 

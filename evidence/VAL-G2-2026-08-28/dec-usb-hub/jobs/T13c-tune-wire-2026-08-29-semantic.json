@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T13c-tune-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "3059661:f138d4fa",
+  "post_source_hash": "3063555:eb9ac187",
+  "saved": true,
+  "affected": [
+    {"net": "USB_DP_DN2", "r94_pin2": "68b99321ffb6afa2", "tune_dp_west": "26c4ec3c99fc600f"},
+    {"net": "USB_DP_S3", "tune_dp_east": "7a41eaf8f1832502", "u9": "14 GPIO20"},
+    {"net": "USB_DM_DN2", "tune_dm_west": "946b8900cff89c09"},
+    {"net": "USB_DM_S3", "tune_dm_east": "916a2e5ac5bc3661", "u9": "13 GPIO19 via existing e103596"},
+    {"note": "First DM east wire reached x=4175 y=4340 (U9.8). Deleted 88f10d494c93e9f4 and replaced with short 916a2e5ac5bc3661. GPIO15 not on USB_DM_S3. R73/R74/R95 unused."}
+  ],
+  "census": {
+    "components": 333,
+    "wires": 809,
+    "components_delta": 0,
+    "wires_delta": 3
+  },
+  "observed": "R94 pin2 and TUNE west pins on USB_DP_DN2 / USB_DM_DN2. TUNE east on USB_DP_S3 / USB_DM_S3 to GPIO20/19. GPIO15 cleared. Hub 41c8e652."
+}

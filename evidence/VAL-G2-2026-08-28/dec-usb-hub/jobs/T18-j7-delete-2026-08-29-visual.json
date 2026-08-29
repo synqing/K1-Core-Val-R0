@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T18-j7-delete-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Delete J7-ESP. J1 remains.",
+  "observed_delta": "113 percent J1 GT-USB-7005A SuperSpeed pin columns still on sheet. 400 percent former J7 site shows U10-ESP and GND stubs only — no USB-C connector. J7-ESP designator absent from source. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T18-j1-wide.png",
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "J7 gone",
+      "result": "OK",
+      "detail": "e8334 get returns nothing. J7-ESP absent from source. 400 percent shot at 4815,4320 shows no USB-C body."
+    },
+    {
+      "name": "J1 present",
+      "result": "OK",
+      "detail": "ea47c20de228fa3a still gettable. 113 percent shot shows GT-USB-7005A A/B pin columns including SuperSpeed."
+    },
+    {
+      "name": "J1 identity kept",
+      "result": "OK",
+      "detail": "Kept id ea47c20de228fa3a. Not the retired USB4105. Companion shot T18-j7-gone.png."
+    },
+    {
+      "name": "J7 not J1",
+      "result": "OK",
+      "detail": "Deleted e8334 only. Component count 333 to 332. J1 still present."
+    }
+  ]
+}

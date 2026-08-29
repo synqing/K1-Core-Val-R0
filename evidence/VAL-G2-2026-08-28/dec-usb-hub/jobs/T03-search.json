@@ -1,0 +1,14 @@
+[
+  {"tool": "search_library_devices", "tag": "C25744", "args": {"lcscIds": ["C25744"]}},
+  {"tool": "search_library_devices", "tag": "C25803", "args": {"lcscIds": ["C25803"]}},
+  {"tool": "search_library_devices", "tag": "C25900", "args": {"lcscIds": ["C25900"]}},
+  {"tool": "search_library_devices", "tag": "C25804", "args": {"lcscIds": ["C25804"]}},
+  {"tool": "search_library_devices", "tag": "C14663", "args": {"lcscIds": ["C14663"]}},
+  {"tool": "search_library_devices", "tag": "C15849", "args": {"lcscIds": ["C15849"]}},
+  {"tool": "search_library_devices", "tag": "C23630", "args": {"lcscIds": ["C23630"]}},
+  {"tool": "search_library_devices", "tag": "xtal24", "args": {"query": "24MHz SMD 3225", "itemsPerPage": 5, "allowMultiMatch": true}},
+  {"tool": "search_library_devices", "tag": "R12k", "args": {"query": "12k 0402 1%", "itemsPerPage": 5, "allowMultiMatch": true}},
+  {"tool": "search_library_devices", "tag": "R169k", "args": {"query": "169k 0402 1%", "itemsPerPage": 5, "allowMultiMatch": true}},
+  {"tool": "search_library_devices", "tag": "R470", "args": {"query": "470R 0402 1%", "itemsPerPage": 5, "allowMultiMatch": true}},
+  {"tool": "search_library_devices", "tag": "C22u", "args": {"query": "22uF 0805 16V", "itemsPerPage": 5, "allowMultiMatch": true}}
+]

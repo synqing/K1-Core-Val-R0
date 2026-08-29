@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T20-r73-r74-r71-r72-delete-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "3025378:64cb2a8d",
+  "post_source_hash": "2995560:b8c45ae1",
+  "saved": true,
+  "affected": [
+    {"deleted": "R73-ESP", "id": "e98285"},
+    {"deleted": "R74-ESP", "id": "e98324"},
+    {"deleted": "R71-ESP", "id": "e98207"},
+    {"deleted": "R72-ESP", "id": "e98246"},
+    {"kept": "RUSB_S3_DP_TUNE", "id": "f5380a109ca65eb9"},
+    {"kept": "RUSB_S3_DM_TUNE", "id": "e105d8e42924191c"}
+  ],
+  "census": {
+    "components": 325,
+    "wires": 796,
+    "components_delta": -4,
+    "wires_delta": 0
+  },
+  "observed": "R73 R74 R71 R72 gone. TUNE pair still present. Hub 41c8e652."
+}

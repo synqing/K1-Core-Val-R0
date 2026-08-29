@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T06-hub-strap-xtal-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Wire RBIAS, CRFILT, PLLFILT, XTAL, RESET_N, CFG_SEL low and NON_REM 10. Do not add a BC_EN pull-up. Do not touch USB pairs.",
+  "observed_delta": "60 percent island zoom shows real wires from U20 into R77, C100, C101, Y3 plus C102/C103, R88 to GND, R89 to 3V3, R90 to GND, and R91/C107 RESET RC. Pin 7 has no new pull-up. USB pair pins are not on those strap nets.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T06-straps.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "RBIAS 12k to GND",
+      "result": "OK",
+      "detail": "U20 pin 24 routes to R77-USB 12 kΩ and the resistor returns to the GND rail."
+    },
+    {
+      "name": "CRFILT and PLLFILT to GND",
+      "result": "OK",
+      "detail": "Pin 10 to C100-USB and pin 23 to C101-USB, each other end on GND."
+    },
+    {
+      "name": "XTAL and RESET_N RC present",
+      "result": "OK",
+      "detail": "Y3-USB OSC1/OSC2 join XTALIN/XTALOUT with C102/C103 to GND. RESET_N has R91 to 3V3 and C107 to GND."
+    },
+    {
+      "name": "NON_REM 10 CFG_SEL low no BC pull-up USB pairs untouched",
+      "result": "OK",
+      "detail": "NON_REM1 via R89 to 3V3, NON_REM0 via R90 to GND, CFG_SEL via R88 to GND. No wire added to pin 7. Pins 2-5 and 19-20 unused by this transaction. Hub 41c8e652."
+    }
+  ]
+}

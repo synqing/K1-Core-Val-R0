@@ -1,0 +1,7 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "modify_schematic_component", "tag": "U21-USB", "args": {"primitiveId": "fb7c84f0a582bd9c", "designator": "U21-USB", "name": "TPS2052BDR", "supplier": "LCSC", "supplierId": "C130049", "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_component", "tag": "C108-USB", "args": {"primitiveId": "daf3578c8ea5a570", "designator": "C108-USB", "name": "100nF", "supplier": "LCSC", "supplierId": "C14663", "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_component", "tag": "C109-USB", "args": {"primitiveId": "22002ec9ef576301", "designator": "C109-USB", "name": "100nF", "supplier": "LCSC", "supplierId": "C14663", "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_component", "tag": "C110-USB", "args": {"primitiveId": "16675eb0d11a5521", "designator": "C110-USB", "name": "100nF", "supplier": "LCSC", "supplierId": "C14663", "addIntoPcb": false, "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

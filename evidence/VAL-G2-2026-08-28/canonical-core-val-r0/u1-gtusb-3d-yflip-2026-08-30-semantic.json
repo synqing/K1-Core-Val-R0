@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-gtusb-3d-yflip-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "pre_source_hash": "653172:ac04093f",
+  "post_source_hash": "653174:5bdab6c1",
+  "saved": true,
+  "affected": ["U1", "3D Model", "3D Model Title"],
+  "census": {
+    "new_model_uuid": "e6946995a72f4deaa7b036359e4ff6e7",
+    "previous_model_uuid": "ea8551bd5e9c4319bb8e029bbc32cda4",
+    "model_title": "J1_GT-USB-7005A_yflip",
+    "bind_target": "U1",
+    "component_primitive_id": "0f194aaf30bc2e32",
+    "supplier_id": "C5250872",
+    "manufacturer_id": "GT-USB-7005A",
+    "transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+    "u6_unchanged": true,
+    "d1_unchanged": true,
+    "pcb_save": true
+  }
+}

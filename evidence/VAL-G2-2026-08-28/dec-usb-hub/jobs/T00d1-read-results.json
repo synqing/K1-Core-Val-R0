@@ -1,0 +1,447 @@
+[
+ {
+  "tag": "ctx",
+  "ok": true,
+  "result": {
+   "currentDocument": {
+    "documentType": 1,
+    "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+    "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+   },
+   "currentProject": {
+    "itemType": "Project",
+    "uuid": "41c8e6523576456582ea35958b3684ed",
+    "friendlyName": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "name": "spectrasynq/K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "teamUuid": "27700277ef7a49e48a0293bece6b2993",
+    "description": "",
+    "data": [
+     {
+      "itemType": "Board",
+      "name": "Board1",
+      "schematic": {
+       "itemType": "Schematic",
+       "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "name": "Schematic1",
+       "page": [
+        {
+         "itemType": "Schematic Page",
+         "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+         "name": "P1",
+         "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+         "showTitleBlock": true,
+         "titleBlockData": {
+          "Symbol": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "@Project Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE"
+          },
+          "@Page Count": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Update Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Create Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Schematic Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Schematic1"
+          },
+          "@Page No": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Page Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "P1"
+          },
+          "Company": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "SPECTRASYNQ"
+          },
+          "Reviewed": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Version": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "V1.0"
+          },
+          "Page Size": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Custom"
+          },
+          "Drawn": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "@Create Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "07:22:31"
+          },
+          "@Update Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "08:04:28"
+          },
+          "Border": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "5000"
+          },
+          "Height": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "4800"
+          },
+          "Region Start": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "X Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Y Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "8"
+          },
+          "Blade Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Color": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "#333333"
+          },
+          "Title Block Position": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "3"
+          },
+          "Title Block": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "@Board Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Board1"
+          },
+          "Footprint": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Description": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Device": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "ID": {}
+         }
+        }
+       ],
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed",
+       "parentBoardName": "Board1"
+      },
+      "pcb": {
+       "itemType": "PCB",
+       "name": "PCB1",
+       "uuid": "59bef7e87cff4cd580561703b62d8c19",
+       "parentBoardName": "Board1",
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+      },
+      "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+     }
+    ]
+   },
+   "splitScreenTree": {
+    "id": "editor-window-main",
+    "tabs": [
+     {
+      "title": "Start Page",
+      "tabId": "tab_page1",
+      "icon": {
+       "iconClassName": "icon-eda-logo"
+      },
+      "tabStyle": {
+       "width": "auto",
+       "minWidth": "76px"
+      },
+      "isAbleDelete": false,
+      "group": "start_blank",
+      "draggable": true,
+      "data": {
+       "doctype": -1
+      },
+      "isDisplayNone": false
+     },
+     {
+      "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+      "title": "P1.Schematic1",
+      "icon": {
+       "iconClassName": "icon-eda-page icon-color-blue"
+      },
+      "draggable": true,
+      "isAbleDelete": true,
+      "notUseI18n": true,
+      "data": {
+       "containerId": "editor-window-main",
+       "doctype": 1,
+       "ticket": 10083,
+       "updateTime": 1787961070128,
+       "data-model-sheet-uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+       "title": "P1",
+       "pid": "41c8e6523576456582ea35958b3684ed",
+       "version": "1787961070128",
+       "schematicName": "Schematic1",
+       "data-schematic-uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "isBlockSymbolSheet": false,
+       "creator": "27700277ef7a49e48a0293bece6b2993",
+       "owner": "27700277ef7a49e48a0293bece6b2993",
+       "sch": true
+      },
+      "titleStyle": {
+       "fontWeight": "bold"
+      },
+      "isUnSaved": false,
+      "isHighLight": false
+     }
+    ]
+   },
+   "editorBootstrapState": {
+    "startPageOnly": false,
+    "urlHash": "#id=41c8e6523576456582ea35958b3684ed,tab=*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedProjectUuid": "41c8e6523576456582ea35958b3684ed",
+    "requestedTabIds": [
+     "*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "activeRequestedTab": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedActiveTabMissing": false,
+    "visibleTabIds": [
+     "tab_page1",
+     "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "suspectedBootstrapFailure": false
+   },
+   "contextLevel": "project-and-document",
+   "hasProjectContext": true,
+   "hasDocumentContext": true,
+   "recommendedNextSteps": [
+    "Use document-specific tools that match the active document type.",
+    "If you need project inventory or cross-document operations, call list_project_objects next.",
+    "For edits, prefer query tools first so primitive IDs and coordinates are verified before modification."
+   ]
+  }
+ },
+ {
+  "tag": "old-j1",
+  "ok": true,
+  "result": {
+   "primitiveId": "e339",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "e339",
+    "componentType": "part",
+    "x": 185,
+    "y": 4095,
+    "subPartName": "USB4105-GF-A.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "ea8fe62438f94521b482dce770be0817",
+     "uuid": "f3e20d985fa741f1b49e7a779e4d9df4",
+     "name": "USB4105-GF-A"
+    },
+    "symbol": {
+     "uuid": "33584adb3fae446b8267f72ffc2554b8",
+     "libraryUuid": "ea8fe62438f94521b482dce770be0817",
+     "name": "USB4105-GF-A"
+    },
+    "footprint": {
+     "uuid": "e784d9e0a6074a5ca0e3cad58c168a84",
+     "libraryUuid": "ea8fe62438f94521b482dce770be0817",
+     "name": "TYPE-C-SMD_SBC-160S1A-20-S412"
+    },
+    "designator": "J1-USB4105-RETIRED",
+    "name": "USB-C",
+    "uniqueId": "gge5",
+    "manufacturer": "GCT",
+    "manufacturerId": "USB4105-GF-A",
+    "supplier": "LCSC",
+    "supplierId": "USB4105-GF-A.1",
+    "otherProperty": {
+     "LCSC Part Name": "",
+     "Supplier Footprint": "",
+     "JLCPCB Part Class": "",
+     "Datasheet": "",
+     "Connector Type": "",
+     "Protocol Standard": "",
+     "Gender": "",
+     "Mounting Type": "",
+     "Number of Contacts": "",
+     "Number of Ports": "",
+     "Current Rating-Power": "",
+     "Voltage Rating": "",
+     "Detection color": "",
+     "Operating Temperature": "",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "new-j1",
+  "ok": true,
+  "result": {
+   "primitiveId": "ea47c20de228fa3a",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "ea47c20de228fa3a",
+    "componentType": "part",
+    "x": -485,
+    "y": 3160,
+    "subPartName": "d8454310888675a2",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+     "uuid": "e775ee7f617ec838",
+     "name": "GT-USB-7005A-IND"
+    },
+    "symbol": {
+     "uuid": "e2eefe29afe8fe03",
+     "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+     "name": "GT-USB-7005A-IND"
+    },
+    "footprint": {
+     "uuid": "37f6183b7b0b3f1b",
+     "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+     "name": "GT-USB-7005A-IND"
+    },
+    "designator": "J1-USB",
+    "name": "USB-C",
+    "uniqueId": "",
+    "manufacturer": "G-Switch",
+    "manufacturerId": "GT-USB-7005A",
+    "supplier": "LCSC",
+    "supplierId": "C5250872",
+    "otherProperty": {
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "u20",
+  "ok": true,
+  "result": {
+   "primitiveId": "92edd0bd8901c171",
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "92edd0bd8901c171",
+    "componentType": "part",
+    "x": 400,
+    "y": 800,
+    "subPartName": "USB2422T-I/MJ.1",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": false,
+    "net": "",
+    "component": {
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "uuid": "953a7efbda8b5c60",
+     "name": "USB2422T-I/MJ"
+    },
+    "symbol": {
+     "uuid": "498197b1b36ebbe9",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "USB2422T-I/MJ"
+    },
+    "footprint": {
+     "uuid": "fabc91dfb9c7e93c",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "QFN-24_L4.0-W4.0-P0.50-TL-EP2.5"
+    },
+    "designator": "U?",
+    "name": "={Manufacturer Part}",
+    "uniqueId": "",
+    "manufacturer": "MICROCHIP(美国微芯)",
+    "manufacturerId": "USB2422T-I/MJ",
+    "supplier": "LCSC",
+    "supplierId": "C622610",
+    "otherProperty": {
+     "LCSC Part Name": "USB2422 2端口USB 2.0高速集线器控制器",
+     "Supplier Footprint": "QFN-24-EP(4x4)",
+     "JLCPCB Part Class": "Extended Part",
+     "Datasheet": "https://item.szlcsc.com/datasheet/USB2422T-I%252FMJ/652565.html",
+     "type": "Hub",
+     "USB Protocol": "USB 2.0",
+     "Data Rate": "-",
+     "Voltage - Supply": "3.3V",
+     "Operating Temperature": "-40℃~+85℃",
+     "Memory Interface": "-",
+     "Current - Supply": "-",
+     "Quiescent Supply Current": "-",
+     "Number of Channels": "2",
+     "Description": "type:Hub USB Protocol:USB 2.0 Data Rate:- Voltage - Supply:3.3V Voltage - Supply:3.3V Operating Temperature:-40℃~+85℃ Operating Temperature:-40℃~+85℃ Memory Interface:- Current - Supply:- Quiescent Supply Current:- Number of Channels:2"
+    }
+   }
+  }
+ }
+]

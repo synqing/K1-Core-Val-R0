@@ -1,0 +1,14 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "modify_schematic_component", "tag": "C120-USB", "args": {"primitiveId": "004d113915448a0a", "designator": "C120-USB", "name": "22uF", "supplier": "LCSC", "supplierId": "C45783", "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_component", "tag": "C121-USB", "args": {"primitiveId": "2859c2b57ac86be4", "designator": "C121-USB", "name": "100nF", "supplier": "LCSC", "supplierId": "C14663", "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_component", "tag": "C122-USB", "args": {"primitiveId": "3a63da66b1222580", "designator": "C122-USB", "name": "2.2uF", "supplier": "LCSC", "supplierId": "C23630", "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_component", "tag": "R81-USB", "args": {"primitiveId": "22c6a17a7dbbd174", "designator": "R81-USB", "name": "169k", "supplier": "LCSC", "supplierId": "C25758", "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_component", "tag": "R82-USB", "args": {"primitiveId": "dac528b1bfdc76ab", "designator": "R82-USB", "name": "100k", "supplier": "LCSC", "supplierId": "C25741", "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_component", "tag": "R83-USB", "args": {"primitiveId": "252b7a11c6b4da53", "designator": "R83-USB", "name": "100k", "supplier": "LCSC", "supplierId": "C25741", "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_component", "tag": "R84-USB", "args": {"primitiveId": "6b258885a490d64b", "designator": "R84-USB", "name": "100k", "supplier": "LCSC", "supplierId": "C25741", "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_component", "tag": "R85-USB", "args": {"primitiveId": "5cf017917b429da4", "designator": "R85-USB", "name": "470R", "supplier": "LCSC", "supplierId": "C25117", "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_component", "tag": "R86-USB", "args": {"primitiveId": "d18377ecee6c9362", "designator": "R86-USB", "name": "4.7k", "supplier": "LCSC", "supplierId": "C25900", "addIntoPcb": false, "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "list_schematic_component_pins", "tag": "u22pins", "args": {"componentPrimitiveId": "4c311982f7a3bb0d"}},
+  {"tool": "list_schematic_component_pins", "tag": "u21pins", "args": {"componentPrimitiveId": "fb7c84f0a582bd9c"}}
+]

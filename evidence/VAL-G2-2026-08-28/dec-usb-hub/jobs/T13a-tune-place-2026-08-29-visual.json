@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T13a-tune-place-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Place RUSB_S3_DP_TUNE and RUSB_S3_DM_TUNE 22 ohm. Not R73/R74.",
+  "observed_delta": "813 percent view of two new 22 ohm resistor symbols stacked at the west of U9 USB pins. Values show 22 ohm. Designators still R?. Existing USB_DP_S3 / USB_DM_S3 stubs remain to the right, not joined. R73/R74 not in this pair. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T13a-tune-place.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "two new 22 ohm resistors",
+      "result": "OK",
+      "detail": "f5380a109ca65eb9 at 4000,4280 and e105d8e42924191c at 4000,4340. C25092 22 ohm. Census 333 = 331+2."
+    },
+    {
+      "name": "not R73 R74",
+      "result": "OK",
+      "detail": "R73-ESP remains e98285 at 4210,4035. New IDs are distinct."
+    },
+    {
+      "name": "addIntoPcb false",
+      "result": "OK",
+      "detail": "Both primitives addIntoPcb false."
+    },
+    {
+      "name": "near U9 IO20/19",
+      "result": "OK",
+      "detail": "Placed at x=4000 beside U9 pins 14/13 at 4175,4280/4290. 813 percent shot shows the gap to existing S3 USB stubs."
+    },
+    {
+      "name": "hub 41c8e652",
+      "result": "OK",
+      "detail": "currentProject.uuid 41c8e652. Hash 3060489:93567299."
+    }
+  ]
+}

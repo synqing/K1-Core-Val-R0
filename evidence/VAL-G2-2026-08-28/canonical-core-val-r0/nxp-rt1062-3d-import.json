@@ -1,0 +1,30 @@
+{
+  "recorded_at": "2026-08-28T18:36:48.910Z",
+  "step_path": "/Users/spectrasynq/Downloads/LIB_MIMXRT1061DVJ6B/MIMXRT1061DVJ6B/3D/MIMXRT1061DVJ6B.stp",
+  "step_sha256": "fb15efb18f9acabb37c110fc3d36a2fc89830bab7a5345d5665a904ac71345c2",
+  "step_bytes": 198510,
+  "note": "Donor 3D only. Frozen MPN remains MIMXRT1062DVJ6B.",
+  "result": {
+    "stepChars": 198510,
+    "fileSize": 198510,
+    "created": [
+      "de5664fd2ea74aa082831cfa5b198edb"
+    ],
+    "modelUuid": "de5664fd2ea74aa082831cfa5b198edb",
+    "model": {
+      "libraryType": "5",
+      "uuid": "de5664fd2ea74aa082831cfa5b198edb",
+      "name": "MIMXRT1061DVJ6B",
+      "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+      "classification": {
+        "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+        "libraryType": "5",
+        "primaryClassificationUuid": "c8731422f5864134af96715b0279f491"
+      },
+      "description": "MIMXRT1061DVJ6B"
+    },
+    "reclass": true,
+    "search": [],
+    "ok": true
+  }
+}

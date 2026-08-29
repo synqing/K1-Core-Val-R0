@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-hash-reconcile-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "source_hash": "653038:6cdb9687",
+  "census": {
+    "characters": 653038,
+    "usb1_present": false,
+    "u1_sid": "C5250872",
+    "u1_mid": "GT-USB-7005A",
+    "u1_primitive": "0f194aaf30bc2e32",
+    "prior_hash": "653038:f5af355b",
+    "note": "Host re-serialised the PCB page on activate. Same character count. No write."
+  }
+}

@@ -1,0 +1,335 @@
+{
+  "datum": "Z=0 is PCB top surface; mouth at -Y; 1 BU = 1 mm",
+  "source": "G-Switch manufacturer STEP, sha256 bac2724e...c0c88fa",
+  "parts": {
+    "J1_SHELL_stainless_Ni": {
+      "X": [
+        -4.375,
+        4.375
+      ],
+      "Y": [
+        -5.0,
+        1.7
+      ],
+      "Z": [
+        -1.88,
+        1.08
+      ]
+    },
+    "J1_TONGUE_LCP": {
+      "X": [
+        -3.365,
+        3.365
+      ],
+      "Y": [
+        -4.45,
+        0.0
+      ],
+      "Z": [
+        -0.735,
+        -0.065
+      ]
+    },
+    "J1_MIDPLATE_stainless": {
+      "X": [
+        -3.37,
+        3.37
+      ],
+      "Y": [
+        -4.45,
+        1.0
+      ],
+      "Z": [
+        -0.5,
+        -0.3
+      ]
+    },
+    "J1_CONTACTS_rowA_Au": {
+      "X": [
+        -2.875,
+        2.875
+      ],
+      "Y": [
+        -4.2,
+        -1.2
+      ],
+      "Z": [
+        -0.065,
+        -0.05
+      ]
+    },
+    "J1_CONTACTS_rowB_Au": {
+      "X": [
+        -2.875,
+        2.875
+      ],
+      "Y": [
+        -4.2,
+        -1.2
+      ],
+      "Z": [
+        -0.75,
+        -0.735
+      ]
+    },
+    "J1_TERMINALBLOCK_LCP": {
+      "X": [
+        -4.14,
+        4.14
+      ],
+      "Y": [
+        0.0,
+        1.7
+      ],
+      "Z": [
+        -1.645,
+        0.845
+      ]
+    },
+    "J1_HOUSING_LCP_black": {
+      "X": [
+        -4.575,
+        4.575
+      ],
+      "Y": [
+        1.65,
+        5.3
+      ],
+      "Z": [
+        -1.1,
+        1.56
+      ]
+    },
+    "J1_GROUNDPLATE_stainless_Ni": {
+      "X": [
+        -3.98,
+        3.98
+      ],
+      "Y": [
+        1.83,
+        4.92
+      ],
+      "Z": [
+        1.56,
+        1.76
+      ]
+    },
+    "J1_TAILS_SMT_x12": {
+      "X": [
+        -2.85,
+        2.85
+      ],
+      "Y": [
+        2.4,
+        4.81
+      ],
+      "Z": [
+        0.0,
+        0.46
+      ]
+    },
+    "J1_PINS_throughhole_x12": {
+      "X": [
+        -2.975,
+        2.975
+      ],
+      "Y": [
+        2.3,
+        3.5
+      ],
+      "Z": [
+        -1.1,
+        0.86
+      ]
+    },
+    "J1_LEGS_stainless_Ni_x4": {
+      "X": [
+        -6.175,
+        6.175
+      ],
+      "Y": [
+        -1.7,
+        3.15
+      ],
+      "Z": [
+        -0.9,
+        0.46
+      ]
+    }
+  },
+  "checks": [
+    {
+      "check": "shell outer width",
+      "got": 8.75,
+      "want": 8.75,
+      "tol": 0.12,
+      "pass_": true
+    },
+    {
+      "check": "shell outer height",
+      "got": 2.96,
+      "want": 2.96,
+      "tol": 0.12,
+      "pass_": true
+    },
+    {
+      "check": "board sink (PCB top to shell bottom)",
+      "got": 1.88,
+      "want": 1.88,
+      "tol": 0.1,
+      "pass_": true
+    },
+    {
+      "check": "shell top above PCB",
+      "got": 1.08,
+      "want": 1.08,
+      "tol": 0.1,
+      "pass_": true
+    },
+    {
+      "check": "connector length L",
+      "got": 6.7,
+      "want": 6.7,
+      "tol": 0.15,
+      "pass_": true
+    },
+    {
+      "check": "tongue width",
+      "got": 6.73,
+      "want": 6.73,
+      "tol": 0.08,
+      "pass_": true
+    },
+    {
+      "check": "contact row span (outer edges)",
+      "got": 5.75,
+      "want": 5.75,
+      "tol": 0.08,
+      "pass_": true
+    },
+    {
+      "check": "tongue + contact plating thickness",
+      "got": 0.7,
+      "want": 0.7,
+      "tol": 0.03,
+      "pass_": true
+    },
+    {
+      "check": "contact pitch x 11",
+      "got": 5.5,
+      "want": 5.5,
+      "tol": 0.03,
+      "pass_": true
+    },
+    {
+      "check": "connector axis below PCB top (CH)",
+      "got": 0.4,
+      "want": 0.4,
+      "tol": 0.02,
+      "pass_": true
+    },
+    {
+      "check": "SMT tail solder plane at Z=0",
+      "got": 0.0,
+      "want": 0.0,
+      "tol": 0.02,
+      "pass_": true
+    },
+    {
+      "check": "overall width across legs",
+      "got": 12.35,
+      "want": 12.35,
+      "tol": 0.1,
+      "pass_": true
+    },
+    {
+      "check": "corner window open (leg lanced out of shell)",
+      "got": 1.0,
+      "want": 1.0,
+      "tol": 0.0,
+      "pass_": true
+    },
+    {
+      "check": "rear top notch open",
+      "got": 1.0,
+      "want": 1.0,
+      "tol": 0.0,
+      "pass_": true
+    },
+    {
+      "check": "shell top intact away from the openings",
+      "got": 1.0,
+      "want": 1.0,
+      "tol": 0.0,
+      "pass_": true
+    }
+  ],
+  "deviation_vs_vendor_mm": {
+    "J1_SHELL_stainless_Ni": {
+      "n": 8880,
+      "median": 0.0002,
+      "p95": 0.0622,
+      "max": 0.21
+    },
+    "J1_TONGUE_LCP": {
+      "n": 224,
+      "median": 0.161,
+      "p95": 0.3112,
+      "max": 0.32
+    },
+    "J1_MIDPLATE_stainless": {
+      "n": 64,
+      "median": 0.1655,
+      "p95": 0.2762,
+      "max": 0.2762
+    },
+    "J1_CONTACTS_rowA_Au": {
+      "n": 1440,
+      "median": 0.0037,
+      "p95": 0.1384,
+      "max": 0.14
+    },
+    "J1_CONTACTS_rowB_Au": {
+      "n": 1440,
+      "median": 0.0037,
+      "p95": 0.1389,
+      "max": 0.14
+    },
+    "J1_TERMINALBLOCK_LCP": {
+      "n": 504,
+      "median": 0.0321,
+      "p95": 0.0494,
+      "max": 0.0617
+    },
+    "J1_HOUSING_LCP_black": {
+      "n": 1064,
+      "median": 0.1945,
+      "p95": 0.6324,
+      "max": 0.65
+    },
+    "J1_GROUNDPLATE_stainless_Ni": {
+      "n": 56,
+      "median": 0.0524,
+      "p95": 0.18,
+      "max": 0.1809
+    },
+    "J1_TAILS_SMT_x12": {
+      "n": 2016,
+      "median": 0.0409,
+      "p95": 0.2474,
+      "max": 0.2569
+    },
+    "J1_PINS_throughhole_x12": {
+      "n": 1344,
+      "median": 0.0624,
+      "p95": 0.207,
+      "max": 0.225
+    },
+    "J1_LEGS_stainless_Ni_x4": {
+      "n": 672,
+      "median": 0.0594,
+      "p95": 0.3517,
+      "max": 0.433
+    }
+  }
+}

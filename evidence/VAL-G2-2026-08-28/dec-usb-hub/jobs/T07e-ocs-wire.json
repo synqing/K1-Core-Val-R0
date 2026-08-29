@@ -1,0 +1,16 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "add_schematic_wire", "tag": "ocs1-w", "args": {"line": [230, 780, 140, 780], "net": "USB_OCS1_N", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "ocs1-s", "args": {"line": [140, 780, 140, 850], "net": "USB_OCS1_N", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "ocs1-e", "args": {"line": [140, 850, 1260, 850], "net": "USB_OCS1_N", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "ocs1-n", "args": {"line": [1260, 850, 1260, 810], "net": "USB_OCS1_N", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "ocs2-w", "args": {"line": [230, 740, 125, 740], "net": "USB_OCS2_N", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "ocs2-s", "args": {"line": [125, 740, 125, 870], "net": "USB_OCS2_N", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "ocs2-e", "args": {"line": [125, 870, 1380, 870], "net": "USB_OCS2_N", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "ocs2-n", "args": {"line": [1380, 870, 1380, 780], "net": "USB_OCS2_N", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "ocs2-in", "args": {"line": [1380, 780, 1260, 780], "net": "USB_OCS2_N", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_net_label", "tag": "lab-ocs1-hub", "args": {"x": 140, "y": 780, "net": "USB_OCS1_N", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_net_label", "tag": "lab-ocs1-sw", "args": {"x": 1260, "y": 850, "net": "USB_OCS1_N", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_net_label", "tag": "lab-ocs2-hub", "args": {"x": 125, "y": 740, "net": "USB_OCS2_N", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_net_label", "tag": "lab-ocs2-sw", "args": {"x": 1380, "y": 780, "net": "USB_OCS2_N", "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

@@ -1,0 +1,69 @@
+{
+  "usb1_proj": {
+    "uuid": "0c8e199e56e60728",
+    "lib": "64325d0e55e0435abd018defb0089a9b",
+    "name": "USB-TYPE-C-SMD_CX70M-24P1",
+    "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+    "description": ";SMD",
+    "keys": [
+      "libraryType",
+      "uuid",
+      "libraryUuid",
+      "name",
+      "classification",
+      "description"
+    ]
+  },
+  "usb1_pers": {
+    "uuid": "0c8e199e56e60728",
+    "lib": "27700277ef7a49e48a0293bece6b2993",
+    "ok": false,
+    "err": "[object Object]"
+  },
+  "dev_pers": {
+    "uuid": "279f06324aa142578b6ff40a12f66d9b",
+    "lib": "27700277ef7a49e48a0293bece6b2993",
+    "name": "USB-TYPE-C-SMD_CX70M-24P1",
+    "libraryUuid": "27700277ef7a49e48a0293bece6b2993",
+    "description": ";SMD",
+    "keys": [
+      "libraryType",
+      "uuid",
+      "libraryUuid",
+      "name",
+      "classification",
+      "description"
+    ]
+  },
+  "dev_proj": {
+    "uuid": "279f06324aa142578b6ff40a12f66d9b",
+    "lib": "64325d0e55e0435abd018defb0089a9b",
+    "ok": false,
+    "err": "[object Object]"
+  },
+  "file_usb1_proj": {
+    "uuid": "0c8e199e56e60728",
+    "lib": "64325d0e55e0435abd018defb0089a9b",
+    "name": "ProLib_pc_2026-08-29.elibz2",
+    "size": 8592
+  },
+  "file_usb1_pers": {
+    "uuid": "0c8e199e56e60728",
+    "lib": "27700277ef7a49e48a0293bece6b2993",
+    "ok": true
+  },
+  "file_dev_pers": {
+    "uuid": "279f06324aa142578b6ff40a12f66d9b",
+    "lib": "27700277ef7a49e48a0293bece6b2993",
+    "name": "ProLib_pc_2026-08-29.elibz2",
+    "size": 8571
+  },
+  "fpModifyProj": {
+    "ok": false,
+    "timeout": 8000
+  },
+  "create": {
+    "ok": false,
+    "err": "[object Object]"
+  }
+}

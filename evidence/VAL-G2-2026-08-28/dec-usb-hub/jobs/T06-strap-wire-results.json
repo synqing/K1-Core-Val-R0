@@ -1,0 +1,1268 @@
+[
+ {
+  "tag": "pre-ctx",
+  "ok": true,
+  "result": {
+   "currentDocument": {
+    "documentType": 1,
+    "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+    "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+   },
+   "currentProject": {
+    "itemType": "Project",
+    "uuid": "41c8e6523576456582ea35958b3684ed",
+    "friendlyName": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "name": "spectrasynq/K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "teamUuid": "27700277ef7a49e48a0293bece6b2993",
+    "description": "",
+    "data": [
+     {
+      "itemType": "Board",
+      "name": "Board1",
+      "schematic": {
+       "itemType": "Schematic",
+       "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "name": "Schematic1",
+       "page": [
+        {
+         "itemType": "Schematic Page",
+         "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+         "name": "P1",
+         "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+         "showTitleBlock": true,
+         "titleBlockData": {
+          "Symbol": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "@Project Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE"
+          },
+          "@Page Count": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Update Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Create Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Schematic Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Schematic1"
+          },
+          "@Page No": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Page Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "P1"
+          },
+          "Company": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "SPECTRASYNQ"
+          },
+          "Reviewed": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Version": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "V1.0"
+          },
+          "Page Size": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Custom"
+          },
+          "Drawn": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "@Create Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "07:22:31"
+          },
+          "@Update Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "08:21:41"
+          },
+          "Border": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "5000"
+          },
+          "Height": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "4800"
+          },
+          "Region Start": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "X Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Y Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "8"
+          },
+          "Blade Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Color": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "#333333"
+          },
+          "Title Block Position": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "3"
+          },
+          "Title Block": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "@Board Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Board1"
+          },
+          "Footprint": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Description": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Device": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "ID": {}
+         }
+        }
+       ],
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed",
+       "parentBoardName": "Board1"
+      },
+      "pcb": {
+       "itemType": "PCB",
+       "name": "PCB1",
+       "uuid": "59bef7e87cff4cd580561703b62d8c19",
+       "parentBoardName": "Board1",
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+      },
+      "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+     }
+    ]
+   },
+   "splitScreenTree": {
+    "id": "editor-window-main",
+    "tabs": [
+     {
+      "title": "Start Page",
+      "tabId": "tab_page1",
+      "icon": {
+       "iconClassName": "icon-eda-logo"
+      },
+      "tabStyle": {
+       "width": "auto",
+       "minWidth": "76px"
+      },
+      "isAbleDelete": false,
+      "group": "start_blank",
+      "draggable": true,
+      "data": {
+       "doctype": -1
+      },
+      "isDisplayNone": false
+     },
+     {
+      "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+      "title": "P1.Schematic1",
+      "icon": {
+       "iconClassName": "icon-eda-page icon-color-blue"
+      },
+      "draggable": true,
+      "isAbleDelete": true,
+      "notUseI18n": true,
+      "data": {
+       "containerId": "editor-window-main",
+       "doctype": 1,
+       "ticket": 10083,
+       "updateTime": 1787961070128,
+       "data-model-sheet-uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+       "title": "P1",
+       "pid": "41c8e6523576456582ea35958b3684ed",
+       "version": "1787961070128",
+       "schematicName": "Schematic1",
+       "data-schematic-uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "isBlockSymbolSheet": false,
+       "creator": "27700277ef7a49e48a0293bece6b2993",
+       "owner": "27700277ef7a49e48a0293bece6b2993",
+       "sch": true
+      },
+      "titleStyle": {},
+      "isUnSaved": 1,
+      "isHighLight": false
+     }
+    ]
+   },
+   "editorBootstrapState": {
+    "startPageOnly": false,
+    "urlHash": "#id=41c8e6523576456582ea35958b3684ed,tab=*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedProjectUuid": "41c8e6523576456582ea35958b3684ed",
+    "requestedTabIds": [
+     "*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "activeRequestedTab": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedActiveTabMissing": false,
+    "visibleTabIds": [
+     "tab_page1",
+     "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "suspectedBootstrapFailure": false
+   },
+   "contextLevel": "project-and-document",
+   "hasProjectContext": true,
+   "hasDocumentContext": true,
+   "recommendedNextSteps": [
+    "Use document-specific tools that match the active document type.",
+    "If you need project inventory or cross-document operations, call list_project_objects next.",
+    "For edits, prefer query tools first so primitive IDs and coordinates are verified before modification."
+   ]
+  }
+ },
+ {
+  "tag": "p24-rbias",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      570,
+      850,
+      600,
+      850
+     ]
+    ],
+    "net": "USB_RBIAS",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "bb4338fe9f2643f6"
+   }
+  }
+ },
+ {
+  "tag": "r77-rbias",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      220,
+      980,
+      250,
+      980
+     ]
+    ],
+    "net": "USB_RBIAS",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "d54d76fa06b11df7"
+   }
+  }
+ },
+ {
+  "tag": "r77-gnd",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "f2366c0ea56cce30",
+    "componentType": "netflag",
+    "x": 180,
+    "y": 980,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "GND",
+    "component": {
+     "uuid": "a4f9a0db599d4ab993a0c73b48324c12",
+     "name": "Ground-GND",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "950187c0c34947a8b86c0075432a526b",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Ground-GND"
+    },
+    "footprint": {
+     "uuid": ""
+    },
+    "name": "GND",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "GND",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "p10-crfilt",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      180,
+      760,
+      230,
+      760
+     ],
+     [
+      180,
+      760,
+      180,
+      980
+     ],
+     [
+      180,
+      1100,
+      180,
+      980
+     ]
+    ],
+    "net": "USB_CRFILT",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "4f52ba08a82e4b77"
+   }
+  }
+ },
+ {
+  "tag": "c100-crfilt",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      220,
+      1100,
+      220,
+      1070
+     ]
+    ],
+    "net": "USB_CRFILT",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "8e6c70840dd24de9"
+   }
+  }
+ },
+ {
+  "tag": "c100-gnd",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "848ad2c4c90cf114",
+    "componentType": "netflag",
+    "x": 180,
+    "y": 1100,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "GND",
+    "component": {
+     "uuid": "a4f9a0db599d4ab993a0c73b48324c12",
+     "name": "Ground-GND",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "950187c0c34947a8b86c0075432a526b",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Ground-GND"
+    },
+    "footprint": {
+     "uuid": ""
+    },
+    "name": "GND",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "GND",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "p23-pll",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      640,
+      840,
+      570,
+      840
+     ],
+     [
+      260,
+      1100,
+      260,
+      1060
+     ],
+     [
+      640,
+      1060,
+      260,
+      1060
+     ],
+     [
+      640,
+      1060,
+      640,
+      840
+     ]
+    ],
+    "net": "USB_PLLFILT",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "3fcc6c62efd953ae"
+   }
+  }
+ },
+ {
+  "tag": "c101-pll",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      200,
+      1140,
+      300,
+      1140
+     ],
+     [
+      540,
+      1140,
+      300,
+      1140
+     ],
+     [
+      540,
+      1100,
+      540,
+      1140
+     ],
+     [
+      635,
+      1140,
+      540,
+      1140
+     ],
+     [
+      635,
+      1140,
+      635,
+      980
+     ],
+     [
+      645,
+      1140,
+      635,
+      1140
+     ],
+     [
+      645,
+      1140,
+      645,
+      1100
+     ],
+     [
+      700,
+      1140,
+      645,
+      1140
+     ],
+     [
+      700,
+      1100,
+      700,
+      1140
+     ],
+     [
+      750,
+      1140,
+      700,
+      1140
+     ],
+     [
+      300,
+      1140,
+      300,
+      1100
+     ],
+     [
+      300,
+      1070,
+      300,
+      1100
+     ]
+    ],
+    "net": "USB_PLLFILT",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "11d2f969f387a118"
+   }
+  }
+ },
+ {
+  "tag": "c101-gnd",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "f0ad9c5cbb28b709",
+    "componentType": "netflag",
+    "x": 260,
+    "y": 1100,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "GND",
+    "component": {
+     "uuid": "a4f9a0db599d4ab993a0c73b48324c12",
+     "name": "Ground-GND",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "950187c0c34947a8b86c0075432a526b",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Ground-GND"
+    },
+    "footprint": {
+     "uuid": ""
+    },
+    "name": "GND",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "GND",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "p22-xtalin",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      570,
+      830,
+      600,
+      830
+     ]
+    ],
+    "net": "USB_XTALIN",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "57625d6e4fe471d9"
+   }
+  }
+ },
+ {
+  "tag": "y3-osc1",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      690,
+      710,
+      670,
+      710
+     ]
+    ],
+    "net": "USB_XTALIN",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "a5aff1132c72c274"
+   }
+  }
+ },
+ {
+  "tag": "c102-xtalin",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      345,
+      1100,
+      345,
+      1070
+     ]
+    ],
+    "net": "USB_XTALIN",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "bb6be3473d87163a"
+   }
+  }
+ },
+ {
+  "tag": "p21-xtalout",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      570,
+      820,
+      600,
+      820
+     ]
+    ],
+    "net": "USB_XTALOUT",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "85c2d1662f66e5c6"
+   }
+  }
+ },
+ {
+  "tag": "y3-osc2",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      750,
+      730,
+      770,
+      730
+     ]
+    ],
+    "net": "USB_XTALOUT",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "67f52f741f705a3d"
+   }
+  }
+ },
+ {
+  "tag": "c103-xtalout",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      425,
+      1100,
+      425,
+      1070
+     ]
+    ],
+    "net": "USB_XTALOUT",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "a2d101a9b09e9076"
+   }
+  }
+ },
+ {
+  "tag": "y3-gnd4",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "fcbd526d756f5fd3",
+    "componentType": "netflag",
+    "x": 690,
+    "y": 730,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "GND",
+    "component": {
+     "uuid": "a4f9a0db599d4ab993a0c73b48324c12",
+     "name": "Ground-GND",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "950187c0c34947a8b86c0075432a526b",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Ground-GND"
+    },
+    "footprint": {
+     "uuid": ""
+    },
+    "name": "GND",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "GND",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "y3-gnd2",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "8b0001b460fcdc2c",
+    "componentType": "netflag",
+    "x": 750,
+    "y": 710,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "GND",
+    "component": {
+     "uuid": "a4f9a0db599d4ab993a0c73b48324c12",
+     "name": "Ground-GND",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "950187c0c34947a8b86c0075432a526b",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Ground-GND"
+    },
+    "footprint": {
+     "uuid": ""
+    },
+    "name": "GND",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "GND",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "c102-gnd",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "5b7a351dae5ec60a",
+    "componentType": "netflag",
+    "x": 375,
+    "y": 1100,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "GND",
+    "component": {
+     "uuid": "a4f9a0db599d4ab993a0c73b48324c12",
+     "name": "Ground-GND",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "950187c0c34947a8b86c0075432a526b",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Ground-GND"
+    },
+    "footprint": {
+     "uuid": ""
+    },
+    "name": "GND",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "GND",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "c103-gnd",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "bbead570a0cb1edd",
+    "componentType": "netflag",
+    "x": 455,
+    "y": 1100,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "GND",
+    "component": {
+     "uuid": "a4f9a0db599d4ab993a0c73b48324c12",
+     "name": "Ground-GND",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "950187c0c34947a8b86c0075432a526b",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Ground-GND"
+    },
+    "footprint": {
+     "uuid": ""
+    },
+    "name": "GND",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "GND",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "p15-reset",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      570,
+      760,
+      600,
+      760
+     ]
+    ],
+    "net": "USB_RESET_N",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "a9a8c4474dbd23b9"
+   }
+  }
+ },
+ {
+  "tag": "r91-reset",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      820,
+      980,
+      820,
+      950
+     ]
+    ],
+    "net": "USB_RESET_N",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "96f3542bed59c2c1"
+   }
+  }
+ },
+ {
+  "tag": "c107-reset",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      740,
+      1100,
+      740,
+      1070
+     ]
+    ],
+    "net": "USB_RESET_N",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "b611940d73054d7d"
+   }
+  }
+ },
+ {
+  "tag": "r91-3v3",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "dfe7aee0eb6c3e4c",
+    "componentType": "netflag",
+    "x": 860,
+    "y": 980,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "3V3",
+    "component": {
+     "uuid": "10f3d7d8dc78c973",
+     "name": "Power-5V",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "84d626ba100f9ced",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Power-5V"
+    },
+    "name": "3V3",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "3V3",
+     "Description": "Power-5V"
+    }
+   }
+  }
+ },
+ {
+  "tag": "c107-gnd",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "e14e8eb9e733177e",
+    "componentType": "netflag",
+    "x": 780,
+    "y": 1100,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "GND",
+    "component": {
+     "uuid": "a4f9a0db599d4ab993a0c73b48324c12",
+     "name": "Ground-GND",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "950187c0c34947a8b86c0075432a526b",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Ground-GND"
+    },
+    "footprint": {
+     "uuid": ""
+    },
+    "name": "GND",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "GND",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "p14-cfg",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "r88-cfg",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "r88-gnd",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "3a725b1d9571c9f4",
+    "componentType": "netflag",
+    "x": 635,
+    "y": 980,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "GND",
+    "component": {
+     "uuid": "a4f9a0db599d4ab993a0c73b48324c12",
+     "name": "Ground-GND",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "950187c0c34947a8b86c0075432a526b",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Ground-GND"
+    },
+    "footprint": {
+     "uuid": ""
+    },
+    "name": "GND",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "GND",
+     "Description": ""
+    }
+   }
+  }
+ },
+ {
+  "tag": "p13-nr1",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      570,
+      740,
+      600,
+      740
+     ]
+    ],
+    "net": "USB_NON_REM1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "ea02a9ce3257a7b2"
+   }
+  }
+ },
+ {
+  "tag": "r89-nr1",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "r89-3v3",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "1491aec75da14cf8",
+    "componentType": "netflag",
+    "x": 700,
+    "y": 980,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "3V3",
+    "component": {
+     "uuid": "10f3d7d8dc78c973",
+     "name": "Power-5V",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "84d626ba100f9ced",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Power-5V"
+    },
+    "name": "3V3",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "3V3",
+     "Description": "Power-5V"
+    }
+   }
+  }
+ },
+ {
+  "tag": "p17-nr0",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      570,
+      780,
+      600,
+      780
+     ]
+    ],
+    "net": "USB_NON_REM0",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "05b167091a433404"
+   }
+  }
+ },
+ {
+  "tag": "r90-nr0",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      740,
+      980,
+      740,
+      950
+     ]
+    ],
+    "net": "USB_NON_REM0",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "e990a3ee9730e6d4"
+   }
+  }
+ },
+ {
+  "tag": "r90-gnd",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Component",
+    "primitiveId": "af9aa67b26656f36",
+    "componentType": "netflag",
+    "x": 780,
+    "y": 980,
+    "subPartName": "pid8a0e77bacb214e",
+    "rotation": 0,
+    "mirror": false,
+    "addIntoBom": true,
+    "addIntoPcb": true,
+    "net": "GND",
+    "component": {
+     "uuid": "a4f9a0db599d4ab993a0c73b48324c12",
+     "name": "Ground-GND",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87"
+    },
+    "symbol": {
+     "uuid": "950187c0c34947a8b86c0075432a526b",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "name": "Ground-GND"
+    },
+    "footprint": {
+     "uuid": ""
+    },
+    "name": "GND",
+    "otherProperty": {
+     "Relevance": "[]",
+     "Global Net Name": "GND",
+     "Description": ""
+    }
+   },
+   "saved": true
+  }
+ }
+]

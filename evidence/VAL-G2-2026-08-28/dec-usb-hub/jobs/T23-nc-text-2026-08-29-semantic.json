@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T23-nc-text-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2969526:14736f8d",
+  "post_source_hash": "2975845:be7827b8",
+  "saved": true,
+  "affected": [
+    {"j1_nc": ["A2", "A3", "A8", "A10", "A11", "B2", "B3", "B8", "B10", "B11"]},
+    {"u20_nc": ["6"]},
+    {"u6_nc": ["N12", "N7", "P6", "P7"]}
+  ],
+  "census": {
+    "components": 322,
+    "wires": 786,
+    "components_delta": 0,
+    "wires_delta": 0,
+    "nc_flags_set": 12
+  },
+  "observed": "J1 SBU and SuperSpeed NC. Hub pin 6 NC. RT CHD_B and OTG2 NC. No SuperSpeed net names. No frames added. Hub 41c8e652."
+}

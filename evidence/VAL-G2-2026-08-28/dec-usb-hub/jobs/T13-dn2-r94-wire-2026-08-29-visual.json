@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T13-dn2-r94-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Hub DN2 pins 5/2 to R94 only. No GPIO19/20. No R95.",
+  "observed_delta": "472 percent U20 left-column view. Datasheet pin 5 (y=810) stub USB_DP_DN2 and pin 2 (y=840) stub USB_DM_DN2. DN1 pins 4/3 unchanged. R94 hub-side shares USB_DP_DN2. R95 not on those nets. GPIO19/20 not landed. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T13-dn2.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "U20 pin 5 USB_DP_DN2",
+      "result": "OK",
+      "detail": "Stub 41b3a32b40b5413b at 230,810 net USB_DP_DN2. Datasheet pin 5 USBDP_DN2."
+    },
+    {
+      "name": "U20 pin 2 USB_DM_DN2",
+      "result": "OK",
+      "detail": "Stub 068877a397342e5e at 230,840 net USB_DM_DN2. Datasheet pin 2 USBDM_DN2."
+    },
+    {
+      "name": "R94 hub side USB_DP_DN2",
+      "result": "OK",
+      "detail": "R94 pin1 stub 2b96fee724a60013 at 2080,800 net USB_DP_DN2. Pin2 left open."
+    },
+    {
+      "name": "R95 untouched",
+      "result": "OK",
+      "detail": "R95-USB 24561118da702cc5 not a parent of USB_DP_DN2 or USB_DM_DN2."
+    },
+    {
+      "name": "GPIO19/20 not landed",
+      "result": "OK",
+      "detail": "No GPIO19/IO19 string in source. TUNE pair not placed this stage."
+    },
+    {
+      "name": "hub 41c8e652",
+      "result": "OK",
+      "detail": "currentProject.uuid 41c8e652. Hash 3040977:44145fbb."
+    }
+  ]
+}

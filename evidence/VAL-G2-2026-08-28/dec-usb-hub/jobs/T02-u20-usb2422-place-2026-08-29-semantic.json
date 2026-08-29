@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T02-u20-usb2422-place-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2357789:0f956675",
+  "post_source_hash": "2368058:764f082c",
+  "saved": true,
+  "affected": [
+    {
+      "primitiveId": "92edd0bd8901c171",
+      "designator": "U?",
+      "name": "USB2422T-I/MJ",
+      "supplierId": "C622610",
+      "x": 400,
+      "y": 800,
+      "addIntoPcb": false,
+      "pin_note": "LCSC symbol names on pins 2-5 disagree with DS00001726B. Wire by datasheet pin number: DN1 DP/DM = 4/3, DN2 DP/DM = 5/2."
+    }
+  ],
+  "census": {
+    "components": 257,
+    "wires": 773,
+    "components_delta": 1,
+    "wires_delta": 0
+  },
+  "observed": "Placed USB2422T-I/MJ C622610 at 400,800 in the empty island. Auto-designator U?. 25 pins including ePad. Wires unchanged at 773. Not dropped into a prison box. Live 64325d0e not written."
+}

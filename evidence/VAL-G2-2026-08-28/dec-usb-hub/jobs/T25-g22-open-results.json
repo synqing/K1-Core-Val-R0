@@ -1,0 +1,57 @@
+[
+ {
+  "tag": "objs",
+  "ok": true,
+  "result": {
+   "boards": [
+    {
+     "pcb": {
+      "itemType": "PCB",
+      "uuid": "59bef7e87cff4cd580561703b62d8c19",
+      "name": "PCB1",
+      "parentProjectUuid": "f0f6cd233d69411ea478de1037da28fc",
+      "parentBoardName": "Board1"
+     },
+     "uuid": "4a4562eab5ff7ae6",
+     "name": "Board1",
+     "zIndex": 1,
+     "schematic": {
+      "itemType": "Schematic",
+      "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+      "page": [],
+      "parentProjectUuid": "f0f6cd233d69411ea478de1037da28fc",
+      "parentBoardName": "Board1",
+      "name": "schematic1"
+     },
+     "parentProjectUuid": "f0f6cd233d69411ea478de1037da28fc"
+    }
+   ],
+   "pcbs": [
+    {
+     "itemType": "PCB",
+     "uuid": "59bef7e87cff4cd580561703b62d8c19",
+     "name": "PCB1",
+     "parentProjectUuid": "f0f6cd233d69411ea478de1037da28fc",
+     "parentBoardName": "Board1"
+    }
+   ],
+   "schematics": [
+    {
+     "itemType": "Schematic",
+     "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+     "page": [],
+     "parentProjectUuid": "f0f6cd233d69411ea478de1037da28fc",
+     "parentBoardName": "Board1",
+     "name": "schematic1"
+    }
+   ],
+   "schematicPages": [],
+   "panels": []
+  }
+ },
+ {
+  "tag": "open-page",
+  "ok": false,
+  "error": "open_document cannot proceed because EasyEDA is still stuck on Start Page (0) while the editor URL targets project f0f6cd233d69411ea478de1037da28fc and tabs none. Requested document 1435cb46f39e48c8a8aadbb84ca81603 is unlikely to open successfully in this bootstrap state. Reload or reopen the target project in the EasyEDA UI, then call get_current_context again before retrying open_document."
+ }
+]

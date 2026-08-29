@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07g-f6-silicon-place-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2731844:cb7335e7",
+  "post_source_hash": "2788699:09f0149f",
+  "saved": true,
+  "affected": [
+    {"primitiveId": "4c311982f7a3bb0d", "designator": "U22-USB", "supplierId": "C2876265", "x": 1500, "y": 600, "addIntoPcb": false},
+    {"primitiveId": "125f3f5842b2d308", "designator": "U23-USB", "supplierId": "C2869832", "x": 1500, "y": 1000, "addIntoPcb": false},
+    {"primitiveId": "8d95d838df2d5f43", "designator": "U24-USB", "supplierId": "C7666", "x": 1750, "y": 600, "addIntoPcb": false},
+    {"primitiveId": "cace78f52f4c7139", "designator": "U25-USB", "supplierId": "C7666", "x": 1750, "y": 1000, "addIntoPcb": false},
+    {"primitiveId": "fadfedaff2230f79", "designator": "D3-USB", "supplierId": "C2758488", "x": 1500, "y": 400, "addIntoPcb": false}
+  ],
+  "census": {
+    "components": 311,
+    "wires": 787,
+    "components_delta": 5,
+    "wires_delta": 0
+  },
+  "observed": "Five F6 parts on the sheet at the T07g coordinates, addIntoPcb false, wires still 787. Hub 41c8e652. Live not written. No second set placed."
+}

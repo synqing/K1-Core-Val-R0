@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'MIMXRT1061DVJ6B'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "NXP", "MIMXRT1061DVJ6B" (!) = "", "BGA196C80P14X14_1200X1200X152", "BGA", "771-MIMXRT1061DVJ6B", "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MIMXRT1061DVJ6B?qs=BJlw7L4Cy78kRfy4mb1ozA%3D%3D", "MIMXRT1061DVJ6B", "https://www.arrow.com/en/products/mimxrt1061dvj6b/nxp-semiconductors?region=nac", "ARM Cortex-M7 series Microcontroller IC 32-Bit 600MHz - External Program Memory 196-LFBGA (12x12)", "https://www.nxp.com/docs/en/nxp/data-sheets/IMXRT1060CEC.pdf", "1.52 mm"
+END_PART
+
+END.

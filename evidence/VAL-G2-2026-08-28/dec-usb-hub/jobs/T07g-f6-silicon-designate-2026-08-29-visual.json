@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07g-f6-silicon-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Designate F6 silicon as U22-USB TPS7A2550, U23-USB TLV7031, U24-USB and U25-USB 1G08, and D3-USB SMF5.0A. No wires.",
+  "observed_delta": "112 percent select-zoom of the east island shows U22-USB TPS7A2550, U23-USB TLV7031, U24-USB and U25-USB 1G08, and D3-USB SMF5.0A. No new wires on those five. Open canvas, not a prison box.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T07g-silicon-tight.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "U22-USB on TPS7A2550",
+      "result": "OK",
+      "detail": "4c311982f7a3bb0d designated U22-USB TPS7A2550DRVR."
+    },
+    {
+      "name": "U23-USB on TLV7031",
+      "result": "OK",
+      "detail": "125f3f5842b2d308 designated U23-USB TLV7031DBVR."
+    },
+    {
+      "name": "U24-USB and U25-USB on 1G08",
+      "result": "OK",
+      "detail": "8d95d838 and cace78f5 designated U24-USB and U25-USB SN74LVC1G08DBVR."
+    },
+    {
+      "name": "D3-USB on SMF5.0A no new wires hub 41c8e652",
+      "result": "OK",
+      "detail": "fadfedaff2230f79 designated D3-USB. Wires stay 787. Project 41c8e652."
+    }
+  ]
+}

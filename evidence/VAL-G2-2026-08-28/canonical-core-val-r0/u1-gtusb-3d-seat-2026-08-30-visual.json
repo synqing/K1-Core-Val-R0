@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-gtusb-3d-seat-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "USB-C only: bind existing Y-flip J1 GT-USB-7005A mesh to live U1 and apply measured offset 0, 74.803, 0 mil so tabs land in ovals 26/27/28/29 and SMT tails on the A-row. Do not retouch U6, TVS or audio.",
+  "observed_delta": "Semantic persist landed: U1 binds e6946995a72f4deaa7b036359e4ff6e7 titled J1_GT-USB-7005A_yflip with transform 0, 74.803, 0, 0, 0, 0, 0, 0, 0. U6 and D1 unchanged. Settled 3D stills of the live board still show a grey USB-C body inland of the edge cut-out. The four oval golds and the rear SMT row remain naked. A stranger would not say the tabs are through the holes. Dedicated 3D-tab captures were blank; the usable still is the 3D Preview on PCB1.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-seat-recapture-top.png",
+  "supporting_screenshots": [
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-seat-recapture-top-navy.png",
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-seat-recapture-top-navy-u1.png",
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-seat-recapture-iso.png",
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-seat-recapture-edge.png"
+  ],
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [],
+  "verdict": "REJECTED",
+  "checks": [
+    {
+      "name": "U1 remains C5250872 / GT-USB-7005A",
+      "result": "OK",
+      "detail": "U1 primitive 0f194aaf30bc2e32 is still C5250872 / GT-USB-7005A on the same footprint."
+    },
+    {
+      "name": "Y-flip mesh bound with measured transform",
+      "result": "OK",
+      "detail": "Read-back transform is 0, 74.803, 0, 0, 0, 0, 0, 0, 0 on model e6946995a72f4deaa7b036359e4ff6e7."
+    },
+    {
+      "name": "U6-RTC 3D model and transform unchanged",
+      "result": "OK",
+      "detail": "U6-RTC still de5664fd2ea74aa082831cfa5b198edb identity transform."
+    },
+    {
+      "name": "D1-PWR1 TVS 3D model and transform unchanged",
+      "result": "OK",
+      "detail": "D1-PWR1 still 1370be37a17e44418ae52e2b4cc1f5e5 with the same transform."
+    },
+    {
+      "name": "tabs through oval gold on tight 3D stills",
+      "result": "DEFECT",
+      "detail": "Navy-board crop of the 3D Preview shows the grey body inland of the cut-out. Oval golds are visible and empty."
+    },
+    {
+      "name": "SMT tails on the rear pad row",
+      "result": "DEFECT",
+      "detail": "The rear SMT row remains naked in front of the inland body."
+    }
+  ]
+}

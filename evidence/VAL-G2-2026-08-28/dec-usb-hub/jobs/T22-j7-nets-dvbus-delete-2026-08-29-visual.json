@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T22-j7-nets-dvbus-delete-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Delete J7-only nets and DVBUS-PWR1. S3_VBUS zero members.",
+  "observed_delta": "220 percent former J7 island. USB_DP_ESD USB_DM_ESD ESP_USB_VBUS_SENSE labels gone. Only GND stubs remain. DVBUS-PWR1 absent from source. S3_VBUS empty. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T22-leftover-gone.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "S3_VBUS empty",
+      "result": "OK",
+      "detail": "S3_VBUS NET members zero."
+    },
+    {
+      "name": "ESD nets gone",
+      "result": "OK",
+      "detail": "USB_DP_ESD and USB_DM_ESD members zero after deleting e103678/e103682."
+    },
+    {
+      "name": "VBUS sense gone",
+      "result": "OK",
+      "detail": "ESP_USB_VBUS_SENSE members zero after deleting e103672/e103674."
+    },
+    {
+      "name": "DVBUS-PWR1 gone",
+      "result": "OK",
+      "detail": "ebrc000253 deleted. DVBUS-PWR1 absent from source."
+    },
+    {
+      "name": "PHY USB_DP_S3 kept",
+      "result": "OK",
+      "detail": "USB_DP_S3 remains on 7a41eaf8f1832502. USB_DM_S3 remains on e103596 and 916a2e5ac5bc3661."
+    }
+  ]
+}

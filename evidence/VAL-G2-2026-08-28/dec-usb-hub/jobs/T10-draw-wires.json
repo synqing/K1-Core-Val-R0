@@ -1,0 +1,21 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "get_schematic_primitive", "tag": "rusb-dp-stub", "args": {"primitiveId": "ebrw000203"}},
+  {"tool": "get_schematic_primitive", "tag": "rusb-dn-stub", "args": {"primitiveId": "ebrw000224"}},
+  {"tool": "modify_schematic_wire", "tag": "rusb-dp-up", "args": {"primitiveId": "ebrw000203", "net": "USB_DP_UP", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_wire", "tag": "rusb-dn-up", "args": {"primitiveId": "ebrw000224", "net": "USB_DM_UP", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_net_label", "tag": "lab-rusb-dp", "args": {"primitiveId": "ebr000204", "net": "USB_DP_UP", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_net_label", "tag": "lab-rusb-dn", "args": {"primitiveId": "ebr000225", "net": "USB_DM_UP", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "u20-dp-up", "args": {"line": [570, 810, 620, 810], "net": "USB_DP_UP", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "u20-dm-up", "args": {"line": [570, 800, 620, 800], "net": "USB_DM_UP", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_net_label", "tag": "lab-u20-dp", "args": {"x": 630, "y": 810, "net": "USB_DP_UP", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_net_label", "tag": "lab-u20-dm", "args": {"x": 630, "y": 800, "net": "USB_DM_UP", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "j1-a6", "args": {"line": [-525, 3320, -560, 3320], "net": "USB_DP_PROT", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "j1-b6", "args": {"line": [-245, 3320, -210, 3320], "net": "USB_DP_PROT", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "j1-a7", "args": {"line": [-525, 3352, -560, 3352], "net": "USB_DN_PROT", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "j1-b7", "args": {"line": [-245, 3352, -210, 3352], "net": "USB_DN_PROT", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_net_label", "tag": "lab-j1-a6", "args": {"x": -575, "y": 3320, "net": "USB_DP_PROT", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_net_label", "tag": "lab-j1-b6", "args": {"x": -195, "y": 3320, "net": "USB_DP_PROT", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_net_label", "tag": "lab-j1-a7", "args": {"x": -575, "y": 3352, "net": "USB_DN_PROT", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_net_label", "tag": "lab-j1-b7", "args": {"x": -195, "y": 3352, "net": "USB_DN_PROT", "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

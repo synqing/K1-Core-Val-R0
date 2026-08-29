@@ -1,0 +1,15 @@
+[
+  {
+    "tool": "open_document",
+    "tag": "open-sch",
+    "args": {
+      "documentUuid": "1435cb46f39e48c8a8aadbb84ca81603",
+      "projectUuid": "41c8e6523576456582ea35958b3684ed"
+    }
+  },
+  {
+    "tool": "get_current_context",
+    "tag": "ctx",
+    "args": {}
+  }
+]

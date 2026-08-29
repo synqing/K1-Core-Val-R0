@@ -1,0 +1,227 @@
+                                                                                                                                                   REV    COUNT DESCRIPTION OF REVISIONS           BY    CHKD DATE            REV   COUNT DESCRIPTION OF REVISIONS          BY      CHKD DATE
+
+                                                                                                                                                   △1       -      Revised                        LCE        LHJ   17.11.21
+                                                                                                                                                                                                                              △
+                                                                                                                                                                                                                              3       -   Revised                            KYI     LHJ    21.12.15
+
+
+                                                                                                                                                   △
+                                                                                                                                                   2        -      Revised                        KYG        LHJ   21.08.23
+                                                                                                                                                                                                                              △
+                                                                                                                                                                                            Universal Serial Bus Type-C Cable and Connector Specification Release 2.1
+                                                                                                                                                          APPLICABLE STANDARD               Universal Serial Bus Type-C Connectors and Cable Assemblies Compliance Document Revision 2.1b
+
+                                                                                                                                                                                            1.25A Max. for each power pin (A1, A4, A9, A12, B1, B4, B5, B9, B12)
+                                                                                                                                                                               CURRENT
+
+
+
+
+                                 Aug.1.2026 Copyright 2026 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                                                                                                          RATING                            0.25A for the other pins
+                                                                                                                                                                       VOLTAGE              48V AC/DC
+                                                                                                                                                          OPERATING CONDITION               -40℃ ~ +105℃ (Including Temp. rise), 95% RH Max. (Non-condensing)
+                                                                                                                                                           STORAGE CONDITION                -10℃ ~ +60℃ (With packing), 15% ~ 70% RH
+
+                                                                                                                                                  Para.         Test Description                        Test Procedure                                  Test Requirement                    QT AT
+
+                                                                                                                                                                                         EIA 364-18
+                                                                                                                                                    1       Examination of product                                                            No physical damage.                           O O
+                                                                                                                                                                                         Visual inspection
+
+                                                                                                                                                  Electrical Requirements
+
+                                                                                                                                                                                         EIA 364-23
+                                                                                                                                                                                         Measure at 20mV max open circuit
+                                                                                                                                                                Low Level Contact        at 100mA max. (DC or 1000Hz)                         Initial : 40mΩ max
+                                                                                                                                                    2                                                                                                                                       O -
+                                                                                                                                                                   Resistance            4-wire measurement is required and                   After test : 50mΩ max
+                                                                                                                                                                                         the resistance of PCB termination
+                                                                                                                                                                                         shall be deducted from the reading.
+
+
+                                                                                                                                                                                         EIA 364-20
+                                                                                                                                                                  Dielectric             Measure per Method B with
+                                                                                                                                                    3                                                                                         No disruptive discharge.                      O -
+                                                                                                                                                            Withstanding Voltage         unmated condition.
+                                                                                                                                                                                         100V AC RMS for 1 minute at sea level.
+
+
+                                                                                                                                                                                         EIA 364-21
+                                                                                                                                                    4       Insulation Resistance                                                             100MΩ min.                                    O -
+                                                                                                                                                                                         500V DC with unmated and mated condition.
+
+                                                                                                                                                  Mechanical Requirements
+                                                                                                                                                                                         EIA 364-13                                           Initial : 5N ~ 20N
+
+
+
+
+In case of consideration for using Automotive equipment / device which demand high reliability, kindly contact our sales window correspondents.
+                                                                                                                                                    5             Insertion force                                                                                                           O -
+                                                                                                                                                                                         Measure at 12.5mm/minute min.                        After test : 5N ~ 20N (with virgin plug)
+
+                                                                                                                                                                                         EIA 364-13                                           Initial : 8N ~ 20N
+                                                                                                                                                    6            Extraction force                                                                                                           O -
+                                                                                                                                                                                         Measure at 12.5mm/minute min.                        After test : 6N ~ 20N (with virgin plug)
+
+                                                                                                                                                                                         EIA 364-09
+                                                                                                                                                                                         Mated 10,000 times
+                                                                                                                                                                                         Mechanically operated : 500cycles/hr
+                                                                                                                                                    7                Durability                                                               No physical damage.                           O -
+                                                                                                                                                                                         Mating stroke : 2.75mm
+                                                                                                                                                                                         Insertion, extraction force shall be measured
+                                                                                                                                                                                         at a maximum speed of 12.5mm/min
+
+                                                                                                                                                                                         IEC 60521-4-6d
+                                                                                                                                                                                                                                       No electrical discontinuity of 1μs.
+                                                                                                                                                    8                Vibration           Frequency10 to 55Hz, half Amplitude 0.75mm, -                                                      O -
+                                                                                                                                                                                                                                       No physical damage.
+                                                                                                                                                                                         m/s2 for 2hr in 3 directions.
+
+                                                                                                                                                                                         IEC 60521-4-6C
+                                                                                                                                                                                                                                              No electrical discontinuity of 1μs.
+                                                                                                                                                    9                  Shock             490m/s2 , Duration of pulse 11ms                                                                   O -
+                                                                                                                                                                                                                                              No physical damage.
+                                                                                                                                                                                         at 3 times in 3 directions.
+
+                                                                                                                                                                                         After insertion of plug, measure the force until be
+                                                                                                                                                                                         damaged 4 directions.
+                                                                                                                                                   10           Wrenching strength       (up,down, left, right)                              50N Min.                                       O -
+                                                                                                                                                                                         Speed12.5mm/Min, apply a force at the point
+                                                                                                                                                                                         15mm socket frome edge.[Fig.1]
+                                                                                                                                                  REMARKS                                                              DRAFT          DESIGN          CHECK        APPROVAL          RELEASE
+                                                                                                                                                                                                                                                                                      DEPT
+                                                                                                                                                                                                                     C.E.LIM         C.E.LIM         H.J.LEE       T.S.KANG          21.12.15
+                                                                                                                                                                                                                    15.09.24         15.09.24        15.09.24       15.09.24             ENG
+                                                                                                                                                  NOTE) QT : QUALIFICATION TEST, AT : ASSURANCE TEST, O : Applicable Test
+                                                                                                                                                  DWG NO                                        CL NO                                               PART NO
+
+                                                                                                                                                            ELC4-611479                                  CL 6240-0002-1                                       CX70M-24P1
+                                                                                                                                                                                                                                                                                            1
+                                                                                                                                                                HIROSE KOREA.CO.,LTD                                          PRODUCT SPECIFICATION                                             3
+                                                                                                                                                  Para.      Test Description                      Test Procedure                             Test Requirement        QT AT
+                                                                                                                                                  Environmental Requirements
+
+                                                                                                                                                                                    EIA 364-17, Method A
+                                                                                                                                                   11         Temperature Life      105℃ without applied voltage                    No physical damage.               O -
+                                                                                                                                                                                    for 120 hours.
+
+
+
+
+                                 Aug.1.2026 Copyright 2026 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                                                                                                                                    IEC 60512-6-11C
+                                                                                                                                                                 Damp heat
+                                                                                                                                                   12                               Exposed at +85℃ , 85%RH for 120 hr.             No physical damage.               O -
+                                                                                                                                                               (Steady state)       (Mating applicable connector)
+
+                                                                                                                                                                                    IEC60512-6-11j
+                                                                                                                                                   13               Cold            Exposed at -40±2 ℃ for 96±4 Hr.                 No physical damage.               O -
+                                                                                                                                                                                    (Mating applicable connector)
+
+
+                                                                                                                                                                                    EIA 364-32
+                                                                                                                                                   14          Thermal Shock                                                        No physical damage.               O -
+                                                                                                                                                                                    10 cycles -55˚C and +105˚C
+
+
+                                                                                                                                                                                    EIA 364-52                                      Solder coverage shall be 95%
+                                                                                                                                                   15           Solderability                                                                                         O -
+                                                                                                                                                                                    Dwell in 245±5℃ of the solder bath for 5 sec.   min. of the immersed surfaces.
+
+
+                                                                                                                                                                                    EIA 364-26                                      No corrosions that affect
+                                                                                                                                                   16            Salt Spray                                                                                           O -
+                                                                                                                                                                                    5% of NaCl in 35℃ for 48 hours.                 to the connector operation.
+
+
+                                                                                                                                                                                                                                    0.08 Max before reflow.
+                                                                                                                                                   17           Co-Planarity        Measure Co-planarity of each contact lead.                                        O -
+                                                                                                                                                                                                                                    0.08 Max after reflow 2times.
+
+
+                                                                                                                                                                                    Reflow profile [Fig.2]                          No deformation of mold
+                                                                                                                                                   18           Reflow Heat                                                                                           O -
+                                                                                                                                                                                    Peak 250˚C max for 10 sec 2 times.              No shape of blister and popcorn
+
+                                                                                                                                                  REMARKS
+
+
+
+
+In case of consideration for using Automotive equipment / device which demand high reliability, kindly contact our sales window correspondents.
+                                                                                                                                                                 [Fig.1] Wrenching strength                                [Fig.2] REFLOW TEMPERATURE
+                                                                                                                                                        (Using USB Type-C Standard reference test fixture)
+
+
+                                                                                                                                                  NOTE) QT : QUALIFICATION TEST, AT : ASSURANCE TEST, O : Applicable Test
+                                                                                                                                                  DWG NO                                   CL NO                                       PART NO
+
+                                                                                                                                                           ELC4-611479                             CL 6240-0002-1                                 CX70M-24P1
+                                                                                                                                                                                                                                                                      2
+                                                                                                                                                            HIROSE KOREA.CO.,LTD                                      PRODUCT SPECIFICATION                               3
+                                                                                                                                                                                     Qualification Test Sequence Table
+                                                                                                                                                                                                                                       Test Group
+                                                                                                                                                  Para.                Test Description
+                                                                                                                                                                                                           A      B         C    D       E       F    G      H      I         J
+
+
+
+
+                                 Aug.1.2026 Copyright 2026 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                                                                                                    1                Examination of product               1, 7   1, 14   1, 6   1, 6   1, 6   1, 6   1, 6   1, 3   1, 6   1, 4
+
+                                                                                                                                                    2            Low Level Contact Resistance             3, 6   3, 13   3, 5   3, 5   3, 5   3, 5   3, 5          3, 5
+
+                                                                                                                                                                            Dielectric
+                                                                                                                                                    3                                                            4, 12
+                                                                                                                                                                      Withstanding Voltage
+
+                                                                                                                                                    4                 Insulation Resistance                      5, 11
+
+                                                                                                                                                    5                    Insertion force                         6, 10
+
+                                                                                                                                                    6                    Extraction force                        7, 9
+
+                                                                                                                                                    7                       Durability                            8
+
+                                                                                                                                                    8                       Vibration                      4
+
+                                                                                                                                                    9                        Shock                         5
+
+                                                                                                                                                   10                  Wrenching strength                                   4
+
+                                                                                                                                                   11                   Temperature Life                                         4
+
+                                                                                                                                                   12                      Damp heat                                                     4
+
+
+
+
+In case of consideration for using Automotive equipment / device which demand high reliability, kindly contact our sales window correspondents.
+                                                                                                                                                   13                         Cold                                                               4
+
+                                                                                                                                                   14                    Thermal Shock                                                                4
+
+                                                                                                                                                   15                     Solderability                                                                      2
+
+                                                                                                                                                   16                      Salt Spray                                                                               4
+
+                                                                                                                                                   17                     Co-planarity                                                                                        3
+
+                                                                                                                                                   18                     Reflow Heat                      2      2         2    2       2       2    2             2         2
+
+                                                                                                                                                  REMARKS
+                                                                                                                                                  1) Numbers in the table above indicate the sequence corresponding to each test group.
+
+
+
+
+                                                                                                                                                  NOTE) QT : QUALIFICATION TEST, AT : ASSURANCE TEST, O : Applicable Test
+                                                                                                                                                  DWG NO                                      CL NO                                    PART NO
+
+                                                                                                                                                           ELC4-611479                                CL 6240-0002-1                             CX70M-24P1
+                                                                                                                                                                                                                                                                          3
+                                                                                                                                                            HIROSE KOREA.CO.,LTD                                  PRODUCT SPECIFICATION                                           3
+

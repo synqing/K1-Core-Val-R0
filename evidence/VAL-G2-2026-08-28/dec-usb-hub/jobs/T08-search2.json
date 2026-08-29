@@ -1,0 +1,9 @@
+[
+  {"tool": "get_current_context", "tag": "ctx", "args": {}},
+  {"tool": "search_library_devices", "tag": "C25741", "args": {"lcscIds": ["C25741"]}},
+  {"tool": "search_library_devices", "tag": "C19666", "args": {"lcscIds": ["C19666"]}},
+  {"tool": "search_library_devices", "tag": "C17415", "args": {"lcscIds": ["C17415"]}},
+  {"tool": "search_library_devices", "tag": "C124378", "args": {"lcscIds": ["C124378"]}},
+  {"tool": "search_library_devices", "tag": "C50981", "args": {"lcscIds": ["C50981"]}},
+  {"tool": "search_library_devices", "tag": "C86472", "args": {"lcscIds": ["C86472"]}}
+]

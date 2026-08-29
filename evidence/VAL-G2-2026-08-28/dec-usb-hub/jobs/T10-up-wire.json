@@ -1,0 +1,9 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "delete_schematic_wire", "tag": "lift-l8", "args": {"primitiveId": "ebrw000226", "skipConfirmation": true, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "delete_schematic_wire", "tag": "lift-m8", "args": {"primitiveId": "ebrw000228", "skipConfirmation": true, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_wire", "tag": "rusb-dp-up", "args": {"primitiveId": "ebrw000203", "net": "USB_DP_UP", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_wire", "tag": "rusb-dn-up", "args": {"primitiveId": "ebrw000224", "net": "USB_DM_UP", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "u20-dp-up", "args": {"line": [570, 810, 640, 810], "net": "USB_DP_UP", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "u20-dm-up", "args": {"line": [570, 800, 640, 800], "net": "USB_DM_UP", "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

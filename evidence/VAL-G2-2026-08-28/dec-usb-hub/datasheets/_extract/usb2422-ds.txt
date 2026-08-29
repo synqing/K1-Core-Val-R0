@@ -1,0 +1,2255 @@
+                                                                          USB2422
+                    2-Port USB 2.0 Hi-Speed Hub Controller
+
+General Description                                         Highlights
+The Microchip USB2422 hub is a low-power, single            • High performance, low-power, small footprint hub
+transaction translator, hub controller IC with two down-      controller IC with two downstream ports
+stream ports for embedded USB solutions. The hub            • Fully compliant with the USB 2.0 Specification
+controller can attach to an upstream port as a Hi-Speed     • Optimized for minimal bill-of-materials and low-
+and Full-Speed hub or as a Full-Speed only hub. The           cost designs
+hub supports Low-Speed, Full-Speed, and Hi-Speed
+(when configured as a Hi-Speed hub) downstream
+devices on the enabled downstream ports.
+                                                            Applications
+All required resistors on the USB ports are integrated      • LCD monitors and TVs
+into the hub. This includes all series termination resis-   • Multi-function USB peripherals
+tors on D+ and D- pins and all required pull-down and       • PC motherboards
+pull-up resistors on D+ and D- pins. The over-current       • Set-top boxes, DVD players, DVR/PVR
+sense inputs for the downstream facing ports have
+                                                            • Printers and scanners
+internal pull-up resistors.
+                                                            • PC media drive bay
+Features                                                    • Portable hub boxes
+                                                            • Mobile PC docking
+• Supports the USB Battery Charging Specification,
+                                                            • Embedded systems
+  Revision 1.1
+                                                            • Gaming consoles
+• Fully integrated USB termination and pull-up/pull-
+  down resistors                                            • Cable/DSL modems
+• Supports a single external 3.3 V supply source;           • HDD enclosures
+  internal regulators provide 1.2 V internal core volt-     • KVM switches
+  age                                                       • Server front panels
+• On-chip driver for 24 MHz crystal resonator or            • Point-of-Sale (POS) systems
+  external 24 MHz clock input                               • IP telephony
+• ESD protection up to 6 kV on all USB pins                 • Automobile/home audio systems
+• Supports self-powered operation                           • Thin client terminals
+• The hub contains a built-in default configuration;
+  no external configuration options or components
+  are required
+• Downstream ports as non-removable ports
+• Downstream port power control and over-current
+  detection on an individual or ganged basis
+• Supports compound devices on a port-by-port
+  basis
+• 24-pin SQFN (4x4 mm), RoHS-compliant pack-
+  age
+• Commercial temperature range support:
+  0ºC to +70ºC
+• Industrial temperature range support:
+  -40ºC to +85ºC
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                      DS00001726B-page 1
+USB2422
+
+                                         TO OUR VALUED CUSTOMERS
+ It is our intention to provide our valued customers with the best documentation possible to ensure successful use of your Microchip
+ products. To this end, we will continue to improve our publications to better suit your needs. Our publications will be refined and
+ enhanced as new volumes and updates are introduced.
+ If you have any questions or comments regarding this publication, please contact the Marketing Communications Department via
+ E-mail at docerrors@microchip.com. We welcome your feedback.
+
+ Most Current Data Sheet
+ To obtain the most up-to-date version of this data sheet, please register at our Worldwide Web site at:
+      http://www.microchip.com
+ You can determine the version of a data sheet by examining its literature number found on the bottom outside corner of any page.
+ The last character of the literature number is the version number, (e.g., DS30000000A is version A of document DS30000000).
+
+ Errata
+ An errata sheet, describing minor operational differences from the data sheet and recommended workarounds, may exist for cur-
+ rent devices. As device/documentation issues become known to us, we will publish an errata sheet. The errata will specify the
+ revision of silicon and revision of document to which it applies.
+ To determine if an errata sheet exists for a particular device, please check with one of the following:
+ • Microchip’s Worldwide Web site; http://www.microchip.com
+ • Your local Microchip sales office (see last page)
+ When contacting a sales office, please specify which device, revision of silicon and data sheet (include -literature number) you are
+ using.
+
+ Customer Notification System
+ Register on our web site at www.microchip.com to receive the most current information on all of our products.
+
+
+
+
+DS00001726B-page 2                                                                           2013 - 2015 Microchip Technology Inc.
+                                                                                                                                                            USB2422
+Table of Contents
+1.0 Block Diagram ................................................................................................................................................................................. 4
+2.0 Pin Descriptions .............................................................................................................................................................................. 6
+3.0 Battery Charging Support ............................................................................................................................................................. 14
+4.0 Configuration Options ................................................................................................................................................................... 16
+5.0 DC Parameters ............................................................................................................................................................................. 35
+6.0 AC Specifications .......................................................................................................................................................................... 38
+7.0 Package Outline ............................................................................................................................................................................ 40
+Appendix A: Acronyms ........................................................................................................................................................................ 41
+Appendix B: References ..................................................................................................................................................................... 42
+Appendix C: Data Sheet Revision History .......................................................................................................................................... 43
+The Microchip Web Site ...................................................................................................................................................................... 44
+Customer Change Notification Service ............................................................................................................................................... 44
+Customer Support ............................................................................................................................................................................... 44
+Product Identification System ............................................................................................................................................................. 45
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                                                                                            DS00001726B-page 3
+USB2422
+1.0     BLOCK DIAGRAM
+
+
+FIGURE 1-1:          USB2422 BLOCK DIAGRAM
+
+
+                 To Upstream Upstream USB                            CRFILT PLLFILT         To
+                     VBUS         Data                                                  SMBus Master
+                                                      24 MHz Crystal
+                                                                                      SMBDATA SMBCLK
+                                               3.3V
+
+
+
+                                                           PLL                            Serial
+                Bus-Power                                                               Interface
+                              Upstream
+                Detect/VBUS                             1.2V Reg
+                                PHY
+                  Pulse
+
+
+                                                           SIE
+                               Repeater                                                Controller
+
+
+
+
+                                                                                          Port
+                                                           TT
+                                                                                        Controller
+
+
+
+
+                                 Routing & Port Re-Ordering
+                                           Logic
+
+
+
+
+                                            Port #1                  Port #2
+                                             OC                        OC
+                                 PHY#1      Sense         PHY#2       Sense
+                                            Switch                    Switch
+                                            Driver                    Driver
+
+
+
+
+                               USB Data OC Sense        USB Data OC Sense
+                               Downstream    Switch     Downstream     Switch
+
+
+
+
+DS00001726B-page 4                                                               2013 - 2015 Microchip Technology Inc.
+                                                                                                USB2422
+Within this manual, the following abbreviations and symbols are used to improve readability.
+
+
+    Example                                       Description
+       BIT         Name of a single bit within a field
+    FIELD.BIT      Name of a single bit (BIT) in FIELD
+      x…y          Range from x to y, inclusive
+    BITS[m:n]      Groups of bits from m to n, inclusive
+       PIN         Pin Name
+      zzzzb        Binary number (value zzzz)
+      0xzzz        Hexadecimal number (value zzz)
+       zzh         Hexadecimal number (value zz)
+       rsvd        Reserved memory location. Must write 0, read value indeterminate
+      code         Instruction code, or API function or parameter
+                   Used for multiple words that are considered a single unit, such as:
+ Multi Word Name   Resource Allocate message, or Connection Label, or Decrement Stack Pointer
+                   instruction.
+ Section Name      Section or Document name.
+        x          Don’t care
+                   <> indicate a Parameter is optional or is only used under some
+  <Parameter>
+                   conditions
+  {,Parameter}     Braces indicate Parameter(s) that repeat one or more times.
+                   Brackets indicate a nested Parameter. This Parameter is not real and
+   [Parameter]
+                   actually decodes into one or more real parameters.
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                          DS00001726B-page 5
+USB2422
+2.0      PIN DESCRIPTIONS
+This chapter is organized by a set of pin configurations followed by a corresponding pin list organized by function
+according to their associated interface. A detailed description list of each signal (named in the pin list) is organized by
+function in Table 2-2, “USB2422 Pin Descriptions,” on page 7. Refer to Table 2-3, “Buffer Type Descriptions,” on page 10
+for a list of buffer types.
+An N at the end of a signal name indicates that the active (asserted) state occurs when the signal is at a low voltage
+level. When the N is not present, the signal is asserted when it is at a high voltage level. The terms assertion and nega-
+tion are used exclusively in order to avoid confusion when working with a mixture of active low and active high signals.
+The term assert, or assertion, indicates that a signal is active, independent of whether that level is represented by a high
+or low voltage. The term negate, or negation, indicates that a signal is inactive.
+
+2.1      Pin Configuration
+
+
+FIGURE 2-1:            USB2422 24-Pin SQFN
+
+
+
+
+                                                               SUSP_IND/LOCAL_PWR/(NON_REM0)
+
+                                                                                                                                                SMBCLK/CFG_SEL0            SMBDATA/NON_REM1
+                                                    VDD33                                      VBUS_DET                 RESET_N
+
+
+
+
+                                                    18         17                              16                       15                      14                         13
+                             USBDM_UP          19                                                                                                                                             12   OCS2_N
+
+                              USBDP_UP         20                                                                                                                                             11   PRTPWR2
+
+                   XTALOUT/(CLKIN_EN)          21            USB2422       10                                                                                                                      CRFILT
+                                                        (Top View SQFN-24)
+                          XTALIN/CLKIN         22                                                                                                                                              9   VDD33
+
+                                PLLFILT        23                                                                                                                                              8   OCS1_N
+                                                                    Thermal Slug
+                                                             (must be connected to VSS)
+                                  RBIAS        24                                                                                                                                              7   PRTPWR1/(BC_EN1)
+                                                    1               2                           3                        4                        5                           6
+
+
+
+                                                                                                                                                                               NC
+                                                     VDD33
+
+
+
+
+                                                                                                 USBDP_DN1/PRT_DIS_P1                               USBDP_DN2/PRT_DIS_P2
+                                                                       USBDM_DN1/PRT_DIS_M1                              USBDM_DN2/PRT_DIS_M2
+
+
+
+
+                                          Indicates pins on the bottom of the device.
+
+
+
+
+DS00001726B-page 6                                                                                                                                                                                  2013 - 2015 Microchip Technology Inc.
+                                                                                               USB2422
+2.2       Pin Table
+
+TABLE 2-1:         USB2422 PIN TABLE
+                                     UPSTREAM USB 2.0 INTERFACES (3 PINS)
+
+         USBDM_UP               usbDM_UP                             VBUS_DET
+
+                              DOWNSTREAM 2-PORT USB 2.0 INTERFACES (9 PINS)
+
+         USBDP_DN1/             USBDM_DN1/                          USBDP_DN2/            USBDM_DN2/
+         PRT_DIS_P1             PRT_DIS_M1                          PRT_DIS_P2            PRT_DIS_M2
+         PRTPWR1/
+                                          PRTPWR2                     OCS1_N                        OCS2_N
+          BC_EN1
+            RBIAS
+
+                                           SERIAL PORT INTERFACE (2 PINS)
+         SMBDATA/                          SMBCLK/
+         NON_REM1                          CFG_SEL
+
+                                                     MISC (5 PINS)
+                                                                                          SUSP_IND/
+           XTALIN/                        XTALOUT/
+                                                                     RESET_N              LOCAL_PWR/
+            CLKIN                         CLKIN_EN
+                                                                                          NON_REM0
+             NC
+
+                                 POWER, GROUND, AND NO CONNECTS (5 PINS)
+
+          (3) VDD33                        CRFILT                     PLLFILT                         VSS
+
+                                                       TOTAL 24
+
+
+
+2.3       Pin Descriptions (Grouped by Function)
+
+TABLE 2-2:         USB2422 PIN DESCRIPTIONS
+ Pin #         Symbol           Buffer Type                                 Description
+                                           UPSTREAM USB 2.0 INTERFACES
+   19        USBDM_UP               IO-U      USB Bus Data:
+   20        USBDP_UP
+                                              Connect to the upstream USB bus data signals (host, port, or upstream
+                                              hub).
+   16        VBUS_DET                 I       Detect Upstream VBUS Power:
+                                              Detects the state of upstream VBUS power. The hub monitors
+                                              VBUS_DET to determine when to assert the internal D+ pull-up resistor
+                                              (signalling a connect event)
+                                              When designing a detachable hub, this pin should be connected to
+                                              VBUS on the upstream port via a 2:1 voltage divider. Two 100 kΩ
+                                              resistors are suggested.
+                                              For self-powered applications with a permanently attached host, this pin
+                                              must be connected to a dedicated host control output, or connected to
+                                              the 3.3 V domain that powers the host (typically VDD33).
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                            DS00001726B-page 7
+USB2422
+TABLE 2-2:      USB2422 PIN DESCRIPTIONS (CONTINUED)
+ Pin #       Symbol       Buffer Type                                   Description
+
+                                    DOWNSTREAM USB 2.0 INTERFACES
+   5     USBDP_DN[2:1]/      IO-U       Hi-Speed USB Data:
+   3     PRT_DIS_P[2:1]
+  and         and                       Connect to the downstream USB peripheral devices attached to the
+                                        hub’s ports.
+   4     USBDN_DN[2:1]/
+   2     PRT_DIS_M[2:1]                 Port Disable Strap Option:
+                                        If this strap is enabled by package and configuration settings (see
+                                        Table 4-1, "Hub Configuration Options"), this pin will be sampled at
+                                        RESET_N negation to determine if the port is disabled.
+                                        Both USB data pins for the corresponding port must be tied to VDD33
+                                        to disable the associated downstream port.
+   7       PRTPWR1/          O12        USB Power Enable:
+                                        Enables power to USB peripheral devices that are downstream, where
+                                        the hub supports active high power controllers only.
+             BC_EN1          IPD        Battery Charging Strap Option:
+                                        Port 1 pin will be sampled at RESET_N negation to determine if port 1
+                                        supports the battery charging protocol (and thus the supporting external
+                                        port power controllers) that would enable a device to draw the currents
+                                        per the USB Battery Charging Specification.
+                                        This pin has an internal pull-down that will be removed after the strap
+                                        option hold time is completed.
+                                        BC_EN1= 1: Battery charging feature is supported for port 1
+                                        BC_EN1= 0: Battery charging feature is not supported for port 1
+  11         PRTPWR2         O12        USB Power Enable:
+                                        Enables power to USB peripheral devices that are downstream, where
+                                        the hub supports active high power controllers only.
+   8         OCS1_N          IPU        Over-Current Sense:
+  12         OCS2_N
+                                        Input from external current monitor indicating an over-current condition.
+                                        This pin contains an internal pull-up to the 3.3 V supply.
+  24          RBIAS           I-R       USB Transceiver Bias:
+                                        A12.0 kΩ (+/- 1%) resistor is attached from ground to this pin to set the
+                                        transceiver’s internal bias settings.
+                                        SERIAL PORT INTERFACE
+  13         SMBDATA       I/OSD12      System Management Bus Data
+           NON_REM1                     Non-removable Port Strap Option:
+                                        This pin is sampled (in conjunction with SUSP_IND/NON_REM0) at
+                                        RESET_N negation to determine if ports [2:1] contain permanently
+                                        attached (non-removable) devices:
+                                        NON_REM[1:0] = 00: all ports are removable
+                                        NON_REM[1:0] = 01: port 1 is non-removable
+                                        NON_REM[1:0] = 10: ports 1 and 2 are non-removable
+                                        NON_REM[1:0] = 11: reserved
+                                        See Section 2.5, "Strap Pin Configuration" for details.
+  14         SMBCLK/       I/OSD12      System Management Bus Clock
+             CFG_SEL                    Configuration Select:
+                                        The logic state of this multifunction pin is internally latched on the rising
+                                        edge of RESET_N (RESET_N negation), and will determine the hub
+                                        configuration method as described in Table 4-1.
+
+
+
+
+DS00001726B-page 8                                                              2013 - 2015 Microchip Technology Inc.
+                                                                                                 USB2422
+TABLE 2-2:         USB2422 PIN DESCRIPTIONS (CONTINUED)
+ Pin #         Symbol           Buffer Type                                  Description
+
+                                                          MISC
+   22          XTALIN/             ICLKx      24 MHz Crystal or External Clock Input:
+                CLKIN
+                                              This pin connects to either one terminal of the crystal or to an external
+                                              24 MHz clock when a crystal is not used.
+   21         XTALOUT             OCLKx       Crystal Output:
+                                              This is the other terminal of the crystal circuit with 1.2 V p-p output and
+                                              a weak (< 1 mA) driving strength. When an external clock source is
+                                              used to drive XTALIN/CLKIN, leave this pin unconnected, or use with
+                                              appropriate caution.
+   15         RESET_N                IS       RESET Input:
+                                              The system must reset the chip by driving this input low. The minimum
+                                              active low pulse is 1 μs.
+   6              NC                IPD       Treat as a no connect pin or connect to ground. No trace or signal
+                                              should be routed or attached to this pin.
+   17         SUSP_IND             I/O12      Suspend Indicator:
+                                              Indicates the USB state of the hub.
+                                              negated : unconfigured, or configured and in USB Suspend
+                                              asserted : Hub is configured, and is active (i.e., not in suspend)
+            LOCAL_PWR                         Local Power:
+                                              This input selects whether the hub reports itself as bus or self-powered
+                                              when dynamic power switching is enabled via the Dynamic Power
+                                              Enable (DYNAMIC) bit of the Configuration Data Byte 2 Register
+                                              (CFG2). This pin is sampled at POR/Reset before the USB Hub Attach
+                                              command is sent. Once the hub has entered the attach state (as
+                                              indicated by the USB Attach and Write Protect (USB_ATTACH) bit of the
+                                              Status/Command Register (STCD)), this pin cannot be changed.
+                                              Low : self/local power source is not available (i.e., the Hub gets all
+                                              power from the upstream USB VBus).
+                                              High : self/local power source is available.
+                                              Note:    Never tie this pin directly to VDD33, as doing so may cause it
+                                                       to act as SUSP_IND.
+                                              Note:    This pin assumes the meaning of local power input only if
+                                                       properly configured via SMBus. If the hub is configured via
+                                                       straps, it is NON_REM0 at reset and SUSP_IND after reset.
+            (NON_REM0)                        Non-Removable Port Strap Option:
+                                              This pin is sampled (in conjunction with SUSP_IND/NON_REM0) at
+                                              RESET_N negation to determine if ports [2:1] contain permanently
+                                              attached (non-removable) devices:
+                                              NON_REM[1:0] = 00: all ports are removable
+                                              NON_REM[1:0] = 01: port 1 is non-removable
+                                              NON_REM[1:0] = 10: ports 1 and 2 are non-removable
+                                              NON_REM[1:0] = 11: reserved
+                                              See Section 2.5, "Strap Pin Configuration" for details.
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                              DS00001726B-page 9
+USB2422
+TABLE 2-2:          USB2422 PIN DESCRIPTIONS (CONTINUED)
+ Pin #            Symbol          Buffer Type                                  Description
+                                           POWER, GROUND, and NO CONNECTS
+    1              VDD33                        3.3 V power to the chip.
+    9
+   18                                           A 1.0 μF low-ESR capacitor to VSS is required on pin 9 as close as
+                                                possible to the pin. A 0.1 μF low-ESR capacitor to VSS is required on
+                                                pin 1 as close as possible to the pin.
+   10             CRFILT                        VDD Core Regulator Filter Capacitor:
+                                                This pin requires a 1.0 μF low-ESR capacitor to VSS for proper
+                                                operation.
+   23             PLLFILT                       PLL Regulator Filter Capacitor:
+                                                This pin can have up to a 0.1 μF low-ESR capacitor to VSS, or be left
+                                                unconnected.
+                   VSS                          Ground Pad/ePad:
+                                                The package slug is the only VSS for the device and must be tied to
+                                                ground with multiple vias.
+
+
+
+2.4       Buffer Type Descriptions
+
+TABLE 2-3:          BUFFER TYPE DESCRIPTIONS
+          Buffer                                         Description
+           I/O              Input/Output
+           IPD              Input with internal weak pull-down resistor
+           IPU              Input with internal weak pull-up resistor
+            IS              Input with Schmitt trigger
+          I/O12             Input/Output buffer with 12 mA sink and 12 mA source
+          ICLKx             XTAL clock input
+          OCLKx             XTAL clock output
+           I-R              RBIAS
+          I/O-U             Analog Input/Output defined in USB specification
+
+
+
+2.5       Strap Pin Configuration
+If a pin's strap function is enabled through hub configuration selection (Table 4-1), the strap pins must be pulled either
+high or low using the values provided in Table 2-4. Each strap option is dependent on the pin’s buffer type, as outlined
+in the sections that follow.
+
+TABLE 2-4:          STRAP OPTION SUMMARY
+         Strap Option               Resistor Value        Buffer Type                          Notes
+Non-Removable                        47 - 100 kΩ              I/O
+Internal Pull-Down (IPD)                                                   • Only applicable to port power pins
+                                        10 kΩ                 IPD
+                                                                           • Contains a built-in resistor
+LED                                  47 - 100 kΩ              I/O
+
+
+
+
+DS00001726B-page 10                                                                   2013 - 2015 Microchip Technology Inc.
+                                                                                                    USB2422
+2.5.1       NON-REMOVABLE
+If a strap pin’s buffer type is I/O, an external pull-up or pull-down must be implemented as shown in Figure 2-2. Use
+Strap High to set the strap option to 1 and Strap Low to set the strap option to 0. When implementing the Strap Low
+option, no additional components are needed (i.e., the internal pull-down provides the resistor).
+
+
+FIGURE 2-2:             NON-REMOVABLE PIN STRAP EXAMPLE
+
+
+                                          +V
+
+                                               R kΩ
+
+              I/O Strap Pin                      Strap High                  I/O Strap Pin                   Strap Low
+
+                                                                                                          R kΩ
+                  HUB                                                             HUB
+
+                                                                                                   GND
+
+
+
+
+2.5.2       INTERNAL PULL-DOWN (IPD)
+If a strap pin’s buffer type is IPD, one of the two hardware configurations outlined in Figure 2-3 must be implemented.
+Use the Strap High configuration to set the strap option value to 1 and Strap Low to set the strap option value to 0.
+
+
+FIGURE 2-3:             IPD PIN STRAP EXAMPLE
+
+
+                                                  +V
+
+                                                       R kΩ
+
+                        IPD Strap Pin                    Strap High   IPD Strap Pin           Strap Low
+
+                               HUB                                          HUB
+
+                                        VSS                                           VSS
+
+
+
+2.5.3       LED
+If a strap pin’s buffer type is I/O and shares functionality with an LED, the hardware configuration outlined below must
+be implemented. The internal logic will drive the LED appropriately (active high or low) depending on the sampled strap
+option. Use the Strap High configuration to set the strap option value to 1 and Strap Low to set the strap option to 0.
+
+
+FIGURE 2-4:             LED PIN STRAP EXAMPLE
+
+
+
+                                           R             LED/
+                                          kΩ          Strap High
+
+                        Strap Pin                                            Strap Pin
+                        HUB                                                   HUB             R         LED/
+                                                                                             kΩ      Strap Low
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                                   DS00001726B-page 11
+USB2422
+2.6      Example Applications
+Figure 2-5 and Figure 2-6 depict example applications for an SoC based design and a non-SoC based design, respec-
+tively. The corresponding resistor and capacitor values for these examples are provided in Table 2-5.
+
+
+FIGURE 2-5:           EXAMPLE APPLICATION - SOC BASED DESIGN
+
+
+        USB            RVBUS                            USB2422
+      Connector                  RVBUS
+
+                                                                                              Enable
+
+                                                                PRTPWR1                       USB Switch
+                                             VBUS_DET                                         FAULT_N
+                                                                 OCS1_N
+                                             USBDP_UP                                                                 Connector
+                                                              USBDP_DN1
+                                             USBDM_UP        USBDM_DN1
+
+                                                            PRTPWR2(11)                                              RESET_N
+
+                                                              OCS2_N(12)                                              Embedded
+                                    Vcc                      USBDP_DN2                                                 Device
+                                                             USBDM_DN2
+
+                                                                                                                                  3.3V
+                                              SMBCLK         VDD33 (1,9,18)
+              SOC                             SMBDATA
+                                                                       N/C
+                                              RESET_N              PLLFILT
+                                              SUSP_IND              CRFILT
+              Clock
+                                                                     RBIAS
+                                                                                      RBIAS
+                                                                                                            CBYP      COUTCR      COUTPLL
+                                             XTALOUT
+                                             XTALIN                   GND
+
+
+
+
+FIGURE 2-6:           EXAMPLE APPLICATION - NON-SOC BASED DESIGN
+
+
+                                                                                     Vcc
+                                                      USB2422                 R1
+    USB               RVBUS                                                                        Power
+  Connector                     RVBUS                                                              Switch
+                                                           PRTPWR2(11)
+                                                            OCS2_N(12)
+                                                                                                                    Charger
+                                            VBUS_DET        USBDP_DN2                                               Enabled
+                                            USBDP_UP       USBDM_DN2                                                 Port
+                                            USBDM_UP
+                              Vcc
+                                                             PRTPWR1
+                      R2                                      OCS1_N
+                                                           USBDP_DN1                                           Non-removable
+                                            NON_REM0(17)                                                          Device
+                                                           USBDM_DN1
+                                            RESET_N
+                                                                                                                                     Vcc
+                                            CFG_SEL0(14)   VDD33 (1,9,18)
+                                            NON_REM1(13)
+                                                                     N/C
+                      R2            R2
+                                                                 PLLFILT
+                                                                  CRFILT
+                                                                  RBIAS
+                           Cx                                                      RBIAS
+                                            XTAL1(22)                                                        CBYP        COUTCR      COUTPLL
+                                    24MHz
+                                            XTAL2(21)               GND
+                           Cx
+
+
+
+
+DS00001726B-page 12                                                                            2013 - 2015 Microchip Technology Inc.
+                                                                         USB2422
+
+TABLE 2-5:         EXAMPLE APPLICATIONS - RESISTOR/CAPACITOR VALUES
+        Designator                    Value
+R1                                    20 kΩ
+R2                                    50 kΩ
+Cx                                    18 pF
+CBYP                                  1.0 uF
+COUTCR                                1.0 uF
+                                     (Note 2-1)
+COUTPLL                               0.1 uF
+                                     (Note 2-2)
+RBIAS                                 12 kΩ
+RVBUS                            100 kΩ
+ Note 2-1       COUTCR should be placed as close as possible to pin 9
+  Note 2-2      COUTPLL should be placed as close as possible to pin 1
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                  DS00001726B-page 13
+USB2422
+3.0       BATTERY CHARGING SUPPORT
+The USB2422 hub provides support for battery charging devices on a per port basis in compliance with the USB Battery
+Charging Specification, Revision 1.1. The hub can be configured to individually enable each downstream port for battery
+charging support either via pin strapping (Port 1 only) as illustrated in Figure 3-1 or by setting the corresponding config-
+uration bits via SMBus (Section 4.1 on page 16).
+
+
+FIGURE 3-1:            BATTERY CHARGING VIA EXTERNAL POWER SUPPLY
+
+
+                                            3.3 V             5.0 V
+
+
+
+                                                                       USB Port Power
+                                                                         Controller
+                                                RSTRAP
+
+                                                                      IN
+
+
+                        USB2422
+                                                    PRTPWR1           EN                          VBUS
+
+
+                                                    OCSx_N
+                                                                      FLAG
+
+
+
+  Note:     RSTRAP enables battery charging.
+
+
+
+3.1       USB Battery Charging
+A downstream port enabled for battery charging turns on port power as soon as the power on reset and hardware con-
+figuration process has completed. The hub does not need to be enumerated nor does VBUS_DET need to be asserted
+for the port power to be enabled. These conditions allow battery charging in S3, S4, and S5 system power states as well
+as in the fully operational state. The USB Battery Charging Specification does not interfere with standard USB operation,
+which allows a device to perform battery charging at any time.
+A port that supports battery charging must be able to support 1.5 amps of current on VBUS. Standard USB port power
+controllers typically only allow for 0.8 amps of current before detecting an over-current condition. Therefore, the 5 volt
+power supply, port power controller, or over-current protection devices must be chosen to handle the larger current
+demand compared to standard USB hub designs.
+
+3.1.1       SPECIAL BEHAVIOR OF PRTPWR PINS
+The USB2422 enables VBUS by asserting the port power (PRTPWR[2:1]) as soon as the hardware configuration pro-
+cess has completed. If the port detects an over-current condition, PRTPWR[2:1] will be turned off to protect the circuitry
+from overloading. If an over-current condition is detected when the hub is not enumerated, PRTPWR[2:1] can only be
+turned on from the host or if RESET_N is toggled. These behaviors provide battery charging even when the hub is not
+enumerated and protect the hub from sustained short circuit conditions. If the short circuit condition persists when the
+hub is plugged into a host system the user is notified that a port has an over-current condition. Otherwise PRTPWR[2:1]
+turned on by the host system and the ports operate normally.
+
+
+
+
+DS00001726B-page 14                                                                   2013 - 2015 Microchip Technology Inc.
+                                                                                             USB2422
+3.2      Battery Charging Configuration
+The battery charging option can be configured in one of two ways:
+• When the hub is brought up in the default configuration with strapping options enabled, with the PRTP-
+  WR1/BC_EN1 pin configured (Port 1 only). See the following sections for details:
+  - Section 2.3, "Pin Descriptions (Grouped by Function)," on page 7
+  - Section 2.5, "Strap Pin Configuration," on page 10
+• When the hub is initialized for configuration over SMBus.
+
+3.2.1       BATTERY CHARGING ENABLED VIA SMBUS
+Register memory map location 0xD0 is allocated for battery charging support. The Battery Charging register at location
+0xD0 starting from bit 1 enables battery charging for each downstream port when asserted. Bit 1 represents port 1, and
+bit 2 represents port 2. Each port that has battery charging enabled asserts the corresponding PRTPWR[2:1] pin.
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                         DS00001726B-page 15
+USB2422
+4.0       CONFIGURATION OPTIONS
+Microchip’s USB 2.0 hub is fully compliant with the USB Specification [1]. Refer to Chapter 10 (Hub Specification) for
+general details regarding hub operation and functionality.
+The hub provides one Transaction Translator (TT) that is shared by both downstream ports (defined as Single-TT con-
+figuration). The TT contains 4 non-periodic buffers.
+
+4.1       Hub Configuration
+The USB2422 only supports internal defaults with the exception of the non-removable strap option (using
+NON_REM[1:0]). The hub internal default settings are as follows:
+• Internal Default Configuration without over-rides
+• Strap options enabled
+• Self-powered operation enabled
+• Individual power switching
+• Individual over-current sensing
+TABLE 4-1:         HUB CONFIGURATION OPTIONS
+      CFG_SEL                                  Description
+         0         Default configuration:
+                   • Strap options enabled
+                   • Hub descriptors indicate the hub as “self-powered”
+         1         The hub is configured externally over SMBus (as an SMBus slave
+                   device with address 0101100b):
+                   • Strap options disabled
+                   • Self-powered or bus-powered depending on register settings
+                   • All registers configured over SMBus
+
+4.2       Resets
+There are two device resets: a hardware reset via RESET_N, and a USB Bus Reset.
+
+4.2.1        EXTERNAL HARDWARE RESET_N
+A valid hardware reset is defined as assertion of RESET_N for a minimum of 1 μs after all power supplies are within
+operating range. While reset is asserted, the hub (and its associated external circuitry) consumes less than 500 μA of
+current from the upstream USB power source.
+Assertion of RESET_N causes the following:
+1.    All downstream ports are disabled.
+2.    The PRTPWR power to downstream devices is turned on when battery charging is enabled for a specific port,
+      and removed when battery charging is disabled for a specific port.
+3.    The PHYs are disabled, and the differential pairs will be in a high-impedance state.
+4.    All transactions immediately terminate; no states are saved.
+5.    All internal registers return to the default state (in most cases, 00h).
+6.    The external crystal oscillator is halted.
+7.    The PLL is halted.
+
+
+
+
+DS00001726B-page 16                                                               2013 - 2015 Microchip Technology Inc.
+                                                                                                                    USB2422
+4.2.1.1         Hub Configuration Timing for Strapping Option
+
+
+FIGURE 4-1:                HUB CONFIGURATION TIMING
+
+                                                            Drive Strap      Attach         Attach
+                    Hardware               Read             Outputs to        USB         Debounce                       Start completion
+                  reset asserted        NON_REM[1:0]      inactive levels   Upstream       Interval          Idle       request response
+
+
+
+
+                                        t1                          t5                      t6              t7             t8
+                                             t2
+                                                  t3
+               RESET_N
+
+
+
+                   VSS
+                                                       t4
+
+           NON_REM[1:0]
+                           Don’t Care        Valid     Don’t Care                 Driven by Hub if strap is an output
+                   VSS
+
+
+
+
+TABLE 4-2:           HUB CONFIGURATION TIMING
+     Name                               Description                               MIN               TYP                 MAX                 Units
+      t1      RESET_N asserted                                                      1                                                       μsec
+      t2      Strap setup time                                                    16.7                                                      nsec
+      t3      Strap hold time                                                     16.7                                  1400                nsec
+      t4      Hub outputs driven to inactive logic states                                             1.5                  2                μsec
+      t5      USB attach (See Note)                                                                   3                                     μsec
+      t6      Host acknowledges attach and signals USB reset                      100                                                       msec
+      t7      USB idle                                                                           undefined                                  msec
+      t8      Completion time for requests (with or without data                                                           5                msec
+              stage)
+
+
+     Note:    All power supplies must have reached the operating levels mandated in Section 5.0, "DC Parameters",
+              prior to (or coincident with) the assertion of RESET_N.
+
+
+
+4.2.2         USB BUS RESET
+In response to the upstream port signaling a reset to the hub, the hub does the following:
+1.    Sets default address to 0.
+2.    Sets configuration to unconfigured.
+3.    The PRTPWR power to downstream devices is turned on when battery charging is enabled for a specific port,
+      and removed when battery charging is disabled for a specific port.
+4.    Clears all TT buffers.
+5.    Moves device from suspended to active (if suspended).
+6.    Complies with Section 11.10 of the USB 2.0 Specification for behavior after completion of the reset sequence.
+      The host then configures the hub and the hub’s downstream port devices in accordance with the specification.
+The hub does not propagate the upstream USB reset to downstream devices.
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                                                   DS00001726B-page 17
+USB2422
+4.3       SMBus
+The Microchip hub can be configured by an external processor via an SMBus interface (see Table 4-1 for details on
+enabling the SMBus interface). The Microchip hub waits indefinitely for the SMBus code load to complete and only
+appears as a newly connected device on USB after the code load is complete.
+The hub’s SMBus acts as a slave-only SMBus device. The implementation only supports block write (Section 4.3.2.1)
+and block read (Section 4.3.2.2) protocols. Reference the System Management Bus Specification [2] for additional infor-
+mation.
+Refer to Section 4.4, "SMBus Registers," on page 20 for details on all SMBus accessible registers.
+
+4.3.1       SMBUS SLAVE ADDRESS
+The 7-bit slave address is 0101100b. The hub will not respond to the general call address of 0000000b.
+
+4.3.2       PROTOCOL IMPLEMENTATION
+Typical block write and block read protocols are shown in figures 4-2 and 4-3. Register accesses are performed using
+7-bit slave addressing, an 8-bit register address field, and an 8-bit data field. The shading shown in the figures during a
+read or write indicates the hub is driving data on the SMBDATA line; otherwise, host data is on the SMBDATA line.
+The SMBus slave address assigned to the hub (0101100b) allows it to be identified on the SMBus. The register address
+field is the internal address of the register to be accessed. The register data field is the data that the host is attempting
+to write to the register or the contents of the register that the host is attempting to read.
+
+  Note:     Data bytes are transferred MSB first.
+
+4.3.2.1       Block Write/Read
+The block write begins with a slave address and a write condition. After the command code, the host issues a byte count
+which describes how many more bytes will follow in the message. If a slave had 20 bytes to send, the first byte would
+be the number 20 (14h), followed by the 20 bytes of data. The byte count may not be zero. A block write or read allows
+a transfer maximum of 32 data bytes.
+
+  Note:     For the following SMBus tables:
+
+                       Denotes Master-to-Slave                 Denotes Slave-to-Master
+
+
+
+
+FIGURE 4-2:               BLOCK WRITE
+
+
+                 1               7               1     1                    8            1
+                 S        Slave Address          Wr    A        Register Address         A   ...
+
+
+                      8              1       8             1            8          1               8          1    1
+                Byte Count = N       A   Data byte 1       A      Data byte 2      A           Data byte N    A    P
+
+
+
+
+DS00001726B-page 18                                                                             2013 - 2015 Microchip Technology Inc.
+                                                                                                   USB2422
+4.3.2.2       Block Read
+A block read differs from a block write in that the repeated start condition exists to satisfy the SMBus specification’s
+requirement for a change in the transfer direction.
+
+
+FIGURE 4-3:              BLOCK READ
+
+               1          7           1    1            8             1   1         7          1     1
+               S    Slave Address    Wr    A    Register Address     A    S   Slave Address    Rd    A
+                                                                                                          ...
+
+                     8           1         8        1           8         1               8         1     1
+              Byte Count = N     A    Data byte 1   A       Data byte 2   A         Data byte N     A     P
+
+
+
+
+4.3.2.3       Invalid Protocol Response Behavior
+Note that any attempt to update registers with an invalid protocol will not be updated. The only valid protocols are write
+block and read block (described above), where the hub only responds to the 7-bit hardware selected slave address
+(0101100b).
+
+4.3.3       SLAVE DEVICE TIMEOUT
+Devices in a transfer can abort the transfer in progress and release the bus when any single clock low interval exceeds
+25 ms (TTIMEOUT, MIN). The master must detect this condition and generate a stop condition within or after the transfer
+of the interrupted data byte. Slave devices must reset their communication and be able to receive a new START condi-
+tion no later than 35 ms (TTIMEOUT, MAX).
+
+  Note:     Some simple devices do not contain a clock low drive circuit; this simple kind of device typically resets its
+            communications port after a start or stop condition. The slave device timeout must be implemented.
+
+
+4.3.4       STRETCHING THE SCLK SIGNAL
+The hub supports stretching of the SCLK by other devices on the SMBus. However, the hub does not stretch the SCLK.
+
+4.3.5       SMBUS TIMING
+The SMBus slave interface complies with the SMBus Specification Revision 1.0 2.. See Section 2.1, AC Specifications
+on page 3 for more information.
+
+4.3.6       BUS RESET SEQUENCE
+The SMBus slave interface resets and returns to the idle state upon a START condition followed immediately by a STOP
+condition.
+
+4.3.7       SMBUS ALERT RESPONSE ADDRESS
+The SMBALERT# signal is not supported by the hub.
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                             DS00001726B-page 19
+USB2422
+4.4         SMBus Registers
+This section details the device SMBus registers.
+
+  Note:      Internal Default ROM values are not visible to THE SMBus interface and cannot be read. When the hub is
+             configured for SMBus register load, the entire register set must be written.
+
+
+TABLE 4-3:         INTERNAL DEFAULT AND SMBUS REGISTER MEMORY MAP
+                                                                                               Internal      SMBus &
+   Reg.
+                 Type                             Register Name                                Default       EEPROM
+  Address
+                                                                                                 ROM          Default
+      00h        R/W    Vendor ID Least Significant Bit Register (VIDL)                          24h             00h
+      01h        R/W    Vendor ID Most Significant Bit Register (VIDM)                           04h             00h
+      02h        R/W    Product ID Least Significant Bit Register (PIDL)                         22h             00h
+      03h        R/W    Product ID Most Significant Bit Register (PIDM)                          24h             00h
+      04h        R/W    Device ID Least Significant Bit Register (DIDL)                          A0h             00h
+      05h        R/W    Device ID Most Significant Bit Register (DIDM)                           00h             00h
+      06h        R/W    Configuration Data Byte 1 Register (CFG1)                                8Bh             00h
+      07h        R/W    Configuration Data Byte 2 Register (CFG2)                                20h             00h
+      08h        R/W    Configuration Data Byte 3 Register (CFG3)                                02h             00h
+      09h        R/W    Non-Removable Device Register (NRD)                                      00h             00h
+      0Ah        R/W    Port Disable for Self-Powered Operation Register (PDS)                   00h             00h
+      0Bh        R/W    Port Disable for Bus-Powered Operation Register (PDB)                    00h             00h
+      0Ch        R/W    Max Power for Self-Powered Operation Register (MAXPS)                    01h             00h
+      0Dh        R/W    Max Power for Bus-Powered Operation Register (MAXPB)                     32h             00h
+      0Eh        R/W    Hub Controller Max Current for Self-Powered Operation Register           01h             00h
+                        (HCMCS)
+      0Fh        R/W    Hub Controller Max Power for Bus-Powered Operation Register              32h             00h
+                        (HCMCB)
+      10h        R/W    Power-On Time Register (PWRT)                                            32h             00h
+      11h        R/W    Language ID High Register (LANGIDH)                                      00h             00h
+      12h        R/W    Language ID Low Register (LANGIDL)                                       00h             00h
+      13h        R/W    Manufacturer String Length Register (MFRSL)                              00h             00h
+      14h        R/W    Product String Length Register (PRDSL)                                   00h             00h
+      15h        R/W    Serial String Length Register (SERSL)                                    00h             00h
+   16h-53h       R/W    Manufacturer String Registers (MANSTR)                                   00h             00h
+   54h-91h       R/W    Product String Registers (PRDSTR)                                        00h             00h
+   92h-CFh       R/W    Serial String Registers (SERSTR)                                         00h             00h
+      D0h        R/W    Battery Charging Enable Register (BC_EN)                                 00h             00h
+   E0h-F5h         -    RESERVED                                                                   -              -
+      F6h        R/W    Boost Upstream Register (BOOSTUP)                                        00h             00h
+      F7h          -    RESERVED                                                                   -              -
+      F8h        R/W    Boost Downstream Register (BOOST40)                                      00h             00h
+      F9h          -    RESERVED                                                                   -              -
+      FAh        R/W    Port Swap Register (PRTSP)                                               00h             00h
+      FBh        R/W    Port 1/2 Remap Register (PRTR12)                                         00h             00h
+   FCh-FEh         -    RESERVED                                                                   -              -
+      FFh        R/W    Status/Command Register (STCD)                                           00h             00h
+
+
+
+
+DS00001726B-page 20                                                                  2013 - 2015 Microchip Technology Inc.
+                                                                                              USB2422
+4.4.1       VENDOR ID LEAST SIGNIFICANT BIT REGISTER (VIDL)
+
+
+                        Offset:            00h                  Size:            8 bits
+
+
+   Bits                                      Description                                      Type      Default
+   7:0      Least Significant Byte of the Vendor ID (VID_LSB)                                 R/W         00h
+            This is a 16-bit value that uniquely identifies the Vendor of the user device
+            (assigned by USB-Interface Forum). This field is set by the OEM using the
+            SMBus interface option.
+
+
+4.4.2       VENDOR ID MOST SIGNIFICANT BIT REGISTER (VIDM)
+
+
+                        Address:           01h                  Size:            8 bits
+
+
+   Bits                                      Description                                      Type      Default
+   7:0      Most Significant Byte of the Vendor ID (VID_LSB)                                  R/W         00h
+            This is a 16-bit value that uniquely identifies the Vendor of the user device
+            (assigned by USB-Interface Forum). This field is set by the OEM using the
+            SMBus interface options.
+
+
+4.4.3       PRODUCT ID LEAST SIGNIFICANT BIT REGISTER (PIDL)
+
+
+                        Address:           02h                  Size:            8 bits
+
+
+   Bits                                      Description                                      Type      Default
+   7:0      Least Significant Byte of the Product ID (PID_LSB)                                R/W         00h
+            This is a 16-bit value that the Vendor can assign that uniquely identifies this
+            particular product (assigned by OEM). This field is set by the OEM using the
+            SMBus interface options.
+
+
+4.4.4       PRODUCT ID MOST SIGNIFICANT BIT REGISTER (PIDM)
+
+
+                        Address:           03h                  Size:            8 bits
+
+
+   Bits                                      Description                                      Type      Default
+   7:0      Most Significant Byte of the Product ID (PID_LSB)                                 R/W         00h
+            This is a 16-bit value that the Vendor can assign that uniquely identifies this
+            particular product (assigned by OEM). This field is set by the OEM using
+            either SMBus interface options.
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                         DS00001726B-page 21
+USB2422
+4.4.5     DEVICE ID LEAST SIGNIFICANT BIT REGISTER (DIDL)
+
+
+                      Address:        04h                Size:          8 bits
+
+
+  Bits                                  Description                                    Type          Default
+   7:0    Least Significant Byte of the Device ID (DID_LSB)                             R/W            00h
+          This is a 16-bit device release number in BCD format (assigned by OEM).
+          This field is set by the OEM using either the SMBus interface options.
+
+
+4.4.6     DEVICE ID MOST SIGNIFICANT BIT REGISTER (DIDM)
+
+
+                      Address:        05h                Size:          8 bits
+
+
+  Bits                                  Description                                    Type          Default
+   7:0    Most Significant Byte of the Device ID (DID_LSB)                              R/W            00h
+          This is a 16-bit device release number in BCD format (assigned by OEM).
+          This field is set by the OEM using the SMBus interface options.
+
+
+
+
+DS00001726B-page 22                                                         2013 - 2015 Microchip Technology Inc.
+                                                                                              USB2422
+4.4.7       CONFIGURATION DATA BYTE 1 REGISTER (CFG1)
+
+                        Address:           06h                  Size:            8 bits
+
+
+   Bits                                      Description                                      Type         Default
+     7      Self or Bus Power (SELF_BUS_PWR)                                                  R/W            0b
+            Selects between Self- and Bus-Powered operation.
+
+            The Hub is either Self-Powered (draws less than 2mA of upstream bus
+            power) or Bus-Powered (limited to a 100mA maximum of upstream power
+            prior to being configured by the host controller).
+
+            When configured as a Bus-Powered device, the Hub consumes less than
+            100mA of current prior to being configured. After configuration, the Bus-
+            Powered Hub (along with all associated hub circuitry, any embedded devices
+            if part of a compound device, and 100mA per externally available
+            downstream port) must consume no more than 500mA of upstream VBUS
+            current. The current consumption is system dependent, and the OEM must
+            ensure that the USB2.0 specifications are not violated.
+
+            When configured as a Self-Powered device, <1mA of upstream VBUS
+            current is consumed and all ports are available, with each port being capable
+            of sourcing 500mA of current.
+
+            This field is set by the OEM using the SMBus interface option.
+            Please see the description under Dynamic Power for the self/bus power
+            functionality when dynamic power switching is enabled.
+
+            0 = Bus-Powered operation
+            1 = Self-Powered operation
+
+            Note:    If Dynamic Power Switching is enabled, this bit is ignored and the
+                     LOCAL_PWR pin is used to determine if the hub is operating from
+                     self or bus power.
+     6      RESERVED                                                                           -              -
+     5      High Speed Disable (HS_DISABLE)                                                   R/W            0b
+            Disables the capability to attach as either a High/Full- speed device, and
+            forces attachment as Full-speed only i.e. (no High-Speed support).
+
+            0 = High-/Full-Speed
+            1 = Full-Speed-Only (High-Speed disabled)
+     4      Multi-TT Enable (MTT_ENABLE)                                                      R/W            0b
+            Enables one transaction translator per port operation.
+
+            Selects between a mode where only one transaction translator is available
+            for all ports (Single-TT), or each port gets a dedicated transaction translator
+            (Multi-TT)
+            Note:    The host may force Single-TT mode only
+            0 = Single TT for all ports. Default to STT if MTT still exists
+            1 = One TT per port (multiple TT’s supported)
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                            DS00001726B-page 23
+USB2422
+  Bits                                     Description                                      Type          Default
+    3     EOP Disable (EOP_DISABLE)                                                          R/W             0b
+          Disables EOP generation of EOF1 when in Full-Speed mode. During FS
+          operation only, this permits the Hub to send EOP if no downstream traffic is
+          detected at EOF1. See Section 11.3.1 of the USB 2.0 Specification for
+          additional details.
+          Note:    generation of an EOP at the EOF1 point may prevent a Host
+                   controller (operating in FS mode) from placing the USB bus in
+                   suspend.
+          0 = An EOP is generated at the EOF1 point if no traffic is detected
+          1 = EOP generation at EOF1 is disabled (Note: This is normal USB
+          operation)
+
+          Note:    This is a rarely used feature in the PC environment. It is included
+                   because it is a permitted feature in Chapter 11 of the USB
+                   specification.
+   2:1    Over Current Sense (CURRENT_SNS)                                                   R/W            00b
+          Selects current sensing on a port-by-port basis, all ports ganged, or none
+          (only for bus-powered hubs) The ability to support current sensing on a port
+          or ganged basis is hardware implementation dependent.
+
+          00 = Ganged sensing (all ports together)
+          01 = Individual port-by-port
+          1x = Over current sensing not supported (Must only be used with Bus-
+          Powered configurations)
+    0     Port Power Switching (PORT_PWR)                                                    R/W             0b
+          Enables power switching on all ports simultaneously (ganged), or port power
+          is individually switched on and off on a port- by-port basis (individual). The
+          ability to support power enabling on a port or ganged basis is hardware
+          implementation dependent.
+
+          0 = Ganged switching (all ports together)
+          1 = Individual port-by-port switching
+
+
+
+
+DS00001726B-page 24                                                              2013 - 2015 Microchip Technology Inc.
+                                                                                              USB2422
+4.4.8       CONFIGURATION DATA BYTE 2 REGISTER (CFG2)
+
+                         Address:          07h                  Size:            8 bits
+
+
+   Bits                                      Description                                      Type         Default
+     7      Dynamic Power Enable (DYNAMIC)                                                    R/W            0b
+            Controls the ability of the Hub to automatically change from Self-Powered
+            operation to Bus- Powered operation if the local power source is removed or
+            is unavailable (and from Bus-Powered to Self-Powered if the local power
+            source is restored).
+            Note:     If the local power source is available, the Hub will always switch to
+                      Self-Powered operation.
+            When Dynamic Power switching is enabled, the Hub detects the availability
+            of a local power source by monitoring the external LOCAL_PWR pin. If the
+            Hub detects a change in power source availability, the Hub immediately
+            disconnects and removes power from all downstream devices and
+            disconnects the upstream port. The Hub will then re-attach to the upstream
+            port as either a Bus-Powered Hub (if local-power is unavailable) or a Self-
+            Powered Hub (if local power is available).
+
+            0 = No Dynamic auto-switching
+            (pin becomes SUSP_IND) and the hub controller will utilize the inverse of the
+            SELF_BUS_PWR bit for 'Hub_Status_Field' bit '0' (local power source)
+            1 = Dynamic Auto-switching capable
+            (pin becomes LOCAL_PWR) and the hub controller will utilize the
+            LOCAL_PWR pin for 'Hub_Status_Field' bit '0' (local power source)
+     6      RESERVED                                                                           -              -
+   5:4      Over Current Timer Delay (OC_TIMER)                                               R/W            00b
+            00 = 0.1ms
+            01 = 4ms
+            10 = 8ms
+            11 = 16ms
+     3      Compound Device (COMPOUND)                                                        R/W            0b
+            Allows the OEM to indicate that the Hub is part of a compound (see the USB
+            Specification for definition) device. The applicable port(s) must also be
+            defined as having a “Non-Removable Device”.
+            Note:    When configured via strapping options, declaring a port as non-
+                     removable automatically causes the hub controller to report that it
+                     is part of a compound device.
+            0 = No
+            1 = Yes, Hub is part of a compound device
+   2:0      RESERVED                                                                           -              -
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                            DS00001726B-page 25
+USB2422
+4.4.9     CONFIGURATION DATA BYTE 3 REGISTER (CFG3)
+
+                      Address:          08h                 Size:          8 bits
+
+
+  Bits                                    Description                                      Type          Default
+   7:4    RESERVED                                                                            -              -
+    3     Port Remapping Enable (PRTMAP_EN)                                                 R/W             0b
+          Selects the method used by the hub to assign port numbers and disable
+          ports
+
+          0 = Standard Mode
+          Strap options or the following registers are used to define which ports are
+          enabled, and the ports are mapped as Port'n' on the hub is reported as
+          Port'n' to the host, unless one of the ports is disabled, then the higher
+          numbered ports are remapped in order to report contiguous port numbers to
+          the host.
+
+          Register 0Ah: Port Disable For Self Powered Operation (Reset = 0x00)
+          Register 0Bh: Port Disable For Bus Powered Operation (Reset = 0x00).
+
+          1 = Port Re-Map mode
+          The mode enables remapping via Register FBh: Port Remap 12
+   2:1    RESERVED                                                                            -              -
+    0     String Enable (STRING_EN)                                                         R/W             0b
+          Enables string descriptor support.
+
+          0 = String support disabled
+          1 = String support enabled
+
+
+
+4.4.10    NON-REMOVABLE DEVICE REGISTER (NRD)
+
+                      Address:          09h                 Size:          8 bits
+
+
+  Bits                                    Description                                      Type          Default
+   7:0    Non-Removable Device (NR_DEVICE)                                                  R/W            00h
+          Indicates which port(s) include non- removable devices.
+
+          0 = port is removable
+          1 = port is non- removable
+
+          Informs the Host if one of the active physical ports has a permanent device
+          that is undetachable from the Hub.
+          Note:    The device must provide its own descriptor data.
+          When using the internal default option, the NON_REM[1:0] pins will
+          designate the appropriate ports as being non- removable.
+
+          Bit 7= Reserved
+          Bit 6= Reserved
+          Bit 5= Reserved
+          Bit 4= Reserved
+          Bit 3= Reserved
+          Bit 2= Port 2 non-removable
+          Bit 1= Port 1 non removable
+          Bit 0= Reserved
+
+
+
+
+DS00001726B-page 26                                                             2013 - 2015 Microchip Technology Inc.
+                                                                                               USB2422
+4.4.11      PORT DISABLE FOR SELF-POWERED OPERATION REGISTER (PDS)
+
+                        Address:           0Ah                   Size:           8 bits
+
+
+   Bits                                      Description                                       Type      Default
+   7:0      Port Disable Self-Powered (PORT_DIS_SP)                                            R/W         00h
+            Disables 1 or more ports.
+
+            0 = port is available
+            1 = port is disabled
+
+            During Self-Powered operation, when PRTMAP_EN = '0', this selects the
+            ports which will be permanently disabled, and are not available to be enabled
+            or enumerated by a Host Controller. The ports can be disabled in any order,
+            the internal logic will automatically report the correct number of enabled ports
+            to the USB Host, and will reorder the active ports in order to ensure proper
+            function.
+
+            When using the internal default option, the PRT_DIS[1:0] pins will disable the
+            appropriate ports.
+
+            Bit 7= Reserved
+            Bit 6= Reserved
+            Bit 5= Reserved
+            Bit 4= Reserved
+            Bit 3= Reserved
+            Bit 2= Port 2 Disable
+            Bit 1= Port 1 Disable
+            Bit 0= Reserved
+
+
+
+4.4.12      PORT DISABLE FOR BUS-POWERED OPERATION REGISTER (PDB)
+
+                        Address:           0Bh                   Size:           8 bits
+
+
+   Bits                                      Description                                       Type      Default
+   7:0      Port Disable Bus-Powered (PORT_DIS_BP)                                             R/W         00h
+            Disables 1 or more ports.
+
+            0 = port is available
+            1 = port is disabled
+
+            During Bus-Powered operation, when PRTMAP_EN = '0', this selects the
+            ports which will be permanently disabled, and are not available to be enabled
+            or enumerated by a Host Controller. The ports can be disabled in any order,
+            the internal logic will automatically report the correct number of enabled ports
+            to the USB Host, and will reorder the active ports in order to ensure proper
+            function.
+
+            When using the internal default option, the PRT_DIS[1:0] pins will disable the
+            appropriate ports.
+
+            Bit 7= Reserved
+            Bit 6= Reserved
+            Bit 5= Reserved
+            Bit 4= Reserved
+            Bit 3= Reserved
+            Bit 2= Port 2 Disable
+            Bit 1= Port 1 Disable
+            Bit 0= Reserved
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                          DS00001726B-page 27
+USB2422
+4.4.13    MAX POWER FOR SELF-POWERED OPERATION REGISTER (MAXPS)
+
+                      Address:          0Ch                 Size:           8 bits
+
+
+  Bits                                    Description                                     Type          Default
+   7:0    Max Power Self-Powered (MAX_PWR_SP)                                              R/W            00h
+          Value in 2mA increments that the Hub consumes from an upstream port
+          (VBUS) when operating as a self-powered hub. This value includes the hub
+          silicon along with the combined power consumption (from VBUS) of all
+          associated circuitry on the board. This value also includes the power
+          consumption of a permanently attached peripheral if the hub is configured as
+          a compound device, and the embedded peripheral reports 0mA in its
+          descriptors.
+          Note:    The USB2.0 Specification does not permit this value to exceed
+                   100mA.
+
+
+
+4.4.14    MAX POWER FOR BUS-POWERED OPERATION REGISTER (MAXPB)
+
+                      Address:          0Dh                 Size:           8 bits
+
+
+  Bits                                    Description                                     Type          Default
+   7:0    Max Power Bus-Powered (MAX_PWR_BP)                                               R/W            00h
+          Value in 2mA increments that the Hub consumes from an upstream port
+          (VBUS) when operating as a self-powered hub. This value includes the hub
+          silicon along with the combined power consumption (from VBUS) of all
+          associated circuitry on the board. This value also includes the power
+          consumption of a permanently attached peripheral if the hub is configured as
+          a compound device, and the embedded peripheral reports 0mA in its
+          descriptors.
+
+
+
+4.4.15    HUB CONTROLLER MAX CURRENT FOR SELF-POWERED OPERATION REGISTER
+          (HCMCS)
+
+                      Address:          0Eh                 Size:           8 bits
+
+
+  Bits                                    Description                                     Type          Default
+   7:0    Hub Controller Max Current Self-Powered (HC_MAX_C_SP)                            R/W            00h
+          Value in 2mA increments that the Hub consumes from an upstream port
+          (VBUS) when operating as a self- powered hub. This value includes the hub
+          silicon along with the combined power consumption (from VBUS) of all
+          associated circuitry on the board. This value does NOT include the power
+          consumption of a permanently attached peripheral if the hub is configured as
+          a compound device.
+          Note:    The USB2.0 Specification does not permit this value to exceed
+                   100mA.
+
+
+
+
+DS00001726B-page 28                                                            2013 - 2015 Microchip Technology Inc.
+                                                                                           USB2422
+4.4.16      HUB CONTROLLER MAX POWER FOR BUS-POWERED OPERATION REGISTER (HCMCB)
+
+                        Address:          0Fh                 Size:           8 bits
+
+
+   Bits                                     Description                                    Type      Default
+   7:0      Hub Controller Max Power Bus-Powered (MAX_PWR_BP)                              R/W         00h
+            Value in 2mA increments that the Hub consumes from an upstream port
+            (VBUS) when operating as a bus- powered hub. This value will include the
+            hub silicon along with the combined power consumption (from VBUS) of all
+            associated circuitry on the board. This value will NOT include the power
+            consumption of a permanently attached peripheral if the hub is configured as
+            a compound device.
+
+
+
+4.4.17      POWER-ON TIME REGISTER (PWRT)
+
+                        Address:          10h                 Size:           8 bits
+
+
+   Bits                                     Description                                    Type      Default
+   7:0      Power-On Time (POWER_ON_TIME)                                                  R/W         00h
+            The length of time that is takes (in 2 ms intervals) from the time the host
+            initiated power-on sequence begins on a port until power is good on that
+            port. System software uses this value to determine how long to wait before
+            accessing a powered-on port.
+
+
+
+4.4.18      LANGUAGE ID HIGH REGISTER (LANGIDH)
+
+                        Address:          11h                 Size:           8 bits
+
+
+   Bits                                     Description                                    Type      Default
+   7:0      USB Language ID High (LANG_ID_H)                                               R/W         00h
+            Upper 8 bits of the 16-bit language ID field.
+
+
+
+4.4.19      LANGUAGE ID LOW REGISTER (LANGIDL)
+
+                        Address:          12h                 Size:           8 bits
+
+
+   Bits                                     Description                                    Type      Default
+   7:0      USB Language ID Low (LANG_ID_L)                                                R/W         00h
+            Lower 8 bits of the 16-bit language ID field.
+
+
+
+4.4.20      MANUFACTURER STRING LENGTH REGISTER (MFRSL)
+
+                        Address:          13h                 Size:           8 bits
+
+
+   Bits                                     Description                                    Type      Default
+   7:0      Manufacturer String Length (MFR_STR_LEN)                                       R/W         00h
+            Maximum string length is 31 characters.
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                      DS00001726B-page 29
+USB2422
+4.4.21    PRODUCT STRING LENGTH REGISTER (PRDSL)
+
+                      Address:         14h                  Size:           8 bits
+
+
+  Bits                                   Description                                      Type          Default
+   7:0    Product String Length (PRD_STR_LEN)                                              R/W            00h
+          Maximum string length is 31 characters.
+
+
+
+4.4.22    SERIAL STRING LENGTH REGISTER (SERSL)
+
+                      Address:         15h                  Size:           8 bits
+
+
+  Bits                                   Description                                      Type          Default
+   7:0    Serial String Length (SER_STR_LEN)                                               R/W            00h
+          Maximum string length is 31 characters.
+
+
+
+4.4.23    MANUFACTURER STRING REGISTERS (MANSTR)
+
+                      Address:         16h-53h              Size:           8 bits
+
+
+  Bits                                   Description                                      Type          Default
+   7:0    Manufacturer String (MFR_STR)                                                    R/W            00h
+          UNICODE UTF-16LE per USB 2.0 Specification.
+          Maximum string length is 31 characters (62 Bytes).
+          Note:   The String consists of individual 16 Bit UNICODE UTF-16LE
+                  characters. The Characters will be stored starting with the LSB at
+                  the least significant address and the MSB at the next 8-bit location
+                  (subsequent characters must be stored in sequential contiguous
+                  address in the same LSB, MSB manner).
+
+
+
+4.4.24    PRODUCT STRING REGISTERS (PRDSTR)
+
+                      Address:         54h-91h              Size:           8 bits
+
+
+  Bits                                   Description                                      Type          Default
+   7:0    Product String (PRD_STR)                                                         R/W            00h
+          UNICODE UTF-16LE per USB 2.0 Specification.
+          Maximum string length is 31 characters (62 Bytes).
+          Note:   The String consists of individual 16 Bit UNICODE UTF-16LE
+                  characters. The Characters will be stored starting with the LSB at
+                  the least significant address and the MSB at the next 8-bit location
+                  (subsequent characters must be stored in sequential contiguous
+                  address in the same LSB, MSB manner).
+
+
+
+
+DS00001726B-page 30                                                            2013 - 2015 Microchip Technology Inc.
+                                                                                            USB2422
+4.4.25      SERIAL STRING REGISTERS (SERSTR)
+
+                        Address:          92h-CFh              Size:           8 bits
+
+
+   Bits                                     Description                                     Type         Default
+   7:0      Serial String (SER_STR)                                                         R/W            00h
+            UNICODE UTF-16LE per USB 2.0 Specification.
+            Maximum string length is 31 characters (62 Bytes).
+            Note:    The String consists of individual 16 Bit UNICODE UTF-16LE
+                     characters. The Characters will be stored starting with the LSB at
+                     the least significant address and the MSB at the next 8-bit location
+                     (subsequent characters must be stored in sequential contiguous
+                     address in the same LSB, MSB manner).
+
+
+
+4.4.26      BATTERY CHARGING ENABLE REGISTER (BC_EN)
+
+                        Address:          D0h                  Size:           8 bits
+
+
+   Bits                                     Description                                     Type         Default
+   7:0      Battery Charging Enable (BC_EN)                                                 R/W            00h
+            Enables the battery charging feature for the corresponding port.
+
+            0 = Battery Charging support is not enabled
+            1 = Battery charging support is enabled
+
+            Bit 7= Reserved
+            Bit 6= Reserved
+            Bit 5= Reserved
+            Bit 4= Reserved
+            Bit 3= Reserved
+            Bit 2= Port 2 Battery Charging Enable
+            Bit 1= Port 1 Battery Charging Enable
+            Bit 0= Reserved
+
+
+
+4.4.27      BOOST UPSTREAM REGISTER (BOOSTUP)
+
+                        Address:          F6h                  Size:           8 bits
+
+
+   Bits                                     Description                                     Type         Default
+   7:2      RESERVED                                                                         -              -
+   1:0      Boost Upstream (BOOST_IOUT_A)                                                   R/W            00b
+            USB electrical signaling drive strength Boost Bit for Upstream Port 'A'.
+
+            00 = Normal electrical drive strength
+            01 = Elevated electrical drive strength (+4% boost)
+            10 = Elevated electrical drive strength (+8% boost)
+            11 = Elevated electrical drive strength (+12% boost)
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                          DS00001726B-page 31
+USB2422
+4.4.28    BOOST DOWNSTREAM REGISTER (BOOST40)
+
+                      Address:          F8h                  Size:           8 bits
+
+
+  Bits                                    Description                                       Type          Default
+   7:4    RESERVED                                                                             -              -
+   3:2    Boost Downstream Port 2 (BOOST_IOUT_2)                                             R/W            00b
+          USB electrical signaling drive strength Boost Bit for Upstream Port '2'.
+
+          00 = Normal electrical drive strength
+          01 = Elevated electrical drive strength (+4% boost)
+          10 = Elevated electrical drive strength (+8% boost)
+          11 = Elevated electrical drive strength (+12% boost)
+   1:0    Boost Downstream Port 1 (BOOST_IOUT_1)                                             R/W            00b
+          USB electrical signaling drive strength Boost Bit for Upstream Port '1'.
+
+          00 = Normal electrical drive strength
+          01 = Elevated electrical drive strength (+4% boost)
+          10 = Elevated electrical drive strength (+8% boost)
+          11 = Elevated electrical drive strength (+12% boost)
+
+
+
+4.4.29    PORT SWAP REGISTER (PRTSP)
+
+                      Address:          FAh                  Size:           8 bits
+
+
+  Bits                                    Description                                       Type          Default
+   7:0    Port Swap (PRTSP)                                                                  R/W            00h
+          Swaps the Upstream and Downstream USB DP and DM Pins for ease of
+          board routing to devices and connectors.
+
+          0 = USB D+ functionality is associated with the DP pin and D- functionality
+          is associated with the DM pin.
+          1 = USB D+ functionality is associated with the DM pin and D- functionality
+          is associated with the DP pin
+
+          Bit 7= Reserved
+          Bit 6= Reserved
+          Bit 5= Reserved
+          Bit 4= Reserved
+          Bit 3= Reserved
+          Bit 2= Port 2 DP/DM Swap
+          Bit 1= Port 1 DP/DM Swap
+          Bit 0= Upstream Port DP/DM Swap
+
+
+
+
+DS00001726B-page 32                                                              2013 - 2015 Microchip Technology Inc.
+                                                                                            USB2422
+4.4.30      PORT 1/2 REMAP REGISTER (PRTR12)
+
+                          Address:            FBh                  Size:           8 bits
+
+
+   Bits                                         Description                                 Type      Default
+   7:0      Port 1/2 Remap (PRTR12)                                                         R/W         00h
+            When a hub is enumerated by a USB Host Controller, the hub is only
+            permitted to report how many ports it has, the hub is not permitted to select
+            a numerical range or assignment. The Host Controller will number the
+            downstream ports of the hub starting with the number '1', up to the number
+            of ports that the hub reported as having.
+
+            The host's port number is referred to as “Logical Port Number” and the
+            physical port on the hub is the “Physical Port Number”. When remapping
+            mode is enabled (PRTMAP_EN in the Configuration Data Byte 3 Register
+            (CFG3)), the hub's downstream port numbers can be remapped to different
+            logical port numbers assigned by the host.
+            Note:    The OEM must ensure that Contiguous Logical Port Numbers are
+                     used, starting from one up to the maximum number of enabled
+                     ports. This ensures that the hub's ports are numbered in
+                     accordance with the way a Host will communicate with the ports.
+            Bits[7:4] =    0000      Physical Port 2 is disabled
+                           0001      Physical Port 2 is mapped to Logical Port 1
+                           0010      Physical Port 2 is mapped to Logical Port 2
+                           0011      RESERVED
+                            to       Will default to 0000 value.
+                           1111
+            Bits[3:0] =    0000      Physical Port 1 is disabled
+                           0001      Physical Port 1 is mapped to Logical Port 1
+                           0010      Physical Port 1 is mapped to Logical Port 2
+                           0011      RESERVED
+                            to       Will default to 0000 value.
+                           1111
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                       DS00001726B-page 33
+USB2422
+4.4.31    STATUS/COMMAND REGISTER (STCD)
+
+                      Address:           FFh                    Size:            8 bits
+
+
+  Bits                                      Description                                         Type          Default
+   7:3    RESERVED                                                                                 -              -
+    2     SMBus Interface Power Down (INTF_PW_DN)                                                R/W             0b
+
+          0 = Interface is active
+          1 = Interface power down after ACK has completed
+          Note:    This bit is write once and is only cleared by assertion of the external
+                   RESET_N pin.
+    1     Reset (RESET)                                                                          R/W             0b
+          Resets the SMBus Interface and internal memory back to RESET_N
+          assertion default settings.
+
+          0 = Normal Run/Idle State
+          1 = Force a reset of the registers to their default state
+          Note:    During this reset, this bit is automatically cleared to its default value
+                   of 0.
+    0     USB Attach and Write Protect (USB_ATTACH)                                              R/W             0b
+
+          0 = SMBus slave interface is active
+          1 = Hub will signal a USB attach event to an upstream device, and the
+          internal memory that is not Modify capable in the address range 00h-FEh, is
+          “write-protected” to prevent unintentional data corruption.
+          Note:    This bit is write once and is only cleared by assertion of the external
+                   RESET_N pin.
+
+
+
+
+DS00001726B-page 34                                                                  2013 - 2015 Microchip Technology Inc.
+                                                                                                 USB2422
+5.0      DC PARAMETERS
+
+5.1      Maximum Ratings
+
+        Parameter                 Symbol         MIN          MAX             Units                  Comments
+Storage Temperature          TSTOR               -55           150             °C
+Lead Temperature                                                                         Refer to JEDEC Specification
+                                                                                         J-STD-020D 3.
+3.3 V supply voltage         VDD33                             4.6             V
+Voltage on any I/O pin                           -0.5          5.5             V
+Voltage on XTALIN                                -0.5          4.0             V
+Voltage on XTALOUT                               -0.5          2.5             V
+
+
+  Note 5-1      Refer to JEDEC Specification J-STD-020D [3].
+  Note 5-2      Stresses above the specified parameters could cause permanent damage to the device. This is a
+                stress rating only and functional operation of the device at any condition above those indicated in the
+                operation sections of this specification is not implied.
+  Note 5-3      When powering this device from laboratory or system power supplies, it is important that the absolute
+                maximum ratings not be exceeded or device failure can result. Some power supplies exhibit voltage
+                spikes on their outputs when the AC power is switched on or off. In addition, voltage transients on
+                the AC power line may appear on the DC output. When this possibility exists, it is suggested that a
+                clamp circuit be used.
+
+5.2      Operating Conditions
+
+        Parameter                 Symbol        MIN         MAX        Units                    Comments
+USB2422 Operating            TA                   0          70          °C         Ambient temperature in still air
+Temperature
+USB2422-i Operating          TA                  -40         85          °C         Ambient temperature in still air
+Temperature
+3.3 V supply voltage         VDD33               3.0         3.6         V
+3.3 V supply rise time       tRT33                0         400          μs         See Figure 5-1
+Voltage on any I/O pin                          -0.3         5.5         V          If any 3.3 V supply voltage drops
+                                                                                    below 3.0 V, then the MAX
+                                                                                    becomes:
+                                                                                    (3.3 V supply voltage) + 0.5
+Voltage on XTALIN                               -0.3     VDD12 +         V
+                                                           0.3
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                              DS00001726B-page 35
+USB2422
+
+FIGURE 5-1:             SUPPLY RISE TIME MODEL
+
+
+                    Voltage
+                                                      tRT33
+                       VDD33                                                 3.3 V      100%
+
+
+                                                                      90%
+
+
+
+
+                               10%
+                        VSS
+
+
+                                     t10%                           t90%        Time
+
+
+
+
+TABLE 5-1:         DC ELECTRICAL CHARACTERISTICS
+             Parameter                       Symbol     MIN   TYP    MAX        Units          Comments
+
+I, IS Type Input Buffer
+Low Input Level                        VILI                           0.8         V      TTL Levels
+High Input Level                       VIHI             2.0                       V
+Input Leakage                          IIL              -10           +10        μA      VIN = 0 to VDD33
+Hysteresis (IS only)                   VHYSI            250           350        mV
+Input Buffer with Pull-Up (IPU)
+Low Input Level                        VILI                           0.8         V      TTL Levels
+High Input Level                       VIHI             2.0                       V
+Low Input Leakage                      IILL             +35           +90        μA      VIN = 0
+High Input Leakage                     IIHL             -10           +10        μA      VIN = VDD33
+Input Buffer with Pull-Down (IPD)
+Low Input Level                        VILI                           0.8         V      TTL Levels
+High Input Level                       VIHI             2.0                       V
+Low Input Leakage                      IILL             +10           -10        μA      VIN = 0
+High Input Leakage                     IIHL             -35           -90        μA      VIN = VDD33
+ICLK Input Buffer
+Low Input Level                        VILCK                          0.3         V
+High Input Level                       VIHCK            0.9                       V
+Input Leakage                          IIL              -10           +10        μA      VIN = 0 to VDD33
+
+
+
+
+DS00001726B-page 36                                                          2013 - 2015 Microchip Technology Inc.
+                                                                                              USB2422
+TABLE 5-1:         DC ELECTRICAL CHARACTERISTICS (CONTINUED)
+               Parameter                    Symbol            MIN   TYP     MAX       Units        Comments
+
+O12, I/O12 & I/OSD12 Type Buffer
+Low Output Level                          VOL                                0.4       V      IOL = 12 mA @
+                                                                                              VDD33 = 3.3 V
+High Output Level                         VOH                 2.4                      V      IOH = -12 mA @
+                                                                                              VDD33 = 3.3 V
+Output Leakage                            IOL                 -10            +10       μA
+Hysteresis (SD pad only)                  VHYSC               250            350      mV      VIN = VDD33
+                                                                                              (Note 5-1)
+Supply Current Unconfigured               ICCINTHS                  40       45       mA
+Hi-Speed Host
+Supply Current                            ICCINTFS                  35       40       mA      Note 5-8
+Hi-Speed Host, each additional
+downstream port
+Supply Current                            IHCH1                     47       58       mA      Note 5-8
+Hi-Speed Host, 1 downstream port
+Supply Current                            IHCH2                     70       89       mA      Note 5-8
+Hi-Speed Host, 2 downstream ports
+Supply Current                            IFCC1                     29       40       mA      Note 5-8
+Full-Speed Host, 1 downstream port
+Supply Current                            IFCC2                     35       45       mA      Note 5-8
+Full-Speed Host, 2 downstream ports
+Supply Current Suspend                    ICSBY                     425    Note 5-     μA
+                                                                             6
+Supply Current Reset                      ICRST                     300    Note 5-     μA
+                                                                             7
+  Note 5-4      Output leakage is measured with the current pins in high impedance.
+  Note 5-5      See USB 2.0 Specification 1. for USB DC electrical characteristics.
+  Note 5-6      1000 μA for commercial temperature part, and 1200 μA for industrial temperature part.
+  Note 5-7      800 μA for commercial temperature part, and 1000 μA for industrial temperature part.
+  Note 5-8      Current measured during peak USB traffic and does not reflect the average current draw.
+
+
+5.2.1        PIN CAPACITANCE
+
+TABLE 5-2:         PIN CAPACITANCE
+                                                     Limits
+
+        Parameter              Symbol      MIN       TYP      MAX   Unit                Test Condition
+Clock Input Capacitance          CXTAL                          6   pF     All pins except USB pins and the pins
+                                                                           under the test tied to AC ground.
+Input Capacitance                 CIN                           6   pF     Capacitance TA = 25°C
+                                                                           fc = 1 MHz
+                                                                           VDD33 = 3.3 V
+Output Capacitance               COUT                           6   pF     The maximum capacitance values include
+                                                                           the full length of the pin pad.
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                         DS00001726B-page 37
+USB2422
+6.0     AC SPECIFICATIONS
+
+6.1     Oscillator/Crystal
+Parallel Resonant, Fundamental Mode, 24 MHz ±350 ppm.
+
+
+FIGURE 6-1:           TYPICAL CRYSTAL CIRCUIT
+
+
+
+                                                                     XTALIN
+                                                                     (CS1 = CB1 + CXTALIN)
+                          C1
+
+
+                                           Crystal    CL
+                                   C0
+
+                         C2                                         XTALOUT
+                                                                    (CS2 = CB2 + CXTALOUT)
+
+
+
+
+TABLE 6-1:      CRYSTAL CIRCUIT LEGEND
+  Symbol                 Description                                      In Accordance with
+C0            Crystal shunt capacitance
+                                                     Crystal manufacturer’s specification (See Note 6-1)
+CL            Crystal load capacitance
+CB            Total board or trace capacitance       OEM board design
+CS            Stray capacitance                      Microchip IC and OEM board design
+CXTAL         XTAL pin input capacitance             Microchip IC
+C1            Load capacitors installed on OEM       Calculated values based on Figure 6-2, "Formula to Find the
+              board                                  Value of C1 and C2" (See Note 6-2)
+C2
+
+
+FIGURE 6-2:           FORMULA TO FIND THE VALUE OF C1 AND C2
+
+
+                                         C1 = 2 x (CL – C0) – CS1
+
+                                         C2 = 2 x (CL – C0) – CS2
+
+  Note 6-1    C0 is usually included (subtracted by the crystal manufacturer) in the specification for CL and should
+              be set to 0 for use in the calculation of the capacitance formulas in Figure 6-2, "Formula to Find the
+              Value of C1 and C2". However, the PCB itself may present a parasitic capacitance between XTALIN
+              and XTALOUT. For an accurate calculation of C1 and C2, take the parasitic capacitance between
+              traces XTALIN and XTALOUT into account.
+  Note 6-2    Each of these capacitance values is typically approximately 18 pF.
+
+
+
+
+DS00001726B-page 38                                                              2013 - 2015 Microchip Technology Inc.
+                                                                                                USB2422
+6.2      External Clock
+50% Duty cycle ± 10%, 24 MHz ± 350 ppm.
+The external clock is recommended to conform to the signaling level designated in the JESD76-2 specification on 1.2 V
+CMOS Logic. XTALOUT should be treated as a weak (< 1 mA) buffer output.
+
+6.2.1       USB 2.0
+The Microchip hub conforms to all voltage, power, and timing characteristics and specifications as set forth in the USB
+2.0 Specification 1.. See the USB Specification for more information.
+
+6.3      SMBus Interface
+The Microchip hub conforms to all voltage, power, and timing characteristics and specifications as set forth in the SMBus
+1.0 Specification 2. for slave-only devices (except as noted in Section 4.3, "SMBus," on page 18).
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                            DS00001726B-page 39
+                                                                                                           7.0
+
+                                                                                         FIGURE 7-1:
+
+DS00001726B-page 40
+                                                                                                                             USB2422
+
+                                                                                                           PACKAGE OUTLINE
+
+
+                                                                                         24-SQFN PACKAGE
+
+
+
+
+                                          Note: For the most current package drawings,
+                                          see the Microchip Packaging Specification at
+                                          http://www.microchip.com/packaging
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.
+                                                            USB2422
+APPENDIX A:             ACRONYMS
+OCS:        Over-Current Sense
+PCB:        Printed Circuit Board
+PHY:        Physical Layer
+PLL:        Phase-Locked Loop
+SQFN:       Sawn Quad Flat No Leads
+RoHS:       Restriction of Hazardous Substances Directive
+SCL:        Serial Clock
+SIE:        Serial Interface Engine
+SMBus:      System Management Bus
+TT:         Transaction Translator
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                     DS00001726B-page 41
+USB2422
+APPENDIX B:           REFERENCES
+1.   Universal Serial Bus Specification, Version 2.0, April 27, 2000 (12/7/2000 and 5/28/2002 Errata)
+     USB Implementers Forum, Inc. http://www.usb.org
+2.   System Management Bus Specification, version 1.0
+     SMBus. http://smbus.org/specs/
+3.   JEDEC Specifications: JESD76-2 (June 2001) and J-STD-020D.1 (March 2008)
+     JEDEC Global Standards for the Microelectronics Industry.http://www.jedec.org/standards-documents
+4.   USB Battery Charging Specification, Revision 1.1, April 15, 2009
+     USB Implementers Forum, Inc. http://www.usb.org
+
+
+
+
+DS00001726B-page 42                                                            2013 - 2015 Microchip Technology Inc.
+                                                                                            USB2422
+APPENDIX C:             DATA SHEET REVISION HISTORY
+
+
+
+TABLE C-1:         REVISION HISTORY
+ REVISION LEVEL & DATE             SECTION/FIGURE/ENTRY                         CORRECTION
+  DS00001726B (08-21-15)          FIGURE 2-6: Example         Updated figure to correct removable and non-
+                                  Application - Non-SoC Based removable port assignments.
+                                  Design on page 12
+                                  Ordering Codes               Updated reel size to 5000.
+                                  Section 7.0, "Package        Removed tape and reel drawings.
+                                  Outline"
+DS00001726A replaces the previous SMSC version rev. 1.0
+      Rev. 1.0 (06-04-13)         Initial Revision
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                      DS00001726B-page 43
+USB2422
+THE MICROCHIP WEB SITE
+Microchip provides online support via our WWW site at www.microchip.com. This web site is used as a means to make
+files and information easily available to customers. Accessible by using your favorite Internet browser, the web site con-
+tains the following information:
+• Product Support – Data sheets and errata, application notes and sample programs, design resources, user’s
+  guides and hardware support documents, latest software releases and archived software
+• General Technical Support – Frequently Asked Questions (FAQ), technical support requests, online discussion
+  groups, Microchip consultant program member listing
+• Business of Microchip – Product selector and ordering guides, latest Microchip press releases, listing of semi-
+  nars and events, listings of Microchip sales offices, distributors and factory representatives
+
+CUSTOMER CHANGE NOTIFICATION SERVICE
+Microchip’s customer notification service helps keep customers current on Microchip products. Subscribers will receive
+e-mail notification whenever there are changes, updates, revisions or errata related to a specified product family or
+development tool of interest.
+To register, access the Microchip web site at www.microchip.com. Under “Support”, click on “Customer Change Notifi-
+cation” and follow the registration instructions.
+
+CUSTOMER SUPPORT
+Users of Microchip products can receive assistance through several channels:
+• Distributor or Representative
+• Local Sales Office
+• Field Application Engineer (FAE)
+• Technical Support
+Customers should contact their distributor, representative or field application engineer (FAE) for support. Local sales
+offices are also available to help customers. A listing of sales offices and locations is included in the back of this docu-
+ment.
+Technical support is available through the web site at: http://www.microchip.com/support
+
+
+
+
+DS00001726B-page 44                                                                   2013 - 2015 Microchip Technology Inc.
+                                                                                                                   USB2422
+PRODUCT IDENTIFICATION SYSTEM
+To order or obtain information, e.g., on pricing or delivery, refer to the factory or the listed sales office.
+
+            PART NO.            [X]         -     XXX       -         [X](1)            Examples:
+                                                                                        a)    USB2422/MJ
+             Device    Temperature               Package          Tape and Reel               Commercial temperature,
+                         Range                                      Option                    24-pin SQFN (4 x 4 mm) Tray
+                                                                                        b)    USB2422T/MJ
+                                                                                              Commercial temperature,
+  Device:               USB2422                                                               24-pin SQFN (4 x 4 mm) Tape & Reel
+                                                                                        c)    USB2422-I/MJ
+                                                                                              Industrial temperature,
+  Temperature           Blank       =   0°C to    +70°C    (Commercial)                       24-pin SQFN (4 x 4 mm) Tray
+  Range:                I           = -40°C to    +85°C    (Industrial)                 d)    USB2422T-I/MJ
+                                                                                              Industrial temperature,
+                                                                                              24-pin SQFN (4 x 4 mm) Tape & Reel
+  Package:              MJ      =     24-pin SQFN (4 x 4 mm)
+
+                                                                                        Note 1: Tape and Reel identifier only appears in the cat-
+  Tape and Reel         Blank       = Standard packaging (tray)                                 alog part number description. This identifier is
+  Option:               TR          = Tape and Reel (1)                                         used for ordering purposes and is not printed on
+                                                                                                the device package. Check with your Microchip
+                                                                                                Sales Office for package availability with the
+                                                                                                Tape and Reel option. Reel size is 5,000.
+
+
+
+
+ 2013 - 2015 Microchip Technology Inc.                                                                                DS00001726B-page 45
+USB2422
+
+    Note the following details of the code protection feature on Microchip devices:
+    •    Microchip products meet the specification contained in their particular Microchip Data Sheet.
+
+    •    Microchip believes that its family of products is one of the most secure families of its kind on the market today, when used in the
+         intended manner and under normal conditions.
+
+    •    There are dishonest and possibly illegal methods used to breach the code protection feature. All of these methods, to our
+         knowledge, require using the Microchip products in a manner outside the operating specifications contained in Microchip’s Data
+         Sheets. Most likely, the person doing so is engaged in theft of intellectual property.
+
+    •    Microchip is willing to work with the customer who is concerned about the integrity of their code.
+
+    •    Neither Microchip nor any other semiconductor manufacturer can guarantee the security of their code. Code protection does not
+         mean that we are guaranteeing the product as “unbreakable.”
+
+    Code protection is constantly evolving. We at Microchip are committed to continuously improving the code protection features of our
+    products. Attempts to break Microchip’s code protection feature may be a violation of the Digital Millennium Copyright Act. If such acts
+    allow unauthorized access to your software or other copyrighted work, you may have a right to sue for relief under that Act.
+
+
+
+    Information contained in this publication regarding device applications and the like is provided only for your convenience and may be
+    superseded by updates. It is your responsibility to ensure that your application meets with your specifications. MICROCHIP MAKES NO
+    REPRESENTATIONS OR WARRANTIES OF ANY KIND WHETHER EXPRESS OR IMPLIED, WRITTEN OR ORAL, STATUTORY OR
+    OTHERWISE, RELATED TO THE INFORMATION, INCLUDING BUT NOT LIMITED TO ITS CONDITION, QUALITY, PERFORMANCE,
+    MERCHANTABILITY OR FITNESS FOR PURPOSE. Microchip disclaims all liability arising from this information and its use. Use of Micro-
+    chip devices in life support and/or safety applications is entirely at the buyer’s risk, and the buyer agrees to defend, indemnify and hold
+    harmless Microchip from any and all damages, claims, suits, or expenses resulting from such use. No licenses are conveyed, implicitly or
+    otherwise, under any Microchip intellectual property rights unless otherwise stated.
+
+    Trademarks
+    The Microchip name and logo, the Microchip logo, dsPIC, FlashFlex, flexPWR, JukeBlox, KEELOQ, KEELOQ logo, Kleer, LANCheck,
+    MediaLB, MOST, MOST logo, MPLAB, OptoLyzer, PIC, PICSTART, PIC32 logo, RightTouch, SpyNIC, SST, SST Logo, SuperFlash and
+    UNI/O are registered trademarks of Microchip Technology Incorporated in the U.S.A. and other countries.
+    The Embedded Control Solutions Company and mTouch are registered trademarks of Microchip Technology Incorporated in the U.S.A.
+    Analog-for-the-Digital Age, BodyCom, chipKIT, chipKIT logo, CodeGuard, dsPICDEM, dsPICDEM.net, ECAN, In-Circuit Serial
+    Programming, ICSP, Inter-Chip Connectivity, KleerNet, KleerNet logo, MiWi, MPASM, MPF, MPLAB Certified logo, MPLIB, MPLINK,
+    MultiTRAK, NetDetach, Omniscient Code Generation, PICDEM, PICDEM.net, PICkit, PICtail, RightTouch logo, REAL ICE, SQI, Serial
+    Quad I/O, Total Endurance, TSHARC, USBCheck, VariSense, ViewSpan, WiperLock, Wireless DNA, and ZENA are trademarks of
+    Microchip Technology Incorporated in the U.S.A. and other countries.
+    SQTP is a service mark of Microchip Technology Incorporated in the U.S.A.
+    Silicon Storage Technology is a registered trademark of Microchip Technology Inc. in other countries.
+    GestIC is a registered trademarks of Microchip Technology Germany II GmbH & Co. KG, a subsidiary of Microchip Technology Inc., in
+    other countries.
+    All other trademarks mentioned herein are property of their respective companies.
+    © 2013 - 2015, Microchip Technology Incorporated, Printed in the U.S.A., All Rights Reserved.
+
+    ISBN: 9781632776990
+
+
+
+
+    QUALITY MANAGEMENT SYSTEM                                                 Microchip received ISO/TS-16949:2009 certification for its worldwide
+                                                                              headquarters, design and wafer fabrication facilities in Chandler and
+          CERTIFIED BY DNV                                                    Tempe, Arizona; Gresham, Oregon and design centers in California
+                                                                              and India. The Company’s quality system processes and procedures
+
+            == ISO/TS 16949 ==
+                                                                              are for its PIC® MCUs and dsPIC® DSCs, KEELOQ® code hopping
+                                                                              devices, Serial EEPROMs, microperipherals, nonvolatile memory and
+                                                                              analog products. In addition, Microchip’s quality system for the design
+                                                                              and manufacture of development systems is ISO 9001:2000 certified.
+
+
+
+DS00001726B-page 46                                                                             2013 - 2015 Microchip Technology Inc.
+                               Worldwide Sales and Service
+AMERICAS                       ASIA/PACIFIC                 ASIA/PACIFIC              EUROPE
+Corporate Office               Asia Pacific Office          China - Xiamen            Austria - Wels
+2355 West Chandler Blvd.       Suites 3707-14, 37th Floor   Tel: 86-592-2388138       Tel: 43-7242-2244-39
+Chandler, AZ 85224-6199        Tower 6, The Gateway         Fax: 86-592-2388130       Fax: 43-7242-2244-393
+Tel: 480-792-7200              Harbour City, Kowloon        China - Zhuhai            Denmark - Copenhagen
+Fax: 480-792-7277              Hong Kong                    Tel: 86-756-3210040       Tel: 45-4450-2828
+Technical Support:             Tel: 852-2943-5100           Fax: 86-756-3210049       Fax: 45-4485-2829
+http://www.microchip.com/      Fax: 852-2401-3431           India - Bangalore         France - Paris
+support
+                               Australia - Sydney           Tel: 91-80-3090-4444      Tel: 33-1-69-53-63-20
+Web Address:
+                               Tel: 61-2-9868-6733          Fax: 91-80-3090-4123      Fax: 33-1-69-30-90-79
+www.microchip.com              Fax: 61-2-9868-6755          India - New Delhi         Germany - Dusseldorf
+Atlanta                                                     Tel: 91-11-4160-8631      Tel: 49-2129-3766400
+                               China - Beijing
+Duluth, GA
+                               Tel: 86-10-8569-7000         Fax: 91-11-4160-8632      Germany - Karlsruhe
+Tel: 678-957-9614
+                               Fax: 86-10-8528-2104         India - Pune              Tel: 49-721-625370
+Fax: 678-957-1455
+                               China - Chengdu              Tel: 91-20-3019-1500      Germany - Munich
+Austin, TX                     Tel: 86-28-8665-5511
+Tel: 512-257-3370                                           Japan - Osaka             Tel: 49-89-627-144-0
+                               Fax: 86-28-8665-7889         Tel: 81-6-6152-7160       Fax: 49-89-627-144-44
+Boston                                                      Fax: 81-6-6152-9310
+                               China - Chongqing                                      Italy - Milan
+Westborough, MA
+                               Tel: 86-23-8980-9588         Japan - Tokyo             Tel: 39-0331-742611
+Tel: 774-760-0087              Fax: 86-23-8980-9500
+Fax: 774-760-0088                                           Tel: 81-3-6880- 3770      Fax: 39-0331-466781
+                               China - Dongguan             Fax: 81-3-6880-3771       Italy - Venice
+Chicago                        Tel: 86-769-8702-9880        Korea - Daegu             Tel: 39-049-7625286
+Itasca, IL
+                               China - Hangzhou             Tel: 82-53-744-4301       Netherlands - Drunen
+Tel: 630-285-0071
+Fax: 630-285-0075              Tel: 86-571-8792-8115        Fax: 82-53-744-4302       Tel: 31-416-690399
+                               Fax: 86-571-8792-8116        Korea - Seoul             Fax: 31-416-690340
+Cleveland
+                               China - Hong Kong SAR        Tel: 82-2-554-7200        Poland - Warsaw
+Independence, OH
+                               Tel: 852-2943-5100           Fax: 82-2-558-5932 or     Tel: 48-22-3325737
+Tel: 216-447-0464
+Fax: 216-447-0643              Fax: 852-2401-3431           82-2-558-5934
+                                                                                      Spain - Madrid
+                               China - Nanjing              Malaysia - Kuala Lumpur   Tel: 34-91-708-08-90
+Dallas
+                               Tel: 86-25-8473-2460         Tel: 60-3-6201-9857       Fax: 34-91-708-08-91
+Addison, TX
+                               Fax: 86-25-8473-2470         Fax: 60-3-6201-9859
+Tel: 972-818-7423                                                                     Sweden - Stockholm
+Fax: 972-818-2924              China - Qingdao              Malaysia - Penang         Tel: 46-8-5090-4654
+                               Tel: 86-532-8502-7355        Tel: 60-4-227-8870
+Detroit                                                                               UK - Wokingham
+                               Fax: 86-532-8502-7205        Fax: 60-4-227-4068
+Novi, MI                                                                              Tel: 44-118-921-5800
+Tel: 248-848-4000              China - Shanghai             Philippines - Manila      Fax: 44-118-921-5820
+                               Tel: 86-21-5407-5533         Tel: 63-2-634-9065
+Houston, TX
+Tel: 281-894-5983              Fax: 86-21-5407-5066         Fax: 63-2-634-9069
+                               China - Shenyang             Singapore
+Indianapolis
+                               Tel: 86-24-2334-2829         Tel: 65-6334-8870
+Noblesville, IN
+                               Fax: 86-24-2334-2393         Fax: 65-6334-8850
+Tel: 317-773-8323
+Fax: 317-773-5453              China - Shenzhen             Taiwan - Hsin Chu
+                               Tel: 86-755-8864-2200        Tel: 886-3-5778-366
+Los Angeles
+Mission Viejo, CA              Fax: 86-755-8203-1760        Fax: 886-3-5770-955
+Tel: 949-462-9523              China - Wuhan                Taiwan - Kaohsiung
+Fax: 949-462-9608              Tel: 86-27-5980-5300         Tel: 886-7-213-7828
+                               Fax: 86-27-5980-5118         Taiwan - Taipei
+New York, NY
+Tel: 631-435-6000              China - Xian                 Tel: 886-2-2508-8600
+                               Tel: 86-29-8833-7252         Fax: 886-2-2508-0102
+San Jose, CA
+                               Fax: 86-29-8833-7256         Thailand - Bangkok
+Tel: 408-735-9110
+                                                            Tel: 66-2-694-1351
+Canada - Toronto
+                                                            Fax: 66-2-694-1350
+Tel: 905-673-0699
+Fax: 905-673-6509
+                                                                                                      07/14/15
+
+
+
+
+     2013 - 2015 Microchip Technology Inc.                                                    DS00001726B-page 47
+

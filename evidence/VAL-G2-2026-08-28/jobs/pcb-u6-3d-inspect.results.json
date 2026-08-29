@@ -1,0 +1,21 @@
+[
+ {
+  "tag": "open-pcb",
+  "ok": true,
+  "result": {
+   "tabId": "59bef7e87cff4cd580561703b62d8c19@64325d0e55e0435abd018defb0089a9b",
+   "documentUuid": "59bef7e87cff4cd580561703b62d8c19",
+   "activated": true
+  }
+ },
+ {
+  "tag": "pcb-ids",
+  "ok": false,
+  "error": "MCP error -32602: Input validation error: Invalid arguments for tool list_pcb_primitive_ids: [\n  {\n    \"code\": \"invalid_value\",\n    \"values\": [\n      \"line\",\n      \"text\",\n      \"component\",\n      \"via\"\n    ],\n    \"path\": [\n      \"family\"\n    ],\n    \"message\": \"Invalid option: expected one of \\\"line\\\"|\\\"text\\\"|\\\"component\\\"|\\\"via\\\"\"\n  }\n]"
+ },
+ {
+  "tag": "dvj6b-now",
+  "ok": false,
+  "error": "EasyEDA bridge disconnected while waiting for b461dd31-16e9-4801-8001-b462ba2996a4"
+ }
+]

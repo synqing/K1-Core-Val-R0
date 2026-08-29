@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "usb1-identity-reconcile-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "Reconcile the canonical PCB lane after EasyEDA reopened: restamp the live source hash and record that USB1 Hirose is absent. No electrical or 3D write.",
+  "observed_delta": "Settled 3D PCB1 shows a USB-C shell floating above a blue board fragment with tabs above oval slots. Live API/source identity of that receptacle is U1 / C5250872 / GT-USB-7005A, not USB1 / C778726 / CX70M-24P1. USB2 is also absent. Hash length 653038.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/usb1-3d-reconcile-identity-2026-08-30b.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "identity",
+      "result": "OK",
+      "detail": "USB1 / C778726 / CX70M-24P1 is absent. The only USB-C on the PCB is U1 primitive 0f194aaf30bc2e32, footprint 0e0bf75fdf55a316, device c3bb4dd81905bb44."
+    },
+    {
+      "name": "hash restamp",
+      "result": "OK",
+      "detail": "Live PCB source is 653038:f5af355b after document activate and 3D preview open. Prior USB1 abort hash 658056:4134f164 is no longer live."
+    },
+    {
+      "name": "no new write",
+      "result": "OK",
+      "detail": "This transaction only opened documents and captured screenshots. U6, TVS and capacitors were not modified."
+    },
+    {
+      "name": "visual useful",
+      "result": "OK",
+      "detail": "3D still 2476x1129 shows the live USB-C body and board fragment. Companion 2D still u1-gtusb-2d-identity-2026-08-30.png shows the mid-mount footprint on the board edge."
+    }
+  ]
+}

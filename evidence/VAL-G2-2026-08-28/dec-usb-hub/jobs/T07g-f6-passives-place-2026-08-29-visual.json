@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07g-f6-passives-place-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Place C120 22uF, C121 100nF, C122 2.2uF and R81-R86 beside the F6 island. addIntoPcb false. No wires.",
+  "observed_delta": "55 percent F6-island view shows new capacitors and a resistor row beside U22–U25. C122 is the 2.2 µF C23630 after the 10 µF mis-pick was deleted. No new wires.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T07g-pas.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "C120 22uF present",
+      "result": "OK",
+      "detail": "004d113915448a0a CL21A226 22 µF at 1320,1300."
+    },
+    {
+      "name": "C121 and C122 present",
+      "result": "OK",
+      "detail": "C121 100 nF at 1420,800. C122 is C23630 2.2 µF 3a63da66b1222580 at 1580,800."
+    },
+    {
+      "name": "R81-R86 present",
+      "result": "OK",
+      "detail": "169 kΩ, three 100 kΩ, 470 Ω and 4.7 kΩ in a row at y=1200."
+    },
+    {
+      "name": "no new wires hub 41c8e652",
+      "result": "OK",
+      "detail": "Wires stay 787. Project 41c8e652."
+    }
+  ]
+}

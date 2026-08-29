@@ -1,0 +1,46 @@
+{
+  "source_hash": "653166:2951b526",
+  "alreadyOnPcb": true,
+  "u1": {
+    "des": "U1",
+    "id": "0f194aaf30bc2e32",
+    "sid": "C5250872",
+    "mid": "GT-USB-7005A",
+    "model": "7e3f17b4e5b64384aaa03075cd65e3e3",
+    "title": "J1_GT-USB-7005A",
+    "xf": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+    "model3d": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "7e3f17b4e5b64384aaa03075cd65e3e3",
+      "name": "J1_GT-USB-7005A"
+    }
+  },
+  "u6": {
+    "des": "U6-RTC",
+    "id": "02892aabec4ba06b",
+    "sid": "C2847497",
+    "mid": "MIMXRT1062DVJ6B",
+    "model": "de5664fd2ea74aa082831cfa5b198edb",
+    "title": "MIMXRT1061DVJ6B",
+    "xf": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+    "model3d": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "de5664fd2ea74aa082831cfa5b198edb",
+      "name": "MIMXRT1061DVJ6B"
+    }
+  },
+  "d1": {
+    "des": "D1-PWR1",
+    "id": "0898faa11cd37cac",
+    "sid": "USBLC6-2SC6_C323793.1",
+    "mid": "USBLC6-2SC6",
+    "model": "1370be37a17e44418ae52e2b4cc1f5e5",
+    "title": "SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95",
+    "xf": "110.236,113.364,0,90,0,0,0.0005,0.0005,0",
+    "model3d": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "uuid": "1370be37a17e44418ae52e2b4cc1f5e5",
+      "name": "SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95"
+    }
+  }
+}

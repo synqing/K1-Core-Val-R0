@@ -1,0 +1,114 @@
+{
+  "tries": [
+    {
+      "label": "openInEditor-personal",
+      "ok": false,
+      "err": "[object Object]"
+    },
+    {
+      "label": "openInEditor-project",
+      "result": "0c8e199e56e60728@64325d0e55e0435abd018defb0089a9b",
+      "ok": true
+    }
+  ],
+  "libFp": [
+    "constructor",
+    "copy",
+    "create",
+    "delete",
+    "get",
+    "getRenderImage",
+    "modify",
+    "openInEditor",
+    "search",
+    "searchByProperties",
+    "updateDocumentSource"
+  ],
+  "editor": [
+    "closeDocument",
+    "getSplitScreenIdByTabId",
+    "getTabsBySplitScreenId",
+    "openDocument",
+    "openLibraryDocument"
+  ],
+  "doc": {
+    "documentType": 4,
+    "uuid": "0c8e199e56e60728",
+    "tabId": "0c8e199e56e60728@64325d0e55e0435abd018defb0089a9b",
+    "parentLibraryUuid": "27700277ef7a49e48a0293bece6b2993"
+  },
+  "activeSourceLen": 74332,
+  "activeDocType": "PCB",
+  "activeHas3D": false,
+  "activeHasSeated": false,
+  "activeHead": "{\"type\":\"DOCHEAD\"}||{\"docType\":\"PCB\",\"client\":\"81129ee946def4a6\",\"uuid\":\"0c8e199e56e60728\",\"updateTime\":1787945902406,\"version\":\"1787945902406\",\"editVersion\":\"3.2.149.88089769\"}|\n{\"type\":\"CANVAS\",\"ticket\":1,\"id\":\"CANVAS\"}||{\"originX\":0,\"originY\":0,\"unit\":\"mm\",\"gridXSize\":10,\"gridYSize\":10,\"snapXSize\":0.003937,\"snapYSize\":0.003937,\"altSnapXSize\":1,\"altSnapYSize\":1,\"gridType\":\"NONE\",\"multiGridType\":\"NONE\",\"multiGridRatio\":5,\"highlightValue\":0.5}|\n{\"type\":\"LAYER\",\"ticket\":2,\"id\":\"[\\\"LAYER\\\",1]\"}||{",
+  "activeTypes": {
+    "DOCHEAD": 1,
+    "CANVAS": 1,
+    "LAYER": 60,
+    "LAYER_PHYS": 9,
+    "ACTIVE_LAYER": 1,
+    "NET": 1,
+    "RULE_TEMPLATE": 1,
+    "RULE": 14,
+    "RULE_SELECTOR": 1,
+    "PRIMITIVE": 37,
+    "SILK_OPTS": 2,
+    "PREFERENCE": 1,
+    "PAD": 30,
+    "FILL": 67,
+    "POLY": 11,
+    "ATTR": 2
+  },
+  "fpSourcesNowErr": "TypeError: Cannot read properties of undefined (reading 'message')",
+  "officialFpGet": {
+    "libraryType": "4",
+    "uuid": "44616f94c6914e79972b7923414e99c1",
+    "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+    "name": "USB-TYPE-C-SMD_CX70M-24P1",
+    "classification": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "libraryType": "4",
+      "primaryClassificationUuid": "8b8ca74dae3d4623b66aee30a1f4491e"
+    },
+    "description": ";SMD"
+  },
+  "officialFpFile": {
+    "name": "ProLib_pc_2026-08-29.elibz2",
+    "size": 8457
+  },
+  "pcbCompsWhileFpOpen": 0,
+  "panel": [
+    "closeBottomPanel",
+    "closeLeftPanel",
+    "closeRightPanel",
+    "constructor",
+    "isBottomPanelLocked",
+    "isLeftPanelLocked",
+    "isRightPanelLocked",
+    "openBottomPanel",
+    "openLeftPanel",
+    "openRightPanel",
+    "toggleBottomPanelLockState",
+    "toggleLeftPanelLockState",
+    "toggleRightPanelLockState"
+  ],
+  "fileMgr": [
+    "extractLibInfo",
+    "getDocumentFootprintSources",
+    "getDocumentSource",
+    "getFootprintFileByFootprintUuid",
+    "getPanelLibraryFileByPanelLibraryUuid",
+    "setDocumentSource"
+  ],
+  "pcbDoc": [
+    "save"
+  ],
+  "visible3dTitles": [
+    "2D Preview",
+    "3D Preview",
+    "Footprint",
+    "3D Model",
+    "<3D Model>"
+  ]
+}

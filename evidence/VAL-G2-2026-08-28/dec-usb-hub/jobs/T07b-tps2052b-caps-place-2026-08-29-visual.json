@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07b-tps2052b-caps-place-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Place three 100 nF capacitors beside TPS2052B for IN/OUT1/OUT2 local decoupling. addIntoPcb false. No wires.",
+  "observed_delta": "80 percent view shows three unwired 100 nF capacitors in a row beside the isolated TPS2052B, east of the hub island, with no prison box and no new wires.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T07b-caps.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "three 100nF caps beside U21",
+      "result": "OK",
+      "detail": "Primitives daf3578c, 22002ec9 and 16675eb0 sit at 1100, 1180 and 1260 on y=1000 beside U21."
+    },
+    {
+      "name": "not in a prison box",
+      "result": "OK",
+      "detail": "Caps sit in empty space. No decorative frame."
+    },
+    {
+      "name": "no new wires",
+      "result": "OK",
+      "detail": "Wire census stays 787."
+    },
+    {
+      "name": "hub project 41c8e652 not live",
+      "result": "OK",
+      "detail": "Project 41c8e652. Live not focused."
+    }
+  ]
+}

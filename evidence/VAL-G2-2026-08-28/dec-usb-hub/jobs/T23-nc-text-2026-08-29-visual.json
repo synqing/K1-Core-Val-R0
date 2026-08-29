@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T23-nc-text-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Hub unused, J1 SBU + all SuperSpeed, RT CHD_B / OTG2 NC. No frames. No SuperSpeed net names.",
+  "observed_delta": "200 percent J1 shows green X on TX1/TX2 SuperSpeed. 500 percent hub pin 6 has a green X. 500 percent U6 row shows N7 N12 P6 P7 NC while N6 stays RT_USB_VBUS. No SuperSpeed net names added. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T23-j1-nc.png",
+  "captured_after_settle": true,
+  "scale": "both",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "J1 SBU NC",
+      "result": "OK",
+      "detail": "A8 SBU1 and B8 SBU2 noConnected true."
+    },
+    {
+      "name": "J1 SuperSpeed NC",
+      "result": "OK",
+      "detail": "A2 A3 A10 A11 B2 B3 B10 B11 noConnected true. Green X visible on TX pairs."
+    },
+    {
+      "name": "Hub pin 6 NC",
+      "result": "OK",
+      "detail": "U20-USB pin 6 noConnected true. Green X in 500 percent shot."
+    },
+    {
+      "name": "RT OTG2 NC",
+      "result": "OK",
+      "detail": "N7 P6 P7 and N12 noConnected true. N6 remains RT_USB_VBUS."
+    },
+    {
+      "name": "No SuperSpeed net names",
+      "result": "OK",
+      "detail": "Source has no USB_SS SSTX SSRX TX1+/TX1- RX* net values."
+    }
+  ]
+}

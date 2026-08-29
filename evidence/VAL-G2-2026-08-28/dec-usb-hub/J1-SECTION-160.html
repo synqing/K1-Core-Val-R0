@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<title>J1 GT-USB-7005A on 1.60 mm — section</title>
+<style>
+  :root { --mm: 40px; }
+  body { font: 15px/1.4 ui-sans-serif, system-ui, sans-serif; margin: 24px; color: #111; background: #f7f5f0; }
+  h1 { font-size: 20px; margin: 0 0 8px; }
+  .meta { color: #444; margin-bottom: 16px; }
+  svg { background: #fff; border: 1px solid #ccc; display: block; }
+  .note { max-width: 720px; margin-top: 16px; }
+</style>
+</head>
+<body>
+<h1>J1 GT-USB-7005A on the locked 1.60 mm board</h1>
+<p class="meta">Scale 40 px = 1 mm. Section through the connector centreline. Datum: SMT solder face = PCB top. Numbers from the manufacturer STEP (SMT cluster Y = 0.400) and the Rev A0 drawing (height 3.64 mm, CH 0.40 mm). D-012 is unchanged.</p>
+<svg width="720" height="420" viewBox="0 0 720 420" role="img" aria-label="To-scale section of GT-USB-7005A on 1.60 mm PCB">
+  <!-- ground line / bottom of board -->
+  <!-- PCB: top at y=160, thickness 1.60mm = 64px, so bottom y=224 -->
+  <rect x="40" y="160" width="520" height="64" fill="#d8c9a0" stroke="#6a5a30"/>
+  <text x="560" y="175" font-size="12">PCB top</text>
+  <text x="560" y="228" font-size="12">PCB bottom</text>
+  <text x="300" y="198" font-size="12" text-anchor="middle">1.60 mm</text>
+
+  <!-- shell: 1.780 mm above top = 71.2px, 1.880 mm below top = 75.2px -->
+  <!-- top of shell at 160-71=89; bottom of shell at 160+75=235 -->
+  <rect x="80" y="89" width="200" height="146" fill="none" stroke="#222" stroke-width="2"/>
+  <text x="180" y="80" font-size="12" text-anchor="middle">shell 3.66 mm</text>
+
+  <!-- SMT tail on top -->
+  <rect x="260" y="156" width="28" height="4" fill="#c9a227"/>
+  <text x="290" y="152" font-size="11">SMT tails on top</text>
+
+  <!-- protrusion below bottom: 0.28 mm = 11.2 px; shell bottom 235, board bottom 224 -->
+  <line x1="70" y1="224" x2="70" y2="235" stroke="#b00" stroke-width="2"/>
+  <text x="20" y="250" font-size="12" fill="#b00">0.28 mm</text>
+  <text x="20" y="264" font-size="11" fill="#b00">keepout</text>
+
+  <!-- CH 0.40 mm below top = 16 px → mating axis at 176 -->
+  <line x1="80" y1="176" x2="280" y2="176" stroke="#06c" stroke-dasharray="4 3"/>
+  <text x="290" y="180" font-size="11" fill="#06c">CH 0.40 mm (plug axis)</text>
+
+  <!-- cutout hint -->
+  <rect x="80" y="160" width="160" height="64" fill="#f7f5f0" stroke="#6a5a30" stroke-dasharray="3 2"/>
+  <text x="160" y="250" font-size="11" text-anchor="middle">edge cutout</text>
+
+  <text x="40" y="300" font-size="13">This is not a clamshell. SMT sits on the top. The body occupies a cutout and hangs 0.28 mm below the bottom.</text>
+  <text x="40" y="320" font-size="13">CX70M is the other class: Hirose writes 0.8 mm max because the board is pinched. That part stays NO-GO.</text>
+  <text x="40" y="348" font-size="12">Sink below top (STEP) = 1.880 mm. 1.880 − 1.60 = 0.280 mm protrusion. D-012 not edited.</text>
+  <text x="40" y="368" font-size="12">Authority: D5g drawing SHA abe0fb3e…; STEP from D5g-GSwitch-GT-USB-7005A-3D.zip.</text>
+</svg>
+<p class="note">Appendix only. The bind letter is <code>CONNECTOR-COMPATIBILITY.md</code>. Family adjectives (“Sinker 1.9”, “CH 0.4”, “laminated board”) are not the proof; the SMT-face datum and the 1.60 mm stack are.</p>
+</body>
+</html>

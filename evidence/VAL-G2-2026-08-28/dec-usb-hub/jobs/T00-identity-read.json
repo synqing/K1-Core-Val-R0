@@ -1,0 +1,8 @@
+[
+  {"tool": "get_current_context", "tag": "ctx", "args": {}},
+  {"tool": "get_schematic_primitive", "tag": "new-j1", "args": {"primitiveId": "ea47c20de228fa3a"}},
+  {"tool": "get_schematic_primitive", "tag": "old-j1", "args": {"primitiveId": "e339"}},
+  {"tool": "list_schematic_component_pins", "tag": "new-j1-pins", "args": {"componentPrimitiveId": "ea47c20de228fa3a"}},
+  {"tool": "get_schematic_primitives_bbox", "tag": "bbox", "args": {"primitiveIds": ["ea47c20de228fa3a", "e339"]}},
+  {"tool": "compute_source_revision", "tag": "hash", "args": {}}
+]

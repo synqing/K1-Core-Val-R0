@@ -1,0 +1,418 @@
+                                                                           HIROSE KOREA CO.,LTD.                  Revision 2.0   April. 15, 2022
+                                                                                                                                  Page 1 of 13
+
+
+
+
+Aug.1.2026 Copyright 2026 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                                                   Designing and Handling Guidline
+                                                                                                                  for CX70M-24P1
+                                                                           HIROSE KOREA CO.,LTD.                                                        Revision 2.0             April. 15, 2022
+                                                                                                                                                                                  Page 2 of 13
+
+                                                                                                                         Table of contents
+
+                                                                              1. Revision History            ---------------------------------------------------------------------------------------
+                                                                                                                                                                                            3
+
+
+                                                                              2. Introduction
+                                                                                      2.1 Purpose      ---------------------------------------------------------------------------------------
+                                                                                                                                                                                            3
+                                                                                      2.2 Scope        --------------------------------------------------------------------------------------3
+                                                                                      2.3 Reference Specification ----------------------------------------------------------------------------------
+                                                                                                                                                                                          3
+
+
+
+
+Aug.1.2026 Copyright 2026 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                              3. Product Information
+                                                                                      3.1 Product Feature    ---------------------------------------------------------------------------------------
+                                                                                                                                                                                            4
+                                                                                      3.2 Specification      ---------------------------------------------------------------------------------------
+                                                                                                                                                                                            4
+                                                                                      3.3 Product Size       ---------------------------------------------------------------------------------------
+                                                                                                                                                                                            5
+                                                                                      3.4 Pin Assignment     ---------------------------------------------------------------------------------------
+                                                                                                                                                                                            5
+                                                                                      3.5 Manufacturing Date Code System          ---------------------------------------------------------------------
+                                                                                                                                                                                            6
+                                                                                      3.6 Part List    ---------------------------------------------------------------------------------------
+                                                                                                                                                                                            7
+                                                                                      3.7 Configuration of Product Name           ---------------------------------------------------------------------
+                                                                                                                                                                                            7
+                                                                                      3.8 Reel Dimensions ---------------------------------------------------------------------------------------
+                                                                                                                                                                                         8
+                                                                                      3.9 Emboss Carrier Tape Dimensions          ---------------------------------------------------------------------
+                                                                                                                                                                                            8
+                                                                                    3.10 Packing Quantity ---------------------------------------------------------------------------------------
+                                                                                                                                                                                         8
+                                                                                    3.11 Peeling Force       ---------------------------------------------------------------------------------------
+                                                                                                                                                                                            8
+                                                                                    3.12 Product Dimension          ----------------------------------------------------------------------------------
+                                                                                                                                                                                            9
+
+
+                                                                              4. Notice for Soldering
+                                                                                      4.1 Recommended Reflow Temperature Profile--------------------------------------------------------------
+                                                                                                                                                                                  10
+                                                                                      4.2 PCB Designing      --------------------------------------------------------------------------------------
+                                                                                                                                                                                          11
+                                                                                      4.3 PCB Thickness      --------------------------------------------------------------------------------------
+                                                                                                                                                                                          11
+                                                                                      4.4 Metal Mask Designing ----------------------------------------------------------------------------------
+                                                                                                                                                                                      12
+                                                                                      4.5 Solder Paste       --------------------------------------------------------------------------------------
+                                                                                                                                                                                          12
+
+
+                                                                              5 Notice for Connector Handling
+                                                                                      5.1 Mating plug        --------------------------------------------------------------------------------------
+                                                                                                                                                                                          13
+                                                                           HIROSE KOREA CO.,LTD.                                                   Revision 2.0            April. 15, 2022
+                                                                                                                                                                              Page 3 of 13
+
+
+                                                                              1. Revision History
+                                                                                             Revision History           Date           Handled by                   Remarks
+                                                                                                    1.0          June. 27, 2018          JH.BOO                   Draft version
+                                                                                                    2.0          April. 15, 2022         SK.JANG                    Revised
+
+
+
+                                                                              2. Introduction
+                                                                                  2.1 Purpose
+
+
+
+
+Aug.1.2026 Copyright 2026 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                                           The guidelines are intended to provide information on product features and how to
+                                                                                           handle them.
+                                                                                           Guidelines are intended to provide general information and do not limit your design
+                                                                                           or guarantee results in all situations.
+
+
+
+
+                                                                                  2.2 Scope
+                                                                                           Guidelines describe basic design information, recommended device dimensions,
+                                                                                           and regulatory requirements.
+                                                                                           These guidelines will be revised from time to time to reflect changes in technology
+                                                                                           and production capacity.
+
+
+
+
+                                                                                  2.3 Reference Specification
+                                                                                           - Universal Serial Bus Type-C Cable and Connector Specification
+                                                                                               Revision 2.1 May 2021
+                                                                           HIROSE KOREA CO.,LTD.                                                          Revision 2.0            April. 15, 2022
+                                                                                                                                                                                   Page 4 of 13
+
+
+                                                                              3. Product Information
+                                                                                  3.1 Product Feature
+                                                                                           * USB3.0(5Gbps), high speed transmission
+                                                                                           * Minimized length design for space saving
+                                                                                             - Length : 8.35mm
+                                                                                           * Reversible plug orientation ensures easy insertion
+                                                                                           * Hybrid mounting design provides easy inspection and rework
+                                                                                           * Compliant to USB specification
+
+
+
+
+Aug.1.2026 Copyright 2026 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                                             - USB Type-C compliant interface connector.
+
+
+                                                                                  3.2 Specification
+                                                                                              No. of Contacts                 24
+                                                                                              P.C.B Mounting type             Mid-mount
+                                                                                              Soldering type                  Right angle Hybrid (SMT+Dip)
+
+                                                                                                                              DC 5A max. for Vbus & GND
+                                                                                              Current rating                  DC 1.25A for Vconn
+                                                                                                                              DC 0.25A for the other pins
+
+                                                                                              Voltage rating                  48V AC/DC
+                                                                                              Operating Temperature           -40℃ ~ +105℃ (Including Temp.rise), 95% RH MAX
+                                                                                              Storage Condition               -10℃ ~ +60℃ (With Packing), 15% ~ 70% RH
+                                                                                              Contact Resistance              40mΩ Max. (Initial)
+                                                                                              Withstanding Voltage            100V AC for 1 minute
+                                                                                              Insulation Resistance           100MΩ Min. (500V DC)
+                                                                                              Mating Cycles                   10,000 times
+                                                                                              Insertion/ Extraction Force Insertion: 5~20N, Extraction: 8~20N
+
+
+                                                                                           Note
+                                                                                                   * Storage conditions apply to original packaging only, void if opened. Warranty period is
+                                                                                                    12month max. in the storage conditions above and calculated by manufacture date code.
+                                                                           HIROSE KOREA CO.,LTD.                                                            Revision 2.0                         April. 15, 2022
+                                                                                                                                                                                                  Page 5 of 13
+
+
+                                                                                  3.3 Product Size
+                                                                                                          11.4
+
+
+
+
+                                                                                                                                                                   Width                    11.4
+                                                                                                                    8.35                                           Length                   8.35
+                                                                                                                                                                   Height                   3.66
+
+
+
+
+Aug.1.2026 Copyright 2026 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                                                           8.34
+
+
+
+                                                                                2.56                                3.66
+
+
+                                                                                                                                 2.60                 5.05
+
+                                                                                  3.4 Pin Assignment
+
+
+                                                                                                    Mating Area        A1      A2    A3     A4        A5     A6     A7     A8        A9    A10   A11   A12
+                                                                                                                      GND TX1+ TX1- Vbus          CC1        D+     D-   SBU1 Vbus RX2- RX2+ GND
+
+
+                                                                                                                      GND RX1+ RX1- Vbus SBU2                D-     D+     CC2 Vbus TX2- TX2+ GND
+                                                                                                                       B12    B11    B10    B9        B8     B7     B6     B5        B4    B3     B2    B1
+
+                                                                                                                                A1   A2    A3    A4    A5     A6    A7   A8     A9    A10 A11 A12
+
+                                                                                            Detail A
+
+
+                                                                                                                               B12 B11 B10       B9    B8     B7    B6   B5     B4    B3    B2    B1
+                                                                                                   Soldering Area
+                                                                                                                                                            Detail A
+
+
+
+                                                                                                                                           B9     B8         B7     B6        B5      B4
+
+
+                                                                                                                             B12 B11 B10 A1 A2 A3 A4 A5 A6 A7 A8 A9 A10A11 A12 B3 B2 B1
+
+
+
+
+                                                                                                                                                            Detail B
+                                                                                       Detail B
+                                                                           HIROSE KOREA CO.,LTD.                                                                    Revision 2.0   April. 15, 2022
+                                                                                                                                                                                    Page 6 of 13
+
+
+                                                                                  3.5 Manufacturing Date Code System
+
+
+
+
+Aug.1.2026 Copyright 2026 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                                                        HYMDDL                           Date Code
+
+
+                                                                                               H   Y      M         DD       L
+
+
+                                                                                                                                            Production Line
+                                                                                                                                            Day
+                                                                                                                                            Month
+                                                                                                                                            Year
+                                                                                                                                            Maker
+
+
+                                                                                           Maker                  Year           Month           Day       Production Line
+                                                                                         Ex.       Mark   Ex.       Mark     Ex.    Mark    Ex.    Mark       Ex.        Mark
+                                                                                                          2018           8   Jan.    1      1st      01     SAMPLE          S
+                                                                                                          2019           9   Feb.    2      2nd      02    Manual #1        1
+                                                                                                          2020           0   Mar.    3      3rd      03    Manual #2        2
+                                                                                                          2021           1   Apr.    4      4th      04    Manual #3        3
+                                                                                                          2022           2   May     5      5th      05    Manual #4        4
+                                                                                                          2023           3   Jun.    6      6th      06       …            …
+                                                                                 HiroseKorea        H
+                                                                                                          2024           4   Jul.    7      7th      07     Auto #1         A
+                                                                                                          2025           5   Aug.    8      8th      08     Auto #2         B
+                                                                                                          2026           6   Sep.    9      9th      09     Auto #3         C
+                                                                                                          2027           7   Oct.    A      10th     10     Auto #4         D
+                                                                                                              …          …   Nov.    B      11th     11     Auto #5         E
+                                                                                                              …          …   Dec.    C       …         …      …            …
+                                                                           HIROSE KOREA CO.,LTD.                                                                   Revision 2.0            April. 15, 2022
+                                                                                                                                                                                            Page 7 of 13
+
+
+                                                                                  3.6 Part List
+
+
+                                                                                             No            Part         Materials                                  Color / Finish
+                                                                                               1         Insulator    Thermal Plastic   UL94V-0, Black Color
+
+                                                                                                                                        Contact Area: Au0.05㎛ Min over Pd-Ni0.75㎛ Min over Ni1.0~5.0㎛
+                                                                                               2         Contact       Copper Alloy
+                                                                                                                                        Lead Area: Au0.05㎛ Min over Ni1.0~5.0㎛
+
+                                                                                               3       Ground Plate   Stainless Steel   Nickel Plating
+                                                                                               4        Mid Plate     Stainless Steel   Nickel Plating
+
+
+
+
+Aug.1.2026 Copyright 2026 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                                               5       Metal Shell    Stainless Steel   Nickel Plating
+
+
+
+                                                                                                                                                                                       2
+
+
+
+
+                                                                                                   1                             3                         5
+                                                                                                               4
+                                                                                  3.7 Configuration of Product Name
+
+                                                                                                                      CX      70        M        -        24 P 1
+                                                                                                                       1        2       3                 4    5   6
+
+
+                                                                                             1 Series Name                                           CX
+                                                                                             2 Soldering Type                               60       Paddle Card
+                                                                                                                                            70       Right angle Hybird (SMT+Dip)
+                                                                                                                                            80       Straight SMT
+                                                                                                                                            90       Rignt angle SMT
+                                                                                             3 Mounting Type                                B        Top-mount
+                                                                                                                                            M        Mid-mount
+                                                                                             4 Contact No                                            24
+                                                                                             5 Contact Type                                 P        Male contacts
+                                                                                                                                            S        Female contacts
+                                                                                             6 Serial No                                             None or 1, 2, 3, …
+                                                                           HIROSE KOREA CO.,LTD.                                                  Revision 2.0   April. 15, 2022
+                                                                                                                                                                  Page 8 of 13
+
+
+                                                                                  3.8 Reel Dimensions
+
+
+
+
+Aug.1.2026 Copyright 2026 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                                  3.9 Emboss Carrier Tape Dimensions
+
+
+
+
+                                                                                           ※ Emboss Tape was designed in accordance with EIA-481
+
+
+                                                                                  3.10 Packing Quantity Peer Reel: 1,500 PCS
+
+
+                                                                                  3.11 Peeling Strength:
+                                                                                           Cover tape shall have a total peel strength of from 0.1N to 1.3N
+                                                                           HIROSE KOREA CO.,LTD.            Revision 2.0   April. 15, 2022
+                                                                                                                            Page 9 of 13
+
+
+                                                                                  3.12 Product Dimensions
+
+
+
+
+Aug.1.2026 Copyright 2026 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                           HIROSE KOREA CO.,LTD.                                                   Revision 2.0            April. 15, 2022
+                                                                                                                                                                           Page 10 of 13
+
+
+
+                                                                             4. Notice for Soldering
+                                                                                  4.1 Recommended Reflow Temperature Profile
+
+
+
+
+Aug.1.2026 Copyright 2026 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                                           • Profile measuring point
+                                                                                              The temperature profile indicates the board surface temperature at the point of
+                                                                                              contacts with the connector terminals.
+
+
+                                                                                           • Reflow cycles
+                                                                                              Up to 2 cycles of reflow soldering are possible under the same conditions.
+                                                                                              * Temperature between 1st and 2nd reflow must be cooled down to room temperature
+
+
+                                                                                           • Reflow heating method and condition
+                                                                                              Far-infrared heater and hot convective blowers used in combination,
+                                                                                              normal atmosphere, or nitrogen atmosphere.
+
+
+                                                                                           • Top surface of the contact leads may not covered by solder depending on reflow
+                                                                                              condition
+                                                                           HIROSE KOREA CO.,LTD.                                            Revision 2.0   April. 15, 2022
+                                                                                                                                                           Page 11 of 13
+
+
+                                                                                  4.2 PCB Designing
+                                                                                                            RECOMMENDED PCB LAYOUT (TOP-VIEW)
+                                                                                                                     (REFERENCE ONLY)
+
+
+
+
+Aug.1.2026 Copyright 2026 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+
+
+
+
+                                                                                  4.3 PCB Thickness
+                                                                                           Recommended PCB thickness is 0.8mm.
+                                                                           HIROSE KOREA CO.,LTD.                                                Revision 2.0   April. 15, 2022
+                                                                                                                                                               Page 12 of 13
+
+
+                                                                                  4.4 Metal Mask Designing
+
+                                                                                                          RECOMMENDED METAL MASK LAYOUT (TOP-VIEW)
+                                                                                                                        (REFERENCE ONLY)
+
+
+
+
+Aug.1.2026 Copyright 2026 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+
+                                                                                           • Metal mask thickness: 0.10mm
+                                                                                           • Open rate: 100%
+                                                                                                               Opening size of mask
+                                                                                              Open rate(%) =
+                                                                                                                 Land size of PCB
+
+
+                                                                                  4.5 Solder Paste
+                                                                                             Lead-free solder paste
+                                                                           HIROSE KOREA CO.,LTD.                                               Revision 2.0           April. 15, 2022
+                                                                                                                                                                      Page 13 of 13
+
+
+
+                                                                              5 Notice for Connector Handling
+                                                                                  5.1 Mating Plug
+                                                                                           Please use USB Type-C Plug only
+
+
+                                                                                                   With USB Type-C Plug                        With the other Plugs
+
+
+
+
+Aug.1.2026 Copyright 2026 HIROSE ELECTRIC CO., LTD. All Rights Reserved.
+                                                                                                                      Examples of plugs (Prohibited)
+

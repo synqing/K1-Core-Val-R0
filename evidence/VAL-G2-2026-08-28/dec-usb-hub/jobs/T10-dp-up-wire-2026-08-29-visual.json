@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T10-dp-up-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "J1 after ESD to USB_DP_UP/USB_DM_UP on U20.20/19. Lift RT L8/M8. Keep D1.",
+  "observed_delta": "426 percent U20 view shows pin 20 USB_DP_UP and pin 19 USB_DM_UP. Inlet 698 percent view keeps D1-PWR1 USBLC6 with USB_DP_PROT/USB_DN_PROT. USB_DP_RT/USB_DN_RT removed from source. Hub 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T10-u20-us.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "RUSB far side USB_DP_UP",
+      "result": "OK",
+      "detail": "RUSB_DP pin 2 wire 284a237049e52ab4 net USB_DP_UP. USB_DP_RT gone."
+    },
+    {
+      "name": "U20 pin 20 USB_DP_UP",
+      "result": "OK",
+      "detail": "U20-USB pin 20 USBDP_UP labelled USB_DP_UP at 570,810."
+    },
+    {
+      "name": "U20 pin 19 USB_DM_UP",
+      "result": "OK",
+      "detail": "U20-USB pin 19 USBDM_UP labelled USB_DM_UP at 570,800."
+    },
+    {
+      "name": "RT L8 M8 lifted",
+      "result": "OK",
+      "detail": "USB_DP_RT and USB_DN_RT count 0. L8/M8 stubs ebrw000226/228 deleted."
+    },
+    {
+      "name": "D1 kept",
+      "result": "OK",
+      "detail": "D1-PWR1 still at 385,4120 with USB_DP_J1/USB_DN_J1 and PROT pins."
+    },
+    {
+      "name": "hub 41c8e652",
+      "result": "OK",
+      "detail": "currentProject.uuid 41c8e652. Hash 3026989:a0e820b9."
+    }
+  ]
+}

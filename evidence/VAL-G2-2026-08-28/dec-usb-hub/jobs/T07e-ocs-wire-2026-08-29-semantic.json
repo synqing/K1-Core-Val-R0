@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07e-ocs-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2962347:2f3e9ca7",
+  "post_source_hash": "2968924:2baf2247",
+  "saved": true,
+  "affected": [
+    {"net": "USB_OCS1_N", "members": ["U20.8", "U21.8"], "source_hits": 9, "wire": "3577604ba14aeb45"},
+    {"net": "USB_OCS2_N", "members": ["U20.12", "U21.5"], "source_hits": 7, "wire": "ab6ad0fc563ec7a6"},
+    {"net": "5V_USB", "note": "U22 IN/EN restored after unmerge; not shared with OCS"},
+    {"net": "5V0_USB_VALID", "note": "U21 IN / U22 OUT restored after unmerge; not shared with OCS"}
+  ],
+  "census": {
+    "components": 323,
+    "wires": 799,
+    "components_delta": 0,
+    "wires_delta": 1
+  },
+  "observed": "U20.8 to U21.8 USB_OCS1_N and U20.12 to U21.5 USB_OCS2_N on dedicated wires via a south corridor. Hub IPU is the pull-up. OCS parents are not shared with 5V_USB, 5V0_USB_VALID, RT_USB_VBUS or S3_USB_VBUS_VALID. Project 41c8e652."
+}

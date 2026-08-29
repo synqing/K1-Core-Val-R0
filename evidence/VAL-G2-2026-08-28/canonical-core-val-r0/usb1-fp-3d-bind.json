@@ -1,0 +1,77 @@
+{
+  "steps": [
+    {
+      "label": "openInEditor-project",
+      "tab": "0c8e199e56e60728@64325d0e55e0435abd018defb0089a9b"
+    },
+    {
+      "label": "doc",
+      "doc": {
+        "documentType": 4,
+        "uuid": "0c8e199e56e60728",
+        "tabId": "0c8e199e56e60728@64325d0e55e0435abd018defb0089a9b",
+        "parentLibraryUuid": "27700277ef7a49e48a0293bece6b2993"
+      }
+    },
+    {
+      "label": "before",
+      "len": 74332,
+      "has3D": false,
+      "hasSeated": false
+    },
+    {
+      "label": "patched",
+      "len": 75549,
+      "changed": true,
+      "has3D": true,
+      "hasSeated": true
+    },
+    {
+      "label": "updateDocumentSource-project",
+      "result": true
+    },
+    {
+      "label": "setDocumentSource",
+      "result": true
+    },
+    {
+      "label": "property-panel",
+      "value": "USB_C_Hirose_CX_4800304000_seated",
+      "title": "USB_C_Hirose_CX_4800304000_seated"
+    },
+    {
+      "label": "library-row",
+      "err": "no seated row",
+      "sample": [
+        "NumberNameTypeSidePin ShapePart",
+        "3EPUndefinedBottomNoneHYCW78-USBC24-140B.1",
+        "2EPUndefinedBottomNoneHYCW78-USBC24-140B.1",
+        "B1GNDUndefinedRightNoneHYCW78-USBC24-140B.1",
+        "B2SSTXp2UndefinedRightNoneHYCW78-USBC24-140B.1"
+      ]
+    },
+    {
+      "label": "pcb_Document.save",
+      "result": true
+    }
+  ],
+  "updateDocumentSource": true,
+  "setDocumentSource": true,
+  "after": {
+    "len": 74332,
+    "has3D": false,
+    "hasSeated": false,
+    "hasTransform": false,
+    "doc": {
+      "documentType": 4,
+      "uuid": "0c8e199e56e60728",
+      "tabId": "0c8e199e56e60728@64325d0e55e0435abd018defb0089a9b",
+      "parentLibraryUuid": "27700277ef7a49e48a0293bece6b2993"
+    }
+  },
+  "afterFile": {
+    "name": "ProLib_pc_2026-08-29.elibz2",
+    "size": 8592
+  },
+  "ok": false
+}

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "usb1-3d-hash-reconcile-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "source_hash": "658057:18b33afb",
+  "saved": true,
+  "census": {
+    "pcb_components": 224,
+    "usb1_primitive_id": "19bbd06e9438ab5d",
+    "usb1_supplier_id": "C778726",
+    "usb1_manufacturer_id": "CX70M-24P1",
+    "usb1_model_uuid": "71aa35b92da84360b5d9e21f25c486f0",
+    "usb1_transform": "448.8179849815368,328.7394915521145,145.27529755949973,0,0,0,0,0,0",
+    "prior_gate_hash": "657719:5df3e713",
+    "live_hash": "658057:18b33afb",
+    "hash_delta_chars": 338
+  },
+  "observed": "Live PCB source is 658057:18b33afb after the USB1 Hirose 3D bind. Gate still named 657719:5df3e713 from usb2-3d-y-align. USB1 identity C778726 / CX70M-24P1 is unchanged. Transform offsets are still 0,0,0 and the body floats."
+}

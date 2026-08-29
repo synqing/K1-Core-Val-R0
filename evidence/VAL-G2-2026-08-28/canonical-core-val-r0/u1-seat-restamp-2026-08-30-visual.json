@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-seat-restamp-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "Reconcile the PCB source hash after the live page re-serialised following the rejected yflip bind. No new write. This is not a seating claim.",
+  "observed_delta": "2D PCB1 still shows the existing U1 GT-USB-7005A footprint at the bottom-edge cut-out: four oval slots, rear SMT row, mouth toward the notch. Live 3D bind is Captain original 7e3f17b4e5b64384aaa03075cd65e3e3 with identity transform. Hash restamp only.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-seat-restamp.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "identity",
+      "result": "OK",
+      "detail": "U1 remains C5250872 / GT-USB-7005A on primitive 0f194aaf30bc2e32."
+    },
+    {
+      "name": "hash restamp",
+      "result": "OK",
+      "detail": "Live dump 653166:2951b526 replaces gate 653174:5bdab6c1."
+    },
+    {
+      "name": "no new write",
+      "result": "OK",
+      "detail": "Snapshot capture only; U6 and D1 transforms untouched."
+    },
+    {
+      "name": "seating not claimed",
+      "result": "OK",
+      "detail": "This restamp does not claim tabs in ovals or tails on the SMT row."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "transaction_id": "usb1-3d-hash-reconcile-5-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "Reconcile the PCB source hash after EasyEDA re-serialised the rejected USB1 huge-Z save; no new electrical or 3D write.",
+  "observed_delta": "Live 3D PCB1 still shows USB1 Hirose floating 1-2 mm with tabs behind the oval slots. Transform remains offZ=-400 mil. USB2 in the same frame is seated. Hash length unchanged at 658066 characters.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/usb1-3d-reconcile-5.png",
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {"name": "identity", "result": "OK", "detail": "USB1 remains C778726 / CX70M-24P1 with Hirose model 71aa35b92da84360b5d9e21f25c486f0 visible in the 3D frame."},
+    {"name": "hash restamp", "result": "OK", "detail": "Live dump 658066:cbabaf90 replaces gate 658066:c481be3d after host re-serialise."},
+    {"name": "no new write", "result": "OK", "detail": "This restamp does not change pads, nets or other designators. offZ is still the rejected -400 fiction."},
+    {"name": "collateral", "result": "OK", "detail": "USB2 remains seated in the same 3D frame; U6 identity is unchanged."}
+  ]
+}

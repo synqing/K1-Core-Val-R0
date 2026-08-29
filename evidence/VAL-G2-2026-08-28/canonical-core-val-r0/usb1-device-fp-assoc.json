@@ -1,0 +1,21 @@
+{
+  "ok": false,
+  "steps": [
+    {
+      "label": "get-before",
+      "name": "CX70M-24P1",
+      "fp": {
+        "uuid": "279f06324aa142578b6ff40a12f66d9b",
+        "libraryUuid": "27700277ef7a49e48a0293bece6b2993"
+      },
+      "other3d": {
+        "model": "71aa35b92da84360b5d9e21f25c486f0",
+        "title": "USB_C_Hirose_CX_4800304000_v3"
+      }
+    },
+    {
+      "label": "modify",
+      "err": "[object Object]"
+    }
+  ]
+}

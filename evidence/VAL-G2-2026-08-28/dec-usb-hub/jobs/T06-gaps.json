@@ -1,0 +1,10 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "add_schematic_wire", "tag": "nr1-gap1", "args": {"line": [650, 740, 650, 735], "net": "USB_NON_REM1", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "nr1-gap2", "args": {"line": [650, 735, 625, 735], "net": "USB_NON_REM1", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "nr1-gap3", "args": {"line": [625, 735, 625, 970], "net": "USB_NON_REM1", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "nr1-gap4", "args": {"line": [625, 970, 630, 970], "net": "USB_NON_REM1", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "xi-gap1", "args": {"line": [570, 830, 570, 828], "net": "USB_XTALIN", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "xi-gap2", "args": {"line": [570, 828, 655, 828], "net": "USB_XTALIN", "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "add_schematic_wire", "tag": "xi-gap3", "args": {"line": [655, 828, 655, 830], "net": "USB_XTALIN", "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}}
+]

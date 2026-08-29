@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07g-f6-passives-designate-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Designate C120-USB 22uF, C121-USB 100nF, C122-USB 2.2uF and R81-USB through R86-USB. No wires.",
+  "observed_delta": "Select-zoom of the F6 east island shows C120-USB 22uF, C121-USB 100nF, C122-USB 2.2uF and R81-USB through R86-USB. No new wires. Hub canvas 41c8e652.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/T07g-pas-des-tight.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "C120-USB 22uF readable",
+      "result": "OK",
+      "detail": "004d113915448a0a designated C120-USB C45783 22uF at 1320,1300."
+    },
+    {
+      "name": "C121-USB and C122-USB readable",
+      "result": "OK",
+      "detail": "C121-USB 2859c2b57ac86be4 100nF at 1420,800; C122-USB 3a63da66b1222580 2.2uF C23630 at 1580,800."
+    },
+    {
+      "name": "R81-USB 169k readable",
+      "result": "OK",
+      "detail": "22c6a17a7dbbd174 designated R81-USB 169k C25758 at 1400,1200."
+    },
+    {
+      "name": "R82-R86 designated no new wires hub 41c8e652",
+      "result": "OK",
+      "detail": "R82-USB through R86-USB present. Wires stay 787. Project 41c8e652 not live."
+    }
+  ]
+}

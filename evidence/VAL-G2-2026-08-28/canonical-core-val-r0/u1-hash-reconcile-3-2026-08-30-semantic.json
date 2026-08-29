@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-hash-reconcile-3-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "source_hash": "653168:bd1bc38a",
+  "census": {
+    "characters": 653168,
+    "prior_hash": "653168:7cb93d19",
+    "u1_primitive": "0f194aaf30bc2e32",
+    "u1_supplier": "C5250872",
+    "u1_mpn": "GT-USB-7005A",
+    "u1_model": "7e3f17b4e5b64384aaa03075cd65e3e3",
+    "u1_transform": "0, 0, 0, 0, 0, 0, 0, 0, 0",
+    "note": "Activate re-serialised the PCB page after the prior close. Same character count. No write. Seating is still the unseated tower Captain photographed."
+  }
+}

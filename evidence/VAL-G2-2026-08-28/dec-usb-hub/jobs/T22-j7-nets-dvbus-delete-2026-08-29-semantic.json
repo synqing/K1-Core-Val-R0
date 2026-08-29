@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T22-j7-nets-dvbus-delete-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2978756:bb0669a7",
+  "post_source_hash": "2969526:dbba3ddd",
+  "saved": true,
+  "affected": [
+    {"deleted_wires": ["e103678", "e103682", "e103672", "e103674", "e103650", "e103680", "e103654", "e103684"]},
+    {"deleted": "DVBUS-PWR1", "id": "ebrc000253"},
+    {"kept_USB_DP_S3": ["7a41eaf8f1832502"]},
+    {"kept_USB_DM_S3": ["e103596", "916a2e5ac5bc3661"]}
+  ],
+  "census": {
+    "components": 322,
+    "wires": 786,
+    "components_delta": -1,
+    "wires_delta": -8
+  },
+  "observed": "J7-only nets empty. DVBUS-PWR1 gone. S3_VBUS zero members. PHY USB_DP_S3/USB_DM_S3 kept. Hub 41c8e652."
+}

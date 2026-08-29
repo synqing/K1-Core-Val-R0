@@ -1,0 +1,521 @@
+[
+ {
+  "tag": "pre-ctx",
+  "ok": true,
+  "result": {
+   "currentDocument": {
+    "documentType": 1,
+    "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+    "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+   },
+   "currentProject": {
+    "itemType": "Project",
+    "uuid": "41c8e6523576456582ea35958b3684ed",
+    "friendlyName": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "name": "spectrasynq/K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "teamUuid": "27700277ef7a49e48a0293bece6b2993",
+    "description": "",
+    "data": [
+     {
+      "itemType": "Board",
+      "name": "Board1",
+      "schematic": {
+       "itemType": "Schematic",
+       "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "name": "Schematic1",
+       "page": [
+        {
+         "itemType": "Schematic Page",
+         "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+         "name": "P1",
+         "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+         "showTitleBlock": true,
+         "titleBlockData": {
+          "Symbol": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "@Project Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE"
+          },
+          "@Page Count": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Update Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Create Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Schematic Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Schematic1"
+          },
+          "@Page No": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Page Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "P1"
+          },
+          "Company": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "SPECTRASYNQ"
+          },
+          "Reviewed": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Version": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "V1.0"
+          },
+          "Page Size": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Custom"
+          },
+          "Drawn": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "@Create Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "07:22:31"
+          },
+          "@Update Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "10:28:32"
+          },
+          "Border": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "5000"
+          },
+          "Height": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "4800"
+          },
+          "Region Start": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "X Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Y Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "8"
+          },
+          "Blade Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Color": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "#333333"
+          },
+          "Title Block Position": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "3"
+          },
+          "Title Block": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "@Board Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Board1"
+          },
+          "Footprint": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Description": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Device": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "ID": {}
+         }
+        }
+       ],
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed",
+       "parentBoardName": "Board1"
+      },
+      "pcb": {
+       "itemType": "PCB",
+       "name": "PCB1",
+       "uuid": "59bef7e87cff4cd580561703b62d8c19",
+       "parentBoardName": "Board1",
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+      },
+      "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+     }
+    ]
+   },
+   "splitScreenTree": {
+    "id": "editor-window-main",
+    "tabs": [
+     {
+      "title": "Start Page",
+      "tabId": "tab_page1",
+      "icon": {
+       "iconClassName": "icon-eda-logo"
+      },
+      "tabStyle": {
+       "width": "auto",
+       "minWidth": "76px"
+      },
+      "isAbleDelete": false,
+      "group": "start_blank",
+      "draggable": true,
+      "data": {
+       "doctype": -1
+      },
+      "isDisplayNone": false
+     },
+     {
+      "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+      "title": "P1.Schematic1",
+      "icon": {
+       "iconClassName": "icon-eda-page icon-color-blue"
+      },
+      "draggable": true,
+      "isAbleDelete": true,
+      "notUseI18n": true,
+      "data": {
+       "containerId": "editor-window-main",
+       "doctype": 1,
+       "ticket": 10083,
+       "updateTime": 1787961070128,
+       "data-model-sheet-uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+       "title": "P1",
+       "pid": "41c8e6523576456582ea35958b3684ed",
+       "version": "1787961070128",
+       "schematicName": "Schematic1",
+       "data-schematic-uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "isBlockSymbolSheet": false,
+       "creator": "27700277ef7a49e48a0293bece6b2993",
+       "owner": "27700277ef7a49e48a0293bece6b2993",
+       "sch": true
+      },
+      "titleStyle": {},
+      "isUnSaved": false,
+      "isHighLight": false
+     }
+    ]
+   },
+   "editorBootstrapState": {
+    "startPageOnly": false,
+    "urlHash": "#id=41c8e6523576456582ea35958b3684ed,tab=*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedProjectUuid": "41c8e6523576456582ea35958b3684ed",
+    "requestedTabIds": [
+     "*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "activeRequestedTab": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedActiveTabMissing": false,
+    "visibleTabIds": [
+     "tab_page1",
+     "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "suspectedBootstrapFailure": false
+   },
+   "contextLevel": "project-and-document",
+   "hasProjectContext": true,
+   "hasDocumentContext": true,
+   "recommendedNextSteps": [
+    "Use document-specific tools that match the active document type.",
+    "If you need project inventory or cross-document operations, call list_project_objects next.",
+    "For edits, prefer query tools first so primitive IDs and coordinates are verified before modification."
+   ]
+  }
+ },
+ {
+  "tag": "j1-A2",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "ea47c20de228fa3a",
+   "pin": {
+    "primitiveId": "ea47c20de228fa3a-25e9ae04e649eb2e",
+    "x": -525,
+    "y": 3192,
+    "pinNumber": "A2",
+    "pinName": "TX1+",
+    "rotation": 0,
+    "pinLength": 20,
+    "pinColor": null,
+    "pinShape": "None",
+    "pinType": "Passive",
+    "noConnected": true
+   }
+  }
+ },
+ {
+  "tag": "j1-A3",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "ea47c20de228fa3a",
+   "pin": {
+    "primitiveId": "ea47c20de228fa3a-7ce58d8bcf24e0b2",
+    "x": -525,
+    "y": 3224,
+    "pinNumber": "A3",
+    "pinName": "TX1-",
+    "rotation": 0,
+    "pinLength": 20,
+    "pinColor": null,
+    "pinShape": "None",
+    "pinType": "Passive",
+    "noConnected": true
+   }
+  }
+ },
+ {
+  "tag": "j1-A8",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "ea47c20de228fa3a",
+   "pin": {
+    "primitiveId": "ea47c20de228fa3a-f7d319004995d70d",
+    "x": -525,
+    "y": 3384,
+    "pinNumber": "A8",
+    "pinName": "SBU1",
+    "rotation": 0,
+    "pinLength": 20,
+    "pinColor": null,
+    "pinShape": "None",
+    "pinType": "Passive",
+    "noConnected": true
+   }
+  }
+ },
+ {
+  "tag": "j1-A10",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "ea47c20de228fa3a",
+   "pin": {
+    "primitiveId": "ea47c20de228fa3a-6703ed51eda8368c",
+    "x": -525,
+    "y": 3448,
+    "pinNumber": "A10",
+    "pinName": "RX2-",
+    "rotation": 0,
+    "pinLength": 20,
+    "pinColor": null,
+    "pinShape": "None",
+    "pinType": "Passive",
+    "noConnected": true
+   }
+  }
+ },
+ {
+  "tag": "j1-A11",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "ea47c20de228fa3a",
+   "pin": {
+    "primitiveId": "ea47c20de228fa3a-087f76052046fd07",
+    "x": -525,
+    "y": 3480,
+    "pinNumber": "A11",
+    "pinName": "RX2+",
+    "rotation": 0,
+    "pinLength": 20,
+    "pinColor": null,
+    "pinShape": "None",
+    "pinType": "Passive",
+    "noConnected": true
+   }
+  }
+ },
+ {
+  "tag": "j1-B2",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "ea47c20de228fa3a",
+   "pin": {
+    "primitiveId": "ea47c20de228fa3a-350d97cbdb0edb2a",
+    "x": -245,
+    "y": 3192,
+    "pinNumber": "B2",
+    "pinName": "TX2+",
+    "rotation": 180,
+    "pinLength": 20,
+    "pinColor": null,
+    "pinShape": "None",
+    "pinType": "Passive",
+    "noConnected": true
+   }
+  }
+ },
+ {
+  "tag": "j1-B3",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "ea47c20de228fa3a",
+   "pin": {
+    "primitiveId": "ea47c20de228fa3a-14081890c408328c",
+    "x": -245,
+    "y": 3224,
+    "pinNumber": "B3",
+    "pinName": "TX2-",
+    "rotation": 180,
+    "pinLength": 20,
+    "pinColor": null,
+    "pinShape": "None",
+    "pinType": "Passive",
+    "noConnected": true
+   }
+  }
+ },
+ {
+  "tag": "j1-B8",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "ea47c20de228fa3a",
+   "pin": {
+    "primitiveId": "ea47c20de228fa3a-250a8b6f65ac5fd6",
+    "x": -245,
+    "y": 3384,
+    "pinNumber": "B8",
+    "pinName": "SBU2",
+    "rotation": 180,
+    "pinLength": 20,
+    "pinColor": null,
+    "pinShape": "None",
+    "pinType": "Passive",
+    "noConnected": true
+   }
+  }
+ },
+ {
+  "tag": "j1-B10",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "ea47c20de228fa3a",
+   "pin": {
+    "primitiveId": "ea47c20de228fa3a-4a678bbabd647332",
+    "x": -245,
+    "y": 3448,
+    "pinNumber": "B10",
+    "pinName": "RX1-",
+    "rotation": 180,
+    "pinLength": 20,
+    "pinColor": null,
+    "pinShape": "None",
+    "pinType": "Passive",
+    "noConnected": true
+   }
+  }
+ },
+ {
+  "tag": "j1-B11",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "ea47c20de228fa3a",
+   "pin": {
+    "primitiveId": "ea47c20de228fa3a-21cfc9978c5ee3e6",
+    "x": -245,
+    "y": 3480,
+    "pinNumber": "B11",
+    "pinName": "RX1+",
+    "rotation": 180,
+    "pinLength": 20,
+    "pinColor": null,
+    "pinShape": "None",
+    "pinType": "Passive",
+    "noConnected": true
+   }
+  }
+ },
+ {
+  "tag": "u20-6",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "92edd0bd8901c171",
+   "pin": {
+    "primitiveId": "92edd0bd8901c171-e25",
+    "x": 230,
+    "y": 800,
+    "pinNumber": "6",
+    "pinName": "NC",
+    "rotation": 180,
+    "pinLength": 10,
+    "pinColor": null,
+    "pinShape": "None",
+    "pinType": "Undefined",
+    "noConnected": true
+   }
+  }
+ },
+ {
+  "tag": "u6-N7",
+  "ok": true,
+  "result": {
+   "componentPrimitiveId": "e3673",
+   "pin": {
+    "primitiveId": "e3673-e483",
+    "x": 2220,
+    "y": 4040,
+    "pinNumber": "N7",
+    "pinName": "USB_OTG2_DN",
+    "rotation": 90,
+    "pinLength": 10,
+    "pinColor": null,
+    "pinShape": "None",
+    "pinType": "Undefined",
+    "noConnected": true
+   },
+   "saved": true
+  }
+ }
+]

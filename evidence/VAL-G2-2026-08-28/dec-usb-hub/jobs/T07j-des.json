@@ -1,0 +1,9 @@
+[
+  {"tool": "get_current_context", "tag": "pre-ctx", "args": {}},
+  {"tool": "modify_schematic_component", "tag": "C123-USB", "args": {"primitiveId": "e8e13777e6daf227", "designator": "C123-USB", "name": "100nF", "supplier": "LCSC", "supplierId": "C14663", "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_component", "tag": "C124-USB", "args": {"primitiveId": "175450abf83b4c89", "designator": "C124-USB", "name": "100nF", "supplier": "LCSC", "supplierId": "C14663", "addIntoPcb": false, "saveAfter": false, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "modify_schematic_component", "tag": "C125-USB", "args": {"primitiveId": "ffd3d3994031db72", "designator": "C125-USB", "name": "100nF", "supplier": "LCSC", "supplierId": "C14663", "addIntoPcb": false, "saveAfter": true, "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"}},
+  {"tool": "list_schematic_component_pins", "tag": "c123", "args": {"componentPrimitiveId": "e8e13777e6daf227"}},
+  {"tool": "list_schematic_component_pins", "tag": "c124", "args": {"componentPrimitiveId": "175450abf83b4c89"}},
+  {"tool": "list_schematic_component_pins", "tag": "c125", "args": {"componentPrimitiveId": "ffd3d3994031db72"}}
+]

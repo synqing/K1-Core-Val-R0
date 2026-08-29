@@ -1,0 +1,473 @@
+[
+ {
+  "tag": "ctx",
+  "ok": true,
+  "result": {
+   "currentDocument": {
+    "documentType": 3,
+    "uuid": "59bef7e87cff4cd580561703b62d8c19",
+    "tabId": "59bef7e87cff4cd580561703b62d8c19@64325d0e55e0435abd018defb0089a9b",
+    "parentProjectUuid": "64325d0e55e0435abd018defb0089a9b"
+   },
+   "currentProject": {
+    "itemType": "Project",
+    "uuid": "64325d0e55e0435abd018defb0089a9b",
+    "friendlyName": "K1-Core-Val-R0",
+    "name": "spectrasynq/K1-Core-Val-R0",
+    "teamUuid": "27700277ef7a49e48a0293bece6b2993",
+    "description": "",
+    "data": [
+     {
+      "itemType": "Board",
+      "name": "Board1",
+      "schematic": {
+       "itemType": "Schematic",
+       "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "name": "Schematic1",
+       "page": [
+        {
+         "itemType": "Schematic Page",
+         "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+         "name": "P1",
+         "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+         "showTitleBlock": true,
+         "titleBlockData": {
+          "Symbol": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "@Project Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "K1-Core-Val-R0"
+          },
+          "@Page Count": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Update Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Create Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-28"
+          },
+          "@Schematic Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Schematic1"
+          },
+          "@Page No": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Page Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "P1"
+          },
+          "Company": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "EasyEDA.com"
+          },
+          "Reviewed": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Version": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "V1.0"
+          },
+          "Page Size": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "A4"
+          },
+          "Drawn": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Device": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "Drawing-Symbol_A4"
+          },
+          "Name": {
+           "showTitle": null,
+           "showValue": null,
+           "value": ""
+          },
+          "Description": {
+           "showTitle": null,
+           "showValue": null,
+           "value": ""
+          },
+          "@Create Time": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "16:54:47"
+          },
+          "@Update Time": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "02:04:11"
+          },
+          "Border": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1655"
+          },
+          "Height": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1170"
+          },
+          "Region Start": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "X Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "6"
+          },
+          "Y Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "4"
+          },
+          "Blade Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Color": {
+           "showTitle": null,
+           "showValue": null,
+           "value": ""
+          },
+          "Title Block Position": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "3"
+          },
+          "Title Block": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "@Board Name": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "Board1"
+          },
+          "ID": {}
+         }
+        }
+       ],
+       "parentProjectUuid": "64325d0e55e0435abd018defb0089a9b",
+       "parentBoardName": "Board1"
+      },
+      "pcb": {
+       "itemType": "PCB",
+       "name": "PCB1",
+       "uuid": "59bef7e87cff4cd580561703b62d8c19",
+       "parentBoardName": "Board1",
+       "parentProjectUuid": "64325d0e55e0435abd018defb0089a9b"
+      },
+      "parentProjectUuid": "64325d0e55e0435abd018defb0089a9b"
+     }
+    ]
+   },
+   "splitScreenTree": {
+    "id": "editor-window-main",
+    "tabs": [
+     {
+      "title": "Start Page",
+      "tabId": "tab_page1",
+      "icon": {
+       "iconClassName": "icon-eda-logo"
+      },
+      "tabStyle": {
+       "width": "auto",
+       "minWidth": "76px"
+      },
+      "isAbleDelete": false,
+      "group": "start_blank",
+      "draggable": true,
+      "data": {
+       "doctype": -1
+      },
+      "isDisplayNone": false
+     },
+     {
+      "tabId": "1435cb46f39e48c8a8aadbb84ca81603@64325d0e55e0435abd018defb0089a9b",
+      "title": "P1.Schematic1",
+      "icon": {
+       "iconClassName": "icon-eda-page icon-color-blue"
+      },
+      "draggable": true,
+      "isAbleDelete": true,
+      "notUseI18n": true,
+      "data": {
+       "containerId": "editor-window-main",
+       "doctype": 1,
+       "ticket": 10015,
+       "updateTime": 1787915064478,
+       "data-model-sheet-uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+       "title": "P1",
+       "pid": "64325d0e55e0435abd018defb0089a9b",
+       "version": "1787915064478",
+       "schematicName": "Schematic1",
+       "data-schematic-uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "isBlockSymbolSheet": false,
+       "creator": "27700277ef7a49e48a0293bece6b2993",
+       "owner": "27700277ef7a49e48a0293bece6b2993",
+       "sch": true
+      },
+      "titleStyle": {},
+      "isUnSaved": false,
+      "isHighLight": false
+     },
+     {
+      "tabId": "59bef7e87cff4cd580561703b62d8c19@64325d0e55e0435abd018defb0089a9b",
+      "title": "PCB1",
+      "icon": {
+       "iconClassName": "icon-eda-pcb icon-color-green"
+      },
+      "draggable": true,
+      "isAbleDelete": true,
+      "notUseI18n": true,
+      "data": {
+       "doctype": 3,
+       "ticket": 23910,
+       "updateTime": 1787847704000,
+       "isProjectLib": false,
+       "real-title": "PCB1",
+       "pid": "64325d0e55e0435abd018defb0089a9b",
+       "isPartition": false,
+       "creator": "27700277ef7a49e48a0293bece6b2993",
+       "owner": "27700277ef7a49e48a0293bece6b2993",
+       "drcResult": [
+        {
+         "id": "DRCTab|_|Errors",
+         "title": [
+          "All",
+          "(0)"
+         ],
+         "args": {
+          "iconCls": "icon-eda-eye",
+          "eyeState": true,
+          "treeNodeType": "errors"
+         },
+         "children": []
+        }
+       ]
+      },
+      "isUnSaved": true,
+      "isHighLight": false
+     }
+    ]
+   },
+   "editorBootstrapState": {
+    "startPageOnly": false,
+    "urlHash": "#id=64325d0e55e0435abd018defb0089a9b,tab=1435cb46f39e48c8a8aadbb84ca81603@64325d0e55e0435abd018defb0089a9b|*59bef7e87cff4cd580561703b62d8c19@64325d0e55e0435abd018defb0089a9b",
+    "requestedProjectUuid": "64325d0e55e0435abd018defb0089a9b",
+    "requestedTabIds": [
+     "1435cb46f39e48c8a8aadbb84ca81603@64325d0e55e0435abd018defb0089a9b",
+     "*59bef7e87cff4cd580561703b62d8c19@64325d0e55e0435abd018defb0089a9b"
+    ],
+    "activeRequestedTab": "59bef7e87cff4cd580561703b62d8c19@64325d0e55e0435abd018defb0089a9b",
+    "requestedActiveTabMissing": false,
+    "visibleTabIds": [
+     "tab_page1",
+     "1435cb46f39e48c8a8aadbb84ca81603@64325d0e55e0435abd018defb0089a9b",
+     "59bef7e87cff4cd580561703b62d8c19@64325d0e55e0435abd018defb0089a9b"
+    ],
+    "suspectedBootstrapFailure": false
+   },
+   "contextLevel": "project-and-document",
+   "hasProjectContext": true,
+   "hasDocumentContext": true,
+   "recommendedNextSteps": [
+    "Use document-specific tools that match the active document type.",
+    "If you need project inventory or cross-document operations, call list_project_objects next.",
+    "For edits, prefer query tools first so primitive IDs and coordinates are verified before modification."
+   ]
+  }
+ },
+ {
+  "tag": "C778726",
+  "ok": true,
+  "result": {
+   "lcscIds": [
+    "C778726"
+   ],
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "4db9e6982d2c421c8c7ea67eaf304069",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "classification": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "libraryType": "3"
+     },
+     "ordinal": 0,
+     "footprintName": "USB-TYPE-C-SMD_CX70M-24P1",
+     "footprintUuid": "44616f94c6914e79972b7923414e99c1",
+     "manufacturer": "HRS(广濑)",
+     "manufacturerId": "CX70M-24P1",
+     "supplier": "LCSC",
+     "supplierId": "C778726",
+     "otherProperty": {
+      "LCSC Part Name": "Type-C 母 沉板",
+      "Supplier Part": "C778726",
+      "Manufacturer": "HRS(广濑)",
+      "Manufacturer Part": "CX70M-24P1",
+      "Supplier Footprint": "SMD",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/CX70M-24P1/827627.html",
+      "Supplier": "LCSC",
+      "Add into BOM": "yes",
+      "Convert to PCB": "yes",
+      "Symbol": "66b97c87f3654e4fa9c858f82075a5af",
+      "Designator": "USB?",
+      "Footprint": "44616f94c6914e79972b7923414e99c1",
+      "Connector Type": "Type-C",
+      "Protocol Standard": "USB 3.2",
+      "Gender": "Female",
+      "Mounting Type": "Laminated board",
+      "Number of Contacts": "24P",
+      "Number of Ports": "1",
+      "Current Rating-Power": "-",
+      "Voltage Rating": "20V",
+      "Detection color": "Black",
+      "Operating Temperature": "-30℃~+85℃",
+      "Name": "={Manufacturer Part}"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "tag": "CX70M",
+  "ok": true,
+  "result": {
+   "query": "CX70M-24P1",
+   "count": 2,
+   "devices": [
+    {
+     "uuid": "4db9e6982d2c421c8c7ea67eaf304069",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "classification": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "libraryType": "3",
+      "primaryClassificationUuid": "94725d407df54b2eaf6e9a8449ac9c87",
+      "secondaryClassificationUuid": "8e328c78e1434a03b9e4458b9324602d"
+     },
+     "ordinal": 0,
+     "name": "CX70M-24P1",
+     "symbolName": "CX70M-24P1",
+     "symbolUuid": "66b97c87f3654e4fa9c858f82075a5af",
+     "footprintName": "USB-TYPE-C-SMD_CX70M-24P1",
+     "footprintUuid": "44616f94c6914e79972b7923414e99c1",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20230104/1C49441E79287CA6606EC687974FDFBD.jpg",
+     "description": "Connector Type:Type-C Protocol Standard:USB 3.2 Gender:Female Mounting Type:Laminated board Number of Contacts:24P Number of Ports:1 Current Rating-Power:- Voltage Rating:20V Detection color:Black Operating Temperature:-30℃~+85℃ Operating Temperature:-30℃",
+     "manufacturer": "HRS(广濑)",
+     "manufacturerId": "CX70M-24P1",
+     "supplier": "LCSC",
+     "supplierId": "C778726",
+     "otherProperty": {
+      "LCSC Part Name": "Type-C 母 沉板",
+      "Supplier Part": "C778726",
+      "Manufacturer": "HRS(广濑)",
+      "Manufacturer Part": "CX70M-24P1",
+      "Supplier Footprint": "SMD",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/CX70M-24P1/827627.html",
+      "Supplier": "LCSC",
+      "Add into BOM": "yes",
+      "Convert to PCB": "yes",
+      "Symbol": "66b97c87f3654e4fa9c858f82075a5af",
+      "Designator": "USB?",
+      "Footprint": "44616f94c6914e79972b7923414e99c1",
+      "Connector Type": "Type-C",
+      "Protocol Standard": "USB 3.2",
+      "Gender": "Female",
+      "Mounting Type": "Laminated board",
+      "Number of Contacts": "24P",
+      "Number of Ports": "1",
+      "Current Rating-Power": "-",
+      "Voltage Rating": "20V",
+      "Detection color": "Black",
+      "Operating Temperature": "-30℃~+85℃",
+      "Name": "={Manufacturer Part}"
+     }
+    },
+    {
+     "uuid": "48f4d4ed9b124355bce023e7f621fd3a",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "classification": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "libraryType": "3",
+      "primaryClassificationUuid": "94725d407df54b2eaf6e9a8449ac9c87",
+      "secondaryClassificationUuid": "8e328c78e1434a03b9e4458b9324602d"
+     },
+     "ordinal": 1,
+     "name": "CX70M-24P2",
+     "symbolName": "CX70M-24P2",
+     "symbolUuid": "b33934c7a4b44afca85e12ee5146947b",
+     "footprintName": "USB-TYPE-C-SMD_CX70M-24P1",
+     "footprintUuid": "44616f94c6914e79972b7923414e99c1",
+     "imageUuid": "https://alimg.szlcsc.com/upload/public/product/middle/20260126/ED4CAEEE213C0426742647F1AD5E6893.jpg",
+     "description": "Connector Type:Type-C Gender:Female Mounting Type:Surface Mount, Right Angle Number of Contacts:24P Number of Ports:1 Current Rating-Power:5A Voltage Rating:48V Detection color:Black Operating Temperature:-30℃~+105℃ Operating Temperature:-30℃~+105℃ ",
+     "manufacturer": "HRS(广濑)",
+     "manufacturerId": "CX70M-24P2",
+     "supplier": "LCSC",
+     "supplierId": "C21359990",
+     "otherProperty": {
+      "LCSC Part Name": "Type-C 母 卧贴",
+      "Supplier Part": "C21359990",
+      "Manufacturer": "HRS(广濑)",
+      "Manufacturer Part": "CX70M-24P2",
+      "Supplier Footprint": "SMD",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/CX70M-24P2/22780799.html",
+      "Supplier": "LCSC",
+      "Add into BOM": "yes",
+      "Convert to PCB": "yes",
+      "Symbol": "b33934c7a4b44afca85e12ee5146947b",
+      "Designator": "USB?",
+      "Footprint": "44616f94c6914e79972b7923414e99c1",
+      "Connector Type": "Type-C",
+      "Gender": "Female",
+      "Mounting Type": "Surface Mount, Right Angle",
+      "Number of Contacts": "24P",
+      "Number of Ports": "1",
+      "Current Rating-Power": "5A",
+      "Voltage Rating": "48V",
+      "Detection color": "Black",
+      "Operating Temperature": "-30℃~+105℃",
+      "Name": "={Manufacturer Part}"
+     }
+    }
+   ]
+  }
+ }
+]

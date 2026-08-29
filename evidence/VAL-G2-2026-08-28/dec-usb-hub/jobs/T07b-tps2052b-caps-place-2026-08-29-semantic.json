@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T07b-tps2052b-caps-place-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2707725:6f46a74d",
+  "post_source_hash": "2732892:16dcd15d",
+  "saved": true,
+  "affected": [
+    {"primitiveId": "daf3578c8ea5a570", "x": 1100, "y": 1000, "role": "C108 IN 100nF"},
+    {"primitiveId": "22002ec9ef576301", "x": 1180, "y": 1000, "role": "C109 OUT1 100nF"},
+    {"primitiveId": "16675eb0d11a5521", "x": 1260, "y": 1000, "role": "C110 OUT2 100nF"}
+  ],
+  "census": {
+    "components": 306,
+    "wires": 787,
+    "components_delta": 3,
+    "wires_delta": 0
+  },
+  "observed": "Placed three 100 nF capacitors at 1100/1180/1260,1000 beside U21. Auto-name C?. addIntoPcb false. Wires still 787. Hub 41c8e652."
+}

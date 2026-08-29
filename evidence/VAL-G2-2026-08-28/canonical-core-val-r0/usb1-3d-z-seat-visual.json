@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "transaction_id": "usb1-3d-z-seat-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "Lower USB1 Hirose 3D Model Transform offZ by 2.04 mm (STEP tab-tip to Y=0 seating plane) so the shell sits on the solder mask. USB1 only.",
+  "observed_delta": "Instance transform persisted to offZ=-80.315 mil. Refreshed 3D PCB1 still shows the Hirose shell floating about 1-2 mm above the solder mask; tabs hover over the four ovals and SMT pins hover behind the rear pads. USB2 remains seated.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/usb1-3d-after-z-seat2.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [
+    "3D PCB1 view did not show the 2.04 mm drop that live otherProperty reports"
+  ],
+  "verdict": "REJECTED",
+  "checks": [
+    {
+      "name": "USB1 identity C778726 / CX70M-24P1 unchanged",
+      "result": "OK",
+      "detail": "Live USB1 remains C778726 / CX70M-24P1 / 19bbd06e9438ab5d."
+    },
+    {
+      "name": "only 3D Model Transform offZ changes",
+      "result": "OK",
+      "detail": "Size and rotations unchanged; only offZ went from 0 to -80.315."
+    },
+    {
+      "name": "U6 USB2 caps TVS untouched",
+      "result": "OK",
+      "detail": "USB2 transform still 486.22,391.18524,0,0,0,0,-0.002,-66.733,-78.74; U6 still 0,0,0,0,0,0,0,0,0."
+    },
+    {
+      "name": "Hirose body visible and seated versus the four oval slots",
+      "result": "DEFECT",
+      "detail": "Body is visible but still floating; tabs are not in the ovals."
+    }
+  ]
+}

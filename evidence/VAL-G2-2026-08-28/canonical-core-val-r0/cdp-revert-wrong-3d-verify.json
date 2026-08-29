@@ -1,0 +1,17 @@
+{
+  "recorded_at": "2026-08-28T18:37:19Z",
+  "ok": true,
+  "project": "64325d0e55e0435abd018defb0089a9b",
+  "pcb": "59bef7e87cff4cd580561703b62d8c19",
+  "titles": {
+    "C43-ESP": "C0402_L1.0-W0.5-H0.5",
+    "C44-ESP": "C0402_L1.0-W0.5-H0.5",
+    "D1-PWR1": "SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95",
+    "U10-ESP": "SOT-23-6_L2.9-W1.6-H1.5-LS2.8-P0.95",
+    "USB1": "USB_C_Hirose_CX_4800304000_v3",
+    "USB2": "USB-C-SMD_HYCW78-USBC24-140B"
+  },
+  "usb1_model": "71aa35b92da84360b5d9e21f25c486f0",
+  "hirose_elsewhere": [],
+  "note": "Original cdp-revert-wrong-3d.js restored five wrong parts. USB1 Hirose was already missing; persisted via pcb_PrimitiveComponent.modify on USB1 only."
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "D3-tvs-wire-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "D3-USB SMF5.0A cathode 5V_USB anode GND. New inlet TVS. Do not revive DVBUS-PWR1.",
+  "observed_delta": "80 percent island view shows D3-USB SMF5.0A with cathode on 5V_USB and anode on GND. U22 IN remains 5V_USB. DVBUS-PWR1 not placed.",
+  "screenshot_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/dec-usb-hub/screenshots/D3-tvs.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "D3 cathode on 5V_USB",
+      "result": "OK",
+      "detail": "Cathode at 1480,400 drops to the 5V_USB rail at y=560. Power flag placed."
+    },
+    {
+      "name": "D3 anode on GND",
+      "result": "OK",
+      "detail": "Anode east then down to U22 GND 1535,600. Ground flag placed."
+    },
+    {
+      "name": "DVBUS-PWR1 not revived",
+      "result": "OK",
+      "detail": "No new DVBUS part. Existing leftover name only."
+    },
+    {
+      "name": "U22 IN still 5V_USB",
+      "result": "OK",
+      "detail": "U22 IN and EN remain on 5V_USB after the cathode join."
+    },
+    {
+      "name": "real wires hub 41c8e652",
+      "result": "OK",
+      "detail": "Project 41c8e652. Hash 2981540:5f074d30."
+    }
+  ]
+}

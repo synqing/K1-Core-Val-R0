@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "transaction_id": "external-button-state-reconcile-native-retry-2026-08-29",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "captured_after_settle": true,
+  "scale": "block",
+  "intended_delta": "Reconcile live source after the first bounded metadata binding before native model3D repair.",
+  "observed_delta": "Current EasyEDA 3D render still shows no switch bodies after metadata-only binding; native model3D binding is the next repair.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-29-button-3d-before.png",
+  "unexpected_changes": [],
+  "checks": [
+    {"name": "current board identity", "result": "OK", "detail": "Project and PCB UUID match the active EasyEDA board."},
+    {"name": "four switch instances", "result": "OK", "detail": "SW1-RTC, SW2-ESP, SW3-ESP and SW4-VAL are visible in the board source/render."},
+    {"name": "baseline captured", "result": "OK", "detail": "The no-body 3D render is recorded before the repair write."},
+    {"name": "reconciliation scope", "result": "OK", "detail": "No copper, placement or unrelated component change is included in this reconciliation."}
+  ],
+  "verdict": "ACCEPTED"
+}

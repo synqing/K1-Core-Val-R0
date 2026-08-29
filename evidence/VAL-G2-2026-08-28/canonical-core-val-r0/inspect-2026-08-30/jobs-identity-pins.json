@@ -1,0 +1,17 @@
+[
+  {
+    "tool": "get_current_context",
+    "tag": "identity",
+    "args": {}
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U17",
+    "args": { "componentPrimitiveId": "b118f78741a245ce" }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "U3",
+    "args": { "componentPrimitiveId": "e2199" }
+  }
+]

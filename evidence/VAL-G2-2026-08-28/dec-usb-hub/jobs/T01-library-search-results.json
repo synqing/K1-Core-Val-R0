@@ -1,0 +1,887 @@
+[
+ {
+  "tag": "context",
+  "ok": true,
+  "result": {
+   "currentDocument": {
+    "documentType": 1,
+    "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+    "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+   },
+   "currentProject": {
+    "itemType": "Project",
+    "uuid": "41c8e6523576456582ea35958b3684ed",
+    "friendlyName": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "name": "spectrasynq/K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "teamUuid": "27700277ef7a49e48a0293bece6b2993",
+    "description": "",
+    "data": [
+     {
+      "itemType": "Board",
+      "name": "Board1",
+      "schematic": {
+       "itemType": "Schematic",
+       "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "name": "Schematic1",
+       "page": [
+        {
+         "itemType": "Schematic Page",
+         "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+         "name": "P1",
+         "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+         "showTitleBlock": true,
+         "titleBlockData": {
+          "Symbol": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "@Project Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE"
+          },
+          "@Page Count": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Update Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Create Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Schematic Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Schematic1"
+          },
+          "@Page No": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Page Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "P1"
+          },
+          "Company": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "SPECTRASYNQ"
+          },
+          "Reviewed": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Version": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "V1.0"
+          },
+          "Page Size": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Custom"
+          },
+          "Drawn": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "@Create Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "07:22:31"
+          },
+          "@Update Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "07:22:31"
+          },
+          "Border": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "5000"
+          },
+          "Height": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "4800"
+          },
+          "Region Start": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "X Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Y Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "8"
+          },
+          "Blade Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Color": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "#333333"
+          },
+          "Title Block Position": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "3"
+          },
+          "Title Block": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "@Board Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Board1"
+          },
+          "Footprint": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Description": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Device": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "ID": {}
+         }
+        }
+       ],
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed",
+       "parentBoardName": "Board1"
+      },
+      "pcb": {
+       "itemType": "PCB",
+       "name": "PCB1",
+       "uuid": "59bef7e87cff4cd580561703b62d8c19",
+       "parentBoardName": "Board1",
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+      },
+      "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+     }
+    ]
+   },
+   "splitScreenTree": {
+    "id": "editor-window-main",
+    "tabs": [
+     {
+      "title": "Start Page",
+      "tabId": "tab_page1",
+      "icon": {
+       "iconClassName": "icon-eda-logo"
+      },
+      "tabStyle": {
+       "width": "auto",
+       "minWidth": "76px"
+      },
+      "isAbleDelete": false,
+      "group": "start_blank",
+      "draggable": true,
+      "data": {
+       "doctype": -1
+      },
+      "isDisplayNone": false
+     },
+     {
+      "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+      "title": "P1.Schematic1",
+      "icon": {
+       "iconClassName": "icon-eda-page icon-color-blue"
+      },
+      "draggable": true,
+      "isAbleDelete": true,
+      "notUseI18n": true,
+      "data": {
+       "containerId": "editor-window-main",
+       "doctype": 1,
+       "ticket": 9918,
+       "updateTime": 1787959351072,
+       "data-model-sheet-uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+       "title": "P1",
+       "pid": "41c8e6523576456582ea35958b3684ed",
+       "version": "1787959351072",
+       "schematicName": "Schematic1",
+       "data-schematic-uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "isBlockSymbolSheet": false,
+       "creator": "27700277ef7a49e48a0293bece6b2993",
+       "owner": "27700277ef7a49e48a0293bece6b2993",
+       "sch": true
+      },
+      "titleStyle": {}
+     },
+     {
+      "tabId": "59bef7e87cff4cd580561703b62d8c19@41c8e6523576456582ea35958b3684ed",
+      "title": "PCB1",
+      "icon": {
+       "iconClassName": "icon-eda-pcb icon-color-green"
+      },
+      "draggable": true,
+      "isAbleDelete": true,
+      "notUseI18n": true,
+      "data": {
+       "doctype": 3,
+       "ticket": 233,
+       "updateTime": 1787959351072,
+       "isProjectLib": false,
+       "real-title": "PCB1",
+       "pid": "41c8e6523576456582ea35958b3684ed",
+       "isPartition": false,
+       "creator": "27700277ef7a49e48a0293bece6b2993",
+       "owner": "27700277ef7a49e48a0293bece6b2993"
+      }
+     }
+    ]
+   },
+   "editorBootstrapState": {
+    "startPageOnly": false,
+    "urlHash": "#id=41c8e6523576456582ea35958b3684ed,tab=*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed|59bef7e87cff4cd580561703b62d8c19@41c8e6523576456582ea35958b3684ed",
+    "requestedProjectUuid": "41c8e6523576456582ea35958b3684ed",
+    "requestedTabIds": [
+     "*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+     "59bef7e87cff4cd580561703b62d8c19@41c8e6523576456582ea35958b3684ed"
+    ],
+    "activeRequestedTab": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedActiveTabMissing": false,
+    "visibleTabIds": [
+     "tab_page1",
+     "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+     "59bef7e87cff4cd580561703b62d8c19@41c8e6523576456582ea35958b3684ed"
+    ],
+    "suspectedBootstrapFailure": false
+   },
+   "contextLevel": "project-and-document",
+   "hasProjectContext": true,
+   "hasDocumentContext": true,
+   "recommendedNextSteps": [
+    "Use document-specific tools that match the active document type.",
+    "If you need project inventory or cross-document operations, call list_project_objects next.",
+    "For edits, prefer query tools first so primitive IDs and coordinates are verified before modification."
+   ]
+  }
+ },
+ {
+  "tag": "objects",
+  "ok": true,
+  "result": {
+   "boards": [
+    {
+     "pcb": {
+      "itemType": "PCB",
+      "uuid": "59bef7e87cff4cd580561703b62d8c19",
+      "name": "PCB1",
+      "parentProjectUuid": "41c8e6523576456582ea35958b3684ed",
+      "parentBoardName": "Board1"
+     },
+     "uuid": "4c03c1b24e1c26e9",
+     "name": "Board1",
+     "zIndex": 1,
+     "schematic": {
+      "itemType": "Schematic",
+      "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+      "page": [
+       {
+        "itemType": "Schematic Page",
+        "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+        "name": "p1",
+        "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+        "showTitleBlock": true,
+        "titleBlockData": {}
+       }
+      ],
+      "parentProjectUuid": "41c8e6523576456582ea35958b3684ed",
+      "parentBoardName": "Board1",
+      "name": "schematic1"
+     },
+     "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+    }
+   ],
+   "pcbs": [
+    {
+     "itemType": "PCB",
+     "uuid": "59bef7e87cff4cd580561703b62d8c19",
+     "name": "PCB1",
+     "parentProjectUuid": "41c8e6523576456582ea35958b3684ed",
+     "parentBoardName": "Board1"
+    }
+   ],
+   "schematics": [
+    {
+     "itemType": "Schematic",
+     "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+     "page": [
+      {
+       "itemType": "Schematic Page",
+       "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+       "name": "p1",
+       "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "showTitleBlock": true,
+       "titleBlockData": {}
+      }
+     ],
+     "parentProjectUuid": "41c8e6523576456582ea35958b3684ed",
+     "parentBoardName": "Board1",
+     "name": "schematic1"
+    }
+   ],
+   "schematicPages": [
+    {
+     "titleBlockData": {
+      "Symbol": {
+       "showTitle": false,
+       "showValue": false,
+       "value": "Drawing-Symbol_A4"
+      },
+      "@Project Name": {
+       "showTitle": false,
+       "showValue": false,
+       "value": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE"
+      },
+      "@Page Count": {
+       "showTitle": false,
+       "showValue": false,
+       "value": 1
+      },
+      "@Update Date": {
+       "showTitle": false,
+       "showValue": false,
+       "value": "2026-08-29"
+      },
+      "@Create Date": {
+       "showTitle": false,
+       "showValue": false,
+       "value": "2026-08-29"
+      },
+      "@Schematic Name": {
+       "showTitle": false,
+       "showValue": false,
+       "value": "Schematic1"
+      },
+      "@Page No": {
+       "showTitle": false,
+       "showValue": false,
+       "value": 1
+      },
+      "@Page Name": {
+       "showTitle": false,
+       "showValue": false,
+       "value": "P1"
+      },
+      "Company": {
+       "showTitle": false,
+       "showValue": false,
+       "value": "SPECTRASYNQ"
+      },
+      "Reviewed": {
+       "showTitle": false,
+       "showValue": false,
+       "value": ""
+      },
+      "Version": {
+       "showTitle": false,
+       "showValue": false,
+       "value": "V1.0"
+      },
+      "Page Size": {
+       "showTitle": false,
+       "showValue": false,
+       "value": "Custom"
+      },
+      "Drawn": {
+       "showTitle": false,
+       "showValue": false,
+       "value": ""
+      },
+      "Name": {
+       "showTitle": false,
+       "showValue": false,
+       "value": ""
+      },
+      "@Create Time": {
+       "showTitle": false,
+       "showValue": false,
+       "value": "07:22:31"
+      },
+      "@Update Time": {
+       "showTitle": false,
+       "showValue": false,
+       "value": "07:22:31"
+      },
+      "Border": {
+       "showTitle": null,
+       "showValue": null,
+       "value": "1"
+      },
+      "Width": {
+       "showTitle": null,
+       "showValue": null,
+       "value": "5000"
+      },
+      "Height": {
+       "showTitle": null,
+       "showValue": null,
+       "value": "4800"
+      },
+      "Region Start": {
+       "showTitle": null,
+       "showValue": null,
+       "value": "1"
+      },
+      "X Region Count": {
+       "showTitle": null,
+       "showValue": null,
+       "value": "10"
+      },
+      "Y Region Count": {
+       "showTitle": null,
+       "showValue": null,
+       "value": "8"
+      },
+      "Blade Width": {
+       "showTitle": null,
+       "showValue": null,
+       "value": "10"
+      },
+      "Color": {
+       "showTitle": null,
+       "showValue": null,
+       "value": "#333333"
+      },
+      "Title Block Position": {
+       "showTitle": null,
+       "showValue": null,
+       "value": "3"
+      },
+      "Title Block": {
+       "showTitle": null,
+       "showValue": null,
+       "value": "1"
+      },
+      "@Board Name": {
+       "showTitle": false,
+       "showValue": false,
+       "value": "Board1"
+      },
+      "Footprint": {
+       "showTitle": false,
+       "showValue": false,
+       "value": ""
+      },
+      "Description": {
+       "showTitle": false,
+       "showValue": false,
+       "value": ""
+      },
+      "Device": {
+       "showTitle": false,
+       "showValue": false,
+       "value": "Drawing-Symbol_A4"
+      },
+      "ID": {}
+     },
+     "showTitleBlock": true,
+     "itemType": "Schematic Page",
+     "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+     "name": "P1",
+     "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90"
+    }
+   ],
+   "panels": []
+  }
+ },
+ {
+  "tag": "lcsc-C2876265",
+  "ok": true,
+  "result": {
+   "lcscIds": [
+    "C2876265"
+   ],
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "57a3393adbaf4e478f7067b769e726fc",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "classification": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "libraryType": "3"
+     },
+     "ordinal": 0,
+     "footprintName": "WSON-6_L2.0-W2.0-P0.65-TL-EP",
+     "footprintUuid": "062248013f104c81bc8b6956bfb600b2",
+     "model3DName": "WSON-6_L2.0-W2.0-H0.8-P0.65",
+     "model3DUuid": "8444490de3b54ad88c9bb3ba8e089887",
+     "manufacturer": "TI(德州仪器)",
+     "manufacturerId": "TPS7A2550DRVR",
+     "supplier": "LCSC",
+     "supplierId": "C2876265",
+     "otherProperty": {
+      "LCSC Part Name": "5V 300mA 18V",
+      "Supplier Part": "C2876265",
+      "Manufacturer": "TI(德州仪器)",
+      "Manufacturer Part": "TPS7A2550DRVR",
+      "Supplier Footprint": "WSON-6-EP(2x2)",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://www.ti.com/cn/lit/ds/symlink/tps7a25.pdf",
+      "Supplier": "LCSC",
+      "Add into BOM": "yes",
+      "Convert to PCB": "yes",
+      "Symbol": "911df7c909034b2eb3868a2052c6c202",
+      "Designator": "U?",
+      "Footprint": "062248013f104c81bc8b6956bfb600b2",
+      "3D Model": "8444490de3b54ad88c9bb3ba8e089887",
+      "3D Model Title": "WSON-6_L2.0-W2.0-H0.8-P0.65",
+      "3D Model Transform": "79.527,78.74,0,0,0,0,0,0,0",
+      "Output Configuration": "Positive",
+      "Voltage - Supply": "18V",
+      "Output Voltage": "5V",
+      "Output Current": "300mA",
+      "Power Supply Rejection Ratio (PSRR)": "75dB@(10Hz)",
+      "Voltage Dropout": "340mV@(300mA)",
+      "standby current": "2uA",
+      "Noise": "300uVrms",
+      "Features": "Enable control；Operating status indication；Built-in soft-start；Over Current Protection；Thermal shutdown；Input under-voltage protection",
+      "Operating Temperature": "-40℃~+125℃@(Tj)",
+      "Output Type": "Fixed",
+      "Number of Outputs": "1",
+      "Name": "={Manufacturer Part}"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "tag": "lcsc-C2869832",
+  "ok": true,
+  "result": {
+   "lcscIds": [
+    "C2869832"
+   ],
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "3cb40dce42ce48d8972ffe8e98d67fc8",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "classification": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "libraryType": "3"
+     },
+     "ordinal": 0,
+     "footprintName": "SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR",
+     "footprintUuid": "dfda43b1e189428da33d965afe664484",
+     "model3DName": "SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR",
+     "model3DUuid": "5bf53fa97d9848eeb37d584d4730b7f1",
+     "manufacturer": "TI(德州仪器)",
+     "manufacturerId": "TLV7031DBVR",
+     "supplier": "LCSC",
+     "supplierId": "C2869832",
+     "otherProperty": {
+      "LCSC Part Name": "小尺寸、毫微功耗、低电压比较器",
+      "Supplier Part": "C2869832",
+      "Manufacturer": "TI(德州仪器)",
+      "Manufacturer Part": "TLV7031DBVR",
+      "Supplier Footprint": "SOT-23-5",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://www.ti.com/cn/lit/ds/symlink/tlv7042.pdf",
+      "Supplier": "LCSC",
+      "Add into BOM": "yes",
+      "Convert to PCB": "yes",
+      "Symbol": "309b7dd4009f4b26a374045a1b808c8b",
+      "Designator": "U?",
+      "Footprint": "dfda43b1e189428da33d965afe664484",
+      "3D Model": "5bf53fa97d9848eeb37d584d4730b7f1",
+      "3D Model Title": "SOT-23-5_L2.9-W1.6-P0.95-LS2.8-BR",
+      "3D Model Transform": "114.173,114.173,0,90,0,0,0,0,0",
+      "Number of Channels": "1",
+      "Vos - Input Offset Voltage": "100uV",
+      "Ib - Input Bias Current": "2pA",
+      "Propagation Delay Time": "3us",
+      "Input Hysteresis Voltage (Vhys)": "7mV",
+      "Common Mode Rejection Ratio(CMRR)": "73dB",
+      "Output Type": "Push-pull",
+      "Output Mode": "-",
+      "Rail to Rail": "Rail-to-rail input",
+      "Quiescent Current": "315nA",
+      "Operating Temperature": "-40℃~+125℃",
+      "Maximum Power Supply Range (Vdd-Vss)": "7V",
+      "Single Supply": "1.6V~6.5V",
+      "Input Offset Current(Ios)": "1pA",
+      "Response Time (tr)": "4.5ns",
+      "Features": "Built-in hysteresis",
+      "Name": "={Manufacturer Part}"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "tag": "lcsc-C7666",
+  "ok": true,
+  "result": {
+   "lcscIds": [
+    "C7666"
+   ],
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "aa7194888c6b459094e5437dc75d23f0",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "classification": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "libraryType": "3"
+     },
+     "ordinal": 0,
+     "footprintName": "SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR",
+     "footprintUuid": "3962fa5424e54dde8cfd30751ab1c7e4",
+     "model3DName": "SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95",
+     "model3DUuid": "3168b22659ce4998ae232d44bb704e0a",
+     "manufacturer": "TI(德州仪器)",
+     "manufacturerId": "SN74LVC1G08DBVR",
+     "supplier": "LCSC",
+     "supplierId": "C7666",
+     "otherProperty": {
+      "LCSC Part Name": "单路 2 输入正与门",
+      "Supplier Part": "C7666",
+      "Manufacturer": "TI(德州仪器)",
+      "Manufacturer Part": "SN74LVC1G08DBVR",
+      "Supplier Footprint": "SOT-23-5",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://www.ti.com/cn/lit/ds/symlink/sn74lvc1g08.pdf",
+      "Supplier": "LCSC",
+      "Add into BOM": "yes",
+      "Convert to PCB": "yes",
+      "Symbol": "c4a67a7f443b4bd2ba2ba7c3438530d1",
+      "Designator": "U?",
+      "Footprint": "3962fa5424e54dde8cfd30751ab1c7e4",
+      "3D Model": "3168b22659ce4998ae232d44bb704e0a",
+      "3D Model Title": "SOT-23-5_L2.9-W1.6-H1.1-LS2.8-P0.95",
+      "3D Model Transform": "114.173,109.636,0,180,0,0,0,0,0",
+      "Logic Type": "AND Gate",
+      "Number of Channels": "1",
+      "Voltage - Supply": "1.65V~5.5V",
+      "Quiescent Current": "10uA",
+      "Current - Output Low(IOL)": "32mA",
+      "Current - Output High(IOH)": "32mA",
+      "Input Logic Level - High": "2V；1.7V",
+      "Input Logic Level - Low": "800mV；700mV",
+      "Output Logic Level - High": "1.9V；2.3V；1.2V；3.8V",
+      "Output Logic Level - Low": "550mV；300mV；450mV",
+      "Series": "74LVC Series",
+      "Propagation Delay": "4ns@5V,50pF",
+      "Operating Temperature": "-40℃~+125℃",
+      "Input Number": "2",
+      "Features": "Local shutdown mode；Overvoltage-tolerant input；Live insertion protection；Rear drive protection",
+      "Name": "={Manufacturer Part}"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "tag": "lcsc-C2758488",
+  "ok": true,
+  "result": {
+   "lcscIds": [
+    "C2758488"
+   ],
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "cf4477c6701c4354aa05e8ea0afc8ab0",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "classification": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "libraryType": "3"
+     },
+     "ordinal": 0,
+     "footprintName": "SOD-123FL_L2.7-W1.8-LS3.7-RD",
+     "footprintUuid": "0942184f8afd4cfc8869beb473d509a4",
+     "model3DName": "SOD-123FL_L2.8-W1.8-H1.1-LS3.6",
+     "model3DUuid": "e3993ae174574c859a842f4a900fcd6c",
+     "manufacturer": "UMW(友台半导体)",
+     "manufacturerId": "SMF5.0A",
+     "supplier": "LCSC",
+     "supplierId": "C2758488",
+     "otherProperty": {
+      "LCSC Part Name": "单向TVS 5V截止 峰值浪涌电流：21.7A",
+      "Supplier Part": "C2758488",
+      "Manufacturer": "UMW(友台半导体)",
+      "Manufacturer Part": "SMF5.0A",
+      "Supplier Footprint": "SOD-123FL",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/SMF5.0A/2877390.html",
+      "Supplier": "LCSC",
+      "Add into BOM": "yes",
+      "Convert to PCB": "yes",
+      "Symbol": "43225fcbd99743dbbfc24c929d678053",
+      "Designator": "D?",
+      "Footprint": "0942184f8afd4cfc8869beb473d509a4",
+      "3D Model": "e3993ae174574c859a842f4a900fcd6c",
+      "3D Model Title": "SOD-123FL_L2.8-W1.8-H1.1-LS3.6",
+      "3D Model Transform": "141.732,70.866,0,180,0,0,0,0,0",
+      "Polarity": "Unidirectional",
+      "Reverse Stand-Off Voltage (Vrwm)": "5V",
+      "Clamping Voltage": "9.2V",
+      "Peak Pulse Current (Ipp)": "21.7A",
+      "Peak Pulse Power Dissipation (Ppp)": "200W@10/1000us",
+      "Voltage - Breakdown": "6.4V",
+      "Reverse Leakage Current (Ir)": "400uA",
+      "level of protection": "IEC 61000-4-4；IEC 61000-4-2",
+      "Type": "TVS",
+      "Name": "={Manufacturer Part}"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "tag": "lcsc-C622610",
+  "ok": true,
+  "result": {
+   "lcscIds": [
+    "C622610"
+   ],
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "491ab0a775b4494da1b45bf7008bcf36",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "classification": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "libraryType": "3"
+     },
+     "ordinal": 0,
+     "footprintName": "QFN-24_L4.0-W4.0-P0.50-TL-EP2.5",
+     "footprintUuid": "40feb8733a43466aa042834b3ee39bef",
+     "model3DName": "QFN-24_L4.0-W4.0-P0.50-TL-EP2.1",
+     "model3DUuid": "32bdb58b15ed4019bf73efab52005598",
+     "manufacturer": "MICROCHIP(美国微芯)",
+     "manufacturerId": "USB2422T-I/MJ",
+     "supplier": "LCSC",
+     "supplierId": "C622610",
+     "otherProperty": {
+      "LCSC Part Name": "USB2422 2端口USB 2.0高速集线器控制器",
+      "Supplier Part": "C622610",
+      "Manufacturer": "MICROCHIP(美国微芯)",
+      "Manufacturer Part": "USB2422T-I/MJ",
+      "Supplier Footprint": "QFN-24-EP(4x4)",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://item.szlcsc.com/datasheet/USB2422T-I%252FMJ/652565.html",
+      "Supplier": "LCSC",
+      "Add into BOM": "yes",
+      "Convert to PCB": "yes",
+      "Symbol": "da0ff7540acd40c89e7def6284f73d48",
+      "Designator": "U?",
+      "Footprint": "40feb8733a43466aa042834b3ee39bef",
+      "3D Model": "32bdb58b15ed4019bf73efab52005598",
+      "3D Model Title": "QFN-24_L4.0-W4.0-P0.50-TL-EP2.1",
+      "3D Model Transform": "157.48,157.48,0,0,0,0,0,0,0",
+      "type": "Hub",
+      "USB Protocol": "USB 2.0",
+      "Data Rate": "-",
+      "Voltage - Supply": "3.3V",
+      "Operating Temperature": "-40℃~+85℃",
+      "Memory Interface": "-",
+      "Current - Supply": "-",
+      "Quiescent Supply Current": "-",
+      "Number of Channels": "2",
+      "Name": "={Manufacturer Part}"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "tag": "lcsc-C130049",
+  "ok": true,
+  "result": {
+   "lcscIds": [
+    "C130049"
+   ],
+   "count": 1,
+   "devices": [
+    {
+     "uuid": "cfd37297ae6546f5a59bbaa3c1ffaaa1",
+     "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+     "classification": {
+      "libraryUuid": "0819f05c4eef4c71ace90d822a990e87",
+      "libraryType": "3"
+     },
+     "ordinal": 0,
+     "footprintName": "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+     "footprintUuid": "1645372dca8547f19e87c6a19f78de2a",
+     "model3DName": "SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27",
+     "model3DUuid": "2ec1ac1bf9bf4d09a988fcee15e6a02d",
+     "manufacturer": "TI(德州仪器)",
+     "manufacturerId": "TPS2052BDR",
+     "supplier": "LCSC",
+     "supplierId": "C130049",
+     "otherProperty": {
+      "LCSC Part Name": "电流限制电源分配开关",
+      "Supplier Part": "C130049",
+      "Manufacturer": "TI(德州仪器)",
+      "Manufacturer Part": "TPS2052BDR",
+      "Supplier Footprint": "SOIC-8",
+      "JLCPCB Part Class": "Extended Part",
+      "Datasheet": "https://www.ti.com/cn/lit/gpn/tps2052b",
+      "Supplier": "LCSC",
+      "Add into BOM": "yes",
+      "Convert to PCB": "yes",
+      "Symbol": "69e4f5e224ee403799919c2dcecd2c4d",
+      "Designator": "U?",
+      "Footprint": "1645372dca8547f19e87c6a19f78de2a",
+      "3D Model": "2ec1ac1bf9bf4d09a988fcee15e6a02d",
+      "3D Model Title": "SOIC-8_L4.9-W3.9-H1.7-LS6.0-P1.27",
+      "3D Model Transform": "192.913,236.22,0,0,0,0,0,0,0",
+      "Type": "High Side Switch",
+      "Number of Channels": "2",
+      "Control Input Logic": "Active High",
+      "Maximum Continuous Current": "500mA",
+      "Voltage - Supply": "2.7V~5.5V",
+      "RDS(on)": "70mΩ",
+      "Operating Temperature\t-": "-40℃~+85℃",
+      "Features": "Overtemperature protection (OTP)；Short-Circuit  Protection(SCP)；Overcurrent Protection(OCP)；Undervoltage Protection(UVP)",
+      "Name": "={Manufacturer Part}"
+     }
+    }
+   ]
+  }
+ }
+]

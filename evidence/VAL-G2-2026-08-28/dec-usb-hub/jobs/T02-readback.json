@@ -1,0 +1,7 @@
+[
+  {"tool": "get_schematic_primitive", "tag": "u20", "args": {"primitiveId": "92edd0bd8901c171"}},
+  {"tool": "list_schematic_component_pins", "tag": "pins", "args": {"componentPrimitiveId": "92edd0bd8901c171"}},
+  {"tool": "list_schematic_primitive_ids", "tag": "components", "args": {"family": "component"}},
+  {"tool": "list_schematic_primitive_ids", "tag": "wires", "args": {"family": "wire"}},
+  {"tool": "get_schematic_primitives_bbox", "tag": "bbox", "args": {"primitiveIds": ["92edd0bd8901c171"]}}
+]

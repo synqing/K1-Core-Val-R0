@@ -22,20 +22,21 @@
 //
 // Usage: node harness/easyeda_canonical_zoom_shot.mjs <out.png> region <l> <r> <t> <b>
 //        node harness/easyeda_canonical_zoom_shot.mjs <out.png> select <id,id,...>
+//        node harness/easyeda_canonical_zoom_shot.mjs <out.png> zoom <x> <y> <scale>
 
 import { writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 
 const CDP_BASE = process.env.EASYEDA_CDP_BASE || 'http://127.0.0.1:9223';
-const PROJECT = '64325d0e55e0435abd018defb0089a9b';
-const PAGE = '1435cb46f39e48c8a8aadbb84ca81603';
+const PROJECT = process.env.EASYEDA_PROJECT || '64325d0e55e0435abd018defb0089a9b';
+const PAGE = process.env.EASYEDA_PAGE || '1435cb46f39e48c8a8aadbb84ca81603';
 const TAB = `${PAGE}@${PROJECT}`;
 const CTX_WAIT_MS = Number(process.env.EASYEDA_CTX_WAIT_MS || 1500);
 const SETTLE_MS = Number(process.env.EASYEDA_SETTLE_MS || 2500);
 
 const [outPath, mode, ...rest] = process.argv.slice(2);
-if (!outPath || !['region', 'select'].includes(mode)) {
-  console.error('usage: <out.png> region <l> <r> <t> <b>   |   <out.png> select <id,id,...>');
+if (!outPath || !['region', 'select', 'zoom'].includes(mode)) {
+  console.error('usage: <out.png> region <l> <r> <t> <b> | select <id,id,...> | zoom <x> <y> <scale>');
   process.exit(2);
 }
 
@@ -67,14 +68,21 @@ const frames = [];
 await new Promise(r => setTimeout(r, CTX_WAIT_MS));
 
 const canonFrame = frames.find(f => String(f.name || '').includes(PAGE));
-if (!canonFrame) throw new Error(`canonical schematic frame not found (frame_${TAB})`);
-const canonCtx = ctxs.find(c => c.auxData?.frameId === canonFrame.id);
-if (!canonCtx) throw new Error('canonical frame execution context never arrived — raise EASYEDA_CTX_WAIT_MS');
+const canonCtx = canonFrame
+  ? ctxs.find(c => c.auxData?.frameId === canonFrame.id)
+  : null;
+if (canonFrame && !canonCtx) {
+  throw new Error('canonical frame execution context never arrived — raise EASYEDA_CTX_WAIT_MS');
+}
+if (!canonFrame) {
+  console.error('named schematic iframe absent; evaluating zoom in the page main world');
+}
 
 // awaitPromise:false is mandatory — these host promises do not settle.
 const fire = async expression => {
-  const r = await send('Runtime.evaluate',
-    { contextId: canonCtx.id, expression, returnByValue: true, awaitPromise: false });
+  const payload = { expression, returnByValue: true, awaitPromise: false };
+  if (canonCtx) payload.contextId = canonCtx.id;
+  const r = await send('Runtime.evaluate', payload);
   return r.result?.result?.value ?? { ok: false, exception: r.result?.exceptionDetails?.text };
 };
 const capture = async () => {
@@ -90,11 +98,15 @@ if (mode === 'region') {
   const [l, r, t, b] = rest.map(Number);
   if (![l, r, t, b].every(Number.isFinite)) throw new Error('region needs four numeric bounds');
   call = `void EC.zoomToRegion(${l}, ${r}, ${t}, ${b}, ${JSON.stringify(TAB)});`;
-} else {
+} else if (mode === 'select') {
   const ids = String(rest[0] || '').split(',').map(s => s.trim()).filter(Boolean);
   if (!ids.length) throw new Error('select needs at least one primitive id');
   call = `void R.sch_SelectControl.doSelectPrimitives(${JSON.stringify(ids)}, ${JSON.stringify(TAB)});
           void EC.zoomToSelectedPrimitives(${JSON.stringify(TAB)});`;
+} else {
+  const [x, y, scale] = rest.map(Number);
+  if (![x, y, scale].every(Number.isFinite)) throw new Error('zoom needs x y scale');
+  call = `void EC.zoomTo(${x}, ${y}, ${scale}, ${JSON.stringify(TAB)});`;
 }
 
 const fired = await fire(`(() => {
@@ -126,5 +138,6 @@ const width = after.readUInt32BE(16), height = after.readUInt32BE(20);
 if (width < 640 || height < 360) throw new Error(`screenshot too small for granular inspection: ${width}x${height}`);
 await writeFile(outPath, after);
 console.log(JSON.stringify({ ok: true, path: outPath, width, height, mode,
-  view_changed: true, sha256: h(after).slice(0, 16), context_id: canonCtx.id, page_tab: TAB }, null, 2));
+  view_changed: true, sha256: h(after).slice(0, 16), context_id: canonCtx ? canonCtx.id : 'main',
+  page_tab: TAB }, null, 2));
 ws.close();

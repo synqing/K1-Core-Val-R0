@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-gtusb-3d-zup-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "intended_delta": "USB-C only: upload a Z-up remapped J1 GT-USB-7005A OBJ (mouth -Y, Z=height) and bind it to live U1. Identity transform. Do not retouch U6, TVS or audio.",
+  "observed_delta": "New personal UUID ea8551bd5e9c4319bb8e029bbc32cda4 is bound on U1. The rebuilt 3D no longer shows Captain's vertical tower; the body is a flat grey block on the board. It is still not in the holes: the shell sits inland of the edge cut-out, the gold SMT row and oval slots stay empty, and the tabs do not enter the ovals. U6 and D1 unchanged.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-zup-rebuild.png",
+  "supporting_screenshots": [
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/u1-zup-rebuild-board-metal.png",
+    "evidence/VAL-G2-2026-08-28/canonical-core-val-r0/captain-u1-3d-fail-03903.png"
+  ],
+  "captured_after_settle": true,
+  "scale": "whole_sheet",
+  "unexpected_changes": [],
+  "verdict": "REJECTED",
+  "checks": [
+    {
+      "name": "U1 remains C5250872 / GT-USB-7005A",
+      "result": "OK",
+      "detail": "U1 primitive 0f194aaf30bc2e32 is still C5250872 / GT-USB-7005A."
+    },
+    {
+      "name": "new Z-up personal 3D UUID is bound on U1",
+      "result": "OK",
+      "detail": "U1 3D Model is ea8551bd5e9c4319bb8e029bbc32cda4 titled J1_GT-USB-7005A_zup."
+    },
+    {
+      "name": "U6-RTC 3D model and transform unchanged",
+      "result": "OK",
+      "detail": "U6-RTC still de5664fd2ea74aa082831cfa5b198edb identity transform."
+    },
+    {
+      "name": "D1-PWR1 TVS 3D model and transform unchanged",
+      "result": "OK",
+      "detail": "D1-PWR1 still 1370be37a17e44418ae52e2b4cc1f5e5 with the same transform."
+    },
+    {
+      "name": "tabs in the oval slots",
+      "result": "DEFECT",
+      "detail": "Gold oval slots and the rear SMT row are still empty. The body sits inland of the edge cut-out. XY translation is still wrong."
+    }
+  ]
+}

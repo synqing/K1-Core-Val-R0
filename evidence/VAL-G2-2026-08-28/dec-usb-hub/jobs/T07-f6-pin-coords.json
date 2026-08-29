@@ -1,0 +1,28 @@
+{
+  "U22-USB": {
+    "primitiveId": "4c311982f7a3bb0d",
+    "pins": {
+      "1": {"name": "OUT", "x": 1465, "y": 610, "net": "5V0_USB_VALID"},
+      "2": {"name": "NC", "x": 1465, "y": 600, "net": "GND"},
+      "3": {"name": "PG", "x": 1465, "y": 590, "net": "NC"},
+      "4": {"name": "EN", "x": 1535, "y": 590, "net": "5V_USB"},
+      "5": {"name": "GND", "x": 1535, "y": 600, "net": "GND"},
+      "6": {"name": "IN", "x": 1535, "y": 610, "net": "5V_USB"},
+      "7": {"name": "EP", "x": 1500, "y": 630, "net": "GND"}
+    }
+  },
+  "U21-USB": {
+    "primitiveId": "fb7c84f0a582bd9c",
+    "note": "Wire by pin number. LCSC EN1#-/EN2#- labels are not the TPS2052B active-low story; EN is active-high.",
+    "pins": {
+      "1": {"name": "GND", "x": 1140, "y": 810},
+      "2": {"name": "IN", "x": 1140, "y": 800, "net": "5V0_USB_VALID"},
+      "3": {"name": "EN1", "x": 1140, "y": 790},
+      "4": {"name": "EN2", "x": 1140, "y": 780},
+      "5": {"name": "OC2", "x": 1260, "y": 780},
+      "6": {"name": "OUT2", "x": 1260, "y": 790, "net": "S3_USB_VBUS_VALID"},
+      "7": {"name": "OUT1", "x": 1260, "y": 800, "net": "RT_USB_VBUS"},
+      "8": {"name": "OC1", "x": 1260, "y": 810}
+    }
+  }
+}

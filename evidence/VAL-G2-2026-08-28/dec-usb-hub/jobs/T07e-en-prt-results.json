@@ -1,0 +1,1978 @@
+[
+ {
+  "tag": "pre-ctx",
+  "ok": true,
+  "result": {
+   "currentDocument": {
+    "documentType": 1,
+    "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+    "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+   },
+   "currentProject": {
+    "itemType": "Project",
+    "uuid": "41c8e6523576456582ea35958b3684ed",
+    "friendlyName": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "name": "spectrasynq/K1-Core-Val-R0-G2.1-HUB-CANDIDATE",
+    "teamUuid": "27700277ef7a49e48a0293bece6b2993",
+    "description": "",
+    "data": [
+     {
+      "itemType": "Board",
+      "name": "Board1",
+      "schematic": {
+       "itemType": "Schematic",
+       "uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "name": "Schematic1",
+       "page": [
+        {
+         "itemType": "Schematic Page",
+         "uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+         "name": "P1",
+         "parentSchematicUuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+         "showTitleBlock": true,
+         "titleBlockData": {
+          "Symbol": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "@Project Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "K1-Core-Val-R0-G2.1-HUB-CANDIDATE"
+          },
+          "@Page Count": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Update Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Create Date": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "2026-08-29"
+          },
+          "@Schematic Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Schematic1"
+          },
+          "@Page No": {
+           "showTitle": false,
+           "showValue": false,
+           "value": 1
+          },
+          "@Page Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "P1"
+          },
+          "Company": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "SPECTRASYNQ"
+          },
+          "Reviewed": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Version": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "V1.0"
+          },
+          "Page Size": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Custom"
+          },
+          "Drawn": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "@Create Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "07:22:31"
+          },
+          "@Update Time": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "08:53:15"
+          },
+          "Border": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "5000"
+          },
+          "Height": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "4800"
+          },
+          "Region Start": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "X Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Y Region Count": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "8"
+          },
+          "Blade Width": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "10"
+          },
+          "Color": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "#333333"
+          },
+          "Title Block Position": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "3"
+          },
+          "Title Block": {
+           "showTitle": null,
+           "showValue": null,
+           "value": "1"
+          },
+          "@Board Name": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Board1"
+          },
+          "Footprint": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Description": {
+           "showTitle": false,
+           "showValue": false,
+           "value": ""
+          },
+          "Device": {
+           "showTitle": false,
+           "showValue": false,
+           "value": "Drawing-Symbol_A4"
+          },
+          "ID": {}
+         }
+        }
+       ],
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed",
+       "parentBoardName": "Board1"
+      },
+      "pcb": {
+       "itemType": "PCB",
+       "name": "PCB1",
+       "uuid": "59bef7e87cff4cd580561703b62d8c19",
+       "parentBoardName": "Board1",
+       "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+      },
+      "parentProjectUuid": "41c8e6523576456582ea35958b3684ed"
+     }
+    ]
+   },
+   "splitScreenTree": {
+    "id": "editor-window-main",
+    "tabs": [
+     {
+      "title": "Start Page",
+      "tabId": "tab_page1",
+      "icon": {
+       "iconClassName": "icon-eda-logo"
+      },
+      "tabStyle": {
+       "width": "auto",
+       "minWidth": "76px"
+      },
+      "isAbleDelete": false,
+      "group": "start_blank",
+      "draggable": true,
+      "data": {
+       "doctype": -1
+      },
+      "isDisplayNone": false
+     },
+     {
+      "tabId": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+      "title": "P1.Schematic1",
+      "icon": {
+       "iconClassName": "icon-eda-page icon-color-blue"
+      },
+      "draggable": true,
+      "isAbleDelete": true,
+      "notUseI18n": true,
+      "data": {
+       "containerId": "editor-window-main",
+       "doctype": 1,
+       "ticket": 10083,
+       "updateTime": 1787961070128,
+       "data-model-sheet-uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+       "title": "P1",
+       "pid": "41c8e6523576456582ea35958b3684ed",
+       "version": "1787961070128",
+       "schematicName": "Schematic1",
+       "data-schematic-uuid": "cffcdb562c1b48d1a5214cfc263b6c90",
+       "isBlockSymbolSheet": false,
+       "creator": "27700277ef7a49e48a0293bece6b2993",
+       "owner": "27700277ef7a49e48a0293bece6b2993",
+       "sch": true
+      },
+      "titleStyle": {
+       "fontWeight": "bold"
+      },
+      "isUnSaved": false,
+      "isHighLight": false
+     }
+    ]
+   },
+   "editorBootstrapState": {
+    "startPageOnly": false,
+    "urlHash": "#id=41c8e6523576456582ea35958b3684ed,tab=*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedProjectUuid": "41c8e6523576456582ea35958b3684ed",
+    "requestedTabIds": [
+     "*1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "activeRequestedTab": "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed",
+    "requestedActiveTabMissing": false,
+    "visibleTabIds": [
+     "tab_page1",
+     "1435cb46f39e48c8a8aadbb84ca81603@41c8e6523576456582ea35958b3684ed"
+    ],
+    "suspectedBootstrapFailure": false
+   },
+   "contextLevel": "project-and-document",
+   "hasProjectContext": true,
+   "hasDocumentContext": true,
+   "recommendedNextSteps": [
+    "Use document-specific tools that match the active document type.",
+    "If you need project inventory or cross-document operations, call list_project_objects next.",
+    "For edits, prefer query tools first so primitive IDs and coordinates are verified before modification."
+   ]
+  }
+ },
+ {
+  "tag": "gap-riser",
+  "ok": true,
+  "result": {
+   "primitiveId": "ab166b26df43637a",
+   "deleted": true,
+   "staleGetReadback": false,
+   "readbackVerified": true
+  }
+ },
+ {
+  "tag": "valid-upper",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1680,
+      590,
+      1680,
+      990
+     ],
+     [
+      1710,
+      990,
+      1680,
+      990
+     ],
+     [
+      1680,
+      1000,
+      1680,
+      990
+     ],
+     [
+      1680,
+      1000,
+      1540,
+      1000
+     ],
+     [
+      1710,
+      590,
+      1680,
+      590
+     ]
+    ],
+    "net": "USB_5V_VALID",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "e471fab8231e2e30"
+   }
+  }
+ },
+ {
+  "tag": "valid-lower",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1680,
+      590,
+      1680,
+      990
+     ],
+     [
+      1680,
+      990,
+      1710,
+      990
+     ],
+     [
+      1680,
+      1000,
+      1680,
+      990
+     ],
+     [
+      1540,
+      1000,
+      1680,
+      1000
+     ],
+     [
+      1680,
+      590,
+      1710,
+      590
+     ]
+    ],
+    "net": "USB_5V_VALID",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "11279fae038ef82c"
+   }
+  }
+ },
+ {
+  "tag": "pwr1-w",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      230,
+      790,
+      180,
+      790
+     ]
+    ],
+    "net": "USB_PRTPWR1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "5b7f025c96fe0bc0"
+   }
+  }
+ },
+ {
+  "tag": "pwr1-n",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      180,
+      790,
+      230,
+      790
+     ],
+     [
+      180,
+      790,
+      180,
+      500
+     ]
+    ],
+    "net": "USB_PRTPWR1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "f7b4ab7f32b67804"
+   }
+  }
+ },
+ {
+  "tag": "pwr1-e",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      230,
+      790,
+      180,
+      790
+     ],
+     [
+      180,
+      500,
+      180,
+      790
+     ],
+     [
+      180,
+      500,
+      1720,
+      500
+     ]
+    ],
+    "net": "USB_PRTPWR1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "f1ef07bfe6529b73"
+   }
+  }
+ },
+ {
+  "tag": "pwr1-d",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      180,
+      790,
+      230,
+      790
+     ],
+     [
+      180,
+      790,
+      180,
+      500
+     ],
+     [
+      1720,
+      500,
+      180,
+      500
+     ],
+     [
+      1720,
+      500,
+      1720,
+      610
+     ]
+    ],
+    "net": "USB_PRTPWR1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "a8a1327052c73bfe"
+   }
+  }
+ },
+ {
+  "tag": "pwr1-in",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      230,
+      790,
+      180,
+      790
+     ],
+     [
+      180,
+      500,
+      180,
+      790
+     ],
+     [
+      180,
+      500,
+      1720,
+      500
+     ],
+     [
+      1720,
+      610,
+      1720,
+      500
+     ],
+     [
+      1720,
+      610,
+      1710,
+      610
+     ]
+    ],
+    "net": "USB_PRTPWR1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "3ecc8fdcdfa5b122"
+   }
+  }
+ },
+ {
+  "tag": "pwr2-w",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      230,
+      750,
+      170,
+      750
+     ]
+    ],
+    "net": "USB_PRTPWR2",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "3917b15083b99abb"
+   }
+  }
+ },
+ {
+  "tag": "pwr2-n",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      170,
+      750,
+      230,
+      750
+     ],
+     [
+      170,
+      750,
+      170,
+      480
+     ]
+    ],
+    "net": "USB_PRTPWR2",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "85782f49b2621618"
+   }
+  }
+ },
+ {
+  "tag": "pwr2-e",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      230,
+      750,
+      170,
+      750
+     ],
+     [
+      170,
+      480,
+      170,
+      750
+     ],
+     [
+      170,
+      480,
+      1910,
+      480
+     ]
+    ],
+    "net": "USB_PRTPWR2",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "926ebbe6a9609106"
+   }
+  }
+ },
+ {
+  "tag": "pwr2-d",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      170,
+      750,
+      230,
+      750
+     ],
+     [
+      170,
+      750,
+      170,
+      480
+     ],
+     [
+      1910,
+      480,
+      170,
+      480
+     ],
+     [
+      1910,
+      480,
+      1910,
+      1030
+     ]
+    ],
+    "net": "USB_PRTPWR2",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "a3543ac2e500e1a0"
+   }
+  }
+ },
+ {
+  "tag": "pwr2-in-h",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1710,
+      1000,
+      1710,
+      1010
+     ],
+     [
+      1710,
+      1030,
+      1710,
+      1010
+     ],
+     [
+      1910,
+      1030,
+      1710,
+      1030
+     ],
+     [
+      1910,
+      1030,
+      1910,
+      480
+     ],
+     [
+      170,
+      480,
+      1910,
+      480
+     ],
+     [
+      170,
+      480,
+      170,
+      750
+     ],
+     [
+      230,
+      750,
+      170,
+      750
+     ],
+     [
+      1710,
+      1140,
+      1710,
+      1030
+     ],
+     [
+      1870,
+      1140,
+      1710,
+      1140
+     ],
+     [
+      1870,
+      1140,
+      1885,
+      1140
+     ],
+     [
+      1885,
+      550,
+      1885,
+      1140
+     ],
+     [
+      1885,
+      550,
+      1810,
+      550
+     ],
+     [
+      1810,
+      600,
+      1810,
+      550
+     ],
+     [
+      1810,
+      600,
+      1710,
+      600
+     ],
+     [
+      1890,
+      1140,
+      1885,
+      1140
+     ],
+     [
+      1870,
+      1140,
+      1870,
+      1000
+     ],
+     [
+      1870,
+      600,
+      1870,
+      1000
+     ],
+     [
+      1710,
+      1140,
+      1660,
+      1140
+     ],
+     [
+      1660,
+      1140,
+      1660,
+      1200
+     ],
+     [
+      1660,
+      1140,
+      1640,
+      1140
+     ],
+     [
+      1640,
+      630,
+      1640,
+      1140
+     ],
+     [
+      1640,
+      630,
+      1500,
+      630
+     ],
+     [
+      1640,
+      1140,
+      1620,
+      1140
+     ],
+     [
+      1620,
+      1140,
+      1620,
+      600
+     ],
+     [
+      1535,
+      600,
+      1620,
+      600
+     ],
+     [
+      1620,
+      1140,
+      1595,
+      1140
+     ],
+     [
+      1595,
+      800,
+      1595,
+      1140
+     ],
+     [
+      1595,
+      1140,
+      1470,
+      1140
+     ],
+     [
+      1470,
+      1140,
+      1470,
+      800
+     ],
+     [
+      1440,
+      800,
+      1470,
+      800
+     ],
+     [
+      1470,
+      1140,
+      1440,
+      1140
+     ],
+     [
+      1440,
+      1140,
+      1440,
+      1100
+     ],
+     [
+      1440,
+      1140,
+      1360,
+      1140
+     ],
+     [
+      1360,
+      600,
+      1360,
+      1140
+     ],
+     [
+      1360,
+      600,
+      1465,
+      600
+     ],
+     [
+      1360,
+      1140,
+      1140,
+      1140
+     ],
+     [
+      1140,
+      1140,
+      1140,
+      810
+     ],
+     [
+      1140,
+      1140,
+      1120,
+      1140
+     ],
+     [
+      1120,
+      1000,
+      1120,
+      1140
+     ],
+     [
+      1120,
+      1140,
+      810,
+      1140
+     ],
+     [
+      810,
+      710,
+      810,
+      1140
+     ],
+     [
+      810,
+      710,
+      750,
+      710
+     ],
+     [
+      810,
+      1140,
+      780,
+      1140
+     ],
+     [
+      760,
+      1140,
+      780,
+      1140
+     ],
+     [
+      780,
+      1140,
+      780,
+      1100
+     ],
+     [
+      780,
+      980,
+      780,
+      1100
+     ]
+    ],
+    "net": "USB_PRTPWR2",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "84c512aa6d2e30ac"
+   }
+  }
+ },
+ {
+  "tag": "pwr2-in",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1710,
+      1000,
+      1710,
+      1010
+     ],
+     [
+      1710,
+      1030,
+      1710,
+      1010
+     ],
+     [
+      1710,
+      1030,
+      1910,
+      1030
+     ],
+     [
+      1910,
+      480,
+      1910,
+      1030
+     ],
+     [
+      1910,
+      480,
+      170,
+      480
+     ],
+     [
+      170,
+      750,
+      170,
+      480
+     ],
+     [
+      170,
+      750,
+      230,
+      750
+     ],
+     [
+      1710,
+      1140,
+      1710,
+      1030
+     ],
+     [
+      1710,
+      1140,
+      1660,
+      1140
+     ],
+     [
+      1660,
+      1200,
+      1660,
+      1140
+     ],
+     [
+      1640,
+      1140,
+      1660,
+      1140
+     ],
+     [
+      1640,
+      1140,
+      1640,
+      630
+     ],
+     [
+      1500,
+      630,
+      1640,
+      630
+     ],
+     [
+      1620,
+      1140,
+      1640,
+      1140
+     ],
+     [
+      1620,
+      600,
+      1620,
+      1140
+     ],
+     [
+      1620,
+      600,
+      1535,
+      600
+     ],
+     [
+      1595,
+      1140,
+      1620,
+      1140
+     ],
+     [
+      1595,
+      1140,
+      1595,
+      800
+     ],
+     [
+      1470,
+      1140,
+      1595,
+      1140
+     ],
+     [
+      1470,
+      800,
+      1470,
+      1140
+     ],
+     [
+      1470,
+      800,
+      1440,
+      800
+     ],
+     [
+      1440,
+      1140,
+      1470,
+      1140
+     ],
+     [
+      1440,
+      1100,
+      1440,
+      1140
+     ],
+     [
+      1360,
+      1140,
+      1440,
+      1140
+     ],
+     [
+      1360,
+      1140,
+      1360,
+      600
+     ],
+     [
+      1465,
+      600,
+      1360,
+      600
+     ],
+     [
+      1140,
+      1140,
+      1360,
+      1140
+     ],
+     [
+      1140,
+      810,
+      1140,
+      1140
+     ],
+     [
+      1120,
+      1140,
+      1140,
+      1140
+     ],
+     [
+      1120,
+      1140,
+      1120,
+      1000
+     ],
+     [
+      810,
+      1140,
+      1120,
+      1140
+     ],
+     [
+      810,
+      1140,
+      810,
+      710
+     ],
+     [
+      750,
+      710,
+      810,
+      710
+     ],
+     [
+      780,
+      1140,
+      810,
+      1140
+     ],
+     [
+      760,
+      1140,
+      780,
+      1140
+     ],
+     [
+      780,
+      1140,
+      780,
+      1100
+     ],
+     [
+      780,
+      980,
+      780,
+      1100
+     ],
+     [
+      1710,
+      1140,
+      1870,
+      1140
+     ],
+     [
+      1870,
+      1140,
+      1885,
+      1140
+     ],
+     [
+      1885,
+      1140,
+      1885,
+      550
+     ],
+     [
+      1810,
+      550,
+      1885,
+      550
+     ],
+     [
+      1810,
+      550,
+      1810,
+      600
+     ],
+     [
+      1710,
+      600,
+      1810,
+      600
+     ],
+     [
+      1890,
+      1140,
+      1885,
+      1140
+     ],
+     [
+      1870,
+      1140,
+      1870,
+      1000
+     ],
+     [
+      1870,
+      600,
+      1870,
+      1000
+     ]
+    ],
+    "net": "USB_PRTPWR2",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "22e63dc24bb290e1"
+   }
+  }
+ },
+ {
+  "tag": "en1-e",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1790,
+      590,
+      1920,
+      590
+     ]
+    ],
+    "net": "USB_EN1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "85a996844fd2da45"
+   }
+  }
+ },
+ {
+  "tag": "en1-d",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1920,
+      590,
+      1790,
+      590
+     ],
+     [
+      1920,
+      590,
+      1920,
+      790
+     ]
+    ],
+    "net": "USB_EN1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "1681315a52110b94"
+   }
+  }
+ },
+ {
+  "tag": "en1-w",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1790,
+      590,
+      1920,
+      590
+     ],
+     [
+      1920,
+      790,
+      1920,
+      590
+     ],
+     [
+      1920,
+      790,
+      1280,
+      790
+     ]
+    ],
+    "net": "USB_EN1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "40e7bdeb4ced60d6"
+   }
+  }
+ },
+ {
+  "tag": "en1-n",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1920,
+      590,
+      1790,
+      590
+     ],
+     [
+      1920,
+      590,
+      1920,
+      790
+     ],
+     [
+      1280,
+      790,
+      1920,
+      790
+     ],
+     [
+      1280,
+      790,
+      1280,
+      770
+     ]
+    ],
+    "net": "USB_EN1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "9aaec009014fffd5"
+   }
+  }
+ },
+ {
+  "tag": "en1-w2",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1790,
+      590,
+      1920,
+      590
+     ],
+     [
+      1920,
+      790,
+      1920,
+      590
+     ],
+     [
+      1920,
+      790,
+      1280,
+      790
+     ],
+     [
+      1280,
+      770,
+      1280,
+      790
+     ],
+     [
+      1280,
+      770,
+      1120,
+      770
+     ]
+    ],
+    "net": "USB_EN1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "8312ab779390fd64"
+   }
+  }
+ },
+ {
+  "tag": "en1-d2",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1920,
+      590,
+      1790,
+      590
+     ],
+     [
+      1920,
+      590,
+      1920,
+      790
+     ],
+     [
+      1280,
+      790,
+      1920,
+      790
+     ],
+     [
+      1280,
+      790,
+      1280,
+      770
+     ],
+     [
+      1120,
+      770,
+      1280,
+      770
+     ],
+     [
+      1120,
+      770,
+      1120,
+      790
+     ]
+    ],
+    "net": "USB_EN1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "19237cf3feba9e54"
+   }
+  }
+ },
+ {
+  "tag": "en1-in",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1790,
+      590,
+      1920,
+      590
+     ],
+     [
+      1920,
+      790,
+      1920,
+      590
+     ],
+     [
+      1920,
+      790,
+      1280,
+      790
+     ],
+     [
+      1280,
+      770,
+      1280,
+      790
+     ],
+     [
+      1280,
+      770,
+      1120,
+      770
+     ],
+     [
+      1120,
+      790,
+      1120,
+      770
+     ],
+     [
+      1120,
+      790,
+      1140,
+      790
+     ]
+    ],
+    "net": "USB_EN1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "cd32c6978cd7d47c"
+   }
+  }
+ },
+ {
+  "tag": "en2-e",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1830,
+      1000,
+      1830,
+      1010
+     ],
+     [
+      1790,
+      1010,
+      1830,
+      1010
+     ],
+     [
+      1790,
+      1010,
+      1790,
+      990
+     ],
+     [
+      1790,
+      990,
+      1935,
+      990
+     ],
+     [
+      1790,
+      700,
+      1790,
+      990
+     ],
+     [
+      1800,
+      700,
+      1790,
+      700
+     ],
+     [
+      1790,
+      700,
+      1500,
+      700
+     ],
+     [
+      1500,
+      700,
+      1500,
+      960
+     ],
+     [
+      870,
+      700,
+      1500,
+      700
+     ]
+    ],
+    "net": "USB_EN2",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "5a8a01d2cab83a68"
+   }
+  }
+ },
+ {
+  "tag": "en2-n",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      870,
+      700,
+      1500,
+      700
+     ],
+     [
+      1500,
+      960,
+      1500,
+      700
+     ],
+     [
+      1500,
+      700,
+      1790,
+      700
+     ],
+     [
+      1800,
+      700,
+      1790,
+      700
+     ],
+     [
+      1790,
+      700,
+      1790,
+      990
+     ],
+     [
+      1935,
+      990,
+      1790,
+      990
+     ],
+     [
+      1935,
+      990,
+      1935,
+      760
+     ],
+     [
+      1790,
+      1010,
+      1790,
+      990
+     ],
+     [
+      1830,
+      1010,
+      1790,
+      1010
+     ],
+     [
+      1830,
+      1010,
+      1830,
+      1000
+     ]
+    ],
+    "net": "USB_EN2",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "c5ca847f5bf45222"
+   }
+  }
+ },
+ {
+  "tag": "en2-w",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1830,
+      1000,
+      1830,
+      1010
+     ],
+     [
+      1790,
+      1010,
+      1830,
+      1010
+     ],
+     [
+      1790,
+      1010,
+      1790,
+      990
+     ],
+     [
+      1790,
+      990,
+      1935,
+      990
+     ],
+     [
+      1935,
+      760,
+      1935,
+      990
+     ],
+     [
+      1935,
+      760,
+      1110,
+      760
+     ],
+     [
+      1790,
+      700,
+      1790,
+      990
+     ],
+     [
+      1800,
+      700,
+      1790,
+      700
+     ],
+     [
+      1790,
+      700,
+      1500,
+      700
+     ],
+     [
+      1500,
+      700,
+      1500,
+      960
+     ],
+     [
+      870,
+      700,
+      1500,
+      700
+     ]
+    ],
+    "net": "USB_EN2",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "c2af85469d0ee368"
+   }
+  }
+ },
+ {
+  "tag": "en2-d",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      870,
+      700,
+      1500,
+      700
+     ],
+     [
+      1500,
+      960,
+      1500,
+      700
+     ],
+     [
+      1500,
+      700,
+      1790,
+      700
+     ],
+     [
+      1800,
+      700,
+      1790,
+      700
+     ],
+     [
+      1790,
+      700,
+      1790,
+      990
+     ],
+     [
+      1935,
+      990,
+      1790,
+      990
+     ],
+     [
+      1935,
+      990,
+      1935,
+      760
+     ],
+     [
+      1110,
+      760,
+      1935,
+      760
+     ],
+     [
+      1110,
+      760,
+      1110,
+      780
+     ],
+     [
+      1790,
+      1010,
+      1790,
+      990
+     ],
+     [
+      1830,
+      1010,
+      1790,
+      1010
+     ],
+     [
+      1830,
+      1010,
+      1830,
+      1000
+     ]
+    ],
+    "net": "USB_EN2",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "87839be61476a07c"
+   }
+  }
+ },
+ {
+  "tag": "en2-in",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      1830,
+      1000,
+      1830,
+      1010
+     ],
+     [
+      1790,
+      1010,
+      1830,
+      1010
+     ],
+     [
+      1790,
+      1010,
+      1790,
+      990
+     ],
+     [
+      1790,
+      990,
+      1935,
+      990
+     ],
+     [
+      1935,
+      760,
+      1935,
+      990
+     ],
+     [
+      1935,
+      760,
+      1110,
+      760
+     ],
+     [
+      1110,
+      780,
+      1110,
+      760
+     ],
+     [
+      1110,
+      780,
+      1140,
+      780
+     ],
+     [
+      1790,
+      700,
+      1790,
+      990
+     ],
+     [
+      1800,
+      700,
+      1790,
+      700
+     ],
+     [
+      1790,
+      700,
+      1500,
+      700
+     ],
+     [
+      1500,
+      700,
+      1500,
+      960
+     ],
+     [
+      870,
+      700,
+      1500,
+      700
+     ]
+    ],
+    "net": "USB_EN2",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "c8f49fd1312c9655"
+   },
+   "saved": true
+  }
+ }
+]

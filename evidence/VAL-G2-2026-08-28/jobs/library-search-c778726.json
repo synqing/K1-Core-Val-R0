@@ -1,0 +1,5 @@
+[
+  {"tool": "get_current_context", "tag": "ctx", "args": {}},
+  {"tool": "search_library_devices", "tag": "C778726", "args": {"lcscIds": ["C778726"], "itemsPerPage": 5, "allowMultiMatch": true}},
+  {"tool": "search_library_devices", "tag": "CX70M", "args": {"query": "CX70M-24P1", "itemsPerPage": 10, "allowMultiMatch": true}}
+]

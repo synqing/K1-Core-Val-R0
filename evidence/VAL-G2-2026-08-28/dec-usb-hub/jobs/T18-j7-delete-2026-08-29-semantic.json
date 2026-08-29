@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "transaction_id": "T18-j7-delete-2026-08-29",
+  "project_uuid": "41c8e6523576456582ea35958b3684ed",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "3056663:f95dde13",
+  "post_source_hash": "3047588:59f64829",
+  "saved": true,
+  "affected": [
+    {"deleted": "J7-ESP", "id": "e8334"},
+    {"kept": "J1-PWR1", "id": "ea47c20de228fa3a"}
+  ],
+  "census": {
+    "components": 332,
+    "wires": 796,
+    "components_delta": -1,
+    "wires_delta": 0
+  },
+  "observed": "J7-ESP e8334 gone. J1-PWR1 ea47c20de228fa3a present. Source no longer contains J7-ESP. Hub 41c8e652."
+}

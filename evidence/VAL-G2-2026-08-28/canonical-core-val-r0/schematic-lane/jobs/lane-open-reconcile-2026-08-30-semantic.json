@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "transaction_id": "live-sch-lane-open-reconcile-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash": "2252446:d9ce864f",
+  "saved": true,
+  "census": {
+    "components": 229,
+    "wires": 686,
+    "texts": 22,
+    "rects": 10,
+    "named_nets": 149,
+    "nc_flags": 97
+  },
+  "observed": "Opened a dedicated schematic mutation lane on live MAIN K1-Core-Val-R0 64325d0e, page 1435cb46. EasyEDA chrome is K1-Core-Val-R0 | JLCEDA Pro, not HOLD 55ed9ee9 and not hub 41c8e652. PCB document 59bef7e8 stays on its own blocked lane. No schematic write this step."
+}

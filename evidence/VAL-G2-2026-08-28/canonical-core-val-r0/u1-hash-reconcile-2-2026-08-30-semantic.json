@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "transaction_id": "u1-hash-reconcile-2-2026-08-30",
+  "project_uuid": "64325d0e55e0435abd018defb0089a9b",
+  "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
+  "source_hash": "653038:5011a01c",
+  "census": {
+    "characters": 653038,
+    "u1_primitive": "0f194aaf30bc2e32",
+    "prior_hash": "653038:6cdb9687",
+    "note": "Second activate re-serialise while taking the pre-write snapshot. Same character count. No write."
+  }
+}
