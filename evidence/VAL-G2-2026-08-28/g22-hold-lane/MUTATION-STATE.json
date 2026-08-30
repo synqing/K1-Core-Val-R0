@@ -1,34 +1,12 @@
 {
-  "active_transaction": {
-    "began_at": "2026-08-29T13:10:17.149288+00:00",
-    "expected_checks": [
-      "J1-PWR1 USB-C symbol sits inside domain box 1",
-      "D3-USB TVS sits in the power-entry inlet",
-      "red title 1. POWER ENTRY + PROTECTION still present",
-      "HOLD 55ed9ee9 remains focused, live 64325d0e untouched"
-    ],
-    "intended_delta": "Move J1-PWR1 from outside the box into domain 1 left of D1-PWR1, and move D3-USB SMF5.0A onto the inlet next to C1. Title and box stay. No wires.",
-    "kind": "normal",
-    "mutation_recorded_at": "2026-08-29T13:16:18.818160+00:00",
-    "post_source_hash": "3164835:9e261d95",
-    "pre_source_hash": "3164926:7850460a",
-    "previous_state": "READY",
-    "repairs_transaction_id": null,
-    "scope": "Move J1-PWR1 and D3-USB into existing domain-1 POWER ENTRY box. No new parts, no wires, no designate.",
-    "semantic_path": "evidence/VAL-G2-2026-08-28/g22-hold-lane/jobs/G22-d01-j1-d3-move-2026-08-29-semantic.json",
-    "semantic_sha256": "66e7ac812b7259db8a59cdd08b7884638118fe49328b127a6b29ea7f60fe17af",
-    "snapshot_path": "evidence/VAL-G2-2026-08-28/g22-hold-lane/anchors/pre-lane-open.json",
-    "snapshot_sha256": "35b584fd800feb026a7dcda39c1df7a61a6049e34216db67cdbfcb82a4b2319f",
-    "stage": "move",
-    "transaction_id": "G22-d01-j1-d3-move-2026-08-29"
-  },
+  "active_transaction": null,
   "blocked_transaction_id": null,
-  "blocking_reason": "Mutation exists; settled screenshot and visual inspection are required",
-  "current_source_hash": "3164835:9e261d95",
+  "blocking_reason": null,
+  "current_source_hash": "3165690:5aad2e78",
   "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
-  "last_closed_transaction_id": "g22-hold-lane-open-reconcile-2026-08-29",
+  "last_closed_transaction_id": "g22-pwr1-ilm-repair-2026-08-30",
   "project_uuid": "55ed9ee948734a0e903f37744b51f3b8",
   "schema_version": 1,
-  "state": "AWAITING_EVIDENCE",
-  "updated_at": "2026-08-29T13:16:18.818291+00:00"
+  "state": "READY",
+  "updated_at": "2026-08-30T09:45:30.450082+00:00"
 }

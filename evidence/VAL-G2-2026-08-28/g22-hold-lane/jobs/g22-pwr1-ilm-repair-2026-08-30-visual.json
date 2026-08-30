@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "g22-pwr1-ilm-repair-2026-08-30",
+  "project_uuid": "55ed9ee948734a0e903f37744b51f3b8",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Disconnect U1-PWR1 pin 9 ILM from USB_DP_UP. Keep RUSB_DP D+ continuous. Draw USB_EFUSE_ILIM from pin 9 to R1-PWR1. Do not touch hub, AUX, LED, NFC.",
+  "observed_delta": "At 230% on U1-PWR1, pin 9 ILM has a new vertical stub labelled USB_EFUSE_ILIM at (625,-4195). USB_DP_UP remains as the nearby D+ stub label at (607.5,-4165) on pruned w154290, not as pin 9's net. R1-PWR1 still shows 1.24k on USB_EFUSE_ILIM. HOLD chrome, not live product.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/g22-hold-lane/screenshots/g22-pwr1-ilm-post-230.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "U1-PWR1 pin 9 ILM is no longer on USB_DP_UP",
+      "result": "OK",
+      "detail": "T2: pin 9 vertex is exclusively USB_EFUSE_ILIM. New ILIM net-label sits on the vertical stub at (625,-4195). USB_DP_UP label at (607.5,-4165) belongs to the pruned D+ stub, not pin 9."
+    },
+    {
+      "name": "USB_EFUSE_ILIM reaches U1-PWR1.9 and R1-PWR1",
+      "result": "OK",
+      "detail": "Members U1-PWR1.9 and R1-PWR1.1. R1 still displays 1.24k. Orphan stub at R1 remains named USB_EFUSE_ILIM and is no longer one-endpoint."
+    },
+    {
+      "name": "USB_DP_UP still includes RUSB_DP-PWR1",
+      "result": "OK",
+      "detail": "w154290 remains USB_DP_UP from RUSB pin 2 (575,-4165) to (590,-4165). Hub island w154288 at y=-810 is intact."
+    },
+    {
+      "name": "HOLD 55ed9ee9 focused; live 64325d0e untouched",
+      "result": "OK",
+      "detail": "Chrome and get_current_context parent are K1-Core-Val-R0-G2.2-READABLE-HOLD 55ed9ee9. Canonical 64325d0e was not written."
+    }
+  ]
+}

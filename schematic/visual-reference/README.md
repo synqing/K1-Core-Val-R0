@@ -32,8 +32,17 @@ DATE     = 2026-08-29
 
 ## Headline findings (from the AUDIT views)
 
-- **U1-PWR1.9 (eFuse ILM) is bound to USB_DP_UP** while R1-PWR1 dangles on
-  USB_EFUSE_ILIM — an eFuse current-limit node on the USB HS pair. VERIFY before anything.
+These AUDIT views were generated from the **pre-repair** G2.2 HOLD-REOPEN dump.
+They are not a live netlist of either EasyEDA project.
+
+- **CANONICAL `64325d0e…`:** U1-PWR1.9 / ILM is on `USB_EFUSE_ILIM`. **CLEAN — do not fix.**
+- **G2.2 hub candidate:** **HAD** U1-PWR1.9 bound to `USB_DP_UP` while R1-PWR1 sat on
+  `USB_EFUSE_ILIM` (this package's dump). Live HOLD `55ed9ee9…` was **repaired**
+  2026-08-30 (`g22-pwr1-ilm-repair-2026-08-30`). Do not treat this visual package as
+  current ILM topology, and do not copy that pre-repair geometry onto canonical.
+- **R1-PWR1 trap:** electrical/device identity is **1.24 kΩ** /
+  `RNCF0402BTC1K24` / `C2491273`. Stale `partId` `RC0402FR-0710KL.1` implies 10 kΩ
+  and is display/legacy metadata only.
 - U23/U25 supply pins deviate from H0f (V+/GND swapped; PRTPWR2 path grounded).
 - Same-net series elements the router could bypass: R85, R94, R90, C123.
 - J1 GT-USB-7005A placed 0/28 wired; USB4105 parked -RETIRED still on legacy nets.

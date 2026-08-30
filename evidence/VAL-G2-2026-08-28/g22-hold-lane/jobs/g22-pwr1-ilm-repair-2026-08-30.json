@@ -1,0 +1,33 @@
+[
+  {
+    "tool": "modify_schematic_wire",
+    "tag": "dp-prune-ilm-vertex",
+    "args": {
+      "primitiveId": "w154290",
+      "line": [575, 4165, 590, 4165],
+      "net": "USB_DP_UP",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "ilm-from-pin9",
+    "args": {
+      "line": [625, 4165, 625, 4225, 600, 4225],
+      "net": "USB_EFUSE_ILIM",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "u1-ilm-net",
+    "args": {
+      "componentPrimitiveId": "e504",
+      "connections": [{ "pinNumber": "9", "net": "USB_EFUSE_ILIM" }],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

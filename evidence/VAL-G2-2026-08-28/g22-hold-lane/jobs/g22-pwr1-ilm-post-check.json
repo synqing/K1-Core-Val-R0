@@ -1,0 +1,185 @@
+{
+  "counts": {
+    "assertions_executed": 11,
+    "components_inspected": 287,
+    "easyeda_records_parsed": 9893,
+    "files_inspected": 1,
+    "nets_inspected": 174,
+    "symbol_pins_resolved": 10
+  },
+  "dp_continuity": {
+    "hub_island_usb_dp_up": true,
+    "rusb_dp_on_usb_dp_up": true,
+    "u1_pin9_on_usb_dp_up": false,
+    "usb_dp_up_wire_count": 3
+  },
+  "errors": [],
+  "ilim_members": [
+    "U1-PWR1.9",
+    "R1-PWR1.1"
+  ],
+  "ok": true,
+  "r1": {
+    "device": "263cdab6e3341f4ea8fd57ccc688e923",
+    "electrical_ohms": 1240,
+    "id": "e426",
+    "metadata_mismatch": true,
+    "mpn": "RNCF0402BTC1K24",
+    "name": "1.24k",
+    "partId": "RC0402FR-0710KL.1",
+    "partid_implied_ohms": 10000,
+    "pins": {
+      "1": {
+        "nets": [
+          "USB_EFUSE_ILIM"
+        ],
+        "xy": [
+          345,
+          -4420
+        ]
+      },
+      "2": {
+        "nets": [
+          "GND"
+        ],
+        "xy": [
+          385,
+          -4420
+        ]
+      }
+    },
+    "rotation": 0,
+    "supplier": "C2491273",
+    "value_attr": "",
+    "xy": [
+      365,
+      -4420
+    ]
+  },
+  "reconstruction": "TPS259474L symbol offsets + instance transform; vertex coincidence at tolerance 0",
+  "transform": {
+    "isMirror": false,
+    "method": "TPS259474L symbol offsets + instance transform; vertex coincidence at tolerance 0",
+    "proof_pins_ok": 7,
+    "proof_pins_required": 6,
+    "rotation": 180,
+    "u1_xy": [
+      690,
+      -4110
+    ]
+  },
+  "u1_pins": {
+    "1": {
+      "name": "EN/UVLO",
+      "nets": [
+        "USB_EFUSE_EN"
+      ],
+      "open": false,
+      "xy": [
+        775,
+        -4110
+      ]
+    },
+    "10": {
+      "name": "ITIMER",
+      "nets": [],
+      "open": true,
+      "xy": [
+        740,
+        -4165
+      ]
+    },
+    "2": {
+      "name": "OVLO",
+      "nets": [
+        "USB_EFUSE_OVLO"
+      ],
+      "open": false,
+      "xy": [
+        775,
+        -4130
+      ]
+    },
+    "3": {
+      "name": "PG",
+      "nets": [
+        "PWR_ENTRY_PG_RT_IOMUX_TBD"
+      ],
+      "open": false,
+      "xy": [
+        600,
+        -4130
+      ]
+    },
+    "4": {
+      "name": "PGTH",
+      "nets": [
+        "USB_EFUSE_PGTH"
+      ],
+      "open": false,
+      "xy": [
+        600,
+        -4110
+      ]
+    },
+    "5": {
+      "name": "IN",
+      "nets": [
+        "5V_USB"
+      ],
+      "open": false,
+      "xy": [
+        775,
+        -4090
+      ]
+    },
+    "6": {
+      "name": "OUT",
+      "nets": [
+        "5V_PROTECTED"
+      ],
+      "open": false,
+      "xy": [
+        600,
+        -4090
+      ]
+    },
+    "7": {
+      "name": "DVDT",
+      "nets": [
+        "USB_EFUSE_DVDT"
+      ],
+      "open": false,
+      "xy": [
+        705,
+        -4165
+      ]
+    },
+    "8": {
+      "name": "GND",
+      "nets": [
+        "GND"
+      ],
+      "open": false,
+      "xy": [
+        665,
+        -4165
+      ]
+    },
+    "9": {
+      "name": "ILM",
+      "nets": [
+        "USB_EFUSE_ILIM"
+      ],
+      "open": false,
+      "xy": [
+        625,
+        -4165
+      ]
+    }
+  },
+  "unresolved": false,
+  "warnings": [
+    "METADATA_MISMATCH: partId text disagrees with bound device/value"
+  ]
+}

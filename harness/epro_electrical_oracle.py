@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "harness"))
 from easyeda_source_format import detect_format
 from extract_electrical_graph import extract_electrical_graph, _load_source, _pin_bindings
+from g22_pwr1_ilm import analyse as analyse_ilm
 
 U4_ERA = ("U4-PWR2", "C68-PWR2", "R8-PWR2")
 REQUIRED_PRESENT = ("U1-PWR1", "U17-PWR2")
@@ -95,6 +96,16 @@ def main(argv=None) -> int:
         action="store_true",
         help="require D-049 hub census (J7 gone, U20–U25 present)",
     )
+    parser.add_argument(
+        "--ilm-semantics",
+        action="store_true",
+        help="require U1-PWR1.9 ILM on USB_EFUSE_ILIM (G2.2 promotion gate)",
+    )
+    parser.add_argument(
+        "--skip-ilm-semantics",
+        action="store_true",
+        help="explicit opt-out; G2.2 roles and official freeze ignore this",
+    )
     args = parser.parse_args(argv)
 
     source, meta = _load_source(args.source)
@@ -149,6 +160,30 @@ def main(argv=None) -> int:
             f"forbidden={hub['forbidden_present']} missing={hub['required_missing']}"
         )
         return 2
+    role_u = str(args.role).upper()
+    g22_role = "G2.2" in role_u or "G22" in role_u
+    want_ilm = args.ilm_semantics or g22_role or args.official_freeze
+    if args.skip_ilm_semantics and not args.official_freeze and not g22_role:
+        want_ilm = False
+    if want_ilm:
+        if "U1-PWR1" not in (graph.get("identity") or {}):
+            print("ORACLE=REFUSED U1-PWR1 absent; ILM pin-role resolution unavailable")
+            return 2
+        expect_r1 = 1240 if (g22_role or args.ilm_semantics) else None
+        ilm = analyse_ilm(source, source_path=str(args.source), expect_r1_ohms=expect_r1)
+        graph["ilm_semantics"] = ilm.as_dict()
+        args.output.write_text(json.dumps(graph, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+        print(
+            "ILM_SEMANTICS "
+            f"ok={ilm.ok} unresolved={ilm.unresolved} "
+            f"pin9={None if '9' not in ilm.u1_pins else ilm.u1_pins['9'].nets} "
+            f"r1_ohms={ilm.r1.get('electrical_ohms')}"
+        )
+        if ilm.unresolved or not ilm.ok:
+            print("ORACLE=REFUSED U1 ILM semantic failure — G2.2 promotion / JLC-SCH-READY cannot close")
+            for item in ilm.errors:
+                print(f"  {item}")
+            return 2
     return 0
 
 

@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "g22-hold-activate-restamp-2026-08-30",
+  "project_uuid": "55ed9ee948734a0e903f37744b51f3b8",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Lane reconciliation after HOLD activate restamp. Confirm EasyEDA is on K1-Core-Val-R0-G2.2-READABLE-HOLD, U1-PWR1 ILM still on USB_DP_UP, R1 1.24k on USB_EFUSE_ILIM orphan, live 64325d0e not focused.",
+  "observed_delta": "Chrome title is K1-Core-Val-R0-G2.2-READABLE-HOLD. 230% shot shows U1-PWR1 pin 9 ILM on USB_DP_UP and R1-PWR1 1.24k on a USB_EFUSE_ILIM stub. Canonical product is not the focused project.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/g22-hold-lane/screenshots/g22-pwr1-ilm-pre.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "HOLD chrome is visible",
+      "result": "OK",
+      "detail": "Window/context is K1-Core-Val-R0-G2.2-READABLE-HOLD, project uuid 55ed9ee9."
+    },
+    {
+      "name": "U1 ILM still on USB_DP_UP",
+      "result": "OK",
+      "detail": "230% shot shows pin 9 ILM vertical stub into the USB_DP_UP label; pre-fix defect still present."
+    },
+    {
+      "name": "R1 1.24k on USB_EFUSE_ILIM stub",
+      "result": "OK",
+      "detail": "R1-PWR1 displays 1.24k with USB_EFUSE_ILIM on the left pin and GND on the right."
+    },
+    {
+      "name": "not the live product project",
+      "result": "OK",
+      "detail": "Focused parent is HOLD 55ed9ee9, not live 64325d0e."
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "transaction_id": "g22-pwr1-ilm-repair-2026-08-30",
+  "project_uuid": "55ed9ee948734a0e903f37744b51f3b8",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "3164863:7426869d",
+  "post_source_hash": "3165690:5aad2e78",
+  "saved": true,
+  "affected": [
+    {
+      "primitiveId": "w154290",
+      "net": "USB_DP_UP",
+      "operation": "pruned",
+      "line": [575, -4165, 590, -4165],
+      "note": "MCP modify_schematic_wire returned modify failed; T2 source shows the four-segment ILM-sharing polyline collapsed to the RUSB D+ stub only."
+    },
+    {
+      "primitiveId": "0f34d91f3706b2a2",
+      "net": "USB_EFUSE_ILIM",
+      "operation": "added",
+      "line": [[625, -4165, 625, -4225], [625, -4225, 600, -4225]]
+    },
+    {
+      "primitiveId": "e504",
+      "designator": "U1-PWR1",
+      "pin": "9",
+      "role": "ILM",
+      "pre_nets": ["USB_DP_UP"],
+      "post_nets": ["USB_EFUSE_ILIM"]
+    },
+    {
+      "primitiveId": "e426",
+      "designator": "R1-PWR1",
+      "pin": "1",
+      "net": "USB_EFUSE_ILIM",
+      "electrical_ohms": 1240,
+      "partId": "RC0402FR-0710KL.1",
+      "metadata_mismatch": true
+    }
+  ],
+  "census": {
+    "components": 324,
+    "wires": 801,
+    "lines": 1019,
+    "texts": 38,
+    "rects": 10,
+    "components_delta": 0,
+    "wires_delta": 1,
+    "lines_delta": -1
+  },
+  "ilm": {
+    "u1_pin9": ["USB_EFUSE_ILIM"],
+    "ilim_members": ["U1-PWR1.9", "R1-PWR1.1"],
+    "usb_dp_up_has_rusb": true,
+    "usb_dp_up_has_u1_pin9": false
+  },
+  "observed": "HOLD 55ed9ee9. U1-PWR1.9 ILM is exclusively USB_EFUSE_ILIM. w154290 USB_DP_UP is the RUSB D+ stub only. New wire 0f34d91f3706b2a2 carries ILIM south from pin 9. connect_schematic_pins_to_nets failed after the geometry already landed; not retried. Live 64325d0e not written."
+}

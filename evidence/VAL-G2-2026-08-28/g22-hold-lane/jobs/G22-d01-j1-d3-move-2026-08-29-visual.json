@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "G22-d01-j1-d3-move-2026-08-29",
+  "project_uuid": "55ed9ee948734a0e903f37744b51f3b8",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Move J1-PWR1 from outside the box into domain 1 left of D1-PWR1, and move D3-USB SMF5.0A onto the inlet next to C1. Title and box stay. No wires.",
+  "observed_delta": "HOLD 55ed9ee9 is focused. J1-PWR1 is GT-USB-7005A-IND at host (150,4120) inside domain box 1. D3-USB SMF5.0A sits on the power-entry inlet beside C1/C3. The USB-C pin column and D3 are readable on the 251% domain-1 screenshot. Live 64325d0e was not written.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/g22-hold-lane/screenshots/G22-d01-j1-d3-move-2026-08-29.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "J1-PWR1 USB-C symbol sits inside domain box 1",
+      "result": "OK",
+      "detail": "Live primitive e154000 is J1-PWR1 GT-USB-7005A-IND at (150,4120), inside box e5480. The 251% shot shows the USB-C pin column (A12/A9/A7/A6/A5/A4) in the power-entry region, not the old off-box placement."
+    },
+    {
+      "name": "D3-USB TVS sits in the power-entry inlet",
+      "result": "OK",
+      "detail": "Live primitive e154056 is D3-USB SMF5.0A at (80,4300). The screenshot shows SMF5.0A on the inlet next to C1-PWR1, not on the hub island."
+    },
+    {
+      "name": "red title 1. POWER ENTRY + PROTECTION still present",
+      "result": "OK",
+      "detail": "Domain-1 power-entry content (C1, C3, D1-PWR1, 5V_USB, USB_EFUSE_ILIM) remains; box was not deleted."
+    },
+    {
+      "name": "HOLD 55ed9ee9 remains focused, live 64325d0e untouched",
+      "result": "OK",
+      "detail": "get_current_context parentProjectUuid is 55ed9ee948734a0e903f37744b51f3b8, friendlyName K1-Core-Val-R0-G2.2-READABLE-HOLD. Chrome is not the live K1-Core-Val-R0 product."
+    }
+  ]
+}

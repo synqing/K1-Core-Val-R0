@@ -42,6 +42,21 @@ Renderer: `harness/epro_schematic_renderer.py` against the **hub** freeze (no
 `--allow-unfrozen`). Equivalence: `harness/check_electrical_equivalence.py`
 frozen digest vs reconstructed graph.
 
+ILM / R1 semantic gate (mandatory before asking for `JLC-SCH-READY`):
+
+```bash
+python3 harness/check_g22_pwr1_ilm.py <g22-source> \
+  -o evidence/VAL-G2-2026-08-28/dec-usb-hub/g22/g22-pwr1-ilm.json
+
+python3 harness/epro_electrical_oracle.py <g22-source.json> \
+  -o evidence/VAL-G2-2026-08-28/dec-usb-hub/g22/g22-electrical-graph.json \
+  --role G2.2_READABLE
+```
+
+`U1-PWR1.9` on `USB_DP_UP`, an orphaned `USB_EFUSE_ILIM`, unresolved pin roles,
+unresolvable R1 ohms, or a broken D+ path all refuse the oracle. Canonical
+`64325d0e` is not the subject of this check.
+
 Pack `K1-Core-Val-R0-G2.2-READABLE-CANDIDATE` by replacing only the schematic
 member in a copy of the hub export. Import as a **new** disposable project.
 Save / close / reopen. ERC + BOM. Domain screenshots. Live `64325d0e` hash

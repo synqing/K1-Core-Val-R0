@@ -1,6 +1,6 @@
 # STATUS
 
-Updated: 2026-08-30 (D-051 RATIFIED — audio contract dual-input; live sheet still PDM-only)
+Updated: 2026-08-30 (G2.2 HOLD PWR1 ILM repaired; canonical untouched; `JLC-SCH-READY` still OPEN)
 
 | Lane | State |
 | --- | --- |
@@ -107,6 +107,26 @@ JLC source package. Only that stamp unblocks paid JLCPCB placement/routing.
 
 The current EasyEDA sheet is a graphical netlist. Paid layout stays blocked until both
 gates close in order.
+
+### G2.2 PWR1 ILM — 2026-08-30
+
+This is a **candidate-scoped** electrical repair, not a product-project change.
+
+| Project | Identity | ILM state |
+| --- | --- | --- |
+| **Canonical** `64325d0e55e0435abd018defb0089a9b` | CLEAN — U1-PWR1.9 already on `USB_EFUSE_ILIM`. **Not mutated.** |
+| **G2.2 HOLD** `55ed9ee948734a0e903f37744b51f3b8` | HAD U1-PWR1.9 on `USB_DP_UP`. **Repaired** in `g22-pwr1-ilm-repair-2026-08-30`. |
+
+Do not write “K1-CORE has ILM connected to USB D+” without naming the candidate. That
+sentence is now false for both the live product project and the repaired HOLD.
+
+R1-PWR1 electrical identity is **1.24 kΩ** / `RNCF0402BTC1K24` / LCSC `C2491273`.
+Stale `partId` text `RC0402FR-0710KL.1` still implies 10 kΩ and must not be used as
+the ohmic value. `harness/check_g22_pwr1_ilm.py` reports `METADATA_MISMATCH` and
+refuses to promote an ILM→D+ binding. That check is now on the G2.2 oracle path.
+
+This ILM blocker is cleared on HOLD. **`JLC-SCH-READY` remains OPEN** — hub wiring,
+J1 0/28, AUX, ERC Phase K and the other existing gates are independent.
 
 ### Authority catch-up, 2026-08-28
 

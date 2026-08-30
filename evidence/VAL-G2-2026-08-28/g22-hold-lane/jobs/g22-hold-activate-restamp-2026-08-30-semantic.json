@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "transaction_id": "g22-hold-activate-restamp-2026-08-30",
+  "project_uuid": "55ed9ee948734a0e903f37744b51f3b8",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash": "3164863:7426869d",
+  "saved": true,
+  "census": {
+    "components": 324,
+    "wires": 800,
+    "texts": 38,
+    "rects": 10,
+    "lines": 1020
+  },
+  "observed": "HOLD 55ed9ee9 re-activated for the PWR1 ILM repair. Host restamped source 3164835:9e261d95 to 3164863:7426869d (+28 chars) with census unchanged 324/800. Parent is HOLD, not live 64325d0e. No schematic write this step. Pre-fix U1-PWR1.9 still on USB_DP_UP."
+}

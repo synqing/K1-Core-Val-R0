@@ -1,0 +1,190 @@
+{
+  "ok": false,
+  "unresolved": false,
+  "errors": [
+    "net(U1-PWR1.9) == ['USB_DP_UP'], expected [USB_EFUSE_ILIM]",
+    "U1-PWR1.9 belongs to forbidden USB differential net USB_DP_UP",
+    "USB_EFUSE_ILIM does not contain U1-PWR1.9",
+    "USB_EFUSE_ILIM is a one-endpoint orphan: members=['R1-PWR1.1']",
+    "USB_DP_UP still contains U1-PWR1.9"
+  ],
+  "warnings": [
+    "METADATA_MISMATCH: partId text disagrees with bound device/value"
+  ],
+  "counts": {
+    "files_inspected": 1,
+    "easyeda_records_parsed": 9890,
+    "components_inspected": 287,
+    "symbol_pins_resolved": 10,
+    "nets_inspected": 174,
+    "assertions_executed": 11
+  },
+  "reconstruction": "TPS259474L symbol offsets + instance transform; vertex coincidence at tolerance 0",
+  "transform": {
+    "u1_xy": [
+      690,
+      -4110
+    ],
+    "rotation": 180,
+    "isMirror": false,
+    "proof_pins_ok": 7,
+    "proof_pins_required": 6,
+    "method": "TPS259474L symbol offsets + instance transform; vertex coincidence at tolerance 0"
+  },
+  "u1_pins": {
+    "1": {
+      "name": "EN/UVLO",
+      "xy": [
+        775,
+        -4110
+      ],
+      "nets": [
+        "USB_EFUSE_EN"
+      ],
+      "open": false
+    },
+    "2": {
+      "name": "OVLO",
+      "xy": [
+        775,
+        -4130
+      ],
+      "nets": [
+        "USB_EFUSE_OVLO"
+      ],
+      "open": false
+    },
+    "3": {
+      "name": "PG",
+      "xy": [
+        600,
+        -4130
+      ],
+      "nets": [
+        "PWR_ENTRY_PG_RT_IOMUX_TBD"
+      ],
+      "open": false
+    },
+    "4": {
+      "name": "PGTH",
+      "xy": [
+        600,
+        -4110
+      ],
+      "nets": [
+        "USB_EFUSE_PGTH"
+      ],
+      "open": false
+    },
+    "5": {
+      "name": "IN",
+      "xy": [
+        775,
+        -4090
+      ],
+      "nets": [
+        "5V_USB"
+      ],
+      "open": false
+    },
+    "6": {
+      "name": "OUT",
+      "xy": [
+        600,
+        -4090
+      ],
+      "nets": [
+        "5V_PROTECTED"
+      ],
+      "open": false
+    },
+    "7": {
+      "name": "DVDT",
+      "xy": [
+        705,
+        -4165
+      ],
+      "nets": [
+        "USB_EFUSE_DVDT"
+      ],
+      "open": false
+    },
+    "8": {
+      "name": "GND",
+      "xy": [
+        665,
+        -4165
+      ],
+      "nets": [
+        "GND"
+      ],
+      "open": false
+    },
+    "9": {
+      "name": "ILM",
+      "xy": [
+        625,
+        -4165
+      ],
+      "nets": [
+        "USB_DP_UP"
+      ],
+      "open": false
+    },
+    "10": {
+      "name": "ITIMER",
+      "xy": [
+        740,
+        -4165
+      ],
+      "nets": [],
+      "open": true
+    }
+  },
+  "r1": {
+    "id": "e426",
+    "partId": "RC0402FR-0710KL.1",
+    "device": "263cdab6e3341f4ea8fd57ccc688e923",
+    "mpn": "RNCF0402BTC1K24",
+    "name": "1.24k",
+    "value_attr": "",
+    "supplier": "C2491273",
+    "electrical_ohms": 1240,
+    "partid_implied_ohms": 10000,
+    "metadata_mismatch": true,
+    "xy": [
+      365,
+      -4420
+    ],
+    "rotation": 0,
+    "pins": {
+      "1": {
+        "xy": [
+          345,
+          -4420
+        ],
+        "nets": [
+          "USB_EFUSE_ILIM"
+        ]
+      },
+      "2": {
+        "xy": [
+          385,
+          -4420
+        ],
+        "nets": [
+          "GND"
+        ]
+      }
+    }
+  },
+  "ilim_members": [
+    "R1-PWR1.1"
+  ],
+  "dp_continuity": {
+    "rusb_dp_on_usb_dp_up": true,
+    "hub_island_usb_dp_up": true,
+    "u1_pin9_on_usb_dp_up": true,
+    "usb_dp_up_wire_count": 3
+  }
+}

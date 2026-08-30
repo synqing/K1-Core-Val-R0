@@ -1,0 +1,41 @@
+[
+ {
+  "tag": "dp-prune-ilm-vertex",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "ilm-from-pin9",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      625,
+      4225,
+      600,
+      4225
+     ],
+     [
+      625,
+      4165,
+      625,
+      4225
+     ]
+    ],
+    "net": "USB_EFUSE_ILIM",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "0f34d91f3706b2a2"
+   }
+  }
+ },
+ {
+  "tag": "u1-ilm-net",
+  "ok": false,
+  "error": "connect_schematic_pins_to_nets: FAILED at item 1 of 1 (pin 9 -> USB_EFUSE_ILIM). 0 attachment(s) were ALREADY COMMITTED to the document before this failure: (none). DO NOT re-run this call unchanged — that would double-apply the committed items. Verify with get_document_source, then resume from item 1. Cause: connect_schematic_pin_to_net(net-label, pin 9 -> USB_EFUSE_ILIM): EasyEDA returned no pri"
+ }
+]
