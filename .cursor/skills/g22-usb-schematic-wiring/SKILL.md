@@ -1,16 +1,16 @@
 ---
 name: g22-usb-schematic-wiring
 description: >-
-  USB2422 / J1 / GT-USB-7005A / Type-C keepouts for K1-CORE-VAL-R0
-  GREENFIELD. Prevents stacked Type-C, pin-column 3V3 shorts, crystal/GND
-  merges, and MCP symbol moves. D-052: HOLD and canonical are ARCHIVE — do
-  not wire them. Use before any greenfield USB EasyEDA write.
+  USB2422 / J1 / GT-USB-7005A / Type-C keepouts for K1-CORE-VAL-R1.
+  Prevents stacked Type-C, pin-column 3V3 shorts, crystal/GND
+  merges, and MCP symbol moves. D-052/D-053: HOLD and canonical are
+  ARCHIVE. Draw only in K1-CORE-VAL-R1 / EasyEDA K1-Core-VAL-R1.
 ---
 
 # USB schematic wiring (greenfield knowledge)
 
 Read `docs/agent/SESSION-CANON-2026-08-30-G22-USB-WIRING.md` before the first
-USB wire on **GREENFIELD**. EasyEDA execution canon still applies.
+USB wire on **K1-Core-VAL-R1**. EasyEDA execution canon still applies.
 
 **D-052 terminated HOLD / G2.2 / canonical schematic repair.** These UUIDs
 are ARCHIVE / DO NOT MUTATE:
@@ -19,10 +19,9 @@ are ARCHIVE / DO NOT MUTATE:
 - HOLD `55ed9ee948734a0e903f37744b51f3b8`
 - G2.1 `dcd7e3cab2a24b9aa6e531d2b62e1b6f`
 
-The only implementation canvas is `K1-Core-VAL-R0-GREENFIELD` (UUID not
-allocated until the blank project exists). Component #1 waits on
-`architecture/GREENFIELD-BUILD-SPEC.md` OPEN items. This skill is keepout
-knowledge for the USB **block**, not a T1–T6 repair queue.
+The only implementation canvas is `/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R1`
+(EasyEDA `K1-Core-VAL-R1`, UUID not allocated until the blank project exists).
+Component #1 waits on `architecture/GREENFIELD-BUILD-SPEC.md` OPEN items.
 
 ## Hard stops
 
