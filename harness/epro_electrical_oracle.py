@@ -18,6 +18,7 @@ sys.path.insert(0, str(ROOT / "harness"))
 from easyeda_source_format import detect_format
 from extract_electrical_graph import extract_electrical_graph, _load_source, _pin_bindings
 from g22_pwr1_ilm import analyse as analyse_ilm
+from g22_usb_hub import analyse as analyse_usb_hub
 
 U4_ERA = ("U4-PWR2", "C68-PWR2", "R8-PWR2")
 REQUIRED_PRESENT = ("U1-PWR1", "U17-PWR2")
@@ -34,8 +35,9 @@ HUB_FORBIDDEN = (
     "R22-ESP",
     "DVBUS-PWR1",
 )
+J1_DESIGNATOR = "J1-PWR1"
 HUB_REQUIRED = (
-    "J1-PWR1",
+    J1_DESIGNATOR,
     "J6-ESP",
     "U20-USB",
     "U21-USB",
@@ -103,6 +105,16 @@ def main(argv=None) -> int:
     )
     parser.add_argument(
         "--skip-ilm-semantics",
+        action="store_true",
+        help="explicit opt-out; G2.2 roles and official freeze ignore this",
+    )
+    parser.add_argument(
+        "--usb-hub-semantics",
+        action="store_true",
+        help="require D-049/D-050 J1 + USB2422 semantic completion (G2.2 promotion gate)",
+    )
+    parser.add_argument(
+        "--skip-usb-hub-semantics",
         action="store_true",
         help="explicit opt-out; G2.2 roles and official freeze ignore this",
     )
@@ -184,6 +196,32 @@ def main(argv=None) -> int:
             for item in ilm.errors:
                 print(f"  {item}")
             return 2
+    want_usb = args.usb_hub_semantics or g22_role or args.official_freeze
+    if args.skip_usb_hub_semantics and not args.official_freeze:
+        want_usb = False
+    if want_usb:
+        identity = graph.get("identity") or {}
+        if J1_DESIGNATOR not in identity:
+            if args.usb_hub_semantics or args.official_freeze:
+                print("ORACLE=REFUSED J1-PWR1 absent; USB hub pin-role resolution unavailable")
+                return 2
+            print("USB_HUB_SEMANTICS skipped — J1-PWR1 absent on this sheet")
+        else:
+            usb = analyse_usb_hub(source, source_path=str(args.source))
+            graph["usb_hub_semantics"] = usb.as_dict()
+            args.output.write_text(json.dumps(graph, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+            print(
+                "USB_HUB_SEMANTICS "
+                f"ok={usb.ok} unresolved={usb.unresolved} "
+                f"j1_wired={usb.paths.get('j1_functional_wired')} "
+                f"cfg_sel={(usb.straps or {}).get('CFG_SEL')} "
+                f"non_rem_10={(usb.straps or {}).get('non_rem_10')}"
+            )
+            if usb.unresolved or not usb.ok:
+                print("ORACLE=REFUSED USB2422/J1 semantic failure — USB_HUB_PHASE_K cannot close")
+                for item in usb.errors:
+                    print(f"  {item}")
+                return 2
     return 0
 
 

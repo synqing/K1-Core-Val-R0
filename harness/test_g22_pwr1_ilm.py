@@ -192,7 +192,14 @@ class IlmSemanticTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             out = Path(tmp) / "graph.json"
             rc = oracle_main(
-                [str(POST_HOLD), "-o", str(out), "--role", "G2.2_READABLE"]
+                [
+                    str(POST_HOLD),
+                    "-o",
+                    str(out),
+                    "--role",
+                    "G2.2_READABLE",
+                    "--skip-usb-hub-semantics",
+                ]
             )
             self.assertEqual(rc, 0, "repaired HOLD must clear the G2.2 ILM promotion gate")
             payload = json.loads(out.read_text(encoding="utf-8"))

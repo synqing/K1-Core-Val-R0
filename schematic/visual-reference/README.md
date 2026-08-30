@@ -47,6 +47,10 @@ They are not a live netlist of either EasyEDA project.
 - Same-net series elements the router could bypass: R85, R94, R90, C123.
 - J1 GT-USB-7005A placed 0/28 wired; USB4105 parked -RETIRED still on legacy nets.
 - Hub support (Y3, RBIAS, CRFILT, PLLFILT, VDD33 pin1) unwired; NON_REM straps orphaned.
+- **2026-08-30 USB pre-audit** of the post-ILM HOLD dump confirms the same J1 0/28,
+  support, XOR and PRTPWR2 gaps (`G2.2-USB-HUB-J1-PRE-AUDIT.md`). Live EasyEDA HOLD
+  was a *different* smaller buffer when T1 was attempted — do not treat the visual
+  package or that live tab as the post-ILM hub sheet until identity is restored.
 - Dangling-by-pinmux (D-031, expected): RT_I2C_*, PWR_ENTRY_PG, MOTION_INT_S3, CC ADC taps.
 
 Reconciliation PASSED (0 mechanical fails) — the ALL sheet was generated from the same

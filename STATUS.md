@@ -1,6 +1,6 @@
 # STATUS
 
-Updated: 2026-08-30 (G2.2 HOLD PWR1 ILM repaired; canonical untouched; `JLC-SCH-READY` still OPEN)
+Updated: 2026-08-30 (G2.2 USB pre-audit + checker landed; EasyEDA T1 stopped on live-identity collision; canonical untouched; `JLC-SCH-READY` still OPEN)
 
 | Lane | State |
 | --- | --- |
@@ -125,8 +125,22 @@ Stale `partId` text `RC0402FR-0710KL.1` still implies 10 kΩ and must not be use
 the ohmic value. `harness/check_g22_pwr1_ilm.py` reports `METADATA_MISMATCH` and
 refuses to promote an ILM→D+ binding. That check is now on the G2.2 oracle path.
 
-This ILM blocker is cleared on HOLD. **`JLC-SCH-READY` remains OPEN** — hub wiring,
-J1 0/28, AUX, ERC Phase K and the other existing gates are independent.
+This ILM blocker is cleared on the **post-ILM HOLD dump** (`3165690:5aad2e78`).
+**`JLC-SCH-READY` remains OPEN** — hub wiring, J1 0/28, AUX, ERC Phase K and the
+other existing gates are independent.
+
+### G2.2 USB2422 + J1 — 2026-08-30 (PARTIAL)
+
+Pre-audit of the post-ILM HOLD dump is in
+`evidence/VAL-G2-2026-08-28/G2.2-USB-HUB-J1-PRE-AUDIT.md`.
+`harness/check_g22_usb_hub.py` is on the G2.2 oracle path and fails closed on that
+dump (J1 0/28, unwired support, R94 same-net, PRTPWR2 on GND).
+
+EasyEDA T1 did **not** run. Live HOLD `getDocumentSource` is a different, smaller
+sheet (`2588333:16acf63b`) with no `U20-USB` and with ILM undone. Do not save that
+buffer. See `evidence/VAL-G2-2026-08-28/g22-hold-lane/G2.2-USB-LIVE-IDENTITY-COLLISION.md`.
+
+`USB_HUB_PHASE_K` is **OPEN**. `JLC-SCH-READY` is **OPEN**.
 
 ### Authority catch-up, 2026-08-28
 
