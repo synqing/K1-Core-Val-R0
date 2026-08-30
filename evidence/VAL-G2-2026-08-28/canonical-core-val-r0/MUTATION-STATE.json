@@ -1,12 +1,12 @@
 {
   "active_transaction": null,
   "blocked_transaction_id": null,
-  "blocking_reason": null,
-  "current_source_hash": "653166:ab3877d1",
+  "blocking_reason": "D-052 programme archive 2026-08-30. G2.2/HOLD/canonical schematic repair terminated. Not a D-040 ownership incident. Do not mutate. Do not fabricate. GREENFIELD is the only future write target.",
+  "current_source_hash": null,
   "document_uuid": "59bef7e87cff4cd580561703b62d8c19",
   "last_closed_transaction_id": "u1-gtusb-3d-identity-2026-08-30",
   "project_uuid": "64325d0e55e0435abd018defb0089a9b",
   "schema_version": 1,
-  "state": "READY",
-  "updated_at": "2026-08-29T20:54:10.630693+00:00"
+  "state": "FROZEN_INCIDENT",
+  "updated_at": "2026-08-30T14:49:03.200960+00:00"
 }

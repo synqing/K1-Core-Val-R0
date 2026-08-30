@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>G2.2 — what the black is, and how the USB island is reinstated</title>
+<style>
+  :root {
+    --paper: #e4e7eb;
+    --ink: #12161a;
+    --mute: #4e5963;
+    --rule: #8a939c;
+    --kill: #9a1f1f;
+    --keep: #1a5c3f;
+    --live: #1a4e86;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #181c21; --ink: #e8edf2; --mute: #9aa6b0;
+      --rule: #5c6670; --kill: #e07070; --keep: #7dcea0; --live: #8bb8e4;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0 auto; max-width: 1100px; padding: 28px 20px 72px; font-family: "Avenir Next", "Segoe UI", sans-serif; background: var(--paper); color: var(--ink); line-height: 1.45; }
+  h1 { font-size: 1.5rem; letter-spacing: -0.02em; text-wrap: balance; margin: 0 0 0.6rem; }
+  .eyebrow { font-family: ui-monospace, Menlo, monospace; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mute); }
+  .lede { font-size: 1.05rem; max-width: 44rem; }
+  h2 { font-size: 1.05rem; margin: 1.6rem 0 0.5rem; }
+  p, li { max-width: 44rem; }
+  .kill { color: var(--kill); font-weight: 650; }
+  .keep { color: var(--keep); font-weight: 650; }
+  table { border-collapse: collapse; font-size: 0.88rem; font-variant-numeric: tabular-nums; width: 100%; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-family: ui-monospace, Menlo, monospace; font-size: 0.72rem; }
+  .wide { overflow-x: auto; margin: 0.7rem 0 1.2rem; }
+  figure { margin: 1rem 0; border: 1px solid var(--rule); background: #f3f5f7; }
+  @media (prefers-color-scheme: dark) { figure { background: #12171c; } }
+  figcaption { font-family: ui-monospace, Menlo, monospace; font-size: 0.72rem; padding: 8px 10px; color: var(--mute); border-top: 1px solid var(--rule); }
+  svg { display: block; width: 100%; height: auto; }
+  .cta { border: 2px solid var(--ink); padding: 14px 16px; margin-top: 1.4rem; max-width: 44rem; }
+  code { font-family: ui-monospace, Menlo, monospace; font-size: 0.86em; }
+  @media print { figure, .cta, table { break-inside: avoid; } }
+</style>
+</head>
+<body>
+  <p class="eyebrow">HOLD 55ed9ee9 · measured from post-T2 dump · 2026-08-30</p>
+  <h1>The black is not a deprecated sheet. The bottom loop is live OCS copper.</h1>
+  <p class="lede">You can delete the stacked Type-C wreckage. The old USB4105 must not come back. U1 and R1 must not go with it. After the delete, the USB inlet is reinstated as one Type-C, ESD, series 0&nbsp;Ω, then the hub — short orthogonal runs, no 1&nbsp;200-unit picture-frame wires.</p>
+
+  <h2>What you are looking at</h2>
+  <ol>
+    <li><strong>Dark hatch on symbols</strong> is EasyEDA’s selection overlay (and the default dark fill of QFN/connector bodies in Pro 3.x). It is not “DNP / deprecated / excluded from the netlist”. Click empty canvas. If the hatch vanishes, you had a marquee, not a ghost sheet.</li>
+    <li><strong><code>J1-USB4105-RETIRED</code> (<code>e339</code>)</strong> <em>is</em> deprecated in product terms. D-049 allows one Type-C: <code>J1-PWR1</code> GT-USB-7005A. The USB4105 is still on the sheet because G2.2 copied the G2.1 graph instead of throwing the second receptacle away. It sits 35×25 units on top of the live part. <span class="kill">Delete it. Do not reinstate it.</span></li>
+    <li><strong>The rectangular wiring under the hub</strong> is not a second schematic. It is <code>USB_OCS1_N</code> and <code>USB_OCS2_N</code> drawn as a picture frame around U20:</li>
+  </ol>
+  <div class="wide">
+    <table>
+      <thead><tr><th>Net</th><th>Geometry (source)</th><th>Length</th></tr></thead>
+      <tbody>
+        <tr><td>USB_OCS1_N</td><td>y=−1500, x=90 → 1285; verticals at x=90 and x=1285</td><td>1195 + 720 + 670</td></tr>
+        <tr><td>USB_OCS2_N</td><td>y=−1520, x=80 → 1230; verticals at x=80 and x=1230</td><td>1150 + 780 + 740</td></tr>
+        <tr><td>USB_XTALIN (T2 merge)</td><td>y=−700, x=120 → 590</td><td>470 — RBIAS was welded onto this bar</td></tr>
+        <tr><td>USB_PLLFILT (T2 merge)</td><td>y=−560, x=470 → 1350</td><td>880 — swallowed foreign copper</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <p>Those OCS nets are real hub over-current sense. They should be short stubs at U20 pins 8 and 12, not a loop around the island. That is bad drawing, not a tombstoned block.</p>
+
+  <figure>
+    <svg viewBox="0 0 720 420" role="img" aria-label="USB hub island with OCS picture-frame wires">
+      <title>U20 island and the OCS frame at y=−1500</title>
+      <rect width="720" height="420" fill="#f3f5f7"/>
+      <!-- map: x' = (x-0)*0.45+20; y' = 40+(-400-y)*0.22  so y=-400 top, y=-1600 bottom -->
+      <text x="20" y="24" font-family="ui-monospace,monospace" font-size="12" fill="#4e5963">USB hub band · 1 px ≈ 2.2 units Y, 2.2 units X · U20 at (400,−800)</text>
+      <!-- U20 body approx 230..570, y -740..-860 -->
+      <rect x="123.5" y="128" width="153" height="26" fill="#1a4e86" fill-opacity="0.2" stroke="#1a4e86" stroke-width="1.4"/>
+      <text x="128" y="122" font-family="ui-monospace,monospace" font-size="11" fill="#1a4e86">U20-USB (400,−800)</text>
+      <!-- OCS1 frame y=-1500 → y'=40+(-400+1500)*0.22=282 -->
+      <rect x="60.5" y="282" width="538" height="4" fill="none" stroke="#9a1f1f" stroke-width="2"/>
+      <line x1="60.5" y1="128" x2="60.5" y2="282" stroke="#9a1f1f" stroke-width="1.5"/>
+      <line x1="598" y1="148" x2="598" y2="282" stroke="#9a1f1f" stroke-width="1.5"/>
+      <text x="64" y="300" font-family="ui-monospace,monospace" font-size="11" fill="#9a1f1f">USB_OCS1_N at y=−1500 (the “bottom wiring”)</text>
+      <rect x="56" y="286" width="517" height="4" fill="none" stroke="#9a1f1f" stroke-width="1" stroke-dasharray="4 3"/>
+      <text x="64" y="318" font-family="ui-monospace,monospace" font-size="10" fill="#9a1f1f">USB_OCS2_N parallel at y=−1520</text>
+      <!-- T2 bar y=-700 → 40+300*0.22=106 -->
+      <line x1="74" y1="106" x2="285.5" y2="106" stroke="#6b4a16" stroke-width="2"/>
+      <text x="74" y="100" font-family="ui-monospace,monospace" font-size="10" fill="#6b4a16">T2 USB_XTALIN/RBIAS bar y=−700</text>
+    </svg>
+    <figcaption>The loop under the hub is OCS1/OCS2. It stays electrically required. It must not be redrawn as a frame.</figcaption>
+  </figure>
+
+  <h2>If you delete a group — keep these</h2>
+  <div class="wide">
+    <table>
+      <thead><tr><th></th><th>Part</th><th>id</th><th>Why</th></tr></thead>
+      <tbody>
+        <tr><td class="keep">KEEP</td><td>U1-PWR1 TPS25947</td><td>e504</td><td>ILM repair is closed. Pin 9 = USB_EFUSE_ILIM.</td></tr>
+        <tr><td class="keep">KEEP</td><td>R1-PWR1 1.24 kΩ</td><td>e426</td><td>ILM resistor. Do not move, do not delete.</td></tr>
+        <tr><td class="keep">KEEP</td><td>U2-PWR1 INA226, RSH1</td><td>e894 / e856</td><td>Kelvin sense. Not USB Type-C wreckage.</td></tr>
+        <tr><td class="keep">KEEP</td><td>Box 2 bucks / 3V3</td><td>—</td><td>Different domain. Not this pile.</td></tr>
+        <tr><td class="kill">DELETE</td><td>J1-USB4105-RETIRED</td><td>e339</td><td>Second Type-C. Forbidden. Do not put it back.</td></tr>
+        <tr><td>MAY DELETE then replace</td><td>J1-PWR1 GT-USB-7005A</td><td>e154000</td><td>Only if you want a clean place. Same MPN C5250872. Same pin map.</td></tr>
+        <tr><td>MAY DELETE then replace</td><td>D1-PWR1, RUSB_DP/DN, C1–C4 on the connector</td><td>e252, e184, e205, e72, e108…</td><td>Re-place beside the live Type-C, not on its pins.</td></tr>
+        <tr><td class="kill">DO NOT DELETE</td><td>U20-USB USB2422</td><td>e154001</td><td>That is the hub, not the Type-C stack. T2 already damaged it; deleting it is a second disaster.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>How it is reinstated (one Type-C island)</h2>
+  <p>Placement, then wire, then labels. Never MCP-move a symbol. New parts get new coordinates.</p>
+  <ol>
+    <li><strong>Place</strong> <code>J1-PWR1</code> GT-USB-7005A / C5250872 with air. Origin proposal: <code>(150, −4120)</code> is fine if the retired part is gone. No second receptacle.</li>
+    <li><strong>Place</strong> D1-PWR1 USBLC6-2 at <code>(520, −4120)</code>, RUSB_DP/DN 0&nbsp;Ω immediately east, C1/C2 22&nbsp;µF on the 5V_USB rail east of the B-column (x≥430), not on A-column pins.</li>
+    <li><strong>Keep</strong> RCC1/RCC2 5.1&nbsp;kΩ Rd. DNP option resistors (RCC1S/B, RCC2S/B) stay DNP options, off the pin field.</li>
+    <li><strong>Wire</strong> only this map — SuperSpeed and SBU stay NC:
+      <code>A4/A9/B4/B9 → 5V_USB</code>,
+      <code>A1/A12/B1/B12 + S1–S4 → GND</code>,
+      <code>A6/B6 → USB_DP_J1 → D1 → USB_DP_PROT → RUSB_DP → USB_DP_UP</code>,
+      <code>A7/B7 → USB_DN_J1 → D1 → USB_DN_PROT → RUSB_DN → USB_DM_UP</code>,
+      <code>A5 → USB_CC1</code>, <code>B5 → USB_CC2</code>.
+      A-column escapes west of x=90. B-column east of x=400. No vertical on a pin column. No segment through D1 or U1.</li>
+    <li><strong>Do not</strong> rebuild the OCS picture frame. OCS1/OCS2 get local stubs at U20.8 / U20.12 and a net label.</li>
+    <li><strong>Do not</strong> restore T2’s 3V3-on-DN or XTALOUT-on-GND. That is repaired forward on U20, after this island is a drawing again.</li>
+  </ol>
+
+  <h2>Checkers after reinstatement</h2>
+  <p>ILM PASS. USB <code>j1_wired=18</code>. U20 still present. Designated census must not lose U1. No <code>JLC-SCH-READY</code>.</p>
+
+  <div class="cta">
+    Delete <code>e339</code> and the stacked Type-C spaghetti. Do not delete U1, R1, or U20. Say when the canvas is saved after the delete; reinstatement starts with a dump and a placement transaction for one GT-USB-7005A island.
+  </div>
+</body>
+</html>

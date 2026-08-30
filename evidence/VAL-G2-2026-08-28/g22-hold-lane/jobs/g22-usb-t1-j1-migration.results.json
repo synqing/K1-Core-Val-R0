@@ -1,0 +1,537 @@
+[
+ {
+  "tag": "vbus-a4",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      110,
+      4216,
+      60,
+      4216
+     ]
+    ],
+    "net": "5V_USB",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "e963420f9ac6e7f0"
+   }
+  }
+ },
+ {
+  "tag": "vbus-a9",
+  "ok": false,
+  "error": "EasyEDA bridge disconnected while waiting for 98d77cd3-c82d-45a7-8e6c-f60bc9a83c94"
+ },
+ {
+  "tag": "vbus-b4",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      390,
+      4216,
+      415,
+      4216
+     ]
+    ],
+    "net": "5V_USB",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "3685ea6cea2ff9c1"
+   }
+  }
+ },
+ {
+  "tag": "vbus-b9",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      390,
+      4376,
+      415,
+      4376
+     ]
+    ],
+    "net": "5V_USB",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "962f83d88d6f7954"
+   }
+  }
+ },
+ {
+  "tag": "gnd-a1",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      70,
+      4165,
+      95,
+      4165
+     ],
+     [
+      95,
+      4120,
+      95,
+      4165
+     ],
+     [
+      110,
+      4120,
+      95,
+      4120
+     ],
+     [
+      135,
+      4165,
+      95,
+      4165
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "ba8ac6821a74cd92"
+   }
+  }
+ },
+ {
+  "tag": "gnd-a12",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      80,
+      4345,
+      95,
+      4345
+     ],
+     [
+      95,
+      4472,
+      95,
+      4345
+     ],
+     [
+      110,
+      4472,
+      95,
+      4472
+     ],
+     [
+      100,
+      4345,
+      95,
+      4345
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "1cf0df887cb959c8"
+   }
+  }
+ },
+ {
+  "tag": "gnd-b1",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      390,
+      4120,
+      445,
+      4120
+     ],
+     [
+      465,
+      4120,
+      445,
+      4120
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "7e9ca93a0fcf324d"
+   }
+  }
+ },
+ {
+  "tag": "gnd-b12",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      385,
+      4420,
+      415,
+      4420
+     ],
+     [
+      415,
+      4472,
+      415,
+      4420
+     ],
+     [
+      390,
+      4472,
+      415,
+      4472
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "0746b267de37c5df"
+   }
+  }
+ },
+ {
+  "tag": "gnd-shield-bus",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      170,
+      4540,
+      220,
+      4540
+     ],
+     [
+      220,
+      4540,
+      270,
+      4540
+     ],
+     [
+      320,
+      4540,
+      270,
+      4540
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "29add7a389180390"
+   }
+  }
+ },
+ {
+  "tag": "gnd-shield-tap",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      95,
+      4472,
+      110,
+      4472
+     ],
+     [
+      95,
+      4345,
+      95,
+      4472
+     ],
+     [
+      80,
+      4345,
+      95,
+      4345
+     ],
+     [
+      100,
+      4345,
+      95,
+      4345
+     ],
+     [
+      95,
+      4540,
+      95,
+      4472
+     ],
+     [
+      95,
+      4540,
+      170,
+      4540
+     ],
+     [
+      170,
+      4540,
+      220,
+      4540
+     ],
+     [
+      220,
+      4540,
+      270,
+      4540
+     ],
+     [
+      320,
+      4540,
+      270,
+      4540
+     ]
+    ],
+    "net": "GND",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "d52ccc7db6875ba4"
+   }
+  }
+ },
+ {
+  "tag": "cc1-a5",
+  "ok": false,
+  "error": "create failed!"
+ },
+ {
+  "tag": "cc2-b5",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      405,
+      3995,
+      435,
+      3995
+     ],
+     [
+      435,
+      4248,
+      435,
+      3995
+     ],
+     [
+      390,
+      4248,
+      435,
+      4248
+     ]
+    ],
+    "net": "USB_CC2",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "ddbbae741ac60640"
+   }
+  }
+ },
+ {
+  "tag": "dp-a6",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      45,
+      4280,
+      45,
+      4115
+     ],
+     [
+      110,
+      4280,
+      45,
+      4280
+     ],
+     [
+      45,
+      4115,
+      135,
+      4115
+     ],
+     [
+      155,
+      4115,
+      135,
+      4115
+     ]
+    ],
+    "net": "USB_DP_J1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "7acc8ca7da669960"
+   }
+  }
+ },
+ {
+  "tag": "dp-b6",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      430,
+      4280,
+      430,
+      4090
+     ],
+     [
+      390,
+      4280,
+      430,
+      4280
+     ],
+     [
+      430,
+      4090,
+      445,
+      4090
+     ],
+     [
+      465,
+      4090,
+      445,
+      4090
+     ]
+    ],
+    "net": "USB_DP_J1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "c43e057c0f431751"
+   }
+  }
+ },
+ {
+  "tag": "dn-a7",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      55,
+      4312,
+      55,
+      4105
+     ],
+     [
+      110,
+      4312,
+      55,
+      4312
+     ],
+     [
+      55,
+      4105,
+      135,
+      4105
+     ],
+     [
+      155,
+      4105,
+      135,
+      4105
+     ]
+    ],
+    "net": "USB_DN_J1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "be5428c10132050f"
+   }
+  }
+ },
+ {
+  "tag": "dn-b7",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      440,
+      4312,
+      440,
+      4150
+     ],
+     [
+      390,
+      4312,
+      440,
+      4312
+     ],
+     [
+      440,
+      4150,
+      445,
+      4150
+     ],
+     [
+      465,
+      4150,
+      445,
+      4150
+     ]
+    ],
+    "net": "USB_DN_J1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "4604256e68fda2be"
+   }
+  }
+ },
+ {
+  "tag": "j1-functional-nets",
+  "ok": false,
+  "error": "connect_schematic_pins_to_nets: FAILED at item 1 of 18 (pin A1 -> GND). 0 attachment(s) were ALREADY COMMITTED to the document before this failure: (none). DO NOT re-run this call unchanged — that would double-apply the committed items. Verify with get_document_source, then resume from item 1. Cause: connect_schematic_pin_to_net(net-label, pin A1 -> GND): EasyEDA returned no primitive — the host R"
+ }
+]

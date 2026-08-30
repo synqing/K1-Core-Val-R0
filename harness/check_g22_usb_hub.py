@@ -3,8 +3,9 @@
 
 Refuses PASS when J1 is unwired, the USB2422 transform is unproven, required
 support pins are open, straps are wrong, DN1/DN2/UP are broken, the S3 XOR is
-same-net or double-fitted, F6 IN is 5V_PROTECTED, or R85/R90/R94/C123 are an
-unauthorised same-net bypass.
+same-net or double-fitted, F6 IN is 5V_PROTECTED, R85/R90/R94/C123 are an
+unauthorised same-net bypass, XTALOUT is on GND, RBIAS shares XTALIN, or a
+west-column USB2422 signal is shorted onto 3V3.
 """
 from __future__ import annotations
 

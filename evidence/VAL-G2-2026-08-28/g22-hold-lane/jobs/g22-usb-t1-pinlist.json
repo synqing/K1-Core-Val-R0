@@ -1,0 +1,16 @@
+[
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "j1",
+    "args": {
+      "componentPrimitiveId": "e154000"
+    }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "j1-retired",
+    "args": {
+      "componentPrimitiveId": "e339"
+    }
+  }
+]

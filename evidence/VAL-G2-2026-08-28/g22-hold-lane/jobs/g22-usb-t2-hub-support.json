@@ -1,0 +1,122 @@
+[
+  {
+    "tool": "delete_schematic_wire",
+    "tag": "lift-r77-pin1-gnd",
+    "args": {
+      "primitiveId": "e8048",
+      "skipConfirmation": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "delete_schematic_wire",
+    "tag": "lift-c100-pin1-gnd",
+    "args": {
+      "primitiveId": "e8054",
+      "skipConfirmation": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "delete_schematic_wire",
+    "tag": "lift-c101-pin1-gnd",
+    "args": {
+      "primitiveId": "e8056",
+      "skipConfirmation": true,
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "u20-pin1-3v3",
+    "args": {
+      "line": [230, 850, 200, 850, 200, 770, 210, 770],
+      "net": "3V3",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "c100-crfilt",
+    "args": {
+      "line": [180, 1100, 140, 1100, 140, 760, 230, 760],
+      "net": "USB_CRFILT",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "c101-pllfilt",
+    "args": {
+      "line": [260, 1100, 260, 840, 570, 840],
+      "net": "USB_PLLFILT",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "r77-rbias",
+    "args": {
+      "line": [180, 980, 120, 980, 120, 700, 590, 700, 590, 850, 570, 850],
+      "net": "USB_RBIAS",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "u20-xtalin",
+    "args": {
+      "line": [570, 830, 590, 830, 590, 710, 690, 710],
+      "net": "USB_XTALIN",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "y3-osc1-xtalin",
+    "args": {
+      "line": [815, 725, 690, 725, 690, 710],
+      "net": "USB_XTALIN",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "y3-osc2-xtalout",
+    "args": {
+      "line": [875, 745, 770, 745, 770, 730],
+      "net": "USB_XTALOUT",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "y3-gnd4",
+    "args": {
+      "line": [815, 745, 810, 745, 810, 710],
+      "net": "GND",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "y3-gnd2",
+    "args": {
+      "line": [875, 725, 875, 710, 810, 710],
+      "net": "GND",
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

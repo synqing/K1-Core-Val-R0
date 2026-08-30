@@ -60,6 +60,22 @@ bad artefact
 Break the loop by adding only the smallest control that directly prevents the observed mechanism,
 then return to the electrical deliverable.
 
+### Reinforcing failure loop: net-join treated as a pen
+
+```text
+add_schematic_wire ok
+  -> assume only the requested polyline exists
+  -> skip that symbol’s pin-net dump
+  -> EasyEDA merged a pin column or shared corridor
+  -> USB overall-red excused as “later transactions”
+  -> next batch
+```
+
+Break the loop at the first add: dump pin nets for the touched symbol; **new**
+errors versus the pre-transaction set are a STOP; never delete a returned
+`3V3`/`GND` primitive id without a segment census. Durable record:
+`docs/agent/SESSION-CANON-2026-08-30-G22-USB-WIRING.md`.
+
 ## Recurring system archetypes
 
 | Archetype | Session manifestation | Durable response |
@@ -70,6 +86,9 @@ then return to the electrical deliverable.
 | Success to the successful | Count-based generation appeared productive, so more generation followed | Reward plan-to-territory agreement, not object throughput |
 | Escalation | Slow per-call transport encouraged ever-larger batches | Use one transport session but keep visual transactions small |
 | Eroding goals | Empty or distant screenshots were accepted because read-back existed | Screenshot usefulness is binary; unusable evidence closes the lock |
+| Shifting the burden (USB) | USB checker staying red “until T6” hid new T2 shorts (DN on 3V3) | Diff this transaction’s error set; new shorts are a STOP |
+| Fixes that fail (USB) | West 3V3 dogleg 30 units off the pin column still auto-filled pins 2–5 | Keepout ≥40; electrical 3V3-on-signal checker; no parallel vertical |
+| Success to the successful (USB) | T1 geometric wires on J1 (pitch 32) were reused on U20 (pitch 10) | Pin pitch is part of the plan; J1 success is not a U20 method |
 
 ## Steel-manned explanation of the failed approach
 
@@ -185,8 +204,18 @@ design. The approach optimised a proxy after severing it from the thing it was m
 | K1E-064A | A host upgrade re-serialises every page, so the hash chain breaks ONCE at that boundary without any unrecorded write | Before invoking K1E-064/F-20/D-040, check the source FORMAT: if the pre-hash is V2 (`easyeda_source_format.detect_format` -> `V2_TAGGED_ARRAY`) and live is `V3_TYPED_RECORD`, the discontinuity is the 2026-08-28 EasyEDA 2.2.40.8 -> 3.2.149 migration. Resolve it with `easyeda_mutation_gate.py reconcile`, NEVER with `FROZEN_INCIDENT` |
 | K1E-065 | One live EasyEDA canvas requires one explicit operator | Competing agents must not share actuation ownership even when the gate serialises calls |
 | K1E-066 | Quarantine is a new trust boundary, not historical erasure | Preserve the bad ledger epoch, close actuation and reconcile the live territory afresh |
-| K1E-067 | Reconciliation-capable quarantine cannot stop a genuinely unowned continuation loop | Use `FROZEN_INCIDENT` only after ownership is actually unresolved, never merely because another authorised agent is active |
+| K1E-067 | Reconciliation-capable quarantine cannot stop a genuinely unowned continuation loop | Use `FROZEN_INCIDENT` after ownership is actually unresolved, never merely because another authorised agent is active. D-052 programme-archive freeze of dead EasyEDA lanes is K1E-078, not this rule |
 | K1E-068 | Concurrency is not evidence of unauthorised ownership | Identify the live operator before containment; do not obstruct Captain-authorised execution |
+| K1E-069 | `add_schematic_wire` is a net-join, not a pen | The returned primitive may be the whole merged net; dump pin nets after every add; never delete a `3V3`/`GND` id from an add result without a segment census |
+| K1E-070 | A parallel vertical inside a pin-column keepout auto-shorts the column | No vertical within 40 units of a pin column; U20 west column (source x=230 at origin 400,−800) is forbidden for power doglegs |
+| K1E-071 | Crystal and RBIAS corridors that share an x, or a run along a crystal pin row, merge nets | Distinct east corridors; never route through another pin of the same symbol |
+| K1E-072 | Two Type-C origins within 80 units is a stacked drawing even if USB `j1_wired` is green | Drawing checker `check_g22_schematic_drawing.py`; delete `J1-USB4105-RETIRED`; do not reinstate it on top of J1-PWR1 |
+| K1E-073 | MCP `modify_schematic_component` x/y leaves wires behind | Native drag or delete+replace; never MCP-move a connected symbol |
+| K1E-074 | EasyEDA restamps DOCHEAD without an electrical change | Body SHA for electrical identity; restamp the gate before `begin`; a recovery payload hash is not live identity |
+| K1E-075 | Overall USB FAIL is not this-transaction FAIL | Diff the USB error set against the pre-write dump; new shorts stop the lane |
+| K1E-076 | EasyEDA selection hatch and dark IC fill are not DNP or a deprecated sub-sheet | DNP is `Add into BOM=no`; click empty canvas; do not delete U1/U20 with a Type-C stack |
+| K1E-077 | OCS/EN picture-frame segments ≥ 400 units are drawing failures, not ghost sheets | Local stub + net label; `check_g22_schematic_drawing.py` on `USB_OCS1_N` / `USB_OCS2_N` / `USB_EN1` / `USB_EN2` only |
+| K1E-078 | Archived EasyEDA is not the design | After D-052, canonical / HOLD / G2.1 / hub UUIDs are ARCHIVE. GREENFIELD is the only implementation canvas. Hashes fingerprint a known semantic state; they are not identity. Programme-archive freeze is not a D-040 ownership incident |
 
 ## Failure-to-control traceability
 
@@ -216,6 +245,17 @@ design. The approach optimised a proxy after severing it from the thing it was m
 | F-20A | I inferred that the continuing operator was unowned and froze it; Captain confirmed it was authorised and productive | Release the freeze immediately; operator identity must be established before containment |
 | F-21 | Future/checker scaffolding risked becoming vacuous green theatre | Create checks only when their artefacts exist; zero parsed records is always rejected |
 | F-22 | A fluent report or self-issued verdict displaced external evidence | Builder output remains a proposal until independent read-back, render and contract evidence agree |
+| F-23 | T2 west 3V3 dogleg at x=200 auto-filled USB2422 pins 2–5 onto 3V3 | Electrical 3V3-on-west-pin errors in `g22_usb_hub.py`; keepout in the USB wiring skill |
+| F-24 | RBIAS and XTALIN shared x=590; U20.24 became USB_XTALIN | RBIAS must not share a net with XTALIN |
+| F-25 | Y3 OSC2 along y=−745 through pin 4 merged USB_XTALOUT into GND | U20.21 must be USB_XTALOUT, never GND |
+| F-26 | `add_schematic_wire` returned the merged 12-seg 3V3 rail; deleting that id would depower the hub | Segment census before any delete of a power-net primitive |
+| F-27 | Two Type-C symbols 43 units apart; T1 `j1_wired=18` while the drawing was a blob | Drawing origin-distance gate; USB4105 is deleted, not kept overlapping |
+| F-28 | `USB_OCS1_N` / `USB_OCS2_N` 1 195-unit frames were read as a deprecated sub-sheet | Picture-frame checker scoped to OCS/EN nets |
+| F-29 | Dark hatch / QFN fill treated as DNP | Selection overlay ≠ deprecated; DNP is a BOM attribute |
+| F-30 | Continuous T2–T6 GO used to ignore **new** T2 shorts | Pre-existing gaps may stay red; new errors are a STOP |
+| F-31 | `connect_schematic_pins_to_nets` reported 0 committed while geometric wires landed | Geometric vertex nets are the evidence; connect is not |
+| F-32 | J1 pin table reconstructed as sx=−35 / A1 sy=+100 and missed every live pin end | `J1_PINS` from live MCP; never reconstruct Type-C from memory |
+| F-33 | HOLD `.epro2` had 234 designators and no USB island while recovery treated 287 + U20 as known-good | Semantic census of the named artefact; hashes are not identity (D-052 / K1E-078) |
 
 ## Canonical execution workflow
 
@@ -227,7 +267,10 @@ Read, in order:
 2. this canon;
 3. current project status and decisions;
 4. task contract and fixture plan;
-5. applicable EasyEDA router and task skill.
+5. applicable EasyEDA router and task skill;
+6. for USB2422 / J1 / Type-C wiring on **GREENFIELD** (D-052 forbids HOLD/G2.2 writes):
+   `docs/agent/SESSION-CANON-2026-08-30-G22-USB-WIRING.md` and
+   `.cursor/skills/g22-usb-schematic-wiring/SKILL.md`.
 
 ### 1. Establish identity and ownership
 
@@ -389,14 +432,19 @@ Stop before writing if any is true:
 - a functional device is duplicated only to increase load;
 - the plan and live source disagree on already placed content;
 - placeholders or undesignated debris exist outside the declared repair scope;
-- another agent or driver may own the session.
+- another agent or driver may own the session;
+- two Type-C origins are within 80 units, or U20 west-column signals are on `3V3`,
+  or U20.21 is `GND`, or RBIAS shares XTALIN;
+- the next act is an MCP symbol move, or deleting a `3V3`/`GND` wire id returned
+  by `add_schematic_wire` without a segment census.
 
 ## Current project boundary
 
-At installation, the worktree and visual log contained live fixture mutations after a recorded
-process violation, so the guard was initially closed for reconciliation. That transient value is
-not copied forward as doctrine. Query and validate `EASYEDA-MUTATION-STATE.json` plus its ledger for
-the current phase. This document never grants write permission.
+D-052: every existing K1-CORE-VAL-R0 EasyEDA project is ARCHIVE. All mutation
+lanes under `evidence/` are `LANE-RETIRED`. Bare `validate` must refuse. The
+only future write target is `K1-Core-VAL-R0-GREENFIELD` once its UUID exists
+and OPEN BEFORE BUILD is closed. This document never grants write permission
+on archived UUIDs.
 
 ## Related evidence and machinery
 
@@ -415,3 +463,9 @@ the current phase. This document never grants write permission.
   `harness/easyeda_mutation_gate.py`
 - Guardrail design:
   `docs/agent/2026-08-28-easyeda-execution-guardrail-design.md`
+- G2.2 USB wiring session canon (2026-08-30):
+  `docs/agent/SESSION-CANON-2026-08-30-G22-USB-WIRING.md`
+- USB electrical gate:
+  `harness/check_g22_usb_hub.py`
+- USB / Type-C drawing gate:
+  `harness/check_g22_schematic_drawing.py`

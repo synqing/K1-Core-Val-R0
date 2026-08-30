@@ -53,36 +53,38 @@ J6 = "J6-ESP"
 J12 = "J12-USB"
 
 # Symbol-frame offsets for GT-USB-7005A at HOLD origin (150, -4120) rot 0.
-# Derived from MCP list_schematic_component_pins, host (x,+y) → source (x,-y).
+# Live MCP list_schematic_component_pins 2026-08-30, host (x,+y) → source (x,-y).
+# A-column pin ends at x=110 (sx=-40), A1 at origin Y (sy=0), pitch -32.
+# Prior table used sx=-35 / A1 sy=+100 and missed every live pin end.
 J1_PINS: dict[str, dict[str, Any]] = {
-    "A1": {"name": "GND", "sx": -35, "sy": 100, "expect": "GND", "group": "GND", "nc": False},
-    "A2": {"name": "TX1+", "sx": -35, "sy": 68, "expect": None, "group": "NC", "nc": True},
-    "A3": {"name": "TX1-", "sx": -35, "sy": 36, "expect": None, "group": "NC", "nc": True},
-    "A4": {"name": "VBUS", "sx": -35, "sy": 4, "expect": "5V_USB", "group": "VBUS", "nc": False},
-    "A5": {"name": "CC1", "sx": -35, "sy": -28, "expect": "USB_CC1", "group": "CC1", "nc": False},
-    "A6": {"name": "D+", "sx": -35, "sy": -60, "expect": "USB_DP_J1", "group": "DP", "nc": False},
-    "A7": {"name": "D-", "sx": -35, "sy": -92, "expect": "USB_DN_J1", "group": "DM", "nc": False},
-    "A8": {"name": "SBU1", "sx": -35, "sy": -124, "expect": None, "group": "NC", "nc": True},
-    "A9": {"name": "VBUS", "sx": -35, "sy": -156, "expect": "5V_USB", "group": "VBUS", "nc": False},
-    "A10": {"name": "RX2-", "sx": -35, "sy": -188, "expect": None, "group": "NC", "nc": True},
-    "A11": {"name": "RX2+", "sx": -35, "sy": -220, "expect": None, "group": "NC", "nc": True},
-    "A12": {"name": "GND", "sx": -35, "sy": -252, "expect": "GND", "group": "GND", "nc": False},
-    "B1": {"name": "GND", "sx": 245, "sy": 100, "expect": "GND", "group": "GND", "nc": False},
-    "B2": {"name": "TX2+", "sx": 245, "sy": 68, "expect": None, "group": "NC", "nc": True},
-    "B3": {"name": "TX2-", "sx": 245, "sy": 36, "expect": None, "group": "NC", "nc": True},
-    "B4": {"name": "VBUS", "sx": 245, "sy": 4, "expect": "5V_USB", "group": "VBUS", "nc": False},
-    "B5": {"name": "CC2", "sx": 245, "sy": -28, "expect": "USB_CC2", "group": "CC2", "nc": False},
-    "B6": {"name": "D+", "sx": 245, "sy": -60, "expect": "USB_DP_J1", "group": "DP", "nc": False},
-    "B7": {"name": "D-", "sx": 245, "sy": -92, "expect": "USB_DN_J1", "group": "DM", "nc": False},
-    "B8": {"name": "SBU2", "sx": 245, "sy": -124, "expect": None, "group": "NC", "nc": True},
-    "B9": {"name": "VBUS", "sx": 245, "sy": -156, "expect": "5V_USB", "group": "VBUS", "nc": False},
-    "B10": {"name": "RX1-", "sx": 245, "sy": -188, "expect": None, "group": "NC", "nc": True},
-    "B11": {"name": "RX1+", "sx": 245, "sy": -220, "expect": None, "group": "NC", "nc": True},
-    "B12": {"name": "GND", "sx": 245, "sy": -252, "expect": "GND", "group": "GND", "nc": False},
-    "S1": {"name": "SHELL.TAB1", "sx": 25, "sy": -320, "expect": "GND", "group": "SHIELD", "nc": False},
-    "S2": {"name": "SHELL.TAB2", "sx": 75, "sy": -320, "expect": "GND", "group": "SHIELD", "nc": False},
-    "S3": {"name": "SHELL.TAB3", "sx": 125, "sy": -320, "expect": "GND", "group": "SHIELD", "nc": False},
-    "S4": {"name": "SHELL.TAB4", "sx": 175, "sy": -320, "expect": "GND", "group": "SHIELD", "nc": False},
+    "A1": {"name": "GND", "sx": -40, "sy": 0, "expect": "GND", "group": "GND", "nc": False},
+    "A2": {"name": "TX1+", "sx": -40, "sy": -32, "expect": None, "group": "NC", "nc": True},
+    "A3": {"name": "TX1-", "sx": -40, "sy": -64, "expect": None, "group": "NC", "nc": True},
+    "A4": {"name": "VBUS", "sx": -40, "sy": -96, "expect": "5V_USB", "group": "VBUS", "nc": False},
+    "A5": {"name": "CC1", "sx": -40, "sy": -128, "expect": "USB_CC1", "group": "CC1", "nc": False},
+    "A6": {"name": "D+", "sx": -40, "sy": -160, "expect": "USB_DP_J1", "group": "DP", "nc": False},
+    "A7": {"name": "D-", "sx": -40, "sy": -192, "expect": "USB_DN_J1", "group": "DM", "nc": False},
+    "A8": {"name": "SBU1", "sx": -40, "sy": -224, "expect": None, "group": "NC", "nc": True},
+    "A9": {"name": "VBUS", "sx": -40, "sy": -256, "expect": "5V_USB", "group": "VBUS", "nc": False},
+    "A10": {"name": "RX2-", "sx": -40, "sy": -288, "expect": None, "group": "NC", "nc": True},
+    "A11": {"name": "RX2+", "sx": -40, "sy": -320, "expect": None, "group": "NC", "nc": True},
+    "A12": {"name": "GND", "sx": -40, "sy": -352, "expect": "GND", "group": "GND", "nc": False},
+    "B1": {"name": "GND", "sx": 240, "sy": 0, "expect": "GND", "group": "GND", "nc": False},
+    "B2": {"name": "TX2+", "sx": 240, "sy": -32, "expect": None, "group": "NC", "nc": True},
+    "B3": {"name": "TX2-", "sx": 240, "sy": -64, "expect": None, "group": "NC", "nc": True},
+    "B4": {"name": "VBUS", "sx": 240, "sy": -96, "expect": "5V_USB", "group": "VBUS", "nc": False},
+    "B5": {"name": "CC2", "sx": 240, "sy": -128, "expect": "USB_CC2", "group": "CC2", "nc": False},
+    "B6": {"name": "D+", "sx": 240, "sy": -160, "expect": "USB_DP_J1", "group": "DP", "nc": False},
+    "B7": {"name": "D-", "sx": 240, "sy": -192, "expect": "USB_DN_J1", "group": "DM", "nc": False},
+    "B8": {"name": "SBU2", "sx": 240, "sy": -224, "expect": None, "group": "NC", "nc": True},
+    "B9": {"name": "VBUS", "sx": 240, "sy": -256, "expect": "5V_USB", "group": "VBUS", "nc": False},
+    "B10": {"name": "RX1-", "sx": 240, "sy": -288, "expect": None, "group": "NC", "nc": True},
+    "B11": {"name": "RX1+", "sx": 240, "sy": -320, "expect": None, "group": "NC", "nc": True},
+    "B12": {"name": "GND", "sx": 240, "sy": -352, "expect": "GND", "group": "GND", "nc": False},
+    "S1": {"name": "SHELL.TAB1", "sx": 20, "sy": -420, "expect": "GND", "group": "SHIELD", "nc": False},
+    "S2": {"name": "SHELL.TAB2", "sx": 70, "sy": -420, "expect": "GND", "group": "SHIELD", "nc": False},
+    "S3": {"name": "SHELL.TAB3", "sx": 120, "sy": -420, "expect": "GND", "group": "SHIELD", "nc": False},
+    "S4": {"name": "SHELL.TAB4", "sx": 170, "sy": -420, "expect": "GND", "group": "SHIELD", "nc": False},
 }
 
 # USB2422 QFN-24 + EP. Offsets in source frame for origin (400, -800) rot 0.
@@ -373,6 +375,19 @@ def analyse(source: str, *, source_path: str | None = None) -> UsbHubReport:
     if u20_hits["22"].open:
         errors.append("U20.22 XTALIN open — Y3-USB / USB_XTALIN missing")
     assertions += 1
+    xtalout = u20_net("21")
+    if xtalout == "GND":
+        errors.append("U20.21 XTALOUT on GND — crystal pin-row merge (S-USB-08)")
+    elif xtalout != "USB_XTALOUT":
+        errors.append(f"U20.21 XTALOUT present={xtalout or 'OPEN'} expected=USB_XTALOUT")
+    assertions += 1
+    rbias = u20_net("24")
+    xtalin = u20_net("22")
+    if rbias and xtalin and rbias == xtalin:
+        errors.append(
+            f"U20.24 RBIAS shares net {rbias} with XTALIN — corridor merge (S-USB-07)"
+        )
+    assertions += 1
     if Y3 not in components:
         errors.append("Y3-USB 24 MHz crystal missing")
     elif all(not nets for nets in _two_pin_nets(components[Y3], verts)):
@@ -422,6 +437,17 @@ def analyse(source: str, *, source_path: str | None = None) -> UsbHubReport:
             f"hub DN2 present={u20_net('5') or 'OPEN'}/{u20_net('2') or 'OPEN'} "
             "expected=USB_DP_DN2/USB_DM_DN2"
         )
+
+    # T2 pin-column keepout: west signals must never land on the 3V3 rail.
+    west_not_3v3 = ("2", "3", "4", "5", "6", "7", "8", "10", "11", "12")
+    for pin in west_not_3v3:
+        assertions += 1
+        got = u20_net(pin)
+        if got == "3V3":
+            name = USB2422_PINS[pin]["name"]
+            errors.append(
+                f"U20.{pin} {name} shorted onto 3V3 — west pin-column keepout (S-USB-06)"
+            )
 
     u6 = components.get(U6_DESIGNATOR)
     u9 = components.get(U9_DESIGNATOR)
@@ -549,6 +575,11 @@ def fixture_v3(
     r94_same_net: bool = False,
     prtpwr2_gnd: bool = False,
     include_support: bool = True,
+    dn_on_3v3: bool = False,
+    xtalout_gnd: bool = False,
+    rbias_on_xtalin: bool = False,
+    retired_j1_xy: tuple[int, int] | None = None,
+    ocs_picture_frame: bool = False,
 ) -> str:
     """Minimal V3 sheet for the USB hub assertions."""
 
@@ -635,14 +666,17 @@ def fixture_v3(
         "18": "3V3",
         "19": "USB_DM_UP",
         "20": "USB_DP_UP",
-        "21": "USB_XTALOUT",
+        "21": "GND" if xtalout_gnd else "USB_XTALOUT",
         "22": "USB_XTALIN",
         "25": "GND",
     }
+    if dn_on_3v3:
+        for pin in ("2", "3", "4", "5"):
+            pin_nets[pin] = "3V3"
     if include_support:
         pin_nets["10"] = "USB_CRFILT"
         pin_nets["23"] = "USB_PLLFILT"
-        pin_nets["24"] = "USB_RBIAS"
+        pin_nets["24"] = "USB_XTALIN" if rbias_on_xtalin else "USB_RBIAS"
     for pin, net in pin_nets.items():
         spec = USB2422_PINS[pin]
         stub_at(f"wU20{pin}", net, pin_xy(u20, spec["sx"], spec["sy"]))
@@ -685,6 +719,17 @@ def fixture_v3(
         stub_at("wC100b", "GND", (220, -1100), dx=-20)
         stub_at("wC101a", "USB_PLLFILT", (260, -1100))
         stub_at("wC101b", "GND", (300, -1100), dx=-20)
+
+    if retired_j1_xy is not None:
+        component(
+            "eJ1r",
+            "USB4105-A-GF-A.1",
+            retired_j1_xy[0],
+            retired_j1_xy[1],
+            RETIRED_J1,
+        )
+    if ocs_picture_frame:
+        wire("wOcsFrame", "USB_OCS1_N", [(90, -1500, 1285, -1500)])
 
     return "\n".join(rows) + "\n"
 

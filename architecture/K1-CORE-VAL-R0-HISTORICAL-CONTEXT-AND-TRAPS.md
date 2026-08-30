@@ -17,6 +17,11 @@ evidence directories rather than in the authority layer where a fresh agent woul
 
 Read `authority/00-AUTHORITY-PRECEDENCE.md` first. Then this file. Then the live repo.
 
+**G2.2 USB EasyEDA wiring (2026-08-30)** is not in this traps file. It is
+`docs/agent/SESSION-CANON-2026-08-30-G22-USB-WIRING.md` plus executable gates
+`harness/check_g22_usb_hub.py` and `harness/check_g22_schematic_drawing.py`.
+Do not re-derive Type-C pin maps or USB2422 keepouts from this document.
+
 **Precedence discipline for everything below.** Where my recollection and written authority disagree,
 I flag the conflict and let the written authority stand. Conflicts are marked **⚠ CONFLICT**.
 Nothing in this file promotes, supersedes or amends any decision.
@@ -853,9 +858,10 @@ what makes the delta readable.
 
 ### K.8 Consequences
 
-1. **The G2.2 candidate must not be promoted with this present.** `JLC-SCH-READY` attaches to G2.2
-   (D-048). Promoting it would make the defect canonical.
-2. **The canonical project needs no repair for this item.** Do not "fix" `64325d0e` — it is correct.
+1. **D-052 terminated G2.2 promotion.** `JLC-SCH-READY` attaches to GREENFIELD,
+   not G2.2. This ILM delta remains evidence of a fracture, not a repair queue.
+2. **Do not mutate `64325d0e`.** D-052 archives it. The historical ILM
+   connectivity there is knowledge, not a write licence.
 3. **`R1-PWR1` is 1.24 kΩ** (`RNCF0402BTC1K24` / `C2491273`, on its own device
    `263cdab6e3341f4ea8fd57ccc688e923`). The 2026-08-28 value and binding repair **was completed**.
    RQ-046/RQ-047's binding defect is closed for R1. ⚠ **Trap:** its `partId` string is still

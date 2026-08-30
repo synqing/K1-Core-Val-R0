@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "transaction_id": "g22-usb-t1-j1-migration",
+  "project_uuid": "55ed9ee948734a0e903f37744b51f3b8",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Wire GT-USB-7005A J1-PWR1 functional pins to 5V_USB, GND, USB_DP_J1, USB_DN_J1, USB_CC1 and USB_CC2. Keep SuperSpeed and SBU NC. Do not wire J1-USB4105-RETIRED. Do not touch U1-PWR1 ILM, canonical, TUSB320, AUX, LED, NFC or PCB.",
+  "observed_delta": "At 140–200% on J1-PWR1, GT-USB A/B pin columns now have orthogonal wires: VBUS to 5V_USB, A1/A12/B1/B12 and S1–S4 to GND, A6/B6 to USB_DP_J1, A7/B7 to USB_DN_J1, A5 to USB_CC1, B5 to USB_CC2. SuperSpeed pins keep green NC marks. J1-USB4105-RETIRED stays parked/hatched. R1-PWR1 still 1.24k on USB_EFUSE_ILIM. HOLD chrome.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/g22-hold-lane/screenshots/g22-usb-t1-post-j1-block.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "GT-USB functional pins land on 5V_USB GND USB_DP_J1 USB_DN_J1 USB_CC1 USB_CC2",
+      "result": "OK",
+      "detail": "USB checker j1_wired=18 with zero J1.* errors. Live MCP pin ends A1/A4/A5/A6/A7/A9/A12/B1/B4/B5/B6/B7/B9/B12/S1–S4 match the named nets. 140% block shot shows the new orthogonal wires on the Type-C columns."
+    },
+    {
+      "name": "SuperSpeed and SBU remain NC",
+      "result": "OK",
+      "detail": "A2/A3/A8/A10/A11 and B2/B3/B8/B10/B11 remain OPEN. Screenshot still shows green NC on SuperSpeed. No SS/SBU wires were added."
+    },
+    {
+      "name": "J1-USB4105-RETIRED is not newly wired",
+      "result": "OK",
+      "detail": "No add_schematic_wire targeted e339. The retired symbol remains hatched. Pre-existing orphan stub coincidence on its pin ends was not extended. GT-USB is the wired receptacle."
+    },
+    {
+      "name": "U1-PWR1.9 remains USB_EFUSE_ILIM",
+      "result": "OK",
+      "detail": "ILM checker PASS. U1.9 still USB_EFUSE_ILIM at (625,-4165). R1-PWR1 still 1.24k. Block shot still shows USB_EFUSE_ILIM on pin 9."
+    },
+    {
+      "name": "HOLD 55ed9ee9 focused; canonical 64325d0e not written",
+      "result": "OK",
+      "detail": "Dump and screenshots are K1-Core-Val-R0-G2.2-READABLE-HOLD 55ed9ee9. expectedDocumentUuid was the HOLD page. Canonical 64325d0e was not opened."
+    },
+    {
+      "name": "U20-USB remains present",
+      "result": "OK",
+      "detail": "Dump still has U20-USB. Designated census 287. USB2422 transform still proven (13 proof pins)."
+    }
+  ]
+}

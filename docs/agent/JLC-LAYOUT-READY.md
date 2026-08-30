@@ -7,7 +7,8 @@ JLC_LAYOUT_READY = BLOCKED_BY_JLC_SCH_READY
 ```
 
 This stamp unblocks **paid JLCPCB placement and routing**. Do not stamp it from
-the schematic reconstruction programme.
+an archived G2.2/HOLD reconstruction. `JLC-SCH-READY` attaches to GREENFIELD
+(D-052).
 
 Required, after `JLC-SCH-READY` PASS:
 

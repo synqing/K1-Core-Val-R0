@@ -1,0 +1,546 @@
+{
+  "components": [
+    {
+      "des": "C1-PWR1",
+      "id": "e72",
+      "x": 115,
+      "y": -4420,
+      "rot": 0,
+      "part": "GRM21BR61E226ME44L.1"
+    },
+    {
+      "des": "C2-PWR1",
+      "id": "e108",
+      "x": 215,
+      "y": -4420,
+      "rot": 0,
+      "part": "GRM21BR61E226ME44L.1"
+    },
+    {
+      "des": "C3-PWR1",
+      "id": "e562",
+      "x": 60,
+      "y": -4345,
+      "rot": 0,
+      "part": "GRM155R71C104KA88D.1"
+    },
+    {
+      "des": "C4-PWR1",
+      "id": "e598",
+      "x": 225,
+      "y": -4345,
+      "rot": 0,
+      "part": "GRM155R71C104KA88D.1"
+    },
+    {
+      "des": "D1-PWR1",
+      "id": "e252",
+      "x": 385,
+      "y": -4120,
+      "rot": 90,
+      "part": "USBLC6-2SC6_C323793.1"
+    },
+    {
+      "des": "J1-PWR1",
+      "id": "e154000",
+      "x": 150,
+      "y": -4120,
+      "rot": 0,
+      "part": "GT-USB-7005A-IND.1"
+    },
+    {
+      "des": "J1-USB4105-RETIRED",
+      "id": "e339",
+      "x": 185,
+      "y": -4095,
+      "rot": 0,
+      "part": "USB4105-GF-A.1"
+    },
+    {
+      "des": "J10-NFC",
+      "id": "e13330",
+      "x": 1430,
+      "y": -3108,
+      "rot": 0,
+      "part": "U.FL-R-SMT-1(80)_C9900020048.1"
+    },
+    {
+      "des": "J11-VAL",
+      "id": "e15023",
+      "x": 4110,
+      "y": -3100,
+      "rot": 0,
+      "part": "HEADER_MALE-XH_1X6P_2.54MM.1"
+    },
+    {
+      "des": "J12-USB",
+      "id": "e154076",
+      "x": 2300,
+      "y": -900,
+      "rot": 0,
+      "part": "Header-Male-2.54_1x4.1"
+    },
+    {
+      "des": "R1-PWR1",
+      "id": "e426",
+      "x": 365,
+      "y": -4420,
+      "rot": 0,
+      "part": "RC0402FR-0710KL.1"
+    },
+    {
+      "des": "R3-PWR1",
+      "id": "e778",
+      "x": 225,
+      "y": -4560,
+      "rot": 0,
+      "part": "RC0402FR-0710KL.1"
+    },
+    {
+      "des": "R4-PWR1",
+      "id": "e817",
+      "x": 375,
+      "y": -4560,
+      "rot": 0,
+      "part": "RC0402FR-074K7L.1"
+    },
+    {
+      "des": "RCC1-PWR1",
+      "id": "e37",
+      "x": 265,
+      "y": -3975,
+      "rot": 0,
+      "part": "RC0402FR-075K1L.1"
+    },
+    {
+      "des": "RCC2-PWR1",
+      "id": "e58",
+      "x": 355,
+      "y": -3975,
+      "rot": 0,
+      "part": "RC0402FR-075K1L.1"
+    },
+    {
+      "des": "RSH1-PWR1",
+      "id": "e856",
+      "x": 525,
+      "y": -4560,
+      "rot": 0,
+      "part": "WSHP2818R0100FEA.1"
+    },
+    {
+      "des": "RUSB_DN-PWR1",
+      "id": "e205",
+      "x": 555,
+      "y": -4190,
+      "rot": 0,
+      "part": "RC0402FR-070RL.1"
+    },
+    {
+      "des": "RUSB_DP-PWR1",
+      "id": "e184",
+      "x": 555,
+      "y": -4165,
+      "rot": 0,
+      "part": "RC0402FR-070RL.1"
+    },
+    {
+      "des": "RUSB_S3_DM_TUNE",
+      "id": "e154079",
+      "x": 4000,
+      "y": -4340,
+      "rot": 0,
+      "part": "0402WGF220JTCE.1"
+    },
+    {
+      "des": "RUSB_S3_DP_TUNE",
+      "id": "e154078",
+      "x": 4000,
+      "y": -4280,
+      "rot": 0,
+      "part": "0402WGF220JTCE.1"
+    },
+    {
+      "des": "U1-PWR1",
+      "id": "e504",
+      "x": 690,
+      "y": -4110,
+      "rot": 180,
+      "part": "TPS259474LRPWR.1"
+    },
+    {
+      "des": "U2-PWR1",
+      "id": "e894",
+      "x": 705,
+      "y": -4500,
+      "rot": 0,
+      "part": "INA226AIDGSR.1"
+    }
+  ],
+  "rects": [
+    {
+      "id": "e5480",
+      "x": null,
+      "y": null,
+      "width": null,
+      "height": null,
+      "payload_keys": [
+        "dotX1",
+        "dotX2",
+        "dotY1",
+        "dotY2",
+        "fillColor",
+        "fillStyle",
+        "locked",
+        "radiusX",
+        "radiusY",
+        "rotation",
+        "strokeColor",
+        "strokeStyle",
+        "strokeWidth",
+        "zIndex"
+      ]
+    },
+    {
+      "id": "e5481",
+      "x": null,
+      "y": null,
+      "width": null,
+      "height": null,
+      "payload_keys": [
+        "dotX1",
+        "dotX2",
+        "dotY1",
+        "dotY2",
+        "fillColor",
+        "fillStyle",
+        "locked",
+        "radiusX",
+        "radiusY",
+        "rotation",
+        "strokeColor",
+        "strokeStyle",
+        "strokeWidth",
+        "zIndex"
+      ]
+    },
+    {
+      "id": "e5482",
+      "x": null,
+      "y": null,
+      "width": null,
+      "height": null,
+      "payload_keys": [
+        "dotX1",
+        "dotX2",
+        "dotY1",
+        "dotY2",
+        "fillColor",
+        "fillStyle",
+        "locked",
+        "radiusX",
+        "radiusY",
+        "rotation",
+        "strokeColor",
+        "strokeStyle",
+        "strokeWidth",
+        "zIndex"
+      ]
+    },
+    {
+      "id": "e5483",
+      "x": null,
+      "y": null,
+      "width": null,
+      "height": null,
+      "payload_keys": [
+        "dotX1",
+        "dotX2",
+        "dotY1",
+        "dotY2",
+        "fillColor",
+        "fillStyle",
+        "locked",
+        "radiusX",
+        "radiusY",
+        "rotation",
+        "strokeColor",
+        "strokeStyle",
+        "strokeWidth",
+        "zIndex"
+      ]
+    },
+    {
+      "id": "e5484",
+      "x": null,
+      "y": null,
+      "width": null,
+      "height": null,
+      "payload_keys": [
+        "dotX1",
+        "dotX2",
+        "dotY1",
+        "dotY2",
+        "fillColor",
+        "fillStyle",
+        "locked",
+        "radiusX",
+        "radiusY",
+        "rotation",
+        "strokeColor",
+        "strokeStyle",
+        "strokeWidth",
+        "zIndex"
+      ]
+    },
+    {
+      "id": "e5485",
+      "x": null,
+      "y": null,
+      "width": null,
+      "height": null,
+      "payload_keys": [
+        "dotX1",
+        "dotX2",
+        "dotY1",
+        "dotY2",
+        "fillColor",
+        "fillStyle",
+        "locked",
+        "radiusX",
+        "radiusY",
+        "rotation",
+        "strokeColor",
+        "strokeStyle",
+        "strokeWidth",
+        "zIndex"
+      ]
+    },
+    {
+      "id": "e5486",
+      "x": null,
+      "y": null,
+      "width": null,
+      "height": null,
+      "payload_keys": [
+        "dotX1",
+        "dotX2",
+        "dotY1",
+        "dotY2",
+        "fillColor",
+        "fillStyle",
+        "locked",
+        "radiusX",
+        "radiusY",
+        "rotation",
+        "strokeColor",
+        "strokeStyle",
+        "strokeWidth",
+        "zIndex"
+      ]
+    },
+    {
+      "id": "e5487",
+      "x": null,
+      "y": null,
+      "width": null,
+      "height": null,
+      "payload_keys": [
+        "dotX1",
+        "dotX2",
+        "dotY1",
+        "dotY2",
+        "fillColor",
+        "fillStyle",
+        "locked",
+        "radiusX",
+        "radiusY",
+        "rotation",
+        "strokeColor",
+        "strokeStyle",
+        "strokeWidth",
+        "zIndex"
+      ]
+    },
+    {
+      "id": "e5488",
+      "x": null,
+      "y": null,
+      "width": null,
+      "height": null,
+      "payload_keys": [
+        "dotX1",
+        "dotX2",
+        "dotY1",
+        "dotY2",
+        "fillColor",
+        "fillStyle",
+        "locked",
+        "radiusX",
+        "radiusY",
+        "rotation",
+        "strokeColor",
+        "strokeStyle",
+        "strokeWidth",
+        "zIndex"
+      ]
+    },
+    {
+      "id": "e5489",
+      "x": null,
+      "y": null,
+      "width": null,
+      "height": null,
+      "payload_keys": [
+        "dotX1",
+        "dotX2",
+        "dotY1",
+        "dotY2",
+        "fillColor",
+        "fillStyle",
+        "locked",
+        "radiusX",
+        "radiusY",
+        "rotation",
+        "strokeColor",
+        "strokeStyle",
+        "strokeWidth",
+        "zIndex"
+      ]
+    }
+  ],
+  "texts_pwr1": [
+    {
+      "id": "e5441",
+      "x": 45,
+      "y": -3685,
+      "v": "1. POWER ENTRY + PROTECTION"
+    },
+    {
+      "id": "e5442",
+      "x": 240,
+      "y": -3945,
+      "v": "USB-C: 5.1k Rd on CC1/CC2 | CC ADC divider values = TUNE_TBD | RT ADC balls = VA"
+    },
+    {
+      "id": "e5443",
+      "x": 600,
+      "y": -4310,
+      "v": "INA226 KELVIN: route RINA_P/N directly to shunt pads at VAL-G3; do not pick up b"
+    },
+    {
+      "id": "e5444",
+      "x": 690,
+      "y": -4370,
+      "v": "PWR_ENTRY_PG_RT_IOMUX_TBD: U1 PG + R67 pull-up; RT endpoint reserved for VAL-G3 "
+    },
+    {
+      "id": "e5445",
+      "x": 1570,
+      "y": -3730,
+      "v": "MIC_PWR_EN_N: ACTIVE LOW P-FET gate | default OFF via R9 pull-up to 3V3_MIC_REG"
+    },
+    {
+      "id": "e5448",
+      "x": 1420,
+      "y": -4230,
+      "v": "TPS2561: dual independent LED protection/switch | EN default LOW | FAULT1/2 obse"
+    },
+    {
+      "id": "e5450",
+      "x": 4770,
+      "y": -4535,
+      "v": "J6-ESP: DRAWN/BOUND HEADER FAMILY STAND-IN \u2014 VERIFY FOOTPRINT BEFORE G4"
+    },
+    {
+      "id": "e5452",
+      "x": 480,
+      "y": -3980,
+      "v": "POWER SPINE: J1 5V_USB -> U1 eFuse -> 5V_PROTECTED -> RSH1 -> 5V_SYS -> 3V3 buck"
+    },
+    {
+      "id": "e5453",
+      "x": 4030,
+      "y": -3780,
+      "v": "K1BR net names explicitly suffix _RT/_S3. Existing series pads + TP1/TP2 provide"
+    },
+    {
+      "id": "e5458",
+      "x": 1850,
+      "y": -4660,
+      "v": "2. POWER CONVERSION + DISTRIBUTION"
+    },
+    {
+      "id": "e5459",
+      "x": 1995,
+      "y": -4560,
+      "v": "3. RT1062 COMPUTE + CORE POWER"
+    },
+    {
+      "id": "e5460",
+      "x": 3885,
+      "y": -4035,
+      "v": "4. RT1062 BOOT + CLOCK + DEBUG"
+    },
+    {
+      "id": "e5461",
+      "x": 4495,
+      "y": -4455,
+      "v": "5. ESP32-S3 RADIO + SERVICE + K1BR"
+    },
+    {
+      "id": "e5467",
+      "x": 450,
+      "y": -3950,
+      "v": "U1 SET: UVLO\u22484.17V | OVLO\u22486.01V | ILIM target\u22483A via 1.24k | ITIMER NC"
+    },
+    {
+      "id": "e5468",
+      "x": 1435,
+      "y": -3645,
+      "v": "U4 SET: EN=5V_SYS | OVLO=GND | ILIM\u22480.96A | dVdt=2.2nF | PG/PGTH/ITIMER NC"
+    },
+    {
+      "id": "e5469",
+      "x": 3600,
+      "y": -4110,
+      "v": "RT BOOT: 10 INTERNAL / 01 SERIAL DOWNLOADER | U7 3.07V supervisor | CT OPEN = 20"
+    },
+    {
+      "id": "e5470",
+      "x": 2130,
+      "y": -4655,
+      "v": "DCDC: 3V3 -> SW -> L4 -> 1V15_CORE"
+    },
+    {
+      "id": "e5471",
+      "x": 2105,
+      "y": -4645,
+      "v": "PSWITCH: 100k / 100nF = 10ms"
+    },
+    {
+      "id": "e5472",
+      "x": 2215,
+      "y": -3770,
+      "v": "NXP DECOUPLING: USB CAP | ADC | SD0/1 | EMC | GPIO"
+    },
+    {
+      "id": "e5473",
+      "x": 2570,
+      "y": -3765,
+      "v": "CORE/LDO CAPS: SOC | DCDC_IN | HIGH | SNVS | PLL"
+    },
+    {
+      "id": "e5474",
+      "x": 4550,
+      "y": -3940,
+      "v": "SELF-POWERED USB | VBUS SENSE -> GPIO15 | NO BACK-POWER"
+    },
+    {
+      "id": "e5476",
+      "x": 4590,
+      "y": -4680,
+      "v": "RECOVERY: GND | 3V3 | TX | RX | EN | BOOT"
+    }
+  ]
+}

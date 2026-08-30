@@ -1,15 +1,17 @@
 # STATUS
 
-Updated: 2026-08-30 (G2.2 HOLD restored from post-ILM snapshot after saved 245-designator regression; USB T1–T6 not yet closed; canonical untouched; `JLC-SCH-READY` still OPEN)
+Updated: 2026-08-30 (D-053 — greenfield home is K1-CORE-VAL-R1.
+R0 EasyEDA remains archive. `JLC-SCH-READY` still OPEN.)
 
 | Lane | State |
 | --- | --- |
 | VAL-G0 bootstrap | COMPLETE |
 | VAL-G1 Option B vs C | **CLOSED 2026-08-27 — Option C selected, Option B deferred** |
-| VAL-G2 | **READY** |
+| VAL-G2 | **REDIRECTED_BY_D-052 — greenfield, not HOLD/G2.2 repair** |
 | VAL-G2.0A fixture definition | **RETIRED_BY_D-042 — corrected historical inventory 181, planned 218; old 120-net threshold not met** |
 | VAL-G2.0B EasyEDA qualification execution | **TERMINATED_BY_D-042 — qualification project frozen** |
-| VAL-G2.1 canonical single-sheet schematic capture | **IN PROGRESS — live `64325d0e55e0435abd018defb0089a9b` remains product canonical and untouched. `dcd7e3ca…` is the G2.1 electrical reference / EasyEDA normalisation oracle (D-048), not drawing authority. Import receipt NOT YET ACCEPTED. Hub disposable + G2.2 reconstruction are the authorised EasyEDA path. `G2_1_OFFICIAL_FREEZE` waits on hub ERC (Phase K) **and** on AUX being present on the electrical graph (D-051). The live sheet is still PDM-only; the **contract** is dual-input. `JLC-SCH-READY` remains OPEN. D-049 is `RATIFIED`. D-050 is `RATIFIED / BOUND` on GT-USB-7005A / C5250872. D-051 is `RATIFIED`.** |
+| VAL-G2.1 canonical / G2.2 / HOLD schematic repair | **TERMINATED_BY_D-052** |
+| GREENFIELD | **HOME = K1-CORE-VAL-R1** — OPEN items block component #1 — D-053 |
 | VAL-G3 envelope and floorplan | NOT STARTED — non-binding direction recorded in `architecture/G3-FLOORPLAN-DOCTRINE.md` (`RECORDED_NOT_EXECUTED`) |
 | VAL-G4 placement and locks | NOT STARTED |
 | VAL-G5 stack, rules, planes | NOT STARTED |
@@ -21,7 +23,7 @@ Updated: 2026-08-30 (G2.2 HOLD restored from post-ILM snapshot after saved 245-d
 | Audio L1 ADC6120EVM | NOT STARTED |
 | Audio L2 RT1062 raw SAI | NOT STARTED |
 | Current-S3 baseline | NOT STARTED |
-| DEC-USB-HUB | **ADOPTED** — D-049 `RATIFIED`. D-050 `RATIFIED / BOUND` on `GT-USB-7005A` / `C5250872`. H **GREEN**. `F6_VALIDITY_SOURCE` = `5V0_USB_VALID` (TPS7A2550DRVR / C2876265). EasyEDA I–L in scope on disposable projects only. |
+| DEC-USB-HUB | **ADOPTED as architecture** — D-049 `RATIFIED`. Not an EasyEDA write licence on archived projects. |
 
 ## SSCM-1 recovery state
 
@@ -45,34 +47,27 @@ nets. It does not meet the old 120-net qualification threshold and is not an acc
 plan. D-042 retired the lane before another qualification write.
 
 The first generated fixture was rejected because it optimised primitive counts. D-042 terminated
-further mutation of qualification project `09e9c541fd3d404082d4b92e55ae5336`. The active canonical
-project is `64325d0e55e0435abd018defb0089a9b`; its runtime mutation authority lives in
-`evidence/VAL-G2-2026-08-28/canonical-core-val-r0/MUTATION-STATE.json` and the paired append-only
-ledger. Static status prose must not be used to infer that another write is allowed.
+further mutation of qualification project `09e9c541fd3d404082d4b92e55ae5336`. D-052 then archived
+every remaining K1-CORE-VAL-R0 EasyEDA project, including product `64325d0e…`. Those mutation
+state files are evidence. They are not a write licence.
 
 The bounded recovery pass is complete. Historical module fragments exist, but the frozen SSCM-1
 v1 specification was not recovered and is not authority. Option B remains deferred and its
 interface feasibility is unproven.
 
-## Current execution — canonical capture authorised by D-042
+## Current execution — D-052 greenfield
 
-RT1062 package is FROZEN: `MIMXRT1062DVJ6B`, 196-ball, 12 x 12 mm, 0.8 mm pitch (D-028).
-VAL-G2.0A retains a corrected but retired historical plan. VAL-G2.0B is terminated. VAL-G2.1
-canonical capture proceeds only through one closed mutation transaction at a time on the single
-canonical page; the qualification project receives no further mutation.
+RT1062 package remains FROZEN: `MIMXRT1062DVJ6B` (D-028). Architecture decisions
+D-001–D-051 remain knowledge. **No agent mutates** canonical `64325d0e…`,
+HOLD `55ed9ee…`, G2.1 `dcd7e3ca…`, or any hub disposable.
 
-Voice PE specimen re-derivation is D-043 (`docs/agent/VOICE-PE-SPECIMEN-VAL-R0.md`).
-Receipt: `evidence/VAL-G2-2026-08-28/CURRENT-STATE-RECEIPT.md`. That lane does not write EasyEDA.
+The implementation path is `/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R1`
+(D-053). Component #1 is blocked until OPEN BEFORE BUILD closes. EasyEDA
+project `K1-Core-VAL-R1` is a new UUID with no ancestry. UUID `NOT_ALLOCATED`
+until a dedicated blank create. Do not clone HOLD. Do not draw in this R0 repo.
 
-A disposable G2.1 bulk-repair candidate is **IMPORTED_NOT_CANONICAL** as review project
-`dcd7e3cab2a24b9aa6e531d2b62e1b6f`. D-048 assigns that project the role **G2.1 electrical
-reference / EasyEDA normalisation oracle**. It is not product canonical, not JLCPCB handoff,
-and not schematic-geometry authority. The import receipt is **NOT YET ACCEPTED** (ERC item
-text and critical zooms remain OPEN). Live `64325d0e55e0435abd018defb0089a9b` remains the
-product project and stays untouched. Readable reconstruction is G2.2
-(`K1-Core-Val-R0-G2.2-READABLE-CANDIDATE`); `JLC-SCH-READY` attaches there.
-Programme: `architecture/G2.2-READABLE-SCHEMATIC.md`.
-Receipt: `evidence/VAL-G2-2026-08-28/offline-bulk-repair/IMPORT-VERIFY-RECEIPT.md`.
+USB keepouts in `docs/agent/SESSION-CANON-2026-08-30-G22-USB-WIRING.md` are
+knowledge for the greenfield USB block, not a HOLD write licence.
 
 ## JLC handoff gates
 
@@ -80,64 +75,30 @@ Receipt: `evidence/VAL-G2-2026-08-28/offline-bulk-repair/IMPORT-VERIFY-RECEIPT.m
 JLCPCB_LAYOUT = BLOCKED_BY_SCHEMATIC_PRESENTATION
 JLC_SCH_READY = OPEN
 JLC_LAYOUT_READY = BLOCKED_BY_JLC_SCH_READY
-G2_1_OFFICIAL_FREEZE = BLOCKED_BY_HUB_ERC_PHASE_K
-G2_2_OFFLINE_FIXTURE = ELECTRICAL_IDENTITY_PASS_UNFROZEN
+G2_1_OFFICIAL_FREEZE = TERMINATED_BY_D_052
+G2_2_OFFLINE_FIXTURE = TERMINATED_BY_D_052
 ```
 
-Official freeze was already refused for unclassified ERC. D-049/D-050 no longer
-block it. The living freeze stamp waits on hub EasyEDA ERC (Phase K). D-051
-additionally forbids freezing a PDM-only audio graph: the contract now requires
-the switched stereo 3.5 mm AUX lane, which is **not** yet on the live sheet.
-The earlier ERC refusal is still true. AUX schematic restore waits until USB-C
-3D seating is off the canvas and Captain issues an EasyEDA GO.
+`JLC-SCH-READY` means the **greenfield** sheet is electrically frozen, professionally
+readable, and EasyEDA-stable. It no longer attaches to G2.2.
 
-Offline reconstruction artefacts live under
-`evidence/VAL-G2-2026-08-28/schematic-presentation/`. The current review sheet
-fails the presentation checker (86 % stubs, label-only power, prison boxes).
-The reconstructed V3 page matches the unpublished digest
-(`0651019a5a345389…`) and is not imported, not canonical, and not a JLC stamp.
+### Archived G2.2 / HOLD (evidence only, D-052)
 
-`JLC-SCH-READY` means the G2.2 reconstructed sheet is electrically frozen, professionally
-readable, and EasyEDA-stable. It unblocks RFQ/package completion and schematic handoff
-preparation. It does **not** unblock paid JLCPCB placement or routing.
+Those programmes are dead. The 2026-08-30 HOLD `.epro2` disagreed with the
+287-designator recovery story: 237 component records, 234 with designators, and
+no `U20-USB`…`U25-USB`, `Y3-USB`, or `J1-PWR1`. T1/T2 USB work, ILM 1.24 kΩ
+identity, and stacked Type-C lessons remain in the session canon as
+**knowledge**. They are not a queue.
 
-`JLC-LAYOUT-READY` means `JLC-SCH-READY` plus final layout-relevant IOMUX, verified
-footprints for every fitted part, final DXF/mechanics, exact pad count, and the required
-JLC source package. Only that stamp unblocks paid JLCPCB placement/routing.
+Voice PE specimen re-derivation is D-043 (`docs/agent/VOICE-PE-SPECIMEN-VAL-R0.md`).
+That lane does not write EasyEDA.
 
-The current EasyEDA sheet is a graphical netlist. Paid layout stays blocked until both
-gates close in order.
+G2.1 `dcd7e3ca…` and G2.2 HOLD remain **IMPORTED_NOT_CANONICAL evidence**.
+Programme `architecture/G2.2-READABLE-SCHEMATIC.md` is **TERMINATED_BY_D-052**.
 
-### G2.2 PWR1 ILM — 2026-08-30
-
-This is a **candidate-scoped** electrical repair, not a product-project change.
-
-| Project | Identity | ILM state |
-| --- | --- | --- |
-| **Canonical** `64325d0e55e0435abd018defb0089a9b` | CLEAN — U1-PWR1.9 already on `USB_EFUSE_ILIM`. **Not mutated.** |
-| **G2.2 HOLD** `55ed9ee948734a0e903f37744b51f3b8` | HAD U1-PWR1.9 on `USB_DP_UP`. **Repaired** in `g22-pwr1-ilm-repair-2026-08-30`. |
-
-Do not write “K1-CORE has ILM connected to USB D+” without naming the candidate. That
-sentence is now false for both the live product project and the repaired HOLD.
-
-R1-PWR1 electrical identity is **1.24 kΩ** / `RNCF0402BTC1K24` / LCSC `C2491273`.
-Stale `partId` text `RC0402FR-0710KL.1` still implies 10 kΩ and must not be used as
-the ohmic value. `harness/check_g22_pwr1_ilm.py` reports `METADATA_MISMATCH` and
-refuses to promote an ILM→D+ binding. That check is now on the G2.2 oracle path.
-
-This ILM blocker is cleared on the **post-ILM HOLD dump** (`3165690:5aad2e78`).
-**`JLC-SCH-READY` remains OPEN** — hub wiring, J1 0/28, AUX, ERC Phase K and the
-other existing gates are independent.
-
-### G2.2 USB2422 + J1 — 2026-08-30 (RECOVERED, USB STILL OPEN)
-
-The saved HOLD cloud briefly became the 245-designator regression
-(`2588333:45fd23b6`, U20 absent, ILM OPEN). Captain recovery GO restored the
-verified post-ILM page. Live HOLD is now `3359274:74d46eb8`, 287 designated,
-U20 present, ILM PASS. USB checker still FAIL on the audited T1–T6 gaps.
-Receipt: `evidence/VAL-G2-2026-08-28/g22-hold-lane/G2.2-HOLD-POST-ILM-RECOVERY-RECEIPT.md`.
-
-`USB_HUB_PHASE_K` is **OPEN**. `JLC-SCH-READY` is **OPEN**.
+`JLC-LAYOUT-READY` still means `JLC-SCH-READY` plus IOMUX, footprints, DXF,
+pad count and the JLC source package. Paid layout stays blocked until both
+gates close, in order, on GREENFIELD.
 
 ### Authority catch-up, 2026-08-28
 
@@ -176,18 +137,19 @@ failed to migrate into `contracts/audio-interface.md`. VAL-R0 audio is dual-inpu
 stereo 3.5 mm AUX plus IM69D130 PDM through one TLV320ADC6120, with simultaneous AUX-L /
 AUX-R / room-mic capture. The PDM XOR remains the microphone-lane alternate only. Ownership
 is unchanged (RT1062 still owns capture). The live sheet still has no jack; this catch-up
-does not rewrite that history.
+does not rewrite that history. D-052: AUX is drawn on GREENFIELD, not restored
+onto an archived sheet.
 
 ## Now unblocked by VAL-G1 closure
 
 The domain-interaction matrix can be instantiated for Option C.
-Board outline and floorplan follow only after VAL-G2 closes.
+Board outline and floorplan follow only after the greenfield schematic is frozen.
 
 ## Carried forward as OPEN
 
 Option C BGA escape, six-layer routability, and any HDI/VIPPO requirement. Not proven.
-VAL-G3 gate item, and only once the real schematic exists. **No BGA escape analysis and no
-CopperPilot run before VAL-G2 completes** — there is no circuit for it to route.
+VAL-G3 gate item, and only once the greenfield schematic exists. **No BGA escape analysis and no
+CopperPilot run before GREENFIELD schematic capture completes** — there is no circuit for it to route.
 
 ## Not blocked
 

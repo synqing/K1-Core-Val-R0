@@ -42,6 +42,27 @@ class UsbHubSemanticTests(unittest.TestCase):
         self.assertFalse(report.ok)
         self.assertTrue(any("PRTPWR2" in e for e in report.errors))
 
+    def test_dn_shorted_onto_3v3_fails(self):
+        report = analyse(fixture_v3(dn_on_3v3=True))
+        self.assertFalse(report.ok)
+        joined = " ".join(report.errors)
+        self.assertIn("shorted onto 3V3", joined)
+        self.assertIn("S-USB-06", joined)
+
+    def test_xtalout_on_gnd_fails(self):
+        report = analyse(fixture_v3(xtalout_gnd=True))
+        self.assertFalse(report.ok)
+        joined = " ".join(report.errors)
+        self.assertIn("U20.21 XTALOUT on GND", joined)
+        self.assertIn("S-USB-08", joined)
+
+    def test_rbias_shares_xtalin_fails(self):
+        report = analyse(fixture_v3(rbias_on_xtalin=True))
+        self.assertFalse(report.ok)
+        joined = " ".join(report.errors)
+        self.assertIn("RBIAS shares net", joined)
+        self.assertIn("S-USB-07", joined)
+
     def test_good_fixture_passes(self):
         report = analyse(fixture_v3())
         self.assertTrue(report.ok, report.errors)

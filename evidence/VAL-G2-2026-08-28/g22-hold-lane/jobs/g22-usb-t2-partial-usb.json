@@ -1,0 +1,786 @@
+{
+  "counts": {
+    "assertions_executed": 65,
+    "components_inspected": 287,
+    "connector_pins_resolved": 28,
+    "easyeda_records_parsed": 10661,
+    "files_inspected": 1,
+    "nets_inspected": 175,
+    "usb2422_pins_resolved": 25
+  },
+  "errors": [
+    "Y3-USB placed but both pins open",
+    "U20.11 PRTPWR2 is on GND \u2014 KILL-B AND path missing USB_PRTPWR2",
+    "hub DN1 present=3V3/3V3 expected=USB_DP_DN1/USB_DM_DN1",
+    "hub DN2 present=3V3/3V3 expected=USB_DP_DN2/USB_DM_DN2",
+    "R94-USB is same-net \u2014 XOR/series 0 \u03a9 can be routed around",
+    "R85-USB same-net bypass on USB_5V_VALID",
+    "R90-USB same-net bypass on GND",
+    "R94-USB same-net bypass on USB_DP_DN2",
+    "C123-USB same-net bypass on GND"
+  ],
+  "j1_pins": {
+    "A1": {
+      "name": "GND",
+      "nets": [
+        "GND"
+      ],
+      "open": false,
+      "xy": [
+        110,
+        -4120
+      ]
+    },
+    "A10": {
+      "name": "RX2-",
+      "nets": [],
+      "open": true,
+      "xy": [
+        110,
+        -4408
+      ]
+    },
+    "A11": {
+      "name": "RX2+",
+      "nets": [],
+      "open": true,
+      "xy": [
+        110,
+        -4440
+      ]
+    },
+    "A12": {
+      "name": "GND",
+      "nets": [
+        "GND"
+      ],
+      "open": false,
+      "xy": [
+        110,
+        -4472
+      ]
+    },
+    "A2": {
+      "name": "TX1+",
+      "nets": [],
+      "open": true,
+      "xy": [
+        110,
+        -4152
+      ]
+    },
+    "A3": {
+      "name": "TX1-",
+      "nets": [],
+      "open": true,
+      "xy": [
+        110,
+        -4184
+      ]
+    },
+    "A4": {
+      "name": "VBUS",
+      "nets": [
+        "5V_USB"
+      ],
+      "open": false,
+      "xy": [
+        110,
+        -4216
+      ]
+    },
+    "A5": {
+      "name": "CC1",
+      "nets": [
+        "USB_CC1"
+      ],
+      "open": false,
+      "xy": [
+        110,
+        -4248
+      ]
+    },
+    "A6": {
+      "name": "D+",
+      "nets": [
+        "USB_DP_J1"
+      ],
+      "open": false,
+      "xy": [
+        110,
+        -4280
+      ]
+    },
+    "A7": {
+      "name": "D-",
+      "nets": [
+        "USB_DN_J1"
+      ],
+      "open": false,
+      "xy": [
+        110,
+        -4312
+      ]
+    },
+    "A8": {
+      "name": "SBU1",
+      "nets": [],
+      "open": true,
+      "xy": [
+        110,
+        -4344
+      ]
+    },
+    "A9": {
+      "name": "VBUS",
+      "nets": [
+        "5V_USB"
+      ],
+      "open": false,
+      "xy": [
+        110,
+        -4376
+      ]
+    },
+    "B1": {
+      "name": "GND",
+      "nets": [
+        "GND"
+      ],
+      "open": false,
+      "xy": [
+        390,
+        -4120
+      ]
+    },
+    "B10": {
+      "name": "RX1-",
+      "nets": [],
+      "open": true,
+      "xy": [
+        390,
+        -4408
+      ]
+    },
+    "B11": {
+      "name": "RX1+",
+      "nets": [],
+      "open": true,
+      "xy": [
+        390,
+        -4440
+      ]
+    },
+    "B12": {
+      "name": "GND",
+      "nets": [
+        "GND"
+      ],
+      "open": false,
+      "xy": [
+        390,
+        -4472
+      ]
+    },
+    "B2": {
+      "name": "TX2+",
+      "nets": [],
+      "open": true,
+      "xy": [
+        390,
+        -4152
+      ]
+    },
+    "B3": {
+      "name": "TX2-",
+      "nets": [],
+      "open": true,
+      "xy": [
+        390,
+        -4184
+      ]
+    },
+    "B4": {
+      "name": "VBUS",
+      "nets": [
+        "5V_USB"
+      ],
+      "open": false,
+      "xy": [
+        390,
+        -4216
+      ]
+    },
+    "B5": {
+      "name": "CC2",
+      "nets": [
+        "USB_CC2"
+      ],
+      "open": false,
+      "xy": [
+        390,
+        -4248
+      ]
+    },
+    "B6": {
+      "name": "D+",
+      "nets": [
+        "USB_DP_J1"
+      ],
+      "open": false,
+      "xy": [
+        390,
+        -4280
+      ]
+    },
+    "B7": {
+      "name": "D-",
+      "nets": [
+        "USB_DN_J1"
+      ],
+      "open": false,
+      "xy": [
+        390,
+        -4312
+      ]
+    },
+    "B8": {
+      "name": "SBU2",
+      "nets": [],
+      "open": true,
+      "xy": [
+        390,
+        -4344
+      ]
+    },
+    "B9": {
+      "name": "VBUS",
+      "nets": [
+        "5V_USB"
+      ],
+      "open": false,
+      "xy": [
+        390,
+        -4376
+      ]
+    },
+    "S1": {
+      "name": "SHELL.TAB1",
+      "nets": [
+        "GND"
+      ],
+      "open": false,
+      "xy": [
+        170,
+        -4540
+      ]
+    },
+    "S2": {
+      "name": "SHELL.TAB2",
+      "nets": [
+        "GND"
+      ],
+      "open": false,
+      "xy": [
+        220,
+        -4540
+      ]
+    },
+    "S3": {
+      "name": "SHELL.TAB3",
+      "nets": [
+        "GND"
+      ],
+      "open": false,
+      "xy": [
+        270,
+        -4540
+      ]
+    },
+    "S4": {
+      "name": "SHELL.TAB4",
+      "nets": [
+        "GND"
+      ],
+      "open": false,
+      "xy": [
+        320,
+        -4540
+      ]
+    }
+  },
+  "ok": false,
+  "paths": {
+    "dn1": {
+      "dm": "3V3",
+      "dp": "3V3"
+    },
+    "dn2": {
+      "dm": "3V3",
+      "dp": "3V3",
+      "s3_reached": true
+    },
+    "f6": {
+      "u21_in": "5V0_USB_VALID",
+      "u22_out": "5V0_USB_VALID"
+    },
+    "j1_functional_wired": 18,
+    "upstream": {
+      "hub_dm": "USB_DM_UP",
+      "hub_dp": "USB_DP_UP",
+      "j1_dm": "USB_DN_J1",
+      "j1_dp": "USB_DP_J1",
+      "rusb_series": true
+    },
+    "xor": {
+      "both_active": false,
+      "r94": [
+        [
+          "USB_DP_DN2"
+        ],
+        [
+          "USB_DP_DN2"
+        ]
+      ],
+      "r94_same_net": true,
+      "r95": [
+        [],
+        []
+      ]
+    }
+  },
+  "reconstruction": "GT-USB-7005A MCP offsets + USB2422 DS00001726B offsets; vertex coincidence tolerance 0",
+  "series": {
+    "C123-USB": {
+      "classification": "DEFECT",
+      "nets": [
+        [
+          "GND"
+        ],
+        [
+          "GND"
+        ]
+      ],
+      "present": true
+    },
+    "R85-USB": {
+      "classification": "DEFECT",
+      "nets": [
+        [
+          "USB_5V_VALID"
+        ],
+        [
+          "USB_5V_VALID"
+        ]
+      ],
+      "present": true
+    },
+    "R90-USB": {
+      "classification": "DEFECT",
+      "nets": [
+        [
+          "GND"
+        ],
+        [
+          "GND"
+        ]
+      ],
+      "present": true
+    },
+    "R94-USB": {
+      "classification": "DEFECT",
+      "nets": [
+        [
+          "USB_DP_DN2"
+        ],
+        [
+          "USB_DP_DN2"
+        ]
+      ],
+      "present": true
+    }
+  },
+  "straps": {
+    "CFG_SEL": "GND",
+    "NON_REM0": "GND",
+    "NON_REM1": "3V3",
+    "non_rem_10": true,
+    "strap_mode": true
+  },
+  "transform": {
+    "u20_proof_min": 8,
+    "u20_proof_pins_matched": 9,
+    "u20_rotation": 0,
+    "u20_xy": [
+      400,
+      -800
+    ]
+  },
+  "u20_pins": {
+    "1": {
+      "name": "VDD33",
+      "nets": [
+        "3V3"
+      ],
+      "open": false,
+      "xy": [
+        230,
+        -850
+      ]
+    },
+    "10": {
+      "name": "CRFILT",
+      "nets": [
+        "USB_CRFILT"
+      ],
+      "open": false,
+      "xy": [
+        230,
+        -760
+      ]
+    },
+    "11": {
+      "name": "PRTPWR2",
+      "nets": [
+        "GND"
+      ],
+      "open": false,
+      "xy": [
+        230,
+        -750
+      ]
+    },
+    "12": {
+      "name": "OCS2_N",
+      "nets": [
+        "USB_OCS2_N"
+      ],
+      "open": false,
+      "xy": [
+        230,
+        -740
+      ]
+    },
+    "13": {
+      "name": "NON_REM1",
+      "nets": [
+        "3V3"
+      ],
+      "open": false,
+      "xy": [
+        570,
+        -740
+      ]
+    },
+    "14": {
+      "name": "CFG_SEL",
+      "nets": [
+        "GND"
+      ],
+      "open": false,
+      "xy": [
+        570,
+        -750
+      ]
+    },
+    "15": {
+      "name": "RESET_N",
+      "nets": [
+        "USB_RESET_N"
+      ],
+      "open": false,
+      "xy": [
+        570,
+        -760
+      ]
+    },
+    "16": {
+      "name": "VBUS_DET",
+      "nets": [
+        "USB_VBUS_DET"
+      ],
+      "open": false,
+      "xy": [
+        570,
+        -770
+      ]
+    },
+    "17": {
+      "name": "NON_REM0",
+      "nets": [
+        "GND"
+      ],
+      "open": false,
+      "xy": [
+        570,
+        -780
+      ]
+    },
+    "18": {
+      "name": "VDD33",
+      "nets": [
+        "3V3"
+      ],
+      "open": false,
+      "xy": [
+        570,
+        -790
+      ]
+    },
+    "19": {
+      "name": "USBDM_UP",
+      "nets": [
+        "USB_DM_UP"
+      ],
+      "open": false,
+      "xy": [
+        570,
+        -800
+      ]
+    },
+    "2": {
+      "name": "USBDM_DN2",
+      "nets": [
+        "3V3"
+      ],
+      "open": false,
+      "xy": [
+        230,
+        -840
+      ]
+    },
+    "20": {
+      "name": "USBDP_UP",
+      "nets": [
+        "USB_DP_UP"
+      ],
+      "open": false,
+      "xy": [
+        570,
+        -810
+      ]
+    },
+    "21": {
+      "name": "XTALOUT",
+      "nets": [
+        "GND"
+      ],
+      "open": false,
+      "xy": [
+        570,
+        -820
+      ]
+    },
+    "22": {
+      "name": "XTALIN",
+      "nets": [
+        "USB_XTALIN"
+      ],
+      "open": false,
+      "xy": [
+        570,
+        -830
+      ]
+    },
+    "23": {
+      "name": "PLLFILT",
+      "nets": [
+        "USB_PLLFILT"
+      ],
+      "open": false,
+      "xy": [
+        570,
+        -840
+      ]
+    },
+    "24": {
+      "name": "RBIAS",
+      "nets": [
+        "USB_XTALIN"
+      ],
+      "open": false,
+      "xy": [
+        570,
+        -850
+      ]
+    },
+    "25": {
+      "name": "EP",
+      "nets": [
+        "GND"
+      ],
+      "open": false,
+      "xy": [
+        570,
+        -860
+      ]
+    },
+    "3": {
+      "name": "USBDM_DN1",
+      "nets": [
+        "3V3"
+      ],
+      "open": false,
+      "xy": [
+        230,
+        -830
+      ]
+    },
+    "4": {
+      "name": "USBDP_DN1",
+      "nets": [
+        "3V3"
+      ],
+      "open": false,
+      "xy": [
+        230,
+        -820
+      ]
+    },
+    "5": {
+      "name": "USBDP_DN2",
+      "nets": [
+        "3V3"
+      ],
+      "open": false,
+      "xy": [
+        230,
+        -810
+      ]
+    },
+    "6": {
+      "name": "NC",
+      "nets": [],
+      "open": true,
+      "xy": [
+        230,
+        -800
+      ]
+    },
+    "7": {
+      "name": "PRTPWR1",
+      "nets": [
+        "USB_PRTPWR1"
+      ],
+      "open": false,
+      "xy": [
+        230,
+        -790
+      ]
+    },
+    "8": {
+      "name": "OCS1_N",
+      "nets": [
+        "USB_OCS1_N"
+      ],
+      "open": false,
+      "xy": [
+        230,
+        -780
+      ]
+    },
+    "9": {
+      "name": "VDD33",
+      "nets": [
+        "3V3"
+      ],
+      "open": false,
+      "xy": [
+        230,
+        -770
+      ]
+    }
+  },
+  "u21_pins": {
+    "1": {
+      "name": "GND",
+      "nets": [
+        "GND"
+      ],
+      "open": false,
+      "xy": [
+        1140,
+        -810
+      ]
+    },
+    "2": {
+      "name": "IN",
+      "nets": [
+        "5V0_USB_VALID"
+      ],
+      "open": false,
+      "xy": [
+        1140,
+        -800
+      ]
+    },
+    "3": {
+      "name": "EN1",
+      "nets": [
+        "USB_EN1"
+      ],
+      "open": false,
+      "xy": [
+        1140,
+        -790
+      ]
+    },
+    "4": {
+      "name": "EN2",
+      "nets": [
+        "USB_EN2"
+      ],
+      "open": false,
+      "xy": [
+        1140,
+        -780
+      ]
+    },
+    "5": {
+      "name": "OC2",
+      "nets": [
+        "USB_OCS2_N"
+      ],
+      "open": false,
+      "xy": [
+        1260,
+        -780
+      ]
+    },
+    "6": {
+      "name": "OUT2",
+      "nets": [
+        "S3_USB_VBUS_VALID"
+      ],
+      "open": false,
+      "xy": [
+        1260,
+        -790
+      ]
+    },
+    "7": {
+      "name": "OUT1",
+      "nets": [
+        "RT_USB_VBUS"
+      ],
+      "open": false,
+      "xy": [
+        1260,
+        -800
+      ]
+    },
+    "8": {
+      "name": "OC1",
+      "nets": [
+        "USB_OCS1_N"
+      ],
+      "open": false,
+      "xy": [
+        1260,
+        -810
+      ]
+    }
+  },
+  "unresolved": false,
+  "warnings": []
+}

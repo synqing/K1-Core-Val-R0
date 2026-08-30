@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "transaction_id": "g22-usb-t2-restamp-2026-08-30",
+  "project_uuid": "55ed9ee948734a0e903f37744b51f3b8",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash": "3378125:de69d05b",
+  "saved": true,
+  "census": {
+    "components": 324,
+    "designated": 287,
+    "wires": 804,
+    "lines": 1055
+  },
+  "observed": "HOLD 55ed9ee9 DOCHEAD restamp after T1 close. Length still 3378125. Body unchanged from 3378125:03e680f8. Live hash 3378125:de69d05b. U20 present. ILM PASS. J1 still j1_wired=18. No schematic write this step."
+}

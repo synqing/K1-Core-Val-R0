@@ -23,16 +23,19 @@ from typing import Any
 
 REPO = Path(__file__).resolve().parents[1]
 DEFAULT_EVIDENCE = REPO / "evidence" / "VAL-G2-2026-08-28"
+HOLD_USB_PROJECT_UUID = "55ed9ee948734a0e903f37744b51f3b8"
 
 # --------------------------------------------------------------------------
 # LANE RESOLUTION (added 2026-08-28 — closes a false-green path)
 #
 # These two constants used to be hardcoded module defaults pointing at
 #   evidence/VAL-G2-2026-08-28/EASYEDA-MUTATION-{STATE.json,LEDGER.jsonl}
-# which is the RETIRED lane (project 09e9c541fd3d404082d4b92e55ae5336). The live
-# lane is evidence/VAL-G2-2026-08-28/canonical-core-val-r0/ (project
-# 64325d0e55e0435abd018defb0089a9b). AGENTS.md instructs every agent to run a
-# bare `easyeda_mutation_gate.py validate` before actuation — which therefore
+# which is the RETIRED lane (project 09e9c541fd3d404082d4b92e55ae5336). Until
+# D-052 the remaining live lane was canonical-core-val-r0 (project
+# 64325d0e55e0435abd018defb0089a9b). D-052 archives every existing EasyEDA
+# project. Bare validate must not guess a write target. AGENTS.md still
+# instructs every agent to run a bare `easyeda_mutation_gate.py validate`
+# before actuation — which therefore
 # validated the WRONG ledger and returned a green that meant nothing about the
 # board being worked on. Both lanes read READY, so the green looked correct.
 #
@@ -1231,6 +1234,12 @@ def main() -> int:
         return 2
     print(json.dumps(result, indent=2, sort_keys=True))
     print(f"EASYEDA_MUTATION_GATE_STATE={result['state']}")
+    if result.get("project_uuid") == HOLD_USB_PROJECT_UUID:
+        print("D052_ARCHIVE=DO_NOT_MUTATE")
+        print("USB_SESSION_CANON=docs/agent/SESSION-CANON-2026-08-30-G22-USB-WIRING.md")
+        print("USB_SKILL=.cursor/skills/g22-usb-schematic-wiring/SKILL.md")
+        print("USB_CHECKERS=harness/check_g22_usb_hub.py harness/check_g22_schematic_drawing.py")
+        print("USB_WRITE_TARGET=GREENFIELD_NOT_HOLD")
     return 0
 
 

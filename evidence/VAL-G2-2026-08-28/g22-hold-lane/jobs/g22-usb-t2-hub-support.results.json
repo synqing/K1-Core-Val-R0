@@ -1,0 +1,536 @@
+[
+ {
+  "tag": "lift-r77-pin1-gnd",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e8048 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "lift-c100-pin1-gnd",
+  "ok": false,
+  "error": "EasyEDA reported schematic wire e8054 deleted, but wire inventory still returns the primitive. Treating this as a host no-op; use source-level surgical recapture instead of trusting deleted:true."
+ },
+ {
+  "tag": "lift-c101-pin1-gnd",
+  "ok": false,
+  "error": "EasyEDA bridge timed out waiting for delete_schematic_wire after 30000ms. The EasyEDA host did not answer — check the editor is responsive and the document is open, then retry; raise EASYEDA_MCP_BRIDGE_TIMEOUT_MS (or EASYEDA_MCP_DELETE_SCHEMATIC_WIRE_TIMEOUT_MS) if the operation is legitimately slow."
+ },
+ {
+  "tag": "u20-pin1-3v3",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      200,
+      770,
+      200,
+      810
+     ],
+     [
+      200,
+      810,
+      230,
+      810
+     ],
+     [
+      200,
+      810,
+      200,
+      820
+     ],
+     [
+      200,
+      820,
+      230,
+      820
+     ],
+     [
+      200,
+      820,
+      200,
+      830
+     ],
+     [
+      200,
+      830,
+      230,
+      830
+     ],
+     [
+      200,
+      830,
+      200,
+      840
+     ],
+     [
+      200,
+      840,
+      230,
+      840
+     ],
+     [
+      200,
+      850,
+      200,
+      840
+     ],
+     [
+      230,
+      850,
+      200,
+      850
+     ],
+     [
+      200,
+      770,
+      210,
+      770
+     ],
+     [
+      230,
+      770,
+      210,
+      770
+     ]
+    ],
+    "net": "3V3",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "1682def94aa38c4a"
+   }
+  }
+ },
+ {
+  "tag": "c100-crfilt",
+  "ok": false,
+  "error": "EasyEDA bridge disconnected while waiting for 460d2d44-39e3-4237-8edd-5bbb68ca8c83"
+ },
+ {
+  "tag": "c101-pllfilt",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      240,
+      640,
+      260,
+      640
+     ],
+     [
+      260,
+      640,
+      420,
+      640
+     ],
+     [
+      420,
+      980,
+      420,
+      640
+     ],
+     [
+      470,
+      640,
+      420,
+      640
+     ],
+     [
+      470,
+      640,
+      470,
+      560
+     ],
+     [
+      470,
+      560,
+      1350,
+      560
+     ],
+     [
+      1350,
+      800,
+      1350,
+      560
+     ],
+     [
+      1350,
+      800,
+      1380,
+      800
+     ],
+     [
+      1380,
+      1200,
+      1380,
+      800
+     ],
+     [
+      1400,
+      800,
+      1380,
+      800
+     ],
+     [
+      1480,
+      560,
+      1350,
+      560
+     ],
+     [
+      1480,
+      560,
+      1480,
+      400
+     ],
+     [
+      1570,
+      560,
+      1480,
+      560
+     ],
+     [
+      1570,
+      560,
+      1570,
+      590
+     ],
+     [
+      1535,
+      590,
+      1570,
+      590
+     ],
+     [
+      1570,
+      610,
+      1570,
+      590
+     ],
+     [
+      1570,
+      610,
+      1535,
+      610
+     ],
+     [
+      260,
+      640,
+      260,
+      840
+     ],
+     [
+      260,
+      840,
+      570,
+      840
+     ],
+     [
+      260,
+      840,
+      260,
+      980
+     ],
+     [
+      260,
+      1100,
+      260,
+      980
+     ]
+    ],
+    "net": "USB_PLLFILT",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "d582531ca3c2a6a2"
+   }
+  }
+ },
+ {
+  "tag": "r77-rbias",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      590,
+      850,
+      570,
+      850
+     ],
+     [
+      590,
+      700,
+      590,
+      850
+     ],
+     [
+      120,
+      700,
+      590,
+      700
+     ],
+     [
+      120,
+      980,
+      120,
+      700
+     ],
+     [
+      180,
+      980,
+      120,
+      980
+     ]
+    ],
+    "net": "USB_RBIAS",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "43b9eeb33b63b2d9"
+   }
+  }
+ },
+ {
+  "tag": "u20-xtalin",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      590,
+      710,
+      690,
+      710
+     ],
+     [
+      590,
+      700,
+      590,
+      710
+     ],
+     [
+      590,
+      700,
+      120,
+      700
+     ],
+     [
+      120,
+      700,
+      120,
+      980
+     ],
+     [
+      120,
+      980,
+      180,
+      980
+     ],
+     [
+      590,
+      710,
+      590,
+      830
+     ],
+     [
+      570,
+      830,
+      590,
+      830
+     ],
+     [
+      590,
+      850,
+      590,
+      830
+     ],
+     [
+      570,
+      850,
+      590,
+      850
+     ]
+    ],
+    "net": "USB_XTALIN",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "a053eae2d5387e65"
+   }
+  }
+ },
+ {
+  "tag": "y3-osc1-xtalin",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      590,
+      850,
+      570,
+      850
+     ],
+     [
+      590,
+      850,
+      590,
+      830
+     ],
+     [
+      590,
+      830,
+      570,
+      830
+     ],
+     [
+      590,
+      830,
+      590,
+      710
+     ],
+     [
+      690,
+      710,
+      590,
+      710
+     ],
+     [
+      690,
+      725,
+      690,
+      710
+     ],
+     [
+      815,
+      725,
+      690,
+      725
+     ],
+     [
+      590,
+      700,
+      590,
+      710
+     ],
+     [
+      120,
+      700,
+      590,
+      700
+     ],
+     [
+      120,
+      980,
+      120,
+      700
+     ],
+     [
+      180,
+      980,
+      120,
+      980
+     ]
+    ],
+    "net": "USB_XTALIN",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "d245ac7d53eccd74"
+   }
+  }
+ },
+ {
+  "tag": "y3-osc2-xtalout",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      815,
+      745,
+      770,
+      745
+     ],
+     [
+      770,
+      745,
+      770,
+      730
+     ],
+     [
+      770,
+      730,
+      760,
+      730
+     ],
+     [
+      760,
+      730,
+      760,
+      820
+     ],
+     [
+      760,
+      820,
+      570,
+      820
+     ],
+     [
+      760,
+      1030,
+      760,
+      820
+     ],
+     [
+      425,
+      1030,
+      760,
+      1030
+     ],
+     [
+      425,
+      1100,
+      425,
+      1030
+     ],
+     [
+      750,
+      730,
+      760,
+      730
+     ]
+    ],
+    "net": "USB_XTALOUT",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "479cb415d7de1c56"
+   }
+  }
+ },
+ {
+  "tag": "y3-gnd4",
+  "ok": false,
+  "error": "modify failed!"
+ },
+ {
+  "tag": "y3-gnd2",
+  "ok": false,
+  "error": "modify failed!"
+ }
+]

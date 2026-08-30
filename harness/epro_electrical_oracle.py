@@ -18,6 +18,7 @@ sys.path.insert(0, str(ROOT / "harness"))
 from easyeda_source_format import detect_format
 from extract_electrical_graph import extract_electrical_graph, _load_source, _pin_bindings
 from g22_pwr1_ilm import analyse as analyse_ilm
+from g22_schematic_drawing import analyse as analyse_drawing
 from g22_usb_hub import analyse as analyse_usb_hub
 
 U4_ERA = ("U4-PWR2", "C68-PWR2", "R8-PWR2")
@@ -118,6 +119,16 @@ def main(argv=None) -> int:
         action="store_true",
         help="explicit opt-out; G2.2 roles and official freeze ignore this",
     )
+    parser.add_argument(
+        "--schematic-drawing-semantics",
+        action="store_true",
+        help="require Type-C stack / OCS picture-frame drawing gate (G2.2)",
+    )
+    parser.add_argument(
+        "--skip-schematic-drawing-semantics",
+        action="store_true",
+        help="explicit opt-out; G2.2 roles and official freeze ignore this",
+    )
     args = parser.parse_args(argv)
 
     source, meta = _load_source(args.source)
@@ -199,6 +210,7 @@ def main(argv=None) -> int:
     want_usb = args.usb_hub_semantics or g22_role or args.official_freeze
     if args.skip_usb_hub_semantics and not args.official_freeze:
         want_usb = False
+    refused = False
     if want_usb:
         identity = graph.get("identity") or {}
         if J1_DESIGNATOR not in identity:
@@ -221,8 +233,30 @@ def main(argv=None) -> int:
                 print("ORACLE=REFUSED USB2422/J1 semantic failure — USB_HUB_PHASE_K cannot close")
                 for item in usb.errors:
                     print(f"  {item}")
-                return 2
-    return 0
+                refused = True
+    want_drawing = args.schematic_drawing_semantics or g22_role or args.official_freeze
+    if args.skip_schematic_drawing_semantics and not args.official_freeze and not g22_role:
+        want_drawing = False
+    if want_drawing:
+        drawing = analyse_drawing(source, source_path=str(args.source))
+        graph["schematic_drawing"] = drawing.as_dict()
+        args.output.write_text(json.dumps(graph, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+        print(
+            "SCHEMATIC_DRAWING "
+            f"ok={drawing.ok} unresolved={drawing.unresolved} "
+            f"type_c={drawing.counts.get('type_c_symbols')} "
+            f"stacked={len(drawing.stacked_pairs)} "
+            f"picture_frames={len(drawing.picture_frames)}"
+        )
+        if drawing.unresolved or not drawing.ok:
+            print(
+                "ORACLE=REFUSED schematic drawing failure — "
+                "stacked Type-C or OCS/EN picture-frame (S-USB-04 / S-USB-14)"
+            )
+            for item in drawing.errors:
+                print(f"  {item}")
+            refused = True
+    return 2 if refused else 0
 
 
 if __name__ == "__main__":

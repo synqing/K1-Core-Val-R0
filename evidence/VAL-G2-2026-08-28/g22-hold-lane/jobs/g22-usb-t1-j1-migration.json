@@ -1,0 +1,191 @@
+[
+  {
+    "tool": "add_schematic_wire",
+    "tag": "vbus-a4",
+    "args": {
+      "line": [110, 4216, 60, 4216],
+      "net": "5V_USB",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "vbus-a9",
+    "args": {
+      "line": [110, 4376, 60, 4376, 60, 4420, 80, 4420],
+      "net": "5V_USB",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "vbus-b4",
+    "args": {
+      "line": [390, 4216, 415, 4216],
+      "net": "5V_USB",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "vbus-b9",
+    "args": {
+      "line": [390, 4376, 415, 4376],
+      "net": "5V_USB",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "gnd-a1",
+    "args": {
+      "line": [110, 4120, 95, 4120, 95, 4165, 70, 4165],
+      "net": "GND",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "gnd-a12",
+    "args": {
+      "line": [110, 4472, 95, 4472, 95, 4345, 100, 4345],
+      "net": "GND",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "gnd-b1",
+    "args": {
+      "line": [390, 4120, 445, 4120],
+      "net": "GND",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "gnd-b12",
+    "args": {
+      "line": [390, 4472, 415, 4472, 415, 4420, 405, 4420],
+      "net": "GND",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "gnd-shield-bus",
+    "args": {
+      "line": [170, 4540, 320, 4540],
+      "net": "GND",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "gnd-shield-tap",
+    "args": {
+      "line": [170, 4540, 95, 4540, 95, 4472],
+      "net": "GND",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "cc1-a5",
+    "args": {
+      "line": [110, 4248, 85, 4248, 85, 4095, 245, 4095],
+      "net": "USB_CC1",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "cc2-b5",
+    "args": {
+      "line": [390, 4248, 435, 4248, 435, 3995, 425, 3995],
+      "net": "USB_CC2",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "dp-a6",
+    "args": {
+      "line": [110, 4280, 45, 4280, 45, 4115, 155, 4115],
+      "net": "USB_DP_J1",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "dp-b6",
+    "args": {
+      "line": [390, 4280, 430, 4280, 430, 4090, 445, 4090],
+      "net": "USB_DP_J1",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "dn-a7",
+    "args": {
+      "line": [110, 4312, 55, 4312, 55, 4105, 155, 4105],
+      "net": "USB_DN_J1",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "dn-b7",
+    "args": {
+      "line": [390, 4312, 440, 4312, 440, 4150, 445, 4150],
+      "net": "USB_DN_J1",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "connect_schematic_pins_to_nets",
+    "tag": "j1-functional-nets",
+    "args": {
+      "componentPrimitiveId": "e154000",
+      "connections": [
+        { "pinNumber": "A1", "net": "GND" },
+        { "pinNumber": "A4", "net": "5V_USB" },
+        { "pinNumber": "A5", "net": "USB_CC1" },
+        { "pinNumber": "A6", "net": "USB_DP_J1" },
+        { "pinNumber": "A7", "net": "USB_DN_J1" },
+        { "pinNumber": "A9", "net": "5V_USB" },
+        { "pinNumber": "A12", "net": "GND" },
+        { "pinNumber": "B1", "net": "GND" },
+        { "pinNumber": "B4", "net": "5V_USB" },
+        { "pinNumber": "B5", "net": "USB_CC2" },
+        { "pinNumber": "B6", "net": "USB_DP_J1" },
+        { "pinNumber": "B7", "net": "USB_DN_J1" },
+        { "pinNumber": "B9", "net": "5V_USB" },
+        { "pinNumber": "B12", "net": "GND" },
+        { "pinNumber": "S1", "net": "GND" },
+        { "pinNumber": "S2", "net": "GND" },
+        { "pinNumber": "S3", "net": "GND" },
+        { "pinNumber": "S4", "net": "GND" }
+      ],
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

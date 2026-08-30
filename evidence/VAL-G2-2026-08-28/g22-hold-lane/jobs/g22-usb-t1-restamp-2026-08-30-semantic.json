@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "transaction_id": "g22-usb-t1-restamp-2026-08-30",
+  "project_uuid": "55ed9ee948734a0e903f37744b51f3b8",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash": "3359274:7e69c656",
+  "saved": true,
+  "census": {
+    "components": 324,
+    "designated": 287,
+    "wires": 801,
+    "lines": 1019,
+    "texts": 38,
+    "rects": 10,
+    "attrs": 8379
+  },
+  "ilm": {
+    "u1_pin9": ["USB_EFUSE_ILIM"],
+    "r1_ohms": 1240
+  },
+  "observed": "HOLD 55ed9ee9 restamped DOCHEAD only. Length still 3359274. Non-DOCHEAD SHA-256 still d4b80c327046f55666198d1d7c12d2945a08c6c9f9002af77c87f98048ab6dbe, matching Captain baseline 3359274:74d46eb8. Live hash is now 3359274:7e69c656. Designated 287. U20-USB present. J1-PWR1 at (150,-4120). U1-PWR1.9 USB_EFUSE_ILIM. ILM checker PASS. No schematic write this step. 3165690:5aad2e78 is the recovery payload only, not the live identity."
+}

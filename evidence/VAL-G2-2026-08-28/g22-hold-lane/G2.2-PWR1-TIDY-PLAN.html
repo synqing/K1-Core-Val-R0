@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>G2.2 PWR1 drawing tidy — measured plan</title>
+<style>
+  :root {
+    --paper: #dfe3e8;
+    --ink: #14181d;
+    --mute: #4a5560;
+    --rule: #8b959e;
+    --keep: #1f5c45;
+    --kill: #9b1c1c;
+    --live: #1c4f8a;
+    --dead: #6b4a16;
+    --grid: #c5ccd3;
+  }
+  :root[data-theme="dark"], @media (prefers-color-scheme: dark) {
+    :root { }
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --paper: #1b2026;
+      --ink: #e7ebf0;
+      --mute: #9aa4ae;
+      --rule: #5c6670;
+      --keep: #7dcea0;
+      --kill: #e07070;
+      --live: #8bb4e0;
+      --dead: #d4b483;
+      --grid: #2a323a;
+    }
+  }
+  :root[data-theme="dark"] {
+    --paper: #1b2026;
+    --ink: #e7ebf0;
+    --mute: #9aa4ae;
+    --rule: #5c6670;
+    --keep: #7dcea0;
+    --kill: #e07070;
+    --live: #8bb4e0;
+    --dead: #d4b483;
+    --grid: #2a323a;
+  }
+  :root[data-theme="light"] {
+    --paper: #dfe3e8;
+    --ink: #14181d;
+    --mute: #4a5560;
+    --rule: #8b959e;
+    --keep: #1f5c45;
+    --kill: #9b1c1c;
+    --live: #1c4f8a;
+    --dead: #6b4a16;
+    --grid: #c5ccd3;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; background: var(--paper); color: var(--ink); }
+  body {
+    font-family: "Avenir Next", "Segoe UI", sans-serif;
+    line-height: 1.45;
+    max-width: 1180px;
+    margin: 0 auto;
+    padding: 28px 22px 64px;
+  }
+  h1 { font-size: 1.55rem; font-weight: 650; letter-spacing: -0.02em; text-wrap: balance; margin: 0 0 0.35rem; }
+  .eyebrow { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--mute); }
+  .lede { font-size: 1.05rem; max-width: 42rem; margin: 0.8rem 0 1.4rem; }
+  h2 { font-size: 1.05rem; margin: 1.8rem 0 0.6rem; }
+  p, li { max-width: 42rem; }
+  .meta { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 0.78rem; color: var(--mute); }
+  .panels { display: grid; grid-template-columns: 1fr; gap: 18px; margin: 1.2rem 0; }
+  @media (min-width: 960px) { .panels { grid-template-columns: 1fr 1fr; } }
+  figure { margin: 0; background: #f4f6f8; border: 1px solid var(--rule); }
+  @media (prefers-color-scheme: dark) { figure { background: #12171c; } }
+  :root[data-theme="dark"] figure { background: #12171c; }
+  figcaption { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 0.72rem; padding: 8px 10px; color: var(--mute); border-top: 1px solid var(--rule); }
+  svg { display: block; width: 100%; height: auto; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.88rem; font-variant-numeric: tabular-nums; }
+  th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-family: ui-monospace, "SF Mono", Menlo, monospace; font-size: 0.72rem; font-weight: 600; }
+  .wide { overflow-x: auto; margin: 0.8rem 0 1.4rem; }
+  .do { color: var(--keep); font-weight: 600; }
+  .dont { color: var(--kill); font-weight: 600; }
+  ol.seq { padding-left: 1.2rem; }
+  ol.seq li { margin: 0.45rem 0; }
+  .cta { border: 2px solid var(--ink); padding: 14px 16px; margin-top: 1.6rem; max-width: 42rem; }
+  .key { display: flex; flex-wrap: wrap; gap: 14px; font-size: 0.8rem; margin: 0.4rem 0 0.8rem; }
+  .sw { display: inline-block; width: 12px; height: 12px; border: 1px solid var(--ink); vertical-align: -1px; margin-right: 4px; }
+  .theme { float: right; font-size: 0.75rem; }
+  button { font: inherit; background: transparent; color: var(--ink); border: 1px solid var(--rule); padding: 4px 8px; cursor: pointer; }
+  button:focus { outline: 2px solid var(--live); outline-offset: 2px; }
+  @media print { .card, figure, .cta { break-inside: avoid; } .theme { display: none; } }
+</style>
+</head>
+<body>
+  <p class="theme"><button type="button" id="themeBtn">Light / dark</button></p>
+  <p class="eyebrow">K1-CORE-VAL-R0 · HOLD 55ed9ee9 · 2026-08-30</p>
+  <h1>This is two USB-C symbols occupying the same drawing</h1>
+  <p class="lede">The live receptacle <strong>J1-PWR1</strong> (GT-USB-7005A) and the parked <strong>J1-USB4105-RETIRED</strong> sit 35&nbsp;units east and 25 units north of each other. Their pin fields occupy one blob. T1 then drew real wires into that blob. Nothing here is reverted. Pin–net membership stays. The drawing is rearranged.</p>
+  <p class="meta">Authority: live dump <code>post-t2-partial-source.json</code> · Box 1 e5480 = (0, −4720) → (910, −3605) · Scale 1&nbsp;px = 2 schematic units · Source Y as stored (negative)</p>
+
+  <div class="key">
+    <span><span class="sw" style="background:#1c4f8a"></span> Live J1-PWR1</span>
+    <span><span class="sw" style="background:#6b4a16"></span> Retired USB4105</span>
+    <span><span class="sw" style="background:#1f5c45"></span> Keep (U1 / R1 ILM)</span>
+    <span><span class="sw" style="background:#9b1c1c"></span> Overlap / through-body</span>
+  </div>
+
+  <div class="panels">
+    <figure>
+      <svg viewBox="0 0 520 620" role="img" aria-label="Measured PWR1 box with overlapping Type-C symbols">
+        <title>Now — measured overlap</title>
+        <defs>
+          <pattern id="g" width="10" height="10" patternUnits="userSpaceOnUse">
+            <path d="M10 0H0V10" fill="none" stroke="#c5ccd3" stroke-width="0.4"/>
+          </pattern>
+        </defs>
+        <rect x="0" y="0" width="520" height="620" fill="#f4f6f8"/>
+        <rect x="0" y="0" width="520" height="620" fill="url(#g)"/>
+        <!-- box1: x 0..910, y -3605 top to -4720 bottom. scale 0.5, origin svg (20,40) -->
+        <!-- svgX = 20 + x*0.5; svgY = 40 + (-3605 - y)*0.5 -->
+        <rect x="20" y="40" width="455" height="557.5" fill="none" stroke="#14181d" stroke-width="1.2"/>
+        <text x="28" y="56" font-family="ui-monospace,monospace" font-size="11" fill="#4a5560">1. POWER ENTRY (0,−3605)–(910,−4720)</text>
+        <!-- J1-PWR1 origin 150,-4120; body x 110..390, y -4120..-4540 -->
+        <rect x="75" y="297.5" width="140" height="210" fill="#1c4f8a" fill-opacity="0.18" stroke="#1c4f8a" stroke-width="1.4"/>
+        <text x="80" y="312" font-family="ui-monospace,monospace" font-size="10" fill="#1c4f8a">J1-PWR1 (150,−4120)</text>
+        <text x="80" y="325" font-family="ui-monospace,monospace" font-size="9" fill="#1c4f8a">GT-USB-7005A  e154000</text>
+        <!-- retired 185,-4095; approx same body, offset +35 x, -25 y wait y -4095 is 25 above -4120 so toward top -->
+        <rect x="92.5" y="285" width="140" height="210" fill="#6b4a16" fill-opacity="0.22" stroke="#6b4a16" stroke-width="1.4" stroke-dasharray="4 3"/>
+        <text x="148" y="278" font-family="ui-monospace,monospace" font-size="10" fill="#6b4a16">J1-USB4105-RETIRED</text>
+        <text x="148" y="290" font-family="ui-monospace,monospace" font-size="9" fill="#9b1c1c">Δx=+35  Δy=+25  |d|≈43</text>
+        <!-- D1 385,-4120 -->
+        <rect x="202.5" y="297.5" width="40" height="70" fill="none" stroke="#14181d" stroke-width="1"/>
+        <text x="202" y="292" font-family="ui-monospace,monospace" font-size="9">D1 (385,−4120) rot90</text>
+        <path d="M215 320 L240 345" stroke="#9b1c1c" stroke-width="1.5"/>
+        <text x="218" y="360" font-family="ui-monospace,monospace" font-size="8" fill="#9b1c1c">wires through body</text>
+        <!-- C1 115,-4420 C2 215,-4420 on connector -->
+        <rect x="67.5" y="447.5" width="18" height="12" fill="#9b1c1c" fill-opacity="0.5" stroke="#9b1c1c"/>
+        <rect x="117.5" y="447.5" width="18" height="12" fill="#9b1c1c" fill-opacity="0.5" stroke="#9b1c1c"/>
+        <text x="28" y="456" font-family="ui-monospace,monospace" font-size="8" fill="#9b1c1c">C1/C2 on J1 pins</text>
+        <!-- U1 690,-4110 keep -->
+        <rect x="355" y="292.5" width="70" height="90" fill="#1f5c45" fill-opacity="0.15" stroke="#1f5c45" stroke-width="1.2"/>
+        <text x="358" y="308" font-family="ui-monospace,monospace" font-size="10" fill="#1f5c45">U1 KEEP</text>
+        <text x="358" y="320" font-family="ui-monospace,monospace" font-size="9">(690,−4110)</text>
+        <!-- R1 365,-4420 -->
+        <rect x="192.5" y="447.5" width="22" height="12" fill="#1f5c45" fill-opacity="0.35" stroke="#1f5c45"/>
+        <text x="188" y="475" font-family="ui-monospace,monospace" font-size="8" fill="#1f5c45">R1 ILM — do not move</text>
+      </svg>
+      <figcaption>NOW. Origins from the saved HOLD source. The brown dashed rectangle is the retired Type-C sitting on the live one.</figcaption>
+    </figure>
+    <figure>
+      <svg viewBox="0 0 620 620" role="img" aria-label="Proposed PWR1 flow with retired parked west">
+        <title>Proposed — same nets, split symbols</title>
+        <defs>
+          <pattern id="g2" width="10" height="10" patternUnits="userSpaceOnUse">
+            <path d="M10 0H0V10" fill="none" stroke="#c5ccd3" stroke-width="0.4"/>
+          </pattern>
+        </defs>
+        <rect x="0" y="0" width="620" height="620" fill="#f4f6f8"/>
+        <rect x="0" y="0" width="620" height="620" fill="url(#g2)"/>
+        <!-- expanded box x -400..910, same y. scale 0.42, origin: svgX=20+(x-(-400))*0.42 -->
+        <rect x="20" y="40" width="550.2" height="468.3" fill="none" stroke="#14181d" stroke-width="1.2"/>
+        <text x="28" y="56" font-family="ui-monospace,monospace" font-size="11" fill="#4a5560">Box 1 grown west to x=−400</text>
+        <!-- retired at -250,-4120 -->
+        <rect x="83" y="256.3" width="100" height="176" fill="#6b4a16" fill-opacity="0.18" stroke="#6b4a16" stroke-width="1.3" stroke-dasharray="4 3"/>
+        <text x="28" y="248" font-family="ui-monospace,monospace" font-size="10" fill="#6b4a16">RETIRED (−250,−4120)</text>
+        <text x="28" y="430" font-family="ui-monospace,monospace" font-size="8" fill="#6b4a16">net labels only · not fitted</text>
+        <!-- live J1 at 150,-4120 → svgX=20+(150+400)*0.42=251 -->
+        <rect x="251" y="256.3" width="117.6" height="176.4" fill="#1c4f8a" fill-opacity="0.18" stroke="#1c4f8a" stroke-width="1.4"/>
+        <text x="255" y="248" font-family="ui-monospace,monospace" font-size="10" fill="#1c4f8a">J1-PWR1 stays (150,−4120)</text>
+        <!-- D1 to 520,-4120 → 20+(520+400)*0.42=406.4 -->
+        <rect x="406" y="256.3" width="28" height="59" fill="none" stroke="#14181d" stroke-width="1.2"/>
+        <text x="400" y="248" font-family="ui-monospace,monospace" font-size="9">D1 (520,−4120)</text>
+        <path d="M368 280 L406 280" stroke="#1c4f8a" stroke-width="1.5" fill="none"/>
+        <path d="M368 300 L406 300" stroke="#1c4f8a" stroke-width="1.5" fill="none"/>
+        <text x="372" y="274" font-family="ui-monospace,monospace" font-size="8">DP/DM to pins, not through body</text>
+        <!-- U1 keep 690 → 20+(690+400)*0.42=477.8 -->
+        <rect x="478" y="252" width="58" height="76" fill="#1f5c45" fill-opacity="0.15" stroke="#1f5c45" stroke-width="1.2"/>
+        <text x="482" y="268" font-family="ui-monospace,monospace" font-size="9" fill="#1f5c45">U1 KEEP</text>
+        <!-- C1/C2 east of J1, y -4450 → svgY=40+(-3605+4450)*0.42=395 -->
+        <rect x="368" y="395" width="16" height="10" fill="#1c4f8a" fill-opacity="0.35" stroke="#1c4f8a"/>
+        <rect x="392" y="395" width="16" height="10" fill="#1c4f8a" fill-opacity="0.35" stroke="#1c4f8a"/>
+        <text x="368" y="420" font-family="ui-monospace,monospace" font-size="8">C1/C2 off the connector</text>
+        <text x="28" y="530" font-family="ui-monospace,monospace" font-size="10">Flow: retired park | live Type-C | ESD | eFuse</text>
+        <text x="28" y="546" font-family="ui-monospace,monospace" font-size="9" fill="#4a5560">Same nets. Different geometry. No snapshot restore.</text>
+      </svg>
+      <figcaption>PROPOSED. Retired parked west. Live Type-C keeps its origin. D1 steps east. U1 and R1 do not move. Scale 1 px = 2.38 units on this panel (west expansion).</figcaption>
+    </figure>
+  </div>
+
+  <h2>What produced the screenshot</h2>
+  <ol>
+    <li>G2.2 still carries the historical USB4105 as <code>J1-USB4105-RETIRED</code> at <strong>(185, −4095)</strong>.</li>
+    <li>The live D-050 part <code>J1-PWR1</code> was placed at <strong>(150, −4120)</strong> — 43 units away, inside the same pin field (A-column x=110, B-column x=390).</li>
+    <li>T1 then attached GT-USB-7005A to 5V_USB, GND, USB_DP_J1, USB_DN_J1, USB_CC1/CC2. Those wires are electrically wanted. They are drawn through the stacked symbols, through D1, and through a pile of notes.</li>
+    <li>C1 and C2 (22&nbsp;µF) sit at y=−4420 on x=115 and 215 — on top of the Type-C pins, not beside the 5&nbsp;V rail.</li>
+  </ol>
+
+  <h2>Measured origins (not to be undone electrically)</h2>
+  <div class="wide">
+    <table>
+      <thead><tr><th>Designator</th><th>id</th><th>x</th><th>y</th><th>Tidy</th></tr></thead>
+      <tbody>
+        <tr><td>J1-PWR1</td><td>e154000</td><td>150</td><td>−4120</td><td>Stay. This is the live receptacle.</td></tr>
+        <tr><td>J1-USB4105-RETIRED</td><td>e339</td><td>185</td><td>−4095</td><td>Park west to (−250, −4120). Keep the same net names. Not fitted.</td></tr>
+        <tr><td>D1-PWR1</td><td>e252</td><td>385</td><td>−4120</td><td>Step east to (520, −4120). Stop routing through the symbol.</td></tr>
+        <tr><td>RUSB_DP / RUSB_DN</td><td>e184 / e205</td><td>555</td><td>−4165 / −4190</td><td>Stay unless D1 move requires a 20-unit nudge.</td></tr>
+        <tr><td>U1-PWR1</td><td>e504</td><td>690</td><td>−4110</td><td class="do">Do not move. ILM closed.</td></tr>
+        <tr><td>R1-PWR1</td><td>e426</td><td>365</td><td>−4420</td><td class="do">Do not move. 1.24&nbsp;kΩ ILM.</td></tr>
+        <tr><td>C1 / C2</td><td>e72 / e108</td><td>115 / 215</td><td>−4420</td><td>Off the connector, onto the 5V_USB island east of J1.</td></tr>
+        <tr><td>Notes e5442, e5452, e5467, e5452</td><td>TEXT</td><td>on the pins</td><td></td><td>Back to the title band y≈−3685.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>How to move without breaking nets</h2>
+  <p>EasyEDA MCP <code>modify_schematic_component</code> coordinate writes <strong>leave the wires behind</strong> (session scar 2026-07-17). That would look like an undo and would be an electrical defect.</p>
+  <p>Method:</p>
+  <ol class="seq">
+    <li><strong>Wire, not place, first on the retired part:</strong> put net-name flags on the retired pins that already share 5V_USB / GND / USB_DP_J1 / USB_DN_J1 / CC. Delete only the physical segments that exist solely because the two Type-C symbols coincide. Live J1 T1 wires stay. This is geometry, not a net-membership change.</li>
+    <li><strong>Place by native EasyEDA drag</strong> (CUA / editor move with the symbol, not an MCP x/y write) of <code>e339</code> to (−250, −4120). Expand rectangle e5480 west to x=−400.</li>
+    <li><strong>Place</strong> D1, then C1/C2 — one symbol group per transaction, screenshot after each.</li>
+    <li><strong>Wire</strong> J1-PWR1 escapes: A-column west of x=90; B-column east of x=400 into D1 pins; no vertical on a pin column; no segment through D1 or U1.</li>
+    <li><strong>Labels</strong> last. One readable net name per run. SuperSpeed NC marks stay, off the pin numbers.</li>
+  </ol>
+
+  <h2>Hard stops</h2>
+  <ul>
+    <li class="dont">No snapshot restore. No <code>set_document_source</code>. No T1 net membership change.</li>
+    <li class="dont">Do not move U1 or R1. Do not touch ILM vertices (625, −4165) / (625, −4225) / (600, −4225).</li>
+    <li class="dont">Do not continue T3–T6 while this drawing is stacked.</li>
+    <li class="dont">Do not MCP-move symbols.</li>
+    <li class="do">Canonical project 64325d0e is still forbidden.</li>
+  </ul>
+
+  <h2>Gate, before any of the above is written</h2>
+  <p>Transaction <code>g22-usb-t2-hub-support</code> is still IN_FLIGHT. T2 damaged U20 (DN pairs on 3V3, XTALOUT swallowed by GND). That is a different region (y≈−800). It is not repaired by restoring the pre-T2 snapshot. It is also not a licence to keep drawing USB on top of this PWR1 wreckage.</p>
+  <p>Close T2 as REJECTED against the existing screenshots and USB checker, without rolling the canvas back. Then begin a new placement transaction for the retired Type-C park.</p>
+
+  <h2>Done looks like</h2>
+  <ul>
+    <li>A stranger can name J1-PWR1, D1, RUSB, U1 from a 160% crop without reading a caption.</li>
+    <li>Retired USB4105 is in a labelled “not fitted” strip west of x=0, not on the live pins.</li>
+    <li>USB checker still has j1_wired=18. ILM still PASS. U20 census still present.</li>
+    <li>No JLC-SCH-READY stamp.</li>
+  </ul>
+
+  <div class="cta">
+    <strong>Awaiting Captain GO to execute this tidy sequence.</strong>
+    First write after GO: close T2 REJECTED (no revert), then park <code>J1-USB4105-RETIRED</code> by native drag.
+  </div>
+  <script>
+    document.getElementById('themeBtn').addEventListener('click', function () {
+      var cur = document.documentElement.getAttribute('data-theme');
+      var next = cur === 'dark' ? 'light' : (cur === 'light' ? 'dark' : (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'light' : 'dark'));
+      document.documentElement.setAttribute('data-theme', next);
+    });
+  </script>
+</body>
+</html>

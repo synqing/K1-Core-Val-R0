@@ -54,6 +54,10 @@ counts prove only the narrow fact they measure.
   perform.
 - Never create sibling worktrees or project folders unless Captain authorises the exact path.
 - Never mutate EasyEDA without following `EASYEDA-EXECUTION-CANON.md`.
+  D-052: do not mutate archived projects. USB keepouts for the greenfield USB
+  block still require
+  `docs/agent/SESSION-CANON-2026-08-30-G22-USB-WIRING.md` and
+  `.cursor/skills/g22-usb-schematic-wiring/SKILL.md`.
 
 ## Map and territory
 

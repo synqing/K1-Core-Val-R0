@@ -1,9 +1,10 @@
 # ADR-048: G2.1 is the electrical reference, not the drawing authority
 
-**Status:** Accepted
-**Date:** 2026-08-28
-**Deciders:** Captain
-**Register:** D-048
+**Status:** Superseded by D-052 for implementation. The oracle role remains
+historical evidence only.  
+**Date:** 2026-08-28  
+**Deciders:** Captain  
+**Register:** D-048 (`AMENDED_BY_D-052`)
 
 ## Context
 
@@ -39,7 +40,8 @@ Readable reconstruction is a new derivative, **`K1-Core-Val-R0-G2.2-READABLE-CAN
 Its only job is to rebuild the drawing while proving **zero intentional electrical change**
 from the G2.1 graph.
 
-`JLC-SCH-READY` attaches to G2.2:
+`JLC-SCH-READY` attached to G2.2 under D-048. **D-052 moved that stamp to
+GREENFIELD.** This ADR no longer authorises G2.2 reconstruction.
 
 > electrically equivalent + professionally readable + EasyEDA-stable.
 

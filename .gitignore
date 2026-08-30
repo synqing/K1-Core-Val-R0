@@ -2,4 +2,9 @@ __pycache__/
 *.pyc
 .DS_Store
 *.tmp
-evidence/**/EASYEDA-MUTATION-STATE.json.lock
+*.log
+*.lock
+_scratch/
+evidence/**/claude-mem-export/
+# Accidental path-concatenation dirs from flock (space in the directory name)
+**/MUTATION-STATE.json evidence/

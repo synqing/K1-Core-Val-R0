@@ -13,12 +13,22 @@ sheets are forbidden.** All electrical components, nets, power paths, option cir
 schematic wiring live on that one sheet, separated visually by domain of concern.
 
 **`dcd7e3cab2a24b9aa6e531d2b62e1b6f` is not canonical.** That disposable project
-(`K1-Core-Val-R0-G2.1-BULK-CANDIDATE`) is the G2.1 electrical reference / EasyEDA
-normalisation oracle (D-048). Do not promote it. Do not beautify it interactively. Do not
-use it as JLCPCB handoff or as a PCB source. Readable reconstruction is G2.2
-(`K1-Core-Val-R0-G2.2-READABLE-CANDIDATE`), which must prove exact electrical equivalence
-to the G2.1 graph. `JLC-SCH-READY` attaches to G2.2, not G2.1. Leave a hung EasyEDA window
-alone; no Force Quit.
+(`K1-Core-Val-R0-G2.1-BULK-CANDIDATE`) is historical G2.1 electrical-reference
+evidence (D-048, **AMENDED_BY_D-052**). Do not promote it. Do not mutate it.
+
+**D-052: every existing K1-CORE-VAL-R0 EasyEDA project is ARCHIVE / EVIDENCE /
+DO NOT MUTATE / DO NOT FABRICATE.** That includes product canonical
+`64325d0e55e0435abd018defb0089a9b`, G2.2 HOLD `55ed9ee948734a0e903f37744b51f3b8`,
+G2.1 `dcd7e3ca…`, and every hub disposable. They may answer “what value did we
+previously use?” They must not answer how the new schematic is wired.
+
+The next implementation lives in **`/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R1`**
+(D-053). EasyEDA project **`K1-Core-VAL-R1`**: new UUID, no ancestry, not a
+clone, not Save As, not imported JSON. Component #1 waits on
+`architecture/GREENFIELD-BUILD-SPEC.md`. `JLC-SCH-READY` attaches there, not
+to G2.2. Leave a hung EasyEDA window alone; no Force Quit.
+
+This R0 repository is **knowledge and archive**. Do not draw the new board here.
 
 ## Hard rules
 
@@ -48,8 +58,10 @@ alone; no Force Quit.
   append-only ledger own the live transaction phase; static status prose does not.
 - All state transitions must use the gate so its OS-level file lock serialises competing agents.
 - `FROZEN_INCIDENT` is an absolute stop with no automatic release path. Do not reinterpret it as a
-  request to reconcile. Use it only after live-session ownership is genuinely unresolved; another
+  request to reconcile. Use it after live-session ownership is genuinely unresolved; another
   active agent is not sufficient evidence. Never obstruct a Captain-authorised operator.
+  **D-052 programme-archive freeze of retired EasyEDA lanes is an authorised use of the same
+  state.** It is not a D-040 ownership incident and has no reconcile-then-continue path.
 - Placement, designation and wiring are separate visual transactions. The fixture executor may
   perform exactly one stage for one complete source-derived circuit block per invocation. A
   multi-stage convenience mode is forbidden.
@@ -61,6 +73,12 @@ alone; no Force Quit.
 - Do not weaken DRC rules to make errors disappear.
 - Do not silently consume reserved signals.
 - The board may grow east-west whenever more area produces a materially more robust design.
+- **G2.2 / HOLD USB schematic writes are terminated (D-052).** The USB session
+  canon and `.cursor/skills/g22-usb-schematic-wiring` remain **knowledge** for the
+  greenfield USB block. They are not a licence to mutate HOLD or canonical.
+  Two Type-C origins within 80 units, a USB2422 west-column signal on `3V3`,
+  `XTALOUT` on `GND`, or RBIAS sharing XTALIN remain STOPs when that block is
+  drawn. `add_schematic_wire` is a net-join. Never MCP-move symbols.
 
 ## CopperPilot role
 

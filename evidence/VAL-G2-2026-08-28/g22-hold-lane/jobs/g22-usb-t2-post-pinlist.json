@@ -1,0 +1,42 @@
+[
+  {
+    "tool": "get_current_context",
+    "tag": "ctx",
+    "args": {}
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "u20",
+    "args": { "componentPrimitiveId": "e154001" }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "y3",
+    "args": { "componentPrimitiveId": "e154002" }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "r77",
+    "args": { "componentPrimitiveId": "e154003" }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "c100",
+    "args": { "componentPrimitiveId": "e154012" }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "c101",
+    "args": { "componentPrimitiveId": "e154013" }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "c102",
+    "args": { "componentPrimitiveId": "e154014" }
+  },
+  {
+    "tool": "list_schematic_component_pins",
+    "tag": "c103",
+    "args": { "componentPrimitiveId": "e154015" }
+  }
+]

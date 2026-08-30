@@ -1,0 +1,22 @@
+[
+  {
+    "tool": "add_schematic_wire",
+    "tag": "cc1-leave",
+    "args": {
+      "line": [110, 4248, 85, 4248],
+      "net": "USB_CC1",
+      "saveAfter": false,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  },
+  {
+    "tool": "add_schematic_wire",
+    "tag": "cc1-north-tap",
+    "args": {
+      "line": [85, 4248, 85, 3995, 245, 3995],
+      "net": "USB_CC1",
+      "saveAfter": true,
+      "expectedDocumentUuid": "1435cb46f39e48c8a8aadbb84ca81603"
+    }
+  }
+]

@@ -1,0 +1,67 @@
+[
+ {
+  "tag": "cc1-leave",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      110,
+      4248,
+      85,
+      4248
+     ]
+    ],
+    "net": "USB_CC1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "e8c7db9e3faf64a4"
+   }
+  }
+ },
+ {
+  "tag": "cc1-north-tap",
+  "ok": true,
+  "result": {
+   "primitive": {
+    "async": true,
+    "primitiveType": "Wire",
+    "line": [
+     [
+      85,
+      4248,
+      85,
+      3995
+     ],
+     [
+      85,
+      4248,
+      110,
+      4248
+     ],
+     [
+      85,
+      3995,
+      245,
+      3995
+     ],
+     [
+      265,
+      3995,
+      245,
+      3995
+     ]
+    ],
+    "net": "USB_CC1",
+    "color": null,
+    "lineWidth": null,
+    "lineType": null,
+    "primitiveId": "f3c72c66417aca8a"
+   },
+   "saved": true
+  }
+ }
+]

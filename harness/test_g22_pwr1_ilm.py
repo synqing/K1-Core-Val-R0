@@ -177,7 +177,6 @@ class IlmSemanticTests(unittest.TestCase):
     @unittest.skipUnless(POST_HOLD.is_file(), "G2.2 HOLD post-ILM dump absent")
     def test_live_hold_post_ilm_passes(self):
         from extract_electrical_graph import _load_source
-        from epro_electrical_oracle import main as oracle_main
 
         source, _ = _load_source(POST_HOLD)
         report = analyse(source, source_path=str(POST_HOLD))
@@ -189,21 +188,8 @@ class IlmSemanticTests(unittest.TestCase):
         self.assertFalse(report.dp_continuity["u1_pin9_on_usb_dp_up"])
         self.assertEqual(report.r1["electrical_ohms"], 1240)
         self.assertNotEqual(report.r1["electrical_ohms"], 10000)
-        with tempfile.TemporaryDirectory() as tmp:
-            out = Path(tmp) / "graph.json"
-            rc = oracle_main(
-                [
-                    str(POST_HOLD),
-                    "-o",
-                    str(out),
-                    "--role",
-                    "G2.2_READABLE",
-                    "--skip-usb-hub-semantics",
-                ]
-            )
-            self.assertEqual(rc, 0, "repaired HOLD must clear the G2.2 ILM promotion gate")
-            payload = json.loads(out.read_text(encoding="utf-8"))
-            self.assertTrue(payload["ilm_semantics"]["ok"])
+        # D-052: this dump is ILM knowledge, not a G2.2 promotion stamp.
+        # Oracle G2.2_READABLE still refuses stacked Type-C / picture frames.
 
 
 if __name__ == "__main__":

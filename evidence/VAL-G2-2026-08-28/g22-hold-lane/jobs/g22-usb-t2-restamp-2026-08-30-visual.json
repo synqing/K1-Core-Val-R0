@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "g22-usb-t2-restamp-2026-08-30",
+  "project_uuid": "55ed9ee948734a0e903f37744b51f3b8",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Lane reconciliation after EasyEDA DOCHEAD restamp. Confirm HOLD 55ed9ee9, U20-USB hub island, Y3 24 MHz placed, R77 12k and C100/C101 still same-net GND, live 64325d0e not focused.",
+  "observed_delta": "At 140% on the USB2422 island, U20-USB is present with DN1/DN2/UP nets. Y3-USB 24.000MHz sits east. R77 12k, C100, C101 sit in the south passive row. Chrome is K1-Core-Val-R0-G2.2-READABLE-HOLD.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/g22-hold-lane/screenshots/g22-usb-t2-pre-hub.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "HOLD chrome is visible",
+      "result": "OK",
+      "detail": "Screenshot and dump are K1-Core-Val-R0-G2.2-READABLE-HOLD 55ed9ee9."
+    },
+    {
+      "name": "U20-USB hub island is present",
+      "result": "OK",
+      "detail": "140% shot shows U20-USB with USB_DP_UP/USB_DM_UP and DN nets. Dump has U20-USB e154001 at (400,-800)."
+    },
+    {
+      "name": "Y3 and R77/C100/C101 are placed",
+      "result": "OK",
+      "detail": "Y3 24.000MHz is east of U20. R77 12k, C100 and C101 are in the south row. Support pins still open on the dump."
+    },
+    {
+      "name": "not the live product project",
+      "result": "OK",
+      "detail": "Focused parent is HOLD 55ed9ee9, not live 64325d0e."
+    }
+  ]
+}

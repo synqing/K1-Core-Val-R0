@@ -1,0 +1,672 @@
+{
+  "rects": [
+    {
+      "id": "e5480",
+      "x1": 0,
+      "y1": -4720,
+      "x2": 910,
+      "y2": -3605,
+      "fillColor": null,
+      "fillStyle": "SOLID",
+      "strokeColor": "#000000",
+      "strokeWidth": 3,
+      "locked": false
+    },
+    {
+      "id": "e5481",
+      "x1": 955,
+      "y1": -4725,
+      "x2": 1915,
+      "y2": -3605,
+      "fillColor": null,
+      "fillStyle": "SOLID",
+      "strokeColor": "#000000",
+      "strokeWidth": 3,
+      "locked": false
+    },
+    {
+      "id": "e5482",
+      "x1": 1965,
+      "y1": -4725,
+      "x2": 2925,
+      "y2": -3605,
+      "fillColor": null,
+      "fillStyle": "SOLID",
+      "strokeColor": "#000000",
+      "strokeWidth": 3,
+      "locked": false
+    },
+    {
+      "id": "e5483",
+      "x1": 2975,
+      "y1": -4725,
+      "x2": 3935,
+      "y2": -3605,
+      "fillColor": null,
+      "fillStyle": "SOLID",
+      "strokeColor": "#000000",
+      "strokeWidth": 3,
+      "locked": false
+    },
+    {
+      "id": "e5484",
+      "x1": 3990,
+      "y1": -4725,
+      "x2": 4950,
+      "y2": -3605,
+      "fillColor": null,
+      "fillStyle": "SOLID",
+      "strokeColor": "#000000",
+      "strokeWidth": 3,
+      "locked": false
+    },
+    {
+      "id": "e5485",
+      "x1": 0,
+      "y1": -3535,
+      "x2": 910,
+      "y2": -2425,
+      "fillColor": null,
+      "fillStyle": "SOLID",
+      "strokeColor": "#000000",
+      "strokeWidth": 3,
+      "locked": false
+    },
+    {
+      "id": "e5486",
+      "x1": 950,
+      "y1": -3540,
+      "x2": 1910,
+      "y2": -2420,
+      "fillColor": null,
+      "fillStyle": "SOLID",
+      "strokeColor": "#000000",
+      "strokeWidth": 3,
+      "locked": false
+    },
+    {
+      "id": "e5487",
+      "x1": 1960,
+      "y1": -3530,
+      "x2": 2920,
+      "y2": -2410,
+      "fillColor": null,
+      "fillStyle": "SOLID",
+      "strokeColor": "#000000",
+      "strokeWidth": 3,
+      "locked": false
+    },
+    {
+      "id": "e5488",
+      "x1": 2975,
+      "y1": -3530,
+      "x2": 3935,
+      "y2": -2410,
+      "fillColor": null,
+      "fillStyle": "SOLID",
+      "strokeColor": "#000000",
+      "strokeWidth": 3,
+      "locked": false
+    },
+    {
+      "id": "e5489",
+      "x1": 3990,
+      "y1": -3525,
+      "x2": 4950,
+      "y2": -2405,
+      "fillColor": null,
+      "fillStyle": "SOLID",
+      "strokeColor": "#000000",
+      "strokeWidth": 3,
+      "locked": false
+    }
+  ],
+  "dnp_count": 31,
+  "dnp": [
+    {
+      "des": "RCC1S-PWR1",
+      "id": "e83",
+      "x": 265,
+      "y": -3995,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "RCC1B-PWR1",
+      "id": "e104",
+      "x": 345,
+      "y": -3995,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "RCC2S-PWR1",
+      "id": "e125",
+      "x": 425,
+      "y": -3995,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "RCC2B-PWR1",
+      "id": "e146",
+      "x": 505,
+      "y": -3995,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "CVDR1-NFC",
+      "id": "e356",
+      "x": 1675,
+      "y": -3505,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "CVDR2-NFC",
+      "id": "e377",
+      "x": 1770,
+      "y": -3505,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "C98-NFC",
+      "id": "e398",
+      "x": 1080,
+      "y": -3000,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "C99-NFC",
+      "id": "e419",
+      "x": 1230,
+      "y": -3000,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "C910-NFC",
+      "id": "e440",
+      "x": 1380,
+      "y": -3000,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "C911-NFC",
+      "id": "e461",
+      "x": 1530,
+      "y": -3000,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "C912-NFC",
+      "id": "e482",
+      "x": 1680,
+      "y": -3000,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "RILIM-LED",
+      "id": "e681",
+      "x": 1650,
+      "y": -4160,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "U6-RTC",
+      "id": "e3673",
+      "x": 2250,
+      "y": -3930,
+      "bom": "no",
+      "pcb": null
+    },
+    {
+      "des": "TP1-ESP",
+      "id": "e8779",
+      "x": 4290,
+      "y": -3820,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "TP2-ESP",
+      "id": "e8808",
+      "x": 4470,
+      "y": -3820,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "C52-AUD",
+      "id": "e12082",
+      "x": 100,
+      "y": -2855,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "TP3-AUD",
+      "id": "e12445",
+      "x": 785,
+      "y": -3035,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "R40-AUD",
+      "id": "e12698",
+      "x": 265,
+      "y": -2705,
+      "bom": "no",
+      "pcb": "no"
+    },
+    {
+      "des": "R41-AUD",
+      "id": "e12737",
+      "x": 460,
+      "y": -2705,
+      "bom": "no",
+      "pcb": "no"
+    },
+    {
+      "des": "TP4-AUD",
+      "id": "e12776",
+      "x": 640,
+      "y": -2705,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "TP5-AUD",
+      "id": "e12805",
+      "x": 795,
+      "y": -2705,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "R45-MOT",
+      "id": "e13953",
+      "x": 2560,
+      "y": -2812,
+      "bom": "no",
+      "pcb": "no"
+    },
+    {
+      "des": "R47-MOT",
+      "id": "e14031",
+      "x": 2080,
+      "y": -3098,
+      "bom": "no",
+      "pcb": "no"
+    },
+    {
+      "des": "R49-MOT",
+      "id": "e14109",
+      "x": 2560,
+      "y": -3098,
+      "bom": "no",
+      "pcb": "no"
+    },
+    {
+      "des": "R51-LED",
+      "id": "e14470",
+      "x": 3815,
+      "y": -2812,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "R52-LED",
+      "id": "e14509",
+      "x": 3095,
+      "y": -3098,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "R56-VAL",
+      "id": "e15106",
+      "x": 4590,
+      "y": -3100,
+      "bom": "no",
+      "pcb": "no"
+    },
+    {
+      "des": "R57-VAL",
+      "id": "e15145",
+      "x": 4830,
+      "y": -3100,
+      "bom": "no",
+      "pcb": "no"
+    },
+    {
+      "des": "TP6-VAL",
+      "id": "e15223",
+      "x": 4350,
+      "y": -3390,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "TP7-AUD",
+      "id": "e129898",
+      "x": 610,
+      "y": -2795,
+      "bom": "no",
+      "pcb": "yes"
+    },
+    {
+      "des": "TP8-AUD",
+      "id": "e129927",
+      "x": 790,
+      "y": -2795,
+      "bom": "no",
+      "pcb": "yes"
+    }
+  ],
+  "locked": [],
+  "long_n": 23,
+  "long_top20": [
+    {
+      "wid": "2c2bd0a350db1370",
+      "net": "GND",
+      "seg": [
+        170,
+        -480,
+        1910,
+        -480
+      ],
+      "len": 1740
+    },
+    {
+      "wid": "w154203",
+      "net": "USB_PRTPWR1",
+      "seg": [
+        180,
+        -500,
+        1720,
+        -500
+      ],
+      "len": 1540
+    },
+    {
+      "wid": "w154275",
+      "net": "USB_OCS1_N",
+      "seg": [
+        90,
+        -1500,
+        1285,
+        -1500
+      ],
+      "len": 1195
+    },
+    {
+      "wid": "w154280",
+      "net": "USB_OCS2_N",
+      "seg": [
+        80,
+        -1520,
+        1230,
+        -1520
+      ],
+      "len": 1150
+    },
+    {
+      "wid": "d582531ca3c2a6a2",
+      "net": "USB_PLLFILT",
+      "seg": [
+        470,
+        -560,
+        1350,
+        -560
+      ],
+      "len": 880
+    },
+    {
+      "wid": "w154221",
+      "net": "USB_EN2",
+      "seg": [
+        1935,
+        -760,
+        1110,
+        -760
+      ],
+      "len": 825
+    },
+    {
+      "wid": "w154280",
+      "net": "USB_OCS2_N",
+      "seg": [
+        80,
+        -1520,
+        80,
+        -740
+      ],
+      "len": 780
+    },
+    {
+      "wid": "w154280",
+      "net": "USB_OCS2_N",
+      "seg": [
+        1230,
+        -780,
+        1230,
+        -1520
+      ],
+      "len": 740
+    },
+    {
+      "wid": "w154275",
+      "net": "USB_OCS1_N",
+      "seg": [
+        90,
+        -1500,
+        90,
+        -780
+      ],
+      "len": 720
+    },
+    {
+      "wid": "w154275",
+      "net": "USB_OCS1_N",
+      "seg": [
+        1285,
+        -830,
+        1285,
+        -1500
+      ],
+      "len": 670
+    },
+    {
+      "wid": "w154221",
+      "net": "USB_EN2",
+      "seg": [
+        1530,
+        -700,
+        870,
+        -700
+      ],
+      "len": 660
+    },
+    {
+      "wid": "w154216",
+      "net": "USB_EN1",
+      "seg": [
+        1920,
+        -790,
+        1280,
+        -790
+      ],
+      "len": 640
+    },
+    {
+      "wid": "2c2bd0a350db1370",
+      "net": "GND",
+      "seg": [
+        1885,
+        -550,
+        1885,
+        -1140
+      ],
+      "len": 590
+    },
+    {
+      "wid": "2c2bd0a350db1370",
+      "net": "GND",
+      "seg": [
+        1910,
+        -1030,
+        1910,
+        -480
+      ],
+      "len": 550
+    },
+    {
+      "wid": "2c2bd0a350db1370",
+      "net": "GND",
+      "seg": [
+        1620,
+        -1140,
+        1620,
+        -600
+      ],
+      "len": 540
+    },
+    {
+      "wid": "2c2bd0a350db1370",
+      "net": "GND",
+      "seg": [
+        1360,
+        -600,
+        1360,
+        -1140
+      ],
+      "len": 540
+    },
+    {
+      "wid": "2c2bd0a350db1370",
+      "net": "GND",
+      "seg": [
+        1640,
+        -630,
+        1640,
+        -1140
+      ],
+      "len": 510
+    },
+    {
+      "wid": "w154234",
+      "net": "RT_USB_VBUS",
+      "seg": [
+        1780,
+        -1080,
+        1310,
+        -1080
+      ],
+      "len": 470
+    },
+    {
+      "wid": "d245ac7d53eccd74",
+      "net": "USB_XTALIN",
+      "seg": [
+        120,
+        -700,
+        590,
+        -700
+      ],
+      "len": 470
+    },
+    {
+      "wid": "w154127",
+      "net": "GND",
+      "seg": [
+        675,
+        -1140,
+        675,
+        -730
+      ],
+      "len": 410
+    }
+  ],
+  "box1_n": 32,
+  "box1_south": [
+    {
+      "des": "C1-PWR1",
+      "id": "e72",
+      "x": 115,
+      "y": -4420,
+      "rot": 0
+    },
+    {
+      "des": "C2-PWR1",
+      "id": "e108",
+      "x": 215,
+      "y": -4420,
+      "rot": 0
+    },
+    {
+      "des": "R1-PWR1",
+      "id": "e426",
+      "x": 365,
+      "y": -4420,
+      "rot": 0
+    },
+    {
+      "des": "C3-PWR1",
+      "id": "e562",
+      "x": 60,
+      "y": -4345,
+      "rot": 0
+    },
+    {
+      "des": "C4-PWR1",
+      "id": "e598",
+      "x": 225,
+      "y": -4345,
+      "rot": 0
+    },
+    {
+      "des": "R3-PWR1",
+      "id": "e778",
+      "x": 225,
+      "y": -4560,
+      "rot": 0
+    },
+    {
+      "des": "R4-PWR1",
+      "id": "e817",
+      "x": 375,
+      "y": -4560,
+      "rot": 0
+    },
+    {
+      "des": "RSH1-PWR1",
+      "id": "e856",
+      "x": 525,
+      "y": -4560,
+      "rot": 0
+    },
+    {
+      "des": "U2-PWR1",
+      "id": "e894",
+      "x": 705,
+      "y": -4500,
+      "rot": 0
+    },
+    {
+      "des": "D3-USB",
+      "id": "e154056",
+      "x": 80,
+      "y": -4300,
+      "rot": 0
+    }
+  ]
+}

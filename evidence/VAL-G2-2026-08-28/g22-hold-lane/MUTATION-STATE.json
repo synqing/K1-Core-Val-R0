@@ -1,12 +1,12 @@
 {
   "active_transaction": null,
   "blocked_transaction_id": null,
-  "blocking_reason": null,
-  "current_source_hash": "3359274:74d46eb8",
+  "blocking_reason": "D-052 programme archive 2026-08-30. G2.2/HOLD/canonical schematic repair terminated. Not a D-040 ownership incident. Do not mutate. Do not fabricate. GREENFIELD is the only future write target.",
+  "current_source_hash": null,
   "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
-  "last_closed_transaction_id": "g22-hold-recover-post-ilm-2026-08-30",
+  "last_closed_transaction_id": "g22-usb-t2-restamp-2026-08-30",
   "project_uuid": "55ed9ee948734a0e903f37744b51f3b8",
   "schema_version": 1,
-  "state": "READY",
-  "updated_at": "2026-08-30T13:07:16.064529+00:00"
+  "state": "FROZEN_INCIDENT",
+  "updated_at": "2026-08-30T14:49:03.154282+00:00"
 }

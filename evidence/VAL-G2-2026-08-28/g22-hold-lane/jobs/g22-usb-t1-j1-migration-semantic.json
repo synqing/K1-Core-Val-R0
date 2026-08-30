@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "transaction_id": "g22-usb-t1-j1-migration",
+  "project_uuid": "55ed9ee948734a0e903f37744b51f3b8",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "3359274:7e69c656",
+  "post_source_hash": "3378125:03e680f8",
+  "saved": true,
+  "affected": [
+    {"designator": "J1-PWR1", "pins": ["A1", "A4", "A5", "A6", "A7", "A9", "A12", "B1", "B4", "B5", "B6", "B7", "B9", "B12", "S1", "S2", "S3", "S4"], "post_nets": {"A1": "GND", "A4": "5V_USB", "A5": "USB_CC1", "A6": "USB_DP_J1", "A7": "USB_DN_J1", "A9": "5V_USB", "A12": "GND", "B1": "GND", "B4": "5V_USB", "B5": "USB_CC2", "B6": "USB_DP_J1", "B7": "USB_DN_J1", "B9": "5V_USB", "B12": "GND", "S1": "GND", "S2": "GND", "S3": "GND", "S4": "GND"}},
+    {"designator": "U1-PWR1", "pin": "9", "post_nets": ["USB_EFUSE_ILIM"], "note": "untouched"}
+  ],
+  "census": {
+    "components": 324,
+    "designated": 287,
+    "wires": 804,
+    "lines": 1055,
+    "texts": 38,
+    "rects": 10,
+    "attrs": 8410
+  },
+  "usb": {
+    "j1_functional_wired": 18,
+    "j1_errors": 0,
+    "checker_ok": false,
+    "remaining_non_j1_errors": 12
+  },
+  "ilm": {
+    "u1_pin9": ["USB_EFUSE_ILIM"],
+    "r1_ohms": 1240
+  },
+  "observed": "GT-USB-7005A J1-PWR1 functional pins now land on 5V_USB, GND, USB_DP_J1, USB_DN_J1, USB_CC1, USB_CC2. SuperSpeed and SBU stay OPEN/NC. USB checker j1_wired 0→18. Remaining FAIL is T2–T6. ILM PASS. U20 present. Designated 287. Canonical not written."
+}
