@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "transaction_id": "g22-hold-recover-post-ilm-2026-08-30",
+  "project_uuid": "55ed9ee948734a0e903f37744b51f3b8",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Replace the saved 245-designator HOLD page with the exact post-ILM source 3165690:5aad2e78. Restore U20-U25, Y3, J12 and USB_EFUSE_ILIM. Do not merge 245-state records.",
+  "observed_delta": "At 140% on the former empty hub origin, U20-USB USB2422, Y3-USB, R77-USB 12k, C100-USB and U21-USB are present again with DN1/DN2/UP nets. At 230% on U1-PWR1 pin 9, ILIM is labelled USB_EFUSE_ILIM, not USB_DP_UP. J1 is back at the trusted power-entry column. HOLD chrome, not canonical.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/g22-hold-lane/screenshots/g22-hold-recover-post-hub.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "HOLD 55ed9ee9 remains focused",
+      "result": "OK",
+      "detail": "Screenshot and get_current_context remain K1-Core-Val-R0-G2.2-READABLE-HOLD 55ed9ee9."
+    },
+    {
+      "name": "U20-USB through U25-USB and Y3-USB present",
+      "result": "OK",
+      "detail": "Hub screenshot shows U20-USB, Y3-USB, R77 bank, C100 and U21. Dump has all U20-U25, Y3, J12, R77-R91, R94/R95, C100-C110, C120-C125."
+    },
+    {
+      "name": "U1-PWR1.9 is USB_EFUSE_ILIM not USB_DP_UP",
+      "result": "OK",
+      "detail": "230% ILM shot: pin 9 labelled USB_EFUSE_ILIM. Checker PASS. USB_DP_UP is the nearby D+ stub, not pin 9."
+    },
+    {
+      "name": "J1-PWR1 at approximately 150,-4120",
+      "result": "OK",
+      "detail": "Dump J1 at (150,-4120). Power-entry screenshot shows the GT-USB / retired USB4105 column at the trusted south position."
+    },
+    {
+      "name": "canonical 64325d0e not mutated",
+      "result": "OK",
+      "detail": "Restore script refused LIVE uuid. Context parent is HOLD. No canonical write."
+    }
+  ]
+}

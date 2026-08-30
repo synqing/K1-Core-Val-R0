@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "transaction_id": "g22-hold-recover-post-ilm-2026-08-30-reconcile",
+  "project_uuid": "55ed9ee948734a0e903f37744b51f3b8",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "intended_delta": "Reconcile the G2.2 HOLD mutation lane onto the saved 245-designator cloud regression before the authorised post-ILM restore. Confirm HOLD chrome, missing hub island, ILM visually on USB_DP_UP, canonical not focused.",
+  "observed_delta": "HOLD chrome K1-Core-Val-R0-G2.2-READABLE-HOLD. At 180% on U1-PWR1, pin 9 ILIM is labelled USB_DP_UP. Left of the power-entry column is empty. Zoom at former hub origin (400,800) is an empty grid. No USB2422 island. Saved tab, not unsaved.",
+  "screenshot_path": "evidence/VAL-G2-2026-08-28/g22-hold-lane/screenshots/g22-hold-recover-pre-pwr1.png",
+  "captured_after_settle": true,
+  "scale": "block",
+  "unexpected_changes": [],
+  "verdict": "ACCEPTED",
+  "checks": [
+    {
+      "name": "HOLD 55ed9ee9 chrome is focused, not canonical 64325d0e",
+      "result": "OK",
+      "detail": "get_current_context parent is K1-Core-Val-R0-G2.2-READABLE-HOLD. Screenshot tab is P1 Schematic1."
+    },
+    {
+      "name": "U1-PWR1 pin 9 is not USB_EFUSE_ILIM",
+      "result": "OK",
+      "detail": "ILIM pin shows USB_DP_UP. ILM checker FAIL on the live dump."
+    },
+    {
+      "name": "USB2422 hub island is absent",
+      "result": "OK",
+      "detail": "Zoom at the post-ILM hub origin is empty grid. Dump has no U20-USB through U25-USB or Y3-USB."
+    },
+    {
+      "name": "Saved cloud state, 245 designated",
+      "result": "OK",
+      "detail": "isUnSaved false. Characters 2588333. Designated 245. Non-DOCHEAD digest matches the 2026-08-30 20:38 incident dump."
+    }
+  ]
+}

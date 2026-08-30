@@ -1,0 +1,43 @@
+{
+  "payload_path": "/Users/spectrasynq/Workspace_Management/Software/K1-CORE-VAL-R0/evidence/VAL-G2-2026-08-28/g22-hold-lane/anchors/post-ilm-saved-source.json",
+  "project_uuid": "55ed9ee948734a0e903f37744b51f3b8",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash": "3165690:5aad2e78",
+  "meta_source_hash": "3165690:5aad2e78",
+  "normalized_sha256": "ccf3ec9546330a204b56773a71eba14ca534d6f35944a0ff81652ac965064423",
+  "designated": 287,
+  "j1_xy": [
+    150,
+    -4120
+  ],
+  "present": {
+    "U20-USB": true,
+    "U21-USB": true,
+    "U22-USB": true,
+    "U23-USB": true,
+    "U24-USB": true,
+    "U25-USB": true,
+    "Y3-USB": true,
+    "J12-USB": true,
+    "U1-PWR1": true,
+    "J1-PWR1": true
+  },
+  "ilm_ok": true,
+  "ilm_errors": [],
+  "u1_9": [
+    "USB_EFUSE_ILIM"
+  ],
+  "usb_ok": false,
+  "usb_error_count": 31,
+  "usb_errors_head": [
+    "J1.A1 GND present=OPEN expected=GND",
+    "J1.A4 VBUS present=OPEN expected=5V_USB",
+    "J1.A5 CC1 present=OPEN expected=USB_CC1",
+    "J1.A6 D+ present=OPEN expected one of ['USB_DP_J1', 'USB_DP_PROT', 'USB_DP_UP']",
+    "J1.A7 D\u2212 present=OPEN expected one of ['USB_DM_UP', 'USB_DN_J1', 'USB_DN_PROT']",
+    "J1.A9 VBUS present=OPEN expected=5V_USB",
+    "J1.A12 GND present=OPEN expected=GND",
+    "J1.B1 GND present=OPEN expected=GND"
+  ],
+  "u20_proof": 13
+}

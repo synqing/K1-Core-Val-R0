@@ -1,6 +1,6 @@
 # STATUS
 
-Updated: 2026-08-30 (G2.2 USB pre-audit + checker landed; EasyEDA T1 stopped on live-identity collision; canonical untouched; `JLC-SCH-READY` still OPEN)
+Updated: 2026-08-30 (G2.2 HOLD restored from post-ILM snapshot after saved 245-designator regression; USB T1–T6 not yet closed; canonical untouched; `JLC-SCH-READY` still OPEN)
 
 | Lane | State |
 | --- | --- |
@@ -129,16 +129,13 @@ This ILM blocker is cleared on the **post-ILM HOLD dump** (`3165690:5aad2e78`).
 **`JLC-SCH-READY` remains OPEN** — hub wiring, J1 0/28, AUX, ERC Phase K and the
 other existing gates are independent.
 
-### G2.2 USB2422 + J1 — 2026-08-30 (PARTIAL)
+### G2.2 USB2422 + J1 — 2026-08-30 (RECOVERED, USB STILL OPEN)
 
-Pre-audit of the post-ILM HOLD dump is in
-`evidence/VAL-G2-2026-08-28/G2.2-USB-HUB-J1-PRE-AUDIT.md`.
-`harness/check_g22_usb_hub.py` is on the G2.2 oracle path and fails closed on that
-dump (J1 0/28, unwired support, R94 same-net, PRTPWR2 on GND).
-
-EasyEDA T1 did **not** run. Live HOLD `getDocumentSource` is a different, smaller
-sheet (`2588333:16acf63b`) with no `U20-USB` and with ILM undone. Do not save that
-buffer. See `evidence/VAL-G2-2026-08-28/g22-hold-lane/G2.2-USB-LIVE-IDENTITY-COLLISION.md`.
+The saved HOLD cloud briefly became the 245-designator regression
+(`2588333:45fd23b6`, U20 absent, ILM OPEN). Captain recovery GO restored the
+verified post-ILM page. Live HOLD is now `3359274:74d46eb8`, 287 designated,
+U20 present, ILM PASS. USB checker still FAIL on the audited T1–T6 gaps.
+Receipt: `evidence/VAL-G2-2026-08-28/g22-hold-lane/G2.2-HOLD-POST-ILM-RECOVERY-RECEIPT.md`.
 
 `USB_HUB_PHASE_K` is **OPEN**. `JLC-SCH-READY` is **OPEN**.
 

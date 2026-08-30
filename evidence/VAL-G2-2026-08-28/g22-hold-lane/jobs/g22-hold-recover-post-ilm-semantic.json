@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "transaction_id": "g22-hold-recover-post-ilm-2026-08-30",
+  "project_uuid": "55ed9ee948734a0e903f37744b51f3b8",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "pre_source_hash": "2588333:60753d61",
+  "post_source_hash": "3359274:74d46eb8",
+  "saved": true,
+  "recovery_primitive": "sys_FileManager.setDocumentSource",
+  "requested_hash": "3165690:5aad2e78",
+  "affected": [
+    {
+      "operation": "full-page-restore",
+      "payload": "evidence/VAL-G2-2026-08-28/g22-hold-lane/anchors/post-ilm-saved-source.json",
+      "designated_pre": 245,
+      "designated_post": 287,
+      "restored": ["U20-USB", "U21-USB", "U22-USB", "U23-USB", "U24-USB", "U25-USB", "Y3-USB", "J12-USB"]
+    },
+    {
+      "designator": "U1-PWR1",
+      "pin": "9",
+      "pre_nets": [],
+      "post_nets": ["USB_EFUSE_ILIM"]
+    },
+    {
+      "designator": "J1-PWR1",
+      "pre_xy": [155, -4020],
+      "post_xy": [150, -4120]
+    }
+  ],
+  "census": {
+    "components": 324,
+    "designated": 287,
+    "wires": 801,
+    "lines": 1019,
+    "texts": 38,
+    "rects": 10,
+    "attrs": 8379,
+    "attrs_trusted": 7699,
+    "attr_delta_note": "EasyEDA save added 3D Model/Relevance/Footprint ATTR on restored parts; not a net or geometry change"
+  },
+  "ilm": {
+    "u1_pin9": ["USB_EFUSE_ILIM"],
+    "usb_dp_up_has_u1_pin9": false
+  },
+  "observed": "HOLD 55ed9ee9. setDocumentSource restored post-ILM page. U20-U25, Y3, J12 present. U1.9 USB_EFUSE_ILIM. J1 at (150,-4120). Canonical not written. USB checker still FAIL on the audited T1-T6 gaps only."
+}

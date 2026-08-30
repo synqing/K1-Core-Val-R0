@@ -1,0 +1,38 @@
+{
+  "trusted_hash": "3165690:5aad2e78",
+  "live_hash": "3359274:74d46eb8",
+  "trusted_normalized": "ccf3ec9546330a204b56773a71eba14ca534d6f35944a0ff81652ac965064423",
+  "live_normalized": "d4b80c327046f55666198d1d7c12d2945a08c6c9f9002af77c87f98048ab6dbe",
+  "normalized_equal": false,
+  "designated_trusted": 287,
+  "designated_live": 287,
+  "type_counts": {
+    "trusted": {
+      "COMPONENT": 324,
+      "WIRE": 801,
+      "TEXT": 38,
+      "RECT": 10,
+      "LINE": 1019
+    },
+    "live": {
+      "COMPONENT": 324,
+      "WIRE": 801,
+      "TEXT": 38,
+      "RECT": 10,
+      "LINE": 1019
+    }
+  },
+  "lost": [],
+  "added": [],
+  "moved_count": 0,
+  "moved_head": [],
+  "identity_count": 0,
+  "identity_head": [],
+  "nets_lost": [],
+  "nets_added": [],
+  "wire_ids_lost": 0,
+  "wire_ids_added": 0,
+  "dnp_delta_head": [],
+  "forbidden": [],
+  "ok": true
+}

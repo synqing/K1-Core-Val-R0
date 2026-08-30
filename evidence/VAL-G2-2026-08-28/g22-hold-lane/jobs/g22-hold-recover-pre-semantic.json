@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "transaction_id": "g22-hold-recover-post-ilm-2026-08-30-reconcile",
+  "project_uuid": "55ed9ee948734a0e903f37744b51f3b8",
+  "document_uuid": "1435cb46f39e48c8a8aadbb84ca81603",
+  "source_hash": "2588333:60753d61",
+  "saved": true,
+  "census": {
+    "components": 251,
+    "designated": 245,
+    "wires": 727,
+    "texts": 38,
+    "rects": 10,
+    "pcb_components": 0
+  },
+  "observed": "Live HOLD 55ed9ee9 P1 is the saved 245-designator cloud regression. Source hash 2588333:60753d61, non-DOCHEAD SHA-256 9a3187266066a617ac48c826389dbb7104b3423721e4d02d0f1f891d7786f9e3. U20-USB absent. U1-PWR1.9 OPEN / visually USB_DP_UP. J1 at (155,-4020). Canonical 64325d0e not focused. No restore write this step."
+}
